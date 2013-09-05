@@ -1,0 +1,107 @@
+{
+  "hello_world": {
+    "message": "OH HI WORLD",
+    "description": "just a test string"
+  },
+  "site_title": {
+    "message": "Psiphon: free your net",
+    "description": "the title for the site"
+  },
+  "section__about": {
+    "message": "About Us",
+    "description": "header for the 'About' section"
+  },
+  "about__content_stub": {
+    "message": "Stub about content in English"
+  },
+  "section__faq": {
+    "message": "FAQ",
+    "description": "header for the 'FAQ' section"
+  },
+  "index__content_stub": {
+    "message": "Stub Index content in English"
+  },
+  "index__title": {
+    "message": "Welcome to your new Internet",
+    "description": "Page title for the index page"
+  },
+  "faq-authentic-image-alt": {
+    "message": "Image showing how to check the Psiphon executable signature on Windows",
+    "description": "alt text for an image"
+  },
+  "faq-authentic-question": {
+    "message": "Is my Psiphon 3 for Windows authentic?"
+  },
+  "faq-authentic-answer-para-1": {
+    "message": "Psiphon 3 for Windows is never distributed as an installable package. Each Psiphon 3 for Windows client is a single executable file (\".exe\") that is digitally signed by Psiphon Inc. Windows automatically checks this signature when you run the client. You can also manually inspect the signature before running the client by invoking the Properties dialog for the file and inspecting the Digital Signatures tab."
+  },
+  "faq-authentic-answer-para-2": {
+    "message": "The SHA1 thumbprint for the Psiphon Inc. certificate public key is displayed in the Certificate dialog Details tab. For the certificate valid for the period June 16, 2011 to June 21, 2012 the SHA1 thumbprint is:"
+  },
+  "faq-authentic-answer-para-3": {
+    "message": "The certificate valid for the for the period May 21, 2011 to July 30, 2014 the SHA1 thumbprint is:"
+  },
+  "faq-authentic-answer-para-4": {
+    "message": "Psiphon 3 for Windows auto-updates itself, and this process automatically verifies that each update is authentic."
+  },
+  "faq-run-windows-question": {
+    "message": "How do I run Psiphon 3 for Windows?"
+  },
+  "faq-run-windows-answer-para-1": {
+    "message": "Download the client program and run it. When you run it, you should see a security prompt showing that this program is a legitimate product of Psiphon Inc."
+  },
+  "faq-run-windows-answer-para-2": {
+    "message": "Psiphon 3 automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPSec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting)."
+  },
+  "faq-run-windows-answer-para-3": {
+    "message": "Connection to the Psiphon server is established when the green icon is displayed. In VPN mode, all of your traffic automatically tunnels through Psiphon 3."
+  },
+  "faq-run-windows-answer-para-4": {
+    "message": "In SSH and SSH+ modes, Psiphon 3 automatically sets the Windows system proxy settings and traffic for applications that respect these settings tunnel through Psiphon 3. These settings are respected by default by all major web browsers."
+  },
+  "faq-run-windows-answer-para-5": {
+    "message": "Furthermore, in SSH and SSH+ modes, Psiphon 3 offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy...” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area."
+  },
+  "faq-run-windows-answer-para-6": {
+    "message": "When you close the program, Psiphon 3 automatically disconnects. You can also click on the icon to toggle the connection."
+  },
+  "faq-run-windows-1-image-alt": {
+    "message": "Image showing the Windows security warning for the Psiphon executable",
+    "description": "alt text for an image"
+  },
+  "faq-run-windows-2-image-alt": {
+    "message": "Image showing Psiphon starting up on Windows",
+    "description": "alt text for an image"
+  },
+  "faq-run-windows-3-image-alt": {
+    "message": "Image showing Psiphon connected on Windows",
+    "description": "alt text for an image"
+  },
+  "faq-run-android-question": {
+    "message": "How do I run Psiphon 3 for Android?"
+  },
+  "faq-run-android-answer-para-1": {
+    "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation."
+  },
+  "faq-run-android-answer-para-2": {
+    "message": "To install a Psiphon APK, you must enable the option in your Android device to install non-Play Store apps. Psiphon 3 for Android will automatically update itself."
+  },
+  "faq-run-android-answer-para-3": {
+    "message": "When you launch the Psiphon 3 app, it will automatically start connecting to the Psiphon network."
+  },
+  "faq-run-android-answer-para-4": {
+    "message": "Once the app has connected to the network, it will launch the built-in Psiphon browser. Psiphon 3 for Android does not automatically tunnel the traffic for the default Android browser or other apps. By default, only the Psiphon browser is tunneled through the Psiphon 3 network."
+  },
+  "faq-run-android-1-image-alt": {
+    "message": "Image showing the Android setting for allowing non-Play Store apps",
+    "description": "alt text for an image"
+  },
+  "faq-run-android-2-image-alt": {
+    "message": "Image showing Psiphon running on Android",
+    "description": "alt text for an image"
+  },
+  "faq-run-android-3-image-alt": {
+    "message": "Image showing the different parts of the Psiphon Android web browser",
+    "description": "alt text for an image"
+  }
+}

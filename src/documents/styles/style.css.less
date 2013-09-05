@@ -1,0 +1,18 @@
+@import "../../files/vendor/twitter-bootstrap/less/mixins";
+@import "../../files/vendor/twitter-bootstrap/less/variables";
+
+body {
+  padding-top: (@navbar-height + 10);
+}
+
+.navbar-header img {
+  height: (@navbar-height - (@navbar-padding-vertical * 2));
+}
+
+.faq-question {
+  .make-md-column(3);
+}
+
+.faq-answer {
+  .make-md-column(9);
+}

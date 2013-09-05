@@ -1,0 +1,10 @@
+---
+layout: page
+---
+
+<%= @tt 'index__content_stub' %>
+
+<br>Title: <%= @document.title %>
+
+<br>Site Title: <%= @tt 'site_title' %>
+

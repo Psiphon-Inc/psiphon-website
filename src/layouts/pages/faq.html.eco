@@ -1,0 +1,96 @@
+---
+layout: page
+---
+
+<div class="row faq-qa">
+  <div class="faq-question">
+    <h4><%= @tt 'faq-authentic-question' %></h4>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-authentic-answer-para-1' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="/images/faq-authentic.png" alt="<%= @tt 'faq-authentic-image-alt' %>">
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-answer-para-2' %>
+    </p>
+    <p>
+      <code>8f:b7:ef:bd:20:a9:20:3a:38:37:08:a2:1e:0a:1d:2e:ad:7b:ee:6d</code>
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-answer-para-3' %>
+    </p>
+    <p>
+      <code>84:c5:13:5b:13:d1:53:96:7e:88:c9:13:86:0e:83:ee:ef:48:8e:91</code>
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-answer-para-4' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <div class="faq-question">
+    <h4><%= @tt 'faq-run-windows-question' %></h4>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-run-windows-answer-para-1' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="/images/faq-run-windows-1.png" alt="<%= @tt 'faq-run-windows-1-image-alt' %>">
+    </p>
+    <p>
+      <%= @tt 'faq-run-windows-answer-para-2' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="/images/faq-run-windows-2.png" alt="<%= @tt 'faq-run-windows-2-image-alt' %>">
+    </p>
+    <p>
+      <%= @tt 'faq-run-windows-answer-para-3' %>
+    </p>
+    <p>
+      <%= @tt 'faq-run-windows-answer-para-4' %>
+    </p>
+    <p>
+      <%= @tt 'faq-run-windows-answer-para-5' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="/images/faq-run-windows-3.png" alt="<%= @tt 'faq-run-windows-3-image-alt' %>">
+    </p>
+    <p>
+      <%= @tt 'faq-run-windows-answer-para-6' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <div class="faq-question">
+    <h4><%= @tt 'faq-run-android-question' %></h4>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-run-android-answer-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'faq-run-android-answer-para-2' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="/images/faq-run-android-1.png" alt="<%= @tt 'faq-run-android-1-image-alt' %>">
+    </p>
+    <p>
+      <%= @tt 'faq-run-android-answer-para-3' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="/images/faq-run-android-2.png" alt="<%= @tt 'faq-run-android-2-image-alt' %>">
+    </p>
+    <p>
+      <%= @tt 'faq-run-android-answer-para-4' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="<%- @ttURL '/images/faq-run-android-3.png' %>" alt="<%= @tt 'faq-run-android-3-image-alt' %>">
+    </p>
+  </div>
+</div>

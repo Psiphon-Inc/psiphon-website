@@ -1,0 +1,8 @@
+---
+layout: page
+---
+
+<%= @tt 'about__content_stub' %>
+
+<br>Title: <%= @document.title %>
+

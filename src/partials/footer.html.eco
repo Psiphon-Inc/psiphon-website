@@ -1,0 +1,9 @@
+<!-- FOOTER -->
+<footer>
+  <div class="row pull-right">
+    <div class="col-md-12">
+      <p>&copy; <%= @site.companyName %> <%- (new Date()).getFullYear() %></p>
+    </div>
+  </div>
+</footer>
+<!-- /FOOTER -->
