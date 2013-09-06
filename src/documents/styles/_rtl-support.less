@@ -1,0 +1,40 @@
+@import "../../files/vendor/twitter-bootstrap/less/mixins";
+@import "../../files/vendor/twitter-bootstrap/less/variables";
+
+/* The .make-rtl-md-col mixin helps us to specify div widths that will
+ * automatically reorient themselves in a right-to-left layout.
+ * Note that targets to the left of center get pushed, targets to the right
+ * get pulled, and targets dead center don't get moved at all.
+ * @cols-to-the-left: the number of columns to the left of the target section
+ * @columns: the number of columns in the target section
+ * @cols-to-the-right: the number of columns to the right of the target section
+ */
+.make-rtl-md-col(@cols-to-the-left; @columns; @cols-to-the-right) {
+  .make-md-column(@columns);
+}
+
+.make-rtl-md-col(@cols-to-the-left; @columns; @cols-to-the-right) when (@cols-to-the-left < @cols-to-the-right) {
+  body[dir="rtl"] & {
+    .make-md-column-push(@cols-to-the-right - @cols-to-the-left);
+  }
+}
+
+.make-rtl-md-col(@cols-to-the-left; @columns; @cols-to-the-right) when (@cols-to-the-left > @cols-to-the-right) {
+  body[dir="rtl"] & {
+    .make-md-column-pull(@cols-to-the-left - @cols-to-the-right);
+  }
+}
+
+/*
+ * These are a slew of helper classes that can be used directly in HTML rather
+ * that relying on special classes that directly use the mixins.
+ * There are potentially tons of these things, so we'll create them as needed.
+ */
+
+.col-md-6-left {
+  .make-rtl-md-col(0, 6, 6);
+}
+
+.col-md-6-right {
+  .make-rtl-md-col(6, 6, 0);
+}

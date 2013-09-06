@@ -44,13 +44,13 @@
 
   <%-@partial('nav.html', @)%>
 
-  <!-- Content -->
   <div class="container">
 
-    <!-- Content -->
+    <!-- CONTENT -->
     <section id="content" class="content">
       <%- @content %>
     </section>
+    <!-- /CONTENT -->
 
   	<%-@partial('footer.html', @)%>
 

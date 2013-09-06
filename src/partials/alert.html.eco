@@ -1,0 +1,14 @@
+<!-- ALERT -->
+
+<div class="row">
+  <div class="alert col-md-offset-3 panel panel-warning">
+    <div class="panel-heading">
+      <%= @tt 'alert-heading' %>
+    </div>
+    <div class="panel-body">
+      <%- @tt 'alert-body' %>
+    </div>
+  </div>
+</div>
+
+<!-- /ALERT -->

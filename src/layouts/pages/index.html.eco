@@ -1,10 +1,40 @@
 ---
-layout: page
+layout: default
 ---
 
-<%= @tt 'index__content_stub' %>
+<div class="row">
+  <div class="col-md-12 jumbotron">
+    <div class="text-center">
+      <img src="/images/psiphon-wordart.jpg">
+    </div>
+    <h1><%= @getTitle() %></h1>
+    <p><a class="btn btn-primary btn-lg"><%= @tt 'download-now-button' %></a></p>
+  </div>
+</div>
 
-<br>Title: <%= @document.title %>
+<%-@partial('alert.html', @)%>
 
-<br>Site Title: <%= @tt 'site_title' %>
-
+<div class="row">
+  <div class="col-md-6-left">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2><%= @tt 'what-is-psiphon-heading' %></h2>
+      </div>
+      <div class="panel-body">
+        <p><%= @tt 'what-is-psiphon-body-para-1' %></p>
+        <p><%= @tt 'what-is-psiphon-body-para-2' %></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6-right">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2><%= @tt 'how-do-i-get-psiphon-heading' %></h2>
+      </div>
+      <div class="panel-body">
+        <p><%- @tt 'how-do-i-get-psiphon-body-para-1' %></p>
+        <p><%= @tt 'how-do-i-get-psiphon-body-para-2' %></p>
+      </div>
+    </div>
+  </div>
+</div>

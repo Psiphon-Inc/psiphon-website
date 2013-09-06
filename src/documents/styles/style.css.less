@@ -1,5 +1,6 @@
 @import "../../files/vendor/twitter-bootstrap/less/mixins";
 @import "../../files/vendor/twitter-bootstrap/less/variables";
+@import "_rtl-support";
 
 body {
   padding-top: (@navbar-height + 10);
@@ -9,35 +10,14 @@ body {
   height: (@navbar-height - (@navbar-padding-vertical * 2));
 }
 
-
-/* The .make-rtl-md-col mixin helps us to specify div widths that will
- * automatically reorient themselves in a right-to-left layout.
- * Note that targets to the left of center get pushed, targets to the right
- * get pulled, and targets dead center don't get moved at all.
- * @cols-to-the-left: the number of columns to the left of the target section
- * @columns: the number of columns in the target section
- * @cols-to-the-right: the number of columns to the right of the target section
- */
-.make-rtl-md-col(@cols-to-the-left; @columns; @cols-to-the-right) {
-  .make-md-column(@columns);
-}
-
-.make-rtl-md-col(@cols-to-the-left; @columns; @cols-to-the-right) when (@cols-to-the-left < @cols-to-the-right) {
-  body[dir="rtl"] & {
-    .make-md-column-push(@cols-to-the-right - @cols-to-the-left);
-  }
-}
-
-.make-rtl-md-col(@cols-to-the-left; @columns; @cols-to-the-right) when (@cols-to-the-left > @cols-to-the-right) {
-  body[dir="rtl"] & {
-    .make-md-column-pull(@cols-to-the-left - @cols-to-the-right);
-  }
-}
-
 .faq-question {
   .make-rtl-md-col(0, 3, 9);
 }
 
 .faq-answer {
   .make-rtl-md-col(3, 9, 0);
+}
+
+.alert {
+  .make-rtl-md-col(3, 6, 3);
 }
