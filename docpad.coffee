@@ -55,8 +55,6 @@ docpadConfig = {
     # Enabled languages
     languages: ["en", "fa"]
 
-    rtl_languages: ['ar', 'fa', 'he']
-
     # Active sections on the website
     # to deactivate comment out with '#'
     # you can also change order here and it will reflect on page
@@ -142,6 +140,18 @@ docpadConfig = {
       return fallback_url
 
       # We didn't find a translated file, so look for a fallback file
+
+    rtl_languages: ['ar', 'fa', 'he']
+
+    # `document` arugment is optional -- if not supplied, @document will be used
+    isRTL: (document=null) ->
+      if not document
+        document = @document
+      document.language in @rtl_languages
+
+    # `document` arugment is optional -- if not supplied, @document will be used
+    ifRTL: (rtlValue, ltrValue='', document=null) ->
+      if @isRTL(document) then rtlValue else ltrValue
 
     languageLabel: (languageCode) ->
       map =

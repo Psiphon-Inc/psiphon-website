@@ -1,29 +1,30 @@
 <!-- NAVIGATION -->
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <div class="navbar-header <%- @ifRTL 'navbar-right' %>">
+      <button type="button" class="navbar-toggle <%- @ifRTL 'pull-left' %>" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
 
-      <a class="navbar-brand" href="/"><img src="/images/psiphon-logo.png" alt="Psiphon"></a><a class="navbar-brand" href="/">Psiphon</a>
+      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="/"><img src="/images/psiphon-logo.png" alt="Psiphon"></a>
+      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="/">Psiphon</a>
     </div>
 
     <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav <%- @ifRTL 'navbar-right' %>">
         <% for section in @sections: %>
-          <li about="/<%= @document.language %>/<%= section %>/">
+          <li about="/<%= @document.language %>/<%= section %>/" class="<%- @ifRTL 'navbar-right' %>">
             <a href="/<%= @document.language %>/<%= section %>/" title="<%= @tt 'section__'+section %>" class="nav-link <%= section %>-nav"><%= @tt 'section__'+section %></a>
           </li>
         <% end %>
       </ul>
 
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav <%- @ifRTL 'navbar-left', 'navbar-right' %>">
         <li class="languages dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#"><%= @languageLabel @document.language %> <span class="arrow">&#9660;</span></a>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+          <ul class="dropdown-menu" role="menu">
             <% for language in @languages : %>
             <li><a href="/<%= language %>"> <%= @languageLabel language %> </a></li>
             <% end %>
