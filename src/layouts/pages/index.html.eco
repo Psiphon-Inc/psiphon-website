@@ -5,7 +5,7 @@ layout: default
 <div class="row">
   <div class="col-md-12 jumbotron">
     <div class="text-center">
-      <img src="/images/psiphon-wordart.jpg">
+      <img class="img-responsive" src="/images/psiphon-wordart.jpg">
     </div>
     <h1><%= @getTitle() %></h1>
     <p><a class="btn btn-primary btn-lg"><%= @tt 'download-now-button' %></a></p>
