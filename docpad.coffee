@@ -53,28 +53,38 @@ docpadConfig = {
 
 
     # Enabled languages
-    languages: ["en", "fa"]
+    languages: ['en', 'fa']
 
     # Active sections on the website
     # to deactivate comment out with '#'
     # you can also change order here and it will reflect on page
     sections: [
-      'faq'
-      'about'
+      { name: 'faq', title_key: 'faq-title', nav_title_key: 'faq-nav-title' }
+      { name: 'resources', title_key: 'resources-title', nav_title_key: 'resources-nav-title' }
+      { name: 'about', title_key: 'about-title', nav_title_key: 'about-nav-title' }
     ]
 
     # -----------------------------
     # Helper Functions
+
+    getSectionInfo: (name) ->
+      (section for section in @sections when section.name == name)[0]
 
     # The title might need to be translated from a string key.
     # `document` arugment is optional -- if not supplied, @document will be used
     getTitle: (document) ->
       if not document
         document = @document
+
       if document.title?
         return document.title
-      else if document.title_key?
-        return @tt document.title_key
+
+      title_key = document.title_key
+      if not title_key?
+        title_key = @getSectionInfo(document.basename).title_key
+
+      if title_key?
+        return @tt title_key
 
       throw "#{document.name} has no title"
       return ''
@@ -86,10 +96,10 @@ docpadConfig = {
       # if we have a document title, then we should use that and suffix the site's title onto it
       title = @getTitle()
       if title
-        "#{title} | #{@tt 'site_title'}"
+        "#{title} | #{@tt 'site-title'}"
       # if our document does not have it's own title, then we should just use the site's title
       else
-        @tt 'site_title'
+        @tt 'site-title'
 
     # Get the prepared site/document description
     getPreparedDescription: ->
@@ -213,7 +223,6 @@ docpadConfig = {
           url: './_locales/en/messages.json'
         fa:
           url: './_locales/fa/messages.json'
-
 
   # =================================
   # DocPad Events

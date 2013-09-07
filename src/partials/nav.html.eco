@@ -15,8 +15,8 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav <%- @ifRTL 'navbar-right' %>">
         <% for section in @sections: %>
-          <li about="/<%= @document.language %>/<%= section %>.html" class="<%- @ifRTL 'navbar-right' %>">
-            <a href="/<%= @document.language %>/<%= section %>.html" title="<%= @tt 'section__'+section %>" class="nav-link"><%= @tt 'section__'+section %></a>
+          <li about="/<%= @document.language %>/<%= section.name %>.html" class="<%- @ifRTL 'navbar-right' %>">
+            <a href="/<%= @document.language %>/<%= section.name %>.html" title="<%= @tt section.nav_title_key %>" class="nav-link"><%= @tt section.nav_title_key %></a>
           </li>
         <% end %>
       </ul>

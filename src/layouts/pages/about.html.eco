@@ -2,7 +2,6 @@
 layout: page
 ---
 
-<%= @tt 'about__content_stub' %>
+<%= @document.title %>
 
-<br>Title: <%= @document.title %>
-
+<br>About content here
