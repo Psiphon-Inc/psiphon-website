@@ -83,6 +83,21 @@
     "message": "Image showing Psiphon connected on Windows",
     "description": "alt text for an image"
   },
+  "faq-authentic-android-question": {
+    "message": "Is my Psiphon 3 for Android authentic?"
+  },
+  "faq-authentic-android-answer-alert": {
+    "message": "<b>ALERT:</b> A recently <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">reported</a> vulnerability may cause Android app signature checking to falsely report malicious APKs as valid. We recommend that users turn on the Google Verify Apps feature as documented <a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">here</a>."
+  },
+  "faq-authentic-android-answer-para-1": {
+    "message": "Each Psiphon 3 for Android client is shipped as an Android APK file (\".apk\") that is digitally signed by Psiphon Inc. The Psiphon Inc. certificate public key is as follows:"
+  },
+  "faq-authentic-android-answer-para-2": {
+    "message": "An APK may be validated by (1) extracting the certificate from the archive and checking that its fingerprints matches the value above and (2) verifying that the APK is signed with the certificate. For example, using Unix and Java command-line tools:"
+  },
+  "faq-authentic-android-answer-para-3": {
+    "message": "Psiphon 3 for Android auto-updates itself, and this process automatically verifies that each update is authentic."
+  },
   "faq-run-android-question": {
     "message": "How do I run Psiphon 3 for Android?"
   },
@@ -109,6 +124,81 @@
   "faq-run-android-3-image-alt": {
     "message": "Image showing the different parts of the Psiphon Android web browser",
     "description": "alt text for an image"
+  },
+  "faq-information-collected-question": {
+    "message": "What user information does Psiphon 3 collect?"
+  },
+  "faq-information-collected-answer-para-1": {
+    "message": "We collect the following data to find out how well Psiphon is working, what sites are popular and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries."
+  },
+  "faq-information-collected-answer-para-2-item-1": {
+    "message": "Number of email requests for client download link"
+  },
+  "faq-information-collected-answer-para-2-item-2": {
+    "message": "Number of upgrades"
+  },
+  "faq-information-collected-answer-para-2-item-3": {
+    "message": "How often each protocol is used, and error codes after failure"
+  },
+  "faq-information-collected-answer-para-2-item-4": {
+    "message": "How often new servers are discovered"
+  },
+  "faq-information-collected-answer-para-2-item-5": {
+    "message": "Session count and session duration"
+  },
+  "faq-information-collected-answer-para-2-item-6": {
+    "message": "Page views (full page URLs for sponsor web sites)"
+  },
+  "faq-information-collected-answer-para-2-item-7": {
+    "message": "Bytes transferred"
+  },
+  "faq-information-collected-answer-para-2-item-8": {
+    "message": "Number of HTTPS requests"
+  },
+  "faq-information-collected-answer-para-2-item-9": {
+    "message": "Client platform (simplified operating system list; e.g, not a detailed browser user agent)"
+  },
+  "faq-information-collected-answer-para-3": {
+    "message": "User IP addresses and email addresses are never collected; users are not required to create accounts to use the system."
+  },
+  "faq-information-collected-answer-para-4": {
+    "message": "Event logs include timestamps, region codes (GeoIP country code) and non-identifying attributes including sponsor ID (determined by which Psiphon client is used), client version, and protocol type. Page views are aggregated by time and/or session before being logged."
+  },
+  "faq-information-collected-answer-para-5": {
+    "message": "All statistics shared with sponsors are further aggregated by date, sponsor, and region."
+  },
+  "faq-information-collected-answer-para-6": {
+    "message": "When you choose to submit feedback through Psiphon you will have the option of including diagnostic data. We use this data to help us troubleshoot any problems you might be having and to help us keep Psiphon running smoothly. Sending this data is entirely optional. The data is encrypted before you send it, and can only be decrypted by us. The information in the data varies by platform, but it may include:"
+  },
+  "faq-information-collected-answer-para-7-list-start": {
+    "message": "Windows:"
+  },
+  "faq-information-collected-answer-para-7-item-1": {
+    "message": "Operating system version"
+  },
+  "faq-information-collected-answer-para-7-item-2": {
+    "message": "Anti-virus version"
+  },
+  "faq-information-collected-answer-para-7-item-3": {
+    "message": "How you're connected to the internet (for example, if you're using dial-up or connected via a proxy)"
+  },
+  "faq-information-collected-answer-para-7-item-4": {
+    "message": "How much free memory your computer has"
+  },
+  "faq-information-collected-answer-para-8-list-start": {
+    "message": "Android:"
+  },
+  "faq-information-collected-answer-para-8-item-1": {
+    "message": "Android version"
+  },
+  "faq-information-collected-answer-para-8-item-2": {
+    "message": "Model of phone"
+  },
+  "faq-information-collected-answer-para-8-item-3": {
+    "message": "Whether your phone is rooted"
+  },
+  "faq-information-collected-answer-para-9": {
+    "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry here describing what was recorded, how long it was kept, and why."
   },
   "alert-heading": {
     "message": "ALERT",
@@ -139,5 +229,20 @@
   },
   "how-do-i-get-psiphon-body-para-2": {
     "message": "Psiphon 3 clients for iOS and Mac OS X are coming soon."
+  },
+  "resources-open-source-head": {
+    "message": "Open Source"
+  },
+  "resources-open-source-para-1": {
+    "message": "Psiphon 3 is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>."
+  },
+  "resources-open-source-para-2": {
+    "message": "Psiphon 3 clients use the following open source components."
+  },
+  "resources-open-source-para-3-list-start": {
+    "message": "Windows:"
+  },
+  "resources-open-source-para-4-list-start": {
+    "message": "Android:"
   }
 }

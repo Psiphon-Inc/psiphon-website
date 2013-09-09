@@ -5,3 +5,42 @@ layout: page
 <%= @document.title %>
 
 <br>Resources content here -- links to GGroups, Bitbucket
+
+
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'resources-open-source-head' %></h2>
+    <p>
+      <%- @tt 'resources-open-source-para-1' %>
+    </p>
+
+    <p>
+      <%= @tt 'resources-open-source-para-2' %>
+    </p>
+    <p>
+      <%= @tt 'resources-open-source-para-3-list-start' %>
+      <ul>
+        <li><a href="http://www.cryptopp.com/">Crypto++</a></li>
+        <li><a href="http://jsoncpp.sourceforge.net/">JsonCpp</a></li>
+        <li><a href="http://jquery.com/">jQuery</a></li>
+        <li><a href="http://www.mrhinkydink.com/potty.htm">PoTTY</a></li>
+        <li><a href="http://code.google.com/p/yaml-cpp/">yaml-cpp</a></li>
+        <li><a href="http://www.zlib.net/">zlib</a></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'resources-open-source-para-4-list-start' %>
+      <ul>
+        <li><a href="http://code.google.com/p/badvpn/">BadVPN</a></li>
+        <li><a href="http://code.google.com/p/connectbot/">ConnectBot</a></li>
+        <li><a href="http://www.cleondris.ch/opensource/ssh2/">Ganymed SSH2</a></li>
+        <li><a href="http://jsocks.sourceforge.net/">JSocks</a></li>
+        <li><a href="http://jquery.com/">jQuery</a></li>
+        <li><a href="https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation">Obfuscated SSH patch</a></li>
+        <li><a href="http://code.google.com/p/roottools/">RootTools</a></li>
+        <li><a href="http://code.google.com/p/zirco-browser/">Zirco</a></li>
+        <li><a href="https://www.gosquared.com/resources/flag-icons">GoSquared flag icons</a></li>
+      </ul>
+    </p>
+  </div>
+</div>

@@ -12,7 +12,7 @@ layout: page
 <div class="row faq-qa">
   <span class="anchor-target" id="is_my_psiphon_3_for_windows_authentic" data-anchor-text="<%= @tt 'faq-authentic-windows-question' %>"></span>
   <div class="faq-question">
-    <h4><%= @tt 'faq-authentic-windows-question' %></h4>
+    <h3><%= @tt 'faq-authentic-windows-question' %></h3>
   </div>
   <div class="faq-answer">
     <p>
@@ -42,7 +42,7 @@ layout: page
 <div class="row faq-qa">
   <span class="anchor-target" id="how_do_i_run_psiphon_3_for_windows" data-anchor-text="<%= @tt 'faq-run-windows-question' %>"></span>
   <div class="faq-question">
-    <h4><%= @tt 'faq-run-windows-question' %></h4>
+    <h3><%= @tt 'faq-run-windows-question' %></h3>
   </div>
   <div class="faq-answer">
     <p>
@@ -76,9 +76,49 @@ layout: page
 </div>
 
 <div class="row faq-qa">
+  <span class="anchor-target" id="is_my_psiphon_3_for_android_authentic" data-anchor-text="<%= @tt 'faq-authentic-android-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-authentic-android-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p class="alert alert-warning">
+      <%- @tt 'faq-authentic-android-answer-alert' %>
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-android-answer-para-1' %>
+    </p>
+    <p>
+      <pre>Owner: CN=Psiphon Inc., OU=Psiphon Inc., O=Psiphon Inc.,
+L=Unknown, ST=Unknown, C=CA
+Issuer: CN=Psiphon Inc., OU=Psiphon Inc., O=Psiphon Inc.,
+L=Unknown, ST=Unknown, C=CA
+Serial number: 349480e5
+Valid from: Fri Jun 01 12:04:42 EDT 2012 until: Tue Oct 18 12:04:42 EDT 2039
+Certificate fingerprints:
+MD5:  BB:08:CD:91:22:FC:EB:17:1A:4A:3B:90:65:CE:2E:58
+SHA1: 49:2C:3A:49:20:F3:6B:AE:95:90:EB:69:A6:36:E9:88:A7:41:7A:95
+SHA256: 76:DB:EF:15:F6:77:26:D4:51:A1:23:59:B8:57:9C:0D:
+7A:9F:63:5D:52:6A:A3:74:24:DF:13:16:32:F1:78:10
+Signature algorithm name: SHA256withRSA
+Version: 3</pre>
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-android-answer-para-2' %>
+    </p>
+    <p>
+      <pre>$ unzip -p PsiphonAndroid.apk META-INF/PSIPHON.RSA | keytool -printcert
+$ jarsigner -verbose -verify PsiphonAndroid.apk</pre>
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-android-answer-para-3' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
   <span class="anchor-target" id="how_do_i_run_psiphon_3_for_android" data-anchor-text="<%= @tt 'faq-run-android-question' %>"></span>
   <div class="faq-question">
-    <h4><%= @tt 'faq-run-android-question' %></h4>
+    <h3><%= @tt 'faq-run-android-question' %></h3>
   </div>
   <div class="faq-answer">
     <p>
@@ -101,6 +141,62 @@ layout: page
     </p>
     <p>
       <img class="img-responsive" src="<%- @ttURL '/images/faq-run-android-3.png' %>" alt="<%= @tt 'faq-run-android-3-image-alt' %>">
+    </p>
+  </div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="what_user_information_does_psiphon_3_collect" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-information-collected-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-1' %>
+    </p>
+    <p>
+      <ul>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-1' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-2' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-3' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-4' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-5' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-6' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-7' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-8' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-9' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-3' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-4' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-5' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-6' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-7-list-start' %>
+      <ul>
+        <li><%= @tt 'faq-information-collected-answer-para-7-item-1' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-7-item-2' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-7-item-3' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-7-item-4' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-8-list-start' %>
+      <ul>
+        <li><%= @tt 'faq-information-collected-answer-para-8-item-1' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-8-item-2' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-8-item-3' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-9' %>
     </p>
   </div>
 </div>
