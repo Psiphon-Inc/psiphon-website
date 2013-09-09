@@ -1,5 +1,5 @@
 <!-- NAVIGATION -->
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header <%- @ifRTL 'navbar-right' %>">
       <button type="button" class="navbar-toggle <%- @ifRTL 'pull-left' %>" data-toggle="collapse" data-target=".navbar-collapse">

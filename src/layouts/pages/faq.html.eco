@@ -2,36 +2,45 @@
 layout: page
 ---
 
+<div class="row">
+  <div class="col-md-12">
+    <ul id="faq-toc" class="list-group" data-child-tag="<li class='list-group-item'>">
+    </ul>
+  </div>
+</div>
+
 <div class="row faq-qa">
+  <span class="anchor-target" id="is_my_psiphon_3_for_windows_authentic" data-anchor-text="<%= @tt 'faq-authentic-windows-question' %>"></span>
   <div class="faq-question">
-    <h4><%= @tt 'faq-authentic-question' %></h4>
+    <h4><%= @tt 'faq-authentic-windows-question' %></h4>
   </div>
   <div class="faq-answer">
     <p>
-      <%= @tt 'faq-authentic-answer-para-1' %>
+      <%= @tt 'faq-authentic-windows-answer-para-1' %>
     </p>
     <p>
-      <img class="img-responsive" src="/images/faq-authentic.png" alt="<%= @tt 'faq-authentic-image-alt' %>">
+      <img class="img-responsive" src="/images/faq-authentic-windows.png" alt="<%= @tt 'faq-authentic-windows-image-alt' %>">
     </p>
     <p>
-      <%= @tt 'faq-authentic-answer-para-2' %>
+      <%= @tt 'faq-authentic-windows-answer-para-2' %>
     </p>
     <p>
       <code>8f:b7:ef:bd:20:a9:20:3a:38:37:08:a2:1e:0a:1d:2e:ad:7b:ee:6d</code>
     </p>
     <p>
-      <%= @tt 'faq-authentic-answer-para-3' %>
+      <%= @tt 'faq-authentic-windows-answer-para-3' %>
     </p>
     <p>
       <code>84:c5:13:5b:13:d1:53:96:7e:88:c9:13:86:0e:83:ee:ef:48:8e:91</code>
     </p>
     <p>
-      <%= @tt 'faq-authentic-answer-para-4' %>
+      <%= @tt 'faq-authentic-windows-answer-para-4' %>
     </p>
   </div>
 </div>
 
 <div class="row faq-qa">
+  <span class="anchor-target" id="how_do_i_run_psiphon_3_for_windows" data-anchor-text="<%= @tt 'faq-run-windows-question' %>"></span>
   <div class="faq-question">
     <h4><%= @tt 'faq-run-windows-question' %></h4>
   </div>
@@ -67,6 +76,7 @@ layout: page
 </div>
 
 <div class="row faq-qa">
+  <span class="anchor-target" id="how_do_i_run_psiphon_3_for_android" data-anchor-text="<%= @tt 'faq-run-android-question' %>"></span>
   <div class="faq-question">
     <h4><%= @tt 'faq-run-android-question' %></h4>
   </div>

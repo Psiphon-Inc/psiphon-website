@@ -2,12 +2,19 @@
 @import "../../files/vendor/twitter-bootstrap/less/variables";
 @import "_rtl-support";
 
+@navbar-padding-add: 20px;
+
 body {
-  padding-top: (@navbar-height + 10);
+  padding-top: (@navbar-height + @navbar-padding-add);
 }
 
 .navbar-header img {
   height: (@navbar-height - (@navbar-padding-vertical * 2));
+}
+
+.faq-qa {
+  margin-top: 3em;
+  border-top: thin lighten(@text-color, 60%) solid;
 }
 
 .faq-question {
@@ -20,4 +27,14 @@ body {
 
 .alert {
   .make-rtl-md-col(3, 6, 3);
+}
+
+// Because of the fixed navbar, we need to monkey with the size of anchor (hash)
+// link targets.
+.anchor-target {
+  padding-top: (@navbar-height + @navbar-padding-add);
+  margin-top: -(@navbar-height + @navbar-padding-add);
+
+  // Needed on Webkit
+  display: inline-block;
 }
