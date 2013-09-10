@@ -12,6 +12,16 @@ body {
   height: (@navbar-height - (@navbar-padding-vertical * 2));
 }
 
+// Because of the fixed navbar, we need to monkey with the size of anchor (hash)
+// link targets.
+.anchor-target {
+  padding-top: (@navbar-height + @navbar-padding-add);
+  margin-top: -(@navbar-height + @navbar-padding-add);
+
+  // Needed on Webkit
+  display: inline-block;
+}
+
 .faq-qa {
   margin-top: 3em;
   border-top: thin lighten(@text-color, 60%) solid;
@@ -25,16 +35,7 @@ body {
   .make-rtl-md-col(3, 9, 0);
 }
 
-.alert {
-  .make-rtl-md-col(3, 6, 3);
-}
-
-// Because of the fixed navbar, we need to monkey with the size of anchor (hash)
-// link targets.
-.anchor-target {
-  padding-top: (@navbar-height + @navbar-padding-add);
-  margin-top: -(@navbar-height + @navbar-padding-add);
-
-  // Needed on Webkit
-  display: inline-block;
+.download-os-logo {
+  width: 2em;
+  margin-right: 1em;
 }

@@ -81,9 +81,9 @@ layout: page
     <h3><%= @tt 'faq-authentic-android-question' %></h3>
   </div>
   <div class="faq-answer">
-    <p class="alert alert-warning">
+    <div class="alert alert-warning">
       <%- @tt 'faq-authentic-android-answer-alert' %>
-    </p>
+    </div>
     <p>
       <%= @tt 'faq-authentic-android-answer-para-1' %>
     </p>
@@ -143,6 +143,7 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</pre>
       <img class="img-responsive" src="<%- @ttURL '/images/faq-run-android-3.png' %>" alt="<%= @tt 'faq-run-android-3-image-alt' %>">
     </p>
   </div>
+</div>
 
 <div class="row faq-qa">
   <span class="anchor-target" id="what_user_information_does_psiphon_3_collect" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
@@ -197,6 +198,30 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</pre>
     </p>
     <p>
       <%= @tt 'faq-information-collected-answer-para-9' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="ip-change" data-anchor-text="<%= @tt 'faq-ip-change-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-ip-change-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-ip-change-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="connection-failed" data-anchor-text="<%= @tt 'faq-connection-failed-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-connection-failed-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-connection-failed-answer-para-1' %>
     </p>
   </div>
 </div>

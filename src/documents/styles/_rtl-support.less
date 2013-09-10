@@ -38,3 +38,9 @@
 .col-md-6-right {
   .make-rtl-md-col(6, 6, 0);
 }
+
+// Centered columns don't need special RTL handling
+.col-md-6-center {
+  .make-md-column-offset(3);
+  .make-md-column(6);
+}

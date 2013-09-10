@@ -1,0 +1,34 @@
+---
+layout: page
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'download-direct-head' %></h2>
+    <p class="alert alert-info">
+      <img class="download-os-logo" src="/images/windows-logo.png">
+      <a href="<%- @downloads.windows %>" class="alert-link">
+        <%= @tt 'download-direct-windows' %>
+      </a>
+    </p>
+    <p class="alert alert-info">
+      <img class="download-os-logo" src="/images/android-logo.png">
+      <a href="<%- @downloads.android %>" class="alert-link">
+        <%= @tt 'download-direct-android' %>
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'download-via-email-head' %></h2>
+    <p class="alert alert-info">
+      <img class="download-os-logo" src="/images/windows-logo.png">
+      <img class="download-os-logo" src="/images/android-logo.png">
+      <a href="mailto:<%- @downloads.email %>" class="alert-link">
+        <%= @tt 'download-via-email' %>
+      </a>
+    </p>
+  </div>
+</div>

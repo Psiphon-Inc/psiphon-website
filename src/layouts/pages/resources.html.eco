@@ -2,10 +2,25 @@
 layout: page
 ---
 
-<%= @document.title %>
-
-<br>Resources content here -- links to GGroups, Bitbucket
-
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'resources-get-latest-info-head' %></h2>
+    <p>
+      <%= @tt 'resources-get-latest-info-para-1-list-start' %>
+      <ul>
+        <li>
+          <a href="https://groups.google.com/group/psiphon3"><%= @tt 'resources-get-latest-info-para-1-announcements-list' %></a>
+        </li>
+        <li>
+          <a href="https://groups.google.com/group/psiphon3-users"><%= @tt 'resources-get-latest-info-para-1-users-list' %></a>
+        </li>
+        <li>
+          <a href="https://groups.google.com/group/psiphon3-developers"><%= @tt 'resources-get-latest-info-para-1-developers-list' %></a>
+        </li>
+      </ul>
+    </p>
+  </div>
+</div>
 
 <div class="row">
   <div class="col-md-12">
@@ -13,7 +28,6 @@ layout: page
     <p>
       <%- @tt 'resources-open-source-para-1' %>
     </p>
-
     <p>
       <%= @tt 'resources-open-source-para-2' %>
     </p>

@@ -8,11 +8,16 @@ layout: default
       <img class="img-responsive" src="/images/psiphon-wordart.jpg">
     </div>
     <h1><%= @getTitle() %></h1>
-    <p><a class="btn btn-primary btn-lg"><%= @tt 'download-now-button' %></a></p>
+    <p><a class="btn btn-primary btn-lg" href="./download.html"><%= @tt 'download-now-button' %></a></p>
   </div>
 </div>
 
-<%-@partial('alert.html', @)%>
+
+<div class="row">
+  <div class="col-md-6-center">
+    <%-@partial('alert.html', @)%>
+  </div>
+</div>
 
 <div class="row">
   <div class="col-md-6-left">
