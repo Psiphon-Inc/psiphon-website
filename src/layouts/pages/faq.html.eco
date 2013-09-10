@@ -225,3 +225,159 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</pre>
     </p>
   </div>
 </div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="check-version" data-anchor-text="<%= @tt 'faq-check-version-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-check-version-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-check-version-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="orig-file-purpose" data-anchor-text="<%= @tt 'faq-orig-file-purpose-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-orig-file-purpose-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-orig-file-purpose-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="proxy-all" data-anchor-text="<%= @tt 'faq-proxy-all-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-proxy-all-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-proxy-all-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="browser-compatibility" data-anchor-text="<%= @tt 'faq-browser-compatibility-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-browser-compatibility-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-browser-compatibility-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="port-restrictions" data-anchor-text="<%= @tt 'faq-port-restrictions-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-port-restrictions-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-port-restrictions-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="vpn-protocol" data-anchor-text="<%= @tt 'faq-vpn-protocol-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-vpn-protocol-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-vpn-protocol-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="vpn-slow" data-anchor-text="<%= @tt 'faq-vpn-slow-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-vpn-slow-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-vpn-slow-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="vpn-dns" data-anchor-text="<%= @tt 'faq-vpn-dns-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-vpn-dns-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-vpn-dns-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="configure-applications" data-anchor-text="<%= @tt 'faq-configure-applications-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-configure-applications-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-configure-applications-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="ssh-plus" data-anchor-text="<%= @tt 'faq-ssh-plus-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-ssh-plus-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-ssh-plus-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="failed-connect-polipo" data-anchor-text="<%= @tt 'faq-failed-connect-polipo-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-failed-connect-polipo-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-failed-connect-polipo-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="polipo-different-port" data-anchor-text="<%= @tt 'faq-polipo-different-port-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-polipo-different-port-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-polipo-different-port-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="autoproxy" data-anchor-text="<%= @tt 'faq-autoproxy-question-toc' %>"></span>
+  <div class="faq-question">
+    <h3><%- @tt 'faq-autoproxy-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-autoproxy-answer-para-1' %>
+    </p>
+  </div>
+</div>

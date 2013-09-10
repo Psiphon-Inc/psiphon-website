@@ -220,6 +220,87 @@
   "faq-connection-failed-answer-para-1": {
     "message": "If you see repeated \"connection failed\" messages, it means that there are no available servers that your client knows about. Try to download a new Psiphon 3 client."
   },
+  "faq-check-version-question": {
+    "message": "How do I check my current version of Psiphon 3?"
+  },
+  "faq-check-version-answer-para-1": {
+    "message": "When Psiphon 3 starts, it displays the Client Version on the first line of output."
+  },
+  "faq-orig-file-purpose-question": {
+    "message": "What is the file \"psiphon3.exe.orig\"?"
+  },
+  "faq-orig-file-purpose-answer-para-1": {
+    "message": "The automatic update process in Psiphon 3 for Windows renames its old version to \"psiphon3.exe.orig\". Old files with the \".orig\" suffix can safely be deleted."
+  },
+  "faq-proxy-all-question": {
+    "message": "Does Psiphon 3 for Windows proxy all of my Internet traffic?"
+  },
+  "faq-proxy-all-answer-para-1": {
+    "message": "Only in VPN mode. After a successful connection is established in VPN mode, your entire computer’s traffic will pass through the Psiphon 3 network. In SSH modes, only applications that use the local HTTP and SOCKS proxies will be proxied."
+  },
+  "faq-browser-compatibility-question": {
+    "message": "Is Psiphon 3 for Windows compatible with IE, Firefox, Safari, and Chrome web browsers?"
+  },
+  "faq-browser-compatibility-answer-para-1": {
+    "message": "Yes. In SSH modes, check your browser settings and make sure that it is configured to use the system proxy settings."
+  },
+  "faq-port-restrictions-question": {
+    "message": "Are there any port restrictions in VPN mode? Why can't I send email using my mail client in VPN mode?"
+  },
+  "faq-port-restrictions-answer-para-1": {
+    "message": "Outbound connections from the Psiphon 3 for Windows VPN can be made only on the following ports: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25 and 587. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information."
+  },
+  "faq-vpn-protocol-question": {
+    "message": "What VPN protocol is used by Psiphon 3 for Windows? Why can't I connect?"
+  },
+  "faq-vpn-protocol-answer-para-1": {
+    "message": "Psiphon uses the L2TP/IPSec VPN protocol. Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPSec or L2TP pass-through is enabled. Your system’s IPSec Services may be disabled; check your service settings and enable this service to start automatically."
+  },
+  "faq-vpn-slow-question": {
+    "message": "I can connect to Psiphon 3 for Windows in VPN mode, but why is it so slow?  Sometimes web pages don't load at all."
+  },
+  "faq-vpn-slow-answer-para-1": {
+    "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPSec which is the protocol used by Psiphon 3 in VPN mode. Try using SSH modes instead."
+  },
+  "faq-vpn-dns-question": {
+    "message": "When I connect to Psiphon 3 for Windows in VPN mode, none of my web pages load. I get error messages indicating that a domain lookup failed."
+  },
+  "faq-vpn-dns-answer-para-1": {
+    "message": "Psiphon 3 restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon 3 client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>."
+  },
+  "faq-configure-applications-question": {
+    "message": "How do I configure applications to use the Psiphon 3 tunnel in SSH modes?"
+  },
+  "faq-configure-applications-answer-para-1": {
+    "message": "Psiphon 3 will automatically configure your system to use a local HTTP/HTTPS proxy at <code>127.0.0.1:8080</code> and a local SOCKS proxy at <code>127.0.0.1:1080</code>. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon 3 for Windows (SSH modes) and Psiphon 3 for Android run these local proxies."
+  },
+  "faq-ssh-plus-question": {
+    "message": "What is SSH+ mode?"
+  },
+  "faq-ssh-plus-answer-para-1": {
+    "message": "SSH+ is SSH mode with the addition of an obfuscation layer on top of the SSH handshake to defend against protocol fingerprinting. A description of the protocol can be found <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">here</a>."
+  },
+  "faq-failed-connect-polipo-question": {
+    "message": "In SSH mode for Psiphon 3 for Windows, I see the error message \"Failed to connect to Polipo\". What can I do?"
+  },
+  "faq-failed-connect-polipo-answer-para-1": {
+    "message": "The local HTTP proxy could not run. You might have another process running that is using the default port. Try using a different port.  See the question \"Can I run the local HTTP proxy on a different port than 8080?\""
+  },
+  "faq-polipo-different-port-question": {
+    "message": "Can I run the local HTTP proxy on a different port than 8080?"
+  },
+  "faq-polipo-different-port-answer-para-1": {
+    "message": "Yes, on Windows. Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserLocalHTTPProxyPort</code>. Set its value to the port (in Decimal) that you would like to use."
+  },
+  "faq-autoproxy-question": {
+    "message": "I use <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. How can I tell Psiphon 3 for Windows not to configure my system proxy settings?"
+  },
+  "faq-autoproxy-question-toc": {
+    "message": "I use AutoProxy. How can I tell Psiphon 3 for Windows not to configure my system proxy settings?"
+  },
+  "faq-autoproxy-answer-para-1": {
+    "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserSkipProxySettings</code>. Set this value to <code>1</code> and Psiphon 3 will not automatically configure the system proxy settings."
+  },
   "alert-heading": {
     "message": "ALERT",
     "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -283,8 +364,6 @@
     "message": "Psiphon 3 Developers",
     "description": "text for link to the Psiphon 3 Developers mailing list"
   },
-
-
   "download-direct-head": {
     "message": "Download directly"
   },
