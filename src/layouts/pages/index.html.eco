@@ -8,7 +8,9 @@ layout: default
       <img class="img-responsive" src="/images/psiphon-wordart.jpg">
     </div>
     <h1><%= @getTitle() %></h1>
-    <p><a class="btn btn-primary btn-lg" href="./download.html"><%= @tt 'download-now-button' %></a></p>
+    <p class="text-right">
+      <a class="btn btn-primary btn-lg" href="./download.html"><%= @tt 'download-now-button' %></a>
+      </p>
   </div>
 </div>
 
@@ -20,7 +22,7 @@ layout: default
 </div>
 
 <div class="row">
-  <div class="col-md-6-left">
+  <div class="col-md-12">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h2><%= @tt 'what-is-psiphon-heading' %></h2>
@@ -28,17 +30,6 @@ layout: default
       <div class="panel-body">
         <p><%= @tt 'what-is-psiphon-body-para-1' %></p>
         <p><%= @tt 'what-is-psiphon-body-para-2' %></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6-right">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2><%= @tt 'how-do-i-get-psiphon-heading' %></h2>
-      </div>
-      <div class="panel-body">
-        <p><%- @tt 'how-do-i-get-psiphon-body-para-1' %></p>
-        <p><%= @tt 'how-do-i-get-psiphon-body-para-2' %></p>
       </div>
     </div>
   </div>

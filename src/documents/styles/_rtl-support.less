@@ -25,6 +25,22 @@
   }
 }
 
+.make-rtl-sm-col(@cols-to-the-left; @columns; @cols-to-the-right) {
+  .make-sm-column(@columns);
+}
+
+.make-rtl-sm-col(@cols-to-the-left; @columns; @cols-to-the-right) when (@cols-to-the-left < @cols-to-the-right) {
+  body[dir="rtl"] & {
+    .make-sm-column-push(@cols-to-the-right - @cols-to-the-left);
+  }
+}
+
+.make-rtl-sm-col(@cols-to-the-left; @columns; @cols-to-the-right) when (@cols-to-the-left > @cols-to-the-right) {
+  body[dir="rtl"] & {
+    .make-sm-column-pull(@cols-to-the-left - @cols-to-the-right);
+  }
+}
+
 /*
  * These are a slew of helper classes that can be used directly in HTML rather
  * that relying on special classes that directly use the mixins.
@@ -37,6 +53,14 @@
 
 .col-md-6-right {
   .make-rtl-md-col(6, 6, 0);
+}
+
+.col-md-10-left {
+  .make-rtl-md-col(0, 10, 2);
+}
+
+.col-md-2-right {
+  .make-rtl-md-col(10, 2, 0);
 }
 
 // Centered columns don't need special RTL handling

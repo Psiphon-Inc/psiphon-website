@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="3; url=/en/">
+
+<script>
+  var defaultLanguage = 'en';
+  var supportedLanguages = <%- JSON.stringify @languages %>;
+	var language = window.navigator.userLanguage || window.navigator.language || defaultLanguage;
+  var redirectLanguage = defaultLanguage;
+
+  // Some languages we support look like 'en' and some like 'en-US'. Some languages
+  // set in navigator.language look like 'en' and some like 'en-US'. So we'll
+  // check both combinations.
+
+  if (supportedLanguages.indexOf(language) >= 0) {
+    redirectLanguage = language;
+  }
+  else if (supportedLanguages.indexOf(language.substr(0, 2)) >= 0) {
+    redirectLanguage = language.substr(0, 2);
+  }
+
+  window.location.href = '/' + redirectLanguage + '/';
+</script>
+
+<title>Page Redirection</title>
+
+If you are not redirected automatically, follow the <a href='/en/'>link to the Psiphon home page</a>.
