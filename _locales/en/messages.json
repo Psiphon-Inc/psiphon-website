@@ -66,39 +66,6 @@
   "faq-authentic-windows-answer-para-4": {
     "message": "Psiphon 3 for Windows auto-updates itself, and this process automatically verifies that each update is authentic."
   },
-  "faq-run-windows-question": {
-    "message": "How do I run Psiphon 3 for Windows?"
-  },
-  "faq-run-windows-answer-para-1": {
-    "message": "Download the client program and run it. When you run it, you should see a security prompt showing that this program is a legitimate product of Psiphon Inc."
-  },
-  "faq-run-windows-answer-para-2": {
-    "message": "Psiphon 3 automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPSec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting)."
-  },
-  "faq-run-windows-answer-para-3": {
-    "message": "Connection to the Psiphon server is established when the green icon is displayed. In VPN mode, all of your traffic automatically tunnels through Psiphon 3."
-  },
-  "faq-run-windows-answer-para-4": {
-    "message": "In SSH and SSH+ modes, Psiphon 3 automatically sets the Windows system proxy settings and traffic for applications that respect these settings tunnel through Psiphon 3. These settings are respected by default by all major web browsers."
-  },
-  "faq-run-windows-answer-para-5": {
-    "message": "Furthermore, in SSH and SSH+ modes, Psiphon 3 offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy...” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area."
-  },
-  "faq-run-windows-answer-para-6": {
-    "message": "When you close the program, Psiphon 3 automatically disconnects. You can also click on the icon to toggle the connection."
-  },
-  "faq-run-windows-1-image-alt": {
-    "message": "Image showing the Windows security warning for the Psiphon executable",
-    "description": "alt text for an image"
-  },
-  "faq-run-windows-2-image-alt": {
-    "message": "Image showing Psiphon starting up on Windows",
-    "description": "alt text for an image"
-  },
-  "faq-run-windows-3-image-alt": {
-    "message": "Image showing Psiphon connected on Windows",
-    "description": "alt text for an image"
-  },
   "faq-authentic-android-question": {
     "message": "Is my Psiphon 3 for Android authentic?"
   },
@@ -366,6 +333,13 @@
     "message": "Things to note:",
     "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
   },
+  "user-guide-android-head": {
+    "message": "Psiphon for Android",
+    "description": "heading for the Android section of the User Guide"
+  },
+  "user-guide-android-para-verify-authentic": {
+    "message": "You should first <a href=\"./faq.html#is_my_psiphon_3_for_android_authentic\">verify that your copy of Psiphon for Android is authentic</a>."
+  },
   "user-guide-android-para-1": {
     "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation."
   },
@@ -461,5 +435,42 @@
   "user-guide-android-ui-statistics-image-annotation-5": {
     "message": "Received data compressed through Psiphon",
     "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
+  },
+  "user-guide-windows-head": {
+    "message": "Psiphon for Windows",
+    "description": "heading for the Android section of the User Guide"
+  },
+  "user-guide-windows-para-verify-authentic": {
+    "message": "You should first <a href=\"./faq.html#is_my_psiphon_3_for_windows_authentic\">verify that your copy of Psiphon for Windows is authentic</a>."
+  },
+  "user-guide-windows-para-1": {
+    "message": "Download the client program and run it. When you run it, you should see a security prompt showing that this program is a legitimate product of Psiphon Inc."
+  },
+  "user-guide-windows-para-2": {
+    "message": "Psiphon 3 automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPSec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting)."
+  },
+  "user-guide-windows-para-3": {
+    "message": "Connection to the Psiphon server is established when the green icon is displayed. In VPN mode, all of your traffic automatically tunnels through Psiphon 3."
+  },
+  "user-guide-windows-para-4": {
+    "message": "In SSH and SSH+ modes, Psiphon 3 automatically sets the Windows system proxy settings and traffic for applications that respect these settings tunnel through Psiphon 3. These settings are respected by default by all major web browsers."
+  },
+  "user-guide-windows-para-5": {
+    "message": "Furthermore, in SSH and SSH+ modes, Psiphon 3 offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy...” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area."
+  },
+  "user-guide-windows-para-6": {
+    "message": "When you close the program, Psiphon 3 automatically disconnects. You can also click on the icon to toggle the connection."
+  },
+  "user-guide-windows-image-1-alt": {
+    "message": "Image showing the Windows security warning for the Psiphon executable",
+    "description": "alt text for an image"
+  },
+  "user-guide-windows-image-2-alt": {
+    "message": "Image showing Psiphon starting up on Windows",
+    "description": "alt text for an image"
+  },
+  "user-guide-windows-image-3-alt": {
+    "message": "Image showing Psiphon connected on Windows",
+    "description": "alt text for an image"
   }
 }
