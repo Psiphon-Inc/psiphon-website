@@ -1,0 +1,155 @@
+/*------------------------------------*\
+  ANNOTATIONS
+\*------------------------------------*/
+/* Adapted from http://csswizardry.com/2011/06/annotated-figures-in-html5-and-css/ */
+
+/*
+ * hover-annotated
+ * These annotations show a rectangle where the annotation is anchored, but the
+ * annotation is only shown when the user hovers over the anchor box.
+ */
+
+.hover-annotated {
+  position: relative;
+}
+
+.hover-annotated img {
+  /* Set this to stop white-space appearing under the image. */
+  display: block;
+}
+
+.hover-annotated b { /* Hide the figcaption’s title. */
+  position: absolute;
+  left: -99999px;
+}
+
+.hover-annotated ul { /* Set up the canvas for the annotations to sit on. */
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@hover-annotation-border-color: #97DBFC;
+@hover-annotation-border-width: 3px;
+
+.hover-annotated li {
+  display: block;
+  line-height: 1.2em;
+  position: absolute;
+  text-indent: -99999px; /* Hide the text off-screen. */
+  cursor: default;
+  border: @hover-annotation-border-width dotted @hover-annotation-border-color;
+
+  -webkit-animation: pulsate 1.5s ease-out 0s infinite normal;
+  -moz-animation: pulsate 1.5s ease-out 0s infinite normal;
+  -o-animation: pulsate 1.5s ease-out 0s infinite normal;
+  animation: pulsate 1.5s ease-out 0s infinite normal;
+
+  opacity: 1.0;
+}
+
+.hover-annotated:hover li { /* When we hover the figure show us where the annotations are. */
+  border: @hover-annotation-border-width dashed @hover-annotation-border-color;
+  -webkit-animation-name: none;
+  -moz-animation-name: none;
+  -o-animation-name: none;
+  animation-name: none;
+}
+
+.hover-annotated li:hover { /* Show the text on hover. */
+  padding: 5px 5px;
+  background: #fff;
+  background: rgba(255,255,255,0.75);
+  font-weight: bold;
+  border: @hover-annotation-border-width solid @hover-annotation-border-color;
+
+  z-index:2; /* Bring current annotation above others. */
+
+  /* Remove the width and text-indent to show us our text! */
+  width: auto !important;
+  height: auto !important;
+  text-indent: 0;
+
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+     -moz-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+         box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+@-moz-keyframes pulsate {
+    0% {-moz-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-moz-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+@-o-keyframes pulsate {
+    0% {-o-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-o-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+@keyframes pulsate {
+    0% {transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+
+/*
+ * perma-annotated
+ * These annotations are always displayed.
+ */
+
+@perma-annotation-border-color: #97DBFC;
+@perma-annotation-border-width: 2px;
+
+.perma-annotated {
+  position: relative;
+}
+
+.perma-annotated img {
+  /* Set this to stop white-space appearing under the image. */
+  display: block;
+}
+
+.perma-annotated b { /* Hide the figcaption’s title. */
+  position: absolute;
+  left: -99999px;
+}
+
+.perma-annotated ul { /* Set up the canvas for the annotations to sit on. */
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.perma-annotated li {
+  display: block;
+  line-height: 1.2em;
+  position: absolute;
+  cursor: default;
+
+  padding: 5px 5px;
+  background: #fff;
+  background: rgba(255,255,255,0.75);
+  border: @perma-annotation-border-width solid @perma-annotation-border-color;
+
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+     -moz-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+         box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+.perma-annotated li:hover {
+  z-index:2; /* Bring current annotation above others. */
+}

@@ -140,7 +140,36 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</pre>
       <%= @tt 'faq-run-android-answer-para-4' %>
     </p>
     <p>
-      <img class="img-responsive" src="<%- @ttURL '/images/faq-run-android-3.png' %>" alt="<%= @tt 'faq-run-android-3-image-alt' %>">
+      <figure class="hover-annotated">
+        <img class="img-responsive" src="<%- @ttURL '/images/faq-run-android-3.png' %>" alt="<%= @tt 'faq-run-android-3-image-alt' %>">
+        <figcaption>
+          <b><%- @tt 'generic-image-figcaption' %></b>
+          <ul>
+            <!-- Positions of the annotations need defining inline. -->
+            <li style="top:1%; left:28%; width:6%; min-width:6%; height:7%; min-height:7%;">Psiphon is running</li>
+            <li style="top:45%; left:28%; width:6%; min-width:6%; height:16%; min-height:16%;">Switch between open tabs</li>
+            <li style="top:90%; left:37%; width:8%; min-width:8%; height:9%; min-height:9%;">Close tab asdf asdf asdf asdf asdf asdf asdf asdf dfas asdf asdf asdf dfas dfas dfas asdf asdf </li>
+            <li style="top:90%; left:46%; width:8%; min-width:8%; height:9%; min-height:9%;">Bookmark</li>
+            <li style="top:90%; left:54.5%; width:8%; min-width:8%; height:9%; min-height:9%;">New tab</li>
+          </ul>
+        </figcaption>
+      </figure>
+    </p>
+    <p>
+      <figure class="perma-annotated">
+        <img class="img-responsive" src="<%- @ttURL '/images/faq-run-android-3.png' %>" alt="<%= @tt 'faq-run-android-3-image-alt' %>">
+        <figcaption>
+          <b><%- @tt 'generic-image-figcaption' %></b>
+          <ul>
+            <!-- Positions of the annotations need defining inline. -->
+            <li style="top:8%; right:76%;">Psiphon is running</li>
+            <li style="top:48%; right:76%;">Switch between open tabs</li>
+            <li style="top:73%; right:76%;">Close tab asdf asdf asdf asdf asdf asdf asdf asdf dfas asdf asdf asdf dfas dfas dfas asdf asdf </li>
+            <li style="top:44%; left:77%;">Bookmark</li>
+            <li style="top:73%; left:76%;">New tab</li>
+          </ul>
+        </figcaption>
+      </figure>
     </p>
   </div>
 </div>
