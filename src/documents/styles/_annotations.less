@@ -3,6 +3,9 @@
 \*------------------------------------*/
 /* Adapted from http://csswizardry.com/2011/06/annotated-figures-in-html5-and-css/ */
 
+@import "../../files/vendor/twitter-bootstrap/less/mixins";
+@import "../../files/vendor/twitter-bootstrap/less/variables";
+
 /*
  * hover-annotated
  * These annotations show a rectangle where the annotation is anchored, but the
@@ -15,6 +18,8 @@
  *
  * Position values must be in % (percentage), so they show up properly when the
  * image resizes.
+ *
+ * Note: Images *must* have Bootstrap `img-responsive` class.
  */
 
 .hover-annotated {
@@ -121,6 +126,8 @@
  * left and down. For boxes on the right of an image, `top` and `left` should
  * be used, so the box can expand right and down. Position values must be in
  * % (percentage), so they show up properly when the image resizes.
+ *
+ * Note: Images *must* have Bootstrap `img-responsive` class.
  */
 
 @perma-annotation-border-color: #888;
@@ -129,17 +136,38 @@
 .perma-annotated {
   position: relative;
 
-  // Using a slightly smaller font helps prevent annotation boxes from
-  // overlapping when the image gets small.
-  // TODO: Think about making the font size change depending on the image/screen
-  // size (using media queries, say). This can probably be done with Bootstrap
-  // mixins.
-  font-size: 0.8em;
+  //
+  // We're going to scale the font based on the size of the screen.
+  // This helps to keep the annotation boxes relatively the same size as the
+  // screen and image size changes.
+  //
+
+  @font-size-md: 1.2em;
+
+  ///@media (min-width: @screen-xs) { // For minimum size screens.
+    font-size: (@font-size-md * (@screen-xs / @screen-md));
+  //}
+
+  @media (min-width: @screen-sm) {
+    font-size: (@font-size-md * (@screen-sm / @screen-md));
+  }
+
+  @media (min-width: @screen-md) {
+    font-size: @font-size-md;
+  }
+
+  @media (min-width: @screen-lg) {
+    font-size: (@font-size-md * (@screen-lg / @screen-md));
+  }
 }
 
 .perma-annotated img {
   /* Set this to stop white-space appearing under the image. */
   display: block;
+
+  // If this isn't set, then images smaller than this value will have
+  // horizontally broken anchor positions on very large screens.
+  width: @screen-lg;
 }
 
 .perma-annotated b { /* Hide the figcaption’s title. */
