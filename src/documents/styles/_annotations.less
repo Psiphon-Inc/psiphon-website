@@ -7,6 +7,14 @@
  * hover-annotated
  * These annotations show a rectangle where the annotation is anchored, but the
  * annotation is only shown when the user hovers over the anchor box.
+ *
+ * Each `<li>` in the `<figcaption>` requires the following inline styles:
+ *   `top` and `left`: giving the upper-right corner of the anchor box
+ *   `width` and `min-width`: must be equal to each other; width of the anchor box
+ *   `height` and `min-height`: must be equal to each other; height of the anchor box
+ *
+ * Position values must be in % (percentage), so they show up properly when the
+ * image resizes.
  */
 
 .hover-annotated {
@@ -106,6 +114,13 @@
 /*
  * perma-annotated
  * These annotations are always displayed.
+ *
+ * Each `<li>` in the `<figcaption>` requires inline styles that define the
+ * point from which the annotation box should expand. For boxes on the left
+ * of an image, `top` and `right` should be used, so the box can expand to the
+ * left and down. For boxes on the right of an image, `top` and `left` should
+ * be used, so the box can expand right and down. Position values must be in
+ * % (percentage), so they show up properly when the image resizes.
  */
 
 @perma-annotation-border-color: #97DBFC;
@@ -113,6 +128,13 @@
 
 .perma-annotated {
   position: relative;
+
+  // Using a slightly smaller font helps prevent annotation boxes from
+  // overlapping when the image gets small.
+  // TODO: Think about making the font size change depending on the image/screen
+  // size (using media queries, say). This can probably be done with Bootstrap
+  // mixins.
+  font-size: 0.8em;
 }
 
 .perma-annotated img {
