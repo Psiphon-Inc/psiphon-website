@@ -116,49 +116,6 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</pre>
 </div>
 
 <div class="row faq-qa">
-  <span class="anchor-target" id="how_do_i_run_psiphon_3_for_android" data-anchor-text="<%= @tt 'faq-run-android-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-run-android-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%= @tt 'faq-run-android-answer-para-1' %>
-    </p>
-    <p>
-      <%= @tt 'faq-run-android-answer-para-2' %>
-    </p>
-    <p>
-      <img class="img-responsive" src="/images/faq/faq-run-android-1.png" alt="<%= @tt 'faq-run-android-1-image-alt' %>">
-    </p>
-    <p>
-      <%= @tt 'faq-run-android-answer-para-3' %>
-    </p>
-    <p>
-      <img class="img-responsive" src="/images/faq/faq-run-android-2.png" alt="<%= @tt 'faq-run-android-2-image-alt' %>">
-    </p>
-    <p>
-      <%= @tt 'faq-run-android-answer-para-4' %>
-    </p>
-    <p>
-      <figure class="perma-annotated">
-        <img class="img-responsive" src="<%- @ttURL '/images/faq/faq-run-android-3.png' %>" alt="<%= @tt 'faq-run-android-3-image-alt' %>">
-        <figcaption>
-          <b><%- @tt 'generic-image-figcaption' %></b>
-          <ul>
-            <!-- Positions of the annotations need defining inline. -->
-            <li style="top:8%; right:76%;"><%= @tt 'faq-run-android-3-image-annotation-1' %></li>
-            <li style="top:48%; right:76%;"><%= @tt 'faq-run-android-3-image-annotation-2' %></li>
-            <li style="top:73%; right:76%;"><%= @tt 'faq-run-android-3-image-annotation-3' %></li>
-            <li style="top:44%; left:77%;"><%= @tt 'faq-run-android-3-image-annotation-4' %></li>
-            <li style="top:73%; left:76%;"><%= @tt 'faq-run-android-3-image-annotation-5' %></li>
-          </ul>
-        </figcaption>
-      </figure>
-    </p>
-  </div>
-</div>
-
-<div class="row faq-qa">
   <span class="anchor-target" id="what_user_information_does_psiphon_3_collect" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-information-collected-question' %></h3>

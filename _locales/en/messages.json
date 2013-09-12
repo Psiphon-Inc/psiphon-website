@@ -31,6 +31,14 @@
     "message": "About Us",
     "description": "text for the About page navigation item"
   },
+  "user-guide-title": {
+    "message": "How to Use Psiphon",
+    "description": "title for the user guide page"
+  },
+  "user-guide-nav-title": {
+    "message": "User Guide",
+    "description": "text for the user guide page navigation item"
+  },
   "download-title": {
     "message": "Download Psiphon",
     "description": "title for the download page"
@@ -105,53 +113,6 @@
   },
   "faq-authentic-android-answer-para-3": {
     "message": "Psiphon 3 for Android auto-updates itself, and this process automatically verifies that each update is authentic."
-  },
-  "faq-run-android-question": {
-    "message": "How do I run Psiphon 3 for Android?"
-  },
-  "faq-run-android-answer-para-1": {
-    "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation."
-  },
-  "faq-run-android-answer-para-2": {
-    "message": "To install a Psiphon APK, you must enable the option in your Android device to install non-Play Store apps. Psiphon 3 for Android will automatically update itself."
-  },
-  "faq-run-android-answer-para-3": {
-    "message": "When you launch the Psiphon 3 app, it will automatically start connecting to the Psiphon network."
-  },
-  "faq-run-android-answer-para-4": {
-    "message": "Once the app has connected to the network, it will launch the built-in Psiphon browser. Psiphon 3 for Android does not automatically tunnel the traffic for the default Android browser or other apps. By default, only the Psiphon browser is tunneled through the Psiphon 3 network."
-  },
-  "faq-run-android-1-image-alt": {
-    "message": "Image showing the Android setting for allowing non-Play Store apps",
-    "description": "alt text for an image"
-  },
-  "faq-run-android-2-image-alt": {
-    "message": "Image showing Psiphon running on Android",
-    "description": "alt text for an image"
-  },
-  "faq-run-android-3-image-alt": {
-    "message": "Image showing the different parts of the Psiphon Android web browser",
-    "description": "alt text for an image"
-  },
-  "faq-run-android-3-image-annotation-1": {
-    "message": "Psiphon is running",
-    "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-  },
-  "faq-run-android-3-image-annotation-2": {
-    "message": "Switch between open tabs",
-    "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-  },
-  "faq-run-android-3-image-annotation-3": {
-    "message": "Close current tab",
-    "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-  },
-  "faq-run-android-3-image-annotation-4": {
-    "message": "Bookmark current page",
-    "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-  },
-  "faq-run-android-3-image-annotation-5": {
-    "message": "Open new tab",
-    "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
   },
   "faq-information-collected-question": {
     "message": "What user information does Psiphon 3 collect?"
@@ -404,5 +365,101 @@
   "generic-image-figcaption": {
     "message": "Things to note:",
     "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
+  },
+  "user-guide-android-para-1": {
+    "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation."
+  },
+  "user-guide-android-para-2": {
+    "message": "To install a Psiphon APK, you must enable the option in your Android device to install non-Play Store apps. Psiphon 3 for Android will automatically update itself."
+  },
+  "user-guide-android-para-3": {
+    "message": "When you launch the Psiphon 3 app, it will automatically start connecting to the Psiphon network."
+  },
+  "user-guide-android-para-4": {
+    "message": "Once the app has connected to the network, it will launch the built-in Psiphon browser. Psiphon 3 for Android does not automatically tunnel the traffic for the default Android browser or other apps. By default, only the Psiphon browser is tunneled through the Psiphon 3 network."
+  },
+  "user-guide-android-image-1-alt": {
+    "message": "Image showing the Android setting for allowing non-Play Store apps",
+    "description": "alt text for an image"
+  },
+  "user-guide-android-ui-status-image-alt": {
+    "message": "Image showing Psiphon running on Android, on the status panel",
+    "description": "alt text for an image"
+  },
+  "user-guide-android-image-3-alt": {
+    "message": "Image showing the different parts of the Psiphon Android web browser",
+    "description": "alt text for an image"
+  },
+  "user-guide-android-image-3-annotation-1": {
+    "message": "Psiphon is running",
+    "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
+  },
+  "user-guide-android-image-3-annotation-2": {
+    "message": "Switch between open tabs",
+    "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
+  },
+  "user-guide-android-image-3-annotation-3": {
+    "message": "Close current tab",
+    "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
+  },
+  "user-guide-android-image-3-annotation-4": {
+    "message": "Bookmark current page",
+    "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
+  },
+  "user-guide-android-image-3-annotation-5": {
+    "message": "Open new tab",
+    "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
+  },
+  "user-guide-android-ui-status-image-annotation-1": {
+    "message": "Psiphon is running in VPN or Whole Device mode. All applications are tunneled through Psiphon.",
+    "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
+  },
+  "user-guide-android-ui-status-image-annotation-2": {
+    "message": "Status Tab is selected",
+    "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
+  },
+  "user-guide-android-ui-status-image-annotation-3": {
+    "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted phone.<br><br>This options will be unavailable for older Android versions or non-rooted phones.",
+    "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
+  },
+  "user-guide-android-ui-status-image-annotation-4": {
+    "message": "<span style=\"color:grey\">Grey</span>: connecting<br><span style=\"color:red\">Red</span>: not connected<br><span style=\"color:Blue\">Blue</span>: connected",
+    "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
+  },
+  "user-guide-android-ui-status-image-annotation-5": {
+    "message": "Shows what version of Psiphon you are currently running",
+    "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
+  },
+  "user-guide-android-ui-logs-image-alt": {
+    "message": "Image showing Psiphon running on Android, on the logs panel",
+    "description": "alt text for an image"
+  },
+  "user-guide-android-ui-logs-image-annotation-1": {
+    "message": "Logs of Psiphon activity",
+    "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
+  },
+  "user-guide-android-ui-statistics-image-alt": {
+    "message": "Image showing Psiphon running on Android, on the statistics panel",
+    "description": "alt text for an image"
+  },
+  "user-guide-android-ui-statistics-image-annotation-1": {
+    "message": "Connection duration",
+    "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
+  },
+  "user-guide-android-ui-statistics-image-annotation-2": {
+    "message": "Data sent through Psiphon",
+    "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
+  },
+  "user-guide-android-ui-statistics-image-annotation-3": {
+    "message": "Data received through Psiphon",
+    "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
+  },
+  "user-guide-android-ui-statistics-image-annotation-4": {
+    "message": "Sent data compressed through Psiphon",
+    "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
+  },
+  "user-guide-android-ui-statistics-image-annotation-5": {
+    "message": "Received data compressed through Psiphon",
+    "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
   }
 }

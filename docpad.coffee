@@ -60,6 +60,7 @@ docpadConfig = {
     # you can also change order here and it will reflect on page
     sections: [
       { name: 'download', title_key: 'download-title', nav_title_key: 'download-nav-title' }
+      { name: 'user-guide', title_key: 'user-guide-title', nav_title_key: 'user-guide-nav-title' }
       { name: 'faq', title_key: 'faq-title', nav_title_key: 'faq-nav-title' }
       { name: 'resources', title_key: 'resources-title', nav_title_key: 'resources-nav-title' }
       { name: 'about', title_key: 'about-title', nav_title_key: 'about-nav-title' }
