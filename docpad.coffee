@@ -194,6 +194,20 @@ docpadConfig = {
       else
         languageCode
 
+    # Returns the translated document object if `document` is available as a
+    # translation in `lang`, otherwise returns falsy.
+    documentTranslated: (document, targetLang) ->
+      # document url has a leading '/'
+      LANG_SPLIT_INDEX = 1
+      currLang = document.url.split('/')[LANG_SPLIT_INDEX]
+      return no if currLang not in @languages
+
+      translatedURL = ['/'+targetLang].concat(document.url.split('/')[LANG_SPLIT_INDEX+1...]).join('/')
+      translatedDoc = @getCollection('documents').findAllLive({url: translatedURL}).toJSON()
+      return translatedDoc[0] if translatedDoc.length > 0
+
+      return no
+
 
   # =================================
   # Collections
