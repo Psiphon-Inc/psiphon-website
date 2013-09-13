@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<article class="blog-post">
+  <div class="row">
+    <div class="col-md-12">
+      <%= @formatDate @document.date %>
+      <div class="post-content"><%- @content %></div>
+    </div>
+  </div>
+</article>

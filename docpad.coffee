@@ -40,6 +40,7 @@ docpadConfig = {
       # Styles
       styles: [
         "/styles/twitter-bootstrap.css"
+        "/vendor/highlightjs.css"
         "/styles/style.css"
       ]
 
@@ -208,6 +209,13 @@ docpadConfig = {
 
       return no
 
+    # Returns the date formatted for the locale
+    formatDate: (date) ->
+      # Maybe we should use the JavaScript Date toLocaleDateString()?
+      # Returning ISO8601 date for now
+      month = date.getUTCMonth()
+      if month < 10 then month = '0' + month
+      return "#{date.getUTCFullYear()}-#{month}-#{date.getUTCDate()}"
 
   # =================================
   # Collections
@@ -218,7 +226,7 @@ docpadConfig = {
       database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
     posts: (database) ->
-      database.findAllLive({tags:$has:'post'}, [date:-1])
+      database.findAllLive({layout: 'blog/post'}, [date:-1])
 
 
   # =================================

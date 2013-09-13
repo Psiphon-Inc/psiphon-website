@@ -8,10 +8,10 @@
         <span class="icon-bar"></span>
       </button>
 
-      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="index.html">
+      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="/<%= @document.language %>/index.html">
         <img src="/images/psiphon-logo-48.png" alt="Psiphon">
       </a>
-      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="index.html">
+      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="/<%= @document.language %>/index.html">
         <%= @tt 'psiphon' %>
       </a>
     </div>

@@ -1,0 +1,48 @@
+---
+layout: page
+---
+
+<%= @document.title %>
+
+<div class="row">
+  <div class="col-md-12">
+    <p class="well">
+      Psiphon Inc. is a Canadian company, and most of the members of our team are native English speakers. This means that our blog posts are originally in English. We will translate them into other languages as we can.
+    </p>
+  </div>
+</div>
+
+<!-- Only show the in-you-language section if there actually are any posts in the user's language (and the user's language isn't English) -->
+<% if @document.language != 'en' and @getCollection('posts').findAllLive({language: @document.language}).length: %>
+<div class="row">
+  <div class="col-md-12">
+    <h2>Posts in your language</h2>
+    <ul>
+    <% for document in @getCollection('posts').findAllLive({language: @document.language}).toJSON(): %>
+      <li>
+        <a href="<%= document.url %>">
+          <%= document.title %>
+        </a>
+        <%= @formatDate document.date %>
+      </li>
+    <% end %>
+    </ul>
+  </div>
+</div>
+<% end %>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>Posts in English</h2>
+    <ul>
+    <% for document in @getCollection('posts').findAllLive({language: 'en'}).toJSON(): %>
+      <li>
+        <a href="<%= document.url %>">
+          <%= document.title %>
+        </a>
+        <%= @formatDate document.date %>
+      </li>
+    <% end %>
+    </ul>
+  </div>
+</div>
