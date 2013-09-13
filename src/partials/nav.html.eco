@@ -30,9 +30,8 @@
       <!-- LANGUAGE SWITCHER -->
       <ul class="nav navbar-nav <%- @ifRTL 'navbar-left', 'navbar-right' %>">
         <li class="languages dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-            <%= @languageLabel @document.language %>
-            <span class="arrow">&#9660;</span>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="/<%= @document.language %>/nav/language.html">
+            <%= @languageLabel @document.language %> <b class="caret"></b>
           </a>
           <ul class="dropdown-menu" role="menu">
             <% for language in @languages : %>
