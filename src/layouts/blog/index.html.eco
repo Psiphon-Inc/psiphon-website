@@ -7,7 +7,7 @@ layout: page
 <div class="row">
   <div class="col-md-12">
     <p class="well">
-      Psiphon Inc. is a Canadian company, and most of the members of our team are native English speakers. This means that our blog posts are originally in English. We will translate them into other languages as we can.
+      <%= @tt 'blog-index-intro' %>
     </p>
   </div>
 </div>
@@ -16,7 +16,7 @@ layout: page
 <% if @document.language != 'en' and @getCollection('posts').findAllLive({language: @document.language}).length: %>
 <div class="row">
   <div class="col-md-12">
-    <h2>Posts in your language</h2>
+    <h2><%= @tt 'blog-index-posts-in-your-language' %></h2>
     <ul>
     <% for document in @getCollection('posts').findAllLive({language: @document.language}).toJSON(): %>
       <li>
@@ -33,7 +33,7 @@ layout: page
 
 <div class="row">
   <div class="col-md-12">
-    <h2>Posts in English</h2>
+    <h2><%= @tt 'blog-index-posts-in-english' %></h2>
     <ul>
     <% for document in @getCollection('posts').findAllLive({language: 'en'}).toJSON(): %>
       <li>
