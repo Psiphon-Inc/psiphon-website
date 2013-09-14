@@ -17,14 +17,34 @@
     </div>
 
     <div class="navbar-collapse collapse">
+
       <ul class="nav navbar-nav <%- @ifRTL 'navbar-right' %>">
+
         <% for section in @sections: %>
-          <li about="/<%= @document.language %>/<%= section.name %>.html" class="<%- @ifRTL 'navbar-right' %>">
-            <a href="/<%= @document.language %>/<%= section.name %>.html" title="<%= @tt section.nav_title_key %>" class="nav-link">
-              <%= @tt section.nav_title_key %>
-            </a>
-          </li>
+          <% if 'subnav' of section: %>
+            <li class="dropdown <%- @ifRTL 'navbar-right' %>">
+              <a href="/<%= @document.language %>/nav/nav.html" class="dropdown-toggle" data-toggle="dropdown">
+                <%= @tt section.nav_title_key %> <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+              <% for subsection in section.subnav: %>
+                <li about="/<%= @document.language %>/<%= subsection.filename %>" class="<%- @ifRTL 'navbar-right' %>">
+                  <a href="/<%= @document.language %>/<%= subsection.filename %>" title="<%= @tt subsection.nav_title_key %>" class="nav-link">
+                    <%= @tt subsection.nav_title_key %>
+                  </a>
+                </li>
+              <% end %>
+              </ul>
+            </li>
+          <% else: %>
+            <li about="/<%= @document.language %>/<%= section.filename %>" class="<%- @ifRTL 'navbar-right' %>">
+              <a href="/<%= @document.language %>/<%= section.filename %>" title="<%= @tt section.nav_title_key %>" class="nav-link">
+                <%= @tt section.nav_title_key %>
+              </a>
+            </li>
+          <% end %>
         <% end %>
+
       </ul>
 
       <!-- LANGUAGE SWITCHER -->

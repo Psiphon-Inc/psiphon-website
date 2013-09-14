@@ -60,11 +60,17 @@ docpadConfig = {
     # to deactivate comment out with '#'
     # you can also change order here and it will reflect on page
     sections: [
-      { name: 'download', title_key: 'download-title', nav_title_key: 'download-nav-title' }
-      { name: 'user-guide', title_key: 'user-guide-title', nav_title_key: 'user-guide-nav-title' }
-      { name: 'faq', title_key: 'faq-title', nav_title_key: 'faq-nav-title' }
-      { name: 'resources', title_key: 'resources-title', nav_title_key: 'resources-nav-title' }
-      { name: 'about', title_key: 'about-title', nav_title_key: 'about-nav-title' }
+      { name: 'download', filename: 'download.html', title_key: 'download-title', nav_title_key: 'download-nav-title' }
+      {
+        name: 'learn',
+        nav_title_key: 'learn-nav-title'
+        subnav: [
+          { name: 'user-guide', filename: 'user-guide.html', title_key: 'user-guide-title', nav_title_key: 'user-guide-nav-title' }
+          { name: 'faq', filename: 'faq.html', title_key: 'faq-title', nav_title_key: 'faq-nav-title' }
+          { name: 'resources', filename: 'resources.html', title_key: 'resources-title', nav_title_key: 'resources-nav-title' }
+          { name: 'about', filename: 'about.html', title_key: 'about-title', nav_title_key: 'about-nav-title' }
+        ]
+      }
     ]
 
     downloads:
@@ -75,8 +81,21 @@ docpadConfig = {
     # -----------------------------
     # Helper Functions
 
-    getSectionInfo: (name) ->
-      (section for section in @sections when section.name == name)[0]
+    # Only recursive calls should provide `sections`.
+    # Throws exceptions if `name` not found.
+    getSectionInfo: (name, sections=null) ->
+      if not sections then sections = @sections
+      for section in sections
+        if 'subnav' of section
+          subsection = @getSectionInfo(name, section.subnav)
+          return subsection if subsection
+
+        if section.name == name
+          return section
+
+      if sections == @sections
+        throw "bad section name: #{name}"
+      return null
 
     # The title might need to be translated from a string key.
     # `document` arugment is optional -- if not supplied, @document will be used

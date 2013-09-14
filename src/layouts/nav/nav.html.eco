@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <ul>
+    <% for item in @sections: %>
+        <% if 'subnav' of item: %>
+          <li><%= @tt item.nav_title_key %>
+            <ul>
+            <% for subitem in item['subnav']: %>
+              <li>
+                <a href="/<%= @document.language %>/<%= subitem.filename %>"><%= @tt subitem.nav_title_key %></a>
+              </li>
+            <% end %>
+            </ul>
+          </li>
+        <% else: %>
+          <li>
+            <a href="/<%= @document.language %>/<%= item.filename %>"><%= @tt item.nav_title_key %></a>
+          </li>
+        <% end %>
+    <% end %>
+    </ul>
+  </div>
+</div>
