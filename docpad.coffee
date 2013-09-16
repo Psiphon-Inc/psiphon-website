@@ -74,48 +74,31 @@ docpadConfig = {
         title_key: 'faq-title'
         nav_title_key: 'faq-nav-title'
 
-      'resources':
-        filename: 'resources.html'
-        title_key: 'resources-title'
-        nav_title_key: 'resources-nav-title'
+      'sponsor':
+        filename: 'sponsor.html'
+        title_key: 'sponsor-title'
+        nav_title_key: 'sponsor-nav-title'
 
       'about':
         filename: 'about.html'
         title_key: 'about-title'
         nav_title_key: 'about-nav-title'
 
-      'sponsor':
-        filename: 'sponsor.html'
-        title_key: 'sponsor-title'
-        nav_title_key: 'sponsor-nav-title'
-
       'licence':
         filename: 'licence.html'
         title_key: 'licence-title'
         nav_title_key: 'licence-nav-title'
 
-      'contact':
-        filename: 'contact.html'
-        title_key: 'contact-title'
-        nav_title_key: 'contact-nav-title'
-
-      'privacy':
-        filename: 'privacy.html'
-        title_key: 'privacy-title'
-        nav_title_key: 'privacy-nav-title'
-
     navLayout: [
       { name: 'download' }
       {
-        name: 'learn',
-        nav_title_key: 'learn-nav-title'
+        name: 'resources',
+        nav_title_key: 'resources-nav-title'
         subnav: [
           { name: 'user-guide' }
           { name: 'faq' }
-          { name: 'resources' }
           { name: 'about' }
           { name: 'licence' }
-          { name: 'contact' }
         ]
       }
       { name: 'sponsor' }

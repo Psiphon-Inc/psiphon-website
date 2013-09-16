@@ -2,4 +2,103 @@
 layout: page
 ---
 
-<br><%= @tt @getPageInfo('about').title_key %> content here
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'about-contact-head' %></h2>
+    <p>
+      <%= @tt 'contact-email-para' %>
+    </p>
+    <p>
+      <a href="mailto:<%= @site.email %>"><%= @site.email %></a>
+    </p>
+    <p>
+      <%= @tt 'contact-sponsor-para' %>
+    </p>
+    <p>
+      <a href="mailto:<%= @tt 'contact-sponsor-email' %>"><%= @tt 'contact-sponsor-email' %></a>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'about-get-latest-info-head' %></h2>
+    <p>
+      <%= @tt 'about-get-latest-info-para-1-list-start' %>
+      <ul>
+        <li>
+          <a href="https://groups.google.com/group/psiphon3"><%= @tt 'about-get-latest-info-para-1-announcements-list' %></a>
+        </li>
+        <li>
+          <a href="https://groups.google.com/group/psiphon3-users"><%= @tt 'about-get-latest-info-para-1-users-list' %></a>
+        </li>
+        <li>
+          <a href="https://groups.google.com/group/psiphon3-developers"><%= @tt 'about-get-latest-info-para-1-developers-list' %></a>
+        </li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'about-privacy-head' %></h2>
+    <p>
+      <%= @tt 'privacy-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-para-2' %>
+    </p>
+    <ul>
+      <li>
+        <a href="<%- @tt 'privacy-canadian-privacy-commission-link-url' %>" target="_blank"><%= @tt 'privacy-canadian-privacy-commission-link-text' %></a>
+      </li>
+      <li>
+        <a href="<%- @tt 'privacy-ontario-privacy-commissioner-link-url' %>" target="_blank"><%= @tt 'privacy-ontario-privacy-commissioner-link-text' %></a>
+      </li>
+    </ul>
+    <p>
+      <%= @tt 'privacy-para-3' %>
+    </p>
+    <p>
+      <%- @tt 'privacy-para-4' %>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'about-open-source-head' %></h2>
+    <p>
+      <%- @tt 'about-open-source-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'about-open-source-para-2' %>
+    </p>
+    <p>
+      <%= @tt 'about-open-source-para-3-list-start' %>
+      <ul>
+        <li><a href="http://www.cryptopp.com/">Crypto++</a></li>
+        <li><a href="http://jsoncpp.sourceforge.net/">JsonCpp</a></li>
+        <li><a href="http://jquery.com/">jQuery</a></li>
+        <li><a href="http://www.mrhinkydink.com/potty.htm">PoTTY</a></li>
+        <li><a href="http://code.google.com/p/yaml-cpp/">yaml-cpp</a></li>
+        <li><a href="http://www.zlib.net/">zlib</a></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'about-open-source-para-4-list-start' %>
+      <ul>
+        <li><a href="http://code.google.com/p/badvpn/">BadVPN</a></li>
+        <li><a href="http://code.google.com/p/connectbot/">ConnectBot</a></li>
+        <li><a href="http://www.cleondris.ch/opensource/ssh2/">Ganymed SSH2</a></li>
+        <li><a href="http://jsocks.sourceforge.net/">JSocks</a></li>
+        <li><a href="http://jquery.com/">jQuery</a></li>
+        <li><a href="https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation">Obfuscated SSH patch</a></li>
+        <li><a href="http://code.google.com/p/roottools/">RootTools</a></li>
+        <li><a href="http://code.google.com/p/zirco-browser/">Zirco</a></li>
+        <li><a href="https://www.gosquared.com/resources/flag-icons">GoSquared flag icons</a></li>
+      </ul>
+    </p>
+  </div>
+</div>

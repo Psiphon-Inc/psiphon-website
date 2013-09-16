@@ -17,9 +17,6 @@
   "nav-title" : {
     "message": "Navigation"
   },
-  "learn-nav-title": {
-    "message": "Learn"
-  },
   "faq-title": {
     "message": "FAQ",
     "description": "title for the FAQ page"
@@ -28,21 +25,9 @@
     "message": "FAQ",
     "description": "text for the FAQ page navigation item"
   },
-  "resources-title": {
-    "message": "Resources",
-    "description": "title for the Resources"
-  },
   "resources-nav-title": {
     "message": "Resources",
-    "description": "text for the Resources page navigation item"
-  },
-  "about-title": {
-    "message": "About Us",
-    "description": "title for the About page"
-  },
-  "about-nav-title": {
-    "message": "About Us",
-    "description": "text for the About page navigation item"
+    "description": "title for the Resources"
   },
   "user-guide-title": {
     "message": "How to Use Psiphon",
@@ -292,36 +277,44 @@
   "how-do-i-get-psiphon-body-para-2": {
     "message": "Psiphon 3 clients for iOS and Mac OS X are coming soon."
   },
-  "resources-open-source-head": {
+  "about-title": {
+    "message": "About Us",
+    "description": "title for the About page"
+  },
+  "about-nav-title": {
+    "message": "About Us",
+    "description": "text for the About page navigation item"
+  },
+  "about-open-source-head": {
     "message": "Open Source"
   },
-  "resources-open-source-para-1": {
+  "about-open-source-para-1": {
     "message": "Psiphon 3 is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>."
   },
-  "resources-open-source-para-2": {
+  "about-open-source-para-2": {
     "message": "Psiphon 3 clients use the following open source components."
   },
-  "resources-open-source-para-3-list-start": {
+  "about-open-source-para-3-list-start": {
     "message": "Windows:"
   },
-  "resources-open-source-para-4-list-start": {
+  "about-open-source-para-4-list-start": {
     "message": "Android:"
   },
-  "resources-get-latest-info-head": {
+  "about-get-latest-info-head": {
     "message": "Get the latest information about Psiphon"
   },
-  "resources-get-latest-info-para-1-list-start": {
+  "about-get-latest-info-para-1-list-start": {
     "message": "Join our mailing lists:"
   },
-  "resources-get-latest-info-para-1-announcements-list": {
+  "about-get-latest-info-para-1-announcements-list": {
     "message": "Psiphon 3 Announcements",
     "description": "text for link to the Psiphon 3 Announcements mailing list"
   },
-  "resources-get-latest-info-para-1-users-list": {
+  "about-get-latest-info-para-1-users-list": {
     "message": "Psiphon 3 User Group",
     "description": "text for link to the Psiphon 3 Users mailing list"
   },
-  "resources-get-latest-info-para-1-developers-list": {
+  "about-get-latest-info-para-1-developers-list": {
     "message": "Psiphon 3 Developers",
     "description": "text for link to the Psiphon 3 Developers mailing list"
   },
@@ -568,10 +561,7 @@
   "licence-termination-terms-of-service-violations-para-2": {
     "message": "As the user, You are free to terminate this licence agreement at any time by discontinuing use of any and all parts of the Psiphon software, and deleting all instances of the software application from Your device."
   },
-  "contact-title": {
-    "message": "Contact Us"
-  },
-  "contact-nav-title": {
+  "about-contact-head": {
     "message": "Contact Us"
   },
   "contact-email-para": {
@@ -583,10 +573,7 @@
   "contact-sponsor-email": {
     "message": "sponsor@psiphon.ca"
   },
-  "privacy-title": {
-    "message": "Privacy Policy"
-  },
-  "privacy-nav-title": {
+  "about-privacy-head": {
     "message": "Privacy Policy"
   },
   "privacy-para-1": {
