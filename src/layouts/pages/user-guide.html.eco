@@ -2,8 +2,6 @@
 layout: page
 ---
 
-<%= @document.title %>
-
 <span class="anchor-target" id="android" data-anchor-text="<%= @tt 'user-guide-android-head' %>"></span><div class="row">
   <div class="col-md-12">
     <h2><%= @tt 'user-guide-android-head' %></h2>

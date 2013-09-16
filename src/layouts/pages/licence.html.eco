@@ -2,48 +2,46 @@
 layout: page
 ---
 
-<%= @document.title %>
-
-<div class="row user-guide">
+<div class="row">
   <div class="col-md-12">
     <p>
-      <%- @tt 'licence-para-1' %>
+      <%= @tt 'licence-para-1' %>
     </p>
     <p>
       <%- @tt 'licence-para-2' %>
     </p>
     <h2>
-      <%- @tt 'licence-terms-of-use-header' %>
+      <%= @tt 'licence-terms-of-use-header' %>
     </h2>
     <p>
-      <%- @tt 'licence-terms-of-use-para' %>
+      <%= @tt 'licence-terms-of-use-para' %>
     </p>
     <h2>
-      <%- @tt 'licence-distribution-header' %>
+      <%= @tt 'licence-distribution-header' %>
     </h2>
     <p>
-      <%- @tt 'licence-distribution-para' %>
+      <%= @tt 'licence-distribution-para' %>
     </p>
     <h2>
-      <%- @tt 'licence-personal-or-specified-use-header' %>
+      <%= @tt 'licence-personal-or-specified-use-header' %>
     </h2>
     <p>
-      <%- @tt 'licence-personal-or-specified-use-para' %>
+      <%= @tt 'licence-personal-or-specified-use-para' %>
     </p>
     <h2>
-      <%- @tt 'licence-statement-of-limitations-of-liability-header' %>
+      <%= @tt 'licence-statement-of-limitations-of-liability-header' %>
     </h2>
     <p>
-      <%- @tt 'licence-statement-of-limitations-of-liability-para' %>
+      <%= @tt 'licence-statement-of-limitations-of-liability-para' %>
     </p>
     <h2>
-      <%- @tt 'licence-termination-terms-of-service-violations-header' %>
+      <%= @tt 'licence-termination-terms-of-service-violations-header' %>
     </h2>
     <p>
-      <%- @tt 'licence-termination-terms-of-service-violations-para-1' %>
+      <%= @tt 'licence-termination-terms-of-service-violations-para-1' %>
     </p>
     <p>
-      <%- @tt 'licence-termination-terms-of-service-violations-para-2' %>
+      <%= @tt 'licence-termination-terms-of-service-violations-para-2' %>
     </p>
   </div>
 </div>

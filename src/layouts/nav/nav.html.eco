@@ -5,20 +5,20 @@ layout: page
 <div class="row">
   <div class="col-md-12">
     <ul>
-    <% for item in @sections: %>
-        <% if 'subnav' of item: %>
-          <li><%= @tt item.nav_title_key %>
+    <% for navItem in @navLayout: %>
+        <% if 'subnav' of navItem: %>
+          <li><%= @tt navItem.nav_title_key %>
             <ul>
-            <% for subitem in item['subnav']: %>
+            <% for subNavItem in navItem.subnav: %>
               <li>
-                <a href="/<%= @document.language %>/<%= subitem.filename %>"><%= @tt subitem.nav_title_key %></a>
+                <a href="/<%= @document.language %>/<%= @getPageInfo(subNavItem.name).filename %>"><%= @tt @getPageInfo(subNavItem.name).nav_title_key %></a>
               </li>
             <% end %>
             </ul>
           </li>
         <% else: %>
           <li>
-            <a href="/<%= @document.language %>/<%= item.filename %>"><%= @tt item.nav_title_key %></a>
+            <a href="/<%= @document.language %>/<%= @getPageInfo(navItem.name).filename %>"><%= @tt @getPageInfo(navItem.name).nav_title_key %></a>
           </li>
         <% end %>
     <% end %>

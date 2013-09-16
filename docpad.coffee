@@ -56,24 +56,69 @@ docpadConfig = {
     # Enabled languages
     languages: ['en', 'fa']
 
-    # Active sections on the website
-    # to deactivate comment out with '#'
-    # you can also change order here and it will reflect on page
-    sections: [
-      { name: 'download', filename: 'download.html', title_key: 'download-title', nav_title_key: 'download-nav-title' }
+    # Info about all pages
+    # This would be largely unnecessary if we could put metadata on layouts
+    pageInfo:
+      'download':
+        filename: 'download.html'
+        title_key: 'download-title'
+        nav_title_key: 'download-nav-title'
+
+      'user-guide':
+        filename: 'user-guide.html'
+        title_key: 'user-guide-title'
+        nav_title_key: 'user-guide-nav-title'
+
+      'faq':
+        filename: 'faq.html'
+        title_key: 'faq-title'
+        nav_title_key: 'faq-nav-title'
+
+      'resources':
+        filename: 'resources.html'
+        title_key: 'resources-title'
+        nav_title_key: 'resources-nav-title'
+
+      'about':
+        filename: 'about.html'
+        title_key: 'about-title'
+        nav_title_key: 'about-nav-title'
+
+      'sponsor':
+        filename: 'sponsor.html'
+        title_key: 'sponsor-title'
+        nav_title_key: 'sponsor-nav-title'
+
+      'licence':
+        filename: 'licence.html'
+        title_key: 'licence-title'
+        nav_title_key: 'licence-nav-title'
+
+      'contact':
+        filename: 'contact.html'
+        title_key: 'contact-title'
+        nav_title_key: 'contact-nav-title'
+
+      'privacy':
+        filename: 'privacy.html'
+        title_key: 'privacy-title'
+        nav_title_key: 'privacy-nav-title'
+
+    navLayout: [
+      { name: 'download' }
       {
         name: 'learn',
         nav_title_key: 'learn-nav-title'
         subnav: [
-          { name: 'user-guide', filename: 'user-guide.html', title_key: 'user-guide-title', nav_title_key: 'user-guide-nav-title' }
-          { name: 'faq', filename: 'faq.html', title_key: 'faq-title', nav_title_key: 'faq-nav-title' }
-          { name: 'resources', filename: 'resources.html', title_key: 'resources-title', nav_title_key: 'resources-nav-title' }
-          { name: 'about', filename: 'about.html', title_key: 'about-title', nav_title_key: 'about-nav-title' }
-          { name: 'sponsor', filename: 'sponsor.html', title_key: 'sponsor-title', nav_title_key: 'sponsor-nav-title' }
-          { name: 'licence', filename: 'licence.html', title_key: 'licence-title', nav_title_key: 'licence-nav-title' }
+          { name: 'user-guide' }
+          { name: 'faq' }
+          { name: 'resources' }
+          { name: 'about' }
+          { name: 'licence' }
+          { name: 'contact' }
         ]
       }
-      { name: 'sponsor', filename: 'sponsor.html', title_key: 'sponsor-title', nav_title_key: 'sponsor-nav-title' }
+      { name: 'sponsor' }
     ]
 
     downloads:
@@ -84,21 +129,11 @@ docpadConfig = {
     # -----------------------------
     # Helper Functions
 
-    # Only recursive calls should provide `sections`.
-    # Throws exceptions if `name` not found.
-    getSectionInfo: (name, sections=null) ->
-      if not sections then sections = @sections
-      for section in sections
-        if 'subnav' of section
-          subsection = @getSectionInfo(name, section.subnav)
-          return subsection if subsection
-
-        if section.name == name
-          return section
-
-      if sections == @sections
-        throw "bad section name: #{name}"
-      return null
+    # Throws exception if `name` not found.
+    getPageInfo: (name) ->
+      if name not of @pageInfo
+        throw "bad page name: #{name}"
+      return @pageInfo[name]
 
     # The title might need to be translated from a string key.
     # `document` arugment is optional -- if not supplied, @document will be used
@@ -111,7 +146,7 @@ docpadConfig = {
 
       title_key = document.title_key
       if not title_key?
-        title_key = @getSectionInfo(document.basename).title_key
+        title_key = @getPageInfo(document.basename).title_key
 
       if title_key?
         return @tt title_key

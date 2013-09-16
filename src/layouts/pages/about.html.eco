@@ -2,6 +2,4 @@
 layout: page
 ---
 
-<%= @document.title %>
-
-<br>About content here
+<br><%= @tt @getPageInfo('about').title_key %> content here
