@@ -1,6 +1,6 @@
 <!-- FOOTER -->
 <footer>
-  <div class="row <%- @ifRTL 'navbar-left', 'navbar-right' %>">
+  <div class="row <%- @ifRTL 'text-left', 'text-right' %>">
     <div class="col-md-12">
       <p>&copy; <%= @site.companyName %> <%- (new Date()).getFullYear() %></p>
     </div>

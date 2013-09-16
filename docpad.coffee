@@ -69,6 +69,7 @@ docpadConfig = {
           { name: 'faq', filename: 'faq.html', title_key: 'faq-title', nav_title_key: 'faq-nav-title' }
           { name: 'resources', filename: 'resources.html', title_key: 'resources-title', nav_title_key: 'resources-nav-title' }
           { name: 'about', filename: 'about.html', title_key: 'about-title', nav_title_key: 'about-nav-title' }
+          { name: 'sponsor', filename: 'sponsor.html', title_key: 'sponsor-title', nav_title_key: 'sponsor-nav-title' }
         ]
       }
     ]
@@ -180,15 +181,18 @@ docpadConfig = {
 
     rtl_languages: ['ar', 'fa', 'he']
 
+
     # `document` arugment is optional -- if not supplied, @document will be used
     isRTL: (document=null) ->
       if not document
         document = @document
       document.language in @rtl_languages
 
+
     # `document` arugment is optional -- if not supplied, @document will be used
     ifRTL: (rtlValue, ltrValue='', document=null) ->
       if @isRTL(document) then rtlValue else ltrValue
+
 
     languageLabel: (languageCode) ->
       map =
@@ -214,6 +218,7 @@ docpadConfig = {
       else
         languageCode
 
+
     # Returns the translated document object if `document` is available as a
     # translation in `lang`, otherwise returns falsy.
     documentTranslated: (document, targetLang) ->
@@ -228,6 +233,7 @@ docpadConfig = {
 
       return no
 
+
     # Returns the date formatted for the locale
     formatDate: (date) ->
       # Maybe we should use the JavaScript Date toLocaleDateString()?
@@ -235,6 +241,32 @@ docpadConfig = {
       month = date.getUTCMonth()
       if month < 10 then month = '0' + month
       return "#{date.getUTCFullYear()}-#{month}-#{date.getUTCDate()}"
+
+
+    # Get the language appropriate absolute URL for a language-relative URL.
+    # For example `getPathURL('/download.html')` might return `/en/download.html`.
+    # `relativeToDocument` is optional and defaults to `@document`.
+    getPageURL: (partialURL, relativeToDocument=null) ->
+      if partialURL[0] != '/'
+        throw 'partialURL must language-absolute: ' + partialURL
+
+      if not relativeToDocument
+        relativeToDocument = @document
+
+      # document url has a leading '/'
+      LANG_SPLIT_INDEX = 1
+      targetLang = relativeToDocument.url.split('/')[LANG_SPLIT_INDEX]
+      if targetLang not in @languages
+        # Current document isn't language-specific. Default English.
+        targetLang = 'en'
+
+      translatedURL = '/' + targetLang + partialURL
+      translatedDoc = @getCollection('documents').findAllLive({url: translatedURL}).toJSON()
+      return translatedDoc[0].url if translatedDoc.length > 0
+
+      # There's no language-specific version of this file. Just return the argument.
+      return partialURL
+
 
   # =================================
   # Collections

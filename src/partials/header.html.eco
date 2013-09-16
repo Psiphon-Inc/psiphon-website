@@ -1,0 +1,16 @@
+<!-- HEADER -->
+<header>
+  <div class="row sponsor-info">
+    <div class="col-md-12 sponsored-by">
+      Psiphon is sponsored by
+    </div>
+    <div class="col-md-12 sponsor-blank">
+      &nbsp;
+    </div>
+    <div class="col-md-12 become-sponsor <%- @ifRTL 'text-left', 'text-right' %>">
+      <a href="<%= @getPageURL '/sponsor.html' %>">Become a sponsor</a>
+    </div>
+    <hr class="sponsor-separator"/>
+  </div>
+</header>
+<!-- /HEADER -->

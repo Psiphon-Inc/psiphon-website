@@ -46,6 +46,8 @@
 
   <div class="container">
 
+    <%-@partial('header.html', @)%>
+
     <!-- CONTENT -->
     <section id="content" class="content">
       <%- @content %>
