@@ -70,8 +70,10 @@ docpadConfig = {
           { name: 'resources', filename: 'resources.html', title_key: 'resources-title', nav_title_key: 'resources-nav-title' }
           { name: 'about', filename: 'about.html', title_key: 'about-title', nav_title_key: 'about-nav-title' }
           { name: 'sponsor', filename: 'sponsor.html', title_key: 'sponsor-title', nav_title_key: 'sponsor-nav-title' }
+          { name: 'licence', filename: 'licence.html', title_key: 'licence-title', nav_title_key: 'licence-nav-title' }
         ]
       }
+      { name: 'sponsor', filename: 'sponsor.html', title_key: 'sponsor-title', nav_title_key: 'sponsor-nav-title' }
     ]
 
     downloads:

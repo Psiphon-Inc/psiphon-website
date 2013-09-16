@@ -1,8 +1,7 @@
 <!-- FOOTER -->
 <footer>
-  <div class="row <%- @ifRTL 'text-left', 'text-right' %>">
+  <div class="row">
     <div class="col-md-12">
-      <p>&copy; <%= @site.companyName %> <%- (new Date()).getFullYear() %></p>
     </div>
   </div>
 </footer>
