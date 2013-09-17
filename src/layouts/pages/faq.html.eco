@@ -10,7 +10,7 @@ layout: page
 </div>
 
 <div class="row faq-qa">
-  <span class="anchor-target" id="is_my_psiphon_3_for_windows_authentic" data-anchor-text="<%= @tt 'faq-authentic-windows-question' %>"></span>
+  <span class="anchor-target" id="authentic-windows" data-anchor-text="<%= @tt 'faq-authentic-windows-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-authentic-windows-question' %></h3>
   </div>
@@ -40,7 +40,7 @@ layout: page
 </div>
 
 <div class="row faq-qa">
-  <span class="anchor-target" id="is_my_psiphon_3_for_android_authentic" data-anchor-text="<%= @tt 'faq-authentic-android-question' %>"></span>
+  <span class="anchor-target" id="authentic-android" data-anchor-text="<%= @tt 'faq-authentic-android-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-authentic-android-question' %></h3>
   </div>
@@ -80,7 +80,7 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</pre>
 </div>
 
 <div class="row faq-qa">
-  <span class="anchor-target" id="what_user_information_does_psiphon_3_collect" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
+  <span class="anchor-target" id="information-collected" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-information-collected-question' %></h3>
   </div>
