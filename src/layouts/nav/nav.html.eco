@@ -11,14 +11,14 @@ layout: page
             <ul>
             <% for subNavItem in navItem.subnav: %>
               <li>
-                <a href="/<%= @document.language %>/<%= @getPageInfo(subNavItem.name).filename %>"><%= @tt @getPageInfo(subNavItem.name).nav_title_key %></a>
+                <a href="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>"><%= @tt @getPageInfo(subNavItem.name).nav_title_key %></a>
               </li>
             <% end %>
             </ul>
           </li>
         <% else: %>
           <li>
-            <a href="/<%= @document.language %>/<%= @getPageInfo(navItem.name).filename %>"><%= @tt @getPageInfo(navItem.name).nav_title_key %></a>
+            <a href="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>"><%= @tt @getPageInfo(navItem.name).nav_title_key %></a>
           </li>
         <% end %>
     <% end %>

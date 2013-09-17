@@ -28,8 +28,8 @@
               </a>
               <ul class="dropdown-menu">
               <% for subNavItem in navItem.subnav: %>
-                <li about="/<%= @document.language %>/<%= @getPageInfo(subNavItem.name).filename %>" class="<%- @ifRTL 'navbar-right' %>">
-                  <a href="/<%= @document.language %>/<%= @getPageInfo(subNavItem.name).filename %>" title="<%= @tt @getPageInfo(subNavItem.name).nav_title_key %>" class="nav-link">
+                <li about="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" class="<%- @ifRTL 'navbar-right' %> <%= if @document.url == @getPageURL(@getPageInfo(subNavItem.name).filename) then 'active' else '' %>">
+                  <a href="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" title="<%= @tt @getPageInfo(subNavItem.name).nav_title_key %>" class="nav-link">
                     <%= @tt @getPageInfo(subNavItem.name).nav_title_key %>
                   </a>
                 </li>
@@ -37,8 +37,8 @@
               </ul>
             </li>
           <% else: %>
-            <li about="/<%= @document.language %>/<%= @getPageInfo(navItem.name).filename %>" class="<%- @ifRTL 'navbar-right' %>">
-              <a href="/<%= @document.language %>/<%= @getPageInfo(navItem.name).filename %>" title="<%= @tt @getPageInfo(navItem.name).nav_title_key %>" class="nav-link">
+            <li about="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" class="<%- @ifRTL 'navbar-right' %> <%= if @document.url == @getPageURL(@getPageInfo(navItem.name).filename) then 'active' else '' %>">
+              <a href="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" title="<%= @tt @getPageInfo(navItem.name).nav_title_key %>" class="nav-link">
                 <%= @tt @getPageInfo(navItem.name).nav_title_key %>
               </a>
             </li>

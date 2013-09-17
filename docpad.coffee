@@ -60,32 +60,32 @@ docpadConfig = {
     # This would be largely unnecessary if we could put metadata on layouts
     pageInfo:
       'download':
-        filename: 'download.html'
+        filename: '/download.html'
         title_key: 'download-title'
         nav_title_key: 'download-nav-title'
 
       'user-guide':
-        filename: 'user-guide.html'
+        filename: '/user-guide.html'
         title_key: 'user-guide-title'
         nav_title_key: 'user-guide-nav-title'
 
       'faq':
-        filename: 'faq.html'
+        filename: '/faq.html'
         title_key: 'faq-title'
         nav_title_key: 'faq-nav-title'
 
       'sponsor':
-        filename: 'sponsor.html'
+        filename: '/sponsor.html'
         title_key: 'sponsor-title'
         nav_title_key: 'sponsor-nav-title'
 
       'about':
-        filename: 'about.html'
+        filename: '/about.html'
         title_key: 'about-title'
         nav_title_key: 'about-nav-title'
 
       'license':
-        filename: 'license.html'
+        filename: '/license.html'
         title_key: 'license-title'
         nav_title_key: 'license-nav-title'
 
@@ -268,7 +268,7 @@ docpadConfig = {
     # `relativeToDocument` is optional and defaults to `@document`.
     getPageURL: (partialURL, relativeToDocument=null) ->
       if partialURL[0] != '/'
-        throw 'partialURL must language-absolute: ' + partialURL
+        throw 'partialURL must be language-absolute: ' + partialURL
 
       if not relativeToDocument
         relativeToDocument = @document
