@@ -1,5 +1,6 @@
 @import "../../files/vendor/twitter-bootstrap/less/mixins";
 @import "../../files/vendor/twitter-bootstrap/less/variables";
+@import "../../files/vendor/twitter-bootstrap/less/responsive-utilities.less";
 @import "_rtl-support";
 @import "_annotations";
 
@@ -40,21 +41,26 @@ h1 {
   .make-rtl-md-col(3, 9, 0);
 }
 
+.download-item img {
+  .img-responsive;
+  max-height: 5em;
+}
+
 .download-os-logo {
-  width: 2em;
-  margin-right: 1em;
 }
 
 .download-head {
   .make-sm-column(12);
 }
 
-.download-os {
+.download-os, .download-os-with-qr {
   .make-rtl-sm-col(0, 2, 10);
+  .make-rtl-xs-col(0, 4, 8);
 }
 
 .download-link {
   .make-rtl-sm-col(2, 10, 0);
+  .make-rtl-xs-col(4, 8, 0);
 }
 
 .download-link-with-qr {
@@ -63,6 +69,7 @@ h1 {
 
 .download-qr {
   .make-rtl-sm-col(10, 2, 0);
+  .hidden-xs;
 }
 
 .user-guide img {

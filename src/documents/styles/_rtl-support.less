@@ -1,6 +1,15 @@
 @import "../../files/vendor/twitter-bootstrap/less/mixins";
 @import "../../files/vendor/twitter-bootstrap/less/variables";
 
+/* These aren't provided by mixins.less */
+.make-xs-column-push(@columns) {
+  left: percentage((@columns / @grid-columns));
+}
+.make-xs-column-pull(@columns) {
+  right: percentage((@columns / @grid-columns));
+}
+
+
 /* The .make-rtl-md-col mixin helps us to specify div widths that will
  * automatically reorient themselves in a right-to-left layout.
  * Note that targets to the left of center get pushed, targets to the right
@@ -38,6 +47,22 @@
 .make-rtl-sm-col(@cols-to-the-left; @columns; @cols-to-the-right) when (@cols-to-the-left > @cols-to-the-right) {
   body[dir="rtl"] & {
     .make-sm-column-pull(@cols-to-the-left - @cols-to-the-right);
+  }
+}
+
+.make-rtl-xs-col(@cols-to-the-left; @columns; @cols-to-the-right) {
+  .make-xs-column(@columns);
+}
+
+.make-rtl-xs-col(@cols-to-the-left; @columns; @cols-to-the-right) when (@cols-to-the-left < @cols-to-the-right) {
+  body[dir="rtl"] & {
+    .make-xs-column-push(@cols-to-the-right - @cols-to-the-left);
+  }
+}
+
+.make-rtl-xs-col(@cols-to-the-left; @columns; @cols-to-the-right) when (@cols-to-the-left > @cols-to-the-right) {
+  body[dir="rtl"] & {
+    .make-xs-column-pull(@cols-to-the-left - @cols-to-the-right);
   }
 }
 

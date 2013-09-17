@@ -2,38 +2,67 @@
 layout: page
 ---
 
-<div class="row">
-  <div class="download-head">
-    <h2><%= @tt 'download-direct-head' %></h2>
+<div class="row alert alert-info download-item">
+  <div class="download-os-with-qr">
+    <a href="<%- @downloads.playstore %>">
+      <img class="download-os-logo" src="/images/android/google-play-store.png">
+    </a>
   </div>
-</div>
-
-<div class="row alert alert-info">
-  <div class="download-os">
-    <img class="download-os-logo" src="/images/windows-logo.png">
-  </div>
-  <div class="download-link">
+  <div class="download-link-with-qr">
     <h4>
-      <a href="<%- @downloads.windows %>" class="alert-link">
-        <%= @tt 'download-direct-windows' %>
+      <a href="<%- @downloads.playstore %>" class="alert-link">
+        <%= @tt 'download-android-playstore' %>
       </a>
     </h4>
+    <p>
+      <%- @tt 'download-android-playstore-description' %>
+    </p>
+  </div>
+  <div class="download-qr">
+    <a href="<%- @downloads.playstore %>">
+      <img class="img-responsive" src="/images/android/android-download-qr.png">
+    </a>
   </div>
 </div>
 
-<div class="row alert alert-info">
-  <div class="download-os">
-    <img class="download-os-logo" src="/images/android-logo.png">
+<div class="row alert alert-info download-item">
+  <div class="download-os-with-qr">
+    <a href="<%- @downloads.android %>">
+      <img class="download-os-logo" src="/images/android/android-logo.png">
+    </a>
   </div>
   <div class="download-link-with-qr">
     <h4>
       <a href="<%- @downloads.android %>" class="alert-link">
-        <%= @tt 'download-direct-android' %>
+        <%= @tt 'download-android-direct' %>
       </a>
     </h4>
+    <p>
+      <%- @tt 'download-android-direct-description' %>
+    </p>
   </div>
   <div class="download-qr">
-    <img class="img-responsive" src="/images/android-download-qr.png">
+    <a href="<%- @downloads.android %>">
+      <img class="img-responsive" src="/images/android/android-download-qr.png">
+    </a>
+  </div>
+</div>
+
+<div class="row alert alert-info download-item">
+  <div class="download-os">
+    <a href="<%- @downloads.windows %>">
+      <img class="download-os-logo" src="/images/windows-logo.png">
+    </a>
+  </div>
+  <div class="download-link">
+    <h4>
+      <a href="<%- @downloads.windows %>" class="alert-link">
+        <%= @tt 'download-windows-direct' %>
+      </a>
+    </h4>
+    <p>
+      <%= @tt 'download-windows-direct-description' %>
+    </p>
   </div>
 </div>
 
@@ -43,16 +72,19 @@ layout: page
   </div>
 </div>
 
-<div class="row alert alert-info">
+<div class="row alert alert-info download-item">
   <div class="download-os">
     <img class="download-os-logo" src="/images/windows-logo.png">
-    <img class="download-os-logo" src="/images/android-logo.png">
+    <img class="download-os-logo" src="/images/android/android-logo.png">
   </div>
   <div class="download-link">
     <h4>
       <a href="mailto:<%- @downloads.email %>" class="alert-link">
-        <%= @tt 'download-via-email' %>
+        <%= @downloads.email %>
       </a>
     </h4>
+    <p>
+      <%= @tt 'download-via-email-description' %>
+    </p>
   </div>
 </div>

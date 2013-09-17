@@ -108,6 +108,7 @@ docpadConfig = {
       windows: '/psiphon3.exe'
       android: '/PsiphonAndroid.apk'
       email: 'get@psiphon3.com'
+      playstore: 'https://play.google.com/store/apps/details?id=com.psiphon3'
 
     # -----------------------------
     # Helper Functions
