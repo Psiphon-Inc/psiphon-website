@@ -2,6 +2,12 @@
 layout: page
 ---
 
+<div class="row download-list-join">
+  <div class="col-md-12">
+    <%- @tt 'download-list-join' %>
+  </div>
+</div>
+
 <div class="row alert alert-info download-item">
   <div class="download-os-with-qr">
     <a href="<%- @downloads.playstore %>">

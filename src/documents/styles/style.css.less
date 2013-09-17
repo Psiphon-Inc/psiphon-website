@@ -28,6 +28,15 @@ h1 {
   display: inline-block;
 }
 
+.index-splash {
+  margin-bottom: 2em;
+}
+
+.index-splash img {
+  // Center image
+  margin: auto;
+}
+
 .faq-qa {
   margin-top: 3em;
   border-top: thin lighten(@text-color, 60%) solid;
@@ -41,35 +50,53 @@ h1 {
   .make-rtl-md-col(3, 9, 0);
 }
 
+/*
+ * Download page
+ */
+
 .download-item img {
   .img-responsive;
   max-height: 5em;
-}
-
-.download-os-logo {
 }
 
 .download-head {
   .make-sm-column(12);
 }
 
-.download-os, .download-os-with-qr {
-  .make-rtl-sm-col(0, 2, 10);
-  .make-rtl-xs-col(0, 4, 8);
+@media (max-width: @screen-xs-max) {
+  .download-os, .download-os-with-qr {
+    .make-rtl-xs-col(0, 4, 8);
+  }
+
+  .download-link, .download-link-with-qr {
+    .make-rtl-xs-col(4, 8, 0);
+  }
+
+  .download-qr {
+    display: none !important;
+  }
 }
 
-.download-link {
-  .make-rtl-sm-col(2, 10, 0);
-  .make-rtl-xs-col(4, 8, 0);
+@media (min-width: @screen-sm) {
+  .download-os, .download-os-with-qr {
+    .make-rtl-sm-col(0, 2, 10);
+  }
+
+  .download-link{
+    .make-rtl-sm-col(2, 10, 0);
+  }
+
+  .download-link-with-qr {
+    .make-rtl-sm-col(2, 8, 2);
+  }
+
+  .download-qr {
+    .make-rtl-sm-col(10, 2, 0);
+  }
 }
 
-.download-link-with-qr {
-  .make-rtl-sm-col(2, 8, 2);
-}
-
-.download-qr {
-  .make-rtl-sm-col(10, 2, 0);
-  .hidden-xs;
+.download-list-join {
+  margin-bottom: 2em;
 }
 
 .user-guide img {

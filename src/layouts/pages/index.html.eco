@@ -2,22 +2,11 @@
 layout: default
 ---
 
-<div class="row">
-  <div class="col-md-12 jumbotron">
-    <div class="text-center">
-      <img class="img-responsive" src="/images/psiphon-wordart.jpg">
-    </div>
-    <h1><%= @getTitle() %></h1>
-    <p class="text-right">
-      <a class="btn btn-primary btn-lg" href="./download.html"><%= @tt 'download-now-button' %></a>
-      </p>
-  </div>
-</div>
-
-
-<div class="row">
-  <div class="col-md-6-center">
-    <%-@partial('alert.html', @)%>
+<div class="row index-splash">
+  <div class="col-md-12">
+    <a href="./download.html">
+      <img class="img-responsive" src="/images/splash.png">
+    </a>
   </div>
 </div>
 
