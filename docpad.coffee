@@ -84,10 +84,10 @@ docpadConfig = {
         title_key: 'about-title'
         nav_title_key: 'about-nav-title'
 
-      'licence':
-        filename: 'licence.html'
-        title_key: 'licence-title'
-        nav_title_key: 'licence-nav-title'
+      'license':
+        filename: 'license.html'
+        title_key: 'license-title'
+        nav_title_key: 'license-nav-title'
 
     navLayout: [
       { name: 'download' }
@@ -98,7 +98,7 @@ docpadConfig = {
           { name: 'user-guide' }
           { name: 'faq' }
           { name: 'about' }
-          { name: 'licence' }
+          { name: 'license' }
         ]
       }
       { name: 'sponsor' }

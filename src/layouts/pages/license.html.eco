@@ -1,0 +1,47 @@
+---
+layout: page
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <p>
+      <%= @tt 'license-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'license-para-2' %>
+    </p>
+    <h2>
+      <%= @tt 'license-terms-of-use-header' %>
+    </h2>
+    <p>
+      <%= @tt 'license-terms-of-use-para' %>
+    </p>
+    <h2>
+      <%= @tt 'license-distribution-header' %>
+    </h2>
+    <p>
+      <%= @tt 'license-distribution-para' %>
+    </p>
+    <h2>
+      <%= @tt 'license-personal-or-specified-use-header' %>
+    </h2>
+    <p>
+      <%= @tt 'license-personal-or-specified-use-para' %>
+    </p>
+    <h2>
+      <%= @tt 'license-statement-of-limitations-of-liability-header' %>
+    </h2>
+    <p>
+      <%= @tt 'license-statement-of-limitations-of-liability-para' %>
+    </p>
+    <h2>
+      <%= @tt 'license-termination-terms-of-service-violations-header' %>
+    </h2>
+    <p>
+      <%= @tt 'license-termination-terms-of-service-violations-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'license-termination-terms-of-service-violations-para-2' %>
+    </p>
+  </div>
+</div>
