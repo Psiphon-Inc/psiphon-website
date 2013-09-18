@@ -48,6 +48,7 @@
       </ul>
 
       <!-- LANGUAGE SWITCHER -->
+      <% if @languages.length > 1: %>
       <ul class="nav navbar-nav <%- @ifRTL 'navbar-left', 'navbar-right' %>">
         <li class="languages dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="<%= @getPageURL '/nav/language.html' %>">
@@ -67,6 +68,7 @@
           </ul>
         </li>
       </ul>
+      <% end %>
       <!-- /LANGUAGE SWITCHER -->
 
     </div>
