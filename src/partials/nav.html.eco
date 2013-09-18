@@ -8,10 +8,10 @@
         <span class="icon-bar"></span>
       </button>
 
-      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="/<%= @document.language %>/index.html">
-        <img src="/images/psiphon-logo-48.png" alt="Psiphon">
+      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getPageURL '/index.html' %>">
+        <img src="<%= @relativeToRoot '/images/psiphon-logo-48.png' %>" alt="Psiphon">
       </a>
-      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="/<%= @document.language %>/index.html">
+      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getPageURL '/index.html' %>">
         <%= @tt 'psiphon' %>
       </a>
     </div>
@@ -23,7 +23,7 @@
         <% for navItem in @navLayout: %>
           <% if 'subnav' of navItem: %>
             <li class="dropdown <%- @ifRTL 'navbar-right' %>">
-              <a href="/<%= @document.language %>/nav/nav.html" class="dropdown-toggle" data-toggle="dropdown">
+              <a href="<%= @getPageURL '/nav/nav.html'%>" class="dropdown-toggle" data-toggle="dropdown">
                 <%= @tt navItem.nav_title_key %> <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
@@ -50,7 +50,7 @@
       <!-- LANGUAGE SWITCHER -->
       <ul class="nav navbar-nav <%- @ifRTL 'navbar-left', 'navbar-right' %>">
         <li class="languages dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="/<%= @document.language %>/nav/language.html">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="<%= @getPageURL '/nav/language.html' %>">
             <%= @languageLabel @document.language %> <b class="caret"></b>
           </a>
           <ul class="dropdown-menu" role="menu">
@@ -59,7 +59,7 @@
               <!-- If there's no translated equivalent to the current page, just link to the translated index page -->
               <% langDoc = @documentTranslated @document, language %>
               <% langURL = if langDoc then langDoc.url else "/#{language}/"  %>
-              <a href="<%= langURL %>">
+              <a href="<%= @relativeToRoot langURL %>">
                 <%= @languageLabel language %>
               </a>
             </li>

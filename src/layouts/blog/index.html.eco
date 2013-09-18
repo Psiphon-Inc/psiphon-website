@@ -20,7 +20,7 @@ layout: page
     <ul>
     <% for document in @getCollection('posts').findAllLive({language: @document.language}).toJSON(): %>
       <li>
-        <a href="<%= document.url %>">
+        <a href="<%= @relativeToRoot document.url %>">
           <%= document.title %>
         </a>
         <%= @formatDate document.date %>
@@ -37,7 +37,7 @@ layout: page
     <ul>
     <% for document in @getCollection('posts').findAllLive({language: 'en'}).toJSON(): %>
       <li>
-        <a href="<%= document.url %>">
+        <a href="<%= @relativeToRoot document.url %>">
           <%= document.title %>
         </a>
         <%= @formatDate document.date %>

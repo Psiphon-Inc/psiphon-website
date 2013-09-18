@@ -1,5 +1,5 @@
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="3; url=/en/">
+<meta http-equiv="refresh" content="3; url=<%= @document.pathToRoot %>/en/index.html">
 
 <script>
   var defaultLanguage = 'en';
@@ -18,9 +18,9 @@
     redirectLanguage = language.substr(0, 2);
   }
 
-  window.location.href = '/' + redirectLanguage + '/';
+  window.location.href = '<%= @document.pathToRoot %>/' + redirectLanguage + '/index.html';
 </script>
 
 <title>Page Redirection</title>
 
-If you are not redirected automatically, follow the <a href='/en/'>link to the Psiphon home page</a>.
+If you are not redirected automatically, follow the <a href='<%= @document.pathToRoot %>/en/index.html'>link to the Psiphon home page</a>.

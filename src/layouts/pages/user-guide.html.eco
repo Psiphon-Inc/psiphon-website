@@ -20,14 +20,14 @@ layout: page
       <%= @tt 'user-guide-android-para-2' %>
     </p>
     <p>
-      <img class="img-responsive" src="/images/user-guide/user-guide-android-1.png" alt="<%= @tt 'user-guide-android-image-1-alt' %>">
+      <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/user-guide-android-1.png' %>" alt="<%= @tt 'user-guide-android-image-1-alt' %>">
     </p>
     <p>
       <%= @tt 'user-guide-android-para-3' %>
     </p>
     <p>
       <figure class="perma-annotated">
-        <img class="img-responsive" src="/images/user-guide/psiphon-android-ui-status.png" alt="<%= @tt 'user-guide-android-ui-status-image-alt' %>">
+        <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/psiphon-android-ui-status.png' %>" alt="<%= @tt 'user-guide-android-ui-status-image-alt' %>">
         <figcaption>
           <b><%- @tt 'generic-image-figcaption' %></b>
           <ul>
@@ -43,7 +43,7 @@ layout: page
     </p>
     <p>
       <figure class="perma-annotated">
-        <img class="img-responsive" src="/images/user-guide/psiphon-android-ui-logs.png" alt="<%= @tt 'user-guide-android-ui-logs-image-alt' %>">
+        <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/psiphon-android-ui-logs.png' %>" alt="<%= @tt 'user-guide-android-ui-logs-image-alt' %>">
         <figcaption>
           <b><%- @tt 'generic-image-figcaption' %></b>
           <ul>
@@ -55,7 +55,7 @@ layout: page
     </p>
     <p>
       <figure class="perma-annotated">
-        <img class="img-responsive" src="/images/user-guide/psiphon-android-ui-statistics.png" alt="<%= @tt 'user-guide-android-ui-statistics-image-alt' %>">
+        <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/psiphon-android-ui-statistics.png' %>" alt="<%= @tt 'user-guide-android-ui-statistics-image-alt' %>">
         <figcaption>
           <b><%- @tt 'generic-image-figcaption' %></b>
           <ul>
@@ -74,7 +74,7 @@ layout: page
     </p>
     <p>
       <figure class="perma-annotated">
-        <img class="img-responsive" src="<%- @ttURL '/images/user-guide/user-guide-android-3.png' %>" alt="<%= @tt 'user-guide-android-image-3-alt' %>">
+        <img class="img-responsive" src="<%- @relativeToRoot @ttURL '/images/user-guide/user-guide-android-3.png' %>" alt="<%= @tt 'user-guide-android-image-3-alt' %>">
         <figcaption>
           <b><%- @tt 'generic-image-figcaption' %></b>
           <ul>
@@ -107,13 +107,13 @@ layout: page
       <%= @tt 'user-guide-windows-para-1' %>
     </p>
     <p>
-      <img class="img-responsive" src="/images/user-guide/user-guide-windows-1.png" alt="<%= @tt 'user-guide-windows-image-1-alt' %>">
+      <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/user-guide-windows-1.png' %>" alt="<%= @tt 'user-guide-windows-image-1-alt' %>">
     </p>
     <p>
       <%= @tt 'user-guide-windows-para-2' %>
     </p>
     <p>
-      <img class="img-responsive" src="/images/user-guide/user-guide-windows-2.png" alt="<%= @tt 'user-guide-windows-image-2-alt' %>">
+      <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/user-guide-windows-2.png' %>" alt="<%= @tt 'user-guide-windows-image-2-alt' %>">
     </p>
     <p>
       <%= @tt 'user-guide-windows-para-3' %>
@@ -125,7 +125,7 @@ layout: page
       <%= @tt 'user-guide-windows-para-5' %>
     </p>
     <p>
-      <img class="img-responsive" src="/images/user-guide/user-guide-windows-3.png" alt="<%= @tt 'user-guide-windows-image-3-alt' %>">
+      <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/user-guide-windows-3.png' %>" alt="<%= @tt 'user-guide-windows-image-3-alt' %>">
     </p>
     <p>
       <%= @tt 'user-guide-windows-para-6' %>

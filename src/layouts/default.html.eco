@@ -25,11 +25,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Icons -->
-  <link rel="shortcut icon" href="/images/icons/favicon.ico">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/icons/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="/images/icons/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="<%= @document.pathToRoot %>/images/icons/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= @document.pathToRoot %>/images/icons/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= @document.pathToRoot %>/images/icons/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%= @document.pathToRoot %>/images/icons/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="<%= @document.pathToRoot %>/images/icons/apple-touch-icon-57-precomposed.png">
 
   <!-- Shims: IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -37,7 +37,7 @@
   <![endif]-->
 
   <!-- Styles -->
-  <%- @getBlock('styles').add(@site.styles).toHTML() %>
+  <%- @getBlock('styles').add(@document.pathToRoot+style for style in @site.styles).toHTML() %>
 </head>
 
 <body lang="<%= @document.language %>" dir="<%= if @document.language in @rtl_languages then 'rtl' else 'ltr' %>" <%- "style='direction: rtl'" if @document.language in @rtl_languages %>>
@@ -59,6 +59,6 @@
   </div><!-- /container -->
 
   <!-- Scripts -->
-  <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+  <%- @getBlock('scripts').add(@document.pathToRoot+script for script in @site.scripts).toHTML() %>
 </body>
 </html>

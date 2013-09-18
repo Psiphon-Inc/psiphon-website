@@ -7,7 +7,7 @@ layout: page
     <ul>
     <% for language in @languages: %>
       <li>
-        <a href="/<%= language %>/"><%= @languageLabel language %></a>
+        <a href="<%= @document.pathToRoot %>/<%= language %>/"><%= @languageLabel language %></a>
       </li>
     <% end %>
     </ul>

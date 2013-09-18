@@ -11,13 +11,10 @@ docpadConfig = {
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://psiphon3.com"
+      url: "http://play.psiphon3.com"
 
       # Here are some old site urls that you would like to redirect from
-      oldUrls: [
-        'www.website.com',
-        'website.herokuapp.com'
-      ]
+      oldUrls: []
 
       # The website description (for SEO)
       description: """
@@ -266,27 +263,23 @@ docpadConfig = {
 
     # Get the language appropriate absolute URL for a language-relative URL.
     # For example `getPathURL('/download.html')` might return `/en/download.html`.
-    # `relativeToDocument` is optional and defaults to `@document`.
-    getPageURL: (partialURL, relativeToDocument=null) ->
+    getPageURL: (partialURL) ->
       if partialURL[0] != '/'
         throw 'partialURL must be language-absolute: ' + partialURL
 
-      if not relativeToDocument
-        relativeToDocument = @document
-
       # document url has a leading '/'
       LANG_SPLIT_INDEX = 1
-      targetLang = relativeToDocument.url.split('/')[LANG_SPLIT_INDEX]
+      targetLang = @document.url.split('/')[LANG_SPLIT_INDEX]
       if targetLang not in @languages
         # Current document isn't language-specific. Default English.
         targetLang = 'en'
 
       translatedURL = '/' + targetLang + partialURL
       translatedDoc = @getCollection('documents').findAllLive({url: translatedURL}).toJSON()
-      return translatedDoc[0].url if translatedDoc.length > 0
+      return @document.pathToRoot + translatedDoc[0].url if translatedDoc.length > 0
 
       # There's no language-specific version of this file. Just return the argument.
-      return partialURL
+      return @document.pathToRoot + partialURL
 
 
   # =================================
