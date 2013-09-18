@@ -345,6 +345,12 @@ docpadConfig = {
           res.redirect(newUrl+req.url, 301)
         else
           next()
+
+
+  environments:
+    production:
+      templateData:
+        languages: ['en']
 }
 
 

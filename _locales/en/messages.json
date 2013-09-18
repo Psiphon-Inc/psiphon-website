@@ -50,10 +50,10 @@
     "description": "alt text for an image"
   },
   "faq-authentic-windows-question": {
-    "message": "Is my Psiphon 3 for Windows authentic?"
+    "message": "Is my Psiphon for Windows authentic?"
   },
   "faq-authentic-windows-answer-para-1": {
-    "message": "Psiphon 3 for Windows is never distributed as an installable package. Each Psiphon 3 for Windows client is a single executable file (\".exe\") that is digitally signed by Psiphon Inc. Windows automatically checks this signature when you run the client. You can also manually inspect the signature before running the client by invoking the Properties dialog for the file and inspecting the Digital Signatures tab."
+    "message": "Psiphon for Windows is never distributed as an installable package. Each Psiphon for Windows client is a single executable file (\".exe\") that is digitally signed by Psiphon Inc. Windows automatically checks this signature when you run the client. You can also manually inspect the signature before running the client by invoking the Properties dialog for the file and inspecting the Digital Signatures tab."
   },
   "faq-authentic-windows-answer-para-2": {
     "message": "The SHA1 thumbprint for the Psiphon Inc. certificate public key is displayed in the Certificate dialog Details tab. For the certificate valid for the period June 16, 2011 to June 21, 2012 the SHA1 thumbprint is:"
@@ -62,25 +62,25 @@
     "message": "The certificate valid for the for the period May 21, 2011 to July 30, 2014 the SHA1 thumbprint is:"
   },
   "faq-authentic-windows-answer-para-4": {
-    "message": "Psiphon 3 for Windows auto-updates itself, and this process automatically verifies that each update is authentic."
+    "message": "Psiphon for Windows auto-updates itself, and this process automatically verifies that each update is authentic."
   },
   "faq-authentic-android-question": {
-    "message": "Is my Psiphon 3 for Android authentic?"
+    "message": "Is my Psiphon for Android authentic?"
   },
   "faq-authentic-android-answer-alert": {
     "message": "<b>ALERT:</b> A recently <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">reported</a> vulnerability may cause Android app signature checking to falsely report malicious APKs as valid. We recommend that users turn on the Google Verify Apps feature as documented <a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">here</a>."
   },
   "faq-authentic-android-answer-para-1": {
-    "message": "Each Psiphon 3 for Android client is shipped as an Android APK file (\".apk\") that is digitally signed by Psiphon Inc. The Psiphon Inc. certificate public key is as follows:"
+    "message": "Each Psiphon for Android client is shipped as an Android APK file (\".apk\") that is digitally signed by Psiphon Inc. The Psiphon Inc. certificate public key is as follows:"
   },
   "faq-authentic-android-answer-para-2": {
     "message": "An APK may be validated by (1) extracting the certificate from the archive and checking that its fingerprints matches the value above and (2) verifying that the APK is signed with the certificate. For example, using Unix and Java command-line tools:"
   },
   "faq-authentic-android-answer-para-3": {
-    "message": "Psiphon 3 for Android auto-updates itself, and this process automatically verifies that each update is authentic."
+    "message": "Psiphon for Android auto-updates itself, and this process automatically verifies that each update is authentic."
   },
   "faq-information-collected-question": {
-    "message": "What user information does Psiphon 3 collect?"
+    "message": "What user information does Psiphon collect?"
   },
   "faq-information-collected-answer-para-1": {
     "message": "We collect the following data to find out how well Psiphon is working, what sites are popular and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries."
@@ -155,37 +155,37 @@
     "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry here describing what was recorded, how long it was kept, and why."
   },
   "faq-ip-change-question": {
-    "message": "Why does my Psiphon 3 IP address frequently change?"
+    "message": "Why does my Psiphon IP address frequently change?"
   },
   "faq-ip-change-answer-para-1": {
-    "message": "Your Psiphon 3 client will automatically discover new Psiphon 3 servers. When the last server used is currently unavailable, another one can be used instead."
+    "message": "Your Psiphon client will automatically discover new Psiphon servers. When the last server used is currently unavailable, another one can be used instead."
   },
   "faq-connection-failed-question": {
     "message": "Why do I see the message \"connection failed\" repeating over and over?"
   },
   "faq-connection-failed-answer-para-1": {
-    "message": "If you see repeated \"connection failed\" messages, it means that there are no available servers that your client knows about. Try to download a new Psiphon 3 client."
+    "message": "If you see repeated \"connection failed\" messages, it means that there are no available servers that your client knows about. Try to download a new Psiphon client."
   },
   "faq-check-version-question": {
-    "message": "How do I check my current version of Psiphon 3?"
+    "message": "How do I check my current version of Psiphon?"
   },
   "faq-check-version-answer-para-1": {
-    "message": "When Psiphon 3 starts, it displays the Client Version on the first line of output."
+    "message": "When Psiphon starts, it displays the Client Version on the first line of output."
   },
   "faq-orig-file-purpose-question": {
     "message": "What is the file \"psiphon3.exe.orig\"?"
   },
   "faq-orig-file-purpose-answer-para-1": {
-    "message": "The automatic update process in Psiphon 3 for Windows renames its old version to \"psiphon3.exe.orig\". Old files with the \".orig\" suffix can safely be deleted."
+    "message": "The automatic update process in Psiphon for Windows renames its old version to \"psiphon3.exe.orig\". Old files with the \".orig\" suffix can safely be deleted."
   },
   "faq-proxy-all-question": {
-    "message": "Does Psiphon 3 for Windows proxy all of my Internet traffic?"
+    "message": "Does Psiphon for Windows proxy all of my Internet traffic?"
   },
   "faq-proxy-all-answer-para-1": {
-    "message": "Only in VPN mode. After a successful connection is established in VPN mode, your entire computer’s traffic will pass through the Psiphon 3 network. In SSH modes, only applications that use the local HTTP and SOCKS proxies will be proxied."
+    "message": "Only in VPN mode. After a successful connection is established in VPN mode, your entire computer’s traffic will pass through the Psiphon network. In SSH modes, only applications that use the local HTTP and SOCKS proxies will be proxied."
   },
   "faq-browser-compatibility-question": {
-    "message": "Is Psiphon 3 for Windows compatible with IE, Firefox, Safari, and Chrome web browsers?"
+    "message": "Is Psiphon for Windows compatible with IE, Firefox, Safari, and Chrome web browsers?"
   },
   "faq-browser-compatibility-answer-para-1": {
     "message": "Yes. In SSH modes, check your browser settings and make sure that it is configured to use the system proxy settings."
@@ -194,31 +194,31 @@
     "message": "Are there any port restrictions in VPN mode? Why can't I send email using my mail client in VPN mode?"
   },
   "faq-port-restrictions-answer-para-1": {
-    "message": "Outbound connections from the Psiphon 3 for Windows VPN can be made only on the following ports: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25 and 587. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information."
+    "message": "Outbound connections from the Psiphon for Windows VPN can be made only on the following ports: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25 and 587. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information."
   },
   "faq-vpn-protocol-question": {
-    "message": "What VPN protocol is used by Psiphon 3 for Windows? Why can't I connect?"
+    "message": "What VPN protocol is used by Psiphon for Windows? Why can't I connect?"
   },
   "faq-vpn-protocol-answer-para-1": {
     "message": "Psiphon uses the L2TP/IPSec VPN protocol. Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPSec or L2TP pass-through is enabled. Your system’s IPSec Services may be disabled; check your service settings and enable this service to start automatically."
   },
   "faq-vpn-slow-question": {
-    "message": "I can connect to Psiphon 3 for Windows in VPN mode, but why is it so slow?  Sometimes web pages don't load at all."
+    "message": "I can connect to Psiphon for Windows in VPN mode, but why is it so slow?  Sometimes web pages don't load at all."
   },
   "faq-vpn-slow-answer-para-1": {
-    "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPSec which is the protocol used by Psiphon 3 in VPN mode. Try using SSH modes instead."
+    "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPSec which is the protocol used by Psiphon in VPN mode. Try using SSH modes instead."
   },
   "faq-vpn-dns-question": {
-    "message": "When I connect to Psiphon 3 for Windows in VPN mode, none of my web pages load. I get error messages indicating that a domain lookup failed."
+    "message": "When I connect to Psiphon for Windows in VPN mode, none of my web pages load. I get error messages indicating that a domain lookup failed."
   },
   "faq-vpn-dns-answer-para-1": {
-    "message": "Psiphon 3 restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon 3 client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>."
+    "message": "Psiphon restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>."
   },
   "faq-configure-applications-question": {
-    "message": "How do I configure applications to use the Psiphon 3 tunnel in SSH modes?"
+    "message": "How do I configure applications to use the Psiphon tunnel in SSH modes?"
   },
   "faq-configure-applications-answer-para-1": {
-    "message": "Psiphon 3 will automatically configure your system to use a local HTTP/HTTPS proxy at <code>127.0.0.1:8080</code> and a local SOCKS proxy at <code>127.0.0.1:1080</code>. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon 3 for Windows (SSH modes) and Psiphon 3 for Android run these local proxies."
+    "message": "Psiphon will automatically configure your system to use a local HTTP/HTTPS proxy at <code>127.0.0.1:8080</code> and a local SOCKS proxy at <code>127.0.0.1:1080</code>. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon for Windows (SSH modes) and Psiphon for Android run these local proxies."
   },
   "faq-ssh-plus-question": {
     "message": "What is SSH+ mode?"
@@ -227,7 +227,7 @@
     "message": "SSH+ is SSH mode with the addition of an obfuscation layer on top of the SSH handshake to defend against protocol fingerprinting. A description of the protocol can be found <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">here</a>."
   },
   "faq-failed-connect-polipo-question": {
-    "message": "In SSH mode for Psiphon 3 for Windows, I see the error message \"Failed to connect to Polipo\". What can I do?"
+    "message": "In SSH mode for Psiphon for Windows, I see the error message \"Failed to connect to Polipo\". What can I do?"
   },
   "faq-failed-connect-polipo-answer-para-1": {
     "message": "The local HTTP proxy could not run. You might have another process running that is using the default port. Try using a different port.  See the question \"Can I run the local HTTP proxy on a different port than 8080?\""
@@ -239,20 +239,20 @@
     "message": "Yes, on Windows. Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserLocalHTTPProxyPort</code>. Set its value to the port (in Decimal) that you would like to use."
   },
   "faq-autoproxy-question": {
-    "message": "I use <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. How can I tell Psiphon 3 for Windows not to configure my system proxy settings?"
+    "message": "I use <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. How can I tell Psiphon for Windows not to configure my system proxy settings?"
   },
   "faq-autoproxy-question-toc": {
-    "message": "I use AutoProxy. How can I tell Psiphon 3 for Windows not to configure my system proxy settings?"
+    "message": "I use AutoProxy. How can I tell Psiphon for Windows not to configure my system proxy settings?"
   },
   "faq-autoproxy-answer-para-1": {
-    "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserSkipProxySettings</code>. Set this value to <code>1</code> and Psiphon 3 will not automatically configure the system proxy settings."
+    "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserSkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings."
   },
   "alert-heading": {
     "message": "ALERT",
     "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
   },
   "alert-body": {
-    "message": "The Psiphon Team has discovered a specific instance of malware disguised as a Psiphon 3 Windows executable. The malware is being distributed as a zip file named \"pisphone3.zip\" on www.copy.com and may be available from other sources. The zip file contains a malicious binary named \"pisphone3.exe\" with the properties described at <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Note the misspelling of the name. This Windows executable is not digitally signed by Psiphon Inc. Never run a fresh download of Psiphon without checking its digital signature, as described <a href=\"#authentic-windows\">here</a>.",
+    "message": "The Psiphon Team has discovered a specific instance of malware disguised as a Psiphon for Windows executable. The malware is being distributed as a zip file named \"pisphone3.zip\" on www.copy.com and may be available from other sources. The zip file contains a malicious binary named \"pisphone3.exe\" with the properties described at <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Note the misspelling of the name. This Windows executable is not digitally signed by Psiphon Inc. Never run a fresh download of Psiphon without checking its digital signature, as described <a href=\"#authentic-windows\">here</a>.",
     "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
   },
   "download-now-button": {
@@ -260,22 +260,37 @@
     "description": "The text on the Download Now button"
   },
   "what-is-psiphon-heading": {
-    "message": "What is Psiphon 3?"
+    "message": "What is Psiphon?"
   },
   "what-is-psiphon-body-para-1": {
-    "message": "Psiphon 3 is a circumvention tool from Psiphon Inc. that utilizes VPN, SSH and HTTP Proxy technology to provide you with uncensored access to Internet content. Your Psiphon 3 client will automatically learn about new access points to maximize your chances of bypassing censorship."
+    "message": "Psiphon is a circumvention tool from Psiphon Inc. that utilizes VPN, SSH and HTTP Proxy technology to provide you with uncensored access to Internet content. Your Psiphon client will automatically learn about new access points to maximize your chances of bypassing censorship."
   },
   "what-is-psiphon-body-para-2": {
-    "message": "Psiphon 3 is designed to provide you with open access to online content. Psiphon does not increase your online privacy, and should not be considered or used as an online security tool."
+    "message": "Psiphon is designed to provide you with open access to online content. Psiphon does not increase your online privacy, and should not be considered or used as an online security tool."
   },
-  "how-do-i-get-psiphon-heading": {
-    "message": "How do I get Psiphon 3?"
+  "main-gets-you-where-you-want-head-1": {
+    "message": "Gets you where you want to go..."
   },
-  "how-do-i-get-psiphon-body-para-1": {
-    "message": "Click the link to download the client program for <a href=\"psiphon3.exe\">Windows XP, Vista, 7, and 8 (desktop)</a> or <a href=\"PsiphonAndroid.apk\">Android 2.2+</a>."
+  "main-gets-you-where-you-want-head-2": {
+    "message": "Censored by your country, corporation, or campus?"
   },
-  "how-do-i-get-psiphon-body-para-2": {
-    "message": "Psiphon 3 clients for iOS and Mac OS X are coming soon."
+  "main-gets-you-where-you-want-para-1": {
+    "message": "After dealing with repressive regimes around the world, we are uniquely suited to help you get to the content you want, whenever and wherever you want it."
+  },
+  "main-gets-you-there-safely-head-1": {
+    "message": "...and gets you there safely."
+  },
+  "main-gets-you-there-safely-head-2": {
+    "message": "Want to surf securely when using public WiFi?"
+  },
+  "main-gets-you-there-safely-para-1": {
+    "message": "Free internet is nice, but stolen cookies and accounts are not. Psiphon gives you a safe path to the Internet, no matter what network you're using to connect."
+  },
+  "main-pick-three-head-1": {
+    "message": "Trust, Speed, Simplicity: pick three"
+  },
+  "main-pick-three-para-1": {
+    "message": "Since 2008, Psiphon has helped millions of people in restricted-freedom countries around the world safely access censored knowledge and ideas. Now Psiphon VPN can do the same for you."
   },
   "about-title": {
     "message": "About Us",
@@ -289,10 +304,10 @@
     "message": "Open Source"
   },
   "about-open-source-para-1": {
-    "message": "Psiphon 3 is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>."
+    "message": "Psiphon is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>."
   },
   "about-open-source-para-2": {
-    "message": "Psiphon 3 clients use the following open source components."
+    "message": "Psiphon clients use the following open source components."
   },
   "about-open-source-para-3-list-start": {
     "message": "Windows:"
@@ -307,20 +322,20 @@
     "message": "Join our mailing lists:"
   },
   "about-get-latest-info-para-1-announcements-list": {
-    "message": "Psiphon 3 Announcements",
-    "description": "text for link to the Psiphon 3 Announcements mailing list"
+    "message": "Psiphon Announcements",
+    "description": "text for link to the Psiphon Announcements mailing list"
   },
   "about-get-latest-info-para-1-users-list": {
-    "message": "Psiphon 3 User Group",
-    "description": "text for link to the Psiphon 3 Users mailing list"
+    "message": "Psiphon User Group",
+    "description": "text for link to the Psiphon Users mailing list"
   },
   "about-get-latest-info-para-1-developers-list": {
-    "message": "Psiphon 3 Developers",
-    "description": "text for link to the Psiphon 3 Developers mailing list"
+    "message": "Psiphon Developers",
+    "description": "text for link to the Psiphon Developers mailing list"
   },
   "download-windows-direct": {
     "message": "Psiphon for Windows",
-    "description": "text for link to Psiphon 3 for Windows download"
+    "description": "text for link to Psiphon for Windows download"
   },
   "download-windows-direct-description": {
     "message": "Works on Windows XP, Windows Vista, Windows 7, and Windows 8 (desktop)."
@@ -363,13 +378,13 @@
     "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation."
   },
   "user-guide-android-para-2": {
-    "message": "To install a Psiphon APK, you must enable the option in your Android device to install non-Play Store apps. Psiphon 3 for Android will automatically update itself."
+    "message": "To install a Psiphon APK, you must enable the option in your Android device to install non-Play Store apps. Psiphon for Android will automatically update itself."
   },
   "user-guide-android-para-3": {
-    "message": "When you launch the Psiphon 3 app, it will automatically start connecting to the Psiphon network."
+    "message": "When you launch the Psiphon app, it will automatically start connecting to the Psiphon network."
   },
   "user-guide-android-para-4": {
-    "message": "Once the app has connected to the network, it will launch the built-in Psiphon browser. Psiphon 3 for Android does not automatically tunnel the traffic for the default Android browser or other apps. By default, only the Psiphon browser is tunneled through the Psiphon 3 network."
+    "message": "Once the app has connected to the network, it will launch the built-in Psiphon browser. Psiphon for Android does not automatically tunnel the traffic for the default Android browser or other apps. By default, only the Psiphon browser is tunneled through the Psiphon network."
   },
   "user-guide-android-image-1-alt": {
     "message": "Image showing the Android setting for allowing non-Play Store apps",
@@ -466,19 +481,19 @@
     "message": "Download the client program and run it. When you run it, you should see a security prompt showing that this program is a legitimate product of Psiphon Inc."
   },
   "user-guide-windows-para-2": {
-    "message": "Psiphon 3 automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPSec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting)."
+    "message": "Psiphon automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPSec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting)."
   },
   "user-guide-windows-para-3": {
-    "message": "Connection to the Psiphon server is established when the green icon is displayed. In VPN mode, all of your traffic automatically tunnels through Psiphon 3."
+    "message": "Connection to the Psiphon server is established when the green icon is displayed. In VPN mode, all of your traffic automatically tunnels through Psiphon."
   },
   "user-guide-windows-para-4": {
-    "message": "In SSH and SSH+ modes, Psiphon 3 automatically sets the Windows system proxy settings and traffic for applications that respect these settings tunnel through Psiphon 3. These settings are respected by default by all major web browsers."
+    "message": "In SSH and SSH+ modes, Psiphon automatically sets the Windows system proxy settings and traffic for applications that respect these settings tunnel through Psiphon. These settings are respected by default by all major web browsers."
   },
   "user-guide-windows-para-5": {
-    "message": "Furthermore, in SSH and SSH+ modes, Psiphon 3 offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy...” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area."
+    "message": "Furthermore, in SSH and SSH+ modes, Psiphon offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy...” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area."
   },
   "user-guide-windows-para-6": {
-    "message": "When you close the program, Psiphon 3 automatically disconnects. You can also click on the icon to toggle the connection."
+    "message": "When you close the program, Psiphon automatically disconnects. You can also click on the icon to toggle the connection."
   },
   "user-guide-windows-image-1-alt": {
     "message": "Image showing the Windows security warning for the Psiphon executable",
@@ -539,25 +554,25 @@
     "message": "This software and all associated intellectual property is the property of Psiphon Inc., an Ontario registered corporation with its head office in Toronto, Ontario Canada."
   },
   "license-para-2": {
-    "message": "This version of Psiphon is strictly intended for individuals, and is for personal use only. You may not allow or provide any third party access to the software on your network or device. If you wish to use Psiphon for such purposes or have other requirements, we offer a paid, commercial service.  For more details, email <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>"
+    "message": "This version of Psiphon is strictly intended for individuals, and is for personal use only. If you wish to use Psiphon for any other purpose or have additional requirements, we offer a paid, commercial service. For more details, email <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>"
   },
   "license-terms-of-use-header": {
     "message": "Terms of Use"
   },
   "license-terms-of-use-para": {
-    "message": "This software is distributed “as is” with all faults and without warranty of any kind. By using Psiphon, You agree not to use the software in any manner that violates Canadian law, or the rights of a third party. Under no circumstances is it permissible to copy, decompile, reverse engineer, disassemble, modify, or create derivative works of the software or any part thereof."
+    "message": "This software is distributed “as is” with all faults and without warranty of any kind. By using Psiphon, You agree not to use the software in any manner that violates Canadian law, or the rights of a third party."
   },
   "license-distribution-header": {
     "message": "Distribution"
   },
   "license-distribution-para": {
-    "message": "Psiphon is free, noncommercial software. You are welcome to distribute and transmit it in any format - electronic or otherwise - for personal, noncommercial use only and in accordance with the terms of this license."
+    "message": "Psiphon is free, non-commercial software. You are welcome to distribute and transmit it in any format - electronic or otherwise - for personal, non-commercial use only and in accordance with the terms of this license."
   },
   "license-personal-or-specified-use-header": {
     "message": "Personal or Specified Use"
   },
   "license-personal-or-specified-use-para": {
-    "message": "This is noncommercial software and is granted under a nonexclusive, personal license. By using Psiphon, You agree to use the software for personal, noncommercial use only. You may not (and may not allow a third party to) rent, lease, sublicense, sell, resell or otherwise distribute Psiphon for commercial purposes. Psiphon reserves the right to terminate Your use of the service or deny access to the software if You violate this license agreement."
+    "message": "This is non-commercial software and is granted under a non-exclusive, personal license. By using Psiphon, You agree to use the software for personal, non-commercial use only. You may not (and may not allow a third party to) rent, lease, sublicense, sell, resell or otherwise distribute Psiphon for commercial purposes."
   },
   "license-statement-of-limitations-of-liability-header": {
     "message": "Statement of Limitations of Liability"
@@ -569,7 +584,7 @@
     "message": "Termination; Terms of Service Violations"
   },
   "license-termination-terms-of-service-violations-para-1": {
-    "message": "Psiphon reserves the right at its sole discretion to terminate this license, or Your use of the software at anytime for any or no reason, and without penalty. By using Psiphon, You agree not to use the software in any manner that violates the terms of service and license agreement. Psiphon reserves the right to deny access to the software and terminate the service without any prior notice if these terms are violated."
+    "message": "Psiphon reserves the right at its sole discretion to terminate this license at any time for any or no reason, and without penalty. By using Psiphon, You agree not to use the software in any manner that violates the terms of service and license agreement."
   },
   "license-termination-terms-of-service-violations-para-2": {
     "message": "As the user, You are free to terminate this license agreement at any time by discontinuing use of any and all parts of the Psiphon software, and deleting all instances of the software application from Your device."

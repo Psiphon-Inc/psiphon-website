@@ -11,8 +11,49 @@ layout: default
 </div>
 
 <div class="row">
-  <div class="col-md-12">
-    <div class="panel panel-default">
+  <div class="col-md-6-left">
+    <div class="panel panel-default equal-height equal-height-md">
+      <div class="panel-heading">
+        <h2><%= @tt 'main-gets-you-where-you-want-head-1' %></h2>
+      </div>
+      <div class="panel-body">
+        <h4><%= @tt 'main-gets-you-where-you-want-head-2' %></h4>
+        <p>
+          <%= @tt 'main-gets-you-where-you-want-para-1' %>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6-right">
+    <div class="panel panel-default equal-height equal-height-md">
+      <div class="panel-heading">
+        <h2><%= @tt 'main-gets-you-there-safely-head-1' %></h2>
+      </div>
+      <div class="panel-body">
+        <h4><%= @tt 'main-gets-you-there-safely-head-2' %></h4>
+        <p>
+          <%= @tt 'main-gets-you-there-safely-para-1' %>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6-left">
+    <div class="panel panel-default equal-height equal-height-md">
+      <div class="panel-heading">
+        <h2><%= @tt 'main-pick-three-head-1' %></h2>
+      </div>
+      <div class="panel-body">
+        <p>
+          <%= @tt 'main-pick-three-para-1' %>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6-right">
+    <div class="panel panel-default equal-height equal-height-md">
       <div class="panel-heading">
         <h2><%= @tt 'what-is-psiphon-heading' %></h2>
       </div>

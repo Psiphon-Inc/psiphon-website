@@ -35,6 +35,13 @@ h1 {
 .index-splash img {
   // Center image
   margin: auto;
+  max-height: 25em;
+}
+
+@media (max-width: @screen-sm-max) {
+  .index-splash img {
+    max-height: 15em;
+  }
 }
 
 .faq-qa {
@@ -130,4 +137,13 @@ pre.highlighted {
 footer {
   margin-top: 2em;
   font-size: 0.8em;
+}
+
+/*
+ * Helpers for dealing with equal-height columns
+ */
+@media (max-width: @screen-sm-max) {
+  .equal-height-md {
+    height: inherit !important;
+  }
 }
