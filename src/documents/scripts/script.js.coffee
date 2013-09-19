@@ -29,4 +29,6 @@ $ ->
         if thisHeight > maxHeight then maxHeight = thisHeight
       $(@).closest('.row').find('.equal-height').height(maxHeight)
   # Trigger it to get the initial size right.
-  $(window).resize()
+  setTimeout(
+    () -> $(window).resize(), 
+    10)
