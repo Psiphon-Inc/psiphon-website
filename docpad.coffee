@@ -347,10 +347,18 @@ docpadConfig = {
           next()
 
 
+  # =================================
+  # DocPad Environments
+
   environments:
     production:
       templateData:
         languages: ['en']
+
+  # =================================
+  # Other DocPad config
+
+  ignoreCustomPatterns: /\.orig$/
 }
 
 
