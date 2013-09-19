@@ -14,8 +14,23 @@ h1 {
   margin-bottom: 1em;
 }
 
-.navbar-header img {
-  height: (@navbar-height - (@navbar-padding-vertical * 2));
+h2 {
+  color: rgb(182, 102, 0);
+}
+
+// This sets our logo as part of the "brand" in the navbar
+.navbar-brand {
+  @brandImgMargin: 8px;
+  @brandImgSize: (@navbar-height - (@brandImgMargin * 2));
+  font-size: 2.5em;
+  background: url("<%= @relativeToRoot '/images/psiphon-logo-72.png' %>") no-repeat @brandImgMargin center;
+  background-size: @brandImgSize;
+  padding-left: (@brandImgSize + @brandImgMargin + @brandImgMargin);
+  margin-right: 5px;
+}
+
+.navbar-nav {
+  font-size: 1.5em;
 }
 
 // Because of the fixed navbar, we need to monkey with the size of anchor (hash)
@@ -126,7 +141,7 @@ pre.highlighted {
 }
 
 .sponsor-info .sponsor-banner img {
-  height: 3em;
+  height: 4em;
   margin: auto;  // Center image
 }
 

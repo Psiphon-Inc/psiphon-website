@@ -6,7 +6,7 @@
     </div>
     <div class="col-md-12 sponsor-banner">
       <a href="http://psiphon.ca" target="_blank">
-        <img src="<%= @document.pathToRoot %>/images/psiphon-wordart.jpg" class="img-responsive">
+        <img src="<%= @document.pathToRoot %>/images/psiphon-banner.png" class="img-responsive">
       </a>
     </div>
     <div class="col-md-12 become-sponsor <%- @ifRTL 'text-left', 'text-right' %>">
