@@ -4,8 +4,11 @@ layout: default
 
 <div class="row index-splash">
   <div class="col-md-12">
+    <div class="super-splash">
+      <a href="<%= @getPageURL '/download.html' %>"></a>
+    </div>
     <a href="<%= @getPageURL '/download.html' %>">
-      <img class="img-responsive" src="<%= @document.pathToRoot %>/images/splash.png">
+      <img class="img-responsive" src="<%= @document.pathToRoot %>/images/widesplash-small.png">
     </a>
   </div>
 </div>

@@ -50,12 +50,43 @@ h2 {
 .index-splash img {
   // Center image
   margin: auto;
-  max-height: 25em;
 }
 
-@media (max-width: @screen-sm-max) {
+.super-splash a {
+  // Make the link fill the image space
+  display: block;
+  height: 100%;
+}
+
+@media (min-width: @screen-md) {
   .index-splash img {
-    max-height: 15em;
+    display: none;
+  }
+
+  .super-splash {
+    background: url("<%= @relativeToRoot '/images/widesplash-big.png' %>") no-repeat center center;
+    height: 300px;
+  }
+}
+
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+  .index-splash img {
+    display: none;
+  }
+
+  .super-splash {
+    background: url("<%= @relativeToRoot '/images/widesplash-small.png' %>") no-repeat center center;
+    height: 200px;
+  }
+}
+
+@media (max-width: @screen-xs-max) {
+  .index-splash img {
+    display: inline;
+  }
+
+  .super-splash {
+    display: none;
   }
 }
 
