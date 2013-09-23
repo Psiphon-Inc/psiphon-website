@@ -2,11 +2,16 @@
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header <%- @ifRTL 'navbar-right' %>">
-      <button type="button" class="navbar-toggle <%- @ifRTL 'pull-left' %>" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <div class="navbar-collapse-container <%= @ifRTL 'pull-left', 'pull-right' %>">
+        <button onclick="<%= @getPageURL '/nav/nav.html'%>" type="button" class="navbar-toggle <%- @ifRTL 'pull-left' %>" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <noscript>
+          <a class="navbar-collapse-noscript" href="<%= @getPageURL '/nav/nav.html'%>"></a>
+        </noscript>
+      </div>
 
       <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getPageURL '/index.html' %>">
         <%= @tt 'psiphon' %>

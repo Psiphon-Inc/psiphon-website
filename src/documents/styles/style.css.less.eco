@@ -33,6 +33,14 @@ h2 {
   font-size: 1.5em;
 }
 
+// If Javascript is disabled in the browser, some extra effort is needed to make
+// the collapsed navbar work. ("work" := go to the nav.html page)
+.navbar-collapse-noscript {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 // Because of the fixed navbar, we need to monkey with the size of anchor (hash)
 // link targets.
 .anchor-target {
