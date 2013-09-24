@@ -288,6 +288,10 @@ docpadConfig = {
   # These are special collections that our website makes available to us
 
   collections:
+    # NOTE: This isn't just provide a collection of pages -- it's also (primarily)
+    # used to derive the language from the page path and set it as the default
+    # metadata.
+    # Derived from: https://gist.github.com/balupton/4166806
     pages: (database) ->
       lang_dirs = ('/'+lang+'/' for lang in @config.templateData.languages)
       lang_regex = ('^'+lang_dir for lang_dir in lang_dirs).join('|')
