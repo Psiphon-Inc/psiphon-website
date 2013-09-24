@@ -289,7 +289,19 @@ docpadConfig = {
 
   collections:
     pages: (database) ->
-      database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
+      lang_dirs = ('/'+lang+'/' for lang in @config.templateData.languages)
+      lang_regex = ('^'+lang_dir for lang_dir in lang_dirs).join('|')
+
+      @getCollection('documents').createChildCollection()
+        .setFilter 'search', (model) ->
+          return false if not model.get('url')
+
+          lang_match = model.get('url').match(lang_regex)
+          return false if not lang_match
+
+          lang = lang_match[0].replace(/^\/|\/$/g, '')
+          model.setMetaDefaults { language: lang }
+          true
 
     posts: (database) ->
       database.findAllLive({layout: 'blog/post'}, [date:-1])
