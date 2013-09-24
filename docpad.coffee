@@ -51,7 +51,7 @@ docpadConfig = {
 
 
     # Enabled languages
-    languages: ['en', 'fa']
+    languages: ['en', 'fa', 'zh', 'ru']
 
     # Info about all pages
     # This would be largely unnecessary if we could put metadata on layouts
@@ -86,6 +86,11 @@ docpadConfig = {
         title_key: 'license-title'
         nav_title_key: 'license-nav-title'
 
+      'virtualname':
+        filename: '/virtualname.html'
+        title_key: 'license-title'
+        nav_title_key: 'license-nav-title'
+
     navLayout: [
       { name: 'download' }
       {
@@ -114,7 +119,7 @@ docpadConfig = {
     # Throws exception if `name` not found.
     getPageInfo: (name) ->
       if name not of @pageInfo
-        throw "bad page name: #{name}"
+        throw "@getPageInfo: bad page name: #{name}"
       return @pageInfo[name]
 
     # The title might need to be translated from a string key.
@@ -232,6 +237,15 @@ docpadConfig = {
         "pt_BR": "Português(Br)"
         "ru": "Русский"
         "sv": "Svenska"
+        "zh": "中文"
+        "uz@cyrillic": "Ўзбекча"
+        "uz@Latn": "O'zbekcha"
+        "tk": "Türkmençe"
+        "th": "ภาษาไทย"
+        "az": "azərbaycan dili"
+        "ug@Latn": "Uyghurche"
+        "kk": "қазақ тілі"
+        "vi": "Tiếng Việt"
       if map[languageCode]
         map[languageCode]
       else
@@ -340,6 +354,10 @@ docpadConfig = {
           url: './_locales/en/messages.json'
         fa:
           url: './_locales/fa/messages.json'
+        ru:
+          url: './_locales/ru/messages.json'
+        zh:
+          url: './_locales/zh/messages.json'
 
   # =================================
   # DocPad Events
