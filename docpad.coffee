@@ -308,6 +308,12 @@ docpadConfig = {
         }
       ]
 
+    fattrimmer:
+      fat: [
+        /\/_/  # files and directories with leading underscore
+        /^\/vendor\/twitter-bootstrap\/(?!dist\/)/  # Twitter Bootstrap files that aren't in the "dist" folder
+      ]
+
     feedr:
       cache: false
       log: console.log
