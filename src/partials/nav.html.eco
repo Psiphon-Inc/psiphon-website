@@ -30,7 +30,7 @@
               </a>
               <ul class="dropdown-menu">
               <% for subNavItem in navItem.subnav: %>
-                <li about="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" class="<%- @ifRTL 'navbar-right' %> <%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(subNavItem.name).filename) then 'active' else '' %>">
+                <li about="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" class="<%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(subNavItem.name).filename) then 'active' else '' %>">
                   <a href="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" title="<%= @tt @getPageInfo(subNavItem.name).nav_title_key %>" class="nav-link">
                     <%= @tt @getPageInfo(subNavItem.name).nav_title_key %>
                   </a>
