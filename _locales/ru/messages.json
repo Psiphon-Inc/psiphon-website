@@ -1,6 +1,6 @@
 {
     "main-gets-you-where-you-want-head-1": {
-        "message": "Gets you where you want to go...",
+        "message": "Доставит вас куда вы хотите...",
         "description": ""
     },
     "sponsor-header-sponsored-by": {
@@ -8,7 +8,7 @@
         "description": ""
     },
     "about-get-latest-info-para-1-developers-list": {
-        "message": "Psiphon Developers",
+        "message": "Разработчики Psiphon",
         "description": "text for link to the Psiphon Developers mailing list"
     },
     "user-guide-windows-image-2-alt": {
@@ -20,7 +20,7 @@
         "description": ""
     },
     "faq-ip-change-question": {
-        "message": "Why does my Psiphon IP address frequently change?",
+        "message": "Почему мой IP адрес в Psiphon так часто меняется?",
         "description": ""
     },
     "download-now-button": {
@@ -36,7 +36,7 @@
         "description": ""
     },
     "license-personal-or-specified-use-para": {
-        "message": "This is non-commercial software and is granted under a non-exclusive, personal license. By using Psiphon, You agree to use the software for personal, non-commercial use only. You may not (and may not allow a third party to) rent, lease, sublicense, sell, resell or otherwise distribute Psiphon for commercial purposes.",
+        "message": "Этот некоммерческий продкут предоставлен на основе простой (неисключительной), персональной лицензии. Используя Psiphon Вы соглашаетесь с условиями использования этого продукта только для личных, некоммерческих нужд. Вы не можете сдавать внаем или в аренду, продавать, перепродавать или каким-либо другим способом рапространять Psiphon для коммерческого использования.",
         "description": ""
     },
     "about-title": {
@@ -44,7 +44,7 @@
         "description": "title for the About page"
     },
     "main-pick-three-head-1": {
-        "message": "Доверие, Скорость, Простота - выберите три",
+        "message": "Доверие, скорость, простота - выберите три",
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-url": {
@@ -68,7 +68,7 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
     },
     "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon is running",
+        "message": "Psiphon запущен",
         "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
     },
     "about-privacy-head": {
@@ -83,12 +83,8 @@
         "message": "Открыть новую вкладку",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
     },
-    "user-guide-windows-para-2": {
-        "message": "Psiphon автоматически инициирует соединение с сервером при запуске. В процессе соединения видна вращающаяся иконка. Вы можете выбрать один из следующих режимов туннелирования: VPN (L2TP/IPSec), SSH, or SSH+ (SSH обфусцированный для избежания идентификации протокола).",
-        "description": ""
-    },
     "main-gets-you-there-safely-head-1": {
-        "message": "...and gets you there safely.",
+        "message": "...и сделает это безопасно.",
         "description": ""
     },
     "faq-orig-file-purpose-question": {
@@ -97,7 +93,7 @@
     },
     "blog-index-posts-in-your-language": {
         "message": "Сообщения на русском",
-        "description": "Heading for the list of blog posts that have been translated into the user's language"
+        "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "user-guide-android-para-verify-authentic": {
         "message": "Убедитесь сначала, что <a href=\"./faq.html#authentic-android\">ваша копия Psiphon для Android является подлинной</a>.",
@@ -108,7 +104,7 @@
         "description": "text for the Download page navigation item"
     },
     "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Серый</span>: идет соединение<br><span style=\"color:red\">Красный</span>: соединение остановлено<br><span style=\"color:Blue\">Blue</span>: успешное соединение",
+        "message": "<span style=\"color:grey\">Серый</span>: идет соединение<br><span style=\"color:red\">Красный</span>: соединение остановлено<br><span style=\"color:Blue\">Blue</span>:соединение установлено",
         "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
     },
     "user-guide-android-ui-status-image-annotation-5": {
@@ -116,7 +112,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
     "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon is running in VPN or Whole Device mode. All applications are tunneled through Psiphon.",
+        "message": "Psiphon работает в режиме туннелирования всех интернет соединений или VPN. Весь интернет трафик идет через Psiphon.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "user-guide-android-ui-status-image-annotation-2": {
@@ -124,8 +120,12 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted phone.<br><br>This options will be unavailable for older Android versions or non-rooted phones.",
+        "message": "Для запуска Psiphon в режиме туннелирования всех интернет соединений вам нужен Android 4.0+ или ваше устройство должно  иметь права доступа root.<br><br>Эта опция будет недоступна для устройств без прав доступа root на предыдущих версиях Android.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
+    },
+    "download-android-amazon": {
+        "message": "Psiphon для Android в Amazon AppStore",
+        "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "faq-orig-file-purpose-answer-para-1": {
         "message": "Процесс автоматического обновления в Psiphon 3 для Windows переименовывает старую версию в \"psiphon3.exe.orig\". Старые файлы с расширением \".orig\" могут быть безопасно удалены.",
@@ -136,15 +136,15 @@
         "description": "heading for the Android section of the User Guide"
     },
     "license-termination-terms-of-service-violations-para-1": {
-        "message": "Psiphon reserves the right at its sole discretion to terminate this license at any time for any or no reason, and without penalty. By using Psiphon, You agree not to use the software in any manner that violates the terms of service and license agreement.",
+        "message": "Psiphon оставляет за собой право прекратить действие настоящего соглашения в любое время, с или без причины. Используя Psiphon, Вы обязуетесь не использовать программное обеспечение способом, который нарушает условия предоставления услуг и лицензионное соглашение.",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
-        "message": "You should first <a href=\"./faq.html#authentic-windows\">verify that your copy of Psiphon for Windows is authentic</a>.",
+        "message": "Убедитесь сначала, что <a href=\"./faq.html#authentic-windows\">ваша копия Psiphon для Windows является подлинной</a>.",
         "description": ""
     },
     "license-personal-or-specified-use-header": {
-        "message": "Personal or Specified Use",
+        "message": "Персональное использование",
         "description": ""
     },
     "user-guide-title": {
@@ -164,23 +164,23 @@
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Некоторые модели сетевого оборудования или интернет-соединения могут создавать проблемы с производительностью протокола L2TP/IPSec, который используется Psiphon в режиме VPN. Попробуйте использовать SSH режим.",
+        "message": "Некоторые модели сетевого оборудования или интернет-соединения могут создавать проблемы с производительностью протокола L2TP/IPSec, который используется Psiphon в режиме VPN. Попробуйте использовать один из SSH режимов.",
         "description": ""
     },
     "download-android-direct": {
-        "message": "Psiphon for Android direct download",
+        "message": "Прямая ссылка на Psiphon для Android",
         "description": "text for link to Psiphon for Android direct download"
     },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "Image showing Psiphon running on Android, on the statistics panel",
+        "message": "Изображение, показывающее работу Psiphon на Android, панель статистики",
         "description": "alt text for an image"
     },
     "user-guide-android-image-3-alt": {
-        "message": "Image showing the different parts of the Psiphon Android web browser",
+        "message": "Изображение, показывающее различные элементы веб браузера Psiphon для Android",
         "description": "alt text for an image"
     },
     "download-list-join": {
-        "message": "Join our <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Announcements mailing list</a> for important announcements and security advisories.",
+        "message": "Подписывайтесь на нашу <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">рассылку объявлений</a> для важных объявлений и бюллетеней безопасности.",
         "description": ""
     },
     "faq-information-collected-answer-para-3": {
@@ -192,7 +192,7 @@
         "description": ""
     },
     "license-title": {
-        "message": "Psiphon End-User License Agreement",
+        "message": "Пользовательское соглашение Psiphon",
         "description": ""
     },
     "user-guide-windows-para-1": {
@@ -212,7 +212,7 @@
         "description": ""
     },
     "main-pick-three-para-1": {
-        "message": "Since 2008, Psiphon has helped millions of people in restricted-freedom countries around the world safely access censored knowledge and ideas. Now Psiphon can do the same for you.",
+        "message": "С 2008 года Psiphon помог миллионам людей в странах мира с ограниченной интернет-свободой, обеспечив безопасный доступ к цензурированным знаниям и идеям. Теперь Psiphon может сделать то же самое для вас.",
         "description": ""
     },
     "faq-authentic-android-answer-para-2": {
@@ -224,7 +224,7 @@
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
-        "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserSkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings.",
+        "message": "Нажмите Run и введите <code>regedit</code>, чтобы открыть редактор реестра. Найдите и откройте <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> и в правой панели вы увидите переменную <code>UserSkipProxySettings</code>. Установите ее значение равным  <code>1</code> и Psiphon не станет изменять системные настройки прокси при последующих запусках.",
         "description": ""
     },
     "about-contact-head": {
@@ -232,7 +232,7 @@
         "description": ""
     },
     "user-guide-windows-image-1-alt": {
-        "message": "Image showing the Windows security warning for the Psiphon executable",
+        "message": "Изображение, показывающее предупреждение безопасности для бинарного файла Psiphon",
         "description": "alt text for an image"
     },
     "about-open-source-para-4-list-start": {
@@ -241,7 +241,7 @@
     },
     "psiphon": {
         "message": "Psiphon",
-        "description": "The name of the product. Probably not translated or transliterated for most languages"
+        "description": ""
     },
     "faq-vpn-protocol-answer-para-1": {
         "message": "Psiphon использует VPN протокол L2TP/IPSec. Возможно брандмауэр вашей сети не позволяет использование VPN. Возможно ваш домашний маршрутизатор настроен на запрет этого VPN протокола; проверьте настройки маршрутизатора и убедитесь, что сквозной(passthrough) режим для IPSec или L2TP включен. Также, возможно IPSec сервис вашей системы отключен, проверьте настройки и включите автоматический запуск этого сервиса.",
@@ -256,7 +256,7 @@
         "description": ""
     },
     "user-guide-windows-image-3-alt": {
-        "message": "Image showing Psiphon connected on Windows",
+        "message": "Изображение, показывающее успешное соединение Psiphon на Windows",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-para-6": {
@@ -268,15 +268,15 @@
         "description": ""
     },
     "faq-connection-failed-answer-para-1": {
-        "message": "Если вы видите повторяющееся сообщение \"connection failed\"(сбой подключения), то это означает, что ваш клиент не 'знает' доступных в данное время серверов. Попробуйте скачать новый клиент Psiphon 3.",
+        "message": "Если вы видите повторяющееся сообщение \"connection failed\"(сбой подключения), то это означает, что ваш клиент не 'знает' доступных в данное время серверов. Попробуйте скачать новый клиент Psiphon.",
         "description": ""
     },
     "alert-heading": {
-        "message": "ALERT",
+        "message": "ПРЕДУПРЕЖДЕНИЕ",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "license-statement-of-limitations-of-liability-header": {
-        "message": "Statement of Limitations of Liability",
+        "message": "Заявление об ограничении ответственности",
         "description": ""
     },
     "faq-information-collected-answer-para-9": {
@@ -292,7 +292,7 @@
         "description": ""
     },
     "user-guide-android-image-1-alt": {
-        "message": "Image showing the Android setting for allowing non-Play Store apps",
+        "message": "Изображение, показывающее установки Android позволяющие устанавливать приложения не из Google Play Store",
         "description": "alt text for an image"
     },
     "faq-vpn-slow-question": {
@@ -300,7 +300,7 @@
         "description": ""
     },
     "faq-proxy-all-question": {
-        "message": "Туннелирует ли Psiphon 3 для Windows весь мой интернет-трафик?",
+        "message": "Туннелирует ли Psiphon для Windows весь мой интернет-трафик?",
         "description": ""
     },
     "download-windows-direct": {
@@ -316,7 +316,7 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-header": {
-        "message": "Termination; Terms of Service Violations",
+        "message": "Нарушение условий сервиса и прекращение услуг",
         "description": ""
     },
     "faq-ssh-plus-question": {
@@ -336,7 +336,7 @@
         "description": "Page title for the Sponsorship page"
     },
     "privacy-para-3": {
-        "message": "Psiphon предназначен, чтобы предоставить Вам открытый доступ к онлайн-контенту. Использование Psiphon не приводит к увеличению вашей конфиденциальности в Интернете, и не следует рассматривать или использовать его в качестве инструмента онлайн безопасности.",
+        "message": "Цель Psiphon - предоставить открытый доступ к онлайн-контенту. Использование Psiphon не приводит к увеличению конфиденциальности в Интернете, и не следует рассматривать или использовать его в качестве инструмента онлайн безопасности.",
         "description": ""
     },
     "faq-connection-failed-question": {
@@ -348,7 +348,7 @@
         "description": "title for the Resources"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Исходящие соединения с Psiphon 3 для Windows в режиме VPN могут быть установлены только на следующих портах: 53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999. Смотреть <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">обсуждение</a> для получения дополнительной информации. Почтовые клиенты не могут устанавливать исходящие соединения на портах 25 и 587. Смотреть <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">обсуждение</a> для дополнительной информации.",
+        "message": "Исходящие соединения с Psiphon для Windows в режиме VPN могут быть установлены только на следующих портах: 53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999. Смотреть <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">обсуждение</a> для получения дополнительной информации. Почтовые клиенты не могут устанавливать исходящие соединения на портах 25 и 587. Смотреть <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">обсуждение</a> для дополнительной информации.",
         "description": ""
     },
     "faq-authentic-android-answer-alert": {
@@ -368,7 +368,7 @@
         "description": ""
     },
     "download-android-playstore-description": {
-        "message": "Compatible with Android 2.2 and up. Whole device mode requires Android 4.0 and up or a <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">rooted device</a>.",
+        "message": "Совместим с Android 2.2 и выше. Для поддержки режима туннелирование всех интернет соединений требуется Android 4.0 и выше или <a href=\"https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%82%D0%B8%D0%BD%D0%B3\" target=\"_blank\"> устройство с правами доступа root </a>.",
         "description": ""
     },
     "about-open-source-para-2": {
@@ -376,7 +376,7 @@
         "description": ""
     },
     "privacy-para-2": {
-        "message": "Для получения дополнительной информации о Канадских и Онтарийских законах по защите персональной иформации, пожалуйста, посетите:",
+        "message": "Для получения дополнительной информации о канадских и онтарийских законах по защите персональной информации, пожалуйста, посетите:",
         "description": ""
     },
     "about-get-latest-info-para-1-users-list": {
@@ -384,11 +384,11 @@
         "description": "text for link to the Psiphon Users mailing list"
     },
     "privacy-para-1": {
-        "message": "Psiphon is committed to protecting the privacy interests of its customers, end users, distributors and suppliers. This privacy policy is intended to provide you with general information on how your personal information may be used. Psiphon is a Canadian corporation with its head office located in Ontario, and our privacy policy has been developed to reflect Canadian and Ontario privacy laws and statutes.",
+        "message": "Psiphon считает своим долгом защищать конфиденциальность интересов своих клиентов, конечных пользователей, дистрибьюторов и поставщиков. Данная политика конфиденциальности предназначена, чтобы предоставить вам общую информацию о том, как может быть использована ваша личная информация. Psiphon - канадская корпорация с головным офисом, расположенным в Онтарио, и наша политика конфиденциальности была разработана с учетом канадских и онтарийских законов и законодательных актов о конфиденциальности.",
         "description": ""
     },
     "privacy-para-4": {
-        "message": "<a href=\"./faq.html#information-collected\">Visit the FAQ</a> for details about what information we collect.",
+        "message": "<a href=\"./faq.html#information-collected\">Посетите наш FAQ</a>, где подробно описано, какую информацию мы собираем.",
         "description": ""
     },
     "about-open-source-head": {
@@ -400,7 +400,7 @@
         "description": ""
     },
     "license-distribution-para": {
-        "message": "Psiphon is free, non-commercial software. You are welcome to distribute and transmit it in any format - electronic or otherwise - for personal, non-commercial use only and in accordance with the terms of this license.",
+        "message": "Psiphon является бесплатным, некоммерческим продуктом. Правообладатель безвозмездно предоставляет право на распространение и использование данного продукта для персональных, некоммерческих нужд в соответствии с данной лицензией.",
         "description": ""
     },
     "about-open-source-para-1": {
@@ -412,7 +412,7 @@
         "description": ""
     },
     "site-title": {
-        "message": "Psiphon: free your net",
+        "message": "Psiphon: свободный интернет",
         "description": "the title for the site"
     },
     "alert-body": {
@@ -424,7 +424,7 @@
         "description": ""
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "Image showing Psiphon running on Android, on the logs panel",
+        "message": "Изображение, показывающее работу Psiphon на Android, панель сообщений",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-para-2-item-9": {
@@ -440,11 +440,11 @@
         "description": ""
     },
     "user-guide-android-image-3-annotation-4": {
-        "message": "Сохранить текущую страницу  закладках",
+        "message": "Сохранить текущую страницу  в закладках",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "faq-nav-title": {
-        "message": "Часто задаваемые вопросы",
+        "message": "FAQ(Часто задаваемые вопросы)",
         "description": "text for the FAQ page navigation item"
     },
     "faq-information-collected-answer-para-2-item-3": {
@@ -464,15 +464,15 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
-        "message": "Image showing Psiphon running on Android, on the status panel",
+        "message": "Изображение, показывающее приложение Psiphon запущенное на Android, панель статуса",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-para-2-item-6": {
-        "message": "Количество просмотров (полные адреса страниц сайтов спонсоров)",
+        "message": "Количество просмотров (полные адреса страниц для сайтов спонсоров)",
         "description": ""
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "Есть ли root права на Вашем телефоне",
+        "message": "Есть ли root права на вашем смартфоне",
         "description": ""
     },
     "faq-information-collected-answer-para-8-item-2": {
@@ -488,11 +488,11 @@
         "description": ""
     },
     "main-gets-you-where-you-want-head-2": {
-        "message": "Заблокированно правительством, начальником, интернет провайдером?",
+        "message": "Заблокировано правительством, админом или интернет провайдером?",
         "description": ""
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "Только в режиме VPN. После успешного установления соединения в режиме VPN весь интернет-трафик вашего компьютера  будет идти через сеть Psiphon 3. Только те приложения, интернет соединение которых может быть настроено через HTTP и SOCKS прокси могут использовать Psiphon 3 туннель в режиме SSH.",
+        "message": "Только в режиме VPN. После успешного установления соединения в режиме VPN весь интернет-трафик вашего компьютера  будет идти через сеть Psiphon. Только те приложения, интернет соединение которых может быть настроено через HTTP и SOCKS прокси могут использовать Psiphon  туннель в режиме SSH.",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
@@ -508,7 +508,7 @@
         "description": ""
     },
     "download-via-email-description": {
-        "message": "If our website or download links are blocked or censored, you may request to have the downloads sent to you via email.",
+        "message": "Если наш сайт или ссылки для скачивания блокированы или подвергнуты цензуре, вы можете запросить и получить приложение по электронной почте.",
         "description": ""
     },
     "footer-copyright": {
@@ -516,7 +516,7 @@
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
     "contact-sponsor-para": {
-        "message": "For sponsorship opportunities, click on the link above or email:",
+        "message": "Для получения информации о возможностях спонсорства нажмите на линк вверху или пишите на:",
         "description": ""
     },
     "about-open-source-para-3-list-start": {
@@ -528,7 +528,7 @@
         "description": "Heading for the list of blog posts that are available in English"
     },
     "license-termination-terms-of-service-violations-para-2": {
-        "message": "As the user, You are free to terminate this license agreement at any time by discontinuing use of any and all parts of the Psiphon software, and deleting all instances of the software application from Your device.",
+        "message": "Как пользователь, Вы вправе расторгнуть настоящее Лицензионное соглашение в любое время путем прекращения использования любых частей программного обеспечения Psiphon и удаления всех экземпляров программного приложения с вашего устройства.",
         "description": ""
     },
     "user-guide-windows-head": {
@@ -548,7 +548,7 @@
         "description": "title for the download page"
     },
     "generic-image-figcaption": {
-        "message": "Things to note:",
+        "message": "Важные элементы:",
         "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
     },
     "faq-information-collected-answer-para-2-item-1": {
@@ -556,7 +556,7 @@
         "description": ""
     },
     "main-gets-you-there-safely-para-1": {
-        "message": "Free internet is nice, but stolen cookies and accounts are not. Psiphon gives you a safe path to the Internet, no matter what network you're using to connect.",
+        "message": "Свободный от цензуры интернет это здорово, но не всегда безопасно.  Psiphon защитит вас от взломанных аккаунтов и украденных паролей независимо от того к какой сети вы подключены.",
         "description": ""
     },
     "faq-authentic-android-question": {
@@ -572,39 +572,43 @@
         "description": ""
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "Канадская комиссия по конфиденциальности",
+        "message": "Канадская Kомиссия по частной информации",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "Когда Psiphon 3 стартует, версия клиента отображается в окне сообщений.",
+        "message": "Когда Psiphon стартует, версия клиента отображается в окне сообщений.",
         "description": ""
     },
     "license-para-1": {
-        "message": "This software and all associated intellectual property is the property of Psiphon Inc., an Ontario registered corporation with its head office in Toronto, Ontario Canada.",
+        "message": "Это программное обеспечение и все связанная с ним интеллектуальная собственность является собственностью Psiphon Inc., корпорации зарегистрированной в провинции Онтарио с головным офисом в г. Торонто, провинция Онтарио, Канада.",
         "description": ""
     },
     "license-para-2": {
-        "message": "This version of Psiphon is strictly intended for individuals, and is for personal use only. If you wish to use Psiphon for any other purpose or have additional requirements, we offer a paid, commercial service. For more details, email <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
+        "message": "Эта версия Psiphon предназначена строго для физических лиц и только для личного использования. Если вы хотите использовать Psiphon для любой другой цели или имеете дополнительные требования, мы предлагаем платные, коммерческие услуги. Для получения дополнительной информации пишите по адресу <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "Продолжительность соединения",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
     },
+    "download-android-amazon-description": {
+        "message": "Совместим с Android 2.2 и выше. Для поддержки режима туннелирования всех интернет соединений требуется Android 4.0 и выше или <a href=\"https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%82%D0%B8%D0%BD%D0%B3\" target=\"_blank\"> устройство с правами доступа root </a>.",
+        "description": ""
+    },
     "user-guide-android-ui-statistics-image-annotation-3": {
         "message": "Количество информации, полученной через Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Количество информации, переданной через Psiphon",
+        "message": "Количество данных, переданных через Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
     },
     "contact-email-para": {
-        "message": "You can contact Psiphon by sending an email to:",
+        "message": "Вы можете связаться с Psiphon по электронной почте:",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Использовать сжатие данных для передачи через Psiphon",
+        "message": "Сжатие данных при передаче через Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
     },
     "sponsor-nav-title": {
@@ -612,20 +616,20 @@
         "description": "Navigation text for the Sponsorship page"
     },
     "license-distribution-header": {
-        "message": "Distribution",
+        "message": "Распространение",
         "description": ""
     },
     "faq-authentic-windows-image-alt": {
-        "message": "Image showing how to check the Psiphon executable signature on Windows",
+        "message": "Изображение, показывающее как проверить цифровую подпись бинарного файла Psiphon",
         "description": "alt text for an image"
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "Office of the Ontario Privacy Commissioner",
+        "message": "Управление Комиссара по частной информации",
         "description": ""
     },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Received data compressed through Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
+    "about-get-latest-info-para-1-announcements-list": {
+        "message": "Объявления Psiphon",
+        "description": "text for link to the Psiphon Announcements mailing list"
     },
     "about-nav-title": {
         "message": "О нас",
@@ -636,15 +640,15 @@
         "description": ""
     },
     "sponsor-para-1": {
-        "message": "Everyone who loads Psiphon will see the landing page whenever they connect with the software. Sponsorship opportunities are available by the week for this page.",
+        "message": "Каждый кто запускает Psiphon видит эту страницу всякий раз, когда происходит подключение к сети Psiphon. Спонсорство этой страницы доступно на понедельной основе.",
         "description": ""
     },
     "sponsor-para-2": {
-        "message": "You will see a banner of your choice, which will be linked to a page on your site. This is a unique opportunity to reach a large audience of technically-aware people using Psiphon to add a layer of security to their Internet browsing.",
+        "message": "Вы увидите ваш баннер с линком на страницу на вашем сайте. Это уникальная возможность охватить большую аудиторию технически осведомленных люди, использующих Psiphon для увеличения уровня безопасности своей интернет активности.",
         "description": ""
     },
     "sponsor-para-3": {
-        "message": "For more information, send an email to <a href=\"sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
+        "message": "Для получения дополнительной информации пишите по адресу <a href=\"sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-2": {
@@ -652,11 +656,11 @@
         "description": ""
     },
     "license-terms-of-use-para": {
-        "message": "This software is distributed “as is” with all faults and without warranty of any kind. By using Psiphon, You agree not to use the software in any manner that violates Canadian law, or the rights of a third party.",
+        "message": "Это программное обеспечение распространяется по принципу \"как есть\", со всеми ошибками и без каких-либо гарантий. Используя Psiphon, Вы обязуетесь не использовать программное обеспечение в любой форме, которая нарушает канадское законодательство или права третьих лиц.",
         "description": ""
     },
     "main-gets-you-there-safely-head-2": {
-        "message": "Want to surf securely when using public WiFi?",
+        "message": "Хотите сидеть в интернете безопасно при пользовании общественным WiFi?",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-1": {
@@ -664,15 +668,15 @@
         "description": ""
     },
     "download-android-playstore": {
-        "message": "Psiphon for Android in the Google Play Store",
+        "message": "Psiphon для Android в Google Play Store",
         "description": "text for link to Psiphon for Android in the Google Play Store"
     },
     "faq-polipo-different-port-answer-para-1": {
-        "message": "Yes, on Windows. Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserLocalHTTPProxyPort</code>. Set its value to the port (in Decimal) that you would like to use.",
+        "message": "Да, на Windows. Нажмите Run и введите <code>regedit</code>, чтобы открыть редактор реестра. Найдите и откройте <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> и в правой панели вы увидите переменную <code>UserLocalHTTPProxyPort</code>. Установите ее значение в то, которые вы хотели бы использовать для порта HTTP прокси.",
         "description": ""
     },
     "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Logs of Psiphon activity",
+        "message": "Лог сообщений активности Psiphon",
         "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     },
     "user-guide-nav-title": {
@@ -680,19 +684,23 @@
         "description": "text for the user guide page navigation item"
     },
     "faq-information-collected-question": {
-        "message": "What user information does Psiphon collect?",
+        "message": "Какую информацию о пользователях собирает Psiphon?",
         "description": ""
     },
     "contact-sponsor-email": {
         "message": "sponsor@psiphon.ca",
         "description": ""
     },
+    "user-guide-android-ui-statistics-image-annotation-5": {
+        "message": "Сжатие данных полученных через Psiphon",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
+    },
     "faq-autoproxy-question": {
-        "message": "I use <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. How can I tell Psiphon for Windows not to configure my system proxy settings?",
+        "message": "Я пользуюсь <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. Как запретить Psiphon для Windows менять системные настройки прокси?",
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "Works on Windows XP, Windows Vista, Windows 7, and Windows 8 (desktop).",
+        "message": "Работает на Windows XP, Windows Vista, Windows 7 и Windows 8 (десктоп).",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-7": {
@@ -704,31 +712,31 @@
         "description": ""
     },
     "faq-authentic-windows-answer-para-4": {
-        "message": "Psiphon for Windows auto-updates itself, and this process automatically verifies that each update is authentic.",
+        "message": "Psiphon для Windows обновляется и проверяет подлинность каждое обновления автоматически.",
         "description": ""
     },
     "main-gets-you-where-you-want-para-1": {
-        "message": "After dealing with repressive regimes around the world, we are uniquely suited to help you get to the content you want, whenever and wherever you want it.",
+        "message": "Наш солидный опыт обхода цензуры репрессивных режимов по всему миру поможет вам получить доступ к нужному вам контенту в любое время в любом месте.",
         "description": ""
     },
     "faq-vpn-protocol-question": {
-        "message": "What VPN protocol is used by Psiphon for Windows? Why can't I connect?",
+        "message": "Какой VPN протокол используется Psiphon для Windows? Почему я не могу подключиться?",
         "description": ""
     },
     "user-guide-android-para-3": {
-        "message": "When you launch the Psiphon app, it will automatically start connecting to the Psiphon network.",
+        "message": "При запуске приложения Psiphon, оно автоматически попытается инициализировать подключение к сети Psiphon.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2": {
-        "message": "The SHA1 thumbprint for the Psiphon Inc. certificate public key is displayed in the Certificate dialog Details tab. For the certificate valid for the period June 16, 2011 to June 21, 2012 the SHA1 thumbprint is:",
+        "message": "Цифровой отпечаток SHA1 открытого ключа сертификата Psiphon Inc. можно проверить во вкладке Подробности диалога Сертификат. Для сертификата, срок действия которого с 16 Июня 2011 до 21 Июня 2012 отпечаток SHA1:",
         "description": ""
     },
     "faq-authentic-windows-answer-para-3": {
-        "message": "The certificate valid for the for the period May 21, 2011 to July 30, 2014 the SHA1 thumbprint is:",
+        "message": "Для сертификата, срок действия которого с 21 Мая 2011 до 30 Июля 2014 отпечаток SHA1:",
         "description": ""
     },
     "license-nav-title": {
-        "message": "License",
+        "message": "Лицензия",
         "description": ""
     },
     "sponsor-header-become-a-sponsor": {
@@ -736,43 +744,43 @@
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "This software is distributed “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this software including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
+        "message": "Это программное обеспечение распространяется по принципу \"как есть\" и без гарантий или выраженных или подразумеваемых обязательств такого рода. Psiphon отказывается от всех гарантий и обязательств, связанных с использованием этого программного обеспечения, включая телесные повреждения или любой побочный, специальный или косвенный личный или коммерческий ущерб, включая потери данных и простоя производства.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {
-        "message": "Psiphon for Windows is never distributed as an installable package. Each Psiphon for Windows client is a single executable file (\".exe\") that is digitally signed by Psiphon Inc. Windows automatically checks this signature when you run the client. You can also manually inspect the signature before running the client by invoking the Properties dialog for the file and inspecting the Digital Signatures tab.",
+        "message": "Дистрибутив Psiphon для Windows является не инсталляционным пакетом, а исполняемым приложением(\".exe\") с цифровой подписью Psiphon Inc. Windows автоматически проверяет эту подпись при запуске клиента.  Вы также можете вручную проверить подпись перед запуском клиента, вызвав диалоговое окно Свойства Файла и проверив вкладку Цифровые Подписи.",
         "description": ""
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "Psiphon will automatically configure your system to use a local HTTP/HTTPS proxy at <code>127.0.0.1:8080</code> and a local SOCKS proxy at <code>127.0.0.1:1080</code>. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon for Windows (SSH modes) and Psiphon for Android run these local proxies.",
+        "message": "Psiphon  автоматически установит системные настройки Windows на использование локальных прокси серверов - HTTP / HTTPS прокси на <code>127.0.0.1:8080</code> и SOCKS прокси на <code>127.0.0.1:1080</code>. Windows приложения, которые используют прокси настройки системы будет автоматически использовать туннель. Вы можете вручную настроить другие приложения на использование этих локальных прокси-серверов. Эти прокси сервисы доступны как в Psiphon для Windows (SSH режимы), так и в Psiphon для Android.",
         "description": ""
     },
     "nav-title": {
-        "message": "Navigation",
+        "message": "Навигация",
         "description": ""
     },
     "faq-title": {
-        "message": "Часто задаваемые вопросы",
+        "message": "FAQ(часто задаваемые вопросы)",
         "description": "title for the FAQ page"
     },
-    "about-get-latest-info-para-1-announcements-list": {
-        "message": "Psiphon Announcements",
-        "description": "text for link to the Psiphon Announcements mailing list"
+    "user-guide-windows-para-2": {
+        "message": "Psiphon автоматически инициирует соединение с сервером при запуске. В процессе соединения видна вращающаяся иконка. Вы можете выбрать один из следующих режимов туннелирования: VPN (L2TP/IPSec), SSH, or SSH+ (SSH обфусцированный для избежания идентификации протокола).",
+        "description": ""
     },
     "user-guide-android-para-1": {
         "message": "Нажмите на ссылку Psiphon APK из вашего клиента электронной почты Android или браузера, чтобы начать установку.",
         "description": ""
     },
     "blog-index-intro": {
-        "message": "Psiphon Inc. is a Canadian company, and most of the members of our team are native English speakers. This means that our blog posts are originally in English. We will translate them into other languages as we can.",
+        "message": "Psiphon Inc. - канадская компания и большинство членов нашей комманды носители английского языка. Это означает, что сообщения в нашем блоге изначально делаются по-английски. Мы будем переводить их на другие языки по мере возможностей.",
         "description": ""
     },
     "user-guide-android-para-2": {
-        "message": "To install a Psiphon APK, you must enable the option in your Android device to install non-Play Store apps. Psiphon for Android will automatically update itself.",
+        "message": "Для установки Psiphon APK, опция \"Неизвестные Источники\" в меню настроек приложений в вашем Android устройстве должна быть включена. Psiphon для Android будет автоматически обновлять себя.",
         "description": ""
     },
     "user-guide-android-para-4": {
-        "message": "Once the app has connected to the network, it will launch the built-in Psiphon browser. Psiphon for Android does not automatically tunnel the traffic for the default Android browser or other apps. By default, only the Psiphon browser is tunneled through the Psiphon network.",
+        "message": "Как только приложение подключится к сети Psiphon, запустится встроенный Psiphon браузер. Psiphon для Android не туннелирует трафик встроенного браузера Android или других приложений. По умолчанию туннелируется лишь трафик встроенного браузера Psiphon.",
         "description": ""
     }
 }
