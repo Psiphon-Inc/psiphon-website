@@ -51,7 +51,7 @@ docpadConfig = {
 
 
     # Enabled languages
-    languages: ['en', 'fa']
+    languages: ['en', 'fa', 'zh', 'ru']
 
     # Info about all pages
     # This would be largely unnecessary if we could put metadata on layouts
@@ -86,6 +86,11 @@ docpadConfig = {
         title_key: 'license-title'
         nav_title_key: 'license-nav-title'
 
+      'virtualname':
+        filename: '/virtualname.html'
+        title_key: 'license-title'
+        nav_title_key: 'license-nav-title'
+
     navLayout: [
       { name: 'download' }
       {
@@ -106,6 +111,7 @@ docpadConfig = {
       android: '/PsiphonAndroid.apk'
       email: 'get@psiphon3.com'
       playstore: 'https://play.google.com/store/apps/details?id=com.psiphon3'
+      amazonappstore: 'http://www.amazon.com/gp/product/B00FAV9K4Q/ref=mas_pm_Psiphon'
 
     # -----------------------------
     # Helper Functions
@@ -113,7 +119,7 @@ docpadConfig = {
     # Throws exception if `name` not found.
     getPageInfo: (name) ->
       if name not of @pageInfo
-        throw "bad page name: #{name}"
+        throw "@getPageInfo: bad page name: #{name}"
       return @pageInfo[name]
 
     # The title might need to be translated from a string key.
@@ -231,6 +237,15 @@ docpadConfig = {
         "pt_BR": "Português(Br)"
         "ru": "Русский"
         "sv": "Svenska"
+        "zh": "中文"
+        "uz@cyrillic": "Ўзбекча"
+        "uz@Latn": "O'zbekcha"
+        "tk": "Türkmençe"
+        "th": "ภาษาไทย"
+        "az": "azərbaycan dili"
+        "ug@Latn": "Uyghurche"
+        "kk": "қазақ тілі"
+        "vi": "Tiếng Việt"
       if map[languageCode]
         map[languageCode]
       else
@@ -287,8 +302,24 @@ docpadConfig = {
   # These are special collections that our website makes available to us
 
   collections:
+    # NOTE: This isn't just provide a collection of pages -- it's also (primarily)
+    # used to derive the language from the page path and set it as the default
+    # metadata.
+    # Derived from: https://gist.github.com/balupton/4166806
     pages: (database) ->
-      database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
+      lang_dirs = ('/'+lang+'/' for lang in @config.templateData.languages)
+      lang_regex = ('^'+lang_dir for lang_dir in lang_dirs).join('|')
+
+      @getCollection('documents').createChildCollection()
+        .setFilter 'search', (model) ->
+          return false if not model.get('url')
+
+          lang_match = model.get('url').match(lang_regex)
+          return false if not lang_match
+
+          lang = lang_match[0].replace(/^\/|\/$/g, '')
+          model.setMetaDefaults { language: lang }
+          true
 
     posts: (database) ->
       database.findAllLive({layout: 'blog/post'}, [date:-1])
@@ -308,6 +339,12 @@ docpadConfig = {
         }
       ]
 
+    fattrimmer:
+      fat: [
+        /\/_/  # files and directories with leading underscore
+        /^\/vendor\/twitter-bootstrap\/(?!dist\/)/  # Twitter Bootstrap files that aren't in the "dist" folder
+      ]
+
     feedr:
       cache: false
       log: console.log
@@ -317,6 +354,10 @@ docpadConfig = {
           url: './_locales/en/messages.json'
         fa:
           url: './_locales/fa/messages.json'
+        ru:
+          url: './_locales/ru/messages.json'
+        zh:
+          url: './_locales/zh/messages.json'
 
   # =================================
   # DocPad Events

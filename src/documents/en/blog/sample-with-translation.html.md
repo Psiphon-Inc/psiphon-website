@@ -1,6 +1,5 @@
 ---
 title: My Sample Translated Blog Post (English)
-language: en
 layout: blog/post
 ---
 

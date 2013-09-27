@@ -3,6 +3,7 @@
 ## Getting Started
 
 1. Install [Node.js](http://nodejs.org/).
+
 2. Install [Docpad](http://docpad.org/):
   
   ```
@@ -21,5 +22,9 @@
   $ docpad run
   ```
 
+## Generating the site for deployment
 
-## RTL support for Bootstrap
+```
+$ docpad clean
+$ docpad generate --env static,production
+```

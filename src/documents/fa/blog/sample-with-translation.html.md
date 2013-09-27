@@ -1,6 +1,5 @@
 ---
 title: 'My Sample Translated Blog Post (Farsi)'
-language: fa
 layout: blog/post
 ---
 

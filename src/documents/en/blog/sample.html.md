@@ -1,6 +1,5 @@
 ---
 title: My Sample Blog Post
-language: en
 layout: blog/post
 ---
 
