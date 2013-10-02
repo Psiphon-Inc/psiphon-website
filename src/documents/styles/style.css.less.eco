@@ -172,6 +172,7 @@ pre.highlighted {
 }
 
 .sponsor-info {
+  display: none;
   margin-bottom: 1em;
 }
 
@@ -180,7 +181,7 @@ pre.highlighted {
 }
 
 .sponsor-info .sponsor-banner img {
-  height: 4em;
+  max-height: 100px;
   margin: auto;  // Center image
 }
 

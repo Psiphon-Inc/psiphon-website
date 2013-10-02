@@ -30,5 +30,16 @@ $ ->
       $(@).closest('.row').find('.equal-height').height(maxHeight)
   # Trigger it to get the initial size right.
   setTimeout(
-    () -> $(window).resize(), 
+    () -> $(window).resize(),
     10)
+
+  #
+  # If we have a sponsor banner, display the sponsor information.
+  # Otherwise leave it hidden.
+  #
+  $.ajax(type: 'HEAD', url: '/images/sponsor-banner.png')
+    .done -> $('.sponsor-info').show()
+  $.getJSON('/images/sponsor-banner-link.json')
+    .done (url) ->
+      $link = $('<a target="_blank">').attr('href', url)
+      $('.sponsor-info .sponsor-banner img').wrap($link)
