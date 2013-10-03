@@ -37,9 +37,11 @@ $ ->
   # If we have a sponsor banner, display the sponsor information.
   # Otherwise leave it hidden.
   #
-  $.ajax(type: 'HEAD', url: '/images/sponsor-banner.png')
+  banner_img_file = $('.sponsor-banner img').prop('src')
+  banner_link_file = $('.sponsor-banner img').data('link-file')
+  $.ajax(type: 'HEAD', url: banner_img_file)
     .done -> $('.sponsor-info').show()
-  $.getJSON('/images/sponsor-banner-link.json')
+  $.getJSON(banner_link_file)
     .done (url) ->
       $link = $('<a target="_blank">').attr('href', url)
       $('.sponsor-info .sponsor-banner img').wrap($link)
