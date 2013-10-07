@@ -83,10 +83,6 @@
         "message": "Open new tab",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
     },
-    "user-guide-windows-para-2": {
-        "message": "Psiphon automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPSec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting).",
-        "description": ""
-    },
     "main-gets-you-there-safely-head-1": {
         "message": "...and gets you there safely.",
         "description": ""
@@ -97,7 +93,7 @@
     },
     "blog-index-posts-in-your-language": {
         "message": "Posts in your language",
-        "description": "Heading for the list of blog posts that have been translated into the user's language"
+        "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "user-guide-android-para-verify-authentic": {
         "message": "You should first <a href=\"./faq.html#authentic-android\">verify that your copy of Psiphon for Android is authentic</a>.",
@@ -124,8 +120,12 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted phone.<br><br>This options will be unavailable for older Android versions or non-rooted phones.",
+        "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted phone.<br><br>This option will be unavailable for non-rooted phones with an older version of Android.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
+    },
+    "download-android-amazon": {
+        "message": "Psiphon for Android in the Amazon AppStore",
+        "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "faq-orig-file-purpose-answer-para-1": {
         "message": "The automatic update process in Psiphon for Windows renames its old version to \"psiphon3.exe.orig\". Old files with the \".orig\" suffix can safely be deleted.",
@@ -241,7 +241,7 @@
     },
     "psiphon": {
         "message": "Psiphon",
-        "description": "The name of the product. Probably not translated or transliterated for most languages"
+        "description": ""
     },
     "faq-vpn-protocol-answer-para-1": {
         "message": "Psiphon uses the L2TP/IPSec VPN protocol. Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPSec or L2TP pass-through is enabled. Your system’s IPSec Services may be disabled; check your service settings and enable this service to start automatically.",
@@ -591,6 +591,10 @@
         "message": "Connection duration",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
     },
+    "download-android-amazon-description": {
+        "message": "Compatible with Android 2.2 and up. Whole device mode requires Android 4.0 and up or a <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">rooted device</a>.",
+        "description": ""
+    },
     "user-guide-android-ui-statistics-image-annotation-3": {
         "message": "Data received through Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
@@ -623,9 +627,9 @@
         "message": "Office of the Ontario Privacy Commissioner",
         "description": ""
     },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Received data compressed through Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
+    "about-get-latest-info-para-1-announcements-list": {
+        "message": "Psiphon Announcements",
+        "description": "text for link to the Psiphon Announcements mailing list"
     },
     "about-nav-title": {
         "message": "About Us",
@@ -686,6 +690,10 @@
     "contact-sponsor-email": {
         "message": "sponsor@psiphon.ca",
         "description": ""
+    },
+    "user-guide-android-ui-statistics-image-annotation-5": {
+        "message": "Received data compressed through Psiphon",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
     },
     "faq-autoproxy-question": {
         "message": "I use <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. How can I tell Psiphon for Windows not to configure my system proxy settings?",
@@ -755,9 +763,9 @@
         "message": "FAQ",
         "description": "title for the FAQ page"
     },
-    "about-get-latest-info-para-1-announcements-list": {
-        "message": "Psiphon Announcements",
-        "description": "text for link to the Psiphon Announcements mailing list"
+    "user-guide-windows-para-2": {
+        "message": "Psiphon automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPSec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting).",
+        "description": ""
     },
     "user-guide-android-para-1": {
         "message": "Haga click en la liga APK desde su email o navegador de Android para iniciar la instalación.",
