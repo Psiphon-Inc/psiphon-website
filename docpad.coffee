@@ -53,6 +53,14 @@ docpadConfig = {
     # Enabled languages
     languages: ['en', 'fa', 'zh', 'ru']
 
+    # Translation file location. At render time, the filename will be replace
+    # with the object loaded from the file.
+    translations:
+      en: './_locales/en/messages.json'
+      fa: './_locales/fa/messages.json'
+      ru: './_locales/ru/messages.json'
+      zh: './_locales/zh/messages.json'
+
     # Info about all pages
     # This would be largely unnecessary if we could put metadata on layouts
     pageInfo:
@@ -167,10 +175,10 @@ docpadConfig = {
     # Fails back to English if the key is not found.
     tt: (key) ->
       fallback_language = 'en'
-      if @feedr.feeds[@document.language][key]?
-        return @feedr.feeds[@document.language][key].message
-      else if @feedr.feeds[fallback_language][key]?
-        return @feedr.feeds[fallback_language][key].message
+      if @translations[@document.language][key]?
+        return @translations[@document.language][key].message
+      else if @translations[fallback_language][key]?
+        return @translations[fallback_language][key].message
       console.log "bad translation key: #{key}"
       throw "bad translation key: #{key}"
 
@@ -345,19 +353,6 @@ docpadConfig = {
         /^\/vendor\/twitter-bootstrap\/(?!dist\/)/  # Twitter Bootstrap files that aren't in the "dist" folder
       ]
 
-    feedr:
-      cache: false
-      log: console.log
-      logError: console.error
-      feeds:
-        en:
-          url: './_locales/en/messages.json'
-        fa:
-          url: './_locales/fa/messages.json'
-        ru:
-          url: './_locales/ru/messages.json'
-        zh:
-          url: './_locales/zh/messages.json'
 
   # =================================
   # DocPad Events
@@ -386,6 +381,17 @@ docpadConfig = {
           res.redirect(newUrl+req.url, 301)
         else
           next()
+
+    renderBefore: (opts, next) ->
+      # Initially, opts.templateData.translations specifies languages and filenames
+      # where the translations for the languages can be found. Here we're going
+      # to load those files.
+      fs = require 'fs'
+      for lang of opts.templateData.translations
+        langJSON = fs.readFileSync opts.templateData.translations[lang]
+        opts.templateData.translations[lang] = JSON.parse(langJSON)
+
+      next()
 
 
   # =================================
