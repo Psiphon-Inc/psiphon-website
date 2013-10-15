@@ -410,10 +410,9 @@ docpadConfig = {
   # =================================
   # DocPad Environments
 
-  environments:
-    production:
-      templateData:
-        languages: ['en']
+  #environments:
+  #  production:
+  #    templateData:
 
   # =================================
   # Other DocPad config
