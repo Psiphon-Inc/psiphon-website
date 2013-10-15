@@ -195,34 +195,39 @@ docpadConfig = {
       console.log "bad translation key: #{key}"
       throw "bad translation key: #{key}"
 
-    # Translate the desired URL into a language-specific URL
+    # Translate the desired URL into a language-specific URL.
+    # If there is no language-specific URL, then the English or non-language-specific
+    # fallback will be used.
     ttURL: (key) ->
       fallback_language = 'en'
 
-      key_decomposition = key.match /^(.+)\.([^\.]+)/
+      key_decomposition = key.match /^(.+)\.([^\.]+)$/
       key_url_stem = key_decomposition[1]
       key_url_ext = key_decomposition[2]
 
       target_url = "#{key_url_stem}.#{@document.language}.#{key_url_ext}"
       fallback_url = "#{key_url_stem}.#{fallback_language}.#{key_url_ext}"
+      no_lang_fallback_url = key
       fallback_url_found = no
+      no_lang_fallback_url_found = no
 
       # Look for a translated file
       for file in @getCollection('files').toJSON()
         if file.url == target_url
           # Translated file exists
           return file.url
-
-        if file.url == fallback_url
+        else if file.url == fallback_url
           # Found the fallback -- remember for later
           fallback_url_found = yes
+        else if file.url == no_lang_fallback_url
+          # Found the no-lang fallback -- remember for later
+          no_lang_fallback_url_found = yes
 
-      if not fallback_url_found
+      if not fallback_url_found and not no_lang_fallback_url_found
         throw "bad translation for URL: #{key}"
 
-      return fallback_url
+      if fallback_url_found then fallback_url else no_lang_fallback_url
 
-      # We didn't find a translated file, so look for a fallback file
 
     rtl_languages: ['ar', 'fa', 'he']
 
