@@ -51,15 +51,28 @@ docpadConfig = {
 
 
     # Enabled languages
-    languages: ['en', 'fa', 'zh', 'ru']
+    languages: ['en', 'fa', 'ar', 'zh', 'ru', 'uz@cyrillic', 'uz@Latn', 'tk', 'th', 'az', 'ug@Latn', 'kk', 'es', 'vi']
 
     # Translation file location. At render time, the filename will be replace
     # with the object loaded from the file.
     translations:
       en: './_locales/en/messages.json'
       fa: './_locales/fa/messages.json'
-      ru: './_locales/ru/messages.json'
+      ar: './_locales/ar/messages.json'
       zh: './_locales/zh/messages.json'
+      ru: './_locales/ru/messages.json'
+      'uz@cyrillic': './_locales/uz@cyrillic/messages.json'
+      'uz@Latn': './_locales/uz@Latn/messages.json'
+      tk: './_locales/tk/messages.json'
+      th: './_locales/th/messages.json'
+      az: './_locales/az/messages.json'
+      'ug@Latn': './_locales/ug@Latn/messages.json'
+      kk: './_locales/kk/messages.json'
+      es: './_locales/es/messages.json'
+      vi: './_locales/vi/messages.json'
+
+    # Indicates which languages are not well translated and will
+    fallback_languages: ['ar', 'zh', 'tk', 'es', 'vi']
 
     # Info about all pages
     # This would be largely unnecessary if we could put metadata on layouts
