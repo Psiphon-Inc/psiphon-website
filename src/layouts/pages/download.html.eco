@@ -26,7 +26,7 @@ layout: page
   </div>
   <div class="download-qr">
     <a href="<%- @downloads.playstore %>">
-      <img class="img-responsive" src="<%= @relativeToRoot '/images/android/android-download-qr.png' %>">
+      <img class="img-responsive" src="<%= @relativeToRoot '/images/android/google-play-qr.png' %>">
     </a>
   </div>
 </div>

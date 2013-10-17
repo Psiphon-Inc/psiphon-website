@@ -5,6 +5,12 @@
 <head>
   <!-- Meta -->
   <meta charset="utf-8" />
+
+  <!-- If the current language isn't full supported, redirect to the old download page. -->
+  <% if @document.language in @fallback_languages: %>
+    <meta http-equiv="refresh" content="1; url=<%= @relativeToRoot "/#{@document.language}.html" %>">
+  <% end %>
+
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
   <!-- Use the .htaccess and remove these lines to avoid edge case issues.
