@@ -74,7 +74,7 @@ layout: page
     </p>
     <p>
       <figure class="perma-annotated">
-        <img class="img-responsive" src="<%- @relativeToRoot @ttURL '/images/user-guide/user-guide-android-3.png' %>" alt="<%= @tt 'user-guide-android-image-3-alt' %>">
+        <img class="img-responsive" src="<%- @relativeToRoot '/images/user-guide/user-guide-android-3.png' %>" alt="<%= @tt 'user-guide-android-image-3-alt' %>">
         <figcaption>
           <b><%- @tt 'generic-image-figcaption' %></b>
           <ul>
