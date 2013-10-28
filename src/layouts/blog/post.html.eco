@@ -5,7 +5,13 @@ layout: default
 <article class="blog-post">
   <div class="row">
     <div class="col-md-12">
-      <%= @formatDate @document.date %>
+      <h1><%= @document.title %></h1>
+      <h4><%= @document.author %></h4>
+      <h6><%= @formatDate @document.date %></h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
       <div class="post-content"><%- @content %></div>
     </div>
   </div>

@@ -102,6 +102,11 @@ docpadConfig = {
         title_key: 'about-title'
         nav_title_key: 'about-nav-title'
 
+      'blog':
+        filename: '/blog/index.html'
+        title_key: 'blog-index-title'
+        nav_title_key: 'blog-nav-title'
+        
       'license':
         filename: '/license.html'
         title_key: 'license-title'
@@ -121,6 +126,7 @@ docpadConfig = {
           { name: 'user-guide' }
           { name: 'faq' }
           { name: 'about' }
+          { name: 'blog' }
           { name: 'license' }
         ]
       }
