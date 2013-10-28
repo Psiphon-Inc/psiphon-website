@@ -411,9 +411,15 @@ docpadConfig = {
     renderBefore: (opts, next) ->
       # Load the translations from locale JSON files.
       fs = require 'fs'
+
       for lang of opts.templateData.translation_files
         langJSON = fs.readFileSync opts.templateData.translation_files[lang]
-        opts.templateData.translations[lang] = JSON.parse(langJSON)
+        try
+          opts.templateData.translations[lang] = JSON.parse(langJSON)
+        catch error
+          # `docpad.log` doesn't seem to properly output something here
+          console.log "\n\nERROR: Language JSON fail: #{lang}: #{error}\n"
+          throw error
 
       next()
 
