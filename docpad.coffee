@@ -53,9 +53,8 @@ docpadConfig = {
     # Enabled languages
     languages: ['en', 'fa', 'ar', 'zh', 'ru', 'uz@cyrillic', 'uz@Latn', 'tk', 'th', 'az', 'ug@Latn', 'kk', 'es', 'vi']
 
-    # Translation file location. At render time, the filename will be replace
-    # with the object loaded from the file.
-    translations:
+    # Translation file location.
+    translation_files:
       en: './_locales/en/messages.json'
       fa: './_locales/fa/messages.json'
       ar: './_locales/ar/messages.json'
@@ -70,6 +69,9 @@ docpadConfig = {
       kk: './_locales/kk/messages.json'
       es: './_locales/es/messages.json'
       vi: './_locales/vi/messages.json'
+
+    # Translations will be loaded into this object.
+    translations: {}
 
     # Indicates which languages are not well translated and will
     fallback_languages: ['ar', 'zh', 'tk', 'es', 'vi']
@@ -407,12 +409,10 @@ docpadConfig = {
           next()
 
     renderBefore: (opts, next) ->
-      # Initially, opts.templateData.translations specifies languages and filenames
-      # where the translations for the languages can be found. Here we're going
-      # to load those files.
+      # Load the translations from locale JSON files.
       fs = require 'fs'
-      for lang of opts.templateData.translations
-        langJSON = fs.readFileSync opts.templateData.translations[lang]
+      for lang of opts.templateData.translation_files
+        langJSON = fs.readFileSync opts.templateData.translation_files[lang]
         opts.templateData.translations[lang] = JSON.parse(langJSON)
 
       next()
