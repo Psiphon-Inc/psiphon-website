@@ -12,37 +12,37 @@ layout: page
   </div>
 </div>
 
+<% post_info = (document) => %>
+  <div class="blog-post-info">
+    <span class="blog-post-date"><%= @formatDate document.date %></span>
+    <a class="blog-post-title" href="<%= @relativeToRoot document.url %>">
+      <%= document.title %>
+    </a>
+    <span class="blog-post-author"><%= document.author %></span>
+  </div>
+<% end %>
+
 <!-- Only show the in-you-language section if there actually are any posts in the user's language (and the user's language isn't English) -->
-<% if @document.language != 'en' and @getCollection('posts').findAllLive({language: @document.language}).length: %>
+<% if @document.language != 'en' and @getCollection('posts').findAllLive({languagemakered: {$exists: false}, language: @document.language}).length: %>
 <div class="row">
   <div class="col-md-12">
     <h2><%= @tt 'blog-index-posts-in-your-language' %></h2>
-    <ul>
-    <% for document in @getCollection('posts').findAllLive({language: @document.language}).toJSON(): %>
-      <li>
-        <a href="<%= @relativeToRoot document.url %>">
-          <%= document.title %>
-        </a>
-        <%= @formatDate document.date %>
-      </li>
+
+    <% for document in @getCollection('posts').findAllLive({languagemakered: {$exists: false}, language: @document.language}).toJSON(): %>
+      <%= post_info document %>
     <% end %>
-    </ul>
   </div>
 </div>
 <% end %>
 
 <div class="row">
   <div class="col-md-12">
-    <h2><%= @tt 'blog-index-posts-in-english' %></h2>
-    <ul>
-    <% for document in @getCollection('posts').findAllLive({language: 'en'}).toJSON(): %>
-      <li>
-        <a href="<%= @relativeToRoot document.url %>">
-          <%= document.title %>
-        </a>
-        <%= @formatDate document.date %>
-      </li>
+    <% if @document.language != 'en': %>
+      <h2><%= @tt 'blog-index-posts-in-english' %></h2>
     <% end %>
-    </ul>
+
+    <% for document in @getCollection('posts').findAllLive({language: 'en'}).toJSON(): %>
+      <%= post_info document %>
+    <% end %>
   </div>
 </div>
