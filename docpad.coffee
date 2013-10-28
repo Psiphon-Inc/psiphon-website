@@ -18,12 +18,12 @@ docpadConfig = {
 
       # The website description (for SEO)
       description: """
-        When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+        Psiphon is a circumvention tool from Psiphon Inc. that utilizes VPN, SSH and HTTP Proxy technology to provide you with uncensored access to Internet content.
         """
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-        place, your, website, keywords, here, keep, them, related, to, the, content, of, your, website
+        vpn, censorship, circumvention, ssh, proxy, facebook, uncensored, access, twitter, youtube, tunnel
         """
 
       companyName: "Psiphon Inc."
@@ -106,7 +106,7 @@ docpadConfig = {
         filename: '/blog/index.html'
         title_key: 'blog-index-title'
         nav_title_key: 'blog-nav-title'
-        
+
       'license':
         filename: '/license.html'
         title_key: 'license-title'
