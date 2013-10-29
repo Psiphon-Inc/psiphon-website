@@ -18,12 +18,12 @@ docpadConfig = {
 
       # The website description (for SEO)
       description: """
-        When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+        Psiphon is a circumvention tool from Psiphon Inc. that utilizes VPN, SSH and HTTP Proxy technology to provide you with uncensored access to Internet content.
         """
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-        place, your, website, keywords, here, keep, them, related, to, the, content, of, your, website
+        vpn, censorship, circumvention, ssh, proxy, facebook, uncensored, access, twitter, youtube, tunnel
         """
 
       companyName: "Psiphon Inc."
@@ -53,9 +53,8 @@ docpadConfig = {
     # Enabled languages
     languages: ['en', 'fa', 'ar', 'zh', 'ru', 'uz@cyrillic', 'uz@Latn', 'tk', 'th', 'az', 'ug@Latn', 'kk', 'es', 'vi']
 
-    # Translation file location. At render time, the filename will be replace
-    # with the object loaded from the file.
-    translations:
+    # Translation file location.
+    translation_files:
       en: './_locales/en/messages.json'
       fa: './_locales/fa/messages.json'
       ar: './_locales/ar/messages.json'
@@ -70,6 +69,9 @@ docpadConfig = {
       kk: './_locales/kk/messages.json'
       es: './_locales/es/messages.json'
       vi: './_locales/vi/messages.json'
+
+    # Translations will be loaded into this object.
+    translations: {}
 
     # Indicates which languages are not well translated and will
     fallback_languages: ['ar', 'zh', 'tk', 'es', 'vi']
@@ -102,6 +104,11 @@ docpadConfig = {
         title_key: 'about-title'
         nav_title_key: 'about-nav-title'
 
+      'blog':
+        filename: '/blog/index.html'
+        title_key: 'blog-index-title'
+        nav_title_key: 'blog-nav-title'
+
       'license':
         filename: '/license.html'
         title_key: 'license-title'
@@ -121,6 +128,7 @@ docpadConfig = {
           { name: 'user-guide' }
           { name: 'faq' }
           { name: 'about' }
+          { name: 'blog' }
           { name: 'license' }
         ]
       }
@@ -401,13 +409,17 @@ docpadConfig = {
           next()
 
     renderBefore: (opts, next) ->
-      # Initially, opts.templateData.translations specifies languages and filenames
-      # where the translations for the languages can be found. Here we're going
-      # to load those files.
+      # Load the translations from locale JSON files.
       fs = require 'fs'
-      for lang of opts.templateData.translations
-        langJSON = fs.readFileSync opts.templateData.translations[lang]
-        opts.templateData.translations[lang] = JSON.parse(langJSON)
+
+      for lang of opts.templateData.translation_files
+        langJSON = fs.readFileSync opts.templateData.translation_files[lang]
+        try
+          opts.templateData.translations[lang] = JSON.parse(langJSON)
+        catch error
+          # `docpad.log` doesn't seem to properly output something here
+          console.log "\n\nERROR: Language JSON fail: #{lang}: #{error}\n"
+          throw error
 
       next()
 
