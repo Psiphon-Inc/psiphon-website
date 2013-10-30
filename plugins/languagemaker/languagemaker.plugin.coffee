@@ -65,6 +65,7 @@ module.exports = (BasePlugin) ->
                                     document.get('relativePath')))
             meta:
               language: lang
+              languagemakered: yes
             )
 
           database.add newDoc
