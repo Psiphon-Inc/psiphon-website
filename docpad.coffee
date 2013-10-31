@@ -305,7 +305,8 @@ docpadConfig = {
     formatDate: (date) ->
       # Maybe we should use the JavaScript Date toLocaleDateString()?
       # Returning ISO8601 date for now
-      month = date.getUTCMonth()
+      # Note: getUTCMonth returns a 0-based month number and we want 1-based for the format
+      month = date.getUTCMonth() + 1
       if month < 10 then month = '0' + month
       return "#{date.getUTCFullYear()}-#{month}-#{date.getUTCDate()}"
 
