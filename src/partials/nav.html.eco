@@ -30,7 +30,7 @@
               </a>
               <ul class="dropdown-menu">
               <% for subNavItem in navItem.subnav: %>
-                <li about="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" class="<%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(subNavItem.name).filename) then 'active' else '' %>">
+                <li about="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" class="<%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(subNavItem.name).filename) then 'active' else '' %> <%= if subNavItem.additional_classes then subNavItem.additional_classes.join(' ') else '' %>">
                   <a href="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" title="<%= @tt @getPageInfo(subNavItem.name).nav_title_key %>" class="nav-link">
                     <%= @tt @getPageInfo(subNavItem.name).nav_title_key %>
                   </a>
@@ -39,7 +39,7 @@
               </ul>
             </li>
           <% else: %>
-            <li about="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" class="<%- @ifRTL 'navbar-right' %> <%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(navItem.name).filename) then 'active' else '' %>">
+            <li about="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" class="<%- @ifRTL 'navbar-right' %> <%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(navItem.name).filename) then 'active' else '' %> <%= if navItem.additional_classes then navItem.additional_classes.join(' ') else '' %>">
               <a href="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" title="<%= @tt @getPageInfo(navItem.name).nav_title_key %>" class="nav-link">
                 <%= @tt @getPageInfo(navItem.name).nav_title_key %>
               </a>

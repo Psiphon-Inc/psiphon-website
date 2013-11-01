@@ -8,7 +8,7 @@ layout: page
   </div>
 </div>
 
-<div class="row alert alert-info download-item">
+<div class="row alert alert-info download-item show-if-not-sponsored">
   <div class="download-os-with-qr">
     <a href="<%- @downloads.playstore %>">
       <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/google-play-store.png' %>">
@@ -31,7 +31,7 @@ layout: page
   </div>
 </div>
 
-<div class="row alert alert-info download-item">
+<div class="row alert alert-info download-item show-if-not-sponsored">
   <div class="download-os-with-qr">
     <a href="<%- @downloads.amazonappstore %>">
       <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/amazon-apps.png' %>">

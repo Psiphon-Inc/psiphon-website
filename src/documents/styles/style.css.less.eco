@@ -171,8 +171,12 @@ pre.highlighted {
   background-color: transparent;
 }
 
+.show-if-sponsored, .show-if-not-sponsored {
+  /* If !important isn't used, Bootstrap styles precedence will override this. */
+  display: none !important;
+}
+
 .sponsor-info {
-  display: none;
   margin-bottom: 1em;
 }
 

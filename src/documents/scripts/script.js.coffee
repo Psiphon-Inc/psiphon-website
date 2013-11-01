@@ -40,8 +40,17 @@ $ ->
   banner_img_file = $('.sponsor-banner img').prop('src')
   banner_link_file = $('.sponsor-banner img').data('link-file')
   $.ajax(type: 'HEAD', url: banner_img_file)
-    .done -> $('.sponsor-info').show()
+    .done ->
+      $('.show-if-sponsored').show()
+    .error ->
+      $('.show-if-not-sponsored').show()
+
+  ###
+  We're disabling the sponsor banner link (for now). Most of our users are
+  blocked from getting to most of our sponsors, so offering them the ability
+  to try a link to them is misleading and potentially dangerous.
   $.getJSON(banner_link_file)
     .done (url) ->
       $link = $('<a target="_blank">').attr('href', url)
       $('.sponsor-info .sponsor-banner img').wrap($link)
+  ###

@@ -132,7 +132,7 @@ docpadConfig = {
           { name: 'license' }
         ]
       }
-      { name: 'sponsor' }
+      { name: 'sponsor', additional_classes: ['show-if-not-sponsored'] }
     ]
 
     downloads:
