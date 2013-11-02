@@ -3,17 +3,22 @@ layout: default
 ---
 
 <div class="row index-splash">
-  <div class="col-md-12">
-    <div class="super-splash">
-      <a href="<%= @getPageURL '/download.html' %>"></a>
-    </div>
-    <a href="<%= @getPageURL '/download.html' %>">
-      <img class="img-responsive" src="<%= @document.pathToRoot %>/images/widesplash-small.png">
-    </a>
+  <div class="col-sm-12">
+    <h1 class="slabtext-container" data-max-font-size="120">
+      <span class="slabtext slab-main">
+        <%= @tt('psiphon').toLocaleUpperCase() %>
+      </span>
+    </h1>
+    <h2 class="slabtext-container" data-max-font-size="60">
+      <span class="slabtext slab-sub">
+        <%= @tt 'index-title' %>
+      </span>
+    </h2>
+    <a href="<%= @getPageURL '/download.html' %>"></a>
   </div>
 </div>
 
-<div class="row">
+<div class="row"
   <div class="col-md-6-left">
     <div class="panel panel-default equal-height equal-height-md">
       <div class="panel-heading">

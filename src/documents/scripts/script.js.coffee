@@ -41,9 +41,9 @@ $ ->
   banner_link_file = $('.sponsor-banner img').data('link-file')
   $.ajax(type: 'HEAD', url: banner_img_file)
     .done ->
-      $('.show-if-sponsored').show()
+      $('.show-if-sponsored').removeClass('hidden')
     .error ->
-      $('.show-if-not-sponsored').show()
+      $('.show-if-not-sponsored').removeClass('hidden')
 
   ###
   We're disabling the sponsor banner link (for now). Most of our users are
@@ -54,3 +54,10 @@ $ ->
       $link = $('<a target="_blank">').attr('href', url)
       $('.sponsor-info .sponsor-banner img').wrap($link)
   ###
+
+  # Set up any slab text we have on the page.
+  $('.slabtext-container').each ->
+    opts = {}
+    if $(this).data('max-font-size')
+      opts.maxFontSize = $(this).data('max-font-size')
+    $(this).slabText(opts)

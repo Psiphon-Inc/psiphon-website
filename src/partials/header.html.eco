@@ -1,6 +1,6 @@
 <!-- HEADER -->
 <header>
-  <div class="row sponsor-info show-if-sponsored">
+  <div class="row sponsor-info show-if-sponsored hidden">
     <div class="col-md-12 sponsored-by">
       <%= @tt 'sponsor-header-sponsored-by' %>
     </div>

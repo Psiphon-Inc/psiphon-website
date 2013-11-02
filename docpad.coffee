@@ -38,6 +38,7 @@ docpadConfig = {
       styles: [
         "/styles/twitter-bootstrap.css"
         "/vendor/highlightjs.css"
+        "/vendor/slabtext.css"
         "/styles/style.css"
       ]
 
@@ -45,6 +46,7 @@ docpadConfig = {
       scripts: [
         "/vendor/jquery-1.10.2.min.js"
         "/vendor/modernizr-2.6.2.min.js"
+        "/vendor/jquery.slabtext.min.js"
         "/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
         "/scripts/script.js"
       ]
@@ -132,7 +134,7 @@ docpadConfig = {
           { name: 'license' }
         ]
       }
-      { name: 'sponsor', additional_classes: ['show-if-not-sponsored'] }
+      { name: 'sponsor', additional_classes: ['show-if-not-sponsored', 'hidden'] }
     ]
 
     downloads:

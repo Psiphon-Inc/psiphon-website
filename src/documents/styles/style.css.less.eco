@@ -52,49 +52,63 @@ h2 {
 }
 
 .index-splash {
-  margin-bottom: 2em;
-}
+  > div {
+    // Pattern based on: http://lea.verou.me/css3patterns/#carbon-fibre
+    background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color: #11314D;
+    background-size: 16px 16px;
 
-.index-splash img {
-  // Center image
-  margin: auto;
-}
-
-.super-splash a {
-  // Make the link fill the image space
-  display: block;
-  height: 100%;
-}
-
-@media (min-width: @screen-md) {
-  .index-splash img {
-    display: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #203547;
   }
 
-  .super-splash {
-    background: url("<%= @relativeToRoot '/images/widesplash-big.png' %>") no-repeat center center;
-    height: 300px;
-  }
-}
-
-@media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
-  .index-splash img {
-    display: none;
+  h1 {
+    padding: 3%;
   }
 
-  .super-splash {
-    background: url("<%= @relativeToRoot '/images/widesplash-small.png' %>") no-repeat center center;
-    height: 200px;
-  }
-}
-
-@media (max-width: @screen-xs-max) {
-  .index-splash img {
-    display: inline;
+  h2 {
+    position: absolute;
+    bottom: 15%;
+    margin: 0;
+    padding: 0 0 0 3%;
+    width: 90%;
   }
 
-  .super-splash {
-    display: none;
+  .slab-main {
+    font-weight: bold;
+    color: #1D1B19;
+    text-shadow: @navbar-inverse-link-color 0px 0px 0.2em;
+  }
+
+  .slab-sub {
+    color: #81C3FF;
+    margin-top: -1em;
+    text-shadow: 0 0 0.2em #81C3FF;
+  }
+
+  a {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    :hover {
+      text-decoration: none;
+    }
+  }
+
+  :hover {
+    > div {
+      box-shadow: 0px 0px 30px @navbar-inverse-link-color;
+    }
+
+    .slab-main {
+      text-shadow: @navbar-inverse-link-color 0px 0px 0.3em;
+    }
+
+    .slab-sub {
+      text-shadow: 0 0 0.3em #81C3FF;
+    }
   }
 }
 
@@ -169,15 +183,6 @@ pre.highlighted {
   // Bootstrap adds a background colour that we need to clear so that the
   // syntax highlighting styles look right.
   background-color: transparent;
-}
-
-.show-if-sponsored, .show-if-not-sponsored {
-  /* If !important isn't used, Bootstrap styles precedence will override this. */
-  display: none !important;
-}
-
-.sponsor-info {
-  margin-bottom: 1em;
 }
 
 .sponsor-info .sponsored-by {
