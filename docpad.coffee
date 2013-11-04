@@ -44,8 +44,9 @@ docpadConfig = {
 
       # Scripts
       scripts: [
-        "/vendor/jquery-1.10.2.min.js"
         "/vendor/modernizr-2.6.2.min.js"
+        "/vendor/respond-1.3.0.min.js"
+        "/vendor/jquery-1.10.2.min.js"
         "/vendor/jquery.slabtext.min.js"
         "/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
         "/scripts/script.js"

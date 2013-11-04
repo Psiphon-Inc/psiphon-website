@@ -1,79 +1,78 @@
 <!-- NAVIGATION -->
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header <%- @ifRTL 'navbar-right' %>">
-      <div class="navbar-collapse-container <%= @ifRTL 'pull-left', 'pull-right' %>">
-        <button onclick="<%= @getPageURL '/nav/nav.html'%>" type="button" class="navbar-toggle <%- @ifRTL 'pull-left' %>" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <noscript>
-          <a class="navbar-collapse-noscript" href="<%= @getPageURL '/nav/nav.html'%>"></a>
-        </noscript>
-      </div>
-
-      <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getPageURL '/index.html' %>">
-        <%= @tt 'psiphon' %>
-      </a>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="navbar-header <%- @ifRTL 'navbar-right' %>">
+    <div class="navbar-collapse-container <%= @ifRTL 'pull-left', 'pull-right' %>">
+      <button type="button" class="navbar-toggle <%- @ifRTL 'pull-left' %>" data-toggle="collapse" data-target="#psi-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <noscript>
+        <a class="navbar-collapse-noscript" href="<%= @getPageURL '/nav/nav.html'%>"></a>
+      </noscript>
     </div>
 
-    <div class="navbar-collapse collapse">
-
-      <ul class="nav navbar-nav <%- @ifRTL 'navbar-right' %>">
-
-        <% for navItem in @navLayout: %>
-          <% if 'subnav' of navItem: %>
-            <li class="dropdown <%- @ifRTL 'navbar-right' %>">
-              <a href="<%= @getPageURL '/nav/nav.html'%>" class="dropdown-toggle" data-toggle="dropdown">
-                <%= @tt navItem.nav_title_key %> <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-              <% for subNavItem in navItem.subnav: %>
-                <li about="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" class="<%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(subNavItem.name).filename) then 'active' else '' %> <%= if subNavItem.additional_classes then subNavItem.additional_classes.join(' ') else '' %>">
-                  <a href="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" title="<%= @tt @getPageInfo(subNavItem.name).nav_title_key %>" class="nav-link">
-                    <%= @tt @getPageInfo(subNavItem.name).nav_title_key %>
-                  </a>
-                </li>
-              <% end %>
-              </ul>
-            </li>
-          <% else: %>
-            <li about="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" class="<%- @ifRTL 'navbar-right' %> <%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(navItem.name).filename) then 'active' else '' %> <%= if navItem.additional_classes then navItem.additional_classes.join(' ') else '' %>">
-              <a href="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" title="<%= @tt @getPageInfo(navItem.name).nav_title_key %>" class="nav-link">
-                <%= @tt @getPageInfo(navItem.name).nav_title_key %>
-              </a>
-            </li>
-          <% end %>
-        <% end %>
-
-      </ul>
-
-      <!-- LANGUAGE SWITCHER -->
-      <% if @languages.length > 1: %>
-      <ul class="nav navbar-nav <%- @ifRTL 'navbar-left', 'navbar-right' %>">
-        <li class="languages dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="<%= @getPageURL '/nav/language.html' %>">
-            <%= @languageLabel @document.language %> <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu" role="menu">
-            <% for language in @languages : %>
-            <li>
-              <!-- If there's no translated equivalent to the current page, just link to the translated index page -->
-              <% langDoc = @documentTranslated @document, language %>
-              <% langURL = if langDoc then langDoc.url else "/#{language}/"  %>
-              <a href="<%= @relativeToRoot langURL %>">
-                <%= @languageLabel language %>
-              </a>
-            </li>
-            <% end %>
-          </ul>
-        </li>
-      </ul>
-      <% end %>
-      <!-- /LANGUAGE SWITCHER -->
-
-    </div>
+    <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getPageURL '/index.html' %>">
+      <%= @tt 'psiphon' %>
+    </a>
   </div>
-</div>
+
+  <div class="collapse navbar-collapse" id="psi-navbar-collapse">
+
+    <ul class="nav navbar-nav <%- @ifRTL 'navbar-right' %>">
+
+      <% for navItem in @navLayout: %>
+        <% if 'subnav' of navItem: %>
+          <li class="dropdown <%- @ifRTL 'navbar-right' %>">
+            <a href="<%= @getPageURL '/nav/nav.html'%>" class="dropdown-toggle" data-toggle="dropdown">
+              <%= @tt navItem.nav_title_key %> <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <% for subNavItem in navItem.subnav: %>
+              <li about="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" class="<%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(subNavItem.name).filename) then 'active' else '' %> <%= if subNavItem.additional_classes then subNavItem.additional_classes.join(' ') else '' %>">
+                <a href="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" title="<%= @tt @getPageInfo(subNavItem.name).nav_title_key %>" class="nav-link">
+                  <%= @tt @getPageInfo(subNavItem.name).nav_title_key %>
+                </a>
+              </li>
+            <% end %>
+            </ul>
+          </li>
+        <% else: %>
+          <li about="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" class="<%- @ifRTL 'navbar-right' %> <%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(navItem.name).filename) then 'active' else '' %> <%= if navItem.additional_classes then navItem.additional_classes.join(' ') else '' %>">
+            <a href="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" title="<%= @tt @getPageInfo(navItem.name).nav_title_key %>" class="nav-link">
+              <%= @tt @getPageInfo(navItem.name).nav_title_key %>
+            </a>
+          </li>
+        <% end %>
+      <% end %>
+
+    </ul>
+
+    <!-- LANGUAGE SWITCHER -->
+    <% if @languages.length > 1: %>
+    <ul class="nav navbar-nav <%- @ifRTL 'navbar-left', 'navbar-right' %>">
+      <li class="languages dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="<%= @getPageURL '/nav/language.html' %>">
+          <%= @languageLabel @document.language %> <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <% for language in @languages : %>
+          <li>
+            <!-- If there's no translated equivalent to the current page, just link to the translated index page -->
+            <% langDoc = @documentTranslated @document, language %>
+            <% langURL = if langDoc then langDoc.url else "/#{language}/"  %>
+            <a href="<%= @relativeToRoot langURL %>">
+              <%= @languageLabel language %>
+            </a>
+          </li>
+          <% end %>
+        </ul>
+      </li>
+    </ul>
+    <% end %>
+    <!-- /LANGUAGE SWITCHER -->
+
+  </div>
+</nav>
 <!-- /NAVIGATION -->

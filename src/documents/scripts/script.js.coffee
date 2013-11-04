@@ -56,8 +56,9 @@ $ ->
   ###
 
   # Set up any slab text we have on the page.
-  $('.slabtext-container').each ->
+  $('.slabtext-container').each (idx, elem) ->
     opts = {}
-    if $(this).data('max-font-size')
-      opts.maxFontSize = $(this).data('max-font-size')
-    $(this).slabText(opts)
+    if $(elem).data('max-font-size')
+      opts.maxFontSize = $(elem).data('max-font-size')
+    $(window).load ->
+      $(elem).slabText(opts)

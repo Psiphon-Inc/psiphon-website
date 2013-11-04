@@ -6,6 +6,13 @@
 
 @navbar-padding-add: 20px;
 
+@font-face {
+  font-family: 'PsiRounded';
+
+  src: url('<%= @relativeToRoot '/fonts/PsiRounded.eot' %>');
+  src: local('PsiRounded'), url('<%= @relativeToRoot '/fonts/PsiRounded.eot?#iefix' %>') format('embedded-opentype'), url('<%= @relativeToRoot '/fonts/PsiRounded.woff' %>') format('woff'), url('<%= @relativeToRoot '/fonts/PsiRounded.ttf' %>') format('truetype');
+}
+
 body {
   padding-top: (@navbar-height + @navbar-padding-add);
 }
@@ -53,62 +60,53 @@ h2 {
 
 .index-splash {
   > div {
-    // Pattern based on: http://lea.verou.me/css3patterns/#carbon-fibre
-    background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-    background-color: #11314D;
-    background-size: 16px 16px;
+    background-color: #005096;
+    background-image: url('<%= @relativeToRoot '/images/splash-pattern.png' %>');
+    background-repeat: repeat;
 
     border-radius: 10px;
     box-shadow: 0px 0px 30px #203547;
   }
 
   h1 {
-    padding: 3%;
+    padding: 1% 3% 3% 3%;
   }
 
   h2 {
     position: absolute;
-    bottom: 15%;
+    bottom: 5%;
     margin: 0;
     padding: 0 0 0 3%;
     width: 90%;
   }
 
   .slab-main {
-    font-weight: bold;
+    font-size: 2em; // only used if no JS or old IE
+    font-family: "PsiRounded", @font-family-sans-serif;
+    letter-spacing: 0px !important;
     color: #1D1B19;
     text-shadow: @navbar-inverse-link-color 0px 0px 0.2em;
+
+    #psiphon-psiph {
+      color: #1483C4;
+    }
+
+    #psiphon-on {
+      color: #FF8710;
+    }
   }
 
   .slab-sub {
+    font-size: 0.7em; // only used if no JS or old IE
     color: #81C3FF;
     margin-top: -1em;
-    text-shadow: 0 0 0.2em #81C3FF;
+    text-shadow: -0.2em -0.2em 0.2em #00101F;
   }
 
   a {
-    position: absolute;
-    top: 0;
     height: 100%;
     width: 100%;
-
-    :hover {
-      text-decoration: none;
-    }
-  }
-
-  :hover {
-    > div {
-      box-shadow: 0px 0px 30px @navbar-inverse-link-color;
-    }
-
-    .slab-main {
-      text-shadow: @navbar-inverse-link-color 0px 0px 0.3em;
-    }
-
-    .slab-sub {
-      text-shadow: 0 0 0.3em #81C3FF;
-    }
+    text-decoration: none;
   }
 }
 

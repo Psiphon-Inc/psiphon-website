@@ -54,3 +54,8 @@ It's quite easy to add images (screenshots, etc.) that are locale-specific.
 3. Create the localized images. Save them with appropriate filenames. E.g.: `i18n-test.fa.png`, `i18n-test.zh.png`, `i18n-test.ug@Latn.png`, etc. There doesn't need to (immediately) be one for each supported language, because the English fallback will compensate for missing images.
 
 Note that `ttURL` could also be used for files other than images. Video? CSS?
+
+
+## Credits
+
+Background pattern from: http://subtlepatterns.com/3px-tile/
