@@ -65,6 +65,7 @@
   </div><!-- /container -->
 
   <!-- Scripts -->
-  <%- @getBlock('scripts').add(@document.pathToRoot+script for script in @site.scripts).toHTML() %>
+  <!-- We need to disable "defer" in order to work in IE8 -->
+  <%- @getBlock('scripts').add(@document.pathToRoot+script for script in @site.scripts, {defer:false, async:false}).toHTML() %>
 </body>
 </html>

@@ -56,9 +56,19 @@ $ ->
   ###
 
   # Set up any slab text we have on the page.
-  $('.slabtext-container').each (idx, elem) ->
-    opts = {}
-    if $(elem).data('max-font-size')
-      opts.maxFontSize = $(elem).data('max-font-size')
+  if $('.slabtext-container').length
     $(window).load ->
-      $(elem).slabText(opts)
+      $('.slabtext-container').each (idx, elem) ->
+        opts = {}
+        if $(elem).data('max-font-size')
+          opts.maxFontSize = $(elem).data('max-font-size')
+
+        $(elem).slabText(opts)
+
+      # IE hack -- need to actually resize the window to get the text looking
+      # right.
+      if navigator.userAgent.match(/MSIE\s([\d.]+)/)
+        window.resizeBy(1, 0)
+        setTimeout(
+          -> window.resizeBy(-1, 0),
+          1)
