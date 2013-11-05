@@ -28,12 +28,26 @@ h2 {
 // This sets our logo as part of the "brand" in the navbar
 .navbar-brand {
   @brandImgMargin: 8px;
+
+  // For best old-IE compatibility, the image should be exactly this size.
   @brandImgSize: (@navbar-height - (@brandImgMargin * 2));
+
   font-size: 2.5em;
-  background: url("<%= @relativeToRoot '/images/psiphon-logo-72.png' %>") no-repeat @brandImgMargin center;
+  background-image: url("<%= @relativeToRoot '/images/psiphon-logo-navbrand.png' %>");
+  background-repeat: no-repeat;
   background-size: @brandImgSize;
-  padding-left: (@brandImgSize + @brandImgMargin + @brandImgMargin);
-  margin-right: 5px;
+
+  body[dir="ltr"] & {
+    background-position: 5% center;
+    padding-left: (@brandImgSize + @brandImgMargin + @brandImgMargin);
+    margin-right: 5px;
+  }
+
+  body[dir="rtl"] & {
+    background-position: 95% center;
+    padding-right: (@brandImgSize + @brandImgMargin + @brandImgMargin);
+    margin-left: 5px;
+  }
 }
 
 .navbar-nav {
