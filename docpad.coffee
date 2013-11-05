@@ -367,16 +367,6 @@ docpadConfig = {
   # Plugins
 
   plugins:
-    downloader:
-      downloads: [
-        {
-          name: 'Twitter Bootstrap'
-          path: 'src/files/vendor/twitter-bootstrap'
-          url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
-          tarExtractClean: true
-        }
-      ]
-
     fattrimmer:
       fat: [
         /\/_/  # files and directories with leading underscore
