@@ -39,7 +39,7 @@
 
   <!-- Shims: IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
-    <script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script async src="<%= @relativeToRoot '/vendor/html5shiv.js' %>"></script>
   <![endif]-->
 
   <!-- Styles -->
@@ -65,6 +65,7 @@
   </div><!-- /container -->
 
   <!-- Scripts -->
-  <%- @getBlock('scripts').add(@document.pathToRoot+script for script in @site.scripts).toHTML() %>
+  <!-- We need to disable "defer" in order to work in IE8 -->
+  <%- @getBlock('scripts').add(@document.pathToRoot+script for script in @site.scripts, {defer:false, async:false}).toHTML() %>
 </body>
 </html>
