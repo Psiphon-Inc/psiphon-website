@@ -77,7 +77,7 @@ docpadConfig = {
     translations: {}
 
     # Indicates which languages are not well translated and will
-    fallback_languages: ['ar', 'zh', 'tk', 'es', 'vi']
+    fallback_languages: ['ar', 'tk', 'vi']
 
     # Info about all pages
     # This would be largely unnecessary if we could put metadata on layouts
