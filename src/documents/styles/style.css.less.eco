@@ -6,6 +6,13 @@
 
 @navbar-padding-add: 20px;
 
+@font-face {
+  font-family: 'PsiRounded';
+
+  src: url('<%= @relativeToRoot '/fonts/PsiRounded.eot' %>');
+  src: local('PsiRounded'), url('<%= @relativeToRoot '/fonts/PsiRounded.eot?#iefix' %>') format('embedded-opentype'), url('<%= @relativeToRoot '/fonts/PsiRounded.woff' %>') format('woff'), url('<%= @relativeToRoot '/fonts/PsiRounded.ttf' %>') format('truetype');
+}
+
 body {
   padding-top: (@navbar-height + @navbar-padding-add);
 }
@@ -21,12 +28,26 @@ h2 {
 // This sets our logo as part of the "brand" in the navbar
 .navbar-brand {
   @brandImgMargin: 8px;
+
+  // For best old-IE compatibility, the image should be exactly this size.
   @brandImgSize: (@navbar-height - (@brandImgMargin * 2));
+
   font-size: 2.5em;
-  background: url("<%= @relativeToRoot '/images/psiphon-logo-72.png' %>") no-repeat @brandImgMargin center;
+  background-image: url("<%= @relativeToRoot '/images/psiphon-logo-navbrand.png' %>");
+  background-repeat: no-repeat;
   background-size: @brandImgSize;
-  padding-left: (@brandImgSize + @brandImgMargin + @brandImgMargin);
-  margin-right: 5px;
+
+  body[dir="ltr"] & {
+    background-position: 5% center;
+    padding-left: (@brandImgSize + @brandImgMargin + @brandImgMargin);
+    margin-right: 5px;
+  }
+
+  body[dir="rtl"] & {
+    background-position: 95% center;
+    padding-right: (@brandImgSize + @brandImgMargin + @brandImgMargin);
+    margin-left: 5px;
+  }
 }
 
 .navbar-nav {
@@ -52,49 +73,54 @@ h2 {
 }
 
 .index-splash {
-  margin-bottom: 2em;
-}
+  > div {
+    background-color: #005096;
+    background-image: url('<%= @relativeToRoot '/images/splash-pattern.png' %>');
+    background-repeat: repeat;
 
-.index-splash img {
-  // Center image
-  margin: auto;
-}
-
-.super-splash a {
-  // Make the link fill the image space
-  display: block;
-  height: 100%;
-}
-
-@media (min-width: @screen-md) {
-  .index-splash img {
-    display: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #203547;
   }
 
-  .super-splash {
-    background: url("<%= @relativeToRoot '/images/widesplash-big.png' %>") no-repeat center center;
-    height: 300px;
-  }
-}
-
-@media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
-  .index-splash img {
-    display: none;
+  h1 {
+    font-size: 5em; // only used if no JS or old IE
+    padding: 1% 3% 3% 3%;
   }
 
-  .super-splash {
-    background: url("<%= @relativeToRoot '/images/widesplash-small.png' %>") no-repeat center center;
-    height: 200px;
-  }
-}
-
-@media (max-width: @screen-xs-max) {
-  .index-splash img {
-    display: inline;
+  h2 {
+    font-size: 1.6em; // only used if no JS or old IE
+    position: absolute;
+    bottom: 5%;
+    margin: 0;
+    padding: 0 0 0 3%;
+    width: 90%;
   }
 
-  .super-splash {
-    display: none;
+  .slab-main {
+    font-family: "PsiRounded", @font-family-sans-serif;
+    letter-spacing: 0px !important;
+    color: #1D1B19;
+    text-shadow: @navbar-inverse-link-color 0px 0px 0.2em;
+
+    #psiphon-psiph {
+      color: #1483C4;
+    }
+
+    #psiphon-on {
+      color: #FF8710;
+    }
+  }
+
+  .slab-sub {
+    color: #81C3FF;
+    margin-top: -1em;
+    text-shadow: -0.2em -0.2em 0.15em #00101F;
+  }
+
+  a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
   }
 }
 
@@ -171,13 +197,8 @@ pre.highlighted {
   background-color: transparent;
 }
 
-.sponsor-info {
-  display: none;
-  margin-bottom: 1em;
-}
-
 .sponsor-info .sponsored-by {
-  font-size: 1.5em;
+  font-size: 1.0em;
 }
 
 .sponsor-info .sponsor-banner img {
