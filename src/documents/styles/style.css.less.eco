@@ -210,6 +210,15 @@ pre.highlighted {
   width: 80%;
 }
 
+.donate-buttons {
+  padding-top: 1em;
+}
+
+.donate-button {
+  // This is based on the sized forced by the Bitcoin button
+  height: 50px;
+}
+
 footer {
   margin-top: 2em;
   font-size: 0.8em;
