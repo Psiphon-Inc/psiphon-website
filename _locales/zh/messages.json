@@ -1,790 +1,786 @@
 {
-    "main-gets-you-where-you-want-head-1": {
-        "message": "帮您到达您想去的任何地点...",
-        "description": ""
-    },
-    "sponsor-header-sponsored-by": {
-        "message": "赞助者：",
-        "description": ""
-    },
-    "about-get-latest-info-para-1-developers-list": {
-        "message": "Psiphon 开发者",
-        "description": "text for link to the Psiphon Developers mailing list"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "显示 Psiphon 在 Windows 中启动的图像",
-        "description": "alt text for an image"
-    },
-    "about-get-latest-info-para-1-list-start": {
-        "message": "登记成为我们的邮件的收件人：",
-        "description": ""
-    },
-    "faq-ip-change-question": {
-        "message": "为什么我的Psiphon的IP地址时常发生变动？",
-        "description": ""
-    },
-    "download-now-button": {
-        "message": "立即下载",
-        "description": "The text on the Download Now button"
-    },
-    "download-android-direct-description": {
-        "message": "如果您无法访问 Google Play 商店，您可以直接下载并安装 (\"&lt;a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\"&gt;sideload&lt;/a&gt;\") 适用于 Android 的 Psiphon。",
-        "description": ""
-    },
-    "faq-browser-compatibility-answer-para-1": {
-        "message": "兼容。在SSH模式，检查你的浏览器设置，并确保它被配置为使用系统代理设置。",
-        "description": ""
-    },
-    "license-personal-or-specified-use-para": {
-        "message": "这是一款非商业软件，并获准在非独占的个人许可证的情况下使用。使用 Psiphon，您即同意仅作为个人和非商业用途使用本软件。您不得（并不得允许第三方）出租、租赁、再许可、出售、转售或以其他方式分发 Psiphon 用于商业用途。",
-        "description": ""
-    },
-    "about-title": {
-        "message": "关于我们",
-        "description": "title for the About page"
-    },
-    "main-pick-three-head-1": {
-        "message": "信赖、快速、简易：选取三个",
-        "description": ""
-    },
-    "privacy-ontario-privacy-commissioner-link-url": {
-        "message": "http://www.ipc.on.ca/",
-        "description": ""
-    },
-    "license-terms-of-use-header": {
-        "message": "使用条款",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-7-item-4": {
-        "message": "您的电脑有多少可用内存",
-        "description": ""
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "在打开的选项卡中切换",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "关闭当前选项卡",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "正在运行Psiphon",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "about-privacy-head": {
-        "message": "隐私权政策",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-answer-para-1": {
-        "message": "本地HTTP代理无法运行。你可能有其他进程在运行，及使用默认端口。请尝试使用其他端口。请读问题 ”我可以运行本地HTTP代理吗在其他端口8080吗？“",
-        "description": ""
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "打开新选项卡",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "main-gets-you-there-safely-head-1": {
-        "message": "...并带您安全浏览。",
-        "description": ""
-    },
-    "faq-orig-file-purpose-question": {
-        "message": "\"psiphon3.exe.orig\"文件是什么？",
-        "description": ""
-    },
-    "blog-index-posts-in-your-language": {
-        "message": "用中文发表",
-        "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "您应当首先&lt;a href=\"./faq.html#authentic-android\"&gt;验证您的 Psiphon for Android 副本为正版&lt;/a&gt;。",
-        "description": ""
-    },
-    "download-nav-title": {
-        "message": "下载",
-        "description": "text for the Download page navigation item"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "&lt;span style=\"color:grey\"&gt;灰色&lt;/span&gt;：正在连&lt;br&gt;&lt;span style=\"color:red\"&gt;红色&lt;/span&gt;：未连接&lt;br&gt;&lt;span style=\"color:Blue\"&gt;蓝色&lt;/span&gt;：已连接",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "显示您当前正在运行的 Psiphon 的版本号",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon 正运行于 VPN 或“整个设备”模式。所有应用程序流量将通过 Psiphon 隧道传输。",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "“状态选项卡”已选择",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "要以“隧道整个设备”模式运行 Psiphon，您必须拥有 Android 4.0+ 或一台已 root 的电话。&lt;br&gt;&lt;br&gt;此选项对于未 root 并安装较旧版本 Android 的电话上不可用。",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "download-android-amazon": {
-        "message": "亚马逊应用商店中的 Psiphon for Android",
-        "description": "text for link to Psiphon for Android in the Amazon AppStore"
-    },
-    "faq-orig-file-purpose-answer-para-1": {
-        "message": "自动更新过程中为Psiphon 3的Windows重命名其为\"psiphon3.exe.orig\"的旧版本。可以安全地删除\".orig\"后缀的旧文件。",
-        "description": ""
-    },
-    "user-guide-android-head": {
-        "message": "适用于 Android 的 Psiphon",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "license-termination-terms-of-service-violations-para-1": {
-        "message": "Psiphon 保留以任何或无理由，并无需支付罚款的情况下随时自行终止此许可的权利。使用 Psiphon，您即同意使用本软件时不违反服务条款和许可协议。",
-        "description": ""
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "您应当首先&lt;a href=\"./faq.html#authentic-windows\"&gt;验证您的 Psiphon for Windows 副本为正版&lt;/a&gt;。",
-        "description": ""
-    },
-    "license-personal-or-specified-use-header": {
-        "message": "个人或指定用途",
-        "description": ""
-    },
-    "user-guide-title": {
-        "message": "如何使用 Psiphon",
-        "description": "title for the user guide page"
-    },
-    "faq-browser-compatibility-question": {
-        "message": "Psiphon 3的Windows兼容与IE, Firefox, Safari，和Chrome浏览器吗？",
-        "description": ""
-    },
-    "faq-configure-applications-question": {
-        "message": "如何配置应用程序以使用Psiphon 3在SSH模式？",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-7-list-start": {
-        "message": "视窗：",
-        "description": ""
-    },
-    "faq-vpn-slow-answer-para-1": {
-        "message": "某些网络硬件可能会导致L2TP/IPSec的性能问题，这协议用于的 Psiphon 3在VPN模式。尝试使用SSH模式。",
-        "description": ""
-    },
-    "download-android-direct": {
-        "message": "Psiphon for Android 直接下载",
-        "description": "text for link to Psiphon for Android direct download"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "显示 Psiphon 运行在 Android 统计面板的图像",
-        "description": "alt text for an image"
-    },
-    "blog-nav-title": {
-        "message": "Our Blog",
-        "description": "Text for the navigation bar link to the blog"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "显示 Psiphon Android 网页浏览器不同组件的图像",
-        "description": "alt text for an image"
-    },
-    "download-list-join": {
-        "message": "加入我们的&lt;a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\"&gt;公告邮件列表&lt;/a&gt;获得重要公告和安全建议。",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-3": {
-        "message": "从来没有收集用户的IP地址和电子邮件地址。使用Psiphon的系统，用户无需要创建账户。",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "当绿色图标显示时，成功连接到Psiphon服务器。在VPN模式，所有的互联网流量自动隧道通过Psiphon 中。",
-        "description": ""
-    },
-    "license-title": {
-        "message": "Psiphon 最终用户许可协议",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "下载客户段软件，并运行它。当你运行它，你应该看到一个安全提示显示此软件是一个Psiphon Inc.的合法产品。",
-        "description": ""
-    },
-    "faq-polipo-different-port-question": {
-        "message": "我可以运行本地HTTP代理吗在其他端口8080吗？",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "当你关闭应用程序，Psiphon自动断开。你也可以点击图标来切换连接。",
-        "description": ""
-    },
-    "blog-index-title": {
-        "message": "Psiphon 团队博客",
-        "description": ""
-    },
-    "main-pick-three-para-1": {
-        "message": "2008 年以来，Psiphon 已帮助来自全球上网自由限制国家的数百万用户安全访问了已屏蔽的知识和思想。现在 Psiphon 可为您提供同样的服务。",
-        "description": ""
-    },
-    "faq-authentic-android-answer-para-2": {
-        "message": "APK验证方法：(1) 从文件中提取证书并检查其指纹是否和上述匹配价值，(2) 验证核实，APK文件签署证书。例如，使用Unix和Java命令行工具：",
-        "description": ""
-    },
-    "faq-authentic-android-answer-para-3": {
-        "message": "Psiphon的Android自动更新本身，以及这一程序自动验证每个更新是可信的。",
-        "description": ""
-    },
-    "faq-autoproxy-answer-para-1": {
-        "message": "点击运行，输入 <code>regedit</code> 打开注册表。找到和打开 <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>，在右面会看到 <code>UserSkipProxySettings</code>。将其值设置为<code>1</code>，并Psiphon不会自动配置系统代理设置。",
-        "description": ""
-    },
-    "about-contact-head": {
-        "message": "联系我们",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "显示 Psiphon 可执行文件引发的 Windows 安全警告的图像",
-        "description": "alt text for an image"
-    },
-    "about-open-source-para-4-list-start": {
-        "message": "安卓：",
-        "description": ""
-    },
-    "psiphon": {
-        "message": "Psiphon",
-        "description": ""
-    },
-    "faq-vpn-protocol-answer-para-1": {
-        "message": "A: Psiphon使用 L2TP/IPSec VPN的协议。你的网络防火墙可能不允许使用的VPN。你的家用路由器的配置可能不通过VPN协议。检查你的防火墙设置IPSec或L2TP会启用。你的系统 IPSec Services服务可能被禁用。检查你的服务设置，并启用此服务自动启动。",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-5": {
-        "message": "所有的统计共享与赞助商将会汇总由日期，赞助商，和地区。",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-4": {
-        "message": "时间日志包括时间戳，地区代码 (GeoIP国家代码) 和非标识属性包括赞助商ID (确定哪个Psiphon客户端的使用)，客户端版本，和协议类型。之前被记录，浏览量会汇总由时间和会话。",
-        "description": ""
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "显示 Psiphon 在 Windows 中已连接的图像",
-        "description": "alt text for an image"
-    },
-    "faq-information-collected-answer-para-6": {
-        "message": "当您选择提交反馈通过赛风时，您将有选项的包括诊断数据。我们使用此数据来帮助我们解决您可能遇到的任何问题，并帮助我们保持赛风平稳运行。发送此数据是完全可选的。之前您发送此数据，它被加密了，并只可以由我们解密。数据中的信息使用不同的平台，但它可能包括：",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-1": {
-        "message": "我们收集了以下数据，找出Psiphon是怎样工作的，什么样的网站是流行的和什么样的传播战略有效。此信息与我们的合作伙伴共享，使他们可以看到他们的网站如何往往访问通过Psiphon和来自哪些国家。",
-        "description": ""
-    },
-    "faq-connection-failed-answer-para-1": {
-        "message": "如果你看到重复\"连接失败\"的消息，就说明目前没有可用服务器。请尝试下载新Psiphon的客户端。",
-        "description": ""
-    },
-    "alert-heading": {
-        "message": "警告",
-        "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
-    },
-    "license-statement-of-limitations-of-liability-header": {
-        "message": "有限责任声明",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-9": {
-        "message": "从时间到时间Psiphon可能有记录的其他信息，以解决问题与我们的服务。如果发生这种情况，我们将添加一个条目在这里，描述什么记录，多久保持，以及为什么。",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "此外，在SSH和SSH+模式，Psiphon提供了拆分隧道的选项。比如，国际流量是隧道通过代理的，并国内流量不是的。选中“不要代理国内的网站”选项之启用拆分隧道。选中此选项后，在消息区域中显示非代理的域名。",
-        "description": ""
-    },
-    "faq-authentic-windows-question": {
-        "message": "我Psiphon的Windows可信吗？",
-        "description": ""
-    },
-    "user-guide-android-image-1-alt": {
-        "message": "显示允许非 Play Store 应用的 Android 设置的图像",
-        "description": "alt text for an image"
-    },
-    "faq-vpn-slow-question": {
-        "message": "我可以连接到Psiphon的Windows，但是为什么这么慢？有时一些网页无法显示。",
-        "description": ""
-    },
-    "faq-proxy-all-question": {
-        "message": "是不是Psiphon的Windows代理我的互联网流量？",
-        "description": ""
-    },
-    "download-windows-direct": {
-        "message": "适用于 Windows 的 Psiphon",
-        "description": "text for link to Psiphon for Windows download"
-    },
-    "faq-check-version-question": {
-        "message": "我怎么查看我当前Psiphon的版本？",
-        "description": ""
-    },
-    "faq-vpn-dns-question": {
-        "message": "当我连接Psiphon的Windows VPN模式，网页都无法显示。我收到错误消息表明域名查询失败了。",
-        "description": ""
-    },
-    "license-termination-terms-of-service-violations-header": {
-        "message": "终止；违反服务条款",
-        "description": ""
-    },
-    "faq-ssh-plus-question": {
-        "message": "什么是SSH+ 模式?",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "在SSH和SSH+模式，Psiphon自动设置Windows系统的代理设置， 并应用流量将隧道通过Psiphon。这些设置被默认使用在所有主要的网络浏览器。",
-        "description": ""
-    },
-    "about-get-latest-info-head": {
-        "message": "获取有关 Psiphon 的最新信息",
-        "description": ""
-    },
-    "sponsor-title": {
-        "message": "成为赞助者",
-        "description": "Page title for the Sponsorship page"
-    },
-    "privacy-para-3": {
-        "message": "Psiphon旨在为您提供开放访问在线内容。Psiphon不会增加您的在线隐私权，并不应被用作在线安全工具。",
-        "description": ""
-    },
-    "faq-connection-failed-question": {
-        "message": "为什么我看到消息\"连接失败\"重复一遍又一遍？",
-        "description": ""
-    },
-    "resources-nav-title": {
-        "message": "资源",
-        "description": "title for the Resources"
-    },
-    "faq-port-restrictions-answer-para-1": {
-        "message": "是。出站连接从Psiphon 3的Windows VPN，可仅在以下端口：<code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. 请参阅这此<a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">讨论</a>的详细信息。邮件客户端无法建立端口25和587上的出站连接。请参阅这此<a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">讨论</a>的详细信息。",
-        "description": ""
-    },
-    "faq-authentic-android-answer-alert": {
-        "message": "<b>请注意：</b>最近 <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">报道的</a> 漏洞可能会导致检查安卓应用程序签名至虚假报告恶意APKs作为有效的。我们建议用户打开Google验证应用程序功能作为记录 <a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">在这里</a>。",
-        "description": ""
-    },
-    "what-is-psiphon-heading": {
-        "message": "什么是Psiphon？",
-        "description": ""
-    },
-    "faq-port-restrictions-question": {
-        "message": "是否有任何端口限制在VPN模式？当使用我邮件的客户端在VPN模式，为什么我不能发送电子邮件？",
-        "description": ""
-    },
-    "faq-vpn-dns-answer-para-1": {
-        "message": "Psiphon限制 DNS流量到有效的 DNS服务器。 Psiphon 3客户端自动配置你的VPN DNS的服务器设置。如果你收到有关DNS错误，请检查你不感染 “DNS Changer”的恶意软件，它试图改变你的 DNS服务器设置。你可以在这里找到更多信息<a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>.",
-        "description": ""
-    },
-    "download-android-playstore-description": {
-        "message": "兼容 Android 2.2 和更高版本。整个设备模式需要 Android 4.0 和更高版本，或一台&lt;a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\"&gt;已 root 的设备&lt;/a&gt;。",
-        "description": ""
-    },
-    "about-open-source-para-2": {
-        "message": "Psiphon 客户端使用下列开源组件。",
-        "description": ""
-    },
-    "privacy-para-2": {
-        "message": "要了解有关加拿大和安大略省隐私法律的更多信息，请访问：",
-        "description": ""
-    },
-    "about-get-latest-info-para-1-users-list": {
-        "message": "Psiphon 用户群组",
-        "description": "text for link to the Psiphon Users mailing list"
-    },
-    "privacy-para-1": {
-        "message": "Psiphon 致力于保护其客户、最终用户、分销商和供应商的隐私权益。本隐私权政策旨在向您提供您一般信息，供您了解您的个人信息是如何被使用的。Psiphon 是一家加拿大公司，其总部设在安大略省。我们的隐私权政策基于加拿大和安大略省的隐私法规法律所制定。",
-        "description": ""
-    },
-    "privacy-para-4": {
-        "message": "&lt;a href=\"./faq.html#information-collected\"&gt;访问并阅读“常见问题与解答”&lt;/a&gt;了解有关我们所收集信息的详情。",
-        "description": ""
-    },
-    "about-open-source-head": {
-        "message": "开放源码",
-        "description": ""
-    },
-    "download-via-email-head": {
-        "message": "通过电子邮件下载",
-        "description": ""
-    },
-    "license-distribution-para": {
-        "message": "Psiphon 是一款免费的非商业软件。本软件应仅适合个人和非商业用途，欢迎您以任何格式，并根据本许可证的相关条款进行分发和传播 - 可使用电子或其他格式。",
-        "description": ""
-    },
-    "about-open-source-para-1": {
-        "message": "Psiphon是一个开源项目的。你可以找到源代码和设计文件在<a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">项目主页</a>.",
-        "description": ""
-    },
-    "faq-ip-change-answer-para-1": {
-        "message": "您的 Psiphon 客户端将自动发现新的 Psiphon 服务器。当上次使用的服务器当前不可用时，Psiphon 将使用另一个服务器。",
-        "description": ""
-    },
-    "site-title": {
-        "message": "Psiphon：您的网络自由开放",
-        "description": "the title for the site"
-    },
-    "alert-body": {
-        "message": "赛风团队发现了特定类型的恶意软件伪装成赛风3 Windows可执行文件。恶意软件分发www.copy.com上作为一个\"pisphone3.zip\"的zip文件，和从其他来源可能是可用。Zip文件包含一个恶意的二进制文件命名\"pisphone3.exe\"与属性描述在\n<a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>。 请注意名称的拼写错误。此Windows可执行文件没有Psiphon Inc.的数字签名。请不要运行新下载的赛风，先检查其数字签名，如下 <a href=\"#authentic-windows\">所述：</a>。",
-        "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
-    },
-    "nav-language-title": {
-        "message": "选择您的语言",
-        "description": ""
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "显示 Psiphon 在 Android 中启动的图像",
-        "description": "alt text for an image"
-    },
-    "faq-information-collected-answer-para-2-item-9": {
-        "message": "客户端平台 (简化的操作系统列表。比如，没有一个详细的浏览器用户代理)",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-2-item-8": {
-        "message": "HTTPS请求的数量",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-question": {
-        "message": "在SSH模式为Psiphon的Windows, 我看到错误消息 \"Failed to connect to Polipo\"。我怎么办？",
-        "description": ""
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "将当前页面加入书签",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "faq-nav-title": {
-        "message": "常见问题与解答",
-        "description": "text for the FAQ page navigation item"
-    },
-    "faq-information-collected-answer-para-2-item-3": {
-        "message": "如何经常使用每个协议，而失败后的错误代码",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-2-item-2": {
-        "message": "升级的数量",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-2-item-5": {
-        "message": "会话的数量和会话的持续时间",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-2-item-4": {
-        "message": "如何经常发现新的服务器",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "显示 Psiphon 在 Android 中启动运行，在状态面板中的图像",
-        "description": "alt text for an image"
-    },
-    "faq-information-collected-answer-para-2-item-6": {
-        "message": "浏览量 (赞助商网站的完整页面URL)",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-8-item-3": {
-        "message": "您的手机是否植根",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-8-item-2": {
-        "message": "手机模型",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-8-item-1": {
-        "message": "安卓版本",
-        "description": ""
-    },
-    "faq-ssh-plus-answer-para-1": {
-        "message": "为了防御协议指纹，SSH模式加上的混淆层之上SSH握手。可以在<a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">这里</a>找到的协议的说明。",
-        "description": ""
-    },
-    "main-gets-you-where-you-want-head-2": {
-        "message": "被您所在的国家、公司或校园删除？",
-        "description": ""
-    },
-    "faq-proxy-all-answer-para-1": {
-        "message": "只能在VPN模式。VPN连接成功之后，你的整个电脑流量都将会通过 Psiphon 3网络中转。在SSH模式，只有应用程序使用本地HTTP和SOCKS代理将会代理。",
-        "description": ""
-    },
     "faq-autoproxy-question-toc": {
         "message": "我使用<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>。我怎么能告诉Psiphon的Windows 不来配置我的系统代理设置?",
-        "description": ""
-    },
-    "footer-license": {
-        "message": "许可基于：",
-        "description": "The beginning of the 'Licensed under [license name here]' footer text"
-    },
-    "faq-authentic-android-answer-para-1": {
-        "message": "每个Psiphon的Android客户端是作为一个Android的APK文件 (\".apk\")，那是数字签名的Psiphon Inc。Psiphon Inc.证书公钥，如下所示：",
-        "description": ""
-    },
-    "download-via-email-description": {
-        "message": "如果我们的网站或下载链接被阻挡或删除，您可以申请通过电子邮件将下载链接发送给您。",
-        "description": ""
-    },
-    "footer-copyright": {
-        "message": "版权所有",
-        "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
-    },
-    "contact-sponsor-para": {
-        "message": "欲了解赞助机会，请单击上方链接或发送电子邮件至：",
-        "description": ""
-    },
-    "about-open-source-para-3-list-start": {
-        "message": "视窗：",
-        "description": ""
-    },
-    "blog-index-posts-in-english": {
-        "message": "用英文发表",
-        "description": "Heading for the list of blog posts that are available in English"
-    },
-    "license-termination-terms-of-service-violations-para-2": {
-        "message": "作为用户，您可以随时停止使用 Psiphon 软件、从您的设备中删除本软件应用程序的所有实例，以终止此许可协议。",
-        "description": ""
-    },
-    "user-guide-windows-head": {
-        "message": "适用于 Windows 的 Psiphon",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "faq-information-collected-answer-para-7-item-3": {
-        "message": "您如何连接到网络 (例如，如果您正在使用拨号或者通过代理服务器连接到网络)",
-        "description": ""
-    },
-    "index-title": {
-        "message": "欢迎来到您全新的 Internet",
-        "description": "Page title for the index page"
-    },
-    "download-title": {
-        "message": "下载 Psiphon",
-        "description": "title for the download page"
-    },
-    "generic-image-figcaption": {
-        "message": "需要记下的事情：",
-        "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
-    },
-    "faq-information-collected-answer-para-2-item-1": {
-        "message": "电子邮件请求的数量对于客户端下载连接",
-        "description": ""
-    },
-    "main-gets-you-there-safely-para-1": {
-        "message": "自由的 Internet 很棒，但偷盗 cookie 和账户可不好。Psiphon 为您提供安全的途径访问 Internet, 不论您连接使用何种网络。",
-        "description": ""
-    },
-    "faq-authentic-android-question": {
-        "message": "我Psiphon的Android可信吗？",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "Psiphon旨在为您提供开放访问在线内容。Psiphon不会增加您的在线隐私权，并不应被用作在线安全工具。",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-1": {
-        "message": "Psiphon是一个从赛风公司的新翻墙工具，利用VPN, SSH和HTTP代理软件提供未经审查的访问互联网。Psiphon客户端将自动学习新的进入点，以最大绕过网络审查的机会。",
         "description": ""
     },
     "privacy-canadian-privacy-commission-link-text": {
         "message": "加拿大隐私委员会",
         "description": ""
     },
-    "faq-check-version-answer-para-1": {
-        "message": "当Psiphon 3启动，在输出的第一行显示客户端版本。",
-        "description": ""
-    },
-    "license-para-1": {
-        "message": "本软件和所有相关的知识产权是 Psiphon Inc. 的财产，Psiphon Inc. 是在安大略省注册的公司，其总部设在加拿大安大略省多伦多市。",
-        "description": ""
-    },
-    "license-para-2": {
-        "message": "此版本的 Psiphon 应严格适用于个人，仅供个人使用。如果您希望将 Psiphon 用于其他任何用途或有额外需求，我们还提供付费的商业服务。欲了解更多信息，请发送电子邮件至 &lt;a href=\"mailto:sponsor@psiphon.ca\"&gt;sponsor@psiphon.ca&lt;/a&gt;",
-        "description": ""
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "连接时间",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "download-android-amazon-description": {
-        "message": "兼容 Android 2.2 和更高版本。整个设备模式需要 Android 4.0 和更高版本，或一台&lt;a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\"&gt;已 root 的设备&lt;/a&gt;。",
-        "description": ""
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "通过 Psiphon 接收的数据",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "通过 Psiphon 发送的数据",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "contact-email-para": {
-        "message": "您可以发送电子邮件与 Psiphon 取得联系：",
-        "description": ""
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "通过 Psiphon 压缩的已发送数据",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "sponsor-nav-title": {
-        "message": "赞助",
-        "description": "Navigation text for the Sponsorship page"
-    },
-    "license-distribution-header": {
-        "message": "分发",
-        "description": ""
-    },
-    "faq-authentic-windows-image-alt": {
-        "message": "显示如何在 Windows 下检查 Psiphon 可执行文件签名的图像",
-        "description": "alt text for an image"
-    },
-    "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "安大略省私隐专员办公室",
-        "description": ""
-    },
-    "about-get-latest-info-para-1-announcements-list": {
-        "message": "Psiphon 公告",
-        "description": "text for link to the Psiphon Announcements mailing list"
-    },
-    "about-nav-title": {
-        "message": "关于我们",
-        "description": "text for the About page navigation item"
-    },
-    "privacy-canadian-privacy-commission-link-url": {
-        "message": "http://www.priv.gc.ca/",
-        "description": ""
-    },
-    "sponsor-para-1": {
-        "message": "装载 Psiphon 的每位用户，不论何时连接到本软件都将看到此登陆页面。此页面将提供赞助机会，按星期计算。",
-        "description": ""
-    },
-    "sponsor-para-2": {
-        "message": "您将看到您所做选择的横幅广告，此横幅将链接到您网站的某个页面。这是获得较多懂技术受 众的独特机会，这些用户使用 Psiphon 为他们的 Internet 访问添加一道安全屏障。",
-        "description": ""
-    },
-    "sponsor-para-3": {
-        "message": "如欲得到更多资料，请发电邮到<a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>。",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-7-item-2": {
-        "message": "防病毒版本",
-        "description": ""
-    },
-    "license-terms-of-use-para": {
-        "message": "本软件“按原样”分发（包含所有故障）并没有任何形式的担保。使用 Psiphon，您即同意使用本软件时不违反加拿大法律或第三方的权利。",
-        "description": ""
-    },
-    "main-gets-you-there-safely-head-2": {
-        "message": "想要在使用公用 WiFi 网络时安全浏览网站？",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-7-item-1": {
-        "message": "操作系统版本",
-        "description": ""
-    },
-    "download-android-playstore": {
-        "message": "Google Play 商店中的 Psiphon for Android",
-        "description": "text for link to Psiphon for Android in the Google Play Store"
-    },
-    "faq-polipo-different-port-answer-para-1": {
-        "message": "可以，在 Windows 中。单击“运行”，并输入 &lt;code&gt;regedit&lt;/code&gt; 并打开注册表编辑器。找到并打开 &lt;code&gt;HKEY_CURRENT_USER\\Software\\Psiphon3&lt;/code&gt;，在右侧您将看到 &lt;code&gt;UserLocalHTTPProxyPort&lt;/code&gt;。设置其数值为您希望使用的端口号（以十进制）。",
-        "description": ""
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Psiphon 活动日志",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-nav-title": {
-        "message": "用户指南",
-        "description": "text for the user guide page navigation item"
-    },
-    "faq-information-collected-question": {
-        "message": "Psiphon收集哪些用户信息？",
-        "description": ""
-    },
-    "contact-sponsor-email": {
-        "message": "sponsor@psiphon.ca",
-        "description": ""
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "通过 Psiphon 压缩的已接收数据",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "faq-autoproxy-question": {
-        "message": "我使用<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>。我怎么能告诉Psiphon的Windows 不来配置我的系统代理设置?",
-        "description": ""
-    },
-    "download-windows-direct-description": {
-        "message": "支持 Windows XP、Windows Vista、Windows 7 和 Windows 8（桌面模式）。",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-2-item-7": {
-        "message": "字节传输",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-8-list-start": {
-        "message": "安卓：",
-        "description": ""
-    },
-    "faq-authentic-windows-answer-para-4": {
-        "message": "Psiphon的Windows自动更新本身，以及这一程序自动验证每个更新是可信的。",
-        "description": ""
-    },
-    "main-gets-you-where-you-want-para-1": {
-        "message": "在处理世界各地的压制性政权后，我们是帮助您随时随地获得需要内容的唯一选择。",
-        "description": ""
-    },
     "faq-vpn-protocol-question": {
         "message": "Psiphon的Windows VPN使用什么协议？为什么我不能连接？",
         "description": ""
     },
-    "user-guide-android-para-3": {
-        "message": "安装完成后启动Psiphon程序即可自动开始代理连接。",
-        "description": ""
+    "user-guide-android-image-3-annotation-2": {
+        "message": "在打开的选项卡中切换",
+        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
     },
-    "faq-authentic-windows-answer-para-2": {
-        "message": "在证书对话框的详细信息选项卡中显示Psiphon Inc.证书公钥的SHA1指纹。证书有效期间2011年6月16日至2012年6月21日SHA1指纹是:",
-        "description": ""
-    },
-    "faq-authentic-windows-answer-para-3": {
-        "message": "证书有效期间2011年05月21日至2014年07月30日SHA1指纹是:",
-        "description": ""
-    },
-    "license-nav-title": {
-        "message": "版权",
-        "description": ""
-    },
-    "sponsor-header-become-a-sponsor": {
-        "message": "成为赞助者",
-        "description": ""
-    },
-    "license-statement-of-limitations-of-liability-para": {
-        "message": "本软件“按原样”分发，并不承担担保或任何形式明示或暗示的责任。Psiphon 不承担一切与本软件使用相关的担保和责任，这包含人身伤害、或任何附带的、特殊的、间接的或后果性的个人或商业损害，包含数据和业务中断所带来的损失。",
-        "description": ""
-    },
-    "faq-authentic-windows-answer-para-1": {
-        "message": "Psiphon的Windows从来没有分发作为安装的软件包。每个Psiphon的Windows客户端是一个单一的可执行文件(\".exe\")，那是数字签名的Psiphon Inc。当您运行客户端时，Windows会自动检查此签名。您也可以手动检查签名在运行客户端之前通过打开文件的属性对话框中，和检查数字签名选项卡。",
-        "description": ""
-    },
-    "faq-configure-applications-answer-para-1": {
-        "message": "Psiphon 会自动配置你的系统以使用一个本地HTTP/HTTPS代理在 <code>127.0.0.1:8080</code>和一个本地SOCKS代理在 <code>127.0.0.1:1080</code>。Windows应用程序其使用系统代理设置会被自动代理。你可以手动配置其他应用程序以使用此本地代理。Psiphon的 Windows (SSH模式) 和Psiphon的Android都运行这些本地的代理。",
-        "description": ""
-    },
-    "nav-title": {
-        "message": "导航",
-        "description": ""
-    },
-    "faq-title": {
-        "message": "常见问题与解答",
-        "description": "title for the FAQ page"
-    },
-    "user-guide-windows-para-2": {
-        "message": "当你运行它,Psiphon自动启动连接。显示一个旋转图标在连接的时候。你可以选择以下的隧道模式之一：VPN (L2TP／IPSec)，SSH，或SSH+ (SSH加混淆，随机层之上的SSH之避免协议指纹) 。",
+    "faq-proxy-all-question": {
+        "message": "是不是Psiphon的Windows代理我的互联网流量？",
         "description": ""
     },
     "user-guide-android-para-1": {
         "message": "从Android电子邮件或浏览器，点击Psiphon APK链接进行安装了。",
         "description": ""
     },
+    "about-contact-head": {
+        "message": "联系我们",
+        "description": ""
+    },
+    "contact-email-para": {
+        "message": "您可以发送电子邮件与 Psiphon 取得联系：",
+        "description": ""
+    },
+    "download-list-join": {
+        "message": "加入我们的&lt;a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\"&gt;公告邮件列表&lt;/a&gt;获得重要公告和安全建议。",
+        "description": ""
+    },
+    "about-get-latest-info-para-1-developers-list": {
+        "message": "Psiphon 开发者",
+        "description": "text for link to the Psiphon Developers mailing list"
+    },
+    "privacy-para-2": {
+        "message": "要了解有关加拿大和安大略省隐私法律的更多信息，请访问：",
+        "description": ""
+    },
+    "main-gets-you-there-safely-head-1": {
+        "message": "...并带您安全浏览。",
+        "description": ""
+    },
+    "blog-nav-title": {
+        "message": "Our Blog",
+        "description": "Text for the navigation bar link to the blog"
+    },
+    "main-gets-you-there-safely-para-1": {
+        "message": "自由的 Internet 很棒，但偷盗 cookie 和账户可不好。Psiphon 为您提供安全的途径访问 Internet, 不论您连接使用何种网络。",
+        "description": ""
+    },
+    "user-guide-android-image-3-alt": {
+        "message": "显示 Psiphon Android 网页浏览器不同组件的图像",
+        "description": "alt text for an image"
+    },
+    "license-personal-or-specified-use-header": {
+        "message": "个人或指定用途",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-6": {
+        "message": "浏览量 (赞助商网站的完整页面URL)",
+        "description": ""
+    },
+    "user-guide-android-ui-logs-image-alt": {
+        "message": "显示 Psiphon 在 Android 中启动的图像",
+        "description": "alt text for an image"
+    },
+    "license-terms-of-use-header": {
+        "message": "使用条款",
+        "description": ""
+    },
+    "faq-port-restrictions-question": {
+        "message": "是否有任何端口限制在VPN模式？当使用我邮件的客户端在VPN模式，为什么我不能发送电子邮件？",
+        "description": ""
+    },
+    "faq-ssh-plus-question": {
+        "message": "什么是SSH+ 模式?",
+        "description": ""
+    },
+    "sponsor-nav-title": {
+        "message": "赞助",
+        "description": "Navigation text for the Sponsorship page"
+    },
+    "download-android-amazon-description": {
+        "message": "兼容 Android 2.2 和更高版本。整个设备模式需要 Android 4.0 和更高版本，或一台&lt;a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\"&gt;已 root 的设备&lt;/a&gt;。",
+        "description": ""
+    },
+    "license-nav-title": {
+        "message": "版权",
+        "description": ""
+    },
+    "user-guide-android-ui-status-image-alt": {
+        "message": "显示 Psiphon 在 Android 中启动运行，在状态面板中的图像",
+        "description": "alt text for an image"
+    },
+    "faq-vpn-slow-question": {
+        "message": "我可以连接到Psiphon的Windows，但是为什么这么慢？有时一些网页无法显示。",
+        "description": ""
+    },
+    "faq-vpn-slow-answer-para-1": {
+        "message": "某些网络硬件可能会导致L2TP/IPSec的性能问题，这协议用于的 Psiphon 3在VPN模式。尝试使用SSH模式。",
+        "description": ""
+    },
+    "faq-authentic-android-answer-para-2": {
+        "message": "APK验证方法：(1) 从文件中提取证书并检查其指纹是否和上述匹配价值，(2) 验证核实，APK文件签署证书。例如，使用Unix和Java命令行工具：",
+        "description": ""
+    },
+    "contact-sponsor-para": {
+        "message": "欲了解赞助机会，请单击上方链接或发送电子邮件至：",
+        "description": ""
+    },
+    "about-get-latest-info-para-1-announcements-list": {
+        "message": "Psiphon 公告",
+        "description": "text for link to the Psiphon Announcements mailing list"
+    },
+    "faq-information-collected-answer-para-7-item-1": {
+        "message": "操作系统版本",
+        "description": ""
+    },
+    "faq-connection-failed-question": {
+        "message": "为什么我看到消息\"连接失败\"重复一遍又一遍？",
+        "description": ""
+    },
+    "faq-authentic-windows-question": {
+        "message": "我Psiphon的Windows可信吗？",
+        "description": ""
+    },
+    "faq-ip-change-answer-para-1": {
+        "message": "您的 Psiphon 客户端将自动发现新的 Psiphon 服务器。当上次使用的服务器当前不可用时，Psiphon 将使用另一个服务器。",
+        "description": ""
+    },
+    "sponsor-title": {
+        "message": "成为赞助者",
+        "description": "Page title for the Sponsorship page"
+    },
+    "contact-sponsor-email": {
+        "message": "sponsor@psiphon.ca",
+        "description": ""
+    },
+    "faq-autoproxy-answer-para-1": {
+        "message": "点击运行，输入 <code>regedit</code> 打开注册表。找到和打开 <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>，在右面会看到 <code>UserSkipProxySettings</code>。将其值设置为<code>1</code>，并Psiphon不会自动配置系统代理设置。",
+        "description": ""
+    },
+    "user-guide-android-head": {
+        "message": "适用于 Android 的 Psiphon",
+        "description": "heading for the Android section of the User Guide"
+    },
+    "faq-title": {
+        "message": "常见问题与解答",
+        "description": "title for the FAQ page"
+    },
+    "faq-information-collected-answer-para-4": {
+        "message": "时间日志包括时间戳，地区代码 (GeoIP国家代码) 和非标识属性包括赞助商ID (确定哪个Psiphon客户端的使用)，客户端版本，和协议类型。之前被记录，浏览量会汇总由时间和会话。",
+        "description": ""
+    },
     "blog-index-intro": {
         "message": "Psiphon Inc. 是一家加拿大公司，我们团队成员中大部分以英语为母语。这意味着我们的博客文章原文为中文。我们将适时将博文翻译为其他语言。",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-7-list-start": {
+        "message": "视窗：",
+        "description": ""
+    },
+    "privacy-para-4": {
+        "message": "&lt;a href=\"./faq.html#information-collected\"&gt;访问并阅读“常见问题与解答”&lt;/a&gt;了解有关我们所收集信息的详情。",
+        "description": ""
+    },
+    "alert-body": {
+        "message": "赛风团队发现了特定类型的恶意软件伪装成赛风3 Windows可执行文件。恶意软件分发www.copy.com上作为一个\"pisphone3.zip\"的zip文件，和从其他来源可能是可用。Zip文件包含一个恶意的二进制文件命名\"pisphone3.exe\"与属性描述在\n<a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>。 请注意名称的拼写错误。此Windows可执行文件没有Psiphon Inc.的数字签名。请不要运行新下载的赛风，先检查其数字签名，如下 <a href=\"#authentic-windows\">所述：</a>。",
+        "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
+    },
+    "faq-information-collected-answer-para-5": {
+        "message": "所有的统计共享与赞助商将会汇总由日期，赞助商，和地区。",
+        "description": ""
+    },
+    "user-guide-android-ui-statistics-image-annotation-3": {
+        "message": "通过 Psiphon 接收的数据",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
+    },
+    "faq-proxy-all-answer-para-1": {
+        "message": "只能在VPN模式。VPN连接成功之后，你的整个电脑流量都将会通过 Psiphon 3网络中转。在SSH模式，只有应用程序使用本地HTTP和SOCKS代理将会代理。",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-8": {
+        "message": "HTTPS请求的数量",
         "description": ""
     },
     "user-guide-android-para-2": {
         "message": "要安装Psiphon APK文件, 你必须设置允许你的安卓系统允许非官方市场应用。Psiphon 的Android版程序自动更新。",
         "description": ""
     },
+    "user-guide-windows-para-3": {
+        "message": "当绿色图标显示时，成功连接到Psiphon服务器。在VPN模式，所有的互联网流量自动隧道通过Psiphon 中。",
+        "description": ""
+    },
+    "faq-information-collected-question": {
+        "message": "Psiphon收集哪些用户信息？",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-7": {
+        "message": "字节传输",
+        "description": ""
+    },
+    "license-para-2": {
+        "message": "此版本的 Psiphon 应严格适用于个人，仅供个人使用。如果您希望将 Psiphon 用于其他任何用途或有额外需求，我们还提供付费的商业服务。欲了解更多信息，请发送电子邮件至 &lt;a href=\"mailto:sponsor@psiphon.ca\"&gt;sponsor@psiphon.ca&lt;/a&gt;",
+        "description": ""
+    },
+    "about-open-source-para-1": {
+        "message": "Psiphon是一个开源项目的。你可以找到源代码和设计文件在<a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">项目主页</a>.",
+        "description": ""
+    },
+    "user-guide-android-ui-status-image-annotation-3": {
+        "message": "要以“隧道整个设备”模式运行 Psiphon，您必须拥有 Android 4.0+ 或一台已 root 的电话。&lt;br&gt;&lt;br&gt;此选项对于未 root 并安装较旧版本 Android 的电话上不可用。",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
+    },
+    "user-guide-windows-para-verify-authentic": {
+        "message": "您应当首先&lt;a href=\"./faq.html#authentic-windows\"&gt;验证您的 Psiphon for Windows 副本为正版&lt;/a&gt;。",
+        "description": ""
+    },
+    "faq-vpn-dns-question": {
+        "message": "当我连接Psiphon的Windows VPN模式，网页都无法显示。我收到错误消息表明域名查询失败了。",
+        "description": ""
+    },
+    "user-guide-android-ui-statistics-image-annotation-2": {
+        "message": "通过 Psiphon 发送的数据",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
+    },
+    "what-is-psiphon-body-para-1": {
+        "message": "Psiphon是一个从赛风公司的新翻墙工具，利用VPN, SSH和HTTP代理软件提供未经审查的访问互联网。Psiphon客户端将自动学习新的进入点，以最大绕过网络审查的机会。",
+        "description": ""
+    },
+    "about-get-latest-info-para-1-users-list": {
+        "message": "Psiphon 用户群组",
+        "description": "text for link to the Psiphon Users mailing list"
+    },
+    "faq-information-collected-answer-para-3": {
+        "message": "从来没有收集用户的IP地址和电子邮件地址。使用Psiphon的系统，用户无需要创建账户。",
+        "description": ""
+    },
+    "faq-failed-connect-polipo-answer-para-1": {
+        "message": "本地HTTP代理无法运行。你可能有其他进程在运行，及使用默认端口。请尝试使用其他端口。请读问题 ”我可以运行本地HTTP代理吗在其他端口8080吗？“",
+        "description": ""
+    },
+    "license-statement-of-limitations-of-liability-header": {
+        "message": "有限责任声明",
+        "description": ""
+    },
+    "faq-nav-title": {
+        "message": "常见问题与解答",
+        "description": "text for the FAQ page navigation item"
+    },
+    "alert-heading": {
+        "message": "警告",
+        "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
+    },
+    "license-personal-or-specified-use-para": {
+        "message": "这是一款非商业软件，并获准在非独占的个人许可证的情况下使用。使用 Psiphon，您即同意仅作为个人和非商业用途使用本软件。您不得（并不得允许第三方）出租、租赁、再许可、出售、转售或以其他方式分发 Psiphon 用于商业用途。",
+        "description": ""
+    },
+    "privacy-canadian-privacy-commission-link-url": {
+        "message": "http://www.priv.gc.ca/",
+        "description": ""
+    },
+    "faq-browser-compatibility-question": {
+        "message": "Psiphon 3的Windows兼容与IE, Firefox, Safari，和Chrome浏览器吗？",
+        "description": ""
+    },
+    "faq-authentic-android-answer-para-3": {
+        "message": "Psiphon的Android自动更新本身，以及这一程序自动验证每个更新是可信的。",
+        "description": ""
+    },
+    "main-gets-you-there-safely-head-2": {
+        "message": "想要在使用公用 WiFi 网络时安全浏览网站？",
+        "description": ""
+    },
+    "faq-authentic-android-question": {
+        "message": "我Psiphon的Android可信吗？",
+        "description": ""
+    },
+    "psiphon": {
+        "message": "Psiphon",
+        "description": ""
+    },
+    "user-guide-windows-para-1": {
+        "message": "下载客户段软件，并运行它。当你运行它，你应该看到一个安全提示显示此软件是一个Psiphon Inc.的合法产品。",
+        "description": ""
+    },
+    "faq-authentic-windows-answer-para-2": {
+        "message": "在证书对话框的详细信息选项卡中显示Psiphon Inc.证书公钥的SHA1指纹。证书有效期间2011年6月16日至2012年6月21日SHA1指纹是:",
+        "description": ""
+    },
+    "what-is-psiphon-heading": {
+        "message": "什么是Psiphon？",
+        "description": ""
+    },
+    "user-guide-nav-title": {
+        "message": "用户指南",
+        "description": "text for the user guide page navigation item"
+    },
+    "faq-authentic-windows-answer-para-3": {
+        "message": "证书有效期间2011年05月21日至2014年07月30日SHA1指纹是:",
+        "description": ""
+    },
+    "index-title": {
+        "message": "欢迎来到您全新的 Internet",
+        "description": "Page title for the index page"
+    },
+    "about-privacy-head": {
+        "message": "隐私权政策",
+        "description": ""
+    },
+    "faq-failed-connect-polipo-question": {
+        "message": "在SSH模式为Psiphon的Windows, 我看到错误消息 \"Failed to connect to Polipo\"。我怎么办？",
+        "description": ""
+    },
+    "faq-ssh-plus-answer-para-1": {
+        "message": "为了防御协议指纹，SSH模式加上的混淆层之上SSH握手。可以在<a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">这里</a>找到的协议的说明。",
+        "description": ""
+    },
+    "license-title": {
+        "message": "Psiphon 最终用户许可协议",
+        "description": ""
+    },
+    "user-guide-android-ui-statistics-image-annotation-1": {
+        "message": "连接时间",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
+    },
+    "license-terms-of-use-para": {
+        "message": "本软件“按原样”分发（包含所有故障）并没有任何形式的担保。使用 Psiphon，您即同意使用本软件时不违反加拿大法律或第三方的权利。",
+        "description": ""
+    },
+    "faq-configure-applications-question": {
+        "message": "如何配置应用程序以使用Psiphon 3在SSH模式？",
+        "description": ""
+    },
+    "license-para-1": {
+        "message": "本软件和所有相关的知识产权是 Psiphon Inc. 的财产，Psiphon Inc. 是在安大略省注册的公司，其总部设在加拿大安大略省多伦多市。",
+        "description": ""
+    },
+    "user-guide-android-ui-statistics-image-annotation-5": {
+        "message": "通过 Psiphon 压缩的已接收数据",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
+    },
+    "user-guide-windows-head": {
+        "message": "适用于 Windows 的 Psiphon",
+        "description": "heading for the Android section of the User Guide"
+    },
+    "footer-copyright": {
+        "message": "版权所有",
+        "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
+    },
+    "user-guide-title": {
+        "message": "如何使用 Psiphon",
+        "description": "title for the user guide page"
+    },
+    "faq-information-collected-answer-para-2-item-9": {
+        "message": "客户端平台 (简化的操作系统列表。比如，没有一个详细的浏览器用户代理)",
+        "description": ""
+    },
+    "user-guide-android-image-3-annotation-5": {
+        "message": "打开新选项卡",
+        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
+    },
+    "download-via-email-description": {
+        "message": "如果我们的网站或下载链接被阻挡或删除，您可以申请通过电子邮件将下载链接发送给您。",
+        "description": ""
+    },
+    "download-via-email-head": {
+        "message": "通过电子邮件下载",
+        "description": ""
+    },
+    "download-windows-direct": {
+        "message": "适用于 Windows 的 Psiphon",
+        "description": "text for link to Psiphon for Windows download"
+    },
+    "faq-information-collected-answer-para-8-item-3": {
+        "message": "您的手机是否植根",
+        "description": ""
+    },
+    "sponsor-para-2": {
+        "message": "您将看到您所做选择的横幅广告，此横幅将链接到您网站的某个页面。这是获得较多懂技术受 众的独特机会，这些用户使用 Psiphon 为他们的 Internet 访问添加一道安全屏障。",
+        "description": ""
+    },
+    "about-get-latest-info-para-1-list-start": {
+        "message": "登记成为我们的邮件的收件人：",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-9": {
+        "message": "从时间到时间Psiphon可能有记录的其他信息，以解决问题与我们的服务。如果发生这种情况，我们将添加一个条目在这里，描述什么记录，多久保持，以及为什么。",
+        "description": ""
+    },
+    "nav-language-title": {
+        "message": "选择您的语言",
+        "description": ""
+    },
     "user-guide-android-para-4": {
         "message": "一旦应用程序连接上服务器后，它会启动内置的Psiphon浏览器浏览。Psiphon不会自动为Android默认浏览器或其他应用程序提供代理的，默认情况下，只有使用Psiphon内置浏览器才会通过代理上网。",
         "description": ""
+    },
+    "user-guide-android-image-3-annotation-4": {
+        "message": "将当前页面加入书签",
+        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
+    },
+    "user-guide-windows-para-2": {
+        "message": "当你运行它,Psiphon自动启动连接。显示一个旋转图标在连接的时候。你可以选择以下的隧道模式之一：VPN (L2TP／IPSec)，SSH，或SSH+ (SSH加混淆，随机层之上的SSH之避免协议指纹) 。",
+        "description": ""
+    },
+    "blog-index-title": {
+        "message": "Psiphon 团队博客",
+        "description": ""
+    },
+    "privacy-para-3": {
+        "message": "Psiphon旨在为您提供开放访问在线内容。Psiphon不会增加您的在线隐私权，并不应被用作在线安全工具。",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-7-item-3": {
+        "message": "您如何连接到网络 (例如，如果您正在使用拨号或者通过代理服务器连接到网络)",
+        "description": ""
+    },
+    "main-pick-three-head-1": {
+        "message": "信赖、快速、简易：选取三个",
+        "description": ""
+    },
+    "faq-connection-failed-answer-para-1": {
+        "message": "如果你看到重复\"连接失败\"的消息，就说明目前没有可用服务器。请尝试下载新Psiphon的客户端。",
+        "description": ""
+    },
+    "faq-authentic-windows-image-alt": {
+        "message": "显示如何在 Windows 下检查 Psiphon 可执行文件签名的图像",
+        "description": "alt text for an image"
+    },
+    "user-guide-android-ui-status-image-annotation-4": {
+        "message": "&lt;span style=\"color:grey\"&gt;灰色&lt;/span&gt;：正在连&lt;br&gt;&lt;span style=\"color:red\"&gt;红色&lt;/span&gt;：未连接&lt;br&gt;&lt;span style=\"color:Blue\"&gt;蓝色&lt;/span&gt;：已连接",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
+    },
+    "generic-image-figcaption": {
+        "message": "需要记下的事情：",
+        "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
+    },
+    "resources-nav-title": {
+        "message": "资源",
+        "description": "title for the Resources"
+    },
+    "about-open-source-para-4-list-start": {
+        "message": "安卓：",
+        "description": ""
+    },
+    "user-guide-windows-image-3-alt": {
+        "message": "显示 Psiphon 在 Windows 中已连接的图像",
+        "description": "alt text for an image"
+    },
+    "about-open-source-para-3-list-start": {
+        "message": "视窗：",
+        "description": ""
+    },
+    "nav-title": {
+        "message": "导航",
+        "description": ""
+    },
+    "faq-authentic-windows-answer-para-4": {
+        "message": "Psiphon的Windows自动更新本身，以及这一程序自动验证每个更新是可信的。",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-7-item-4": {
+        "message": "您的电脑有多少可用内存",
+        "description": ""
+    },
+    "user-guide-android-ui-status-image-annotation-1": {
+        "message": "Psiphon 正运行于 VPN 或“整个设备”模式。所有应用程序流量将通过 Psiphon 隧道传输。",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
+    },
+    "main-pick-three-para-1": {
+        "message": "2008 年以来，Psiphon 已帮助来自全球上网自由限制国家的数百万用户安全访问了已屏蔽的知识和思想。现在 Psiphon 可为您提供同样的服务。",
+        "description": ""
+    },
+    "about-title": {
+        "message": "关于我们",
+        "description": "title for the About page"
+    },
+    "faq-information-collected-answer-para-8-item-1": {
+        "message": "安卓版本",
+        "description": ""
+    },
+    "download-windows-direct-description": {
+        "message": "支持 Windows XP、Windows Vista、Windows 7 和 Windows 8（桌面模式）。",
+        "description": ""
+    },
+    "license-termination-terms-of-service-violations-para-2": {
+        "message": "作为用户，您可以随时停止使用 Psiphon 软件、从您的设备中删除本软件应用程序的所有实例，以终止此许可协议。",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-5": {
+        "message": "会话的数量和会话的持续时间",
+        "description": ""
+    },
+    "faq-orig-file-purpose-question": {
+        "message": "\"psiphon3.exe.orig\"文件是什么？",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-8-item-2": {
+        "message": "手机模型",
+        "description": ""
+    },
+    "license-termination-terms-of-service-violations-header": {
+        "message": "终止；违反服务条款",
+        "description": ""
+    },
+    "privacy-ontario-privacy-commissioner-link-url": {
+        "message": "http://www.ipc.on.ca/",
+        "description": ""
+    },
+    "user-guide-android-image-3-annotation-1": {
+        "message": "正在运行Psiphon",
+        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
+    },
+    "blog-index-posts-in-your-language": {
+        "message": "用中文发表",
+        "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
+    },
+    "download-now-button": {
+        "message": "立即下载",
+        "description": "The text on the Download Now button"
+    },
+    "blog-index-posts-in-english": {
+        "message": "用英文发表",
+        "description": "Heading for the list of blog posts that are available in English"
+    },
+    "user-guide-android-para-3": {
+        "message": "安装完成后启动Psiphon程序即可自动开始代理连接。",
+        "description": ""
+    },
+    "user-guide-android-ui-status-image-annotation-5": {
+        "message": "显示您当前正在运行的 Psiphon 的版本号",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
+    },
+    "license-statement-of-limitations-of-liability-para": {
+        "message": "本软件“按原样”分发，并不承担担保或任何形式明示或暗示的责任。Psiphon 不承担一切与本软件使用相关的担保和责任，这包含人身伤害、或任何附带的、特殊的、间接的或后果性的个人或商业损害，包含数据和业务中断所带来的损失。",
+        "description": ""
+    },
+    "faq-ip-change-question": {
+        "message": "为什么我的Psiphon的IP地址时常发生变动？",
+        "description": ""
+    },
+    "privacy-ontario-privacy-commissioner-link-text": {
+        "message": "安大略省私隐专员办公室",
+        "description": ""
+    },
+    "main-gets-you-where-you-want-head-1": {
+        "message": "帮您到达您想去的任何地点...",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-4": {
+        "message": "如何经常发现新的服务器",
+        "description": ""
+    },
+    "main-gets-you-where-you-want-head-2": {
+        "message": "被您所在的国家、公司或校园删除？",
+        "description": ""
+    },
+    "what-is-psiphon-body-para-2": {
+        "message": "Psiphon旨在为您提供开放访问在线内容。Psiphon不会增加您的在线隐私权，并不应被用作在线安全工具。",
+        "description": ""
+    },
+    "faq-polipo-different-port-answer-para-1": {
+        "message": "可以，在 Windows 中。单击“运行”，并输入 &lt;code&gt;regedit&lt;/code&gt; 并打开注册表编辑器。找到并打开 &lt;code&gt;HKEY_CURRENT_USER\\Software\\Psiphon3&lt;/code&gt;，在右侧您将看到 &lt;code&gt;UserLocalHTTPProxyPort&lt;/code&gt;。设置其数值为您希望使用的端口号（以十进制）。",
+        "description": ""
+    },
+    "footer-license": {
+        "message": "许可基于：",
+        "description": "The beginning of the 'Licensed under [license name here]' footer text"
+    },
+    "download-android-playstore": {
+        "message": "Google Play 商店中的 Psiphon for Android",
+        "description": "text for link to Psiphon for Android in the Google Play Store"
+    },
+    "download-title": {
+        "message": "下载 Psiphon",
+        "description": "title for the download page"
+    },
+    "faq-authentic-android-answer-para-1": {
+        "message": "每个Psiphon的Android客户端是作为一个Android的APK文件 (\".apk\")，那是数字签名的Psiphon Inc。Psiphon Inc.证书公钥，如下所示：",
+        "description": ""
+    },
+    "download-android-direct": {
+        "message": "Psiphon for Android 直接下载",
+        "description": "text for link to Psiphon for Android direct download"
+    },
+    "faq-information-collected-answer-para-6": {
+        "message": "当您选择提交反馈通过赛风时，您将有选项的包括诊断数据。我们使用此数据来帮助我们解决您可能遇到的任何问题，并帮助我们保持赛风平稳运行。发送此数据是完全可选的。之前您发送此数据，它被加密了，并只可以由我们解密。数据中的信息使用不同的平台，但它可能包括：",
+        "description": ""
+    },
+    "faq-browser-compatibility-answer-para-1": {
+        "message": "兼容。在SSH模式，检查你的浏览器设置，并确保它被配置为使用系统代理设置。",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-8-list-start": {
+        "message": "安卓：",
+        "description": ""
+    },
+    "download-android-amazon": {
+        "message": "亚马逊应用商店中的 Psiphon for Android",
+        "description": "text for link to Psiphon for Android in the Amazon AppStore"
+    },
+    "user-guide-windows-image-1-alt": {
+        "message": "显示 Psiphon 可执行文件引发的 Windows 安全警告的图像",
+        "description": "alt text for an image"
+    },
+    "download-android-direct-description": {
+        "message": "如果您无法访问 Google Play 商店，您可以直接下载并安装 (\"&lt;a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\"&gt;sideload&lt;/a&gt;\") 适用于 Android 的 Psiphon。",
+        "description": ""
+    },
+    "faq-port-restrictions-answer-para-1": {
+        "message": "是。出站连接从Psiphon 3的Windows VPN，可仅在以下端口：<code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. 请参阅这此<a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">讨论</a>的详细信息。邮件客户端无法建立端口25和587上的出站连接。请参阅这此<a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">讨论</a>的详细信息。",
+        "description": ""
+    },
+    "download-android-playstore-description": {
+        "message": "兼容 Android 2.2 和更高版本。整个设备模式需要 Android 4.0 和更高版本，或一台&lt;a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\"&gt;已 root 的设备&lt;/a&gt;。",
+        "description": ""
+    },
+    "faq-check-version-question": {
+        "message": "我怎么查看我当前Psiphon的版本？",
+        "description": ""
+    },
+    "site-title": {
+        "message": "Psiphon：您的网络自由开放",
+        "description": "the title for the site"
+    },
+    "sponsor-header-sponsored-by": {
+        "message": "赞助者：",
+        "description": ""
+    },
+    "faq-configure-applications-answer-para-1": {
+        "message": "Psiphon 会自动配置你的系统以使用一个本地HTTP/HTTPS代理在 <code>127.0.0.1:8080</code>和一个本地SOCKS代理在 <code>127.0.0.1:1080</code>。Windows应用程序其使用系统代理设置会被自动代理。你可以手动配置其他应用程序以使用此本地代理。Psiphon的 Windows (SSH模式) 和Psiphon的Android都运行这些本地的代理。",
+        "description": ""
+    },
+    "faq-vpn-protocol-answer-para-1": {
+        "message": "A: Psiphon使用 L2TP/IPSec VPN的协议。你的网络防火墙可能不允许使用的VPN。你的家用路由器的配置可能不通过VPN协议。检查你的防火墙设置IPSec或L2TP会启用。你的系统 IPSec Services服务可能被禁用。检查你的服务设置，并启用此服务自动启动。",
+        "description": ""
+    },
+    "license-distribution-header": {
+        "message": "分发",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-7-item-2": {
+        "message": "防病毒版本",
+        "description": ""
+    },
+    "sponsor-para-1": {
+        "message": "装载 Psiphon 的每位用户，不论何时连接到本软件都将看到此登陆页面。此页面将提供赞助机会，按星期计算。",
+        "description": ""
+    },
+    "faq-autoproxy-question": {
+        "message": "我使用<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>。我怎么能告诉Psiphon的Windows 不来配置我的系统代理设置?",
+        "description": ""
+    },
+    "faq-vpn-dns-answer-para-1": {
+        "message": "Psiphon限制 DNS流量到有效的 DNS服务器。 Psiphon 3客户端自动配置你的VPN DNS的服务器设置。如果你收到有关DNS错误，请检查你不感染 “DNS Changer”的恶意软件，它试图改变你的 DNS服务器设置。你可以在这里找到更多信息<a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>.",
+        "description": ""
+    },
+    "about-get-latest-info-head": {
+        "message": "获取有关 Psiphon 的最新信息",
+        "description": ""
+    },
+    "user-guide-windows-image-2-alt": {
+        "message": "显示 Psiphon 在 Windows 中启动的图像",
+        "description": "alt text for an image"
+    },
+    "faq-orig-file-purpose-answer-para-1": {
+        "message": "自动更新过程中为Psiphon 3的Windows重命名其为\"psiphon3.exe.orig\"的旧版本。可以安全地删除\".orig\"后缀的旧文件。",
+        "description": ""
+    },
+    "download-nav-title": {
+        "message": "下载",
+        "description": "text for the Download page navigation item"
+    },
+    "faq-polipo-different-port-question": {
+        "message": "我可以运行本地HTTP代理吗在其他端口8080吗？",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-2": {
+        "message": "升级的数量",
+        "description": ""
+    },
+    "user-guide-windows-para-4": {
+        "message": "在SSH和SSH+模式，Psiphon自动设置Windows系统的代理设置， 并应用流量将隧道通过Psiphon。这些设置被默认使用在所有主要的网络浏览器。",
+        "description": ""
+    },
+    "about-open-source-para-2": {
+        "message": "Psiphon 客户端使用下列开源组件。",
+        "description": ""
+    },
+    "user-guide-android-ui-statistics-image-alt": {
+        "message": "显示 Psiphon 运行在 Android 统计面板的图像",
+        "description": "alt text for an image"
+    },
+    "faq-check-version-answer-para-1": {
+        "message": "当Psiphon 3启动，在输出的第一行显示客户端版本。",
+        "description": ""
+    },
+    "user-guide-android-ui-status-image-annotation-2": {
+        "message": "“状态选项卡”已选择",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
+    },
+    "faq-authentic-android-answer-alert": {
+        "message": "<b>请注意：</b>最近 <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">报道的</a> 漏洞可能会导致检查安卓应用程序签名至虚假报告恶意APKs作为有效的。我们建议用户打开Google验证应用程序功能作为记录 <a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">在这里</a>。",
+        "description": ""
+    },
+    "about-nav-title": {
+        "message": "关于我们",
+        "description": "text for the About page navigation item"
+    },
+    "faq-information-collected-answer-para-2-item-3": {
+        "message": "如何经常使用每个协议，而失败后的错误代码",
+        "description": ""
+    },
+    "privacy-para-1": {
+        "message": "Psiphon 致力于保护其客户、最终用户、分销商和供应商的隐私权益。本隐私权政策旨在向您提供您一般信息，供您了解您的个人信息是如何被使用的。Psiphon 是一家加拿大公司，其总部设在安大略省。我们的隐私权政策基于加拿大和安大略省的隐私法规法律所制定。",
+        "description": ""
+    },
+    "license-termination-terms-of-service-violations-para-1": {
+        "message": "Psiphon 保留以任何或无理由，并无需支付罚款的情况下随时自行终止此许可的权利。使用 Psiphon，您即同意使用本软件时不违反服务条款和许可协议。",
+        "description": ""
+    },
+    "user-guide-android-image-3-annotation-3": {
+        "message": "关闭当前选项卡",
+        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
+    },
+    "sponsor-para-3": {
+        "message": "如欲得到更多资料，请发电邮到<a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>。",
+        "description": ""
+    },
+    "user-guide-windows-para-5": {
+        "message": "此外，在SSH和SSH+模式，Psiphon提供了拆分隧道的选项。比如，国际流量是隧道通过代理的，并国内流量不是的。选中“不要代理国内的网站”选项之启用拆分隧道。选中此选项后，在消息区域中显示非代理的域名。",
+        "description": ""
+    },
+    "license-distribution-para": {
+        "message": "Psiphon 是一款免费的非商业软件。本软件应仅适合个人和非商业用途，欢迎您以任何格式，并根据本许可证的相关条款进行分发和传播 - 可使用电子或其他格式。",
+        "description": ""
+    },
+    "user-guide-android-image-1-alt": {
+        "message": "显示允许非 Play Store 应用的 Android 设置的图像",
+        "description": "alt text for an image"
+    },
+    "main-gets-you-where-you-want-para-1": {
+        "message": "在处理世界各地的压制性政权后，我们是帮助您随时随地获得需要内容的唯一选择。",
+        "description": ""
+    },
+    "user-guide-android-para-verify-authentic": {
+        "message": "您应当首先&lt;a href=\"./faq.html#authentic-android\"&gt;验证您的 Psiphon for Android 副本为正版&lt;/a&gt;。",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-1": {
+        "message": "电子邮件请求的数量对于客户端下载连接",
+        "description": ""
+    },
+    "about-open-source-head": {
+        "message": "开放源码",
+        "description": ""
+    },
+    "faq-authentic-windows-answer-para-1": {
+        "message": "Psiphon的Windows从来没有分发作为安装的软件包。每个Psiphon的Windows客户端是一个单一的可执行文件(\".exe\")，那是数字签名的Psiphon Inc。当您运行客户端时，Windows会自动检查此签名。您也可以手动检查签名在运行客户端之前通过打开文件的属性对话框中，和检查数字签名选项卡。",
+        "description": ""
+    },
+    "user-guide-windows-para-6": {
+        "message": "当你关闭应用程序，Psiphon自动断开。你也可以点击图标来切换连接。",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-1": {
+        "message": "我们收集了以下数据，找出Psiphon是怎样工作的，什么样的网站是流行的和什么样的传播战略有效。此信息与我们的合作伙伴共享，使他们可以看到他们的网站如何往往访问通过Psiphon和来自哪些国家。",
+        "description": ""
+    },
+    "user-guide-android-ui-statistics-image-annotation-4": {
+        "message": "通过 Psiphon 压缩的已发送数据",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
+    },
+    "user-guide-android-ui-logs-image-annotation-1": {
+        "message": "Psiphon 活动日志",
+        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     }
 }
