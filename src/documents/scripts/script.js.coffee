@@ -55,6 +55,13 @@ $ ->
       $('.sponsor-info .sponsor-banner img').wrap($link)
   ###
 
+  # Set the correct sponsor email address, if there's one on the page
+  if $('.sponsor-email').length
+    sponsor_email_info_file = $('.sponsor-email').data('email-info-file')
+    $.getJSON(sponsor_email_info_file)
+      .done (email) ->
+        $('.sponsor-email').prop('href', "mailto:#{email}").text(email)
+
   # Set up any slab text we have on the page.
   if $('.slabtext-container').length
     $(window).load ->

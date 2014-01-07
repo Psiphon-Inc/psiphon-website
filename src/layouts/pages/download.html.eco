@@ -109,7 +109,7 @@ layout: page
   </div>
   <div class="download-link">
     <h4>
-      <a href="mailto:<%- @downloads.email %>" class="alert-link">
+      <a href="mailto:<%- @downloads.email %>" class="alert-link sponsor-email" data-email-info-file="<%= @document.pathToRoot %>/images/sponsor-email.json">
         <%= @downloads.email %>
       </a>
     </h4>
