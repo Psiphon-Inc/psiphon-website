@@ -117,6 +117,11 @@ docpadConfig = {
         title_key: 'license-title'
         nav_title_key: 'license-nav-title'
 
+      'open-source':
+        filename: '/open-source.html'
+        title_key: 'open-source-title'
+        nav_title_key: 'open-source-nav-title'
+
       'virtualname':
         filename: '/virtualname.html'
         title_key: 'license-title'
@@ -133,6 +138,7 @@ docpadConfig = {
           { name: 'about' }
           { name: 'blog' }
           { name: 'license' }
+          { name: 'open-source' }
         ]
       }
       { name: 'sponsor', additional_classes: ['show-if-not-sponsored', 'hidden'] }
