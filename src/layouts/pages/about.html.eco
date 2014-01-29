@@ -4,18 +4,53 @@ layout: page
 
 <div class="row">
   <div class="col-md-12">
+    <h2><%= @tt 'about-who-we-are-head' %></h2>
+
+    <p><%= @tt 'about-who-we-are-para-1' %></p>
+
+    <h3><%= @tt 'about-who-we-are-exec-team-head' %></h3>
+    <p><%= @tt 'about-who-we-are-exec-team-para-1' %></p>
+    <p><%= @tt 'about-who-we-are-exec-team-para-2' %></p>
+
+    <h3><%= @tt 'about-who-we-are-software-development-head' %></h3>
+    <p><%= @tt 'about-who-we-are-software-development-para-1' %></p>
+    <p><%= @tt 'about-who-we-are-software-development-para-2' %></p>
+    <p><%= @tt 'about-who-we-are-software-development-para-3' %></p>
+    <ul>
+      <li>
+        Mike Fallone
+      </li>
+      <li>
+        Eugene Fryntov
+      </li>
+      <li>
+        <a href="https://github.com/rod-hynes/" target="_blank">Rod Hynes</a>
+      </li>
+      <li>
+        Adam Kruger
+      </li>
+      <li>
+        <a href="http://www.crypti.cc/" target="_blank">Adam Pritchard</a>
+      </li>
+    </ul>
+
+    <h3><%= @tt 'about-who-we-are-ops-head' %></h3>
+    <p><%= @tt 'about-who-we-are-ops-para-1' %></p>
+
+    <h3><%= @tt 'about-who-we-are-partners-head' %></h3>
+    <p><%- @tt 'about-who-we-are-partners-para-1' %></p>
+    <p><%- @tt 'about-who-we-are-partners-para-2' %></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
     <h2><%= @tt 'about-contact-head' %></h2>
     <p>
       <%= @tt 'contact-email-para' %>
     </p>
     <p>
       <a href="mailto:<%= @site.email %>"><%= @site.email %></a>
-    </p>
-    <p>
-      <%= @tt 'contact-sponsor-para' %>
-    </p>
-    <p>
-      <a href="mailto:<%= @tt 'contact-sponsor-email' %>"><%= @tt 'contact-sponsor-email' %></a>
     </p>
   </div>
 </div>
@@ -63,43 +98,6 @@ layout: page
     </p>
     <p>
       <%- @tt 'privacy-para-4' %>
-    </p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-12">
-    <h2><%= @tt 'about-open-source-head' %></h2>
-    <p>
-      <%- @tt 'about-open-source-para-1' %>
-    </p>
-    <p>
-      <%= @tt 'about-open-source-para-2' %>
-    </p>
-    <p>
-      <%= @tt 'about-open-source-para-3-list-start' %>
-      <ul>
-        <li><a href="http://www.cryptopp.com/">Crypto++</a></li>
-        <li><a href="http://jsoncpp.sourceforge.net/">JsonCpp</a></li>
-        <li><a href="http://jquery.com/">jQuery</a></li>
-        <li><a href="http://www.mrhinkydink.com/potty.htm">PoTTY</a></li>
-        <li><a href="http://code.google.com/p/yaml-cpp/">yaml-cpp</a></li>
-        <li><a href="http://www.zlib.net/">zlib</a></li>
-      </ul>
-    </p>
-    <p>
-      <%= @tt 'about-open-source-para-4-list-start' %>
-      <ul>
-        <li><a href="http://code.google.com/p/badvpn/">BadVPN</a></li>
-        <li><a href="http://code.google.com/p/connectbot/">ConnectBot</a></li>
-        <li><a href="http://www.cleondris.ch/opensource/ssh2/">Ganymed SSH2</a></li>
-        <li><a href="http://jsocks.sourceforge.net/">JSocks</a></li>
-        <li><a href="http://jquery.com/">jQuery</a></li>
-        <li><a href="https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation">Obfuscated SSH patch</a></li>
-        <li><a href="http://code.google.com/p/roottools/">RootTools</a></li>
-        <li><a href="http://code.google.com/p/zirco-browser/">Zirco</a></li>
-        <li><a href="https://www.gosquared.com/resources/flag-icons">GoSquared flag icons</a></li>
-      </ul>
     </p>
   </div>
 </div>
