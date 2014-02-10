@@ -28,10 +28,7 @@ docpadConfig = {
 
       companyName: "Psiphon Inc."
 
-      # The website author's name
-      author: "Psiphon Inc."
-
-      # The website author's email
+      # The website contact email
       email: "info@psiphon.ca"
 
       # Styles
