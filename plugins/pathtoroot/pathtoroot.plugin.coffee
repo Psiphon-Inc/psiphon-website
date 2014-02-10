@@ -27,7 +27,7 @@ module.exports = (BasePlugin) ->
                 # Prepare
                 documentUrl = document.get('url')
                 depth = documentUrl.split('/').length - 1 # leading / gives us one extra
-                pathToRoot = ['.']
+                pathToRoot = []
                 if depth > 1
                     pathToRoot.push('..') for i in [0..depth-2]
                 #console.log documentUrl + ' ' + pathToRoot.join('/')

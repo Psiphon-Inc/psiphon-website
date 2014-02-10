@@ -11,24 +11,24 @@
     <meta http-equiv="refresh" content="1; url=<%= @relativeToRoot "/#{@document.language}.html" %>">
   <% end %>
 
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
   <!-- Use the .htaccess and remove these lines to avoid edge case issues.
      More info: h5bp.com/i/378 -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <!-- Our site title and description -->
   <title><%= @getPreparedTitle() %></title>
-  <meta name="description" content="<%= @getPreparedDescription() %>" />
-  <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
-  <meta name="author" content="<%= @site.author or '' %>" />
+  <meta name="description" content="<%= @getPreparedDescription() %>">
+  <meta name="keywords" content="<%= @getPreparedKeywords() %>">
+  <meta name="author" content="<%= @site.author or '' %>">
 
   <!-- Output DocPad produced meta elements -->
   <%- @getBlock('meta').toHTML() %>
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <!-- And: http://getbootstrap.com/css/ -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Icons -->
   <link rel="shortcut icon" href="<%= @document.pathToRoot %>/images/icons/favicon.ico">
