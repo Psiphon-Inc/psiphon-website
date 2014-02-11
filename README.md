@@ -56,6 +56,13 @@ It's quite easy to add images (screenshots, etc.) that are locale-specific.
 Note that `ttURL` could also be used for files other than images. Video? CSS?
 
 
+## Docpad Tips and Caveats
+
+### Metadata
+
+Metadata in layouts is basically ignored (besides another `layout` in the chain). There's [an issue to improve this](https://github.com/bevry/docpad/issues/458). This is very unfortunate for us because we put almost all content into layouts. And, for example, it would be best to put a page's keywords into the layout rather than in `documents/en/blah.html`.
+
+
 ## Credits
 
 Background pattern from: http://subtlepatterns.com/3px-tile/
