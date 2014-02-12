@@ -14,7 +14,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <!-- Our site title and description -->
-  <title><%= @getPreparedTitle() %></title>
+  <title><%= @getPreparedMetaTitle() %></title>
   <meta name="description" content="<%= @getPreparedDescription() %>">
   <meta name="keywords" content="<%= @getPreparedKeywords() %>">
 

@@ -191,9 +191,12 @@ docpadConfig = {
     # Get the prepared site/document title
     # Often we would like to specify particular formatting to our page's title
     # we can apply that formatting here
-    getPreparedTitle: ->
-      # if we have a document title, then we should use that and prefix the site's title to it
-      title = @getTitle()
+    getPreparedMetaTitle: ->
+      if @document.meta_title_key
+        title = @tt(@document.meta_title_key)
+      else
+        title = @getTitle()
+
       if title
         return "#{@tt 'psiphon'} | #{title}"
       else
