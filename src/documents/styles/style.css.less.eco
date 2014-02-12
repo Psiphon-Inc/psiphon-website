@@ -1,6 +1,8 @@
 @import "../../files/vendor/twitter-bootstrap/less/mixins";
 @import "../../files/vendor/twitter-bootstrap/less/variables";
-@import "../../files/vendor/twitter-bootstrap/less/responsive-utilities.less";
+@import "../../files/vendor/twitter-bootstrap/less/responsive-utilities";
+@import "../../files/vendor/twitter-bootstrap/less/type";
+@import "../../files/vendor/twitter-bootstrap/less/utilities";
 @import "_rtl-support";
 @import "_annotations";
 
@@ -217,6 +219,43 @@ pre.highlighted {
 .donate-button {
   // This is based on the sized forced by the Bitcoin button
   height: 50px;
+}
+
+.donate-cryptocoin {
+  margin-bottom: 1em;
+
+  .donate-cryptocoin-name {
+    .make-rtl-sm-col(0, 4, 8);
+    font-size: 1.2em;
+
+    > span {
+      vertical-align: text-top;
+    }
+
+    // The cryptocoin name is right aligned, so the names and addresses
+    // look nice.
+    .text-right();
+    body[dir="rtl"] & {
+      // Reverse if RTL
+      .text-left;
+    }
+
+    // When the column collapses on XS screens, just align normally.
+    @media (max-width: @screen-xs-max) {
+      .text-left();
+      body[dir="rtl"] & {
+        .text-right;
+      }
+    }
+  }
+
+  .donate-cryptocoin-address {
+    .make-rtl-sm-col(4, 8, 0);
+    font-family: @font-family-monospace;
+  }
+
+  .donate-cryptocoin-qr {
+  }
 }
 
 footer {
