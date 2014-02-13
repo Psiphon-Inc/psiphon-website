@@ -39,6 +39,10 @@
         "message": "Разработчики Psiphon",
         "description": "text for link to the Psiphon Developers mailing list"
     },
+    "about-who-we-are-software-development-para-2": {
+        "message": "We also know that it's just as important to work hard for our users behind the scenes. We protect our users and their data to the utmost. Users might never notice the measures to ensure their privacy and security, but we know they appreciate it.",
+        "description": ""
+    },
     "privacy-para-2": {
         "message": "Для получения дополнительной информации о канадских и онтарийских законах по защите персональной информации, пожалуйста, посетите:",
         "description": ""
@@ -83,6 +87,10 @@
         "message": "Что такое режим SSH+?",
         "description": ""
     },
+    "about-who-we-are-software-development-para-1": {
+        "message": "At Psiphon, we need our users to have a good experience. That means that our software needs to be easy to use, our network needs to be fast, and they both need to be rock-solid stable. This is tough for any developers to achieve, but especialy so when your software has to operate in an ever-changing adversarial environment and across many languages and platforms.",
+        "description": ""
+    },
     "sponsor-nav-title": {
         "message": "При поддержке",
         "description": "Navigation text for the Sponsorship page"
@@ -111,10 +119,6 @@
         "message": "Подлинность APK может быть проверена путем (1) извлечением сертификата из архива и проверки, что его цифровой отпечаток совпадает со значением выше, и (2) проверкой того, что APK подписан этим сертификатом. Например, используя Unix и Java утилиты командной строки:",
         "description": ""
     },
-    "contact-sponsor-para": {
-        "message": "Для получения информации о возможностях спонсорства нажмите на линк вверху или пишите на:",
-        "description": ""
-    },
     "about-get-latest-info-para-1-announcements-list": {
         "message": "Объявления Psiphon",
         "description": "text for link to the Psiphon Announcements mailing list"
@@ -139,9 +143,17 @@
         "message": "Стать спонсором",
         "description": "Page title for the Sponsorship page"
     },
-    "contact-sponsor-email": {
-        "message": "sponsor@psiphon.ca",
+    "about-who-we-are-partners-para-1": {
+        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our web proxy software in 15 languages, and are adding more to our Windows and Mobile products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Open Technology Fund’s hub.",
         "description": ""
+    },
+    "about-who-we-are-exec-team-para-1": {
+        "message": "Michael Hull is the Chief Operating Officer, and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game.",
+        "description": ""
+    },
+    "donate-heading": {
+        "message": "Contribute to Psiphon",
+        "description": "The heading of the page section that shows the donation buttons"
     },
     "faq-autoproxy-answer-para-1": {
         "message": "Нажмите Run и введите <code>regedit</code>, чтобы открыть редактор реестра. Найдите и откройте <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> и в правой панели вы увидите переменную <code>UserSkipProxySettings</code>. Установите ее значение равным  <code>1</code> и Psiphon не станет изменять системные настройки прокси при последующих запусках.",
@@ -155,12 +167,20 @@
         "message": "FAQ(часто задаваемые вопросы)",
         "description": "title for the FAQ page"
     },
+    "about-who-we-are-exec-team-head": {
+        "message": "Exec Team",
+        "description": ""
+    },
     "faq-information-collected-answer-para-4": {
         "message": "Логи событий включают временные метки, коды региона (GeoIP код страны) и не идентифицирующие атрибуты, включая ID спонсора (определяется тем, какой клиент Psiphon используется), версия клиента, а также тип протокола. Количество просмотров агрегируется по времени и / или сессии перед записью на диск.",
         "description": ""
     },
     "blog-index-intro": {
         "message": "Psiphon Inc. - канадская компания и большинство членов нашей комманды носители английского языка. Это означает, что сообщения в нашем блоге изначально делаются по-английски. Мы будем переводить их на другие языки по мере возможностей.",
+        "description": ""
+    },
+    "about-who-we-are-ops-para-1": {
+        "message": "We have contracts in place with a range of companies, from large-scale international broadcasters to small human rights organizations operating in single countries. Our Operations and Outreach team compiles reports showing them how many people are accessing Psiphon through their distribution methods. They also study trends and look out for upcoming events that might impact the free flow of information on the Internet.",
         "description": ""
     },
     "faq-information-collected-answer-para-7-list-start": {
@@ -191,6 +211,10 @@
         "message": "Количество запросов HTTPS",
         "description": ""
     },
+    "about-who-we-are-para-1": {
+        "message": "Psiphon Inc is a company based in Toronto, producing open-source multi-platform software that helps over 3 million people every week connect to content on the Internet. We’re a team focused on delivering the best software we can, introducing new products regularly and making sure we develop to the needs of our constantly growing global audience.",
+        "description": ""
+    },
     "user-guide-android-para-2": {
         "message": "Для установки Psiphon APK, опция \"Неизвестные Источники\" в меню настроек приложений в вашем Android устройстве должна быть включена. Psiphon для Android будет автоматически обновлять себя.",
         "description": ""
@@ -209,10 +233,6 @@
     },
     "license-para-2": {
         "message": "Эта версия Psiphon предназначена строго для физических лиц и только для личного использования. Если вы хотите использовать Psiphon для любой другой цели или имеете дополнительные требования, мы предлагаем платные, коммерческие услуги. Для получения дополнительной информации пишите по адресу <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
-        "description": ""
-    },
-    "about-open-source-para-1": {
-        "message": "Psiphon является проектом с открытым исходным кодом. Вы можете найти исходники и документацию на <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">домашней странице проекта</a>.",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-3": {
@@ -331,6 +351,14 @@
         "message": "Продолжительность соединения",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
     },
+    "open-source-para-4-list-start": {
+        "message": "Android:",
+        "description": ""
+    },
+    "open-source-title": {
+        "message": "Открытый исходный код",
+        "description": ""
+    },
     "license-terms-of-use-para": {
         "message": "Это программное обеспечение распространяется по принципу \"как есть\", со всеми ошибками и без каких-либо гарантий. Используя Psiphon, Вы обязуетесь не использовать программное обеспечение в любой форме, которая нарушает канадское законодательство или права третьих лиц.",
         "description": ""
@@ -375,6 +403,10 @@
         "message": "Получить через e-mail",
         "description": ""
     },
+    "donate-body": {
+        "message": "You can help Psiphon provide free access to the Open Internet for everyone. Choose one of these options.",
+        "description": "The body of the page section that shows the donation buttons"
+    },
     "download-windows-direct": {
         "message": "Psiphon для Windows",
         "description": "text for link to Psiphon for Windows download"
@@ -415,6 +447,10 @@
         "message": "Блог комманды Psiphon",
         "description": ""
     },
+    "about-who-we-are-software-development-para-3": {
+        "message": "Psiphon's software development team strives to deliver the best, fastest, easiest, and most open circumvention solutions. We're also exploring new areas where our expertise can protect, empower, and free the minds of users worldwide.",
+        "description": ""
+    },
     "privacy-para-3": {
         "message": "Цель Psiphon - предоставить открытый доступ к онлайн-контенту. Использование Psiphon не приводит к увеличению конфиденциальности в Интернете, и не следует рассматривать или использовать его в качестве инструмента онлайн безопасности.",
         "description": ""
@@ -425,6 +461,10 @@
     },
     "main-pick-three-head-1": {
         "message": "Доверие, скорость, простота - выберите три",
+        "description": ""
+    },
+    "about-who-we-are-software-development-head": {
+        "message": "Software Development",
         "description": ""
     },
     "faq-connection-failed-answer-para-1": {
@@ -443,21 +483,17 @@
         "message": "Важные элементы:",
         "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
     },
+    "about-who-we-are-partners-para-2": {
+        "message": "One of our most successful partnerships is with <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a>, who provide translation and support services in Farsi, and have been instrumental in helping us grow our audience.",
+        "description": ""
+    },
     "resources-nav-title": {
         "message": "Ресурсы",
         "description": "title for the Resources"
     },
-    "about-open-source-para-4-list-start": {
-        "message": "Android:",
-        "description": ""
-    },
     "user-guide-windows-image-3-alt": {
         "message": "Изображение, показывающее успешное соединение Psiphon на Windows",
         "description": "alt text for an image"
-    },
-    "about-open-source-para-3-list-start": {
-        "message": "Windows:",
-        "description": ""
     },
     "nav-title": {
         "message": "Навигация",
@@ -465,6 +501,10 @@
     },
     "faq-authentic-windows-answer-para-4": {
         "message": "Psiphon для Windows обновляется и проверяет подлинность каждое обновления автоматически.",
+        "description": ""
+    },
+    "about-who-we-are-partners-head": {
+        "message": "Partnerships",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-4": {
@@ -523,6 +563,10 @@
         "message": "Сообщения на русском",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
+    "open-source-para-3-list-start": {
+        "message": "Windows:",
+        "description": ""
+    },
     "download-now-button": {
         "message": "Скачать",
         "description": "The text on the Download Now button"
@@ -539,6 +583,10 @@
         "message": "Текущая версия Psiphon",
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
+    "open-source-nav-title": {
+        "message": "Открытый исходный код",
+        "description": ""
+    },
     "license-statement-of-limitations-of-liability-para": {
         "message": "Это программное обеспечение распространяется по принципу \"как есть\" и без гарантий или выраженных или подразумеваемых обязательств такого рода. Psiphon отказывается от всех гарантий и обязательств, связанных с использованием этого программного обеспечения, включая телесные повреждения или любой побочный, специальный или косвенный личный или коммерческий ущерб, включая потери данных и простоя производства.",
         "description": ""
@@ -551,12 +599,20 @@
         "message": "Управление Комиссара по частной информации",
         "description": ""
     },
+    "about-who-we-are-ops-head": {
+        "message": "Operations and Outreach",
+        "description": ""
+    },
     "main-gets-you-where-you-want-head-1": {
         "message": "Доставит вас куда вы хотите...",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-4": {
         "message": "Частота обнаружения новых серверов",
+        "description": ""
+    },
+    "open-source-para-1": {
+        "message": "Psiphon является проектом с открытым исходным кодом. Вы можете найти исходники и документацию на <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">домашней странице проекта</a>.",
         "description": ""
     },
     "main-gets-you-where-you-want-head-2": {
@@ -574,6 +630,10 @@
     "footer-license": {
         "message": "Лицензия",
         "description": "The beginning of the 'Licensed under [license name here]' footer text"
+    },
+    "open-source-para-2": {
+        "message": "В клиентах Psiphon использованы следующие компоненты с открытым исходным кодом",
+        "description": ""
     },
     "download-android-playstore": {
         "message": "Psiphon для Android в Google Play Store",
@@ -595,6 +655,10 @@
         "message": "При отсылке отзыва Вы можете выбрать хотите ли вы также переслать диагностические данные. Мы используем эти данные для решения проблем, которые могут возникать при использовании Psiphon, а также для улучшения работы системы. Данные шифруются перед отсылкой и могут быть расшифрованы только нами. Информация в данных зависит от операционной системы и может включать в себя следующее:",
         "description": ""
     },
+    "about-who-we-are-head": {
+        "message": "Who We Are",
+        "description": ""
+    },
     "faq-browser-compatibility-answer-para-1": {
         "message": "Да. При работе в режимах SSH проверьте настройки вашего браузера и убедитесь, что он настроен на использование системных настроек прокси.",
         "description": ""
@@ -614,6 +678,10 @@
     "download-android-direct-description": {
         "message": "Если у Вас нет доступа к Google Play Store, вы можете загрузить и (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">установить</a>\" ) Psiphon для Android напрямую.",
         "description": ""
+    },
+    "sponsor-banner-alt-text": {
+        "message": "Sponsor banner",
+        "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
         "message": "Исходящие соединения с Psiphon для Windows в режиме VPN могут быть установлены только на следующих портах: 53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999. Смотреть <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">обсуждение</a> для получения дополнительной информации. Почтовые клиенты не могут устанавливать исходящие соединения на портах 25 и 587. Смотреть <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">обсуждение</a> для дополнительной информации.",
@@ -679,6 +747,10 @@
         "message": "Скачать",
         "description": "text for the Download page navigation item"
     },
+    "about-who-we-are-exec-team-para-2": {
+        "message": "Karl Kathuria is the VP of Commercial Management, and has recently joined the team in Toronto from London. He is responsible for managing the business relationships with our broadcast and distribution partners, and for finding new opportunities for the company’s activities.",
+        "description": ""
+    },
     "faq-polipo-different-port-question": {
         "message": "Могу ли я использовать локальный прокси-сервер HTTP на отличном от 8080 порту?",
         "description": ""
@@ -689,10 +761,6 @@
     },
     "user-guide-windows-para-4": {
         "message": "В режимах SSH и SSH+ Psiphon автоматически устанавливает системные настройки прокси Windows и трафик приложений, которые соблюдают эти настройки идет через Psiphon. Эти настройки соблюдаются по умолчанию всеми основными современными веб-браузерами.",
-        "description": ""
-    },
-    "about-open-source-para-2": {
-        "message": "В клиентах Psiphon использованы следующие компоненты с открытым исходным кодом",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
@@ -757,10 +825,6 @@
     },
     "faq-information-collected-answer-para-2-item-1": {
         "message": "Количество запросов на электронную почту для получения ссылки для скачивания",
-        "description": ""
-    },
-    "about-open-source-head": {
-        "message": "Открытый исходный код",
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {
