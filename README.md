@@ -30,6 +30,34 @@ $ docpad generate --env static,production
 ```
 
 
+## Running the site at root and below a path
+
+This website gets run both at the root of a domain (e.g. `http://psiphon3.com/`) and under a subdirectory of a domain -- specifically, under a S3 bucket (e.g., `https://s3.amazonaws.com/57wj-4j1q-wa7e/`). This makes it difficult to refer to other pages and resources with `href` and `src` attributes from within the site -- `/styles/style.css` won't work when the site is under a subdirectory. One approach would be to hand-craft relative paths for each and page, but this is very brittle and a total pain when using layouts/templates for different pages at different path depths.
+
+So we use a Docpad plugin that provides the relative path to root for each document, and then a global function that we can use wherever we want to provide a path to a page or resource. So, the `src` attribute for an image would look like this:
+
+```
+src="<%= @relativeToRoot '/images/path/filename.png' %>"
+```
+
+If the page containing that line is located at `/en/blog/index.html.eco`, then it will render to:
+
+```
+src="../../images/path/filename.png"
+```
+
+And the path will remain correct regardless of the path location of the containing page, and whether the site is hosted at root or in a bucket/subdirectory.
+
+### Testing
+
+Serving the site with Docpad will only test the site-at-root scenario. Testing the site-under-subdirectory scenario can be done like so:
+
+1. Run a static site server in the root directory of the website source (i.e., the directory of this README lives in). (You can use Python's `SimpleHTTPServer` or Node's `node-static` package, or whatever.)
+2. In your browser, go to `http://localhost:8080/out/`. 
+3. You'll be redirected to `http://localhost:8080/out/en/index.html`. The site is effectively under the `out` directory.
+4. Browse around. Watch the console for errors.
+
+
 ## QR Codes
 
 An easy way to generate a QR code is via the Google Chart API. Just put the target URL at the end of this URL: `https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=`. For example, here's a [QR for psiphon3.com](https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=http://psiphon3.com).

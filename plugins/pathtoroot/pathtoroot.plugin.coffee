@@ -24,12 +24,37 @@ module.exports = (BasePlugin) ->
 
             # Find documents
             documents.forEach (document) ->
-                # Prepare
+                # Start with the URL of the document that will contain the relative links
                 documentUrl = document.get('url')
-                depth = documentUrl.split('/').length - 1 # leading / gives us one extra
-                pathToRoot = []
-                if depth > 1
-                    pathToRoot.push('..') for i in [0..depth-2]
-                #console.log documentUrl + ' ' + pathToRoot.join('/')
-                document.set('pathToRoot', pathToRoot.join('/'))
+
+                pathToRoot = getPathToRoot(documentUrl)
+                #console.log documentUrl + ' ' + pathToRoot
+                document.set('pathToRoot', pathToRoot)
             return next()
+
+
+# Returns the relative path from the given URL to the root.
+# Will return '.' if already at root, otherwise some combination of '..'
+getPathToRoot = (absolute_url) ->
+    # Count how many '..' we'll need to get to the root
+    depth = absolute_url.split('/').length - 1 # leading / gives us one extra
+
+    if depth == 1
+        # We're already at the root
+        return '.'
+
+    pathToRoot = []
+    pathToRoot.push('..') for i in [0..depth-2]
+    return pathToRoot.join('/')
+
+
+test = () ->
+    assert = require('assert')
+    assert.equal(getPathToRoot('/'), '.')
+    assert.equal(getPathToRoot('/aa.html'), '.')
+    assert.equal(getPathToRoot('/aa/bb.html'), '..')
+    assert.equal(getPathToRoot('/aa/bb/cc.html'), '../..')
+    assert.equal(getPathToRoot('/aa/bb/dd/cc.html'), '../../..')
+    console.log('tests complete')
+
+module.exports.test = test
