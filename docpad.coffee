@@ -133,7 +133,7 @@ docpadConfig = {
           { name: 'open-source' }
         ]
       }
-      { name: 'sponsor', additional_classes: ['show-if-not-sponsored', 'hidden'] }
+      # { name: 'sponsor', additional_classes: ['show-if-not-sponsored', 'hidden'] }
     ]
 
     downloads:
