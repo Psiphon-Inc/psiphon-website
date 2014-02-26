@@ -25,32 +25,31 @@ layout: page
   <div class="col-md-2-right">
     <span class="blog-post-author"><%= document.author %></span>
   </div>
-  </div>
 </div>
 <% end %>
 
 <!-- Only show the in-your-language section if there actually are any posts in the user's language (and the user's language isn't English) -->
 <% if @document.language != 'en' and @getCollection('posts').findAllLive({languagemakered: {$exists: false}, language: @document.language}).length: %>
 
-<div class="row">
-  <div class="col-md-12">
-    <h2><%= @tt 'blog-index-posts-in-your-language' %></h2>
+  <div class="row">
+    <div class="col-md-12">
+      <h2><%= @tt 'blog-index-posts-in-your-language' %></h2>
+    </div>
   </div>
-</div>
 
-<% for document in @getCollection('posts').findAllLive({languagemakered: {$exists: false}, language: @document.language}).toJSON(): %>
-  <%= post_info document %>
+  <% for document in @getCollection('posts').findAllLive({languagemakered: {$exists: false}, language: @document.language}).toJSON(): %>
+    <%= post_info document %>
+  <% end %>
+
 <% end %>
 
-<% end %>
-
-<div class="row">
-  <div class="col-md-12">
-    <% if @document.language != 'en': %>
-      <h2><%= @tt 'blog-index-posts-in-english' %></h2>
-    <% end %>
+<% if @document.language != 'en': %>
+  <div class="row">
+    <div class="col-md-12">
+        <h2><%= @tt 'blog-index-posts-in-english' %></h2>
+    </div>
   </div>
-</div>
+<% end %>
 
 <% for document in @getCollection('posts').findAllLive({language: 'en'}).toJSON(): %>
   <%= post_info document %>
