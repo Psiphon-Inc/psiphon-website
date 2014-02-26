@@ -4,7 +4,7 @@ author: Rod Hynes
 layout: blog/post
 ---
 
-Here’s an update to address two recent questions: in simple terms, what is Psiphon and how does it differ from a VPN service; and, what has changed since the technical design document was last updated.
+Here's an update to address two recent questions: in simple terms, what is Psiphon and how does it differ from a VPN service; and, what has changed since the technical design document was last updated.
 
 Psiphon 3 is a centrally managed, geographically diverse network of 1000s of proxy servers. Most of our infrastructure is hosted with cloud providers. Psiphon 3 is a "one hop" architecture with secure link encryption between clients and servers. We offer clients for the most popular platforms: Windows, Android, and iOS (in alpha).
 
