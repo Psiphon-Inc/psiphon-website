@@ -8,8 +8,12 @@
     "description": "the title for the site"
   },
   "index-title": {
-    "message": "Uncensored Internet access for Windows and Mobile",
+    "message": "Welcome to your new Internet",
     "description": "Page title for the index page"
+  },
+  "index-meta-title": {
+    "message": "Uncensored Internet access for Windows and Mobile",
+    "description": "Meta title for the index page"
   },
   "index-description": {
     "message": "Psiphon is circumvention software for Windows and Mobile platforms that provides uncensored access to Internet content",
@@ -25,6 +29,10 @@
     "message": "Frequently Asked Questions",
     "description": "title for the FAQ page"
   },
+  "faq-meta-title": {
+    "message": "Frequently Asked Questions",
+    "description": "meta title for the FAQ page"
+  },
   "faq-nav-title": {
     "message": "FAQ",
     "description": "text for the FAQ page navigation item"
@@ -38,8 +46,12 @@
     "description": "title for the Resources"
   },
   "user-guide-title": {
+    "message": "How to Use Psiphon",
+    "description": "page title for the user guide page"
+  },
+  "user-guide-meta-title": {
     "message": "How to use Psiphon on Mobile and Windows",
-    "description": "title for the user guide page"
+    "description": "meta title for the user guide page"
   },
   "user-guide-nav-title": {
     "message": "User Guide",
@@ -50,8 +62,12 @@
     "description": "description for the user guide page"
   },
   "download-title": {
+    "message": "Download Psiphon",
+    "description": "page title for the download page"
+  },
+  "download-meta-title": {
     "message": "Download Android app and Windows client",
-    "description": "title for the download page"
+    "description": "meta title for the download page"
   },
   "download-nav-title": {
     "message": "Download",
@@ -310,7 +326,11 @@
   },
   "about-title": {
     "message": "About Us",
-    "description": "title for the About page"
+    "description": "page title for the About page"
+  },
+  "about-meta-title": {
+    "message": "About Us",
+    "description": "meta title for the About page"
   },
   "about-nav-title": {
     "message": "About Us",
@@ -522,6 +542,9 @@
   "blog-index-title": {
     "message": "Team Blog"
   },
+  "blog-index-meta-title": {
+    "message": "The Psiphon Team Blog"
+  },
   "blog-index-nav-title": {
     "message": "Our Blog",
     "description": "Text for the navigation bar link to the blog"
@@ -541,7 +564,11 @@
     "description": "Heading for the list of blog posts that are available in English"
   },
   "sponsor-title": {
-    "message": "Sponsorship, advertising and donations",
+    "message": "Become a Sponsor",
+    "description": "Page title for the Sponsorship page"
+  },
+  "sponsor-meta-title": {
+    "message": "Sponsorship, advertising, and donations",
     "description": "Page title for the Sponsorship page"
   },
   "sponsor-nav-title": {
@@ -569,13 +596,13 @@
     "message": "For more information, send an email to <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>"
   },
   "license-title": {
+    "message": "Psiphon End-User License Agreement"
+  },
+  "license-meta-title": {
     "message": "End-User License Agreement"
   },
   "license-nav-title": {
     "message": "License"
-  },
-  "license-description": {
-    "message": ""
   },
   "license-para-1": {
     "message": "This software and all associated intellectual property is the property of Psiphon Inc., an Ontario registered corporation with its head office in Toronto, Ontario Canada."
@@ -708,7 +735,10 @@
     "description": "The body of the page section that shows the donation buttons"
   },
   "open-source-title": {
-    "message": "Open Source Code Information"
+    "message": "Open Source"
+  },
+  "open-source-meta-title": {
+    "message": "Open Source"
   },
   "open-source-nav-title": {
     "message": "Open Source"
@@ -768,32 +798,12 @@
     "message": "windows",
     "description": "web page meta keyword used for SEO"
   },
-  "page-keyword-network": {
-    "message": "network",
-    "description": "web page meta keyword used for SEO"
-  },
-  "page-keyword-secure": {
-    "message": "secure",
-    "description": "web page meta keyword used for SEO"
-  },
-  "page-keyword-google": {
-    "message": "google",
-    "description": "web page meta keyword used for SEO"
-  },
-  "page-keyword-amazon": {
-    "message": "amazon",
-    "description": "web page meta keyword used for SEO"
-  },
   "page-keyword-play-store": {
     "message": "play store",
     "description": "web page meta keyword used for SEO"
   },
   "page-keyword-app-store": {
     "message": "app store",
-    "description": "web page meta keyword used for SEO"
-  },
-  "page-keyword-private": {
-    "message": "private",
     "description": "web page meta keyword used for SEO"
   },
   "page-keyword-psiphon1": {
@@ -824,18 +834,6 @@
     "message": "help",
     "description": "web page meta keyword used for SEO"
   },
-  "page-keyword-versions": {
-    "message": "versions",
-    "description": "web page meta keyword used for SEO"
-  },
-  "page-keyword-compatibility": {
-    "message": "compatibility",
-    "description": "web page meta keyword used for SEO"
-  },
-  "page-keyword-ports": {
-    "message": "ports",
-    "description": "web page meta keyword used for SEO"
-  },
   "page-keyword-psiphon-team": {
     "message": "psiphon team",
     "description": "web page meta keyword used for SEO"
@@ -858,10 +856,6 @@
   },
   "page-keyword-blog": {
     "message": "blog",
-    "description": "web page meta keyword used for SEO"
-  },
-  "page-keyword-thoughts": {
-    "message": "thoughts",
     "description": "web page meta keyword used for SEO"
   },
   "page-keyword-updates": {
