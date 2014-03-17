@@ -15,7 +15,7 @@ layout: page
 <% post_info = (document) => %>
 <div class="row blog-post-info">
   <div class="col-md-2-left">
-    <span class="blog-post-date"><%= @formatDate document.date %></span>
+    <span class="blog-post-date localize-date"><%= @formatDate document.date %></span>
   </div>
   <div class="col-md-8">
     <a class="blog-post-title" href="<%= @relativeToRoot document.url %>">

@@ -7,7 +7,7 @@ layout: default
     <div class="col-md-12">
       <h1><%= @document.title %></h1>
       <h4><%= @document.author %></h4>
-      <h6><%= @formatDate @document.date %></h6>
+      <h6 class="localize-date"><%= @formatDate @document.date %></h6>
     </div>
   </div>
   <div class="row">
