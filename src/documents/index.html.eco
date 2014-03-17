@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="refresh" content="1; url=<%= @document.pathToRoot %>/en/index.html">
 
+  <title>Psiphon</title>
+
   <script>
     var defaultLanguage, supportedLanguages, language, redirectLanguage;
 
@@ -37,8 +39,6 @@
 </head>
 
 <body>
-  <title>Page Redirection</title>
-
   If you are not redirected automatically, follow the <a href='<%= @document.pathToRoot %>/en/index.html'>link to the Psiphon home page</a>.
 </body>
 
