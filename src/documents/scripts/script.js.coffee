@@ -79,3 +79,15 @@ $ ->
         setTimeout(
           -> window.resizeBy(-1, 0),
           1)
+
+  # If there are dates on the page that should be localized, localize them.
+  $('.localize-date').each (idx, elem) ->
+    locale = $('html').prop('lang')
+    if locale == 'fa'
+      # Most Farsi speakers use the Persian calendar
+      locale = "#{locale}-u-ca-persian"
+
+    date = new Date($(elem).text())
+
+    # TODO: Are there more special-case calendars? See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
+    $(elem).text(date.toLocaleDateString(locale))
