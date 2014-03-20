@@ -49,8 +49,20 @@ module.exports = (BasePlugin) ->
 
           relativePath = document.get('relativePath').replace(pathStart, path.normalize("#{lang}/"))
 
-          # Don't overwrite the file if it already exists
-          if docpad.getCollection('documents').findOne({ relativePath: relativePath })
+          # At this point in the Docpad generation process, the
+          # `relativeOutPath` attribute hasn't been set. But it's the value we
+          # want to use, since the document extensions might be different in
+          # the different languages (e.g., `.html.md` vs. `.html`). So we'll
+          # strip down to the last extension -- which is basically the output
+          # extension -- and compare using that.
+          # We're going to approach this the simple way: assume there are no
+          # periods (`.`) in the path -- only in the extension. If this becomes
+          # too simplistic in the future, we can probably split up the path
+          # using a regex something like:
+          #   match(/^(.+)(\/|\\)([^\/\\\.]+)(\.[^\.]+)/)
+          relativeOutPath = relativePath.split('.').slice(0, 2).join('.')
+
+          if docpad.getCollection('documents').findOne({ relativePath: $startsWith: relativeOutPath })
             docpad.log 'info', 'languagemaker: file already exists, so not making '+ relativePath
             return
 

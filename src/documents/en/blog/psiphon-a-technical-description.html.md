@@ -2,6 +2,7 @@
 title: A Technical Description of Psiphon
 author: Rod Hynes
 layout: blog/post
+date: 2014-03-13
 ---
 
 Here's an update to address two recent questions: in simple terms, what is Psiphon and how does it differ from a VPN service; and, what has changed since the technical design document was last updated.
@@ -20,7 +21,7 @@ Psiphon's technical [design document](https://bitbucket.org/psiphon/psiphon-circ
 
 * We added an optional HTTP prefix to our protocol to mitigate DPI-based whitelisting of HTTP traffic. This simple prefix is sufficient for regex-based DPI (nDPI and l7-filter) to classify Psiphon traffic as HTTP; and was sufficient to defeat an actual adversary at the time we deployed it.
 
-* We added remote server lists to augment the embedded and discovery servers concepts. While discovery happens only when connected to an existing server, remote server lists can be downloaded even when all servers are blocked. Remote server lists are distributed on S3 and accessed via https://s3.amazonaws.com without a distinguishing bucket name in the URL. In this way, it is difficult for an adversary to block our remote server lists without blocking all of S3 or implementing HTTPS traffic analysis.
+* We added remote server lists to augment the embedded and discovery servers concepts. While discovery happens only when connected to an existing server, remote server lists can be downloaded even when all servers are blocked. Remote server lists are distributed on S3 and accessed via `https://s3.amazonaws.com` without a distinguishing bucket name in the URL. In this way, it is difficult for an adversary to block our remote server lists without blocking all of S3 or implementing HTTPS traffic analysis.
 
 * Email is now a major client propagation mechanism. We have an auto-responder that returns links and attachments to custom sponsor/channel Psiphon clients depending on the email address users send to.
 
