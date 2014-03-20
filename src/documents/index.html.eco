@@ -1,26 +1,45 @@
-<meta charset="UTF-8">
-<meta http-equiv="refresh" content="3; url=<%= @document.pathToRoot %>/en/index.html">
+<!DOCTYPE html>
+<html>
 
-<script>
-  var defaultLanguage = 'en';
-  var supportedLanguages = <%- JSON.stringify @languages %>;
-	var language = window.navigator.userLanguage || window.navigator.language || defaultLanguage;
-  var redirectLanguage = defaultLanguage;
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="1; url=<%= @document.pathToRoot %>/en/index.html">
 
-  // Some languages we support look like 'en' and some like 'en-US'. Some languages
-  // set in navigator.language look like 'en' and some like 'en-US'. So we'll
-  // check both combinations.
+  <title>Psiphon</title>
 
-  if (supportedLanguages.indexOf(language) >= 0) {
-    redirectLanguage = language;
-  }
-  else if (supportedLanguages.indexOf(language.substr(0, 2)) >= 0) {
-    redirectLanguage = language.substr(0, 2);
-  }
+  <script>
+    var defaultLanguage, supportedLanguages, language, redirectLanguage;
 
-  window.location.href = '<%= @document.pathToRoot %>/' + redirectLanguage + '/index.html';
-</script>
+    defaultLanguage = 'en';
+    supportedLanguages = <%- JSON.stringify @languages %>;
+    redirectLanguage = defaultLanguage;
 
-<title>Page Redirection</title>
+    try {
+      language = window.navigator.userLanguage || window.navigator.language || defaultLanguage;
 
-If you are not redirected automatically, follow the <a href='<%= @document.pathToRoot %>/en/index.html'>link to the Psiphon home page</a>.
+      // Some languages we support look like 'en' and some like 'en-US'. Some languages
+      // set in navigator.language look like 'en' and some like 'en-US'. So we'll
+      // check both combinations.
+
+      if (supportedLanguages.indexOf(language) >= 0) {
+        redirectLanguage = language;
+      }
+      else if (supportedLanguages.indexOf(language.substr(0, 2)) >= 0) {
+        redirectLanguage = language.substr(0, 2);
+      }
+    }
+    catch (e) {
+      // Really old Internet Explorer seems to throw an exception on the above code.
+      // We'll just catch and pass.
+    }
+
+    // Redirect to a language-specific index page
+    window.location.href = '<%= @document.pathToRoot %>/' + redirectLanguage + '/index.html';
+  </script>
+</head>
+
+<body>
+  If you are not redirected automatically, follow the <a href='<%= @document.pathToRoot %>/en/index.html'>link to the Psiphon home page</a>.
+</body>
+
+</html>
