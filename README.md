@@ -65,6 +65,17 @@ An easy way to generate a QR code is via the Google Chart API. Just put the targ
 
 ## I18n hints, tips, issues
 
+### Translating blog posts
+
+Blog posts are originally written in English, and will typically be written using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet); here is [an example of one](https://bitbucket.org/psiphon/psiphon-circumvention-system/raw/e74506889cb91ca4acdb9db3cc5f6b1c986dc577/Website/src/documents/en/blog/psiphon-a-technical-description.html.md).
+
+Translations can be written using either Markdown or HTML. We're not yet sure if Markdown is entirely happy with i18n, but it's probably best to try that first. Markdown is simpler to write in, HTML provides more control.
+
+If the translation is done in HTML, it should only contain the inner body of the post, and not `<html>`, `<head>`, or `<body>` tags. EXAMPLE TBD
+
+At the top of the raw blog post example above you will see the post "metadata". The `title` must be translated and the `author` may be transliterated if appropriate for the target langage. The `layout` must not be changed. 
+
+
 ### Locale-specific images
 
 It's quite easy to add images (screenshots, etc.) that are locale-specific.
