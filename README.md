@@ -71,7 +71,7 @@ Blog posts are originally written in English, and will typically be written usin
 
 Translations can be written using either Markdown or HTML. We're not yet sure if Markdown is entirely happy with i18n, but it's probably best to try that first. Markdown is simpler to write in, HTML provides more control.
 
-If the translation is done in HTML, it should only contain the inner body of the post, and not `<html>`, `<head>`, or `<body>` tags. EXAMPLE TBD
+If the translation is done in HTML, it should only contain the inner body of the post, and not `<html>`, `<head>`, or `<body>` tags; here is [an example of one](https://bitbucket.org/psiphon/psiphon-circumvention-system/src/cfc2d583bb8cd8f3c4a61d2d248a90c742389ff9/Website/src/documents/fa/blog/psiphon-a-technical-description.html).
 
 At the top of the raw blog post example above you will see the post "metadata". The `title` must be translated and the `author` may be transliterated if appropriate for the target langage. The `layout` must not be changed. 
 
