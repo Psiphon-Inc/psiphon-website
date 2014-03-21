@@ -11,7 +11,7 @@ layout: page
 <div id="store" class="anchor-target">
   <div class="row">
     <div class="download-head">
-      <h2>Store Downloads</h2>
+      <h2><%= @tt 'download-store-head' %></h2>
     </div>
   </div>
 
@@ -65,7 +65,7 @@ layout: page
 <div id="direct" class="anchor-target">
   <div class="row">
     <div class="download-head">
-      <h2>Direct Downloads</h2>
+      <h2><%= @tt 'download-direct-head' %></h2>
     </div>
   </div>
 
