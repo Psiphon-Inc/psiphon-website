@@ -1,7 +1,15 @@
 {
+    "page-keyword-source-code": {
+        "message": "source code",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-autoproxy-question-toc": {
         "message": "إنني أستخدم وكيل تلقائي AutoProxy . كيف بإمكاني إعلام برنامج سايفُن Psiphon لبرامج الويندوز Windows كي لا يقوم بتشكيل وترتيب إعدادات الوكيل Proxy في نظام جهازي؟",
         "description": ""
+    },
+    "page-keyword-psiphon2": {
+        "message": "psiphon2",
+        "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
         "message": "مفوضية الخصوصية الكندية",
@@ -27,9 +35,17 @@
         "message": "اتصل بنا",
         "description": ""
     },
+    "page-keyword-android": {
+        "message": "android",
+        "description": "web page meta keyword used for SEO"
+    },
     "contact-email-para": {
         "message": "بإمكانك مراسلة فريق عمل برنامج سايفُون عبر البريد الإلكتروني الآتي: ",
         "description": ""
+    },
+    "page-keyword-proxy": {
+        "message": "proxy",
+        "description": "web page meta keyword used for SEO"
     },
     "download-list-join": {
         "message": "انضم إلى قائمتنا البريدية للحصول على أهم الإعلانات والمعلومات والنصائح الأمنية المتعلقة بالبرنامج: <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">\n ",
@@ -43,6 +59,10 @@
         "message": "ونحن نعلم أيضا أنه من المهم بنفس القدر أن نعمل بجد لمستخدمينا وراء الكواليس. نحن نقوم بحماية مستخدمينا والبيانات الخاصة بهم إلى أقصى درجة ممكنة. قدلا يلاحظ المستخدمون التدابير المأخوذة لضمان أمن بياناتهم الخصوصية ، ولكن نحن نعرف أنهم يقدرون ذلك.",
         "description": ""
     },
+    "open-source-description": {
+        "message": "Psiphon is open source Internet circumvention software",
+        "description": ""
+    },
     "privacy-para-2": {
         "message": "للمزيد من المعلومات حول قوانين الخصوصية للحكومة الكندية ومقاطعة أونتاريو يرجى الإطلاع على: ",
         "description": ""
@@ -51,9 +71,9 @@
         "message": "...وإيصالك إليها بأمان.",
         "description": ""
     },
-    "blog-nav-title": {
-        "message": "موقع التواصل Blog  الخاص بنا",
-        "description": "Text for the navigation bar link to the blog"
+    "page-keyword-psiphon1": {
+        "message": "psiphon1",
+        "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-there-safely-para-1": {
         "message": "ما أجمل حرية تصفح الإنترنت وما أقبح سرقة سجلات التتبع Cookies والحسابات الإلكترونية. برنامج سايفُون يفتح لك مسارا آمنا في الإنترنت مهما كانت الشبكة التي تستخدمها. ",
@@ -62,6 +82,10 @@
     "user-guide-android-image-3-alt": {
         "message": "صورة توضيحية للأجزاء المختلفة من متصفح Web Browser برنامج سايفُون Psiphon لأجهزة الأندرويد Android",
         "description": "alt text for an image"
+    },
+    "page-keyword-open-source": {
+        "message": "open source",
+        "description": "web page meta keyword used for SEO"
     },
     "license-personal-or-specified-use-header": {
         "message": "استخدام شخصي أو استخدام محدد ",
@@ -119,9 +143,17 @@
         "message": "يمكن التحقق من APK بأحد الطريقتين. 1) استخلاص الشهادة من الأرشيف والتحقق من أن بصمتها متطابقة مع القيمة الواردة أعلاه و 2) التحقق من أن ملف APK ممضي مع الشهادة باستخدام أدوات أوامر يونيكس أو جافا:",
         "description": ""
     },
+    "page-keyword-psiphon3": {
+        "message": "psiphon3",
+        "description": "web page meta keyword used for SEO"
+    },
     "about-get-latest-info-para-1-announcements-list": {
         "message": "إعلانات برنامج سايفُون",
         "description": "text for link to the Psiphon Announcements mailing list"
+    },
+    "about-description": {
+        "message": "Meet the team behind Psiphon's Internet circumvention software",
+        "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
         "message": "اصدار نظام التشغيل",
@@ -155,6 +187,10 @@
         "message": "ساهم لبرنامج سايفُن ",
         "description": "The heading of the page section that shows the donation buttons"
     },
+    "user-guide-meta-title": {
+        "message": "How to use Psiphon on Mobile and Windows",
+        "description": "meta title for the user guide page"
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "أنقر على زر التشغيل Run ثم اكتب >regedit< لفتح محرر سجل النظام Registry Editor. إبحث عن >HKEY_CURRENT_USER\\Software\\Psiphon3< وافتحه٬ وفي الجانب الأيمن سترى >UserSkipProxySettings< إعدادات تخطي الوكيل. قم بضبط هذه القيمة على >1< ولن يقوم برنامج سايفُن Psiphon بتشكيل إعدادات النظام للوكيل  System Proxy Settings تلقائيا. ",
         "description": ""
@@ -162,6 +198,10 @@
     "user-guide-android-head": {
         "message": "برنامج سايفُون Psiphon لأجهزة الأندرويد Android",
         "description": "heading for the Android section of the User Guide"
+    },
+    "index-description": {
+        "message": "Psiphon is circumvention software for Windows and Mobile platforms that provides uncensored access to Internet content",
+        "description": "Page description for the index page"
     },
     "faq-title": {
         "message": "الأسئلة الشائعة ",
@@ -171,9 +211,17 @@
         "message": "الفريق التنفيذي",
         "description": ""
     },
+    "page-keyword-ssh": {
+        "message": "ssh",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-information-collected-answer-para-4": {
         "message": "يتضمن تسجيل الأحداث الوقت، رمز المنطقه (الآي بي الخاص بالمنطقه)٫ ،وسمات لا يتم من خلالها التعرف بالمستخدم وتتضمن هوية الراعي (التي تحدد من خلال عميل سايفون المستخدم)٫ نسحة العميل، ، ونوع البروتوكول. وبتم تجميع عدد مشاهدات الصفحات وفق الوقت و/أو الجوله قبل تسجيلها.",
         "description": ""
+    },
+    "page-keyword-blog": {
+        "message": "blog",
+        "description": "web page meta keyword used for SEO"
     },
     "blog-index-intro": {
         "message": "شركة سايفُون المساهمة Psiphon Inc شركة كندية غالبية أعضاء فريق عملها من الناطقين باللغة الإنجليزية. مما يعني أنً  جميع المعلومات والتعليقات على موقع الشركة على الإنترنت باللغة الإنجليزية. وسيحاول فريق سايفُن Psiphon ترجمة التعليقات والمعلومات إلى لغات أخرى قدر استطاعتهم.  ",
@@ -223,6 +271,10 @@
         "message": "ظهور الأيقونة الخضراء يعني نجاح عملية الإتصال بخادم برنامج سايفُون Psiphon. والربط بنظام الشبكة الإفتراضية الخاصة VPN سيجعل جميع الاتصالات والبيانات تمر بشكل تلقائي من خلال مسار برنامج سايفُون Psiphon. ",
         "description": ""
     },
+    "license-meta-title": {
+        "message": "End-User License Agreement",
+        "description": ""
+    },
     "faq-information-collected-question": {
         "message": "ما هي المعلومات الخاصة بالمستخدم والتي يقوم برنامج سايفُون بجمعها؟ ",
         "description": ""
@@ -235,6 +287,14 @@
         "message": "إنً هذا الإصدار من برنامج سايفُون مخصص بشكل محدد للأفراد وللإستخدام الشخصي فقط. إن أردت استخدام برنامج سايفُون لأيً غرض آخر أو كانت لديك متطلبات إضافية تتعلق به فإننا نوفر أيضا خدمة تجارية للبيع من برامج سايفُون. للمزيد من المعلومات يرجى مراسلتناعلى العنوان التالي:\n <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
         "description": ""
     },
+    "page-keyword-instructions": {
+        "message": "instructions",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-developers": {
+        "message": "developers",
+        "description": "web page meta keyword used for SEO"
+    },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "لتشغيل برنامج سايفُن علي نظام (مسار الجهاز بأكمله) Tunnel Whole Device mode يجب أن يكون جهازك الإصدار الرابع بلس لأنظمة أندرويد +Android 4.0 أو امتلاكك لحساب المستخدم الجذري للجهاز <br><br> هذا الخيار لن يكون متوفرا للذين لا يملكون حساب المستخدم الجذري لأجهزتهم ذات الإصدارات القديمة من نظام أندرويد . ",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
@@ -242,6 +302,10 @@
     "user-guide-windows-para-verify-authentic": {
         "message": "يجب أولا التأكد من أنً نسختك من برنامج سايفُن Psiphon لبرامج ويندوز Windows أصلية.\n<a href=\"./faq.html#authentic-windows\">",
         "description": ""
+    },
+    "page-keyword-code": {
+        "message": "code",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-vpn-dns-question": {
         "message": "عندما أكون علي اتصال ببرنامج سايفُون Psiphon لبرامج ويندوز Windows على نظام الشبكة الإفتراضية الخاصة VPN لا يتم تحميل أيٌ من صفحات الإنترنت لديْ. وتظهر لديً  رسالة تشير إلى أنً عملية البحث عن المجال Domain قد فشلت.  ",
@@ -254,6 +318,14 @@
     "what-is-psiphon-body-para-1": {
         "message": "برنامج سايفُون هو أداة صممتها شركة سايفُون المساهمة للإلتفاف حول القيود والرقابة على الإنترت؛ تمً استخدام تقنيات الشبكة الإفتراضية الخاصة VPN وبروتوكول القشرة الآمنة SSH وبروتوكول HTTP Proxy لتمكينك من الدخول على الإنترنت ومحتوياته من دون رقابة أو قيود. سيقوم عميل برنامج سايفُون الخاص بك وبشكل تلقائي من التعرف على أيًة نقاط دخول ومنافذ جديدة تتيح لك الدخول على الإنترنت وذلك من أجل مضاعفة فرصك في التغلب على المراقبة والقيود على شبكة الإنترنت.  ",
         "description": ""
+    },
+    "user-guide-description": {
+        "message": "Psiphon user guide showing how to use Psiphon on Mobile and Windows platforms",
+        "description": "description for the user guide page"
+    },
+    "blog-index-nav-title": {
+        "message": "موقع التواصل Blog  الخاص بنا",
+        "description": "Text for the navigation bar link to the blog"
     },
     "about-get-latest-info-para-1-users-list": {
         "message": "مجموعة مستخدمي برنامج سايفُون",
@@ -291,6 +363,10 @@
         "message": "هل برنامج سايفُون  Psiphon  المخصص لبرامج ويندوز  Windows بالإمكان فتحه وتصفحه على برامج التصفح إنترنت إكسبلورر Internet Explorer وفايرفوكس Firefox و سفاري  Safari  وكروم Chrom؟ ",
         "description": ""
     },
+    "page-keyword-landing-page": {
+        "message": "landing page",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-authentic-android-answer-para-3": {
         "message": "برنامج سايفُن  Psiphon لأجهزة الأندرويد Android يقوم بعملية التحديث تلقائيا٬ والتي تضمن أيضا في نفس الوقت أنً  كلً تحديث يكون أصلي وموثوق به. ",
         "description": ""
@@ -306,6 +382,10 @@
     "psiphon": {
         "message": "برنامج Psiphon",
         "description": ""
+    },
+    "download-meta-title": {
+        "message": "Download Android app and Windows client",
+        "description": "meta title for the download page"
     },
     "user-guide-windows-para-1": {
         "message": "قم بتحميل وتشغيل برنامج العميل Client Program. وعند تشغيله ستظهر لك نافذة خاصة بالأمان توضح أنً هذا البرنامج هو منتج أصلي وموثوق به من شركة سايفُن المساهمة Psiphon Inc.",
@@ -323,6 +403,10 @@
         "message": "دليل المستخدم",
         "description": "text for the user guide page navigation item"
     },
+    "page-keyword-updates": {
+        "message": "updates",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-authentic-windows-answer-para-3": {
         "message": "شهادة البرنامج الصالحة للفترة من 21/5/2011 ولغاية 30/7/2014 لبصمة دالة هاش التشفيرية SHA1 هي:",
         "description": ""
@@ -330,6 +414,10 @@
     "index-title": {
         "message": "مرحبا بك في عالمك الجديد من الإنترنت",
         "description": "Page title for the index page"
+    },
+    "faq-meta-title": {
+        "message": "الأسئلة الشائعة ",
+        "description": "meta title for the FAQ page"
     },
     "about-privacy-head": {
         "message": "سياسة الخصوصية",
@@ -367,6 +455,14 @@
         "message": "كيف يمكنني تشكيل تطبيقات إلكترونية لكي أستخدم مسار برنامج سايفُون Psiphon تحت نظام بروتوكول القشرة الآمنة SSH ",
         "description": ""
     },
+    "page-keyword-circumvention": {
+        "message": "circumvention",
+        "description": "web page meta keyword used for SEO"
+    },
+    "open-source-meta-title": {
+        "message": "مفتوح المصدر",
+        "description": ""
+    },
     "license-para-1": {
         "message": "إنً هذا البرنامج وكلً ما رافقه من ملكيًة فكرية هو ملك لشركة سايفُون المسجلة رسميا في مقاطعة أونتاريو الكندية حيث يقع مقرها الرسمي. ",
         "description": ""
@@ -385,7 +481,11 @@
     },
     "user-guide-title": {
         "message": "كيفية استخدام برنامج سايفُون Psiphon",
-        "description": "title for the user guide page"
+        "description": "page title for the user guide page"
+    },
+    "faq-description": {
+        "message": "Answers to frequently asked questions about Psiphon",
+        "description": "description for the FAQ page"
     },
     "faq-information-collected-answer-para-2-item-9": {
         "message": "منصة العميل Client (قائمة مبسطة بأنظمة التشغيل - مثال: عميل مستخدم لمتصفح الإنترنت غير مفصًل) ",
@@ -419,6 +519,14 @@
         "message": "سوف ترى الشعار الذي اخترته٬ والذي سيكون حلقة الوصل لصفحة على موقعك. إنها فرصة فريدة ستمكنك من التواصل مع عدد كبير من المختصين فنيًا وعلى دراية واسعة باستخدامات برنامج سايفُن Psiphon وكيفية إضافة طبقة من الحماية والأمن لمتصفحي الإنترنت. ",
         "description": ""
     },
+    "page-keyword-how-to": {
+        "message": "how to",
+        "description": "web page meta keyword used for SEO"
+    },
+    "sponsor-description": {
+        "message": "Become a sponsor by advertising on a landing page, or donate individually to the Psiphon project",
+        "description": "Page description for the Sponsorship page"
+    },
     "about-get-latest-info-para-1-list-start": {
         "message": "انضم لقائمتنا البريدية وتواصل معنا:",
         "description": ""
@@ -443,13 +551,29 @@
         "message": "برنامج سايفُون يُباشر تلقائيا بالربط عند تشغيله. وطوال فترة تشغيله تظهر على الشاشة أيقونة توضح ذلك. بإمكانك اختيار أحد أساليب المسارات الآتية: الشبكة الإفتراضية الخاصة L2TP over IPSec) VPN )٬ بروتوكول القشرة الآمنة SSH ٬ أو بروتوكول القشرة الآمنة بلس +SSH (والذي يحوي خاصية التشويش والتي تتكون من طبقة عشوائية مضافة إلى بروتوكول القشرة الآمنة لتجنب تسجيل بصمة البروتوكول).",
         "description": ""
     },
+    "page-keyword-vpn": {
+        "message": "vpn",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-partnerships": {
+        "message": "partnerships",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-development": {
+        "message": "development",
+        "description": "web page meta keyword used for SEO"
+    },
     "blog-index-title": {
-        "message": "صفحة Blog لفريق العمل سايفُون Psiphon",
+        "message": "Team Blog",
         "description": ""
     },
     "about-who-we-are-software-development-para-3": {
         "message": "فريق تطوير البرمجيات لدى سايفون يسعى جاهدا لتقديم الأفضل، الأسرع والأسهل، والأكثر انفتاحا من بين الحلول المضادة للرقابة. نحن أيضا نستكشف مجالات جديدة أين بإمكان خبراتنا الحماية وتمكين وتحرير عقول المستخدمين في جميع أنحاء العالم.",
         "description": ""
+    },
+    "page-keyword-windows": {
+        "message": "windows",
+        "description": "web page meta keyword used for SEO"
     },
     "privacy-para-3": {
         "message": "تمً تصميم برنامج سايفُون Psiphon ليمكنك من تصفح الإنترنت ومحتوياته بشكل مفتوح ومن دون إيً تقييد. يرجي ملاحظة أنً برنامج سايفُون Psiphon لن يرفع من مستوى خصوصيتك على الإنترنت٬ ولا يجب أن يُنظر إليه كذلك أو يستخدم كأداة حماية على الإنترنت.  ",
@@ -495,6 +619,14 @@
         "message": "صورة توضح أنً برنامج سايفُون Psiphon متصل ببرنامج ويندوز Windows",
         "description": "alt text for an image"
     },
+    "page-keyword-donate": {
+        "message": "donate",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-sponsor": {
+        "message": "sponsor",
+        "description": "web page meta keyword used for SEO"
+    },
     "nav-title": {
         "message": "جولة لاستكشاف البرنامج",
         "description": ""
@@ -503,13 +635,29 @@
         "message": "إنً برنامج سايفُون لنظام ويندوز يقوم بتحديث نفسه تلقائيا٬ وفي هذه العملية يتمً التحقق تلقائيا من مصداقية وشرعية كل تحديث. ",
         "description": ""
     },
+    "page-keyword-help": {
+        "message": "help",
+        "description": "web page meta keyword used for SEO"
+    },
     "about-who-we-are-partners-head": {
         "message": "الشراكات",
+        "description": ""
+    },
+    "blog-index-description": {
+        "message": "Behind the scenes with the Psiphon team",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-4": {
         "message": "سعة الذاكرة الغير مستخدمة في جهاز حاسوبك",
         "description": ""
+    },
+    "page-keyword-app-store": {
+        "message": "app store",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-psiphon-team": {
+        "message": "psiphon team",
+        "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-1": {
         "message": "برنامج سايفُون Psiphon يعمل الآن على الشبكة الإفتراضية الخاصة VPN أو على نظام الجهاز بأكمله Whole Device. جميع التطبيقات تعمل عبر برنامج سايفُون Psiphon. ",
@@ -521,7 +669,7 @@
     },
     "about-title": {
         "message": "من نحنُ",
-        "description": "title for the About page"
+        "description": "page title for the About page"
     },
     "faq-information-collected-answer-para-8-item-1": {
         "message": "إصدار نظام التشغيل أندرويد Android",
@@ -543,9 +691,17 @@
         "message": "ماهو ملف سايفُون3  \"psiphon3.exe.orig\"؟",
         "description": ""
     },
+    "index-meta-title": {
+        "message": "Uncensored Internet access for Windows and Mobile",
+        "description": "Meta title for the index page"
+    },
     "faq-information-collected-answer-para-8-item-2": {
         "message": "نوعيًة جهاز هاتفك",
         "description": ""
+    },
+    "page-keyword-play-store": {
+        "message": "play store",
+        "description": "web page meta keyword used for SEO"
     },
     "license-termination-terms-of-service-violations-header": {
         "message": "إنهاء الخدمة؛ الشروط المتعلقة بانتهاكات الخدمة",
@@ -619,9 +775,17 @@
         "message": " تمً تقييد حرية تصفح الإنترنت من قبل بلدك٬ شركتك أو المؤسسة التعليمة التي تدرس بها؟ ",
         "description": ""
     },
+    "page-keyword-download": {
+        "message": "download",
+        "description": "web page meta keyword used for SEO"
+    },
     "what-is-psiphon-body-para-2": {
         "message": "تمً تصميم برنامج سايفُون ليمكنك من تصفح الإنترنت ومحتوياته بشكل مفتوح ومن دون إيًة قيود. يرجي ملاحظة أنً برنامج سايفُون لن يرفع من مستوى خصوصيتك على الإنترنت٬ ولا يجب أن يُنظر إليه كذلك أو يستخدم كأداة حماية على الإنترنت.  ",
         "description": ""
+    },
+    "page-keyword-manual": {
+        "message": "manual",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-polipo-different-port-answer-para-1": {
         "message": "نعم على نظام ويندوز Windows. إنقر أيقونة التشغيل واكتب \"Regedit\" لفتح صفحة محرر التسجيل، ثمً افتح: >HKEY_CURRENT_USER\\Software\\Psiphon3< وعلى الجانب الأيمن من الصفحة سترى >UserLocalHTTPProxyPort< اضبط القيم (بالديسيمل Decimal) علي المنفذ Port الذي تودً استخدامه. ",
@@ -639,9 +803,13 @@
         "message": "برنامج سايفُون  لأجهزة الأندرويد في المتجر الإفتراضي لجوجل Google Play Store",
         "description": "text for link to Psiphon for Android in the Google Play Store"
     },
+    "page-keyword-contact": {
+        "message": "contact",
+        "description": "web page meta keyword used for SEO"
+    },
     "download-title": {
         "message": "تحميل برنامج سايفُون ",
-        "description": "title for the download page"
+        "description": "page title for the download page"
     },
     "faq-authentic-android-answer-para-1": {
         "message": "كلً نسخة من برنامج سايفُون  لعملاء أنظمة أندرويد تُرسل بصيغة ملف حزمة تطبيقات برامج أندرويد Android APK File ذو امتداد ينتهي بـ (\".apk\"). وتكون موقعة إلكترونيا وموثقة رسميا من قبل شركة سايفُن المساهمة Psiphon Inc. المفتاح العام لشهادة شركة سايفُن المساهمة Psiphon Inc هو:      ",
@@ -650,6 +818,10 @@
     "download-android-direct": {
         "message": "تحميل مباشر لبرنامج سايفُون Psiphon  لأجهزة الأندرويد  Android",
         "description": "text for link to Psiphon for Android direct download"
+    },
+    "page-keyword-home-page": {
+        "message": "home page",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-6": {
         "message": "عند اختيارك إرسال ملاحظاتك حول البرنامج من خلال سايفُون Psiphon يرجى إرفاق بيانات ومعلومات التشخيص. هذه البيانات ستساعدنا في التعرًف على الأعطال التي قد تكون لديك وحلها. كما أنها ستساعدنا في الحفاظ على ديمومة تشغيل برنامج سايفُن Psiphon بسلاسة لدى مستخدميه. إنً إرسال تلك البيانات والمعلومات أمر إختياري وليس إجباري. وسيتم تشفير تلك البيانات والمعلومات قبل إرسالها إلينا ومن قبلنا نحن فريق عمل سايفُون فقط. قد تختلف تلك البينات والمعلومات من تطبيق إلى آخر حسب البرنامج٬ ولكن قد تضم: ",
@@ -679,6 +851,14 @@
         "message": "في حالة عدم امتلاكك لتطبيق محل ألعاب جوجل  Google Play Store فبإمكانك تحميل التطبيق من خلال الرابط التالي (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideload</a>\") لتحميل برنامج سايفُن Psiphon مباشرة لأجهزة الإندرويد Android ",
         "description": ""
     },
+    "page-keyword-user-guide": {
+        "message": "user guide",
+        "description": "web page meta keyword used for SEO"
+    },
+    "about-meta-title": {
+        "message": "من نحنُ",
+        "description": "meta title for the About page"
+    },
     "sponsor-banner-alt-text": {
         "message": "Sponsor banner",
         "description": "alt text for an image"
@@ -691,6 +871,10 @@
         "message": "ملائم وصالح للعمل مع برامج أندرويد Android 2.2  وما هو أحدث. نظام الجهاز بأكمله Whole Device Mode يتطلب أن يكون برنامج أندرويد Android 4.0  وما هو أحدث من ذلك؛ أو حساب المستخدم للجهاز Rooted Device <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">",
         "description": ""
     },
+    "sponsor-meta-title": {
+        "message": "Sponsorship, advertising, and donations",
+        "description": "Page title for the Sponsorship page"
+    },
     "faq-check-version-question": {
         "message": "كيف يمكنني التحقق من الإصدار الذي لديْ  لبرنامج سايفُون Psiphon؟",
         "description": ""
@@ -702,6 +886,10 @@
     "sponsor-header-sponsored-by": {
         "message": "برعاية",
         "description": ""
+    },
+    "page-keyword-privacy": {
+        "message": "privacy",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
         "message": "سيقوم برنامج سايفُن وبشكل تلقائي بتهيئة نظام جهازك لكي يعمل مع وكيل بروتوكول Local HTTP/HTTPS Proxy على >127.0.0.1:8080< ومع وكيل بروتوكول SOCKS Proxy على >127.0.0.1:1080<. وستستخدم تطبيقات أنظمة ويندوز ٬وبشكل تلقائي أيضا٬ إعدادات وكيل النظام System Proxy Settings. كما بإمكانك تهيئة التطبيقات الأخرى يدويا لكي تستخدم الوكلاء المحليين الذين يعمل عليهم البرنامج Local Proxies . هذا وكلٌ من برنامج سايفُن لنظام الويندوز  (والذي يعمل بنظام بروتوكول القشرة الآمنة SSH) وبرنامج سايفُن لنظام الأندرويد  يُشغًلان هذان الوكيلين المحليين Local Proxies. ",
@@ -759,9 +947,21 @@
         "message": "عدد التحديثات",
         "description": ""
     },
+    "page-keyword-censorship": {
+        "message": "censorship",
+        "description": "web page meta keyword used for SEO"
+    },
+    "blog-index-meta-title": {
+        "message": "صفحة Blog لفريق العمل سايفُون Psiphon",
+        "description": ""
+    },
     "user-guide-windows-para-4": {
         "message": "في نظاميْ  بروتوكول القشرة الآمنة SSH و بروتوكول القشرة الآمنة بلس +SSH يقوم برنامج سايفُون Psiphon وبشكل تلقائي بضبط إعدادت وكيل نظام برامج ويندوز Windows Proxy والمعلومات والبيانات للتطبيقات التي تتماشي وتعمل مع مسار تلك الإعدادات عبر برنامج سايفُون Psiphon. وستعمل تلك الإعدادات إفتراضيا مع جميع متصفحات الويب Web Browsers  الرئيسية.  ",
         "description": ""
+    },
+    "page-keyword-advertise": {
+        "message": "advertise",
+        "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-statistics-image-alt": {
         "message": "صورة توضح عمل برنامج سايفُون Psiphon على أجهزة الأندرويد Android على جدول الإحصائيات",
@@ -778,6 +978,10 @@
     "faq-authentic-android-answer-alert": {
         "message": "<b>:تحذير</b> مؤخرا تم التبليغ  <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\"> عن حالة حساسة قد تؤدي إلى قيام تطبيق التحقق من التطبيقات والملفات لدي برنامج أندرويد Android من التبليغ بشكل خاطئ عن ملف حزمة برنامج أندرويد الخبيث APKs على أنه صالح وموثوق به. ننصح مستخدمي البرنامج بتفعيل تطبيق جوجل للتحقق Google Verify App كما هو موضح <a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">هنا</a>",
         "description": ""
+    },
+    "page-keyword-http-proxy": {
+        "message": "http proxy",
+        "description": "web page meta keyword used for SEO"
     },
     "about-nav-title": {
         "message": "من نحنُ",
@@ -815,6 +1019,10 @@
         "message": "الصورة توضح إعدادات نظام الأندرويد Android الخاصة بالسماح للتطبيقات التي لا توجد في المتجر الإفتراضي Non-Play Store.  ",
         "description": "alt text for an image"
     },
+    "page-keyword-contribute": {
+        "message": "contribute",
+        "description": "web page meta keyword used for SEO"
+    },
     "main-gets-you-where-you-want-para-1": {
         "message": "بعد التعامل مع الأنظمة القمعية حول العالم٬ فإننا الأنسب٬ وبشكل فريد من نوعه٬ لمساعدتك على الحصول على المعلومات التي تريدها في أيً وقت وأيً مكان تختاره.",
         "description": ""
@@ -822,6 +1030,10 @@
     "user-guide-android-para-verify-authentic": {
         "message": "يجب أولا أن تتحقق من أنً  نسختك من برنامج سايفُن لأجهزة الأندرويد Android أصلية وموثوق بها <a href=\"./faq.html#authentic-android\">",
         "description": ""
+    },
+    "download-description": {
+        "message": "Direct free Psiphon download for Windows and Android",
+        "description": "title for the download page"
     },
     "faq-information-collected-answer-para-2-item-1": {
         "message": "عدد طلبات رسائل البريد الإلكتروني الخاصة برابط تحميل العميل ",
