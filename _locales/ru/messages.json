@@ -1,7 +1,15 @@
 {
+    "page-keyword-source-code": {
+        "message": "source code",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-autoproxy-question-toc": {
         "message": "Я пользуюсь AutoProxy. Как запретить Psiphon для Windows менять системные настройки прокси?",
         "description": ""
+    },
+    "page-keyword-psiphon2": {
+        "message": "psiphon2",
+        "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
         "message": "Канадская Kомиссия по частной информации",
@@ -27,9 +35,17 @@
         "message": "Связаться с нами",
         "description": ""
     },
+    "page-keyword-android": {
+        "message": "android",
+        "description": "web page meta keyword used for SEO"
+    },
     "contact-email-para": {
         "message": "Вы можете связаться с Psiphon по электронной почте:",
         "description": ""
+    },
+    "page-keyword-proxy": {
+        "message": "proxy",
+        "description": "web page meta keyword used for SEO"
     },
     "download-list-join": {
         "message": "Подписывайтесь на нашу <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">рассылку объявлений</a> для важных объявлений и бюллетеней безопасности.",
@@ -43,6 +59,10 @@
         "message": "We also know that it's just as important to work hard for our users behind the scenes. We protect our users and their data to the utmost. Users might never notice the measures to ensure their privacy and security, but we know they appreciate it.",
         "description": ""
     },
+    "open-source-description": {
+        "message": "Psiphon is open source Internet circumvention software",
+        "description": ""
+    },
     "privacy-para-2": {
         "message": "Для получения дополнительной информации о канадских и онтарийских законах по защите персональной информации, пожалуйста, посетите:",
         "description": ""
@@ -51,9 +71,9 @@
         "message": "...и сделает это безопасно.",
         "description": ""
     },
-    "blog-nav-title": {
-        "message": "Наш блог",
-        "description": "Text for the navigation bar link to the blog"
+    "page-keyword-psiphon1": {
+        "message": "psiphon1",
+        "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-there-safely-para-1": {
         "message": "Свободный от цензуры интернет это здорово, но не всегда безопасно.  Psiphon защитит вас от взломанных аккаунтов и украденных паролей независимо от того к какой сети вы подключены.",
@@ -62,6 +82,10 @@
     "user-guide-android-image-3-alt": {
         "message": "Изображение, показывающее различные элементы веб браузера Psiphon для Android",
         "description": "alt text for an image"
+    },
+    "page-keyword-open-source": {
+        "message": "open source",
+        "description": "web page meta keyword used for SEO"
     },
     "license-personal-or-specified-use-header": {
         "message": "Персональное использование",
@@ -119,9 +143,17 @@
         "message": "Подлинность APK может быть проверена путем (1) извлечением сертификата из архива и проверки, что его цифровой отпечаток совпадает со значением выше, и (2) проверкой того, что APK подписан этим сертификатом. Например, используя Unix и Java утилиты командной строки:",
         "description": ""
     },
+    "page-keyword-psiphon3": {
+        "message": "psiphon3",
+        "description": "web page meta keyword used for SEO"
+    },
     "about-get-latest-info-para-1-announcements-list": {
         "message": "Объявления Psiphon",
         "description": "text for link to the Psiphon Announcements mailing list"
+    },
+    "about-description": {
+        "message": "Meet the team behind Psiphon's Internet circumvention software",
+        "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
         "message": "Версия операционной системы",
@@ -155,6 +187,10 @@
         "message": "Contribute to Psiphon",
         "description": "The heading of the page section that shows the donation buttons"
     },
+    "user-guide-meta-title": {
+        "message": "How to use Psiphon on Mobile and Windows",
+        "description": "meta title for the user guide page"
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "Нажмите Run и введите <code>regedit</code>, чтобы открыть редактор реестра. Найдите и откройте <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> и в правой панели вы увидите переменную <code>UserSkipProxySettings</code>. Установите ее значение равным  <code>1</code> и Psiphon не станет изменять системные настройки прокси при последующих запусках.",
         "description": ""
@@ -163,17 +199,29 @@
         "message": "Psiphon для Android",
         "description": "heading for the Android section of the User Guide"
     },
+    "index-description": {
+        "message": "Psiphon is circumvention software for Windows and Mobile platforms that provides uncensored access to Internet content",
+        "description": "Page description for the index page"
+    },
     "faq-title": {
-        "message": "FAQ(часто задаваемые вопросы)",
+        "message": "Часто задаваемые вопросы",
         "description": "title for the FAQ page"
     },
     "about-who-we-are-exec-team-head": {
         "message": "Exec Team",
         "description": ""
     },
+    "page-keyword-ssh": {
+        "message": "ssh",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-information-collected-answer-para-4": {
         "message": "Логи событий включают временные метки, коды региона (GeoIP код страны) и не идентифицирующие атрибуты, включая ID спонсора (определяется тем, какой клиент Psiphon используется), версия клиента, а также тип протокола. Количество просмотров агрегируется по времени и / или сессии перед записью на диск.",
         "description": ""
+    },
+    "page-keyword-blog": {
+        "message": "blog",
+        "description": "web page meta keyword used for SEO"
     },
     "blog-index-intro": {
         "message": "Psiphon Inc. - канадская компания и большинство членов нашей комманды носители английского языка. Это означает, что сообщения в нашем блоге изначально делаются по-английски. Мы будем переводить их на другие языки по мере возможностей.",
@@ -223,6 +271,10 @@
         "message": "Зеленая иконка означает, что соединение с сервером Psiphon установлено.В режиме VPN весь ваш интернет-трафик идет через Psiphon.",
         "description": ""
     },
+    "license-meta-title": {
+        "message": "End-User License Agreement",
+        "description": ""
+    },
     "faq-information-collected-question": {
         "message": "Какую информацию о пользователях собирает Psiphon?",
         "description": ""
@@ -235,6 +287,14 @@
         "message": "Эта версия Psiphon предназначена строго для физических лиц и только для личного использования. Если вы хотите использовать Psiphon для любой другой цели или имеете дополнительные требования, мы предлагаем платные, коммерческие услуги. Для получения дополнительной информации пишите по адресу <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
         "description": ""
     },
+    "page-keyword-instructions": {
+        "message": "instructions",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-developers": {
+        "message": "developers",
+        "description": "web page meta keyword used for SEO"
+    },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "Для запуска Psiphon в режиме туннелирования всех интернет соединений вам нужен Android 4.0+ или ваше устройство должно  иметь права доступа root.<br><br>Эта опция будет недоступна для устройств без прав доступа root на предыдущих версиях Android.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
@@ -242,6 +302,10 @@
     "user-guide-windows-para-verify-authentic": {
         "message": "Убедитесь сначала, что <a href=\"./faq.html#authentic-windows\">ваша копия Psiphon для Windows является подлинной</a>.",
         "description": ""
+    },
+    "page-keyword-code": {
+        "message": "code",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-vpn-dns-question": {
         "message": "При подключении к Psiphon для Windows в режиме VPN, ни одна из моих веб-страниц не грузится. Я получаю сообщения об ошибках \"Интернет домен не найден\".",
@@ -254,6 +318,14 @@
     "what-is-psiphon-body-para-1": {
         "message": "Psiphon - это новое средство преодоления интернет цензуры от Psiphon Inc., которое использует технологии VPN, SSH и HTTP прокси для решения проблемы доступа к заблокированным ресурсам. Программный клиент Psiphon автоматически 'узнает' о новых серверах и, таким образом, увеличивает Ваши шансы обхода цензуры.",
         "description": ""
+    },
+    "user-guide-description": {
+        "message": "Psiphon user guide showing how to use Psiphon on Mobile and Windows platforms",
+        "description": "description for the user guide page"
+    },
+    "blog-index-nav-title": {
+        "message": "Наш блог",
+        "description": "Text for the navigation bar link to the blog"
     },
     "about-get-latest-info-para-1-users-list": {
         "message": "Группа пользователей Psiphon",
@@ -291,6 +363,10 @@
         "message": "Совместим ли Psiphon для Windows  с браузерами IE, Firefox, Safari и Chrome?",
         "description": ""
     },
+    "page-keyword-landing-page": {
+        "message": "landing page",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-authentic-android-answer-para-3": {
         "message": "Psiphon для Android обновляется и проверяет подлинность каждое обновления автоматически.",
         "description": ""
@@ -306,6 +382,10 @@
     "psiphon": {
         "message": "Psiphon",
         "description": ""
+    },
+    "download-meta-title": {
+        "message": "Download Android app and Windows client",
+        "description": "meta title for the download page"
     },
     "user-guide-windows-para-1": {
         "message": "Скачайте программный клиент и запустите его. После запуска вы должны увидеть диалог предупреждения безопасности показывающий, что программа является официальным продуктом Psiphon Inc.",
@@ -323,6 +403,10 @@
         "message": "Руководство пользователя",
         "description": "text for the user guide page navigation item"
     },
+    "page-keyword-updates": {
+        "message": "updates",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-authentic-windows-answer-para-3": {
         "message": "Для сертификата, срок действия которого с 21 Мая 2011 до 30 Июля 2014 отпечаток SHA1:",
         "description": ""
@@ -330,6 +414,10 @@
     "index-title": {
         "message": "Добро пожаловать в новый Интернет",
         "description": "Page title for the index page"
+    },
+    "faq-meta-title": {
+        "message": "Часто задаваемые вопросы",
+        "description": "meta title for the FAQ page"
     },
     "about-privacy-head": {
         "message": "Политика конфиденциальности",
@@ -367,6 +455,14 @@
         "message": "Как настроить приложения для использования туннеля Psiphon в режимах SSH?",
         "description": ""
     },
+    "page-keyword-circumvention": {
+        "message": "circumvention",
+        "description": "web page meta keyword used for SEO"
+    },
+    "open-source-meta-title": {
+        "message": "Открытый исходный код",
+        "description": ""
+    },
     "license-para-1": {
         "message": "Это программное обеспечение и все связанная с ним интеллектуальная собственность является собственностью Psiphon Inc., корпорации зарегистрированной в провинции Онтарио с головным офисом в г. Торонто, провинция Онтарио, Канада.",
         "description": ""
@@ -385,7 +481,11 @@
     },
     "user-guide-title": {
         "message": "Как пользоваться Psiphon",
-        "description": "title for the user guide page"
+        "description": "page title for the user guide page"
+    },
+    "faq-description": {
+        "message": "Answers to frequently asked questions about Psiphon",
+        "description": "description for the FAQ page"
     },
     "faq-information-collected-answer-para-2-item-9": {
         "message": "Клиентская платформа (используя упрощенный перечень операционных систем, а не, например, детальный User Agent браузера)",
@@ -419,6 +519,14 @@
         "message": "Вы увидите ваш баннер с линком на страницу на вашем сайте. Это уникальная возможность охватить большую аудиторию технически осведомленных люди, использующих Psiphon для увеличения уровня безопасности своей интернет активности.",
         "description": ""
     },
+    "page-keyword-how-to": {
+        "message": "how to",
+        "description": "web page meta keyword used for SEO"
+    },
+    "sponsor-description": {
+        "message": "Become a sponsor by advertising on a landing page, or donate individually to the Psiphon project",
+        "description": "Page description for the Sponsorship page"
+    },
     "about-get-latest-info-para-1-list-start": {
         "message": "Подпишитесь на наши рассылки:",
         "description": ""
@@ -443,13 +551,29 @@
         "message": "Psiphon автоматически инициирует соединение с сервером при запуске. В процессе соединения видна вращающаяся иконка. Вы можете выбрать один из следующих режимов туннелирования: VPN (L2TP/IPSec), SSH, or SSH+ (SSH обфусцированный для избежания идентификации протокола).",
         "description": ""
     },
+    "page-keyword-vpn": {
+        "message": "vpn",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-partnerships": {
+        "message": "partnerships",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-development": {
+        "message": "development",
+        "description": "web page meta keyword used for SEO"
+    },
     "blog-index-title": {
-        "message": "Блог комманды Psiphon",
+        "message": "Team Blog",
         "description": ""
     },
     "about-who-we-are-software-development-para-3": {
         "message": "Psiphon's software development team strives to deliver the best, fastest, easiest, and most open circumvention solutions. We're also exploring new areas where our expertise can protect, empower, and free the minds of users worldwide.",
         "description": ""
+    },
+    "page-keyword-windows": {
+        "message": "windows",
+        "description": "web page meta keyword used for SEO"
     },
     "privacy-para-3": {
         "message": "Цель Psiphon - предоставить открытый доступ к онлайн-контенту. Использование Psiphon не приводит к увеличению конфиденциальности в Интернете, и не следует рассматривать или использовать его в качестве инструмента онлайн безопасности.",
@@ -495,6 +619,14 @@
         "message": "Изображение, показывающее успешное соединение Psiphon на Windows",
         "description": "alt text for an image"
     },
+    "page-keyword-donate": {
+        "message": "donate",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-sponsor": {
+        "message": "sponsor",
+        "description": "web page meta keyword used for SEO"
+    },
     "nav-title": {
         "message": "Навигация",
         "description": ""
@@ -503,13 +635,29 @@
         "message": "Psiphon для Windows обновляется и проверяет подлинность каждое обновления автоматически.",
         "description": ""
     },
+    "page-keyword-help": {
+        "message": "help",
+        "description": "web page meta keyword used for SEO"
+    },
     "about-who-we-are-partners-head": {
         "message": "Partnerships",
+        "description": ""
+    },
+    "blog-index-description": {
+        "message": "Behind the scenes with the Psiphon team",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-4": {
         "message": "Количество свободной памяти в Вашем компьютере",
         "description": ""
+    },
+    "page-keyword-app-store": {
+        "message": "app store",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-psiphon-team": {
+        "message": "psiphon team",
+        "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-1": {
         "message": "Psiphon работает в режиме туннелирования всех интернет соединений или VPN. Весь интернет трафик идет через Psiphon.",
@@ -521,7 +669,7 @@
     },
     "about-title": {
         "message": "О нас",
-        "description": "title for the About page"
+        "description": "page title for the About page"
     },
     "faq-information-collected-answer-para-8-item-1": {
         "message": "Версия Android",
@@ -543,9 +691,17 @@
         "message": "Что за файл \"psiphon3.exe.orig\"?",
         "description": ""
     },
+    "index-meta-title": {
+        "message": "Uncensored Internet access for Windows and Mobile",
+        "description": "Meta title for the index page"
+    },
     "faq-information-collected-answer-para-8-item-2": {
         "message": "Модель смартфона",
         "description": ""
+    },
+    "page-keyword-play-store": {
+        "message": "play store",
+        "description": "web page meta keyword used for SEO"
     },
     "license-termination-terms-of-service-violations-header": {
         "message": "Нарушение условий сервиса и прекращение услуг",
@@ -619,9 +775,17 @@
         "message": "Заблокировано правительством, админом или интернет провайдером?",
         "description": ""
     },
+    "page-keyword-download": {
+        "message": "download",
+        "description": "web page meta keyword used for SEO"
+    },
     "what-is-psiphon-body-para-2": {
         "message": "Psiphon предназначен, чтобы предоставить Вам открытый доступ к онлайн-контенту. Использование Psiphon не приводит к увеличению вашей конфиденциальности в Интернете, и не следует рассматривать или использовать его в качестве инструмента онлайн безопасности.",
         "description": ""
+    },
+    "page-keyword-manual": {
+        "message": "manual",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-polipo-different-port-answer-para-1": {
         "message": "Да, на Windows. Нажмите Run и введите <code>regedit</code>, чтобы открыть редактор реестра. Найдите и откройте <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> и в правой панели вы увидите переменную <code>UserLocalHTTPProxyPort</code>. Установите ее значение в то, которые вы хотели бы использовать для порта HTTP прокси.",
@@ -639,9 +803,13 @@
         "message": "Psiphon для Android в Google Play Store",
         "description": "text for link to Psiphon for Android in the Google Play Store"
     },
+    "page-keyword-contact": {
+        "message": "contact",
+        "description": "web page meta keyword used for SEO"
+    },
     "download-title": {
         "message": "Скачать Psiphon",
-        "description": "title for the download page"
+        "description": "page title for the download page"
     },
     "faq-authentic-android-answer-para-1": {
         "message": "Каждый Psiphon клиент для Android поставляется в виде файла Android APK  (\".apk\") и имеет цифровую подпись Psiphon Inc. Открытый ключ сертификата Psiphon Inc. выглядит следующим образом:",
@@ -650,6 +818,10 @@
     "download-android-direct": {
         "message": "Прямая ссылка на Psiphon для Android",
         "description": "text for link to Psiphon for Android direct download"
+    },
+    "page-keyword-home-page": {
+        "message": "home page",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-6": {
         "message": "При отсылке отзыва Вы можете выбрать хотите ли вы также переслать диагностические данные. Мы используем эти данные для решения проблем, которые могут возникать при использовании Psiphon, а также для улучшения работы системы. Данные шифруются перед отсылкой и могут быть расшифрованы только нами. Информация в данных зависит от операционной системы и может включать в себя следующее:",
@@ -679,6 +851,14 @@
         "message": "Если у Вас нет доступа к Google Play Store, вы можете загрузить и (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">установить</a>\" ) Psiphon для Android напрямую.",
         "description": ""
     },
+    "page-keyword-user-guide": {
+        "message": "user guide",
+        "description": "web page meta keyword used for SEO"
+    },
+    "about-meta-title": {
+        "message": "О нас",
+        "description": "meta title for the About page"
+    },
     "sponsor-banner-alt-text": {
         "message": "Sponsor banner",
         "description": "alt text for an image"
@@ -691,6 +871,10 @@
         "message": "Совместим с Android 2.2 и выше. Для поддержки режима туннелирование всех интернет соединений требуется Android 4.0 и выше или <a href=\"https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%82%D0%B8%D0%BD%D0%B3\" target=\"_blank\"> устройство с правами доступа root </a>.",
         "description": ""
     },
+    "sponsor-meta-title": {
+        "message": "Sponsorship, advertising, and donations",
+        "description": "Page title for the Sponsorship page"
+    },
     "faq-check-version-question": {
         "message": "Как мне проверить текущую версию Psiphon?",
         "description": ""
@@ -702,6 +886,10 @@
     "sponsor-header-sponsored-by": {
         "message": "При поддержке",
         "description": ""
+    },
+    "page-keyword-privacy": {
+        "message": "privacy",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
         "message": "Psiphon  автоматически установит системные настройки Windows на использование локальных прокси серверов - HTTP / HTTPS прокси на <code>127.0.0.1:8080</code> и SOCKS прокси на <code>127.0.0.1:1080</code>. Windows приложения, которые используют прокси настройки системы будет автоматически использовать туннель. Вы можете вручную настроить другие приложения на использование этих локальных прокси-серверов. Эти прокси сервисы доступны как в Psiphon для Windows (SSH режимы), так и в Psiphon для Android.",
@@ -759,9 +947,21 @@
         "message": "Количество апгрейдов",
         "description": ""
     },
+    "page-keyword-censorship": {
+        "message": "censorship",
+        "description": "web page meta keyword used for SEO"
+    },
+    "blog-index-meta-title": {
+        "message": "Блог комманды Psiphon",
+        "description": ""
+    },
     "user-guide-windows-para-4": {
         "message": "В режимах SSH и SSH+ Psiphon автоматически устанавливает системные настройки прокси Windows и трафик приложений, которые соблюдают эти настройки идет через Psiphon. Эти настройки соблюдаются по умолчанию всеми основными современными веб-браузерами.",
         "description": ""
+    },
+    "page-keyword-advertise": {
+        "message": "advertise",
+        "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-statistics-image-alt": {
         "message": "Изображение, показывающее работу Psiphon на Android, панель статистики",
@@ -778,6 +978,10 @@
     "faq-authentic-android-answer-alert": {
         "message": "<b>ПРЕДУПРЕЖДЕНИЕ:</b> Недавно <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">обнаруженная</a> уязвимость позволяет изменить код Android приложения, не повреждая криптографическую подпись приложения. Мы рекомендуем пользователям включить проверку приложений Google, как <a href=\"https://support.google.com/accounts/answer/2812853?hl=ru\">описано тут</a>.",
         "description": ""
+    },
+    "page-keyword-http-proxy": {
+        "message": "http proxy",
+        "description": "web page meta keyword used for SEO"
     },
     "about-nav-title": {
         "message": "О нас",
@@ -815,6 +1019,10 @@
         "message": "Изображение, показывающее установки Android позволяющие устанавливать приложения не из Google Play Store",
         "description": "alt text for an image"
     },
+    "page-keyword-contribute": {
+        "message": "contribute",
+        "description": "web page meta keyword used for SEO"
+    },
     "main-gets-you-where-you-want-para-1": {
         "message": "Наш солидный опыт обхода цензуры репрессивных режимов по всему миру поможет вам получить доступ к нужному вам контенту в любое время в любом месте.",
         "description": ""
@@ -822,6 +1030,10 @@
     "user-guide-android-para-verify-authentic": {
         "message": "Убедитесь сначала, что <a href=\"./faq.html#authentic-android\">ваша копия Psiphon для Android является подлинной</a>.",
         "description": ""
+    },
+    "download-description": {
+        "message": "Direct free Psiphon download for Windows and Android",
+        "description": "title for the download page"
     },
     "faq-information-collected-answer-para-2-item-1": {
         "message": "Количество запросов на электронную почту для получения ссылки для скачивания",
