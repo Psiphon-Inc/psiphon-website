@@ -16,6 +16,11 @@
 
 $ ->
 
+  # Make the language switcher maintain the current anchor (if any).
+  if window.location.hash
+    $('.languages .dropdown-menu > li > a').each ->
+      $(@).prop('href', $(@).prop('href') + window.location.hash)
+
   #
   # Add the FAQ table of contents
   # TODO: Statically create at render time

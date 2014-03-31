@@ -14,13 +14,7 @@ layout: page
       <%- @tt 'user-guide-android-para-verify-authentic' %>
     </p>
     <p>
-      <%= @tt 'user-guide-android-para-1' %>
-    </p>
-    <p>
-      <%= @tt 'user-guide-android-para-2' %>
-    </p>
-    <p>
-      <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/user-guide-android-1.png' %>" alt="<%= @tt 'user-guide-android-image-1-alt' %>">
+      <%- @tt 'user-guide-android-para-1' %>
     </p>
     <p>
       <%= @tt 'user-guide-android-para-3' %>

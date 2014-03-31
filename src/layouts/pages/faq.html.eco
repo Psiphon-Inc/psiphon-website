@@ -76,6 +76,21 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
+  <span class="anchor-target" id="android-enable-sideloading" data-anchor-text="<%= @tt 'faq-android-enable-sideloading-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-android-enable-sideloading-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-android-enable-sideloading-answer-para-1' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="<%= @relativeToRoot @ttURL '/images/faq/faq-android-enable-sideloading.png' %>" alt="<%= @tt 'faq-android-enable-sideloading-image-alt' %>">
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
   <span class="anchor-target" id="information-collected" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-information-collected-question' %></h3>
