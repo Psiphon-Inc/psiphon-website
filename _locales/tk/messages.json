@@ -1,7 +1,15 @@
 {
+    "page-keyword-source-code": {
+        "message": "source code",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-autoproxy-question-toc": {
         "message": "I use AutoProxy. How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
+    },
+    "page-keyword-psiphon2": {
+        "message": "psiphon2",
+        "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
         "message": "Canadian Privacy Commission",
@@ -27,9 +35,17 @@
         "message": "Contact Us",
         "description": ""
     },
+    "page-keyword-android": {
+        "message": "android",
+        "description": "web page meta keyword used for SEO"
+    },
     "contact-email-para": {
         "message": "You can contact Psiphon by sending an email to:",
         "description": ""
+    },
+    "page-keyword-proxy": {
+        "message": "proxy",
+        "description": "web page meta keyword used for SEO"
     },
     "download-list-join": {
         "message": "Join our <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Announcements mailing list</a> for important announcements and security advisories.",
@@ -39,6 +55,14 @@
         "message": "Psiphon Developers",
         "description": "text for link to the Psiphon Developers mailing list"
     },
+    "about-who-we-are-software-development-para-2": {
+        "message": "We also know that it's just as important to work hard for our users behind the scenes. We protect our users and their data to the utmost. Users might never notice the measures to ensure their privacy and security, but we know they appreciate it.",
+        "description": ""
+    },
+    "open-source-description": {
+        "message": "Psiphon is open source Internet circumvention software",
+        "description": ""
+    },
     "privacy-para-2": {
         "message": "For further information regarding Canadian and Ontario privacy laws, please visit:",
         "description": ""
@@ -47,9 +71,9 @@
         "message": "...and gets you there safely.",
         "description": ""
     },
-    "blog-nav-title": {
-        "message": "Our Blog",
-        "description": "Text for the navigation bar link to the blog"
+    "page-keyword-psiphon1": {
+        "message": "psiphon1",
+        "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-there-safely-para-1": {
         "message": "Free internet is nice, but stolen cookies and accounts are not. Psiphon gives you a safe path to the Internet, no matter what network you're using to connect.",
@@ -58,6 +82,10 @@
     "user-guide-android-image-3-alt": {
         "message": "Image showing the different parts of the Psiphon Android web browser",
         "description": "alt text for an image"
+    },
+    "page-keyword-open-source": {
+        "message": "open source",
+        "description": "web page meta keyword used for SEO"
     },
     "license-personal-or-specified-use-header": {
         "message": "Personal or Specified Use",
@@ -81,6 +109,10 @@
     },
     "faq-ssh-plus-question": {
         "message": "What is SSH+ mode?",
+        "description": ""
+    },
+    "about-who-we-are-software-development-para-1": {
+        "message": "At Psiphon, we need our users to have a good experience. That means that our software needs to be easy to use, our network needs to be fast, and they both need to be rock-solid stable. This is tough for any developers to achieve, but especialy so when your software has to operate in an ever-changing adversarial environment and across many languages and platforms.",
         "description": ""
     },
     "sponsor-nav-title": {
@@ -111,13 +143,17 @@
         "message": "APK faýlyny (1) arhiwden kepilnamany çykaryp almak we onuň barmak yzlarynyň ýokardaky baha kybapdaşdygyny barlamak we (2) APK-nyň kepilnama bilen gol çekilendigini tassyklamak arkaly ýörgünli edip bolýar. Mysal üçin, Unix we Java buýruk setiri gurallaryny ulanmak arkaly:",
         "description": ""
     },
-    "contact-sponsor-para": {
-        "message": "For sponsorship opportunities, click on the link above or email:",
-        "description": ""
+    "page-keyword-psiphon3": {
+        "message": "psiphon3",
+        "description": "web page meta keyword used for SEO"
     },
     "about-get-latest-info-para-1-announcements-list": {
         "message": "Psiphon Announcements",
         "description": "text for link to the Psiphon Announcements mailing list"
+    },
+    "about-description": {
+        "message": "Meet the team behind Psiphon's Internet circumvention software",
+        "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
         "message": "Operating system version",
@@ -139,9 +175,21 @@
         "message": "Become a Sponsor",
         "description": "Page title for the Sponsorship page"
     },
-    "contact-sponsor-email": {
-        "message": "sponsor@psiphon.ca",
+    "about-who-we-are-partners-para-1": {
+        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our web proxy software in 15 languages, and are adding more to our Windows and Mobile products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Open Technology Fund’s hub.",
         "description": ""
+    },
+    "about-who-we-are-exec-team-para-1": {
+        "message": "Michael Hull is the Chief Operating Officer, and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game.",
+        "description": ""
+    },
+    "donate-heading": {
+        "message": "Contribute to Psiphon",
+        "description": "The heading of the page section that shows the donation buttons"
+    },
+    "user-guide-meta-title": {
+        "message": "How to use Psiphon on Mobile and Windows",
+        "description": "meta title for the user guide page"
     },
     "faq-autoproxy-answer-para-1": {
         "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserSkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings.",
@@ -151,16 +199,36 @@
         "message": "Psiphon for Android",
         "description": "heading for the Android section of the User Guide"
     },
+    "index-description": {
+        "message": "Psiphon is circumvention software for Windows and Mobile platforms that provides uncensored access to Internet content",
+        "description": "Page description for the index page"
+    },
     "faq-title": {
-        "message": "FAQ",
+        "message": "Frequently Asked Questions",
         "description": "title for the FAQ page"
+    },
+    "about-who-we-are-exec-team-head": {
+        "message": "Exec Team",
+        "description": ""
+    },
+    "page-keyword-ssh": {
+        "message": "ssh",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-4": {
         "message": "Hadysa žurnallary wagt möhürlerini, sebit kodlaryny (GeoIP kody) we hemaýatkär ID-si (haýsy Psiphon müşderisiniň ulanylýandygyna baglylykda kesgitlenýär), müşderi wersiýasy we protokol görnüşi ýaly şahsyýeti anyklamaýan häsiýetleri öz içine alýar. Sahypanyň görülmeginiň sany wagta we/ýa-da seansa görä jemlenýär.",
         "description": ""
     },
+    "page-keyword-blog": {
+        "message": "blog",
+        "description": "web page meta keyword used for SEO"
+    },
     "blog-index-intro": {
         "message": "Psiphon Inc. is a Canadian company, and most of the members of our team are native English speakers. This means that our blog posts are originally in English. We will translate them into other languages as we can.",
+        "description": ""
+    },
+    "about-who-we-are-ops-para-1": {
+        "message": "We have contracts in place with a range of companies, from large-scale international broadcasters to small human rights organizations operating in single countries. Our Operations and Outreach team compiles reports showing them how many people are accessing Psiphon through their distribution methods. They also study trends and look out for upcoming events that might impact the free flow of information on the Internet.",
         "description": ""
     },
     "faq-information-collected-answer-para-7-list-start": {
@@ -191,12 +259,20 @@
         "message": "HTTPS islegleriniň sany",
         "description": ""
     },
+    "about-who-we-are-para-1": {
+        "message": "Psiphon Inc is a company based in Toronto, producing open-source multi-platform software that helps over 3 million people every week connect to content on the Internet. We’re a team focused on delivering the best software we can, introducing new products regularly and making sure we develop to the needs of our constantly growing global audience.",
+        "description": ""
+    },
     "user-guide-android-para-2": {
         "message": "To install a Psiphon APK, you must enable the option in your Android device to install non-Play Store apps. Psiphon for Android will automatically update itself.",
         "description": ""
     },
     "user-guide-windows-para-3": {
         "message": "Connection to the Psiphon server is established when the green icon is displayed. In VPN mode, all of your traffic automatically tunnels through Psiphon.",
+        "description": ""
+    },
+    "license-meta-title": {
+        "message": "End-User License Agreement",
         "description": ""
     },
     "faq-information-collected-question": {
@@ -211,9 +287,13 @@
         "message": "This version of Psiphon is strictly intended for individuals, and is for personal use only. If you wish to use Psiphon for any other purpose or have additional requirements, we offer a paid, commercial service. For more details, email <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
         "description": ""
     },
-    "about-open-source-para-1": {
-        "message": "Psiphon is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>.",
-        "description": ""
+    "page-keyword-instructions": {
+        "message": "instructions",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-developers": {
+        "message": "developers",
+        "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted phone.<br><br>This option will be unavailable for non-rooted phones with an older version of Android.",
@@ -222,6 +302,10 @@
     "user-guide-windows-para-verify-authentic": {
         "message": "You should first <a href=\"./faq.html#authentic-windows\">verify that your copy of Psiphon for Windows is authentic</a>.",
         "description": ""
+    },
+    "page-keyword-code": {
+        "message": "code",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-vpn-dns-question": {
         "message": "When I connect to Psiphon for Windows in VPN mode, none of my web pages load. I get error messages indicating that a domain lookup failed.",
@@ -234,6 +318,14 @@
     "what-is-psiphon-body-para-1": {
         "message": "Psiphon is a circumvention tool from Psiphon Inc. that utilizes VPN, SSH and HTTP Proxy technology to provide you with uncensored access to Internet content. Your Psiphon client will automatically learn about new access points to maximize your chances of bypassing censorship.",
         "description": ""
+    },
+    "user-guide-description": {
+        "message": "Psiphon user guide showing how to use Psiphon on Mobile and Windows platforms",
+        "description": "description for the user guide page"
+    },
+    "blog-index-nav-title": {
+        "message": "Our Blog",
+        "description": "Text for the navigation bar link to the blog"
     },
     "about-get-latest-info-para-1-users-list": {
         "message": "Psiphon User Group",
@@ -271,6 +363,10 @@
         "message": "Is Psiphon for Windows compatible with IE, Firefox, Safari, and Chrome web browsers?",
         "description": ""
     },
+    "page-keyword-landing-page": {
+        "message": "landing page",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-authentic-android-answer-para-3": {
         "message": "Psiphon for Android auto-updates itself, and this process automatically verifies that each update is authentic.",
         "description": ""
@@ -286,6 +382,10 @@
     "psiphon": {
         "message": "Psiphon",
         "description": ""
+    },
+    "download-meta-title": {
+        "message": "Download Android app and Windows client",
+        "description": "meta title for the download page"
     },
     "user-guide-windows-para-1": {
         "message": "Müşderi programmasyny göçürip alyp, ony işlediň. Ony işledeniňizde, bu programmanyň Psiphon Inc. kompaniýasynyň kanuny önümidigini görkezýän howpsuzlyk sowalyny görersiňiz.",
@@ -303,6 +403,10 @@
         "message": "User Guide",
         "description": "text for the user guide page navigation item"
     },
+    "page-keyword-updates": {
+        "message": "updates",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-authentic-windows-answer-para-3": {
         "message": "The certificate valid for the for the period May 21, 2011 to July 30, 2014 the SHA1 thumbprint is:",
         "description": ""
@@ -310,6 +414,10 @@
     "index-title": {
         "message": "Welcome to your new Internet",
         "description": "Page title for the index page"
+    },
+    "faq-meta-title": {
+        "message": "Frequently Asked Questions",
+        "description": "meta title for the FAQ page"
     },
     "about-privacy-head": {
         "message": "Privacy Policy",
@@ -331,12 +439,28 @@
         "message": "Connection duration",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
     },
+    "open-source-para-4-list-start": {
+        "message": "Android:",
+        "description": ""
+    },
+    "open-source-title": {
+        "message": "Open Source",
+        "description": ""
+    },
     "license-terms-of-use-para": {
         "message": "This software is distributed “as is” with all faults and without warranty of any kind. By using Psiphon, You agree not to use the software in any manner that violates Canadian law, or the rights of a third party.",
         "description": ""
     },
     "faq-configure-applications-question": {
         "message": "How do I configure applications to use the Psiphon tunnel in SSH modes?",
+        "description": ""
+    },
+    "page-keyword-circumvention": {
+        "message": "circumvention",
+        "description": "web page meta keyword used for SEO"
+    },
+    "open-source-meta-title": {
+        "message": "Open Source",
         "description": ""
     },
     "license-para-1": {
@@ -357,7 +481,11 @@
     },
     "user-guide-title": {
         "message": "How to Use Psiphon",
-        "description": "title for the user guide page"
+        "description": "page title for the user guide page"
+    },
+    "faq-description": {
+        "message": "Answers to frequently asked questions about Psiphon",
+        "description": "description for the FAQ page"
     },
     "faq-information-collected-answer-para-2-item-9": {
         "message": "Müşderi platformasy (ýönekeýleşdirilen operasiýa ulgamy sanawy, mysal üçin, jikme-jik däl ulanyjy wekili)",
@@ -372,8 +500,12 @@
         "description": ""
     },
     "download-via-email-head": {
-        "message": "Download via email",
+        "message": "Download via Email",
         "description": ""
+    },
+    "donate-body": {
+        "message": "You can help Psiphon provide free access to the Open Internet for everyone. Choose one of these options.",
+        "description": "The body of the page section that shows the donation buttons"
     },
     "download-windows-direct": {
         "message": "Psiphon for Windows",
@@ -386,6 +518,14 @@
     "sponsor-para-2": {
         "message": "You will see a banner of your choice, which will be linked to a page on your site. This is a unique opportunity to reach a large audience of technically-aware people using Psiphon to add a layer of security to their Internet browsing.",
         "description": ""
+    },
+    "page-keyword-how-to": {
+        "message": "how to",
+        "description": "web page meta keyword used for SEO"
+    },
+    "sponsor-description": {
+        "message": "Become a sponsor by advertising on a landing page, or donate individually to the Psiphon project",
+        "description": "Page description for the Sponsorship page"
     },
     "about-get-latest-info-para-1-list-start": {
         "message": "Join our mailing lists:",
@@ -411,9 +551,29 @@
         "message": "Psiphon automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPSec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting).",
         "description": ""
     },
+    "page-keyword-vpn": {
+        "message": "vpn",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-partnerships": {
+        "message": "partnerships",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-development": {
+        "message": "development",
+        "description": "web page meta keyword used for SEO"
+    },
     "blog-index-title": {
-        "message": "The Psiphon Team Blog",
+        "message": "Team Blog",
         "description": ""
+    },
+    "about-who-we-are-software-development-para-3": {
+        "message": "Psiphon's software development team strives to deliver the best, fastest, easiest, and most open circumvention solutions. We're also exploring new areas where our expertise can protect, empower, and free the minds of users worldwide.",
+        "description": ""
+    },
+    "page-keyword-windows": {
+        "message": "windows",
+        "description": "web page meta keyword used for SEO"
     },
     "privacy-para-3": {
         "message": "Psiphon is designed to provide you with open access to online content. Psiphon does not increase your online privacy, and should not be considered or used as an online security tool.",
@@ -425,6 +585,10 @@
     },
     "main-pick-three-head-1": {
         "message": "Trust, Speed, Simplicity: pick three",
+        "description": ""
+    },
+    "about-who-we-are-software-development-head": {
+        "message": "Software Development",
         "description": ""
     },
     "faq-connection-failed-answer-para-1": {
@@ -443,21 +607,25 @@
         "message": "Things to note:",
         "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
     },
+    "about-who-we-are-partners-para-2": {
+        "message": "One of our most successful partnerships is with <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a>, who provide translation and support services in Farsi, and have been instrumental in helping us grow our audience.",
+        "description": ""
+    },
     "resources-nav-title": {
         "message": "Resources",
         "description": "title for the Resources"
-    },
-    "about-open-source-para-4-list-start": {
-        "message": "Android:",
-        "description": ""
     },
     "user-guide-windows-image-3-alt": {
         "message": "Image showing Psiphon connected on Windows",
         "description": "alt text for an image"
     },
-    "about-open-source-para-3-list-start": {
-        "message": "Windows:",
-        "description": ""
+    "page-keyword-donate": {
+        "message": "donate",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-sponsor": {
+        "message": "sponsor",
+        "description": "web page meta keyword used for SEO"
     },
     "nav-title": {
         "message": "Navigation",
@@ -467,9 +635,29 @@
         "message": "Psiphon for Windows auto-updates itself, and this process automatically verifies that each update is authentic.",
         "description": ""
     },
+    "page-keyword-help": {
+        "message": "help",
+        "description": "web page meta keyword used for SEO"
+    },
+    "about-who-we-are-partners-head": {
+        "message": "Partnerships",
+        "description": ""
+    },
+    "blog-index-description": {
+        "message": "Behind the scenes with the Psiphon team",
+        "description": ""
+    },
     "faq-information-collected-answer-para-7-item-4": {
         "message": "How much free memory your computer has",
         "description": ""
+    },
+    "page-keyword-app-store": {
+        "message": "app store",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-psiphon-team": {
+        "message": "psiphon team",
+        "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-1": {
         "message": "Psiphon is running in VPN or Whole Device mode. All applications are tunneled through Psiphon.",
@@ -481,7 +669,7 @@
     },
     "about-title": {
         "message": "About Us",
-        "description": "title for the About page"
+        "description": "page title for the About page"
     },
     "faq-information-collected-answer-para-8-item-1": {
         "message": "Android version",
@@ -503,9 +691,17 @@
         "message": "What is the file \"psiphon3.exe.orig\"?",
         "description": ""
     },
+    "index-meta-title": {
+        "message": "Uncensored Internet access for Windows and Mobile",
+        "description": "Meta title for the index page"
+    },
     "faq-information-collected-answer-para-8-item-2": {
         "message": "Model of phone",
         "description": ""
+    },
+    "page-keyword-play-store": {
+        "message": "play store",
+        "description": "web page meta keyword used for SEO"
     },
     "license-termination-terms-of-service-violations-header": {
         "message": "Termination; Terms of Service Violations",
@@ -523,6 +719,10 @@
         "message": "Posts in your language",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
+    "open-source-para-3-list-start": {
+        "message": "Windows:",
+        "description": ""
+    },
     "download-now-button": {
         "message": "Download Now",
         "description": "The text on the Download Now button"
@@ -539,6 +739,10 @@
         "message": "Shows what version of Psiphon you are currently running",
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
+    "open-source-nav-title": {
+        "message": "Open Source",
+        "description": ""
+    },
     "license-statement-of-limitations-of-liability-para": {
         "message": "This software is distributed “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this software including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
         "description": ""
@@ -551,6 +755,10 @@
         "message": "Office of the Ontario Privacy Commissioner",
         "description": ""
     },
+    "about-who-we-are-ops-head": {
+        "message": "Operations and Outreach",
+        "description": ""
+    },
     "main-gets-you-where-you-want-head-1": {
         "message": "Gets you where you want to go...",
         "description": ""
@@ -559,13 +767,25 @@
         "message": "Täze hyzmatlaryň tapylyşynyň ýygylygy",
         "description": ""
     },
+    "open-source-para-1": {
+        "message": "Psiphon is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>.",
+        "description": ""
+    },
     "main-gets-you-where-you-want-head-2": {
         "message": "Censored by your country, corporation, or campus?",
         "description": ""
     },
+    "page-keyword-download": {
+        "message": "download",
+        "description": "web page meta keyword used for SEO"
+    },
     "what-is-psiphon-body-para-2": {
         "message": "Psiphon is designed to provide you with open access to online content. Psiphon does not increase your online privacy, and should not be considered or used as an online security tool.",
         "description": ""
+    },
+    "page-keyword-manual": {
+        "message": "manual",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-polipo-different-port-answer-para-1": {
         "message": "Yes, on Windows. Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserLocalHTTPProxyPort</code>. Set its value to the port (in Decimal) that you would like to use.",
@@ -575,13 +795,21 @@
         "message": "Licensed under",
         "description": "The beginning of the 'Licensed under [license name here]' footer text"
     },
+    "open-source-para-2": {
+        "message": "Psiphon clients use the following open source components.",
+        "description": ""
+    },
     "download-android-playstore": {
         "message": "Psiphon for Android in the Google Play Store",
         "description": "text for link to Psiphon for Android in the Google Play Store"
     },
+    "page-keyword-contact": {
+        "message": "contact",
+        "description": "web page meta keyword used for SEO"
+    },
     "download-title": {
         "message": "Download Psiphon",
-        "description": "title for the download page"
+        "description": "page title for the download page"
     },
     "faq-authentic-android-answer-para-1": {
         "message": "Each Psiphon for Android client is shipped as an Android APK file (\".apk\") that is digitally signed by Psiphon Inc. The Psiphon Inc. certificate public key is as follows:",
@@ -591,8 +819,16 @@
         "message": "Psiphon for Android direct download",
         "description": "text for link to Psiphon for Android direct download"
     },
+    "page-keyword-home-page": {
+        "message": "home page",
+        "description": "web page meta keyword used for SEO"
+    },
     "faq-information-collected-answer-para-6": {
         "message": "When you choose to submit feedback through Psiphon you will have the option of including diagnostic data. We use this data to help us troubleshoot any problems you might be having and to help us keep Psiphon running smoothly. Sending this data is entirely optional. The data is encrypted before you send it, and can only be decrypted by us. The information in the data varies by platform, but it may include:",
+        "description": ""
+    },
+    "about-who-we-are-head": {
+        "message": "Who We Are",
         "description": ""
     },
     "faq-browser-compatibility-answer-para-1": {
@@ -615,6 +851,18 @@
         "message": "If you do not have access to the Google Play Store, you can download and install (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideload</a>\") Psiphon for Android directly.",
         "description": ""
     },
+    "page-keyword-user-guide": {
+        "message": "user guide",
+        "description": "web page meta keyword used for SEO"
+    },
+    "about-meta-title": {
+        "message": "About Us",
+        "description": "meta title for the About page"
+    },
+    "sponsor-banner-alt-text": {
+        "message": "Sponsor banner",
+        "description": "alt text for an image"
+    },
     "faq-port-restrictions-answer-para-1": {
         "message": "Outbound connections from the Psiphon for Windows VPN can be made only on the following ports: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25 and 587. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information.",
         "description": ""
@@ -622,6 +870,10 @@
     "download-android-playstore-description": {
         "message": "Compatible with Android 2.2 and up. Whole device mode requires Android 4.0 and up or a <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">rooted device</a>.",
         "description": ""
+    },
+    "sponsor-meta-title": {
+        "message": "Sponsorship, advertising, and donations",
+        "description": "Page title for the Sponsorship page"
     },
     "faq-check-version-question": {
         "message": "How do I check my current version of Psiphon?",
@@ -634,6 +886,10 @@
     "sponsor-header-sponsored-by": {
         "message": "Sponsored by",
         "description": ""
+    },
+    "page-keyword-privacy": {
+        "message": "privacy",
+        "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
         "message": "Psiphon will automatically configure your system to use a local HTTP/HTTPS proxy at <code>127.0.0.1:8080</code> and a local SOCKS proxy at <code>127.0.0.1:1080</code>. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon for Windows (SSH modes) and Psiphon for Android run these local proxies.",
@@ -679,6 +935,10 @@
         "message": "Göçürip al",
         "description": "text for the Download page navigation item"
     },
+    "about-who-we-are-exec-team-para-2": {
+        "message": "Karl Kathuria is the VP of Commercial Management, and has recently joined the team in Toronto from London. He is responsible for managing the business relationships with our broadcast and distribution partners, and for finding new opportunities for the company’s activities.",
+        "description": ""
+    },
     "faq-polipo-different-port-question": {
         "message": "Can I run the local HTTP proxy on a different port than 8080?",
         "description": ""
@@ -687,13 +947,21 @@
         "message": "Beýgeldişleriň sany",
         "description": ""
     },
+    "page-keyword-censorship": {
+        "message": "censorship",
+        "description": "web page meta keyword used for SEO"
+    },
+    "blog-index-meta-title": {
+        "message": "The Psiphon Team Blog",
+        "description": ""
+    },
     "user-guide-windows-para-4": {
         "message": "In SSH and SSH+ modes, Psiphon automatically sets the Windows system proxy settings and traffic for applications that respect these settings tunnel through Psiphon. These settings are respected by default by all major web browsers.",
         "description": ""
     },
-    "about-open-source-para-2": {
-        "message": "Psiphon clients use the following open source components.",
-        "description": ""
+    "page-keyword-advertise": {
+        "message": "advertise",
+        "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-statistics-image-alt": {
         "message": "Image showing Psiphon running on Android, on the statistics panel",
@@ -710,6 +978,10 @@
     "faq-authentic-android-answer-alert": {
         "message": "<b>ALERT:</b> A recently <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">reported</a> vulnerability may cause Android app signature checking to falsely report malicious APKs as valid. We recommend that users turn on the Google Verify Apps feature as documented <a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">here</a>.",
         "description": ""
+    },
+    "page-keyword-http-proxy": {
+        "message": "http proxy",
+        "description": "web page meta keyword used for SEO"
     },
     "about-nav-title": {
         "message": "About Us",
@@ -747,6 +1019,10 @@
         "message": "Image showing the Android setting for allowing non-Play Store apps",
         "description": "alt text for an image"
     },
+    "page-keyword-contribute": {
+        "message": "contribute",
+        "description": "web page meta keyword used for SEO"
+    },
     "main-gets-you-where-you-want-para-1": {
         "message": "After dealing with repressive regimes around the world, we are uniquely suited to help you get to the content you want, whenever and wherever you want it.",
         "description": ""
@@ -755,12 +1031,12 @@
         "message": "You should first <a href=\"./faq.html#authentic-android\">verify that your copy of Psiphon for Android is authentic</a>.",
         "description": ""
     },
+    "download-description": {
+        "message": "Direct free Psiphon download for Windows and Android",
+        "description": "title for the download page"
+    },
     "faq-information-collected-answer-para-2-item-1": {
         "message": "Müşderini göçürip almak baglanyşygy üçin e-poçta islegleriniň sany",
-        "description": ""
-    },
-    "about-open-source-head": {
-        "message": "Open Source",
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {

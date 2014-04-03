@@ -11,6 +11,14 @@
     "message": "Welcome to your new Internet",
     "description": "Page title for the index page"
   },
+  "index-meta-title": {
+    "message": "Uncensored Internet access for Windows and Mobile",
+    "description": "Meta title for the index page"
+  },
+  "index-description": {
+    "message": "Psiphon is circumvention software for Windows and Mobile platforms that provides uncensored access to Internet content",
+    "description": "Page description for the index page"
+  },
   "nav-language-title" : {
     "message": "Choose your language"
   },
@@ -18,12 +26,20 @@
     "message": "Navigation"
   },
   "faq-title": {
-    "message": "FAQ",
+    "message": "Frequently Asked Questions",
     "description": "title for the FAQ page"
+  },
+  "faq-meta-title": {
+    "message": "Frequently Asked Questions",
+    "description": "meta title for the FAQ page"
   },
   "faq-nav-title": {
     "message": "FAQ",
     "description": "text for the FAQ page navigation item"
+  },
+  "faq-description": {
+    "message": "Answers to frequently asked questions about Psiphon",
+    "description": "description for the FAQ page"
   },
   "resources-nav-title": {
     "message": "Resources",
@@ -31,19 +47,35 @@
   },
   "user-guide-title": {
     "message": "How to Use Psiphon",
-    "description": "title for the user guide page"
+    "description": "page title for the user guide page"
+  },
+  "user-guide-meta-title": {
+    "message": "How to use Psiphon on Mobile and Windows",
+    "description": "meta title for the user guide page"
   },
   "user-guide-nav-title": {
     "message": "User Guide",
     "description": "text for the user guide page navigation item"
   },
+  "user-guide-description": {
+    "message": "Psiphon user guide showing how to use Psiphon on Mobile and Windows platforms",
+    "description": "description for the user guide page"
+  },
   "download-title": {
     "message": "Download Psiphon",
-    "description": "title for the download page"
+    "description": "page title for the download page"
+  },
+  "download-meta-title": {
+    "message": "Download Android app and Windows client",
+    "description": "meta title for the download page"
   },
   "download-nav-title": {
     "message": "Download",
     "description": "text for the Download page navigation item"
+  },
+  "download-description": {
+    "message": "Direct free Psiphon download for Windows and Android",
+    "description": "title for the download page"
   },
   "faq-authentic-windows-image-alt": {
     "message": "Image showing how to check the Psiphon executable signature on Windows",
@@ -78,6 +110,17 @@
   },
   "faq-authentic-android-answer-para-3": {
     "message": "Psiphon for Android auto-updates itself, and this process automatically verifies that each update is authentic."
+  },
+  "faq-android-enable-sideloading-question": {
+    "message": "How do I enable Android \"sideloading\"?"
+  },
+  "faq-android-enable-sideloading-answer-para-1": {
+    "message": "In order to install a direct download of Psiphon for Android, you must enable \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". To do so, go into your Android settings, then into the \"Security\" section, then enable \"Unknown sources\".",
+    "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+  },
+  "faq-android-enable-sideloading-image-alt": {
+    "message": "screenshot of enabling sideloading",
+    "description": "alt text for an image"
   },
   "faq-information-collected-question": {
     "message": "What user information does Psiphon collect?"
@@ -294,26 +337,19 @@
   },
   "about-title": {
     "message": "About Us",
-    "description": "title for the About page"
+    "description": "page title for the About page"
+  },
+  "about-meta-title": {
+    "message": "About Us",
+    "description": "meta title for the About page"
   },
   "about-nav-title": {
     "message": "About Us",
     "description": "text for the About page navigation item"
   },
-  "about-open-source-head": {
-    "message": "Open Source"
-  },
-  "about-open-source-para-1": {
-    "message": "Psiphon is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>."
-  },
-  "about-open-source-para-2": {
-    "message": "Psiphon clients use the following open source components."
-  },
-  "about-open-source-para-3-list-start": {
-    "message": "Windows:"
-  },
-  "about-open-source-para-4-list-start": {
-    "message": "Android:"
+  "about-description": {
+    "message": "Meet the team behind Psiphon's Internet circumvention software",
+    "description": "description for the About page"
   },
   "about-get-latest-info-head": {
     "message": "Get the latest information about Psiphon"
@@ -361,8 +397,14 @@
   "download-android-amazon-description": {
     "message": "Compatible with Android 2.2 and up. Whole device mode requires Android 4.0 and up or a <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">rooted device</a>."
   },
+  "download-store-head": {
+    "message": "Store Downloads"
+  },
+  "download-direct-head": {
+    "message": "Direct Downloads"
+  },
   "download-via-email-head": {
-    "message": "Download via email"
+    "message": "Download via Email"
   },
   "download-via-email-description": {
     "message": "If our website or download links are blocked or censored, you may request to have the downloads sent to you via email."
@@ -382,10 +424,7 @@
     "message": "You should first <a href=\"./faq.html#authentic-android\">verify that your copy of Psiphon for Android is authentic</a>."
   },
   "user-guide-android-para-1": {
-    "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation."
-  },
-  "user-guide-android-para-2": {
-    "message": "To install a Psiphon APK, you must enable the option in your Android device to install non-Play Store apps. Psiphon for Android will automatically update itself."
+    "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)"
   },
   "user-guide-android-para-3": {
     "message": "When you launch the Psiphon app, it will automatically start connecting to the Psiphon network."
@@ -515,11 +554,17 @@
     "description": "alt text for an image"
   },
   "blog-index-title": {
+    "message": "Team Blog"
+  },
+  "blog-index-meta-title": {
     "message": "The Psiphon Team Blog"
   },
-  "blog-nav-title": {
+  "blog-index-nav-title": {
     "message": "Our Blog",
     "description": "Text for the navigation bar link to the blog"
+  },
+  "blog-index-description": {
+    "message": "Behind the scenes with the Psiphon team"
   },
   "blog-index-intro": {
     "message": "Psiphon Inc. is a Canadian company, and most of the members of our team are native English speakers. This means that our blog posts are originally in English. We will translate them into other languages as we can."
@@ -536,12 +581,24 @@
     "message": "Become a Sponsor",
     "description": "Page title for the Sponsorship page"
   },
+  "sponsor-meta-title": {
+    "message": "Sponsorship, advertising, and donations",
+    "description": "Page title for the Sponsorship page"
+  },
   "sponsor-nav-title": {
     "message": "Sponsor",
     "description": "Navigation text for the Sponsorship page"
   },
+  "sponsor-description": {
+    "message": "Become a sponsor by advertising on a landing page, or donate individually to the Psiphon project",
+    "description": "Page description for the Sponsorship page"
+  },
   "sponsor-header-sponsored-by": {
     "message": "Sponsored by"
+  },
+  "sponsor-banner-alt-text": {
+    "message": "Sponsor banner",
+    "description": "alt text for an image"
   },
   "sponsor-para-1": {
     "message": "Everyone who loads Psiphon will see the landing page whenever they connect with the software. Sponsorship opportunities are available by the week for this page."
@@ -554,6 +611,9 @@
   },
   "license-title": {
     "message": "Psiphon End-User License Agreement"
+  },
+  "license-meta-title": {
+    "message": "End-User License Agreement"
   },
   "license-nav-title": {
     "message": "License"
@@ -597,17 +657,53 @@
   "license-termination-terms-of-service-violations-para-2": {
     "message": "As the user, You are free to terminate this license agreement at any time by discontinuing use of any and all parts of the Psiphon software, and deleting all instances of the software application from Your device."
   },
+  "about-who-we-are-head": {
+    "message": "Who We Are"
+  },
+  "about-who-we-are-para-1": {
+    "message": "Psiphon Inc is a company based in Toronto, producing open-source multi-platform software that helps over 3 million people every week connect to content on the Internet. We’re a team focused on delivering the best software we can, introducing new products regularly and making sure we develop to the needs of our constantly growing global audience."
+  },
+  "about-who-we-are-exec-team-head": {
+    "message": "Exec Team"
+  },
+  "about-who-we-are-exec-team-para-1": {
+    "message": "Michael Hull is the Chief Operating Officer, and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game."
+  },
+  "about-who-we-are-exec-team-para-2": {
+    "message": "Karl Kathuria is the VP of Commercial Management, and has recently joined the team in Toronto from London. He is responsible for managing the business relationships with our broadcast and distribution partners, and for finding new opportunities for the company’s activities."
+  },
+  "about-who-we-are-software-development-head": {
+    "message": "Software Development"
+  },
+  "about-who-we-are-software-development-para-1": {
+    "message": "At Psiphon, we need our users to have a good experience. That means that our software needs to be easy to use, our network needs to be fast, and they both need to be rock-solid stable. This is tough for any developers to achieve, but especialy so when your software has to operate in an ever-changing adversarial environment and across many languages and platforms."
+  },
+  "about-who-we-are-software-development-para-2": {
+    "message": "We also know that it's just as important to work hard for our users behind the scenes. We protect our users and their data to the utmost. Users might never notice the measures to ensure their privacy and security, but we know they appreciate it."
+  },
+  "about-who-we-are-software-development-para-3": {
+    "message": "Psiphon's software development team strives to deliver the best, fastest, easiest, and most open circumvention solutions. We're also exploring new areas where our expertise can protect, empower, and free the minds of users worldwide."
+  },
+  "about-who-we-are-ops-head": {
+    "message": "Operations and Outreach"
+  },
+  "about-who-we-are-ops-para-1": {
+    "message": "We have contracts in place with a range of companies, from large-scale international broadcasters to small human rights organizations operating in single countries. Our Operations and Outreach team compiles reports showing them how many people are accessing Psiphon through their distribution methods. They also study trends and look out for upcoming events that might impact the free flow of information on the Internet."
+  },
+  "about-who-we-are-partners-head": {
+    "message": "Partnerships"
+  },
+  "about-who-we-are-partners-para-1": {
+    "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our web proxy software in 15 languages, and are adding more to our Windows and Mobile products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Open Technology Fund’s hub."
+  },
+  "about-who-we-are-partners-para-2": {
+    "message": "One of our most successful partnerships is with <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a>, who provide translation and support services in Farsi, and have been instrumental in helping us grow our audience."
+  },
   "about-contact-head": {
     "message": "Contact Us"
   },
   "contact-email-para": {
     "message": "You can contact Psiphon by sending an email to:"
-  },
-  "contact-sponsor-para": {
-    "message": "For sponsorship opportunities, click on the link above or email:"
-  },
-  "contact-sponsor-email": {
-    "message": "sponsor@psiphon.ca"
   },
   "about-privacy-head": {
     "message": "Privacy Policy"
@@ -651,5 +747,173 @@
   "donate-body": {
     "message": "You can help Psiphon provide free access to the Open Internet for everyone. Choose one of these options.",
     "description": "The body of the page section that shows the donation buttons"
+  },
+  "open-source-title": {
+    "message": "Open Source"
+  },
+  "open-source-meta-title": {
+    "message": "Open Source"
+  },
+  "open-source-nav-title": {
+    "message": "Open Source"
+  },
+  "open-source-description": {
+    "message": "Psiphon is open source Internet circumvention software"
+  },
+  "open-source-para-1": {
+    "message": "Psiphon is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>."
+  },
+  "open-source-para-2": {
+    "message": "Psiphon clients use the following open source components."
+  },
+  "open-source-para-3-list-start": {
+    "message": "Windows:"
+  },
+  "open-source-para-4-list-start": {
+    "message": "Android:"
+  },
+  "page-keyword-download": {
+    "message": "download",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-vpn": {
+    "message": "vpn",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-ssh": {
+    "message": "ssh",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-http-proxy": {
+    "message": "http proxy",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-proxy": {
+    "message": "proxy",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-censorship": {
+    "message": "censorship",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-circumvention": {
+    "message": "circumvention",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-psiphon3": {
+    "message": "psiphon3",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-android": {
+    "message": "android",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-windows": {
+    "message": "windows",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-play-store": {
+    "message": "play store",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-app-store": {
+    "message": "app store",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-psiphon1": {
+    "message": "psiphon1",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-psiphon2": {
+    "message": "psiphon2",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-user-guide": {
+    "message": "user guide",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-instructions": {
+    "message": "instructions",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-manual": {
+    "message": "manual",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-how-to": {
+    "message": "how to",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-help": {
+    "message": "help",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-psiphon-team": {
+    "message": "psiphon team",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-developers": {
+    "message": "developers",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-partnerships": {
+    "message": "partnerships",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-contact": {
+    "message": "contact",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-privacy": {
+    "message": "privacy",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-blog": {
+    "message": "blog",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-updates": {
+    "message": "updates",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-code": {
+    "message": "code",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-development": {
+    "message": "development",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-open-source": {
+    "message": "open source",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-source-code": {
+    "message": "source code",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-advertise": {
+    "message": "advertise",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-sponsor": {
+    "message": "sponsor",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-donate": {
+    "message": "donate",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-contribute": {
+    "message": "contribute",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-landing-page": {
+    "message": "landing page",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-home-page": {
+    "message": "home page",
+    "description": "web page meta keyword used for SEO"
   }
 }
