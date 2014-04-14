@@ -125,6 +125,19 @@
   "faq-information-collected-question": {
     "message": "What user information does Psiphon collect?"
   },
+  "faq-information-collected-answer-head-1": {
+    "message": "Psiphon Servers"
+  },
+  "faq-information-collected-answer-head-2": {
+    "message": "Feedback"
+  },
+  "faq-information-collected-answer-head-3": {
+    "message": "Email Responder"
+  },
+  "faq-information-collected-answer-head-4": {
+    "message": "App Stores",
+    "description": "this is referring to the general idea of app stores, like Google Play, Amazon AppStore, Apple App Store"
+  },
   "faq-information-collected-answer-para-1": {
     "message": "We collect the following data to find out how well Psiphon is working, what sites are popular and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries."
   },
@@ -199,6 +212,30 @@
   },
   "faq-information-collected-answer-para-10": {
     "message": "Note that if you get Psiphon from an \"app store\" -- such as Google Play or Amazon AppStore -- additional statistics may be collected by that store. For example, here is a description of what Google Play collects:"
+  },
+  "faq-information-collected-answer-para-11": {
+    "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). We do not allow your email address to be written to the system's log file."
+  },
+  "faq-information-collected-answer-para-12": {
+    "message": "Our email server is hosted in the Amazon EC2 cloud and we use Amazon SES for one of our two email responses. This means that Amazon is able to see the email you send and our response to you."
+  },
+  "faq-information-collected-answer-para-13": {
+    "message": "For each email we receive, we store the following information:"
+  },
+  "faq-information-collected-answer-para-13-item-1": {
+    "message": "The date and time the email request was received."
+  },
+  "faq-information-collected-answer-para-13-item-2": {
+    "message": "The date and time the email request was replied to."
+  },
+  "faq-information-collected-answer-para-13-item-3": {
+    "message": "The size of the email."
+  },
+  "faq-information-collected-answer-para-13-item-4": {
+    "message": "The mail server the email request came from. (Specifically, the three least specific parts of the domain name. For example, <code>ne1.yahoo.com</code>, but not <code>web120113.mail.ne1.yahoo.com</code>.)"
+  },
+  "faq-information-collected-answer-para-14": {
+    "message": "If we need to diagnose a problem, we may enable full mail server logging for a short amount of time. If you send an email during that time, your email address will be written to the system log. Those logs are deleted after one week."
   },
   "faq-ip-change-question": {
     "message": "Why does my Psiphon IP address frequently change?"
