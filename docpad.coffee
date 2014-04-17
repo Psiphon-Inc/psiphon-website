@@ -119,6 +119,11 @@ docpadConfig = {
         title_key: 'open-source-title'
         nav_title_key: 'open-source-nav-title'
 
+      'privacy-bulletin':
+        filename: '/privacy-bulletin.html'
+        title_key: 'privacy-bulletin-title'
+        nav_title_key: 'privacy-bulletin-nav-title'
+
     navLayout: [
       { name: 'download' }
       {
@@ -329,14 +334,12 @@ docpadConfig = {
       return no
 
 
-    # Returns the date formatted for the locale
+    # Returns a formatted date
     formatDate: (date) ->
-      # Maybe we should use the JavaScript Date toLocaleDateString()?
-      # Returning ISO8601 date for now
-      # Note: getUTCMonth returns a 0-based month number and we want 1-based for the format
-      month = date.getUTCMonth() + 1
-      if month < 10 then month = '0' + month
-      return "#{date.getUTCFullYear()}-#{month}-#{date.getUTCDate()}"
+      # Note that Node does not have the ability to properly localize dates, so
+      # we're just ouputting a standard date string and then letting browser
+      # code do the actual localization.
+      return date.toISOString()
 
 
     # Get the language appropriate absolute URL for a language-relative URL.

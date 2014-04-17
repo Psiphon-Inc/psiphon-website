@@ -1,4 +1,25 @@
+# Copyright (c) 2014, Psiphon Inc.
+# All rights reserved.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 $ ->
+
+  # Make the language switcher maintain the current anchor (if any).
+  if window.location.hash
+    $('.languages .dropdown-menu > li > a').each ->
+      $(@).prop('href', $(@).prop('href') + window.location.hash)
 
   #
   # Add the FAQ table of contents
@@ -79,3 +100,26 @@ $ ->
         setTimeout(
           -> window.resizeBy(-1, 0),
           1)
+
+  # If there are dates on the page that should be localized, localize them.
+  $('.localize-date').each (idx, elem) ->
+    locale = $('html').prop('lang')
+    if locale == 'fa'
+      # Most Farsi speakers use the Persian calendar
+      locale = "#{locale}-u-ca-persian"
+
+    date = new Date($(elem).text())
+
+    # TODO: Are there more special-case calendars? See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
+    $(elem).text(date.toLocaleDateString(locale))
+
+  if endsWith(window.location.pathname, '/download.html')
+    # If the anchor is for the "direct downloads" section, move that section to
+    # the top.
+    if window.location.hash == '#direct'
+      $('#direct').insertBefore('#store')
+
+
+# From: https://stackoverflow.com/a/2548133/729729
+endsWith = (str, suffix) ->
+  return str.indexOf(suffix, str.length - suffix.length) != -1

@@ -3,6 +3,7 @@
 @import "../../files/vendor/twitter-bootstrap/less/responsive-utilities";
 @import "../../files/vendor/twitter-bootstrap/less/type";
 @import "../../files/vendor/twitter-bootstrap/less/utilities";
+@import "../../files/vendor/twitter-bootstrap/less/grid";
 @import "_rtl-support";
 @import "_annotations";
 
@@ -270,6 +271,39 @@ footer {
 .blog-post-info {
   margin-bottom: 1em;
 }
+
+/*
+ * Privacy bulletin
+ */
+
+.bulletin-entry {
+  margin-top: 3em;
+  border-top: thin lighten(@text-color, 60%) solid;
+}
+
+.bulletin-entry-title-container {
+  .row();
+}
+
+.bulletin-entry-title {
+  .make-rtl-md-col(0, 12, 0);
+}
+
+.bulletin-entry-item {
+  .row();
+  margin-bottom: 0.5em;
+}
+
+.bulletin-entry-item-head {
+  .make-rtl-sm-col(0, 3, 9);
+  .text-right-rtl(@screen-xs-max);
+  font-weight: bold;
+}
+
+.bulletin-entry-item-body {
+  .make-rtl-sm-col(3, 9, 0);
+}
+
 
 /*
  * Helpers for dealing with equal-height columns
