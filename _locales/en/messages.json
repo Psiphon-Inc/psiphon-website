@@ -217,7 +217,7 @@
     "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). We do not allow your email address to be written to the system's log file."
   },
   "faq-information-collected-answer-para-12": {
-    "message": "Our email server is hosted in the Amazon EC2 cloud and we use Amazon SES for one of our two email responses. This means that Amazon is able to see the email you send and our response to you."
+    "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. We send two email responses to every request, and for one of those responses we use Amazon SES. This means that Amazon is able to see the email you send and our response to you."
   },
   "faq-information-collected-answer-para-13": {
     "message": "For each email we receive, we store the following information:"
