@@ -119,6 +119,11 @@ docpadConfig = {
         title_key: 'open-source-title'
         nav_title_key: 'open-source-nav-title'
 
+      'privacy-bulletin':
+        filename: '/privacy-bulletin.html'
+        title_key: 'privacy-bulletin-title'
+        nav_title_key: 'privacy-bulletin-nav-title'
+
     navLayout: [
       { name: 'download' }
       {

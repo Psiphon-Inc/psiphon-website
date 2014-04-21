@@ -96,6 +96,7 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
     <h3><%= @tt 'faq-information-collected-question' %></h3>
   </div>
   <div class="faq-answer">
+    <h3><%= @tt 'faq-information-collected-answer-head-1' %></h3>
     <p>
       <%= @tt 'faq-information-collected-answer-para-1' %>
     </p>
@@ -122,6 +123,11 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
       <%= @tt 'faq-information-collected-answer-para-5' %>
     </p>
     <p>
+      <%- @tt 'faq-information-collected-answer-para-9' %>
+    </p>
+
+    <h3><%= @tt 'faq-information-collected-answer-head-2' %></h3>
+    <p>
       <%= @tt 'faq-information-collected-answer-para-6' %>
     </p>
     <p>
@@ -141,9 +147,28 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
         <li><%= @tt 'faq-information-collected-answer-para-8-item-3' %></li>
       </ul>
     </p>
+
+    <h3><%= @tt 'faq-information-collected-answer-head-3' %></h3>
     <p>
-      <%= @tt 'faq-information-collected-answer-para-9' %>
+      <%= @tt 'faq-information-collected-answer-para-11' %>
     </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-12' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-13' %>
+      <ul>
+        <li><%= @tt 'faq-information-collected-answer-para-13-item-1' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-13-item-2' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-13-item-3' %></li>
+        <li><%- @tt 'faq-information-collected-answer-para-13-item-4' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-14' %>
+    </p>
+
+    <h3><%= @tt 'faq-information-collected-answer-head-4' %></h3>
     <p>
       <%= @tt 'faq-information-collected-answer-para-10' %>
       <a href="https://support.google.com/googleplay/android-developer/answer/139628?hl=<%= @document.language %>" target="_blank">https://support.google.com/googleplay/android-developer/answer/139628?hl=<%= @document.language %></a>
