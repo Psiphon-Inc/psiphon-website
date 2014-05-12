@@ -10,6 +10,9 @@ layout: page
     <p>
       <%- @tt 'license-para-2' %>
     </p>
+    <p>
+      <%- @tt 'license-para-3' %>
+    </p>
     <h2>
       <%= @tt 'license-terms-of-use-header' %>
     </h2>
@@ -17,16 +20,16 @@ layout: page
       <%= @tt 'license-terms-of-use-para' %>
     </p>
     <h2>
-      <%= @tt 'license-distribution-header' %>
-    </h2>
-    <p>
-      <%= @tt 'license-distribution-para' %>
-    </p>
-    <h2>
       <%= @tt 'license-personal-or-specified-use-header' %>
     </h2>
     <p>
       <%= @tt 'license-personal-or-specified-use-para' %>
+    </p>
+    <h2>
+      <%= @tt 'license-distribution-header' %>
+    </h2>
+    <p>
+      <%- @tt 'license-distribution-para' %>
     </p>
     <h2>
       <%= @tt 'license-statement-of-limitations-of-liability-header' %>

@@ -102,3 +102,25 @@
   .make-sm-column-offset(3);
   .make-sm-column(6);
 }
+
+
+/*
+This mixin provides a way to RTL-friendly right-alignment of text.
+`@stopwidth` is the width at which it should turn off right-alignment.
+*/
+.text-right-rtl(@stopwidth) {
+  .text-right();
+  body[dir="rtl"] & {
+    // Reverse if RTL
+    .text-left();
+  }
+
+  // When the column collapses on XS screens, just align normally.
+  @media (max-width: @stopwidth) {
+    .text-left();
+    body[dir="rtl"] & {
+      .text-right();
+    }
+  }
+}
+
