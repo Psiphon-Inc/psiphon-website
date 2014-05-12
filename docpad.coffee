@@ -51,7 +51,7 @@ docpadConfig = {
 
 
     # Enabled languages
-    languages: ['en', 'fa', 'ar', 'zh', 'ru', 'uz@cyrillic', 'uz@Latn', 'tk', 'th', 'az', 'ug@Latn', 'kk', 'es', 'vi', 'nb']
+    languages: ['en', 'fa', 'ar', 'tr', 'zh', 'ru', 'uz@cyrillic', 'uz@Latn', 'tk', 'th', 'az', 'ug@Latn', 'kk', 'es', 'vi', 'nb']
 
     # Translation file location.
     translation_files:
@@ -70,6 +70,7 @@ docpadConfig = {
       es: './_locales/es/messages.json'
       vi: './_locales/vi/messages.json'
       nb: './_locales/nb/messages.json'
+      tr: './_locales/tr/messages.json'
 
     # Translations will be loaded into this object.
     translations: {}
@@ -315,6 +316,7 @@ docpadConfig = {
         "ug@Latn": "Uyghurche"
         "kk": "қазақ тілі"
         "vi": "Tiếng Việt"
+        "tr": "Türkçe"
       if map[languageCode]
         map[languageCode]
       else
