@@ -60,7 +60,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "download-list-join": {
-        "message": "加入我们的&lt;a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\"&gt;公告邮件组&lt;/a&gt;获得重要公告和安全建议。",
+        "message": "加入我们的<a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">公告邮件组</a>获得重要公告和安全建议。",
         "description": ""
     },
     "about-get-latest-info-para-1-developers-list": {
@@ -140,7 +140,7 @@
         "description": "Navigation text for the Sponsorship page"
     },
     "download-android-amazon-description": {
-        "message": "与Android 2.2及更高版本兼容 。全局模式需要 Android 4.0及更高版本，或一台&lt;a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\"&gt;已经root的设备&lt;/a&gt;。",
+        "message": "与Android 2.2及更高版本兼容 。全局模式需要 Android 4.0及更高版本，或一台<a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">已经root的设备</a>。",
         "description": ""
     },
     "license-nav-title": {
@@ -219,6 +219,10 @@
         "message": "Michael Hull 担任运营总监, 当赛风在多伦多大学的公民实验室作为一个项目启动时, Michael Hull 在赛风公司创建之初就一直效力. 他一直领导赛风软件的开发, 不断创新使得赛风科技遥遥领先.",
         "description": ""
     },
+    "faq-authentic-windows-answer-para-2017": {
+        "message": "For the certificate valid for the period 2014-05-08 to 2017-09-06 the SHA1 thumbprint is:",
+        "description": ""
+    },
     "donate-heading": {
         "message": "为赛风做出贡献",
         "description": "The heading of the page section that shows the donation buttons"
@@ -276,7 +280,7 @@
         "description": ""
     },
     "alert-body": {
-        "message": "赛风团队发现了特定类型的恶意软件可以伪装成赛风3的Windows版本。该恶意软件伪装成名为\"pisphone3.zip\"的zip文件在www.copy.com和洽渠道进行传播。Zip文件包含一个名为\"pisphone3.exe\"的恶意二进制文件，下面的文件是具体的属性描述\n<ahref=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>。 请注意拼写错误的名称。此Windows可执行文件没有赛风公司的数字签名。在检查数字签名前，请不要运行新下载的赛风。如下 <a href=\"#authentic-windows\">所述：</a>。",
+        "message": "赛风团队发现了特定类型的恶意软件可以伪装成赛风3的Windows版本。该恶意软件伪装成名为\"pisphone3.zip\"的zip文件在www.copy.com和洽渠道进行传播。Zip文件包含一个名为\"pisphone3.exe\"的恶意二进制文件，下面的文件是具体的属性描述\n<a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>。 请注意拼写错误的名称。此Windows可执行文件没有赛风公司的数字签名。在检查数字签名前，请不要运行新下载的赛风。如下 <a href=\"#authentic-windows\">所述：</a>。",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "faq-information-collected-answer-para-5": {
@@ -332,11 +336,11 @@
         "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "要以“全局代理”模式运行 Psiphon，您必须是Android 4.0+ 版本或拥有一台已 root 的手机。&lt;br&gt;&lt;br&gt;对于没有root并且安卓版本较旧手机无法使用。",
+        "message": "要以“全局代理”模式运行 Psiphon，您必须是Android 4.0+ 版本或拥有一台已 root 的手机。<br><br>对于没有root并且安卓版本较旧手机无法使用。",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "user-guide-windows-para-verify-authentic": {
-        "message": "您首先应当&lt;a href=\"./faq.html#authentic-windows\"&gt;验证您的赛风windows版本为正版&lt;/a&gt;。",
+        "message": "您首先应当<a href=\"./faq.html#authentic-windows\">验证您的赛风windows版本为正版</a>。",
         "description": ""
     },
     "page-keyword-code": {
@@ -432,7 +436,7 @@
         "description": ""
     },
     "faq-authentic-windows-answer-para-2": {
-        "message": "在证书对话框中，详细信息选项卡会显示赛风公司证书公钥的SHA1指纹。证书有效期间2011年6月16日至2012年6月21日。SHA1指纹是:",
+        "message": "For the certificate valid for the period 2011-06-16 to 2012-06-21 the SHA1 thumbprint is:",
         "description": ""
     },
     "what-is-psiphon-heading": {
@@ -448,7 +452,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-authentic-windows-answer-para-3": {
-        "message": "证书有效期间2011年05月21日至2014年07月30日。SHA1指纹是:",
+        "message": "For the certificate valid for the period 2012-05-21 to 2014-07-30 the SHA1 thumbprint is:",
         "description": ""
     },
     "index-title": {
@@ -660,7 +664,7 @@
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
-        "message": "&lt;span style=\"color:grey\"&gt;灰色&lt;/span&gt;：正在连&lt;br&gt;&lt;span style=\"color:red\"&gt;红色&lt;/span&gt;：未连接&lt;br&gt;&lt;span style=\"color:Blue\"&gt;蓝色&lt;/span&gt;：已连接",
+        "message": "<span style=\"color:grey\">灰色</span>：正在连<br><span style=\"color:red\">红色</span>：未连接<br><span style=\"color:Blue\">蓝色</span>：已连接",
         "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
     },
     "privacy-bulletin-entry-item-head-why-doing": {
@@ -892,7 +896,7 @@
         "description": ""
     },
     "faq-polipo-different-port-answer-para-1": {
-        "message": "可以，在 Windows系统中。单击“运行”，并输入 &lt;code&gt;regedit&lt;/code&gt; 打开注册表编辑器。找到并打开 &lt;code&gt;HKEY_CURRENT_USER\\Software\\Psiphon3&lt;/code&gt;，在右侧您将看到 &lt;code&gt;UserLocalHTTPProxyPort&lt;/code&gt;。设置其数值为您希望使用的端口号（十进制）。",
+        "message": "可以，在 Windows系统中。单击“运行”，并输入 <code>regedit</code> 打开注册表编辑器。找到并打开 <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>，在右侧您将看到 <code>UserLocalHTTPProxyPort</code>。设置其数值为您希望使用的端口号（十进制）。",
         "description": ""
     },
     "footer-license": {
@@ -956,7 +960,7 @@
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
-        "message": "如果您无法访问 Google Play 商店，您可以直接下载、安装赛风的安卓版本 (\"&lt;a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\"&gt;sideload&lt;/a&gt;\") ",
+        "message": "如果您无法访问 Google Play 商店，您可以直接下载、安装赛风的安卓版本 (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideload</a>\") ",
         "description": ""
     },
     "page-keyword-user-guide": {
@@ -980,7 +984,7 @@
         "description": ""
     },
     "download-android-playstore-description": {
-        "message": "与Android 2.2 及更高版本兼容。全局模式需要 Android 4.0 及更高版本，或一台&lt;a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\"&gt;已经root的设备&lt;/a&gt;。",
+        "message": "与Android 2.2 及更高版本兼容。全局模式需要 Android 4.0 及更高版本，或一台<a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">已经root的设备</a>。",
         "description": ""
     },
     "download-store-head": {
@@ -1032,7 +1036,7 @@
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "赛风根据白名单来限制 DNS流量，审查DNS服务器。赛风3客户端自动配置你VPN的DNS服务器设置。如果你收到有关DNS错误消息，请检查确认你没有被恶意软件 “DNS Changer”感染，因为该软件会试图修改你的DNS服务器设置。你可以在这里找到更多信息<ahref=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>.",
+        "message": "赛风根据白名单来限制 DNS流量，审查DNS服务器。赛风3客户端自动配置你VPN的DNS服务器设置。如果你收到有关DNS错误消息，请检查确认你没有被恶意软件 “DNS Changer”感染，因为该软件会试图修改你的DNS服务器设置。你可以在这里找到更多信息<a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>.",
         "description": ""
     },
     "about-get-latest-info-head": {
@@ -1172,7 +1176,7 @@
         "description": ""
     },
     "user-guide-android-para-verify-authentic": {
-        "message": "首先您应当&lt;a href=\"./faq.html#authentic-android\"&gt;核实你的赛风安卓版是正版</a>.",
+        "message": "首先您应当<a href=\"./faq.html#authentic-android\">核实你的赛风安卓版是正版</a>.",
         "description": ""
     },
     "download-description": {
@@ -1188,7 +1192,7 @@
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {
-        "message": "赛风windows版从来没有作为安装的软件包来传播。每个赛风windows版本的客户端都是一个单一的(\".exe\")可执行文件，都有赛风公司的数字签名。当您运行客户端时，Windows系统会自动检查此签名。您也可以手动检查签名，方法是在运行客户端之前，先打开文件的属性对话框中，检查数字签名选项卡。",
+        "message": "Psiphon for Windows is never distributed as an installable package. Each Psiphon for Windows client is a single executable file (\".exe\") that is digitally signed by Psiphon Inc. Windows automatically checks this signature when you run the client. You can also manually inspect the signature before running the client by invoking the Properties dialog for the file and inspecting the Digital Signatures tab. The SHA1 thumbprint for the Psiphon Inc. certificate public key is displayed in the Certificate dialog Details tab.",
         "description": ""
     },
     "user-guide-windows-para-6": {
