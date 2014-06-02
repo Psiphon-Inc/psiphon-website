@@ -87,10 +87,10 @@ layout: page
     </p>
     <ul>
       <li>
-        <a href="<%- @tt 'privacy-canadian-privacy-commission-link-url' %>" target="_blank"><%= @tt 'privacy-canadian-privacy-commission-link-text' %></a>
+        <a href="http://www.priv.gc.ca/" target="_blank"><%= @tt 'privacy-canadian-privacy-commission-link-text' %></a>
       </li>
       <li>
-        <a href="<%- @tt 'privacy-ontario-privacy-commissioner-link-url' %>" target="_blank"><%= @tt 'privacy-ontario-privacy-commissioner-link-text' %></a>
+        <a href="http://www.ipc.on.ca/" target="_blank"><%= @tt 'privacy-ontario-privacy-commissioner-link-text' %></a>
       </li>
     </ul>
     <p>
