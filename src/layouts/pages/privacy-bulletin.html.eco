@@ -1,0 +1,83 @@
+---
+layout: page
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <p>
+      <%- @tt 'privacy-bulletin-intro-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
+      <h2><%= @tt 'privacy-bulletin-entry-1-title' %></h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-1-what-doing' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-1-why-doing' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-1-when-doing' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-data' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-1-what-data' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-how-long-retained' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-1-how-long-retained' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-how-many-users' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-1-how-many-users' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-who-will-see' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-1-who-will-see' %>
+    </div>
+  </div>
+
+</div>

@@ -11,6 +11,14 @@
     "message": "Welcome to your new Internet",
     "description": "Page title for the index page"
   },
+  "index-meta-title": {
+    "message": "Uncensored Internet access for Windows and Mobile",
+    "description": "Meta title for the index page"
+  },
+  "index-description": {
+    "message": "Psiphon is circumvention software for Windows and Mobile platforms that provides uncensored access to Internet content",
+    "description": "Page description for the index page"
+  },
   "nav-language-title" : {
     "message": "Choose your language"
   },
@@ -18,12 +26,20 @@
     "message": "Navigation"
   },
   "faq-title": {
-    "message": "FAQ",
+    "message": "Frequently Asked Questions",
     "description": "title for the FAQ page"
+  },
+  "faq-meta-title": {
+    "message": "Frequently Asked Questions",
+    "description": "meta title for the FAQ page"
   },
   "faq-nav-title": {
     "message": "FAQ",
     "description": "text for the FAQ page navigation item"
+  },
+  "faq-description": {
+    "message": "Answers to frequently asked questions about Psiphon",
+    "description": "description for the FAQ page"
   },
   "resources-nav-title": {
     "message": "Resources",
@@ -31,19 +47,35 @@
   },
   "user-guide-title": {
     "message": "How to Use Psiphon",
-    "description": "title for the user guide page"
+    "description": "page title for the user guide page"
+  },
+  "user-guide-meta-title": {
+    "message": "How to use Psiphon on Mobile and Windows",
+    "description": "meta title for the user guide page"
   },
   "user-guide-nav-title": {
     "message": "User Guide",
     "description": "text for the user guide page navigation item"
   },
+  "user-guide-description": {
+    "message": "Psiphon user guide showing how to use Psiphon on Mobile and Windows platforms",
+    "description": "description for the user guide page"
+  },
   "download-title": {
     "message": "Download Psiphon",
-    "description": "title for the download page"
+    "description": "page title for the download page"
+  },
+  "download-meta-title": {
+    "message": "Download Android app and Windows client",
+    "description": "meta title for the download page"
   },
   "download-nav-title": {
     "message": "Download",
     "description": "text for the Download page navigation item"
+  },
+  "download-description": {
+    "message": "Direct, free Psiphon download for Windows and Android",
+    "description": "title for the download page"
   },
   "faq-authentic-windows-image-alt": {
     "message": "Image showing how to check the Psiphon executable signature on Windows",
@@ -53,13 +85,16 @@
     "message": "Is my Psiphon for Windows authentic?"
   },
   "faq-authentic-windows-answer-para-1": {
-    "message": "Psiphon for Windows is never distributed as an installable package. Each Psiphon for Windows client is a single executable file (\".exe\") that is digitally signed by Psiphon Inc. Windows automatically checks this signature when you run the client. You can also manually inspect the signature before running the client by invoking the Properties dialog for the file and inspecting the Digital Signatures tab."
+    "message": "Psiphon for Windows is never distributed as an installable package. Each Psiphon for Windows client is a single executable file (\".exe\") that is digitally signed by Psiphon Inc. Windows automatically checks this signature when you run the client. You can also manually inspect the signature before running the client by invoking the Properties dialog for the file and inspecting the Digital Signatures tab. The SHA1 thumbprint for the Psiphon Inc. certificate public key is displayed in the Certificate dialog Details tab."
   },
-  "faq-authentic-windows-answer-para-2": {
-    "message": "The SHA1 thumbprint for the Psiphon Inc. certificate public key is displayed in the Certificate dialog Details tab. For the certificate valid for the period June 16, 2011 to June 21, 2012 the SHA1 thumbprint is:"
+  "faq-authentic-windows-answer-para-2017": {
+    "message": "For the certificate valid for the period 2014-05-08 to 2017-09-06 the SHA1 thumbprint is:"
   },
   "faq-authentic-windows-answer-para-3": {
-    "message": "The certificate valid for the for the period May 21, 2011 to July 30, 2014 the SHA1 thumbprint is:"
+    "message": "For the certificate valid for the period 2012-05-21 to 2014-07-30 the SHA1 thumbprint is:"
+  },
+  "faq-authentic-windows-answer-para-2": {
+    "message": "For the certificate valid for the period 2011-06-16 to 2012-06-21 the SHA1 thumbprint is:"
   },
   "faq-authentic-windows-answer-para-4": {
     "message": "Psiphon for Windows auto-updates itself, and this process automatically verifies that each update is authentic."
@@ -79,8 +114,32 @@
   "faq-authentic-android-answer-para-3": {
     "message": "Psiphon for Android auto-updates itself, and this process automatically verifies that each update is authentic."
   },
+  "faq-android-enable-sideloading-question": {
+    "message": "How do I enable Android \"sideloading\"?"
+  },
+  "faq-android-enable-sideloading-answer-para-1": {
+    "message": "In order to install a direct download of Psiphon for Android, you must enable \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". To do so, go into your Android settings, then into the \"Security\" section, then enable \"Unknown sources\".",
+    "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+  },
+  "faq-android-enable-sideloading-image-alt": {
+    "message": "screenshot of enabling sideloading",
+    "description": "alt text for an image"
+  },
   "faq-information-collected-question": {
     "message": "What user information does Psiphon collect?"
+  },
+  "faq-information-collected-answer-head-1": {
+    "message": "Psiphon Servers"
+  },
+  "faq-information-collected-answer-head-2": {
+    "message": "Feedback"
+  },
+  "faq-information-collected-answer-head-3": {
+    "message": "Email Responder"
+  },
+  "faq-information-collected-answer-head-4": {
+    "message": "App Stores",
+    "description": "this is referring to the general idea of app stores, like Google Play, Amazon AppStore, Apple App Store"
   },
   "faq-information-collected-answer-para-1": {
     "message": "We collect the following data to find out how well Psiphon is working, what sites are popular and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries."
@@ -152,7 +211,34 @@
     "message": "Whether your phone is rooted"
   },
   "faq-information-collected-answer-para-9": {
-    "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry here describing what was recorded, how long it was kept, and why."
+    "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry to the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> describing what was recorded, how long it was kept, and why."
+  },
+  "faq-information-collected-answer-para-10": {
+    "message": "Note that if you get Psiphon from an \"app store\" -- such as Google Play or Amazon AppStore -- additional statistics may be collected by that store. For example, here is a description of what Google Play collects:"
+  },
+  "faq-information-collected-answer-para-11": {
+    "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). We do not allow your email address to be written to the system's log file."
+  },
+  "faq-information-collected-answer-para-12": {
+    "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. We send two email responses to every request, and for one of those responses we use Amazon SES. This means that Amazon is able to see the email you send and our response to you."
+  },
+  "faq-information-collected-answer-para-13": {
+    "message": "For each email we receive, we store the following information:"
+  },
+  "faq-information-collected-answer-para-13-item-1": {
+    "message": "The date and time the email request was received."
+  },
+  "faq-information-collected-answer-para-13-item-2": {
+    "message": "The date and time the email request was replied to."
+  },
+  "faq-information-collected-answer-para-13-item-3": {
+    "message": "The size of the email."
+  },
+  "faq-information-collected-answer-para-13-item-4": {
+    "message": "The mail server the email request came from. (Specifically, the three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)"
+  },
+  "faq-information-collected-answer-para-14": {
+    "message": "If we need to diagnose a problem, we may enable full mail server logging for a short amount of time. If you send an email during that time, your email address will be written to the system log. Those logs are deleted after one week."
   },
   "faq-ip-change-question": {
     "message": "Why does my Psiphon IP address frequently change?"
@@ -294,26 +380,19 @@
   },
   "about-title": {
     "message": "About Us",
-    "description": "title for the About page"
+    "description": "page title for the About page"
+  },
+  "about-meta-title": {
+    "message": "About Us",
+    "description": "meta title for the About page"
   },
   "about-nav-title": {
     "message": "About Us",
     "description": "text for the About page navigation item"
   },
-  "about-open-source-head": {
-    "message": "Open Source"
-  },
-  "about-open-source-para-1": {
-    "message": "Psiphon is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>."
-  },
-  "about-open-source-para-2": {
-    "message": "Psiphon clients use the following open source components."
-  },
-  "about-open-source-para-3-list-start": {
-    "message": "Windows:"
-  },
-  "about-open-source-para-4-list-start": {
-    "message": "Android:"
+  "about-description": {
+    "message": "Meet the team behind Psiphon's Internet circumvention software",
+    "description": "description for the About page"
   },
   "about-get-latest-info-head": {
     "message": "Get the latest information about Psiphon"
@@ -361,8 +440,15 @@
   "download-android-amazon-description": {
     "message": "Compatible with Android 2.2 and up. Whole device mode requires Android 4.0 and up or a <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">rooted device</a>."
   },
+  "download-store-head": {
+    "message": "App Store Downloads",
+    "description": "This refers to Google Play, Amazon's AppStore, and any similar app stores"
+  },
+  "download-direct-head": {
+    "message": "Direct Downloads"
+  },
   "download-via-email-head": {
-    "message": "Download via email"
+    "message": "Download via Email"
   },
   "download-via-email-description": {
     "message": "If our website or download links are blocked or censored, you may request to have the downloads sent to you via email."
@@ -382,10 +468,7 @@
     "message": "You should first <a href=\"./faq.html#authentic-android\">verify that your copy of Psiphon for Android is authentic</a>."
   },
   "user-guide-android-para-1": {
-    "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation."
-  },
-  "user-guide-android-para-2": {
-    "message": "To install a Psiphon APK, you must enable the option in your Android device to install non-Play Store apps. Psiphon for Android will automatically update itself."
+    "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)"
   },
   "user-guide-android-para-3": {
     "message": "When you launch the Psiphon app, it will automatically start connecting to the Psiphon network."
@@ -515,11 +598,17 @@
     "description": "alt text for an image"
   },
   "blog-index-title": {
+    "message": "Team Blog"
+  },
+  "blog-index-meta-title": {
     "message": "The Psiphon Team Blog"
   },
-  "blog-nav-title": {
+  "blog-index-nav-title": {
     "message": "Our Blog",
     "description": "Text for the navigation bar link to the blog"
+  },
+  "blog-index-description": {
+    "message": "Behind the scenes with the Psiphon team"
   },
   "blog-index-intro": {
     "message": "Psiphon Inc. is a Canadian company, and most of the members of our team are native English speakers. This means that our blog posts are originally in English. We will translate them into other languages as we can."
@@ -536,12 +625,24 @@
     "message": "Become a Sponsor",
     "description": "Page title for the Sponsorship page"
   },
+  "sponsor-meta-title": {
+    "message": "Sponsorship, advertising, and donations",
+    "description": "Page title for the Sponsorship page"
+  },
   "sponsor-nav-title": {
     "message": "Sponsor",
     "description": "Navigation text for the Sponsorship page"
   },
+  "sponsor-description": {
+    "message": "Become a sponsor by advertising on a landing page, or donate individually to the Psiphon project",
+    "description": "Page description for the Sponsorship page"
+  },
   "sponsor-header-sponsored-by": {
     "message": "Sponsored by"
+  },
+  "sponsor-banner-alt-text": {
+    "message": "Sponsor banner",
+    "description": "alt text for an image"
   },
   "sponsor-para-1": {
     "message": "Everyone who loads Psiphon will see the landing page whenever they connect with the software. Sponsorship opportunities are available by the week for this page."
@@ -555,6 +656,9 @@
   "license-title": {
     "message": "Psiphon End-User License Agreement"
   },
+  "license-meta-title": {
+    "message": "End-User License Agreement"
+  },
   "license-nav-title": {
     "message": "License"
   },
@@ -562,52 +666,92 @@
     "message": "This software and all associated intellectual property is the property of Psiphon Inc., an Ontario registered corporation with its head office in Toronto, Ontario Canada."
   },
   "license-para-2": {
-    "message": "This version of Psiphon is strictly intended for individuals, and is for personal use only. If you wish to use Psiphon for any other purpose or have additional requirements, we offer a paid, commercial service. For more details, email <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>"
+    "message": "The Psiphon system consists of both “software” (program source code and applications derived from that code) and a “service” (a system of client and server software that make up a functioning whole). The Psiphon software and source code are <a href=\"https://en.wikipedia.org/wiki/Free_and_open_source_software\" target=\"_blank\">free and open-source</a> and <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/LICENSE?at=default\" target=\"_blank\">are licensed</a> under the <a href=\"https://www.gnu.org/copyleft/gpl.html\" target=\"_blank\">GNU General Public License Version 3</a>. Use of the Psiphon service is licensed under the terms described on this page.",
+    "description": "Please modify the Wikipedia link to point to the correct language entry"
+  },
+  "license-para-3": {
+    "message": "The Psiphon service is strictly intended for individuals, and is for personal use only. If you wish to use Psiphon for any other purpose or have additional requirements, we offer a paid, commercial service. For more details, email <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>."
   },
   "license-terms-of-use-header": {
     "message": "Terms of Use"
   },
   "license-terms-of-use-para": {
-    "message": "This software is distributed “as is” with all faults and without warranty of any kind. By using Psiphon, You agree not to use the software in any manner that violates Canadian law, or the rights of a third party."
+    "message": "By using the Psiphon service, you agree not to use it in any manner that violates Canadian law, or the rights of a third party."
   },
   "license-distribution-header": {
     "message": "Distribution"
   },
   "license-distribution-para": {
-    "message": "Psiphon is free, non-commercial software. You are welcome to distribute and transmit it in any format - electronic or otherwise - for personal, non-commercial use only and in accordance with the terms of this license."
+    "message": "Only software clients created by Psiphon Inc. are permitted to use the Psiphon service. It is a violation of this license to distribute or use a third-party client or tool for use with the Psiphon service."
   },
   "license-personal-or-specified-use-header": {
     "message": "Personal or Specified Use"
   },
   "license-personal-or-specified-use-para": {
-    "message": "This is non-commercial software and is granted under a non-exclusive, personal license. By using Psiphon, You agree to use the software for personal, non-commercial use only. You may not (and may not allow a third party to) rent, lease, sublicense, sell, resell or otherwise distribute Psiphon for commercial purposes."
+    "message": "Use of the Psiphon service is granted under a non-exclusive, personal license. By using Psiphon, you agree to use the service for personal, non-commercial use only. You may not (and may not allow a third party to) rent, lease, sublicense, sell, resell or otherwise distribute use of the Psiphon service for commercial purposes."
   },
   "license-statement-of-limitations-of-liability-header": {
     "message": "Statement of Limitations of Liability"
   },
   "license-statement-of-limitations-of-liability-para": {
-    "message": "This software is distributed “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this software including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption."
+    "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption."
   },
   "license-termination-terms-of-service-violations-header": {
     "message": "Termination; Terms of Service Violations"
   },
   "license-termination-terms-of-service-violations-para-1": {
-    "message": "Psiphon reserves the right at its sole discretion to terminate this license at any time for any or no reason, and without penalty. By using Psiphon, You agree not to use the software in any manner that violates the terms of service and license agreement."
+    "message": "Psiphon reserves the right at its sole discretion to terminate this license at any time for any or no reason, and without penalty. By using Psiphon, you agree not to use the service in any manner that violates the terms of service and license agreement."
   },
   "license-termination-terms-of-service-violations-para-2": {
-    "message": "As the user, You are free to terminate this license agreement at any time by discontinuing use of any and all parts of the Psiphon software, and deleting all instances of the software application from Your device."
+    "message": "As the user, you are free to terminate this license agreement at any time by discontinuing use of any and all parts of the Psiphon service, and deleting all instances of the software application from your device."
+  },
+  "about-who-we-are-head": {
+    "message": "Who We Are"
+  },
+  "about-who-we-are-para-1": {
+    "message": "Psiphon Inc. is a company based in Toronto, producing open-source multi-platform software that helps over 3 million people every week connect to content on the Internet. We’re a team focused on delivering the best software we can, introducing new products regularly and making sure we develop to the needs of our constantly growing global audience."
+  },
+  "about-who-we-are-exec-team-head": {
+    "message": "Exec Team"
+  },
+  "about-who-we-are-exec-team-para-1": {
+    "message": "Michael Hull is the Chief Operating Officer, and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game."
+  },
+  "about-who-we-are-exec-team-para-2": {
+    "message": "Karl Kathuria is the VP of Commercial Management, and has recently joined the team in Toronto from London. He is responsible for managing the business relationships with our broadcast and distribution partners, and for finding new opportunities for the company’s activities."
+  },
+  "about-who-we-are-software-development-head": {
+    "message": "Software Development"
+  },
+  "about-who-we-are-software-development-para-1": {
+    "message": "At Psiphon, we need our users to have a good experience. That means that our software needs to be easy to use, our network needs to be fast, and they both need to be rock-solid stable. This is tough for any developers to achieve, but especialy so when your software has to operate in an ever-changing adversarial environment and across many languages and platforms."
+  },
+  "about-who-we-are-software-development-para-2": {
+    "message": "We also know that it's just as important to work hard for our users behind the scenes. We protect our users and their data to the utmost. Users might never notice the measures to ensure their privacy and security, but we know they appreciate it."
+  },
+  "about-who-we-are-software-development-para-3": {
+    "message": "Psiphon's software development team strives to deliver the best, fastest, easiest, and most open circumvention solutions. We're also exploring new areas where our expertise can protect, empower, and free the minds of users worldwide."
+  },
+  "about-who-we-are-ops-head": {
+    "message": "Operations and Outreach"
+  },
+  "about-who-we-are-ops-para-1": {
+    "message": "We have contracts in place with a range of companies, from large-scale international broadcasters to small human rights organizations operating in single countries. Our Operations and Outreach team compiles reports showing them how many people are accessing Psiphon through their distribution methods. They also study trends and look out for upcoming events that might impact the free flow of information on the Internet."
+  },
+  "about-who-we-are-partners-head": {
+    "message": "Partnerships"
+  },
+  "about-who-we-are-partners-para-1": {
+    "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our web proxy software in 15 languages, and are adding more to our Windows and Mobile products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Open Technology Fund’s hub."
+  },
+  "about-who-we-are-partners-para-2": {
+    "message": "One of our most successful partnerships is with <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a>, who provide translation and support services in Farsi, and have been instrumental in helping us grow our audience."
   },
   "about-contact-head": {
     "message": "Contact Us"
   },
   "contact-email-para": {
     "message": "You can contact Psiphon by sending an email to:"
-  },
-  "contact-sponsor-para": {
-    "message": "For sponsorship opportunities, click on the link above or email:"
-  },
-  "contact-sponsor-email": {
-    "message": "sponsor@psiphon.ca"
   },
   "about-privacy-head": {
     "message": "Privacy Policy"
@@ -621,27 +765,21 @@
   "privacy-canadian-privacy-commission-link-text": {
     "message": "Canadian Privacy Commission"
   },
-  "privacy-canadian-privacy-commission-link-url": {
-    "message": "http://www.priv.gc.ca/"
-  },
   "privacy-ontario-privacy-commissioner-link-text": {
     "message": "Office of the Ontario Privacy Commissioner"
-  },
-  "privacy-ontario-privacy-commissioner-link-url": {
-    "message": "http://www.ipc.on.ca/"
   },
   "privacy-para-3": {
     "message": "Psiphon is designed to provide you with open access to online content. Psiphon does not increase your online privacy, and should not be considered or used as an online security tool."
   },
   "privacy-para-4": {
-    "message": "<a href=\"./faq.html#information-collected\">Visit the FAQ</a> for details about what information we collect."
+    "message": "<a href=\"./faq.html#information-collected\">Visit the FAQ</a> for details about what data we collect. See the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> for temporary data collection changes."
   },
   "footer-copyright": {
     "message": "Copyright",
     "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
   },
   "footer-license": {
-    "message": "Licensed under",
+    "message": "Site content licensed under",
     "description": "The beginning of the 'Licensed under [license name here]' footer text"
   },
   "donate-heading": {
@@ -651,5 +789,230 @@
   "donate-body": {
     "message": "You can help Psiphon provide free access to the Open Internet for everyone. Choose one of these options.",
     "description": "The body of the page section that shows the donation buttons"
+  },
+  "open-source-title": {
+    "message": "Open Source"
+  },
+  "open-source-meta-title": {
+    "message": "Open Source"
+  },
+  "open-source-nav-title": {
+    "message": "Open Source"
+  },
+  "open-source-description": {
+    "message": "Psiphon is open source Internet circumvention software"
+  },
+  "open-source-para-1": {
+    "message": "Psiphon is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>."
+  },
+  "open-source-para-2": {
+    "message": "Psiphon clients use the following open source components:"
+  },
+  "open-source-para-3-list-start": {
+    "message": "Windows:"
+  },
+  "open-source-para-4-list-start": {
+    "message": "Android:"
+  },
+  "page-keyword-download": {
+    "message": "download",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-vpn": {
+    "message": "vpn",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-ssh": {
+    "message": "ssh",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-http-proxy": {
+    "message": "http proxy",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-proxy": {
+    "message": "proxy",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-censorship": {
+    "message": "censorship",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-circumvention": {
+    "message": "circumvention",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-psiphon3": {
+    "message": "psiphon3",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-android": {
+    "message": "android",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-windows": {
+    "message": "windows",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-play-store": {
+    "message": "play store",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-app-store": {
+    "message": "app store",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-psiphon1": {
+    "message": "psiphon1",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-psiphon2": {
+    "message": "psiphon2",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-user-guide": {
+    "message": "user guide",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-instructions": {
+    "message": "instructions",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-manual": {
+    "message": "manual",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-how-to": {
+    "message": "how to",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-help": {
+    "message": "help",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-psiphon-team": {
+    "message": "psiphon team",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-developers": {
+    "message": "developers",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-partnerships": {
+    "message": "partnerships",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-contact": {
+    "message": "contact",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-privacy": {
+    "message": "privacy",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-blog": {
+    "message": "blog",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-updates": {
+    "message": "updates",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-code": {
+    "message": "code",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-development": {
+    "message": "development",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-open-source": {
+    "message": "open source",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-source-code": {
+    "message": "source code",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-advertise": {
+    "message": "advertise",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-sponsor": {
+    "message": "sponsor",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-donate": {
+    "message": "donate",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-contribute": {
+    "message": "contribute",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-landing-page": {
+    "message": "landing page",
+    "description": "web page meta keyword used for SEO"
+  },
+  "page-keyword-home-page": {
+    "message": "home page",
+    "description": "web page meta keyword used for SEO"
+  },
+  "privacy-bulletin-title": {
+    "message": "Privacy Bulletins"
+  },
+  "privacy-bulletin-meta-title": {
+    "message": "Privacy Bulletins"
+  },
+  "privacy-bulletin-description": {
+    "message": "Privacy Bulletins"
+  },
+  "privacy-bulletin-intro-para-1": {
+    "message": "Our normal data collection practices are described in <a href=\"./faq.html#information-collected\">the FAQ</a>. Whenever we need to temporarily change (increase) our data collection, we will describe here what we're doing and what the impact is."
+  },
+  "privacy-bulletin-entry-item-head-what-doing": {
+    "message": "What we're doing"
+  },
+  "privacy-bulletin-entry-item-head-why-doing": {
+    "message": "Why we're doing it"
+  },
+  "privacy-bulletin-entry-item-head-when-doing": {
+    "message": "When we're doing it"
+  },
+  "privacy-bulletin-entry-item-head-what-data": {
+    "message": "What user data will be collected"
+  },
+  "privacy-bulletin-entry-item-head-how-long-retained": {
+    "message": "How long the data will be retained"
+  },
+  "privacy-bulletin-entry-item-head-how-many-users": {
+    "message": "How many users are affected"
+  },
+  "privacy-bulletin-entry-item-head-who-will-see": {
+    "message": "Who besides Psiphon Inc. will see this data"
+  },
+  "privacy-bulletin-entry-1-title": {
+    "message": "2014-04-17: Enable S3 bucket logging"
+  },
+  "privacy-bulletin-entry-1-what-doing": {
+    "message": "We are enabling access logging for one website Amazon S3 \"bucket\" (i.e., storage container). (For technical reasons, we run dozens of copies of the website in different S3 buckets.)"
+  },
+  "privacy-bulletin-entry-1-why-doing": {
+    "message": "We are doing this to determine how many accesses there are to the \"remote server list\" stored in the bucket. This will help to give us an idea of how many users are failing to connect."
+  },
+  "privacy-bulletin-entry-1-when-doing": {
+    "message": "Logging will be enabled from 2014-04-17T15:00Z to 2014-04-18T15:00Z."
+  },
+  "privacy-bulletin-entry-1-what-data": {
+    "message": "The logging will collect IP addresses, user agents, and timestamps of access to one website. When that data is processed, we will have a count of users divided by geographic region that have accessed the file in question."
+  },
+  "privacy-bulletin-entry-1-how-long-retained": {
+    "message": "The data will be retained no more than one week. We will be keeping the count of users longer -- possibly indefinitely."
+  },
+  "privacy-bulletin-entry-1-how-many-users": {
+    "message": "We don't know for sure yet how many users will be affected (that's why we're doing this), but we suspect it will be fewer than 10,000 users."
+  },
+  "privacy-bulletin-entry-1-who-will-see": {
+    "message": "The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon already serves the files in the website S3 bucket, so they can already access this information.)"
   }
 }

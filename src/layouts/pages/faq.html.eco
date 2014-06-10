@@ -22,16 +22,22 @@ layout: page
       <img class="img-responsive" src="<%= @relativeToRoot '/images/faq/faq-authentic-windows.png' %>" alt="<%= @tt 'faq-authentic-windows-image-alt' %>">
     </p>
     <p>
-      <%= @tt 'faq-authentic-windows-answer-para-2' %>
+      <%= @tt 'faq-authentic-windows-answer-para-2017' %>
     </p>
     <p>
-      <code>8f:b7:ef:bd:20:a9:20:3a:38:37:08:a2:1e:0a:1d:2e:ad:7b:ee:6d</code>
+      <code>9b a0 bd 1c e4 ca f6 20 41 0d 46 47 ae 40 b0 7c 83 c7 31 99</code>
     </p>
     <p>
       <%= @tt 'faq-authentic-windows-answer-para-3' %>
     </p>
     <p>
-      <code>84:c5:13:5b:13:d1:53:96:7e:88:c9:13:86:0e:83:ee:ef:48:8e:91</code>
+      <code>84 c5 13 5b 13 d1 53 96 7e 88 c9 13 86 0e 83 ee ef 48 8e 91</code>
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-windows-answer-para-2' %>
+    </p>
+    <p>
+      <code>8f b7 ef bd 20 a9 20 3a 38 37 08 a2 1e 0a 1d 2e ad 7b ee 6d</code>
     </p>
     <p>
       <%= @tt 'faq-authentic-windows-answer-para-4' %>
@@ -76,11 +82,27 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
+  <span class="anchor-target" id="android-enable-sideloading" data-anchor-text="<%= @tt 'faq-android-enable-sideloading-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-android-enable-sideloading-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-android-enable-sideloading-answer-para-1' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="<%= @relativeToRoot @ttURL '/images/faq/faq-android-enable-sideloading.png' %>" alt="<%= @tt 'faq-android-enable-sideloading-image-alt' %>">
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
   <span class="anchor-target" id="information-collected" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-information-collected-question' %></h3>
   </div>
   <div class="faq-answer">
+    <h3><%= @tt 'faq-information-collected-answer-head-1' %></h3>
     <p>
       <%= @tt 'faq-information-collected-answer-para-1' %>
     </p>
@@ -107,6 +129,11 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
       <%= @tt 'faq-information-collected-answer-para-5' %>
     </p>
     <p>
+      <%- @tt 'faq-information-collected-answer-para-9' %>
+    </p>
+
+    <h3><%= @tt 'faq-information-collected-answer-head-2' %></h3>
+    <p>
       <%= @tt 'faq-information-collected-answer-para-6' %>
     </p>
     <p>
@@ -126,8 +153,31 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
         <li><%= @tt 'faq-information-collected-answer-para-8-item-3' %></li>
       </ul>
     </p>
+
+    <h3><%= @tt 'faq-information-collected-answer-head-3' %></h3>
     <p>
-      <%= @tt 'faq-information-collected-answer-para-9' %>
+      <%= @tt 'faq-information-collected-answer-para-11' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-12' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-13' %>
+      <ul>
+        <li><%= @tt 'faq-information-collected-answer-para-13-item-1' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-13-item-2' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-13-item-3' %></li>
+        <li><%- @tt 'faq-information-collected-answer-para-13-item-4' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-14' %>
+    </p>
+
+    <h3><%= @tt 'faq-information-collected-answer-head-4' %></h3>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-10' %>
+      <a href="https://support.google.com/googleplay/android-developer/answer/139628?hl=<%= @document.language %>" target="_blank">https://support.google.com/googleplay/android-developer/answer/139628?hl=<%= @document.language %></a>
     </p>
   </div>
 </div>

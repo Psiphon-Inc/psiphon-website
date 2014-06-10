@@ -1,6 +1,9 @@
 @import "../../files/vendor/twitter-bootstrap/less/mixins";
 @import "../../files/vendor/twitter-bootstrap/less/variables";
-@import "../../files/vendor/twitter-bootstrap/less/responsive-utilities.less";
+@import "../../files/vendor/twitter-bootstrap/less/responsive-utilities";
+@import "../../files/vendor/twitter-bootstrap/less/type";
+@import "../../files/vendor/twitter-bootstrap/less/utilities";
+@import "../../files/vendor/twitter-bootstrap/less/grid";
 @import "_rtl-support";
 @import "_annotations";
 
@@ -219,6 +222,43 @@ pre.highlighted {
   height: 50px;
 }
 
+.donate-cryptocoin {
+  margin-bottom: 1em;
+
+  .donate-cryptocoin-name {
+    .make-rtl-sm-col(0, 4, 8);
+    font-size: 1.2em;
+
+    > span {
+      vertical-align: text-top;
+    }
+
+    // The cryptocoin name is right aligned, so the names and addresses
+    // look nice.
+    .text-right();
+    body[dir="rtl"] & {
+      // Reverse if RTL
+      .text-left;
+    }
+
+    // When the column collapses on XS screens, just align normally.
+    @media (max-width: @screen-xs-max) {
+      .text-left();
+      body[dir="rtl"] & {
+        .text-right;
+      }
+    }
+  }
+
+  .donate-cryptocoin-address {
+    .make-rtl-sm-col(4, 8, 0);
+    font-family: @font-family-monospace;
+  }
+
+  .donate-cryptocoin-qr {
+  }
+}
+
 footer {
   margin-top: 2em;
   font-size: 0.8em;
@@ -231,6 +271,39 @@ footer {
 .blog-post-info {
   margin-bottom: 1em;
 }
+
+/*
+ * Privacy bulletin
+ */
+
+.bulletin-entry {
+  margin-top: 3em;
+  border-top: thin lighten(@text-color, 60%) solid;
+}
+
+.bulletin-entry-title-container {
+  .row();
+}
+
+.bulletin-entry-title {
+  .make-rtl-md-col(0, 12, 0);
+}
+
+.bulletin-entry-item {
+  .row();
+  margin-bottom: 0.5em;
+}
+
+.bulletin-entry-item-head {
+  .make-rtl-sm-col(0, 3, 9);
+  .text-right-rtl(@screen-xs-max);
+  font-weight: bold;
+}
+
+.bulletin-entry-item-body {
+  .make-rtl-sm-col(3, 9, 0);
+}
+
 
 /*
  * Helpers for dealing with equal-height columns
