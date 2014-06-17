@@ -219,6 +219,10 @@
         "message": "مايكل هول هو المدير التنفيذي للعمليات، وكان مع سايفون منذ البداية، عندما بدأت كمشروع في مختبر المواطن بجامعة تورنتو. قاد منذ ذلك جهدا لتطوير البرمجيات و ساعد على دفع الابتكار الذي سمح لسايفون من البقاء في المراتب الأولى في إختصاصه.",
         "description": ""
     },
+    "faq-authentic-windows-answer-para-2017": {
+        "message": "For the certificate valid for the period 2014-05-08 to 2017-09-06 the SHA1 thumbprint is:",
+        "description": ""
+    },
     "donate-heading": {
         "message": "ساهم لبرنامج سايفُن ",
         "description": "The heading of the page section that shows the donation buttons"
@@ -432,7 +436,7 @@
         "description": ""
     },
     "faq-authentic-windows-answer-para-2": {
-        "message": "المفتاح العام لشهادة بصمة دالة هاش التشفيرية SHA1 لشركة سايفُن المساهمة Psiphon Inc تجده في مفتاح تفاصيل شهادة البرنامج Certificate Details tab. وللفترة من 16/6/2011 ولغاية 21/6/2012 فإنً  بصمة دالة هاش التشفيرية SHA1 هي: ",
+        "message": "For the certificate valid for the period 2011-06-16 to 2012-06-21 the SHA1 thumbprint is:",
         "description": ""
     },
     "what-is-psiphon-heading": {
@@ -448,7 +452,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-authentic-windows-answer-para-3": {
-        "message": "شهادة البرنامج الصالحة للفترة من 21/5/2011 ولغاية 30/7/2014 لبصمة دالة هاش التشفيرية SHA1 هي:",
+        "message": "For the certificate valid for the period 2012-05-21 to 2014-07-30 the SHA1 thumbprint is:",
         "description": ""
     },
     "index-title": {
@@ -1188,7 +1192,7 @@
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {
-        "message": "برنامج سايفُن لأنظمة ويندوز لا يُوزًع أبدا على هيئة مجموعة من التطبيقات الجاهزة للحفظ والتثبيت على الأجهزة. فكلً وكيل لبرنامج سايفُن لأنظمة ويندوز  هو ملف بحدً ذاته قابل للتنفيذ يحمل هذا الإمتداد (\".exe\") والذي يحمل بصمة وتوقيع شركة سايفُن المساهمة Psiphon Inc إلكترونيا. وأنظمة ويندوز تقوم تلقائيا بالتأكد من هذه البصمة والتوقيع قبل تشغيل العميل Client من خلال طلب خصائص الملف والتحقق من مفتاح التوقيع الإلكتروني Digital Signatures tap . ",
+        "message": "Psiphon for Windows is never distributed as an installable package. Each Psiphon for Windows client is a single executable file (\".exe\") that is digitally signed by Psiphon Inc. Windows automatically checks this signature when you run the client. You can also manually inspect the signature before running the client by invoking the Properties dialog for the file and inspecting the Digital Signatures tab. The SHA1 thumbprint for the Psiphon Inc. certificate public key is displayed in the Certificate dialog Details tab.",
         "description": ""
     },
     "user-guide-windows-para-6": {
