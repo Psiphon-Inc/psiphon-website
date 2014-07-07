@@ -51,7 +51,7 @@ docpadConfig = {
 
 
     # Enabled languages
-    languages: ['en', 'fa', 'ar', 'tr', 'zh', 'ru', 'uz@cyrillic', 'uz@Latn', 'tk', 'th', 'az', 'ug@Latn', 'kk', 'es', 'vi', 'nb']
+    languages: ['en', 'fa', 'ar', 'tr', 'zh', 'ru', 'uz@cyrillic', 'uz@Latn', 'tk', 'th', 'az', 'ug@Latn', 'kk', 'es', 'vi', 'fr', 'nb']
 
     # Translation file location.
     translation_files:
@@ -70,6 +70,7 @@ docpadConfig = {
       es: './_locales/es/messages.json'
       vi: './_locales/vi/messages.json'
       nb: './_locales/nb/messages.json'
+      fr: './_locales/fr/messages.json'
       tr: './_locales/tr/messages.json'
 
     # Translations will be loaded into this object.
