@@ -82,6 +82,27 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
+  <span class="anchor-target" id="isp-traffic" data-anchor-text="<%= @tt 'faq-isp-traffic-question-toc' %>"></span>
+  <div class="faq-question">
+    <h3><%- @tt 'faq-isp-traffic-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-isp-traffic-answer-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-isp-traffic-answer-para-2' %>
+    </p>
+    <p>
+      <%- @tt 'faq-isp-traffic-answer-para-3' %>
+    </p>
+    <p>
+      <%- @tt 'faq-isp-traffic-answer-para-4' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
   <span class="anchor-target" id="android-enable-sideloading" data-anchor-text="<%= @tt 'faq-android-enable-sideloading-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-android-enable-sideloading-question' %></h3>
@@ -358,6 +379,27 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
   <div class="faq-answer">
     <p>
       <%- @tt 'faq-autoproxy-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="proxy-auth" data-anchor-text="<%= @tt 'faq-proxy-auth-question-toc' %>"></span>
+  <div class="faq-question">
+    <h3><%- @tt 'faq-proxy-auth-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-proxy-auth-answer-para-1' %>
+    </p>
+    <ol>
+      <li><%- @tt 'faq-proxy-auth-answer-step-1' %></li>
+      <li><%- @tt 'faq-proxy-auth-answer-step-2' %></li>
+      <li><%- @tt 'faq-proxy-auth-answer-step-3' %></li>
+      <li><%- @tt 'faq-proxy-auth-answer-step-4' %></li>
+    </ol>
+    <p>
+      <%- @tt 'faq-proxy-auth-answer-para-3' %>
     </p>
   </div>
 </div>

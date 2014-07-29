@@ -92,7 +92,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-there-safely-para-1": {
-        "message": "Fritt internett er bra, stjålne kaker og kontoer er det ikke. Psiphon gir deg en trygg sti til internett, slik at det ikke spiller noen rolle hvordan nettverk du bruker til å koble til.",
+        "message": "Fritt Internett er bra, stjålne kaker og kontoer er det ikke. Psiphon gir deg en trygg sti til internett, slik at det ikke spiller noen rolle hvordan nettverk du bruker til å koble til.",
         "description": ""
     },
     "user-guide-android-image-3-alt": {
@@ -121,6 +121,10 @@
     },
     "faq-android-enable-sideloading-question": {
         "message": "Hvordan kan jeg skru på \"programvareinstallasjon på si\" i Android?",
+        "description": ""
+    },
+    "faq-proxy-auth-question": {
+        "message": "Hvordan setter jeg opp Psiphon slik at tilkoblinger gjøres gjennom en mellomtjener med identitetsbekreftelse?",
         "description": ""
     },
     "faq-port-restrictions-question": {
@@ -247,6 +251,10 @@
         "message": "Ofte Stilte Spørsmål",
         "description": "title for the FAQ page"
     },
+    "faq-proxy-auth-answer-para-1": {
+        "message": "Noen LAN-miljøre krever at internettilkoblinger går gjennom en mellomtjener (som Squid) der identitetsbekreftelse er påkrevd. Psiphon for Windows kan settes opp for å koble til slike mellomtjenere ved å utføre registerendringer:",
+        "description": ""
+    },
     "about-who-we-are-exec-team-head": {
         "message": "Sjefs-laget",
         "description": ""
@@ -339,6 +347,14 @@
         "message": "For å kjøre Psiphon i hele-fjøla-modus må du ha Android 4.0+ eller en telefon med supberbruker rettigheter (root).<br><br>Dette valget vil ikke være tilgjengelig for telefoner uten denslags eller for gamle versjoner av Android.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
+    "faq-isp-traffic-answer-para-1": {
+        "message": "All data som går gjennom Psiphon er kryptert. Dette betyr at din nettilbyder ikke kan se inholdet i din internettrafikk: nettsider du ser på, dine lynmeldinger, dine opplastinger, osv.",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-2": {
+        "message": "Dog ha det i minnet at Psiphon er myntet på omgåelse av sensur, og ikke er spesialdesignet med tanke på anti-spionasjeformål som sådan. Psiphon hindrer ikke din nettleserhistorikk og informasjonskapsler fra å bli lagret på din maskin. I noen fall kan det hende din Internettrafikk ikke blir sendt i tunnel gjennom Psiphon i SSH eller SSH+modus, for eksempel hvis din nettlesers mellomtjenerinnstillinger er satt opp feil, eller at du har forlatt nettleseren åpen etter at du har avsluttet Psiphon.",
+        "description": ""
+    },
     "user-guide-windows-para-verify-authentic": {
         "message": "Først bør du <a href=\"./faq.html#authentic-windows\">sjekke at din versjon av Psiphon for windows er ekte</a>.",
         "description": ""
@@ -356,7 +372,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
     },
     "what-is-psiphon-body-para-1": {
-        "message": "Psiphon er et omgåelsesverktøy fra Psiphon Inc. som gjør bruk av VPN, SSH og HTTP mellomtjener-tekonologi for å gi deg en usensurert tilgang til innhold på internett. Din Psiphon-klient vil automatisk lære seg nye tilkoblingspunkter for å maksimalisere dine sjanser for å omgå sensur.",
+        "message": "Psiphon er et omgåelsesverktøy fra Psiphon Inc. som gjør bruk av VPN, SSH og HTTP mellomtjener-tekonologi for å gi deg en usensurert tilgang til innhold på Internett. Din Psiphon-klient vil automatisk lære seg nye tilkoblingspunkter for å maksimalisere dine sjanser for å omgå sensur.",
         "description": ""
     },
     "user-guide-description": {
@@ -452,7 +468,7 @@
         "description": ""
     },
     "index-title": {
-        "message": "Velkommen til ditt nye internett",
+        "message": "Velkommen til ditt nye Internett",
         "description": "Page title for the index page"
     },
     "faq-meta-title": {
@@ -611,6 +627,10 @@
         "message": "Psiphon starter automatisk å koble til ved oppstart. Mens tilkobling pågår, vises et spinnende ikon. Du kan velge en av følgende tunnel-modus: VNP VPN (L2TP over IPSec), SSH, eller SSH+ (SSH med ekstra røring i suppa, et tilfeldig lag overlagt SSH for å forhindre bekjentgjøring av protokoll-fingeravtrykk)",
         "description": ""
     },
+    "faq-isp-traffic-answer-para-3": {
+        "message": "Avanserte teknikker som kan spore detaljer i kryptert trafikk, slik som hvilke nettsider som blir lest. Det fremste eksemplet på dette er \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">trafikk-fingeravtrykk</a>\".",
+        "description": ""
+    },
     "page-keyword-vpn": {
         "message": "vpn",
         "description": "web page meta keyword used for SEO"
@@ -640,7 +660,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-3": {
-        "message": "Hvordan du er tilknyttet internett (for eksempel om du bruker PSTN-modem tilkoblet via mellomtjener)",
+        "message": "Hvordan du er tilknyttet Internett (for eksempel om du bruker PSTN-modem tilkoblet via mellomtjener)",
         "description": ""
     },
     "main-pick-three-head-1": {
@@ -691,9 +711,17 @@
         "message": "donér",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-proxy-auth-answer-step-4": {
+        "message": "Angi <code>UserSkipSSHParentProxySettings</code> til <code>0</code>.",
+        "description": ""
+    },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "For å installere en direkte nedlastning av Psiphon for Android, må du skru på \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">programvareinstallasjon på si</a>\". For å gjøre det, gå til Android-innstillingene, dernest Sikkerhets-delen, for så å skru på \"Ukjente kilder\".",
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+    },
+    "faq-isp-traffic-answer-para-4": {
+        "message": "Hvis du krever anonymitet over Internett bør du bruke <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> istedenfor Psiphon.",
+        "description": ""
     },
     "page-keyword-sponsor": {
         "message": "sponsor",
@@ -751,6 +779,10 @@
         "message": "Android-version",
         "description": ""
     },
+    "faq-proxy-auth-question-toc": {
+        "message": "Hvordan setter jeg opp Psiphon slik at tilkoblinger gjøres gjennom en mellomtjener med identitetsbekreftelse?",
+        "description": ""
+    },
     "privacy-bulletin-entry-1-how-many-users": {
         "message": "Vi er ikke sikre på hvor mange brukere dette gjelder (hvilket er grunnen til at det gjøres), men vi antar det er mindre enn 10.000 brukere.",
         "description": ""
@@ -795,6 +827,10 @@
         "message": "Bulletiner på norsk",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
+    "faq-isp-traffic-question": {
+        "message": "Kan min nettilbyder se hva jeg gjør på Internett når jeg bruker Psiphon?",
+        "description": ""
+    },
     "open-source-para-3-list-start": {
         "message": "Windows:",
         "description": ""
@@ -837,6 +873,10 @@
     },
     "about-who-we-are-ops-head": {
         "message": "Operasjoner og spennvidde",
+        "description": ""
+    },
+    "faq-proxy-auth-answer-para-3": {
+        "message": "Desverre støtter vi ikke HTTP-mellomtjening på Psiphon for Android for øyeblikket.",
         "description": ""
     },
     "faq-information-collected-answer-head-4": {
@@ -991,6 +1031,10 @@
         "message": "Hvordan sjekker jeg min versjon av Psiphon?",
         "description": ""
     },
+    "faq-proxy-auth-answer-step-1": {
+        "message": "Kjør <code>regedit.exe</code>.",
+        "description": ""
+    },
     "site-title": {
         "message": "Psiphon: befri ditt nett",
         "description": "the title for the site"
@@ -1025,6 +1069,10 @@
     },
     "faq-autoproxy-question": {
         "message": "Jeg bruker <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a> Hvordan kan jeg få Psiphon for Windows til ikke å konfigurere mine mellomtjener-innstillinger?",
+        "description": ""
+    },
+    "faq-isp-traffic-question-toc": {
+        "message": "Kan min nettilbyder se hva jeg gjør på Internett når jeg bruker Psiphon?",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
@@ -1171,9 +1219,17 @@
         "message": "Først burde du <a href=\"./faq.html#authentic-android\">kontrollere om din versjon av Psiphon for Android er ekte</a>.",
         "description": ""
     },
+    "faq-proxy-auth-answer-step-2": {
+        "message": "Gå til <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
+        "description": ""
+    },
     "download-description": {
         "message": "Direkte, gratis Psiphon-nedlasting for Android og Windows",
         "description": "title for the download page"
+    },
+    "faq-proxy-auth-answer-step-3": {
+        "message": "Rediger følgende verdier:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (forsikre deg om at du sikriver inn portnummberet i <code>desimalnotasjon</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
+        "description": ""
     },
     "download-direct-head": {
         "message": "Direkte nedlastninger",
