@@ -124,7 +124,7 @@
         "description": ""
     },
     "faq-proxy-auth-question": {
-        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
+        "message": "¿Cómo configuro Psiphon para conectar a través de un proxy con autentificación?",
         "description": ""
     },
     "faq-port-restrictions-question": {
@@ -252,7 +252,7 @@
         "description": "title for the FAQ page"
     },
     "faq-proxy-auth-answer-para-1": {
-        "message": "Some LAN environments require internet connections to go through a proxy (like Squid) that requires authentication. Psiphon for Windows can be configured to connect through such proxies by editing the registry:",
+        "message": "Algunos entornos LAN requieren conexiones a Internet para atravesar un proxy (como Squid) que requiere autentificación. Psiphon para Windows puede configurarse para conectar a través de tales proxys mediante la edicion del registro:",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
@@ -348,11 +348,11 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "faq-isp-traffic-answer-para-1": {
-        "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages your browse, your chat messages, your uploads, etc.",
+        "message": "Todos los datos que van a través de Psiphon están cifrados. Esto significa que su ISP no puede ver el contenido del tráfico de Internet: las páginas web por las que navegue, sus mensajes de chat, sus subidas, etc.",
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some cases your Internet traffic might not be tunneled through Psiphon in SSH or SSH+ mode, for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
+        "message": "No obstante, por favor tenga en cuenta que Psiphon está diseñado para ser una herramienta de elusión de la censura, y no está diseñado específicamente para propósitos de contra-vigilancia. Psiphon no evita que su historial de navegación y cookies se almacenen en su computadora. Y en algunos casos su tráfico de Internet podría no resultar tunelado a través de Psiphon en modo SSH o SSH+, por ejemplo si las configuraciones para proxy de su navegador están mal establecidas, o si deja su navegador abierto después de salir de Psiphon.",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
@@ -628,7 +628,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
+        "message": "También hay técnicas avanzadas que pueden observar el tráfico cifrado y determinar algunas cosas acerca de él, como el sitio web por el que se está navegando. El principal ejemplo de esto es la \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">huella de identificación del tráfico</a>\".",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -712,7 +712,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-proxy-auth-answer-step-4": {
-        "message": "Set <code>UserSkipSSHParentProxySettings</code> to <code>0</code>.",
+        "message": "Configure <code>UserSkipSSHParentProxySettings</code> a <code>0</code>.",
         "description": ""
     },
     "faq-android-enable-sideloading-answer-para-1": {
@@ -720,7 +720,7 @@
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
     },
     "faq-isp-traffic-answer-para-4": {
-        "message": "If you require anonymity over the Internet then you should use <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> instead of Psiphon.",
+        "message": "Si precisa anonimato sobre Internet entonces debería usar <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> en lugar de Psiphon.",
         "description": ""
     },
     "page-keyword-sponsor": {
@@ -780,7 +780,7 @@
         "description": ""
     },
     "faq-proxy-auth-question-toc": {
-        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
+        "message": "¿Cómo configuro Psiphon para conectar a través de un proxy con autentificación?",
         "description": ""
     },
     "privacy-bulletin-entry-1-how-many-users": {
@@ -828,7 +828,7 @@
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "faq-isp-traffic-question": {
-        "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
+        "message": "¿Mi ISP puede ver lo que estoy haciendo en Internet mientras estoy usando Psiphon?",
         "description": ""
     },
     "open-source-para-3-list-start": {
@@ -876,7 +876,7 @@
         "description": ""
     },
     "faq-proxy-auth-answer-para-3": {
-        "message": "Unfortunately, on Psiphon for Android we do not support HTTP proxy authentication at this time.",
+        "message": "Desafortunadamente, en Psiphon para Android no soportamos autentificación para proxy HTTP en este momento.",
         "description": ""
     },
     "faq-information-collected-answer-head-4": {
@@ -1032,7 +1032,7 @@
         "description": ""
     },
     "faq-proxy-auth-answer-step-1": {
-        "message": "Run <code>regedit.exe</code>.",
+        "message": "Ejecute <code>regedit.exe</code>.",
         "description": ""
     },
     "site-title": {
@@ -1072,7 +1072,7 @@
         "description": ""
     },
     "faq-isp-traffic-question-toc": {
-        "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
+        "message": "¿Mi ISP puede ver lo que estoy haciendo en Internet mientras estoy usando Psiphon?",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
@@ -1220,7 +1220,7 @@
         "description": ""
     },
     "faq-proxy-auth-answer-step-2": {
-        "message": "Navigate to <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
+        "message": "Vaya hasta <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
         "description": ""
     },
     "download-description": {
@@ -1228,7 +1228,7 @@
         "description": "title for the download page"
     },
     "faq-proxy-auth-answer-step-3": {
-        "message": "Edit the following values:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (make sure to enter the port number in <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
+        "message": "Edite los siguientes valores:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (asegúrese de introducir el número de puerto en <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
         "description": ""
     },
     "download-direct-head": {
