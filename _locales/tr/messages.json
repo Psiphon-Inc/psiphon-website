@@ -123,6 +123,10 @@
         "message": "Android \"yan yükleme\" özelliğini nasıl etkinleştirebilirim?",
         "description": ""
     },
+    "faq-proxy-auth-question": {
+        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
+        "description": ""
+    },
     "faq-port-restrictions-question": {
         "message": "VPN kipinde bağlantı noktası kısıtlamaları var mı? Niçin posta istemcimi VPN kipinde kullanara e-posta gönderemiyorum?",
         "description": ""
@@ -247,6 +251,10 @@
         "message": "Sıkça Sorulan Sorular",
         "description": "title for the FAQ page"
     },
+    "faq-proxy-auth-answer-para-1": {
+        "message": "Some LAN environments require internet connections to go through a proxy (like Squid) that requires authentication. Psiphon for Windows can be configured to connect through such proxies by editing the registry:",
+        "description": ""
+    },
     "about-who-we-are-exec-team-head": {
         "message": "Exec Takımı",
         "description": ""
@@ -338,6 +346,14 @@
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "Psiphon'u Tüm Cihazı Tünelle kipinde çalıştırabilmek için Android 4.0+ veya yönetici hakkı verilmiş (root) telefona sahip olmalısınız.<br><br>Bu seçenek eski Android sürümüne sahip yönetici hakkı verilmemiş telefonlarda kullanılamayacaktır.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
+    },
+    "faq-isp-traffic-answer-para-1": {
+        "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages your browse, your chat messages, your uploads, etc.",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-2": {
+        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some cases your Internet traffic might not be tunneled through Psiphon in SSH or SSH+ mode, for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
+        "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
         "message": "İlk olarak <a href=\"./faq.html#authentic-windows\">Windows için Psiphon kopyanızın gerçek olup olmadığını doğrulamalısınız</a>.",
@@ -611,6 +627,10 @@
         "message": "Psiphon, çalıştırılır çalıştırılmaz otomatik olarak bağlanmaya başlar. Bağlanırken dönen bir simge görüntülenir. Şu tünel kiplerinden birini seçebilirsiniz: VPN (IPSec üzerinden L2TP), SSH veya SSH+ (SSH artı şaşırtma, protokol parmak izi gösteriminden kaçınılması için SSH üzerinde rastgeleleştirilmiş bir katman).",
         "description": ""
     },
+    "faq-isp-traffic-answer-para-3": {
+        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
+        "description": ""
+    },
     "page-keyword-vpn": {
         "message": "vpn",
         "description": "web page meta keyword used for SEO"
@@ -691,9 +711,17 @@
         "message": "bağış yapı",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-proxy-auth-answer-step-4": {
+        "message": "Set <code>UserSkipSSHParentProxySettings</code> to <code>0</code>.",
+        "description": ""
+    },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "Android için Psiphon'u doğrudan indirebilmek için,  \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">yan yükleme</a>\" özelliğini etkinleştirmelisiniz. Bunu yapmak için Android ayarlarına gidip, ardından \"Güvenlik\" alanındaki \"Bilinmeyen kaynaklar\" seçeneğini etkinleştirmelisiniz.",
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+    },
+    "faq-isp-traffic-answer-para-4": {
+        "message": "If you require anonymity over the Internet then you should use <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> instead of Psiphon.",
+        "description": ""
     },
     "page-keyword-sponsor": {
         "message": "sponsor",
@@ -751,6 +779,10 @@
         "message": "Android sürümü",
         "description": ""
     },
+    "faq-proxy-auth-question-toc": {
+        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
+        "description": ""
+    },
     "privacy-bulletin-entry-1-how-many-users": {
         "message": "Bunun henüz ne kadar kullanıcı tarafından etkilendiğini bilmiyoruz (bunu yapmamızın sebebi), ancak 10.000 kulanıcıdan daha az olduğunu düşünüyoruz.",
         "description": ""
@@ -795,6 +827,10 @@
         "message": "Türkçe Gönderiler",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
+    "faq-isp-traffic-question": {
+        "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
+        "description": ""
+    },
     "open-source-para-3-list-start": {
         "message": "Windows:",
         "description": ""
@@ -837,6 +873,10 @@
     },
     "about-who-we-are-ops-head": {
         "message": "Operations and Outreach",
+        "description": ""
+    },
+    "faq-proxy-auth-answer-para-3": {
+        "message": "Unfortunately, on Psiphon for Android we do not support HTTP proxy authentication at this time.",
         "description": ""
     },
     "faq-information-collected-answer-head-4": {
@@ -991,6 +1031,10 @@
         "message": "Psiphon'umun geçerli sürümünü nasıl denetleyebilirim?",
         "description": ""
     },
+    "faq-proxy-auth-answer-step-1": {
+        "message": "Run <code>regedit.exe</code>.",
+        "description": ""
+    },
     "site-title": {
         "message": "Psiphon: ağınızı özgür kılın",
         "description": "the title for the site"
@@ -1025,6 +1069,10 @@
     },
     "faq-autoproxy-question": {
         "message": "<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a> (Otomatik Vekil Sunucu) kullanıyorum. Windows için Psiphon'a sistem vekil sunucu ayarlarımı kullanmamasını nasıl söyleyebilirim?",
+        "description": ""
+    },
+    "faq-isp-traffic-question-toc": {
+        "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
@@ -1171,9 +1219,17 @@
         "message": "İlk olarak <a href=\"./faq.html#authentic-android\">Psiphon kopyanızın gerçek olduğunu doğrulamalısınız</a>.",
         "description": ""
     },
+    "faq-proxy-auth-answer-step-2": {
+        "message": "Navigate to <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
+        "description": ""
+    },
     "download-description": {
         "message": "Windows ve Android için doğrudan, ücretsiz Psiphon indirmesi",
         "description": "title for the download page"
+    },
+    "faq-proxy-auth-answer-step-3": {
+        "message": "Edit the following values:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (make sure to enter the port number in <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
+        "description": ""
     },
     "download-direct-head": {
         "message": "Doğrudan İndirmeler",
