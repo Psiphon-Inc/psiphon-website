@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><%= @tt 'blog-index-meta-title' %></title>
+    <author>
+        <name><%= @site.companyName %></name>
+    </author>
+    <id><%= @urlResolve(@site.url, @document.language) %></id>
+    <updated><%= @site.date.toISOString() %></updated>
+
+    <link href="<%= @urlResolve(@site.url, @document.url) %>" rel="self"/>
+    <link type="text/html" href="<%= @urlResolve(@site.url, @getPageURL(@getPageInfo('blog-index').filename)) %>" rel="alternate"/>
+    <link href="<%= @site.url %>"/>
+
+    <icon><%= @urlResolve(@site.url, '/images/psiphon-logo-48.png') %></icon>
+    <logo><%= @urlResolve(@site.url, '/images/psiphon-logo-512.png') %></logo>
+
+    <% for document in @getCollection('posts').findAllLive({language: @document.language}).toJSON()[0..9]: %>
+    <entry>
+        <id><%= @getIdForDocument(document) %></id>
+        <title><%= document.title %></title>
+        <author>
+            <name><%= document.author %></name>
+        </author>
+
+        <link href="<%= @urlResolve(@site.url, document.url) %>"/>
+        <link type="text/html" href="<%= @urlResolve(@site.url, document.url) %>" rel="alternate"/>
+        <updated><%= document.date.toISOString() %></updated>
+
+        <% if document.contentRenderedWithoutLayouts: %>
+        <content type="html"><![CDATA[<div lang="<%= if not document.languagemakered then document.language else 'en' %>" <%- 'dir="rtl" style="direction: rtl"' if document.language in @rtl_languages and not document.languagemakered %>>
+            <%- @preparePostForBlogFeed(document.contentRenderedWithoutLayouts) %>
+        </div>]]></content>
+        <% end %>
+    </entry>
+    <% end %>
+</feed>

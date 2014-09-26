@@ -1,6 +1,7 @@
 ---
 title: Psiphon and the 2013 Iranian Election
 author: Karl Kathuria
+date: 2013-10-28
 layout: blog/post
 ---
 

@@ -19,15 +19,16 @@
     "npm": "1.2"
   },
   "dependencies": {
+    "cheerio": "^0.17.0",
     "docpad": "6.57.3",
     "docpad-plugin-coffeescript": "~2.2.3",
     "docpad-plugin-eco": "~2.0.2",
+    "docpad-plugin-highlightjs": "~2.1.9",
     "docpad-plugin-less": "~2.2.0",
     "docpad-plugin-marked": "~2.1.2",
     "docpad-plugin-partials": "~2.8.1",
     "docpad-plugin-related": "~2.2.0",
-    "docpad-plugin-text": "~2.3.2",
-    "docpad-plugin-highlightjs": "~2.1.9"
+    "docpad-plugin-text": "~2.3.2"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.5",
