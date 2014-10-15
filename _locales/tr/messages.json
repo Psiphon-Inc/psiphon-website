@@ -36,7 +36,7 @@
         "description": ""
     },
     "user-guide-android-para-1": {
-        "message": "Android emailinizden yada tarayıcınızdan Psiphon Apk sının bulunduğu alttaki linke tıklayarak indirmeye başlayabilirsiniz. (Eğer bi problem ile karşılaşırsanız <a href=\"./faq.html#android-enable-sideloading\">yanyükleme (sideloading) i aktifleştiriniz</a>.)",
+        "message": "Android e-postanızdan veya tarayıcınızdan Psiphon APK bağlantısına tıklayarak indirmeye başlayabilirsiniz. (Eğer bir sorunla ile karşılaşırsanız <a href=\"./faq.html#android-enable-sideloading\">yan yükleme (sideloading)</a> etkinleştirmeniz gerekebilir.)",
         "description": ""
     },
     "about-contact-head": {
@@ -121,6 +121,10 @@
     },
     "faq-android-enable-sideloading-question": {
         "message": "Android \"yan yükleme\" özelliğini nasıl etkinleştirebilirim?",
+        "description": ""
+    },
+    "faq-proxy-auth-question": {
+        "message": "Psiphon'u kimlik doğrulama gerektiren bir vekil aracılığıyla bağlanması için nasıl yapılandırırım?",
         "description": ""
     },
     "faq-port-restrictions-question": {
@@ -212,7 +216,7 @@
         "description": "Page title for the Sponsorship page"
     },
     "about-who-we-are-partners-para-1": {
-        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our web proxy software in 15 languages, and are adding more to our Windows and Mobile products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Open Technology Fund’s hub.",
+        "message": "Psiphon, nerede olurlarsa olsun Psiphon kullanan kişilere destek ve tavsiye sağlamak üzere çeşitli gruplarla yakından çalışıyoruz. Web vekil sunucu yazılımımız 15 dilde ve Windows ile Taşınabilir aygıtlara da Open Technology Fund'ın bir parçası olarak <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a> üzerinde daha fazla ekleme yapıyoruz.",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
@@ -246,6 +250,10 @@
     "faq-title": {
         "message": "Sıkça Sorulan Sorular",
         "description": "title for the FAQ page"
+    },
+    "faq-proxy-auth-answer-para-1": {
+        "message": "Bazı LAN ortamları, bir vekil aracılığıyla (Squid gibi) internet bağlantısı gerektirir. Windows için Psiphon, kayıt düzenleyicisini düzenlenilerek bu gibi vekil sunucular aracılığıyla bağlanmak üzere yapılandırılabilir.",
+        "description": ""
     },
     "about-who-we-are-exec-team-head": {
         "message": "Exec Takımı",
@@ -338,6 +346,14 @@
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "Psiphon'u Tüm Cihazı Tünelle kipinde çalıştırabilmek için Android 4.0+ veya yönetici hakkı verilmiş (root) telefona sahip olmalısınız.<br><br>Bu seçenek eski Android sürümüne sahip yönetici hakkı verilmemiş telefonlarda kullanılamayacaktır.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
+    },
+    "faq-isp-traffic-answer-para-1": {
+        "message": "Psiphon'a her veri şifreli gider. Bu demektir ki internet servis sağlayıcınız (ISS), İnternet trafiğinizin içeriklerini göremez: gezdiğiniz web sayfaları, sohbet mesajlarınız, yükledikleriniz, vb.",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-2": {
+        "message": "Ancak, Psiphon'ın bir sansür aşma aracı olup, gözetim önleme amaçlı tasarlanmadığını unutmayın. Psiphon gezinti geçmişinizin ve çerezlerinizin bilgisayarınızda tutulmasını engellemez. Ayrıca bazı durumlarda internet trafiğiniz Psiphon'a SSH veya SSH+ kipinde tünellenmemiş olabilir (örneğin tarayıcı vekil ayarlarınız hatalı yapılandırılmışsa veya Psiphon'dan çıktıktan sonra tarayıcınızı açık bırakırsanız).",
+        "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
         "message": "İlk olarak <a href=\"./faq.html#authentic-windows\">Windows için Psiphon kopyanızın gerçek olup olmadığını doğrulamalısınız</a>.",
@@ -484,7 +500,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
     },
     "privacy-bulletin-entry-1-what-doing": {
-        "message": "We are enabling access logging for one website Amazon S3 \"bucket\" (i.e., storage container). (For technical reasons, we run dozens of copies of the website in different S3 buckets.)",
+        "message": "Bir web sitesi için erişim günlüğünü Amazon S3 \"bucket\" (örn. depolama biriktirici) içerisinde etkinleştiriyoruz. (Teknik sebeplerden dolayı, farklı S3 bucket'larda yüzlerce web site kopyası çalıştırıyoruz.)",
         "description": ""
     },
     "open-source-para-4-list-start": {
@@ -580,7 +596,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "sponsor-description": {
-        "message": "Reklamlarınınızla yüklenen sayfaya reklam vererek sponsor olun,yada doğrudan Psiphon projesine yardım edin",
+        "message": "Bir açılış sayfasında reklam vermek üzere sponsor olun veya Psiphon projesine bireysel olarak bağış yapın",
         "description": "Page description for the Sponsorship page"
     },
     "about-get-latest-info-para-1-list-start": {
@@ -600,7 +616,7 @@
         "description": ""
     },
     "user-guide-android-para-4": {
-        "message": "Uygulama ağa bağlandıktan sonra dahili Psiphon tarayıcısını çalıştıracaktır. Android için Psiphon, öntanımlı Android tarayıcısı ve diğer uygulamalar trafiği otomatik olarak tünellemez. Öntanımlı olarak sadece Psiphon tarayıcısı Psiphon ağı yoluyla tünellenir.",
+        "message": "Uygulama ağa bağlandıktan sonra dahili Psiphon tarayıcısını çalıştıracaktır. Android için Psiphon, öntanımlı Android tarayıcısı ve diğer uygulamaların trafiğini otomatik olarak tünellemez. Öntanımlı olarak sadece Psiphon tarayıcısı Psiphon ağı yoluyla tünellenir.",
         "description": ""
     },
     "user-guide-android-image-3-annotation-4": {
@@ -609,6 +625,10 @@
     },
     "user-guide-windows-para-2": {
         "message": "Psiphon, çalıştırılır çalıştırılmaz otomatik olarak bağlanmaya başlar. Bağlanırken dönen bir simge görüntülenir. Şu tünel kiplerinden birini seçebilirsiniz: VPN (IPSec üzerinden L2TP), SSH veya SSH+ (SSH artı şaşırtma, protokol parmak izi gösteriminden kaçınılması için SSH üzerinde rastgeleleştirilmiş bir katman).",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-3": {
+        "message": "Ayrıca, şifreli trafiğe bakıp, hangi sitede gezildiği gibi şeyleri kararlaştırmada kullanılabilecek gelişmiş teknikler mevcuttur. Bunun ilk örneği: \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">trafik parmakizi</a>\".",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -687,13 +707,25 @@
         "message": "Windows'ta Psiphon'un bağlandığını gösteren resim",
         "description": "alt text for an image"
     },
+    "blog-index-subscribe": {
+        "message": "Subscribe",
+        "description": ""
+    },
     "page-keyword-donate": {
         "message": "bağış yapı",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-proxy-auth-answer-step-4": {
+        "message": "<code>UserSkipSSHParentProxySettings</code> değerini <code>0</code> yapın.",
+        "description": ""
+    },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "Android için Psiphon'u doğrudan indirebilmek için,  \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">yan yükleme</a>\" özelliğini etkinleştirmelisiniz. Bunu yapmak için Android ayarlarına gidip, ardından \"Güvenlik\" alanındaki \"Bilinmeyen kaynaklar\" seçeneğini etkinleştirmelisiniz.",
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+    },
+    "faq-isp-traffic-answer-para-4": {
+        "message": "Eğer İnternet'te anonimliğe ihtiyacınız varsa, Psiphon yerine <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> kullanmalısınız.",
+        "description": ""
     },
     "page-keyword-sponsor": {
         "message": "sponsor",
@@ -751,6 +783,10 @@
         "message": "Android sürümü",
         "description": ""
     },
+    "faq-proxy-auth-question-toc": {
+        "message": "Psiphon'u kimlik doğrulama gerektiren bir vekil aracılığıyla bağlanması için nasıl yapılandırırım?",
+        "description": ""
+    },
     "privacy-bulletin-entry-1-how-many-users": {
         "message": "Bunun henüz ne kadar kullanıcı tarafından etkilendiğini bilmiyoruz (bunu yapmamızın sebebi), ancak 10.000 kulanıcıdan daha az olduğunu düşünüyoruz.",
         "description": ""
@@ -795,6 +831,10 @@
         "message": "Türkçe Gönderiler",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
+    "faq-isp-traffic-question": {
+        "message": "ISS'ım Psiphon kullanırken yaptıklarımı görebilir mi?",
+        "description": ""
+    },
     "open-source-para-3-list-start": {
         "message": "Windows:",
         "description": ""
@@ -837,6 +877,10 @@
     },
     "about-who-we-are-ops-head": {
         "message": "Operations and Outreach",
+        "description": ""
+    },
+    "faq-proxy-auth-answer-para-3": {
+        "message": "Ne yazık ki Android için Psiphon'da şu anda HTTP vekil kimlik doğrulamasını desteklemiyoruz.",
         "description": ""
     },
     "faq-information-collected-answer-head-4": {
@@ -991,6 +1035,10 @@
         "message": "Psiphon'umun geçerli sürümünü nasıl denetleyebilirim?",
         "description": ""
     },
+    "faq-proxy-auth-answer-step-1": {
+        "message": "<code>regedit.exe</code>'yi çalıştırın.",
+        "description": ""
+    },
     "site-title": {
         "message": "Psiphon: ağınızı özgür kılın",
         "description": "the title for the site"
@@ -1025,6 +1073,10 @@
     },
     "faq-autoproxy-question": {
         "message": "<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a> (Otomatik Vekil Sunucu) kullanıyorum. Windows için Psiphon'a sistem vekil sunucu ayarlarımı kullanmamasını nasıl söyleyebilirim?",
+        "description": ""
+    },
+    "faq-isp-traffic-question-toc": {
+        "message": "ISS'ım Psiphon kullanırken yaptıklarımı görebilir mi?",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
@@ -1171,9 +1223,17 @@
         "message": "İlk olarak <a href=\"./faq.html#authentic-android\">Psiphon kopyanızın gerçek olduğunu doğrulamalısınız</a>.",
         "description": ""
     },
+    "faq-proxy-auth-answer-step-2": {
+        "message": "<code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> konumuna gidin.",
+        "description": ""
+    },
     "download-description": {
         "message": "Windows ve Android için doğrudan, ücretsiz Psiphon indirmesi",
         "description": "title for the download page"
+    },
+    "faq-proxy-auth-answer-step-3": {
+        "message": "Bu değerleri düzenleyin:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (port numarasını <code>Ondalık</code> girdiğinizden emin olun)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
+        "description": ""
     },
     "download-direct-head": {
         "message": "Doğrudan İndirmeler",

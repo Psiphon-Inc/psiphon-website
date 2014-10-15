@@ -1,6 +1,6 @@
 ---
 title: A Technical Description of Psiphon
-author: Rod Hynes
+author: Psiphon Team
 layout: blog/post
 date: 2014-03-13
 ---

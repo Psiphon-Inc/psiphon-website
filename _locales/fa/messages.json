@@ -123,6 +123,10 @@
         "message": "How do I enable Android \"sideloading\"?",
         "description": ""
     },
+    "faq-proxy-auth-question": {
+        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
+        "description": ""
+    },
     "faq-port-restrictions-question": {
         "message": "آیا با محدویتی در رابطه با پورت وی‌پی‌ان دارید؟ چرا نمی‌توانم درحالت وی‌پی‌ان ایمیلی را ارسال کنم؟",
         "description": ""
@@ -247,6 +251,10 @@
         "message": "سوال های متداول ",
         "description": "title for the FAQ page"
     },
+    "faq-proxy-auth-answer-para-1": {
+        "message": "Some LAN environments require internet connections to go through a proxy (like Squid) that requires authentication. Psiphon for Windows can be configured to connect through such proxies by editing the registry:",
+        "description": ""
+    },
     "about-who-we-are-exec-team-head": {
         "message": "تیم اجرائی",
         "description": ""
@@ -276,7 +284,7 @@
         "description": ""
     },
     "privacy-para-4": {
-        "message": "<a href=\"./faq.html#information-collected\">Visit the FAQ</a> for details about what data we collect. See the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> for temporary data collection changes.",
+        "message": "<a href=\"./faq.html#information-collected\">از بخش سوالات متداول دیدن کنید</a> برای اطلاع از داده هایی که جمع آوری می کنیم می توانید از <a href=\"./privacy-bulletin.html\">بولتن حفظ حریم خصوصی کاربران</a> برای جمع آوری مقطعی اطلاعات بازدید کنید.",
         "description": ""
     },
     "alert-body": {
@@ -300,7 +308,7 @@
         "description": ""
     },
     "about-who-we-are-para-1": {
-        "message": "Psiphon Inc. is a company based in Toronto, producing open-source multi-platform software that helps over 3 million people every week connect to content on the Internet. We’re a team focused on delivering the best software we can, introducing new products regularly and making sure we develop to the needs of our constantly growing global audience.",
+        "message": "شرکت سایفون در تورونتو تاسیس شده است و نرم افزار های متن باز برای پلتفرم های مختلف تولید میکند که هرهفته به بیش از ٣ میلیون کاربرامکان اتصال به محتوای اینترنت را میدهد. هدف تیم ما ارایه بهترین نرم افزارممکن, معرفی پروژه های جدید وارتقا برنامه ها و پروژه هایمان براساس نیازهای کاربران بین المللی مان.      ",
         "description": ""
     },
     "user-guide-windows-para-3": {
@@ -320,7 +328,7 @@
         "description": ""
     },
     "privacy-bulletin-title": {
-        "message": "Privacy Bulletins",
+        "message": "بولتن حفظ حریم خصوصی کاربران",
         "description": ""
     },
     "license-para-2": {
@@ -338,6 +346,14 @@
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "برای اجرای سایفون در حالت تونل تمام گوشی، شما باید اندورید ٤.٠ با بالا یا گوشی روت شده داشته باشید.<br><br> این گزینه برای گوشی های روت نشده و نسخه‌های اندروید قدیمی امکان پذیر نیست. ",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
+    },
+    "faq-isp-traffic-answer-para-1": {
+        "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages your browse, your chat messages, your uploads, etc.",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-2": {
+        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some cases your Internet traffic might not be tunneled through Psiphon in SSH or SSH+ mode, for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
+        "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
         "message": "شما باید اول <a href=\"./faq.html#authentic-android\">مطمئن شوید که نسخه سایفون برای ویندوز شما معتبر است</a>.",
@@ -396,7 +412,7 @@
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "license-personal-or-specified-use-para": {
-        "message": "Use of the Psiphon service is granted under a non-exclusive, personal license. By using Psiphon, you agree to use the service for personal, non-commercial use only. You may not (and may not allow a third party to) rent, lease, sublicense, sell, resell or otherwise distribute use of the Psiphon service for commercial purposes.",
+        "message": "استفاده از سرویس سایفون بر مبنای یک گواهینامه شخصی غیر منحصر به فرد تضمین شده است. با استفاده از سایفون، شما تضمین می کنید که از سرویس تنها برای مصارف شخصی و غیر تجاری استفاده کنید. به شما اجازه داده نخواهد شد (و به هیچ سوم شخصی نیز این اجازه اعطا نمی شود) که برنامه را اجاره دهید، پروانه ارئه کنید، بفروشید و یا به هر شکلی آن را با مقصود تجاری توزیع کنید. ",
         "description": ""
     },
     "faq-browser-compatibility-question": {
@@ -476,7 +492,7 @@
         "description": ""
     },
     "privacy-bulletin-description": {
-        "message": "Privacy Bulletins",
+        "message": "بولتن حفظ حریم خصوصی کاربران",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-1": {
@@ -496,7 +512,7 @@
         "description": ""
     },
     "license-terms-of-use-para": {
-        "message": "By using the Psiphon service, you agree not to use it in any manner that violates Canadian law, or the rights of a third party.",
+        "message": "با استفاده از سرویس سایفون، شما می پذیرید که هیچ عملی خلاف قانون کانادا و یا حقوق سوم شخص انجام ندهید.",
         "description": ""
     },
     "faq-configure-applications-question": {
@@ -560,7 +576,7 @@
         "description": "The body of the page section that shows the donation buttons"
     },
     "faq-information-collected-answer-para-13-item-3": {
-        "message": "The size of the email.",
+        "message": "حجم ایمیل ",
         "description": ""
     },
     "download-windows-direct": {
@@ -588,7 +604,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-9": {
-        "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry to the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> describing what was recorded, how long it was kept, and why.",
+        "message": "سایفون ممکن است در هر مرتبه از استفاده اطلاعات بیشتری را به منظور بر طرف کردن مشکلات سرویس ما ذخیره کند. وقتی این اتفاق می افتد, ما یک ورودی به<a href=\"./privacy-bulletin.html\">بولتن حفظ حریم خصوصی کاربر</a>اضافه می کنیم که در آن حجم ذخیره شده، مدت زمان نگهداری و دلیل آن ذکر می شود..",
         "description": ""
     },
     "privacy-bulletin-entry-1-when-doing": {
@@ -609,6 +625,10 @@
     },
     "user-guide-windows-para-2": {
         "message": "سایفون ۳ بطوراتوماتیک هنگام اجرای برنامه شروع به برقراری ارتباط می‌کند. هنگام برقراری ارتباط، ایکون در حال چرخش نمایش داده می شود. شما می توانید یکی از روشهای تونل ارتباطی را دنبال کنید: وی پی ان (L2TP over IPSec)، اس اس اچ یا اس اس اچ +. اس اس اچ +: اس اس اچ مبهم است که یک لایه رندوم بر روی اس اس اچ قرار میدهد که از انگشت نگاری پروتکل اس اس اچ جلوگیری میکند.",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-3": {
+        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -687,13 +707,25 @@
         "message": "عکس نشانگر اتصال سایفون در ویندوز است",
         "description": "alt text for an image"
     },
+    "blog-index-subscribe": {
+        "message": "Subscribe",
+        "description": ""
+    },
     "page-keyword-donate": {
         "message": "کمک مالی",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-proxy-auth-answer-step-4": {
+        "message": "Set <code>UserSkipSSHParentProxySettings</code> to <code>0</code>.",
+        "description": ""
+    },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "In order to install a direct download of Psiphon for Android, you must enable \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". To do so, go into your Android settings, then into the \"Security\" section, then enable \"Unknown sources\".",
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+    },
+    "faq-isp-traffic-answer-para-4": {
+        "message": "If you require anonymity over the Internet then you should use <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> instead of Psiphon.",
+        "description": ""
     },
     "page-keyword-sponsor": {
         "message": "حامی",
@@ -732,7 +764,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-13-item-1": {
-        "message": "The date and time the email request was received.",
+        "message": "زمان و تاریخ ایمیل که دریافت کردیم ",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-1": {
@@ -751,6 +783,10 @@
         "message": "نسخه اندورید ",
         "description": ""
     },
+    "faq-proxy-auth-question-toc": {
+        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
+        "description": ""
+    },
     "privacy-bulletin-entry-1-how-many-users": {
         "message": "We don't know for sure yet how many users will be affected (that's why we're doing this), but we suspect it will be fewer than 10,000 users.",
         "description": ""
@@ -760,7 +796,7 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
-        "message": "As the user, you are free to terminate this license agreement at any time by discontinuing use of any and all parts of the Psiphon service, and deleting all instances of the software application from your device.",
+        "message": "به عنوان کاربران سایفون، شما آزاد هستید که هر زمانی مجوز توافقنامه را با قطع استفاده از بخشی یا کل سرویس سایفون و حذف کامل برنامه از روی دستگاه تان خاتمه دهید.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-5": {
@@ -795,6 +831,10 @@
         "message": "مطالب فارسی",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
+    "faq-isp-traffic-question": {
+        "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
+        "description": ""
+    },
     "open-source-para-3-list-start": {
         "message": "ویندوز:",
         "description": ""
@@ -828,7 +868,7 @@
         "description": ""
     },
     "privacy-bulletin-meta-title": {
-        "message": "Privacy Bulletins",
+        "message": "بولتن حفظ حریم خصوصی کاربران",
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
@@ -839,8 +879,12 @@
         "message": "عملیات و روابط عمومی",
         "description": ""
     },
+    "faq-proxy-auth-answer-para-3": {
+        "message": "Unfortunately, on Psiphon for Android we do not support HTTP proxy authentication at this time.",
+        "description": ""
+    },
     "faq-information-collected-answer-head-4": {
-        "message": "App Stores",
+        "message": "آپ استور ",
         "description": "this is referring to the general idea of app stores, like Google Play, Amazon AppStore, Apple App Store"
     },
     "privacy-bulletin-entry-item-head-what-doing": {
@@ -892,11 +936,11 @@
         "description": ""
     },
     "footer-license": {
-        "message": "Site content licensed under",
+        "message": "اطلاعات سایت بر اساس مجوز زیر فعالیت می کنند",
         "description": "The beginning of the 'Licensed under [license name here]' footer text"
     },
     "open-source-para-2": {
-        "message": "Psiphon clients use the following open source components:",
+        "message": "کارخواه سایفون از این قطعات متن باز استفاده میکند: ",
         "description": ""
     },
     "download-android-playstore": {
@@ -940,7 +984,7 @@
         "description": ""
     },
     "faq-information-collected-answer-head-3": {
-        "message": "Email Responder",
+        "message": "پاسخگوی ایمیل ",
         "description": ""
     },
     "download-android-amazon": {
@@ -964,7 +1008,7 @@
         "description": "meta title for the About page"
     },
     "faq-information-collected-answer-para-13-item-2": {
-        "message": "The date and time the email request was replied to.",
+        "message": "زمان و تاریخ که به ایمیل جواب دادیم ",
         "description": ""
     },
     "sponsor-banner-alt-text": {
@@ -980,7 +1024,7 @@
         "description": ""
     },
     "download-store-head": {
-        "message": "App Store Downloads",
+        "message": "دانلودهای آپ استور ",
         "description": "This refers to Google Play, Amazon's AppStore, and any similar app stores"
     },
     "sponsor-meta-title": {
@@ -989,6 +1033,10 @@
     },
     "faq-check-version-question": {
         "message": "چگونه نسخه سایفون ۳ کنونی خود را چک کنم؟",
+        "description": ""
+    },
+    "faq-proxy-auth-answer-step-1": {
+        "message": "Run <code>regedit.exe</code>.",
         "description": ""
     },
     "site-title": {
@@ -1025,6 +1073,10 @@
     },
     "faq-autoproxy-question": {
         "message": "من از افزونه پراکسی خودکار فایرفاکس استفاده می‌کنم <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. چگونه می توانم از تنظیم پراکسی سیستم خود توسط سایفون 3 برای ویندوز جکوگیری کنم؟",
+        "description": ""
+    },
+    "faq-isp-traffic-question-toc": {
+        "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
@@ -1076,7 +1128,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
-        "message": "For each email we receive, we store the following information:",
+        "message": "برای هر ایمیلی که دریافت میکنیم, ما این اطلاعات را نگهداری میکنیم:",
         "description": ""
     },
     "page-keyword-advertise": {
@@ -1092,7 +1144,7 @@
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-head-1": {
-        "message": "Psiphon Servers",
+        "message": "سرور های سایفون",
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
@@ -1132,7 +1184,7 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-1": {
-        "message": "Psiphon reserves the right at its sole discretion to terminate this license at any time for any or no reason, and without penalty. By using Psiphon, you agree not to use the service in any manner that violates the terms of service and license agreement.",
+        "message": "سایفون این حق را برای خود محفوظ نگاه می دارد که گواهینامه ها را در هر زمانی، بدون دلیل و بدون پرداخت غرامت ملغی کند. با استفاده از سایفون، شما می پذیرید که از برنامه به هیچ شکلی استفاده نکنید که شرایط استفاده از خدمات و یا مجوز توافقنامه را نقض کند. ",
         "description": ""
     },
     "user-guide-android-image-3-annotation-3": {
@@ -1152,7 +1204,7 @@
         "description": ""
     },
     "license-distribution-para": {
-        "message": "Only software clients created by Psiphon Inc. are permitted to use the Psiphon service. It is a violation of this license to distribute or use a third-party client or tool for use with the Psiphon service.",
+        "message": "تنها نرم افزارهایی که توسط سافون طراحی شده باشد اجازه استفاده از سرویس سایفون را دارد. توزیع و یا استفاده سوم شخص از ابزارها برای استفاده از سرویس سایفون، نقض این گواهینامه به شمار می رود..",
         "description": ""
     },
     "user-guide-android-image-1-alt": {
@@ -1171,12 +1223,20 @@
         "message": "شما باید ابتدا <a href=\"./faq.html#authentic-android\"> تایید کنید که نسخه سایفون شما معتبر است</a>.",
         "description": ""
     },
+    "faq-proxy-auth-answer-step-2": {
+        "message": "Navigate to <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
+        "description": ""
+    },
     "download-description": {
-        "message": "Direct, free Psiphon download for Windows and Android",
+        "message": "دانلود رایگان ومستقیم سایفون برای ویندوز و اندروید  ",
         "description": "title for the download page"
     },
+    "faq-proxy-auth-answer-step-3": {
+        "message": "Edit the following values:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (make sure to enter the port number in <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
+        "description": ""
+    },
     "download-direct-head": {
-        "message": "Direct Downloads",
+        "message": "دانلود های مستقیم ",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-1": {

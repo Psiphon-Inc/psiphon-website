@@ -2,7 +2,14 @@
 layout: page
 ---
 
-<%= @document.title %>
+<div class="row blog-index-subscribe">
+  <div class="col-md-12 text-right small">
+    <a href="feed.xml">
+      <%= @tt 'blog-index-subscribe' %>
+      <img src="<%= @relativeToRoot '/images/feed-icon-28x28.png' %>">
+    </a>
+  </div>
+</div>
 
 <div class="row">
   <div class="col-md-12">

@@ -1,5 +1,24 @@
 # Psiphon Website
 
+## Technical Requirements
+
+The site must support translation/localization. This includes supporting right-to-left languages.
+
+The site must be fully functional without JavaScript. (We expect a significant proportion of our users to be running NoScript.)
+
+The site must support desktop and mobile screen sizes, without using JS or subdomains.
+
+The site must be somewhat usable by IE7+. A lot of our user base uses very old browsers. For example, [CloudFlare found](https://blog.cloudflare.com/introducing-universal-ssl/) that only 52% of requests from Iran come from “modern” browsers.
+
+The site must be able to be served from static storage (i.e., S3 bucket).
+
+The site resources must be served from the same domain as the site itself (i.e., no external JS resources, fonts, etc.). This closes some potential security holes.
+
+The site must be able to be served from any sub-path of a domain. That is, the same site must be simultaneously accessible from xyz.example.com/blah/index.html and from example.com/abc/blah/index.html. This is because we serve from https://s3.amazonaws.com/f58p-mqce-k1yj/en/index.html and from http://play.psiphon3.com/en/index.html and even more exotic anti-blocking locations.
+
+The site should be fairly fast to load -- images that aren’t too large, etc. A lot of our users are on degraded connections.
+
+
 ## Getting Started
 
 1. Install [Node.js](http://nodejs.org/).

@@ -333,6 +333,48 @@
   "faq-autoproxy-answer-para-1": {
     "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserSkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings."
   },
+  "faq-proxy-auth-question-toc": {
+    "message": "How do I configure Psiphon to connect through a proxy with authentication?"
+  },
+  "faq-proxy-auth-question": {
+    "message": "How do I configure Psiphon to connect through a proxy with authentication?"
+  },
+  "faq-proxy-auth-answer-para-1": {
+    "message": "Some LAN environments require internet connections to go through a proxy (like Squid) that requires authentication. Psiphon for Windows can be configured to connect through such proxies by editing the registry:"
+  },
+  "faq-proxy-auth-answer-step-1": {
+    "message": "Run <code>regedit.exe</code>."
+  },
+  "faq-proxy-auth-answer-step-2": {
+    "message": "Navigate to <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>."
+  },
+  "faq-proxy-auth-answer-step-3": {
+    "message": "Edit the following values:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (make sure to enter the port number in <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>"
+  },
+  "faq-proxy-auth-answer-step-4": {
+    "message": "Set <code>UserSkipSSHParentProxySettings</code> to <code>0</code>."
+  },
+  "faq-proxy-auth-answer-para-3": {
+    "message": "Unfortunately, on Psiphon for Android we do not support HTTP proxy authentication at this time."
+  },
+  "faq-isp-traffic-question-toc": {
+    "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?"
+  },
+  "faq-isp-traffic-question": {
+    "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?"
+  },
+  "faq-isp-traffic-answer-para-1": {
+    "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages your browse, your chat messages, your uploads, etc."
+  },
+  "faq-isp-traffic-answer-para-2": {
+    "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some cases your Internet traffic might not be tunneled through Psiphon in SSH or SSH+ mode, for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon."
+  },
+  "faq-isp-traffic-answer-para-3": {
+    "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\"."
+  },
+  "faq-isp-traffic-answer-para-4": {
+    "message": "If you require anonymity over the Internet then you should use <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> instead of Psiphon."
+  },
   "alert-heading": {
     "message": "ALERT",
     "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -609,6 +651,9 @@
   },
   "blog-index-description": {
     "message": "Behind the scenes with the Psiphon team"
+  },
+  "blog-index-subscribe": {
+    "message": "Subscribe"
   },
   "blog-index-intro": {
     "message": "Psiphon Inc. is a Canadian company, and most of the members of our team are native English speakers. This means that our blog posts are originally in English. We will translate them into other languages as we can."

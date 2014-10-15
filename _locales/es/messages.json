@@ -123,6 +123,10 @@
         "message": "¿Cómo habilito el \"sideloading\" de Android?",
         "description": ""
     },
+    "faq-proxy-auth-question": {
+        "message": "¿Cómo configuro Psiphon para conectar a través de un proxy con autentificación?",
+        "description": ""
+    },
     "faq-port-restrictions-question": {
         "message": "¿Hay alguna restricción de puertos en modo VPN? ¿Por qué no puedo enviar un email usando mi cliente de correo en modo VPN?",
         "description": ""
@@ -247,6 +251,10 @@
         "message": "Preguntas frecuentes (FAQ)",
         "description": "title for the FAQ page"
     },
+    "faq-proxy-auth-answer-para-1": {
+        "message": "Algunos entornos LAN requieren conexiones a Internet para atravesar un proxy (como Squid) que requiere autentificación. Psiphon para Windows puede configurarse para conectar a través de tales proxys mediante la edicion del registro:",
+        "description": ""
+    },
     "about-who-we-are-exec-team-head": {
         "message": "Equipo ejecutivo",
         "description": ""
@@ -338,6 +346,14 @@
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "Para ejecutar Psiphon en modo Túnel para Dispositivo Completo, debe tener Android 4.0+ o un teléfono rooteado.<br><br>Esta opción no estará disponible para teléfonos no rooteados con una versión más antigua de Android.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
+    },
+    "faq-isp-traffic-answer-para-1": {
+        "message": "Todos los datos que van a través de Psiphon están cifrados. Esto significa que su ISP no puede ver el contenido del tráfico de Internet: las páginas web por las que navegue, sus mensajes de chat, sus subidas, etc.",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-2": {
+        "message": "No obstante, por favor tenga en cuenta que Psiphon está diseñado para ser una herramienta de elusión de la censura, y no está diseñado específicamente para propósitos de contra-vigilancia. Psiphon no evita que su historial de navegación y cookies se almacenen en su computadora. Y en algunos casos su tráfico de Internet podría no resultar tunelado a través de Psiphon en modo SSH o SSH+, por ejemplo si las configuraciones para proxy de su navegador están mal establecidas, o si deja su navegador abierto después de salir de Psiphon.",
+        "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
         "message": "Primero debe <a href=\"./faq.html#authentic-windows\">verificar que su copia de Psiphon para Windows es auténtica</a>.",
@@ -611,6 +627,10 @@
         "message": "Psiphon comienza automáticamente a conectarse cuando lo ejecuta. Mientras se está conectando muestra un icono girando. Puede seleccionar uno de los siguientes modos de túnel: VPN (L2TP sobre IPSec), SSH, o SSH+ (SSH con ofuscación, una capa aleatorizada sobre SSH para evitar la identificación algorítmica ('fingerprinting') del protocolo.",
         "description": ""
     },
+    "faq-isp-traffic-answer-para-3": {
+        "message": "También hay técnicas avanzadas que pueden observar el tráfico cifrado y determinar algunas cosas acerca de él, como el sitio web por el que se está navegando. El principal ejemplo de esto es la \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">huella de identificación del tráfico</a>\".",
+        "description": ""
+    },
     "page-keyword-vpn": {
         "message": "vpn",
         "description": "web page meta keyword used for SEO"
@@ -687,13 +707,25 @@
         "message": "Imagen que muestra a Psiphon conectado sobre Windows.",
         "description": "alt text for an image"
     },
+    "blog-index-subscribe": {
+        "message": "Subscribe",
+        "description": ""
+    },
     "page-keyword-donate": {
         "message": "donar",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-proxy-auth-answer-step-4": {
+        "message": "Configure <code>UserSkipSSHParentProxySettings</code> a <code>0</code>.",
+        "description": ""
+    },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "Para instalar una descarga directa de Psiphon para Android, debe habilitar \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". Para hacer esto, vaya a su configuración de Android, luego a la sección \"Seguridad\", y habilite \"Fuentes deconocidas\".",
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+    },
+    "faq-isp-traffic-answer-para-4": {
+        "message": "Si precisa anonimato sobre Internet entonces debería usar <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> en lugar de Psiphon.",
+        "description": ""
     },
     "page-keyword-sponsor": {
         "message": "patrocinador",
@@ -751,6 +783,10 @@
         "message": "Versión de Android",
         "description": ""
     },
+    "faq-proxy-auth-question-toc": {
+        "message": "¿Cómo configuro Psiphon para conectar a través de un proxy con autentificación?",
+        "description": ""
+    },
     "privacy-bulletin-entry-1-how-many-users": {
         "message": "Aún no sabemos con seguridad cuantos usuarios estáran afectados (esa es la razón por la que hacemos esto), pero sospechamos que serán menos de 10.000 usuarios.",
         "description": ""
@@ -795,6 +831,10 @@
         "message": "Posts en su idioma",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
+    "faq-isp-traffic-question": {
+        "message": "¿Mi ISP puede ver lo que estoy haciendo en Internet mientras estoy usando Psiphon?",
+        "description": ""
+    },
     "open-source-para-3-list-start": {
         "message": "Windows: ",
         "description": ""
@@ -837,6 +877,10 @@
     },
     "about-who-we-are-ops-head": {
         "message": "Operaciones y participación",
+        "description": ""
+    },
+    "faq-proxy-auth-answer-para-3": {
+        "message": "Desafortunadamente, en Psiphon para Android no soportamos autentificación para proxy HTTP en este momento.",
         "description": ""
     },
     "faq-information-collected-answer-head-4": {
@@ -991,6 +1035,10 @@
         "message": "¿Cómo compruebo mi versión actual de Psiphon?",
         "description": ""
     },
+    "faq-proxy-auth-answer-step-1": {
+        "message": "Ejecute <code>regedit.exe</code>.",
+        "description": ""
+    },
     "site-title": {
         "message": "Psiphon. libere su red",
         "description": "the title for the site"
@@ -1025,6 +1073,10 @@
     },
     "faq-autoproxy-question": {
         "message": "Uso <a href=\"https://addons.mozilla.org/es/firefox/addon/autoproxy\">AutoProxy</a>. ¿Cómo puedo decirle a Psiphon para Windows que no configure los parámetros para proxy de mi sistema?",
+        "description": ""
+    },
+    "faq-isp-traffic-question-toc": {
+        "message": "¿Mi ISP puede ver lo que estoy haciendo en Internet mientras estoy usando Psiphon?",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
@@ -1171,9 +1223,17 @@
         "message": "Primero debe <a href=\"./faq.html#authentic-android\">verificar que su copia de Psiphon para Android es auténtica</a>.",
         "description": ""
     },
+    "faq-proxy-auth-answer-step-2": {
+        "message": "Vaya hasta <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
+        "description": ""
+    },
     "download-description": {
         "message": "Descarga de Psiphon gratuíta y directa para Windows y Android",
         "description": "title for the download page"
+    },
+    "faq-proxy-auth-answer-step-3": {
+        "message": "Edite los siguientes valores:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (asegúrese de introducir el número de puerto en <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
+        "description": ""
     },
     "download-direct-head": {
         "message": "Descargas directas",

@@ -38,7 +38,7 @@
   <%- @getBlock('styles').add(@document.pathToRoot+style for style in @site.styles).toHTML() %>
 </head>
 
-<body lang="<%= @document.language %>" dir="<%= if @document.language in @rtl_languages then 'rtl' else 'ltr' %>" <%- "style='direction: rtl'" if @document.language in @rtl_languages %>>
+<body lang="<%= @document.language %>" dir="<%= if @document.language in @rtl_languages then 'rtl' else 'ltr' %>" <%- 'style="direction: rtl"' if @document.language in @rtl_languages %>>
 
   <%-@partial('nav.html', @)%>
 

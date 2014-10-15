@@ -1,5 +1,10 @@
-# The DocPad Configuration File
-# It is simply a CoffeeScript Object which is parsed by CSON
+# DocPad Configuration File
+# http://docpad.org/docs/config
+
+url = require('url')
+cheerio = require('cheerio')
+
+
 docpadConfig = {
 
   # =================================
@@ -11,10 +16,7 @@ docpadConfig = {
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://play.psiphon3.com"
-
-      # Here are some old site urls that you would like to redirect from
-      oldUrls: []
+      url: 'https://psiphon.ca/'
 
       # The website description meta (for SEO).
       # Individual pages should set their own if needed. Otherwise we won't
@@ -366,6 +368,42 @@ docpadConfig = {
 
       # There's no language-specific version of this file. Just return the argument.
       return @document.pathToRoot + partialURL
+
+
+    getIdForDocument: (document) ->
+      hostname = url.parse(@site.url).hostname
+      date = document.date.toISOString().split('T')[0]
+      path = document.url
+      "tag:#{hostname},#{date}:#{path}"
+
+
+    # Makes URLs in blog feed content absolute.
+    fixBlogFeedUrls: (content) ->
+      baseUrl = @site.url
+      regex = /^(http|https|ftp|mailto):/
+      $ = cheerio.load(content)
+      $('img').each ->
+        $img = $(@)
+        src = $img.attr('src')
+        $img.attr('src', url.resolve(baseUrl, src)) unless regex.test(src)
+      $('a').each ->
+        $a = $(@)
+        href = $a.attr('href')
+        $a.attr('href', url.resolve(baseUrl, href)) unless regex.test(href)
+      return $.html()
+
+
+    # Makes necessary modifications to a rendered blog post to make it suitable
+    # for inclusion in the blog Atom/RSS feed.
+    preparePostForBlogFeed: (contentRendered) ->
+      #$ = cheerio.load(contentRendered)
+      #contentRendered = $('article').html()
+      return @fixBlogFeedUrls(contentRendered)
+
+
+    # Simply exposes url.resolve
+    urlResolve: (from, to) ->
+      url.resolve(from, to)
 
 
   # =================================
