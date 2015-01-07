@@ -1,0 +1,24 @@
+---
+title: 独立的安全评估的Psiphon 3
+author: Psiphon团队
+layout: blog/post
+date: 2014-10-15
+---
+
+在Psiphon，我们都致力于开放源代码开发。我们在以前讨论过这个[博客文章](https://psiphon.ca/en/blog/psiphon-a-technical-description.html)，你可以访问我们的代码存储库[这里](https://bitbucket.org/psiphon/psiphon-circumvention-system)。
+
+我们最近得到了一个机会进一步采取步骤于这种开放源代码于Windows和Android产品。由[iSEC合作伙伴](https://www.isecpartners.com/)进行了正式的安全审计。作为我们努力做到透明在我们的运作方式，我们很高兴发布这份报告全文，您可以访问[这里](<%= @relativeToRoot '/assets/Psiphon-3-iSEC-Partners-v1.1-08-2014.pdf' %>)（用英语）。
+
+全局，我们是非常满意的结果的安全审计，而且我们都"积极确保我们的用户的安全"。我们已处理一个高严重性问题，发现由iSEC伙伴，并随着时间的推移将继续解决的其他建议。
+
+该报告的主要结果如下：
+
+* Psiphon 遵循大多数行业的最佳做法，并采取措施以减轻攻击。
+* 大多数结果是建议以进一步改善有关软件，特别是增长在使用该软件的人数。
+* 没有固有的结构缺陷被发现了。
+* 发现了高严重性的一个问题，相关的自动化的服务器的修补。我们现在已[部署](https://bitbucket.org/psiphon/psiphon-circumvention-system/src/791b719333fe0cd2ca9f8a1dac1629837658510d/Automation/psi_ansible.py)自动化的服务器修补使用[Ansible](http://www.ansible.com/home)。
+* 长期建议正在考虑，并酌情内置于我们的发展计划。
+
+一个特殊的发现由iSEC伙伴是还有潜力到的安全问题当我们使用仅浏览器模式。我们最近[写到](https://psiphon.ca/en/blog/psiphon-CVE-2014-6041.html)当在浏览器中被发现了一个新的安全漏洞。并且已采取步骤减轻反对它。
+
+我们都很高兴能够有机会参与这次安全审查。我们希望你会发现这份报告很有趣，和它将展示我们致力于提供一流的软件，已永远开放源码和安全。
