@@ -1,0 +1,24 @@
+---
+title: Independent Security Assessment of Psiphon 3
+author: Psiphon Team
+layout: blog/post
+date: 2014-10-15
+---
+
+At Psiphon, we’re committed to open source development. We talked about this in a [previous blog post](https://psiphon.ca/en/blog/psiphon-a-technical-description.html), and you can access our code repository [here](https://bitbucket.org/psiphon/psiphon-circumvention-system).
+
+We were recently offered the chance to take this openness a step further with a formal security audit of our Windows and Android products, to be carried out by [iSEC Partners](https://www.isecpartners.com/). As part of our effort to be transparent in the way we operate, we are pleased to publish this report in full, which you can access [here](<%= @relativeToRoot '/assets/Psiphon-3-iSEC-Partners-v1.1-08-2014.pdf' %>).
+
+Overall, we are very happy with the results of the security audit, and for it to be recognized that we are "actively invested in ensuring the security of [our] users". We have already addressed the one High Severity item uncovered by iSEC Partners, and will continue to address the other recommendations over time.
+
+The main findings of the report are:
+
+* Psiphon follows most industry best-practices and takes measures to mitigate against attacks where it cannot.
+* Most findings were suggestions to further improve the system, particularly in relation to the growth in the number of people using the software.
+* No inherent architecture flaws were discovered.
+* One High Severity issue was found, related to automated server patching. We have now [deployed](https://bitbucket.org/psiphon/psiphon-circumvention-system/src/791b719333fe0cd2ca9f8a1dac1629837658510d/Automation/psi_ansible.py) automated server patching using [Ansible](http://www.ansible.com/home).
+* Longer-term recommendations are being considered, and where appropriate built in to our development plans.
+
+One particular finding of interest is the recognition by iSEC Partners that there is a potential for security issues related to the browser that we use for browser-only mode. We [wrote about that](https://psiphon.ca/en/blog/psiphon-CVE-2014-6041.html) recently when a new security flaw in the browser was discovered, and have already taken steps to mitigate against it.
+
+We were very pleased to be given the opportunity to engage with this security review. We hope that you will find this report interesting, and that it will reassure you of our commitment to providing first-class software that will always be open source and secure.
