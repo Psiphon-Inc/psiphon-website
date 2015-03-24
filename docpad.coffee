@@ -499,7 +499,7 @@ docpadConfig = {
   # =================================
   # Other DocPad config
 
-  ignoreCustomPatterns: /\.orig$/
+  ignoreCustomPatterns: /\.orig$|^_/
 }
 
 
