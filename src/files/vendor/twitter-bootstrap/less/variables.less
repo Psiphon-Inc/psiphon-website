@@ -18,7 +18,10 @@
 // Brand colors
 // -------------------------
 
-@brand-primary:         #428bca;
+@brand-primary:         #d23f28;
+@brand-secondary:       #3a2319;
+@brand-tertiary:        #9d8e60;
+
 @brand-success:         #5cb85c;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
@@ -27,7 +30,7 @@
 // Scaffolding
 // -------------------------
 
-@body-bg:               #f7ffff;
+@body-bg:               #FFFAEC;
 @text-color:            @gray-dark;
 
 // Links
@@ -256,7 +259,7 @@
 // Basics of a navbar
 @navbar-height:                    60px;
 @navbar-margin-bottom:             @line-height-computed;
-@navbar-border-radius:             @border-radius-base;
+@navbar-border-radius:             0;//@border-radius-base;
 @navbar-padding-horizontal:        floor(@grid-gutter-width / 2);
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 
@@ -288,15 +291,15 @@
 //
 // Reset inverted navbar basics
 @navbar-inverse-color:                      @gray-light;
-@navbar-inverse-bg:                         #011E38;
+@navbar-inverse-bg:                         #3a2319;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 #FFAD61;
-@navbar-inverse-link-hover-color:           lighten(@navbar-inverse-link-color, 20%);
-@navbar-inverse-link-hover-bg:              lighten(@navbar-inverse-bg, 20%);
-@navbar-inverse-link-active-color:          lighten(@navbar-inverse-link-color, 10%);
-@navbar-inverse-link-active-bg:             lighten(@navbar-inverse-bg, 10%);
+@navbar-inverse-link-color:                 #fff;
+@navbar-inverse-link-hover-color:           @navbar-inverse-link-color;
+@navbar-inverse-link-hover-bg:              @brand-primary;
+@navbar-inverse-link-active-color:          @navbar-inverse-link-color;
+@navbar-inverse-link-active-bg:             mix(@navbar-inverse-bg, @brand-primary, 50%);
 @navbar-inverse-link-disabled-color:        #444;
 @navbar-inverse-link-disabled-bg:           transparent;
 
@@ -502,13 +505,13 @@
 // Panels
 // -------------------------
 @panel-bg:                    #fff;
-@panel-inner-border:          #ddd;
+@panel-inner-border:          lighten(@panel-default-heading-bg, 20%);
 @panel-border-radius:         @border-radius-base;
 @panel-footer-bg:             #f5f5f5;
 
-@panel-default-text:          @gray-dark;
-@panel-default-border:        #ddd;
-@panel-default-heading-bg:    #f5f5f5;
+@panel-default-text:          #fff;
+@panel-default-border:        lighten(@panel-default-heading-bg, 20%);
+@panel-default-heading-bg:    @brand-tertiary;
 
 @panel-primary-text:          #fff;
 @panel-primary-border:        @brand-primary;

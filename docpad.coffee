@@ -492,9 +492,10 @@ docpadConfig = {
   # =================================
   # DocPad Environments
 
-  #environments:
-  #  production:
-  #    templateData:
+  environments:
+    fastbuild:
+      enabledPlugins:
+        languagemaker: false
 
   # =================================
   # Other DocPad config

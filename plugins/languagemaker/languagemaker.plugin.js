@@ -34,7 +34,7 @@ If a given document already really exists on disk, it won't be overwritten.
       LanguageMaker.prototype.contextualizeAfterLock = false;
 
       LanguageMaker.prototype.populateCollections = function(opts, next) {
-        var config, count, docpad, pathStart, tasks;
+        var config, docpad, pathStart, tasks;
         docpad = this.docpad;
         config = this.config;
         docpad.log('debug', 'languagemaker: making language files');
@@ -50,7 +50,6 @@ If a given document already really exists on disk, it won't be overwritten.
         }).done(function(err) {
           return next(err);
         });
-        count = 0;
         docpad.getCollection('documents').findAll({
           relativePath: {
             $startsWith: pathStart
@@ -82,9 +81,7 @@ If a given document already really exists on disk, it won't be overwritten.
                   languagemakered: true
                 }
               });
-              console.log('&&&&&&&&&&&&& newDoc.action in', ++count);
               return newDoc.action('load', function(err) {
-                console.log('&&&&&&&&&&&&& newDoc.action out', err, --count);
                 if (err) {
                   return complete(err);
                 }
