@@ -7,10 +7,6 @@
     "message": "Psiphon: free your net",
     "description": "the title for the site"
   },
-  "index-title": {
-    "message": "Welcome to your new Internet",
-    "description": "Page title for the index page"
-  },
   "index-meta-title": {
     "message": "Uncensored Internet access for Windows and Mobile",
     "description": "Meta title for the index page"
@@ -147,7 +143,7 @@
   },
   "faq-information-collected-answer-head-4": {
     "message": "App Stores",
-    "description": "this is referring to the general idea of app stores, like Google Play, Amazon AppStore, Apple App Store"
+    "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
   },
   "faq-information-collected-answer-para-1": {
     "message": "We collect the following data to find out how well Psiphon is working, what sites are popular and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries."
@@ -213,16 +209,16 @@
     "message": "Android version"
   },
   "faq-information-collected-answer-para-8-item-2": {
-    "message": "Model of phone"
+    "message": "Device model"
   },
   "faq-information-collected-answer-para-8-item-3": {
-    "message": "Whether your phone is rooted"
+    "message": "Whether your device is rooted"
   },
   "faq-information-collected-answer-para-9": {
     "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry to the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> describing what was recorded, how long it was kept, and why."
   },
   "faq-information-collected-answer-para-10": {
-    "message": "Note that if you get Psiphon from an \"app store\" -- such as Google Play or Amazon AppStore -- additional statistics may be collected by that store. For example, here is a description of what Google Play collects:"
+    "message": "Note that if you get Psiphon from an \"app store\" -- such as the Google Play Store or Amazon AppStore -- additional statistics may be collected by that store. For example, here is a description of what the Google Play Store collects:"
   },
   "faq-information-collected-answer-para-11": {
     "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). We do not allow your email address to be written to the system's log file."
@@ -243,7 +239,7 @@
     "message": "The size of the email."
   },
   "faq-information-collected-answer-para-13-item-4": {
-    "message": "The mail server the email request came from. (Specifically, the three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)"
+    "message": "The mail server the email request came from. (The three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)"
   },
   "faq-information-collected-answer-para-14": {
     "message": "If we need to diagnose a problem, we may enable full mail server logging for a short amount of time. If you send an email during that time, your email address will be written to the system log. Those logs are deleted after one week."
@@ -306,7 +302,7 @@
     "message": "When I connect to Psiphon for Windows in VPN mode, none of my web pages load. I get error messages indicating that a domain lookup failed."
   },
   "faq-vpn-dns-answer-para-1": {
-    "message": "Psiphon restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>."
+    "message": "Psiphon restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">here</a>."
   },
   "faq-configure-applications-question": {
     "message": "How do I configure applications to use the Psiphon tunnel in SSH modes?"
@@ -378,7 +374,7 @@
     "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some cases your Internet traffic might not be tunneled through Psiphon in SSH or SSH+ mode, for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon."
   },
   "faq-isp-traffic-answer-para-3": {
-    "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\"."
+    "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this is \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\"."
   },
   "faq-isp-traffic-answer-para-4": {
     "message": "If you require anonymity over the Internet then you should use <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> instead of Psiphon."
@@ -405,7 +401,7 @@
     "message": "Psiphon is designed to provide you with open access to online content. Psiphon does not increase your online privacy, and should not be considered or used as an online security tool."
   },
   "main-gets-you-where-you-want-head-1": {
-    "message": "Gets you where you want to go..."
+    "message": "Gets you&nbsp;where you want to go..."
   },
   "main-gets-you-where-you-want-head-2": {
     "message": "Censored by your country, corporation, or campus?"
@@ -426,7 +422,7 @@
     "message": "Trust, Speed, Simplicity: pick three"
   },
   "main-pick-three-para-1": {
-    "message": "Since 2008, Psiphon has helped millions of people in restricted-freedom countries around the world safely access censored knowledge and ideas. Now Psiphon can do the same for you."
+    "message": "Since 2008, Psiphon has helped millions of people in freedom-restricted countries around the world safely access censored knowledge and ideas. Now Psiphon can do the same for you."
   },
   "about-title": {
     "message": "About Us",
@@ -441,7 +437,7 @@
     "description": "text for the About page navigation item"
   },
   "about-description": {
-    "message": "Meet the team behind Psiphon's Internet circumvention software",
+    "message": "Meet the team behind Psiphon's Internet censorship circumvention software",
     "description": "description for the About page"
   },
   "about-get-latest-info-head": {
@@ -492,7 +488,7 @@
   },
   "download-store-head": {
     "message": "App Store Downloads",
-    "description": "This refers to Google Play, Amazon's AppStore, and any similar app stores"
+    "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
   },
   "download-direct-head": {
     "message": "Direct Downloads"
@@ -518,7 +514,7 @@
     "message": "You should first <a href=\"./faq.html#authentic-android\">verify that your copy of Psiphon for Android is authentic</a>."
   },
   "user-guide-android-para-1": {
-    "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)"
+    "message": "Click on a Psiphon APK link from within your Android email client or web browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)"
   },
   "user-guide-android-para-3": {
     "message": "When you launch the Psiphon app, it will automatically start connecting to the Psiphon network."
@@ -567,12 +563,12 @@
     "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
   },
   "user-guide-android-ui-status-image-annotation-3": {
-    "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted phone.<br><br>This option will be unavailable for non-rooted phones with an older version of Android.",
+    "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted device.<br><br>This option will be unavailable for non-rooted devices with an older version of Android.",
     "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
   },
   "user-guide-android-ui-status-image-annotation-4": {
     "message": "<span style=\"color:grey\">Grey</span>: connecting<br><span style=\"color:red\">Red</span>: not connected<br><span style=\"color:Blue\">Blue</span>: connected",
-    "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
+    "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
   },
   "user-guide-android-ui-status-image-annotation-5": {
     "message": "Shows what version of Psiphon you are currently running",
@@ -583,7 +579,7 @@
     "description": "alt text for an image"
   },
   "user-guide-android-ui-logs-image-annotation-1": {
-    "message": "Logs of Psiphon activity",
+    "message": "Psiphon activity logs",
     "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
   },
   "user-guide-android-ui-statistics-image-alt": {
@@ -627,10 +623,10 @@
     "message": "Connection to the Psiphon server is established when the green icon is displayed. In VPN mode, all of your traffic automatically tunnels through Psiphon."
   },
   "user-guide-windows-para-4": {
-    "message": "In SSH and SSH+ modes, Psiphon automatically sets the Windows system proxy settings and traffic for applications that respect these settings tunnel through Psiphon. These settings are respected by default by all major web browsers."
+    "message": "In SSH and SSH+ modes, Psiphon automatically sets the Windows system proxy settings, so network traffic for applications that respect these settings will be tunneled through Psiphon. These settings are respected by default by all major web browsers."
   },
   "user-guide-windows-para-5": {
-    "message": "Furthermore, in SSH and SSH+ modes, Psiphon offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy...” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area."
+    "message": "Furthermore, in SSH and SSH+ modes, Psiphon offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy domestic web sites” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area."
   },
   "user-guide-windows-para-6": {
     "message": "When you close the program, Psiphon automatically disconnects. You can also click on the icon to toggle the connection."
@@ -795,7 +791,7 @@
     "message": "Partnerships"
   },
   "about-who-we-are-partners-para-1": {
-    "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our web proxy software in 15 languages, and are adding more to our Windows and Mobile products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Open Technology Fund’s hub."
+    "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our software in 15 languages, and are adding more to our products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Localization Lab hub."
   },
   "about-who-we-are-partners-para-2": {
     "message": "One of our most successful partnerships is with <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a>, who provide translation and support services in Farsi, and have been instrumental in helping us grow our audience."
@@ -816,10 +812,10 @@
     "message": "For further information regarding Canadian and Ontario privacy laws, please visit:"
   },
   "privacy-canadian-privacy-commission-link-text": {
-    "message": "Canadian Privacy Commission"
+    "message": "Office of the Privacy Commissioner of Canada"
   },
   "privacy-ontario-privacy-commissioner-link-text": {
-    "message": "Office of the Ontario Privacy Commissioner"
+    "message": "Office of the Information and Privacy Commissioner of Ontario"
   },
   "privacy-para-3": {
     "message": "Psiphon is designed to provide you with open access to online content. Psiphon does not increase your online privacy, and should not be considered or used as an online security tool."
@@ -853,7 +849,7 @@
     "message": "Open Source"
   },
   "open-source-description": {
-    "message": "Psiphon is open source Internet circumvention software"
+    "message": "Psiphon is open source Internet censorship circumvention software"
   },
   "open-source-para-1": {
     "message": "Psiphon is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>."
