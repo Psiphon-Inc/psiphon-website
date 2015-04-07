@@ -53,7 +53,9 @@ docpadConfig = {
 
 
     # Enabled languages
-    languages: ['en', 'fa', 'ar', 'tr', 'zh', 'ru', 'uz@cyrillic', 'uz@Latn', 'tk', 'th', 'az', 'ug@Latn', 'kk', 'es', 'vi', 'fr', 'nb']
+    # This is the order in which they will be displayed in the language picker
+    languages: ['en', 'fa', 'ar', 'tr', 'zh', 'ru', 'uz@cyrillic', 'uz@Latn', 'tk', 'th', 'az', 'ug@Latn', 'kk', 'es', 'vi', 'fr', 'nb', 'de', 'el',
+    'ko', 'pt_PT']
 
     # Translation file location.
     translation_files:
@@ -74,6 +76,11 @@ docpadConfig = {
       nb: './_locales/nb/messages.json'
       fr: './_locales/fr/messages.json'
       tr: './_locales/tr/messages.json'
+      de: './_locales/de/messages.json'
+      el: './_locales/el/messages.json'
+      fi: './_locales/fi/messages.json'
+      ko: './_locales/ko/messages.json'
+      pt_PT: './_locales/pt_PT/messages.json'
 
     # Translations will be loaded into this object.
     translations: {}
@@ -304,10 +311,12 @@ docpadConfig = {
         "fr": "Français"
         "hu": "Magyar"
         "it": "Italiano"
+        "ko": "한국말"
         "nl": "Nederlands"
         "nb": "Norsk (bokmål)"
         "pl": "Polski"
         "pt_BR": "Português(Br)"
+        "pt_PT": "Português(Pt)"
         "ru": "Русский"
         "sv": "Svenska"
         "zh": "中文"
