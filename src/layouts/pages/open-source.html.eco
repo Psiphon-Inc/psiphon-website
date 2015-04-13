@@ -6,17 +6,21 @@ layout: page
   <div class="col-md-12">
     <p>
       <%- @tt 'open-source-para-1' %>
+      <ul>
+        <li><a href="https://bitbucket.org/psiphon/psiphon-circumvention-system" target="_blank">bitbucket.org/psiphon/psiphon-circumvention-system</a></li>
+        <li><a href="https://github.com/Psiphon-Inc" target="_blank">github.com/Psiphon-Inc</a></li>
+        <li><a href="https://github.com/Psiphon-Labs" target="_blank">github.com/Psiphon-Labs</a></li>
+      </ul>
     </p>
+
     <p>
       <%= @tt 'open-source-para-2' %>
+      <ul>
+        <li><a href="https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation" target="_blank">Obfuscated SSH patch</a></li>
+        <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+        <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/meek" target="_blank">meek</a></li>
+      </ul>
     </p>
-
-    <ul>
-      <li><a href="https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation" target="_blank">Obfuscated SSH patch</a></li>
-      <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
-      <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/meek" target="_blank">meek</a></li>
-
-    </ul>
 
     <p>
       <%= @tt 'open-source-para-3-list-start' %>
@@ -28,6 +32,7 @@ layout: page
         <li><a href="http://www.zlib.net/" target="_blank">zlib</a></li>
       </ul>
     </p>
+
     <p>
       <%= @tt 'open-source-para-4-list-start' %>
       <ul>

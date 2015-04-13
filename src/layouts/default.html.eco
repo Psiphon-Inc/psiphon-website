@@ -4,11 +4,6 @@
 <head>
   <meta charset="utf-8" />
 
-  <!-- If the current language isn't full supported, redirect to the old download page. -->
-  <% if @document.language in @fallback_languages: %>
-    <meta http-equiv="refresh" content="1; url=<%= @relativeToRoot "/#{@document.language}.html" %>">
-  <% end %>
-
   <!-- Use the .htaccess and remove these lines to avoid edge case issues.
      More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

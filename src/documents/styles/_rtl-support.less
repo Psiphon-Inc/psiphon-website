@@ -8,6 +8,9 @@
 .make-xs-column-pull(@columns) {
   right: percentage((@columns / @grid-columns));
 }
+.make-xs-column-offset(@columns) {
+  margin-left: percentage((@columns / @grid-columns));
+}
 
 
 /* The .make-rtl-md-col mixin helps us to specify div widths that will
@@ -101,6 +104,16 @@
 .col-sm-6-center {
   .make-sm-column-offset(3);
   .make-sm-column(6);
+}
+
+.col-xs-6-center {
+  .make-xs-column-offset(3);
+  .make-xs-column(6);
+}
+
+.col-xs-8-center {
+  .make-xs-column-offset(2);
+  .make-xs-column(8);
 }
 
 
