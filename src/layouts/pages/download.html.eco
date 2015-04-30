@@ -15,7 +15,7 @@ layout: page
     </div>
   </div>
 
-  <div class="row alert alert-info download-item">
+  <div class="row download-item">
     <div class="download-os-with-qr">
       <a href="<%- @downloads.playstore %>">
         <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/google-play-store.png' %>">
@@ -38,7 +38,7 @@ layout: page
     </div>
   </div>
 
-  <div class="row alert alert-info download-item">
+  <div class="row download-item">
     <div class="download-os-with-qr">
       <a href="<%- @downloads.amazonappstore %>">
         <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/amazon-apps.png' %>">
@@ -69,7 +69,7 @@ layout: page
     </div>
   </div>
 
-  <div class="row alert alert-info download-item">
+  <div class="row download-item">
     <div class="download-os-with-qr">
       <a href="<%-  @relativeToRoot @downloads.android %>">
         <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/android-logo.png' %>">
@@ -93,7 +93,7 @@ layout: page
   </div>
 
 
-  <div class="row alert alert-info download-item">
+  <div class="row download-item">
     <div class="download-os">
       <a href="<%-  @relativeToRoot @downloads.windows %>">
         <img class="download-os-logo" src="<%= @relativeToRoot '/images/windows-logo.png' %>">
@@ -119,7 +119,7 @@ layout: page
     </div>
   </div>
 
-  <div class="row alert alert-info download-item">
+  <div class="row download-item">
     <div class="download-os">
       <img class="download-os-logo" src="<%= @relativeToRoot '/images/windows-logo.png' %>">
       <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/android-logo.png' %>">

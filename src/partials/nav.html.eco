@@ -1,5 +1,5 @@
 <!-- NAVIGATION -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse" role="navigation">
   <div class="navbar-header <%- @ifRTL 'navbar-right' %>">
     <div class="navbar-collapse-container <%= @ifRTL 'pull-left', 'pull-right' %>">
       <button type="button" class="navbar-toggle <%- @ifRTL 'pull-left' %>" data-toggle="collapse" data-target="#psi-navbar-collapse">
@@ -13,8 +13,13 @@
       </noscript>
     </div>
 
-    <a class="navbar-brand <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getPageURL '/index.html' %>">
-      <%= @tt 'psiphon' %>
+    <a class="navbar-brand-img <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getPageURL '/index.html' %>">
+      <img src="<%= @document.pathToRoot %>/images/psiphon-logo-navbar.png">
+    </a>
+    <a class="navbar-brand navbar-brand-name <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getPageURL '/index.html' %>">
+      <span>
+        <%= @tt 'psiphon' %>
+      </span>
     </a>
   </div>
 

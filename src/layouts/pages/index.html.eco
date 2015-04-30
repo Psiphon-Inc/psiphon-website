@@ -3,18 +3,14 @@ layout: default
 ---
 
 <div class="row index-splash">
-  <div class="col-sm-12">
+  <div class="col-xs-8-center">
     <a href="<%= @getPageURL '/download.html' %>">
-      <h1 class="slabtext-container" data-max-font-size="120">
+      <img src="<%= @document.pathToRoot %>/images/hero/hero-large.png" class="img-responsive center-block" alt="<%= @tt 'index-hero-alt' %>">
+      <h1 class="slabtext-container text-center" data-max-font-size="60">
         <span class="slabtext slab-main">
-          <span id="psiphon-psiph">psiph</span><span id="psiphon-on">on</span>
+          <%= @tt 'index-hero-subtext' %>
         </span>
       </h1>
-      <h2 class="slabtext-container" data-max-font-size="60">
-        <span class="slabtext slab-sub">
-          <%= @tt 'index-title' %>
-        </span>
-      </h2>
     </a>
   </div>
 </div>
