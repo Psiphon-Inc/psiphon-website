@@ -33,12 +33,17 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
 
   ```
   $ npm install .
+  $ cd plugins/languagemaker && npm install . && cd -
+  # Or maybe: find . -name package.json -maxdepth 3 -execdir npm install \;
   ```
 
 4. Generate site, serve it, and monitor for changes:
 
   ```
   $ docpad run
+
+  # Site builds can be quite slow. Skip language generation for faster builds:
+  # docpad run --env fastbuild
   ```
 
 ## Generating the site for deployment
