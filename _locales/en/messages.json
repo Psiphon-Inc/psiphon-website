@@ -145,8 +145,11 @@
     "message": "App Stores",
     "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
   },
+  "faq-information-collected-answer-para-9": {
+    "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry to the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> describing what was recorded, how long it was kept, and why."
+  },
   "faq-information-collected-answer-para-1": {
-    "message": "We collect the following data to find out how well Psiphon is working, what sites are popular and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries."
+    "message": "We collect the following data to find out how well Psiphon is working, what sites are popular, and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries."
   },
   "faq-information-collected-answer-para-2-item-1": {
     "message": "Number of email requests for client download link"
@@ -179,7 +182,7 @@
     "message": "User IP addresses and email addresses are never collected; users are not required to create accounts to use the system."
   },
   "faq-information-collected-answer-para-4": {
-    "message": "Event logs include timestamps, region codes (GeoIP country code) and non-identifying attributes including sponsor ID (determined by which Psiphon client is used), client version, and protocol type. Page views are aggregated by time and/or session before being logged."
+    "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type. Page views are aggregated by time and/or session before being logged."
   },
   "faq-information-collected-answer-para-5": {
     "message": "All statistics shared with sponsors are further aggregated by date, sponsor, and region."
@@ -213,9 +216,6 @@
   },
   "faq-information-collected-answer-para-8-item-3": {
     "message": "Whether your device is rooted"
-  },
-  "faq-information-collected-answer-para-9": {
-    "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry to the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> describing what was recorded, how long it was kept, and why."
   },
   "faq-information-collected-answer-para-10": {
     "message": "Note that if you get Psiphon from an \"app store\" -- such as the Google Play Store or Amazon AppStore -- additional statistics may be collected by that store. For example, here is a description of what the Google Play Store collects:"
@@ -260,7 +260,7 @@
     "message": "How do I check my current version of Psiphon?"
   },
   "faq-check-version-answer-para-1": {
-    "message": "When Psiphon starts, it displays the Client Version on the first line of output."
+    "message": "When Psiphon starts, it displays the Client Version on the first line of log output."
   },
   "faq-orig-file-purpose-question": {
     "message": "What is the file \"psiphon3.exe.orig\"?"
@@ -272,13 +272,13 @@
     "message": "Does Psiphon for Windows proxy all of my Internet traffic?"
   },
   "faq-proxy-all-answer-para-1": {
-    "message": "Only in VPN mode. After a successful connection is established in VPN mode, your entire computer’s traffic will pass through the Psiphon network. In SSH modes, only applications that use the local HTTP and SOCKS proxies will be proxied."
+    "message": "Only in VPN mode. After a successful connection is established in VPN mode, your entire computer’s traffic will pass through the Psiphon network. When VPN mode is not enabled only applications that use the local HTTP and SOCKS proxies will be proxied."
   },
   "faq-browser-compatibility-question": {
-    "message": "Is Psiphon for Windows compatible with IE, Firefox, Safari, and Chrome web browsers?"
+    "message": "Is Psiphon for Windows compatible with Internet Explorer, Firefox, and Chrome web browsers?"
   },
   "faq-browser-compatibility-answer-para-1": {
-    "message": "Yes. In SSH modes, check your browser settings and make sure that it is configured to use the system proxy settings."
+    "message": "Yes. Check your browser settings and make sure that it is configured to use the system proxy settings."
   },
   "faq-port-restrictions-question": {
     "message": "Are there any port restrictions in VPN mode? Why can't I send email using my mail client in VPN mode?"
@@ -296,7 +296,7 @@
     "message": "I can connect to Psiphon for Windows in VPN mode, but why is it so slow?  Sometimes web pages don't load at all."
   },
   "faq-vpn-slow-answer-para-1": {
-    "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPSec which is the protocol used by Psiphon in VPN mode. Try using SSH modes instead."
+    "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPSec which is the protocol used by Psiphon in VPN mode. Try disabling VPN mode."
   },
   "faq-vpn-dns-question": {
     "message": "When I connect to Psiphon for Windows in VPN mode, none of my web pages load. I get error messages indicating that a domain lookup failed."
@@ -305,28 +305,16 @@
     "message": "Psiphon restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">here</a>."
   },
   "faq-configure-applications-question": {
-    "message": "How do I configure applications to use the Psiphon tunnel in SSH modes?"
+    "message": "How do I configure applications to use the Psiphon tunnel?"
   },
   "faq-configure-applications-answer-para-1": {
-    "message": "Psiphon will automatically configure your system to use a local HTTP/HTTPS proxy at <code>127.0.0.1:8080</code> and a local SOCKS proxy at <code>127.0.0.1:1080</code>. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon for Windows (SSH modes) and Psiphon for Android run these local proxies."
+    "message": "Psiphon will automatically configure your system to use a local HTTP/HTTPS proxy and a local SOCKS proxy. The port numbers for these proxies are chosen randomly, unless specified in the Psiphon settings. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon for Windows and Psiphon for Android run these local proxies."
   },
   "faq-ssh-plus-question": {
-    "message": "What is SSH+ mode?"
+    "message": "What protocol does the default Psiphon tunnel use?"
   },
   "faq-ssh-plus-answer-para-1": {
-    "message": "SSH+ is SSH mode with the addition of an obfuscation layer on top of the SSH handshake to defend against protocol fingerprinting. A description of the protocol can be found <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">here</a>."
-  },
-  "faq-failed-connect-polipo-question": {
-    "message": "In SSH mode for Psiphon for Windows, I see the error message \"Failed to connect to Polipo\". What can I do?"
-  },
-  "faq-failed-connect-polipo-answer-para-1": {
-    "message": "The local HTTP proxy could not run. You might have another process running that is using the default port. Try using a different port.  See the question \"Can I run the local HTTP proxy on a different port than 8080?\""
-  },
-  "faq-polipo-different-port-question": {
-    "message": "Can I run the local HTTP proxy on a different port than 8080?"
-  },
-  "faq-polipo-different-port-answer-para-1": {
-    "message": "Yes, on Windows. Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserLocalHTTPProxyPort</code>. Set its value to the port (in Decimal) that you would like to use."
+    "message": "Psiphon uses SSH with the addition of an obfuscation layer on top of the SSH handshake to defend against protocol fingerprinting. A description of the protocol can be found <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">here</a>."
   },
   "faq-autoproxy-question": {
     "message": "I use <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. How can I tell Psiphon for Windows not to configure my system proxy settings?"
@@ -335,31 +323,7 @@
     "message": "I use AutoProxy. How can I tell Psiphon for Windows not to configure my system proxy settings?"
   },
   "faq-autoproxy-answer-para-1": {
-    "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserSkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings."
-  },
-  "faq-proxy-auth-question-toc": {
-    "message": "How do I configure Psiphon to connect through a proxy with authentication?"
-  },
-  "faq-proxy-auth-question": {
-    "message": "How do I configure Psiphon to connect through a proxy with authentication?"
-  },
-  "faq-proxy-auth-answer-para-1": {
-    "message": "Some LAN environments require internet connections to go through a proxy (like Squid) that requires authentication. Psiphon for Windows can be configured to connect through such proxies by editing the registry:"
-  },
-  "faq-proxy-auth-answer-step-1": {
-    "message": "Run <code>regedit.exe</code>."
-  },
-  "faq-proxy-auth-answer-step-2": {
-    "message": "Navigate to <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>."
-  },
-  "faq-proxy-auth-answer-step-3": {
-    "message": "Edit the following values:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (make sure to enter the port number in <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>"
-  },
-  "faq-proxy-auth-answer-step-4": {
-    "message": "Set <code>UserSkipSSHParentProxySettings</code> to <code>0</code>."
-  },
-  "faq-proxy-auth-answer-para-3": {
-    "message": "Unfortunately, on Psiphon for Android we do not support HTTP proxy authentication at this time."
+    "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>SkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings."
   },
   "faq-isp-traffic-question-toc": {
     "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?"
@@ -371,7 +335,7 @@
     "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages your browse, your chat messages, your uploads, etc."
   },
   "faq-isp-traffic-answer-para-2": {
-    "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some cases your Internet traffic might not be tunneled through Psiphon in SSH or SSH+ mode, for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon."
+    "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some modes and configurations all of your Internet traffic might not be tunneled through Psiphon -- for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon."
   },
   "faq-isp-traffic-answer-para-3": {
     "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this is \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\"."
