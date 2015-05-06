@@ -5,5 +5,12 @@
       <%= @tt 'footer-copyright' %> <%= new Date().getFullYear() %> <%= @site.companyName %> <%= @tt 'footer-license' %> <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.<%= @document.language %>" target="_blank">CC-BY-NC</a>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <a href="<%= @getPageURL(@pageInfo['about'].filename) %>#privacy-policy">
+        <%= @tt 'about-privacy-head' %>
+      </a>
+    </div>
+  </div>
 </footer>
 <!-- /FOOTER -->
