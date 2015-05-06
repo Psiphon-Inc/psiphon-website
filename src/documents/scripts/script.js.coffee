@@ -90,23 +90,8 @@ $ ->
     .done (gaID) ->
       gaID = gaID.trim() or ''
       return if not gaID
-      # This is just a coffee-ified version of the standard GA code block.
-      ((i, s, o, g, r, a, m) ->
-        i['GoogleAnalyticsObject'] = r
-        i[r] = i[r] or ->
-          (i[r].q = i[r].q or []).push arguments
-          return
-        i[r].l = 1 * new Date
-        a = s.createElement(o)
-        m = s.getElementsByTagName(o)[0]
-        a.async = 1
-        a.src = g
-        m.parentNode.insertBefore a, m
-        return
-      ) window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'
-      ga 'create', gaID, 'auto'
-      ga 'send', 'pageview'
-      return
+      newScriptElem = $('<script>').text "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','#{gaID}','auto');ga('send','pageview');"
+      newScriptElem.insertBefore($('script').eq(0))
 
   # Set up any slab text we have on the page.
   if $('.slabtext-container').length
