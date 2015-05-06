@@ -119,6 +119,11 @@ It's quite easy to add images (screenshots, etc.) that are locale-specific.
 Note that `ttURL` could also be used for files other than images. Video? CSS?
 
 
+## Using Google Analytics
+
+Google Analytics is not enabled by default, but can be enabled by adding a file to `src/files/assets/` named `google-analytics-id` containing the Google Analytics tracking ID (like `UA-XXXXX-XX`) that should be used.
+
+
 ## Docpad Tips and Caveats
 
 ### Metadata
