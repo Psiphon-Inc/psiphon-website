@@ -107,15 +107,15 @@ docpadConfig = {
         title_key: 'sponsor-title'
         nav_title_key: 'sponsor-nav-title'
 
-      'about':
-        filename: '/about.html'
-        title_key: 'about-title'
-        nav_title_key: 'about-nav-title'
-
       'blog-index':
         filename: '/blog/index.html'
         title_key: 'blog-index-title'
         nav_title_key: 'blog-index-nav-title'
+
+      'privacy':
+        filename: '/privacy.html'
+        title_key: 'privacy-title'
+        nav_title_key: 'privacy-nav-title'
 
       'license':
         filename: '/license.html'
@@ -132,6 +132,11 @@ docpadConfig = {
         title_key: 'privacy-bulletin-title'
         nav_title_key: 'privacy-bulletin-nav-title'
 
+      'about':
+        filename: '/about.html'
+        title_key: 'about-title'
+        nav_title_key: 'about-nav-title'
+
     navLayout: [
       { name: 'download' }
       {
@@ -140,10 +145,11 @@ docpadConfig = {
         subnav: [
           { name: 'user-guide' }
           { name: 'faq' }
-          { name: 'about' }
           { name: 'blog-index' }
+          { name: 'privacy' }
           { name: 'license' }
           { name: 'open-source' }
+          { name: 'about' }
         ]
       }
       # { name: 'sponsor', additional_classes: ['show-if-not-sponsored', 'hidden'] }

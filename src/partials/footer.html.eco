@@ -7,8 +7,8 @@
   </div>
   <div class="row">
     <div class="col-md-12 text-center">
-      <a href="<%= @getPageURL(@pageInfo['about'].filename) %>#privacy-policy">
-        <%= @tt 'about-privacy-head' %>
+      <a href="<%= @getPageURL(@pageInfo['privacy'].filename) %>">
+        <%= @tt 'privacy-nav-title' %>
       </a>
     </div>
   </div>
