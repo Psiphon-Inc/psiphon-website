@@ -62,9 +62,27 @@ $ ->
   banner_link_file = $('.sponsor-banner img').data('link-file')
   $.ajax(type: 'HEAD', url: banner_img_file)
     .done ->
-      $('.show-if-sponsored').removeClass('hidden')
+      $('.show-if-sponsored').toggleClass('hidden', false)
+      $('.show-if-not-sponsored').toggleClass('hidden', true)
     .error ->
-      $('.show-if-not-sponsored').removeClass('hidden')
+      $('.show-if-sponsored').toggleClass('hidden', true)
+      $('.show-if-not-sponsored').toggleClass('hidden', false)
+
+  #
+  # Some copies of the site only offer Windows xor Android builds, so certain
+  # page elements are shown/hidden depending on the presence/absence of the
+  # download files.
+  #
+  android_download_file = $('html').data('android-download-path')
+  windows_download_file = $('html').data('windows-download-path')
+  for vals in [[android_download_file, '.show-if-android'],
+               [windows_download_file, '.show-if-windows']]
+    do (fname = vals[0], selector = vals[1]) ->
+      $.ajax(type: 'HEAD', url: fname)
+        .done ->
+          $(selector).toggleClass('hidden', false)
+        .error ->
+          $(selector).toggleClass('hidden', true)
 
   ###
   We're disabling the sponsor banner link (for now). Most of our users are
