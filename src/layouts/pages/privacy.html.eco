@@ -53,6 +53,14 @@ layout: page
       <%- @tt 'privacy-information-collected-websites-google-analytics-para-3' %>
     </p>
 
+    <h4><%= @tt 'privacy-information-collected-s3-logging-head' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-s3-logging-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'privacy-information-collected-s3-logging-para-2' %>
+    </p>
+
     <!-- Psiphon Servers -->
     <h3><%= @tt 'faq-information-collected-answer-head-1' %></h3>
     <p>
@@ -72,7 +80,7 @@ layout: page
       </ul>
     </p>
     <p>
-      <%= @tt 'faq-information-collected-answer-para-3' %>
+      <%= @tt 'faq-information-collected-answer-para-3b' %>
     </p>
     <p>
       <%= @tt 'faq-information-collected-answer-para-4' %>
