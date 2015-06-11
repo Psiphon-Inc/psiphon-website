@@ -4,20 +4,11 @@
 @import "../../files/vendor/twitter-bootstrap/less/type";
 @import "../../files/vendor/twitter-bootstrap/less/utilities";
 @import "../../files/vendor/twitter-bootstrap/less/grid";
+@import "../../files/vendor/twitter-bootstrap/less/panels";
 @import "_rtl-support";
 @import "_annotations";
 
-@navbar-padding-add: 20px;
-
-@font-face {
-  font-family: 'PsiRounded';
-
-  src: url('<%= @relativeToRoot '/fonts/PsiRounded.eot' %>');
-  src: local('PsiRounded'), url('<%= @relativeToRoot '/fonts/PsiRounded.eot?#iefix' %>') format('embedded-opentype'), url('<%= @relativeToRoot '/fonts/PsiRounded.woff' %>') format('woff'), url('<%= @relativeToRoot '/fonts/PsiRounded.ttf' %>') format('truetype');
-}
-
 body {
-  padding-top: (@navbar-height + @navbar-padding-add);
 }
 
 h1 {
@@ -28,96 +19,77 @@ h2 {
   color: rgb(182, 102, 0);
 }
 
-// This sets our logo as part of the "brand" in the navbar
-.navbar-brand {
-  @brandImgMargin: 8px;
 
-  // For best old-IE compatibility, the image should be exactly this size.
-  @brandImgSize: (@navbar-height - (@brandImgMargin * 2));
+//
+// Navbar
+//
 
-  font-size: 2.5em;
-  background-image: url("<%= @relativeToRoot '/images/psiphon-logo-navbrand.png' %>");
-  background-repeat: no-repeat;
-  background-size: @brandImgSize;
+.navbar {
+  @brandImgSpace: 85px;
 
-  body[dir="ltr"] & {
-    background-position: 5% center;
-    padding-left: (@brandImgSize + @brandImgMargin + @brandImgMargin);
-    margin-right: 5px;
+  .navbar-brand-name {
+    font-size: 2.5em;
+
+    body[dir="ltr"] & {
+      padding-left: @brandImgSpace;
+      margin-right: 5px;
+    }
+
+    body[dir="rtl"] & {
+      padding-right: @brandImgSpace;
+      margin-left: 5px;
+    }
   }
 
-  body[dir="rtl"] & {
-    background-position: 95% center;
-    padding-right: (@brandImgSize + @brandImgMargin + @brandImgMargin);
-    margin-left: 5px;
+  .navbar-nav {
+    font-size: 1.5em;
+  }
+
+  .navbar-brand-img {
+    // This is to keep the image above the expanded nav items
+    z-index: 999;
+
+    padding: 0;
+    position: absolute;
+    top: 5px;
+
+    body[dir="ltr"] & {
+      left: 5px;
+    }
+
+    body[dir="rtl"] & {
+      right: 5px;
+    }
+
+    img {
+      height: (@navbar-height * 1.2);
+    }
+  }
+
+  // If Javascript is disabled in the browser, some extra effort is needed to make
+  // the collapsed navbar work. ("work" := go to the nav.html page)
+  .navbar-collapse-noscript {
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 }
 
-.navbar-nav {
-  font-size: 1.5em;
-}
-
-// If Javascript is disabled in the browser, some extra effort is needed to make
-// the collapsed navbar work. ("work" := go to the nav.html page)
-.navbar-collapse-noscript {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-// Because of the fixed navbar, we need to monkey with the size of anchor (hash)
-// link targets.
-.anchor-target {
-  padding-top: (@navbar-height + @navbar-padding-add);
-  margin-top: -(@navbar-height + @navbar-padding-add);
-
-  // Needed on Webkit
-  display: inline-block;
-}
+//
+// Index page hero image+text
+//
 
 .index-splash {
-  > div {
-    background-color: #005096;
-    background-image: url('<%= @relativeToRoot '/images/splash-pattern.png' %>');
-    background-repeat: repeat;
-
-    border-radius: 10px;
-    box-shadow: 0px 0px 30px #203547;
-  }
-
   h1 {
-    font-size: 5em; // only used if no JS or old IE
-    padding: 1% 3% 3% 3%;
-  }
-
-  h2 {
-    font-size: 1.6em; // only used if no JS or old IE
-    position: absolute;
-    bottom: 5%;
-    margin: 0;
-    padding: 0 0 0 3%;
-    width: 90%;
+    font-size: 50px; // only used if no JS or old IE
+    font-variant: small-caps;
+    font-weight: 700;
+    margin-top: 0;
   }
 
   .slab-main {
-    font-family: "PsiRounded", @font-family-sans-serif;
     letter-spacing: 0px !important;
-    color: #1D1B19;
-    text-shadow: @navbar-inverse-link-color 0px 0px 0.2em;
-
-    #psiphon-psiph {
-      color: #1483C4;
-    }
-
-    #psiphon-on {
-      color: #FF8710;
-    }
-  }
-
-  .slab-sub {
-    color: #81C3FF;
-    margin-top: -1em;
-    text-shadow: -0.2em -0.2em 0.15em #00101F;
+    color: @brand-secondary;
   }
 
   a {
@@ -125,7 +97,19 @@ h2 {
     width: 100%;
     text-decoration: none;
   }
+
+  img {
+    max-height: 150px;
+  }
 }
+
+.panel-heading h2 {
+  color: inherit; /* Use the heading color set in variables.less */
+}
+
+/*
+ * FAQ page
+ */
 
 .faq-qa {
   margin-top: 3em;
@@ -144,9 +128,15 @@ h2 {
  * Download page
  */
 
-.download-item img {
-  .img-responsive;
-  max-height: 5em;
+.download-item {
+  .panel;
+  .panel-default;
+  padding: 1em;
+
+  img {
+    .img-responsive;
+    max-height: 5em;
+  }
 }
 
 .download-head {

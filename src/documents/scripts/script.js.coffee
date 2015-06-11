@@ -1,4 +1,4 @@
-# Copyright (c) 2014, Psiphon Inc.
+# Copyright (c) 2015, Psiphon Inc.
 # All rights reserved.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -62,9 +62,27 @@ $ ->
   banner_link_file = $('.sponsor-banner img').data('link-file')
   $.ajax(type: 'HEAD', url: banner_img_file)
     .done ->
-      $('.show-if-sponsored').removeClass('hidden')
+      $('.show-if-sponsored').toggleClass('hidden', false)
+      $('.show-if-not-sponsored').toggleClass('hidden', true)
     .error ->
-      $('.show-if-not-sponsored').removeClass('hidden')
+      $('.show-if-sponsored').toggleClass('hidden', true)
+      $('.show-if-not-sponsored').toggleClass('hidden', false)
+
+  #
+  # Some copies of the site only offer Windows xor Android builds, so certain
+  # page elements are shown/hidden depending on the presence/absence of the
+  # download files.
+  #
+  android_download_file = $('html').data('android-download-path')
+  windows_download_file = $('html').data('windows-download-path')
+  for vals in [[android_download_file, '.show-if-android'],
+               [windows_download_file, '.show-if-windows']]
+    do (fname = vals[0], selector = vals[1]) ->
+      $.ajax(type: 'HEAD', url: fname)
+        .done ->
+          $(selector).toggleClass('hidden', false)
+        .error ->
+          $(selector).toggleClass('hidden', true)
 
   ###
   We're disabling the sponsor banner link (for now). Most of our users are
@@ -82,6 +100,16 @@ $ ->
     $.getJSON(sponsor_email_info_file)
       .done (email) ->
         $('.sponsor-email').prop('href', "mailto:#{email}").text(email)
+
+  # We don't use any analytics on most copies of the site, but we do on a couple.
+  # Check for the presence of a file that provides a Google Analytics tracking ID.
+  # If present, enable GAnalytics.
+  $.ajax(PATH_TO_ROOT+'/assets/google-analytics-id')
+    .done (gaID) ->
+      gaID = gaID.trim() or ''
+      return if not gaID
+      newScriptElem = $('<script>').text "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','#{gaID}','auto');ga('send','pageview');"
+      newScriptElem.insertBefore($('script').eq(0))
 
   # Set up any slab text we have on the page.
   if $('.slabtext-container').length

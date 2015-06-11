@@ -11,6 +11,7 @@ module.exports = (BasePlugin) ->
 
   path = require('path')
   fs = require('fs')
+  {TaskGroup} = require('taskgroup')
 
   # Define Plugin
   class LanguageMaker extends BasePlugin
@@ -29,11 +30,9 @@ module.exports = (BasePlugin) ->
     populateCollections: (opts, next) ->
       # Prepare
       docpad = @docpad
-      docpad.log 'debug', 'languagemaker: making language files'
-
-      database = docpad.getDatabase()
-
       config = @config
+
+      docpad.log 'debug', 'languagemaker: making language files'
 
       if Array.isArray(config.languages) and config.languages.length == 0
         config.languages = docpad.config.templateData.languages
@@ -43,43 +42,55 @@ module.exports = (BasePlugin) ->
 
       pathStart = path.normalize "#{config.defaultLanguage}/"
 
+      tasks = new TaskGroup(concurrency: 0).done (err) ->
+        return next(err)
+
       docpad.getCollection('documents').findAll({relativePath: $startsWith: pathStart}).forEach (document) ->
         config.languages.forEach (lang) ->
-          return if lang == config.defaultLanguage
+          tasks.addTask (complete) ->
+            if lang == config.defaultLanguage
+              return complete()
 
-          relativePath = document.get('relativePath').replace(pathStart, path.normalize("#{lang}/"))
+            relativePath = document.get('relativePath').replace(pathStart, path.normalize("#{lang}/"))
 
-          # At this point in the Docpad generation process, the
-          # `relativeOutPath` attribute hasn't been set. But it's the value we
-          # want to use, since the document extensions might be different in
-          # the different languages (e.g., `.html.md` vs. `.html`). So we'll
-          # strip down to the last extension -- which is basically the output
-          # extension -- and compare using that.
-          # We're going to approach this the simple way: assume there are no
-          # periods (`.`) in the path -- only in the extension. If this becomes
-          # too simplistic in the future, we can probably split up the path
-          # using a regex something like:
-          #   match(/^(.+)(\/|\\)([^\/\\\.]+)(\.[^\.]+)/)
-          relativeOutPath = relativePath.split('.').slice(0, 2).join('.')
+            # At this point in the Docpad generation process, the
+            # `relativeOutPath` attribute hasn't been set. But it's the value we
+            # want to use, since the document extensions might be different in
+            # the different languages (e.g., `.html.md` vs. `.html`). So we'll
+            # strip down to the last extension -- which is basically the output
+            # extension -- and compare using that.
+            # We're going to approach this the simple way: assume there are no
+            # periods (`.`) in the path -- only in the extension. If this becomes
+            # too simplistic in the future, we can probably split up the path
+            # using a regex something like:
+            #   match(/^(.+)(\/|\\)([^\/\\\.]+)(\.[^\.]+)/)
+            relativeOutPath = relativePath.split('.').slice(0, 2).join('.')
 
-          if docpad.getCollection('documents').findOne({ relativePath: $startsWith: relativeOutPath })
-            docpad.log 'info', 'languagemaker: file already exists, so not making '+ relativePath
-            return
+            if docpad.getCollection('documents').findOne({ relativePath: $startsWith: relativeOutPath })
+              docpad.log 'info', 'languagemaker: file already exists, so not making '+ relativePath
+              return complete()
 
-          # Create the new virtual document
-          newDoc = @docpad.createDocument(
-            isDocument: true
-            encoding: 'utf8'
-            relativePath: relativePath
-            data: fs.readFileSync(path.resolve(
-                                    process.cwd(),
-                                    config.rootToDocumentsPathFragment,
-                                    document.get('relativePath')))
-            meta:
-              language: lang
-              languagemakered: yes
-            )
+            # Create the new virtual document
+            newDoc = docpad.createDocument(
+              isDocument: true
+              encoding: 'utf8'
+              relativePath: relativePath
+              data: fs.readFileSync(path.resolve(
+                                      process.cwd(),
+                                      config.rootToDocumentsPathFragment,
+                                      document.get('relativePath')))
+              meta:
+                language: lang
+                languagemakered: yes
+              )
 
-          database.add newDoc
+            newDoc.action 'load', (err) ->
+              if err
+                return complete(err)
+              docpad.getDatabase().add newDoc
+              return complete()
 
-      next()
+      tasks.run()
+
+      # Chain
+      return @

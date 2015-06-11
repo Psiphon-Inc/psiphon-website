@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <% @document.language = 'en' if not @document.language %>
-<html lang="<%= @document.language %>">
+<html lang="<%= @document.language %>"
+      data-android-download-path="<%- @relativeToRoot @downloads.android %>"
+      data-windows-download-path="<%- @relativeToRoot @downloads.windows %>">
 <head>
   <meta charset="utf-8" />
-
-  <!-- If the current language isn't full supported, redirect to the old download page. -->
-  <% if @document.language in @fallback_languages: %>
-    <meta http-equiv="refresh" content="1; url=<%= @relativeToRoot "/#{@document.language}.html" %>">
-  <% end %>
 
   <!-- Use the .htaccess and remove these lines to avoid edge case issues.
      More info: h5bp.com/i/378 -->
@@ -57,6 +54,10 @@
   </div><!-- /container -->
 
   <!-- Scripts -->
+  <script>
+    // Make this value available to other scripts.
+    var PATH_TO_ROOT = "<%= @document.pathToRoot %>";
+  </script>
   <!-- We need to disable "defer" in order to work in IE8 -->
   <%- @getBlock('scripts').add(@document.pathToRoot+script for script in @site.scripts, {defer:false, async:false}).toHTML() %>
 </body>

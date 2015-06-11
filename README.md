@@ -33,12 +33,17 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
 
   ```
   $ npm install .
+  $ cd plugins/languagemaker && npm install . && cd -
+  # Or maybe: find . -name package.json -maxdepth 3 -execdir npm install \;
   ```
 
 4. Generate site, serve it, and monitor for changes:
 
   ```
   $ docpad run
+
+  # Site builds can be quite slow. Skip language generation for faster builds:
+  # docpad run --env fastbuild
   ```
 
 ## Generating the site for deployment
@@ -112,6 +117,11 @@ It's quite easy to add images (screenshots, etc.) that are locale-specific.
 3. Create the localized images. Save them with appropriate filenames. E.g.: `i18n-test.fa.png`, `i18n-test.zh.png`, `i18n-test.ug@Latn.png`, etc. There doesn't need to (immediately) be one for each supported language, because the English fallback will compensate for missing images.
 
 Note that `ttURL` could also be used for files other than images. Video? CSS?
+
+
+## Using Google Analytics
+
+Google Analytics is not enabled by default, but can be enabled by adding a file to `src/files/assets/` named `google-analytics-id` containing the Google Analytics tracking ID (like `UA-XXXXX-XX`) that should be used.
 
 
 ## Docpad Tips and Caveats

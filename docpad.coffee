@@ -53,7 +53,8 @@ docpadConfig = {
 
 
     # Enabled languages
-    languages: ['en', 'fa', 'ar', 'tr', 'zh', 'ru', 'uz@cyrillic', 'uz@Latn', 'tk', 'th', 'az', 'ug@Latn', 'kk', 'es', 'vi', 'fr', 'nb']
+    # This is the order in which they will be displayed in the language picker
+    languages: ['en', 'fa', 'ar', 'zh', 'az', 'de', 'el', 'es', 'fr', 'kk', 'ko', 'nb', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'ug@Latn', 'uz@cyrillic', 'uz@Latn', 'vi']
 
     # Translation file location.
     translation_files:
@@ -74,12 +75,14 @@ docpadConfig = {
       nb: './_locales/nb/messages.json'
       fr: './_locales/fr/messages.json'
       tr: './_locales/tr/messages.json'
+      de: './_locales/de/messages.json'
+      el: './_locales/el/messages.json'
+      fi: './_locales/fi/messages.json'
+      ko: './_locales/ko/messages.json'
+      pt_PT: './_locales/pt_PT/messages.json'
 
     # Translations will be loaded into this object.
     translations: {}
-
-    # Indicates which languages are not well translated and instead English will be used
-    fallback_languages: ['tk', 'vi']
 
     # Info about all pages
     # This would be largely unnecessary if we could put metadata on layouts
@@ -104,15 +107,15 @@ docpadConfig = {
         title_key: 'sponsor-title'
         nav_title_key: 'sponsor-nav-title'
 
-      'about':
-        filename: '/about.html'
-        title_key: 'about-title'
-        nav_title_key: 'about-nav-title'
-
       'blog-index':
         filename: '/blog/index.html'
         title_key: 'blog-index-title'
         nav_title_key: 'blog-index-nav-title'
+
+      'privacy':
+        filename: '/privacy.html'
+        title_key: 'privacy-title'
+        nav_title_key: 'privacy-nav-title'
 
       'license':
         filename: '/license.html'
@@ -129,6 +132,11 @@ docpadConfig = {
         title_key: 'privacy-bulletin-title'
         nav_title_key: 'privacy-bulletin-nav-title'
 
+      'about':
+        filename: '/about.html'
+        title_key: 'about-title'
+        nav_title_key: 'about-nav-title'
+
     navLayout: [
       { name: 'download' }
       {
@@ -137,10 +145,11 @@ docpadConfig = {
         subnav: [
           { name: 'user-guide' }
           { name: 'faq' }
-          { name: 'about' }
           { name: 'blog-index' }
+          { name: 'privacy' }
           { name: 'license' }
           { name: 'open-source' }
+          { name: 'about' }
         ]
       }
       # { name: 'sponsor', additional_classes: ['show-if-not-sponsored', 'hidden'] }
@@ -304,10 +313,12 @@ docpadConfig = {
         "fr": "Français"
         "hu": "Magyar"
         "it": "Italiano"
+        "ko": "한국말"
         "nl": "Nederlands"
         "nb": "Norsk (bokmål)"
         "pl": "Polski"
         "pt_BR": "Português(Br)"
+        "pt_PT": "Português(Pt)"
         "ru": "Русский"
         "sv": "Svenska"
         "zh": "中文"
@@ -492,14 +503,15 @@ docpadConfig = {
   # =================================
   # DocPad Environments
 
-  #environments:
-  #  production:
-  #    templateData:
+  environments:
+    fastbuild:
+      enabledPlugins:
+        languagemaker: false
 
   # =================================
   # Other DocPad config
 
-  ignoreCustomPatterns: /\.orig$/
+  ignoreCustomPatterns: /\.orig$|^_/
 }
 
 

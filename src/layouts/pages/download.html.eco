@@ -8,59 +8,62 @@ layout: page
   </div>
 </div>
 
-<div id="store" class="anchor-target show-if-not-sponsored hidden">
-  <div class="row">
-    <div class="download-head">
-      <h2><%= @tt 'download-store-head' %></h2>
+<!-- These need to be separate elements, or else we might show when we shouldn't. -->
+<div class="show-if-not-sponsored"><div class="show-if-android">
+  <div id="store" class="anchor-target">
+    <div class="row">
+      <div class="download-head">
+        <h2><%= @tt 'download-store-head' %></h2>
+      </div>
     </div>
-  </div>
 
-  <div class="row alert alert-info download-item">
-    <div class="download-os-with-qr">
-      <a href="<%- @downloads.playstore %>">
-        <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/google-play-store.png' %>">
-      </a>
-    </div>
-    <div class="download-link-with-qr">
-      <h4>
-        <a href="<%- @downloads.playstore %>" class="alert-link">
-          <%= @tt 'download-android-playstore' %>
+    <div class="row download-item">
+      <div class="download-os-with-qr">
+        <a href="<%- @downloads.playstore %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/google-play-store.png' %>">
         </a>
-      </h4>
-      <p>
-        <%- @tt 'download-android-playstore-description' %>
-      </p>
+      </div>
+      <div class="download-link-with-qr">
+        <h4>
+          <a href="<%- @downloads.playstore %>" class="alert-link">
+            <%= @tt 'download-android-playstore' %>
+          </a>
+        </h4>
+        <p>
+          <%- @tt 'download-android-playstore-description' %>
+        </p>
+      </div>
+      <div class="download-qr">
+        <a href="<%- @downloads.playstore %>">
+          <img class="img-responsive" src="<%= @relativeToRoot '/images/android/google-play-qr.png' %>">
+        </a>
+      </div>
     </div>
-    <div class="download-qr">
-      <a href="<%- @downloads.playstore %>">
-        <img class="img-responsive" src="<%= @relativeToRoot '/images/android/google-play-qr.png' %>">
-      </a>
-    </div>
-  </div>
 
-  <div class="row alert alert-info download-item">
-    <div class="download-os-with-qr">
-      <a href="<%- @downloads.amazonappstore %>">
-        <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/amazon-apps.png' %>">
-      </a>
-    </div>
-    <div class="download-link-with-qr">
-      <h4>
-        <a href="<%- @downloads.amazonappstore %>" class="alert-link">
-          <%= @tt 'download-android-amazon' %>
+    <div class="row download-item">
+      <div class="download-os-with-qr">
+        <a href="<%- @downloads.amazonappstore %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/amazon-apps.png' %>">
         </a>
-      </h4>
-      <p>
-        <%- @tt 'download-android-amazon-description' %>
-      </p>
-    </div>
-    <div class="download-qr">
-      <a href="<%- @downloads.amazonappstore %>">
-        <img class="img-responsive" src="<%= @relativeToRoot '/images/android/amazon-web-qr.png' %>">
-      </a>
+      </div>
+      <div class="download-link-with-qr">
+        <h4>
+          <a href="<%- @downloads.amazonappstore %>" class="alert-link">
+            <%= @tt 'download-android-amazon' %>
+          </a>
+        </h4>
+        <p>
+          <%- @tt 'download-android-amazon-description' %>
+        </p>
+      </div>
+      <div class="download-qr">
+        <a href="<%- @downloads.amazonappstore %>">
+          <img class="img-responsive" src="<%= @relativeToRoot '/images/android/amazon-web-qr.png' %>">
+        </a>
+      </div>
     </div>
   </div>
-</div>
+</div></div>
 
 <div id="direct" class="anchor-target">
   <div class="row">
@@ -69,15 +72,15 @@ layout: page
     </div>
   </div>
 
-  <div class="row alert alert-info download-item">
+  <div class="row download-item show-if-android">
     <div class="download-os-with-qr">
-      <a href="<%-  @relativeToRoot @downloads.android %>">
+      <a href="<%- @relativeToRoot @downloads.android %>">
         <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/android-logo.png' %>">
       </a>
     </div>
     <div class="download-link-with-qr">
       <h4>
-        <a href="<%-  @relativeToRoot @downloads.android %>" class="alert-link">
+        <a href="<%- @relativeToRoot @downloads.android %>" class="alert-link">
           <%= @tt 'download-android-direct' %>
         </a>
       </h4>
@@ -86,22 +89,22 @@ layout: page
       </p>
     </div>
     <div class="download-qr">
-      <a href="<%-  @relativeToRoot @downloads.android %>">
+      <a href="<%- @relativeToRoot @downloads.android %>">
         <img class="img-responsive" src="<%= @relativeToRoot '/images/android/android-download-qr.png' %>">
       </a>
     </div>
   </div>
 
 
-  <div class="row alert alert-info download-item">
+  <div class="row download-item show-if-windows">
     <div class="download-os">
-      <a href="<%-  @relativeToRoot @downloads.windows %>">
+      <a href="<%- @relativeToRoot @downloads.windows %>">
         <img class="download-os-logo" src="<%= @relativeToRoot '/images/windows-logo.png' %>">
       </a>
     </div>
     <div class="download-link">
       <h4>
-        <a href="<%-  @relativeToRoot @downloads.windows %>" class="alert-link">
+        <a href="<%- @relativeToRoot @downloads.windows %>" class="alert-link">
           <%= @tt 'download-windows-direct' %>
         </a>
       </h4>
@@ -119,10 +122,10 @@ layout: page
     </div>
   </div>
 
-  <div class="row alert alert-info download-item">
+  <div class="row download-item">
     <div class="download-os">
-      <img class="download-os-logo" src="<%= @relativeToRoot '/images/windows-logo.png' %>">
-      <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/android-logo.png' %>">
+      <img class="download-os-logo show-if-windows" src="<%= @relativeToRoot '/images/windows-logo.png' %>">
+      <img class="download-os-logo show-if-android" src="<%= @relativeToRoot '/images/android/android-logo.png' %>">
     </div>
     <div class="download-link">
       <h4>
