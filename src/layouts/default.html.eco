@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <% @document.language = 'en' if not @document.language %>
-<html lang="<%= @document.language %>">
+<html lang="<%= @document.language %>"
+      data-android-download-path="<%- @relativeToRoot @downloads.android %>"
+      data-windows-download-path="<%- @relativeToRoot @downloads.windows %>">
 <head>
   <meta charset="utf-8" />
 

@@ -898,7 +898,19 @@
     "message": "We don't know for sure yet how many users will be affected (that's why we're doing this), but we suspect it will be fewer than 10,000 users."
   },
   "privacy-bulletin-entry-1-who-will-see": {
-    "message": "The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon already serves the files in the website S3 bucket, so they can already access this information.)"
+    "message": "The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon serves the files, so they can already access this information.)"
+  },
+  "privacy-bulletin-entry-2-title": {
+    "message": "2015-06-01: Privacy Policy update"
+  },
+  "privacy-bulletin-entry-2-what-doing": {
+    "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. This includes merging into it the answer to the FAQ question \"What information does Psiphon collect?\"."
+  },
+  "privacy-bulletin-entry-2-why-doing": {
+    "message": "The <a href=\"privacy.html\">Privacy Policy</a> page is now the only place users need to check for Psiphon's privacy and data collection policies. It has been updated to reflect use of advertisements, analytics, and logging for some of our websites."
+  },
+  "privacy-bulletin-entry-2-when-doing": {
+    "message": "This is in effect by at least 2015-06-01T00:00Z."
   },
   "privacy-title": {
     "message": "Privacy Policy",
@@ -980,8 +992,8 @@
   "faq-information-collected-answer-para-2-item-9": {
     "message": "Client platform (simplified operating system list; e.g, not a detailed browser user agent)"
   },
-  "faq-information-collected-answer-para-3": {
-    "message": "User IP addresses and email addresses are never collected; users are not required to create accounts to use the system."
+  "faq-information-collected-answer-para-3b": {
+    "message": "User IP addresses are not collected by Psiphon servers in the normal course of operation. Psiphon does not require user accounts, so, by default, there is no collection of email addresses, usernames, or passwords."
   },
   "faq-information-collected-answer-para-4": {
     "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type. Page views are aggregated by time and/or session before being logged."
@@ -1062,5 +1074,15 @@
   },
   "privacy-information-collected-websites-google-analytics-para-3": {
     "message": "Google’s ability to use and share information collected by Google Analytics about your visits to this site is restricted by the <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Google Analytics Terms of Use</a> and the <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Google Privacy Policy</a>. You may choose to opt out by turning off cookies in the preferences settings in your web browser."
+  },
+  "privacy-information-collected-s3-logging-head": {
+    "message": "Storage Remote Access Logging",
+    "description": "Sub-heading for section describing use of logging access to remote storage (aka S3 bucket logging)"
+  },
+  "privacy-information-collected-s3-logging-para-1": {
+    "message": "We use Amazon S3 to store assets such as website files and Psiphon server discovery lists. We sometimes enable logging of downloads of these files. Analyzing these logs helps us to answer questions like \"how many users are starting but not completing the download of the server discovery list?\", \"how is the downloaded data split between website assets and server discovery?\", and \"is an attacker making a denial-of-service attempt against our websites?\""
+  },
+  "privacy-information-collected-s3-logging-para-2": {
+    "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already servers the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate it and will not be shared with third parties."
   }
 }
