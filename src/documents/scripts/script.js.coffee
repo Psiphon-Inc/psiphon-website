@@ -145,7 +145,7 @@ $ ->
     # If the anchor is for the "direct downloads" section, move that section to
     # the top.
     if window.location.hash == '#direct'
-      $('#direct').insertBefore('#store')
+      $('#direct').insertBefore('#direct-priority-insert')
 
 
 # From: https://stackoverflow.com/a/2548133/729729
