@@ -59,6 +59,7 @@
     var PATH_TO_ROOT = "<%= @document.pathToRoot %>";
   </script>
   <!-- We need to disable "defer" in order to work in IE8 -->
+  <%- @getBlock('scripts').add(script for script in @site.externalScripts, {defer:false, async:false}).toHTML() %>
   <%- @getBlock('scripts').add(@document.pathToRoot+script for script in @site.scripts, {defer:false, async:false}).toHTML() %>
 </body>
 </html>
