@@ -188,6 +188,8 @@ def process_snippet(s3, snippet, conf, silent=False):
     key.set_contents_from_string(json.dumps(cajoled), policy='public-read')
     key.close()
 
+    _rm_r(CONF_DIR_PREFIX)
+
     return True
 
 
