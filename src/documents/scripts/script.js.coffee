@@ -68,44 +68,8 @@ $ ->
       $('.show-if-sponsored').toggleClass('hidden', true)
       $('.show-if-not-sponsored').toggleClass('hidden', false)
 
-  #
-  # If we have a sponsor HTML snippet to embed, we'll use Caja to do so safely
-  #
-  SPONSOR_SNIPPET_BASE = PATH_TO_ROOT + '/sponsor-snippet'
-  SPONSOR_SNIPPET_EXTERNAL_BASE = SPONSOR_SNIPPET_BASE + '/external'
-  SPONSOR_SNIPPET_JSON = SPONSOR_SNIPPET_BASE + '/index.json'
-  # Fetch the pre-cajoled content
-  $.getJSON(SPONSOR_SNIPPET_JSON)
-    .done (sponsor_snippet_json) ->
-      # Get the container into which we'll be putting the snippet
-      sponsor_snippet_container = $('#sponsor-snippet-container')[0]
-
-      # Init Caja
-      caja.initialize({
-       cajaServer: 'https://caja.appspot.com/'
-       debug: true
-       es5Mode: false # Required for pre-cajoled data
-      })
-
-      # We need to rewrite image URIs to point locally.
-      uri_policy = (uri) ->
-        # Only allow images (for now?)
-        str_uri = String(uri)
-        if /((\.png)|(\.jpg)|(\.jpeg)|(\.gif))$/.test(str_uri)
-          return String(str_uri).replace(/^https?:\/\/(.*)$/i, "#{SPONSOR_SNIPPET_EXTERNAL_BASE}/$1")
-        return str_uri
-
-      # Use the pre-cajoled data to populate the container
-      caja.load(
-        sponsor_snippet_container,
-        { rewrite: uri_policy },
-        (frame) ->
-          frame.cajoled(sponsor_snippet_json.url, sponsor_snippet_json.js, sponsor_snippet_json.html)
-               .run(() ->
-                  # Cajole successful, show the snippet container
-                  $('.show-if-sponsor-snippet').removeClass('hidden')
-                )
-      )
+  # Insert the sponsor snippet
+  processSponsorSnippet()
 
   #
   # Some copies of the site only offer Windows xor Android builds, so certain
@@ -185,6 +149,54 @@ $ ->
     # the top.
     if window.location.hash == '#direct'
       $('#direct').insertBefore('#direct-priority-insert')
+
+
+# Checks for the presence of a sponsor snippet and inserts it. Uses Caja to do so safely.
+processSponsorSnippet = () ->
+  # Caja requires IE >= 9
+  if checkIEClass('lt-ie9')
+    return
+
+  SPONSOR_SNIPPET_BASE = PATH_TO_ROOT + '/sponsor-snippet'
+  SPONSOR_SNIPPET_EXTERNAL_BASE = SPONSOR_SNIPPET_BASE + '/external'
+  SPONSOR_SNIPPET_JSON = SPONSOR_SNIPPET_BASE + '/index.json'
+  # Fetch the pre-cajoled content
+  $.getJSON(SPONSOR_SNIPPET_JSON)
+    .done (sponsor_snippet_json) ->
+      # Get the container into which we'll be putting the snippet
+      sponsor_snippet_container = $('#sponsor-snippet-container')[0]
+
+      # Init Caja
+      caja.initialize({
+       cajaServer: 'https://caja.appspot.com/'
+       debug: true
+       es5Mode: false # Required for pre-cajoled data
+      })
+
+      # We need to rewrite image URIs to point locally.
+      uri_policy = (uri) ->
+        # Only allow images (for now?)
+        str_uri = String(uri)
+        if /((\.png)|(\.jpg)|(\.jpeg)|(\.gif))$/.test(str_uri)
+          return String(str_uri).replace(/^https?:\/\/(.*)$/i, "#{SPONSOR_SNIPPET_EXTERNAL_BASE}/$1")
+        return str_uri
+
+      # Use the pre-cajoled data to populate the container
+      caja.load(
+        sponsor_snippet_container,
+        { rewrite: uri_policy },
+        (frame) ->
+          frame.cajoled(sponsor_snippet_json.url, sponsor_snippet_json.js, sponsor_snippet_json.html)
+               .run(() ->
+                  # Cajole successful, show the snippet container
+                  $('.show-if-sponsor-snippet').removeClass('hidden')
+                )
+      )
+
+
+# ieClass should be one of: lt-ie9 lt-ie8 lt-ie7
+checkIEClass = (ieClass) ->
+  return $('html').hasClass(ieClass)
 
 
 # From: https://stackoverflow.com/a/2548133/729729

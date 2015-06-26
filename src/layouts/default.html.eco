@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <% @document.language = 'en' if not @document.language %>
-<html lang="<%= @document.language %>"
+
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="<%= @document.language %>"
       data-android-download-path="<%- @relativeToRoot @downloads.android %>"
       data-windows-download-path="<%- @relativeToRoot @downloads.windows %>">
+<![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="<%= @document.language %>"
+      data-android-download-path="<%- @relativeToRoot @downloads.android %>"
+      data-windows-download-path="<%- @relativeToRoot @downloads.windows %>">
+<![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="<%= @document.language %>"
+      data-android-download-path="<%- @relativeToRoot @downloads.android %>"
+      data-windows-download-path="<%- @relativeToRoot @downloads.windows %>">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="<%= @document.language %>"
+      data-android-download-path="<%- @relativeToRoot @downloads.android %>"
+      data-windows-download-path="<%- @relativeToRoot @downloads.windows %>">
+<!--<![endif]-->
+
 <head>
   <meta charset="utf-8" />
 
