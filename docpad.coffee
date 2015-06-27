@@ -50,6 +50,9 @@ docpadConfig = {
         "/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
         "/scripts/script.js"
       ]
+      externalScripts: [
+        "https://caja.appspot.com/caja.js"
+      ]
 
 
     # Enabled languages
