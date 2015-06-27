@@ -51,7 +51,8 @@ docpadConfig = {
         "/scripts/script.js"
       ]
       externalScripts: [
-        "https://caja.appspot.com/caja.js"
+        # DISABLED
+        #"https://caja.appspot.com/caja.js"
       ]
 
 

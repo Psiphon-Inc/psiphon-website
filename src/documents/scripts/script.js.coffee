@@ -200,6 +200,9 @@ _setupRedirectLinksClickHandler = (site_config) ->
 
 # Checks for the presence of a sponsor snippet and inserts it. Uses Caja to do so safely.
 processSponsorSnippet = (site_config) ->
+  # DISABLED
+  return
+
   # Caja requires IE >= 9
   if checkIEClass('lt-ie9')
     return
