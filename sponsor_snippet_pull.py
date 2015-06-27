@@ -21,7 +21,7 @@
 Tool to download, process, and distribute sponsor snippets.
 
 Needed packages:
-pip install --upgrade boto requests python-dateutil pyopenssl ndg-httpsclient pyasn1
+pip install --upgrade boto requests beautifulsoup4 html5lib python-dateutil pyopenssl ndg-httpsclient pyasn1
 
 Conf file looks like:
     {
@@ -30,6 +30,7 @@ Conf file looks like:
         "secret_key": "abcd"
       },
       "snippetJsonName": "index.json",
+      "snippetHtmlName": "index.html",
       "snippets": [
         {
           "src": "http://sponsor.example.com/path/",
@@ -48,6 +49,7 @@ import os
 import sys
 import errno
 import json
+import base64
 import boto
 import argparse
 import shutil
@@ -56,6 +58,7 @@ import datetime
 import dateutil.parser
 import dateutil.relativedelta
 import dateutil.tz
+from bs4 import BeautifulSoup
 
 
 CONF_DIR_PREFIX = './snippet-pull'
@@ -73,13 +76,54 @@ def main(conf_file_path, silent):
                 conf['aws']['secret_key'])
 
     for snippet in conf['snippets']:
-        while process_snippet(s3, snippet, conf, silent) is False:
+        while basic_process_snippet(s3, snippet, conf, silent) is False:
             # Retry
             pass
 
         clean_up_snippet(s3, snippet, conf, silent)
 
     s3.close()
+
+
+def basic_process_snippet(s3, snippet, conf, silent=False):
+    """Returns True if successful, False if it should be retried, and raises
+    Exception on error.
+    """
+
+    if not silent:
+        print('processing %s' % (snippet['src'],))
+
+    snippet_req = requests.get(snippet['src'])
+
+    if not snippet_req.ok:
+        raise Exception('Orig snippet request failed: %s %s for %s' % (
+            snippet_req.status_code,
+            snippet_req.reason,
+            snippet_req.url))
+
+    soup = BeautifulSoup(snippet_req.content, 'html5lib')
+
+    for img in soup.find_all('img', src=True):
+        img_req = requests.get(img['src'])
+        b64img = base64.b64encode(img_req.content)
+        data_uri = 'data:%s;base64,%s' % (img_req.headers['content-type'], b64img)
+        img['src'] = data_uri
+
+    snippet_out = unicode(soup.find('div')).encode('utf-8')
+
+    key_name = '%s%s%s' % (
+        snippet['dst']['prefix'],
+        SPONSOR_SNIPPET_KEY_PREFIX,
+        conf['snippetHtmlName'])
+
+    if not silent:
+        print('creating %s:%s' % (snippet['dst']['bucket'], key_name))
+
+    bucket = s3.get_bucket(snippet['dst']['bucket'], validate=False)
+
+    key = bucket.new_key(key_name)
+    key.set_contents_from_string(snippet_out, policy='public-read')
+    key.close()
 
 
 def process_snippet(s3, snippet, conf, silent=False):
