@@ -198,8 +198,12 @@ _setupRedirectLinksClickHandler = (site_config) ->
       return false
 
 
+### Caja version
 # Checks for the presence of a sponsor snippet and inserts it. Uses Caja to do so safely.
 processSponsorSnippet = (site_config) ->
+  # DISABLED
+  return
+
   # Caja requires IE >= 9
   if checkIEClass('lt-ie9')
     return
@@ -216,7 +220,7 @@ processSponsorSnippet = (site_config) ->
       # Init Caja
       caja.initialize({
         cajaServer: 'https://caja.appspot.com/'
-        debug: true
+        debug: false
         targetAttributePresets: { # link targets same browser tab
           default: '_self',
           whitelist: ['_self']
@@ -245,6 +249,23 @@ processSponsorSnippet = (site_config) ->
                   setupRedirectLinks($('#sponsor-snippet-container a'), site_config)
                 )
       )
+###
+
+
+# Checks for the presence of a sponsor snippet and inserts it.
+processSponsorSnippet = (site_config) ->
+  # Lower versions of IE can't do data URI images (and choke elsewhere)
+  if checkIEClass('lt-ie9')
+    return
+
+  SPONSOR_SNIPPET_BASE = PATH_TO_ROOT + '/sponsor-snippet'
+  SPONSOR_SNIPPET_HTML = SPONSOR_SNIPPET_BASE + '/index.html'
+  # Fetch the pre-cajoled content
+  $('#sponsor-snippet-container').load SPONSOR_SNIPPET_HTML, (content, textStatus) ->
+    return if textStatus != 'success'
+    $('.show-if-sponsor-snippet').removeClass('hidden')
+    # Set up redirect click handlers
+    setupRedirectLinks($('#sponsor-snippet-container a'), site_config)
 
 
 # ieClass should be one of: lt-ie9 lt-ie8 lt-ie7
