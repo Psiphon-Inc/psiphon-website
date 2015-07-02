@@ -63,7 +63,6 @@ from bs4 import BeautifulSoup
 
 CONF_DIR_PREFIX = './snippet-pull'
 EXTERNAL_FILE_PREFIX = 'external'
-CAJA_SERVER = 'https://caja.appspot.com/cajole'
 SPONSOR_SNIPPET_KEY_PREFIX = 'sponsor-snippet/'
 
 
@@ -154,22 +153,6 @@ def process_snippet(s3, snippet, conf, silent=False):
     if not silent:
         print('pre_snippet_req obtained')
 
-    # Pre-cajole the snippet
-    caja_payload = {
-        'url': snippet['src'],
-        'input-mime-type': 'text/html',
-        'output-mime-type': 'application/javascript'
-    }
-    caja_req = requests.get(CAJA_SERVER, params=caja_payload)
-    if not caja_req.ok:
-        raise Exception('Caja request failed: %s %s for %s' % (
-            caja_req.status_code,
-            caja_req.reason,
-            caja_req.url))
-
-    if not silent:
-        print('snippet cajoled')
-
     # Download the images in the snippet using wget
     subprocess.check_output(
         'wget -E -H -k -p -P "%s" -A "jpg,jpeg,png,gif" -erobots=off "%s"' % (
@@ -215,21 +198,16 @@ def process_snippet(s3, snippet, conf, silent=False):
             key.set_contents_from_filename(filepath, policy='public-read')
             key.close()
 
-    # Send the cajoled snippet
-    cajoled = caja_req.json()
-    # Add the URL to the response
-    cajoled['url'] = snippet['src']
-
     key_name = '%s%s%s' % (
         snippet['dst']['prefix'],
         SPONSOR_SNIPPET_KEY_PREFIX,
-        conf['snippetJsonName'])
+        conf['snippetHtmlName'])
 
     if not silent:
         print('creating %s:%s' % (snippet['dst']['bucket'], key_name))
 
     key = bucket.new_key(key_name)
-    key.set_contents_from_string(json.dumps(cajoled), policy='public-read')
+    key.set_contents_from_string(post_snippet_req.content, policy='public-read')
     key.close()
 
     _rm_r(CONF_DIR_PREFIX)

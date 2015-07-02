@@ -201,54 +201,47 @@ _setupRedirectLinksClickHandler = (site_config) ->
 ### Caja version
 # Checks for the presence of a sponsor snippet and inserts it. Uses Caja to do so safely.
 processSponsorSnippet = (site_config) ->
-  # DISABLED
-  return
-
   # Caja requires IE >= 9
   if checkIEClass('lt-ie9')
     return
 
   SPONSOR_SNIPPET_BASE = PATH_TO_ROOT + '/sponsor-snippet'
   SPONSOR_SNIPPET_EXTERNAL_BASE = SPONSOR_SNIPPET_BASE + '/external'
-  SPONSOR_SNIPPET_JSON = SPONSOR_SNIPPET_BASE + '/index.json'
-  # Fetch the pre-cajoled content
-  $.getJSON(SPONSOR_SNIPPET_JSON)
-    .done (sponsor_snippet_json) ->
-      # Get the container into which we'll be putting the snippet
-      sponsor_snippet_container = $('#sponsor-snippet-container')[0]
+  SPONSOR_SNIPPET_HTML = SPONSOR_SNIPPET_BASE + '/snippet.html'
+  # Get the container into which we'll be putting the snippet
+  sponsor_snippet_container = $('#sponsor-snippet-container')[0]
 
-      # Init Caja
-      caja.initialize({
-        cajaServer: 'https://caja.appspot.com/'
-        debug: false
-        targetAttributePresets: { # link targets same browser tab
-          default: '_self',
-          whitelist: ['_self']
-        }
-        es5Mode: false # Required for pre-cajoled data
-      })
+  # Init Caja
+  caja.initialize({
+    cajaServer: PATH_TO_ROOT + '/vendor/caja/'
+    debug: false
+    targetAttributePresets: { # link targets same browser tab
+      default: '_self',
+      whitelist: ['_self']
+    }
+  })
 
-      # We need to rewrite image URIs to point locally.
-      uri_policy = (uri) ->
-        # Only allow images (for now?)
-        str_uri = String(uri)
-        if /((\.png)|(\.jpg)|(\.jpeg)|(\.gif))$/.test(str_uri)
-          return String(str_uri).replace(/^https?:\/\/(.*)$/i, "#{SPONSOR_SNIPPET_EXTERNAL_BASE}/$1")
-        return str_uri
+  # We need to rewrite image URIs to point locally.
+  uri_policy = (uri) ->
+    # Only allow images (for now?)
+    str_uri = String(uri)
+    if /((\.png)|(\.jpg)|(\.jpeg)|(\.gif))$/.test(str_uri)
+      return String(str_uri).replace(/^https?:\/\/(.*)$/i, "#{SPONSOR_SNIPPET_EXTERNAL_BASE}/$1")
+    return str_uri
 
-      # Use the pre-cajoled data to populate the container
-      caja.load(
-        sponsor_snippet_container,
-        { rewrite: uri_policy },
-        (frame) ->
-          frame.cajoled(sponsor_snippet_json.url, sponsor_snippet_json.js, sponsor_snippet_json.html)
-               .run(() ->
-                  # Cajole successful, show the snippet container
-                  $('.show-if-sponsor-snippet').removeClass('hidden')
-                  # Set up redirect click handlers
-                  setupRedirectLinks($('#sponsor-snippet-container a'), site_config)
-                )
-      )
+  # Use the pre-cajoled data to populate the container
+  caja.load(
+    sponsor_snippet_container,
+    { rewrite: uri_policy },
+    (frame) ->
+      frame.code(SPONSOR_SNIPPET_HTML, 'text/html')
+           .run(() ->
+              # Cajole successful, show the snippet container
+              $('.show-if-sponsor-snippet').removeClass('hidden')
+              # Set up redirect click handlers
+              setupRedirectLinks($('#sponsor-snippet-container a'), site_config)
+            )
+  )
 ###
 
 
