@@ -198,7 +198,6 @@ _setupRedirectLinksClickHandler = (site_config) ->
       return false
 
 
-### Caja version
 # Checks for the presence of a sponsor snippet and inserts it. Uses Caja to do so safely.
 processSponsorSnippet = (site_config) ->
   # Caja requires IE >= 9
@@ -209,56 +208,23 @@ processSponsorSnippet = (site_config) ->
   SPONSOR_SNIPPET_EXTERNAL_BASE = SPONSOR_SNIPPET_BASE + '/external'
   SPONSOR_SNIPPET_HTML = SPONSOR_SNIPPET_BASE + '/snippet.html'
   # Get the container into which we'll be putting the snippet
-  sponsor_snippet_container = $('#sponsor-snippet-container')[0]
-
-  # Init Caja
-  caja.initialize({
-    cajaServer: PATH_TO_ROOT + '/vendor/caja/'
-    debug: false
-    targetAttributePresets: { # link targets same browser tab
-      default: '_self',
-      whitelist: ['_self']
-    }
-  })
+  $sponsor_snippet_container = $('#sponsor-snippet-container')
 
   # We need to rewrite image URIs to point locally.
-  uri_policy = (uri) ->
-    # Only allow images (for now?)
+  uri_transformer = (uri) ->
     str_uri = String(uri)
     if /((\.png)|(\.jpg)|(\.jpeg)|(\.gif))$/.test(str_uri)
       return String(str_uri).replace(/^https?:\/\/(.*)$/i, "#{SPONSOR_SNIPPET_EXTERNAL_BASE}/$1")
     return str_uri
 
-  # Use the pre-cajoled data to populate the container
-  caja.load(
-    sponsor_snippet_container,
-    { rewrite: uri_policy },
-    (frame) ->
-      frame.code(SPONSOR_SNIPPET_HTML, 'text/html')
-           .run(() ->
-              # Cajole successful, show the snippet container
-              $('.show-if-sponsor-snippet').removeClass('hidden')
-              # Set up redirect click handlers
-              setupRedirectLinks($('#sponsor-snippet-container a'), site_config)
-            )
-  )
-###
+  css_name_transformer = (id) ->
+    return id
 
-
-# Checks for the presence of a sponsor snippet and inserts it.
-processSponsorSnippet = (site_config) ->
-  # Lower versions of IE can't do data URI images (and choke elsewhere)
-  if checkIEClass('lt-ie9')
-    return
-
-  SPONSOR_SNIPPET_BASE = PATH_TO_ROOT + '/sponsor-snippet'
-  SPONSOR_SNIPPET_HTML = SPONSOR_SNIPPET_BASE + '/index.html'
-  # Fetch the pre-cajoled content
-  $('#sponsor-snippet-container').load SPONSOR_SNIPPET_HTML, (content, textStatus) ->
-    return if textStatus != 'success'
+  $.get(SPONSOR_SNIPPET_HTML)
+   .done (content) ->
+    santized_content = html_sanitize(content, uri_transformer, css_name_transformer)
+    $sponsor_snippet_container.append(santized_content)
     $('.show-if-sponsor-snippet').removeClass('hidden')
-    # Set up redirect click handlers
-    setupRedirectLinks($('#sponsor-snippet-container a'), site_config)
 
 
 # ieClass should be one of: lt-ie9 lt-ie8 lt-ie7

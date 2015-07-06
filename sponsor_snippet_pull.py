@@ -75,7 +75,7 @@ def main(conf_file_path, silent):
                 conf['aws']['secret_key'])
 
     for snippet in conf['snippets']:
-        while basic_process_snippet(s3, snippet, conf, silent) is False:
+        while process_snippet(s3, snippet, conf, silent) is False:
             # Retry
             pass
 
@@ -87,6 +87,7 @@ def main(conf_file_path, silent):
 def basic_process_snippet(s3, snippet, conf, silent=False):
     """Returns True if successful, False if it should be retried, and raises
     Exception on error.
+    Inlines images.
     """
 
     if not silent:
@@ -128,6 +129,7 @@ def basic_process_snippet(s3, snippet, conf, silent=False):
 def process_snippet(s3, snippet, conf, silent=False):
     """Returns True if successful, False if it should be retried, and raises
     Exception on error.
+    Downloads images separately. Intended for proper sanitizing.
     """
 
     if not silent:
