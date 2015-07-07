@@ -207,8 +207,6 @@ processSponsorSnippet = (site_config) ->
   SPONSOR_SNIPPET_BASE = PATH_TO_ROOT + '/sponsor-snippet'
   SPONSOR_SNIPPET_EXTERNAL_BASE = SPONSOR_SNIPPET_BASE + '/external'
   SPONSOR_SNIPPET_HTML = SPONSOR_SNIPPET_BASE + '/snippet.html'
-  # Get the container into which we'll be putting the snippet
-  $sponsor_snippet_container = $('#sponsor-snippet-container')
 
   # We need to rewrite image URIs to point locally.
   uri_transformer = (uri) ->
@@ -223,8 +221,11 @@ processSponsorSnippet = (site_config) ->
   $.get(SPONSOR_SNIPPET_HTML)
    .done (content) ->
     santized_content = html_sanitize(content, uri_transformer, css_name_transformer)
-    $sponsor_snippet_container.append(santized_content)
+    $('#sponsor-snippet-container').append(santized_content)
+    # Sanitize and insertion complete, show the snippet container
     $('.show-if-sponsor-snippet').removeClass('hidden')
+    # Set up redirect click handlers
+    setupRedirectLinks($('#sponsor-snippet-container a'), site_config)
 
 
 # ieClass should be one of: lt-ie9 lt-ie8 lt-ie7
