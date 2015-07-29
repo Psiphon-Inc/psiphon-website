@@ -1,0 +1,144 @@
+---
+layout: page
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <p>
+      <%= @tt 'privacy-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-para-2' %>
+    </p>
+    <ul>
+      <li>
+        <a href="http://www.priv.gc.ca/" target="_blank">
+          <%= @tt 'privacy-canadian-privacy-commission-link-text' %>
+        </a>
+      </li>
+      <li>
+        <a href="http://www.ipc.on.ca/" target="_blank">
+          <%= @tt 'privacy-ontario-privacy-commissioner-link-text' %>
+        </a>
+      </li>
+    </ul>
+    <p>
+      <%= @tt 'privacy-para-3' %>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+
+    <span class="anchor-target" id="information-collected" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
+    <h2><%= @tt 'faq-information-collected-question' %></h2>
+
+    <p>
+      <%- @tt 'faq-information-collected-answer-para-9' %>
+    </p>
+
+    <!-- Websites -->
+    <h3><%= @tt 'privacy-information-collected-websites-head' %></h3>
+
+    <h4><%= @tt 'privacy-information-collected-websites-google-analytics-head' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-websites-google-analytics-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-websites-google-analytics-para-2' %>
+
+    </p>
+    <p>
+      <%- @tt 'privacy-information-collected-websites-google-analytics-para-3' %>
+    </p>
+
+    <h4><%= @tt 'privacy-information-collected-s3-logging-head' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-s3-logging-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'privacy-information-collected-s3-logging-para-2' %>
+    </p>
+
+    <!-- Psiphon Servers -->
+    <h3><%= @tt 'faq-information-collected-answer-head-1' %></h3>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-1' %>
+    </p>
+    <p>
+      <ul>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-1' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-2' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-3' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-4' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-5' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-6' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-7' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-8' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-2-item-9' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-3b' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-4' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-5' %>
+    </p>
+
+    <!-- Feedback -->
+    <h3><%= @tt 'faq-information-collected-answer-head-2' %></h3>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-6' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-7-list-start' %>
+      <ul>
+        <li><%= @tt 'faq-information-collected-answer-para-7-item-1' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-7-item-2' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-7-item-3' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-7-item-4' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-8-list-start' %>
+      <ul>
+        <li><%= @tt 'faq-information-collected-answer-para-8-item-1' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-8-item-2' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-8-item-3' %></li>
+      </ul>
+    </p>
+
+    <!-- Email Responder -->
+    <h3><%= @tt 'faq-information-collected-answer-head-3' %></h3>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-11' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-12' %>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-13' %>
+      <ul>
+        <li><%= @tt 'faq-information-collected-answer-para-13-item-1' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-13-item-2' %></li>
+        <li><%= @tt 'faq-information-collected-answer-para-13-item-3' %></li>
+        <li><%- @tt 'faq-information-collected-answer-para-13-item-4' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-14' %>
+    </p>
+
+    <!-- App Stores -->
+    <h3><%= @tt 'faq-information-collected-answer-head-4' %></h3>
+    <p>
+      <%= @tt 'faq-information-collected-answer-para-10' %>
+      <a href="https://support.google.com/googleplay/android-developer/answer/139628?hl=<%= @document.language %>" target="_blank">https://support.google.com/googleplay/android-developer/answer/139628?hl=<%= @document.language %></a>
+    </p>
+
+  </div>
+</div>

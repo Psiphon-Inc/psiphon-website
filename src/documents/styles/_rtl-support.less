@@ -137,3 +137,22 @@ This mixin provides a way to RTL-friendly right-alignment of text.
   }
 }
 
+//
+// Fix some broken Bootstrap RTL behaviour
+//
+
+// navbar
+@media (min-width: @grid-float-breakpoint) {
+  body[dir="rtl"] {
+    .navbar-left {
+      margin-left: -@navbar-padding-horizontal;
+    }
+    .navbar-right {
+      margin-right: 0;
+
+      ~ .navbar-right {
+        margin-left: 0;
+      }
+    }
+  }
+}

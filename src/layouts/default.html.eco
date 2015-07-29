@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <% @document.language = 'en' if not @document.language %>
-<html lang="<%= @document.language %>">
+
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="<%= @document.language %>"
+      data-android-download-path="<%- @relativeToRoot @downloads.android %>"
+      data-windows-download-path="<%- @relativeToRoot @downloads.windows %>">
+<![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="<%= @document.language %>"
+      data-android-download-path="<%- @relativeToRoot @downloads.android %>"
+      data-windows-download-path="<%- @relativeToRoot @downloads.windows %>">
+<![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="<%= @document.language %>"
+      data-android-download-path="<%- @relativeToRoot @downloads.android %>"
+      data-windows-download-path="<%- @relativeToRoot @downloads.windows %>">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="<%= @document.language %>"
+      data-android-download-path="<%- @relativeToRoot @downloads.android %>"
+      data-windows-download-path="<%- @relativeToRoot @downloads.windows %>">
+<!--<![endif]-->
+
 <head>
   <meta charset="utf-8" />
 
@@ -52,7 +73,12 @@
   </div><!-- /container -->
 
   <!-- Scripts -->
+  <script>
+    // Make this value available to other scripts.
+    var PATH_TO_ROOT = "<%= @document.pathToRoot %>";
+  </script>
   <!-- We need to disable "defer" in order to work in IE8 -->
+  <%- @getBlock('scripts').add(script for script in @site.externalScripts, {defer:false, async:false}).toHTML() %>
   <%- @getBlock('scripts').add(@document.pathToRoot+script for script in @site.scripts, {defer:false, async:false}).toHTML() %>
 </body>
 </html>
