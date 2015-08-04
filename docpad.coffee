@@ -48,7 +48,10 @@ docpadConfig = {
         "/vendor/jquery-1.10.2.min.js"
         "/vendor/jquery.slabtext.min.js"
         "/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+        "/vendor/caja/html-css-sanitizer-minified.js"
         "/scripts/script.js"
+      ]
+      externalScripts: [
       ]
 
 
