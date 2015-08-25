@@ -1,4 +1,8 @@
 {
+    "index-hero-subtext": {
+        "message": "atravesando fronteras",
+        "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
+    },
     "page-keyword-source-code": {
         "message": "código fuente",
         "description": "web page meta keyword used for SEO"
@@ -12,7 +16,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "Comisión de privacidad canadiense",
+        "message": "Oficina del Comisionado de Privacidad de Canada.",
         "description": ""
     },
     "faq-vpn-protocol-question": {
@@ -36,12 +40,16 @@
         "description": ""
     },
     "user-guide-android-para-1": {
-        "message": "Haga clic sobre un enlace APK de Psiphon desde su aplicación de correo electrónico o navegador de Android para comenzar la instalación (si obtiene un error, puede que tenga que <a href=\"./faq.html#android-enable-sideloading\">habilitar sideloading</a>).",
+        "message": "Haga clic sobre un enlace de paquete APK de Psiphon desde el interior de su cliente de correo o navegador web de Android para comenzar la instalación. (Si obtiene un error, puede que necesite <a href=\"./faq.html#android-enable-sideloading\">habilitar la transferencia con su computadora (sideloading)</a>.)",
         "description": ""
     },
     "about-contact-head": {
         "message": "Contacte con nosotros",
         "description": ""
+    },
+    "privacy-description": {
+        "message": "Política de privacidad de Psiphon",
+        "description": "description for the Privacy Policy page"
     },
     "page-keyword-android": {
         "message": "android",
@@ -50,6 +58,10 @@
     "contact-email-para": {
         "message": "Puede contactar con Psiphon enviando un correo a:",
         "description": ""
+    },
+    "index-hero-alt": {
+        "message": "Psiphon",
+        "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
     "faq-android-enable-sideloading-image-alt": {
         "message": "captura de pantalla de la habilitación de sideloading",
@@ -71,8 +83,12 @@
         "message": "También sabemos que tan importante como eso es trabajar duro fuera de los focos para nuestros usuarios. Protegemos a nuestros usuarios y sus datos hasta el extremo. Los usuarios podrían no notar nunca las medidas que tomamos para asegurar su privacidad y seguridad, pero sabemos lo mucho que las aprecian.",
         "description": ""
     },
+    "privacy-information-collected-websites-google-analytics-para-2": {
+        "message": "Google Analytics sitúa una cookie permanente en su navegador web para identificarle como un usuario único (no contarle de nuevo) la próxima vez que visite el sitio, pero esta cookie no puede usarse por nadie excepto por Google, y los datos recopilados no se pueden alterar o ser obtenidos por servicios desde otros dominios.",
+        "description": ""
+    },
     "open-source-description": {
-        "message": "Psiphon es un software de elusión para Internet de código abierto",
+        "message": "Psiphon es un software de elusión de la censura en Internet de código abierto",
         "description": ""
     },
     "privacy-para-2": {
@@ -82,6 +98,10 @@
     "main-gets-you-there-safely-head-1": {
         "message": "... y le lleva allí de forma segura.",
         "description": ""
+    },
+    "privacy-title": {
+        "message": "Política de privacidad",
+        "description": "page title for the Privacy Policy page"
     },
     "faq-information-collected-answer-para-12": {
         "message": "Nuestro servidor auto-contestador de email está alojado en la nube Amazon EC2. Enviamos dos respuestas de correo electrónico por cada petición, y para una de esas respuestas usamos Amazon SES. Esto significa que Amazon es capaz de ver el correo que usted envía, y nuestra respuesta hacia usted.\n",
@@ -123,8 +143,8 @@
         "message": "¿Cómo habilito el \"sideloading\" de Android?",
         "description": ""
     },
-    "faq-proxy-auth-question": {
-        "message": "¿Cómo configuro Psiphon para conectar a través de un proxy con autentificación?",
+    "privacy-information-collected-websites-google-analytics-para-1": {
+        "message": "Utilizamos Google Analytics en algunos de nuestros sitios web para recoger información sobre uso. La información recopilada por Google Analytics sólo se usará para análisis estadístico relativo a sus hábitos de navegación en este sitio específico. La información que obtenemos desde Google Analytics no es personalmente identificativa, ni se combina con información obtenida de otras fuentes para crear información que le identifique personalmente.",
         "description": ""
     },
     "faq-port-restrictions-question": {
@@ -132,7 +152,7 @@
         "description": ""
     },
     "faq-ssh-plus-question": {
-        "message": "¿Qué es el modo SSH+?",
+        "message": "¿Qué protocolo utiliza el túnel predeterminado de Psiphon?",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
@@ -144,7 +164,7 @@
         "description": "Navigation text for the Sponsorship page"
     },
     "download-android-amazon-description": {
-        "message": "Compatible con Android 2.2 y superior. El modo de dispositivo completo requiere Android 4.0 o superior, o un <a href=\"https://es.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">dispositivo rooteado</a>.",
+        "message": "Compatible con Android 2.2 y superior. El modo de dispositivo al completo requiere Android 4.0 o superior, o un <a href=\"https://es.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">dispositivo rooteado</a>.",
         "description": ""
     },
     "license-nav-title": {
@@ -159,12 +179,16 @@
         "message": "Puedo conectar en modo VPN con Psiphon para Windows, pero ¿por qué es tan lento? A veces las páginas web no cargan en absoluto.",
         "description": ""
     },
+    "privacy-meta-title": {
+        "message": "Política de privacidad",
+        "description": "meta title for the Privacy Policy page"
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "Durante cuánto tiempo serán retenidos los datos",
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Cierto hardware de red o conexiones a Internet pueden causar problemas de rendimiento para L2TP/IPSec que es el protocolo usado por Psiphon en modo VPN. Inténtelo usando los modos SSH en su lugar.",
+        "message": "Determinado equipamiento de red o conexiones a Internet pueden causar problemas de rendimiento para el protocolo de túnel L2TP/IPSec que es el utilizado por Psiphon en modo VPN. Pruebe a deshabilitar el modo VPN.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -183,13 +207,21 @@
         "message": "Anuncios de Psiphon",
         "description": "text for link to the Psiphon Announcements mailing list"
     },
+    "privacy-bulletin-entry-2-what-doing": {
+        "message": "Estamos actualizando nuestra <a href=\"privacy.html\">Política de privacidad</a>. Esto incluye incorporar en ella la respuesta a la pregunta de las preguntas frecuentes (FAQ) \"¿Qué información recopila Psiphon?\".",
+        "description": ""
+    },
     "about-description": {
-        "message": "Encuéntrese con el equipo detrás del software de elusión para Internet de Psiphon",
+        "message": "Contacte con el equipo detrás del software Psiphon de elusión de la censura en Internet",
         "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
         "message": "Versión del sistema operativo",
         "description": ""
+    },
+    "privacy-information-collected-s3-logging-head": {
+        "message": "Registro (log) del acceso remoto al almacenamiento",
+        "description": "Sub-heading for section describing use of logging access to remote storage (aka S3 bucket logging)"
     },
     "faq-connection-failed-question": {
         "message": "¿Por qué veo el mensaje \"la conexión falló\" repitiéndose una y otra vez?",
@@ -216,7 +248,7 @@
         "description": "Page title for the Sponsorship page"
     },
     "about-who-we-are-partners-para-1": {
-        "message": "Psiphon trabaja estrechamente con varios grupos para proporcionar soporte y consejo a personas que usan Psiphon allá donde se encuentren. Tenemos traducciones para nuestro software de proxy web en 15 idiomas, y se están añadiendo más para nuestros productos para Windows y móvil a través de <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, como parte del concentrador del Open Technology Fund (fondo para la tecnología abierta).",
+        "message": "Psiphon trabaja estrechamente con varios grupos para proporcionar soporte y consejo a la gente que utiliza Psiphon donde quiera que estén. Tenemos traducciones para nuestro software en 15 idiomas, y estamos añadiendo más a nuestros productos a través <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, como parte del concentrador del Localization Lab del Open Technology Fund allí.",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
@@ -227,6 +259,10 @@
         "message": "Para el certificado válido para el periodo 2014-05-08 hasta 2017-09-06 la huella de validación de clave SHA1 es:",
         "description": ""
     },
+    "faq-information-collected-answer-redirect": {
+        "message": "Por favor vea nuestra <a href=\"privacy.html\">Política de privacidad</a> para saber qué información recopilamos.",
+        "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
+    },
     "donate-heading": {
         "message": "Contribuir a Psiphon",
         "description": "The heading of the page section that shows the donation buttons"
@@ -236,12 +272,16 @@
         "description": "meta title for the user guide page"
     },
     "faq-autoproxy-answer-para-1": {
-        "message": "Haga clic en Ejecutar, y escriba <code>regedit</code> para abrir el Editor del Registro, Busque y abra <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, y en la parte derecha verá <code>UserSkipProxySettings</code>. Establezca este valor a <code>1</code> y Psiphon no configurará autómaticamente los ajustes para proxy del sistema.",
+        "message": "Haga clic en Ejecutar en el menú de inicio, e introduzca <code>regedit</code> para abrir el Editor del Registro. Busque y abra <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, y en el lado derecho verá <code>SkipProxySettings</code>. Ajuste este valor a <code>1</code> y de esta forma Psiphon no establecerá automáticamente la configuración para proxy del sistema.",
         "description": ""
     },
     "user-guide-android-head": {
         "message": "Psiphon para Android",
         "description": "heading for the Android section of the User Guide"
+    },
+    "privacy-bulletin-entry-2-title": {
+        "message": "2015-06-01: Actualización de la política de privacidad",
+        "description": ""
     },
     "index-description": {
         "message": "Psiphon es un software de elusión para Windows y plataformas móviles que proporciona acceso no censurado a contenidos en Internet",
@@ -251,8 +291,8 @@
         "message": "Preguntas frecuentes (FAQ)",
         "description": "title for the FAQ page"
     },
-    "faq-proxy-auth-answer-para-1": {
-        "message": "Algunos entornos LAN requieren conexiones a Internet para atravesar un proxy (como Squid) que requiere autentificación. Psiphon para Windows puede configurarse para conectar a través de tales proxys mediante la edicion del registro:",
+    "privacy-information-collected-s3-logging-para-1": {
+        "message": "Utilizamos Amazon S3 para almacenar elementos esenciales tales como ficheros del sitio web y listas de servidores Psiphon descubiertos. A veces habilitamos el registro (log) de descargas de estos ficheros. Analizar estos registros nos ayuda a responder preguntas como \"¿cuántos usuarios están iniciando pero no completando la descarga de la lista de servidores descubiertos?\", \"¿cómo se dividen los datos descargados entre elementos del sitio web y servidores descubiertos?\", y \"¿hay un atacante realizando una ofensiva de denegación-de-servicio contra nuestros sitios web?\"",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
@@ -264,7 +304,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-4": {
-        "message": "Los registros ('logs') de eventos incluyen datación, códigos de región (código de país GeoIP) y atributos no identificables, incluyendo la identidad del patrocinador (determinada por el cliente Psiphon que se emplea), versión del cliente y tipo de protocolo. Las visitas de página son agregadas por periodo y/o sesión antes de ser registradas.",
+        "message": "Los registros (logs) de eventos incluyen marcas de tiempo, códigos regionales (país y ciudad), y atributos no personalmente identificativos que incluyen la identificación del patrocinador (determinada mediante la versión de compilación del cliente Psiphon utilizado), la versión del cliente, y el tipo de protocolo. El número de páginas vistas se agrega por tiempo y/o sesión antes de ser registrado (log).",
         "description": ""
     },
     "page-keyword-blog": {
@@ -283,8 +323,8 @@
         "message": "Windows: ",
         "description": ""
     },
-    "privacy-para-4": {
-        "message": "<a href=\"./faq.html#information-collected\">Visite las preguntas frecuentes (FAQ)</a> para más detalles acerca de los datos que recogemos. Vea el <a href=\"./privacy-bulletin.html\">boletín de privacidad</a> para ver los cambios en la recogida de datos temporales.",
+    "privacy-bulletin-entry-2-when-doing": {
+        "message": "Esto es efectivo al menos desde 2015-06-01T00:00Z.",
         "description": ""
     },
     "alert-body": {
@@ -300,7 +340,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "Solo en modo VPN. Después de que una conexión exitosa sea establecida en modo VPN, el tráfico de su equipo completo pasará a través de la red Psiphon. En los modos SSH, solo las aplicaciones que usen los proxys HTTP y SOCKS serán proxyficadas.",
+        "message": "Sólo en modo VPN. Después de que se establezca con éxito una conexión en modo VPN, todo el tráfico de su computadora atravesará la red Psiphon. Cuando el modo VPN no esté habilitado sólo se proxyficarán las aplicaciones que usen los proxys locales HTTP o SOCKS.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-8": {
@@ -344,7 +384,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Para ejecutar Psiphon en modo Túnel para Dispositivo Completo, debe tener Android 4.0+ o un teléfono rooteado.<br><br>Esta opción no estará disponible para teléfonos no rooteados con una versión más antigua de Android.",
+        "message": "Para ejecutar Psiphon en modo 'tunelizar dispositivo al completo', ha de tener Android 4.0+ o un dispositivo rooteado.<br><br>Esta opción no estará disponible para dispositivos no rooteados con una versión de Android más antigua.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "faq-isp-traffic-answer-para-1": {
@@ -352,7 +392,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "No obstante, por favor tenga en cuenta que Psiphon está diseñado para ser una herramienta de elusión de la censura, y no está diseñado específicamente para propósitos de contra-vigilancia. Psiphon no evita que su historial de navegación y cookies se almacenen en su computadora. Y en algunos casos su tráfico de Internet podría no resultar tunelado a través de Psiphon en modo SSH o SSH+, por ejemplo si las configuraciones para proxy de su navegador están mal establecidas, o si deja su navegador abierto después de salir de Psiphon.",
+        "message": "Sin embargo, por favor tenga en cuenta que Psiphon está diseñado para ser una herramienta de elusión de la censura, y no está diseñada específicamente para propósitos de anti-vigilancia. Psiphon no evita que su historial de navegación y sus cookies sean almacenados en su computadora. Y en algunos modos y configuraciones todo su tráfico de Internet podría no ser tunelizado a través de Psiphon -- por ejemplo, si la configuración para proxy de su navegador no está correctamente establecida, o si deja su navegador abierto después de salir de Psiphon.",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
@@ -387,20 +427,12 @@
         "message": "Grupo de usuarios de Psiphon",
         "description": "text for link to the Psiphon Users mailing list"
     },
-    "faq-information-collected-answer-para-3": {
-        "message": "La dirección IP y la de correo electrónico del usuario nunca son recogidas; no se requiere que los usuarios creen una cuenta para usar el sistema.",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-answer-para-1": {
-        "message": "El proxy HTTP local no se pudo ejecutar. Podría tener otro proceso en ejecución que esté usando el puerto por defecto. Intente usar un puerto diferente. Vea la pregunta \"¿Puedo ejecutar el proxy HTTP local en un puerto diferente al 8080?\"",
-        "description": ""
-    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "Declaración de limitaciones de responsabilidad",
         "description": ""
     },
     "faq-information-collected-answer-para-10": {
-        "message": "Observe que si obtiene Psiphon desde una \"tienda de aplicaciones\" -- tal como Google Play o Amazon AppStore -- estadísticas adicionales pueden ser recogidas por esa tienda. Por ejemplo, aquí tiene una descripción de lo que Google Play recoge:",
+        "message": "Observe que si obtiene Psiphon de una \"app store\" (tienda de aplicaciones) como la Google Play Store o la Amazon AppStore, puede que se recojan estadísticas adicionales por parte de esa tienda. Por ejemplo, aquí tiene una descripción de lo que la Google Play Store recopila:",
         "description": ""
     },
     "faq-nav-title": {
@@ -416,7 +448,7 @@
         "description": ""
     },
     "faq-browser-compatibility-question": {
-        "message": "¿Es Psiphon para Windows compatible con los navegadores web IE, Firefox, Safari y Chrome?",
+        "message": "¿Es compatible Psiphon para Windows con los navegadores web Internet Explorer, Firefox y Chrome?",
         "description": ""
     },
     "page-keyword-landing-page": {
@@ -467,24 +499,12 @@
         "message": "Para el certificado válido para el periodo 2012-05-21 hasta 2014-07-30 la huella de validación de clave SHA1 es:",
         "description": ""
     },
-    "index-title": {
-        "message": "Bienvenido a su nuevo Internet",
-        "description": "Page title for the index page"
-    },
     "faq-meta-title": {
         "message": "Preguntas frecuentes (FAQ)",
         "description": "meta title for the FAQ page"
     },
-    "about-privacy-head": {
-        "message": "Política de privacidad",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-question": {
-        "message": "En el modo SSH de Psiphon para Windows, veo el mensaje de error \"Fallo al conectar a Polipo\". ¿Qué puedo hacer?",
-        "description": ""
-    },
     "faq-ssh-plus-answer-para-1": {
-        "message": "SSH+ es un modo SSH con la adición de una capa de ofuscación encima de la negociación ('handshake') de SSH para defenderse contra la identificación algorítmica ('fingerprinting') del protocolo. Una descripción del protocolo puede encontrarse <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">aquí</a>.",
+        "message": "Psiphon usa SSH añadiendo una capa de ofuscación por encima de la toma de contacto (handshake) de SSH para defenderse contra el análisis de la huella característica (fingerprinting) del protocolo. Puede encontrar una descripción del protocolo usado <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">aquí</a>.",
         "description": ""
     },
     "license-title": {
@@ -516,7 +536,7 @@
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "¿Cómo configuro las aplicaciones para que usen el túnel de Psiphon en los modos SSH?",
+        "message": "¿Cómo configuro las aplicaciones para que usen el túnel de Psiphon?",
         "description": ""
     },
     "page-keyword-circumvention": {
@@ -525,6 +545,10 @@
     },
     "open-source-meta-title": {
         "message": "Código abierto",
+        "description": ""
+    },
+    "privacy-bulletin-entry-2-why-doing": {
+        "message": "La página de la <a href=\"privacy.html\">Política de privacidad</a> ahora es el único lugar que los usuarios necesitan visitar para ver las políticas de privacidad y recopilación de datos. Ha sido actualizada para reflejar el uso de anuncios publicitarios, análisis, y registro (log) para algunos de nuestros sitios web.",
         "description": ""
     },
     "license-para-1": {
@@ -584,7 +608,7 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "Si su teléfono está o no rooteado",
+        "message": "Si su dispositivo está o no rooteado",
         "description": ""
     },
     "sponsor-para-2": {
@@ -628,7 +652,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "También hay técnicas avanzadas que pueden observar el tráfico cifrado y determinar algunas cosas acerca de él, como el sitio web por el que se está navegando. El principal ejemplo de esto es la \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">huella de identificación del tráfico</a>\".",
+        "message": "También hay técnicas avanzadas que pueden observar el tráfico cifrado y determinar algunas cosas acerca de este, tales como por qué sitio web se está navegando. El principal ejemplo de esto es \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">el análisis de las huellas características (fingerprinting) del tráfico</a>\".",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -681,7 +705,7 @@
     },
     "user-guide-android-ui-status-image-annotation-4": {
         "message": "<span style=\"color:grey\">Gris</span>: conectando<br><span style=\"color:red\">Rojo</span>: no conectado<br><span style=\"color:Blue\">Azul</span>: conectado",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
+        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
     },
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "Por qué estamos haciéndolo",
@@ -715,10 +739,6 @@
         "message": "donar",
         "description": "web page meta keyword used for SEO"
     },
-    "faq-proxy-auth-answer-step-4": {
-        "message": "Configure <code>UserSkipSSHParentProxySettings</code> a <code>0</code>.",
-        "description": ""
-    },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "Para instalar una descarga directa de Psiphon para Android, debe habilitar \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". Para hacer esto, vaya a su configuración de Android, luego a la sección \"Seguridad\", y habilite \"Fuentes deconocidas\".",
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
@@ -737,6 +757,10 @@
     },
     "faq-authentic-windows-answer-para-4": {
         "message": "Psiphon para Windows se auto-actualiza, y este proceso verifica automáticamente que cada actualización es auténtica.",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-3b": {
+        "message": "Las direcciones IP del usuario no son recopiladas por los servidores de Psiphon en el curso normal de las operaciones. Psiphon no requiere cuentas de usuario, así que, por defecto, no hay recopilación de direcciones de correo electrónico, nombres de usuario, o contraseñas.",
         "description": ""
     },
     "page-keyword-help": {
@@ -768,11 +792,11 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon está ejecutándose en modo VPN o en modo dispositivo completo. Todas las aplicaciones se dirigen por un túnel a través de Psiphon.",
+        "message": "Psiphon está ejecutándose en modo VPN (dispositivo al completo). Todas las aplicaciones se dirigen por un túnel a través de Psiphon.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "Desde 2008, Psiphon ha ayudado a millones de personas en países con libertades-restringidas por todo el mundo a acceder de forma segura al conocimiento y las ideas. Ahora Psiphon puede hacer lo mismo por usted.",
+        "message": "Desde 2008, Psiphon ha ayudado a millones de personas en países con libertades restringidas por todo el mundo, a acceder de forma segura a conocimiento e ideas censuradas. Ahora Psiphon puede hacer lo mismo por usted.",
         "description": ""
     },
     "about-title": {
@@ -781,10 +805,6 @@
     },
     "faq-information-collected-answer-para-8-item-1": {
         "message": "Versión de Android",
-        "description": ""
-    },
-    "faq-proxy-auth-question-toc": {
-        "message": "¿Cómo configuro Psiphon para conectar a través de un proxy con autentificación?",
         "description": ""
     },
     "privacy-bulletin-entry-1-how-many-users": {
@@ -812,7 +832,7 @@
         "description": "Meta title for the index page"
     },
     "faq-information-collected-answer-para-8-item-2": {
-        "message": "Modelo de teléfono",
+        "message": "Modelo de dispositivo",
         "description": ""
     },
     "page-keyword-play-store": {
@@ -872,20 +892,16 @@
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "Oficina del Comisionado para la Privacidad de Ontario",
+        "message": "Oficina del Comisionado de Información y Privacidad de Ontario",
         "description": ""
     },
     "about-who-we-are-ops-head": {
         "message": "Operaciones y participación",
         "description": ""
     },
-    "faq-proxy-auth-answer-para-3": {
-        "message": "Desafortunadamente, en Psiphon para Android no soportamos autentificación para proxy HTTP en este momento.",
-        "description": ""
-    },
     "faq-information-collected-answer-head-4": {
         "message": "Tiendas de aplicaciones",
-        "description": "this is referring to the general idea of app stores, like Google Play, Amazon AppStore, Apple App Store"
+        "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "Lo que estamos haciendo",
@@ -904,8 +920,8 @@
         "description": ""
     },
     "open-source-para-1": {
-        "message": "Psiphon es un proyecto de código abierto. Puede encontrar el código fuente y los documentos de diseño en la <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">página principal del proyecto</a>.",
-        "description": ""
+        "message": "Psiphon es un proyecto de código abierto. Puede encontrar el código fuente y diseñar documentos en la páginas de nuestro proyecto en Bitbucket y GitHub.",
+        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
     },
     "main-gets-you-where-you-want-head-2": {
         "message": "¿Censurado por su país, empresa, o campus?",
@@ -920,7 +936,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
-        "message": "El servidor de correo del que vino el email. (Concretamente, las tres partes menos específicas del nombre de dominio. Por ejemplo, <code>ne1.example.com</code>, pero no <code>web120113.mail.ne1.example.com</code>.)",
+        "message": "El servidor de correo electrónico del que proviene el email de la petición (las tres partes menos específicas del nombre de dominio, por ejemplo, <code>ne1.example.com</code>, pero no <code>web120113.mail.ne1.example.com</code>). ",
         "description": ""
     },
     "page-keyword-manual": {
@@ -931,9 +947,9 @@
         "message": "Los datos se retendrán no más de una semana. Seguiremos conservando el recuento de usuarios más tiempo -- posiblemente de forma indefinida.",
         "description": ""
     },
-    "faq-polipo-different-port-answer-para-1": {
-        "message": "Sí, en Windows. Haga clic en Ejecutar, y escriba <code>regedit</code> para abrir el Editor del Registro. Busque y abra <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, y en el lado derecho verá <code>UserLocalHTTPProxyPort</code>. Establezca su valor al del puerto (en decimal) que le gustaría usar.",
-        "description": ""
+    "privacy-information-collected-websites-head": {
+        "message": "Sitios web",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
         "message": "Contenido del sitio licenciado bajo",
@@ -976,7 +992,7 @@
         "description": ""
     },
     "faq-browser-compatibility-answer-para-1": {
-        "message": "Sí. En los modos SSH, compruebe los ajustes de su navegador y asegúrese de que está configurado para usar los parámetros para proxy del sistema.",
+        "message": "Sí. Compruebe la configuración de su navegador y asegúrese de que está ajustado para que use la configuración para proxy del sistema.",
         "description": ""
     },
     "faq-information-collected-answer-para-8-list-start": {
@@ -1020,12 +1036,12 @@
         "description": ""
     },
     "download-android-playstore-description": {
-        "message": "Compatible con Android 2.2 y superior. El modo de dispositivo completo requiere Android 4.0 o superior, o un <a href=\"https://es.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">dispositivo rooteado</a>.",
+        "message": "Compatible con Android 2.2 y superior. El modo de dispositivo al completo requiere Android 4.0 o superior, o un <a href=\"https://es.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">dispositivo rooteado</a>.",
         "description": ""
     },
     "download-store-head": {
         "message": "Descargas desde tienda de aplicaciones",
-        "description": "This refers to Google Play, Amazon's AppStore, and any similar app stores"
+        "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
     },
     "sponsor-meta-title": {
         "message": "Patrocinio, publicidad y donaciones",
@@ -1033,10 +1049,6 @@
     },
     "faq-check-version-question": {
         "message": "¿Cómo compruebo mi versión actual de Psiphon?",
-        "description": ""
-    },
-    "faq-proxy-auth-answer-step-1": {
-        "message": "Ejecute <code>regedit.exe</code>.",
         "description": ""
     },
     "site-title": {
@@ -1052,7 +1064,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "Psiphon configurará automáticamente su sistema para que use un proxy local HTTP/HTTPS en <code>127.0.0.1:8080</code> y un proxy SOCKS local en <code>127.0.0.1:1080</code>. Las aplicaciones de Windows que usan las configuraciones para proxy del sistema serán proxyficadas automáticamente. Puede configurar manualmente otras aplicaciones para que usen estos proxys locales. Tanto Psiphon para Windows (en los modos SSH) como Psiphon para Android ejecutan estos proxys locales.",
+        "message": "Psiphon configurará automáticamente su sistema para que use un proxy HTTP/HTTPS local y un proxy SOCKS local. Los números de puerto para estos proxys se eligen aleatoriamente, a menos que se especifique en la configuración de Psiphon. Las aplicaciones de Windows que usen la configuración para proxy del sistema se proxyficarán automáticamente. Puede configurar manualmente otras aplicaciones para que usen estos proxys locales. Tanto Psiphon para Windows como Psiphon para Android ejecutan estos proxys locales.",
         "description": ""
     },
     "faq-vpn-protocol-answer-para-1": {
@@ -1075,12 +1087,16 @@
         "message": "Uso <a href=\"https://addons.mozilla.org/es/firefox/addon/autoproxy\">AutoProxy</a>. ¿Cómo puedo decirle a Psiphon para Windows que no configure los parámetros para proxy de mi sistema?",
         "description": ""
     },
+    "privacy-information-collected-websites-google-analytics-para-3": {
+        "message": "La capacidad de Google de usar y compartir información recopilada por Google Analytics acerca de las visitas que usted realice a este sitio está restringida por los <a href=\"http://www.google.ca/analytics/terms/es.html\" target=\"_blank\">Términos y Condiciones de Servicio de Google Analytics</a> y la <a href=\"http://www.google.com/intl/es/policies/privacy/\" target=\"_blank\">Política de Privacidad de Google</a>. Puede optar por rehusar deshabilitando las cookies en las preferencias de la configuración de su navegador.",
+        "description": ""
+    },
     "faq-isp-traffic-question-toc": {
         "message": "¿Mi ISP puede ver lo que estoy haciendo en Internet mientras estoy usando Psiphon?",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "Psiphon restringe el tráfico DNS a servidores aprobados, en la lista-blanca. El cliente Psiphon configura automáticamente los parámetros del servidor DNS de su VPN. Si está obteniendo errores relativos al DNS, compruebe que no está infectado por el malware \"DNS Changer\", que intenta cambiar los parámetros de su servidor DNS. Puede encontrar más información <a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">aquí</a>.",
+        "message": "Psiphon restringe el tráfico DNS a servidores DNS evaluados e incluidos en lista blanca. El cliente de Psiphon establece automáticamente su configuración de servidor DNS para VPN. Si está obteniendo errores relativos al DNS, compruebe que no está infectado por un malware tipo \"DNS Changer\" (sustituidor de DNS), que intente cambiar su configuración de servidor DNS. Puede encontrar más información <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">aquí</a>.",
         "description": ""
     },
     "about-get-latest-info-head": {
@@ -1107,10 +1123,6 @@
         "message": "Karl Kathuria es el Vicepresidente de Dirección Comercial, y se ha unido recientemente al equipo en Toronto desde Londres. Él es responsable de dirigir las relaciones de negocio con nuestros socios para la difusión y distribución, y de encontrar nuevas oportunidades para las actividades de la compañía.",
         "description": ""
     },
-    "faq-polipo-different-port-question": {
-        "message": "¿Puedo ejecutar el proxy HTTP local en un puerto diferente al 8080?",
-        "description": ""
-    },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "Número de actualizaciones",
         "description": ""
@@ -1124,7 +1136,7 @@
         "description": ""
     },
     "user-guide-windows-para-4": {
-        "message": "En los modos SSH y SSH+, Psiphon establece automáticamente las configuraciones para proxy del sistema Windows, y el tráfico para las aplicaciones que respeten estas configuraciones se dirige por un túnel a través de Psiphon. Estas configuraciones son respetadas por defecto por todos los principales navegadores web.",
+        "message": "En los modos SSH y SSH+, Psiphon establece automáticamente la configuración para proxy del sistema Windows, así que el tráfico de red para las aplicaciones que obedezcan esta configuración se tunelizará a través de Psiphon. Todos los principales navegadores web obeceden por defecto esta configuración.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1152,7 +1164,7 @@
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "Cuando Psiphon se inicia, muestra la Versión del Cliente en la primera línea de salida.",
+        "message": "Cuando Psiphon se inicia, muestra la Versión del Cliente en la primera línea de salida de registro (log).",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-2": {
@@ -1191,6 +1203,10 @@
         "message": "Cerrar la pestaña actual",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
     },
+    "privacy-nav-title": {
+        "message": "Política de privacidad",
+        "description": "text for the Privacy Policy page navigation item"
+    },
     "sponsor-para-3": {
         "message": "Para más información, envíe un correo a <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
         "description": ""
@@ -1200,7 +1216,7 @@
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "Además, en los modos SSH y SSH+, Psiphon ofrece una opción de túnel dividido donde el tráfico internacional se dirige a un túnel a través del proxy, y el tráfico doméstico no. Marque la opción \"No proxyficar...\" para habilitar tunelación dividida. Cuando esta opción está activada, se informa de los dominios no proxyficados en el área de mensajes.",
+        "message": "Más aún, en los modos SSH y SSH+, Psiphon ofrece una opción de túnel dividido donde el tráfico internacional se tuneliza a través de proxy y el tráfico nacional no. Marque la opción \"No proxyficar sitios web nacionales\" para habilitar el túnel dividido. Cuando esta opción está activada, se informa de los dominios no proxyficados en el área de mensajes.",
         "description": ""
     },
     "license-distribution-para": {
@@ -1223,17 +1239,17 @@
         "message": "Primero debe <a href=\"./faq.html#authentic-android\">verificar que su copia de Psiphon para Android es auténtica</a>.",
         "description": ""
     },
-    "faq-proxy-auth-answer-step-2": {
-        "message": "Vaya hasta <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
+    "privacy-information-collected-s3-logging-para-2": {
+        "message": "Los <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">registros de acceso al 'bucket'</a> (cubo) de 'S3' contienen direcciones IP, agentes del usuario, y marcas de tiempo. Estos registros (logs) se almacenan en el propio S3, así que Amazon tienen acceso a ellos (sin embargo, Amazon ya sirve los ficheros, por lo que ya puede acceder a esta información). Los desarrolladores de Psiphon descargarán los registros, agregarán y analizarán los datos, y borrarán los registros. Los datos en crudo sólo se mantendrán lo suficiente para agregarlos (calcular los datos agregados) y no se compartirán con terceros.",
         "description": ""
     },
     "download-description": {
         "message": "Descarga de Psiphon gratuíta y directa para Windows y Android",
         "description": "title for the download page"
     },
-    "faq-proxy-auth-answer-step-3": {
-        "message": "Edite los siguientes valores:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (asegúrese de introducir el número de puerto en <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
-        "description": ""
+    "privacy-information-collected-websites-google-analytics-head": {
+        "message": "Google Analytics",
+        "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
     },
     "download-direct-head": {
         "message": "Descargas directas",
@@ -1252,7 +1268,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-1": {
-        "message": "Recogemos los siguientes datos para averiguar cómo de bien está funcionando Psiphon, qué sitios son populares y cuáles son las estrategias de propagación efectivas. Esta información es compartida con nuestros socios, para que ellos puedan ver, por ejemplo, con qué frecuencia son visitados sus sitios a través de Psiphon y desde qué países.",
+        "message": "Recopilamos los siguientes datos para averiguar qué tal está funcionando Psiphon, qué sitios son populares, y qué estrategias de propagación son efectivas. Esta información se comparte con nuestros socios de forma que ellos pueden ver, por ejemplo, cuán a menudo son visitados sus sitios a través de Psiphon, y desde qué países.",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-4": {
@@ -1260,7 +1276,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
     },
     "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Registros ('logs') de actividad de Psiphon",
+        "message": "Registros (logs) de actividad de Psiphon",
         "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     }
 }

@@ -8,6 +8,9 @@ layout: page
   </div>
 </div>
 
+<!-- The direct-download section will be inserted here if there's a #direct hash. -->
+<div id="direct-priority-insert"></div>
+
 <!-- These need to be separate elements, or else we might show when we shouldn't. -->
 <div class="show-if-not-sponsored"><div class="show-if-android">
   <div id="store" class="anchor-target">

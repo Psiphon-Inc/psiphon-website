@@ -87,6 +87,13 @@ Serving the site with Docpad will only test the site-at-root scenario. Testing t
 An easy way to generate a QR code is via the Google Chart API. Just put the target URL at the end of this URL: `https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=`. For example, here's a [QR for psiphon3.com](https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=http://psiphon3.com).
 
 
+## Sponsor Snippets
+
+Enabling sponsor HTML snippets for a bucket site mostly involves configuring `sponsor_snippet_pull.py` to retrieve the desired snippet and upload it to the correct bucket. The page code will detect the presence of snippet, sanitize, and load it.
+
+JavaScript will be stripped completely from the snippet. `<style>` blocks and external CSS files will be stripped, but inline styles and CSS class names will be left intact.
+
+
 ## I18n hints, tips, issues
 
 ### Translating blog posts

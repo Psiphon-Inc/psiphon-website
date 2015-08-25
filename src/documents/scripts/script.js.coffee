@@ -101,16 +101,6 @@ $ ->
       .done (email) ->
         $('.sponsor-email').prop('href', "mailto:#{email}").text(email)
 
-  # We don't use any analytics on most copies of the site, but we do on a couple.
-  # Check for the presence of a file that provides a Google Analytics tracking ID.
-  # If present, enable GAnalytics.
-  $.ajax(PATH_TO_ROOT+'/assets/google-analytics-id')
-    .done (gaID) ->
-      gaID = gaID.trim() or ''
-      return if not gaID
-      newScriptElem = $('<script>').text "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','#{gaID}','auto');ga('send','pageview');"
-      newScriptElem.insertBefore($('script').eq(0))
-
   # Set up any slab text we have on the page.
   if $('.slabtext-container').length
     $(window).load ->
@@ -145,7 +135,102 @@ $ ->
     # If the anchor is for the "direct downloads" section, move that section to
     # the top.
     if window.location.hash == '#direct'
-      $('#direct').insertBefore('#store')
+      $('#direct').insertBefore('#direct-priority-insert')
+
+  # Do some processing that depends on site-specific configuration
+  processSiteConfig()
+
+
+# The site config file contains values such as Google Analytics ID.
+processSiteConfig = () ->
+  $.getJSON(PATH_TO_ROOT+'/assets/site-config.json')
+    .done (site_config) ->
+      # Google Analytics
+      setUpAnalytics(site_config)
+
+      # Some links are redirected for analytics
+      setupRedirectLinks($('a.redirect-link'), site_config)
+
+      # Insert the sponsor snippet
+      processSponsorSnippet(site_config)
+
+
+# We don't use any analytics on most copies of the site, but we do on a couple.
+# If the tracking ID is present in the site config, enable GAnalytics.
+setUpAnalytics = (site_config) ->
+  return if not site_config.googleAnalyticsID
+  newScriptElem = $('<script>').text "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','#{site_config.googleAnalyticsID}','auto');ga('send','pageview');"
+  newScriptElem.insertBefore($('script').eq(0))
+
+
+# Add click handlers to redirect links
+setupRedirectLinks = (elems, site_config) ->
+  $(elems).click(_setupRedirectLinksClickHandler(site_config))
+
+# To be used by setupRedirectLinks
+_setupRedirectLinksClickHandler = (site_config) ->
+  (e) ->
+    if typeof(ga) != 'undefined' and site_config.linkRedirectUrl
+      targetUrl = $(this).prop('href')
+      redirectUrl = site_config.linkRedirectUrl
+
+      # We'll match the redirect page scheme to the target, if the
+      # linkRedirectUrl doesn't have a scheme.
+      if redirectUrl.indexOf('http') != 0
+        if targetUrl.indexOf('https:') == 0
+          redirectUrl = 'https:' + redirectUrl
+        else
+          redirectUrl = 'http:' + redirectUrl
+
+      ga(
+        'send',
+        'event',
+        'outbound',
+        'click',
+        targetUrl,
+        { 'hitCallback':
+          () ->
+            window.location.assign(redirectUrl + encodeURIComponent(targetUrl))
+        })
+
+      # stop default action of following href
+      e.preventDefault();
+      return false
+
+
+# Checks for the presence of a sponsor snippet and inserts it. Uses Caja to do so safely.
+processSponsorSnippet = (site_config) ->
+  # Caja requires IE >= 9
+  if checkIEClass('lt-ie9')
+    return
+
+  SPONSOR_SNIPPET_BASE = PATH_TO_ROOT + '/sponsor-snippet'
+  SPONSOR_SNIPPET_EXTERNAL_BASE = SPONSOR_SNIPPET_BASE + '/external'
+  SPONSOR_SNIPPET_HTML = SPONSOR_SNIPPET_BASE + '/snippet.html'
+
+  # We need to rewrite image URIs to point locally.
+  uri_transformer = (uri) ->
+    str_uri = String(uri)
+    if /((\.png)|(\.jpg)|(\.jpeg)|(\.gif))$/.test(str_uri)
+      return String(str_uri).replace(/^https?:\/\/(.*)$/i, "#{SPONSOR_SNIPPET_EXTERNAL_BASE}/$1")
+    return str_uri
+
+  css_name_transformer = (id) ->
+    return id
+
+  $.get(SPONSOR_SNIPPET_HTML)
+   .done (content) ->
+    santized_content = html_sanitize(content, uri_transformer, css_name_transformer)
+    $('#sponsor-snippet-container').append(santized_content)
+    # Sanitize and insertion complete, show the snippet container
+    $('.show-if-sponsor-snippet').removeClass('hidden')
+    # Set up redirect click handlers
+    setupRedirectLinks($('#sponsor-snippet-container a'), site_config)
+
+
+# ieClass should be one of: lt-ie9 lt-ie8 lt-ie7
+checkIEClass = (ieClass) ->
+  return $('html').hasClass(ieClass)
 
 
 # From: https://stackoverflow.com/a/2548133/729729

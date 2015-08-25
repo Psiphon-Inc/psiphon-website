@@ -2,10 +2,14 @@
 layout: default
 ---
 
+<div id="sponsor-snippet-container" class="hidden show-if-sponsor-snippet"></div>
+<hr class="sponsor-separator hidden show-if-sponsor-snippet" />
+
 <div class="row index-splash">
   <div class="col-xs-8-center">
     <a href="<%= @getPageURL '/download.html' %>">
-      <img src="<%= @document.pathToRoot %>/images/hero/hero-large.png" class="img-responsive center-block" alt="<%= @tt 'index-hero-alt' %>">
+      <img src="<%= @document.pathToRoot %>/images/hero/hero-large.png"
+           class="img-responsive center-block" alt="<%= @tt 'index-hero-alt' %>">
       <h1 class="slabtext-container text-center" data-max-font-size="60">
         <span class="slabtext slab-main">
           <%= @tt 'index-hero-subtext' %>
