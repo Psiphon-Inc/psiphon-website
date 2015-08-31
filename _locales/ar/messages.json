@@ -1,4 +1,8 @@
 {
+    "index-hero-subtext": {
+        "message": "beyond borders",
+        "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
+    },
     "page-keyword-source-code": {
         "message": "source code",
         "description": "web page meta keyword used for SEO"
@@ -12,7 +16,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "مفوضية الخصوصية الكندية",
+        "message": "Office of the Privacy Commissioner of Canada",
         "description": ""
     },
     "faq-vpn-protocol-question": {
@@ -36,12 +40,16 @@
         "description": ""
     },
     "user-guide-android-para-1": {
-        "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)",
+        "message": "Click on a Psiphon APK link from within your Android email client or web browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)",
         "description": ""
     },
     "about-contact-head": {
         "message": "اتصل بنا",
         "description": ""
+    },
+    "privacy-description": {
+        "message": "Psiphon's privacy policy",
+        "description": "description for the Privacy Policy page"
     },
     "page-keyword-android": {
         "message": "android",
@@ -50,6 +58,10 @@
     "contact-email-para": {
         "message": "بإمكانك مراسلة فريق عمل برنامج سايفُون عبر البريد الإلكتروني الآتي: ",
         "description": ""
+    },
+    "index-hero-alt": {
+        "message": "برنامج سايفُن Psiphon",
+        "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
     "faq-android-enable-sideloading-image-alt": {
         "message": "screenshot of enabling sideloading",
@@ -71,8 +83,12 @@
         "message": "ونحن نعلم أيضا أنه من المهم بنفس القدر أن نعمل بجد لمستخدمينا وراء الكواليس. نحن نقوم بحماية مستخدمينا والبيانات الخاصة بهم إلى أقصى درجة ممكنة. قدلا يلاحظ المستخدمون التدابير المأخوذة لضمان أمن بياناتهم الخصوصية ، ولكن نحن نعرف أنهم يقدرون ذلك.",
         "description": ""
     },
+    "privacy-information-collected-websites-google-analytics-para-2": {
+        "message": "Google Analytics plants a permanent cookie on your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
+        "description": ""
+    },
     "open-source-description": {
-        "message": "Psiphon is open source Internet circumvention software",
+        "message": "Psiphon is open source Internet censorship circumvention software",
         "description": ""
     },
     "privacy-para-2": {
@@ -82,6 +98,10 @@
     "main-gets-you-there-safely-head-1": {
         "message": "...وإيصالك إليها بأمان.",
         "description": ""
+    },
+    "privacy-title": {
+        "message": "سياسة الخصوصية",
+        "description": "page title for the Privacy Policy page"
     },
     "faq-information-collected-answer-para-12": {
         "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. We send two email responses to every request, and for one of those responses we use Amazon SES. This means that Amazon is able to see the email you send and our response to you.",
@@ -123,8 +143,8 @@
         "message": "How do I enable Android \"sideloading\"?",
         "description": ""
     },
-    "faq-proxy-auth-question": {
-        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
+    "privacy-information-collected-websites-google-analytics-para-1": {
+        "message": "We use Google Analytics on some of our websites to collect information about usage. The information collected by Google Analytics will only be used for statistical analysis related to your browsing behaviour on this specific site. The information we obtain from Google Analytics is not personally identifying, nor is it combined with information from other sources to create personally identifying information.",
         "description": ""
     },
     "faq-port-restrictions-question": {
@@ -132,7 +152,7 @@
         "description": ""
     },
     "faq-ssh-plus-question": {
-        "message": "ما هو نظام بروتوكول القشرة الآمنة بلس +SSH ؟ ",
+        "message": "What protocol does the default Psiphon tunnel use?",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
@@ -159,12 +179,16 @@
         "message": "باستطاعتي الإتصال والربط ببرنامج سايفُون لبرامج ويندوز Windows  على نظام الشبكة الإفتراضية الخاصة٬ ولكن لماذا يعمل ببطء شديد؟ \nأحيانا بعض صفحات الإنترنت لا تقوم بالتحميل إطلاقا. ",
         "description": ""
     },
+    "privacy-meta-title": {
+        "message": "سياسة الخصوصية",
+        "description": "meta title for the Privacy Policy page"
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "How long the data will be retained",
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "بعض أجهزة الشبكات أو وصلات الإنترنت قد تسبب مشاكل في عمل L2TP/IPSec والذي هو بروتوكول يُستخدم من قبل برنامج سايفُن Psiphon على الشبكة الإفتراضية الخاصة VPN. حاول استخدام بروتوكول القشرة الآمنة SSH كبديل آخر. ",
+        "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPSec which is the protocol used by Psiphon in VPN mode. Try disabling VPN mode.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -183,13 +207,21 @@
         "message": "إعلانات برنامج سايفُون",
         "description": "text for link to the Psiphon Announcements mailing list"
     },
+    "privacy-bulletin-entry-2-what-doing": {
+        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. This includes merging into it the answer to the FAQ question \"What information does Psiphon collect?\".",
+        "description": ""
+    },
     "about-description": {
-        "message": "Meet the team behind Psiphon's Internet circumvention software",
+        "message": "Meet the team behind Psiphon's Internet censorship circumvention software",
         "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
         "message": "اصدار نظام التشغيل",
         "description": ""
+    },
+    "privacy-information-collected-s3-logging-head": {
+        "message": "Storage Remote Access Logging",
+        "description": "Sub-heading for section describing use of logging access to remote storage (aka S3 bucket logging)"
     },
     "faq-connection-failed-question": {
         "message": "لماذا تظهر لديً هذه الرسالة \"فشل عملية الإتصال Connection Failed\" مرة تلو الأخرى؟  ",
@@ -216,7 +248,7 @@
         "description": "Page title for the Sponsorship page"
     },
     "about-who-we-are-partners-para-1": {
-        "message": "تعمل سايفون عن كثب مع مجموعات مختلفة لتقديم الدعم والشورة للأشخاص التي تستخدم تطبيق سايفون أينما كانوا. برنامج وكيل الواب مترجم إلى 15 لغة، ويتم إضافة المزيد من الترجمات لكل تطبيقاتنا من خلال <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a> \nو هذا كجزء من Open Technology Fund’s ",
+        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our software in 15 languages, and are adding more to our products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Localization Lab hub.",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
@@ -227,6 +259,10 @@
         "message": "For the certificate valid for the period 2014-05-08 to 2017-09-06 the SHA1 thumbprint is:",
         "description": ""
     },
+    "faq-information-collected-answer-redirect": {
+        "message": "Please see our <a href=\"privacy.html\">Privacy Policy</a> to learn about what information we collect.",
+        "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
+    },
     "donate-heading": {
         "message": "ساهم لبرنامج سايفُن ",
         "description": "The heading of the page section that shows the donation buttons"
@@ -236,12 +272,16 @@
         "description": "meta title for the user guide page"
     },
     "faq-autoproxy-answer-para-1": {
-        "message": "أنقر على زر التشغيل Run ثم اكتب >regedit< لفتح محرر سجل النظام Registry Editor. إبحث عن >HKEY_CURRENT_USER\\Software\\Psiphon3< وافتحه٬ وفي الجانب الأيمن سترى >UserSkipProxySettings< إعدادات تخطي الوكيل. قم بضبط هذه القيمة على >1< ولن يقوم برنامج سايفُن Psiphon بتشكيل إعدادات النظام للوكيل  System Proxy Settings تلقائيا. ",
+        "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>SkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings.",
         "description": ""
     },
     "user-guide-android-head": {
         "message": "برنامج سايفُون Psiphon لأجهزة الأندرويد Android",
         "description": "heading for the Android section of the User Guide"
+    },
+    "privacy-bulletin-entry-2-title": {
+        "message": "2015-06-01: Privacy Policy update",
+        "description": ""
     },
     "index-description": {
         "message": "Psiphon is circumvention software for Windows and Mobile platforms that provides uncensored access to Internet content",
@@ -251,8 +291,8 @@
         "message": "الأسئلة الشائعة ",
         "description": "title for the FAQ page"
     },
-    "faq-proxy-auth-answer-para-1": {
-        "message": "Some LAN environments require internet connections to go through a proxy (like Squid) that requires authentication. Psiphon for Windows can be configured to connect through such proxies by editing the registry:",
+    "privacy-information-collected-s3-logging-para-1": {
+        "message": "We use Amazon S3 to store assets such as website files and Psiphon server discovery lists. We sometimes enable logging of downloads of these files. Analyzing these logs helps us to answer questions like \"how many users are starting but not completing the download of the server discovery list?\", \"how is the downloaded data split between website assets and server discovery?\", and \"is an attacker making a denial-of-service attempt against our websites?\"",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
@@ -264,7 +304,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-4": {
-        "message": "يتضمن تسجيل الأحداث الوقت، رمز المنطقه (الآي بي الخاص بالمنطقه)٫ ،وسمات لا يتم من خلالها التعرف بالمستخدم وتتضمن هوية الراعي (التي تحدد من خلال عميل سايفون المستخدم)٫ نسحة العميل، ، ونوع البروتوكول. وبتم تجميع عدد مشاهدات الصفحات وفق الوقت و/أو الجوله قبل تسجيلها.",
+        "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type. Page views are aggregated by time and/or session before being logged.",
         "description": ""
     },
     "page-keyword-blog": {
@@ -283,8 +323,8 @@
         "message": "ويندوز Windows:",
         "description": ""
     },
-    "privacy-para-4": {
-        "message": "<a href=\"./faq.html#information-collected\">Visit the FAQ</a> for details about what data we collect. See the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> for temporary data collection changes.",
+    "privacy-bulletin-entry-2-when-doing": {
+        "message": "This is in effect by at least 2015-06-01T00:00Z.",
         "description": ""
     },
     "alert-body": {
@@ -300,7 +340,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "فقط على نظام الشبكة الافتراضية الخاصة VPN وبعد أن يكون هنالك اتصالا يعمل بفعالية ونجاح مع الشبكة الافتراضية الخاصة VPN فإنً  جميع الاتصالات والمعلومات والبيانات ستمر من خلال شبكة برنامج سايفُن Psiphon. وأما في بروتوكول القشرة الآمنة SSH فإنً التطبيقات التي تستخدم وكيل بروتوكول HTTP  المحلي ووكيل بروتوكول SOCKS المحلي هي التي فقط سوف يتمً احتسابها. ",
+        "message": "Only in VPN mode. After a successful connection is established in VPN mode, your entire computer’s traffic will pass through the Psiphon network. When VPN mode is not enabled only applications that use the local HTTP and SOCKS proxies will be proxied.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-8": {
@@ -344,7 +384,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "لتشغيل برنامج سايفُن علي نظام (مسار الجهاز بأكمله) Tunnel Whole Device mode يجب أن يكون جهازك الإصدار الرابع بلس لأنظمة أندرويد +Android 4.0 أو امتلاكك لحساب المستخدم الجذري للجهاز <br><br> هذا الخيار لن يكون متوفرا للذين لا يملكون حساب المستخدم الجذري لأجهزتهم ذات الإصدارات القديمة من نظام أندرويد . ",
+        "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted device.<br><br>This option will be unavailable for non-rooted devices with an older version of Android.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "faq-isp-traffic-answer-para-1": {
@@ -352,7 +392,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some cases your Internet traffic might not be tunneled through Psiphon in SSH or SSH+ mode, for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
+        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some modes and configurations all of your Internet traffic might not be tunneled through Psiphon -- for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
@@ -387,20 +427,12 @@
         "message": "مجموعة مستخدمي برنامج سايفُون",
         "description": "text for link to the Psiphon Users mailing list"
     },
-    "faq-information-collected-answer-para-3": {
-        "message": "لا تُجمع عناوين بروتوكولات الإنترنتIP ولا عناوين البريد الإلكتروني الخاصة بالمستخدمين إطلاقا، ولا يتوجب على المستخدمين إنشاء حسابات من أجل استخدام النظام. ",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-answer-para-1": {
-        "message": "الوكيل المحلي لبروتوكول  HTTP لم يعمل. قد يكون لديك تطبيقات أخرى تعمل حاليا وتستخدم المنفذ الإفتراضي Default Port. حاول استخدام منفذ Port آخر. لمعرفة كيفية استخدام منفذ آخر إرجع للسؤال \"هل بإمكاني تشغيل الوكيل المحلي لبروتوكول  HTTP علي منفذ Port آخر غير  8080 ؟\"",
-        "description": ""
-    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "بيان حدود المسؤولية",
         "description": ""
     },
     "faq-information-collected-answer-para-10": {
-        "message": "Note that if you get Psiphon from an \"app store\" -- such as Google Play or Amazon AppStore -- additional statistics may be collected by that store. For example, here is a description of what Google Play collects:",
+        "message": "Note that if you get Psiphon from an \"app store\", such as the Google Play Store or Amazon AppStore, additional statistics may be collected by that store. For example, here is a description of what the Google Play Store collects:",
         "description": ""
     },
     "faq-nav-title": {
@@ -416,7 +448,7 @@
         "description": ""
     },
     "faq-browser-compatibility-question": {
-        "message": "هل برنامج سايفُون  Psiphon  المخصص لبرامج ويندوز  Windows بالإمكان فتحه وتصفحه على برامج التصفح إنترنت إكسبلورر Internet Explorer وفايرفوكس Firefox و سفاري  Safari  وكروم Chrom؟ ",
+        "message": "Is Psiphon for Windows compatible with Internet Explorer, Firefox, and Chrome web browsers?",
         "description": ""
     },
     "page-keyword-landing-page": {
@@ -467,24 +499,12 @@
         "message": "For the certificate valid for the period 2012-05-21 to 2014-07-30 the SHA1 thumbprint is:",
         "description": ""
     },
-    "index-title": {
-        "message": "مرحبا بك في عالمك الجديد من الإنترنت",
-        "description": "Page title for the index page"
-    },
     "faq-meta-title": {
         "message": "الأسئلة الشائعة ",
         "description": "meta title for the FAQ page"
     },
-    "about-privacy-head": {
-        "message": "سياسة الخصوصية",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-question": {
-        "message": "في التشغيل على نظام بروتوكول القشرة الآمنة SSH لبرنامج سايفُن Psiphon لنظام ويندوز Windows ٬ تظهر لي رسالة نصها \"فشل عملية الإتصال بتطبيق بوليبو Failed to Connect to Polipo\" ماذا أفعل في هذه الحالة؟ ",
-        "description": ""
-    },
     "faq-ssh-plus-answer-para-1": {
-        "message": "إنً بروتوكول القشرة الآمنة بلس +SSH هو أحد أنظمة بروتوكول القشرة الآمنة SSH مضافٌ إليه طبقة تقوم بالتشويش لحماية الإتصال من بروتوكول التسجيل Fingerprinting. المزيد من المعلومات حول هذا البروتوكول تجدها<a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">هنا</a>\n",
+        "message": "Psiphon uses SSH with the addition of an obfuscation layer on top of the SSH handshake to defend against protocol fingerprinting. A description of the protocol can be found <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">here</a>.",
         "description": ""
     },
     "license-title": {
@@ -516,7 +536,7 @@
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "كيف يمكنني تشكيل تطبيقات إلكترونية لكي أستخدم مسار برنامج سايفُون Psiphon تحت نظام بروتوكول القشرة الآمنة SSH ",
+        "message": "How do I configure applications to use the Psiphon tunnel?",
         "description": ""
     },
     "page-keyword-circumvention": {
@@ -525,6 +545,10 @@
     },
     "open-source-meta-title": {
         "message": "مفتوح المصدر",
+        "description": ""
+    },
+    "privacy-bulletin-entry-2-why-doing": {
+        "message": "The <a href=\"privacy.html\">Privacy Policy</a> page is now the only place users need to check for Psiphon's privacy and data collection policies. It has been updated to reflect use of advertisements, analytics, and logging for some of our websites.",
         "description": ""
     },
     "license-para-1": {
@@ -584,7 +608,7 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "سواء كان لجهاز هاتفك حساب مستخدم جذري أم لا",
+        "message": "Whether your device is rooted",
         "description": ""
     },
     "sponsor-para-2": {
@@ -628,7 +652,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
+        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this is \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -681,7 +705,7 @@
     },
     "user-guide-android-ui-status-image-annotation-4": {
         "message": "<span style=\"color:grey\">رمادي</span>: متصل<br><span style=\"color:red\">أحمر</span>: غير متصل<br><span style=\"color:Blue\">أزرق</span>: متصل",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
+        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
     },
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "Why we're doing it",
@@ -715,10 +739,6 @@
         "message": "donate",
         "description": "web page meta keyword used for SEO"
     },
-    "faq-proxy-auth-answer-step-4": {
-        "message": "Set <code>UserSkipSSHParentProxySettings</code> to <code>0</code>.",
-        "description": ""
-    },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "In order to install a direct download of Psiphon for Android, you must enable \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". To do so, go into your Android settings, then into the \"Security\" section, then enable \"Unknown sources\".",
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
@@ -737,6 +757,10 @@
     },
     "faq-authentic-windows-answer-para-4": {
         "message": "إنً برنامج سايفُون لنظام ويندوز يقوم بتحديث نفسه تلقائيا٬ وفي هذه العملية يتمً التحقق تلقائيا من مصداقية وشرعية كل تحديث. ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-3b": {
+        "message": "User IP addresses are not collected by Psiphon servers in the normal course of operation. Psiphon does not require user accounts, so, by default, there is no collection of email addresses, usernames, or passwords.",
         "description": ""
     },
     "page-keyword-help": {
@@ -772,7 +796,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "منذ عام 2008 وفريق عمل برنامج سايفُن يساعد الملايين من الناس الذين يعيشون في بلدان مختلفة حول العالم حيث تُقيًد فيها حرياتهم٬ وذلك من خلال برنامج سايفُن Psiphon الذي يتيح لهم الوصول إلى معلومات وأفكار تخضع لرقابة الحكومات. والآن برنامج سايفُن Psiphon بإمكانه مساعدتك أنت أيضا.",
+        "message": "Since 2008, Psiphon has helped millions of people in freedom-restricted countries around the world safely access censored knowledge and ideas. Now Psiphon can do the same for you.",
         "description": ""
     },
     "about-title": {
@@ -781,10 +805,6 @@
     },
     "faq-information-collected-answer-para-8-item-1": {
         "message": "إصدار نظام التشغيل أندرويد Android",
-        "description": ""
-    },
-    "faq-proxy-auth-question-toc": {
-        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
         "description": ""
     },
     "privacy-bulletin-entry-1-how-many-users": {
@@ -812,7 +832,7 @@
         "description": "Meta title for the index page"
     },
     "faq-information-collected-answer-para-8-item-2": {
-        "message": "نوعيًة جهاز هاتفك",
+        "message": "Device model",
         "description": ""
     },
     "page-keyword-play-store": {
@@ -872,20 +892,16 @@
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "مكتب مفوضية الخصوصية التابع لمقاطعة أونتاريو",
+        "message": "Office of the Information and Privacy Commissioner of Ontario",
         "description": ""
     },
     "about-who-we-are-ops-head": {
         "message": "العمليات و التوعية",
         "description": ""
     },
-    "faq-proxy-auth-answer-para-3": {
-        "message": "Unfortunately, on Psiphon for Android we do not support HTTP proxy authentication at this time.",
-        "description": ""
-    },
     "faq-information-collected-answer-head-4": {
         "message": "App Stores",
-        "description": "this is referring to the general idea of app stores, like Google Play, Amazon AppStore, Apple App Store"
+        "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "What we're doing",
@@ -904,8 +920,8 @@
         "description": ""
     },
     "open-source-para-1": {
-        "message": "برنامج سايفُن هو مشروع مفتوح المصدر وغير مقيًد. بإمكانك إيجاد الشفرة البرمجية  الكاملة للبرنامج و ملفات التصميم على \n<a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">الصفحة الاولى للمشروع </a>.",
-        "description": ""
+        "message": "Psiphon is an open source project. You can find source code and design documents on our Bitbucket and Github project pages.",
+        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
     },
     "main-gets-you-where-you-want-head-2": {
         "message": " تمً تقييد حرية تصفح الإنترنت من قبل بلدك٬ شركتك أو المؤسسة التعليمة التي تدرس بها؟ ",
@@ -920,7 +936,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
-        "message": "The mail server the email request came from. (Specifically, the three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)",
+        "message": "The mail server the email request came from. (The three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)",
         "description": ""
     },
     "page-keyword-manual": {
@@ -931,9 +947,9 @@
         "message": "The data will be retained no more than one week. We will be keeping the count of users longer -- possibly indefinitely.",
         "description": ""
     },
-    "faq-polipo-different-port-answer-para-1": {
-        "message": "نعم على نظام ويندوز Windows. إنقر أيقونة التشغيل واكتب \"Regedit\" لفتح صفحة محرر التسجيل، ثمً افتح: >HKEY_CURRENT_USER\\Software\\Psiphon3< وعلى الجانب الأيمن من الصفحة سترى >UserLocalHTTPProxyPort< اضبط القيم (بالديسيمل Decimal) علي المنفذ Port الذي تودً استخدامه. ",
-        "description": ""
+    "privacy-information-collected-websites-head": {
+        "message": "Websites",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
         "message": "Site content licensed under",
@@ -976,7 +992,7 @@
         "description": ""
     },
     "faq-browser-compatibility-answer-para-1": {
-        "message": "نعم. خلال التشغيل على نظام بروتوكول القشرة الآمنة SSH تأكد من أنً إعدادات المتصفح الخاصة بجهازك تسمح باستخدام إعدادات وكيل النظام System Proxy",
+        "message": "Yes. Check your browser settings and make sure that it is configured to use the system proxy settings.",
         "description": ""
     },
     "faq-information-collected-answer-para-8-list-start": {
@@ -1025,7 +1041,7 @@
     },
     "download-store-head": {
         "message": "App Store Downloads",
-        "description": "This refers to Google Play, Amazon's AppStore, and any similar app stores"
+        "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
     },
     "sponsor-meta-title": {
         "message": "Sponsorship, advertising, and donations",
@@ -1033,10 +1049,6 @@
     },
     "faq-check-version-question": {
         "message": "كيف يمكنني التحقق من الإصدار الذي لديْ  لبرنامج سايفُون Psiphon؟",
-        "description": ""
-    },
-    "faq-proxy-auth-answer-step-1": {
-        "message": "Run <code>regedit.exe</code>.",
         "description": ""
     },
     "site-title": {
@@ -1052,7 +1064,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "سيقوم برنامج سايفُن وبشكل تلقائي بتهيئة نظام جهازك لكي يعمل مع وكيل بروتوكول Local HTTP/HTTPS Proxy على >127.0.0.1:8080< ومع وكيل بروتوكول SOCKS Proxy على >127.0.0.1:1080<. وستستخدم تطبيقات أنظمة ويندوز ٬وبشكل تلقائي أيضا٬ إعدادات وكيل النظام System Proxy Settings. كما بإمكانك تهيئة التطبيقات الأخرى يدويا لكي تستخدم الوكلاء المحليين الذين يعمل عليهم البرنامج Local Proxies . هذا وكلٌ من برنامج سايفُن لنظام الويندوز  (والذي يعمل بنظام بروتوكول القشرة الآمنة SSH) وبرنامج سايفُن لنظام الأندرويد  يُشغًلان هذان الوكيلين المحليين Local Proxies. ",
+        "message": "Psiphon will automatically configure your system to use a local HTTP/HTTPS proxy and a local SOCKS proxy. The port numbers for these proxies are chosen randomly, unless specified in the Psiphon settings. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon for Windows and Psiphon for Android run these local proxies.",
         "description": ""
     },
     "faq-vpn-protocol-answer-para-1": {
@@ -1075,12 +1087,16 @@
         "message": "انا استخدم<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">الوكيل التلقائي AutoProxy </a>. كيف بأمكاني ان امنع برنامج سايفُن لنظام ويندوز من القيام بتشكيل وترتيب إعدادات وكيل النظام System Proxy في جهازي؟ ",
         "description": ""
     },
+    "privacy-information-collected-websites-google-analytics-para-3": {
+        "message": "Google’s ability to use and share information collected by Google Analytics about your visits to this site is restricted by the <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Google Analytics Terms of Use</a> and the <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Google Privacy Policy</a>. You may choose to opt out by turning off cookies in the preferences settings in your web browser.",
+        "description": ""
+    },
     "faq-isp-traffic-question-toc": {
         "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "برنامج سايفُون يحظر مرور معلومات وبيانات نظام تسمية المجالات على الشبكة الإلكترونية DNS قبل أن تفحص من قبل خادمي نظام تسمية المجالات على الشبكة الإلكترونية DNS Servers  وأن تكون على القائمة البيضاء White-Listed لديهم. إن كنت تستلم أخطاء تتعلق بنظام تسمية المجالات على الشبكة الإلكترونية DNS فيرجى التحقق من إعدادات خادم نظام تسمية المجالات على الشبكة الإلكترونية DNS Server لديك. المزيد من المعلومات حول ذلك ستجدها هنا <a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">",
+        "message": "Psiphon restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">here</a>.",
         "description": ""
     },
     "about-get-latest-info-head": {
@@ -1107,10 +1123,6 @@
         "message": "Karl Kathuria هو نائب رئيس الإدارة التجارية، وانضم مؤخرا للفريق في تورونتو بعد م كان في لندن. وهو مسؤول عن إدارة علاقات العمل مع شركائنا في البث والتوزيع، و هو كذلك مسؤول عن ايجاد فرص جديدة لأنشطة الشركة.",
         "description": ""
     },
-    "faq-polipo-different-port-question": {
-        "message": "هل بإمكاني تشغيل وكيل البروتوكول المحلي  HTTP Proxy على منفذ Port آخر غير منفذ 8080؟",
-        "description": ""
-    },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "عدد التحديثات",
         "description": ""
@@ -1124,7 +1136,7 @@
         "description": ""
     },
     "user-guide-windows-para-4": {
-        "message": "في نظاميْ  بروتوكول القشرة الآمنة SSH و بروتوكول القشرة الآمنة بلس +SSH يقوم برنامج سايفُون Psiphon وبشكل تلقائي بضبط إعدادت وكيل نظام برامج ويندوز Windows Proxy والمعلومات والبيانات للتطبيقات التي تتماشي وتعمل مع مسار تلك الإعدادات عبر برنامج سايفُون Psiphon. وستعمل تلك الإعدادات إفتراضيا مع جميع متصفحات الويب Web Browsers  الرئيسية.  ",
+        "message": "In SSH and SSH+ modes, Psiphon automatically sets the Windows system proxy settings, so network traffic for applications that respect these settings will be tunneled through Psiphon. These settings are respected by default by all major web browsers.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1152,7 +1164,7 @@
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "عندما يبدأ برنامج سايفُن Psiphon التشغيل، فإنًه يقوم بعرض نسخة العميل Client Version في أول سطر للمعلومات الظاهرة.  ",
+        "message": "When Psiphon starts, it displays the Client Version on the first line of log output.",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-2": {
@@ -1191,6 +1203,10 @@
         "message": "إغلاق الصفحة الحالية",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
     },
+    "privacy-nav-title": {
+        "message": "سياسة الخصوصية",
+        "description": "text for the Privacy Policy page navigation item"
+    },
     "sponsor-para-3": {
         "message": "للمزيد من المعلومات يرجى مراسلتنا على البريد الإلكتروني <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
         "description": ""
@@ -1200,7 +1216,7 @@
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "إضافة إلى ذلك٬ فإنً  برنامج سايفُن Psiphon يوفًر٬ ضمن نظامي بروتوكول القشرة الآمنة SSH و بروتوكول القشرة الآمنة بلس +SSH ٬ خيارٌ لمسار منفصل تمر به الإتصالات والبيانات والمعلومات الدولية عبر الوكيل Proxy فقط ولا تمر فيه الاتصالات والبيانات والمعلومات المحلية. اختر خيار \"من دون الوكيل\" \"...Don't Proxy\" للسماح بفصل المسار. عند تفعيل هذا الخيار فإنً أيًة مجالات من دون وكيل Unproxied Domains سيتم الإبلاغ عنها في خانة الرسائل.  ",
+        "message": "Furthermore, in SSH and SSH+ modes, Psiphon offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy domestic web sites” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area.",
         "description": ""
     },
     "license-distribution-para": {
@@ -1223,17 +1239,17 @@
         "message": "يجب أولا أن تتحقق من أنً  نسختك من برنامج سايفُن لأجهزة الأندرويد Android أصلية وموثوق بها <a href=\"./faq.html#authentic-android\">",
         "description": ""
     },
-    "faq-proxy-auth-answer-step-2": {
-        "message": "Navigate to <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
+    "privacy-information-collected-s3-logging-para-2": {
+        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already servers the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate and will not be shared with third parties.",
         "description": ""
     },
     "download-description": {
         "message": "Direct, free Psiphon download for Windows and Android",
         "description": "title for the download page"
     },
-    "faq-proxy-auth-answer-step-3": {
-        "message": "Edit the following values:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (make sure to enter the port number in <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
-        "description": ""
+    "privacy-information-collected-websites-google-analytics-head": {
+        "message": "Google Analytics",
+        "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
     },
     "download-direct-head": {
         "message": "Direct Downloads",
@@ -1252,7 +1268,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-1": {
-        "message": "نقوم بجمع البيانات التاليه لنعرف مدى جودة عمل سايفون, ماهي المواقع ذات الشعبية العالية وما هي استراتيجيات النشر الفعالة. ويتم تقاسم هذه المعلومات مع شركاءنا ليتمكنوا من معرفة، مثلا، كم مرة تتم زيارة مواقعهم من خلال سايفون ومن أي بلدان. ",
+        "message": "We collect the following data to find out how well Psiphon is working, what sites are popular, and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries.",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-4": {
@@ -1260,7 +1276,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
     },
     "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "نشاط عمليات الدخول لبرنامج سايفُون",
+        "message": "Psiphon activity logs",
         "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     }
 }

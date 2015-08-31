@@ -48,13 +48,16 @@ docpadConfig = {
         "/vendor/jquery-1.10.2.min.js"
         "/vendor/jquery.slabtext.min.js"
         "/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+        "/vendor/caja/html-css-sanitizer-minified.js"
         "/scripts/script.js"
+      ]
+      externalScripts: [
       ]
 
 
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
-    languages: ['en', 'fa', 'ar', 'zh', 'az', 'de', 'el', 'es', 'fr', 'kk', 'ko', 'nb', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'ug@Latn', 'uz@cyrillic', 'uz@Latn', 'vi']
+    languages: ['en', 'fa', 'ar', 'zh', 'az', 'de', 'el', 'es', 'fr', 'kk', 'ko', 'hr', 'nb', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'ug@Latn', 'uz@cyrillic', 'uz@Latn', 'vi']
 
     # Translation file location.
     translation_files:
@@ -80,6 +83,7 @@ docpadConfig = {
       fi: './_locales/fi/messages.json'
       ko: './_locales/ko/messages.json'
       pt_PT: './_locales/pt_PT/messages.json'
+      hr: './_locales/hr/messages.json'
 
     # Translations will be loaded into this object.
     translations: {}
@@ -311,6 +315,7 @@ docpadConfig = {
         "fa": "فارسی"
         "fi": "Suomi"
         "fr": "Français"
+        "hr": "Hrvatski"
         "hu": "Magyar"
         "it": "Italiano"
         "ko": "한국말"
