@@ -1,6 +1,10 @@
 {
+    "index-hero-subtext": {
+        "message": "beyond borders",
+        "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
+    },
     "page-keyword-source-code": {
-        "message": "source code",
+        "message": "源代码",
         "description": "web page meta keyword used for SEO"
     },
     "faq-autoproxy-question-toc": {
@@ -8,11 +12,11 @@
         "description": ""
     },
     "page-keyword-psiphon2": {
-        "message": "psiphon2",
+        "message": "赛风2",
         "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "加拿大隐私委员会",
+        "message": "加拿大信息与隐私委员",
         "description": ""
     },
     "faq-vpn-protocol-question": {
@@ -24,11 +28,11 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
     },
     "privacy-bulletin-entry-item-head-how-many-users": {
-        "message": "How many users are affected",
+        "message": "多少用户将被影响",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-what-data": {
-        "message": "What user data will be collected",
+        "message": "哪些用户数据将被收集",
         "description": ""
     },
     "faq-proxy-all-question": {
@@ -36,23 +40,31 @@
         "description": ""
     },
     "user-guide-android-para-1": {
-        "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)",
+        "message": "从安卓客户电子邮件或浏览器点击Psiphon APK链接开始安装（如有错误信息，阁下可能要点击<a href=\"./faq.html#android-enable-sideloading\">去侧面加载</a>.)",
         "description": ""
     },
     "about-contact-head": {
         "message": "联系我们",
         "description": ""
     },
+    "privacy-description": {
+        "message": "赛风的隐私政策",
+        "description": "description for the Privacy Policy page"
+    },
     "page-keyword-android": {
-        "message": "android",
+        "message": "安卓",
         "description": "web page meta keyword used for SEO"
     },
     "contact-email-para": {
         "message": "您可以发送电子邮件与 赛风取得联系：",
         "description": ""
     },
+    "index-hero-alt": {
+        "message": "赛风",
+        "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
+    },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "screenshot of enabling sideloading",
+        "message": "启用側面負載的屏幕截图",
         "description": "alt text for an image"
     },
     "page-keyword-proxy": {
@@ -68,11 +80,15 @@
         "description": "text for link to the Psiphon Developers mailing list"
     },
     "about-who-we-are-software-development-para-2": {
-        "message": "我们也知道努力保护我们的用户隐私同等重要, 我们尽全力保护用户数据, 用户也许从来没有注意到赛风为保护其隐私和安全所采取的措施, 但是我们知道他们对此表示感谢.",
+        "message": "赛风也同样重视保护我们用户的隐私, 我们团队会致力保护用户数据。各用户也许没有注意到赛风为保护阁下隐私和安全所采取的措施, 但是赛风知道此行径会受到用户肯定。",
+        "description": ""
+    },
+    "privacy-information-collected-websites-google-analytics-para-2": {
+        "message": "Google Analytics plants a permanent cookie on your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
         "description": ""
     },
     "open-source-description": {
-        "message": "赛风是一款开放源代码的翻墙软件",
+        "message": "赛风是一个开方式网络的翻墙软件。",
         "description": ""
     },
     "privacy-para-2": {
@@ -83,12 +99,16 @@
         "message": "...并让您能够安全浏览。",
         "description": ""
     },
+    "privacy-title": {
+        "message": "隐私政策",
+        "description": "page title for the Privacy Policy page"
+    },
     "faq-information-collected-answer-para-12": {
-        "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. We send two email responses to every request, and for one of those responses we use Amazon SES. This means that Amazon is able to see the email you send and our response to you.",
+        "message": "我们的自动电子邮件服务器是由亚马逊EC2云端操作。每一个对赛风的下载请求都会收到两个电邮回复， 亚马逊SES用户则会收到一个回复。这同时也代表亚马逊系统会看到用户的下载请求跟赛风的回复。 ",
         "description": ""
     },
     "page-keyword-psiphon1": {
-        "message": "psiphon1",
+        "message": "赛风1",
         "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-there-safely-para-1": {
@@ -100,7 +120,7 @@
         "description": "alt text for an image"
     },
     "page-keyword-open-source": {
-        "message": "open source",
+        "message": "开源",
         "description": "web page meta keyword used for SEO"
     },
     "license-personal-or-specified-use-header": {
@@ -120,11 +140,11 @@
         "description": ""
     },
     "faq-android-enable-sideloading-question": {
-        "message": "How do I enable Android \"sideloading\"?",
+        "message": "如何启用安卓“側面負載”？",
         "description": ""
     },
-    "faq-proxy-auth-question": {
-        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
+    "privacy-information-collected-websites-google-analytics-para-1": {
+        "message": "我们在一些网站上会使用谷歌数据去收集使用量的资料。谷歌数据所受集的资料只会用于用户在个别网站上浏览习惯的统计分析， 并不会干奢到任何个人资料，或跟任何第三方资料有关连从而制作个人资料。 ",
         "description": ""
     },
     "faq-port-restrictions-question": {
@@ -132,11 +152,11 @@
         "description": ""
     },
     "faq-ssh-plus-question": {
-        "message": "什么是SSH+ 模式?",
+        "message": "赛风隧道的默认是使用什么协议？",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
-        "message": "赛风旨在为用户提供好的用户体验,这意味着我们的软件需要有易于使用和网速快捷的特点,这两点必须同时得到满足并保持稳定, 这对任何开发人员来说都是一种挑战, 尤其是当软件运行在一种不断变换的多语种的敌意环境和平台上.",
+        "message": "赛风旨在为用户提供尤良的体验,这意味着我们的软件需要有易于使用和网速快捷的特点,这两点必须同时得到发展并保持稳定, 这对任何开发人员来说都是一种挑战, 尤其是当软件运行在一个不断变换和多种语言的发展平台上。",
         "description": ""
     },
     "sponsor-nav-title": {
@@ -159,16 +179,20 @@
         "message": "我可以在VPN模式下连接到赛风的windows版，但是为什么这么慢？有时一些网页无法显示。",
         "description": ""
     },
+    "privacy-meta-title": {
+        "message": "隐私政策",
+        "description": "meta title for the Privacy Policy page"
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
-        "message": "How long the data will be retained",
+        "message": "数据将被保留多长时间",
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "某些网络硬件、网络连接可能会导致L2TP/IPSec出现性能问题，这将导致赛风3在VPN模式下无法正常使用。尝试使用SSH模式。",
+        "message": "某些网络硬件或网络连接可能会导致L2TP/IPSec的性能问题。L2TP/IPSec为赛风3在VPN模式的协议。请尝试使用SSH模式。",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
-        "message": "When we're doing it",
+        "message": "我们在何时这么做",
         "description": ""
     },
     "faq-authentic-android-answer-para-2": {
@@ -176,20 +200,28 @@
         "description": ""
     },
     "page-keyword-psiphon3": {
-        "message": "psiphon3",
+        "message": "赛风3",
         "description": "web page meta keyword used for SEO"
     },
     "about-get-latest-info-para-1-announcements-list": {
         "message": "赛风的公告",
         "description": "text for link to the Psiphon Announcements mailing list"
     },
+    "privacy-bulletin-entry-2-what-doing": {
+        "message": "我们目前正在更新赛风的隐私条例，里面包括关于赛风会收集的用户资料范畴。",
+        "description": ""
+    },
     "about-description": {
-        "message": "赛风翻墙软件背后的团队",
+        "message": "请认识我们赛风网络翻墙软件的背后团队。",
         "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
         "message": "操作系统版本",
         "description": ""
+    },
+    "privacy-information-collected-s3-logging-head": {
+        "message": "Storage Remote Access Logging",
+        "description": "Sub-heading for section describing use of logging access to remote storage (aka S3 bucket logging)"
     },
     "faq-connection-failed-question": {
         "message": "为什么我一遍又一遍看到\"连接失败\"消息？",
@@ -200,7 +232,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). We do not allow your email address to be written to the system's log file.",
+        "message": "当阁下发电邮到赛风的自动服务器时，赛风将会看到阁下的电邮地址。 当然，赛风并不会储存此资料。电邮服务器发送回复后，阁下的资料也会同步被删除（一般数秒时间）。赛风并不允许任何情况下把用户资料写进系统的日志中。",
         "description": ""
     },
     "faq-authentic-windows-question": {
@@ -216,43 +248,51 @@
         "description": "Page title for the Sponsorship page"
     },
     "about-who-we-are-partners-para-1": {
-        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our web proxy software in 15 languages, and are adding more to our Windows and Mobile products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Open Technology Fund’s hub.",
+        "message": "不论所在位置，赛风都能为不同群组提供支援和专业意见。我们的软件现有十五种不同语言，并且于 <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>不断更新。",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "Michael Hull 担任运营总监, 当赛风在多伦多大学的公民实验室作为一个项目启动时, Michael Hull 在赛风公司创建之初就一直效力. 他一直领导赛风软件的开发, 不断创新使得赛风科技遥遥领先.",
+        "message": "Michael Hull 现担任赛风的运营总监。 当赛风早期在多伦多大学的公民实验室作为一个启动项目时, Michael Hull 已是创建成员之一。. 他一直致力领导赛风软件的开发, 并且不断研发创新，使得赛风科技遥遥领先。",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2017": {
-        "message": "For the certificate valid for the period 2014-05-08 to 2017-09-06 the SHA1 thumbprint is:",
+        "message": "证书有效期2014年-05月-08日到2017年-09月-06日 SHA1指纹是：",
         "description": ""
     },
+    "faq-information-collected-answer-redirect": {
+        "message": "请参阅我们的<a href=\"privacy.html\">隐私政策</a>了解我们收集哪些信息。",
+        "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
+    },
     "donate-heading": {
-        "message": "为赛风做出贡献",
+        "message": "为赛风贡献",
         "description": "The heading of the page section that shows the donation buttons"
     },
     "user-guide-meta-title": {
-        "message": "How to use Psiphon on Mobile and Windows",
+        "message": "如何在手提移动设备和 Windows 上使用赛风",
         "description": "meta title for the user guide page"
     },
     "faq-autoproxy-answer-para-1": {
-        "message": "点击运行，输入 <code>regedit</code> 打开注册表。找到并打开 <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>，在右边您会看到 <code>UserSkipProxySettings</code>。将其值设置为<code>1</code>，这样赛风就不会自动修改系统代理设置。",
+        "message": "A: 点击进行，然候输入 \"regedit\" 去打开注册表。找到和打开 \"HKEY_CURRENT_USER\\Software\\Psiphon3\"候，在右面会看到 \"UserSkipProxySettings\"。将其值设置为1去确保赛风 3不会自动配置系统代理设置。",
         "description": ""
     },
     "user-guide-android-head": {
         "message": "赛风安卓版",
         "description": "heading for the Android section of the User Guide"
     },
+    "privacy-bulletin-entry-2-title": {
+        "message": "2015年06月01日：隐私条例更新",
+        "description": ""
+    },
     "index-description": {
-        "message": "Psiphon is circumvention software for Windows and Mobile platforms that provides uncensored access to Internet content",
+        "message": "赛风是一个适用于 Windows 和移动平台的规避软件，提供对不经审查互联网的访问接入",
         "description": "Page description for the index page"
     },
     "faq-title": {
         "message": "常见问题与解答",
         "description": "title for the FAQ page"
     },
-    "faq-proxy-auth-answer-para-1": {
-        "message": "Some LAN environments require internet connections to go through a proxy (like Squid) that requires authentication. Psiphon for Windows can be configured to connect through such proxies by editing the registry:",
+    "privacy-information-collected-s3-logging-para-1": {
+        "message": "赛风使用亚马逊S3去儲存例如网站档案和赛风服务器开发等资料。\n我们有时候会允许记录下载网站的数据。透过分析这些数据，我们的团队能够获得各方面的资讯，譬如“多少用户会中断下载赛风服务器开发表？”，“已下载的资料如何在网站资产及服务器开发表中分配？”和“赛风网站是否面临阻斷服務攻擊？”。",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
@@ -260,15 +300,15 @@
         "description": ""
     },
     "page-keyword-ssh": {
-        "message": "ssh",
+        "message": "SSH",
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-4": {
-        "message": "时间日志包括时间戳、地区代码 (GeoIP国家代码) 、非标识属性包括赞助商ID (由具体使用的赛风客户端决定)，客户端版本和协议类型。系统在记录之前，总浏览量会按照时间或对话来进行统计汇总。",
+        "message": "时间日志包括时间戳，地区代码 (国家和城市) 和非标识属性包括赞助商ID (确定哪个赛风客户端的使用)，客户端版本，和协议类型。浏览量汇总则由时间或使用时间所记录。",
         "description": ""
     },
     "page-keyword-blog": {
-        "message": "blog",
+        "message": "博客",
         "description": "web page meta keyword used for SEO"
     },
     "blog-index-intro": {
@@ -276,15 +316,15 @@
         "description": ""
     },
     "about-who-we-are-ops-para-1": {
-        "message": "We have contracts in place with a range of companies, from large-scale international broadcasters to small human rights organizations operating in single countries. Our Operations and Outreach team compiles reports showing them how many people are accessing Psiphon through their distribution methods. They also study trends and look out for upcoming events that might impact the free flow of information on the Internet.",
+        "message": "赛风现正跟不同类型的公司合作，包括大型国际广播公司和个别国家的人权组织。我们的运作跟外展团队会整理报告，从而向合作公司展示透过他们公司网站使用赛风的总共人数。我们的团队同时会留意有可能影响自由网络的事件，以助研究未来趨勢。",
         "description": ""
     },
     "faq-information-collected-answer-para-7-list-start": {
         "message": "视窗：",
         "description": ""
     },
-    "privacy-para-4": {
-        "message": "<a href=\"./faq.html#information-collected\">Visit the FAQ</a> for details about what data we collect. See the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> for temporary data collection changes.",
+    "privacy-bulletin-entry-2-when-doing": {
+        "message": "This is in effect by at least 2015-06-01T00:00Z.",
         "description": ""
     },
     "alert-body": {
@@ -300,7 +340,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "只能在VPN模式下使用。VPN连接成功之后，你的整个电脑流量都将会通过 赛风3网络中转。在SSH模式下，应用程序只有使用本地HTTP和SOCKS代理，赛风才会代理。",
+        "message": "仅在 VPN 模式。VPN 连接成功之后，阁下整个电脑的网络流量都将会通过赛风３。当 VPN 模式尚未启用时，只有使用本地 HTTP 和 SOCKS 代理的应用程序会被代理。",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-8": {
@@ -308,7 +348,7 @@
         "description": ""
     },
     "about-who-we-are-para-1": {
-        "message": "Psiphon Inc. is a company based in Toronto, producing open-source multi-platform software that helps over 3 million people every week connect to content on the Internet. We’re a team focused on delivering the best software we can, introducing new products regularly and making sure we develop to the needs of our constantly growing global audience.",
+        "message": "赛风是一个位于多倫多的软件公司。我们每星期都为超过３百万用户提供开放式及多方面平台的软件去连接网络上的不同内容。我们的团队一直致力为客户研发最好的软件，定期介绍新的产品和确保赛风能全面照顾日渐增长国际客户的需要。　",
         "description": ""
     },
     "user-guide-windows-para-3": {
@@ -316,7 +356,7 @@
         "description": ""
     },
     "license-meta-title": {
-        "message": "End-User License Agreement",
+        "message": "最终用户许可协议",
         "description": ""
     },
     "faq-information-collected-question": {
@@ -328,31 +368,31 @@
         "description": ""
     },
     "privacy-bulletin-title": {
-        "message": "Privacy Bulletins",
+        "message": "隐私公告",
         "description": ""
     },
     "license-para-2": {
-        "message": "The Psiphon system consists of both “software” (program source code and applications derived from that code) and a “service” (a system of client and server software that make up a functioning whole). The Psiphon software and source code are <a href=\"https://en.wikipedia.org/wiki/Free_and_open_source_software\" target=\"_blank\">free and open-source</a> and <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/LICENSE?at=default\" target=\"_blank\">are licensed</a> under the <a href=\"https://www.gnu.org/copyleft/gpl.html\" target=\"_blank\">GNU General Public License Version 3</a>. Use of the Psiphon service is licensed under the terms described on this page.",
+        "message": "赛风系统包括软件（程式源代码和衍生的应用程式）和服务（客户和服务器组合的功能系统）。赛风软件跟源代码分别是 <a href=\"https://en.wikipedia.org/wiki/Free_and_open_source_software\" target=\"_blank\">自由和开放来源</a>和<a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/LICENSE?at=default\" target=\"_blank\"> 都是在</a>GNU General Public License Version 3<a href=\"https://www.gnu.org/copyleft/gpl.html\" target=\"_blank\">下领受牌照</a>。如要查询赛风服务牌照的使用说明，请参阅此页的资料。",
         "description": "Please modify the Wikipedia link to point to the correct language entry"
     },
     "page-keyword-instructions": {
-        "message": "instructions",
+        "message": "说明",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-developers": {
-        "message": "developers",
+        "message": "开发人员",
         "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "要以“全局代理”模式运行 Psiphon，您必须是Android 4.0+ 版本或拥有一台已 root 的手机。<br><br>对于没有root并且安卓版本较旧手机无法使用。",
+        "message": "赛风的全局代理模式目前只支援安卓4.0+ 或是有植根设备(rooted)的手机。抱歉该模式暂时并不支援没有植根设备或是旧版安卓。",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "faq-isp-traffic-answer-para-1": {
-        "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages your browse, your chat messages, your uploads, etc.",
+        "message": "所有经过赛风的数据都受过加密。这代表阁下的互联网服务供应商不能看到阁下的网络流量内容：浏览的网页，聊天讯息，上载资料等等。",
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some cases your Internet traffic might not be tunneled through Psiphon in SSH or SSH+ mode, for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
+        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some modes and configurations all of your Internet traffic might not be tunneled through Psiphon -- for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
@@ -360,7 +400,7 @@
         "description": ""
     },
     "page-keyword-code": {
-        "message": "code",
+        "message": "代码",
         "description": "web page meta keyword used for SEO"
     },
     "faq-vpn-dns-question": {
@@ -376,7 +416,7 @@
         "description": ""
     },
     "user-guide-description": {
-        "message": "Psiphon user guide showing how to use Psiphon on Mobile and Windows platforms",
+        "message": "赛风用户指南展示了如何在手提移动设备和 Windows 平台上使用赛风",
         "description": "description for the user guide page"
     },
     "blog-index-nav-title": {
@@ -387,20 +427,12 @@
         "message": "赛风用户群组",
         "description": "text for link to the Psiphon Users mailing list"
     },
-    "faq-information-collected-answer-para-3": {
-        "message": "我们从来没有收集用户的IP地址和电子邮件地址。用户无需要创建账户就能使用赛风的系统。",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-answer-para-1": {
-        "message": "本地HTTP代理无法运行。你可能有其他程序正在运行并使用默认端口。请尝试使用其他端口。意识到这个问题 ”我可以用8080以外的端口运行本地HTTP代理吗？“",
-        "description": ""
-    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "有限责任声明",
         "description": ""
     },
     "faq-information-collected-answer-para-10": {
-        "message": "Note that if you get Psiphon from an \"app store\" -- such as Google Play or Amazon AppStore -- additional statistics may be collected by that store. For example, here is a description of what Google Play collects:",
+        "message": "请注意如果在应用程式商店下载赛风，譬如谷歌商店或是亚马逊商店，这些商店有可能会收集额外的数据。以下的例子是谷歌商店会收集的资料：",
         "description": ""
     },
     "faq-nav-title": {
@@ -412,15 +444,15 @@
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "license-personal-or-specified-use-para": {
-        "message": "Use of the Psiphon service is granted under a non-exclusive, personal license. By using Psiphon, you agree to use the service for personal, non-commercial use only. You may not (and may not allow a third party to) rent, lease, sublicense, sell, resell or otherwise distribute use of the Psiphon service for commercial purposes.",
+        "message": "赛风服务是受承认而非独占的私人牌照。根据赛风许可的条款，在使用赛风的同时，阁下同意只以个人和非商业途径。阁下并不能以商业目的（和不允许第三方） 出租、 租赁、 发放从属许可、 出售、 转售或以其他方式分发赛风服务。",
         "description": ""
     },
     "faq-browser-compatibility-question": {
-        "message": "赛风3的Windows版本与IE, Firefox, Safari和Chrome浏览器兼容吗？",
+        "message": "赛风的Windows 版面能兼容Internet Explorer、火狐 和 Chrome 浏览器吗？",
         "description": ""
     },
     "page-keyword-landing-page": {
-        "message": "landing page",
+        "message": "登录页面",
         "description": "web page meta keyword used for SEO"
     },
     "faq-authentic-android-answer-para-3": {
@@ -440,7 +472,7 @@
         "description": ""
     },
     "download-meta-title": {
-        "message": "Download Android app and Windows client",
+        "message": "下载安卓应用和 Windows 客户端",
         "description": "meta title for the download page"
     },
     "user-guide-windows-para-1": {
@@ -448,7 +480,7 @@
         "description": ""
     },
     "faq-authentic-windows-answer-para-2": {
-        "message": "For the certificate valid for the period 2011-06-16 to 2012-06-21 the SHA1 thumbprint is:",
+        "message": "有效期从2011年-06月-16日到2012年-06月-21日的证书的 SHA1指纹是：",
         "description": ""
     },
     "what-is-psiphon-heading": {
@@ -460,31 +492,19 @@
         "description": "text for the user guide page navigation item"
     },
     "page-keyword-updates": {
-        "message": "updates",
+        "message": "升级",
         "description": "web page meta keyword used for SEO"
     },
     "faq-authentic-windows-answer-para-3": {
-        "message": "For the certificate valid for the period 2012-05-21 to 2014-07-30 the SHA1 thumbprint is:",
+        "message": "证书有效期2012年-05月-21日到2014年-07月-30日 SHA1指纹是：",
         "description": ""
-    },
-    "index-title": {
-        "message": "欢迎来到您全新的互联网",
-        "description": "Page title for the index page"
     },
     "faq-meta-title": {
         "message": "常见问题与解答",
         "description": "meta title for the FAQ page"
     },
-    "about-privacy-head": {
-        "message": "隐私政策",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-question": {
-        "message": "在SSH模式下，运行Windows版的赛风 我看到错误消息是 \"Failed to connect to Polipo\"。我怎么办？",
-        "description": ""
-    },
     "faq-ssh-plus-answer-para-1": {
-        "message": "为了防止指纹协议，SSH+模式是SSH模式与SSH混淆层之上一种模式结合。可以在<a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">这里</a>找到的协议的说明。",
+        "message": "A: 为了防御协议指纹，赛风在SSH握手模式上增加了混淆层。防御协议指纹的详情可以在<a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">这里</a>找到的协议的说明。",
         "description": ""
     },
     "license-title": {
@@ -492,7 +512,7 @@
         "description": ""
     },
     "privacy-bulletin-description": {
-        "message": "Privacy Bulletins",
+        "message": "隐私公告",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-1": {
@@ -500,7 +520,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
     },
     "privacy-bulletin-entry-1-what-doing": {
-        "message": "We are enabling access logging for one website Amazon S3 \"bucket\" (i.e., storage container). (For technical reasons, we run dozens of copies of the website in different S3 buckets.)",
+        "message": "我们允许亚马逊S3 \"桶子\" 的存取记录 （例如储存容器）。（技术原因上，我们在不同的S3 桶子内有数十个网站的副本。）",
         "description": ""
     },
     "open-source-para-4-list-start": {
@@ -512,19 +532,23 @@
         "description": ""
     },
     "license-terms-of-use-para": {
-        "message": "By using the Psiphon service, you agree not to use it in any manner that violates Canadian law, or the rights of a third party.",
+        "message": "使用赛风服务的同时，阁下同意不会违犯加拿大法律或是第三方的权益。",
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "如何在SSH模式下配置应用程序以便使用赛风隧道加密？",
+        "message": "我该如何配置应用程序去使用赛风隧道？",
         "description": ""
     },
     "page-keyword-circumvention": {
-        "message": "circumvention",
+        "message": "绕过",
         "description": "web page meta keyword used for SEO"
     },
     "open-source-meta-title": {
         "message": "开放源码",
+        "description": ""
+    },
+    "privacy-bulletin-entry-2-why-doing": {
+        "message": "The <a href=\"privacy.html\">Privacy Policy</a> page is now the only place users need to check for Psiphon's privacy and data collection policies. It has been updated to reflect use of advertisements, analytics, and logging for some of our websites.",
         "description": ""
     },
     "license-para-1": {
@@ -544,7 +568,7 @@
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
     "privacy-bulletin-intro-para-1": {
-        "message": "Our normal data collection practices are described in <a href=\"./faq.html#information-collected\">the FAQ</a>. Whenever we need to temporarily change (increase) our data collection, we will describe here what we're doing and what the impact is.",
+        "message": "我们正常的数据收集实践已在<a href=\"./faq.html#information-collected\">FAQ</a>中描述。每当我们需要临时更改（增加）我们的数据收集时，我们将在这里介绍当中的过程跟影响。",
         "description": ""
     },
     "user-guide-title": {
@@ -572,11 +596,11 @@
         "description": ""
     },
     "donate-body": {
-        "message": "你能够帮助赛风向网民提供自由访问开发互联网的机会。选择下列选项之一。",
+        "message": "阁下能够帮助赛风向网民提供自由访问开发互联网的机会。请选择下列选项之一。",
         "description": "The body of the page section that shows the donation buttons"
     },
     "faq-information-collected-answer-para-13-item-3": {
-        "message": "The size of the email.",
+        "message": "邮件的大小。",
         "description": ""
     },
     "download-windows-direct": {
@@ -584,19 +608,19 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "您的手机是否有最高权限？",
+        "message": "请问您的手机是否有植根装备？",
         "description": ""
     },
     "sponsor-para-2": {
-        "message": "您将看到您选择的广告标语，该标语将会链接到您网站的某个页面。这是向众多使用赛风来保障网络浏览安全的网民展示您产品的独一无二的机会。",
+        "message": "阁下将看到所选择的广告标语，而该标语将会链接到阁下网站的页面。这是一个向对技术上有留意的赛风用户宣扬保障网络浏览安全的宝贵机会。",
         "description": ""
     },
     "page-keyword-how-to": {
-        "message": "how to",
+        "message": "如何",
         "description": "web page meta keyword used for SEO"
     },
     "sponsor-description": {
-        "message": "Become a sponsor by advertising on a landing page, or donate individually to the Psiphon project",
+        "message": "要成为赞助商，阁下可以以广告宣传在登陆页面上，或个别捐赠给赛风项目。",
         "description": "Page description for the Sponsorship page"
     },
     "about-get-latest-info-para-1-list-start": {
@@ -604,11 +628,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-9": {
-        "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry to the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> describing what was recorded, how long it was kept, and why.",
+        "message": "有时候赛风会备案其他信息，以解决我们的服务的问题。当此情况发生时，我们会将一个新条目添加到 <a href=\"./privacy-bulletin.html\">隐私公告</a> 去描述记录得到的资料，该资料保留的时间，以及原因。",
         "description": ""
     },
     "privacy-bulletin-entry-1-when-doing": {
-        "message": "Logging will be enabled from 2014-04-17T15:00Z to 2014-04-18T15:00Z.",
+        "message": "日志记录将在 2014-04-17T15:00Z 至 2014-04-18T15:00Z 启用。",
         "description": ""
     },
     "nav-language-title": {
@@ -628,7 +652,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
+        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this is \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -636,23 +660,23 @@
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-partnerships": {
-        "message": "partnerships",
+        "message": "合作伙伴",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-development": {
-        "message": "development",
+        "message": "开发",
         "description": "web page meta keyword used for SEO"
     },
     "blog-index-title": {
-        "message": "Team Blog",
+        "message": "赛风团队博客",
         "description": ""
     },
     "about-who-we-are-software-development-para-3": {
-        "message": "赛风的软件开发团队尽全力提供最好,最快,最便捷以及最开放的翻墙软件和代理. 我们也在不断探索新的领域来保护和提高用户技术水平, 并解放全世界的用户思想不受禁锢. ",
+        "message": "赛风的软件开发团队一直致力提供最好,最快捷,最方便以及最开放的翻墙软件和代理. 我们团队亦同时在不断探索新的领域来保护用户隐私，提高技术水平, 并且解放国际用户的自由。",
         "description": ""
     },
     "page-keyword-windows": {
-        "message": "windows",
+        "message": "Windows",
         "description": "web page meta keyword used for SEO"
     },
     "privacy-para-3": {
@@ -681,10 +705,10 @@
     },
     "user-guide-android-ui-status-image-annotation-4": {
         "message": "<span style=\"color:grey\">灰色</span>：正在连<br><span style=\"color:red\">红色</span>：未连接<br><span style=\"color:Blue\">蓝色</span>：已连接",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
+        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
     },
     "privacy-bulletin-entry-item-head-why-doing": {
-        "message": "Why we're doing it",
+        "message": "为什么我们要这么做",
         "description": ""
     },
     "generic-image-figcaption": {
@@ -692,11 +716,11 @@
         "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
     },
     "about-who-we-are-partners-para-2": {
-        "message": "One of our most successful partnerships is with <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a>, who provide translation and support services in Farsi, and have been instrumental in helping us grow our audience.",
+        "message": "ASL19 是赛风最成功的合作伙伴之一。ASL19提供波斯語翻译和支援服务，是赛风增加客户的过程中不可或缺的伙伴。",
         "description": ""
     },
     "license-para-3": {
-        "message": "The Psiphon service is strictly intended for individuals, and is for personal use only. If you wish to use Psiphon for any other purpose or have additional requirements, we offer a paid, commercial service. For more details, email <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>.",
+        "message": "此版本的赛风应只允许个人用途，且仅供个人使用。如果阁下希望将赛风用于其他任何用途或有额外需求，我们还提供付费的式商业服务。欲了解更多详情，请发送电子邮件至 <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
         "description": ""
     },
     "resources-nav-title": {
@@ -708,27 +732,23 @@
         "description": "alt text for an image"
     },
     "blog-index-subscribe": {
-        "message": "Subscribe",
+        "message": "订阅",
         "description": ""
     },
     "page-keyword-donate": {
-        "message": "donate",
+        "message": "捐助",
         "description": "web page meta keyword used for SEO"
     },
-    "faq-proxy-auth-answer-step-4": {
-        "message": "Set <code>UserSkipSSHParentProxySettings</code> to <code>0</code>.",
-        "description": ""
-    },
     "faq-android-enable-sideloading-answer-para-1": {
-        "message": "In order to install a direct download of Psiphon for Android, you must enable \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". To do so, go into your Android settings, then into the \"Security\" section, then enable \"Unknown sources\".",
+        "message": "为了安装赛风安卓版直接下载，您必须启用 \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\"。 要做到这一点，进入安卓设置，然后进入\"安全\"部分中，然后启用“未知的来源”。",
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
     },
     "faq-isp-traffic-answer-para-4": {
-        "message": "If you require anonymity over the Internet then you should use <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> instead of Psiphon.",
+        "message": "如果您需要匿名在互联网上，那你应该使用 <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> 而不是赛风。",
         "description": ""
     },
     "page-keyword-sponsor": {
-        "message": "sponsor",
+        "message": "赞助",
         "description": "web page meta keyword used for SEO"
     },
     "nav-title": {
@@ -739,16 +759,20 @@
         "message": "赛风windows版本能够自动更新，这一更新过程会自动验证每个更新是可信的。",
         "description": ""
     },
+    "faq-information-collected-answer-para-3b": {
+        "message": "在日常运作上，赛风服务器不会收集或记录任何用户的網際網路協定位址(IP Address)。使用赛风的服务不需要申请任何户口，因此赛风也不会拥有任何电邮地址，用户名称或是密码。",
+        "description": ""
+    },
     "page-keyword-help": {
-        "message": "help",
+        "message": "帮助",
         "description": "web page meta keyword used for SEO"
     },
     "about-who-we-are-partners-head": {
-        "message": "Partnerships",
+        "message": "合作伙伴",
         "description": ""
     },
     "blog-index-description": {
-        "message": "Behind the scenes with the Psiphon team",
+        "message": "赛风团队幕后工作",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-4": {
@@ -756,15 +780,15 @@
         "description": ""
     },
     "page-keyword-app-store": {
-        "message": "app store",
+        "message": "应用商店",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-team": {
-        "message": "psiphon team",
+        "message": "赛风团队",
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-13-item-1": {
-        "message": "The date and time the email request was received.",
+        "message": "收到该邮件请求的日期和时间。",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-1": {
@@ -772,7 +796,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "2008 年以来，赛风已帮助来自全球网络自由限制国家的数百万用户安全访问了被屏蔽的知识和理念。现在赛风可为您提供同样的服务。",
+        "message": "从2008年开始，赛风一直致力帮助世界各地网路上受自由限制的国家。\n目前，赛风已经成功为超过百万用户安全的浏览受屏蔽的网站。今天，赛风能为您提供同样的服务。",
         "description": ""
     },
     "about-title": {
@@ -783,12 +807,8 @@
         "message": "安卓版本",
         "description": ""
     },
-    "faq-proxy-auth-question-toc": {
-        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
-        "description": ""
-    },
     "privacy-bulletin-entry-1-how-many-users": {
-        "message": "We don't know for sure yet how many users will be affected (that's why we're doing this), but we suspect it will be fewer than 10,000 users.",
+        "message": "我们不知道有多少用户会受到影响 （这就是我们这么做的原因），但我们估计将少于10,000个用户受影响。",
         "description": ""
     },
     "download-windows-direct-description": {
@@ -796,7 +816,7 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
-        "message": "As the user, you are free to terminate this license agreement at any time by discontinuing use of any and all parts of the Psiphon service, and deleting all instances of the software application from your device.",
+        "message": "作为用户，阁下可以随时透过关闭赛风服务，和从设备中删除赛风软件的应用程式去终止本许可协议。",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-5": {
@@ -808,15 +828,15 @@
         "description": ""
     },
     "index-meta-title": {
-        "message": "Uncensored Internet access for Windows and Mobile",
+        "message": "适用于 Windows 和移动设备的不经审查的互联网",
         "description": "Meta title for the index page"
     },
     "faq-information-collected-answer-para-8-item-2": {
-        "message": "手机模型",
+        "message": "设置",
         "description": ""
     },
     "page-keyword-play-store": {
-        "message": "play store",
+        "message": "Play 应用商店",
         "description": "web page meta keyword used for SEO"
     },
     "license-termination-terms-of-service-violations-header": {
@@ -832,7 +852,7 @@
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "faq-isp-traffic-question": {
-        "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
+        "message": "在我使用赛风时，我的互联网服务提供商能看到我在做什么吗？",
         "description": ""
     },
     "open-source-para-3-list-start": {
@@ -860,7 +880,7 @@
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
+        "message": "赛风服务秉承原本不保修的宗旨。赛风不授权或承担任何与此设备有关的风险，包括个人创伤，任何意外，特别，非直接或严重或商业损失，譬如数据流失和业务中断。",
         "description": ""
     },
     "faq-ip-change-question": {
@@ -868,27 +888,23 @@
         "description": ""
     },
     "privacy-bulletin-meta-title": {
-        "message": "Privacy Bulletins",
+        "message": "隐私公告",
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "安大略省私隐专员办公室",
+        "message": "安大略省信息和隐私委员会",
         "description": ""
     },
     "about-who-we-are-ops-head": {
         "message": "运营及推广",
         "description": ""
     },
-    "faq-proxy-auth-answer-para-3": {
-        "message": "Unfortunately, on Psiphon for Android we do not support HTTP proxy authentication at this time.",
-        "description": ""
-    },
     "faq-information-collected-answer-head-4": {
-        "message": "App Stores",
-        "description": "this is referring to the general idea of app stores, like Google Play, Amazon AppStore, Apple App Store"
+        "message": "应用程式商店",
+        "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
     "privacy-bulletin-entry-item-head-what-doing": {
-        "message": "What we're doing",
+        "message": "我们在做什么",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {
@@ -896,7 +912,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-14": {
-        "message": "If we need to diagnose a problem, we may enable full mail server logging for a short amount of time. If you send an email during that time, your email address will be written to the system log. Those logs are deleted after one week.",
+        "message": "如果我们需要诊断一个疑难问题，我们可能会在短时间内启用邮件服务器的完整日志记录。如果您在这段时间内发送了一封邮件，您的电子邮件地址会被写入到系统日志中。这些日志会在一周后被删除。",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-4": {
@@ -904,8 +920,8 @@
         "description": ""
     },
     "open-source-para-1": {
-        "message": "赛风是一个开源项目的。你可以找到源代码和设计文件在<a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">项目主页</a>.",
-        "description": ""
+        "message": "赛风是一个开源项目的。你可以在<a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">项目主页上找到我们的源代码和设计文件</a>.",
+        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
     },
     "main-gets-you-where-you-want-head-2": {
         "message": "被您所在的国家、公司或校园审查？",
@@ -920,27 +936,27 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
-        "message": "The mail server the email request came from. (Specifically, the three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)",
+        "message": "电邮请求的电邮服务器 （三个最少特性的区域名称）。例如<code>ne1.example.com</code>，却不是<code>web120113.mail.ne1.example.com</code>.)",
         "description": ""
     },
     "page-keyword-manual": {
-        "message": "manual",
+        "message": "手册",
         "description": "web page meta keyword used for SEO"
     },
     "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "The data will be retained no more than one week. We will be keeping the count of users longer -- possibly indefinitely.",
+        "message": "数据将保留不超过一周。我们将保持一个较长时期的用户计数。",
         "description": ""
     },
-    "faq-polipo-different-port-answer-para-1": {
-        "message": "可以，在 Windows系统中。单击“运行”，并输入 <code>regedit</code> 打开注册表编辑器。找到并打开 <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>，在右侧您将看到 <code>UserLocalHTTPProxyPort</code>。设置其数值为您希望使用的端口号（十进制）。",
-        "description": ""
+    "privacy-information-collected-websites-head": {
+        "message": "网站",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
-        "message": "Site content licensed under",
+        "message": "网站内容授权于",
         "description": "The beginning of the 'Licensed under [license name here]' footer text"
     },
     "open-source-para-2": {
-        "message": "Psiphon clients use the following open source components:",
+        "message": "Psiphon 客户端使用了下列开源组件：",
         "description": ""
     },
     "download-android-playstore": {
@@ -948,7 +964,7 @@
         "description": "text for link to Psiphon for Android in the Google Play Store"
     },
     "page-keyword-contact": {
-        "message": "contact",
+        "message": "联系",
         "description": "web page meta keyword used for SEO"
     },
     "download-title": {
@@ -964,7 +980,7 @@
         "description": "text for link to Psiphon for Android direct download"
     },
     "page-keyword-home-page": {
-        "message": "home page",
+        "message": "首页",
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-6": {
@@ -976,7 +992,7 @@
         "description": ""
     },
     "faq-browser-compatibility-answer-para-1": {
-        "message": "兼容。在SSH模式下，检查你的浏览器设置，确保浏览器调整到使用系统代理状态。",
+        "message": "是的。请检查您的浏览器设置并确保它已配置为使用系统代理设置。",
         "description": ""
     },
     "faq-information-collected-answer-para-8-list-start": {
@@ -984,7 +1000,7 @@
         "description": ""
     },
     "faq-information-collected-answer-head-3": {
-        "message": "Email Responder",
+        "message": "电子邮件回复者",
         "description": ""
     },
     "download-android-amazon": {
@@ -1000,7 +1016,7 @@
         "description": ""
     },
     "page-keyword-user-guide": {
-        "message": "user guide",
+        "message": "用户指引",
         "description": "web page meta keyword used for SEO"
     },
     "about-meta-title": {
@@ -1008,11 +1024,11 @@
         "description": "meta title for the About page"
     },
     "faq-information-collected-answer-para-13-item-2": {
-        "message": "The date and time the email request was replied to.",
+        "message": "回复该邮件请求的日期和时间为：",
         "description": ""
     },
     "sponsor-banner-alt-text": {
-        "message": "Sponsor banner",
+        "message": "赞助商橫幅广告",
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
@@ -1024,8 +1040,8 @@
         "description": ""
     },
     "download-store-head": {
-        "message": "App Store Downloads",
-        "description": "This refers to Google Play, Amazon's AppStore, and any similar app stores"
+        "message": "应用程式商店下载",
+        "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
     },
     "sponsor-meta-title": {
         "message": "赞助，广告和捐赠",
@@ -1033,10 +1049,6 @@
     },
     "faq-check-version-question": {
         "message": "我怎么查看我当前赛风版本？",
-        "description": ""
-    },
-    "faq-proxy-auth-answer-step-1": {
-        "message": "Run <code>regedit.exe</code>.",
         "description": ""
     },
     "site-title": {
@@ -1048,11 +1060,11 @@
         "description": ""
     },
     "page-keyword-privacy": {
-        "message": "privacy",
+        "message": "隐私",
         "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "赛风会自动配置你的系统，以便使用一个本地HTTP/HTTPS代理在 <code>127.0.0.1:8080</code>和一个本地SOCKS代理在 <code>127.0.0.1:1080</code>。Windows应用程序在使用系统代理设置时会被自动代理。你可以手动配置其他应用程序来使用此本地代理。赛风Windows版本(SSH模式) 和赛风安卓版都能够运行本地的代理。",
+        "message": "A: 赛风3会自动配置你的系统以使用一个本地HTTP/HTTPS代理在 <strong>127.0.0.1:8080</strong>和一个本地SOCKS代理在 <strong>127.0.0.1:1080</strong>。Windows应用程序其使用系统代理设置会被自动代理。你可以手动配置其他应用程序以使用此本地代理。赛风3的 Windows (SSH模式) 和赛风3的安卓都运行这些本地的代理。",
         "description": ""
     },
     "faq-vpn-protocol-answer-para-1": {
@@ -1068,19 +1080,23 @@
         "description": ""
     },
     "sponsor-para-1": {
-        "message": "使用赛风的每位用户，无论何时连接到本软件都将看到该登陆页面。此页面的赞助资费按照星期来计算。",
+        "message": "使用赛风的每位用户在每次连接到本软件时都会看到登陆页面。而此登陆页面的赞助资费将按星期来计算。",
         "description": ""
     },
     "faq-autoproxy-question": {
         "message": "我使用<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>。我怎么能让赛风windows版本不来修改我的系统代理设置?",
         "description": ""
     },
+    "privacy-information-collected-websites-google-analytics-para-3": {
+        "message": "Google’s ability to use and share information collected by Google Analytics about your visits to this site is restricted by the <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Google Analytics Terms of Use</a> and the <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Google Privacy Policy</a>. You may choose to opt out by turning off cookies in the preferences settings in your web browser.",
+        "description": ""
+    },
     "faq-isp-traffic-question-toc": {
-        "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
+        "message": "在我使用赛风时，我的互联网服务提供商能看到我在做什么吗？",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "赛风根据白名单来限制 DNS流量，审查DNS服务器。赛风3客户端自动配置你VPN的DNS服务器设置。如果你收到有关DNS错误消息，请检查确认你没有被恶意软件 “DNS Changer”感染，因为该软件会试图修改你的DNS服务器设置。你可以在这里找到更多信息<a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>.",
+        "message": "A: 赛风3限制 DNS流量到有效的 DNS服务器。 赛风3客户端自动配置阁下的VPN DNS的服务器设置。如果阁下收到有关DNS错误，请检查你的装置不感染 “DNS Changer”的恶意软件，因为它会试图改变你的 DNS服务器设置。阁下可以在这里找到更多信息<a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>.",
         "description": ""
     },
     "about-get-latest-info-head": {
@@ -1096,7 +1112,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-why-doing": {
-        "message": "We are doing this to determine how many accesses there are to the \"remote server list\" stored in the bucket. This will help to give us an idea of how many users are failing to connect.",
+        "message": "此举的原因是去分析多少用户能成功使用我们的 ”远处服务器名单”， 也能够进一步让我们知道多少用户不能连接。",
         "description": ""
     },
     "download-nav-title": {
@@ -1104,11 +1120,7 @@
         "description": "text for the Download page navigation item"
     },
     "about-who-we-are-exec-team-para-2": {
-        "message": "Karl Kathuria 担任商业管理副总裁, 他最近从英国加入了位于加拿大的赛风团队. 他负责与广播与发行商合作伙伴等保持良好的商业合作关系并不断为公司寻找新的商机.",
-        "description": ""
-    },
-    "faq-polipo-different-port-question": {
-        "message": "我可以通过除8080以外的端口运行本地HTTP代理吗？",
+        "message": "Karl Kathuria 现担任赛风商业管理副总裁。 他最近从英国倫敦加入了位于加拿大多倫多的赛风团队。 他负责与广播跟发行商等合作伙伴保持良好的商业合作关系，并为赛风开拓新的商机.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-2": {
@@ -1116,7 +1128,7 @@
         "description": ""
     },
     "page-keyword-censorship": {
-        "message": "censorship",
+        "message": "审查",
         "description": "web page meta keyword used for SEO"
     },
     "blog-index-meta-title": {
@@ -1124,19 +1136,19 @@
         "description": ""
     },
     "user-guide-windows-para-4": {
-        "message": "在SSH和SSH+模式，赛风自动修改Windows系统的代理设置和应用程序的网络访问申请，意味着所有的数据将通过赛风隧道加密。这些设置被默认适用于主要的网络浏览器。",
+        "message": "在SSH和SSH+模式，赛风3将自动设置Windows系统的代理设置， 并应用流量将隧道通过赛风。这些设置也会默认成为所有主要的网络浏览器的设定。",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
-        "message": "For each email we receive, we store the following information:",
+        "message": "我们每收到一封电子邮件，都会把信息存储到：",
         "description": ""
     },
     "page-keyword-advertise": {
-        "message": "advertise",
+        "message": "广告宣传",
         "description": "web page meta keyword used for SEO"
     },
     "privacy-bulletin-entry-item-head-who-will-see": {
-        "message": "Who besides Psiphon Inc. will see this data",
+        "message": "除了赛风公司，还有谁将会看到这些数据",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
@@ -1144,15 +1156,15 @@
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-head-1": {
-        "message": "Psiphon Servers",
+        "message": "赛风服务器",
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon already serves the files in the website S3 bucket, so they can already access this information.)",
+        "message": "访问日志也存储在Amazon S3存储桶中，所以亚马逊有会访问日志。（然而，亚马逊已经有文件在网站S3桶，所以他们已经可以访问此信息。）",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "当Psiphon 3启动后，客户端版本将在输出的第一行显示。",
+        "message": "在赛风启动时，它将在日志输出的第一行显示客户端版本。",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-2": {
@@ -1164,11 +1176,11 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-what-data": {
-        "message": "The logging will collect IP addresses, user agents, and timestamps of access to one website. When that data is processed, we will have a count of users divided by geographic region that have accessed the file in question.",
+        "message": "存取记录会受集網際網路協定位址， 用户代理和使用各网页的時間戳。当数据经过分析后，我们会有各地理位置的用户使用有问题档案的资料。",
         "description": ""
     },
     "page-keyword-http-proxy": {
-        "message": "http proxy",
+        "message": "http 代理",
         "description": "web page meta keyword used for SEO"
     },
     "about-nav-title": {
@@ -1184,27 +1196,31 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-1": {
-        "message": "Psiphon reserves the right at its sole discretion to terminate this license at any time for any or no reason, and without penalty. By using Psiphon, you agree not to use the service in any manner that violates the terms of service and license agreement.",
+        "message": "赛风有权在任何时间或以任何原因终止许可，而不受处罚。通过使用赛风，阁下同意不会违反赛风的服务和许可协议条款。",
         "description": ""
     },
     "user-guide-android-image-3-annotation-3": {
         "message": "关闭当前选项卡",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
     },
+    "privacy-nav-title": {
+        "message": "隐私政策",
+        "description": "text for the Privacy Policy page navigation item"
+    },
     "sponsor-para-3": {
         "message": "如欲得到更多资料，请发电邮到<a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>。",
         "description": ""
     },
     "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17: Enable S3 bucket logging",
+        "message": "2014-04-17: 启用 S3 日志记录",
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "此外，在SSH和SSH+模式，Psiphon提供了拆分隧道的选项。比如，国际数据是通过隧道加密代理的，而国内数据不需要。选中“不要代理国内的网站”选项来启用拆分隧道。选中该选项后，在消息区域中显示无需代理的域名。",
+        "message": "此外，在SSH和SSH+模式，Psiphon 3提供了拆分隧道的选项。在此选项中国际流量是隧道通过代理的，而国内流量并不是的。请选择“不要代理国内的网站”选项去启用拆分隧道。确定此选项后，非代理的域名会在消息区域中显示。",
         "description": ""
     },
     "license-distribution-para": {
-        "message": "Only software clients created by Psiphon Inc. are permitted to use the Psiphon service. It is a violation of this license to distribute or use a third-party client or tool for use with the Psiphon service.",
+        "message": "只有赛风认可的客户才能使用本公司的服务。任何第三者用户或是工具使用赛风服务，都是违反本公司的牌照。",
         "description": ""
     },
     "user-guide-android-image-1-alt": {
@@ -1212,31 +1228,31 @@
         "description": "alt text for an image"
     },
     "page-keyword-contribute": {
-        "message": "contribute",
+        "message": "贡献",
         "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-where-you-want-para-1": {
-        "message": "在与世界各地的专制独裁政权斗争后，我们唯一适合做的就是帮助您随时随地获得需要内容。",
+        "message": "拥有在世界各地的专制独裁政权运作的丰富经验，我们绝对适合帮助阁下随时随地获得需要的内容。",
         "description": ""
     },
     "user-guide-android-para-verify-authentic": {
         "message": "首先您应当<a href=\"./faq.html#authentic-android\">核实你的赛风安卓版是正版</a>.",
         "description": ""
     },
-    "faq-proxy-auth-answer-step-2": {
-        "message": "Navigate to <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
+    "privacy-information-collected-s3-logging-para-2": {
+        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already servers the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate and will not be shared with third parties.",
         "description": ""
     },
     "download-description": {
-        "message": "Direct, free Psiphon download for Windows and Android",
+        "message": "适用于 Windows 和 安卓而直接和免费的赛风下载连结",
         "description": "title for the download page"
     },
-    "faq-proxy-auth-answer-step-3": {
-        "message": "Edit the following values:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (make sure to enter the port number in <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
-        "description": ""
+    "privacy-information-collected-websites-google-analytics-head": {
+        "message": "谷歌分析",
+        "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
     },
     "download-direct-head": {
-        "message": "Direct Downloads",
+        "message": "直接下载",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-1": {
@@ -1244,7 +1260,7 @@
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {
-        "message": "Psiphon for Windows is never distributed as an installable package. Each Psiphon for Windows client is a single executable file (\".exe\") that is digitally signed by Psiphon Inc. Windows automatically checks this signature when you run the client. You can also manually inspect the signature before running the client by invoking the Properties dialog for the file and inspecting the Digital Signatures tab. The SHA1 thumbprint for the Psiphon Inc. certificate public key is displayed in the Certificate dialog Details tab.",
+        "message": "赛风3的Windows从来没有分发作为安装的软件包。每个赛风3的Windows客户端是一个单一的可执行文件(\".exe\")，那是数字签名的Psiphon Inc。当您运行客户端时，Windows会自动检查此签名。您也可以手动检查签名在运行客户端之前通过打开文件的属性对话框中，和检查数字签名选项卡。",
         "description": ""
     },
     "user-guide-windows-para-6": {
@@ -1252,7 +1268,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-1": {
-        "message": "我们收集了以下数据以便掌握赛风是怎样出色工作的，什么样的网站是流行的和什么样的传播策略有效。我们与合作伙伴共享此信息以便他们可以看到具体的情况。例如，他们的网站如何被世界各个国家的网民通过赛风访问。",
+        "message": "我们收集了以下数据去找出赛风的表现，目前流行的网站和有效的传播策略。我们的合作伙伴也会分享这些数据，目的是让他们知道自己网站的访客数量和来源。",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-4": {

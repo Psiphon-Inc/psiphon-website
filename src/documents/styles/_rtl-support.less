@@ -8,6 +8,9 @@
 .make-xs-column-pull(@columns) {
   right: percentage((@columns / @grid-columns));
 }
+.make-xs-column-offset(@columns) {
+  margin-left: percentage((@columns / @grid-columns));
+}
 
 
 /* The .make-rtl-md-col mixin helps us to specify div widths that will
@@ -103,6 +106,16 @@
   .make-sm-column(6);
 }
 
+.col-xs-6-center {
+  .make-xs-column-offset(3);
+  .make-xs-column(6);
+}
+
+.col-xs-8-center {
+  .make-xs-column-offset(2);
+  .make-xs-column(8);
+}
+
 
 /*
 This mixin provides a way to RTL-friendly right-alignment of text.
@@ -124,3 +137,22 @@ This mixin provides a way to RTL-friendly right-alignment of text.
   }
 }
 
+//
+// Fix some broken Bootstrap RTL behaviour
+//
+
+// navbar
+@media (min-width: @grid-float-breakpoint) {
+  body[dir="rtl"] {
+    .navbar-left {
+      margin-left: -@navbar-padding-horizontal;
+    }
+    .navbar-right {
+      margin-right: 0;
+
+      ~ .navbar-right {
+        margin-left: 0;
+      }
+    }
+  }
+}

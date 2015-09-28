@@ -33,12 +33,17 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
 
   ```
   $ npm install .
+  $ cd plugins/languagemaker && npm install . && cd -
+  # Or maybe: find . -name package.json -maxdepth 3 -execdir npm install \;
   ```
 
 4. Generate site, serve it, and monitor for changes:
 
   ```
   $ docpad run
+
+  # Site builds can be quite slow. Skip language generation for faster builds:
+  # docpad run --env fastbuild
   ```
 
 ## Generating the site for deployment
@@ -82,6 +87,13 @@ Serving the site with Docpad will only test the site-at-root scenario. Testing t
 An easy way to generate a QR code is via the Google Chart API. Just put the target URL at the end of this URL: `https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=`. For example, here's a [QR for psiphon3.com](https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=http://psiphon3.com).
 
 
+## Sponsor Snippets
+
+Enabling sponsor HTML snippets for a bucket site mostly involves configuring `sponsor_snippet_pull.py` to retrieve the desired snippet and upload it to the correct bucket. The page code will detect the presence of snippet, sanitize, and load it.
+
+JavaScript will be stripped completely from the snippet. `<style>` blocks and external CSS files will be stripped, but inline styles and CSS class names will be left intact.
+
+
 ## I18n hints, tips, issues
 
 ### Translating blog posts
@@ -112,6 +124,11 @@ It's quite easy to add images (screenshots, etc.) that are locale-specific.
 3. Create the localized images. Save them with appropriate filenames. E.g.: `i18n-test.fa.png`, `i18n-test.zh.png`, `i18n-test.ug@Latn.png`, etc. There doesn't need to (immediately) be one for each supported language, because the English fallback will compensate for missing images.
 
 Note that `ttURL` could also be used for files other than images. Video? CSS?
+
+
+## Using Google Analytics
+
+Google Analytics is not enabled by default, but can be enabled by adding a file to `src/files/assets/` named `google-analytics-id` containing the Google Analytics tracking ID (like `UA-XXXXX-XX`) that should be used.
 
 
 ## Docpad Tips and Caveats

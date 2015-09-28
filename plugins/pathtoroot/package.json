@@ -1,13 +1,13 @@
 {
-    "name": "docpad-plugin-pathtoroot",
-    "version": "2.2.0",
-    "private": true,
-    "keywords": [
-        "docpad-plugin"
-    ],
-    "main": "./pathtoroot.plugin.coffee",
-    "engines": {
-      "node": ">=0.8",
-      "docpad": ">=6"
-    }
+  "name": "docpad-plugin-pathtoroot",
+  "version": "2.2.0",
+  "private": true,
+  "keywords": [
+      "docpad-plugin"
+  ],
+  "main": "./pathtoroot.plugin.js",
+  "engines": {
+    "node": ">=0.8",
+    "docpad": ">=6"
+  }
 }
