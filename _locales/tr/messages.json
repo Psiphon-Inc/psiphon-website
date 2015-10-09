@@ -220,8 +220,8 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-head": {
-        "message": "Depolama Uzak Erişim Günlüğü",
-        "description": "Sub-heading for section describing use of logging access to remote storage (aka S3 bucket logging)"
+        "message": "Storage Access Logging",
+        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
         "message": "Niçin tekrar tekrar \"bağlantı başarısız\" iletisini görüyorum?",
@@ -469,7 +469,7 @@
     },
     "psiphon": {
         "message": "Psiphon",
-        "description": ""
+        "description": "The name of the product. Probably not translated or transliterated for most languages"
     },
     "download-meta-title": {
         "message": "Android uygulaması ve Windows istemcisini indir",
@@ -1160,7 +1160,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Bu erişim günlükleri ayrıca Amazon S3 bucket'ta da saklanmakta olduğundan, Amazon günlüklere erişebilecektir. (Ancak amazon zaten S3 bucket içerisindeki dosyaları da sunduğundan, bu bilgilere zaten erişebilmektedirler.)",
+        "message": "The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon serves the files, so they can already access this information.)",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
@@ -1240,7 +1240,7 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket erişim günlükleri</a>, IP adresleri, kullanıcı yardımcıları ve zaman damgalarını içerir. Bu günlükler S3 üzerinde saklandığından, Amazon bu günlüklere erişebilir. (Zaten, Amazon dosyaları barındırdığından, bu bilgilere istedikleri zaman ulaşabilirler.) Psiphon geliştiricileri günlükleri indirecek, biriktirip veriyi analiz ettikten sonra silecekler. Ham veri sadece yeterince biriktirilinceye kadar saklanacak ve üçüncü partiler ile paylaşılmayacak.",
+        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already serves the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate it and will not be shared with third parties.",
         "description": ""
     },
     "download-description": {

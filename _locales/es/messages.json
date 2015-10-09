@@ -220,8 +220,8 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-head": {
-        "message": "Registro (log) del acceso remoto al almacenamiento",
-        "description": "Sub-heading for section describing use of logging access to remote storage (aka S3 bucket logging)"
+        "message": "Registro de acceso al almacenamiento",
+        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
         "message": "¿Por qué veo el mensaje \"la conexión falló\" repitiéndose una y otra vez?",
@@ -469,7 +469,7 @@
     },
     "psiphon": {
         "message": "Psiphon",
-        "description": ""
+        "description": "The name of the product. Probably not translated or transliterated for most languages"
     },
     "download-meta-title": {
         "message": "Descargar aplicación Android y cliente Windows",
@@ -1160,7 +1160,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Los registros (logs) de acceso también se almacenan en el bucket de Amazon S3, así que Amazon tendrá acceso a los registros. (Sin embargo, Amazon ya sirve los ficheros en el bucket S3 del sitio web, por lo que ya pueden acceder a esta información).",
+        "message": "Los registros de acceso también se almacenan en un 'bucket' (cubículo) de Amazon S3, así que Amazon tendrá acceso a los registros (no obstante, Amazon sirve los ficheros, así que ya podía acceder a la información).",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
@@ -1240,7 +1240,7 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "Los <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">registros de acceso al 'bucket'</a> (cubo) de 'S3' contienen direcciones IP, agentes del usuario, y marcas de tiempo. Estos registros (logs) se almacenan en el propio S3, así que Amazon tienen acceso a ellos (sin embargo, Amazon ya sirve los ficheros, por lo que ya puede acceder a esta información). Los desarrolladores de Psiphon descargarán los registros, agregarán y analizarán los datos, y borrarán los registros. Los datos en crudo sólo se mantendrán lo suficiente para agregarlos (calcular los datos agregados) y no se compartirán con terceros.",
+        "message": "Los <a href=\"https://docs.aws.amazon.com/es_es/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">registros de acceso al 'bucket'</a> (cubículo) de S3 contienen direcciones IP, agentes del usuario, y marcas de tiempo. Estos registros se almacenan en el propio S3, así que Amazon tiene acceso a ellos (no obstante, Amazon ya sirve los ficheros, así que podía acceder a esta información). Los desarrolladores de Psiphon, descargarán los registros, agregarán y analizarán los datos, y luego borrarán estos registros. Los datos en crudo se conservarán sólo lo suficiente para agregarlos, y no se compartirán con terceros.",
         "description": ""
     },
     "download-description": {
