@@ -1,4 +1,8 @@
 {
+    "index-hero-subtext": {
+        "message": "فراتر از مرزها",
+        "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
+    },
     "page-keyword-source-code": {
         "message": "کد منبع",
         "description": "web page meta keyword used for SEO"
@@ -12,7 +16,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "کمیسیون حریم خصوصی کانادا",
+        "message": "دفتر کمیساریای حفظ حریم خصوصی کانادا",
         "description": ""
     },
     "faq-vpn-protocol-question": {
@@ -36,12 +40,16 @@
         "description": ""
     },
     "user-guide-android-para-1": {
-        "message": "برای شروع مراحل نصب، بر روی لینک فایل بسته نرم افزاری سایفون در ایمیل یا مرورگر اندروید خود کلیک کنید . (اگر به اخطاری برخورد کردید، ممکن است نیاز باشد که  <a href=\"./faq.html#android-enable-sideloading\">ساید لودینگ را فعال کنید</a>.)",
+        "message": "از طریق کلاینت ایمیل اندروید یا مرورگر خود بر روی لینک APK سایفون کلیک کنید تا مراحل نصب آغاز شود. (اگر پیام اخطاری دریافت کردید، ممکن است مجبور شوید  <a href=\"./faq.html#android-enable-sideloading\">ساید لودینگ</a> را فعال کنید.)",
         "description": ""
     },
     "about-contact-head": {
         "message": "تماس با ما",
         "description": ""
+    },
+    "privacy-description": {
+        "message": "سیاست حفظ حریم خصوصی سایفون",
+        "description": "description for the Privacy Policy page"
     },
     "page-keyword-android": {
         "message": "اندروید",
@@ -50,6 +58,10 @@
     "contact-email-para": {
         "message": "شما می‌توانید با فرستادن ایمیل با سایفون تماس بگیرید:",
         "description": ""
+    },
+    "index-hero-alt": {
+        "message": "سایفون",
+        "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
     "faq-android-enable-sideloading-image-alt": {
         "message": "تصویری از روش فعال کردن ساید لودینگ",
@@ -71,8 +83,12 @@
         "message": "به همچنین ما میدانیم که بسیار مهم است که برای کاربران سخت کار کنیم تا تجربه بهتری از استفاده نرم افزار های ما ببرند. ما تمام سعی و تلاش خود را برای محافظت از کاربران و داده های آنها میکنیم. کاربران شاید تلاش ما برای این حفاظت اطلاعات آنها را هیچ وقت مشاهده نکنند, ولی ما میدانیم که آنها از تلاش های ما قدردانی میکنند.",
         "description": ""
     },
+    "privacy-information-collected-websites-google-analytics-para-2": {
+        "message": "گوگل آنالیتیک یک کوکی دائمی را بر روی مرورگر وب شما قرار می دهد تا بتواند شما را به عنوان یک کاربر یکسان در بازدیدهای بعدی شناسایی کند. اما این کوکی نمی تواند توسط هیچ کس به جز گوگل مورد استفاده قرار بگیرد و اطلاعات به دست آمده نمی تواند برای سرویس های دیگر بر روی دیگر دامنه ها مورد استفاده قرار بگیرد و یا مشابه سازی شود.",
+        "description": ""
+    },
     "open-source-description": {
-        "message": "سایفون نرم‌افزاری متن باز برای دور زدن سانسور اینترنتی است",
+        "message": "سایفون یک نرم افزار متن باز عبور از سانسور اینترنت است",
         "description": ""
     },
     "privacy-para-2": {
@@ -82,6 +98,10 @@
     "main-gets-you-there-safely-head-1": {
         "message": "و شما را صحیح و سالم به آنجا می‌رساند...",
         "description": ""
+    },
+    "privacy-title": {
+        "message": "حریم خصوصی",
+        "description": "page title for the Privacy Policy page"
     },
     "faq-information-collected-answer-para-12": {
         "message": "سرویس پاسخ خودکار ایمیل ما از سوی ابر EC2 آمازون میزبانی می شود. ما برای هر درخواست دو ایمیل ارسال می کنیم، و برای یکی از آن ها از SES آمازون استفاده می کنیم. این به معنی آن است که آمازون می تواند آدرس ایمیل شما و پاسخ ما را مشاهده کند.",
@@ -123,8 +143,8 @@
         "message": "چطور امکان \"ساید لودینگ\" اندروید را فعال کنم؟",
         "description": ""
     },
-    "faq-proxy-auth-question": {
-        "message": "چگونه می توانم سایفون را تنظیم کنم که از طریق پروکسی تایید شده ارتباط برقرار کند؟",
+    "privacy-information-collected-websites-google-analytics-para-1": {
+        "message": "ما از گوگل آنالیتیک به منظور جمع آوری اطلاعات مصرفی بر روی برخی از وب سایت هایمان استفاده می کنیم. اطلاعات به دست آمده از گوگل آنالیتیک تنها به منظور تحلیل آماری مرتبط با رفتار شما در همان سایت به خصوص استفاده می شود. این اطلاعات به دست آمده حاوی اطلاعات شناسایی فردی نیستند و با اطلاعات به دست آمده از هیچ منبع دیگری که فرد را قابل شناسایی کند ادغام نمی شوند.",
         "description": ""
     },
     "faq-port-restrictions-question": {
@@ -132,7 +152,7 @@
         "description": ""
     },
     "faq-ssh-plus-question": {
-        "message": "اس اس اچ پلاس چیست؟",
+        "message": "می خواهید چه پروتکلی به طور پیش فرض برای تونل سایفون استفاده کنید؟",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
@@ -159,12 +179,16 @@
         "message": "من می توانم به سایفون ۳  برای ویندوز در حالت وی پی ان متصل شوم، اما چرا ارتباط خیلی کند است؟ گاهی اوقات، صفحات وب اصلاً باز نمی شوند.",
         "description": ""
     },
+    "privacy-meta-title": {
+        "message": "حریم خصوصی",
+        "description": "meta title for the Privacy Policy page"
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "برای چه مدت داده ها نگهداری می شوند",
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "بعضی از سخت افزارهای شبکه یا اتصالاتت اینترنت ممکن موجب بروز مشکلات کارآیی برای  L2TP/IPSec که پروتوکول استفاده شده توسط سایفون ۳ در حالت وی پی ان  شود. بجای آن از حالت اس اس اچ استفاده کنید.",
+        "message": "برخی از سخت افزارهای شبکه و یا ارتباطات اینترنت مشکلاتی را برای L2TP/IPSec که پروتکل های مورد استفاده در حالت وی پی ان سایفون است به وجود می آورد. حالت وی پی ان را غیر فعال کرده و مجددا تلاش کنید.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -183,13 +207,21 @@
         "message": "اعلانات سایفون",
         "description": "text for link to the Psiphon Announcements mailing list"
     },
+    "privacy-bulletin-entry-2-what-doing": {
+        "message": "ما در حال به روز رسانی <a href=\"privacy.html\">سیاست های حفظ حریم خصوصی</a> هستیم. این مساله شامل تغییر در سوال \"سایفون چه اطلاعاتی را جمع آوری می کند؟\" در بخش سوالات متداول نیز می شود.",
+        "description": ""
+    },
     "about-description": {
-        "message": "با تیم تولید‌کننده‌ی نرم‌افزار دور زدن سانسور اینترنتی سایفون آشنا شوید",
+        "message": "با تیمی که نرم افزار عبور از فیلتر سایفون را طراحی کرده اند، دیدار کنید",
         "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
         "message": "نسخه سیستم عامل",
         "description": ""
+    },
+    "privacy-information-collected-s3-logging-head": {
+        "message": "سیاهه برداری از دسترسی به ذخیره سازی ها",
+        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
         "message": "چرا پیغام \" خطا در برقراری ارتباط \" را مرتباً دریافت می‌کنم؟",
@@ -216,7 +248,7 @@
         "description": "Page title for the Sponsorship page"
     },
     "about-who-we-are-partners-para-1": {
-        "message": "سایفون از نزدیک با گروه‌های مختلفی کار می‌کند که به کسانی که در هر کجا از سایفون استفاده می‌کنند پشتیبانی و مشاوره ارائه می‌کنند. ما  نرم‌افزار وب پروکسی‌مان را به ۱۵ زبان ترجمه کرده‌ایم، و از طریق <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\"> ترانسیفکس</a> و به عنوان بخشی از مرکز \"صندوق تکنولوژی‌های باز\"، در حال اضافه کردن زبان‌های بیشتری به محصولات ویندوز و موبایل‌مان هستیم.",
+        "message": "سایفون از نزدیک با گروه های مختلفی به منظور دریافت پشتیبانی و همین طور توصیه به کاربران برای استفاده دائمی از سایفون همکاری می کند. ما تا کنون سایفون را به 15 زبان ترجمه کرده ایم و ترجمه های بیشتری از طریق  <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">ترنزیفکس</a> به عنوان بخشی از فعالیت های سیتیزن لب در راه است. ",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
@@ -227,6 +259,10 @@
         "message": "برای مجوزهایی که از 2014-05-08 تا2017-09-06 مجاز هستند اثر انگشت SHA1  عبارت است از:",
         "description": ""
     },
+    "faq-information-collected-answer-redirect": {
+        "message": "لطفا به منظور مشاهده اطلاعاتی که ما جمع آوری می کنیم، صفحه <a href=\"privacy.html\">سیاست های حفظ حریم خصوصی</a> را مشاهده کنید.",
+        "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
+    },
     "donate-heading": {
         "message": "کمک به سایفون",
         "description": "The heading of the page section that shows the donation buttons"
@@ -236,12 +272,16 @@
         "description": "meta title for the user guide page"
     },
     "faq-autoproxy-answer-para-1": {
-        "message": "روی کلید \"اجرا\" (run ) کلیک کنید و کلمه  Regedit را تایپ کنید تا یک ادیتور رجیستری باز شود.  \"HKEY_CURRENT_USER\\Software\\Psiphon3\" را پیدا و سپس باز کنید، و در سمت راست  \"UserSkipProxySettings\" را مشاهده می کنید.  ارزش آنرا ۱ قرار دهید و سایفون ۳ دیگر بطور اتوماتیک نمی تواند تنظیمات پراکسی را انجام دهد.",
+        "message": "بر روی Run کلیک کرده و <code>regedit</code> را تایپ کنید تا به رجیستری بروید.  <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> را یافته و باز کنید، سپس در سمت راست <code>SkipProxySettings</code> را خواهید دید. مقدار این بخش را <code>1</code> بگذارید. سایفون دیگر به صورت خودکار تنظیمات پروکسی سیستم تان را تغییر نخواهد داد. ",
         "description": ""
     },
     "user-guide-android-head": {
         "message": "سایفون برای اندروید",
         "description": "heading for the Android section of the User Guide"
+    },
+    "privacy-bulletin-entry-2-title": {
+        "message": "2015-06-01: بروز رسانی سیاست حفظ حریم خصوصی",
+        "description": ""
     },
     "index-description": {
         "message": "سایفون نرم‌افزاری برای دور زدن سانسور (تحت سیستم عامل‌های ویندوز و موبایل) که دسترسی آزاد و بدون محدودیت به محتوای اینترنت را فراهم می‌کند",
@@ -251,8 +291,8 @@
         "message": "سوال های متداول ",
         "description": "title for the FAQ page"
     },
-    "faq-proxy-auth-answer-para-1": {
-        "message": "برخی از ارتباطات LAn برای اتصال به اینترنت از طریق پروکسی نیاز به تاییدیه دارند(مانند اسکوید). سایفون در ویندوز می تواند با ایجاد تغییراتی در رجیستری، برای اتصال از طریق چنین پروکسی هایی تنظیم شود:",
+    "privacy-information-collected-s3-logging-para-1": {
+        "message": "ما از آمازون S3 به منظور ذخیره برخی از موارد مانند فایل های وب سایت ها و لیست کاشف سرور سایفون استفاده می کنیم و گاهی سیاهه برداری از دانلود این فایل ها را فعال می سازیم. تحلیل این سیاهه ها به ما کمک می کند که به سوالاتی مانند \"چه تعداد کاربر دانلود لیست کاشف را آغاز کرده اند، اما به پایان نبرده اند؟\"، \"دانلود داده ها چطور بین بخش های وب سایت و سرور کاشف تقسیم شده است؟\"، و \"آیا یک مهاجم سعی دارد حمله محروم سازی از سرویس علیه وب سایت های ما انجام دهد؟\" پاسخ دهیم.",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
@@ -264,7 +304,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-4": {
-        "message": "رویدادهای وارد شده شامل برچسب زمان، کدهای منطقه ای  (کد کشور GeoIP)   و صفات ناشناس شامل کد ضامن ( که با هر کلاینت سایفون مشخص می گردد) ، نسخه کلاینت، و نوع پروتوکول می باشد. بازدیدهای صفحات بر مبنای زمان و /یا جلسه قبل از وارد شدن جمع آوری می گردند.",
+        "message": "سیاهه وقایع شامل مختصات زمانی، کد منطقه ای (کشور و شهر) و اطلاعات غیرقابل شناسایی مانند کد شناسایی اسپانسر (که مشخص می کند از کدام نسخه کلاینت سایفون استفاده شده)، نسخه کلاینت و نوع پروتکل است. صفحات مشاهده شده پیش از ثبت در سیاهه، به ترتیب زمانی و یا فصلی جمع آوری می شوند.",
         "description": ""
     },
     "page-keyword-blog": {
@@ -283,8 +323,8 @@
         "message": "ویندوز:",
         "description": ""
     },
-    "privacy-para-4": {
-        "message": "<a href=\"./faq.html#information-collected\">از بخش سوالات متداول دیدن کنید</a> برای اطلاع از داده هایی که جمع آوری می کنیم می توانید از <a href=\"./privacy-bulletin.html\">بولتن حفظ حریم خصوصی کاربران</a> برای جمع آوری مقطعی اطلاعات بازدید کنید.",
+    "privacy-bulletin-entry-2-when-doing": {
+        "message": "این تغییرات از 2015-06-01T00:00Z موثر هستند.",
         "description": ""
     },
     "alert-body": {
@@ -300,7 +340,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "فقط در حالت وی پی ان پراکسی می شوند. بعد از برقراری ارتباط موفق در حالت وی پی ان همه ترافیک کامپیوتر شما ازطریق شبکه سایفون ٣ عبور می‌کند. در حالت اس اس اچ  فقط برنامه هایی که از آدرس محلی پراکسی های اچ تی تی پی و ساکس استفاده می کنند از طریق سایفون پراکسی می‌شوند.",
+        "message": "فقط در حالت وی پی ان. بعد از این که در حالت وی پی ان، ارتباط برقرار شود، کل ترافیک کامپیوتر از شبکه سایفون عبور خواهد کرد. زمانی که حالت وی پی ان فعال نباشد، تنها نرم افزارهایی که از local HTTP و پراکسی SOCKS استفاده می کنند، پراکسی خواهند شد.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-8": {
@@ -344,7 +384,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "برای اجرای سایفون در حالت تونل تمام گوشی، شما باید اندورید ٤.٠ با بالا یا گوشی روت شده داشته باشید.<br><br> این گزینه برای گوشی های روت نشده و نسخه‌های اندروید قدیمی امکان پذیر نیست. ",
+        "message": "برای اجرای سایفون در حالت تونل کردن کل دستگاه، باید از یک دستگاه روت شده و یا اندروید نسخه 4.0 به بعد استفاده شود. <br><br> این امکان برای دستگاه های اندرویدی روت نشده با نسخه های قدیمی تر اندروید در دسترس نیست.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "faq-isp-traffic-answer-para-1": {
@@ -352,7 +392,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "هرچند، توجه داشته باشید که سایفون در اصل به عنوان برنامه ای برای عبور از فیلتر طراحی شده است و نه برنامه ای برای مقابله با نظارت. سایفون مرورگر شما را از ذخیره تاریخچه و کوکی ها بر روی کامپیوترتان منع نمی کند. و در برخی موارد ممکن است ترافیک اینترنت شما از طریق تونل سایفون در حالت های SSH یا SSH+ منتقل نشود، به عنوان مثال اگر تنظیمات پراکسی مرورگرتان درست انجام نگرفته باشد و یا اگر مرورگرتان را پس از بستن سایفون باز نگاه دارید ممکن است با این مشکل مواجه شوید.",
+        "message": "هرچند باید این نکته را در ذهن داشته باشید که سایفون به هدف دور زدن سانسور طراحی شده است و نه به عنوان ابزاری برای عدم رهگیری در اینترنت. سایفون از جمع آوری تاریخچه و کوکی ها توسط مرورگر بر روی کامپیوتر کاربر جلوگیری نمی کند. و همین طور در برخی موارد و بعضی تنظیمات، ممکن است کل ترافیک توسط سایفون تونل نشود. از این دست مشکلات می توان به تنظیمات اشتباه پروکسی و یا باز گذاردن مرورگر پس از بستن سایفون اشاره کرد. ",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
@@ -387,20 +427,12 @@
         "message": "گروه کاربران سایفون",
         "description": "text for link to the Psiphon Users mailing list"
     },
-    "faq-information-collected-answer-para-3": {
-        "message": "IP آدرس کاربران و ایمیل‌های آنها هرگز جمع آوری نمی‌شوند. کاربران نیازی به ساختن شناسه کاربری برای استغاده از سیستم ندارند",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-answer-para-1": {
-        "message": "اچ تی تی پی پراکسی محلی اجرا نشد. امکان دارد که یک فرایند دیگرکه از پورت پیش فرض استفاده می‌کند در حال اجرا باشد. سعی کنید از یک پورت دیگر استفاده کنید. سوال \"آیا میتونم پراکسی اچ تی تی پی محلی را روی یک پورت غیر از 8080 اجرا کنم\"؟  ",
-        "description": ""
-    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "بیانیه محدودیت‌های مسئولیت",
         "description": ""
     },
     "faq-information-collected-answer-para-10": {
-        "message": "توجه داشته باشید که اگر برنامه سایفون را از یک \"اپ استور\" -- مانند گوگل پلی یا اپ استور آمازون -- دریافت کنید، آن سایت ممکن است اطلاعات اضافی در رابطه با شما جمع آوری کند. به عنوان مثال، در ادامه توضیح مواردی آورده شده است که گوگل پلی جمع آوری می کند:",
+        "message": "توجه داشته باشید که اگر سایفون را از یک اپ استور مانند گوگل پلی و یا اپ استور آمازون دانلود کنید، ممکن است اطلاعات آماری دیگری نیز توسط آن اپ استور از شما جمع آوری شود. به طور مثال، در ادامه مواردی که فروشگاه گوگل پلی جمع آوری می کند آورده شده است:",
         "description": ""
     },
     "faq-nav-title": {
@@ -416,7 +448,7 @@
         "description": ""
     },
     "faq-browser-compatibility-question": {
-        "message": "آیا سایفون برای ویندوز با مرورگرهای اینترنت اکسپلورر، فایرفاکس، سافاری وگوگل کروم سازگار است؟",
+        "message": "آیا سایفون در ویندوز با مرورگرهای اینترنت اکسپلورر و کروم سازگار است؟",
         "description": ""
     },
     "page-keyword-landing-page": {
@@ -437,7 +469,7 @@
     },
     "psiphon": {
         "message": "سایفون",
-        "description": ""
+        "description": "The name of the product. Probably not translated or transliterated for most languages"
     },
     "download-meta-title": {
         "message": "دانلود برنامه اندروید و ویندوز",
@@ -467,24 +499,12 @@
         "message": "برای گواهینامه هایی که از تاریخ 2012-05-21 تا 2014-07-30 مجاز هستند اثر انگشت SHA1 عبارت است از:",
         "description": ""
     },
-    "index-title": {
-        "message": "به اینترنت جدید خود خوش آمدید",
-        "description": "Page title for the index page"
-    },
     "faq-meta-title": {
         "message": "سوال های متداول ",
         "description": "meta title for the FAQ page"
     },
-    "about-privacy-head": {
-        "message": "حریم خصوصی",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-question": {
-        "message": "در حالت اس اس اچ برای سایفون ٣ روی ویندوز ، پیغام خطای \" خطا در برقراری ارتباط با Polipo\" را مشاهده می‌کنم. چه کار باید بکنم؟",
-        "description": ""
-    },
     "faq-ssh-plus-answer-para-1": {
-        "message": "اس اس اچ + (مبهم) با اضافه کردن یک لایه مبهم بالای اتصال اس اس اچ در مقابل  انگشت نگاری پروتکل دفاع می کند. حالت شرح پروتوکول را می توانید از این طریق جستجو کنید. <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">اینجا</a>.",
+        "message": "سایفون از SSH به همراه یک لایه مبهم اضافی بر روی هندشیک SSH به منظور محافظت علیه اثر انگشت پروتکل استفاده می کند. در <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">اینجا</a> توضیحاتی درباره این پروتکل را می توانید بیابید.",
         "description": ""
     },
     "license-title": {
@@ -516,7 +536,7 @@
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "چگونه می توانم برنامه‌های که برای استفاده از سایفون 3 در حالت اس‌اس‌اچ مورد استفاده قرار می‌گیرند را تنظیم کنم؟",
+        "message": "چطور می توانم برنامه ها را برای استفاده از تونل سایفون تنظیم کنم؟",
         "description": ""
     },
     "page-keyword-circumvention": {
@@ -525,6 +545,10 @@
     },
     "open-source-meta-title": {
         "message": "متن باز",
+        "description": ""
+    },
+    "privacy-bulletin-entry-2-why-doing": {
+        "message": "در حال حاضر صفحه <a href=\"privacy.html\">سیاست های حفظ حریم خصوصی</a> تنها مرجع کاربران است که در آن می توانند سیاست های جمع آوری داده و حریم خصوصی سایفون را بررسی کنند. این صفحه به منظور بازتاب نحوه استفاده از تبلیغات، آمارها و سیاهه ها بر روی سایت به روز رسانی شده است.",
         "description": ""
     },
     "license-para-1": {
@@ -584,7 +608,7 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "گوشی روت شده یا نه ",
+        "message": "این که آیا دستگاه شما روت شده است",
         "description": ""
     },
     "sponsor-para-2": {
@@ -628,7 +652,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "هم چنین راه های پیشرفته تکنیکی وجود دارد که می تواند با نگاه به ترافیک رمزنگاری شده، اطلاعاتی مانند سایتی که از آن بازدید می کنید را در یابد. نمونه اولیه آن defense-website-traffic-fingerprinting\" target=\"_blank\">اثر انگشت ترافیک</a>\"است.",
+        "message": "تکنیک های پیشرفته ای نیز وجود دارد که می تواند با مرور ترافیک رمزنگاری شده بخش هایی از آن را بخواند که از آن جمله می توان به وب سایت های بازدیدی اشاره کرد. مهم ترین مثال این مورد، <a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">انگشت نگاری از ترافیک</a> است.",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -681,7 +705,7 @@
     },
     "user-guide-android-ui-status-image-annotation-4": {
         "message": "<span style=\"color:grey\">طوسی</span>: connecting<br><span style=\"color:red\">قرمز</span>وصل نیست:<br><span style=\"color:Blue\">آبی</span>وصل است:",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
+        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
     },
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "چرا این کار را انجام می دهیم",
@@ -715,10 +739,6 @@
         "message": "کمک مالی",
         "description": "web page meta keyword used for SEO"
     },
-    "faq-proxy-auth-answer-step-4": {
-        "message": "<code>UserSkipSSHParentProxySettings</code> را بر روی<code>0</code> تنظیم کن.",
-        "description": ""
-    },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "برای نصب مستقیم سایفون در اندروید، شما باید \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">ساید لودینگ</a>\" را فعال کنید. برای این کار، به تنظیمات دستگاه اندرویدی خود بروید، و در بخش امنیت، منابع ناشناس را فعال کنید.",
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
@@ -737,6 +757,10 @@
     },
     "faq-authentic-windows-answer-para-4": {
         "message": "سایفون ۳ برای ویندوز خودش را بصورت اتوماتیک بروز رسانی می‌کند و این عملیات بطور خودکار اعتبار هر بروزرسانی را کنترل می‌کند.",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-3b": {
+        "message": "در وضعیت استفاده عمومی از سایفون، آدرس IP کاربران بر روی سرورهای سایفون ذخیره نمی شوند. سایفون به صورت پیش فرض از کاربران نام حساب کاربری نمی خواهد بنابراین هیچ اطلاعاتی مانند آدرس ایمیل ها، نام های کاربری و رمزهای عبور ذخیره نخواهند شد.",
         "description": ""
     },
     "page-keyword-help": {
@@ -772,7 +796,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "از سال ٢٠٠٨، سایفون به میلیون‌ها کاربر در سراسر دنیا و درکشور‌های اینترنت محدود کمک کرده است که به اطلاعات سانسور شده دسترسی پیدا کنند. حالا، سایفون می‌تواند همین کار را برای شما انجام دهد.   ",
+        "message": "از سال 2008، سایفون به میلیون ها نفر در کشورهایی با محدودیت آزادی در سراسر جهان کمک کرده است که به ایده ها و اطلاعات سانسور نشده دسترسی یابند. حال سایفون می تواند همین کار را برای شما نیز انجام دهد. ",
         "description": ""
     },
     "about-title": {
@@ -781,10 +805,6 @@
     },
     "faq-information-collected-answer-para-8-item-1": {
         "message": "نسخه اندورید ",
-        "description": ""
-    },
-    "faq-proxy-auth-question-toc": {
-        "message": "چگونه می توانم سایفون را تنظیم کنم که از طریق پروکسی تایید شده ارتباط برقرار کند؟",
         "description": ""
     },
     "privacy-bulletin-entry-1-how-many-users": {
@@ -812,7 +832,7 @@
         "description": "Meta title for the index page"
     },
     "faq-information-collected-answer-para-8-item-2": {
-        "message": "مدل گوشی",
+        "message": "مدل دستگاه",
         "description": ""
     },
     "page-keyword-play-store": {
@@ -872,20 +892,16 @@
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "دفتر کمیسر حریم خصوصی انتاریو",
+        "message": "اداره کمیساریای اطلاعات و حریم خصوصی آنتاریو",
         "description": ""
     },
     "about-who-we-are-ops-head": {
         "message": "عملیات و روابط عمومی",
         "description": ""
     },
-    "faq-proxy-auth-answer-para-3": {
-        "message": "متاسفانه، در حال حاضر در سایفون بر روی اندروید از اچ تی تی پی پروکسی تایید شده پشتیبانی نمی کنیم.",
-        "description": ""
-    },
     "faq-information-collected-answer-head-4": {
         "message": "آپ استور ",
-        "description": "this is referring to the general idea of app stores, like Google Play, Amazon AppStore, Apple App Store"
+        "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "چیزی که ما در حال انجام آن هستیم",
@@ -904,8 +920,8 @@
         "description": ""
     },
     "open-source-para-1": {
-        "message": "سایفون ۳ یک پروژه متن باز یا اپن سورس می‌باشد. کد منبع و اسناد طراحی را می‌توانید ازاین طریق پیدا کنید.\n <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">\nصفحه اصلی پروژه\n</a>",
-        "description": ""
+        "message": "سایفون یک پروژه متن باز است. می توانید کد منبع و مستندسازی طراحی ما را در بیت باکت و صفحه گت هاب پروژه مشاهده کنید.",
+        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
     },
     "main-gets-you-where-you-want-head-2": {
         "message": "آیا کشور، شرکت یا دانشگاه اینترنت شما را سانسور می‌کند؟",
@@ -920,7 +936,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
-        "message": "سرور پست الکترونیکی که ایمیل درخواست از آن آمده است. (به خصوص سه بخش اصلی نام دامنه. به عنوان مثال <code>ne1.example.com</code>, و نه <code>web120113.mail.ne1.example.com</code>.)",
+        "message": "سرور پست الکترونیکی که درخواست های ایمیل از آن می آمد. (سه بخش انتهایی اصلی از یک نام دامنه، به عنوان مثال <code>ne1.example.com</code> و نه <code>web120113.mail.ne1.example.com</code>.",
         "description": ""
     },
     "page-keyword-manual": {
@@ -931,9 +947,9 @@
         "message": "داده ها بیش از یک هفته نگهداری نمی شوند. ما گزارش تعداد کاربران را برای مدت طولانی تری نگهداری می کنیم -- احتمالا تا همیشه.",
         "description": ""
     },
-    "faq-polipo-different-port-answer-para-1": {
-        "message": "پ: بله، روی ویندوز. روی کلید \"اجرا\" (run ) کلیک کنید و کلمه  Regedit را تایپ کنید تا یک ادیتور رجیستری باز شود.  \"HKEY_CURRENT_USER\\Software\\Psiphon3\" را پیدا و سپس باز کنید، و در سمت راست \"UserLocalHTTPProxyPort\" را مشاهده می کنید. عدد پورت مورد نظر را به صورت دسیمال در آن قسمت وارد کنید.",
-        "description": ""
+    "privacy-information-collected-websites-head": {
+        "message": "وب سایت",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
         "message": "اطلاعات سایت بر اساس مجوز زیر فعالیت می کنند",
@@ -976,7 +992,7 @@
         "description": ""
     },
     "faq-browser-compatibility-answer-para-1": {
-        "message": "بله، در حالت اس‌اس‌اچ باید تنظیمات مرورگر خود را بررسی کنید تا مطمئن شوید مرورگر شما طوری  تنظیم شده است که از پراکسی سیستم استفاده کند.",
+        "message": "بله. تنظیمات مرورگر خود را بررسی کنید و مطمئن شوید که از تنظیمات پراکسی سیستم استفاده کند.",
         "description": ""
     },
     "faq-information-collected-answer-para-8-list-start": {
@@ -1025,7 +1041,7 @@
     },
     "download-store-head": {
         "message": "دانلودهای آپ استور ",
-        "description": "This refers to Google Play, Amazon's AppStore, and any similar app stores"
+        "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
     },
     "sponsor-meta-title": {
         "message": "حمایت مالی، تبلیغات، و کمک‌های مالی",
@@ -1033,10 +1049,6 @@
     },
     "faq-check-version-question": {
         "message": "چگونه نسخه سایفون ۳ کنونی خود را چک کنم؟",
-        "description": ""
-    },
-    "faq-proxy-auth-answer-step-1": {
-        "message": "<code>regedit.exe</code> اجرا کن.",
         "description": ""
     },
     "site-title": {
@@ -1052,7 +1064,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "سایفون ۳ بطور اتوماتیک سیستم شما را برای استفاده از پراکسی محلی  HTTP/HTTPS به آدرس زیر را تنظیم می کند: \n127.0.0.1:8080\nو یک پراکسی محلی SOCKS  به آدرس زیر\n127.0.0.1:1080\nبرنامه های ویندوز که برای تنظیمات پراکسی سیستم استفاده می‌شوند بطور اتوماتیک پراکسی می‌شوند.\nشما می‌توانید بصورت دستی برنامه های دیگری را برای استفاده از این پراکسی های محلی تنظیم کنید.\n سایفون ۳ برای ویندوز و سایفون ۳ برای اندروید  در حالت SSH این پراکسی های محلی را اجرا می کنند. ",
+        "message": "سایفون به شکل خودکار سیستم تان را برای استفاده از یک پروکسی محلی HTTP/HTTPS و پروکسی SOCKS محلی تنظیم می کند. اگر در تنظیمات سایفون، پورت خاصی در نظر گرفته نشده باشد، شماره پورت به طور شانسی انتخاب می شود. نرم افزارهایی که به طور خودکار از تنظیمات پروکسی ویندوز استفاده می کنند، پروکسی خواهند شد. شاید نیاز داشته باشید که برای برخی از نرم افزارها این تنظیمات را به صورت دستی انجام دهید. هر دو نسخه سایفون - ویندوز و اندروید - از این تنظیمات محلی پروکسی استفاده می کنند. ",
         "description": ""
     },
     "faq-vpn-protocol-answer-para-1": {
@@ -1075,12 +1087,16 @@
         "message": "من از افزونه پراکسی خودکار فایرفاکس استفاده می‌کنم <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. چگونه می توانم از تنظیم پراکسی سیستم خود توسط سایفون 3 برای ویندوز جکوگیری کنم؟",
         "description": ""
     },
+    "privacy-information-collected-websites-google-analytics-para-3": {
+        "message": "توانایی گوگل برای  استفاده و به اشتراک گذاری اطلاعات جمع آوری شده توسط گوگل آنالیتیک به <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">شرایط استفاده از گوگل آنالیتیک</a> و <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">سیاست های حفظ حریم خصوصی گوگل</a> محدود می شود. شما می توانید با خاموش کردن کوکی ها در بخش تنظیمات مرورگرتان این مساله را کنترل کنید.",
+        "description": ""
+    },
     "faq-isp-traffic-question-toc": {
         "message": "آیا سرویس دهنده اینترنت امکان رصد فعالیت های من را در زمان استفاده از سایفون دارد؟",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "سایفون ۳  ترافیک دی ان اس را به سرویس های مشخص دی ان اس که در لیست سفید قرار دارند محدود می کند. کلاینت سایفون ۳ بطور اتوماتیک تنظیمات دی ان اس سرور وی پی ان  شما را انجام می‌دهد. گر شما پیغام خطا مرتبط با دی ان اس دریافت می کنید، باید چک کنید که  DNS Changer malware به شما سرایت نکرده باشد ،چراکه آن سبب تغییر در تنظیمات سرور دی ان اس شما می شود. برای اطلاعات بیشتر می توانید به لینک زیر مراجعه کنید:\nhttp://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40",
+        "message": "سایفون ترافیک دی ان اس را به یک لیست سفید از سرورهای دی ان اس تایید شده محدود می کند. کلاینت سایفون به شکل خودکار تنظیمات سرور دی ان اس VPN را انجام می دهد. اگر پیام های خطایی درباره دی ان اس دریافت می کنید، مطمئن شوید که به بدافزار \"DNS Changer\" آلوده نشده باشید، چرا که این بدافزار تلاش می کند تنظیمات دی ان اس شما را تغییر دهد. در <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">اینجا</a> می توانید به اطلاعات بیشتری دسترسی داشته باشید.",
         "description": ""
     },
     "about-get-latest-info-head": {
@@ -1107,10 +1123,6 @@
         "message": "کارل کاتوریا مدیر بخش بازرگانی است که به تازگی از لندن به تیم در تورنتو پیوسته است. او مسئول مدیریت روابط کاری با شرکای رسانه‌ای و پخش‌کنندۀ ما بوده و به دنبال پیدا کردن فرصت‌های جدید برای فعالیتهای شرکت است.",
         "description": ""
     },
-    "faq-polipo-different-port-question": {
-        "message": "آیا می‌توانم  پراکسی محلی اچ تی تی پی را روی پورت دیگری غیر از 8080 اجرا کنم؟",
-        "description": ""
-    },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "تعداد بروزرسانی‌ها",
         "description": ""
@@ -1124,7 +1136,7 @@
         "description": ""
     },
     "user-guide-windows-para-4": {
-        "message": "در حالت اس اس اچ و اس اس اچ +(مبهم) سایفون ۳ بطور اتوماتیک مشخصه های پراکسی سییستم ویندوز را جایگذاری می کنند و ترافیک برای برنامه هایی که از این مشخصه ها پیروی می کنند را ازطریق این کانال ارتباطی عبور می دهد. \nاین مشخصه ها بصورت پیش فرض توسط همه مرورگر های اینترنت شناخته می شوند.",
+        "message": "در حالت SSH و SSH+، سایفون به طور خودکار تنظیمات پروکسی ویندوز را انجام می دهد، بنابراین ترافیک شبکه نرم افزارهایی که از این تنظیمات استفاده می کنند، از طریق سایفون تونل خواهد شد. این تنظیمات عموما توسط بیشتر مرورگرهای اصلی مورد استفاده قرار می گیرند. ",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1148,11 +1160,11 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "\nگزارش دسترسی ها در سطل S3 آمازون هم ذخیره می شود، بنابراین، آمازون به این گزارش ها دسترسی دارد. (هرچند باید گفت که آمازون فایل های موجود در سطل S3 آمازون را فراهم می کند، بنابراین خواه نا خواه به این اطلاعات دسترسی دارد.)",
+        "message": "سیاهه دسترسی ها در یک سطل S3 آمازون نیز ذخیره می شوند، بنابراین آمازون می تواند به سیاهه ها دسترسی داشته باشد. (یا به عبارت دیگر، آمازون میزبان فایل ها است، پس می تواند محتویات آن ها را نیز بخواند.)",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "وقتی سایفون شروع به کار می‌کند، در خط اول برنامه می‌توانید نسخه سایفون خود را مشاهده کنید.",
+        "message": "زمانی که سایفون باز شود، نسخه کلاینت را در اولین خط سیاهه خروجی نشان می دهد.",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-2": {
@@ -1191,6 +1203,10 @@
         "message": "بستن پنجره کنونی",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
     },
+    "privacy-nav-title": {
+        "message": "حریم خصوصی",
+        "description": "text for the Privacy Policy page navigation item"
+    },
     "sponsor-para-3": {
         "message": "برای اطلاعات بیشتر به آدرس <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a> ایمیل بزنید. ",
         "description": ""
@@ -1200,7 +1216,7 @@
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "در حالت اس اس اچ و اس اس اچ +(مبهم), سایفون امکان تونل دوگانه را فراهم میکند که ترافیک خارجی از طریق پراکسی تونل میشود و ترافیک داخلی پراکسی نمیشود. برای فعال کردن این امکان گزینه \"پراکسی نکن\" را انتخاب کنید. ولی در نظر داشته باشید که در این حالت, دسترسی شما به وبسایت های سانسور شده داخلی امکان پذیر نخواهد بود. وقتی این امکان فعال است, دامنه وبسایت های پراکسی نشده در قسمت پیغام ها نمایان خواهند شد.   ",
+        "message": "علاوه بر این، در حالت SSH و SSH+، سایفون امکان تقسیم تونل را فراهم می کند. در این حالت، ترافیک بین المللی تونل شده و ترافیک درون کشوری تونل نمی شود. به منظور فعال کردن این امکان، گزینه \"ترافیک داخلی را پراکسی نکن\" را فعال کنید. زمانی که این امکان فعال باشد، دامنه های پراکسی نشده در بخش پیام ها گزارش می شوند.",
         "description": ""
     },
     "license-distribution-para": {
@@ -1223,17 +1239,17 @@
         "message": "شما باید ابتدا <a href=\"./faq.html#authentic-android\"> تایید کنید که نسخه سایفون شما معتبر است</a>.",
         "description": ""
     },
-    "faq-proxy-auth-answer-step-2": {
-        "message": "به <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> برو.",
+    "privacy-information-collected-s3-logging-para-2": {
+        "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">صندوق سیاهه های دسترسی</a> S3 شامل آدرس های IP، عوامل کاربری و زمان بندی هاست. این سیاهه ها خود به خود بر روی S3 ذخیره می شوند، بنابراین آمازون به آن ها دسترسی دارد. (هرچند که آمازون به دلیل فراهم کردن این فایل ها، به آن ها از ابتدا دسترسی دارد.) توسعه دهندگان سایفون سیاهه ها را دانلود می کنند، داده ها را تحلیل کرده و سپس سیاهه ها را پاک می کنند. داده های خام تنها تا زمان کافی برای جمع آوری آن ها نگهداری می شوند و با هیچ گروه سوم شخصی به اشتراک گذاشته نخواهند شد.",
         "description": ""
     },
     "download-description": {
         "message": "دانلود رایگان ومستقیم سایفون برای ویندوز و اندروید  ",
         "description": "title for the download page"
     },
-    "faq-proxy-auth-answer-step-3": {
-        "message": "این مقدارها را تغییر دهید:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (فراموش نکنید که شماره پورت را وارد کنید <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
-        "description": ""
+    "privacy-information-collected-websites-google-analytics-head": {
+        "message": "گوگل آنالیز",
+        "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
     },
     "download-direct-head": {
         "message": "دانلود های مستقیم ",
@@ -1252,7 +1268,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-1": {
-        "message": "ما اطلاعات زیر را برای ارزیابی چگونگی عملکرد سایفون جمع آوری می کنیم. اینکه چه سایتهای محبوبیت بیشتری دارند و چه استراتژیهای تبلیغاتی کارایی بهتری دارند.این اطلاعات با شرکای ما به اشتراک گذاشته می شوند و آنها برای نمونه می دانند سایتشان توسط سایفون چه میزان بازدید کننده داشته  و انها از چه کشوری بوده اند.",
+        "message": "ما این اطلاعات را جمع آوری می کنیم تا متوجه شویم که سایفون چطور کار می کند، سایت های محبوب کدامند و چه استراتژی های انتشاری موثر هستند. ما این داده ها را با شرکای خود به اشتراک می گذاریم تا به طور مثال متوجه شوند که هر از چندگاه از طریق سایفون سایت آن ها دیده شده است و این بازدیدها از چه کشورهایی بوده. ",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-4": {
@@ -1260,7 +1276,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
     },
     "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "لاگ‌های سایفون",
+        "message": "سیاهه فعالیت های سایفون",
         "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     }
 }

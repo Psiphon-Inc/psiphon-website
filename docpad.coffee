@@ -57,7 +57,7 @@ docpadConfig = {
 
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
-    languages: ['en', 'fa', 'ar', 'zh', 'az', 'de', 'el', 'es', 'fr', 'kk', 'ko', 'nb', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'ug@Latn', 'uz@cyrillic', 'uz@Latn', 'vi']
+    languages: ['en', 'fa', 'ar', 'zh', 'az', 'de', 'el', 'es', 'fr', 'kk', 'ko', 'hr', 'nb', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'ug@Latn', 'uz@cyrillic', 'uz@Latn', 'vi']
 
     # Translation file location.
     translation_files:
@@ -83,6 +83,7 @@ docpadConfig = {
       fi: './_locales/fi/messages.json'
       ko: './_locales/ko/messages.json'
       pt_PT: './_locales/pt_PT/messages.json'
+      hr: './_locales/hr/messages.json'
 
     # Translations will be loaded into this object.
     translations: {}
@@ -163,7 +164,6 @@ docpadConfig = {
       android: '/PsiphonAndroid.apk'
       email: 'get@psiphon3.com'
       playstore: 'https://play.google.com/store/apps/details?id=com.psiphon3'
-      amazonappstore: 'http://www.amazon.com/gp/product/B00FAV9K4Q/ref=mas_pm_Psiphon'
 
     # -----------------------------
     # Helper Functions
@@ -314,6 +314,7 @@ docpadConfig = {
         "fa": "فارسی"
         "fi": "Suomi"
         "fr": "Français"
+        "hr": "Hrvatski"
         "hu": "Magyar"
         "it": "Italiano"
         "ko": "한국말"

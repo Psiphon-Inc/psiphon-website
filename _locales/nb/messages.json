@@ -1,4 +1,8 @@
 {
+    "index-hero-subtext": {
+        "message": "grenseløs",
+        "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
+    },
     "page-keyword-source-code": {
         "message": "kildekode",
         "description": "web page meta keyword used for SEO"
@@ -12,7 +16,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "Den Kanadiske personvernskommisjonen",
+        "message": "Office of the Privacy Commissioner of Canada",
         "description": ""
     },
     "faq-vpn-protocol-question": {
@@ -36,12 +40,16 @@
         "description": ""
     },
     "user-guide-android-para-1": {
-        "message": "Klikk på en Psiphon APK-lenke fra din Android epost-klient eller nettleser for å starte installasjon. (Hvis du får en feilmelding, må du kanskje skru på <a href=\"./faq.html#android-enable-sideloading\">programvareinstallasjon på si</a>.)",
+        "message": "Click on a Psiphon APK link from within your Android email client or web browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)",
         "description": ""
     },
     "about-contact-head": {
         "message": "Kontakt oss",
         "description": ""
+    },
+    "privacy-description": {
+        "message": "Psiphons personverns-praksis",
+        "description": "description for the Privacy Policy page"
     },
     "page-keyword-android": {
         "message": "android",
@@ -50,6 +58,10 @@
     "contact-email-para": {
         "message": "Du kan kontakte Psiphon ved å sende en epost til:",
         "description": ""
+    },
+    "index-hero-alt": {
+        "message": "Psiphon",
+        "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
     "faq-android-enable-sideloading-image-alt": {
         "message": "Skjermbilde av påslag av programvareinstallasjon på si",
@@ -71,17 +83,25 @@
         "message": "Vi vet også at det er viktig å jobbe hard for våre brukere bak kulissene. Vi beskytter våre brukere og deres data etter beste evne. Brukerne merker kanskje ikke grepene som er tatt for å bevare deres personvern og sikkerhet, men vi vet de setter pris på det.",
         "description": ""
     },
+    "privacy-information-collected-websites-google-analytics-para-2": {
+        "message": "Google Analytics plants a permanent cookie on your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
+        "description": ""
+    },
     "open-source-description": {
-        "message": "Psiphons er programvare for internettsensur-omgåelse",
+        "message": "Psiphon is open source Internet censorship circumvention software",
         "description": ""
     },
     "privacy-para-2": {
-        "message": "For ytterligere informasjon verdrørende Kanadisk og Ontarios lovbestemmelser om personvern, vennligst besøk:",
+        "message": "For ytterligere informasjon verdrørende Kanadisk og Ontarios lovbestemmelser om personvern, besøk:",
         "description": ""
     },
     "main-gets-you-there-safely-head-1": {
         "message": "...og bringer deg dit trygt.",
         "description": ""
+    },
+    "privacy-title": {
+        "message": "Personverns-praksis",
+        "description": "page title for the Privacy Policy page"
     },
     "faq-information-collected-answer-para-12": {
         "message": "Vår tjener epost-svartjeneste kjører i Amazon EC2-skyen. Vi sender to epost-svar til hver forespørsel, og for en av disse bruker vi Amazon SES. Dette betyr at Amazon kan se eposten du sender og vårt svar til deg.",
@@ -123,8 +143,8 @@
         "message": "Hvordan kan jeg skru på \"programvareinstallasjon på si\" i Android?",
         "description": ""
     },
-    "faq-proxy-auth-question": {
-        "message": "Hvordan setter jeg opp Psiphon slik at tilkoblinger gjøres gjennom en mellomtjener med identitetsbekreftelse?",
+    "privacy-information-collected-websites-google-analytics-para-1": {
+        "message": "We use Google Analytics on some of our websites to collect information about usage. The information collected by Google Analytics will only be used for statistical analysis related to your browsing behaviour on this specific site. The information we obtain from Google Analytics is not personally identifying, nor is it combined with information from other sources to create personally identifying information.",
         "description": ""
     },
     "faq-port-restrictions-question": {
@@ -132,7 +152,7 @@
         "description": ""
     },
     "faq-ssh-plus-question": {
-        "message": "Hva er SSH+ -modus?",
+        "message": "What protocol does the default Psiphon tunnel use?",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
@@ -159,12 +179,16 @@
         "message": "Jeg kan koble til Psiphon for Windows i VPN-modus, men hvorfår går det så sakte. Noen nettsider laster ikke i det hele tatt.",
         "description": ""
     },
+    "privacy-meta-title": {
+        "message": "Personverns-praksis",
+        "description": "meta title for the Privacy Policy page"
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "Hvor lenge dataen blir lagret",
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Visse maskinvareløsninger for internettilkoblinger kan forårsake ytelsesproblemer med L2TP/IPSec-protokollen, som brukes av Psiphon i VPN-modus. Prøv SSH-modus istendenfor.",
+        "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPSec which is the protocol used by Psiphon in VPN mode. Try disabling VPN mode.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -183,13 +207,21 @@
         "message": "Psiphon-kunngjøringer",
         "description": "text for link to the Psiphon Announcements mailing list"
     },
+    "privacy-bulletin-entry-2-what-doing": {
+        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. This includes merging into it the answer to the FAQ question \"What information does Psiphon collect?\".",
+        "description": ""
+    },
     "about-description": {
-        "message": "Møt laget bak Psiphons programvare for internettsensur-omgåelse",
+        "message": "Meet the team behind Psiphon's Internet censorship circumvention software",
         "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
         "message": "Operativsystemsversjon",
         "description": ""
+    },
+    "privacy-information-collected-s3-logging-head": {
+        "message": "Storage Access Logging",
+        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
         "message": "Hvorfor ser jeg meldingen \"tilkobling feilet\" gjentatt igjen og igjen?",
@@ -216,7 +248,7 @@
         "description": "Page title for the Sponsorship page"
     },
     "about-who-we-are-partners-para-1": {
-        "message": "Psiphon jobber tett med forskjellige grupper for å gi støtte og råd til folk som bruker Psiphon hvorhen de måtte befinne seg. Vi har oversettelser for vår nett-mellomtjener-programvare på 15 språk, og vi legger til flere på våre Windows og mobil -produkter gjennom <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a> som en del av Open Technology samskipnaden.",
+        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our software in 15 languages, and are adding more to our products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Localization Lab hub.",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
@@ -227,6 +259,10 @@
         "message": "For sertifikatetet som er gyldig for perioden 08.05.2014 til 06.09.2017 er SHA1-fingeravtrykket:",
         "description": ""
     },
+    "faq-information-collected-answer-redirect": {
+        "message": "Please see our <a href=\"privacy.html\">Privacy Policy</a> to learn about what information we collect.",
+        "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
+    },
     "donate-heading": {
         "message": "Bidra til Psiphon",
         "description": "The heading of the page section that shows the donation buttons"
@@ -236,12 +272,16 @@
         "description": "meta title for the user guide page"
     },
     "faq-autoproxy-answer-para-1": {
-        "message": "I windows-miljø kan du klikke kjør og skrive <code>regedit</code> for å åpne register-behandleren. Finn og åpne <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, på høyresiden vil du se <code>UserSkipProxySettings</code>. Sett denne til <code>1</code> og Psiphon vil ikke automatisk konfigurere systemets mellomtjener-innstillinger.",
+        "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>SkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings.",
         "description": ""
     },
     "user-guide-android-head": {
         "message": "Psiphon for Android",
         "description": "heading for the Android section of the User Guide"
+    },
+    "privacy-bulletin-entry-2-title": {
+        "message": "2015-06-01: Privacy Policy update",
+        "description": ""
     },
     "index-description": {
         "message": "Psiphon er omgåelsesprogramvare for Windows og mobilløsninger som gir usensurert tilgang til Internett-innhold",
@@ -251,8 +291,8 @@
         "message": "Ofte Stilte Spørsmål",
         "description": "title for the FAQ page"
     },
-    "faq-proxy-auth-answer-para-1": {
-        "message": "Noen LAN-miljøre krever at internettilkoblinger går gjennom en mellomtjener (som Squid) der identitetsbekreftelse er påkrevd. Psiphon for Windows kan settes opp for å koble til slike mellomtjenere ved å utføre registerendringer:",
+    "privacy-information-collected-s3-logging-para-1": {
+        "message": "We use Amazon S3 to store assets such as website files and Psiphon server discovery lists. We sometimes enable logging of downloads of these files. Analyzing these logs helps us to answer questions like \"how many users are starting but not completing the download of the server discovery list?\", \"how is the downloaded data split between website assets and server discovery?\", and \"is an attacker making a denial-of-service attempt against our websites?\"",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
@@ -264,7 +304,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-4": {
-        "message": "Hendelseslogg inneholder tidsstempel, regionkoder (GeoIP landskode) og attributter som ikke kan brukes til identifisering slik som sponsor ID (gitt av hvilken Psiphon-klient som brukes), klient-versjon, og protokolltype. Sidevisninger har sin resultatmengde inndelt i tid, og/eller økter for den blir loggført.",
+        "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type. Page views are aggregated by time and/or session before being logged.",
         "description": ""
     },
     "page-keyword-blog": {
@@ -283,8 +323,8 @@
         "message": "Windows:",
         "description": ""
     },
-    "privacy-para-4": {
-        "message": "<a href=\"./faq.html#information-collected\">Sjekk ut Ofte-Stilte-Spørsmål</a> for informasjon om hvilken data vi innhenter. Sjekk <a href=\"./privacy-bulletin.html\">Sikkerhets-bulletinen</a> for midlertidige endringer i data som innhentes.",
+    "privacy-bulletin-entry-2-when-doing": {
+        "message": "This is in effect by at least 2015-06-01T00:00Z.",
         "description": ""
     },
     "alert-body": {
@@ -300,7 +340,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "Bare i VPN-modus. Etter en fungerende tilkobling er gjort i VPN-modus, vil all din datamaskin-trafikk passere gjennom Psiphon-nettverket. I SSH-modus vil bare program som har lokale HTTP og SOCKS -mellomtjenere bli mellomtjent.",
+        "message": "Only in VPN mode. After a successful connection is established in VPN mode, your entire computer’s traffic will pass through the Psiphon network. When VPN mode is not enabled only applications that use the local HTTP and SOCKS proxies will be proxied.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-8": {
@@ -344,7 +384,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "For å kjøre Psiphon i hele-fjøla-modus må du ha Android 4.0+ eller en telefon med supberbruker rettigheter (root).<br><br>Dette valget vil ikke være tilgjengelig for telefoner uten denslags eller for gamle versjoner av Android.",
+        "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted device.<br><br>This option will be unavailable for non-rooted devices with an older version of Android.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "faq-isp-traffic-answer-para-1": {
@@ -352,7 +392,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "Dog ha det i minnet at Psiphon er myntet på omgåelse av sensur, og ikke er spesialdesignet med tanke på anti-spionasjeformål som sådan. Psiphon hindrer ikke din nettleserhistorikk og informasjonskapsler fra å bli lagret på din maskin. I noen fall kan det hende din Internettrafikk ikke blir sendt i tunnel gjennom Psiphon i SSH eller SSH+modus, for eksempel hvis din nettlesers mellomtjenerinnstillinger er satt opp feil, eller at du har forlatt nettleseren åpen etter at du har avsluttet Psiphon.",
+        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some modes and configurations all of your Internet traffic might not be tunneled through Psiphon -- for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
@@ -387,20 +427,12 @@
         "message": "Psiphon brukergruppe",
         "description": "text for link to the Psiphon Users mailing list"
     },
-    "faq-information-collected-answer-para-3": {
-        "message": "IP- og epost- adresser til brukere blir ikke samlet inn; konto er ikke påkrevd for å bruke systemet.",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-answer-para-1": {
-        "message": "Oppstartsproblemer for den lokale HTTP-mellomtjeneren. Det kan hende du har en annen tjeneste kjørende som bruker dens standard-port. Prøv å bruk en annen port. Se spørsmål \"kan jeg kjøre den lokale mellomtjeneren på en annen port enn 8080?\"",
-        "description": ""
-    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "Statutt for begrensninger og ansvar",
         "description": ""
     },
     "faq-information-collected-answer-para-10": {
-        "message": "Mer at hvis du laster ned Psiphon gjennom en \"app-butikk\" -- som Google play eller Amazon AppStore -- vil ytterligere statistikk bli innhentet. For eksempel, er er en beskrivelse av hva Google Play samler inn:",
+        "message": "Note that if you get Psiphon from an \"app store\", such as the Google Play Store or Amazon AppStore, additional statistics may be collected by that store. For example, here is a description of what the Google Play Store collects:",
         "description": ""
     },
     "faq-nav-title": {
@@ -416,7 +448,7 @@
         "description": ""
     },
     "faq-browser-compatibility-question": {
-        "message": "Er Psiphon for Windows kompatibel med IE, Firefox, Safari, og Chrome -nettlesere?",
+        "message": "Is Psiphon for Windows compatible with Internet Explorer, Firefox, and Chrome web browsers?",
         "description": ""
     },
     "page-keyword-landing-page": {
@@ -437,7 +469,7 @@
     },
     "psiphon": {
         "message": "Psiphon",
-        "description": ""
+        "description": "The name of the product. Probably not translated or transliterated for most languages"
     },
     "download-meta-title": {
         "message": "Last ned Android program og Windows-klient",
@@ -467,24 +499,12 @@
         "message": "For sertifikatetet som er gyldig for perioden 21.05.2012 til 30.07.2014 er SHA1-fingeravtrykket:",
         "description": ""
     },
-    "index-title": {
-        "message": "Velkommen til ditt nye Internett",
-        "description": "Page title for the index page"
-    },
     "faq-meta-title": {
         "message": "Ofte Stilte Spørsmål",
         "description": "meta title for the FAQ page"
     },
-    "about-privacy-head": {
-        "message": "Personverns-praksis",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-question": {
-        "message": "I SSH-modus med Psiphon for Windows ser jeg feilmeldingen \"Klarte ikke å koble til Polipo\". Hva kan jeg gjøre?",
-        "description": ""
-    },
     "faq-ssh-plus-answer-para-1": {
-        "message": "SSH+ er et SSH modus med ekstra røring i suppa på topp av SSH- tilkoblingsrutine for å beskytte mot protokoll-fingeravtrykk. En beskrivelse av protokollen finner du <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">her</a>.",
+        "message": "Psiphon uses SSH with the addition of an obfuscation layer on top of the SSH handshake to defend against protocol fingerprinting. A description of the protocol can be found <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">here</a>.",
         "description": ""
     },
     "license-title": {
@@ -516,7 +536,7 @@
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "Hvordan sette opp programmer for bruk med Psiphon-tunnel i SSH-modi?",
+        "message": "Hvordan setter jeg opp programmene mine for bruk med Psiphon-tunnel.",
         "description": ""
     },
     "page-keyword-circumvention": {
@@ -525,6 +545,10 @@
     },
     "open-source-meta-title": {
         "message": "Åpen kildekode",
+        "description": ""
+    },
+    "privacy-bulletin-entry-2-why-doing": {
+        "message": "The <a href=\"privacy.html\">Privacy Policy</a> page is now the only place users need to check for Psiphon's privacy and data collection policies. It has been updated to reflect use of advertisements, analytics, and logging for some of our websites.",
         "description": ""
     },
     "license-para-1": {
@@ -584,7 +608,7 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "Superbruker-rettigheter tilgjengelig",
+        "message": "Whether your device is rooted",
         "description": ""
     },
     "sponsor-para-2": {
@@ -628,7 +652,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "Avanserte teknikker som kan spore detaljer i kryptert trafikk, slik som hvilke nettsider som blir lest. Det fremste eksemplet på dette er \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">trafikk-fingeravtrykk</a>\".",
+        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this is \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -681,7 +705,7 @@
     },
     "user-guide-android-ui-status-image-annotation-4": {
         "message": "<span style=\"color:grey\">Grey</span>: kobler til<br><span style=\"color:red\">Rød</span>: ikke tilkoblet<br><span style=\"color:Blue\">Blå</span>: tilkoblet",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
+        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
     },
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "Hvorfor vi gjør det",
@@ -715,10 +739,6 @@
         "message": "donér",
         "description": "web page meta keyword used for SEO"
     },
-    "faq-proxy-auth-answer-step-4": {
-        "message": "Angi <code>UserSkipSSHParentProxySettings</code> til <code>0</code>.",
-        "description": ""
-    },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "For å installere en direkte nedlastning av Psiphon for Android, må du skru på \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">programvareinstallasjon på si</a>\". For å gjøre det, gå til Android-innstillingene, dernest Sikkerhets-delen, for så å skru på \"Ukjente kilder\".",
         "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
@@ -737,6 +757,10 @@
     },
     "faq-authentic-windows-answer-para-4": {
         "message": "Psiphon for Windows auto-oppdaterer seg selv, denne prosessen sjekker at hver oppdatering er ekte.",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-3b": {
+        "message": "User IP addresses are not collected by Psiphon servers in the normal course of operation. Psiphon does not require user accounts, so, by default, there is no collection of email addresses, usernames, or passwords.",
         "description": ""
     },
     "page-keyword-help": {
@@ -772,7 +796,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "Siden 2008 har Psiphon hjulpet millioner av folk i land med begrenset frihet med tilgang til sensurerte ideer og informasjon på en sikker måte. Psiphon kan gjøre det samme for deg.",
+        "message": "Since 2008, Psiphon has helped millions of people in freedom-restricted countries around the world safely access censored knowledge and ideas. Now Psiphon can do the same for you.",
         "description": ""
     },
     "about-title": {
@@ -781,10 +805,6 @@
     },
     "faq-information-collected-answer-para-8-item-1": {
         "message": "Android-version",
-        "description": ""
-    },
-    "faq-proxy-auth-question-toc": {
-        "message": "Hvordan setter jeg opp Psiphon slik at tilkoblinger gjøres gjennom en mellomtjener med identitetsbekreftelse?",
         "description": ""
     },
     "privacy-bulletin-entry-1-how-many-users": {
@@ -812,7 +832,7 @@
         "description": "Meta title for the index page"
     },
     "faq-information-collected-answer-para-8-item-2": {
-        "message": "Telefonmodell",
+        "message": "Device model",
         "description": ""
     },
     "page-keyword-play-store": {
@@ -872,20 +892,16 @@
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "Kontoret til kommisjoneren for personvernshensyn i Ontario",
+        "message": "Office of the Information and Privacy Commissioner of Ontario",
         "description": ""
     },
     "about-who-we-are-ops-head": {
         "message": "Operasjoner og spennvidde",
         "description": ""
     },
-    "faq-proxy-auth-answer-para-3": {
-        "message": "Desverre støtter vi ikke HTTP-mellomtjening på Psiphon for Android for øyeblikket.",
-        "description": ""
-    },
     "faq-information-collected-answer-head-4": {
         "message": "App-butikker",
-        "description": "this is referring to the general idea of app stores, like Google Play, Amazon AppStore, Apple App Store"
+        "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "Hva vi gjør",
@@ -904,8 +920,8 @@
         "description": ""
     },
     "open-source-para-1": {
-        "message": "Psiphon er et åpen kildekode-prosjekt. Du kan finne kildekoden og design-dokumenter på <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">prosjektets hjemmeside</a>.",
-        "description": ""
+        "message": "Psiphon is an open source project. You can find source code and design documents on our Bitbucket and Github project pages.",
+        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
     },
     "main-gets-you-where-you-want-head-2": {
         "message": "Sensurert av ditt land, bedrift, eller skole?",
@@ -920,7 +936,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
-        "message": "Epost-tjeneren epost-forespørselen kom fra. (spesifikt de siste tre delene av domenenavnet. For eksempel, <code>ne1.example.com</code>, men ikke <code>web120113.mail.ne1.example.com</code>.)",
+        "message": "The mail server the email request came from. (The three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)",
         "description": ""
     },
     "page-keyword-manual": {
@@ -931,9 +947,9 @@
         "message": "Dataen vil bli lagret mindre enn en uke. Oversikt over antall brukere vil bli lagret lengre -- muligvis på ubestemt tid.",
         "description": ""
     },
-    "faq-polipo-different-port-answer-para-1": {
-        "message": "Ja, på Windows. Klikk kjør og skriv <code>regedit</code> for å åpne register-behandleren. Finn og åpne <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, på høyresiden vil du se <code>UserLocalHTTPProxyPort</code>. Sett denne verdien til en port i desimal-notasjon som du ønsker å bruke.",
-        "description": ""
+    "privacy-information-collected-websites-head": {
+        "message": "Nettsider",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
         "message": "Innholdet på siden har følgende lisens",
@@ -976,7 +992,7 @@
         "description": ""
     },
     "faq-browser-compatibility-answer-para-1": {
-        "message": "Ja. I SSH-modusene, sjekk dine nettleser-oppsett og forsikre deg om at den er konfigurert til å bruke systemets mellomtjener-oppsett.",
+        "message": "Yes. Check your browser settings and make sure that it is configured to use the system proxy settings.",
         "description": ""
     },
     "faq-information-collected-answer-para-8-list-start": {
@@ -1025,7 +1041,7 @@
     },
     "download-store-head": {
         "message": "App-butikk nedlastninger",
-        "description": "This refers to Google Play, Amazon's AppStore, and any similar app stores"
+        "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
     },
     "sponsor-meta-title": {
         "message": "Sponsing, reklamering og donasjoner",
@@ -1033,10 +1049,6 @@
     },
     "faq-check-version-question": {
         "message": "Hvordan sjekker jeg min versjon av Psiphon?",
-        "description": ""
-    },
-    "faq-proxy-auth-answer-step-1": {
-        "message": "Kjør <code>regedit.exe</code>.",
         "description": ""
     },
     "site-title": {
@@ -1052,7 +1064,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "Psiphon vil automatisk konfigurere ditt system til å bruke HTTP/HTTPS mellomtjener på <code>127.0.0.1:8080</code> og en lokal SOCKS-mellomtjener på <code>127.0.0.1:1080</code>. Windows-program som måtte bruke systemets mellomtjener-innstillinger vil automatisk bli mellomtjent. Du kan manuelt konfigurere andre program til å bruke disse lokale mellomtjenerne. Både Psiphon for Windows (SSH modi) og Psiphon for Android kjører disse lokale mellomtjenerne.",
+        "message": "Psiphon will automatically configure your system to use a local HTTP/HTTPS proxy and a local SOCKS proxy. The port numbers for these proxies are chosen randomly, unless specified in the Psiphon settings. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon for Windows and Psiphon for Android run these local proxies.",
         "description": ""
     },
     "faq-vpn-protocol-answer-para-1": {
@@ -1075,12 +1087,16 @@
         "message": "Jeg bruker <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a> Hvordan kan jeg få Psiphon for Windows til ikke å konfigurere mine mellomtjener-innstillinger?",
         "description": ""
     },
+    "privacy-information-collected-websites-google-analytics-para-3": {
+        "message": "Google’s ability to use and share information collected by Google Analytics about your visits to this site is restricted by the <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Google Analytics Terms of Use</a> and the <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Google Privacy Policy</a>. You may choose to opt out by turning off cookies in the preferences settings in your web browser.",
+        "description": ""
+    },
     "faq-isp-traffic-question-toc": {
         "message": "Kan min nettilbyder se hva jeg gjør på Internett når jeg bruker Psiphon?",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "Psiphon begrenser DNS-trafikk til hvitlistet, sjekkede DNS-tjenere. Psiphon-klenten konfigurerer automatisk din VPN DNS tjener-innstillinger. Hvis du får feilmeldinger relatert til DNS, sjekk at du ikke er infisert med skadelig \"DNS changer\"-programvare, som prøver å bytte dine DNS-innstillinger. Mer info finnes <a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">her</a>.",
+        "message": "Psiphon restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">here</a>.",
         "description": ""
     },
     "about-get-latest-info-head": {
@@ -1107,10 +1123,6 @@
         "message": "Karl Kathuria er VP of Commercial Managment, og har i nylig blitt med i Toronto-laget fra sin base i London. Han er ansvarlig for å behandle bedrifts-relasjonene med vår kringkastnings og distribusjonspartnere, og for å finne nye muligheter for selskapets aktiviteter.",
         "description": ""
     },
-    "faq-polipo-different-port-question": {
-        "message": "Kan jeg kjøre lokal HTTP mellomtjener-trafikk gjennom en annen port en 8080?",
-        "description": ""
-    },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "Antall oppdateringer",
         "description": ""
@@ -1124,7 +1136,7 @@
         "description": ""
     },
     "user-guide-windows-para-4": {
-        "message": "I SSH og SSH+ -modi, setter Psiphon for Windows systemets mellomtjener innstillinger, og dirigerer trafikk for applikasjoner som forholder seg til disse innstilligene i en tunnel gjennom Psiphon. Alle store nettlesere forholder seg til disse normalt sett.",
+        "message": "In SSH and SSH+ modes, Psiphon automatically sets the Windows system proxy settings, so network traffic for applications that respect these settings will be tunneled through Psiphon. These settings are respected by default by all major web browsers.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1148,11 +1160,11 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Tilgangsloggen er også lagret i Amazon S3-bøtta, så Amazon vil ha tilgang til loggene. (Dog tjenestegjør Amazon allerede som filtilbyder i nettsidens S3-bøtte, så de har allerede tilgang til denne informasjonen.)",
+        "message": "The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon serves the files, so they can already access this information.)",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "Ved oppstart viser Psiphon versjonsnummeret på øverste linje i presentasjonsteksten.",
+        "message": "When Psiphon starts, it displays the Client Version on the first line of log output.",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-2": {
@@ -1191,6 +1203,10 @@
         "message": "Lukk denne fanen",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
     },
+    "privacy-nav-title": {
+        "message": "Personverns-praksis",
+        "description": "text for the Privacy Policy page navigation item"
+    },
     "sponsor-para-3": {
         "message": "For mer informasjon, send en epost til <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
         "description": ""
@@ -1200,7 +1216,7 @@
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "Videre, i SSH og SSH+ modus tilbyr Psiphon å velge en delt tunnel-løsning der internasjonal trafikk går gjennom en mellomtjener og innenlands-trafikk ikke gjør det. Velg \"Ingen mellomtjener...\" for å skru på delt-tunnelering. Når dette valget er gjeldende vil ikke mellomtjente domener bli rapportert i meldingsfeltet.",
+        "message": "Furthermore, in SSH and SSH+ modes, Psiphon offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy domestic web sites” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area.",
         "description": ""
     },
     "license-distribution-para": {
@@ -1223,17 +1239,17 @@
         "message": "Først burde du <a href=\"./faq.html#authentic-android\">kontrollere om din versjon av Psiphon for Android er ekte</a>.",
         "description": ""
     },
-    "faq-proxy-auth-answer-step-2": {
-        "message": "Gå til <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
+    "privacy-information-collected-s3-logging-para-2": {
+        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already serves the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate it and will not be shared with third parties.",
         "description": ""
     },
     "download-description": {
         "message": "Direkte, gratis Psiphon-nedlasting for Android og Windows",
         "description": "title for the download page"
     },
-    "faq-proxy-auth-answer-step-3": {
-        "message": "Rediger følgende verdier:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (forsikre deg om at du sikriver inn portnummberet i <code>desimalnotasjon</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
-        "description": ""
+    "privacy-information-collected-websites-google-analytics-head": {
+        "message": "Google Analytics",
+        "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
     },
     "download-direct-head": {
         "message": "Direkte nedlastninger",
@@ -1252,7 +1268,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-1": {
-        "message": "Vi samler inn følgende data for å finne ut hvor bra Psiphon kjører, hvilke sider som er populære og hvilke strategier vi skal implementere for å sette våre mål ut i livet på en effektiv måte. Dene informasjonen deles med våre partnere slik at de kan se, for eksempel, hvor ofte deres sider besøkes gjennom Psiphon og fra hvilke land det skjer.",
+        "message": "We collect the following data to find out how well Psiphon is working, what sites are popular, and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries.",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-4": {
@@ -1260,7 +1276,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
     },
     "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Loggføringer av Psiphon-aktivitet",
+        "message": "Psiphon activity logs",
         "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     }
 }

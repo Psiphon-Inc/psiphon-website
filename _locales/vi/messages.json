@@ -1,6 +1,10 @@
 {
+    "index-hero-subtext": {
+        "message": "beyond borders",
+        "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
+    },
     "page-keyword-source-code": {
-        "message": "source code",
+        "message": "mã nguồn",
         "description": "web page meta keyword used for SEO"
     },
     "faq-autoproxy-question-toc": {
@@ -12,7 +16,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "Canadian Privacy Commission",
+        "message": "Office of the Privacy Commissioner of Canada",
         "description": ""
     },
     "faq-vpn-protocol-question": {
@@ -20,36 +24,44 @@
         "description": ""
     },
     "user-guide-android-image-3-annotation-2": {
-        "message": "Switch between open tabs",
+        "message": "Chuyển đổi giữa các tabs mở",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
     },
     "privacy-bulletin-entry-item-head-how-many-users": {
-        "message": "How many users are affected",
+        "message": "Có bao nhiêu người sử dụng bị ảnh hưởng?",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-what-data": {
-        "message": "What user data will be collected",
+        "message": "Dữ liệu nào của người dùng sẽ bị thu thập?",
         "description": ""
     },
     "faq-proxy-all-question": {
-        "message": "Does Psiphon for Windows proxy all of my Internet traffic?",
+        "message": "Psiphon dành cho Windows có cho phép tất cả lưu lượng Internet của tôi hay không?",
         "description": ""
     },
     "user-guide-android-para-1": {
-        "message": "Click on a Psiphon APK link from within your Android email or browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)",
+        "message": "Click on a Psiphon APK link from within your Android email client or web browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)",
         "description": ""
     },
     "about-contact-head": {
-        "message": "Contact Us",
+        "message": "Liên lạc với chúng tôi",
         "description": ""
+    },
+    "privacy-description": {
+        "message": "Psiphon's privacy policy",
+        "description": "description for the Privacy Policy page"
     },
     "page-keyword-android": {
         "message": "android",
         "description": "web page meta keyword used for SEO"
     },
     "contact-email-para": {
-        "message": "You can contact Psiphon by sending an email to:",
+        "message": "Bạn có thể liên lạc với Psiphon bằng cách gửi email đến:",
         "description": ""
+    },
+    "index-hero-alt": {
+        "message": "Psiphon",
+        "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
     "faq-android-enable-sideloading-image-alt": {
         "message": "screenshot of enabling sideloading",
@@ -60,7 +72,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "download-list-join": {
-        "message": "Join our <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Announcements mailing list</a> for important announcements and security advisories.",
+        "message": "Tham gia vào danh sách gửi thư thông báo của chúng tôi để nhận các thông báo quan trọng và các khuyến cáo về an ninh.",
         "description": ""
     },
     "about-get-latest-info-para-1-developers-list": {
@@ -71,17 +83,25 @@
         "message": "We also know that it's just as important to work hard for our users behind the scenes. We protect our users and their data to the utmost. Users might never notice the measures to ensure their privacy and security, but we know they appreciate it.",
         "description": ""
     },
+    "privacy-information-collected-websites-google-analytics-para-2": {
+        "message": "Google Analytics plants a permanent cookie on your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
+        "description": ""
+    },
     "open-source-description": {
-        "message": "Psiphon is open source Internet circumvention software",
+        "message": "Psiphon is open source Internet censorship circumvention software",
         "description": ""
     },
     "privacy-para-2": {
-        "message": "For further information regarding Canadian and Ontario privacy laws, please visit:",
+        "message": "Để có thêm thông tin liên quan đến các luật riêng tư Ontario và Canada, hãy vào:",
         "description": ""
     },
     "main-gets-you-there-safely-head-1": {
-        "message": "...and gets you there safely.",
+        "message": "... và đưa ban đến đó một cách an toàn.",
         "description": ""
+    },
+    "privacy-title": {
+        "message": "Privacy Policy",
+        "description": "page title for the Privacy Policy page"
     },
     "faq-information-collected-answer-para-12": {
         "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. We send two email responses to every request, and for one of those responses we use Amazon SES. This means that Amazon is able to see the email you send and our response to you.",
@@ -96,7 +116,7 @@
         "description": ""
     },
     "user-guide-android-image-3-alt": {
-        "message": "Image showing the different parts of the Psiphon Android web browser",
+        "message": "Hình ảnh cho thấy các phần khác nhau của trình duyệt Psiphon Android",
         "description": "alt text for an image"
     },
     "page-keyword-open-source": {
@@ -104,7 +124,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "license-personal-or-specified-use-header": {
-        "message": "Personal or Specified Use",
+        "message": "Sử dụng cá nhân hay chỉ định",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-6": {
@@ -116,23 +136,23 @@
         "description": "alt text for an image"
     },
     "license-terms-of-use-header": {
-        "message": "Terms of Use",
+        "message": "Điều kiện sử dụng",
         "description": ""
     },
     "faq-android-enable-sideloading-question": {
         "message": "How do I enable Android \"sideloading\"?",
         "description": ""
     },
-    "faq-proxy-auth-question": {
-        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
+    "privacy-information-collected-websites-google-analytics-para-1": {
+        "message": "We use Google Analytics on some of our websites to collect information about usage. The information collected by Google Analytics will only be used for statistical analysis related to your browsing behaviour on this specific site. The information we obtain from Google Analytics is not personally identifying, nor is it combined with information from other sources to create personally identifying information.",
         "description": ""
     },
     "faq-port-restrictions-question": {
-        "message": "Are there any port restrictions in VPN mode? Why can't I send email using my mail client in VPN mode?",
+        "message": " Có bất kỳ giới hạn nào về cổng ở chế độ VPN hay không? Tại sao tôi không thể gửi email bằng hộp thư client ở chế độ VPN?",
         "description": ""
     },
     "faq-ssh-plus-question": {
-        "message": "What is SSH+ mode?",
+        "message": "What protocol does the default Psiphon tunnel use?",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
@@ -140,7 +160,7 @@
         "description": ""
     },
     "sponsor-nav-title": {
-        "message": "Sponsor",
+        "message": "Nhà tài trợ",
         "description": "Navigation text for the Sponsorship page"
     },
     "download-android-amazon-description": {
@@ -148,7 +168,7 @@
         "description": ""
     },
     "license-nav-title": {
-        "message": "License",
+        "message": "Giấy phép",
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
@@ -156,19 +176,23 @@
         "description": "alt text for an image"
     },
     "faq-vpn-slow-question": {
-        "message": "I can connect to Psiphon for Windows in VPN mode, but why is it so slow?  Sometimes web pages don't load at all.",
+        "message": "Tôi có thể kết nối với Psiphon dành cho Windows ở chế độ VPN, nhưng tại sao nó lại rất chậm? Đôi khi các trang web hoàn toàn không tải được.",
         "description": ""
     },
+    "privacy-meta-title": {
+        "message": "Privacy Policy",
+        "description": "meta title for the Privacy Policy page"
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
-        "message": "How long the data will be retained",
+        "message": "Dữ liệu sẽ được giữ lại trong bao lâu?",
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPSec which is the protocol used by Psiphon in VPN mode. Try using SSH modes instead.",
+        "message": "Một số phần cứng mạng hay các kết nối Internet có thể gây ra các vấn đề về hiệu suất cho L2TP / IPSec là giao thức được sử dụng bởi Psiphon ở chế độ VPN. Hãy thử tắt chế độ VPN.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
-        "message": "When we're doing it",
+        "message": "Khi nào chúng tôi làm",
         "description": ""
     },
     "faq-authentic-android-answer-para-2": {
@@ -183,16 +207,24 @@
         "message": "Psiphon Announcements",
         "description": "text for link to the Psiphon Announcements mailing list"
     },
+    "privacy-bulletin-entry-2-what-doing": {
+        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. This includes merging into it the answer to the FAQ question \"What information does Psiphon collect?\".",
+        "description": ""
+    },
     "about-description": {
-        "message": "Meet the team behind Psiphon's Internet circumvention software",
+        "message": "Meet the team behind Psiphon's Internet censorship circumvention software",
         "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
         "message": "Operating system version",
         "description": ""
     },
+    "privacy-information-collected-s3-logging-head": {
+        "message": "Storage Access Logging",
+        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
+    },
     "faq-connection-failed-question": {
-        "message": "Why do I see the message \"connection failed\" repeating over and over?",
+        "message": "Tại sao tôi lại thấy thông báo \"connection failed\" (kết nối thất bại) lặp lại nhiều lần?",
         "description": ""
     },
     "faq-information-collected-answer-head-2": {
@@ -204,7 +236,7 @@
         "description": ""
     },
     "faq-authentic-windows-question": {
-        "message": "Is my Psiphon for Windows authentic?",
+        "message": "Psiphon của dành cho Windows của tôi có phải là chính hãng hay không?",
         "description": ""
     },
     "faq-ip-change-answer-para-1": {
@@ -212,11 +244,11 @@
         "description": ""
     },
     "sponsor-title": {
-        "message": "Become a Sponsor",
+        "message": "Trở thành nhà tài trợ",
         "description": "Page title for the Sponsorship page"
     },
     "about-who-we-are-partners-para-1": {
-        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our web proxy software in 15 languages, and are adding more to our Windows and Mobile products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Open Technology Fund’s hub.",
+        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our software in 15 languages, and are adding more to our products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Localization Lab hub.",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
@@ -227,32 +259,40 @@
         "message": "For the certificate valid for the period 2014-05-08 to 2017-09-06 the SHA1 thumbprint is:",
         "description": ""
     },
+    "faq-information-collected-answer-redirect": {
+        "message": "Please see our <a href=\"privacy.html\">Privacy Policy</a> to learn about what information we collect.",
+        "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
+    },
     "donate-heading": {
         "message": "Contribute to Psiphon",
         "description": "The heading of the page section that shows the donation buttons"
     },
     "user-guide-meta-title": {
-        "message": "How to use Psiphon on Mobile and Windows",
+        "message": "Làm thế nào để sử dụng Psiphon trên Mobile và Windows",
         "description": "meta title for the user guide page"
     },
     "faq-autoproxy-answer-para-1": {
-        "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserSkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings.",
+        "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>SkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings.",
         "description": ""
     },
     "user-guide-android-head": {
-        "message": "Psiphon for Android",
+        "message": "Psiphon dành cho Android",
         "description": "heading for the Android section of the User Guide"
+    },
+    "privacy-bulletin-entry-2-title": {
+        "message": "2015-06-01: Privacy Policy update",
+        "description": ""
     },
     "index-description": {
         "message": "Psiphon is circumvention software for Windows and Mobile platforms that provides uncensored access to Internet content",
         "description": "Page description for the index page"
     },
     "faq-title": {
-        "message": "Frequently Asked Questions",
+        "message": "Các câu hỏi thường gặp",
         "description": "title for the FAQ page"
     },
-    "faq-proxy-auth-answer-para-1": {
-        "message": "Some LAN environments require internet connections to go through a proxy (like Squid) that requires authentication. Psiphon for Windows can be configured to connect through such proxies by editing the registry:",
+    "privacy-information-collected-s3-logging-para-1": {
+        "message": "We use Amazon S3 to store assets such as website files and Psiphon server discovery lists. We sometimes enable logging of downloads of these files. Analyzing these logs helps us to answer questions like \"how many users are starting but not completing the download of the server discovery list?\", \"how is the downloaded data split between website assets and server discovery?\", and \"is an attacker making a denial-of-service attempt against our websites?\"",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
@@ -264,7 +304,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-4": {
-        "message": "Nhật ký sự kiện bao gồm tem thời gian, mã vùng (mã quốc gia GeoIP) và các thuộc tính không nhận dạng bao gồm ID nhà tài trợ (được xác định bằng bản client Psiphon được sử dụng), phiên bản client, và loại giao thức. Số lượt xem trang được tổng hợp theo thời gian và/hoặc phiên truy cập trước khi được ghi lại.",
+        "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type. Page views are aggregated by time and/or session before being logged.",
         "description": ""
     },
     "page-keyword-blog": {
@@ -272,7 +312,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "blog-index-intro": {
-        "message": "Psiphon Inc. is a Canadian company, and most of the members of our team are native English speakers. This means that our blog posts are originally in English. We will translate them into other languages as we can.",
+        "message": "Psiphon Inc. là một công ty của Canada và hầu hết các thành viên của nhóm chúng tôi là những người nói tiếng Anh bản địa. Điều này có nghĩa là bài đăng trên blog của chúng tôi là bài gốc tiếng Anh. Chúng tôi sẽ dịch chúng sang các ngôn ngữ khác khi có thể.",
         "description": ""
     },
     "about-who-we-are-ops-para-1": {
@@ -283,8 +323,8 @@
         "message": "Windows:",
         "description": ""
     },
-    "privacy-para-4": {
-        "message": "<a href=\"./faq.html#information-collected\">Visit the FAQ</a> for details about what data we collect. See the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> for temporary data collection changes.",
+    "privacy-bulletin-entry-2-when-doing": {
+        "message": "This is in effect by at least 2015-06-01T00:00Z.",
         "description": ""
     },
     "alert-body": {
@@ -300,7 +340,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "Only in VPN mode. After a successful connection is established in VPN mode, your entire computer’s traffic will pass through the Psiphon network. In SSH modes, only applications that use the local HTTP and SOCKS proxies will be proxied.",
+        "message": "Chỉ có trong chế độ VPN. Sau khi một kết nối thành công được thiết lập trong chế độ VPN, giao thông toàn bộ máy tính của bạn sẽ đi qua mạng Psiphon. Khi chế độ VPN không được kích hoạt, chỉ các ứng dụng sử dụng các proxy HTTP và SOCKS địa phương sẽ được ủy nhiệm.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-8": {
@@ -312,7 +352,7 @@
         "description": ""
     },
     "user-guide-windows-para-3": {
-        "message": "Connection to the Psiphon server is established when the green icon is displayed. In VPN mode, all of your traffic automatically tunnels through Psiphon.",
+        "message": "Kết nối đến máy chủ Psiphon được thiết lập khi có biểu tượng màu xanh lá cây hiển thị. Trong chế độ VPN, tất cả các lưu lượng truy cập của bạn sẽ tự động được tạo đường hầm thông qua Psiphon.",
         "description": ""
     },
     "license-meta-title": {
@@ -344,7 +384,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted phone.<br><br>This option will be unavailable for non-rooted phones with an older version of Android.",
+        "message": "Để chạy Psiphon trong chế độ Đường hầm Toàn Thiết Bị, bạn phải có Android 4.0+ hoặc thiết bị đã root. Tùy chọn này sẽ không có sẵn cho các thiết bị không root với phiên bản cũ hơn của Android.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "faq-isp-traffic-answer-para-1": {
@@ -352,11 +392,11 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some cases your Internet traffic might not be tunneled through Psiphon in SSH or SSH+ mode, for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
+        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some modes and configurations all of your Internet traffic might not be tunneled through Psiphon -- for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
-        "message": "You should first <a href=\"./faq.html#authentic-windows\">verify that your copy of Psiphon for Windows is authentic</a>.",
+        "message": "Đầu tiên, bạn nên xác minh là bản sao Psiphon dành cho Windows của bạn là xác thực.",
         "description": ""
     },
     "page-keyword-code": {
@@ -380,27 +420,19 @@
         "description": "description for the user guide page"
     },
     "blog-index-nav-title": {
-        "message": "Our Blog",
+        "message": "Blog của chúng tôi",
         "description": "Text for the navigation bar link to the blog"
     },
     "about-get-latest-info-para-1-users-list": {
-        "message": "Psiphon User Group",
+        "message": "Nhóm người dùng Psiphon",
         "description": "text for link to the Psiphon Users mailing list"
     },
-    "faq-information-collected-answer-para-3": {
-        "message": "Địa chỉ IP và địa chỉ thư điện tử của người dùng không bao giờ được thu thập; người dùng không phải tạo tài khoản để sử dụng hệ thống.",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-answer-para-1": {
-        "message": "The local HTTP proxy could not run. You might have another process running that is using the default port. Try using a different port.  See the question \"Can I run the local HTTP proxy on a different port than 8080?\"",
-        "description": ""
-    },
     "license-statement-of-limitations-of-liability-header": {
-        "message": "Statement of Limitations of Liability",
+        "message": "Tuyên bố về những hạn chế và trách nhiệm pháp lý",
         "description": ""
     },
     "faq-information-collected-answer-para-10": {
-        "message": "Note that if you get Psiphon from an \"app store\" -- such as Google Play or Amazon AppStore -- additional statistics may be collected by that store. For example, here is a description of what Google Play collects:",
+        "message": "Note that if you get Psiphon from an \"app store\", such as the Google Play Store or Amazon AppStore, additional statistics may be collected by that store. For example, here is a description of what the Google Play Store collects:",
         "description": ""
     },
     "faq-nav-title": {
@@ -408,15 +440,15 @@
         "description": "text for the FAQ page navigation item"
     },
     "alert-heading": {
-        "message": "ALERT",
+        "message": "Cảnh báo",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "license-personal-or-specified-use-para": {
-        "message": "Use of the Psiphon service is granted under a non-exclusive, personal license. By using Psiphon, you agree to use the service for personal, non-commercial use only. You may not (and may not allow a third party to) rent, lease, sublicense, sell, resell or otherwise distribute use of the Psiphon service for commercial purposes.",
+        "message": "Việc sử dụng các dịch vụ Psiphon được cấp dưới giấy phép cá nhân, không độc quyền. Bằng việc sử dụng Psiphon, bạn đồng ý sử dụng những dịch vụ cho cá nhân, chỉ sử dụng phi thương mại. Bạn không được (và có thể không cho phép bên thứ ba) thuê, mướn, cấp phép, bán, bán lại hoặc phân phối sử dụng các dịch vụ Psiphon cho mục đích thương mại.",
         "description": ""
     },
     "faq-browser-compatibility-question": {
-        "message": "Is Psiphon for Windows compatible with IE, Firefox, Safari, and Chrome web browsers?",
+        "message": "Psiphon dành cho Windows có tương thích với các trình duyệt Explorer, Firefox và Chrome hay không?",
         "description": ""
     },
     "page-keyword-landing-page": {
@@ -424,7 +456,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-authentic-android-answer-para-3": {
-        "message": "Psiphon for Android auto-updates itself, and this process automatically verifies that each update is authentic.",
+        "message": "Psiphon dành cho Android tự động cập nhật và quá trình này tự động xác minh mỗi cập nhật là xác thực.",
         "description": ""
     },
     "main-gets-you-there-safely-head-2": {
@@ -437,7 +469,7 @@
     },
     "psiphon": {
         "message": "Psiphon",
-        "description": ""
+        "description": "The name of the product. Probably not translated or transliterated for most languages"
     },
     "download-meta-title": {
         "message": "Download Android app and Windows client",
@@ -452,11 +484,11 @@
         "description": ""
     },
     "what-is-psiphon-heading": {
-        "message": "What is Psiphon?",
+        "message": "Psiphon là gì?",
         "description": ""
     },
     "user-guide-nav-title": {
-        "message": "User Guide",
+        "message": "Hướng dẫn sử dụng",
         "description": "text for the user guide page navigation item"
     },
     "page-keyword-updates": {
@@ -467,24 +499,12 @@
         "message": "For the certificate valid for the period 2012-05-21 to 2014-07-30 the SHA1 thumbprint is:",
         "description": ""
     },
-    "index-title": {
-        "message": "Welcome to your new Internet",
-        "description": "Page title for the index page"
-    },
     "faq-meta-title": {
-        "message": "Frequently Asked Questions",
+        "message": "Các câu hỏi thường gặp",
         "description": "meta title for the FAQ page"
     },
-    "about-privacy-head": {
-        "message": "Privacy Policy",
-        "description": ""
-    },
-    "faq-failed-connect-polipo-question": {
-        "message": "In SSH mode for Psiphon for Windows, I see the error message \"Failed to connect to Polipo\". What can I do?",
-        "description": ""
-    },
     "faq-ssh-plus-answer-para-1": {
-        "message": "SSH+ is SSH mode with the addition of an obfuscation layer on top of the SSH handshake to defend against protocol fingerprinting. A description of the protocol can be found <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">here</a>.",
+        "message": "Psiphon uses SSH with the addition of an obfuscation layer on top of the SSH handshake to defend against protocol fingerprinting. A description of the protocol can be found <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">here</a>.",
         "description": ""
     },
     "license-title": {
@@ -508,7 +528,7 @@
         "description": ""
     },
     "open-source-title": {
-        "message": "Open Source",
+        "message": "Nguồn mở",
         "description": ""
     },
     "license-terms-of-use-para": {
@@ -516,7 +536,7 @@
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "How do I configure applications to use the Psiphon tunnel in SSH modes?",
+        "message": "Làm thế nào tôi cấu hình các ứng dụng để sử dụng đường hầm Psiphon?",
         "description": ""
     },
     "page-keyword-circumvention": {
@@ -524,7 +544,11 @@
         "description": "web page meta keyword used for SEO"
     },
     "open-source-meta-title": {
-        "message": "Open Source",
+        "message": "Nguồn mở",
+        "description": ""
+    },
+    "privacy-bulletin-entry-2-why-doing": {
+        "message": "The <a href=\"privacy.html\">Privacy Policy</a> page is now the only place users need to check for Psiphon's privacy and data collection policies. It has been updated to reflect use of advertisements, analytics, and logging for some of our websites.",
         "description": ""
     },
     "license-para-1": {
@@ -536,11 +560,11 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
     },
     "user-guide-windows-head": {
-        "message": "Psiphon for Windows",
+        "message": "Psiphon dành cho Windows",
         "description": "heading for the Android section of the User Guide"
     },
     "footer-copyright": {
-        "message": "Copyright",
+        "message": "Bản quyền",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
     "privacy-bulletin-intro-para-1": {
@@ -548,7 +572,7 @@
         "description": ""
     },
     "user-guide-title": {
-        "message": "How to Use Psiphon",
+        "message": "Làm thế nào để sử dụng Psiphon",
         "description": "page title for the user guide page"
     },
     "faq-description": {
@@ -560,7 +584,7 @@
         "description": ""
     },
     "user-guide-android-image-3-annotation-5": {
-        "message": "Open new tab",
+        "message": "Mởi tab mới",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
     },
     "download-via-email-description": {
@@ -568,7 +592,7 @@
         "description": ""
     },
     "download-via-email-head": {
-        "message": "Download via Email",
+        "message": "Tải qua email",
         "description": ""
     },
     "donate-body": {
@@ -576,23 +600,23 @@
         "description": "The body of the page section that shows the donation buttons"
     },
     "faq-information-collected-answer-para-13-item-3": {
-        "message": "The size of the email.",
+        "message": "Kích cỡ của email",
         "description": ""
     },
     "download-windows-direct": {
-        "message": "Psiphon for Windows",
+        "message": "Psiphon dành cho Windows",
         "description": "text for link to Psiphon for Windows download"
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "Whether your phone is rooted",
+        "message": "Whether your device is rooted",
         "description": ""
     },
     "sponsor-para-2": {
-        "message": "You will see a banner of your choice, which will be linked to a page on your site. This is a unique opportunity to reach a large audience of technically-aware people using Psiphon to add a layer of security to their Internet browsing.",
+        "message": "Bạn sẽ thấy một biểu ngữ lựa chọn của bạn, mà sẽ được liên kết đến một trang trên trang web của bạn. Đây là cơ hội duy nhất để đạt được một lượng lớn khán giả những người có ý thức về mặt kỹ thuật sử dụng Psiphon để thêm vào một lớp bảo mật cho trình duyệt Internet của họ.",
         "description": ""
     },
     "page-keyword-how-to": {
-        "message": "how to",
+        "message": "làm thế nào",
         "description": "web page meta keyword used for SEO"
     },
     "sponsor-description": {
@@ -600,7 +624,7 @@
         "description": "Page description for the Sponsorship page"
     },
     "about-get-latest-info-para-1-list-start": {
-        "message": "Join our mailing lists:",
+        "message": "Tham gia vào danh sách gửi thư của chúng tôi:",
         "description": ""
     },
     "faq-information-collected-answer-para-9": {
@@ -612,7 +636,7 @@
         "description": ""
     },
     "nav-language-title": {
-        "message": "Choose your language",
+        "message": "Lựa chọn ngôn ngữ của bạn",
         "description": ""
     },
     "user-guide-android-para-4": {
@@ -624,11 +648,11 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-windows-para-2": {
-        "message": "Psiphon automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPSec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting).",
+        "message": "Psiphon tự động bắt đầu kết nối khi bạn chạy nó. Trong khi nó được kết nối, một biểu tượng quay vòng sẽ được hiển thị. Bạn có thể chọn một trong các chế độ đường hầm sau: VPN (L2TP qua IPSec), SSH, hoặc SSH + (SSH che, một lớp ngẫu nhiên bên trên SSH để tránh giao thức lấy dấu tay).",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
+        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this is \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -664,7 +688,7 @@
         "description": ""
     },
     "main-pick-three-head-1": {
-        "message": "Trust, Speed, Simplicity: pick three",
+        "message": "Tin cậy, tốc độ, đơn giản: chọn cả ba",
         "description": ""
     },
     "about-who-we-are-software-development-head": {
@@ -680,11 +704,11 @@
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Grey</span>: connecting<br><span style=\"color:red\">Red</span>: not connected<br><span style=\"color:Blue\">Blue</span>: connected",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the coloured status icon in the middle of the Status panel"
+        "message": "Màu xám: đang kết nối\nĐỏ: Không kết nối được\nXanh: Đã kết nối",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
     },
     "privacy-bulletin-entry-item-head-why-doing": {
-        "message": "Why we're doing it",
+        "message": "Tại sao chúng tôi làm",
         "description": ""
     },
     "generic-image-figcaption": {
@@ -700,11 +724,11 @@
         "description": ""
     },
     "resources-nav-title": {
-        "message": "Resources",
+        "message": "Các nguồn",
         "description": "title for the Resources"
     },
     "user-guide-windows-image-3-alt": {
-        "message": "Image showing Psiphon connected on Windows",
+        "message": "Hình ảnh cho thấy Psiphon đã được kết nối trên Windows",
         "description": "alt text for an image"
     },
     "blog-index-subscribe": {
@@ -712,12 +736,8 @@
         "description": ""
     },
     "page-keyword-donate": {
-        "message": "donate",
+        "message": "quyên góp",
         "description": "web page meta keyword used for SEO"
-    },
-    "faq-proxy-auth-answer-step-4": {
-        "message": "Set <code>UserSkipSSHParentProxySettings</code> to <code>0</code>.",
-        "description": ""
     },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "In order to install a direct download of Psiphon for Android, you must enable \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". To do so, go into your Android settings, then into the \"Security\" section, then enable \"Unknown sources\".",
@@ -728,7 +748,7 @@
         "description": ""
     },
     "page-keyword-sponsor": {
-        "message": "sponsor",
+        "message": "tài trợ",
         "description": "web page meta keyword used for SEO"
     },
     "nav-title": {
@@ -739,8 +759,12 @@
         "message": "Psiphon for Windows auto-updates itself, and this process automatically verifies that each update is authentic.",
         "description": ""
     },
+    "faq-information-collected-answer-para-3b": {
+        "message": "User IP addresses are not collected by Psiphon servers in the normal course of operation. Psiphon does not require user accounts, so, by default, there is no collection of email addresses, usernames, or passwords.",
+        "description": ""
+    },
     "page-keyword-help": {
-        "message": "help",
+        "message": "giúp đỡ",
         "description": "web page meta keyword used for SEO"
     },
     "about-who-we-are-partners-head": {
@@ -760,7 +784,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-team": {
-        "message": "psiphon team",
+        "message": "nhóm psiphon",
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-13-item-1": {
@@ -768,23 +792,19 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon is running in VPN or Whole Device mode. All applications are tunneled through Psiphon.",
+        "message": "Psiphon đang chạy trong chế độ VPN hay Toàn Thiết Bị. Tất cả các ứng dựng đã được tạo đường hầm qua Psiphon.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "Since 2008, Psiphon has helped millions of people in restricted-freedom countries around the world safely access censored knowledge and ideas. Now Psiphon can do the same for you.",
+        "message": "Kể từ năm 2008, Psiphon đã giúp hàng triệu người ở các nước bị hạn chế tự do trên toàn thế giới tiếp cận một cách an toàn những kiến thức và ý tưởng bị kiểm duyệt. Bây giờ Psiphon có thể làm tương tự cho bạn.",
         "description": ""
     },
     "about-title": {
-        "message": "About Us",
+        "message": "Về chúng tôi",
         "description": "page title for the About page"
     },
     "faq-information-collected-answer-para-8-item-1": {
-        "message": "Android version",
-        "description": ""
-    },
-    "faq-proxy-auth-question-toc": {
-        "message": "How do I configure Psiphon to connect through a proxy with authentication?",
+        "message": "Phiên bản Android",
         "description": ""
     },
     "privacy-bulletin-entry-1-how-many-users": {
@@ -796,7 +816,7 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
-        "message": "As the user, you are free to terminate this license agreement at any time by discontinuing use of any and all parts of the Psiphon service, and deleting all instances of the software application from your device.",
+        "message": "Là người sử dụng, bạn được tự do chấm dứt thỏa thuận cấp phép này bất cứ lúc nào bằng cách ngừng sử dụng bất kỳ và tất cả các bộ phận của dịch vụ Psiphon và xóa tất cả các thực thể của các ứng dụng phần mềm từ thiết bị của bạn.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-5": {
@@ -804,7 +824,7 @@
         "description": ""
     },
     "faq-orig-file-purpose-question": {
-        "message": "What is the file \"psiphon3.exe.orig\"?",
+        "message": "Tập tin  \"psiphon3.exe.orig\" là gì?",
         "description": ""
     },
     "index-meta-title": {
@@ -812,7 +832,7 @@
         "description": "Meta title for the index page"
     },
     "faq-information-collected-answer-para-8-item-2": {
-        "message": "Model of phone",
+        "message": "Device model",
         "description": ""
     },
     "page-keyword-play-store": {
@@ -820,7 +840,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "license-termination-terms-of-service-violations-header": {
-        "message": "Termination; Terms of Service Violations",
+        "message": "Chấm dứt; Các điều khoản vi phạm dịch vụ",
         "description": ""
     },
     "user-guide-android-image-3-annotation-1": {
@@ -828,7 +848,7 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
     },
     "blog-index-posts-in-your-language": {
-        "message": "Posts in your language",
+        "message": "Các bài viết bằng ngôn ngữ của bạn",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "faq-isp-traffic-question": {
@@ -840,11 +860,11 @@
         "description": ""
     },
     "download-now-button": {
-        "message": "Download Now",
+        "message": "Tải ngay",
         "description": "The text on the Download Now button"
     },
     "blog-index-posts-in-english": {
-        "message": "Posts in English",
+        "message": "Các bài đăng bằng tiếng Anh",
         "description": "Heading for the list of blog posts that are available in English"
     },
     "user-guide-android-para-3": {
@@ -852,11 +872,11 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-5": {
-        "message": "Shows what version of Psiphon you are currently running",
+        "message": "HIển thị phiên bản Psiphon nào mà bạn hiện đang chạy",
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
     "open-source-nav-title": {
-        "message": "Open Source",
+        "message": "Nguồn mở",
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
@@ -872,23 +892,19 @@
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "Office of the Ontario Privacy Commissioner",
+        "message": "Office of the Information and Privacy Commissioner of Ontario",
         "description": ""
     },
     "about-who-we-are-ops-head": {
         "message": "Operations and Outreach",
         "description": ""
     },
-    "faq-proxy-auth-answer-para-3": {
-        "message": "Unfortunately, on Psiphon for Android we do not support HTTP proxy authentication at this time.",
-        "description": ""
-    },
     "faq-information-collected-answer-head-4": {
         "message": "App Stores",
-        "description": "this is referring to the general idea of app stores, like Google Play, Amazon AppStore, Apple App Store"
+        "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
     "privacy-bulletin-entry-item-head-what-doing": {
-        "message": "What we're doing",
+        "message": "Chúng tôi đang làm gì",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {
@@ -904,8 +920,8 @@
         "description": ""
     },
     "open-source-para-1": {
-        "message": "Psiphon is an open source project. You can find source code and design documents on the <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system\">project home page</a>.",
-        "description": ""
+        "message": "Psiphon is an open source project. You can find source code and design documents on our Bitbucket and Github project pages.",
+        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
     },
     "main-gets-you-where-you-want-head-2": {
         "message": "Censored by your country, corporation, or campus?",
@@ -920,7 +936,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
-        "message": "The mail server the email request came from. (Specifically, the three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)",
+        "message": "The mail server the email request came from. (The three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)",
         "description": ""
     },
     "page-keyword-manual": {
@@ -931,9 +947,9 @@
         "message": "The data will be retained no more than one week. We will be keeping the count of users longer -- possibly indefinitely.",
         "description": ""
     },
-    "faq-polipo-different-port-answer-para-1": {
-        "message": "Yes, on Windows. Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>UserLocalHTTPProxyPort</code>. Set its value to the port (in Decimal) that you would like to use.",
-        "description": ""
+    "privacy-information-collected-websites-head": {
+        "message": "Websites",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
         "message": "Site content licensed under",
@@ -948,11 +964,11 @@
         "description": "text for link to Psiphon for Android in the Google Play Store"
     },
     "page-keyword-contact": {
-        "message": "contact",
+        "message": "liên lạc",
         "description": "web page meta keyword used for SEO"
     },
     "download-title": {
-        "message": "Download Psiphon",
+        "message": "Tải Psiphon",
         "description": "page title for the download page"
     },
     "faq-authentic-android-answer-para-1": {
@@ -960,7 +976,7 @@
         "description": ""
     },
     "download-android-direct": {
-        "message": "Psiphon for Android direct download",
+        "message": "Psiphon để tải trực tiếp cho Android",
         "description": "text for link to Psiphon for Android direct download"
     },
     "page-keyword-home-page": {
@@ -968,7 +984,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-6": {
-        "message": "When you choose to submit feedback through Psiphon you will have the option of including diagnostic data. We use this data to help us troubleshoot any problems you might be having and to help us keep Psiphon running smoothly. Sending this data is entirely optional. The data is encrypted before you send it, and can only be decrypted by us. The information in the data varies by platform, but it may include:",
+        "message": "Khi bạn chọn để gửi thông tin phản hồi thông qua Psiphon, bạn sẽ có tùy chọn bao gồm dữ liệu chẩn đoán. Chúng tôi sử dụng dữ liệu này để giúp chúng tôi tháo gỡ bất kỳ vấn đề nào mà bạn có thể gặp phải và để giúp chúng tôi giữ cho Psiphon chạy trơn tru. Việc gửi dữ liệu này hoàn toàn là tùy chọn. Các dữ liệu được mã hóa trước khi bạn gửi nó đi và chỉ có thể được giải mã bởi chúng tôi. Thông tin trong các dữ liệu thay đổi theo nền, nhưng nó có thể bao gồm:",
         "description": ""
     },
     "about-who-we-are-head": {
@@ -976,7 +992,7 @@
         "description": ""
     },
     "faq-browser-compatibility-answer-para-1": {
-        "message": "Yes. In SSH modes, check your browser settings and make sure that it is configured to use the system proxy settings.",
+        "message": "Đúng. Kiểm tra các thiết lập trình duyệt của bạn và chắc chắn là nó được cấu hình để dùng các thiết lập proxy hệ thống.",
         "description": ""
     },
     "faq-information-collected-answer-para-8-list-start": {
@@ -988,7 +1004,7 @@
         "description": ""
     },
     "download-android-amazon": {
-        "message": "Psiphon for Android in the Amazon AppStore",
+        "message": "Psiphon dành cho Android trong Amazon AppStore",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "user-guide-windows-image-1-alt": {
@@ -996,15 +1012,15 @@
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
-        "message": "If you do not have access to the Google Play Store, you can download and install (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideload</a>\") Psiphon for Android directly.",
+        "message": "Nếu bạn không có truy cập vào Google Play Store, bạn có thể tải và cài đặt (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideload</a>\") Psiphon dành trực tiếp cho Android.",
         "description": ""
     },
     "page-keyword-user-guide": {
-        "message": "user guide",
+        "message": "hướng dẫn sử dụng",
         "description": "web page meta keyword used for SEO"
     },
     "about-meta-title": {
-        "message": "About Us",
+        "message": "Về chúng tôi",
         "description": "meta title for the About page"
     },
     "faq-information-collected-answer-para-13-item-2": {
@@ -1016,7 +1032,7 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Outbound connections from the Psiphon for Windows VPN can be made only on the following ports: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25 and 587. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information.",
+        "message": "Các kết nối đi ra từ Psiphon dành cho Windows VPN chỉ có thể được thực hiện ở các cổng sau: 53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999. Hãy xem phần thảo luận để biết thêm chi tiết. Gửi thư cho khách hàng không thể thiết lập các kết nối đi ra trên các cổng 25 và 587. Hãy xem phần thảo luận để biết thêm chi tiết.",
         "description": ""
     },
     "download-android-playstore-description": {
@@ -1025,18 +1041,14 @@
     },
     "download-store-head": {
         "message": "App Store Downloads",
-        "description": "This refers to Google Play, Amazon's AppStore, and any similar app stores"
+        "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
     },
     "sponsor-meta-title": {
         "message": "Sponsorship, advertising, and donations",
         "description": "Page title for the Sponsorship page"
     },
     "faq-check-version-question": {
-        "message": "How do I check my current version of Psiphon?",
-        "description": ""
-    },
-    "faq-proxy-auth-answer-step-1": {
-        "message": "Run <code>regedit.exe</code>.",
+        "message": "Tôi có thể kiểm tra phiên bản hiện tại của Psiphon bằng cách nào?",
         "description": ""
     },
     "site-title": {
@@ -1044,7 +1056,7 @@
         "description": "the title for the site"
     },
     "sponsor-header-sponsored-by": {
-        "message": "Sponsored by",
+        "message": "Được tài trợ bởi",
         "description": ""
     },
     "page-keyword-privacy": {
@@ -1052,11 +1064,11 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "Psiphon will automatically configure your system to use a local HTTP/HTTPS proxy at <code>127.0.0.1:8080</code> and a local SOCKS proxy at <code>127.0.0.1:1080</code>. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon for Windows (SSH modes) and Psiphon for Android run these local proxies.",
+        "message": "Psiphon will automatically configure your system to use a local HTTP/HTTPS proxy and a local SOCKS proxy. The port numbers for these proxies are chosen randomly, unless specified in the Psiphon settings. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon for Windows and Psiphon for Android run these local proxies.",
         "description": ""
     },
     "faq-vpn-protocol-answer-para-1": {
-        "message": "Psiphon uses the L2TP/IPSec VPN protocol. Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPSec or L2TP pass-through is enabled. Your system’s IPSec Services may be disabled; check your service settings and enable this service to start automatically.",
+        "message": "Psiphon sử dụng giao thức L2TP/IPSec VPN. Tường lửa mạng của bạn có thể không cho phép sử dụng VPN. Router nhà của bạn có thể không được cấu hình để vượt qua giao thức VPN này; kiểm tra các thiết lập tường lửa của bạn để xem IPSec hay L2TP pass-through được kích hoạt. Các dịch vụ IPSec của hệ thống của bạn có thể bị vô hiệu; kiểm tra các thiết lập dịch vụ của bạn và kích hoạt dịch vụ này để tự động khởi động.",
         "description": ""
     },
     "license-distribution-header": {
@@ -1064,15 +1076,19 @@
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-2": {
-        "message": "Anti-virus version",
+        "message": "Phiên bản chống virus",
         "description": ""
     },
     "sponsor-para-1": {
-        "message": "Everyone who loads Psiphon will see the landing page whenever they connect with the software. Sponsorship opportunities are available by the week for this page.",
+        "message": "Tất cả những người nạp Psiphon sẽ thấy các trang đích bất cứ khi nào họ kết nối với phần mềm. Các cơ hội tài trợ có sẵn vào tuần lễ dành cho trang này.",
         "description": ""
     },
     "faq-autoproxy-question": {
         "message": "I use <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. How can I tell Psiphon for Windows not to configure my system proxy settings?",
+        "description": ""
+    },
+    "privacy-information-collected-websites-google-analytics-para-3": {
+        "message": "Google’s ability to use and share information collected by Google Analytics about your visits to this site is restricted by the <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Google Analytics Terms of Use</a> and the <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Google Privacy Policy</a>. You may choose to opt out by turning off cookies in the preferences settings in your web browser.",
         "description": ""
     },
     "faq-isp-traffic-question-toc": {
@@ -1080,19 +1096,19 @@
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "Psiphon restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"http://blogs.mcafee.com/mcafee-labs/dnschanger-trojans-v40\">here</a>.",
+        "message": "Psiphon restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">here</a>.",
         "description": ""
     },
     "about-get-latest-info-head": {
-        "message": "Get the latest information about Psiphon",
+        "message": "Nhận thông tin mới nhất về Psiphon",
         "description": ""
     },
     "user-guide-windows-image-2-alt": {
-        "message": "Image showing Psiphon starting up on Windows",
+        "message": "Hình ảnh cho thấy Psiphon đang khởi động trên Windows",
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
-        "message": "The automatic update process in Psiphon for Windows renames its old version to \"psiphon3.exe.orig\". Old files with the \".orig\" suffix can safely be deleted.",
+        "message": "Quá trình cập nhật tự động trong Psiphon cho Windows đặt lại tên cho phiên bản cũ \"psiphon3.exe.orig\". Các tập tin cũ với đuôi \".orig\" có thể bị xóa một cách an toàn.",
         "description": ""
     },
     "privacy-bulletin-entry-1-why-doing": {
@@ -1105,10 +1121,6 @@
     },
     "about-who-we-are-exec-team-para-2": {
         "message": "Karl Kathuria is the VP of Commercial Management, and has recently joined the team in Toronto from London. He is responsible for managing the business relationships with our broadcast and distribution partners, and for finding new opportunities for the company’s activities.",
-        "description": ""
-    },
-    "faq-polipo-different-port-question": {
-        "message": "Can I run the local HTTP proxy on a different port than 8080?",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-2": {
@@ -1124,7 +1136,7 @@
         "description": ""
     },
     "user-guide-windows-para-4": {
-        "message": "In SSH and SSH+ modes, Psiphon automatically sets the Windows system proxy settings and traffic for applications that respect these settings tunnel through Psiphon. These settings are respected by default by all major web browsers.",
+        "message": "In SSH and SSH+ modes, Psiphon automatically sets the Windows system proxy settings, so network traffic for applications that respect these settings will be tunneled through Psiphon. These settings are respected by default by all major web browsers.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1140,23 +1152,23 @@
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "Image showing Psiphon running on Android, on the statistics panel",
+        "message": "Hình ảnh cho thấy Psiphon đang chạy trên Android, trên bảng thống kê",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-head-1": {
-        "message": "Psiphon Servers",
+        "message": "Các máy chủ Psiphon",
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon already serves the files in the website S3 bucket, so they can already access this information.)",
+        "message": "The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon serves the files, so they can already access this information.)",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "When Psiphon starts, it displays the Client Version on the first line of output.",
+        "message": "Khi Psiphon khởi động, nó hiển thị Phiên bản Khách hàng trên dòng đầu tiên của đăng nhập đầu ra.",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-2": {
-        "message": "Status Tab is selected",
+        "message": "Thanh Status đã được chọn",
         "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
     },
     "faq-authentic-android-answer-alert": {
@@ -1168,11 +1180,11 @@
         "description": ""
     },
     "page-keyword-http-proxy": {
-        "message": "http proxy",
+        "message": "proxy http",
         "description": "web page meta keyword used for SEO"
     },
     "about-nav-title": {
-        "message": "About Us",
+        "message": "Về chúng tôi",
         "description": "text for the About page navigation item"
     },
     "faq-information-collected-answer-para-2-item-3": {
@@ -1184,12 +1196,16 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-1": {
-        "message": "Psiphon reserves the right at its sole discretion to terminate this license at any time for any or no reason, and without penalty. By using Psiphon, you agree not to use the service in any manner that violates the terms of service and license agreement.",
+        "message": "Psiphon giữ quyền đơn phương chấm dứt giấy phép này bất kỳ lúc nào vì bất kỳ hoặc không có lý do nào và không bị phạt. Với việc dùng Psiphon, bạn đồng ý không sử dụng dịch vụ dưới bất cứ phương cách nào vi phạm các điều khoản của dịch vụ và giấy phép.",
         "description": ""
     },
     "user-guide-android-image-3-annotation-3": {
-        "message": "Close current tab",
+        "message": "Đóng tab hiện tại",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
+    },
+    "privacy-nav-title": {
+        "message": "Privacy Policy",
+        "description": "text for the Privacy Policy page navigation item"
     },
     "sponsor-para-3": {
         "message": "For more information, send an email to <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
@@ -1200,7 +1216,7 @@
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "Furthermore, in SSH and SSH+ modes, Psiphon offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy...” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area.",
+        "message": "Hơn nữa, trong chế độ SSH và SSH+, Psiphon cung cấp một tùy chọn  đường hầm tách, nơi lưu lượng giao thông quốc tế được tạo đường hầm thông qua proxy và lưu lượng giao thông nội địa thì không. Kiểm tra tùy chọn “Don’t proxy domestic web sites”  để kích hoạt đường hầm tách. Khi tùy chọn này được bật lên, các miền không được proxy được thông báo trong khu vực tin nhắn.",
         "description": ""
     },
     "license-distribution-para": {
@@ -1208,7 +1224,7 @@
         "description": ""
     },
     "user-guide-android-image-1-alt": {
-        "message": "Image showing the Android setting for allowing non-Play Store apps",
+        "message": "Hình ảnh cho thấy thiết lập Android cho phép các ứng dụng không có trong Play Store",
         "description": "alt text for an image"
     },
     "page-keyword-contribute": {
@@ -1220,20 +1236,20 @@
         "description": ""
     },
     "user-guide-android-para-verify-authentic": {
-        "message": "You should first <a href=\"./faq.html#authentic-android\">verify that your copy of Psiphon for Android is authentic</a>.",
+        "message": "Đầu tiên, bạn nên xác minh là bản sao Psiphon dành cho Android của bạn là xác thực.",
         "description": ""
     },
-    "faq-proxy-auth-answer-step-2": {
-        "message": "Navigate to <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>.",
+    "privacy-information-collected-s3-logging-para-2": {
+        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already serves the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate it and will not be shared with third parties.",
         "description": ""
     },
     "download-description": {
         "message": "Direct, free Psiphon download for Windows and Android",
         "description": "title for the download page"
     },
-    "faq-proxy-auth-answer-step-3": {
-        "message": "Edit the following values:<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyHostname</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPort</code> (make sure to enter the port number in <code>Decimal</code>)<br>\n&nbsp;&nbsp;<code>UserSSHParentProxyUsername</code><br>\n&nbsp;&nbsp;<code>UserSSHParentProxyPassword</code>",
-        "description": ""
+    "privacy-information-collected-websites-google-analytics-head": {
+        "message": "Google Analytics",
+        "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
     },
     "download-direct-head": {
         "message": "Direct Downloads",
@@ -1248,7 +1264,7 @@
         "description": ""
     },
     "user-guide-windows-para-6": {
-        "message": "When you close the program, Psiphon automatically disconnects. You can also click on the icon to toggle the connection.",
+        "message": "Khi bạn đóng chương trình, Psiphon tự động ngắt kết nối. Bạn cũng có thể nhấp vào biểu tượng để chuyển đối kết nối.",
         "description": ""
     },
     "faq-information-collected-answer-para-1": {
@@ -1260,7 +1276,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
     },
     "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Logs of Psiphon activity",
+        "message": "Psiphon activity logs",
         "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     }
 }
