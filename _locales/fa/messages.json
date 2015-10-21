@@ -16,7 +16,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "Office of the Privacy Commissioner of Canada",
+        "message": "دفتر کمیساریای حفظ حریم خصوصی کانادا",
         "description": ""
     },
     "faq-vpn-protocol-question": {
@@ -40,7 +40,7 @@
         "description": ""
     },
     "user-guide-android-para-1": {
-        "message": "Click on a Psiphon APK link from within your Android email client or web browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)",
+        "message": "از طریق کلاینت ایمیل اندروید یا مرورگر خود بر روی لینک APK سایفون کلیک کنید تا مراحل نصب آغاز شود. (اگر پیام اخطاری دریافت کردید، ممکن است مجبور شوید  <a href=\"./faq.html#android-enable-sideloading\">ساید لودینگ</a> را فعال کنید.)",
         "description": ""
     },
     "about-contact-head": {
@@ -84,11 +84,11 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
-        "message": "Google Analytics plants a permanent cookie on your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
+        "message": "گوگل آنالیتیک یک کوکی دائمی را بر روی مرورگر وب شما قرار می دهد تا بتواند شما را به عنوان یک کاربر یکسان در بازدیدهای بعدی شناسایی کند. اما این کوکی نمی تواند توسط هیچ کس به جز گوگل مورد استفاده قرار بگیرد و اطلاعات به دست آمده نمی تواند برای سرویس های دیگر بر روی دیگر دامنه ها مورد استفاده قرار بگیرد و یا مشابه سازی شود.",
         "description": ""
     },
     "open-source-description": {
-        "message": "Psiphon is open source Internet censorship circumvention software",
+        "message": "سایفون یک نرم افزار متن باز عبور از سانسور اینترنت است",
         "description": ""
     },
     "privacy-para-2": {
@@ -144,7 +144,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-1": {
-        "message": "We use Google Analytics on some of our websites to collect information about usage. The information collected by Google Analytics will only be used for statistical analysis related to your browsing behaviour on this specific site. The information we obtain from Google Analytics is not personally identifying, nor is it combined with information from other sources to create personally identifying information.",
+        "message": "ما از گوگل آنالیتیک به منظور جمع آوری اطلاعات مصرفی بر روی برخی از وب سایت هایمان استفاده می کنیم. اطلاعات به دست آمده از گوگل آنالیتیک تنها به منظور تحلیل آماری مرتبط با رفتار شما در همان سایت به خصوص استفاده می شود. این اطلاعات به دست آمده حاوی اطلاعات شناسایی فردی نیستند و با اطلاعات به دست آمده از هیچ منبع دیگری که فرد را قابل شناسایی کند ادغام نمی شوند.",
         "description": ""
     },
     "faq-port-restrictions-question": {
@@ -188,7 +188,7 @@
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPSec which is the protocol used by Psiphon in VPN mode. Try disabling VPN mode.",
+        "message": "برخی از سخت افزارهای شبکه و یا ارتباطات اینترنت مشکلاتی را برای L2TP/IPSec که پروتکل های مورد استفاده در حالت وی پی ان سایفون است به وجود می آورد. حالت وی پی ان را غیر فعال کرده و مجددا تلاش کنید.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -208,11 +208,11 @@
         "description": "text for link to the Psiphon Announcements mailing list"
     },
     "privacy-bulletin-entry-2-what-doing": {
-        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. This includes merging into it the answer to the FAQ question \"What information does Psiphon collect?\".",
+        "message": "ما در حال به روز رسانی <a href=\"privacy.html\">سیاست های حفظ حریم خصوصی</a> هستیم. این مساله شامل تغییر در سوال \"سایفون چه اطلاعاتی را جمع آوری می کند؟\" در بخش سوالات متداول نیز می شود.",
         "description": ""
     },
     "about-description": {
-        "message": "Meet the team behind Psiphon's Internet censorship circumvention software",
+        "message": "با تیمی که نرم افزار عبور از فیلتر سایفون را طراحی کرده اند، دیدار کنید",
         "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
@@ -220,8 +220,8 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-head": {
-        "message": "Storage Remote Access Logging",
-        "description": "Sub-heading for section describing use of logging access to remote storage (aka S3 bucket logging)"
+        "message": "سیاهه برداری از دسترسی به ذخیره سازی ها",
+        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
         "message": "چرا پیغام \" خطا در برقراری ارتباط \" را مرتباً دریافت می‌کنم؟",
@@ -248,7 +248,7 @@
         "description": "Page title for the Sponsorship page"
     },
     "about-who-we-are-partners-para-1": {
-        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our software in 15 languages, and are adding more to our products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Localization Lab hub.",
+        "message": "سایفون از نزدیک با گروه های مختلفی به منظور دریافت پشتیبانی و همین طور توصیه به کاربران برای استفاده دائمی از سایفون همکاری می کند. ما تا کنون سایفون را به 15 زبان ترجمه کرده ایم و ترجمه های بیشتری از طریق  <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">ترنزیفکس</a> به عنوان بخشی از فعالیت های سیتیزن لب در راه است. ",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
@@ -260,7 +260,7 @@
         "description": ""
     },
     "faq-information-collected-answer-redirect": {
-        "message": "Please see our <a href=\"privacy.html\">Privacy Policy</a> to learn about what information we collect.",
+        "message": "لطفا به منظور مشاهده اطلاعاتی که ما جمع آوری می کنیم، صفحه <a href=\"privacy.html\">سیاست های حفظ حریم خصوصی</a> را مشاهده کنید.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
     },
     "donate-heading": {
@@ -272,7 +272,7 @@
         "description": "meta title for the user guide page"
     },
     "faq-autoproxy-answer-para-1": {
-        "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>SkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings.",
+        "message": "بر روی Run کلیک کرده و <code>regedit</code> را تایپ کنید تا به رجیستری بروید.  <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> را یافته و باز کنید، سپس در سمت راست <code>SkipProxySettings</code> را خواهید دید. مقدار این بخش را <code>1</code> بگذارید. سایفون دیگر به صورت خودکار تنظیمات پروکسی سیستم تان را تغییر نخواهد داد. ",
         "description": ""
     },
     "user-guide-android-head": {
@@ -292,7 +292,7 @@
         "description": "title for the FAQ page"
     },
     "privacy-information-collected-s3-logging-para-1": {
-        "message": "We use Amazon S3 to store assets such as website files and Psiphon server discovery lists. We sometimes enable logging of downloads of these files. Analyzing these logs helps us to answer questions like \"how many users are starting but not completing the download of the server discovery list?\", \"how is the downloaded data split between website assets and server discovery?\", and \"is an attacker making a denial-of-service attempt against our websites?\"",
+        "message": "ما از آمازون S3 به منظور ذخیره برخی از موارد مانند فایل های وب سایت ها و لیست کاشف سرور سایفون استفاده می کنیم و گاهی سیاهه برداری از دانلود این فایل ها را فعال می سازیم. تحلیل این سیاهه ها به ما کمک می کند که به سوالاتی مانند \"چه تعداد کاربر دانلود لیست کاشف را آغاز کرده اند، اما به پایان نبرده اند؟\"، \"دانلود داده ها چطور بین بخش های وب سایت و سرور کاشف تقسیم شده است؟\"، و \"آیا یک مهاجم سعی دارد حمله محروم سازی از سرویس علیه وب سایت های ما انجام دهد؟\" پاسخ دهیم.",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
@@ -304,7 +304,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-4": {
-        "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type. Page views are aggregated by time and/or session before being logged.",
+        "message": "سیاهه وقایع شامل مختصات زمانی، کد منطقه ای (کشور و شهر) و اطلاعات غیرقابل شناسایی مانند کد شناسایی اسپانسر (که مشخص می کند از کدام نسخه کلاینت سایفون استفاده شده)، نسخه کلاینت و نوع پروتکل است. صفحات مشاهده شده پیش از ثبت در سیاهه، به ترتیب زمانی و یا فصلی جمع آوری می شوند.",
         "description": ""
     },
     "page-keyword-blog": {
@@ -324,7 +324,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-2-when-doing": {
-        "message": "This is in effect by at least 2015-06-01T00:00Z.",
+        "message": "این تغییرات از 2015-06-01T00:00Z موثر هستند.",
         "description": ""
     },
     "alert-body": {
@@ -340,7 +340,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "Only in VPN mode. After a successful connection is established in VPN mode, your entire computer’s traffic will pass through the Psiphon network. When VPN mode is not enabled only applications that use the local HTTP and SOCKS proxies will be proxied.",
+        "message": "فقط در حالت وی پی ان. بعد از این که در حالت وی پی ان، ارتباط برقرار شود، کل ترافیک کامپیوتر از شبکه سایفون عبور خواهد کرد. زمانی که حالت وی پی ان فعال نباشد، تنها نرم افزارهایی که از local HTTP و پراکسی SOCKS استفاده می کنند، پراکسی خواهند شد.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-8": {
@@ -384,7 +384,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted device.<br><br>This option will be unavailable for non-rooted devices with an older version of Android.",
+        "message": "برای اجرای سایفون در حالت تونل کردن کل دستگاه، باید از یک دستگاه روت شده و یا اندروید نسخه 4.0 به بعد استفاده شود. <br><br> این امکان برای دستگاه های اندرویدی روت نشده با نسخه های قدیمی تر اندروید در دسترس نیست.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "faq-isp-traffic-answer-para-1": {
@@ -392,7 +392,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some modes and configurations all of your Internet traffic might not be tunneled through Psiphon -- for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
+        "message": "هرچند باید این نکته را در ذهن داشته باشید که سایفون به هدف دور زدن سانسور طراحی شده است و نه به عنوان ابزاری برای عدم رهگیری در اینترنت. سایفون از جمع آوری تاریخچه و کوکی ها توسط مرورگر بر روی کامپیوتر کاربر جلوگیری نمی کند. و همین طور در برخی موارد و بعضی تنظیمات، ممکن است کل ترافیک توسط سایفون تونل نشود. از این دست مشکلات می توان به تنظیمات اشتباه پروکسی و یا باز گذاردن مرورگر پس از بستن سایفون اشاره کرد. ",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
@@ -432,7 +432,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-10": {
-        "message": "Note that if you get Psiphon from an \"app store\", such as the Google Play Store or Amazon AppStore, additional statistics may be collected by that store. For example, here is a description of what the Google Play Store collects:",
+        "message": "توجه داشته باشید که اگر سایفون را از یک اپ استور مانند گوگل پلی و یا اپ استور آمازون دانلود کنید، ممکن است اطلاعات آماری دیگری نیز توسط آن اپ استور از شما جمع آوری شود. به طور مثال، در ادامه مواردی که فروشگاه گوگل پلی جمع آوری می کند آورده شده است:",
         "description": ""
     },
     "faq-nav-title": {
@@ -448,7 +448,7 @@
         "description": ""
     },
     "faq-browser-compatibility-question": {
-        "message": "Is Psiphon for Windows compatible with Internet Explorer, Firefox, and Chrome web browsers?",
+        "message": "آیا سایفون در ویندوز با مرورگرهای اینترنت اکسپلورر و کروم سازگار است؟",
         "description": ""
     },
     "page-keyword-landing-page": {
@@ -469,7 +469,7 @@
     },
     "psiphon": {
         "message": "سایفون",
-        "description": ""
+        "description": "The name of the product. Probably not translated or transliterated for most languages"
     },
     "download-meta-title": {
         "message": "دانلود برنامه اندروید و ویندوز",
@@ -504,7 +504,7 @@
         "description": "meta title for the FAQ page"
     },
     "faq-ssh-plus-answer-para-1": {
-        "message": "Psiphon uses SSH with the addition of an obfuscation layer on top of the SSH handshake to defend against protocol fingerprinting. A description of the protocol can be found <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">here</a>.",
+        "message": "سایفون از SSH به همراه یک لایه مبهم اضافی بر روی هندشیک SSH به منظور محافظت علیه اثر انگشت پروتکل استفاده می کند. در <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">اینجا</a> توضیحاتی درباره این پروتکل را می توانید بیابید.",
         "description": ""
     },
     "license-title": {
@@ -536,7 +536,7 @@
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "How do I configure applications to use the Psiphon tunnel?",
+        "message": "چطور می توانم برنامه ها را برای استفاده از تونل سایفون تنظیم کنم؟",
         "description": ""
     },
     "page-keyword-circumvention": {
@@ -548,7 +548,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-2-why-doing": {
-        "message": "The <a href=\"privacy.html\">Privacy Policy</a> page is now the only place users need to check for Psiphon's privacy and data collection policies. It has been updated to reflect use of advertisements, analytics, and logging for some of our websites.",
+        "message": "در حال حاضر صفحه <a href=\"privacy.html\">سیاست های حفظ حریم خصوصی</a> تنها مرجع کاربران است که در آن می توانند سیاست های جمع آوری داده و حریم خصوصی سایفون را بررسی کنند. این صفحه به منظور بازتاب نحوه استفاده از تبلیغات، آمارها و سیاهه ها بر روی سایت به روز رسانی شده است.",
         "description": ""
     },
     "license-para-1": {
@@ -608,7 +608,7 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "Whether your device is rooted",
+        "message": "این که آیا دستگاه شما روت شده است",
         "description": ""
     },
     "sponsor-para-2": {
@@ -652,7 +652,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this is \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
+        "message": "تکنیک های پیشرفته ای نیز وجود دارد که می تواند با مرور ترافیک رمزنگاری شده بخش هایی از آن را بخواند که از آن جمله می توان به وب سایت های بازدیدی اشاره کرد. مهم ترین مثال این مورد، <a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">انگشت نگاری از ترافیک</a> است.",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -760,7 +760,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-3b": {
-        "message": "User IP addresses are not collected by Psiphon servers in the normal course of operation. Psiphon does not require user accounts, so, by default, there is no collection of email addresses, usernames, or passwords.",
+        "message": "در وضعیت استفاده عمومی از سایفون، آدرس IP کاربران بر روی سرورهای سایفون ذخیره نمی شوند. سایفون به صورت پیش فرض از کاربران نام حساب کاربری نمی خواهد بنابراین هیچ اطلاعاتی مانند آدرس ایمیل ها، نام های کاربری و رمزهای عبور ذخیره نخواهند شد.",
         "description": ""
     },
     "page-keyword-help": {
@@ -796,7 +796,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "Since 2008, Psiphon has helped millions of people in freedom-restricted countries around the world safely access censored knowledge and ideas. Now Psiphon can do the same for you.",
+        "message": "از سال 2008، سایفون به میلیون ها نفر در کشورهایی با محدودیت آزادی در سراسر جهان کمک کرده است که به ایده ها و اطلاعات سانسور نشده دسترسی یابند. حال سایفون می تواند همین کار را برای شما نیز انجام دهد. ",
         "description": ""
     },
     "about-title": {
@@ -892,7 +892,7 @@
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "Office of the Information and Privacy Commissioner of Ontario",
+        "message": "اداره کمیساریای اطلاعات و حریم خصوصی آنتاریو",
         "description": ""
     },
     "about-who-we-are-ops-head": {
@@ -920,7 +920,7 @@
         "description": ""
     },
     "open-source-para-1": {
-        "message": "Psiphon is an open source project. You can find source code and design documents on our Bitbucket and Github project pages.",
+        "message": "سایفون یک پروژه متن باز است. می توانید کد منبع و مستندسازی طراحی ما را در بیت باکت و صفحه گت هاب پروژه مشاهده کنید.",
         "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
     },
     "main-gets-you-where-you-want-head-2": {
@@ -936,7 +936,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
-        "message": "The mail server the email request came from. (The three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)",
+        "message": "سرور پست الکترونیکی که درخواست های ایمیل از آن می آمد. (سه بخش انتهایی اصلی از یک نام دامنه، به عنوان مثال <code>ne1.example.com</code> و نه <code>web120113.mail.ne1.example.com</code>.",
         "description": ""
     },
     "page-keyword-manual": {
@@ -992,7 +992,7 @@
         "description": ""
     },
     "faq-browser-compatibility-answer-para-1": {
-        "message": "Yes. Check your browser settings and make sure that it is configured to use the system proxy settings.",
+        "message": "بله. تنظیمات مرورگر خود را بررسی کنید و مطمئن شوید که از تنظیمات پراکسی سیستم استفاده کند.",
         "description": ""
     },
     "faq-information-collected-answer-para-8-list-start": {
@@ -1064,7 +1064,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "Psiphon will automatically configure your system to use a local HTTP/HTTPS proxy and a local SOCKS proxy. The port numbers for these proxies are chosen randomly, unless specified in the Psiphon settings. Windows applications that use the System Proxy Settings will automatically be proxied. You may manually configure other applications to use these local proxies. Both Psiphon for Windows and Psiphon for Android run these local proxies.",
+        "message": "سایفون به شکل خودکار سیستم تان را برای استفاده از یک پروکسی محلی HTTP/HTTPS و پروکسی SOCKS محلی تنظیم می کند. اگر در تنظیمات سایفون، پورت خاصی در نظر گرفته نشده باشد، شماره پورت به طور شانسی انتخاب می شود. نرم افزارهایی که به طور خودکار از تنظیمات پروکسی ویندوز استفاده می کنند، پروکسی خواهند شد. شاید نیاز داشته باشید که برای برخی از نرم افزارها این تنظیمات را به صورت دستی انجام دهید. هر دو نسخه سایفون - ویندوز و اندروید - از این تنظیمات محلی پروکسی استفاده می کنند. ",
         "description": ""
     },
     "faq-vpn-protocol-answer-para-1": {
@@ -1088,7 +1088,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-3": {
-        "message": "Google’s ability to use and share information collected by Google Analytics about your visits to this site is restricted by the <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Google Analytics Terms of Use</a> and the <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Google Privacy Policy</a>. You may choose to opt out by turning off cookies in the preferences settings in your web browser.",
+        "message": "توانایی گوگل برای  استفاده و به اشتراک گذاری اطلاعات جمع آوری شده توسط گوگل آنالیتیک به <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">شرایط استفاده از گوگل آنالیتیک</a> و <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">سیاست های حفظ حریم خصوصی گوگل</a> محدود می شود. شما می توانید با خاموش کردن کوکی ها در بخش تنظیمات مرورگرتان این مساله را کنترل کنید.",
         "description": ""
     },
     "faq-isp-traffic-question-toc": {
@@ -1096,7 +1096,7 @@
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "Psiphon restricts DNS traffic to white-listed, vetted DNS servers. The Psiphon client automatically configures your VPN DNS server settings. If you're getting errors related to DNS, check that you're not infected by the \"DNS Changer\" malware, which tries to change your DNS server settings. More info can be found <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">here</a>.",
+        "message": "سایفون ترافیک دی ان اس را به یک لیست سفید از سرورهای دی ان اس تایید شده محدود می کند. کلاینت سایفون به شکل خودکار تنظیمات سرور دی ان اس VPN را انجام می دهد. اگر پیام های خطایی درباره دی ان اس دریافت می کنید، مطمئن شوید که به بدافزار \"DNS Changer\" آلوده نشده باشید، چرا که این بدافزار تلاش می کند تنظیمات دی ان اس شما را تغییر دهد. در <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">اینجا</a> می توانید به اطلاعات بیشتری دسترسی داشته باشید.",
         "description": ""
     },
     "about-get-latest-info-head": {
@@ -1136,7 +1136,7 @@
         "description": ""
     },
     "user-guide-windows-para-4": {
-        "message": "In SSH and SSH+ modes, Psiphon automatically sets the Windows system proxy settings, so network traffic for applications that respect these settings will be tunneled through Psiphon. These settings are respected by default by all major web browsers.",
+        "message": "در حالت SSH و SSH+، سایفون به طور خودکار تنظیمات پروکسی ویندوز را انجام می دهد، بنابراین ترافیک شبکه نرم افزارهایی که از این تنظیمات استفاده می کنند، از طریق سایفون تونل خواهد شد. این تنظیمات عموما توسط بیشتر مرورگرهای اصلی مورد استفاده قرار می گیرند. ",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1160,11 +1160,11 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "\nگزارش دسترسی ها در سطل S3 آمازون هم ذخیره می شود، بنابراین، آمازون به این گزارش ها دسترسی دارد. (هرچند باید گفت که آمازون فایل های موجود در سطل S3 آمازون را فراهم می کند، بنابراین خواه نا خواه به این اطلاعات دسترسی دارد.)",
+        "message": "سیاهه دسترسی ها در یک سطل S3 آمازون نیز ذخیره می شوند، بنابراین آمازون می تواند به سیاهه ها دسترسی داشته باشد. (یا به عبارت دیگر، آمازون میزبان فایل ها است، پس می تواند محتویات آن ها را نیز بخواند.)",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "When Psiphon starts, it displays the Client Version on the first line of log output.",
+        "message": "زمانی که سایفون باز شود، نسخه کلاینت را در اولین خط سیاهه خروجی نشان می دهد.",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-2": {
@@ -1216,7 +1216,7 @@
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "Furthermore, in SSH and SSH+ modes, Psiphon offers a split tunnel option where international traffic is tunneled through the proxy and domestic traffic is not. Check the “Don’t proxy domestic web sites” option to enable split tunneling. When this option is on, unproxied domains are reported in the message area.",
+        "message": "علاوه بر این، در حالت SSH و SSH+، سایفون امکان تقسیم تونل را فراهم می کند. در این حالت، ترافیک بین المللی تونل شده و ترافیک درون کشوری تونل نمی شود. به منظور فعال کردن این امکان، گزینه \"ترافیک داخلی را پراکسی نکن\" را فعال کنید. زمانی که این امکان فعال باشد، دامنه های پراکسی نشده در بخش پیام ها گزارش می شوند.",
         "description": ""
     },
     "license-distribution-para": {
@@ -1240,7 +1240,7 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already servers the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate and will not be shared with third parties.",
+        "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">صندوق سیاهه های دسترسی</a> S3 شامل آدرس های IP، عوامل کاربری و زمان بندی هاست. این سیاهه ها خود به خود بر روی S3 ذخیره می شوند، بنابراین آمازون به آن ها دسترسی دارد. (هرچند که آمازون به دلیل فراهم کردن این فایل ها، به آن ها از ابتدا دسترسی دارد.) توسعه دهندگان سایفون سیاهه ها را دانلود می کنند، داده ها را تحلیل کرده و سپس سیاهه ها را پاک می کنند. داده های خام تنها تا زمان کافی برای جمع آوری آن ها نگهداری می شوند و با هیچ گروه سوم شخصی به اشتراک گذاشته نخواهند شد.",
         "description": ""
     },
     "download-description": {
@@ -1268,7 +1268,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-1": {
-        "message": "We collect the following data to find out how well Psiphon is working, what sites are popular, and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries.",
+        "message": "ما این اطلاعات را جمع آوری می کنیم تا متوجه شویم که سایفون چطور کار می کند، سایت های محبوب کدامند و چه استراتژی های انتشاری موثر هستند. ما این داده ها را با شرکای خود به اشتراک می گذاریم تا به طور مثال متوجه شوند که هر از چندگاه از طریق سایفون سایت آن ها دیده شده است و این بازدیدها از چه کشورهایی بوده. ",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-4": {
@@ -1276,7 +1276,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
     },
     "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Psiphon activity logs",
+        "message": "سیاهه فعالیت های سایفون",
         "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     }
 }

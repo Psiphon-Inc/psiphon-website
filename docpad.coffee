@@ -164,7 +164,6 @@ docpadConfig = {
       android: '/PsiphonAndroid.apk'
       email: 'get@psiphon3.com'
       playstore: 'https://play.google.com/store/apps/details?id=com.psiphon3'
-      amazonappstore: 'http://www.amazon.com/gp/product/B00FAV9K4Q/ref=mas_pm_Psiphon'
 
     # -----------------------------
     # Helper Functions
