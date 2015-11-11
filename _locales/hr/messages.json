@@ -220,8 +220,8 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-head": {
-        "message": "Zapisi o udaljenom pristupanju pohrani",
-        "description": "Sub-heading for section describing use of logging access to remote storage (aka S3 bucket logging)"
+        "message": "Zapisivanje o pristupu pohrani",
+        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
         "message": "Zašto stalno iznova vidim poruku \"spajanje neuspjelo\"?",
@@ -469,7 +469,7 @@
     },
     "psiphon": {
         "message": "Psiphon",
-        "description": ""
+        "description": "The name of the product. Probably not translated or transliterated for most languages"
     },
     "download-meta-title": {
         "message": "Preuzmite Andorid aplikaciju i Windows klijent",
@@ -1160,7 +1160,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Zapisi o pristupima su također spremljeni u Amazon S3 kanti, tako da će im i Amazon imati pristup. (Kako bilo, Amazon već poslužuje datoteke u S3 kanti, tako da već imaju pristup tim informacijama.)",
+        "message": "Zapisi o pristupu su također pohranjeni na Amazon S3 kanti, tako da će Amazon imati pristup zapisima. (kako bilo, Amazon poslužuje datoteke, tako da već mogu pristupiti ovim informacijama.)",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
@@ -1240,7 +1240,7 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">zapisi o pristupima kanti</a> sadržavaju IP adresu, korisničke agente i vremenske žigove. Ovi zapisi su pohranjeni na samom S3, tako da im Amazon može pristupiti. (Kako bilo, Amazon već poslužuje datoteke, tako da već mogu pristupiti tim informacijama.) Psiphon programeri će preuzeti zapise, sakupiti i analizirati podatke, te zatim izbrisati zapise. Sirovi podatci će biti zadržani onoliko dugo koliko je potrebno da ih se sakupi i neće biti dijeljeni s trećim strankama.",
+        "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">Zapisi o pristupu S3 kanti</a> sadržavaju IP adrese, korisničke agente i vremenske žigove. Ovi zapisi su pohranjeni na samom S3, tako da im Amazon može pristupiti. (Kako bilo, Amazon već poslužuje te datoteke, tako da već mogu pristupiti tim informacijama.) Psiphon programeri će preuzeti zapise, skupiti i analizirati podatke, te zatim obrisati zapise. Sirovi podatci će biti zadržani onoliko koliko je potrebno da ih se skupi i neće biti dijeljeni s trećim strankama.",
         "description": ""
     },
     "download-description": {

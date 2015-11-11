@@ -42,29 +42,6 @@ layout: page
         </a>
       </div>
     </div>
-
-    <div class="row download-item">
-      <div class="download-os-with-qr">
-        <a href="<%- @downloads.amazonappstore %>">
-          <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/amazon-apps.png' %>">
-        </a>
-      </div>
-      <div class="download-link-with-qr">
-        <h4>
-          <a href="<%- @downloads.amazonappstore %>" class="alert-link">
-            <%= @tt 'download-android-amazon' %>
-          </a>
-        </h4>
-        <p>
-          <%- @tt 'download-android-amazon-description' %>
-        </p>
-      </div>
-      <div class="download-qr">
-        <a href="<%- @downloads.amazonappstore %>">
-          <img class="img-responsive" src="<%= @relativeToRoot '/images/android/amazon-web-qr.png' %>">
-        </a>
-      </div>
-    </div>
   </div>
 </div></div>
 

@@ -220,8 +220,8 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-head": {
-        "message": "Journalisation de l'accès à distance au stockage",
-        "description": "Sub-heading for section describing use of logging access to remote storage (aka S3 bucket logging)"
+        "message": "Journalisation de l'accès au stockage",
+        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
         "message": "Pourquoi vois-je le message « Échec de connexion » apparaître en boucle ?",
@@ -469,7 +469,7 @@
     },
     "psiphon": {
         "message": "Psiphon",
-        "description": ""
+        "description": "The name of the product. Probably not translated or transliterated for most languages"
     },
     "download-meta-title": {
         "message": "Télécharger l'appli Android et le client Windows",
@@ -1160,7 +1160,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Les journaux d'accès sont aussi stockés dans un compartiment Amazon S3, donc Amazon aura accès aux journaux. (Cependant, Amazon sert déjà les fichiers du compartiment S3 du site, alors ils ont déjà accès à ces informations.)",
+        "message": "Les journaux d'accès sont aussi stockés dans un compartiment Amazon S3, donc Amazon aura accès aux journaux. (Cependant, Amazon sert les fichiers et ils peuvent  déjà accéder à ces informations.)",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
@@ -1240,7 +1240,7 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "Les <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">journaux d'accès aux compartiments </a> S3 contiennent les adresses IP, les agents utilisateurs et les estampilles temporelles. Ces journaux sont stockés à même S3, et donc Amazon a accès à ces journaux. (Cependant, Amazon sert ces fichiers et peut donc déjà accéder à ces informations.) Les développeurs de Psiphon téléchargeront ces journaux, agrégerons et analyseront les données et supprimeront ensuite les journaux. Les données brutes ne seront conservées que le temps de les agréger et ne seront pas partagées avec des tiers. ",
+        "message": "Les <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">journaux d'accès aux compartiments </a> S3 contiennent les adresses IP, les agents utilisateurs et les estampilles temporelles. Ces journaux sont stockés à même S3, et donc Amazon a accès à ces journaux. (Cependant, Amazon sert déjà les fichiers et ils peuvent donc déjà accéder à ces informations). Les développeurs de Psiphon téléchargeront ces journaux, agrégerons puis analyseront les données et supprimeront ensuite les journaux. Les données brutes ne seront conservées que le temps de les agréger et ne seront pas partagées avec des tiers. ",
         "description": ""
     },
     "download-description": {
