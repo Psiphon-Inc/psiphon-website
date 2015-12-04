@@ -1,6 +1,6 @@
 {
     "index-hero-subtext": {
-        "message": "beyond borders",
+        "message": "超越国界",
         "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
     },
     "page-keyword-source-code": {
@@ -84,7 +84,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
-        "message": "Google Analytics plants a permanent cookie on your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
+        "message": "谷歌分析会植入永久性的复数形态在网络浏览器上去确认阁下为唯一用户，可是这复数形态只允许谷歌使用。而所受集的数据也不可以被更改或是从其他领域恢复。",
         "description": ""
     },
     "open-source-description": {
@@ -220,8 +220,8 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-head": {
-        "message": "Storage Remote Access Logging",
-        "description": "Sub-heading for section describing use of logging access to remote storage (aka S3 bucket logging)"
+        "message": "存储访问日志",
+        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
         "message": "为什么我一遍又一遍看到\"连接失败\"消息？",
@@ -324,7 +324,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-2-when-doing": {
-        "message": "This is in effect by at least 2015-06-01T00:00Z.",
+        "message": "最迟于2015-06-01T00:00起正式生效",
         "description": ""
     },
     "alert-body": {
@@ -392,7 +392,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some modes and configurations all of your Internet traffic might not be tunneled through Psiphon -- for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
+        "message": "但是，请谨记赛风的原设计主要是一个绕过审查的工具， 并不是专为反向监督而产生的。赛风不会防止阁下的电脑储存浏览历史和复数形態。 而在某些模式和结构上，阁下的网络浏量有可能不会经过赛风隧道-譬如当阁下的浏览器设置配置错误， 或是当阁下在关闭赛风后把浏览器继续开启。",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
@@ -469,7 +469,7 @@
     },
     "psiphon": {
         "message": "赛风",
-        "description": ""
+        "description": "The name of the product. Probably not translated or transliterated for most languages"
     },
     "download-meta-title": {
         "message": "下载安卓应用和 Windows 客户端",
@@ -548,7 +548,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-2-why-doing": {
-        "message": "The <a href=\"privacy.html\">Privacy Policy</a> page is now the only place users need to check for Psiphon's privacy and data collection policies. It has been updated to reflect use of advertisements, analytics, and logging for some of our websites.",
+        "message": "<a href=\"privacy.html\">隐私条例</a> 的页面是现时唯一可以让各用户查阅赛风的隐私和数据收集条例。 此更新页面会展示广告用途和某些网站的分析跟数据收集。",
         "description": ""
     },
     "license-para-1": {
@@ -652,7 +652,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this is \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
+        "message": "我们也有先进的技术可以检查保密的网络流量和相关问题，譬如什么网站被浏览。其中一个例子是<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">网络流量指纹鉴定</a>\".",
         "description": ""
     },
     "page-keyword-vpn": {
@@ -1088,7 +1088,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-3": {
-        "message": "Google’s ability to use and share information collected by Google Analytics about your visits to this site is restricted by the <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Google Analytics Terms of Use</a> and the <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Google Privacy Policy</a>. You may choose to opt out by turning off cookies in the preferences settings in your web browser.",
+        "message": "若谷歌想使用或分享谷歌分析所收集的用户浏览资料，此举都会跟据 <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">谷歌分析的守则和<a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">谷歌隐私条例进行</a>。阁下也可以在网页浏览器的个人设置上选择取消复数形態退出这项目。",
         "description": ""
     },
     "faq-isp-traffic-question-toc": {
@@ -1160,7 +1160,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "访问日志也存储在Amazon S3存储桶中，所以亚马逊有会访问日志。（然而，亚马逊已经有文件在网站S3桶，所以他们已经可以访问此信息。）",
+        "message": "访问日志也存储在 Amazon S3 bucket，因此亚马逊将有权限访问日志。（不过，亚马逊在提供这些文件，因此他们已经可以访问此信息。）",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
@@ -1240,7 +1240,7 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already servers the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate and will not be shared with third parties.",
+        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket 访问日志</a>包含IP地址、用户代理字符串，以及时间戳。这些日志存储在 S3 本身，因此亚马逊将有权限访问日志。（不过，亚马逊在提供这些文件，因此他们已经可以访问此信息。）。Psiphon 开发者将下载这些日志，汇总并分析数据，然后删除日志。原始数据将保持较长时间以完成它的汇总，不会与第三方共享。",
         "description": ""
     },
     "download-description": {
