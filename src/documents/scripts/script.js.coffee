@@ -22,18 +22,6 @@ $ ->
       $(@).prop('href', $(@).prop('href') + window.location.hash)
 
   #
-  # Add the FAQ table of contents
-  # TODO: Statically create at render time
-  #
-  if $('#faq-toc')
-    childTag = $('#faq-toc').data('child-tag')
-    $('.anchor-target').each ->
-      child = $(childTag).appendTo($('#faq-toc'))
-      childLink = $('<a>').appendTo(child)
-      childLink.prop('href', '#' + $(this).prop('id'))
-               .text($(this).data('anchor-text'))
-
-  #
   # Where indicated by a class name, equalize the height of elements in a row.
   # Note that the `equal-height` class cannot be on a column div, but must be
   # on a div inside it.

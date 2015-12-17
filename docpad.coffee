@@ -3,6 +3,7 @@
 
 url = require('url')
 cheerio = require('cheerio')
+helpers = require('./helpers')
 
 
 docpadConfig = {
@@ -502,6 +503,9 @@ docpadConfig = {
           throw error
 
       next()
+
+    renderDocument: (opts) ->
+      helpers.handleRenderDocument(opts)
 
 
   # =================================
