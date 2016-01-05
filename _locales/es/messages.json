@@ -72,7 +72,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "download-list-join": {
-        "message": "Únase a nuestra <a href=\"https://groups.google.com/forum/?hl=es#!forum/psiphon3\" target=\"_blank\">lista de correo de Anuncios</a>",
+        "message": "Únase a nuestra <a href=\"https://groups.google.com/forum/?hl=es#!forum/psiphon3\" target=\"_blank\">lista de correo de Anuncios</a> para anuncios importantes y advertencias de seguridad.",
         "description": ""
     },
     "about-get-latest-info-para-1-developers-list": {
@@ -391,6 +391,10 @@
         "message": "Todos los datos que van a través de Psiphon están cifrados. Esto significa que su ISP no puede ver el contenido del tráfico de Internet: las páginas web por las que navegue, sus mensajes de chat, sus subidas, etc.",
         "description": ""
     },
+    "faq-root-wdm-answer-para-1": {
+        "message": "Antes de diciembre de 2015 Psiphon para Android tenía una característica que permitía tunelizar el dispositivo al completo a los usuarios con dispositivos Android antiguos (pre-4.0/ICS) que estuvieran rooteados. Una actualización importante de Psiphon en ese momento precisaba eliminar esa característica.",
+        "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "faq-isp-traffic-answer-para-2": {
         "message": "Sin embargo, por favor tenga en cuenta que Psiphon está diseñado para ser una herramienta de elusión de la censura, y no está diseñada específicamente para propósitos de anti-vigilancia. Psiphon no evita que su historial de navegación y sus cookies sean almacenados en su computadora. Y en algunos modos y configuraciones todo su tráfico de Internet podría no ser tunelizado a través de Psiphon -- por ejemplo, si la configuración para proxy de su navegador no está correctamente establecida, o si deja su navegador abierto después de salir de Psiphon.",
         "description": ""
@@ -615,6 +619,14 @@
         "message": "Verá un cartel ('banner') de su elección, que será enlazado a una página de su sitio. Esto es una oportunidad única para alcanzar a una gran audiencia de gente técnicamente entendida que usan Psiphon para añadir una capa de seguridad a su navegación por Internet.",
         "description": ""
     },
+    "faq-root-wdm-question-toc": {
+        "message": "¿Qué ocurrió con el modo dispositivo al completo para dispositivos Android rooteados?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-root-wdm-question": {
+        "message": "¿Qué ocurrió con el modo dispositivo al completo para dispositivos Android rooteados?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "page-keyword-how-to": {
         "message": "cómo",
         "description": "web page meta keyword used for SEO"
@@ -648,7 +660,7 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-windows-para-2": {
-        "message": "Psiphon comienza automáticamente a conectarse cuando lo ejecuta. Mientras se está conectando muestra un icono girando. Puede seleccionar uno de los siguientes modos de túnel: VPN (L2TP sobre IPSec), SSH, o SSH+ (SSH con ofuscación, una capa aleatorizada sobre SSH para evitar la identificación algorítmica ('fingerprinting') del protocolo.",
+        "message": "Psiphon comienza a conectarse automáticamente cuando lo ejecuta. Mientras se está conectando muestra un icono giratorio. Puede seleccionar uno de los siguientes modos de túnel: VPN (L2TP sobre IPSec), SSH, o SSH+ (SSH con ofuscación, una capa aleatorizada sobre SSH para evitar la identificación algorítmica (fingerprinting) del protocolo).",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
@@ -1046,6 +1058,10 @@
     "sponsor-meta-title": {
         "message": "Patrocinio, publicidad y donaciones",
         "description": "Page title for the Sponsorship page"
+    },
+    "faq-root-wdm-answer-para-2": {
+        "message": "Si necesita esa funcionalidad, puede usar una versión “antigua” de Psiphon para Android. Esa versión carecerá de algunas de las capacidades de elusión avanzadas del moderno Psiphon, pero puede ser suficiente para sus necesidades. <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">descagar la versión “antigua” aquí</a>.",
+        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "¿Cómo compruebo mi versión actual de Psiphon?",

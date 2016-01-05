@@ -391,6 +391,10 @@
         "message": "所有经过赛风的数据都受过加密。这代表阁下的互联网服务供应商不能看到阁下的网络流量内容：浏览的网页，聊天讯息，上载资料等等。",
         "description": ""
     },
+    "faq-root-wdm-answer-para-1": {
+        "message": "在2015年12月之前，Psiphon for Android 有一个功能，它允许用户使用较旧的 Android 设备 (pre-4.0/ICS) 隧道整个装置，如果它已 root。而现在，Psiphon 的一个重大更新有必要去除该功能。",
+        "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "faq-isp-traffic-answer-para-2": {
         "message": "但是，请谨记赛风的原设计主要是一个绕过审查的工具， 并不是专为反向监督而产生的。赛风不会防止阁下的电脑储存浏览历史和复数形態。 而在某些模式和结构上，阁下的网络浏量有可能不会经过赛风隧道-譬如当阁下的浏览器设置配置错误， 或是当阁下在关闭赛风后把浏览器继续开启。",
         "description": ""
@@ -615,6 +619,14 @@
         "message": "阁下将看到所选择的广告标语，而该标语将会链接到阁下网站的页面。这是一个向对技术上有留意的赛风用户宣扬保障网络浏览安全的宝贵机会。",
         "description": ""
     },
+    "faq-root-wdm-question-toc": {
+        "message": "已 root 的 Android 设备发生了什么？",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-root-wdm-question": {
+        "message": "已 root 的 Android 设备发生了什么？",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "page-keyword-how-to": {
         "message": "如何",
         "description": "web page meta keyword used for SEO"
@@ -680,7 +692,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-para-3": {
-        "message": "赛风旨在为您提供在线内容的开放访问。赛风不会泄露您的在线隐私，它也不应被当做是一款在线安全工具。",
+        "message": "赛风旨在为您提供在线内容的开放访问。赛风不会增加暴露您的在线隐私的风险，但也并非网络安全工具。",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-3": {
@@ -688,7 +700,7 @@
         "description": ""
     },
     "main-pick-three-head-1": {
-        "message": "信任、速度、简洁：选取三个",
+        "message": "信任、速度、方便：给您的三个承诺",
         "description": ""
     },
     "about-who-we-are-software-development-head": {
@@ -796,7 +808,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "从2008年开始，赛风一直致力帮助世界各地网路上受自由限制的国家。\n目前，赛风已经成功为超过百万用户安全的浏览受屏蔽的网站。今天，赛风能为您提供同样的服务。",
+        "message": "从2008年开始，赛风一直致力帮助世界各地网络自由受限制国家的用户。目前，赛风已经成功为百万用户提供安全浏览受屏蔽网站的技术支持。现在，赛风能为您提供同样的服务。",
         "description": ""
     },
     "about-title": {
@@ -924,7 +936,7 @@
         "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
     },
     "main-gets-you-where-you-want-head-2": {
-        "message": "被您所在的国家、公司或校园审查？",
+        "message": "您所在的国家、公司或校园存在网络审查？",
         "description": ""
     },
     "page-keyword-download": {
@@ -1046,6 +1058,10 @@
     "sponsor-meta-title": {
         "message": "赞助，广告和捐赠",
         "description": "Page title for the Sponsorship page"
+    },
+    "faq-root-wdm-answer-para-2": {
+        "message": "如果您需要此功能，您可以使用 Psiphon for Android 的“经典”版本。那些版本缺乏一些当代 Psiphon 拥有的高级的规避能力，但可能已足以满足您的需求。您可以<a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">在这里</a>下载“经典”版本。",
+        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "我怎么查看我当前赛风版本？",
@@ -1232,7 +1248,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-where-you-want-para-1": {
-        "message": "拥有在世界各地的专制独裁政权运作的丰富经验，我们绝对适合帮助阁下随时随地获得需要的内容。",
+        "message": "拥有解决网络封锁的丰富经验，我们绝对适合帮助您随时随地获得需要的内容。",
         "description": ""
     },
     "user-guide-android-para-verify-authentic": {
