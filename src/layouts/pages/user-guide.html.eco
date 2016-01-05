@@ -25,7 +25,6 @@ layout: page
         <figure class="perma-annotated">
           <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/psiphon-android-ui-status.png' %>" alt="<%= @tt 'user-guide-android-ui-status-image-alt' %>">
           <figcaption>
-            <b><%- @tt 'generic-image-figcaption' %></b>
             <ul>
               <!-- Positions of the annotations need defining inline. -->
               <li style="top:1%; right:77%;"><%= @tt 'user-guide-android-ui-status-image-annotation-1' %></li>
@@ -41,7 +40,6 @@ layout: page
         <figure class="perma-annotated">
           <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/psiphon-android-ui-logs.png' %>" alt="<%= @tt 'user-guide-android-ui-logs-image-alt' %>">
           <figcaption>
-            <b><%- @tt 'generic-image-figcaption' %></b>
             <ul>
               <!-- Positions of the annotations need defining inline. -->
               <li style="top:47%; right:77%;"><%= @tt 'user-guide-android-ui-logs-image-annotation-1' %></li>
@@ -53,7 +51,6 @@ layout: page
         <figure class="perma-annotated">
           <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/psiphon-android-ui-statistics.png' %>" alt="<%= @tt 'user-guide-android-ui-statistics-image-alt' %>">
           <figcaption>
-            <b><%- @tt 'generic-image-figcaption' %></b>
             <ul>
               <!-- Positions of the annotations need defining inline. -->
               <li style="top:16%; right:77%;"><%= @tt 'user-guide-android-ui-statistics-image-annotation-1' %></li>
@@ -72,7 +69,6 @@ layout: page
         <figure class="perma-annotated">
           <img class="img-responsive" src="<%- @relativeToRoot '/images/user-guide/user-guide-android-3.png' %>" alt="<%= @tt 'user-guide-android-image-3-alt' %>">
           <figcaption>
-            <b><%- @tt 'generic-image-figcaption' %></b>
             <ul>
               <!-- Positions of the annotations need defining inline. -->
               <li style="top:8%; right:76%;"><%= @tt 'user-guide-android-image-3-annotation-1' %></li>
