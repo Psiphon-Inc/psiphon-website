@@ -391,6 +391,10 @@
         "message": "Sav promet koji ide kroz Psiphon je enkriptiran. To znači da Vaš davatelj Internet usluge ne može vidjeti sadržaj Vašeg Internet prometa: web stranice koje pregledavate, Vaše poruke, Vaša postavljanja i tako dalje.",
         "description": ""
     },
+    "faq-root-wdm-answer-para-1": {
+        "message": "Prije Prosinca 2015. Psiphon za Android je imao značajku koja je dopuštala korisnicima starijih Android uređaja (prije-4.0/ICS) da tuneliraju cijeli uređaj ako je root-an. Veliko ažuriranje Psiphon-a u to doba je zahtjevalo uklanjanje te značajke.",
+        "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "faq-isp-traffic-answer-para-2": {
         "message": "Kako bilo, imajte na umu da je Psiphon dizajniran da bude alat za obilaženje cenzure te nije specifično dizajniran za protunadzorne svrhe. Psiphon ne spriječava pohranu povijesti pregledavanja web stranica i kolačića na Vaše računalo, a u nekim načinima rada, sav Vaš promet možda neće biti tuneliran kroz Psiphon -- primjerice ako su proxy postavke Vašeg preglednika krivo konfigurirane, ili ako ostavite preglednik otvoren nakon izlaska iz Psiphon-a.",
         "description": ""
@@ -614,6 +618,14 @@
     "sponsor-para-2": {
         "message": "Vidjeti ćete banner po svom izboru, koji će biti povezan na Vašu stranicu. Ovo je jedinstvena prilika da dosegnete veliku publiku tehnološki osvještenih ljudi koji koriste Psiphon da bi dodali sloj sigurnosti pregledavanju Interneta.",
         "description": ""
+    },
+    "faq-root-wdm-question-toc": {
+        "message": "Što se dogodilo načinu rada Cijeli uređaj za root-ane Andorid uređaje?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-root-wdm-question": {
+        "message": "Što se dogodilo načinu rada Cijeli uređaj za root-ane Andorid uređaje?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "page-keyword-how-to": {
         "message": "kako",
@@ -1046,6 +1058,10 @@
     "sponsor-meta-title": {
         "message": "Sponzorstva, oglašavanje i donacije",
         "description": "Page title for the Sponsorship page"
+    },
+    "faq-root-wdm-answer-para-2": {
+        "message": "Ako trebate funkcionalnost, možete koristiti staru, \"legacy\" verziju Psiphon-a za Adnroid. Ta verzija nema neke napredne mogućnosti obilaženja kao moderni Psiphon, ali može biti dostatna za Vaše potrebe. Možete <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">preuzeti staru, \"legacy\" verziju ovdje</a>.",
+        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "Kako ću provjeriti trenutnu verziju Psiphon-a?",

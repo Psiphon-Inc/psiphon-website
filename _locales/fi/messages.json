@@ -391,6 +391,10 @@
         "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages your browse, your chat messages, your uploads, etc.",
         "description": ""
     },
+    "faq-root-wdm-answer-para-1": {
+        "message": "Before December 2015 Psiphon for Android had a feature that allowed users with older Android devices (pre-4.0/ICS) to tunnel the whole device if it was rooted. A major update to Psiphon at that time necessitated the removal of that feature.",
+        "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "faq-isp-traffic-answer-para-2": {
         "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some modes and configurations all of your Internet traffic might not be tunneled through Psiphon -- for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
         "description": ""
@@ -614,6 +618,14 @@
     "sponsor-para-2": {
         "message": "You will see a banner of your choice, which will be linked to a page on your site. This is a unique opportunity to reach a large audience of technically-aware people using Psiphon to add a layer of security to their Internet browsing.",
         "description": ""
+    },
+    "faq-root-wdm-question-toc": {
+        "message": "What happened to whole device mode for rooted Android devices?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-root-wdm-question": {
+        "message": "What happened to whole device mode for rooted Android devices?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "page-keyword-how-to": {
         "message": "how to",
@@ -1046,6 +1058,10 @@
     "sponsor-meta-title": {
         "message": "Sponsorship, advertising, and donations",
         "description": "Page title for the Sponsorship page"
+    },
+    "faq-root-wdm-answer-para-2": {
+        "message": "If you require that functionality, you can use a “legacy” version of Psiphon for Android. That version will be lacking some of the advanced circumvention abilities of modern Psiphon, but it may be sufficient for your needs. You can <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">download the “legacy” version here</a>.",
+        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "Kuinka tarkistan nykyisen Psiphon-versioni?",

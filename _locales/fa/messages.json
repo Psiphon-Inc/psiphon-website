@@ -391,6 +391,10 @@
         "message": "تمام داده هایی که از طریق سایفون منتقل می شوند، رمز گذاری شده اند. این بدان معناست که سرویس دهنده اینترنت شما، نمی تواند از محتوای ترافیکتان مانند: وب سایتی که جست و جو می کنید، متن چت، آپلود هایتان و ... مطلع شود.",
         "description": ""
     },
+    "faq-root-wdm-answer-para-1": {
+        "message": "Before December 2015 Psiphon for Android had a feature that allowed users with older Android devices (pre-4.0/ICS) to tunnel the whole device if it was rooted. A major update to Psiphon at that time necessitated the removal of that feature.",
+        "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "faq-isp-traffic-answer-para-2": {
         "message": "هرچند باید این نکته را در ذهن داشته باشید که سایفون به هدف دور زدن سانسور طراحی شده است و نه به عنوان ابزاری برای عدم رهگیری در اینترنت. سایفون از جمع آوری تاریخچه و کوکی ها توسط مرورگر بر روی کامپیوتر کاربر جلوگیری نمی کند. و همین طور در برخی موارد و بعضی تنظیمات، ممکن است کل ترافیک توسط سایفون تونل نشود. از این دست مشکلات می توان به تنظیمات اشتباه پروکسی و یا باز گذاردن مرورگر پس از بستن سایفون اشاره کرد. ",
         "description": ""
@@ -614,6 +618,14 @@
     "sponsor-para-2": {
         "message": "شما یک بنر تبلیغاتی  خواهید دید که به وب‌سایت شما پیوند داده شده است. این یک فرصت استسنائی است که یک تعداد زیادی از بازدیدکنندگانی که از اطلاعات تکنیکی سایفون آشنا بوده اند و همچنین یک لایه امن به مرورگر خودشان اضافه کرده‌اند.",
         "description": ""
+    },
+    "faq-root-wdm-question-toc": {
+        "message": "What happened to whole device mode for rooted Android devices?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-root-wdm-question": {
+        "message": "What happened to whole device mode for rooted Android devices?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "page-keyword-how-to": {
         "message": "چطور",
@@ -1046,6 +1058,10 @@
     "sponsor-meta-title": {
         "message": "حمایت مالی، تبلیغات، و کمک‌های مالی",
         "description": "Page title for the Sponsorship page"
+    },
+    "faq-root-wdm-answer-para-2": {
+        "message": "If you require that functionality, you can use a “legacy” version of Psiphon for Android. That version will be lacking some of the advanced circumvention abilities of modern Psiphon, but it may be sufficient for your needs. You can <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">download the “legacy” version here</a>.",
+        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "چگونه نسخه سایفون ۳ کنونی خود را چک کنم؟",
