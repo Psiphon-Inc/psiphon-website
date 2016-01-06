@@ -252,7 +252,7 @@
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "Michael Hull is the Chief Operating Officer, and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game.",
+        "message": "Michael Hull은 주요 운영 위원입니다, 그리고 Psiphon이 시작될 때 부터 함께해 왔습니다.  이 프로젝트는 Toronto 대학의 Citizen Lab에서 시작되었습니다. 그는 Psiphon이 최고의 위치를 고수할 수 있도록 소프트웨어 개발과 혁신의 방향을 주도해 왔습니다.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2017": {
@@ -390,6 +390,10 @@
     "faq-isp-traffic-answer-para-1": {
         "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages your browse, your chat messages, your uploads, etc.",
         "description": ""
+    },
+    "faq-root-wdm-answer-para-1": {
+        "message": "Before December 2015 Psiphon for Android had a feature that allowed users with older Android devices (pre-4.0/ICS) to tunnel the whole device if it was rooted. A major update to Psiphon at that time necessitated the removal of that feature.",
+        "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-isp-traffic-answer-para-2": {
         "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some modes and configurations all of your Internet traffic might not be tunneled through Psiphon -- for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon.",
@@ -615,6 +619,14 @@
         "message": "당신은 귀하의 사이트에있는 페이지로 연결됩니다. 당신이 선택한 배너를 볼 수 있습니다.이 Psiphon를 사용하여 기술적으로 인식하는 사람들이 인터넷 검색에 대한 보안 계층​​을 추가 하여 폭 넓은 고객에게 접근 할 수있는 독특한 기회입니다.",
         "description": ""
     },
+    "faq-root-wdm-question-toc": {
+        "message": "What happened to whole device mode for rooted Android devices?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-root-wdm-question": {
+        "message": "What happened to whole device mode for rooted Android devices?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "page-keyword-how-to": {
         "message": "방법",
         "description": "web page meta keyword used for SEO"
@@ -796,7 +808,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "Since 2008, Psiphon has helped millions of people in freedom-restricted countries around the world safely access censored knowledge and ideas. Now Psiphon can do the same for you.",
+        "message": "2008년부터 Psiphon은 인터넷 검열을 시행하고 있는 세계의 각 국가의 인터넷망으로부터 수백만 명에게 검열된 지식과 아이디어에 접근할 수 있도록 도와왔습니다. 이제, Psiphon은 당신에게도 같은 권리를 제공할 것입니다.",
         "description": ""
     },
     "about-title": {
@@ -1046,6 +1058,10 @@
     "sponsor-meta-title": {
         "message": "스폰서, 광고, 그리고 기부",
         "description": "Page title for the Sponsorship page"
+    },
+    "faq-root-wdm-answer-para-2": {
+        "message": "If you require that functionality, you can use a “legacy” version of Psiphon for Android. That version will be lacking some of the advanced circumvention abilities of modern Psiphon, but it may be sufficient for your needs. You can <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">download the “legacy” version here</a>.",
+        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "어떻게 하면 사용중인 Psiphon의 버전을 알 수 있나요?",

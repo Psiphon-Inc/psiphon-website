@@ -220,7 +220,7 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-head": {
-        "message": "Storage Access Logging",
+        "message": "Kayıt Erişim Günlükleme",
         "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
@@ -390,6 +390,10 @@
     "faq-isp-traffic-answer-para-1": {
         "message": "Psiphon'a her veri şifreli gider. Bu demektir ki internet servis sağlayıcınız (ISS), İnternet trafiğinizin içeriklerini göremez: gezdiğiniz web sayfaları, sohbet mesajlarınız, yükledikleriniz, vb.",
         "description": ""
+    },
+    "faq-root-wdm-answer-para-1": {
+        "message": "Before December 2015 Psiphon for Android had a feature that allowed users with older Android devices (pre-4.0/ICS) to tunnel the whole device if it was rooted. A major update to Psiphon at that time necessitated the removal of that feature.",
+        "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-isp-traffic-answer-para-2": {
         "message": "Ancak, Psiphon'ın bir sansür aşma aracı olup, gözetim önleme amaçlı tasarlanmadığını unutmayın. Psiphon gezinti geçmişinizin ve çerezlerinizin bilgisayarınızda tutulmasını engellemez. Ayrıca bazı durumlarda internet trafiğiniz Psiphon'a tünellenmemiş olabilir (örneğin tarayıcı vekil ayarlarınız hatalı yapılandırılmışsa veya Psiphon'dan çıktıktan sonra tarayıcınızı açık bırakırsanız).",
@@ -614,6 +618,14 @@
     "sponsor-para-2": {
         "message": "Sitenizde bir sayfaya bağlı, seçiminize göre bir başlık göreceksiniz. Bu, İnternet'te gezinirken güvenliklere bir katman daha ekleyebilmek için Psiphon kullanan teknolojiden haberdar kişileri geniş bir kitleye ulaştırmak için benzersiz bir fırsattır.",
         "description": ""
+    },
+    "faq-root-wdm-question-toc": {
+        "message": "What happened to whole device mode for rooted Android devices?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-root-wdm-question": {
+        "message": "What happened to whole device mode for rooted Android devices?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "page-keyword-how-to": {
         "message": "nasıl yapılır",
@@ -1047,6 +1059,10 @@
         "message": "Sponsorluk, reklam verme ve bağışlar",
         "description": "Page title for the Sponsorship page"
     },
+    "faq-root-wdm-answer-para-2": {
+        "message": "If you require that functionality, you can use a “legacy” version of Psiphon for Android. That version will be lacking some of the advanced circumvention abilities of modern Psiphon, but it may be sufficient for your needs. You can <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">download the “legacy” version here</a>.",
+        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "faq-check-version-question": {
         "message": "Psiphon'ımın geçerli sürümünü nasıl denetleyebilirim?",
         "description": ""
@@ -1160,7 +1176,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon serves the files, so they can already access this information.)",
+        "message": "Bu erişim günlükleri ayrıca Amazon S3 bucket'ta da saklanmakta olduğundan, Amazon günlüklere erişebilecektir. (Ancak amazon zaten S3 bucket içerisindeki dosyaları da sunduğundan, bu bilgilere zaten erişebilmektedirler.)",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
@@ -1240,7 +1256,7 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already serves the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate it and will not be shared with third parties.",
+        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket erişim günlükleri</a>, IP adresleri, kullanıcı yardımcıları ve zaman damgalarını içerir. Bu günlükler S3 üzerinde saklandığından, Amazon bu günlüklere erişebilir. (Zaten, Amazon dosyaları barındırdığından, bu bilgilere istedikleri zaman ulaşabilirler.) Psiphon geliştiricileri günlükleri indirecek, biriktirip veriyi analiz ettikten sonra silecekler. Ham veri sadece yeterince biriktirilinceye kadar saklanacak ve üçüncü partiler ile paylaşılmayacak.",
         "description": ""
     },
     "download-description": {
