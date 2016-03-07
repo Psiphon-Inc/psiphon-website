@@ -1,0 +1,20 @@
+---
+title: Psiphon Renders VoIP Blocking in Morocco Obsolete
+author: Psiphon Team
+layout: blog/post
+date: 2016-03-07
+---
+
+On January 5th, Moroccans discovered [Voice over IP (VoIP) services were blocked](https://goo.gl/oO50vM) over 3G and 4G mobile networks. Popular free calling services over Viber, Skype, Facetime, and Whatsapp no longer worked. Upset Internet subscribers voiced their displeasure immediately through online campaigns. Days later, the regulating body for telecommunication in Morocco justified the blocking with claims that [the services violate Moroccan regulations](https://goo.gl/fDYihf), stating that telecom companies have the right to shut down any service they want, for financial or commercial reasons.
+
+Dissatisfied Moroccans increased pressure, [protesting with a boycott](https://goo.gl/UNDiuM) against three major telecom companies responsible for the blocking. On other fronts, people shared circumvention tools which made the blocking nearly obsolete. Psiphon use tripled in Morocco during the first week of the block and user numbers doubled every week afterwards. Psiphon’s free, open source circumvention tool was advertised on social media channels in Morocco by [ASL19](https://goo.gl/tohbZX), a human rights organization that localizes circumvention tools into Arabic and other languages. Word of Psiphon’s availability and resiliency quickly spread throughout the country. After a month, the telecoms rescinded their decision due to ongoing pressure from unhappy subscribers and the ineffectiveness of the blocking due to circumvention tools.
+
+<img src="<%= @relativeToRoot '/images/blog/morocco-voip-UUs_Jan01_12Feb.png' %>" alt="Psiphon statistics show daily usage in Morocco over this period grew massively, peaking at 15 times pre-blocking numbers" class="img-responsive center-block">
+
+Morocco’s telecom providers [reinstated the ban](https://goo.gl/JW7zue) on 26 February, prompting rapid response from Moroccan netizens including large-scale [social media mobilization](https://goo.gl/HTtErJ) led by [th3professional.com](https://goo.gl/8NdJqP) blogger Amine Raghib and an [online petition](https://goo.gl/QtRLuU) urging Head of Government Abdelilah Benkirane to lift the ban on VoIP services. At the time of writing, VoIP services have been [reinstated on wi-fi but remain blocked on 3G and 4G](https://goo.gl/5PuixF) connections. The petition has received over 10,000 signatures.
+
+A joint statement issued by the Moroccan telecom providers claimed the decision was made because of the “negative impact” free calls have on the telecommunications industry.
+
+VoIP blocking is not particular to Morocco. [Many MENA region countries block](https://goo.gl/d8vmzL) the services, often justifying censorship measures on national security grounds. Governments repeatedly argue that they cannot monitor and surveil these communication tools. VoIP services are blocked in Saudi Arabia, United Arab Emirates, Oman, Kuwait, Qatar, and Egypt. Like Morocco, blocking measures in these countries is often primarily for economic reasons. In many countries, telephone costs are prohibitively high and VoIP services offer some financial relief. Banning VoIP services creates a need amongst citizens to bypass blocking. The Moroccan VoIP ban is only one of the most recent examples of circumvention tool users created by the large-scale censorship of a relied-upon communications service.
+
+Psiphon remains trusted open-source software, available <a href="<%= @getPageURL '/download.html' %>">free for download</a> anywhere in the world.
