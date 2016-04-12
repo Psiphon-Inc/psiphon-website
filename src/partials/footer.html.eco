@@ -2,7 +2,7 @@
 <footer>
   <div class="row">
     <div class="col-md-12 text-center">
-      <%= @tt 'footer-copyright' %> <%= new Date().getFullYear() %> <%= @site.companyName %> <%= @tt 'footer-license' %> <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.<%= @document.language %>" target="_blank">CC-BY-NC</a>
+      <%= @tt 'footer-copyright' %> <%= new Date().getFullYear() %> <%= @site.companyName %> <%= @tt 'footer-license' %> <a href="https://creativecommons.org/licenses/by/3.0/deed.<%= @document.language %>" target="_blank">CC-BY</a>
     </div>
   </div>
   <div class="row">

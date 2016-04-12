@@ -3,6 +3,7 @@
 
 url = require('url')
 cheerio = require('cheerio')
+helpers = require('./helpers')
 
 
 docpadConfig = {
@@ -57,7 +58,7 @@ docpadConfig = {
 
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
-    languages: ['en', 'fa', 'ar', 'zh', 'az', 'de', 'el', 'es', 'fr', 'kk', 'ko', 'hr', 'nb', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'ug@Latn', 'uz@cyrillic', 'uz@Latn', 'vi']
+    languages: ['en', 'fa', 'ar', 'zh', 'az', 'de', 'el', 'es', 'fr', 'id', 'kk', 'ko', 'hr', 'nb', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'ug@Latn', 'uz@cyrillic', 'uz@Latn', 'vi']
 
     # Translation file location.
     translation_files:
@@ -84,6 +85,7 @@ docpadConfig = {
       ko: './_locales/ko/messages.json'
       pt_PT: './_locales/pt_PT/messages.json'
       hr: './_locales/hr/messages.json'
+      id: './_locales/id/messages.json'
 
     # Translations will be loaded into this object.
     translations: {}
@@ -316,6 +318,7 @@ docpadConfig = {
         "fr": "Français"
         "hr": "Hrvatski"
         "hu": "Magyar"
+        "id": "Bahasa Indonesia"
         "it": "Italiano"
         "ko": "한국말"
         "nl": "Nederlands"
@@ -502,6 +505,9 @@ docpadConfig = {
           throw error
 
       next()
+
+    renderDocument: (opts) ->
+      helpers.handleRenderDocument(opts)
 
 
   # =================================

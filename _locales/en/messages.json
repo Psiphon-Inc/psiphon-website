@@ -235,6 +235,18 @@
   "faq-isp-traffic-answer-para-4": {
     "message": "If you require anonymity over the Internet then you should use <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> instead of Psiphon."
   },
+  "faq-root-wdm-question": {
+    "message": "What happened to whole device mode for rooted Android devices?",
+    "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+  },
+  "faq-root-wdm-question-toc": {
+    "message": "What happened to whole device mode for rooted Android devices?",
+    "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+  },
+  "faq-root-wdm-answer-para-1": {
+    "message": "Before December 2015 Psiphon for Android had a feature that allowed users with older Android devices (pre-4.0/ICS) to tunnel the whole device if it was rooted. A major update to Psiphon at that time necessitated the removal of that feature.",
+    "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+  },
   "alert-heading": {
     "message": "ALERT",
     "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -357,10 +369,6 @@
   },
   "download-list-join": {
     "message": "Join our <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Announcements mailing list</a> for important announcements and security advisories."
-  },
-  "generic-image-figcaption": {
-    "message": "Things to note:",
-    "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
   },
   "user-guide-android-head": {
     "message": "Psiphon for Android",

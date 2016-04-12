@@ -1,0 +1,18 @@
+---
+title: Psiphon usage surges as Brazil blocks WhatsApp
+author: Psiphon Team
+layout: blog/post
+date: 2015-12-18
+---
+
+At 9PM ET on December 16th [WhatsApp was blocked in Brazil](https://goo.gl/MWpXzt). The ban came after a judge ordered that the messenger app be blocked for 48 hours when the company refused to hand over private user information related to a criminal case.  For months, Brazilian telecommunications companies have been attempting to shut down WhatsApp because it provides free messaging and voice services. WhatsApp is the most popular messenger service in Brazil and [telecoms blame it for luring millions away](https://goo.gl/KgsQ3Z) from paid cell phone use.
+
+Internet users in Brazil reacted strongly to the ban, criticizing the decision to block WhatsApp widely on social media. Millions turned to alternate messenger services and shared circumvention techniques over social media. Psiphon was praised by people in Brazil for being free, open source, and able to keep them connected throughout the blocking event. Psiphon’s surge capacity was able to cope with the increased demand, with peak data use of more than 8x that of a normal day. Psiphon's unique users in Brazil went from 54,000 on December 16 to 946,000 on December 17.
+
+Less than a day after the block was put in place, a [second judge overturned the lower court’s decision](https://goo.gl/rb5Feh) and WhatsApp was unblocked. He stated that “it does not seem reasonable that millions of users be affected” because WhatsApp refused to disclose user information. While the surge use of Psiphon settled quickly, more than twice the expected amount of data was being served hours after the block was lifted.
+
+### Psiphon in Brazil: bytes per hour, 14-17 December 2015
+
+<a href="<%= @relativeToRoot '/images/blog/brazil-whatsapp-2015.png' %>">
+  <img src="<%= @relativeToRoot '/images/blog/brazil-whatsapp-2015.png' %>" alt="Psiphon data usage in Brazil" class="img-responsive center-block">
+</a>

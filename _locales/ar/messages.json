@@ -192,7 +192,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
-        "message": "متى نعمله؟",
+        "message": "متى نعمل ذلك؟",
         "description": ""
     },
     "faq-authentic-android-answer-para-2": {
@@ -352,7 +352,7 @@
         "description": ""
     },
     "user-guide-windows-para-3": {
-        "message": "ظهور الأيقونة الخضراء يعني نجاح عملية الإتصال بخادم برنامج سايفون Psiphon. والربط بنظام الشبكة الإفتراضية الخاصة VPN سيجعل جميع الاتصالات والبيانات تمر بشكل تلقائي من خلال مسار برنامج سايفون Psiphon. ",
+        "message": "ظهور الأيقونة الخضراء يعني نجاح عملية الإتصال بخادم برنامج سايفون. والربط بنظام الشبكة الإفتراضية الخاصة VPN سيجعل جميع الاتصالات والبيانات تمر بشكل تلقائي من خلال مسار برنامج سايفون. ",
         "description": ""
     },
     "license-meta-title": {
@@ -390,6 +390,10 @@
     "faq-isp-traffic-answer-para-1": {
         "message": "كل البيانات التي تمر عبر سايفون مشفرة. هذا يعني أن مزود الإنترنت خاصتك لا يستطيع رؤية محتوى حركة المرور على الإنترنت عندك: الصفحات التي تزورها، رسائل الدردشه، تحميلاتك، إلخ.",
         "description": ""
+    },
+    "faq-root-wdm-answer-para-1": {
+        "message": "Before December 2015 Psiphon for Android had a feature that allowed users with older Android devices (pre-4.0/ICS) to tunnel the whole device if it was rooted. A major update to Psiphon at that time necessitated the removal of that feature.",
+        "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-isp-traffic-answer-para-2": {
         "message": "لكن الرجاء التذكر أن سايفون مصمم ليكون أداة تجاوز رقابة، وليس مصمم  ليكون أداة ضد الرقابة، وليس مصمم خصيصا لأهداف ضد الرقابة. سايفون لا يمنع حفظ تاريخ تصفحك وملفات تعريف الإرتباط على حاسوبك. وفي بعض الأنماط والإعدادات يمكن أن لا تمر كل حركة مرور الإنترنت خاصتك في مسار سايفون الآمن (نفق سايفون) --   يمكن أن يحدث ذلك  مثلا  إذا  كانت إعدادات بروكسي متصفحك مضبوطة خطأ.",
@@ -444,7 +448,7 @@
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "license-personal-or-specified-use-para": {
-        "message": "إن هذاا البرنامج غير مخصص للبيع والربح المادي٬ وإنما يتم منحه تحت ترخيص شخصي غير مخصص للاحتكار. باستخدامك لبرنامج سايفون Psiphon فإنك موافق على استخدامه بصورة شخصية فقط وليس بغرض التنفع وتحقيق الأرباح المالية منه. ووفقا لذلك فإنه ليس بإمكانك تأجيره أو بيعه أو إعادة بيعه أو توزيعه بصورة تجارية تهدف لتحقيق أرباح مادية٬ أو بيعه أو تأجيره أو إعادة بيعه أوتوزيعه بصورة تجارية عبر وسيط بغرض تحقيق أرباح مادية.",
+        "message": "إن هذاا البرنامج غير مخصص للبيع والربح المادي٬ وإنما يتم منحه تحت ترخيص شخصي غير مخصص للاحتكار. باستخدامك لبرنامج Psiphon فإنك موافق على استخدامه بصورة شخصية فقط وليس بغرض التنفع وتحقيق الأرباح المالية منه. ووفقا لذلك فإنه ليس بإمكانك تأجيره أو بيعه أو إعادة بيعه أو توزيعه بصورة تجارية تهدف لتحقيق أرباح مادية٬ أو بيعه أو تأجيره أو إعادة بيعه أوتوزيعه بصورة تجارية عبر وسيط بغرض تحقيق أرباح مادية.",
         "description": ""
     },
     "faq-browser-compatibility-question": {
@@ -615,6 +619,14 @@
         "message": "سوف ترى الشعار الذي اخترته٬ والذي سيكون حلقة الوصل لصفحة على موقعك. إنها فرصة فريدة ستمكنك من التواصل مع عدد كبير من المختصين فنيًا وعلى دراية واسعة باستخدامات برنامج سايفون Psiphon وكيفية إضافة طبقة من الحماية والأمن لمتصفحي الإنترنت. ",
         "description": ""
     },
+    "faq-root-wdm-question-toc": {
+        "message": "What happened to whole device mode for rooted Android devices?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-root-wdm-question": {
+        "message": "What happened to whole device mode for rooted Android devices?",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "page-keyword-how-to": {
         "message": "كيف ",
         "description": "web page meta keyword used for SEO"
@@ -688,7 +700,7 @@
         "description": ""
     },
     "main-pick-three-head-1": {
-        "message": "الثقة٬ السرعة٬ البساطة: اختر كل الثلاثة",
+        "message": "الثقة٬ السرعة٬ البساطة: اختر الثلاثة",
         "description": ""
     },
     "about-who-we-are-software-development-head": {
@@ -708,7 +720,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
     },
     "privacy-bulletin-entry-item-head-why-doing": {
-        "message": "لماذا نعمله؟ ",
+        "message": "لماذا نعمل ذلك؟ ",
         "description": ""
     },
     "generic-image-figcaption": {
@@ -824,7 +836,7 @@
         "description": ""
     },
     "faq-orig-file-purpose-question": {
-        "message": "ماهو ملف سايفُون3  \"psiphon3.exe.orig\"؟",
+        "message": "ماهو ملف سايفُون 3  \"psiphon3.exe.orig\"؟",
         "description": ""
     },
     "index-meta-title": {
@@ -1047,6 +1059,10 @@
         "message": "الرعاية، الإعلانات، والتبرعات ",
         "description": "Page title for the Sponsorship page"
     },
+    "faq-root-wdm-answer-para-2": {
+        "message": "If you require that functionality, you can use a “legacy” version of Psiphon for Android. That version will be lacking some of the advanced circumvention abilities of modern Psiphon, but it may be sufficient for your needs. You can <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">download the “legacy” version here</a>.",
+        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
     "faq-check-version-question": {
         "message": "كيف يمكنني التحقق من الإصدار الذي لديْ  لبرنامج سايفون Psiphon؟",
         "description": ""
@@ -1148,7 +1164,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-bulletin-entry-item-head-who-will-see": {
-        "message": "من غير سايفون سيرى هذه المعلومات؟",
+        "message": "من سيرى هذه المعلومات غير سايفون؟",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
@@ -1164,7 +1180,7 @@
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "عندما يبدأ برنامج سايفون Psiphon التشغيل، فإنًه يقوم بعرض نسخة العميل Client Version في أول سطر للمعلومات الظاهرة ",
+        "message": "عندما يبدأ برنامج سايفون بالعمل يقوم بعرض نسخة العميل Client Version في أول سطر للمعلومات الظاهرة ",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-2": {
