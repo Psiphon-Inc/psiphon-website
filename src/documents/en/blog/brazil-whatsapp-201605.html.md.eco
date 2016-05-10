@@ -1,0 +1,31 @@
+---
+title: Amid Second Ban, Psiphon Keeps WhatsApp On in Brazil
+author: Psiphon Team
+layout: blog/post
+date: 2016-05-09
+---
+
+In December, Psiphon blogged about a previous blocking event in Brazil, [available here](https://psiphon3.net/en/blog/brazil-whatsapp-2015.html).
+
+Psiphon use surged again in Brazil in response to another nationwide suspension of WhatsApp messaging service. On May 2nd, Brazilian state judge Marcel Maia Montalvão issued an order to [block WhatsApp for 72 hours](https://goo.gl/okv3Hq). The judge is seeking user data from WhatsApp as part of a criminal investigation. The five main mobile operators were ordered to block the messaging service, beginning at Monday at 2 p.m. local time.
+
+In response to the recent suspension of WhatsApp services, company CEO Jan Koum [posted a message to Facebook](https://goo.gl/Ndx9YZ) stating, “Yet again millions of innocent Brazilians are being punished because a court wants WhatsApp to turn over information we repeatedly said we don’t have. Not only do we encrypt messages end-to-end on WhatsApp to keep people’s information safe and secure, we also don't keep your chat history on our servers. When you send an end-to-end encrypted message, no one else can read it – not even us.”
+
+The [suspension was overturned](https://goo.gl/Pj9ROA) by another judge on Tuesday following an appeal from WhatsApp’s lawyers, allowing WhatsApp to resume services in Brazil.
+
+In March, Judge Montalvão ordered the [arrest of Facebook executive](https://goo.gl/lsXoKu) Diego Dzodan on charges of obstructing justice after WhatsApp failed to deliver messages subpoenaed in the criminal investigation. A day later, an appeals judge overturned that order and Dzodan was released. Although WhatsApp is owned by Facebook Inc, the two companies operate separately.
+
+During a press conference that followed, Dzodan stated that [WhatsApp is unable to turn over the data](https://goo.gl/nOCwHz) because it doesn’t store users’ messages after they’ve been delivered. In addition, the messaging service uses end-to-end encryption and messages cannot be intercepted.
+
+Using Psiphon, Brazil’s WhatsApp users were able to retain or restore access to the application. The Psiphon user base in Brazil tripled within the first 24h of the ban. Brazil’s *Globo* news network [recommended Psiphon](http://g1.globo.com/tecnologia/blog/tira-duvidas-de-tecnologia/post/whatsapp-saiba-os-riscos-de-usar-vpn-no-smartphone.html) to circumvent the blocking.
+
+
+## Psiphon in Brazil: bytes per hour, 29 April – 4 May 2016
+
+<a href="<%= @relativeToRoot '/images/blog/brazil-whatsapp-201605.png' %>">
+  <img src="<%= @relativeToRoot '/images/blog/brazil-whatsapp-201605.png' %>" alt="Psiphon data usage in Brazil" class="img-responsive center-block">
+</a>
+
+This case demonstrates that in response to censorship, blocking, and other restrictions, internet users will turn to known tools that connect them to content and to each other.
+
+You can stay in touch with Psiphon via [Twitter](https://twitter.com/PsiphonInc) and [Facebook](https://www.facebook.com/pages/Psiphon/207377692624236) for ongoing updates.
