@@ -1,0 +1,23 @@
+---
+title: 巴西屏蔽Whatsapp   赛风用户增加
+author: 赛风团队
+layout: blog/post
+date: 2015-12-18
+---
+
+通讯工具Whatsapp 在十二月十六日晚上九点[在巴西被屏蔽](http://technews.tw/2015/12/17/brazil-whatsapp-block-ended/) 。Whatsapp 因为无法提交刑事调查需要的用户隐私资料, 而被巴西的州法官颁发了四十八小时的禁令。在过去的几个月，巴西电讯公司也曾经尝试关闭Whatsapp 所提供的免费讯息和话音服务。Whatsapp是巴西现时最流行的通讯工具，而当地的电讯公司则批评Whatsapp 把[过百万的付费电话用户抢走](http://www.thenewslens.com/post/259872/)。
+
+巴西的网络用户对禁令反应强烈，他们批评在社交网络广泛屏蔽Whatsapp的做法。超过百万的用户因为禁令而转移使用其他通讯工具和社交网络的共用围绕审查技术。
+巴西的用户对赛风一致赞好:**作为一个免费，开源，和可以在其他屏蔽事件时让他们继续连接网络内容的软件**。在这次事件，赛风的负荷容量亦能有效地应付增加需求，甚至多达平日数据的八倍。赛风在巴西的独立用户从十二月十六日的**五万四千人**上升到十二月十七日的**九十四万**。
+
+禁令后一天，[另一位法官推翻了初审法院的决定](http://tech.qq.com/a/20151218/017226.htm)，Whatsapp也恢复了服务。发官回应说「过百万的用户因为Whatsapp 未能提供用户资料而受到影响，在宪法精神的立场而言是不能理解的。」赛风的团队很快便解决了使用负荷的问题，而且在禁令推翻后，赛风的数据比起预期多出了两倍。
+
+## 巴西的赛风服务： 数据字节/小时 二零一五年十二月十四至十五日
+
+<a href="<%= @relativeToRoot '/images/blog/brazil-whatsapp-2015.png' %>">
+  <img src="<%= @relativeToRoot '/images/blog/brazil-whatsapp-2015.png' %>" alt="Psiphon data usage in Brazil" class="img-responsive center-block">
+</a>
+
+---
+
+**更新**：在二零一六年五月，[巴西当局再次屏蔽了Whatsapp](<%= @getPageURL '/blog/brazil-whatsapp-201605.html' %>)，我们也同样看到更多用户使用赛风。
