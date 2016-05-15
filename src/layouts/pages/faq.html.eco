@@ -4,8 +4,46 @@ layout: page
 
 <div class="row">
   <div class="col-md-12">
-    <ul id="faq-toc" class="list-group" data-child-tag="<li class='list-group-item'>">
-    </ul>
+
+    <div id="faq-toc" class="panel-group" role="tablist">
+
+      <script type="text/template"" id="faq-toc-template">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="{{ head_id }}">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" href="#{{ collapse_id }}"
+                aria-expanded="false" aria-controls="{{ collapse_id }}">
+                {{ section_text }}
+              </a>
+              <a href="#{{ section_id }}">
+                <span class="glyphicon <%- @ifRTL('glyphicon-arrow-left', 'glyphicon-arrow-right') %>" aria-hidden="true"></span>
+              </a>
+            </h4>
+          </div>
+          <div id="{{ collapse_id }}" class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="{{ head_id }}" aria-expanded="false">
+            <ul class="list-group">
+              {{% _.forEach(questions, function(q) { %}}
+                <li class="list-group-item">
+                  <a href="#{{ q.id }}">{{ q.text }}</a>
+                </li>
+              {{% }); %}}
+            </ul>
+          </div>
+        </div>
+      </script>
+
+    </div>
+
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="verify-psiphon-authentic">
+      <%= @tt 'faq-section-verify-psiphon-authentic' %>
+    </h2>
   </div>
 </div>
 
@@ -81,6 +119,15 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
   </div>
 </div>
 
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="privacy-security">
+      <%= @tt 'faq-section-privacy-security' %>
+    </h2>
+  </div>
+</div>
+
 <div class="row faq-qa">
   <span class="anchor-target" id="isp-traffic" data-anchor-text="<%= @tt 'faq-isp-traffic-question-toc' %>"></span>
   <div class="faq-question">
@@ -103,21 +150,6 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
-  <span class="anchor-target" id="android-enable-sideloading" data-anchor-text="<%= @tt 'faq-android-enable-sideloading-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-android-enable-sideloading-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%- @tt 'faq-android-enable-sideloading-answer-para-1' %>
-    </p>
-    <p>
-      <img class="img-responsive" src="<%= @relativeToRoot @ttURL '/images/faq/faq-android-enable-sideloading.png' %>" alt="<%= @tt 'faq-android-enable-sideloading-image-alt' %>">
-    </p>
-  </div>
-</div>
-
-<div class="row faq-qa">
   <span class="anchor-target" id="information-collected" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-information-collected-question' %></h3>
@@ -129,26 +161,26 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
   </div>
 </div>
 
-<div class="row faq-qa">
-  <span class="anchor-target" id="ip-change" data-anchor-text="<%= @tt 'faq-ip-change-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-ip-change-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%= @tt 'faq-ip-change-answer-para-1' %>
-    </p>
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="running-updating">
+      <%= @tt 'faq-section-running-updating' %>
+    </h2>
   </div>
 </div>
 
 <div class="row faq-qa">
-  <span class="anchor-target" id="connection-failed" data-anchor-text="<%= @tt 'faq-connection-failed-question' %>"></span>
+  <span class="anchor-target" id="android-enable-sideloading" data-anchor-text="<%= @tt 'faq-android-enable-sideloading-question' %>"></span>
   <div class="faq-question">
-    <h3><%= @tt 'faq-connection-failed-question' %></h3>
+    <h3><%= @tt 'faq-android-enable-sideloading-question' %></h3>
   </div>
   <div class="faq-answer">
     <p>
-      <%= @tt 'faq-connection-failed-answer-para-1' %>
+      <%- @tt 'faq-android-enable-sideloading-answer-para-1' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="<%= @relativeToRoot @ttURL '/images/faq/faq-android-enable-sideloading.png' %>" alt="<%= @tt 'faq-android-enable-sideloading-image-alt' %>">
     </p>
   </div>
 </div>
@@ -178,6 +210,45 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
+  <span class="anchor-target" id="get-updated-version" data-anchor-text="<%= @tt 'faq-get-updated-version-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-get-updated-version-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-get-updated-version-answer-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-get-updated-version-answer-para-2' %>
+    </p>
+    <p>
+      <%- @tt 'faq-get-updated-version-answer-para-3' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="how-psiphon-works">
+      <%= @tt 'faq-section-how-psiphon-works' %>
+    </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="ip-change" data-anchor-text="<%= @tt 'faq-ip-change-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-ip-change-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-ip-change-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
   <span class="anchor-target" id="proxy-all" data-anchor-text="<%= @tt 'faq-proxy-all-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-proxy-all-question' %></h3>
@@ -190,25 +261,13 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
-  <span class="anchor-target" id="browser-compatibility" data-anchor-text="<%= @tt 'faq-browser-compatibility-question' %>"></span>
+  <span class="anchor-target" id="ssh-plus" data-anchor-text="<%= @tt 'faq-ssh-plus-question' %>"></span>
   <div class="faq-question">
-    <h3><%= @tt 'faq-browser-compatibility-question' %></h3>
+    <h3><%= @tt 'faq-ssh-plus-question' %></h3>
   </div>
   <div class="faq-answer">
     <p>
-      <%= @tt 'faq-browser-compatibility-answer-para-1' %>
-    </p>
-  </div>
-</div>
-
-<div class="row faq-qa">
-  <span class="anchor-target" id="port-restrictions" data-anchor-text="<%= @tt 'faq-port-restrictions-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-port-restrictions-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%- @tt 'faq-port-restrictions-answer-para-1' %>
+      <%- @tt 'faq-ssh-plus-answer-para-1' %>
     </p>
   </div>
 </div>
@@ -221,6 +280,39 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
   <div class="faq-answer">
     <p>
       <%= @tt 'faq-vpn-protocol-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="troubleshooting">
+      <%= @tt 'faq-section-troubleshooting' %>
+    </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="connection-failed" data-anchor-text="<%= @tt 'faq-connection-failed-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-connection-failed-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-connection-failed-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="windows-vpn-connect" data-anchor-text="<%= @tt 'faq-windows-vpn-connect-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-windows-vpn-connect-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-windows-vpn-connect-answer-para-1' %>
     </p>
   </div>
 </div>
@@ -249,6 +341,39 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
   </div>
 </div>
 
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="compatibility">
+      <%= @tt 'faq-section-compatibility' %>
+    </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="browser-compatibility" data-anchor-text="<%= @tt 'faq-browser-compatibility-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-browser-compatibility-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-browser-compatibility-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="port-restrictions" data-anchor-text="<%= @tt 'faq-port-restrictions-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-port-restrictions-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-port-restrictions-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
 <div class="row faq-qa">
   <span class="anchor-target" id="configure-applications" data-anchor-text="<%= @tt 'faq-configure-applications-question' %>"></span>
   <div class="faq-question">
@@ -262,18 +387,6 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
-  <span class="anchor-target" id="ssh-plus" data-anchor-text="<%= @tt 'faq-ssh-plus-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-ssh-plus-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%- @tt 'faq-ssh-plus-answer-para-1' %>
-    </p>
-  </div>
-</div>
-
-<div class="row faq-qa">
   <span class="anchor-target" id="autoproxy" data-anchor-text="<%= @tt 'faq-autoproxy-question-toc' %>"></span>
   <div class="faq-question">
     <h3><%- @tt 'faq-autoproxy-question' %></h3>
@@ -282,6 +395,15 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
     <p>
       <%- @tt 'faq-autoproxy-answer-para-1' %>
     </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="miscellaneous">
+      <%= @tt 'faq-section-miscellaneous' %>
+    </h2>
   </div>
 </div>
 

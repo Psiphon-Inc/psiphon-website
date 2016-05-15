@@ -81,6 +81,34 @@
     "message": "Direct, free Psiphon download for Windows and Android",
     "description": "title for the download page"
   },
+  "faq-section-verify-psiphon-authentic": {
+    "message": "Verify Your Psiphon Download is Authentic",
+    "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
+  },
+  "faq-section-privacy-security": {
+    "message": "Privacy and Security",
+    "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
+  },
+  "faq-section-running-updating": {
+    "message": "Running and Updating Psiphon",
+    "description": "Section heading for FAQ entries that pertain to running and updating/upgrading the Psiphon client software."
+  },
+  "faq-section-how-psiphon-works": {
+    "message": "How Psiphon Works",
+    "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
+  },
+  "faq-section-troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
+  },
+  "faq-section-compatibility": {
+    "message": "Compatibility with Other Applications",
+    "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
+  },
+  "faq-section-miscellaneous": {
+    "message": "Miscellaneous",
+    "description": "Section heading for FAQ entries that don't fit in any other category."
+  },
   "faq-authentic-windows-image-alt": {
     "message": "Image showing how to check the Psiphon executable signature on Windows",
     "description": "alt text for an image"
@@ -154,6 +182,22 @@
   "faq-check-version-answer-para-1": {
     "message": "When Psiphon starts, it displays the Client Version on the first line of log output."
   },
+  "faq-get-updated-version-question": {
+    "message": "How do I get an updated version of Psiphon?",
+    "description": "FAQ question"
+  },
+  "faq-get-updated-version-answer-para-1": {
+    "message": "<strong>Android:</strong> If you have installed Psiphon for Android through the Google Play Store, it will be automatically updated by the Play Store when an update is available. If you have sideloaded Psiphon for Android, the Psiphon client will download updates as they are available, and a notification will appear asking you to install the update.",
+    "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+  },
+  "faq-get-updated-version-answer-para-2": {
+    "message": "<strong>Windows:</strong> The Psiphon for Windows client will download and install updates as they are available.",
+    "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
+  },
+  "faq-get-updated-version-answer-para-3": {
+    "message": "<strong>Manually updating:</strong> If the Psiphon self-updating mechanism isn't working (for example, if it's been blocked), you can find information about getting a fresh copy of Psiphon from the <a href=\"download.html\">Download page</a>.",
+    "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
+  },
   "faq-orig-file-purpose-question": {
     "message": "What is the file \"psiphon3.exe.orig\"?"
   },
@@ -182,7 +226,13 @@
     "message": "What VPN protocol is used by Psiphon for Windows? Why can't I connect?"
   },
   "faq-vpn-protocol-answer-para-1": {
-    "message": "Psiphon uses the L2TP/IPSec VPN protocol. Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPSec or L2TP pass-through is enabled. Your system’s IPSec Services may be disabled; check your service settings and enable this service to start automatically."
+    "message": "Psiphon uses the L2TP/IPSec VPN protocol."
+  },
+  "faq-windows-vpn-connect-question": {
+    "message": "Why can't I connect with Psiphon for Windows in L2TP/IPSec mode?"
+  },
+  "faq-windows-vpn-connect-answer-para-1": {
+    "message": "Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPSec or L2TP pass-through is enabled. Your system’s IPSec Services may be disabled; check your service settings and enable this service to start automatically."
   },
   "faq-vpn-slow-question": {
     "message": "I can connect to Psiphon for Windows in VPN mode, but why is it so slow?  Sometimes web pages don't load at all."

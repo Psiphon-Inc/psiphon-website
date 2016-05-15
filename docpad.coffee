@@ -170,7 +170,7 @@ docpadConfig = {
     # -----------------------------
     # Helper Functions
 
-    # `document` arugment is optional -- if not supplied, @document will be used
+    # `document` argument is optional -- if not supplied, @document will be used
     getPageInfoKeyFromDocument: (document) ->
       if not document
         document = @document
@@ -191,7 +191,7 @@ docpadConfig = {
       return @pageInfo[name]
 
     # The title might need to be translated from a string key.
-    # `document` arugment is optional -- if not supplied, @document will be used
+    # `document` argument is optional -- if not supplied, @document will be used
     getTitle: (document) ->
       if not document
         document = @document
@@ -292,14 +292,14 @@ docpadConfig = {
     rtl_languages: ['ar', 'fa', 'he']
 
 
-    # `document` arugment is optional -- if not supplied, @document will be used
+    # `document` argument is optional -- if not supplied, @document will be used
     isRTL: (document=null) ->
       if not document
         document = @document
       document.language in @rtl_languages
 
 
-    # `document` arugment is optional -- if not supplied, @document will be used
+    # `document` argument is optional -- if not supplied, @document will be used
     ifRTL: (rtlValue, ltrValue='', document=null) ->
       if @isRTL(document) then rtlValue else ltrValue
 

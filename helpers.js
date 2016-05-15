@@ -21,6 +21,7 @@
 "use strict";
 
 var cheerio = require('cheerio');
+var _ = require('lodash');
 
 
 /**
@@ -43,15 +44,57 @@ function makeFaqToc(opts) {
   var $ = cheerio.load(opts.content);
 
   if ($('#faq-toc')) {
-    var childTag = $('#faq-toc').data('child-tag');
-    $('.anchor-target').each(function() {
-      var child = $(childTag);
-      var childLink = $('<a>');
-      childLink.attr('href', '#' + $(this).attr('id'))
-               .text($(this).data('anchor-text'));
-      child.append(childLink);
-      $('#faq-toc').append(child);
+    _.templateSettings.escape = /{{[^%]([\s\S]+?)}}/g;
+    _.templateSettings.evaluate = /{{%([\s\S]+?)%}}/g;
+
+    // Compile the template.
+    var template = _.template($('#faq-toc-template').html());
+
+    // We'll go through the sections and questions, filling out the TOC.
+    var currSection = null;
+    /* Will have this structure:
+    {
+      head_id: "id of the accordion head",
+      collapse_id: "id of the accordion collapse elem",
+      section_text: "title of the section",
+      section_id: "anchor id for the section",
+      questions: [
+        {
+          text: "text of the question",
+          id: "anchor id for the question"
+        }
+      ]
+    }
+    */
+
+    $('.faq-section, .faq-qa').each(function() {
+      var $elem = $(this);
+
+      if ($elem.hasClass('faq-section')) {
+        // We've hit a new section. Write out the template for the previous section,
+        // and start collecting info for this one.
+        if (currSection) {
+          $('#faq-toc').append(template(currSection));
+        }
+        currSection = { questions: [] };
+
+        currSection.head_id = $elem.attr('id') + "-toc-head";
+        currSection.collapse_id = $elem.attr('id') + "-toc-collapse";
+        currSection.section_text = $elem.text();
+        currSection.section_id = $elem.attr('id');
+      }
+      else { // faq-qa
+        currSection.questions.push({
+          text: $elem.find('.faq-question > h3').text(),
+          id: $elem.find('.anchor-target').attr('id')
+        });
+      }
     });
+
+    // After looping through, there's one more section to append.
+    if (currSection) {
+      $('#faq-toc').append(template(currSection));
+    }
   }
 
   // Keep the modified page HTML.
