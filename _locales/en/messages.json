@@ -176,6 +176,23 @@
   "faq-connection-failed-answer-para-1": {
     "message": "If you see repeated \"connection failed\" messages, it means that there are no available servers that your client knows about. Try to download a new Psiphon client."
   },
+
+  "faq-reset-system-proxy-question": {
+    "message": "After using Psiphon for Windows my computer can no longer connect to the Internet.",
+    "description": "FAQ question."
+  },
+  "faq-reset-system-proxy-answer-para-1": {
+    "message": "When Psiphon for Windows connects it modifies your computer's proxy settings, and when it disconnects it restores them to their original state. If Psiphon for Windows does not exit properly, it may not properly restore the original proxy settings, and this will result in you being unable to connect to the Internet.",
+    "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+  },
+  "faq-reset-system-proxy-answer-para-2": {
+    "message": "The easiest way to fix this for most people is to connect with Psiphon again, and then cleanly disconnect.",
+    "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+  },
+  "faq-reset-system-proxy-answer-para-3": {
+    "message": "To manually fix your proxy settings, open Internet Explorer, then go to the Tools menu (or gear icon), Internet Options → Connections tab → LAN Settings button. Then remove the checkmark beside “Use a proxy server for your LAN”.",
+    "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+  },
   "faq-check-version-question": {
     "message": "How do I check my current version of Psiphon?"
   },

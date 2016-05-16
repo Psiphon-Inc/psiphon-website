@@ -306,6 +306,27 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
+  <span class="anchor-target" id="reset-system-proxy" data-anchor-text="<%= @tt 'faq-reset-system-proxy-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-reset-system-proxy-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-reset-system-proxy-answer-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'faq-reset-system-proxy-answer-para-2' %>
+    </p>
+    <p>
+      <%= @tt 'faq-reset-system-proxy-answer-para-3' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="<%= @relativeToRoot '/images/faq/faq-windows-reset-proxy-settings.png' %>">
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
   <span class="anchor-target" id="windows-vpn-connect" data-anchor-text="<%= @tt 'faq-windows-vpn-connect-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-windows-vpn-connect-question' %></h3>
