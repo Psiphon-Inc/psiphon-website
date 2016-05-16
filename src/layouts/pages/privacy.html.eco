@@ -38,6 +38,43 @@ layout: page
       <%- @tt 'faq-information-collected-answer-para-9' %>
     </p>
 
+    <!-- Psiphon Client Software -->
+    <h3><%= @tt 'privacy-information-collected-client-head' %></h3>
+
+    <h4><%= @tt 'privacy-information-collected-client-advertising-networks-head' %></h4>
+
+    <p>
+      <%= @tt 'privacy-information-collected-client-advertising-networks-para-1' %>
+    </p>
+
+    <ul>
+    <li>
+    <a href="http://www.mopub.com/legal/privacy/">http://www.mopub.com/legal/privacy/</a>
+    </li>
+    <li>
+    <a href="http://www.inmobi.com/privacy-policy/">http://www.inmobi.com/privacy-policy/</a>
+    </li>
+    <li>
+    <a href="http://www.millennialmedia.com/privacy-policy">http://www.millennialmedia.com/privacy-policy</a>
+    </li>
+    </ul>
+
+    <p>
+      <%= @tt 'privacy-information-collected-client-advertising-networks-para-2' %>
+    </p>
+
+    <ul>
+    <li>
+    <a href="http://www.mopub.com/optout/">http://www.mopub.com/optout/</a>
+    </li>
+    <li>
+    <a href="http://www.inmobi.com/page/opt-out/">http://www.inmobi.com/page/opt-out/</a>
+    </li>
+    <li>
+    <a href="http://www.millennialmedia.com/privacy-policy/opt-out">http://www.millennialmedia.com/privacy-policy/opt-out</a>
+    </li>
+    </ul>
+
     <!-- Websites -->
     <h3><%= @tt 'privacy-information-collected-websites-head' %></h3>
 
