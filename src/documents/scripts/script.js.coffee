@@ -118,14 +118,19 @@ $ ->
   # If there are dates on the page that should be localized, localize them.
   $('.localize-date').each (idx, elem) ->
     locale = $('html').prop('lang')
+    options = {}
+
     if locale == 'fa'
       # Most Farsi speakers use the Persian calendar
       locale = "#{locale}-u-ca-persian"
+    else if locale == 'zh'
+      # Needed to get something like "2016年5月3日"
+      options = {year: "numeric", month: "long", day: "numeric"}
 
     date = new Date($(elem).text())
 
     # TODO: Are there more special-case calendars? See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
-    $(elem).text(date.toLocaleDateString(locale))
+    $(elem).text(date.toLocaleDateString(locale, options))
 
   if endsWith(window.location.pathname, '/download.html')
     # If the anchor is for the "direct downloads" section, move that section to

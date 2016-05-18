@@ -5,7 +5,7 @@ layout: blog/post
 date: 2016-05-09
 ---
 
-In December, Psiphon blogged about a previous blocking event in Brazil, [available here](https://psiphon3.net/en/blog/brazil-whatsapp-2015.html).
+In December, Psiphon blogged about a previous blocking event in Brazil, [available here](<%= @getPageURL '/blog/brazil-whatsapp-2015.html' %>).
 
 Psiphon use surged again in Brazil in response to another nationwide suspension of WhatsApp messaging service. On May 2nd, Brazilian state judge Marcel Maia Montalvão issued an order to [block WhatsApp for 72 hours](https://goo.gl/okv3Hq). The judge is seeking user data from WhatsApp as part of a criminal investigation. The five main mobile operators were ordered to block the messaging service, beginning at Monday at 2 p.m. local time.
 
