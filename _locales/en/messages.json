@@ -249,10 +249,16 @@
     "message": "Yes. Check your browser settings and make sure that it is configured to use the system proxy settings."
   },
   "faq-port-restrictions-question": {
-    "message": "Are there any port restrictions in VPN mode? Why can't I send email using my mail client in VPN mode?"
+    "message": "Are there any port restrictions when using Psiphon?"
   },
   "faq-port-restrictions-answer-para-1": {
-    "message": "Outbound connections from the Psiphon for Windows VPN can be made only on the following ports: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25 and 587. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information."
+    "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information."
+  },
+  "faq-mail-apps-ports-question": {
+    "message": "Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?"
+  },
+  "faq-mail-apps-ports-answer-para-1": {
+    "message": "This is probably due to Psiphon's <a href=\"#port-restrictions\">port restrictions</a>."
   },
   "faq-vpn-protocol-question": {
     "message": "What VPN protocol is used by Psiphon for Windows? Why can't I connect?"
