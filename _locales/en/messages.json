@@ -200,6 +200,14 @@
     "message": "If Psiphon is connected while an upgrade is installed, it may not be able to connect afterwards and will show the error “start_tunnel_failed application is not prepared or revoked”. This is due to an <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">Android OS bug</a>. This condition can be fixed by rebooting your device.",
     "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
   },
+  "faq-periodic-disconnect-question": {
+    "message": "Why does my Psiphon connection sometimes disconnect?",
+    "description": "FAQ question."
+  },
+  "faq-periodic-disconnect-answer-para-1": {
+    "message": "This is most commonly caused by an unreliable or inconsistent Internet connection to your device or computer. On a phone, this can mean losing reception. On a computer, this can mean inconsistent Wi-Fi or an unreliable Internet Service Provider.",
+    "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
+  },
   "faq-check-version-question": {
     "message": "How do I check my current version of Psiphon?"
   },
