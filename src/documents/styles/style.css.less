@@ -124,6 +124,11 @@ h2 {
  */
 
 #faq-toc {
+  &.panel-group .panel+.panel {
+    // Override the default Bootstrap style
+    margin-top: 0;
+  }
+
   .panel-heading {
     display: table;
   }
