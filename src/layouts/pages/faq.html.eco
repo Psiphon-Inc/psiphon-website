@@ -432,6 +432,49 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
+  <span class="anchor-target" id="av-firewall" data-anchor-text="<%= @tt 'faq-av-firewall-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-av-firewall-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-av-firewall-answer-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-av-firewall-answer-para-2' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="windows-metro" data-anchor-text="<%= @tt 'faq-windows-metro-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-windows-metro-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-windows-metro-answer-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-windows-metro-answer-para-2' %>
+    </p>
+    <p>
+      <%- @tt 'faq-windows-metro-answer-para-3' %>
+    </p>
+    <p>
+      <a href="<%= @relativeToRoot '/images/faq/windows-metro-1.png' %>">
+        <img class="img-responsive img-thumbnail" src="<%= @relativeToRoot '/images/faq/windows-metro-1.png' %>">
+      </a>
+    </p>
+    <p>
+      <a href="<%= @relativeToRoot '/images/faq/windows-metro-2.png' %>">
+        <img class="img-responsive img-thumbnail" src="<%= @relativeToRoot '/images/faq/windows-metro-2.png' %>">
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
   <span class="anchor-target" id="configure-applications" data-anchor-text="<%= @tt 'faq-configure-applications-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-configure-applications-question' %></h3>

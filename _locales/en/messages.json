@@ -249,16 +249,48 @@
     "message": "Yes. Check your browser settings and make sure that it is configured to use the system proxy settings."
   },
   "faq-port-restrictions-question": {
-    "message": "Are there any port restrictions when using Psiphon?"
+    "message": "Are there any port restrictions when using Psiphon?",
+    "description": "FAQ question. Note that 'port' is referring to network ports."
   },
   "faq-port-restrictions-answer-para-1": {
-    "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information."
+    "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information.",
+    "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
   },
   "faq-mail-apps-ports-question": {
-    "message": "Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?"
+    "message": "Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?",
+    "description": "FAQ question."
   },
   "faq-mail-apps-ports-answer-para-1": {
-    "message": "This is probably due to Psiphon's <a href=\"#port-restrictions\">port restrictions</a>."
+    "message": "This is probably due to Psiphon's <a href=\"#port-restrictions\">port restrictions</a>.",
+    "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+  },
+  "faq-av-firewall-question": {
+    "message": "Why does my antivirus (AV) or firewall identify Psiphon as a threat?",
+    "description": "FAQ question."
+  },
+  "faq-av-firewall-answer-para-1": {
+    "message": "The first thing to check is that you have an authentic copy of Psiphon. Please <a href=\"#verify-psiphon-authentic\">follow these instructions</a> to verify that your copy of Psiphon is authentic. If it is not authentic, please <a href=\"mailto:info@psiphon.ca\">send us an email</a> with information about how you obtained the copy and, if possible, with the Psiphon executable attached.",
+    "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+  },
+  "faq-av-firewall-answer-para-2": {
+    "message": "If your copy of Psiphon is authentic, then this is an instance of a false positive report. Although most antivirus/firewall programs have added Psiphon’s digital signature to their whitelist rules, some may still erroneously identify Psiphon’s executable file as a virus or threat. In this case, please <a href=\"mailto:info@psiphon.ca\">send us an email</a>, specifying the AV/firewall program you use, and we will contact the AV/firewall vendor to solve the problem.",
+    "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+  },
+  "faq-windows-metro-question": {
+    "message": "Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?",
+    "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+  },
+  "faq-windows-metro-answer-para-1": {
+    "message": "Windows 8 introduced an alternative to the desktop app interface called “Metro”, which was later renamed to “Modern UI”. Some, but very few, applications can only run in “Metro mode” and some (like Internet Explorer) can run in either “Metro mode” or “Desktop mode”. This new user interface mode continues to exist in Windows 8.1 and, to a lesser degree, in Windows 10.",
+    "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
+  },
+  "faq-windows-metro-answer-para-2": {
+    "message": "Applications in Metro mode cannot use a local proxy without the user modifying system security settings. This means that Metro mode apps cannot use Psiphon, and will not be able to reach the internet when Psiphon is connected. You can use the <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">EnableLoopback Utility</a> to allow Metro mode apps to work with Psiphon.",
+    "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+  },
+  "faq-windows-metro-answer-para-3": {
+    "message": "The following are examples of the error message you might see when Metro mode apps are trying and failing to work through Psiphon.",
+    "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
   },
   "faq-vpn-protocol-question": {
     "message": "What VPN protocol is used by Psiphon for Windows? Why can't I connect?"
