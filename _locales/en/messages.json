@@ -208,6 +208,14 @@
     "message": "This is most commonly caused by an unreliable or inconsistent Internet connection to your device or computer. On a phone, this can mean losing reception. On a computer, this can mean inconsistent Wi-Fi or an unreliable Internet Service Provider.",
     "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
   },
+  "faq-ie6-docbody-question": {
+    "message": "Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.",
+    "description": "FAQ question."
+  },
+  "faq-ie6-docbody-answer-para-1": {
+    "message": "That error will occur on Windows XP if Internet Explorer 6 is installed. Psiphon for Windows requires Internet Explorer 7 or higher to be installed. The best way to install higher versions of Internet Explorer is via Windows Update. You might also be able to download Internet Explorer 7 <a href=\"https://techjourney.net/install-and-download-full-internet-explorer-7-ie7-final-release/\" target=\"_blank\">via this page</a>.",
+    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+  },
   "faq-check-version-question": {
     "message": "How do I check my current version of Psiphon?"
   },
@@ -263,6 +271,14 @@
   "faq-mail-apps-ports-answer-para-1": {
     "message": "This is probably due to Psiphon's <a href=\"#port-restrictions\">port restrictions</a>.",
     "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+  },
+  "faq-mobile-hotspot-question": {
+    "message": "Why do Android mobile hotspot and USB tethering not work through Psiphon?",
+    "description": "FAQ question."
+  },
+  "faq-mobile-hotspot-answer-para-1": {
+    "message": "This is due to a limitation in Android's hotspot and tethering implementation. You might find that either the tethered device cannot connect to the internet or the traffic will not go through the VPN.",
+    "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
   },
   "faq-av-firewall-question": {
     "message": "Why does my antivirus (AV) or firewall identify Psiphon as a threat?",
@@ -336,6 +352,14 @@
   },
   "faq-autoproxy-answer-para-1": {
     "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>SkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings."
+  },
+  "faq-screen-filter-question": {
+    "message": "When Psiphon for Android first connects, why can't I select “I trust this application”?",
+    "description": "FAQ question."
+  },
+  "faq-screen-filter-answer-para-1": {
+    "message": "Check if you are running a screen filter app or an app that manages your screen's brightness. If you are, try disabling it. Many of these apps (such as Lux Auto Brightness, Twilight, Night Mode) interfere with the user's ability to interact with this prompt.",
+    "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
   },
   "faq-isp-traffic-question-toc": {
     "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?"
