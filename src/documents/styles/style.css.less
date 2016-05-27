@@ -8,9 +8,6 @@
 @import "_rtl-support";
 @import "_annotations";
 
-body {
-}
-
 h1 {
   margin-bottom: 1em;
 }
@@ -129,22 +126,24 @@ h2 {
     margin-top: 0;
   }
 
+  /* Use table display to get the title and jump-to-anchor to align nicely */
   .panel-heading {
     display: table;
   }
 
   .panel-title {
     display: table-row;
-    font-size: 20px;
 
     > a {
       display: table-cell;
       vertical-align: middle;
 
+      /* Make the text part of the title fill the width, pushing the arrow to the right */
       &:first-child {
         width: 100%;
       }
 
+      /* Indent the items a bit */
       &:not(:first-child) {
         body[dir="ltr"] & {
           padding-left: 0.5em;
@@ -155,6 +154,14 @@ h2 {
         }
       }
     }
+  }
+
+  .panel-section .panel-title {
+    font-size: 1.5em;
+  }
+
+  .panel-subsection .panel-title {
+    font-size: 1.3em;
   }
 }
 

@@ -58,16 +58,23 @@ function makeFaqToc(opts) {
       collapse_id: "id of the accordion collapse elem",
       section_text: "title of the section",
       section_id: "anchor id for the section",
-      questions: [
-        {
-          text: "text of the question",
-          id: "anchor id for the question"
-        }
+      subsections: [
+        head_id: "id of the accordion head, null if no subsection",
+        collapse_id: "id of the accordion collapse elem",
+        section_text: "title of the subsection",
+        section_id: "anchor id for the subsection",
+        questions: [
+          {
+            text: "text of the question",
+            id: "anchor id for the question"
+          }
+        ]
       ]
     }
     */
+    var currQuestions = null;
 
-    $('.faq-section, .faq-qa').each(function() {
+    $('.faq-section, .faq-subsection, .faq-qa').each(function() {
       var $elem = $(this);
 
       if ($elem.hasClass('faq-section')) {
@@ -76,15 +83,33 @@ function makeFaqToc(opts) {
         if (currSection) {
           $('#faq-toc').append(template(currSection));
         }
-        currSection = { questions: [] };
+        currSection = {
+          subsections: [{
+              head_id: null,
+              questions: []
+            }]
+          };
+
+        currQuestions = currSection.subsections[0].questions;
 
         currSection.head_id = $elem.attr('id') + "-toc-head";
         currSection.collapse_id = $elem.attr('id') + "-toc-collapse";
         currSection.section_text = $elem.text();
         currSection.section_id = $elem.attr('id');
       }
+      else if ($elem.hasClass('faq-subsection')) {
+        currSection.subsections.push({
+          head_id: $elem.attr('id') + "-toc-head",
+          collapse_id: $elem.attr('id') + "-toc-collapse",
+          section_text: $elem.text(),
+          section_id: $elem.attr('id'),
+          questions: []
+        });
+
+        currQuestions = currSection.subsections[currSection.subsections.length-1].questions;
+      }
       else { // faq-qa
-        currSection.questions.push({
+        currQuestions.push({
           text: $elem.find('.faq-question > h3').text(),
           id: $elem.find('.anchor-target').attr('id')
         });

@@ -8,7 +8,7 @@ layout: page
     <div id="faq-toc" class="panel-group" role="tablist">
 
       <script type="text/template"" id="faq-toc-template">
-        <div class="panel panel-default">
+        <div class="panel panel-default panel-section">
           <div class="panel-heading" role="tab" id="{{ head_id }}">
             <h4 class="panel-title">
               <a class="collapsed" role="button" data-toggle="collapse" href="#{{ collapse_id }}"
@@ -23,11 +23,43 @@ layout: page
           <div id="{{ collapse_id }}" class="panel-collapse collapse" role="tabpanel"
               aria-labelledby="{{ head_id }}" aria-expanded="false">
             <ul class="list-group">
-              {{% _.forEach(questions, function(q) { %}}
-                <li class="list-group-item">
-                  <a href="#{{ q.id }}">{{ q.text }}</a>
-                </li>
+
+              {{% _.forEach(subsections, function(sub) { if (!sub.questions.length) return; %}}
+                {{% if (sub.head_id) { /* if subsections aren't used for this section, then head_id is null */ %}}
+                  <div class="panel panel-subsection">
+                    <div class="panel-heading" role="tab" id="{{ sub.head_id }}">
+                      <h5 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" href="#{{ sub.collapse_id }}"
+                          aria-expanded="false" aria-controls="{{ sub.collapse_id }}">
+                          {{ sub.section_text }}
+                        </a>
+                        <a href="#{{ sub.section_id }}">
+                          <span class="glyphicon <%- @ifRTL('glyphicon-arrow-left', 'glyphicon-arrow-right') %>" aria-hidden="true"></span>
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="{{ sub.collapse_id }}" class="panel-collapse collapse" role="tabpanel"
+                        aria-labelledby="{{ sub.head_id }}" aria-expanded="false">
+                      <ul class="list-group">
+
+                        {{% _.forEach(sub.questions, function(q) { %}}
+                          <li class="list-group-item">
+                            <a href="#{{ q.id }}">{{ q.text }}</a>
+                          </li>
+                        {{% }); %}}
+
+                      </ul>
+                    </div>
+                  </div>
+                {{% } else { %}}
+                  {{% _.forEach(sub.questions, function(q) { %}}
+                    <li class="list-group-item">
+                      <a href="#{{ q.id }}">{{ q.text }}</a>
+                    </li>
+                  {{% }); %}}
+                {{% } %}}
               {{% }); %}}
+
             </ul>
           </div>
         </div>
@@ -293,6 +325,14 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
   </div>
 </div>
 
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h3 class="faq-subsection anchor-target" id="troubleshooting-all-platforms">
+      <%= @tt 'faq-subsection-troubleshooting-all-platforms' %>
+    </h3>
+  </div>
+</div>
+
 <div class="row faq-qa">
   <span class="anchor-target" id="connection-failed" data-anchor-text="<%= @tt 'faq-connection-failed-question' %>"></span>
   <div class="faq-question">
@@ -302,6 +342,48 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
     <p>
       <%= @tt 'faq-connection-failed-answer-para-1' %>
     </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="periodic-disconnect" data-anchor-text="<%= @tt 'faq-periodic-disconnect-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-periodic-disconnect-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-periodic-disconnect-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h3 class="faq-subsection anchor-target" id="troubleshooting-android">
+      <%= @tt 'faq-subsection-troubleshooting-android' %>
+    </h3>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="android-upgrade-bug" data-anchor-text="<%= @tt 'faq-android-upgrade-bug-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-android-upgrade-bug-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-android-upgrade-bug-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h3 class="faq-subsection anchor-target" id="troubleshooting-windows">
+      <%= @tt 'faq-subsection-troubleshooting-windows' %>
+    </h3>
   </div>
 </div>
 
@@ -322,30 +404,6 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
     </p>
     <p>
       <img class="img-responsive" src="<%= @relativeToRoot '/images/faq/faq-windows-reset-proxy-settings.png' %>">
-    </p>
-  </div>
-</div>
-
-<div class="row faq-qa">
-  <span class="anchor-target" id="android-upgrade-bug" data-anchor-text="<%= @tt 'faq-android-upgrade-bug-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-android-upgrade-bug-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%- @tt 'faq-android-upgrade-bug-answer-para-1' %>
-    </p>
-  </div>
-</div>
-
-<div class="row faq-qa">
-  <span class="anchor-target" id="periodic-disconnect" data-anchor-text="<%= @tt 'faq-periodic-disconnect-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-periodic-disconnect-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%- @tt 'faq-periodic-disconnect-answer-para-1' %>
     </p>
   </div>
 </div>
