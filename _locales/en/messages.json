@@ -213,8 +213,20 @@
     "description": "FAQ question."
   },
   "faq-ie6-docbody-answer-para-1": {
-    "message": "That error will occur on Windows XP if Internet Explorer 6 is installed. Psiphon for Windows requires Internet Explorer 7 or higher to be installed. The best way to install higher versions of Internet Explorer is via Windows Update. You might also be able to download Internet Explorer 7 <a href=\"https://techjourney.net/install-and-download-full-internet-explorer-7-ie7-final-release/\" target=\"_blank\">via this page</a>.",
+    "message": "This error will occur on Windows XP if Internet Explorer 6 is installed. Psiphon for Windows requires Internet Explorer 7 or higher to be installed. The best way to install higher versions of Internet Explorer is via <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Windows Update</a>.",
     "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+  },
+  "faq-ie6-docbody-answer-para-2": {
+    "message": "If can't use Windows Update and want to install Internet Explorer 7 or Internet Explorer 8 directly, you can get them via these links:",
+    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+  },
+  "faq-ie6-docbody-answer-xpie8": {
+    "message": "Internet Explorer 8 for Windows XP",
+    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
+  },
+  "faq-ie6-docbody-answer-xpie7": {
+    "message": "Internet Explorer 7 for Windows XP",
+    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
   },
   "faq-check-version-question": {
     "message": "How do I check my current version of Psiphon?"
