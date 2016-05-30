@@ -89,9 +89,9 @@
     "message": "Privacy and Security",
     "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
   },
-  "faq-section-running-updating": {
-    "message": "Running and Updating Psiphon",
-    "description": "Section heading for FAQ entries that pertain to running and updating/upgrading the Psiphon client software."
+  "faq-section-installing-running-updating": {
+    "message": "Installing, Running, and Updating Psiphon",
+    "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software."
   },
   "faq-section-how-psiphon-works": {
     "message": "How Psiphon Works",
@@ -154,8 +154,17 @@
   "faq-authentic-android-answer-para-3": {
     "message": "Psiphon for Android auto-updates itself, and this process automatically verifies that each update is authentic."
   },
+  "faq-unsupported-platforms-question": {
+    "message": "Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?",
+    "description": "FAQ question."
+  },
+  "faq-unsupported-platforms-answer-para-1": {
+    "message": "The platforms we support are those available on the <a href=\"download.html\">Download page</a>. We are constantly working to expand our platform support, so hopefully we'll support your desired OS in the near future!",
+    "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
+  },
   "faq-android-enable-sideloading-question": {
-    "message": "How do I enable Android \"sideloading\"?"
+    "message": "How do I enable Android \"sideloading\"?",
+    "description": "FAQ question."
   },
   "faq-android-enable-sideloading-answer-para-1": {
     "message": "In order to install a direct download of Psiphon for Android, you must enable \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". To do so, go into your Android settings, then into the \"Security\" section, then enable \"Unknown sources\".",
@@ -166,7 +175,8 @@
     "description": "alt text for an image"
   },
   "faq-information-collected-question": {
-    "message": "What user information does Psiphon collect?"
+    "message": "What user information does Psiphon collect?",
+    "description": "FAQ question."
   },
   "faq-information-collected-answer-redirect": {
     "message": "Please see our <a href=\"privacy.html\">Privacy Policy</a> to learn about what information we collect.",
@@ -269,7 +279,7 @@
     "description": "FAQ question"
   },
   "faq-uninstall-windows-answer-para-1": {
-    "message": "Psiphon for Windows does not get installed, and won't appear in Windows' “Add or Remove Programs” list. The executable file can be run from your “Downloads” directory, or it can be copied to a different directory and run from there. If you want to remove the program, you can simply delete the executable file.",
+    "message": "Psiphon for Windows does not get installed, and won't appear in Windows’ “Add or Remove Programs” list. The executable file can be run from your “Downloads” directory, or it can be copied to a different directory and run from there. If you want to remove the program, you can simply delete the executable file.",
     "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
   },
   "faq-proxy-all-question": {
