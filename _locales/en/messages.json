@@ -101,6 +101,10 @@
     "message": "Troubleshooting",
     "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
   },
+  "faq-subsection-troubleshooting-android": {
+    "message": "Android",
+    "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Android-specific."
+  },
   "faq-subsection-troubleshooting-windows": {
     "message": "Windows",
     "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
@@ -255,10 +259,18 @@
     "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
   },
   "faq-orig-file-purpose-question": {
-    "message": "What is the file \"psiphon3.exe.orig\"?"
+    "message": "What is the file “psiphon3.exe.orig”?"
   },
   "faq-orig-file-purpose-answer-para-1": {
-    "message": "The automatic update process in Psiphon for Windows renames its old version to \"psiphon3.exe.orig\". Old files with the \".orig\" suffix can safely be deleted."
+    "message": "The automatic update process in Psiphon for Windows renames its old version to “psiphon3.exe.orig”. Old files with the “.orig” suffix can safely be deleted."
+  },
+  "faq-uninstall-windows-question": {
+    "message": "How do I uninstall Psiphon for Windows?",
+    "description": "FAQ question"
+  },
+  "faq-uninstall-windows-answer-para-1": {
+    "message": "Psiphon for Windows does not get installed, and won't appear in Windows' “Add or Remove Programs” list. The executable file can be run from your “Downloads” directory, or it can be copied to a different directory and run from there. If you want to remove the program, you can simply delete the executable file.",
+    "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
   },
   "faq-proxy-all-question": {
     "message": "Does Psiphon for Windows proxy all of my Internet traffic?"
