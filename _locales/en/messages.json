@@ -81,6 +81,38 @@
     "message": "Direct, free Psiphon download for Windows and Android",
     "description": "title for the download page"
   },
+  "faq-section-verify-psiphon-authentic": {
+    "message": "Verify Your Psiphon Download is Authentic",
+    "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
+  },
+  "faq-section-privacy-security": {
+    "message": "Privacy and Security",
+    "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
+  },
+  "faq-section-running-updating": {
+    "message": "Running and Updating Psiphon",
+    "description": "Section heading for FAQ entries that pertain to running and updating/upgrading the Psiphon client software."
+  },
+  "faq-section-how-psiphon-works": {
+    "message": "How Psiphon Works",
+    "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
+  },
+  "faq-section-troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
+  },
+  "faq-subsection-troubleshooting-windows": {
+    "message": "Windows",
+    "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
+  },
+  "faq-section-compatibility": {
+    "message": "Compatibility with Other Applications",
+    "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
+  },
+  "faq-section-miscellaneous": {
+    "message": "Miscellaneous",
+    "description": "Section heading for FAQ entries that don't fit in any other category."
+  },
   "faq-authentic-windows-image-alt": {
     "message": "Image showing how to check the Psiphon executable signature on Windows",
     "description": "alt text for an image"
@@ -148,11 +180,79 @@
   "faq-connection-failed-answer-para-1": {
     "message": "If you see repeated \"connection failed\" messages, it means that there are no available servers that your client knows about. Try to download a new Psiphon client."
   },
+  "faq-reset-system-proxy-question": {
+    "message": "After using Psiphon for Windows my computer can no longer connect to the Internet.",
+    "description": "FAQ question."
+  },
+  "faq-reset-system-proxy-answer-para-1": {
+    "message": "When Psiphon for Windows connects it modifies your computer's proxy settings, and when it disconnects it restores them to their original state. If Psiphon for Windows does not exit properly, it may not properly restore the original proxy settings, and this will result in you being unable to connect to the Internet.",
+    "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+  },
+  "faq-reset-system-proxy-answer-para-2": {
+    "message": "The easiest way to fix this for most people is to connect with Psiphon again, and then cleanly disconnect.",
+    "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+  },
+  "faq-reset-system-proxy-answer-para-3": {
+    "message": "To manually fix your proxy settings, open Internet Explorer, then go to the Tools menu (or gear icon), Internet Options → Connections tab → LAN Settings button. Then remove the checkmark beside “Use a proxy server for your LAN”.",
+    "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+  },
+  "faq-android-upgrade-bug-question": {
+    "message": "After upgrading the Psiphon for Android app, it won't connect.",
+    "description": "FAQ question."
+  },
+  "faq-android-upgrade-bug-answer-para-1": {
+    "message": "If Psiphon is connected while an upgrade is installed, it may not be able to connect afterwards and will show the error “start_tunnel_failed application is not prepared or revoked”. This is due to an <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">Android OS bug</a>. This condition can be fixed by rebooting your device.",
+    "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
+  },
+  "faq-periodic-disconnect-question": {
+    "message": "Why does my Psiphon connection sometimes disconnect?",
+    "description": "FAQ question."
+  },
+  "faq-periodic-disconnect-answer-para-1": {
+    "message": "This is most commonly caused by an unreliable or inconsistent Internet connection to your device or computer. On a phone, this can mean losing reception. On a computer, this can mean inconsistent Wi-Fi or an unreliable Internet Service Provider.",
+    "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
+  },
+  "faq-ie6-docbody-question": {
+    "message": "Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.",
+    "description": "FAQ question."
+  },
+  "faq-ie6-docbody-answer-para-1": {
+    "message": "This error will occur on Windows XP if Internet Explorer 6 is installed. Psiphon for Windows requires Internet Explorer 7 or higher to be installed. The best way to install higher versions of Internet Explorer is via <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Windows Update</a>.",
+    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+  },
+  "faq-ie6-docbody-answer-para-2": {
+    "message": "If can't use Windows Update and want to install Internet Explorer 7 or Internet Explorer 8 directly, you can get them via these links:",
+    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+  },
+  "faq-ie6-docbody-answer-xpie8": {
+    "message": "Internet Explorer 8 for Windows XP",
+    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
+  },
+  "faq-ie6-docbody-answer-xpie7": {
+    "message": "Internet Explorer 7 for Windows XP",
+    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
+  },
   "faq-check-version-question": {
     "message": "How do I check my current version of Psiphon?"
   },
   "faq-check-version-answer-para-1": {
     "message": "When Psiphon starts, it displays the Client Version on the first line of log output."
+  },
+  "faq-get-updated-version-question": {
+    "message": "How do I get an updated version of Psiphon?",
+    "description": "FAQ question"
+  },
+  "faq-get-updated-version-answer-para-1": {
+    "message": "<strong>Android:</strong> If you have installed Psiphon for Android through the Google Play Store, it will be automatically updated by the Play Store when an update is available. If you have sideloaded Psiphon for Android, the Psiphon client will download updates as they are available, and a notification will appear asking you to install the update.",
+    "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+  },
+  "faq-get-updated-version-answer-para-2": {
+    "message": "<strong>Windows:</strong> The Psiphon for Windows client will download and install updates as they are available.",
+    "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
+  },
+  "faq-get-updated-version-answer-para-3": {
+    "message": "<strong>Manually updating:</strong> If the Psiphon self-updating mechanism isn't working (for example, if it's been blocked), you can find information about getting a fresh copy of Psiphon from the <a href=\"download.html\">Download page</a>.",
+    "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
   },
   "faq-orig-file-purpose-question": {
     "message": "What is the file \"psiphon3.exe.orig\"?"
@@ -173,16 +273,68 @@
     "message": "Yes. Check your browser settings and make sure that it is configured to use the system proxy settings."
   },
   "faq-port-restrictions-question": {
-    "message": "Are there any port restrictions in VPN mode? Why can't I send email using my mail client in VPN mode?"
+    "message": "Are there any port restrictions when using Psiphon?",
+    "description": "FAQ question. Note that 'port' is referring to network ports."
   },
   "faq-port-restrictions-answer-para-1": {
-    "message": "Outbound connections from the Psiphon for Windows VPN can be made only on the following ports: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25 and 587. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information."
+    "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on ports 25. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information.",
+    "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
+  },
+  "faq-mail-apps-ports-question": {
+    "message": "Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?",
+    "description": "FAQ question."
+  },
+  "faq-mail-apps-ports-answer-para-1": {
+    "message": "This is probably due to Psiphon's <a href=\"#port-restrictions\">port restrictions</a>.",
+    "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+  },
+  "faq-mobile-hotspot-question": {
+    "message": "Why do Android mobile hotspot and USB tethering not work through Psiphon?",
+    "description": "FAQ question."
+  },
+  "faq-mobile-hotspot-answer-para-1": {
+    "message": "This is due to a limitation in Android's hotspot and tethering implementation. You might find that either the tethered device cannot connect to the internet or the traffic will not go through the VPN.",
+    "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
+  },
+  "faq-av-firewall-question": {
+    "message": "Why does my antivirus (AV) or firewall identify Psiphon as a threat?",
+    "description": "FAQ question."
+  },
+  "faq-av-firewall-answer-para-1": {
+    "message": "The first thing to check is that you have an authentic copy of Psiphon. Please <a href=\"#verify-psiphon-authentic\">follow these instructions</a> to verify that your copy of Psiphon is authentic. If it is not authentic, please <a href=\"mailto:info@psiphon.ca\">send us an email</a> with information about how you obtained the copy and, if possible, with the Psiphon executable attached.",
+    "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+  },
+  "faq-av-firewall-answer-para-2": {
+    "message": "If your copy of Psiphon is authentic, then this is an instance of a false positive report. Although most antivirus/firewall programs have added Psiphon’s digital signature to their whitelist rules, some may still erroneously identify Psiphon’s executable file as a virus or threat. In this case, please <a href=\"mailto:info@psiphon.ca\">send us an email</a>, specifying the AV/firewall program you use, and we will contact the AV/firewall vendor to solve the problem.",
+    "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+  },
+  "faq-windows-metro-question": {
+    "message": "Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?",
+    "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+  },
+  "faq-windows-metro-answer-para-1": {
+    "message": "Windows 8 introduced an alternative to the desktop app interface called “Metro”, which was later renamed to “Modern UI”. Some, but very few, applications can only run in “Metro mode” and some (like Internet Explorer) can run in either “Metro mode” or “Desktop mode”. This new user interface mode continues to exist in Windows 8.1 and, to a lesser degree, in Windows 10.",
+    "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
+  },
+  "faq-windows-metro-answer-para-2": {
+    "message": "Applications in Metro mode cannot use a local proxy without the user modifying system security settings. This means that Metro mode apps cannot use Psiphon, and will not be able to reach the internet when Psiphon is connected. You can use the <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">EnableLoopback Utility</a> to allow Metro mode apps to work with Psiphon.",
+    "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+  },
+  "faq-windows-metro-answer-para-3": {
+    "message": "The following are examples of the error message you might see when Metro mode apps are trying and failing to work through Psiphon.",
+    "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
   },
   "faq-vpn-protocol-question": {
     "message": "What VPN protocol is used by Psiphon for Windows? Why can't I connect?"
   },
   "faq-vpn-protocol-answer-para-1": {
-    "message": "Psiphon uses the L2TP/IPSec VPN protocol. Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPSec or L2TP pass-through is enabled. Your system’s IPSec Services may be disabled; check your service settings and enable this service to start automatically."
+    "message": "Psiphon uses the L2TP/IPSec VPN protocol."
+  },
+  "faq-windows-vpn-connect-question": {
+    "message": "Why can't I connect with Psiphon for Windows in L2TP/IPSec mode?"
+  },
+  "faq-windows-vpn-connect-answer-para-1": {
+    "message": "Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPSec or L2TP pass-through is enabled. Your system’s IPSec Services may be disabled; check your service settings and enable this service to start automatically."
   },
   "faq-vpn-slow-question": {
     "message": "I can connect to Psiphon for Windows in VPN mode, but why is it so slow?  Sometimes web pages don't load at all."
@@ -216,6 +368,14 @@
   },
   "faq-autoproxy-answer-para-1": {
     "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>SkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings."
+  },
+  "faq-screen-filter-question": {
+    "message": "When Psiphon for Android first connects, why can't I select “I trust this application”?",
+    "description": "FAQ question."
+  },
+  "faq-screen-filter-answer-para-1": {
+    "message": "Check if you are running a screen filter app or an app that manages your screen's brightness. If you are, try disabling it. Many of these apps (such as Lux Auto Brightness, Twilight, Night Mode) interfere with the user's ability to interact with this prompt.",
+    "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
   },
   "faq-isp-traffic-question-toc": {
     "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?"
