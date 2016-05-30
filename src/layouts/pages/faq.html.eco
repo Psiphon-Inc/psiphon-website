@@ -196,9 +196,21 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 
 <div class="row">
   <div class="col-md-12 well well-sm">
-    <h2 class="faq-section anchor-target" id="running-updating">
-      <%= @tt 'faq-section-running-updating' %>
+    <h2 class="faq-section anchor-target" id="installing-running-updating">
+      <%= @tt 'faq-section-installing-running-updating' %>
     </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="unsupported-platforms" data-anchor-text="<%= @tt 'faq-unsupported-platforms-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-unsupported-platforms-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-unsupported-platforms-answer-para-1' %>
+    </p>
   </div>
 </div>
 
