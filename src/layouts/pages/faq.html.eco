@@ -325,14 +325,16 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
   </div>
 </div>
 
+
 <div class="row">
   <div class="col-md-12 well well-sm">
-    <h3 class="faq-subsection anchor-target" id="troubleshooting-all-platforms">
-      <%= @tt 'faq-subsection-troubleshooting-all-platforms' %>
+    <h3 class="faq-subsection anchor-target" id="troubleshooting-android">
+      <%= @tt 'faq-subsection-troubleshooting-android' %>
     </h3>
   </div>
 </div>
 
+<% # This is copied between all platforms %>
 <div class="row faq-qa">
   <span class="anchor-target" id="connection-failed" data-anchor-text="<%= @tt 'faq-connection-failed-question' %>"></span>
   <div class="faq-question">
@@ -345,6 +347,7 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
   </div>
 </div>
 
+<% # This is copied between all platforms %>
 <div class="row faq-qa">
   <span class="anchor-target" id="periodic-disconnect" data-anchor-text="<%= @tt 'faq-periodic-disconnect-question' %>"></span>
   <div class="faq-question">
@@ -354,15 +357,6 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
     <p>
       <%- @tt 'faq-periodic-disconnect-answer-para-1' %>
     </p>
-  </div>
-</div>
-
-
-<div class="row">
-  <div class="col-md-12 well well-sm">
-    <h3 class="faq-subsection anchor-target" id="troubleshooting-android">
-      <%= @tt 'faq-subsection-troubleshooting-android' %>
-    </h3>
   </div>
 </div>
 
@@ -396,6 +390,32 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
     <h3 class="faq-subsection anchor-target" id="troubleshooting-windows">
       <%= @tt 'faq-subsection-troubleshooting-windows' %>
     </h3>
+  </div>
+</div>
+
+<% # This is copied between all platforms %>
+<div class="row faq-qa">
+  <span class="anchor-target" id="connection-failed" data-anchor-text="<%= @tt 'faq-connection-failed-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-connection-failed-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-connection-failed-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<% # This is copied between all platforms %>
+<div class="row faq-qa">
+  <span class="anchor-target" id="periodic-disconnect" data-anchor-text="<%= @tt 'faq-periodic-disconnect-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-periodic-disconnect-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-periodic-disconnect-answer-para-1' %>
+    </p>
   </div>
 </div>
 
