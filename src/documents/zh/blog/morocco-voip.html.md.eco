@@ -1,0 +1,32 @@
+---
+title: 摩络哥VoIP 服务受屏蔽  赛风用户依旧上网
+author: 赛风团队
+layout: blog/post
+date: 2016-03-07
+---
+
+<img src="<%= @relativeToRoot '/images/blog/morocco-voip/psi_voip.png' %>" class="img-responsive center-block" style="max-width:400px">
+
+<p>
+  <div class="row">
+    <div class="col-md-9">
+      <p>
+        在一月五号，摩洛哥民众发现[VoIP的3G和4G服务受到屏蔽](https://goo.gl/KpHnJV)。当地受欢迎的免费通讯服务，例如Viber, Skype, Facetime 和Whatsapp 也受影响停止运作。不满意的网络用户立刻在网上发起各种的活动。几天后，摩洛哥的电讯管理局发布消息，指出这些服务[违犯摩络哥的条例](https://goo.gl/qMRl83)，电讯公司有权基于财政和商业的理由下关闭任何服务。
+      </p>
+      <p>
+        不满意的摩络哥用户继续向屏蔽事件抗议并施加压力，甚至[杯葛](https://goo.gl/XfpAa2)当地三大电讯公司。另一方面，使用围绕审查工具的用户却几乎没有受到影响。赛风的用户在屏蔽事件后的第一周**上升了三倍**，往后的**每星期以双倍继续增加**。摩络哥的[ASL19](https://goo.gl/enQr3T)团体 也极力以阿拉伯语和法语在当地推广赛风所研发的免费，开源围绕网络审查软件。ASL 19 是一个把围绕审查工具局部化成阿拉伯语跟其他语言的人权组织。赛风软件的免费和弹性应用很快就遍布整个国家。一个月后，随着网络用户不断的施压和围绕审查工具的普及应用，当地的电讯公司最终废除了逐渐失效的屏蔽
+      </p>
+    </div>
+    <div class="col-md-3">
+      <a href="<%= @relativeToRoot '/images/blog/morocco-voip/ASL19_promo-large.png' %>"><img src="<%= @relativeToRoot '/images/blog/morocco-voip/ASL19_promo.png' %>" alt="in light of the blocking event, ASL19 launched a campaign informing users they could continue to access VoIP services via the Psiphon network" class="img-responsive img-thumbnail center-block"></a>
+    </div>
+  </div>
+</p>
+
+<img src="<%= @relativeToRoot '/images/blog/morocco-voip/MA_UUs_Jan01_12Feb.png' %>" alt="Psiphon statistics show daily usage in Morocco over this period grew massively, peaking at 15 times pre-blocking numbers" class="img-responsive center-block">
+
+摩络哥的电讯公司在二月二十六日[恢复屏蔽](https://goo.gl/dnZjWM)，引起当地网民的快速回应--包括由网站[th3professional.com](https://goo.gl/G3C5FX)博客作家Amine Raghib所发起的[大型社交网络运动](https://goo.gl/e6hAeq)，以及提交超过一万个签名的网络请愿信去要求总理阿卜德里拉赫·本基拉纳取消对VoIP 服务的屏蔽。与此文章发布同时，摩络哥的VoIP 服务已经[在Wi-fi 上恢复，可是3G和4G的](https://goo.gl/dylNgk)连接依旧被屏蔽。
+
+摩络哥的电讯公司发表了联合声明，说明屏蔽的决定是由于VoIP 服务所提供的免费通话功能对他们带来了负面的影响。
+
+然而，摩络哥不是唯一受VoIP 屏蔽影响的国家。许多[中东国家也屏蔽了VoIP服务](https://goo.gl/wFkRx5)，从而辩护国家安全的审查工作。多个政府也重申他们没有辦法监督和管制这些通讯工具。VoIP现时的屏蔽也包括沙地阿拉伯、阿拉伯聯合酋長國、阿曼苏丹国、科威特国、卡塔爾和埃及。像摩络哥的情况，这些国家屏蔽该服务的主要原因也是商业问题。在很多国家，电话费用都非常高，所以VoIP 服务能相对地为用户减低财政负担。屏蔽VoIP 服务便制造了市民想绕过审查的需求。摩络哥的屏蔽只是其中一个近期的例子，展现出由对用户依赖的通讯工具进行大型屏蔽后所产生的大批围绕审查工具用户。
