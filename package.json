@@ -1,5 +1,6 @@
 {
   "name": "psiphon-circumvention-system-website",
+  "private": true,
   "version": "0.0.1",
   "description": "Website for Psiphon. Based on Twitter Bootstrap skeleton for DocPad.",
   "homepage": "http://psiphon3.com",
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "cheerio": "^0.17.0",
+    "lodash": "4.12.x",
     "docpad": "6.x",
     "docpad-plugin-coffeescript": "2.x",
     "docpad-plugin-eco": "2.x",

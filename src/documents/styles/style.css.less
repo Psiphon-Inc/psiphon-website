@@ -8,9 +8,6 @@
 @import "_rtl-support";
 @import "_annotations";
 
-body {
-}
-
 h1 {
   margin-bottom: 1em;
 }
@@ -123,8 +120,53 @@ h2 {
  * FAQ page
  */
 
+#faq-toc {
+  &.panel-group .panel+.panel {
+    // Override the default Bootstrap style
+    margin-top: 0;
+  }
+
+  /* Use table display to get the title and jump-to-anchor to align nicely */
+  .panel-heading {
+    display: table;
+  }
+
+  .panel-title {
+    display: table-row;
+
+    > a {
+      display: table-cell;
+      vertical-align: middle;
+
+      /* Make the text part of the title fill the width, pushing the arrow to the right */
+      &:first-child {
+        width: 100%;
+      }
+
+      /* Indent the items a bit */
+      &:not(:first-child) {
+        body[dir="ltr"] & {
+          padding-left: 0.5em;
+        }
+
+        body[dir="rtl"] & {
+          padding-right: 0.5em;
+        }
+      }
+    }
+  }
+
+  .panel-section .panel-title {
+    font-size: 1.5em;
+  }
+
+  .panel-subsection .panel-title {
+    font-size: 1.3em;
+  }
+}
+
 .faq-qa {
-  margin-top: 3em;
+  margin-bottom: 3em;
   border-top: thin lighten(@text-color, 60%) solid;
 }
 
@@ -134,6 +176,7 @@ h2 {
 
 .faq-answer {
   .make-rtl-md-col(3, 9, 0);
+  padding-top: 1em;
 }
 
 /*
