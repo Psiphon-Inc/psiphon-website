@@ -1,4 +1,4 @@
-{var cajaBuildVersion='v6002',StringMap,exports,ses;typeof window!=='undefined'&&(window['cajaBuildVersion']=cajaBuildVersion),(function(){'use strict';var
+{var cajaBuildVersion='v6010',StringMap,exports,ses;typeof window!=='undefined'&&(window['cajaBuildVersion']=cajaBuildVersion),(function(){'use strict';var
 create,createNull,freeze;create=Object.create,freeze=Object.freeze;function constFunc(func){return func.prototype=null,freeze(func)}function
 assertString(x){if('string'!==typeof x)throw new TypeError(('Not a string: '+x));return x}typeof
 ses==='undefined'||!ses.ok()||ses.es5ProblemReports.FREEZING_BREAKS_PROTOTYPES.beforeFailure?(createNull=function(){return{}}):(createNull=function(){return Object.create(null)}),StringMap=function

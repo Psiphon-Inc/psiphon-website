@@ -23,7 +23,7 @@
  */
 
 var caja = (function () {
-  var cajaBuildVersion = 'v6002';
+  var cajaBuildVersion = 'v6010';
   var defaultServer = 'https://caja.appspot.com/';
   var defaultFrameGroup;
   var readyQueue = [];
