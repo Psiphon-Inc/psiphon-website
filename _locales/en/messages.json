@@ -350,19 +350,19 @@
     "message": "What VPN protocol is used by Psiphon for Windows? Why can't I connect?"
   },
   "faq-vpn-protocol-answer-para-1": {
-    "message": "Psiphon uses the L2TP/IPSec VPN protocol."
+    "message": "Psiphon uses the L2TP/IPsec VPN protocol."
   },
   "faq-windows-vpn-connect-question": {
-    "message": "Why can't I connect with Psiphon for Windows in L2TP/IPSec mode?"
+    "message": "Why can't I connect with Psiphon for Windows in L2TP/IPsec mode?"
   },
   "faq-windows-vpn-connect-answer-para-1": {
-    "message": "Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPSec or L2TP pass-through is enabled. Your system’s IPSec Services may be disabled; check your service settings and enable this service to start automatically."
+    "message": "Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPsec or L2TP pass-through is enabled. Your system’s IPsec Services may be disabled; check your service settings and enable these services to start automatically."
   },
   "faq-vpn-slow-question": {
     "message": "I can connect to Psiphon for Windows in VPN mode, but why is it so slow?  Sometimes web pages don't load at all."
   },
   "faq-vpn-slow-answer-para-1": {
-    "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPSec which is the protocol used by Psiphon in VPN mode. Try disabling VPN mode."
+    "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPsec which is the protocol used by Psiphon in VPN mode. Try disabling VPN mode."
   },
   "faq-vpn-dns-question": {
     "message": "When I connect to Psiphon for Windows in VPN mode, none of my web pages load. I get error messages indicating that a domain lookup failed."
@@ -663,7 +663,7 @@
     "message": "Download the client program and run it. When you run it, you should see a security prompt showing that this program is a legitimate product of Psiphon Inc."
   },
   "user-guide-windows-para-2": {
-    "message": "Psiphon automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPSec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting)."
+    "message": "Psiphon automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPsec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting)."
   },
   "user-guide-windows-para-3": {
     "message": "Connection to the Psiphon server is established when the green icon is displayed. In VPN mode, all of your traffic automatically tunnels through Psiphon."
