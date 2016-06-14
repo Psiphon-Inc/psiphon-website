@@ -22,7 +22,7 @@
  * @overrides window
  */
 
-var cajaBuildVersion = 'v6002';
+var cajaBuildVersion = 'v6010';
 
 // Exports for closure compiler.
 if (typeof window !== 'undefined') {
@@ -1125,14 +1125,18 @@ var ses;
  * create it, use it, and delete it all within this module. But we
  * need to lie to the linter since it can't tell.
  *
- * //requires ses.mitigateSrcGotchas
- * //provides ses.ok, ses.okToLoad, ses.getMaxSeverity
+ * //requires ses.logger, ses._EarlyStringMap,
+ * //requires ses.severities, ses.statuses, ses._repairer
+ * //optionally requires ses.mitigateSrcGotchas, ses._primordialsHaveBeenFrozen
+ * //provides ses.ok, ses.okToLoad, ses.getMaxSeverity, ses.updateMaxSeverity
  * //provides ses.is, ses.makeDelayedTamperProof
+ * //provides ses.isInBrowser
  * //provides ses.makeCallerHarmless, ses.makeArgumentsHarmless
  * //provides ses.noFuncPoison
  * //provides ses.verifyStrictFunctionBody
  * //provides ses.getUndeniables, ses.earlyUndeniables
  * //provides ses.getAnonIntrinsics
+ * //provides ses.funcLike, ses.kludge_test_FREEZING_BREAKS_PROTOTYPES
  *
  * @author Mark S. Miller
  * @requires ___global_test_function___, ___global_valueOf_function___
@@ -2224,7 +2228,11 @@ var ses;
    * arity.
    */
   function makeStandinMaker(standinName, arity) {
-    if (!/[a-zA-Z][a-zA-Z0-9]*/.test(standinName)) {
+    // Allow approximations of function names like "bound f".
+    standinName = standinName.replace(/ /g, '_');
+
+    // Reject names that could be syntax errors.
+    if (!/^[a-zA-Z_][a-zA-Z0-9_]*$/.test(standinName)) {
       standinName = 'standin';
     }
     var cacheLine = standinMakerCache.get(standinName);
@@ -2232,6 +2240,7 @@ var ses;
       standinName = 'standin';
       cacheLine = standinMakerCache.get(standinName);
     }
+
     if (!cacheLine) {
       cacheLine = [];
       standinMakerCache.set(standinName, cacheLine);
@@ -2268,12 +2277,12 @@ var ses;
    * remaining issues are repaired, possibly by modifying newFunc in
    * place if possible, or possibly by wrapping it.
    *
-   * If we instead create and return a new standin function which
+   * <p>If we instead create and return a new standin function which
    * wraps newFunc, we also attempt to transfer any
    * non-exemptFuncProps (see above) from newFunc to the returned
    * standin.
    *
-   * We assume that after this call, the caller will use whatever we
+   * <p>We assume that after this call, the caller will use whatever we
    * return in lieu of accessing the newFunc they passed us directly,
    * which is why we allow funcLike to either modify newFunc in place,
    * or return a wrapper in which potentially mutable properties are
@@ -2281,7 +2290,7 @@ var ses;
    * these properties on newFunc or the returned standin will not
    * necessarily be reflected in the other.
    *
-   * Note that ES5 does not specify a .name property on functions, and
+   * <p>Note that ES5 does not specify a .name property on functions, and
    * IE11 (as of this writing) does not implement one, so this
    * implementation must be compatible with the absence of a .name
    * property on functions.
@@ -2392,17 +2401,31 @@ var ses;
   }
 
   /**
+   * Do we seem to be in a browser environment?
+   *
+   * <p>Currently, we assume we are in a browser environment iff there
+   * is a non-undefined <code>document</code> and
+   * <code>document.createElement</code> is callable. We may use
+   * better evidence in the future.
+   */
+  function isInBrowser() {
+    return typeof document !== 'undefined' &&
+      typeof document.createElement === 'function';
+  }
+  ses.isInBrowser = isInBrowser;
+
+  /**
    * Create a new iframe and pass its 'window' object to the provided
    * callback.  If the environment is not a browser, return undefined
    * and do not call the callback.
    *
-   * <p>inTestFrame assumes we are in a browser environment iff there
-   * is a non-undefined document with a truthy createElement
-   * property. If so, it creates an iframe, makes it a child somewhere
-   * of the current document, calls the callback, passing that
-   * iframe's window, and then removes the iframe.
+   * <p>inTestFrame assumes we are in a browser according to
+   * <code>isInBrowser</code> above. If so, it creates an iframe,
+   * makes it a child somewhere of the current document, calls the
+   * callback, passing that iframe's window, and then removes the
+   * iframe.
    *
-   * <p>A typical callback (e.g., _optForeignForIn) will then create a
+   * <p>A typical callback will then create a
    * function within that other frame, to be used later to test
    * cross-frame operations. However, on IE10 on Windows, this iframe
    * removal may then prevent that created function from running at
@@ -2410,7 +2433,7 @@ var ses;
    * script" error.
    */
   function inTestFrame(callback) {
-    if (!(typeof document !== 'undefined' && document.createElement)) {
+    if (!isInBrowser()) {
       return undefined;
     }
     var iframe = document.createElement('iframe');
@@ -2653,10 +2676,31 @@ var ses;
       );
     } finally {
       saved.forEach(function(record) {
-        if (record[1]) {
-          Object.defineProperty(global, record[0], record[1]);
+        var name = record[0];
+        var oldDesc = record[1];
+        if (oldDesc) {
+          var newDesc = Object.getOwnPropertyDescriptor(global, name);
+          if (!is(oldDesc.value, newDesc.value) ||
+              oldDesc.writable !== newDesc.writable ||
+              oldDesc.get !== newDesc.get ||
+              oldDesc.set !== newDesc.set ||
+              oldDesc.enumerable !== newDesc.enumerable) {
+            // See the comments on freezeGlobalProp in startSES.js for
+            // why we delete oldDesc.configurable. Given that we do,
+            // the following two lines of code should succeed even if
+            // the condition above is false. Thus, the condition
+            // should not be needed. However, when running the Caja
+            // regression tests, the testOk test tries to define a
+            // global property to itself, which fails on FF 39 for
+            // undiagnosed reasons.
+            //
+            // TODO(erights): Diagnose why testOk on FF 39 fails if we
+            // do the following lines unconditionally, and report.
+            delete oldDesc.configurable;
+            Object.defineProperty(global, name, oldDesc);
+          }
         } else {
-          delete global[record[0]];
+          delete global[name];
         }
       });
     }
@@ -2904,44 +2948,33 @@ var ses;
   }
 
   /**
-   * As of ES6, for all the builtin constructors (except Function)
-   * that make a particular type of exotic object, that
-   * constructor.prototype must be a plain object rather than that
-   * kind of exotic object. As of this writing, at least Chrome, FF,
-   * Safari, Opera, and IE11 violate this.
+   * As of ES6, for all the builtin constructors that make a
+   * particular type of exotic object, except Function, Array, Number,
+   * Boolean, and String, that constructor.prototype must be a plain
+   * object rather than that kind of exotic object.
    */
-  function test_NUMBER_PROTO_IS_NUMBER() {
-    return isBuiltinNumberObject(Number.prototype);
+  function test_DATE_PROTO_IS_DATE() {
+    return isBuiltinDate(Date.prototype);
   }
 
   /**
-   * As of ES6, for all the builtin constructors (except Function)
+   * As of ES6, for all the builtin constructors except
+   * (except Function, Array, Number, Boolean, and String),
    * that make a particular type of exotic object, that
    * constructor.prototype must be a plain object rather than that
-   * kind of exotic object. As of this writing, at least Chrome, FF,
-   * Safari, Opera, and IE11 violate this.
+   * kind of exotic object.
    */
-  function test_BOOLEAN_PROTO_IS_BOOLEAN() {
-    return isBuiltinBooleanObject(Boolean.prototype);
+  function test_WEAKMAP_PROTO_IS_WEAKMAP() {
+    if (typeof WeakMap !== 'function') { return false; }
+    return isBuiltinWeakMap(WeakMap.prototype);
   }
 
   /**
-   * As of ES6, for all the builtin constructors (except Function)
+   * As of ES6, for all the builtin constructors except
+   * (except Function, Array, Number, Boolean, and String),
    * that make a particular type of exotic object, that
    * constructor.prototype must be a plain object rather than that
-   * kind of exotic object. As of this writing, at least Chrome, FF,
-   * Safari, Opera, and IE11 violate this.
-   */
-  function test_STRING_PROTO_IS_STRING() {
-    return isBuiltinStringObject(String.prototype);
-  }
-
-  /**
-   * As of ES6, for all the builtin constructors (except Function)
-   * that make a particular type of exotic object, that
-   * constructor.prototype must be a plain object rather than that
-   * kind of exotic object. As of this writing, at least Chrome, FF,
-   * Safari, Opera, and IE11 violate this.
+   * kind of exotic object.
    */
   function test_REGEXP_PROTO_IS_REGEXP() {
     return isBuiltinRegExp(RegExp.prototype);
@@ -3022,9 +3055,7 @@ var ses;
   function test_FORM_GETTERS_DISAPPEAR() {
     function getter() { return 'gotten'; }
 
-    if (typeof document === 'undefined' ||
-       typeof document.createElement !== 'function') {
-      // likely not a browser environment
+    if (!isInBrowser()) {
       return false;
     }
     var f = document.createElement('form');
@@ -4792,52 +4823,6 @@ var ses;
   }
 
 
-  /**
-   * _optForeignForIn, if non-undefined, is a function of one parameter
-   * in a foreign frame that does a do-nothing for/in on that
-   * parameter. Used for detecting
-   * https://code.google.com/p/google-caja/issues/detail?id=1962 ,
-   * i.e., whether cross-frame for/in relies on the
-   * non-standard %IteratorPrototype%.next method being present.
-   *
-   * <p>Exported so that startSES can test whether whitelisting
-   * %IteratorPrototype%.next "fixes" the problem.
-   *
-   * <p>When run in a non-browser environment, _optForeignForIn is
-   * undefined.
-   */
-  ses._optForeignForIn = inTestFrame(function(window) {
-    return window.Function('o', '"use strict"; for (var x in o) {}');
-  });
-
-  function test_CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT() {
-    var getProto = Object.getPrototypeOf;
-
-    if (!ses._optForeignForIn) { return false; }
-    var nextless = inTestFrame(function(window) {
-      var iterSym = window.Symbol && window.Symbol.iterator;
-      if (!iterSym) { return void 0; }
-      var arrayIter = (new window.Array())[iterSym]();
-      var iterProto = getProto(getProto(arrayIter));
-      if (!(iterProto.hasOwnProperty('next'))) { return void 0; }
-      delete iterProto.next;
-      return window.eval('"use strict"; ({});');
-    });
-    if (!nextless) { return false; }
-    try {
-      ses._optForeignForIn(nextless);
-    } catch (err) {
-      // Cannot easily instanceof Error, since it is a cross-frame
-      // error. No reliable brand test for Error anyway.
-      if (err.name === 'TypeError' && 'message' in err) {
-        return true;
-      }
-      return 'Unexpected error: ' + err;
-    }
-    return false;
-  }
-
-
   ////////////////////// Repairs /////////////////////
   //
   // Each repair_NAME function exists primarily to repair the problem
@@ -6103,9 +6088,9 @@ var ses;
       tests: []
     },
     {
-      id: 'NUMBER_PROTO_IS_NUMBER',
-      description: 'Number.prototype should be a plain object',
-      test: test_NUMBER_PROTO_IS_NUMBER,
+      id: 'DATE_PROTO_IS_DATE',
+      description: 'Date.prototype should be a plain object',
+      test: test_DATE_PROTO_IS_DATE,
       repair: void 0,
       preSeverity: severities.SAFE_SPEC_VIOLATION,
       canRepair: false,
@@ -6117,23 +6102,9 @@ var ses;
       tests: []
     },
     {
-      id: 'BOOLEAN_PROTO_IS_BOOLEAN',
-      description: 'Boolean.prototype should be a plain object',
-      test: test_BOOLEAN_PROTO_IS_BOOLEAN,
-      repair: void 0,
-      preSeverity: severities.SAFE_SPEC_VIOLATION,
-      canRepair: false,
-      urls: ['https://bugzilla.mozilla.org/show_bug.cgi?id=797686',
-             'https://code.google.com/p/v8/issues/detail?id=3890',
-             'https://bugs.webkit.org/show_bug.cgi?id=141610',
-             'https://connect.microsoft.com/IE/feedbackdetail/view/1131123/for-many-x-x-prototype-is-an-x-when-it-must-be-a-plain-object'],
-      sections: [],
-      tests: []
-    },
-    {
-      id: 'STRING_PROTO_IS_STRING',
-      description: 'String.prototype should be a plain object',
-      test: test_STRING_PROTO_IS_STRING,
+      id: 'WEAKMAP_PROTO_IS_WEAKMAP',
+      description: 'WeakMap.prototype should be a plain object',
+      test: test_WEAKMAP_PROTO_IS_WEAKMAP,
       repair: void 0,
       preSeverity: severities.SAFE_SPEC_VIOLATION,
       canRepair: false,
@@ -6929,18 +6900,6 @@ var ses;
       canRepair: true,
       urls: ['https://bugzilla.mozilla.org/show_bug.cgi?id=1125389',
              'https://code.google.com/p/google-caja/issues/detail?id=1954'],
-      sections: [],
-      tests: []
-    },
-    {
-      id: 'CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT',
-      description: 'Cross-frame for/in needs non-standard inherited .next',
-      test: test_CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT,
-      repair: void 0,
-      preSeverity: severities.SAFE_SPEC_VIOLATION,
-      canRepair: false,
-      urls: ['https://code.google.com/p/google-caja/issues/detail?id=1962',
-             'https://bugzilla.mozilla.org/show_bug.cgi?id=1152550'],
       sections: [],
       tests: []
     }
@@ -7903,6 +7862,55 @@ var WeakMap;
  * so there would be no loss of integrity in switching to some other
  * heuristic.
  *
+
+ * <p>This API defines an "Extended Causeway Stacktrace", a
+ * JSON representation of a stacktrace, based on Causeway's stacktrace
+ * format, as documented at
+ * http://wiki.erights.org/wiki/Causeway_Platform_Developer and
+ * implemented at
+ * https://github.com/cocoonfx/causeway/blob/master/src/js/com/teleometry/causeway/purchase_example/workers/makeCausewayLogger.js
+ * and
+ * https://github.com/cocoonfx/causeway/blob/master/src/js/com/teleometry/causeway/log/html/instrument.js
+ * The extension is to allow nested frames, in order to represent
+ * nested eval positions. An Extended Causeway Stacktrace has the form:
+ * <pre>
+ * stacktrace ::= {calls: [frame*]};
+ * frame ::= {name: functionName,
+ *            source: source,
+ *            span: [[startLine, startCol?], [endLine, endCol?]?]};
+ * functionName ::= STRING;
+ * startLine, startCol, endLine, endCol ::= INTEGER
+ * source ::= STRING | frame;
+ * </pre>
+ * <p>TODO(erights): Move this frame nesting into Causeway itself.
+ *
+ * <p>The functionName might be the name of the function, a name
+ * associated with where the function is stored, i.e., the property
+ * name as "method name", or "?" to indicate unknown.
+ *
+ * <p>When the call happens at callsite P in code that is evaled from
+ * callsite Q, then the outer frame represents callsite P and the
+ * <tt>source</tt> of that outer frame is an inner frame representing
+ * callsite Q.
+ *
+ * When the source is a string, it should be either a URI ideally
+ * saying where to obtain exactly that same source, or a "?" to
+ * indicate unknown.
+ *
+ * <p>ses.getCWStack(err) obtains an Extended Causeway Stacktrace from
+ * an error object if possible.
+ *
+ * <p>ses.stackString(stacktrace) converts an Extended Causeway
+ * Stacktrace into a v8-like stack traceback string as documented at
+ * https://code.google.com/p/v8/wiki/JavaScriptStackTraceApi
+ *
+ * <p>ses.getStack(err) obtains a stack traceback string from an error
+ * object if possible. Ideally, it does so by
+ * stackString(getCWStack(err)), yielding a v8-like stack traceback
+ * string in a mostly platform-independent mannner. However, it may
+ * report a platform-dependent string when getCWStack(err) on that
+ * platform does not succeed.
+ *
  * //provides ses.getCWStack ses.stackString ses.getStack
  * @author Mark S. Miller
  * @requires WeakMap, this
@@ -7979,23 +7987,194 @@ var ses;
    /**
     * Should be a function of an argument object (normally an error
     * instance) that returns the stack trace associated with argument
-    * in Causeway format.
-    *
-    * <p>See http://wiki.erights.org/wiki/Causeway_Platform_Developer
+    * in Extended Causeway format, as defined above.
     *
     * <p>Currently, there is no one portable technique for doing
-    * this. So instead, each platform specific branch of the if below
-    * should assign something useful to getCWStack.
+    * extracting stack trace information from an Error
+    * object. Instead, each platform specific branch of the
+    * <tt>if</tt> below should assign something useful to getCWStack.
     */
    ses.getCWStack = function uselessGetCWStack(err) { return void 0; };
 
    // FF40 Nightly has moved the magic stack property to a
    // not-very-magic getter on Error.prototype. This enables us to
-   // prevent unprivileged access to stack information.
-   var primStackDesc = 
+   // prevent unprivileged access to stack information, by capturing
+   // this getter before startSES removes it, since it is not
+   // whitelisted. 
+   var primStackDesc =
        Object.getOwnPropertyDescriptor(Error.prototype, 'stack');
    var primStackGetter = (primStackDesc && primStackDesc.get) ||
        function legacyPrimStackGetter() { return this.stack; };
+
+   /**
+    * line2CWFrame(line) takes a (typically) single line string,
+    * representing a single stackframe of a stacktrace, and returns an
+    * Extended Causeway frame JSON object as defined above.
+    *
+    * <p>There is no standard for how these lines are formatted and
+    * they vary widely between platforms. line2CWFrame scrapes this
+    * line unreliably by using a variety of regular expressions that
+    * we've accumulated over time, to cover all the cases we've seen
+    * across platforms. There are a variety of user-triggered
+    * conditions that can cause this scraping to fail, such as a
+    * methodName that contains an "(" or "@" character.
+    */
+   var line2CWFrame = (function() {
+     // Each of these frame patterns should have the first capture
+     // group be the function name, and the second capture group be
+     // the source URL together with position
+     // information. Afterwards, the lineColPattern will pull apart
+     // these source position components. On all, we assume the
+     // function name, if any, has no colon (":"), at-sign ("@"), or
+     // open paren ("("), as each of these are used to recognize
+     // other parts of a debug line.
+
+     // See https://code.google.com/p/v8/issues/detail?id=4268
+     var V8NestedCallSitePattern = /^eval at (.*) \((.*)\)$/;
+
+     // Seen on FF: The function name is sometimes followed by
+     // argument descriptions enclosed in parens, which we
+     // ignore. Then there is always an at-sign followed by possibly
+     // empty source position.
+     var FFFramePattern = /^\s*([^:@(]*?)\s*(?:\(.*\))?@(.*?)$/;
+
+     // Seen on IE: The line begins with " at ", as on v8, which we
+     // ignore. Then the function name, then the source position
+     // enclosed in parens.
+     var IEFramePattern = /^\s*(?:at\s+)?([^:@(]*?)\s*\((.*?)\)$/;
+
+     // Seem on Safari (JSC): The name optionally followed by an
+     // at-sign and source position information. This is like FF,
+     // except that the at-sign and source position info may
+     // together be absent.
+     var JSCFramePatt1 = /^\s*([^:@(]*?)\s*(?:@(.*?))?$/;
+
+     // Also seen on Safari (JSC): Just the source position info by
+     // itself, with no preceding function name. The source position
+     // always seems to contain at least a colon, which is how we
+     // decide that it is a source position rather than a function
+     // name. The pattern here is a bit more flexible, in that it
+     // will accept a function name preceding the source position
+     // and separated by whitespace.
+     var JSCFramePatt2 = /^\s*?([^:@(]*?)\s*?(.*?)$/;
+
+     // List the above patterns in priority order, where the first
+     // matching pattern is the one used for any one stack line.
+     var framePatterns = [V8NestedCallSitePattern,
+                          FFFramePattern, IEFramePattern,
+                          JSCFramePatt1, JSCFramePatt2];
+
+
+     // Each of the LineColPatterns should have the first capture
+     // group be the source URL if any, the second be the line
+     // number if any, and the third be the column number if any.
+     // If there are more, then we have an eval where the next three
+     // are the function-name, line, and column within the evaled string.
+
+     // Seen on FF Nightly 30 for execution in evaled strings.
+     // On the left of the &gt; is the position from which eval was
+     // called. On the right is the position within the evaled
+     // string.
+     //
+     // TODO(erights): Handle multiple eval nestings. This is low
+     // priority because SES only exposes eval through functions
+     // that call eval, and so SES never has direct eval
+     // nestings. In any case, if the multiple eval syntax is
+     // encountered, e.g., 
+     //   http://example.com line 16 > eval line 1 > eval:2:8
+     // it will match this pattern, but with the first capture
+     // group being "http://example.com line 16 > eval"
+     var FFEvalLineColPatterns =
+           /^(.*) line (\d+)() > ([^:]*):(\d+):(\d+)$/;
+
+     // If the source position ends in either one or two
+     // colon-digit-sequence suffixes, then the first of these are
+     // the line number, and the second, if present, is the column
+     // number.
+     var MainLineColPattern = /^(.*?)(?::(\d+)(?::(\d+))?)?$/;
+
+     // List the above patterns in priority order, where the first
+     // matching pattern is the one used for any one stack line.
+     var lineColPatterns = [FFEvalLineColPatterns, MainLineColPattern];
+
+     function line2CWFrame(line) {
+       var name = line.trim();
+       var source = '?';
+       var span = [];
+       // Using .some here only because it gives us a way to escape
+       // the loop early. We do not use the results of the .some.
+       framePatterns.some(function(framePattern) {
+         var match = framePattern.exec(line);
+         if (match) {
+           name = match[1] || '?';
+           source = match[2] || '?';
+           // Using .some here only because it gives us a way to escape
+           // the loop early. We do not use the results of the .some.
+           lineColPatterns.some(function(lineColPattern) {
+             var sub = lineColPattern.exec(source);
+             if (sub) {
+               // sub[1] if present is the source URL.
+               // sub[2] if present is the line number.
+               // sub[3] if present is the column number.
+               // sub[4] if present is the function name within the evaled
+               // string.
+               // sub[5] if present is the line number within the
+               // evaled string.
+               // sub[6] if present is the column number within
+               // the evaled string.
+               source = sub[1] || '?';
+               if (sub[2]) {
+                 if (sub[3]) {
+                   span = [[+sub[2], +sub[3]]];
+                 } else {
+                   span = [[+sub[2]]];
+                 }
+               }
+               if (sub.length >= 5) {
+                 source = {
+                   name: sub[4] === 'eval' ? '?' : (sub[4] || '?'),
+                   source: source,
+                   span: span
+                 };
+                 span = [];
+                 if (sub[5]) {
+                   if (sub[6]) {
+                     span = [[+sub[5], +sub[6]]];
+                   } else {
+                     span = [[+sub[5]]];
+                   }
+                 }
+               }
+               return true;
+             }
+             return false;
+           });
+           return true;
+         }
+         return false;
+       });
+       if (name === 'Anonymous function') {
+         // Adjust for weirdness seen on IE
+         name = '?';
+       } else if (name.indexOf('/') !== -1) {
+         // Adjust for function name weirdness seen on FF.
+         name = name.replace(/[/<]/g,'');
+         var parts = name.split('/');
+         name = parts[parts.length -1];
+       }
+       if (source === 'Unknown script code' || source === 'eval code') {
+         // Adjust for weirdness seen on IE
+         source = '?';
+       }
+       return {
+         name: name,
+         source: source,
+         span: span
+       };
+     }
+
+     return line2CWFrame;
+   })();
 
    if ('captureStackTrace' in UnsafeError) {
      (function() {
@@ -8046,10 +8225,30 @@ var ses;
        var ssts = new WeakMap(); // error -> sst
 
        /**
-        * Returns a stack in Causeway format.
-        *
-        * <p>Based on
-        * http://code.google.com/p/causeway/source/browse/trunk/src/js/com/teleometry/causeway/purchase_example/workers/makeCausewayLogger.js
+        * Given a v8 CallSite object as defined at
+        * https://code.google.com/p/v8-wiki/wiki/JavaScriptStackTraceApi
+        * return a stack frame in Extended Causeway Format as defined
+        * above.
+        */
+       function callSite2CWFrame(callSite) {
+         if (typeof callSite === 'string') {
+           // See https://code.google.com/p/v8/issues/detail?id=4268
+           return line2CWFrame(callSite);
+         }
+         var source = callSite.isEval() ?
+             callSite2CWFrame(callSite.getEvalOrigin()) :
+             '' + (callSite.getFileName() || '?');
+         var name = '' + (callSite.getFunctionName() ||
+                       callSite.getMethodName() || '?');
+         return {
+           name: name,
+           source: source,
+           span: [ [ callSite.getLineNumber(), callSite.getColumnNumber() ] ]
+         };
+       }
+
+       /**
+        * Returns a stack in Extended Causeway Format as defined above.
         */
        function getCWStack(err) {
          if (Object(err) !== err) { return void 0; }
@@ -8061,77 +8260,13 @@ var ses;
          }
          if (sst === void 0) { return void 0; }
 
-         return { calls: sst.map(function(frame) {
-           return {
-             name: '' + (frame.getFunctionName() ||
-                         frame.getMethodName() || '?'),
-             source: '' + (frame.getFileName() || '?'),
-             span: [ [ frame.getLineNumber(), frame.getColumnNumber() ] ]
-           };
-         })};
+         return {calls: sst.map(callSite2CWFrame)};
        };
        ses.getCWStack = getCWStack;
      })();
 
    } else {
      (function() {
-       // Each of these patterns should have the first capture group
-       // be the function name, and the second capture group be the
-       // source URL together with position information. Afterwards,
-       // the lineColPattern will pull apart these source position
-       // components. On all, we assume the function name, if any, has
-       // no colon (":"), at-sign ("@"), or open paren ("("), as each
-       // of these are used to recognize other parts of a debug line.
-
-       // Seen on FF: The function name is sometimes followed by
-       // argument descriptions enclosed in parens, which we
-       // ignore. Then there is always an at-sign followed by possibly
-       // empty source position.
-       var FFFramePattern =  /^\s*([^:@(]*?)\s*(?:\(.*\))?@(.*?)$/;
-       // Seen on IE: The line begins with " at ", as on v8, which we
-       // ignore. Then the function name, then the source position
-       // enclosed in parens.
-       var IEFramePattern =  /^\s*(?:at\s+)?([^:@(]*?)\s*\((.*?)\)$/;
-       // Seem on Safari (JSC): The name optionally followed by an
-       // at-sign and source position information. This is like FF,
-       // except that the at-sign and source position info may
-       // together be absent.
-       var JSCFramePatt1 =   /^\s*([^:@(]*?)\s*(?:@(.*?))?$/;
-       // Also seen on Safari (JSC): Just the source position info by
-       // itself, with no preceding function name. The source position
-       // always seems to contain at least a colon, which is how we
-       // decide that it is a source position rather than a function
-       // name. The pattern here is a bit more flexible, in that it
-       // will accept a function name preceding the source position
-       // and separated by whitespace.
-       var JSCFramePatt2 =   /^\s*?([^:@(]*?)\s*?(.*?)$/;
-
-       // List the above patterns in priority order, where the first
-       // matching pattern is the one used for any one stack line.
-       var framePatterns = [FFFramePattern, IEFramePattern,
-                            JSCFramePatt1, JSCFramePatt2];
-
-       // Each of the LineColPatters should have the first capture
-       // group be the source URL if any, the second by the line
-       // number if any, and the third be the column number if any.
-
-       // Seen on FF Nightly 30 for execution in evaled strings.
-       // The current Causeway format is not sufficiently expressive
-       // to represent the useful information here and (TODO(erights))
-       // needs to be enhanced. In the meantime, this pattern captures
-       // the outer source position and ignores the inner one.
-       var FFEvalLineColPatterns = 
-             (/^(.*?) line (\d+) > (?:[^:]*):(?:\d+):(?:\d+)$/);
-       // If the source position ends in either one or two
-       // colon-digit-sequence suffixes, then the first of these are
-       // the line number, and the second, if present, is the column
-       // number.
-       var MainLineColPattern = /^(.*?)(?::(\d+)(?::(\d+))?)?$/;
-
-       // List the above patterns in priority order, where the first
-       // matching pattern is the one used for any one stack line.
-       var lineColPatterns = [FFEvalLineColPatterns, MainLineColPattern];
-
        function getCWStack(err) {
          var stack = void 0;
          try {
@@ -8148,60 +8283,7 @@ var ses;
            lines = lines.slice(1);
          }
          lines = lines.filter(function(line) { return line !== ''; });
-         var frames = lines.map(function(line) {
-           var name = line.trim();
-           var source = '?';
-           var span = [];
-           // Using .some here only because it gives us a way to escape
-           // the loop early. We do not use the results of the .some.
-           framePatterns.some(function(framePattern) {
-             var match = framePattern.exec(line);
-             if (match) {
-               name = match[1] || '?';
-               source = match[2] || '?';
-               // Using .some here only because it gives us a way to escape
-               // the loop early. We do not use the results of the .some.
-               lineColPatterns.some(function(lineColPattern) {
-                 var sub = lineColPattern.exec(source);
-                 if (sub) {
-                   // sub[1] if present is the source URL.
-                   // sub[2] if present is the line number.
-                   // sub[3] if present is the column number.
-                   source = sub[1] || '?';
-                   if (sub[2]) {
-                     if (sub[3]) {
-                       span = [[+sub[2], +sub[3]]];
-                     } else {
-                       span = [[+sub[2]]];
-                     }
-                   }
-                   return true;
-                 }
-                 return false;
-               });
-               return true;
-             }
-             return false;
-           });
-           if (name === 'Anonymous function') {
-             // Adjust for weirdness seen on IE
-             name = '?';
-           } else if (name.indexOf('/') !== -1) {
-             // Adjust for function name weirdness seen on FF.
-             name = name.replace(/[/<]/g,'');
-             var parts = name.split('/');
-             name = parts[parts.length -1];
-           }
-           if (source === 'Unknown script code' || source === 'eval code') {
-             // Adjust for weirdness seen on IE
-             source = '?';
-           }
-           return {
-             name: name,
-             source: source,
-             span: span
-           };
-         });
+         var frames = lines.map(line2CWFrame);
          return { calls: frames };
        }
 
@@ -8210,28 +8292,37 @@ var ses;
    }
 
    /**
-    * Turn a Causeway stack into a v8-like stack traceback string.
+    * Turn an Extended Causeway stackframe object into a stackframe line
+    * from a v8-like stack traceback string as defined at
+    * https://code.google.com/p/v8-wiki/wiki/JavaScriptStackTraceApi
+    */
+   function frameString(frame) {
+     var spanString = frame.span.map(function(subSpan) {
+       return subSpan.join(':');
+     }).join('::');
+     if (spanString) { spanString = ':' + spanString; }
+     var source = frame.source;
+     if (typeof source !== 'string') {
+       source = 'eval' + frameString(source);
+     }
+     return ' at ' + frame.name + ' (' + source + spanString + ')';
+   }
+
+   /**
+    * Turn an Extended Causeway Stacktrace object into a v8-like stack
+    * traceback string.
     */
    function stackString(cwStack) {
      if (!cwStack) { return void 0; }
-     var calls = cwStack.calls;
-
-     var result = calls.map(function(call) {
-
-       var spanString = call.span.map(function(subSpan) {
-         return subSpan.join(':');
-       }).join('::');
-       if (spanString) { spanString = ':' + spanString; }
-
-       return '  at ' + call.name + ' (' + call.source + spanString + ')';
-
-     });
-     return result.join('\n');
+     var result = cwStack.calls.map(frameString);
+     return ' ' + result.join('\n ');
    };
    ses.stackString = stackString;
 
    /**
-    * Return the v8-like stack traceback string associated with err.
+    * Return a stack traceback string associated with err. Ideally,
+    * this is in a platform idependent v8-like format, but this may
+    * not always be possible.
     */
    function getStack(err) {
      if (err !== Object(err)) { return void 0; }
@@ -8408,7 +8499,7 @@ var ses;
  *
  * <p>TODO: We want to do for constructor: something weaker than '*',
  * but rather more like what we do for [[Prototype]] links, which is
- * that it is whitelisted only if it points as an object which is
+ * that it is whitelisted only if it points at an object which is
  * otherwise reachable by a whitelisted path.
  *
  * <p>The members of the whitelist are either
@@ -8446,11 +8537,6 @@ var ses;
   var t = true;
   var TypedArrayWhitelist;  // defined and used below
 
-  // Note that, on browsers suffering from
-  // CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT, startSES does an
-  // imperative update of the whitelist, but should be ok.  Please
-  // maintain this note together with corresponding notes in
-  // startSES.js where whitelist is updated and where it first read.
   ses.whitelist = {
     cajaVM: {                        // Caja support
       // The accessible intrinsics which are not reachable by own
@@ -8463,9 +8549,15 @@ var ses;
       anonIntrinsics: {
         ThrowTypeError: {},
         IteratorPrototype: {
-          constructor: false  // suppress inherited '*'
-          // Note that startSES may add a "next: '*'" here, depending on
-          // CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT
+          // Technically, for SES-on-ES5, we should not need to
+          // whitelist 'next'. However, browsers are accidentally
+          // relying on it
+          // https://bugs.chromium.org/p/v8/issues/detail?id=4769#
+          // https://bugs.webkit.org/show_bug.cgi?id=154475
+          // and we will be whitelisting it as we transition to ES6
+          // anyway, so we unconditionally whitelist it now.
+          next: '*',
+          constructor: false
         },
         ArrayIteratorPrototype: {},
         StringIteratorPrototype: {},
@@ -8499,6 +8591,8 @@ var ses;
           length: '*',  // does not inherit from Function.prototype on Chrome
           name: '*',  // ditto
           BYTES_PER_ELEMENT: '*',
+          from: t,
+          of: t,
           prototype: {
             buffer: 'maybeAccessor',
             byteOffset: 'maybeAccessor',
@@ -8827,13 +8921,15 @@ var ses;
       prototype: {
         exec: t,
         test: t,
-        source: '*',
-        global: '*',
-        ignoreCase: '*',
-        multiline: '*',
+        source: 'maybeAccessor',
+        global: 'maybeAccessor',
+        ignoreCase: 'maybeAccessor',
+        multiline: 'maybeAccessor',
+        flags: 'maybeAccessor',
+        unicode: 'maybeAccessor',
         lastIndex: '*',
         options: '*',                // non-std
-        sticky: '*'                  // non-std
+        sticky: 'maybeAccessor'      // non-std
       }
     },
     Error: {
@@ -8948,7 +9044,7 @@ var ses;
  * // provides ses.atLeastFreeVarNames
  * // provides ses.limitSrcCharset
  * @author Mark S. Miller
- * @requires StringMap
+ * @requires StringMap, JSON
  * @overrides ses, atLeastFreeVarNamesModule
  */
 var ses;
@@ -9019,8 +9115,9 @@ var ses;
     + '\\u2028\\u2029\\u200f\\u205F\\u3000]');
 
   /**
-   * We use this to limit the input text to ascii only text.  All other
-   * characters are encoded using backslash-u escapes.
+   * We use this to limit the input text to ascii only text or \u00A0
+   * which is no-break-space. All other characters are encoded using
+   * backslash-u escapes.
    */
   ses.limitSrcCharset = function(programSrc) {
     if (OTHER_WHITESPACE.test(programSrc)) {
@@ -9035,13 +9132,29 @@ var ses;
 
   /**
    * Return a regexp that can be used repeatedly to scan for the next
-   * identifier. It works correctly in concert with ses.limitSrcCharset above.
+   * identifier. It works correctly in concert with
+   * ses.limitSrcCharset above.
    *
-   * If this regexp is changed, compileExprLater.js should be checked for
-   * correct escaping of freeNames.
+   * Note that ES6 section 11.8.4 extends the syntax of identifiers to
+   * include the unicode escape sequence
+   * backslash-u-opencurly-hexdigits-closecurly. By including it in
+   * this pattern, we ensure that we still recognize an identifier as
+   * a unit. However, this is not valid JSON syntax, so the JSON.parse
+   * will reject these with an exception rather than decode it into an
+   * identifier string.
    */
   function SHOULD_MATCH_IDENTIFIER() {
-    return /(\w|\\u\d{4}|\$)+/g;
+    return /(?:\w|\\u[0-9a-fA-F]{4}|\\u{[0-9a-fA-F]*}|\$)+/g;
+  }
+
+  /**
+   * Sequences beginning with a digit will pass the
+   * SHOULD_MATCH_IDENTIFIER() pattern but are trivially not
+   * identifiers. This returns true only if name does not begin with a
+   * digit.
+   */
+  function filterIdentifier(name) {
+    return /^\D/.test(name);
   }
 
   //////////////// END KLUDGE SWITCHES ///////////
@@ -9076,9 +9189,30 @@ var ses;
       // apparently unique identifiers.
       var name = a[0];
 
-      if (!found.has(name)) {
-        result.push(name);
-        found.set(name, true);
+      if (filterIdentifier(name)) {
+        // Parse \u escapes occurring inside the name. No other special
+        // characters can occur, because the input is known to match
+        // SHOULD_MATCH_IDENTIFIER(). SHOULD_MATCH_IDENTIFIER() will
+        // admit backslash-u-opencurly-hexdigits-closecurly which
+        // JSON.parse will reject with an error. We could and probably
+        // should eventually admit this standard non-JSON escape
+        // sequence, but for simplicity and lack of current demand, we
+        // do not yet do so.
+        try {
+          name = JSON.parse('"' + name + '"');
+        } catch (err) {
+          if (err instanceof SyntaxError) {
+            // Since we are rejecting a valid program, at least make
+            // the diagnostic more informative.
+            err.message += ' in ' + name;
+          }
+          throw err;
+        }
+
+        if (!found.has(name)) {
+          result.push(name);
+          found.set(name, true);
+        }
       }
     }
     return result;
@@ -9106,14 +9240,21 @@ var ses;
  * <p>Assumes ES5 plus a WeakMap that conforms to the anticipated ES6
  * WeakMap spec. Compatible with ES5-strict or anticipated ES6.
  *
+ * //requires ses.es5ProblemReports, ses.logger
+ * //requires ses.severities, ses.updateMaxSeverity
+ * //requires ses.is
  * //requires ses.makeCallerHarmless, ses.makeArgumentsHarmless
+ * //requires ses.inBrowser
  * //requires ses.noFuncPoison
- * //requires ses.verifyStrictFunctionBody
+ * //requires ses.verifyStrictFunctionBody, ses.makeDelayedTamperProof
  * //requires ses.getUndeniables, ses.earlyUndeniables
  * //requires ses.getAnonIntrinsics
+ * //requires ses.kludge_test_FREEZING_BREAKS_PROTOTYPES
  * //optionally requires ses.mitigateSrcGotchas
  * //provides ses.startSES ses.resolveOptions, ses.securableWrapperSrc
  * //provides ses.makeCompiledExpr ses.prepareExpr
+ * //provides ses._primordialsHaveBeenFrozen
+ * //provides ses.resampleGlobal
  *
  * @author Mark S. Miller,
  * @author Jasvir Nagra
@@ -9338,6 +9479,27 @@ ses.startSES = function(global,
   //var EMULATE_LEGACY_GETTERS_SETTERS = false;
   var EMULATE_LEGACY_GETTERS_SETTERS = true;
 
+  /**
+   * freezeGlobalProp below defines several possible platform
+   * behaviors regarding what is needed to freeze a property on the
+   * global object. If TRY_GLOBAL_SIMPLE_FREEZE_FIRST, we first try a
+   * strategy we call <i>simple freezing</i> first, which works on
+   * platforms implementing the <i>legacy behavior</i> or <i>simple
+   * behavior</i>, before proceeding to the strategy that should work
+   * on any expected platform behavior. If
+   * TRY_GLOBAL_SIMPLE_FREEZE_FIRST is false, then we only follow the
+   * strategy that should work on any expected platform behavior. As
+   * of August 5, 2015, with TRY_GLOBAL_SIMPLE_FREEZE_FIRST false, v8
+   * (Chrome and Opera) fails by crashing the page, and JSC (Safari)
+   * fails in undiagnosed ways, both for undiagnosed reasons.
+   *
+   * <p>TODO(erights): Diagnose how v8 and JSC fail when
+   * TRY_GLOBAL_SIMPLE_FREEZE_FIRST is false, and report these
+   * problems.
+   */
+  //var TRY_GLOBAL_SIMPLE_FREEZE_FIRST = false;
+  var TRY_GLOBAL_SIMPLE_FREEZE_FIRST = true;
+
   //////////////// END KLUDGE SWITCHES ///////////
 
   // Problems we can work around but repairES5 cannot repair.
@@ -9346,17 +9508,6 @@ ses.startSES = function(global,
       ses.es5ProblemReports.NONCONFIGURABLE_OWN_PROTO.afterFailure;
   var INCREMENT_IGNORES_FROZEN =
       ses.es5ProblemReports.INCREMENT_IGNORES_FROZEN.afterFailure;
-  var CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT =
-      ses.es5ProblemReports.CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT.
-            afterFailure;
-
-  if (CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT) {
-    // Note: Imperative update, but should be ok.  Please maintain
-    // this note together with corresponding notes where whitelist is
-    // defined in whitelist.js, and where it is first read below.
-    whitelist.cajaVM.anonIntrinsics.IteratorPrototype.next = '*';
-    // Whether this has the desired effect is tested after cleaning.
-  }
 
   var dirty = true;
 
@@ -9393,33 +9544,27 @@ ses.startSES = function(global,
    * options and their effects.
    */
   function resolveOptions(opt_mitigateOpts) {
+    if (opt_mitigateOpts === void 0 || opt_mitigateOpts === null) {
+      opt_mitigateOpts = {};
+    }
+
     function resolve(opt, defaultOption) {
-      return (opt_mitigateOpts && opt in opt_mitigateOpts) ?
-        opt_mitigateOpts[opt] : defaultOption;
+      return opt in opt_mitigateOpts ? opt_mitigateOpts[opt] : defaultOption;
     }
+
     var options = {};
-    if (opt_mitigateOpts === undefined || opt_mitigateOpts === null) {
-      options.maskReferenceError = true;
-      options.parseFunctionBody = true;
-      options.sourceUrl = void 0;
 
-      options.rewriteTopLevelVars = true;
-      options.rewriteTopLevelFuncs = true;
-      options.rewriteFunctionCalls = true;
-      options.rewriteTypeOf = false;
-      options.forceParseAndRender = false;
-    } else {
-      options.maskReferenceError = resolve('maskReferenceError', true);
-      options.parseFunctionBody = resolve('parseFunctionBody', false);
-      options.sourceUrl = resolve('sourceUrl', void 0);
+    options.maskReferenceError = resolve('maskReferenceError', true);
+    options.parseFunctionBody = resolve('parseFunctionBody', false);
+    options.sourceUrl = resolve('sourceUrl', void 0);
 
-      options.rewriteTopLevelVars = resolve('rewriteTopLevelVars', true);
-      options.rewriteTopLevelFuncs = resolve('rewriteTopLevelFuncs', true);
-      options.rewriteFunctionCalls = resolve('rewriteFunctionCalls', true);
-      options.rewriteTypeOf = resolve('rewriteTypeOf',
-                                      !options.maskReferenceError);
-      options.forceParseAndRender = resolve('forceParseAndRender', false);
-    }
+    options.rewriteTopLevelVars = resolve('rewriteTopLevelVars', true);
+    options.rewriteTopLevelFuncs = resolve('rewriteTopLevelFuncs', true);
+    options.rewriteFunctionCalls = resolve('rewriteFunctionCalls', true);
+    options.rewriteTypeOf = resolve('rewriteTypeOf',
+                                    !options.maskReferenceError);
+    options.forceParseAndRender = resolve('forceParseAndRender', false);
+
     return options;
   }
   ses.resolveOptions = resolveOptions;
@@ -9613,6 +9758,70 @@ ses.startSES = function(global,
   }
 
 
+  /**
+   * All scopeObjects inherit from the one returned scopeBackstop
+   * object, just in case the normal makeScopeObject protections fail,
+   * leaving open a possible vulnerability. For every global variable
+   * name found by inspecting the global object, the backstop has a
+   * poisoned property shadowing that global variable.
+   *
+   * The remaining imperfection is that new globals may be added after
+   * the global object has been sampled. We provide the
+   * ses.resampleGlobal() hook so that our client can advise us that
+   * we need to resample it. We update the one returned scopeBackstop
+   * object, rather than making a new one, to protect us against old
+   * code accessing new variables.
+   */
+  var getBackstop = (function() {
+
+    var scopeBackstop = createNullIfPossible();
+    // createNullIfPossible safety: We explicitly censor all the own
+    // properties of Object.prototype below.
+    var needSample = true;
+
+    /**
+     * Call this after adding new global variables to this realm,
+     * before giving any other untrusted code a chance to run.
+     */
+    function resampleGlobal() {
+      gopn(Object.prototype).forEach(censor);
+      for (var hidden = global; hidden; hidden = getProto(hidden)) {
+        gopn(hidden).forEach(censor);
+      }
+      needSample = false;
+    }
+    ses.resampleGlobal = resampleGlobal;
+
+    /**
+     * Because there are often a lot of global properties, for speed,
+     * we reuse this single function as the getters and setters for
+     * all of them. The price is that the diagnostic cannot identify
+     * the name of forbidden variable being accessed.
+     *
+     * Since this is only used as a backstop anyway, this
+     * uninformative diagnostic should only be seen if the normal
+     * makeScopeObject protections fail.
+     */
+    function badGlobalAccess() {
+      throw new ReferenceError('Access to forbidden global variable');
+    }
+
+    function censor(name) {
+      defProp(scopeBackstop, name, {
+        get: badGlobalAccess,
+        set: badGlobalAccess,
+        enumerable: false,
+        configurable: false
+      });
+    }
+
+    return function getBackstop() {
+      if (needSample) { resampleGlobal(); }
+      return scopeBackstop;
+    };
+  }());
+
+
   (function startSESPrelude() {
 
     /**
@@ -9723,10 +9932,7 @@ ses.startSES = function(global,
      * {@code imports}.
      */
     function makeScopeObject(imports, freeNames, options) {
-      var scopeObject = createNullIfPossible();
-      // createNullIfPossible safety: The inherited properties should
-      // always be shadowed by defined properties if they are relevant
-      // (that is, if they occur in freeNames).
+      var scopeObject = create(getBackstop());
 
       // Note: Although this loop is a bottleneck on some platforms,
       // it does not help to turn it into a for(;;) loop, since we
@@ -9844,7 +10050,7 @@ ses.startSES = function(global,
 
     /**
      * See <a href="http://www.ecma-international.org/ecma-262/5.1/#sec-7.3"
-     * >EcmaScript 5 Line Terminators</a>
+     * >ECMAScript 5 Line Terminators</a>
      */
     var hasLineTerminator = /[\u000A\u000D\u2028\u2029]/;
 
@@ -9948,8 +10154,11 @@ ses.startSES = function(global,
       if (exprSrc[exprSrc.length - 1] === ';') {
         exprSrc = exprSrc.substr(0, exprSrc.length - 1);
       }
-      var wrapperSrc = securableWrapperSrc(exprSrc);
+      // If both of these would throw an error, the error from
+      // atLeastFreeVarNames is likely to be more informative, so we
+      // call it first.
       var freeNames = atLeastFreeVarNames(exprSrc);
+      var wrapperSrc = securableWrapperSrc(exprSrc);
 
       var suffixSrc;
       var sourceUrl = options.sourceUrl;
@@ -10316,6 +10525,17 @@ ses.startSES = function(global,
       })();
       if (nativeProxies) {
         (function () {
+          function coerceProp(P) {
+            if (typeof P === 'symbol') {
+              return P;
+            } else {
+              return '' + P;
+            }
+          }
+          function isNumericString(P) {
+            return typeof P === 'string' && P == '' + (+P);
+          }
+
           function ArrayLike(proto, getItem, getLength) {
             if (typeof proto !== 'object') {
               throw new TypeError('Expected proto to be an object.');
@@ -10330,14 +10550,14 @@ ses.startSES = function(global,
           }
 
           function ownPropDesc(P) {
-            P = '' + P;
+            P = coerceProp(P);
             if (P === 'length') {
               return {
                 get: lengthGetter,
                 enumerable: false,
                 configurable: true  // required proxy invariant
               };
-            } else if (typeof P === 'number' || P === '' + (+P)) {
+            } else if (isNumericString(P)) {
               return {
                 get: constFunc(function() {
                   var getter = itemMap.get(this);
@@ -10350,6 +10570,7 @@ ses.startSES = function(global,
             return void 0;
           }
           function propDesc(P) {
+            P = coerceProp(P);
             var opd = ownPropDesc(P);
             if (opd) {
               return opd;
@@ -10358,10 +10579,10 @@ ses.startSES = function(global,
             }
           }
           function get(O, P) {
-            P = '' + P;
+            P = coerceProp(P);
             if (P === 'length') {
               return lengthGetter.call(O);
-            } else if (typeof P === 'number' || P === '' + (+P)) {
+            } else if (isNumericString(P)) {
               var getter = itemMap.get(O);
               return getter ? getter(+P) : void 0;
             } else {
@@ -10371,17 +10592,14 @@ ses.startSES = function(global,
             }
           }
           function has(P) {
-            P = '' + P;
+            P = coerceProp(P);
             return (P === 'length') ||
-                (typeof P === 'number') ||
-                (P === '' + +P) ||
+                isNumericString(P) ||
                 (P in Object.prototype);
           }
           function hasOwn(P) {
-            P = '' + P;
-            return (P === 'length') ||
-                (typeof P === 'number') ||
-                (P === '' + +P);
+            P = coerceProp(P);
+            return P === 'length' || isNumericString(P);
           }
           function getPN() {
             var result = getOwnPN ();
@@ -10396,8 +10614,12 @@ ses.startSES = function(global,
             return ['length'];
           };
           function del(P) {
-            P = '' + P;
-            if ((P === 'length') || ('' + +P === P)) { return false; }
+            P = coerceProp(P);
+            if (P === 'length' || isNumericString(P)) {
+              // Non-deletable property.
+              return false;
+            }
+            // Nonexistent property.
             return true;
           }
 
@@ -10593,6 +10815,273 @@ ses.startSES = function(global,
   }
 
   /**
+   * Because of the browser split between Window and WindowProxy, it
+   * becomes tricky to freeze a property on the global
+   * object. (Although, in the official spec language, only objects
+   * are "frozen", here we also use the shorthand "frozen" to describe
+   * a non-writable, non-configurable, data property.)
+   *
+   * <p>As discussed at
+   * https://esdiscuss.org/topic/figuring-out-the-behavior-of-windowproxy-in-the-face-of-non-configurable-properties
+   * and
+   * https://esdiscuss.org/topic/a-dom-use-case-that-can-t-be-emulated-with-direct-proxies
+   * in browsers the ECMAScript notion of "global object" is split
+   * into two portions named Window and WindowProxy. When a frame is
+   * navigated from one URL to another, a fresh realm (set of
+   * primordials) is associated with the post-navigation state,
+   * including a fresh Window object. However, the WindowProxy
+   * associated with the frame is reused, but changed from proxying
+   * for the old Window to proxying for the new Window.
+   *
+   * <p>While WindowProxy wp is proxying for Window w, for each
+   * property f on w, i.e., w.f, there appears a corresponding f
+   * property on wp, wp.f, whose state tracks the state of w.f. At the
+   * time of this writing, on most browsers the state of wp.f appears
+   * to be the same as the state of w.f, including the configurability
+   * of w.f. Those threads explain that this behavior causes a fatal
+   * violation of the invariants of the ES6 (ECMAScript 2015)
+   * spec. The problem is that the claim of stability made by
+   * presenting wp.f as non-configurable is violated when the frame is
+   * navigated and wp.f now tracks a different Window's f property.
+   *
+   * <p>TODO(erights) add tests for these violations to test262.
+   * TODO(erights): Add SES tests for these violations using our
+   * repair-framework.
+   * TODO(erights): Add SES tests and repairs for conformance to draft
+   * https://github.com/domenic/window-proxy-spec, but only when we
+   * know we're in an environment, like a browser, where the global
+   * object is split in this way.
+   *
+   * <p>The difficulty arises from the fact that only the WindowProxy
+   * is reified -- is accessible to JavaScript code as a first class
+   * object. The underlying Window object is purely an explanatory
+   * device and is never directly accessible to JavaScript
+   * code. However, it is the Window object that is at the end of the
+   * scope chain of code in its realm. Global variables in that realm
+   * are 1-to-1 with properties of the Window object. Thus, JavaScript
+   * code can only reason about or manipulate w.f indirecty -- either
+   * via wp.f or via the global variable f. When we say that the
+   * following code must freeze global property <i>name</i>, we really
+   * mean that it must ensure that the corresponding global variable
+   * <i>name</i> is unassignable and that its value must be stable
+   * over time.
+   *
+   * <p>The draft WindowProxy spec at
+   * https://github.com/domenic/window-proxy-spec explains the
+   * solution we arrived at. At the time of this writing,
+   * <ul>
+   * <li>No browser fully implements this spec (the specced behavior).
+   * <li>On most browsers wp.f appears to have the same state as w.f
+   *     (the legacy behavior).
+   * <li>Non-browsers should conform directly to the ECMAScript
+   *     spec, in which a realm only has one global object, no implicit
+   *     proxying is involved, and none of the invariants are threatened
+   *     (the simple behavior).
+   * <li>FF Nightly currently has partially implemented the spec, and
+   *     is otherwise acting as a legacy browser (the mixed
+   *     behavior). On FF Nightly, defineProperty seems to act
+   *     according to the spec, but if w.f is non-configurable, then
+   *     getOwnProperty might still report wp.f as
+   *     non-configurable. See
+   *     https://bugzilla.mozilla.org/show_bug.cgi?id=1178639 and
+   *     https://github.com/domenic/window-proxy-spec/issues/4
+   * </ul>
+   * <p>The following code must succeed at freezing the global
+   * <i>name</i> property in all cases. For the legacy or simple
+   * behavior, this is done by straightforward application of
+   * <code>Object.defineProperty</code>.
+   *
+   * <p>For the specced or mixed behaviors, we distinguish the
+   * following cases.
+   * <ul>
+   * <li>When w.f is absent, then wp.f will also reported as absent
+   *     and <code>freezeGlobalProp('f')</code> does nothing.
+   * <li>When w.f is actually a configurable (data or accessor)
+   *     property, then in all cases wp.f will also be reported as
+   *     configurable. In order to make w.f non-configurable we first
+   *     need to delete it. Because w.f is configurable, we can delete
+   *     it by deleting wp.f. Then, by recreating wp.f without an
+   *     explicit <code>configurable</code> attribute, the specced or mixed
+   *     behaviors will recreate w.f as non-configurable, but may
+   *     present it on wp.f as configurable.
+   * <li>When w.f is actually a non-configurable data property and (in
+   *     violation of the spec) wp.f is reported as non-configurable,
+   *     then we need merely ensure that w.f is non-writable as
+   *     well. We do so by ensuring that wp.f is non-writable.
+   * <li>When w.f is actually a non-configurable data property and is
+   *     reported as configurable, then we need merely ensure that w.f
+   *     is non-writable. Since we can't distingiush this case
+   *     ahead of time from the <i>w.f is actually configurable</i>
+   *     case above, we'll go ahead and first try to delete wp.f
+   *     anyway, though we will fail to do so.
+   * <li>When w.f is actually a non-configurable accessor property,
+   *     whether or not wp.f is reported as configurable, we
+   *     cannot freeze wp.f. Currently we have no whitelisted cases like
+   *     that and no ability to determine if the getter is stateless,
+   *     so we report a fatal diagnostic.
+   *     TODO(erights): Revisit if we ever introduce something like a
+   *     DeepFrozen trademark used to brand safe getters, such as
+   *     those installed by <code>tamperProof</code> and <code>def</code>.
+   * </ul>
+   */
+  function freezeGlobalProp(name) {
+    var desc = gopd(global, name);
+    if (!desc) { return; }
+
+    // The fullyFrozenDesc is a full descriptor of a frozen data
+    // property. semiFrozenDesc is similar but without the
+    // configurable attribute. It should only be used if the
+    // underlying property has been deleted or is already known to be
+    // non-configurable.
+
+    var oldValue = global[name]; // even if from a getter
+    var fullyFrozenDesc = {
+      value: oldValue,
+      writable: false,
+      // See https://bugzilla.mozilla.org/show_bug.cgi?id=787262
+      enumerable: desc.enumerable,
+      configurable: false
+    };
+    var semiFrozenDesc = {
+      value: oldValue,
+      writable: false,
+      // See https://bugzilla.mozilla.org/show_bug.cgi?id=787262
+      enumerable: desc.enumerable
+    };
+
+    if (desc.configurable) {
+      // Might be specced, simple, legacy, or mixed behavior.
+      // Underlying property might or might not be configurable.
+      if (TRY_GLOBAL_SIMPLE_FREEZE_FIRST) {
+        // In case it is simple or legacy, we try to freeze it
+        // directly using fullyFrozenDesc, but continue if that fails.
+        try {
+          defProp(global, name, fullyFrozenDesc);
+          // If we reach here, we're in legacy or simple behavior.
+          if (ses.isInBrowser()) {
+            // If we are in a browser, we are seeing legacy behavior
+            // that violates the spec. TODO(erights): Move this
+            // diagnostic into a SES repair expressed using our
+            // repair-framework.
+            reportProperty(ses.severities.SAFE_SPEC_VIOLATION,
+                           'Globals were simply freezable', name);
+          }
+          return;
+        } catch (err) {
+          // Specced or mixed behavior, so we ignore the expected error
+          // and continue
+        }
+      }
+      try {
+        delete global[name];
+      } catch (err) {
+        // If the property is already non-configurable on the underlying
+        // Window object, then this delete will throw, which is fine
+        // since it is already non-configurable, which is what we really
+        // care about anyway. So we ignore the error here.
+      }
+      try {
+        // If the property on the underlying Window was
+        // non-configurable, this leaves it non-configurable and makes
+        // it readonly. If the underlying property was configurable,
+        // the above delete should have deleted it, in which case the
+        // omitted <code>configurable</code> should result in the property
+        // on the underlying Window being created non-configurable,
+        // even though the property on the global WindowProxy may be
+        // reported as configurable.
+        defProp(global, name, semiFrozenDesc);
+      } catch (err) {
+        reportProperty(ses.severities.NEW_SYMPTOM,
+                       'Globals could not be made readonly', name);
+      }
+    } else {
+      // Either simple (non-browser) behavior or legacy (browser) behavior
+      if (ses.isInBrowser()) {
+        // TODO(erights): Move this diagnostic into a SES repair
+        // expressed using our repair-framework.
+        reportProperty(ses.severities.SAFE_SPEC_VIOLATION,
+                       'Globals reported as non-configurable', name);
+      }
+      if (desc.writable === true) {
+        defProp(global, name, semiFrozenDesc);
+      } else if (desc.writable === false) {
+        // Already frozen
+      } else {
+        reportProperty(ses.severities.NEW_SYMPTOM,
+                       'Globals are not data properties', name);
+      }
+    }
+  }
+
+  /**
+   * Emit a diagnostic if global variable name does not seem to be frozen,
+   * potentially causing SES to judge this platform unsafe.
+   *
+   * <p>The comments on <code>freezeGlobalProp</code> explain why we
+   * can't use <code>getOwnPropertyDescriptor</code> to see if we
+   * succeessfully froze w.f. Instead we test whether we can still
+   * affect wp.f or the global variable f.
+   */
+  function checkGlobalFrozen(name) {
+    var desc = gopd(global, name);
+    if (!desc) {
+      reportProperty(ses.severities.NEW_SYMPTOM,
+                     'Globals disappeared', name);
+      return;
+    }
+    var oldValue = global[name];
+    if (hop.call(desc, 'value') && !ses.is(oldValue, desc.value)) {
+      reportProperty(ses.severities.NEW_SYMPTOM,
+                     'Globals are not simple data properties', name);
+    }
+    if (desc.writable !== false) {
+      reportProperty(ses.severities.NEW_SYMPTOM,
+                     'Globals are not readonly data properties', name);
+    }
+    var token = {};  // guaranteed unequal to everything
+    try {
+      global[name] = token;
+    } catch (err) {
+      // It should fail, so we ignore the error. If it does not fail,
+      // we don't report here an error for that, but rather, test
+      // below whether the value of the variable changed.
+    }
+    try {
+      defProp(global, name, { value: token });
+    } catch (err) {
+      // It should fail, so we ignore the error.
+    }
+    var newValue = global[name];
+    // Try restoring the global environment before continuing
+    try {
+      global[name] = oldValue;
+    } catch (err) {
+      // Ignore expected error
+    }
+    try {
+      defProp(global, name, { value: oldValue });
+    } catch (err) {
+      // Ignore expected error
+    }
+
+    if (newValue === token) {
+      reportProperty(ses.severities.NEW_SYMPTOM,
+                     'Globals wre not made readonly', name);
+    }
+    if (!ses.is(newValue, oldValue)) {
+      reportProperty(ses.severities.NEW_SYMPTOM,
+                     'Globals changed inexplicably', name);
+    }
+    if (!ses.is(global[name], oldValue)) {
+      reportProperty(ses.severities.NEW_SYMPTOM,
+                     'Globals could not be restored' + name);
+    }
+    // TODO(erights): Should also try deleting it.
+    // TODO(erights): Should also try using the global variable
+    // directly, via unsafeEval.
+  }
+
+  /**
    * Initialize accessible global variables and {@code sharedImports}.
    *
    * For each of the whitelisted globals, we read its value, freeze
@@ -10602,32 +11091,21 @@ ses.startSES = function(global,
    * non-enumerable since ES5.1 specifies that all these properties
    * are non-enumerable on the global object.
    */
-  // Note that, on browsers suffering from
-  // CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT, startSES does an
-  // imperative update of the whitelist above, but should be ok.
-  // Please maintain this note together with corresponding notes in
-  // whitelist.js where whitelist is defined, and in startSES.js above
-  // where whitelist is updated
   keys(whitelist).forEach(function(name) {
     var desc = gopd(global, name);
     if (desc) {
       var permit = whitelist[name];
       if (permit) {
-        var newDesc = {
+        freezeGlobalProp(name);
+        checkGlobalFrozen(name);
+        defProp(sharedImports, name, {
           value: global[name],
           writable: false,
           configurable: false,
 
           // See https://bugzilla.mozilla.org/show_bug.cgi?id=787262
           enumerable: desc.enumerable
-        };
-        try {
-          defProp(global, name, newDesc);
-        } catch (err) {
-          reportProperty(ses.severities.NEW_SYMPTOM,
-                         'Global ' + name + ' cannot be made readonly: ' + err);
-        }
-        defProp(sharedImports, name, newDesc);
+        });
       }
     }
   });
@@ -10950,18 +11428,6 @@ ses.startSES = function(global,
         result + ')');
     ses.updateMaxSeverity(
         ses.es5ProblemReports.FREEZING_BREAKS_PROTOTYPES.preSeverity);
-  }
-
-  // Tests whether CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT is still a
-  // problem for us
-  if (ses._optForeignForIn) {
-    try {
-      ses._optForeignForIn({});
-    } catch (err) {
-      ses.logger.warn(
-          'CROSS_FRAME_FOR_IN_NEEDS_INHERITED_NEXT still problematic:', err);
-      // No severity update needed, since it fails safe.
-    }
   }
 
   ses.logger.reportMax();
@@ -11541,7 +12007,7 @@ if (typeof window !== 'undefined') {
 ;
 /* Copyright Google Inc.
  * Licensed under the Apache Licence Version 2.0
- * Autogenerated at Thu Jul 02 14:12:10 EDT 2015
+ * Autogenerated at Mon Jun 06 12:23:03 EDT 2016
  * \@overrides window
  * \@provides cssSchema, CSS_PROP_BIT_QUANTITY, CSS_PROP_BIT_HASH_VALUE, CSS_PROP_BIT_NEGATIVE_QUANTITY, CSS_PROP_BIT_QSTRING, CSS_PROP_BIT_URL, CSS_PROP_BIT_UNRESERVED_WORD, CSS_PROP_BIT_UNICODE_RANGE, CSS_PROP_BIT_GLOBAL_NAME, CSS_PROP_BIT_PROPERTY_NAME */
 /**
@@ -12290,7 +12756,7 @@ if (typeof window !== 'undefined') {
 ;
 // Copyright Google Inc.
 // Licensed under the Apache Licence Version 2.0
-// Autogenerated at Thu Jul 02 14:12:11 EDT 2015
+// Autogenerated at Mon Jun 06 12:23:04 EDT 2016
 // @overrides window
 // @provides html4
 var html4 = {};
@@ -12505,6 +12971,7 @@ html4.ATTRIBS = {
   'meter::low': 0,
   'meter::max': 0,
   'meter::min': 0,
+  'meter::optimum': 0,
   'meter::value': 0,
   'ol::compact': 0,
   'ol::reversed': 0,
@@ -13161,11 +13628,36 @@ if (typeof window !== 'undefined') {
  * @author jasvir@gmail.com
  * \@requires html4, URI
  * \@overrides window
- * \@provides html, html_sanitize
+ * \@provides html, html_sanitize, defs
  */
 
 // The Turkish i seems to be a non-issue, but abort in case it is.
 if ('I'.toLowerCase() !== 'i') { throw 'I/i problem'; }
+
+// TODO(kpreid): Refactor so there is no global introduced by these type
+// definitions.
+
+/**
+ * Contains types related to sanitizer policies.
+ * \@namespace
+ */
+var defs = {};
+
+/**
+ * A decision about what to do with a tag.
+ * @typedef {{ 'attribs': ?Array.<string>, 'tagName': ?string }}
+ */
+defs.TagPolicyDecision;
+
+/**
+ * A function that takes a tag name (canonical) and an array of attributes
+ * and decides what to do, returning null to indicate the tag should be dropped
+ * entirely from the output.
+ *
+ * @typedef {function(string, Array.<string>): ?defs.TagPolicyDecision}
+ */
+defs.TagPolicy;
+
 
 /**
  * \@namespace
@@ -13194,7 +13686,7 @@ var html = (function(html4) {
     'AMP': '&',
     'quot': '"',
     'apos': '\'',
-    'nbsp': '\240'
+    'nbsp': '\u00A0'
   };
 
   // Patterns for types of entity/character reference names.
@@ -13780,7 +14272,7 @@ var html = (function(html4) {
 
   /**
    * Returns a function that strips unsafe tags and attributes from html.
-   * @param {function(string, Array.<string>): ?Array.<string>} tagPolicy
+   * @param {defs.TagPolicy} tagPolicy
    *     A function that takes (tagName, attribs[]), where tagName is a key in
    *     html4.ELEMENTS and attribs is an array of alternating attribute names
    *     and values.  It should return a record (as follows), or null to delete
@@ -14123,7 +14615,7 @@ var html = (function(html4) {
    * @param {function(?string): ?string} opt_nmTokenPolicy A transform to apply
    *     to attributes containing HTML names, element IDs, and space-separated
    *     lists of classes.  If not given, such attributes are left unchanged.
-   * @return {function(string, Array.<?string>)} A tagPolicy suitable for
+   * @return {defs.TagPolicy} A tagPolicy suitable for
    *     passing to html.sanitize.
    */
   function makeTagPolicy(
@@ -17003,7 +17495,7 @@ var sanitizeMediaQuery = undefined;
    * @param {{
    *     containerClass: ?string,
    *     idSuffix: string,
-   *     tagPolicy: function(string, Array.<string>): ?Array.<string>,
+   *     tagPolicy: defs.TagPolicy,
    *     virtualizeAttrName: ?function(string, string): ?string
    *   }} virtualization An object like <pre<{
    *   containerClass: class name prepended to all selectors to scope them (if
@@ -17409,7 +17901,7 @@ var sanitizeMediaQuery = undefined;
      * @param {{
      *     containerClass: ?string,
      *     idSuffix: string,
-     *     tagPolicy: function(string, Array.<string>): ?Array.<string>,
+     *     tagPolicy: defs.TagPolicy,
      *     virtualizeAttrName: ?function(string, string): ?string
      *   }} virtualization An object like <pre<{
      *   containerClass: class name prepended to all selectors to scope them (if
@@ -19669,6 +20161,7 @@ var Domado = (function() {
 
         privates.async = undefined;
         privates.handler = undefined;
+        privates.nativeCompleteEventSeen = false;
 
         Object.preventExtensions(privates);
       });
@@ -19682,6 +20175,11 @@ var Domado = (function() {
           // to DOM events.
           var self = this;
           privates.feral.onreadystatechange = function(event) {
+            if (privates.feral.readyState === 4) {
+              // Detect whether this event was fired. See open() for how this
+              // is used.
+              privates.nativeCompleteEventSeen = true;
+            }
             var evt = { target: self };
             try {
               return handler.call(void 0, evt);
@@ -19738,6 +20236,13 @@ var Domado = (function() {
           privates, method, URL, opt_async, opt_userName, opt_password) {
         method = String(method);
         URL = URI.utils.resolve(getBaseURL(), String(URL));
+        // Sanitizing these optionals up front; but note that we switch on
+        // arguments.length below, so this does not mean that opt_async
+        // defaults to false.
+        opt_async = Boolean(opt_async);
+        opt_userName = String(opt_userName);
+        opt_password = String(opt_password);
+
         // The XHR interface does not tell us the MIME type in advance, so we
         // must assume the broadest possible.
         var safeUri = uriRewrite(
@@ -19754,28 +20259,27 @@ var Domado = (function() {
         if ('string' !== typeof safeUri) {
           throw 'URI violates security policy';
         }
-        switch (arguments.length) {
+        switch (arguments.length - 1) {
         case 2:
           privates.async = true;
           privates.feral.open(method, safeUri);
           break;
         case 3:
           privates.async = opt_async;
-          privates.feral.open(method, safeUri, Boolean(opt_async));
+          privates.feral.open(method, safeUri, opt_async);
           break;
         case 4:
           privates.async = opt_async;
           privates.feral.open(
-              method, safeUri, Boolean(opt_async), String(opt_userName));
+              method, safeUri, opt_async, opt_userName);
           break;
         case 5:
           privates.async = opt_async;
           privates.feral.open(
-              method, safeUri, Boolean(opt_async), String(opt_userName),
-              String(opt_password));
+              method, safeUri, opt_async, opt_userName, opt_password);
           break;
         default:
-          throw 'XMLHttpRequest cannot accept ' + arguments.length +
+          throw 'XMLHttpRequest cannot accept ' + (arguments.length - 1) +
               ' arguments';
           break;
         }
@@ -19784,6 +20288,8 @@ var Domado = (function() {
         privates.feral.setRequestHeader(String(label), String(value));
       }),
       send: Props.ampMethod(function(privates, opt_data) {
+        privates.nativeCompleteEventSeen = false;
+
         if (arguments.length === 0) {
           // TODO(ihab.awad): send()-ing an empty string because send() with no
           // args does not work on FF3, others?
@@ -19798,12 +20304,10 @@ var Domado = (function() {
         // Firefox does not call the 'onreadystatechange' handler in
         // the case of a synchronous XHR. We simulate this behavior by
         // calling the handler explicitly.
-        if (privates.feral.overrideMimeType) {
-          // This is Firefox
-          if (!privates.async && privates.handler) {
-            var evt = { target: this };
-            privates.handler.call(void 0, evt);
-          }
+        if (!privates.async && !privates.nativeCompleteEventSeen &&
+            privates.handler) {
+          var evt = { target: this };
+          privates.handler.call(void 0, evt);
         }
       }),
       abort: Props.ampMethod(function(privates) {
@@ -24098,7 +24602,7 @@ var Domado = (function() {
           // TODO(kpreid): Review whether this and .elements are doing the best
           // they can WRT liveness.
           Object.defineProperty(this, "length", {
-            value: privates.feral.length
+            value: +privates.feral.length
           });
         },
         properties: function() { return {
@@ -24146,7 +24650,7 @@ var Domado = (function() {
         properties: function() { return {
           align: Props.ampAccessor(
             function(privates) {
-              return privates.feral.align;
+              return String(privates.feral.align);
             },
             function(privates, alignment) {
               privates.policy.requireEditable();
@@ -24160,7 +24664,7 @@ var Domado = (function() {
           ),
           frameBorder: Props.ampAccessor(
             function(privates) {
-              return privates.feral.frameBorder;
+              return String(privates.feral.frameBorder);
             },
             function(privates, border) {
               privates.policy.requireEditable();
@@ -24347,7 +24851,7 @@ var Domado = (function() {
           defaultMuted: Props.ampAccessor(
             // TODO: express this generically
             function(privates) {
-              return privates.feral.defaultMuted;
+              return !!privates.feral.defaultMuted;
             },
             function(privates, value) {
               if (value) {
@@ -28110,6 +28614,10 @@ function SESFrameGroup(cajaInt, config, tamingWin, feralWin,
       });
 
     // TODO(felix8a): args.flash
+
+    // Advise SES that now is a good time to (re)check what are all
+    // the global variable names.
+    ses.resampleGlobal();
 
     var promise;
     if (args.uncajoledContent !== undefined) {
