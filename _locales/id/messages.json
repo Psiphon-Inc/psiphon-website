@@ -63,6 +63,10 @@
         "message": "Psiphon",
         "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
+    "faq-mobile-hotspot-question": {
+        "message": "Kenapa Android mobile hotspot dan USB tethering tidak bekerja melalui Psiphon",
+        "description": "FAQ question."
+    },
     "faq-android-enable-sideloading-image-alt": {
         "message": "cuplikan layar cara mengaktifkan sideloading",
         "description": "alt text for an image"
@@ -79,16 +83,20 @@
         "message": "Pengembang Psiphon",
         "description": "text for link to the Psiphon Developers mailing list"
     },
+    "faq-section-miscellaneous": {
+        "message": "Lain - lain",
+        "description": "Section heading for FAQ entries that don't fit in any other category."
+    },
     "about-who-we-are-software-development-para-2": {
         "message": "Kami juga mengerti bahwa bekerja keras demi para pengguna kami di balik layar tidak kalah pentingnya. Kami akan berupaya melindungi para pengguna kami dan data-data mereka semaksimal mungkin. Para pengguna mungkin tidak pernah menyadari langkah-langkah yang diambil untuk menjamin privasi dan keamanan mereka, tetapi kami tahu mereka menghargainya.",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
-        "message": "Google Analytics menyimpan kuki permanen di peramban web Anda untuk mengenali Anda sebagai pengguna unik jika suatu saat Anda kembali mengunjungi situs web yang bersangkutan, tetapi kuki tersebut tidak dapat dimanfaatkan oleh siapa pun kecuali Google dan data yang terkumpul tidak dapat diubah atau diambil oleh layanan dari domain lain.",
+        "message": "Google Analytics menyimpan kuki permanen di peramban web Anda untuk mengenali Anda sebagai pengguna unik jika suatu saat Anda kembali mengunjungi situs web tertentu, tetapi kuki tersebut tidak dapat dimanfaatkan oleh siapa pun kecuali Google dan data yang terkumpul tidak dapat diubah atau diambil oleh layanan dari domain lain.",
         "description": ""
     },
     "open-source-description": {
-        "message": "Psiphon adalah perangkat lunak penembus sensor internet bersumber terbuka",
+        "message": "Psiphon adalah aplikasi penembus sensor internet bersumber terbuka",
         "description": ""
     },
     "privacy-para-2": {
@@ -96,7 +104,7 @@
         "description": ""
     },
     "main-gets-you-there-safely-head-1": {
-        "message": "...dan mengantar Anda selamat sampai tujuan.",
+        "message": "...dan memastikan Anda selamat sampai tujuan.",
         "description": ""
     },
     "privacy-title": {
@@ -112,7 +120,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-there-safely-para-1": {
-        "message": "Internet bebas itu bagus, tapi tentunya tidak ada yang mau kuki dan akunnya dicuri. Psiphon memberi Anda jalur aman menuju internet, apa pun jaringannya.",
+        "message": "Internet bebas itu bagus, tapi pasti tidak ada yang mau kuki dan akunnya dicuri. Psiphon memberi Anda jalur aman menuju internet, apa pun jaringannya.",
         "description": ""
     },
     "user-guide-android-image-3-alt": {
@@ -124,7 +132,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "license-personal-or-specified-use-header": {
-        "message": "Penggunaan Pribadi atau Tertentu",
+        "message": "Penggunaan untuk Kepentingan Pribadi atau Tertentu",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-6": {
@@ -141,18 +149,26 @@
     },
     "faq-android-enable-sideloading-question": {
         "message": "Bagaimana cara mengaktifkan \"sideloading\" di Android?",
-        "description": ""
+        "description": "FAQ question."
     },
     "privacy-information-collected-websites-google-analytics-para-1": {
-        "message": "Kami menggunakan layanan Google Analytics pada beberapa situs web kami untuk mengumpulkan informasi penggunaan. Informasi yang dikumpulkan Google Analytics tersebut hanya akan digunakan untuk kepentingan statistik yang berkaitan dengan perilaku penjelajahan Anda di situs web yang bersangkutan. Informasi yang kami dapatkan dari Google Analytics tidak bersifat mengenali pribadi dan tidak pula digabungkan dengan informasi dari sumber lain untuk menyusun informasi yang bersifat mengenali pribadi.",
+        "message": "Kami menggunakan layanan Google Analytics pada beberapa situs web kami untuk mengumpulkan informasi pemakaian. Informasi yang dikumpulkan Google Analytics tersebut hanya akan digunakan untuk kepentingan statistik yang berkaitan dengan perilaku penjelajahan Anda di situs web tertentu. Informasi yang kami dapatkan dari Google Analytics tidak bersifat mengenali diri pribadi dan tidak pula digabungkan dengan informasi dari sumber lain untuk menyusun informasi yang bersifat mengenali diri pribadi.",
         "description": ""
+    },
+    "faq-screen-filter-answer-para-1": {
+        "message": "Periksa jika anda menjalankan aplikasi filter layar atau aplikasi yang mengatur kecerahan layar anda. jika iya,  coba matikan itu. Kebanyakan aplikasi tersebut (seperti Lux Auto Brightness, Twilight, Night Mode) menggangu kemampuan pengguna untuk berinteraksi dengan pesan ini.",
+        "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
     },
     "faq-port-restrictions-question": {
-        "message": "Adakah batasan port pada modus VPN? Mengapa saya tidak bisa mengirim email dengan aplikasi email saya pada modus VPN?",
-        "description": ""
+        "message": "Adakah batasan port saat menggunakan Psiphon",
+        "description": "FAQ question. Note that 'port' is referring to network ports."
+    },
+    "faq-ie6-docbody-question": {
+        "message": "PSiphon untuk Windows memberikan pesan “doc.body is null or not an object” dan tdak dapat bekerja.",
+        "description": "FAQ question."
     },
     "faq-ssh-plus-question": {
-        "message": "Apa protokol standar yang digunakan oleh tunnel Psiphon?",
+        "message": "Apa protokol standar yang digunakan oleh terowongan Psiphon?",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
@@ -188,7 +204,7 @@
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Beberapa perangkat keras jaringan atau sambungan internet mungkin menyebabkan masalah kinerja bagi protokol L2TP/IPSec yang digunakan Psiphon dalam modus VPN. Coba nonaktifkan modus VPN.",
+        "message": "Beberapa perangkat keras jaringan atau koneksi internet mungkin menyebabkan masalah performa untuk L2TP/IPsec yaitu adalah protokol yang digunakan oleh Psiphon dalam mode VPN. Coba mematikan mode VPN",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -212,7 +228,7 @@
         "description": ""
     },
     "about-description": {
-        "message": "Temui tim di balik perangkat lunak penembus sensor internet Psiphon",
+        "message": "Temui tim di balik aplikasi penembus sensor internet Psiphon",
         "description": "description for the About page"
     },
     "faq-information-collected-answer-para-7-item-1": {
@@ -224,20 +240,28 @@
         "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
-        "message": "Mengapa saya mendapat pesan \"koneksi gagal\" berulang-ulang?",
+        "message": "Mengapa saya mendapat pesan \"sambungan gagal\" berkali-kali?",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-xpie8": {
+        "message": "Internet Explorer 8 untuk Windows XP",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
     "faq-information-collected-answer-head-2": {
         "message": "Kritik dan Saran",
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "Saat Anda mengirim permintaan email ke server penjawab email otomatis kami, kami dapat melihat alamat email Anda. Saat sedang diproses, email Anda disimpan di cakram penyimpanan server email tersebut dan akan segera dihapus setelah diproses (biasanya dalam beberapa detik). Kami tidak mengizinkan alamat email Anda dicatat di sistem.",
+        "message": "Saat Anda mengirim email permintaan ke server penjawab email otomatis kami, kami dapat melihat alamat email Anda. Saat sedang diproses, email Anda disimpan di cakram penyimpanan server email tersebut dan akan segera dihapus setelah diproses (biasanya dalam beberapa detik). Kami tidak mengizinkan alamat email Anda dicatat di sistem.",
         "description": ""
     },
     "faq-authentic-windows-question": {
         "message": "Apakah Psiphon untuk Windows saya asli?",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-para-2": {
+        "message": "Jika anda tidak dapat menggunkana WIndows Update dan ingin memasang Internet Explorer 7 atau Internet Explorer 8 secara langsung, anda dapat mendapatkannya melalui link berikut:",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
     "faq-ip-change-answer-para-1": {
         "message": "Aplikasi klien Psiphon Anda akan menemukan server Psiphon secara otomatis. Apabila server terakhir yang digunakan sedang tak tersedia, server lain akan dipilih sebagai gantinya.",
@@ -263,6 +287,10 @@
         "message": "Silakan baca <a href=\"privacy.html\">Kebijakan Privasi</a> kami untuk mengetahui informasi yang kami kumpulkan.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
     },
+    "faq-uninstall-windows-answer-para-1": {
+        "message": "Psiphon untuk Windows tidak dapat terpasang, dan tidak akan muncul di daftar \"Add or Remove Programs\" Windows. Berkas executable dapat dijalankan dari direktori \"Downloads\"  anda, atau itu bisa dikopi ke direktori lain dan dijalankan dari sana. Jika anda ingin menghapus program ini, anda dapat menghapus berkas executablenya.",
+        "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
+    },
     "donate-heading": {
         "message": "Berkontribusi untuk Psiphon",
         "description": "The heading of the page section that shows the donation buttons"
@@ -271,20 +299,40 @@
         "message": "Cara menggunakan Psiphon di perangkat bergerak dan Windows",
         "description": "meta title for the user guide page"
     },
+    "faq-windows-vpn-connect-answer-para-1": {
+        "message": "Firewall internet anda mungkin tidak memperbolehkan penggunaan VPN. Router dirumah anda mungkin tidak dikonfigurasi untuk melewati protokol VPN ini: periksa  setelan firewall anda untuk melihat kalau IPsec or L2TP pass-through diaktifkan. IPsac Services sistem anda mungkin dimatikan; periksa kalau setelan servis dan aktifkan servis tersebut untuk menyala secara otomatis.",
+        "description": ""
+    },
+    "faq-get-updated-version-question": {
+        "message": "Bagaimana cara saya mendapat versi yang terbaharui dari Psiphon?",
+        "description": "FAQ question"
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "Klik Run, ketik <code>regedit</code> untuk membuka Registry Editor. Cari, lalu buka <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> dan temukan <code>SkipProxySettings</code> di sisi kanan. Klik kanan, ubah value-nya menjadi <code>1</code> sehingga Psiphon tidak akan mengatur setelan proksi sistem secara otomatis.",
         "description": ""
     },
+    "faq-ie6-docbody-answer-para-1": {
+        "message": "Pesan ini akan terjadi di Windows XP jika Internet Explorer 6 terpasang. Psiphon untuk Windows membutuhkan Internet Explorer 7 atau lebih baru untuk terpasang. Cara terbaik untukk memasang versi lebih baru dari Internet Explorer adalah melalui <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Windows Update</a>.",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+    },
     "user-guide-android-head": {
         "message": "Psiphon untuk Android",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-unsupported-platforms-question": {
+        "message": "Apakah Psiphon tersedia untuk OS X, Linux, iOS, Windows Phone, dll.?",
+        "description": "FAQ question."
+    },
+    "faq-subsection-troubleshooting-android": {
+        "message": "Android",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Android-specific."
     },
     "privacy-bulletin-entry-2-title": {
         "message": "01-06-2015: Pembaruan Kebijakan Privasi",
         "description": ""
     },
     "index-description": {
-        "message": "Psiphon adalah perangkat lunak penembus sensor untuk sistem Windows dan Mobile yang menyediakan akses bebas sensor ke konten internet",
+        "message": "Psiphon adalah aplikasi penembus sensor untuk sistem Windows dan Mobile yang menyediakan akses internet bebas sensor",
         "description": "Page description for the index page"
     },
     "faq-title": {
@@ -292,7 +340,7 @@
         "description": "title for the FAQ page"
     },
     "privacy-information-collected-s3-logging-para-1": {
-        "message": "Kami menggunakan layanan Amazon S3 untuk menyimpan aset seperti berkas-berkas situs web dan daftar pencarian server Psiphon. Kadang-kadang, kami mengaktifkan pencatatan pengunduhan berkas-berkas tersebut. Hasil analisis catatan tersebut membantu kami menjawab pertanyaan seperti \"berapa banyak pengguna yang memulai, tetapi tidak menyelesaikan pengunduhan daftar pencarian server?\", \"seperti apa perbandingan unduhan data aset-aset situs web dengan daftar pencarian server?\", dan \"apa ada orang yang mencoba menyerang situs-situs web kami dengan taktik DDoS?\".",
+        "message": "Kami menggunakan layanan Amazon S3 untuk menyimpan aset seperti file-file situs web dan daftar pencarian server Psiphon. Kadang-kadang, kami mengaktifkan pencatatan pengunduhan file-file tersebut. Hasil analisis catatan tersebut membantu kami menjawab pertanyaan seperti \"berapa banyak pengguna yang memulai, tetapi tidak menyelesaikan pengunduhan daftar pencarian server?\", \"seperti apa perbandingan unduhan data aset-aset situs web dengan daftar pencarian server?\", dan \"apa ada orang yang mencoba menyerang situs web kami dengan taktik DDoS?\".",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
@@ -328,15 +376,19 @@
         "description": ""
     },
     "alert-body": {
-        "message": "Tim Psiphon telah menemukan satu contoh malware yang menyamar sebagai berkas EXE Psiphon untuk WIndows. Malware tersebut disebarkan sebagai file ZIP berjudul \"psiphone3.zip\" di www.copy.com dan mungkin juga tersedia dari sumber lain. Berkas ZIP tersebut berisi kode biner berbahaya berjudul \"psiphone3.exe\" dengan properti yang dijelaskan di <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Perhatikan kesalahan penulisan nama Psiphon. Berkas EXE Windows tersebut tidak ditandatangani secara digital oleh Psiphon Inc. Jangan pernah menjalankan unduhan Psiphon tanpa mengecek dulu tanda tangan digitalnya sebagaimana dijelaskan <a href=\"#authentic-windows\">di sini</a>.",
+        "message": "Tim Psiphon telah menemukan satu contoh malware yang menyamar sebagai file EXE Psiphon untuk WIndows. Malware tersebut disebarkan sebagai file ZIP berjudul \"psiphone3.zip\" di www.copy.com dan mungkin juga tersedia dari sumber lain. File ZIP itu berisi kode biner berbahaya berjudul \"psiphone3.exe\" dengan properti yang dijelaskan di <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Perhatikan kesalahan penulisan nama Psiphon. File EXE Windows tersebut tidak ditandatangani secara digital oleh Psiphon Inc. Jangan pernah menjalankan unduhan Psiphon tanpa mengecek dulu tanda tangan digitalnya sebagaimana dijelaskan <a href=\"#authentic-windows\">di sini</a>.",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
+    },
+    "privacy-information-collected-client-advertising-networks-para-2": {
+        "message": "Anda dapat mematikan penggunaan kuki untuk iklan yang didasarkan dari minat anda dengan mengunjungi:",
+        "description": ""
     },
     "faq-information-collected-answer-para-5": {
         "message": "Semua statistik yang dibagikan dengan sponsor secara lebih lanjut dikumpulkan menjadi satu berdasarkan tanggal, sponsor, dan wilayah.",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Data yang diterima lewat Psiphon",
+        "message": "Data yang masuk lewat Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "faq-proxy-all-answer-para-1": {
@@ -348,11 +400,11 @@
         "description": ""
     },
     "about-who-we-are-para-1": {
-        "message": "Psiphon Inc. adalah perusahaan yang berkedudukan di Toronto, Kanada, membuat perangkat lunak bersumber terbuka untuk berbagai sistem yang telah membantu lebih dari 3 juta orang terhubung ke konten di internet setiap minggunya. Kami adalah tim yang fokus membuat perangkat lunak terbaik semampu kami, memperkenalkan produk-produk baru secara teratur, dan memastikan bahwa kami telah memenuhi kebutuhan pengguna global kami yang terus tumbuh.",
+        "message": "Psiphon Inc. adalah perusahaan yang berkedudukan di Toronto, Kanada, pembuat perangkat lunak bersumber terbuka untuk berbagai sistem yang telah membantu lebih dari 3 juta orang terhubung ke konten di internet setiap minggunya. Kami adalah tim yang fokus membuat perangkat lunak terbaik semampu kami, memperkenalkan produk-produk baru secara teratur, dan memastikan bahwa kami telah memenuhi kebutuhan pengguna global kami yang terus tumbuh.",
         "description": ""
     },
     "user-guide-windows-para-3": {
-        "message": "Sambungan ke server Psiphon berhasil dilakukan jika muncul ikon berwarna hijau. Dalam modus VPN, seluruh lalu lintas internet Anda secara otomatis akan dilewatkan tunnel Psiphon.",
+        "message": "Sambungan ke server Psiphon berhasil dilakukan jika muncul ikon berwarna hijau. Dalam modus VPN, seluruh lalu lintas internet Anda secara otomatis akan dilewatkan terowongan Psiphon.",
         "description": ""
     },
     "license-meta-title": {
@@ -400,7 +452,7 @@
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
-        "message": "Anda harus <a href=\"./faq.html#authentic-windows\">memastikan salinan Psiphon untuk Windows Anda otentik</a> terlebih dahulu.",
+        "message": "<a href=\"./faq.html#authentic-windows\">Pastikan dulu salinan Psiphon untuk Windows Anda asli</a>.",
         "description": ""
     },
     "page-keyword-code": {
@@ -412,11 +464,11 @@
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Data yang dikirim lewat Psiphon",
+        "message": "Data yang keluar lewat Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
     },
     "what-is-psiphon-body-para-1": {
-        "message": "Psiphon adalah aplikasi penembus sensor buatan Psiphon Inc. yang memanfaatkan teknologi VPN, SSH, dan HTTP Proxy untuk menyediakan akses bebas sensor ke konten internet kepada Anda. Aplikasi klien Psiphon akan secara otomatis mempelajari titik akses baru untuk memaksimalkan peluang Anda menembus sensor.",
+        "message": "Psiphon adalah aplikasi penembus sensor buatan Psiphon Inc. yang memanfaatkan teknologi VPN, SSH, dan proksi HTTP untuk memberikan akses internet bebas sensor kepada Anda. Aplikasi klien Psiphon akan secara otomatis mempelajari titik akses baru untuk menambah peluang Anda menembus sensor.",
         "description": ""
     },
     "user-guide-description": {
@@ -431,6 +483,10 @@
         "message": "Grup Pengguna Psiphon",
         "description": "text for link to the Psiphon Users mailing list"
     },
+    "faq-subsection-troubleshooting-windows": {
+        "message": "Windows",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
+    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "Pernyataan tentang Batasan Kewajiban",
         "description": ""
@@ -442,6 +498,10 @@
     "faq-nav-title": {
         "message": "Tanya-Jawab",
         "description": "text for the FAQ page navigation item"
+    },
+    "faq-av-firewall-answer-para-1": {
+        "message": "Hal pertama untuk diperiksa adalah anda memiliki kopi asli Psiphon. Mohon <a href=\"#verify-psiphon-authentic\">ikuti petunjuk berikut</a> untuk memeriksa kalau kopi dari Psiphon anda adalah asli. Jika itu tidak asli, mohon <a href=\"mailto:info@psiphon.ca\">kirimkan kami sebuah email</a>  dengan informasi bagaimana anda mendapatkan kopi itu, dan jika memungkinkan, dengan executable Psiphon terlampir.",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
     },
     "alert-heading": {
         "message": "PERINGATAN",
@@ -467,6 +527,10 @@
         "message": "Ingin aman menjelajah saat menggunakan WiFi di tempat umum?",
         "description": ""
     },
+    "faq-android-upgrade-bug-question": {
+        "message": "Setelah memperbaharui aplikasi PSiphon untuk Android, ia tidak akan tersambung.",
+        "description": "FAQ question."
+    },
     "faq-authentic-android-question": {
         "message": "Apakah aplikasi Psiphon untuk Android saya asli?",
         "description": ""
@@ -479,8 +543,12 @@
         "message": "Unduh aplikasi Android dan klien Windows",
         "description": "meta title for the download page"
     },
+    "faq-unsupported-platforms-answer-para-1": {
+        "message": "Perangkat yang kita dukung adalah yang tersedia di <a href=\"download.html\">Laman unduhan</a>. Kita senantiasa bekerja untuk memperluas dukungan perangkat kami, jadi semoga kita akan mendukung OS yang anda inginkan tidak lama lagi.",
+        "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
+    },
     "user-guide-windows-para-1": {
-        "message": "Unduhlah aplikasi kliennya, lalu jalankan. Saat Anda menjalankannya, seharusnya akan muncul pertanyaan keamanan yang menunjukkan bahwa aplikasi itu merupakan produk asli Psiphon Inc.",
+        "message": "Unduhlah aplikasi klien Psiphon, lalu jalankan. Saat menjalankannya, seharusnya Anda menjumpai pertanyaan keamanan yang menunjukkan bahwa aplikasi itu merupakan produk asli Psiphon Inc.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2": {
@@ -540,7 +608,7 @@
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "Bagaimana cara mengatur aplikasi agar menggunakan tunnel Psiphon?",
+        "message": "Bagaimana cara mengatur aplikasi agar menggunakan terowongan Psiphon?",
         "description": ""
     },
     "page-keyword-circumvention": {
@@ -560,12 +628,32 @@
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Data diterima yang dikompres lewat Psiphon",
+        "message": "Data masuk yang dikompres lewat Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
+    },
+    "faq-av-firewall-question": {
+        "message": "Kenapa antivirus (AV) atau firewall saya mengidentifikasi Psiphon sebagai ancaman?",
+        "description": "FAQ question."
+    },
+    "faq-windows-metro-answer-para-1": {
+        "message": "Windows 8 memperkanalkan sebuah alternatif kepada aplikasi desktop bernama \"Metro\", yang nantinya dinamakan \"Modern UI\". Beberapa, namun sangat sedikit, aplikasi hanya dapat dijalankan dalam \"Mode Metro\" dan beberapa lainnya (seperti Internet Explorer) dapat dijalankan dalam \"Mode Metro\" atau \"Mode Desktop\". Interface pengguna baru ini terus ada di Windows 8.1 dan, untuk tingkat yang lebih rendah, di Windows 10",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
+    },
+    "faq-get-updated-version-answer-para-1": {
+        "message": "<strong>Android:</strong> Jika anda telah memasang Psiphon untuk Android melalui Google Play Store, ia akan secara otomatis diperbaharui oleh Play Store saat ada pembaharuan yang tersedia. Jika anda memiliki Psiphon untuk Android yang dipasang secara manual, Klien Psiphon akan mengunduh pembaharuan saat tersedia, dan sebuah notifikasi akan muncul meminta anda untuk memasang pembaharuan.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+    },
+    "faq-mobile-hotspot-answer-para-1": {
+        "message": "Ini terjadi karena keterbatasan pada implementasi Android's hotspot dan tethering. Anda mungkin menemukan bahwa antara perangkat yang tertambat tidak dapat tersambung ke internet atau koneksi tidak akan terhubung melalui VPN",
+        "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
     },
     "user-guide-windows-head": {
         "message": "Psiphon untuk Windows",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-periodic-disconnect-answer-para-1": {
+        "message": "Ini umumnya terjadi karena sebuah koneksi internet yang tidak dapat diandalkan atau tidak konsisten ke perangkat atau komputer anda. Di ponsel, ini dapat berarti kehilangan resepsi. Di komputer, ini dapat berarti WiFi yang tidak konsisten atau sebuah Internet Service Provider yang tidak dapat diandalkan.",
+        "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
     },
     "footer-copyright": {
         "message": "Hak Cipta",
@@ -588,11 +676,11 @@
         "description": ""
     },
     "user-guide-android-image-3-annotation-5": {
-        "message": "Buka tab baru",
+        "message": "Membuka tab baru",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
     },
     "download-via-email-description": {
-        "message": "Jika situs web atau tautan unduhan kami diblokir atau disensor, silakan minta tautan unduhannya dikirim kepada Anda lewat email.",
+        "message": "Jika situs web atau tautan unduhan kami diblokir atau disensor, silakan minta agar tautan unduhannya dikirim kepada Anda lewat email.",
         "description": ""
     },
     "download-via-email-head": {
@@ -635,12 +723,20 @@
         "message": "Jadilah sponsor dengan memasang iklan di laman pengantar atau beri donasi perseorangan untuk proyek Psiphon",
         "description": "Page description for the Sponsorship page"
     },
+    "faq-windows-vpn-connect-question": {
+        "message": "Kenapa saya tidak bisa tersambung dengan Psiphon untuk Windows di mode L2TP/IPsec?",
+        "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-2": {
+        "message": "Cara termudah untuk memperbaiki ini untuk sebagian besar orang adalah untuk tersambung dengan psiphon lagi, dan lalu memutuskan sambungan.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
     "about-get-latest-info-para-1-list-start": {
         "message": "Bergabunglah dengan milis kami:",
         "description": ""
     },
     "faq-information-collected-answer-para-9": {
-        "message": "Dari waktu ke waktu, Psiphon mungkin harus merekam informasi tambahan untuk mengatasi masalah sehubungan dengan layanan kami. Saat hal ini terjadi, kami akan menambahkan catatan ke <a href=\"./privacy-bulletin.html\">Buletin Privasi</a> untuk menjelaskan apa saja yang direkam, sampai kapan akan disimpan, dan alasannya.",
+        "message": "Dari waktu ke waktu, Psiphon mungkin harus merekam informasi tambahan untuk mengatasi masalah sehubungan dengan layanan kami. Saat hal itu terjadi, kami akan menambahkan catatan ke <a href=\"./privacy-bulletin.html\">Buletin Privasi</a> untuk menjelaskan apa saja yang direkam, sampai kapan akan disimpan, dan alasannya.",
         "description": ""
     },
     "privacy-bulletin-entry-1-when-doing": {
@@ -651,21 +747,37 @@
         "message": "Pilih bahasa Anda",
         "description": ""
     },
+    "faq-get-updated-version-answer-para-2": {
+        "message": "<strong>Windows:</strong> Klien Psiphon untuk Windows akan mengunduh dan memasang pembaharuan saat tersedia.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
+    },
+    "faq-uninstall-windows-question": {
+        "message": "Bagaimana saya mencopot pemasangan Psiphon untuk Windows",
+        "description": "FAQ question"
+    },
     "user-guide-android-para-4": {
-        "message": "Setelah tersambung ke jaringan, aplikasi Psiphon akan membuka peramban web Psiphon yang telah terintegrasi. Psiphon untuk Android tidak otomatis mengalihkan lalu lintas internet peramban web standar Android atau aplikasi lainnya ke terowongan. Secara standar, hanya peramban web Psiphon yang lalu lintas internetnya dialihkan melalui terowongan jaringan Psiphon.",
+        "message": "Setelah tersambung ke jaringan, aplikasi Psiphon akan membuka peramban web Psiphon yang telah terintegrasi. Psiphon untuk Android tidak otomatis mengalihkan lalu lintas internet peramban web bawaan Android atau aplikasi lainnya ke terowongan. Standarnya, hanya peramban web Psiphon yang lalu lintas internetnya dialihkan melalui terowongan jaringan Psiphon.",
         "description": ""
     },
     "user-guide-android-image-3-annotation-4": {
-        "message": "Tandai laman ini",
+        "message": "Memarkahi laman ini",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-windows-para-2": {
-        "message": "Psiphon secara otomatis memulai sambungan saat Anda menjalankannya. Saat sedang menyambungkan, akan muncul ikon yang berputar-putar. Anda dapat memilih salah satu modus terowongan berikut ini: VPN (L2TP lewat IPSec), SSH, atau SSH+ (SSH plus pengacakan, memberi lapisan acak di atas SSH untuk menghindari pelacakan sidik jari protokol).",
+        "message": "Psiphon secara otomatis mulai menghubungkan koneksi saat anda jalankan. Saat Psiphon menghubungkan koneksi, sebuah ikon berputar akan ditampilkan. Anda mungkin dapat memilih salah satu mode tunnel berikut ini:VPN (L2TP over IPsec), SSH, or SSH+ (SSH ditambah obfuscation, sebuah layer acak diatas SSH untuk menghindari protokol fingerprinting).",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
         "message": "Ada pula teknik canggih yang dapat memeriksa lalu lintas terenkripsi dan menarik beberapa simpulan darinya seperti, misalnya situs web yang sedang dijelajahi. Contoh utama teknik ini adalah \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
         "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-3": {
+        "message": "Untuk cara meperbaiki setelan proksi anda secara manual adalah, buka Internet Explorer, lalu pergi ke menu alat (atau ikon roda gigi), Opsi Internet → Tab koneksi → Tombol setelan LAN. Lalu hilangkan centang disebelah \"Gunakan sebuah server proksi untuk LAN anda\".",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "download-android-playstore-pro": {
+        "message": "<strong>Psiphon Pro</strong> untuk Android di Google Play Store",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
         "message": "vpn",
@@ -692,7 +804,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-para-3": {
-        "message": "Psiphon dirancang untuk memberi Anda akses terbuka ke konten online. Psiphon tidak meningkatkan privasi online Anda dan tidak seharusnya dianggap atau digunakan sebagai alat keamanan berinternet.",
+        "message": "Psiphon dirancang untuk memberi Anda akses terbuka ke konten online. Psiphon tidak menambah privasi online Anda dan tidak seharusnya dianggap atau digunakan sebagai alat keamanan berinternet.",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-3": {
@@ -700,19 +812,23 @@
         "description": ""
     },
     "main-pick-three-head-1": {
-        "message": "Kepercayaan, Kecepatan, Kesederhanaan: Pilih semuanya",
+        "message": "Tepercaya, cepat, sederhana - dapatkan semuanya",
         "description": ""
+    },
+    "faq-android-upgrade-bug-answer-para-1": {
+        "message": "Kalau Psiphon tersambung saat sebuah pembaharuan sedan dipasang, ia mungkin tidak akan bisa tersambung untuk selanjutnya dan akan menampilkan pesan “start_tunnel_failed application is not prepared or revoked”. Ini karena sebuah <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">Kerusakan Android OS</a>. Kondisi ini dapat diperbaiki dengan menjalankan ulang perangkat anda.",
+        "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
     },
     "about-who-we-are-software-development-head": {
         "message": "Pengembangan Perangkat Lunak",
         "description": ""
     },
     "faq-connection-failed-answer-para-1": {
-        "message": "Jika Anda mendapat pesan \"koneksi gagal\" berulang-ulang, itu berarti tidak ada server lowong yang dikenali aplikasi klien Anda. Coba unduh aplikasi klien Psiphon versi terbaru.",
+        "message": "Jika Anda mendapat pesan \"sambungan gagal\" berkali-kali, itu berarti tidak ada server lowong yang dikenali aplikasi klien Anda. Coba unduh aplikasi klien Psiphon versi terbaru.",
         "description": ""
     },
     "faq-authentic-windows-image-alt": {
-        "message": "Gambar menunjukkan cara mengecek tanda tangan berkas EXE Psiphon di Windows",
+        "message": "Gambar menunjukkan cara mengecek tanda tangan file EXE Psiphon di Windows",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
@@ -723,9 +839,9 @@
         "message": "Mengapa kami melakukannya",
         "description": ""
     },
-    "generic-image-figcaption": {
-        "message": "Catatan:",
-        "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
+    "faq-windows-metro-answer-para-3": {
+        "message": "Contoh berikut ini adalah pesan error yang mungkin anda lihat saat aplikasi dengan mode Metro sedang mencoba dan gagal untuk bekerja melalui Psiphon.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
     },
     "about-who-we-are-partners-para-2": {
         "message": "Salah satu kerja sama kami yang paling sukses adalah dengan <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a> yang telah memberikan terjemahan dan layanan dukungan dalam bahasa Farsi serta aktif membantu kami menambah jumlah pengguna.",
@@ -735,13 +851,29 @@
         "message": "Layanan Psiphon hanya ditujukan untuk perseorangan dan untuk penggunaan pribadi saja. Jika Anda ingin menggunakan Psiphon untuk tujuan apa pun selain itu atau punya kebutuhan tambahan, kami menawarkan layanan komersial berbayar. Untuk informasi lebih lanjut, silakan kirim email ke <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>.",
         "description": ""
     },
+    "faq-windows-metro-question": {
+        "message": "Kenapa saya tidak bisa tunnel aplikasi Windows Metro (aka Modern UI) saya melalui Psiphon?",
+        "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+    },
     "resources-nav-title": {
         "message": "Sumber Daya",
         "description": "title for the Resources"
     },
+    "faq-mail-apps-ports-answer-para-1": {
+        "message": "Ini mungkin terjadi karena Psiphon <a href=\"#port-restrictions\">restriksi port</a>.",
+        "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+    },
+    "faq-windows-metro-answer-para-2": {
+        "message": "Aplikasi di mode Metro tidak dapat menggunakan proksi lokal tanpa pengguna merubah setelan keamanan sistem. Ini berarti aplikasi Metro tidak dapat menggunakan Psiphon, dan akan tidak mampu terhubung dengan internet saat Psiphon tersambung. Anda dapat menggunakan <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">EnableLoopback Utility</a> untuk memperbolehkan aplikasi Metro bekerja dengan Psiphon.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+    },
     "user-guide-windows-image-3-alt": {
         "message": "Gambar menunjukkan Psiphon dalam keadaan tersambung di Windows",
         "description": "alt text for an image"
+    },
+    "faq-section-installing-running-updating": {
+        "message": "Memasangkan, Menjalankan, dan Memperbaharui Psiphon",
+        "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software."
     },
     "blog-index-subscribe": {
         "message": "Langganan",
@@ -758,6 +890,10 @@
     "faq-isp-traffic-answer-para-4": {
         "message": "Jika Anda ingin menjelajah internet secara anonim, gunakan <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> daripada Psiphon.",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-xpie7": {
+        "message": "Internet Explorer 7 untuk Windows XP",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
     "page-keyword-sponsor": {
         "message": "sponsor",
@@ -800,7 +936,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-13-item-1": {
-        "message": "Tanggal dan waktu permohonan email diterima.",
+        "message": "Tanggal dan waktu email permintaan diterima.",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-1": {
@@ -808,7 +944,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "Sejak 2008, Psiphon telah membantu jutaan orang di negara-negara yang membelenggu kebebasan mereka mengakses khazanah ilmu dan gagasan yang disensor. Kini Psiphon juga bisa melakukannya untuk Anda.",
+        "message": "Sejak 2008, Psiphon telah membantu jutaan orang di negara-negara yang membelenggu kebebasan mereka mengakses khazanah ilmu dan gagasan di internet. Kini Psiphon juga bisa melakukannya untuk Anda.",
         "description": ""
     },
     "about-title": {
@@ -831,12 +967,20 @@
         "message": "Sebagai pengguna, Anda bebas membatalkan persetujuan lisensi ini kapan pun dengan menghentikan pemakaian sebagian dan seluruh layanan Psiphon serta menghapus semua jejak penggunaan perangkat lunak ini dari perangkat Anda.",
         "description": ""
     },
+    "faq-reset-system-proxy-answer-para-1": {
+        "message": "Saat Psiphon untuk Windows terhubung ia akan merubah setelan proksi komputer anda, dan saat ia terputus akan mengembalikan itu kepada keadaan semulanya. Kalau Psiphon untuk Windows tidak keluar sebagaimana mestinya, ia mungkin tidak mengembalikan setelan awal proksi sebagaimana mestinya, dan ini akan menyebabkan anda tidak dapat terhubung kepada internet.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "privacy-information-collected-client-advertising-networks-para-1": {
+        "message": "Kita terkadang menggunakan iklan untuk membantu servis kami, yang mungkin menggunakan teknologi seperti kuki dan suar web. Penggunaan kuki oleh partner pengiklan kami memungkinkan mereka dan partner mereka untuk menyajikan iklan berdasarkan data penggunaan anda. Semua informasi yang dikumpulkan melalui proses ini ditangani dibawah naungan ketentuan dari kebijakan partner pengiklan kami:",
+        "description": ""
+    },
     "faq-information-collected-answer-para-2-item-5": {
         "message": "Hitungan dan lama sesi",
         "description": ""
     },
     "faq-orig-file-purpose-question": {
-        "message": "Apa fungsi file \"psiphon3.exe.orig\"?",
+        "message": "Apakah itu berkas “psiphon3.exe.orig”? ",
         "description": ""
     },
     "index-meta-title": {
@@ -854,6 +998,10 @@
     "license-termination-terms-of-service-violations-header": {
         "message": "Penghentian Layanan; Pelanggaran Ketentuan Layanan",
         "description": ""
+    },
+    "faq-section-how-psiphon-works": {
+        "message": "Bagaimana Psiphon Bekerja",
+        "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
     },
     "user-guide-android-image-3-annotation-1": {
         "message": "Psiphon sedang dijalankan",
@@ -887,6 +1035,14 @@
         "message": "Menampilkan versi Psiphon yang sedang Anda pakai",
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
+    "download-android-playstore-pro-description": {
+        "message": "<strong>Dukung kebebasan Internet</strong> dengan mengunduh PSiphon Pro dari google play store. (Tidak tersedia di semua negara)",
+        "description": ""
+    },
+    "faq-section-compatibility": {
+        "message": "Kecocokan dengan Aplikasi Lain",
+        "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
+    },
     "open-source-nav-title": {
         "message": "Sumber Terbuka",
         "description": ""
@@ -898,6 +1054,10 @@
     "faq-ip-change-question": {
         "message": "Mengapa alamat IP Psiphon saya sering berubah?",
         "description": ""
+    },
+    "faq-periodic-disconnect-question": {
+        "message": "Kenapa koneksi Psiphon saya terkadang terputus?",
+        "description": "FAQ question."
     },
     "privacy-bulletin-meta-title": {
         "message": "Buletin Privasi",
@@ -923,6 +1083,10 @@
         "message": "Mengantar ke mana pun yang Anda inginkan...",
         "description": ""
     },
+    "faq-screen-filter-question": {
+        "message": "Saat Psiphon untuk Android tersambung pertama kali, kenapa saya tidak dapat memilih \"Saya percaya aplikasi ini\"",
+        "description": "FAQ question."
+    },
     "faq-information-collected-answer-para-14": {
         "message": "Jika kami perlu mendiagnosis suatu masalah, kami mungkin akan mengaktifkan fitur pencatatan lengkap pada server email dalam waktu singkat. Jika saat itu Anda mengirim email, maka alamat email Anda akan dicatat di sistem. Catatan itu akan dihapus seminggu kemudian.",
         "description": ""
@@ -930,6 +1094,10 @@
     "faq-information-collected-answer-para-2-item-4": {
         "message": "Seberapa sering server baru ditemukan",
         "description": ""
+    },
+    "privacy-information-collected-client-head": {
+        "message": "Perangkat Lunak Klien Psiphon",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon client software"
     },
     "open-source-para-1": {
         "message": "Psiphon merupakan proyek bersumber terbuka. Anda dapat menemukan kode sumber dan dokumen perancangannya di laman proyek Bitbucket dan Github kami.",
@@ -944,11 +1112,11 @@
         "description": "web page meta keyword used for SEO"
     },
     "what-is-psiphon-body-para-2": {
-        "message": "Psiphon dirancang untuk memberi Anda akses terbuka ke konten online. Psiphon tidak meningkatkan privasi online Anda dan tidak seharusnya dianggap atau digunakan sebagai alat keamanan berinternet.",
+        "message": "Psiphon dirancang untuk memberi Anda akses terbuka ke konten online. Psiphon tidak menambah privasi online Anda dan tidak seharusnya dianggap atau digunakan sebagai alat keamanan berinternet.",
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
-        "message": "Server email asal permintaan email (tiga bagian kurang spesifik dari nama domain, misalnya <code>ne1.example.com</code>, bukan <code>web120113.mail.ne1.example.com</code>).",
+        "message": "Server email asal email permintaan (tiga bagian nama domain yang tidak spesifik, misalnya <code>ne1.example.com</code>, bukan <code>web120113.mail.ne1.example.com</code>).",
         "description": ""
     },
     "page-keyword-manual": {
@@ -968,16 +1136,16 @@
         "description": "The beginning of the 'Licensed under [license name here]' footer text"
     },
     "open-source-para-2": {
-        "message": "Perangkat lunak klien Psiphon menggunakan komponen sumber terbuka berikut ini:",
+        "message": "Aplikasi klien Psiphon menggunakan komponen sumber terbuka berikut ini:",
         "description": ""
-    },
-    "download-android-playstore": {
-        "message": "Psiphon untuk Android di Google Play Store",
-        "description": "text for link to Psiphon for Android in the Google Play Store"
     },
     "page-keyword-contact": {
         "message": "hubungi",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-get-updated-version-answer-para-3": {
+        "message": "<strong>Manually updating:</strong> Jika mekanisme pembaharuan sendiri PSiphon tidak bekerja (misalnya, jika ia telah diblokir), anda dapat menemukan informasi tentang mendapatkan unduhan baru Psiphon dari <a href=\"download.html\">Halaman unduhan</a>.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
     },
     "download-title": {
         "message": "Unduh Psiphon",
@@ -1012,7 +1180,7 @@
         "description": ""
     },
     "faq-information-collected-answer-head-3": {
-        "message": "Penjawab Email",
+        "message": "Server Penjawab Email",
         "description": ""
     },
     "download-android-amazon": {
@@ -1020,11 +1188,11 @@
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "user-guide-windows-image-1-alt": {
-        "message": "Gambar menunjukkan peringatan keamanan Windows untuk berkas EXE Psiphon",
+        "message": "Gambar menunjukkan peringatan keamanan Windows untuk file EXE Psiphon",
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
-        "message": "Jika Anda tidak bisa mengakses Google Play Store, Anda bisa mengunduh dan menginstal Psiphon untuk Android secara langsung (disebut \"<i><a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a></i>\").",
+        "message": "Jika Anda tidak bisa mengakses Google Play Store, Anda bisa mengunduh dan memasang Psiphon untuk Android secara langsung (disebut \"<i><a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a></i>\").",
         "description": ""
     },
     "page-keyword-user-guide": {
@@ -1036,7 +1204,7 @@
         "description": "meta title for the About page"
     },
     "faq-information-collected-answer-para-13-item-2": {
-        "message": "Tanggal dan waktu permohonan email dijawab.",
+        "message": "Tanggal dan waktu email permintaan dijawab.",
         "description": ""
     },
     "sponsor-banner-alt-text": {
@@ -1044,12 +1212,8 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Sambungan ke luar dari VPN Psiphon untuk Windows hanya dapat dilakukan di port-port berikut ini: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. Baca <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">diskusi</a> ini untuk informasi lebih lanjut. Aplikasi email tidak dapat melakukan sambungan ke luar pada port 25 dan 587. Baca <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">diskusi</a> ini untuk informasi lebih lanjut.",
-        "description": ""
-    },
-    "download-android-playstore-description": {
-        "message": "Dapat dijalankan pada Android 2.2 dan setelahnya. Modus seluruh perangkat memerlukan Android 4.0 dan setelahnya atau <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">perangkat yang telah di-root</a>.",
-        "description": ""
+        "message": "Koneksi keluar melalui jaringan Psiphon hanya bisa dilakukan kepada set terbatas dari server ports termasuk: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Lihat ini <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">diskusi</a> untuk informasi lebih lanjut. Klien pesan tidak bisa menjalankan koneksi keluar di port 25. Lihat ini <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> untuk informasi lebih lanjut.",
+        "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
         "message": "Unduh di Toko Aplikasi",
@@ -1058,10 +1222,6 @@
     "sponsor-meta-title": {
         "message": "Sponsor, iklan, dan sumbangan",
         "description": "Page title for the Sponsorship page"
-    },
-    "faq-root-wdm-answer-para-2": {
-        "message": "Jika Anda memerlukan fitur tersebut, Anda dapat menggunakan versi \"lama\" Psiphon untuk Android. Versi tersebut tidak akan memiliki beberapa keunggulan versi Psiphon terbaru, tetapi mungkin masih cukup memenuhi kebutuhan Anda. Anda dapat <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">mengunduh versi \"lama\" di sini</a>.",
-        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "Bagaimana cara mengecek versi Psiphon yang saya pakai?",
@@ -1072,7 +1232,7 @@
         "description": "the title for the site"
     },
     "sponsor-header-sponsored-by": {
-        "message": "Didukung oleh",
+        "message": "Didukung oleh:",
         "description": ""
     },
     "page-keyword-privacy": {
@@ -1083,8 +1243,12 @@
         "message": "Psiphon akan secara otomatis mengatur sistem Anda untuk menggunakan proksi HTTP/HTTPS lokal dan proksi SOCKS lokal. Nomor port kedua proksi tersebut dipilih secara acak, kecuali bila sebelumnya telah ditentukan di setelan Psiphon. Lalu lintas internet aplikasi-aplikasi Windows yang menggunakan setelan proksi sistem akan secara otomatis dialihkan melalui proksi. Anda dapat mengatur aplikasi-aplikasi lain secara manual agar menggunakan proksi lokal tersebut. Psiphon for Windows dan Psiphon untuk Android sama-sama menjalankan proksi lokal tersebut.",
         "description": ""
     },
+    "faq-section-privacy-security": {
+        "message": "Keamanan dan Privasi",
+        "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
+    },
     "faq-vpn-protocol-answer-para-1": {
-        "message": "Psiphon menggunakan protokol VPN L2TP/IPSec. Firewall di jaringan Anda mungkin tidak mengizinkan penggunaan VPN. Router di rumah Anda mungkin belum diatur agar bisa melewati protokol VPN ini; periksa pengaturan firewall Anda untuk memastikan jalur akses IPSec atau L2TP telah aktif. IPSec Service di sistem Anda mungkin dinonaktifkan; periksa pengaturan service Anda dan aktifkan service ini agar dimulai secara otomatis.",
+        "message": "Psiphon menggunakan protokol L2TP/IPsec. ",
         "description": ""
     },
     "license-distribution-header": {
@@ -1095,6 +1259,10 @@
         "message": "Versi antivirus",
         "description": ""
     },
+    "faq-reset-system-proxy-question": {
+        "message": "Setelah menggunakan Psiphon untuk Windows komputer saya tidak bisa terkoneksi ke internet",
+        "description": "FAQ question."
+    },
     "sponsor-para-1": {
         "message": "Semua orang yang mulai menjalankan Psiphon akan melihat laman pengantar kapan pun mereka melakukan sambungan dengan aplikasi. Peluang menjadi sponsor selama seminggu tersedia untuk laman ini.",
         "description": ""
@@ -1104,7 +1272,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-3": {
-        "message": "Kemampuan Google menggunakan dan membagikan informasi yang dikumpulkan Google Analytics perihal kunjungan Anda ke situs ini dibatasi oleh <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Ketentuan Penggunaan Google Analytics</a> dan <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Kebijakan Privasi Google</a>. Anda boleh memilih tidak ikut dengan menonaktifkan kuki di setelan preferensi peramban web Anda.",
+        "message": "Penggunaan dan pembagian informasi yang dikumpulkan Google Analytics perihal kunjungan Anda ke situs ini oleh Google dibatasi <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Ketentuan Penggunaan Google Analytics</a> dan <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Kebijakan Privasi Google</a>. Anda boleh tidak ikut Google Analytics dengan menonaktifkan kuki di setelan preferensi peramban web Anda.",
         "description": ""
     },
     "faq-isp-traffic-question-toc": {
@@ -1115,6 +1283,10 @@
         "message": "Psiphon membatasi lalu lintas DNS ke server DNS yang telah dinyatakan aman dan terperiksa. Aplikasi klien Psiphon secara otomatis menentukan setelan server DNS VPN Anda. Jika Anda mendapat pesan kesalahan terkait DNS, pastikan dulu Anda tidak terinfeksi malware \"DNS Changer\" yang berupaya mengubah setelan server DNS Anda. Informasi lebih lanjut dapat ditemukan <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">di sini</a>.",
         "description": ""
     },
+    "faq-section-troubleshooting": {
+        "message": "Penyelesaian Masalah",
+        "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
+    },
     "about-get-latest-info-head": {
         "message": "Dapatkan informasi terbaru tentang Psiphon",
         "description": ""
@@ -1124,7 +1296,7 @@
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
-        "message": "Proses pembaruan Psiphon untuk Windows otomatis mengubah nama file versi lamanya menjadi \"psiphon3.exe.orig\". File-file lama yang berakhiran \".orig\" boleh dihapus secara aman.",
+        "message": "Proses pembaharuan otomatis di Psiphon untuk WIndows menamakan berkas lama menjadi “psiphon3.exe.orig”. Berkas lama dengan akhiran \".orig\" dapat dihapus dengan aman. ",
         "description": ""
     },
     "privacy-bulletin-entry-1-why-doing": {
@@ -1140,12 +1312,16 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-2": {
-        "message": "Jumlah peningkatan",
+        "message": "Jumlah pembaruan",
         "description": ""
     },
     "page-keyword-censorship": {
         "message": "sensor",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-section-verify-psiphon-authentic": {
+        "message": "Buktikan Bahwa Unduhan Psiphon Anda adalah Asli",
+        "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
     },
     "blog-index-meta-title": {
         "message": "Blog Tim Psiphon",
@@ -1176,11 +1352,11 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Catatan akses juga disimpan di Amazon S3 sehingga Amazon akan memiliki akses terhadapnya (Amazon menyediakan berkas-berkasnya sehingga mereka tentunya sudah dapat mengakses informasi ini).",
+        "message": "Catatan akses juga disimpan di Amazon S3 sehingga Amazon akan memiliki akses terhadapnya (Amazon-lah yang menyediakan file-file itu sehingga mereka tentu bisa mengakses informasi tersebut).",
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "Saat Psiphon mulai dijalankan, akan terlihat Versi Klien pada baris pertama catatan.",
+        "message": "Saat Psiphon mulai dijalankan, versi aplikasi klien bisa dilihat pada baris pertama catatan.",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-2": {
@@ -1192,7 +1368,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-what-data": {
-        "message": "Pencatatan akan mengumpulkan alamat IP, \"user agent\", dan waktu akses salah satu situs web. Saat data tersebut diolah, kami akan memperoleh jumlah pengguna yang telah mengakses berkas tertentu yang dipilah berdasarkan wilayah geografis.",
+        "message": "Pencatatan akan mengumpulkan alamat IP, \"user agent\", dan waktu akses salah satu situs web. Saat data tersebut diolah, kami akan memperoleh jumlah pengguna yang telah mengakses file tertentu yang dipilah berdasarkan wilayah geografis.",
         "description": ""
     },
     "page-keyword-http-proxy": {
@@ -1204,19 +1380,23 @@
         "description": "text for the About page navigation item"
     },
     "faq-information-collected-answer-para-2-item-3": {
-        "message": "Seberapa sering penggunaan tiap-tiap protokol dan kode galat setelah terjadi kegagalan",
+        "message": "Seberapa sering penggunaan tiap-tiap protokol dan kode galat setelah terjadi kesalahan",
         "description": ""
     },
     "privacy-para-1": {
-        "message": "Psiphon berkomitmen melindungi kepentingan privasi para pelanggan, pengguna akhir, penyalur, dan pemasoknya. Kebijakan privasi ini dimaksudkan untuk memberi Anda informasi umum mengenai kemungkinan penggunaan informasi pribadi Anda. Psiphon adalah perusahaan Kanada yang berkantor pusat di Ontario dan kebijakan privasi kami telah ditulis selaras dengan hukum dan undang-undang privasi yang berlaku di Kanada dan Ontario.",
+        "message": "Psiphon berkomitmen melindungi kepentingan privasi para pelanggan, pengguna akhir, penyalur, dan pemasoknya. Kebijakan privasi ini dimaksudkan sebagai informasi umum mengenai kemungkinan penggunaan informasi pribadi Anda. Psiphon adalah perusahaan Kanada yang berkantor pusat di Ontario dan kebijakan privasi ini disusun selaras dengan hukum dan undang-undang privasi yang berlaku di Kanada dan Ontario.",
         "description": ""
+    },
+    "privacy-information-collected-client-advertising-networks-head": {
+        "message": "Jaringan Pengiklan",
+        "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon berhak atas keputusannya sendiri untuk mengakhiri lisensi ini kapan pun dengan atau tanpa alasan apa pun dan tanpa berakibat hukuman. Dengan menggunakan Psiphon, Anda setuju tidak akan menggunakan layanan ini dengan cara apa pun yang melanggar Ketentuan Penggunaan dan Persetujuan Lisensi.",
         "description": ""
     },
     "user-guide-android-image-3-annotation-3": {
-        "message": "Tutup tab ini",
+        "message": "Menutup tab ini",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
     },
     "privacy-nav-title": {
@@ -1232,7 +1412,7 @@
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "Lebih lanjut, dalam modus SSH dan SSH+, Psiphon menawarkan pilihan tunnel terpisah sehingga lalu lintas internasional dilewatkan terowongan proksi, sedangkan lalu lintas domestik tidak. Centang pilihan \"Jangan lewatkan situs web domestik ke proksi\" untuk mengaktifkan pemisahan terowongan. Saat pilihan ini aktif, domain yang tidak dilewatkan proksi akan dilaporkan di area pesan.",
+        "message": "Lebih lanjut, dalam modus SSH dan SSH+, Psiphon menawarkan pilihan terowongan terpisah sehingga lalu lintas internasional dilewatkan terowongan proksi, sedangkan lalu lintas domestik tidak. Centang pilihan \"Jangan lewatkan situs web domestik ke proksi\" untuk mengaktifkan pemisahan terowongan. Saat pilihan ini aktif, domain yang tidak dilewatkan proksi akan dilaporkan di area pemberitahuan.",
         "description": ""
     },
     "license-distribution-para": {
@@ -1247,16 +1427,20 @@
         "message": "beri kontribusi",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-av-firewall-answer-para-2": {
+        "message": "Jika kopi dari Psiphon asli, maka ini adalah contoh dari laporan false positive. Walaupun kebanyakan program antivirus/firewall telah memasukkan tanda tangan digital PSiphon kepada daftar putih mereka, beberapa mungkin masih keliru mengidentifikasi executable PSiphon sebagai sebuah virus atau ancaman. Dalam kasus ini, mohon <a href=\"mailto:info@psiphon.ca\">kirimkan kami sebuah email</a>, merincikan program AV/forewall yang anda gunakan, dan kami akan kontak pemilik Av/firewall untuk memecahkan masalah itu.",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+    },
     "main-gets-you-where-you-want-para-1": {
-        "message": "Setelah berhasil menghadapi rezim-rezim represif di seluruh belahan dunia, kami akan membantu memenuhi kebutuhan Anda mendapatkan konten apa pun, kapan pun, dan di mana pun.",
+        "message": "Setelah berhasil menghadapi rezim-rezim represif di seluruh belahan dunia, kami akan membantu Anda mengakses konten apa pun, kapan pun, di mana pun.",
         "description": ""
     },
     "user-guide-android-para-verify-authentic": {
-        "message": "Anda harus <a href=\"./faq.html#authentic-android\">memastikan salinan Psiphon untuk Android Anda otentik</a> terlebih dahulu.",
+        "message": "<a href=\"./faq.html#authentic-android\">Pastikan dulu salinan Psiphon untuk Android Anda asli</a>.",
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">Bucket access log (catatan)</a> S3 berisi alamat IP, \"user agent\", dan waktu. Catatan tersebut disimpan di server S3 sehingga Amazon memiliki akses terhadapnya (Amazon telah menyediakan berkas-berkas tersebut sehingga mereka tentunya sudah dapat mengakses informasi ini). Para pengembang Psiphon akan mengunduh catatan tersebut, menyatukan dan menganalisis data di dalamnya, lalu menghapusnya. Data mentah hanya akan disimpan hingga cukup untuk mendapatkan agregatnya dan tidak akan dibagikan dengan pihak ketiga.",
+        "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">Bucket access log (catatan)</a> S3 berisi alamat IP, \"user agent\", dan waktu. Catatan tersebut disimpan di server S3 sehingga Amazon memiliki akses terhadapnya (Amazon-lah yang menyediakan file-file itu sehingga mereka tentu bisa mengakses informasi tersebut). Para pengembang Psiphon akan mengunduh catatan tersebut, menyatukan dan menganalisis data di dalamnya, lalu menghapusnya. Data mentah hanya akan disimpan sementara hingga agregatnya berhasil didapat dan tidak akan dibagikan dengan pihak ketiga.",
         "description": ""
     },
     "download-description": {
@@ -1271,12 +1455,16 @@
         "message": "Unduhan Langsung",
         "description": ""
     },
+    "faq-mail-apps-ports-question": {
+        "message": "Kenapa saya tidak bisa menggunakan aplikasi kesukaan saya saat Psiphon sedang berjalan? Kenapa saya tidak bisa mengirim email menggunakan klien mail saya?",
+        "description": "FAQ question."
+    },
     "faq-information-collected-answer-para-2-item-1": {
         "message": "Jumlah permintaan tautan unduhan aplikasi klien lewat email",
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {
-        "message": "Psiphon untuk Windows tidak pernah disebarkan dalam bentuk paket pemasangan. Tiap-tiap aplikasi klien Psiphon untuk Windows berupa berkas EXE (\".exe\") tunggal yang ditandatangani secara digital oleh Psiphon Inc. Windows secara otomatis akan mengecek tanda tangan tersebut saat Anda menjalankan aplikasi klien. Anda juga dapat memeriksa tanda tangan tersebut secara manual sebelum menjalankan aplikasi klien dengan membuka \"Properties\" berkas tersebut, lalu meninjau tab \"Digital Signatures\". Sidik jari SHA1 kode umum sertifikat Psiphon Inc. dapat dilihat dengan mengklik tombol \"Details\" setelah memilih sertifikat yang bersangkutan.",
+        "message": "Psiphon untuk Windows tidak pernah disebarkan dalam bentuk paket pemasangan. Tiap-tiap aplikasi klien Psiphon untuk Windows berupa file EXE (\".exe\") tunggal yang ditandatangani secara digital oleh Psiphon Inc. Windows secara otomatis akan mengecek tanda tangan tersebut saat Anda menjalankan aplikasi klien. Anda juga dapat memeriksa tanda tangan tersebut secara manual sebelum menjalankan aplikasi klien dengan membuka \"Properties\" file tersebut, lalu meninjau tab \"Digital Signatures\". Sidik jari SHA1 kode umum sertifikat Psiphon Inc. dapat dilihat dengan mengklik tombol \"Details\" setelah memilih sertifikat yang bersangkutan.",
         "description": ""
     },
     "user-guide-windows-para-6": {
@@ -1288,11 +1476,11 @@
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Data terkirim yang dikompres lewat Psiphon",
+        "message": "Data keluar yang dikompres lewat Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
     },
     "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Catatan aktivitas Psipho",
+        "message": "Catatan aktivitas Psiphon",
         "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     }
 }
