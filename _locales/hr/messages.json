@@ -63,6 +63,10 @@
         "message": "Psiphon",
         "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
+    "faq-mobile-hotspot-question": {
+        "message": "Zašto Adnroid mobilni hotspot i USB povezivanje ne rade kroz Psiphon?",
+        "description": "FAQ question."
+    },
     "faq-android-enable-sideloading-image-alt": {
         "message": "slika koja prikazuje omogućavanje sideloading-a",
         "description": "alt text for an image"
@@ -78,6 +82,10 @@
     "about-get-latest-info-para-1-developers-list": {
         "message": "Psiphon programeri",
         "description": "text for link to the Psiphon Developers mailing list"
+    },
+    "faq-section-miscellaneous": {
+        "message": "Razno",
+        "description": "Section heading for FAQ entries that don't fit in any other category."
     },
     "about-who-we-are-software-development-para-2": {
         "message": "Također znamo da je podjednako važno naporno raditi za naše korisnike iza kulisa. Štitimo naše korisnike i njihove podatke do kraja. Korisnici možda nikad neće primjetiti mjere postavljene za osiguranje njihove privatnosti i sigurnosti, no mi znamo da ih cijene.",
@@ -141,15 +149,23 @@
     },
     "faq-android-enable-sideloading-question": {
         "message": "Kako omogućiti Android sideloading?",
-        "description": ""
+        "description": "FAQ question."
     },
     "privacy-information-collected-websites-google-analytics-para-1": {
         "message": "Koristimo Google Analytics na nekim našim stranicama kako bi prikupili informacije o korištenju. Informacije koje skupi Google Analytics će biti korištene samo za statističku analizu vezanu uz Vaše ponašanje prilikom pregledavanja ove stranice. Informacije koje dobijemo od Google Analytics-a nisu osobno identificirajuće, niti su kombinirane s informacijama iz drugih izvora, a u svrhu stvaranja osobno identificirajućih informacija.",
         "description": ""
     },
+    "faq-screen-filter-answer-para-1": {
+        "message": "Provjerite imate li pokrenutu aplikaciju koja radi kao filter zaslona ili upravlja svjetlinom Vašeg zaslona. Ako imate, probajte ju onemogućiti. Mnoge takve aplikacije (npr. Lux Auto Brightness, Twilight, Night Mode) ometaju korisničku interakciju s ovim upitom.",
+        "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
+    },
     "faq-port-restrictions-question": {
-        "message": "Postoje li restrikcije portova u VPN načinu rada? Zašto ne mogu poslati email koristeći svoj mail klijent u VPN načinu rada?",
-        "description": ""
+        "message": "Postoje li restrikcije portova kod korištenja Psiphon-a?",
+        "description": "FAQ question. Note that 'port' is referring to network ports."
+    },
+    "faq-ie6-docbody-question": {
+        "message": "Psiphon za Windows javlja grešku “doc.body is null or not an object” i ne radi.",
+        "description": "FAQ question."
     },
     "faq-ssh-plus-question": {
         "message": "Koji protokol Psiphon tunel koristi pod zadano?",
@@ -188,7 +204,7 @@
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Određeni mrežni hardware ili Internet veze mogu prouzročiti probleme u performansama za L2TP/IPSec protokole koje Psiphon koristi u VPN načinu rada. Probajte onemogućiti VPN način rada.",
+        "message": "Određeni mrežni hardware ili Internet veze mogu prouzročiti probleme za L2TP/IPsec, protokol korišten za VPN način rada Psiphon-a. Probajte onemogućiti VPN način rada.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -227,6 +243,10 @@
         "message": "Zašto stalno iznova vidim poruku \"spajanje neuspjelo\"?",
         "description": ""
     },
+    "faq-ie6-docbody-answer-xpie8": {
+        "message": "Internet Explorer 8 za Windows XP",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
+    },
     "faq-information-collected-answer-head-2": {
         "message": "Povratne informacije",
         "description": ""
@@ -238,6 +258,10 @@
     "faq-authentic-windows-question": {
         "message": "Da li je moj Psiphon za Windows autentičan?",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-para-2": {
+        "message": "Ako ne možete koristiti Windows ažuriranje i želite instalirati Internet Explorer 7 ili 8 direktno, možete ih preuzeti putem oih poveznica:",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
     "faq-ip-change-answer-para-1": {
         "message": "Vaš Psiphon klijent će automatski otkriti nove Psiphon poslužitelje. Kad je posljednji poslužitelj koji ste koristili nedostupan, možete koristiti neki drugi.",
@@ -263,6 +287,10 @@
         "message": "Pogledajte našu <a href=\"privacy.html\">Izjavu o privatnosti</a> kako bi naučili o informacijama koje skupljamo.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
     },
+    "faq-uninstall-windows-answer-para-1": {
+        "message": "Psiphon za Windows se ne instalira, i neće se pojaviti u popisu instaliranih programa u Windows-ima. Izvršnu datoteku možete pokrenuti iz direktorija \"Preuzimanja\", ili može biti kopirana u drugi direktorij, te pokrenuta odatle. Ako želite ukloniti program, možete jednostavno obrisati izvršnu datoteku.",
+        "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
+    },
     "donate-heading": {
         "message": "Doprinesite Psiphon-u",
         "description": "The heading of the page section that shows the donation buttons"
@@ -271,13 +299,33 @@
         "message": "Kako koristiti Psiphon na mobitelu i Windows-ima",
         "description": "meta title for the user guide page"
     },
+    "faq-windows-vpn-connect-answer-para-1": {
+        "message": "Vatrozid Vaše mreže možda ne dopušta korištenje VPN-a. Vaš kućni ruter možda nije postavljen da prolazi kroz taj VPN protokol; provjerite postavke svog vatrozida da bi utvrdili da je IPsec ili L2TP propusnost omogućena. IPsec servisi Vašeg sustava mogu biti onemogućeni; provjerite postavke svojih servisa i omogućite im automatsko pokretanje.",
+        "description": ""
+    },
+    "faq-get-updated-version-question": {
+        "message": "Kako da preuzmem ažuriranu verziju Psiphon-a?",
+        "description": "FAQ question"
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "Kliknite Pokreni i upišite <code>regedit</code> da bi otvorili Registry Editor. Pronađite i otvorite <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, na desnoj strani će te vidjeti <code>SkipProxySettings</code>. Postavite vrijednost tog ključa na <code>1</code> i Psiphon neće automatski konfigurirati postavke proxy-a sustava.",
         "description": ""
     },
+    "faq-ie6-docbody-answer-para-1": {
+        "message": "Do ove greške dolazi na Windows XP ako je Internet Explorer 6 instaliran. Psiphon za Windows zahtjeva instaliran Internet Explorer 7 ili noviji. Najbolji način je da instalirate noviju verziju Internet Explorer-a putem <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Windows Update-a</a>.",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+    },
     "user-guide-android-head": {
         "message": "Psiphon za Android",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-unsupported-platforms-question": {
+        "message": "Je li Psiphon dostupan za OS X, Linux, iOS, Windows Phone itd?",
+        "description": "FAQ question."
+    },
+    "faq-subsection-troubleshooting-android": {
+        "message": "Android",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Android-specific."
     },
     "privacy-bulletin-entry-2-title": {
         "message": "2015-06-01: Ažuriranje Izjave o privatnosti",
@@ -330,6 +378,10 @@
     "alert-body": {
         "message": "Psiphon tim je otkrio specifičnu instancu malware-a maskiranu kao Psiphon za Windows izvršna datoteka. Malware se distribuira kao zip datoteka naziva \"psiphone3.zip\" sa www.copy.com i može biti dostupan sa drugih izvora. Zip datoteka sadrži malicioznu izvršnu datotekunaziva \"psiphone3.exe\" sa svojstvima opisanim na <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Obratite pozornost na pogrešno napisan naziv. Ova Windows izvršna datoteka nije digitalno potpisana od strane Psiphon Inc. Nikad ne pokrećite nova preuzimanja Psiphon-a bez provjere digitalnog potpisa, opisane <a href=\"#authentic-windows\">ovdje</a>.",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
+    },
+    "privacy-information-collected-client-advertising-networks-para-2": {
+        "message": "Možete se isključiti iz korištenja kolačića za internet oglase posjećivanjem:",
+        "description": ""
     },
     "faq-information-collected-answer-para-5": {
         "message": "Sva statistika podijeljena sa sponzorima je soritrana po datumu, sponzoru i regiji.",
@@ -431,6 +483,10 @@
         "message": "Psiphon korisničke grupe",
         "description": "text for link to the Psiphon Users mailing list"
     },
+    "faq-subsection-troubleshooting-windows": {
+        "message": "Windows",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
+    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "Izjave o ograničenjima i odgovornosti",
         "description": ""
@@ -442,6 +498,10 @@
     "faq-nav-title": {
         "message": "Često postavljena pitanja",
         "description": "text for the FAQ page navigation item"
+    },
+    "faq-av-firewall-answer-para-1": {
+        "message": "Prvo provjerite imate li autentičnu kopiju Psiphon-a. <a href=\"#verify-psiphon-authentic\">Pratite ove instrukcije</a> kako bi verificirali svoju kopiju Psiphon-a. Ako nije autentična, molimo Vas <a href=\"mailto:info@psiphon.ca\">poštaljite nam email</a> s informacijama o tome kako ste nabavili kopiju i, ako je moguće, pošaljite i izvršnu datoteku.",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
     },
     "alert-heading": {
         "message": "UPOZORENJE",
@@ -467,6 +527,10 @@
         "message": "Želite surfati sigurno koristeći javni WiFi?",
         "description": ""
     },
+    "faq-android-upgrade-bug-question": {
+        "message": "Nakon nadogradnje aplikacije Psiphon za Android, ista se ne spaja.",
+        "description": "FAQ question."
+    },
     "faq-authentic-android-question": {
         "message": "Da li je moj Psiphon za Android autentičan?",
         "description": ""
@@ -478,6 +542,10 @@
     "download-meta-title": {
         "message": "Preuzmite Andorid aplikaciju i Windows klijent",
         "description": "meta title for the download page"
+    },
+    "faq-unsupported-platforms-answer-para-1": {
+        "message": "Podržane platforme su one dostupne na <a href=\"download.html\">stranici za preuzimanje</a>. Konstantno radimo na proširenju podrške platformi, nadamo se da ćemo uskoro raditi i na Vašem željenom OS-u!",
+        "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
     },
     "user-guide-windows-para-1": {
         "message": "Preuzmite klijentski program i pokrenite ga. Kad ga pokrenete, trebali bi vidjeti sigurnosno upozorenje koje pokazuje da je ovaj program legitiman proizvod Psiphon Inc.",
@@ -563,9 +631,29 @@
         "message": "Komprimirano podataka primljenih kroz Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
     },
+    "faq-av-firewall-question": {
+        "message": "Zašto moj antivirus (AV) ili vatrozid identificiraju Psiphon kao prijetnju?",
+        "description": "FAQ question."
+    },
+    "faq-windows-metro-answer-para-1": {
+        "message": "Windows 8 je uveo alternativu klasičnom desktop sučelju nazvanu \"Metro\", koja je kasnije preimenovana u \"Modern UI\". Neke aplikacije mogu biti pokrenute samo u \"Metro\" načinu rada, a neke (kao Internet Explorer) mogu biti pokrenute u \"Metro\" ili \"Desktop\" načinu rada. Novo korisničko sučelje postoji u Windows 8, Windows 8.1 i u manjem stupnju u Windows 10.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
+    },
+    "faq-get-updated-version-answer-para-1": {
+        "message": "<strong>Android:</strong> Ako ste instalirali Psiphon za Android preko Google Play Trgovine, bit će automatski ažuriran kad nova ažuriranja postanu dostupna. Ako ste neovisno instalirali Psiphon za Android, Psiphon klijent će preuzeti ažuriranja kad su dostupna, te će Vas pitati želite li instalirati novu verziju.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+    },
+    "faq-mobile-hotspot-answer-para-1": {
+        "message": "Do ovoga dolazi zbog ograničenja u Androidovoj implementaciji hotspota i povezivanja. Može se dogoditi da povezani uređaj nema spoj na Internet ili da se promet ne usmjerava kroz VPN.",
+        "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
+    },
     "user-guide-windows-head": {
         "message": "Psiphon za Windows",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-periodic-disconnect-answer-para-1": {
+        "message": "To se najčešće događa zbog nestalne Internet veze s Vašim uređajem ili računalom. Na telefonu, ovo može značiti gubitak signala. Na računalu, ovo može značiti nestalnu Wi-Fi vezu ili nepouzdanog davatelja Internet usluge.",
+        "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
     },
     "footer-copyright": {
         "message": "Copyright",
@@ -635,6 +723,14 @@
         "message": "Postanite sponzor oglašavajući se na našoj početnoj stranici ili donirajte individualno Psiphon projektu",
         "description": "Page description for the Sponsorship page"
     },
+    "faq-windows-vpn-connect-question": {
+        "message": "Zašto se ne mogu spojiti s Psiphonom za Windowse u L2TP/IPsec načinu rada?",
+        "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-2": {
+        "message": "Većini ljudi, najlakši način za popravak ovog problema je ponovno pokretanje Psiphona, a zatim odspajanje.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
     "about-get-latest-info-para-1-list-start": {
         "message": "Pridružite se našoj listi primatelja:",
         "description": ""
@@ -651,6 +747,14 @@
         "message": "Odaberite jezik",
         "description": ""
     },
+    "faq-get-updated-version-answer-para-2": {
+        "message": "<strong>Windows:</strong> Klijent Psiphon-a za Windows će preuzeti i instalirat ažuriranja čim postanu dostupna.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
+    },
+    "faq-uninstall-windows-question": {
+        "message": "Kako deinstaliram Psiphon za Windows?",
+        "description": "FAQ question"
+    },
     "user-guide-android-para-4": {
         "message": "Kad se aplikacija spoji na mrežu pokrenuti će ugrađeni Psiphon preglednik. Psiphon za Android ne tunelira promet automatski za zadane Android preglednike i ostale aplikacije. Pod zadano, samo je Psiphon preglednik tuneliran kroz Psiphon mrežu.",
         "description": ""
@@ -660,12 +764,20 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-windows-para-2": {
-        "message": "Psiphon automatski počinje sa spajanjem kad ga pokrenete. Dok se spaja prikazuje se rotirajuća ikona. Možete odabrati neki od sljedećih načina tuneliranja: VPN (L2TP preko IPSec-a), SSH ili SSH+ (SSH plus skrivanje, nasumični sloj dodan na SSH kojim se izbjegava uzimanje otiska prsta protokola).",
+        "message": "Psipon automatski počinje spajanje kad ga pokrenete. Dok se spaja, pojavit će se rotirajuća ikona. Možete odabrati jedan od sljedećih načina tuneliranja: VPN (L2TP/IPsec), SSH ili SSH+ (SSH plus maskiranje, nasumični sloj dodan na SSH koji izbjegava uzimanje otiska protokola).",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
         "message": "Također, postoje napredne tehnike koje mogu gledati mrežni promet i odrediti određene stvari o njemu, primjerice koja stranica se gleda. Primarni primjer ovoga je  \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">uzimanje otiska prstiju prometa</a>\".",
         "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-3": {
+        "message": "Kako bi ručno promjenili postavke proxy-a, otvorite Internet Explorer, te navigirajte u izbornik Alati (ili ikonu zupčanika), Internet opcije → Veze → Postavke LAN-a. Uklonite kvačicu kraj \"Koristi proxy poslužitelj za LAN\"",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "download-android-playstore-pro": {
+        "message": "<strong>Psiphon Pro</strong> za Android u Google Play Trgovini",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
         "message": "vpn",
@@ -703,6 +815,10 @@
         "message": "Povjerenje, Brzina, Jednostavnost: odaberite troje",
         "description": ""
     },
+    "faq-android-upgrade-bug-answer-para-1": {
+        "message": "Ako je Psiphon spojen dok se nadogradnja instalira, možda se neće moći spojiti te će javljati grešku \"start_tunnel_failed application is not prepared or revoked”. Do ovog dolazi zbog <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">Android OS greške</a>. Ovakvo stanje može biti popravljeno ponovnim pokretanjem Vašeg uređaja.",
+        "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
+    },
     "about-who-we-are-software-development-head": {
         "message": "Razvoj software-a",
         "description": ""
@@ -723,9 +839,9 @@
         "message": "Zašto to radimo",
         "description": ""
     },
-    "generic-image-figcaption": {
-        "message": "Stvari za zapamtiti:",
-        "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
+    "faq-windows-metro-answer-para-3": {
+        "message": "Sljedeći primjeri si neke od grešaka koje bi mogli vidjeti kad aplikacije koje rade u Metro načinu rada pokušavaju i ne uspjevaju raditi kroz Psiphon.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
     },
     "about-who-we-are-partners-para-2": {
         "message": "Jedno od naših najuspješnijih partnerstva je s <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a>, koji pružaju prijevode i podršku na perzijskom, te su bili instrumentalni u širenju naše publike.",
@@ -735,13 +851,29 @@
         "message": "Psiphon usluga je striktno namijenjena pojedincima i jedino za osobnu upotrebu. Ako želite koristiti Psiphon u bilo koju drugu svrhu ili imate dodatne zahtjeve, pružamo komercijalnu uslugu koja se plaća. Za više detalja pošaljite email na  <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>.",
         "description": ""
     },
+    "faq-windows-metro-question": {
+        "message": "Zašto ne mogu tunelirati Windows Metro (Moderni UI) aplikacije kroz Psiphon?",
+        "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+    },
     "resources-nav-title": {
         "message": "Resursi",
         "description": "title for the Resources"
     },
+    "faq-mail-apps-ports-answer-para-1": {
+        "message": "Ovo je vjerovatno zbog Psiphon-ovih <a href=\"#port-restrictions\">ograničenja portova</a>.",
+        "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+    },
+    "faq-windows-metro-answer-para-2": {
+        "message": "Aplikacije u Metro načinu rada mogu koristiti lokalni proxy bez da korisnik mjenja sigurnosne postavke sustava. To znači da Metro aplikacije ne mogu koristiti Psiphon, i neće moći pristupiti Internetu dok je Psiphon spojen. Možete koristiti <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">EnableLoopback Utility</a> kako bi dozvolili aplikacijama da rade sa Psiphon-om u Metro načinu rada.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+    },
     "user-guide-windows-image-3-alt": {
         "message": "Slika koja prikazuje Psiphon spojen na Windows-ima",
         "description": "alt text for an image"
+    },
+    "faq-section-installing-running-updating": {
+        "message": "Instaliram, pokrećem i ažuriram Psiphon",
+        "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software."
     },
     "blog-index-subscribe": {
         "message": "Pretplatite se",
@@ -758,6 +890,10 @@
     "faq-isp-traffic-answer-para-4": {
         "message": "Ako trebate anonimnost preko Interneta onda bi trebali koristiti <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> umjesto Psiphon-a.",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-xpie7": {
+        "message": "Internet Explorer 7 za Windows XP",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
     "page-keyword-sponsor": {
         "message": "sponzor",
@@ -831,12 +967,20 @@
         "message": "Kao korisnik slobodni ste prekinuti ovu licencu u bilo koje doba prekidom korištenja svih i bilo kojih dijelova Psiphon usluge te brisanjem svih instanci software-a i aplikacije s Vašeg uređaja.",
         "description": ""
     },
+    "faq-reset-system-proxy-answer-para-1": {
+        "message": "Kad se Psiphon za Windows spoji, promjeni postavke proxy-a Vašeg računala, a kad se odjavi vrati ih natrag na prvotne postavke. Ako Psiphon za Windows ne izađe kako treba, možda neće ispravno vratiti stare postavke Vašeg proxy-a, što će rezultirati nemogućnošću spajanja na Internet.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "privacy-information-collected-client-advertising-networks-para-1": {
+        "message": "Nekad koristimo oglašavanje kako bi podržali naše usluge, što može koristiti tehnologiju kao što su kolačići i web beacon-i. Upotreba kolačića naših partnera oglašivača omogućuje njima i njihovim partnerima da poslužuju reklame temeljene na podatcima o Vašem korištenju. Svim informacijama skupljenim kroz ovaj proces se upravlja pod pravilima privatnosti naših partnera:",
+        "description": ""
+    },
     "faq-information-collected-answer-para-2-item-5": {
         "message": "Broj i trajanje sesija",
         "description": ""
     },
     "faq-orig-file-purpose-question": {
-        "message": "Što je datoteka \"psiphon3.exe.orig\"?",
+        "message": "Što je \"psiphon3.exe.orig\" datoteka?",
         "description": ""
     },
     "index-meta-title": {
@@ -854,6 +998,10 @@
     "license-termination-terms-of-service-violations-header": {
         "message": "Prekid; Kršenje Uvjeta Usluge",
         "description": ""
+    },
+    "faq-section-how-psiphon-works": {
+        "message": "Kako Psiphon radi",
+        "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
     },
     "user-guide-android-image-3-annotation-1": {
         "message": "Psiphon je pokrenut",
@@ -887,6 +1035,14 @@
         "message": "Prikazuje koja verzija Psiphon-a je trenutno pokrenuta",
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
+    "download-android-playstore-pro-description": {
+        "message": "<strong>Podržite Internet slobodu</strong> preuzimanjem Psiphona Pro iz Google Play Trgovine. (Nije dostupno u svim državama.)",
+        "description": ""
+    },
+    "faq-section-compatibility": {
+        "message": "Kompatibilnost s drugim aplikacijama",
+        "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
+    },
     "open-source-nav-title": {
         "message": "Otvoren",
         "description": ""
@@ -898,6 +1054,10 @@
     "faq-ip-change-question": {
         "message": "Zašto se moja Psiphon IP adresa često mijenja?",
         "description": ""
+    },
+    "faq-periodic-disconnect-question": {
+        "message": "Zašto se moja Psiphon veza ponekad odspoji?",
+        "description": "FAQ question."
     },
     "privacy-bulletin-meta-title": {
         "message": "Obavijesti o privatnosti",
@@ -923,6 +1083,10 @@
         "message": "Dovodi Vas tamo gdje želite ići...",
         "description": ""
     },
+    "faq-screen-filter-question": {
+        "message": "Zašto ne mogu odabrati \"Vjerujem ovoj aplikaciji\" kad se Psiphon za Android spoji prvi put?",
+        "description": "FAQ question."
+    },
     "faq-information-collected-answer-para-14": {
         "message": "Ako trbao dijagnosticirati problem, možemo omogućiti potpuno stvaranje zapisa na kratko vrijeme. Ako pošaljete email u tom periodu, Vaša email adresa će biti zapisana u zapise o događajima. Ti zapisi se brišu nakon tjedan dana.",
         "description": ""
@@ -930,6 +1094,10 @@
     "faq-information-collected-answer-para-2-item-4": {
         "message": "Koliko često su novi poslužitelji otkriveni",
         "description": ""
+    },
+    "privacy-information-collected-client-head": {
+        "message": "Software Psiphon klijenta",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon client software"
     },
     "open-source-para-1": {
         "message": "Psiphon je otvoreni projekt. Možete pronaći dokumente izvornoga kod i dizajna na našim Bitbucket i Github projektnim stranicama.",
@@ -971,13 +1139,13 @@
         "message": "Psiphon klijenti koriste sljedeće otvorene komponente:",
         "description": ""
     },
-    "download-android-playstore": {
-        "message": "Psiphon za Android i Google Play Trgovinu",
-        "description": "text for link to Psiphon for Android in the Google Play Store"
-    },
     "page-keyword-contact": {
         "message": "kontakt",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-get-updated-version-answer-para-3": {
+        "message": "<strong>Ručno ažuriranje:</strong> Ako Psiphon-ov automatski mehanizam ažuriranja ne radi (primjerice, ako je blokiran), možete naći sve informacije o preuzimanju nove kopije Psiphon-a sa <a href=\"download.html\">stranice za preuzimanje</a>.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
     },
     "download-title": {
         "message": "Preuzmite Psiphon",
@@ -1044,12 +1212,8 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Izlazne veze iz VPN-a Psiphon-a za Windows mogu biti ostvarene jedino na sljedećim portovima: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. Pogledajte ovu <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">diskusiju</a> za više informacija. Mail klijenti ne mogu ostvariti izlazne veze na portovima 25 i 587. Vidite ovu . See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">diskusiju</a> za više informacija.",
-        "description": ""
-    },
-    "download-android-playstore-description": {
-        "message": "Kompatibilno s Andorid 2.2 i naviše. Načina rada cijelog uređaja zahtjeva Andorid 4.0 i naviše ili <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">root-ani uređaj</a>.",
-        "description": ""
+        "message": "Izlazne veze putem Psiphon mreže mogu biti ostvarene jedino prema restriktiranom setu portova: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Pogledajte ovu <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">diskusiju</a> za više informacija. Mail klijenti ne mogu uspostaviti izlazne veze na portu 25. Pogledajte ovu <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">diskusiju</a> za više informacija.",
+        "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
         "message": "Preuzimanja iz app store-a",
@@ -1058,10 +1222,6 @@
     "sponsor-meta-title": {
         "message": "Sponzorstva, oglašavanje i donacije",
         "description": "Page title for the Sponsorship page"
-    },
-    "faq-root-wdm-answer-para-2": {
-        "message": "Ako trebate funkcionalnost, možete koristiti staru, \"legacy\" verziju Psiphon-a za Adnroid. Ta verzija nema neke napredne mogućnosti obilaženja kao moderni Psiphon, ali može biti dostatna za Vaše potrebe. Možete <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">preuzeti staru, \"legacy\" verziju ovdje</a>.",
-        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "Kako ću provjeriti trenutnu verziju Psiphon-a?",
@@ -1083,8 +1243,12 @@
         "message": "Psiphon će automatski postaviti Vaš sustav da koristi lokalni HTTP/HTTPS proxy i lokalni SOCKS proxy. Brojevi porta za ove proxy-e su izabrani nasumično, osim ako drugačije nije određeno u postavkama Psiphon-a. Windows aplikacije koje koriste postavke proxy-a sustava će biti automatski proxy-ane. Možete ručno postaviti ostale aplikacije da koriste lokalne proxy-e. Psiphon za Windows i Psiphon za Android pokreću ove lokalne proxy-e.",
         "description": ""
     },
+    "faq-section-privacy-security": {
+        "message": "Privatnost i sigurnost",
+        "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
+    },
     "faq-vpn-protocol-answer-para-1": {
-        "message": "Psiphon koristi L2TP/IPSec VPN protokol. Vaš mrežni vatrozid možda neće dozvoliti korištenje VPN-a. Vaš kućni router možda nije postavljen da propušta kroz taj VPN protokol; provjerite postavke svog vatrozida da utvrdite prolaznost IPSec ili L2TP. IPSec servis na Vašem računalu može biti onemogućen; provjerite postavke svojih servisa i omogućite ovom servisu automatsko pokretanje.",
+        "message": "Psiphon koristi L2TP/IPsec VPN protokol.",
         "description": ""
     },
     "license-distribution-header": {
@@ -1094,6 +1258,10 @@
     "faq-information-collected-answer-para-7-item-2": {
         "message": "Anti-virus verzija",
         "description": ""
+    },
+    "faq-reset-system-proxy-question": {
+        "message": "Nakon korištenja Psiphon-a za Windows, moje računalo se više ne može spojiti na Internet.",
+        "description": "FAQ question."
     },
     "sponsor-para-1": {
         "message": "Svatko tko učita Psiphon će vidjeti početnu stranicu kad god se spoje sa software-om. Sponzorstva za tu stranicu su dostupna na tjednoj bazi.",
@@ -1115,6 +1283,10 @@
         "message": "Psiphon ograničava DNS promet na odobrene, provjerene DNS poslužitelje. Psiphon klijent automatski konfigurira postavke Vašeg VPN DNS poslužitelja. Ako Vam se javljaju greške vezane za DNS provjerite da niste zaraženi \"DNS changer\" zlonamjernim software-om, koji pokušava promjeniti postavke Vašeg DNS poslužitelja. Više informacija možete naći  <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">ovdje</a>.",
         "description": ""
     },
+    "faq-section-troubleshooting": {
+        "message": "Rješavanje problema",
+        "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
+    },
     "about-get-latest-info-head": {
         "message": "Dobijte najnovije informacije o Psiphon-u",
         "description": ""
@@ -1124,7 +1296,7 @@
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
-        "message": "Proces automatskog ažuriranja Psiphon-a za Windows-e preimenuje svoje stare verzije u \"psiphon3.exe.orig\". Stare datoteke sa sufiksom \".orig\" mogu biti obrisane bez opasnosti.",
+        "message": "Automatski proces ažuriranja u Psiphon-u za Windowse preimenuje svoju staru verziju u \"psiphon3.exe.orig\". Stare datoteke sa sufiksom \".orig\" mogu biti obrisane.",
         "description": ""
     },
     "privacy-bulletin-entry-1-why-doing": {
@@ -1146,6 +1318,10 @@
     "page-keyword-censorship": {
         "message": "cenzura",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-section-verify-psiphon-authentic": {
+        "message": "Verificirajte da je Vaše Psiphon preuzimanje autentično",
+        "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
     },
     "blog-index-meta-title": {
         "message": "Blog Psiphon tima",
@@ -1211,6 +1387,10 @@
         "message": "Psiphon je posvećen zaštiti privatnosti svojih mušterija, krajnjih korisnika, distributora i dobavljača. Ovakva politika privatnosti ima za svrhu pružanje općih informacija kako Vaše osobne informacije mogu biti korištene. Psiphon je kanadska korporacija sa sjedištem u Ontariju, te je naša izjava o privatnosti razvijana u skladu s kanadskim i ontarijskim zakonima i statutima o privatnosti.",
         "description": ""
     },
+    "privacy-information-collected-client-advertising-networks-head": {
+        "message": "Mreže za oglašavanje",
+        "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon zadržava jedinstveno pravo na ukidanje ove licence u bilo koje vrijeme zbog bilo kojeg ili bez razloga, i bez penala. Korištenjem Psiphon-a, pristajete na ne korištenje usluge na bilo koji način koji krši Uvjete korištenja i Ugovor o licenci.",
         "description": ""
@@ -1247,6 +1427,10 @@
         "message": "doprinesite",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-av-firewall-answer-para-2": {
+        "message": "Ako je Psiphon autentičan, onda se radi o lažnom pozitivu. Iako većina antivirusa i vatrozda imaju dodan Psiphon-ov digitalni potpis u svoje popise dopuštenih aplikacija, neki od njih još uvjek greškom identificiraju Psiphon kao prijetnju. U tom slučaju, molimo Vas da nam <a href=\"mailto:info@psiphon.ca\">pošaljete email</a>, navodeći koji AV/vatrozid program koristite, a mi ćemo kontaktirati proizvođača AV-a/vatrozida kako bi rješili problem.",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+    },
     "main-gets-you-where-you-want-para-1": {
         "message": "Nakon nošenja sa represivnim režimima diljem svijeta, unikatno smo sposobni pomoći Vam da dobijete sadržaj koji hoćete, kad hoćete i gdje hoćete.",
         "description": ""
@@ -1270,6 +1454,10 @@
     "download-direct-head": {
         "message": "Izravna preuzimanja",
         "description": ""
+    },
+    "faq-mail-apps-ports-question": {
+        "message": "Zašto ne mogu koristit svoju omiljenu aplikaciju dok je Psiphon pokrenut? Zašto ne mogu poslati email koristeći svoj mail klijent?",
+        "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-1": {
         "message": "Broj email zahtjeva za poveznicu za preuzimanje klijenta",
