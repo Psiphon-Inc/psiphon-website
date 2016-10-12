@@ -16,7 +16,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "Office of the Privacy Commissioner of Canada",
+        "message": "Kanada Gizlilik Müdürlüğü Ofisi",
         "description": ""
     },
     "faq-vpn-protocol-question": {
@@ -63,6 +63,10 @@
         "message": "Psiphon",
         "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
+    "faq-mobile-hotspot-question": {
+        "message": "Neden Android mobil Kişisel Erişim Noktası ve USB paylaşımı Psiphon'da çalışmıyor?",
+        "description": "FAQ question."
+    },
     "faq-android-enable-sideloading-image-alt": {
         "message": "yan yükleme etkinleştirme ekran görüntüsü",
         "description": "alt text for an image"
@@ -79,8 +83,12 @@
         "message": "Psiphon Geliştiricileri",
         "description": "text for link to the Psiphon Developers mailing list"
     },
+    "faq-section-miscellaneous": {
+        "message": "Diğerleri",
+        "description": "Section heading for FAQ entries that don't fit in any other category."
+    },
     "about-who-we-are-software-development-para-2": {
-        "message": "We also know that it's just as important to work hard for our users behind the scenes. We protect our users and their data to the utmost. Users might never notice the measures to ensure their privacy and security, but we know they appreciate it.",
+        "message": "Aynı zamanda kullanıcılarımız için perde arkasından sıkı çalışmamızın eşit ölçüde önemli olduğunu biliyoruz. Kullanıcılarımızı ve bilgilerini en üst derecede koruyoruz. Kullanıcılarımız gizliilk ve güvenleri için ne tür önlemler aldığımızın farkında olmayabilirler, ama çabalarımızı takdir ettiklerini biliyoruz.",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
@@ -141,15 +149,23 @@
     },
     "faq-android-enable-sideloading-question": {
         "message": "Android \"yan yükleme\" özelliğini nasıl etkinleştirebilirim?",
-        "description": ""
+        "description": "FAQ question."
     },
     "privacy-information-collected-websites-google-analytics-para-1": {
         "message": "Kullanım hakkında bilgi toplamak için sitelerimizden bazılarında Google Analytics kullanıyoruz. Bu bilgi sadece, Google Analytics tarafından bu belirli site üzerinde gezinme davranışlarınıza bağlı istatistiksel analizler için kullanılacaktır. Google Analytics'ten edindiğimiz bilgi, kişisel tanımlama yapılabilecek veya diğer bilgiler ile birleştirilerek kişisel tanımlama bilgisi oluşturulma amaçlı kullanılmaz.",
         "description": ""
     },
+    "faq-screen-filter-answer-para-1": {
+        "message": "Ekran filtresi ya da ekranınızın parlaklığını ayarlayan bir uygulamanın çalışmakta olup olmadığını kontrol edin. Eğer öyleyse, bu uygulamayı devre dışı bırakmayı deneyin. Bu uygulamaların çoğu (örneğin: Lux Auto Brightness, Twilight, Night Mode) kullanıcının bu istemciyle etkileşebilme kabiliyetini engeller.",
+        "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
+    },
     "faq-port-restrictions-question": {
-        "message": "VPN kipinde bağlantı noktası kısıtlamaları var mı? Niçin posta istemcimi VPN kipinde kullanara e-posta gönderemiyorum?",
-        "description": ""
+        "message": "Psiphon'u kullanırken herhangi bir port (çıkış) kısıtlaması var mıdır?",
+        "description": "FAQ question. Note that 'port' is referring to network ports."
+    },
+    "faq-ie6-docbody-question": {
+        "message": "Psiphon Windows'ta “doc.body is null or not an object” hatası veriyor ve çalışmıyor.",
+        "description": "FAQ question."
     },
     "faq-ssh-plus-question": {
         "message": "Psiphon'ın öntanımlı olarak kullandığı protokol nedir?",
@@ -188,7 +204,7 @@
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Bazı ağ donanım ve İnternet bağlantıları, VPN kipinde Psiphon tarafından kullanılan L2TP/IPSec için performans sorunlarına neden olabilir. VPN kipini devre dışı bırakmayı deneyin.",
+        "message": "Bazı ağ oluşturma donanımları veya internet bağlantıları Psiphon tarafından VPN modunda kullanılan L2TP/IPsec protokolü için performans problemlerine yol açabilir. VPN modunu devre dışı bırakmayı deneyin.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -227,6 +243,10 @@
         "message": "Niçin tekrar tekrar \"bağlantı başarısız\" iletisini görüyorum?",
         "description": ""
     },
+    "faq-ie6-docbody-answer-xpie8": {
+        "message": "Windows XP için Internet Explorer 8",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
+    },
     "faq-information-collected-answer-head-2": {
         "message": "Geribildirim",
         "description": ""
@@ -238,6 +258,10 @@
     "faq-authentic-windows-question": {
         "message": "Windows için Psiphon'ım gerçek mi?",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-para-2": {
+        "message": "Windows Güncellemesi'ni kullanamıyorsanız ve direkt olarak Internet Explorer 7 ya da Internet Explorer 8 yüklemek istiyorsanız bu linkleri kullanabilirsiniz:",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
     "faq-ip-change-answer-para-1": {
         "message": "Psiphon istemciniz, yeni Psiphon sunucularını otomatik olarak keşfedecektir. Son kullanılan sunucu şu anda kullanılamıyorsa, bunun yerine farklı biri kullanılacak.",
@@ -252,7 +276,7 @@
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "Michael Hull is the Chief Operating Officer, and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game.",
+        "message": "Michael Hull Şirket Yöneticisi olup Psiphon Toronto Üniversitesi'nin Citizen Lab'inde bir proje olarak başladığından beri bizimledir. O günden beri yazılım geliştirme çalışmalarını yönetmiş ve Psiphon'u başarısının en üstünde tutan yeniliklerin harekete geçirilmesinde yardımcı olmuştur.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2017": {
@@ -263,6 +287,10 @@
         "message": "Lütfen topladığımız bilgiler hakkında daha fazlasını öğrenmek için <a href=\"privacy.html\">Gizlilik İlkemize</a> bakın.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
     },
+    "faq-uninstall-windows-answer-para-1": {
+        "message": "Psiphon Windows'a yüklenmediği için Windows'un \"Program Ekle/Kaldır\" listesinde görünmez. Çalıştırılabilir dosya \"Yüklenenler\" listesinden açılabilir, ya da başka bir dizine kopyalanıp oradan açılabilir. Programı kaldırmak istiyorsanız çalıştırılabilir dosyayı silmeniz yeterli.",
+        "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
+    },
     "donate-heading": {
         "message": "Psiphon'a Katkıda Bulunun",
         "description": "The heading of the page section that shows the donation buttons"
@@ -271,13 +299,33 @@
         "message": "Psiphon'ı Taşınabilir Aygıtlarda ve Windows'ta kullanma",
         "description": "meta title for the user guide page"
     },
+    "faq-windows-vpn-connect-answer-para-1": {
+        "message": "Ağınızın güvenlik duvarı VPNlerin kullanılmasına izin vermiyor olabilir. Evdeki routerınız VPN protokolleri yoluyla geçişe ayarlı olmayabilir; güvenlik duvarı ayarlarınızı kontrol edin ve IPsec veya L2TP geçişinin izin verildiğine emin olun. Sisteminizin IPsec servisleri devre dışı bırakılmış olabilir; servis ayarlarınızı kontrol edin ve bu servislerin otomatik olarak başlatılmasını etkinleştirin.",
+        "description": ""
+    },
+    "faq-get-updated-version-question": {
+        "message": "Psiphon'un güncellenmiş versiyonunu nasıl edinebilirim?",
+        "description": "FAQ question"
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "Kayıt Düzenleyicisini açmak için Çalıştır tıklayın ve <code>regedit</code> yazın. <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> ögesini bulun ve açın. Ardından sağ tarafında <code>SkipProxySettings</code> göreceksiniz. Bu değeri <code>1</code> yaptığınızda Psiphon sistem vekil sunucu ayarlarını otomatik olarak yapılandırmayacak.",
         "description": ""
     },
+    "faq-ie6-docbody-answer-para-1": {
+        "message": "Bu sorun, Windows XP'de Internet Explorer 6 yüklüyse ortaya çıkabilir. Psiphon, Windows'ta çalışabilmek için Internet Explorer 7 ya da üzeri tarayıcıya ihtiyaç duyar. Internet Explorer'ın üst sürümlerini yüklemenin en iyi yolu: <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Windows Update</a>.",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+    },
     "user-guide-android-head": {
         "message": "Android için Psiphon",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-unsupported-platforms-question": {
+        "message": "Psiphon'un OS X, Linux, İOS, Windows Phone, vs. için sürümleri mevcut mu?",
+        "description": "FAQ question."
+    },
+    "faq-subsection-troubleshooting-android": {
+        "message": "Android",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Android-specific."
     },
     "privacy-bulletin-entry-2-title": {
         "message": "2015-06-01: Gizlilik İlke güncellemesi",
@@ -316,7 +364,7 @@
         "description": ""
     },
     "about-who-we-are-ops-para-1": {
-        "message": "We have contracts in place with a range of companies, from large-scale international broadcasters to small human rights organizations operating in single countries. Our Operations and Outreach team compiles reports showing them how many people are accessing Psiphon through their distribution methods. They also study trends and look out for upcoming events that might impact the free flow of information on the Internet.",
+        "message": "Büyük çaplı uluslararası yayın kuruluşlarından küçük yerel insan hakları kurumlarına kadar varan bir dizi kuruluşla anlaşmamız var. İşletim ve Destek ekibimiz bu kuruluşlara dağıtım kanallarından Psiphon'a kaç kişinin ulaştığı konusunda raporlar hazırlar. Aynı zamanda  güncel konuları inceleyip internetteki bağımsız bilgi akışını etkileyebilecek yaklaşan olayları takip eder.",
         "description": ""
     },
     "faq-information-collected-answer-para-7-list-start": {
@@ -330,6 +378,10 @@
     "alert-body": {
         "message": "Psiphon Takımı, bir Windows için Psiphon uygulamasında özel bir kötü amaçlı yazılım keşfetti. Kötü amaçlı yazılım www.copy.com ve diğer kaynaklardan \"pisphone3.zip\" adıyla dağıtılmaktadır. Zip dosyası \"pisphone3.exe\" adında zararlı bir yazılım içermektedir ve bunun özellikleri <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a> sitesinde açıklanmıştır. İsmin hatalı yazımına dikkat edin. Bu Windows uygulama dosyası Psiphon Inc. tarafından dijital olarak imzalanmamıştır. Dijital imzasını <a href=\"#authentic-windows\">burada</a> anlatıldığı şekilde denetlemeden, henüz indirilmiş Psiphon'ı asla çalıştırmayın.",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
+    },
+    "privacy-information-collected-client-advertising-networks-para-2": {
+        "message": "Bu çerezleri ilgi-odaklı reklam için şu sayfayı ziyaret ederek devre dışı bırakabilirsiniz:",
+        "description": ""
     },
     "faq-information-collected-answer-para-5": {
         "message": "Sponsorlar ile paylaşılan tüm istatistikler, sonradan tarih, sponsor ve bölgeye göre daha iyi şekilde birleştirilmektedir.",
@@ -392,7 +444,7 @@
         "description": ""
     },
     "faq-root-wdm-answer-para-1": {
-        "message": "Before December 2015 Psiphon for Android had a feature that allowed users with older Android devices (pre-4.0/ICS) to tunnel the whole device if it was rooted. A major update to Psiphon at that time necessitated the removal of that feature.",
+        "message": "Aralık 2015'ten önce Psiphon'un Android sürümünde rootlanmış eski Adroid cihazı (-4.0/ICS öncesi) olan kullanıcıların tüm cihazı tünellemelerine yarayan bir özellik mevcuttu. O sıralarda yapılan büyük çaplı bir güncelleme bu özelliğin kaldırılmasını gerektirdi.",
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-isp-traffic-answer-para-2": {
@@ -431,6 +483,10 @@
         "message": "Psiphon Kullanıcı Grubu",
         "description": "text for link to the Psiphon Users mailing list"
     },
+    "faq-subsection-troubleshooting-windows": {
+        "message": "Windows",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
+    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "Sorumluluk Sınırlama Beyanı",
         "description": ""
@@ -442,6 +498,10 @@
     "faq-nav-title": {
         "message": "SSS",
         "description": "text for the FAQ page navigation item"
+    },
+    "faq-av-firewall-answer-para-1": {
+        "message": "Kontrol etmeniz gereken ilk şey Psiphon'un orijinal kopyasını edinmiş olup olmadığınızdır. Lütfen Pspihon'un orijinal olup olmadığını kontrol etmek için <a href=\"#verify-psiphon-authentic\">bu talimatları</a> takip edin. Orijinal değilse, lütfen bize elinizdeki kopyayı nasıl edindiğinizle ilgili bilgiyi ve mümkünse çalıştırılabilir dosyayı içeren bir <a href=\"mailto:info@psiphon.ca\">e-posta yollayın</a> .",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
     },
     "alert-heading": {
         "message": "UYARI",
@@ -467,6 +527,10 @@
         "message": "Herkese açık kablosuz (WiFi) kullanırken güvenle sörf yapmak mı istiyorsunuz?",
         "description": ""
     },
+    "faq-android-upgrade-bug-question": {
+        "message": "Psiphon'u Android'te güncelledikten sonra bağlanmıyor.",
+        "description": "FAQ question."
+    },
     "faq-authentic-android-question": {
         "message": "Android için Psiphon'ım gerçek mi?",
         "description": ""
@@ -478,6 +542,10 @@
     "download-meta-title": {
         "message": "Android uygulaması ve Windows istemcisini indir",
         "description": "meta title for the download page"
+    },
+    "faq-unsupported-platforms-answer-para-1": {
+        "message": "Desteklediğimiz mevcut platformlar şunlar: <a href=\"download.html\">Download page</a>. Platform desteğimizi genişletmek için sürekli çalışıyoruz ve yakın gelecekte dilediğiniz OS desteğini sağlamayı umuyoruz!",
+        "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
     },
     "user-guide-windows-para-1": {
         "message": "İstemci programını indirin ve çalıştırın. Çalıştırdığınızda bu programın gerçek bir Psiphon Inc. ürünü olduğunu gösteren güvenlik sorgusu görmelisiniz.",
@@ -563,9 +631,29 @@
         "message": "Psiphon aracılığıyla alınan veri sıkıştırması",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
     },
+    "faq-av-firewall-question": {
+        "message": "Neden antivirüs (AV) programım veya güvenlik duvarım Psiphon'u bir tehdit olarak görüyor?",
+        "description": "FAQ question."
+    },
+    "faq-windows-metro-answer-para-1": {
+        "message": "Windows 8, masaüstü uygulamasına alternatif olarak adını sonradan \"Modern UI\" olarak değiştirdiği \"Metro\" isimli bir arayüz tanıttı. Bazı uygulamalar, çok nadir olarak, yalnızca \"Metro modu\"'nda çalışabilir ve bazıları (Internet Explorer gibi) ya \"Metro modu\"'nda ya da \"Masaüstü modu\"'nda çalışabilir. Bu yeni kullanıcı arayüzü Windows 8.1'de ve daha nadir olarak Windows 10'da hala mevcuttur.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
+    },
+    "faq-get-updated-version-answer-para-1": {
+        "message": "<strong>Android:</strong> Psiphon'u Android için Google Play Store'dan yüklediyseniz, bir güncelleme mevcut olduğunda Play Store tarafından otomatik olarak yüklenir. Psiphon'u Android için transfer etme yoluyla yüklediyseniz, Psiphon istemcisi mevcut güncellemeleri yapmak için güncellemeyi yüklemenizi söyleyen bir uyarı gönderir.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+    },
+    "faq-mobile-hotspot-answer-para-1": {
+        "message": "Bu, Android'in Kişisel Erişim Noktası ve USB paylaşım tanımlamasındaki bir kısıtlamadan ötürüdür. Ya paylaşılan cihazın internete bağlanmadığını, ya da trafiğin VPN yoluyla gerçekleşmediğini deneyimleyebilirsiniz.",
+        "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
+    },
     "user-guide-windows-head": {
         "message": "Windows için Psiphon",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-periodic-disconnect-answer-para-1": {
+        "message": "Bu sorun bilgisayarlarda çoğu zaman güvenilir olmayan ya da zayıf internet bağlantısından kaynaklanır. Telefondan bağlanıyorsanız sinyalin düşük olmasından kaynaklanıyor olabiilir.",
+        "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
     },
     "footer-copyright": {
         "message": "Telif Hakkı",
@@ -620,11 +708,11 @@
         "description": ""
     },
     "faq-root-wdm-question-toc": {
-        "message": "What happened to whole device mode for rooted Android devices?",
+        "message": "Android cihazları rootladıktan sonra tüm cihaz (whole device) moduna ne oldu?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-root-wdm-question": {
-        "message": "What happened to whole device mode for rooted Android devices?",
+        "message": "Android cihazları rootladıktan sonra whole device moduna ne oldu?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "page-keyword-how-to": {
@@ -634,6 +722,14 @@
     "sponsor-description": {
         "message": "Bir açılış sayfasında reklam vermek üzere sponsor olun veya Psiphon projesine bireysel olarak bağış yapın",
         "description": "Page description for the Sponsorship page"
+    },
+    "faq-windows-vpn-connect-question": {
+        "message": "Neden Psiphon'a Windows'ta L2TP/IPsec modunda bağlanamıyorum?",
+        "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-2": {
+        "message": "Bu problemi çözebilmenin en kolay yolu, yeniden Psiphon'a bağlanıp doğru şekilde çıkış yapmanızdır.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "about-get-latest-info-para-1-list-start": {
         "message": "Posta listemize katılın:",
@@ -651,6 +747,14 @@
         "message": "Dilinizi seçin",
         "description": ""
     },
+    "faq-get-updated-version-answer-para-2": {
+        "message": "<strong>Windows:</strong Psiphon'un Windows istemcisi mevcut güncellemeleri otomatik olarak yükler.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
+    },
+    "faq-uninstall-windows-question": {
+        "message": "Psiphon'u Windows'tan nasıl kaldırabilirim?",
+        "description": "FAQ question"
+    },
     "user-guide-android-para-4": {
         "message": "Uygulama ağa bağlandıktan sonra dahili Psiphon tarayıcısını çalıştıracaktır. Android için Psiphon, öntanımlı Android tarayıcısı ve diğer uygulamaların trafiğini otomatik olarak tünellemez. Öntanımlı olarak sadece Psiphon tarayıcısı Psiphon ağı yoluyla tünellenir.",
         "description": ""
@@ -660,12 +764,20 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-windows-para-2": {
-        "message": "Psiphon, çalıştırılır çalıştırılmaz otomatik olarak bağlanmaya başlar. Bağlanırken dönen bir simge görüntülenir. Şu tünel kiplerinden birini seçebilirsiniz: VPN (IPSec üzerinden L2TP), SSH veya SSH+ (SSH artı şaşırtma, protokol parmak izi gösteriminden kaçınılması için SSH üzerinde rastgeleleştirilmiş bir katman).",
+        "message": "Psiphon çalıştırılır çalıştırılmaz otomatik olarak bağlantıyı başlatır. Bağlanma aşamasında dönen bir simge görüntülenir. Şu tunnel modlarından birini seçebilirsiniz: VPN (IPsec üzerine L2TP), SSH, veya SSH+ (SSH artı gizleme, protokol parmakizi kontrolünü engellemek için oluşturulmuş randomize edilmiş SSH üzerindeki bir katman).",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
         "message": "Ayrıca, şifreli trafiğe bakıp, hangi sitede gezildiği gibi şeyleri kararlaştırmada kullanılabilecek gelişmiş teknikler mevcuttur. Bunun ilk örneği: \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">trafik parmakizi</a>\".",
         "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-3": {
+        "message": "Proxy ayarlarını kendiniz düzeltmek istiyorsanız Internet Explorer'ı açın, daha sonra Araçlar menüsüne (ya da ayarlar simgesine) tıklayın, İnternet Seçenekleri → Bağlantılar → LAN ayarlarına tıkladıktan sonra \"LAN için proxy sunucusu kullan\" seçeneğini kaldırın.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "download-android-playstore-pro": {
+        "message": "Android için Google Play Store'da: <strong>Psiphon Pro</strong>",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
         "message": "vpn",
@@ -684,7 +796,7 @@
         "description": ""
     },
     "about-who-we-are-software-development-para-3": {
-        "message": "Psiphon's software development team strives to deliver the best, fastest, easiest, and most open circumvention solutions. We're also exploring new areas where our expertise can protect, empower, and free the minds of users worldwide.",
+        "message": "Psiphon'un yazılım geliştirme ekibi en iyi, en hızlı, en kolay ve en açık sansür engelleme çözümleri sunmaya çalışır. Aynı zamanda uzmanlığımızın dünya çapındaki kullanıcılarımızın düşüncelerini koruyabileceği, güçlendirebileceği ve özgürleştirebileceği yeni alanları keşfediyoruz.",
         "description": ""
     },
     "page-keyword-windows": {
@@ -702,6 +814,10 @@
     "main-pick-three-head-1": {
         "message": "Güven, Hız, Sadelik: üçünü seçin",
         "description": ""
+    },
+    "faq-android-upgrade-bug-answer-para-1": {
+        "message": "Güncelleme yüklenirken Psiphon internete bağlıysa daha sonra bağlantı kuramayabilir ve “start_tunnel_failed application is not prepared or revoked” hatası verir. Bu, <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\"> Andorid OS hatasından dolayıdır. Bu problemi cihazınızı yeniden başlatarak çözebilirsiniz.",
+        "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
     },
     "about-who-we-are-software-development-head": {
         "message": "Yazılım Geliştirme",
@@ -723,9 +839,9 @@
         "message": "Niçin yapıyoruz",
         "description": ""
     },
-    "generic-image-figcaption": {
-        "message": "Akılda tutulması gerekenler:",
-        "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
+    "faq-windows-metro-answer-para-3": {
+        "message": "Metro modu uygulamaları Psiphon yoluyla bağlanmaya çalışıp başarısız olduğunda şu gibi hata mesajları görebilirsiniz.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
     },
     "about-who-we-are-partners-para-2": {
         "message": "En başarılı ortaklarımızdan birisi <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a>, Kendileri bize Farsça dili çevirileri ve servis desteği sağlamaktadır. Ayrıca hedef kitlemizi büyütmede yardım etmektedir.",
@@ -735,13 +851,29 @@
         "message": "Psiphon hizmeti, katı bir şekilde bireysel kullanıcılar ve sadece kişisel kullanımları için amaçlanmıştır. Psiphon'ı diğer herhangi bir amaç için kullanmak isterseniz veya ek gereksinimleriniz varsa, ücretli, ticari hizmet de sunuyoruz. Daha fazla bilgi için <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a> adresine e-posta gönderin.",
         "description": ""
     },
+    "faq-windows-metro-question": {
+        "message": "Neden Windows Metro (ya da Modern IU) uygulamalarımı Psiphon yoluyla tünelleyemiyorum?",
+        "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+    },
     "resources-nav-title": {
         "message": "Kaynaklar",
         "description": "title for the Resources"
     },
+    "faq-mail-apps-ports-answer-para-1": {
+        "message": "Bu, muhtemelen Psiphon'un n's <a href=\"#port-restrictions\">port restrictions</a> ile ilgilidir.",
+        "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+    },
+    "faq-windows-metro-answer-para-2": {
+        "message": "Metro modu'ndaki uygulamalar, kullanıcı sistem güvenlik ayarlarını değiştirmeden yerel proxy kullanamazlar. Bu, Metro modu uygulamalarının Psiphon'u kullanamayacağı ve Psiphon'a bağlıyken internete erişemeyecekleri anlamına gelir. Metro modu uygulamalarının Psiphon'da çalışmasına izin vermek için şunu kullanabilirsiniz: <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">EnableLoopback Utility</a",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+    },
     "user-guide-windows-image-3-alt": {
         "message": "Windows'ta Psiphon'ın bağlandığını gösteren resim",
         "description": "alt text for an image"
+    },
+    "faq-section-installing-running-updating": {
+        "message": "Psiphon'u Yükleme, Çalıştırma ve Güncelleme",
+        "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software."
     },
     "blog-index-subscribe": {
         "message": "Üye ol",
@@ -758,6 +890,10 @@
     "faq-isp-traffic-answer-para-4": {
         "message": "Eğer İnternet'te anonimliğe ihtiyacınız varsa, Psiphon yerine <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> kullanmalısınız.",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-xpie7": {
+        "message": "Windows XP için Internet Explorer 7",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
     "page-keyword-sponsor": {
         "message": "sponsor",
@@ -831,12 +967,20 @@
         "message": "Kullanıcı olarak, bu lisans sözleşmesini istediğiniz herhangi bir anda Psiphon hizmetinin tüm parçalarını kullanmayı bırakarak ve bu uygulamanın tüm örneklerini cihazınızdan kaldırarak sonlandırabilirsiniz.",
         "description": ""
     },
+    "faq-reset-system-proxy-answer-para-1": {
+        "message": "Psiphon Windows'ta bağlandıktan sonra bilgisayarınızın proxy ayarlarını düzenler ve bağlantı kesilirken orijinal ayarlarına geri döndürür. Psiphon Windows'tan doğru şekilde çıkış yapmazsa proxy ayarlarını orijinaline döndüremeyebilir ve bu internete bağlanamamanıza yol açar.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "privacy-information-collected-client-advertising-networks-para-1": {
+        "message": "Bazen hizmetimizi desteklemek için web işareti ve çerez gibi teknolojileri kullanan reklamlar veriyoruz. Reklam veren partnerlerimizin çerez kullanımı sizin bilgi kullanımınıza bağlı olarak onların ve iş ortaklarının reklam sunmalarını sağlıyor. Bu işlem sırasında toplanılan bilgiler reklam veren partnerlerimizin gizlilik politikaları üzerinden kontrol ediliyor:",
+        "description": ""
+    },
     "faq-information-collected-answer-para-2-item-5": {
         "message": "Oturum sayısı ve oturum süresi",
         "description": ""
     },
     "faq-orig-file-purpose-question": {
-        "message": "\"psiphon3.exe.orig\" dosyası nedir?",
+        "message": "\"psiphon.3.exe.orig\" dosyası nedir?",
         "description": ""
     },
     "index-meta-title": {
@@ -854,6 +998,10 @@
     "license-termination-terms-of-service-violations-header": {
         "message": "Sonlandırma; Hizmet Şartı İhlalleri",
         "description": ""
+    },
+    "faq-section-how-psiphon-works": {
+        "message": "Psiphon Nasıl Çalışır",
+        "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
     },
     "user-guide-android-image-3-annotation-1": {
         "message": "Psiphon çalışıyor",
@@ -887,6 +1035,14 @@
         "message": "Şu anda çalıştırdığınız Psiphon sürümünü gösterir",
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
+    "download-android-playstore-pro-description": {
+        "message": "Psiphon Pro'yu Google Play Store'dan yükleyerek <strong>internet özgürlüğünü destekleyin</strong> (tüm ülkelerde mevcut değildir).",
+        "description": ""
+    },
+    "faq-section-compatibility": {
+        "message": "Diğer Uygulamalarla Uyumluluk",
+        "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
+    },
     "open-source-nav-title": {
         "message": "Açık Kaynak",
         "description": ""
@@ -899,16 +1055,20 @@
         "message": "Niçin Psiphon IP adresim sıkça değişiyor?",
         "description": ""
     },
+    "faq-periodic-disconnect-question": {
+        "message": "Neden Psiphon bağlantım arada bir kesiliyor?",
+        "description": "FAQ question."
+    },
     "privacy-bulletin-meta-title": {
         "message": "Gizlilik Bültenleri",
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "Office of the Information and Privacy Commissioner of Ontario",
+        "message": "Ontario Bilgi ve Gizlilik Müdürlüğü Ofisi",
         "description": ""
     },
     "about-who-we-are-ops-head": {
-        "message": "Operations and Outreach",
+        "message": "İşlemtim ve Destek",
         "description": ""
     },
     "faq-information-collected-answer-head-4": {
@@ -923,6 +1083,10 @@
         "message": "Gitmek istediğiniz yere götürür...",
         "description": ""
     },
+    "faq-screen-filter-question": {
+        "message": "Psiphon Android'e ilk bağlandığında neden \"bu uygulamaya güven\"'i seçemiyorum?",
+        "description": "FAQ question."
+    },
     "faq-information-collected-answer-para-14": {
         "message": "Bir sorunu tanılamamız gerekirse, kısa bir süreliğine tam posta sunucu günlüklemeyi etkinleştirebiliyoruz. Bu süre zarfında bir e-posta göndermişseniz, e-posta adresiniz sistem günlüğüne yazılacaktır. Bu günlükler bir hafta sonra silinir.",
         "description": ""
@@ -930,6 +1094,10 @@
     "faq-information-collected-answer-para-2-item-4": {
         "message": "Yeni sunucuların ne kadar sıklıkla keşfedildiği",
         "description": ""
+    },
+    "privacy-information-collected-client-head": {
+        "message": "Psiphon İstemci Yazılımı",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon client software"
     },
     "open-source-para-1": {
         "message": "Psiphon açık kaynaklı bir projedir. Kaynak kodunu ve tasarım belgelerini Bitbucket ve Github proje sayfalarımızda bulabilirsiniz.",
@@ -971,13 +1139,13 @@
         "message": "Psiphon istemcileri aşağıdaki açık kaynak bileşenlerini kullanmaktadır:",
         "description": ""
     },
-    "download-android-playstore": {
-        "message": "Google Play Mağazası'nda Android için Psiphon",
-        "description": "text for link to Psiphon for Android in the Google Play Store"
-    },
     "page-keyword-contact": {
         "message": "iletişim",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-get-updated-version-answer-para-3": {
+        "message": "<strong>Manually updating:</strong> Psiphon'un otomatik güncelleme mekanizması çalışmıyorsa (örneğin, engellenmişse), Psiphon'un yeni sürümünü indirebilmek için bilgiyi buradan bulabilirsiniz: <a href=\"download.html\">Download page</a>.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
     },
     "download-title": {
         "message": "Psiphon'ı İndir",
@@ -1044,12 +1212,8 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Windows için Psiphon giden bağlantılar sadece aşağıdaki bağlantı noktaları için yapılabilir: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. Daha fazla bilgi için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">bu tartışmaya</a> bakın. Posta istemcileri bağlantı noktası 25 ve 587'ye bağlanamıyor. Daha fazla bilgi için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">bu tartışmaya</a> bakın.",
-        "description": ""
-    },
-    "download-android-playstore-description": {
-        "message": "Android 2.2 ve üstü sürümler ile uyumlu. Tüm cihaz kipi Android 4.0 veya üstü ya da <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">root (yönetici hakkı verilmiş) cihaz</a> gerektirir.",
-        "description": ""
+        "message": "Psiphon yoluyla yapılan çıkış bağlantıları yalnızca şunları içeren kısıtlanmış sunucu portları serisine yapılabilir: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. \nDaha fazla bilgi için şuna göz atın: <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> Posta istemcileri port 25 yoluyla çıkış bağlantısı gerçekleştiremezler. Daha fazla bilgi için şuna göz atın: <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a>",
+        "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
         "message": "Uygulama Mağazası İndirmeleri",
@@ -1058,10 +1222,6 @@
     "sponsor-meta-title": {
         "message": "Sponsorluk, reklam verme ve bağışlar",
         "description": "Page title for the Sponsorship page"
-    },
-    "faq-root-wdm-answer-para-2": {
-        "message": "If you require that functionality, you can use a “legacy” version of Psiphon for Android. That version will be lacking some of the advanced circumvention abilities of modern Psiphon, but it may be sufficient for your needs. You can <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">download the “legacy” version here</a>.",
-        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "Psiphon'ımın geçerli sürümünü nasıl denetleyebilirim?",
@@ -1083,8 +1243,12 @@
         "message": "Psiphon otomatik olarak sisteminizi yerel bir HTTP/HTTPS vekil sunucusunu <code>127.0.0.1:8080</code> ve yerel bir SOCKS vekil sunucusunu <code>127.0.0.1:1080</code> konumlarına yapılandıracaktır. Sistem Vekil Sunucu Ayarlarını kullanan Windows uygulamaları otomatik olarak bunu kullanacaktır. Diğer yazılımları bu yerel vekil sunucuları kullanmaları üzere el ile yapılandırabilirsiniz. Windows için Psiphon ve Android için Psiphon bu yerel vekil sunucuları çalıştırmaktadır.",
         "description": ""
     },
+    "faq-section-privacy-security": {
+        "message": "Gizlilik ve Güvenlik",
+        "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
+    },
     "faq-vpn-protocol-answer-para-1": {
-        "message": "Psiphon, L2TP/IPSec VPN protokolünü kullanır. Ağ güvenlik duvarınız VPN kullanımına izin vermeyebilir. Ev yönlendiriciniz bu VPN protokolü aracılığıyla geçiş için yapılandırılmış olmayabilir; IPSec veya L2TP aracılığıyla geçişin etkin olup olmadığını denetlemek için güvenlik duvarı ayarlarınıza bakın. Sisteminizin IPSec Hizmetleri devre dışı olabilir; bu hizmeti otomatik etkinleştirmek için hizmet ayarlarınıza bakıp etkinleştirin.",
+        "message": "Psiphon  L2TP/IPsec VPN protokolünü kullanır.",
         "description": ""
     },
     "license-distribution-header": {
@@ -1094,6 +1258,10 @@
     "faq-information-collected-answer-para-7-item-2": {
         "message": "Anti virüs sürümü",
         "description": ""
+    },
+    "faq-reset-system-proxy-question": {
+        "message": "Psiphon'un Windows sürümünü kullandıktan sonra bilgisayarım internete bağlanmıyor.",
+        "description": "FAQ question."
     },
     "sponsor-para-1": {
         "message": "Psiphon'ı yükleyen herkes yazılım ile bağlandığında bir hedef sayfa görecekler. Bu sayfanın sonunda haftanın sponsorluk fırsatları kullanılabilir.",
@@ -1115,6 +1283,10 @@
         "message": "Psiphon, DNS trafiğini beyaz listedeki (kıdemli) DNS sunucularına sınırlar. Psiphon istemcisi otomatik olarak VPN DNS sunucu ayarlarınızı yapılandırır. Eğer DNS ile ilgili hatalar alıyorsanız, \"DNS Changer\" olarak bilinen ve DNS sunucu ayarlarınızı değiştirmeye kötü amaçlı yazılımın çalışan bilgisayarınızda bulunmadığından emin olun. Daha fazla bilgi <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">burada</a> bulunabilir.",
         "description": ""
     },
+    "faq-section-troubleshooting": {
+        "message": "Sorun Tespiti",
+        "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
+    },
     "about-get-latest-info-head": {
         "message": "Psiphon hakkında en son bilgileri alın",
         "description": ""
@@ -1124,7 +1296,7 @@
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
-        "message": "Windows için Psiphon otomatik güncelleme sürecinde, eski sürüm dosyalar \"psiphon3.exe.orig\" olarak adlandırılacaktır. \".orig\" son ekine sahip tüm eski dosyalar güvenle silinebilir.",
+        "message": "Psiphon'un otomatik Windows güncelleme işlemi eski versiyonun adını “psiphon3.exe.orig” olarak değiştirir. Eski “.orig” ekli dosyalar güvenle silinebilir.",
         "description": ""
     },
     "privacy-bulletin-entry-1-why-doing": {
@@ -1136,7 +1308,7 @@
         "description": "text for the Download page navigation item"
     },
     "about-who-we-are-exec-team-para-2": {
-        "message": "Karl Kathuria is the VP of Commercial Management, and has recently joined the team in Toronto from London. He is responsible for managing the business relationships with our broadcast and distribution partners, and for finding new opportunities for the company’s activities.",
+        "message": "Karl Kathuria şirketimizin Yönetim Kurulu Başkanı olup Londra'dan Toronto ekibimize katılmıştır. Yayın ve dağıtım partnerlerimizle iş ilişkilerini yönetmekten ve şirket aktiviteleri için yeni fırsatlar yaratmaktan sorumludur. ",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-2": {
@@ -1146,6 +1318,10 @@
     "page-keyword-censorship": {
         "message": "sansür",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-section-verify-psiphon-authentic": {
+        "message": "Psiphon Uygulamanızın Orijinal Olduğunu Doğrulayın",
+        "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
     },
     "blog-index-meta-title": {
         "message": "Psiphon Takımı Blogu",
@@ -1211,6 +1387,10 @@
         "message": "Psiphon; müşterilerinin, son kullanıcıların, dağıtıcı ve sağlayıcıların gizliliklerini korumaya adanmıştır. Bu gizlilik poliçesi kişisel bilgilerinizin nasıl kullanılacağı hakkında size genel bir bilgi sağlamak amacıyla oluşturulmuştur. Psiphon, ana merkezi Ontario'da olan bir Kanada kurumu olup, gizlilik poliçemiz Kanada ve Ontario gizlilik kanun ve durumlarını yansıtarak oluşturulmuştur.",
         "description": ""
     },
+    "privacy-information-collected-client-advertising-networks-head": {
+        "message": "Reklamveren Ağlar",
+        "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon, bu lisansı hiçbir sebep belirtmeden ve herhangi bir ödeme yapmaksızın her an iptal etme yetkisine sahiptir. Psiphon kullanarak, hizmet şartları veya lisans sözleşmesine aykırı hiçbir şekilde hizmeti kullanmayacağınızı kabul etmektesiniz.",
         "description": ""
@@ -1247,6 +1427,10 @@
         "message": "katkıda bulunun",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-av-firewall-answer-para-2": {
+        "message": "Pspihon kopyanız orijinal ise, bu muhtemelen yanlış bir pozitif rapor durumudur. Çoğu antivirüs/güvenlik duvarı programlarının Psiphon'un dijital imzasını güvenilir adresler listesine eklemiş olmasına rağmen, bazıları Psiphon'un çalıştırılabilir dosyasını yanlışlıkla virüs ya da tehdit olarak algılayabilir. Bu durumda, AV/güvenlik duvarı sağlayıcısıyla sorunu çözebilmemiz için lütfen bize kullandığınız AV/güvenlik duvarı programının adını belirten bir <a href=\"mailto:info@psiphon.ca\">e-posta gönderin</a> .",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+    },
     "main-gets-you-where-you-want-para-1": {
         "message": "Dünyadaki baskıcı rejimlerle başa çıktıktan sonra, istediğiniz içeriğe, ne zaman ve nerede isterseniz erişebilmenize yardım etmek için benzersiz bir şekilde uyum sağladık.",
         "description": ""
@@ -1270,6 +1454,10 @@
     "download-direct-head": {
         "message": "Doğrudan İndirmeler",
         "description": ""
+    },
+    "faq-mail-apps-ports-question": {
+        "message": "Neden Psiphon çalışırken favori uygulamamı kullanamıyorum? Neden posta istemcimi kullanarak e-posta yollayamıyorum?",
+        "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-1": {
         "message": "İstemci indirme bağlantısı için e-posta talep sayısı",
