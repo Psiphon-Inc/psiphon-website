@@ -51,6 +51,7 @@ import errno
 import json
 import base64
 import boto
+from boto.s3.connection import OrdinaryCallingFormat
 import argparse
 import shutil
 import requests
@@ -72,7 +73,8 @@ def main(conf_file_path, silent):
 
     s3 = boto.connect_s3(
                 conf['aws']['access_id'],
-                conf['aws']['secret_key'])
+                conf['aws']['secret_key'],
+                calling_format=OrdinaryCallingFormat())
 
     for snippet in conf['snippets']:
         while process_snippet(s3, snippet, conf, silent) is False:
