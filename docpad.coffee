@@ -58,7 +58,7 @@ docpadConfig = {
 
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
-    languages: ['en', 'fa', 'ar', 'zh', 'az', 'de', 'el', 'es', 'fr', 'id', 'kk', 'ko', 'hr', 'nb', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'ug@Latn', 'uz@cyrillic', 'uz@Latn', 'vi']
+    languages: ['en', 'fa', 'ar', 'zh', 'de', 'el', 'es', 'fi', 'fr', 'hr', 'id', 'kk', 'ko', 'nb', 'nl', 'pt_BR', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'vi', 'zh_TW']
 
     # Translation file location.
     translation_files:
@@ -67,12 +67,8 @@ docpadConfig = {
       ar: './_locales/ar/messages.json'
       zh: './_locales/zh/messages.json'
       ru: './_locales/ru/messages.json'
-      'uz@cyrillic': './_locales/uz@cyrillic/messages.json'
-      'uz@Latn': './_locales/uz@Latn/messages.json'
       tk: './_locales/tk/messages.json'
       th: './_locales/th/messages.json'
-      az: './_locales/az/messages.json'
-      'ug@Latn': './_locales/ug@Latn/messages.json'
       kk: './_locales/kk/messages.json'
       es: './_locales/es/messages.json'
       vi: './_locales/vi/messages.json'
@@ -85,7 +81,12 @@ docpadConfig = {
       ko: './_locales/ko/messages.json'
       pt_PT: './_locales/pt_PT/messages.json'
       hr: './_locales/hr/messages.json'
+
       id: './_locales/id/messages.json'
+      fi: './_locales/fi/messages.json'
+      nl: './_locales/nl/messages.json'
+      pt_BR: './_locales/pt_BR/messages.json'
+      zh_TW: './_locales/zh_TW/messages.json'
 
     # Translations will be loaded into this object.
     translations: {}
@@ -309,6 +310,7 @@ docpadConfig = {
     languageLabel: (languageCode) ->
       map =
         "ar": "العربية"
+        "az": "azərbaycan dili"
         "cs": "Čeština"
         "de": "Deutsch"
         "el": "Ελληνικά"
@@ -322,24 +324,24 @@ docpadConfig = {
         "hu": "Magyar"
         "id": "Bahasa Indonesia"
         "it": "Italiano"
+        "kk": "қазақ тілі"
         "ko": "한국말"
         "nl": "Nederlands"
         "nb": "Norsk (bokmål)"
         "pl": "Polski"
-        "pt_BR": "Português(Br)"
-        "pt_PT": "Português(Pt)"
+        "pt_BR": "Português (Brasil)"
+        "pt_PT": "Português (Portugal)"
         "ru": "Русский"
         "sv": "Svenska"
-        "zh": "中文"
+        "th": "ภาษาไทย"
+        "tk": "Türkmençe"
+        "tr": "Türkçe"
+        "ug@Latn": "Uyghurche"
         "uz@cyrillic": "Ўзбекча"
         "uz@Latn": "O'zbekcha"
-        "tk": "Türkmençe"
-        "th": "ภาษาไทย"
-        "az": "azərbaycan dili"
-        "ug@Latn": "Uyghurche"
-        "kk": "қазақ тілі"
         "vi": "Tiếng Việt"
-        "tr": "Türkçe"
+        "zh": "简体中文"
+        "zh_TW": "繁体中文"
       if map[languageCode]
         map[languageCode]
       else
