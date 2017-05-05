@@ -42,11 +42,22 @@ module.exports = (BasePlugin) ->
 
       pathStart = path.normalize "#{config.defaultLanguage}/"
 
-      tasks = new TaskGroup(concurrency: 0).done (err) ->
+      tasks = new TaskGroup(concurrency: 1).done (err) ->
         return next(err)
 
       docpad.getCollection('documents').findAll({relativePath: $startsWith: pathStart}).forEach (document) ->
+
+        docpad.log 'debug', 'languagemaker: processing document: ' + document.get('relativePath')
+
+        # Read the document file contents for use below
+        documentData = fs.readFileSync(path.resolve(
+                                       process.cwd(),
+                                       config.rootToDocumentsPathFragment,
+                                       document.get('relativePath')))
+
         config.languages.forEach (lang) ->
+          docpad.log 'debug', "languagemaker: processing language '#{lang}' for document: #{document.get('relativePath')}"
+
           tasks.addTask (complete) ->
             if lang == config.defaultLanguage
               return complete()
@@ -75,10 +86,7 @@ module.exports = (BasePlugin) ->
               isDocument: true
               encoding: 'utf8'
               relativePath: relativePath
-              data: fs.readFileSync(path.resolve(
-                                      process.cwd(),
-                                      config.rootToDocumentsPathFragment,
-                                      document.get('relativePath')))
+              data: documentData
               meta:
                 language: lang
                 languagemakered: yes
@@ -88,6 +96,9 @@ module.exports = (BasePlugin) ->
               if err
                 return complete(err)
               docpad.getDatabase().add newDoc
+
+              docpad.log 'debug', "languagemaker: finished language '#{lang}' for document: #{document.get('relativePath')}"
+
               return complete()
 
       tasks.run()
