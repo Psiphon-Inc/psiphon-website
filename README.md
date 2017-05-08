@@ -40,10 +40,10 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
 4. Generate site, serve it, and monitor for changes:
 
   ```
-  $ node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js run
+  $ node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js run --global
 
   # Site builds can be quite slow. Skip language generation for faster builds:
-  # node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js run --env fastbuild
+  # node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js run --global --env fastbuild
   ```
 
   (The use of a complicated `node` command instead of `docpad` is so that the generate process has more memory to work with.)
@@ -52,7 +52,7 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
 
 ```
 $ docpad clean
-$ node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js generate --env static,production
+$ node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js generate --global --env static,production
 ```
 
 
@@ -145,3 +145,4 @@ Metadata in layouts is basically ignored (besides another `layout` in the chain)
 ## Credits
 
 Background pattern from: http://subtlepatterns.com/3px-tile/
+
