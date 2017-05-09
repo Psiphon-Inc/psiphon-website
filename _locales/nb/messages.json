@@ -92,7 +92,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
-        "message": "Google Analytics plants a permanent cookie on your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
+        "message": "Google Analytics plasserer en permanent langtidsinformasjonskapsel på din datamaskin for å identifisere deg som en unik bruker neste gang du besøker siden, men denne informasjonskapselen kan ikke brukes av noen andre enn Google, og dataen som hentes inn kan ikke forandres eller mottas av tjenere fra andre domener.\n(oversettelseskommentar: Dette gir ingen garantier for hva Google gjør med dataen)",
         "description": ""
     },
     "open-source-description": {
@@ -135,10 +135,6 @@
         "message": "Personlig eller spesifikk bruk",
         "description": ""
     },
-    "faq-information-collected-answer-para-2-item-6": {
-        "message": "Sidevisninger (domene URL-er for sponsor-nettsider)",
-        "description": ""
-    },
     "user-guide-android-ui-logs-image-alt": {
         "message": "Loggføringspanelet til Psiphon, kjørende på Android",
         "description": "alt text for an image"
@@ -152,7 +148,7 @@
         "description": "FAQ question."
     },
     "privacy-information-collected-websites-google-analytics-para-1": {
-        "message": "We use Google Analytics on some of our websites to collect information about usage. The information collected by Google Analytics will only be used for statistical analysis related to your browsing behaviour on this specific site. The information we obtain from Google Analytics is not personally identifying, nor is it combined with information from other sources to create personally identifying information.",
+        "message": "Vi bruker Google Analytics til å spionere på brukerne. Informasjon derfra brukes av oss til informasjonsformål om bruk, og av Google til det de måtte finne for godt. Fra vår side henter vi ikke ting som direkte er identitetsbekreftende, og vi kombinerer den ei heller med annen data i så henseende.",
         "description": ""
     },
     "faq-screen-filter-answer-para-1": {
@@ -204,7 +200,7 @@
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Certain networking hardware or Internet connections may cause performance problems for L2TP/IPsec which is the protocol used by Psiphon in VPN mode. Try disabling VPN mode.",
+        "message": "Visse maskinvareløsninger eller internettilkoblinger kan forårsake ytelsesproblemer med L2TP/IPSec, som er protokollen brukt av Psiphon i VPN-modus. Prøv å skru av VPN-modus.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -260,7 +256,7 @@
         "description": ""
     },
     "faq-ie6-docbody-answer-para-2": {
-        "message": "If you can't use Windows Update and want to install Internet Explorer 7 or Internet Explorer 8 directly, you can get them via these links:",
+        "message": "Hvis du ikke kan bruke oppdateringsverktøyet i Windows til å installere en nettleser, kan du laste en ned her:",
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
     "faq-ip-change-answer-para-1": {
@@ -300,7 +296,7 @@
         "description": "meta title for the user guide page"
     },
     "faq-windows-vpn-connect-answer-para-1": {
-        "message": "Your network's firewall may not allow the use of VPNs. Your home router may not be configured to pass through this VPN protocol; check your firewall settings to see that IPsec or L2TP pass-through is enabled. Your system’s IPsec Services may be disabled; check your service settings and enable these services to start automatically.",
+        "message": "Det kan hende brannmuren i ditt nettverk ikke tillater bruk av VPN. Hjemme-rutere er ofte satt opp slik. Sjekk i brannmur-innstillingene at IPSec eller L2TP går fritt gjennom (pass-through). Systemets IPSec-tjenester kan være avskrudd; sjekk dine systeminnstillinger for å starte disse tjenestene automatisk.",
         "description": ""
     },
     "faq-get-updated-version-question": {
@@ -340,7 +336,7 @@
         "description": "title for the FAQ page"
     },
     "privacy-information-collected-s3-logging-para-1": {
-        "message": "We use Amazon S3 to store assets such as website files and Psiphon server discovery lists. We sometimes enable logging of downloads of these files. Analyzing these logs helps us to answer questions like \"how many users are starting but not completing the download of the server discovery list?\", \"how is the downloaded data split between website assets and server discovery?\", and \"is an attacker making a denial-of-service attempt against our websites?\"",
+        "message": "Vi bruker Amazon S3 til å lagre tilhørende filer funnet på nettsiden og tjeneroppdagelseslister. Vi skrur noen ganger på logging av disse filene. Analysering av disse loggene hjelper oss å besvare spørsmål som \"hvor mange brukere starter men fullfører ikke nedlasting av tjeneroppdagelseslisten?\", \"hvordan fordeler lasten seg mellom ting tilhørende nettside og tjeneroppdagelse?\", og \"begås det tjenestenekt-angrep mot våre nettsider\"?",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
@@ -395,10 +391,6 @@
         "message": "Bare i VPN-modus. Etter vellykket tilkobling opprettes i VPN-modus, vil all trafikk fra din datamaskin flyte gjennom Psiphon-nettverket. Når VPN-modus ikke er påskrudd vil bare programmer som bruker lokale HTTP- og SOCKS -mellomtjenere bli mellomtjent.",
         "description": ""
     },
-    "faq-information-collected-answer-para-2-item-8": {
-        "message": "Antall HTTPS-forespørsler",
-        "description": ""
-    },
     "about-who-we-are-para-1": {
         "message": "Psiphon Inc. er en bedrift basert i Toronto, der produserer multiplattform åpen-kilekode -programvareløsninger som hjelper over 3 millioner mennesker hver uke å koble seg til innhold på Internett. Vi er et arbeidslag fokusert på å levere så bra programvare vi kan, introdusere nye produkter regelmessig, og å forsikre oss om at vi treffer behovene til vår kontinuerlig økende globale publikum.",
         "description": ""
@@ -416,7 +408,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-7": {
-        "message": "Antall overførte byte",
+        "message": "Totalt antall Byte overført, samt spesifikt for noen domener.",
         "description": ""
     },
     "privacy-bulletin-title": {
@@ -724,7 +716,7 @@
         "description": "Page description for the Sponsorship page"
     },
     "faq-windows-vpn-connect-question": {
-        "message": "Why can't I connect with Psiphon for Windows in L2TP/IPsec mode?",
+        "message": "Hvorfor kan jeg ikke koble til med Psiphon for Windows i L2TP/IPSec-modus?",
         "description": ""
     },
     "faq-reset-system-proxy-answer-para-2": {
@@ -764,7 +756,7 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-windows-para-2": {
-        "message": "Psiphon automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPsec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting).",
+        "message": "Psiphon starter automatisk å koble til ved oppstart. Mens tilkobling pågår, vises et spinnende ikon. Du kan velge ett av følgende tunnel-modus: VNP (L2TP over IPSec), SSH, eller SSH+ (SSH med ekstra røring i suppa, et tilfeldig lag overlagt SSH for å forhindre bekjentgjøring av protokoll-fingeravtrykk)",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
@@ -776,7 +768,7 @@
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "download-android-playstore-pro": {
-        "message": "<strong>Psiphon Pro</strong> for Android in the Google Play Store",
+        "message": "<strong>Psiphon Pro<strong> for Android i Google play-butikken",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
@@ -1036,7 +1028,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
     "download-android-playstore-pro-description": {
-        "message": "<strong>Support Internet freedom</strong> by downloading Psiphon Pro from the Google Play Store. (Not available in all countries.)",
+        "message": "<strong>Støtt Internett</strong> ved å laste ned Psiphon Pro fra Google play-butikken. (Ikke tilgjengelig i alle land.)",
         "description": ""
     },
     "faq-section-compatibility": {
@@ -1248,7 +1240,7 @@
         "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
     },
     "faq-vpn-protocol-answer-para-1": {
-        "message": "Psiphon uses the L2TP/IPsec VPN protocol.",
+        "message": "Psiophon bruker VPN-protokollen L2TP/IPSec.",
         "description": ""
     },
     "license-distribution-header": {
@@ -1272,7 +1264,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-3": {
-        "message": "Google’s ability to use and share information collected by Google Analytics about your visits to this site is restricted by the <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Google Analytics Terms of Use</a> and the <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Google Privacy Policy</a>. You may choose to opt out by turning off cookies in the preferences settings in your web browser.",
+        "message": "Googles evne til å bruke og dele informasjon innhentet av Google Analytics er beskrevet i <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Google Analytics tjenestevilkår</a> og <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Google personvernspraksis</a>. \nDu kan velge å skru av informasjonskapsler i innstillingene i din nettleser.\n(Oversettelseskommentar: Google forbeholder seg retten til å endre hva som helst på 14 dagers varsel, der varsel betyr at de i all stillhet oppgraderer teksten i vilkårene. Det anbefales at du skrur av skript hvis du vil blokkere Google Analytics.)",
         "description": ""
     },
     "faq-isp-traffic-question-toc": {
@@ -1440,7 +1432,7 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already serves the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate it and will not be shared with third parties.",
+        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bøttetilgangslogger</a> inneholder IP-adresser, brukeragentinfo og tidsstempel. Dette loggføres i S3, så Amazon har tilgang.\nPsiphon-utviklerne vil laste ned loggene, utøve resultatmengdefunksjoner, analysere dataen, for så å slette den. Rådata blir bare lagret lenge nok til å regne ut resultatmengde, og blir aldri delt av Psiphon-laget med tredjeparter.",
         "description": ""
     },
     "download-description": {

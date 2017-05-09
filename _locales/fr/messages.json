@@ -104,7 +104,7 @@
         "description": ""
     },
     "main-gets-you-there-safely-head-1": {
-        "message": "...et vous y amène en toute sécurité.",
+        "message": "...et vous y mène en toute sécurité.",
         "description": ""
     },
     "privacy-title": {
@@ -133,10 +133,6 @@
     },
     "license-personal-or-specified-use-header": {
         "message": "Utilisation personnelle ou spécifiée",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-2-item-6": {
-        "message": "Pages vues (URL de pages entières pour les sites Web des commanditaires) ",
         "description": ""
     },
     "user-guide-android-ui-logs-image-alt": {
@@ -248,7 +244,7 @@
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
     "faq-information-collected-answer-head-2": {
-        "message": "Commentaire",
+        "message": "Rétroaction",
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
@@ -360,7 +356,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "blog-index-intro": {
-        "message": "Psiphon Inc. est une entreprise canadienne, et la plupart des membres de notre équipe sont anglophones. Cela signifie que les billets de notre blogue sont à l'origine en anglais. Nous les traduirons en d'autres langues si nous le pouvons.",
+        "message": "Psiphon inc. est une entreprise canadienne, et la plupart des membres de notre équipe sont anglophones. Cela signifie que les billets de notre blogue sont à l'origine en anglais. Nous les traduirons en d'autres langues si nous le pouvons.",
         "description": ""
     },
     "about-who-we-are-ops-para-1": {
@@ -376,7 +372,7 @@
         "description": ""
     },
     "alert-body": {
-        "message": "L'équipe Psiphon a découvert un programme malveillant déguisé en exécutable Psiphon pour Windows. Le programme malveillant est distribué comme fichier zip nommé « psiphone3.zip » sur www.copy.com et pourrait être proposé par d'autres sources. Le fichier zip contient un fichier binaire malveillant nommé « psiphone3.exe » dont les propriétés sont décrites sur <a href=\"https://www.virustotal.com/fr/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Remarquez la faute d'orthographe dans le nom. L'exécutable Windows n'est pas signé par Psiphon Inc. N'exécutez jamais un nouveau téléchargement de Psiphon sans vérifier la signature numérique, tel que décrit <a href=\"#authentic-windows\">ici</a>.",
+        "message": "L'équipe Psiphon a découvert un programme malveillant déguisé en exécutable Psiphon pour Windows. Le programme malveillant est distribué comme fichier zip nommé « psiphone3.zip » sur www.copy.com et pourrait être proposé par d'autres sources. Le fichier zip contient un fichier binaire malveillant nommé « psiphone3.exe » dont les propriétés sont décrites sur <a href=\"https://www.virustotal.com/fr/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Remarquez la faute d'orthographe dans le nom. L'exécutable Windows n'est pas signé par Psiphon inc. N'exécutez jamais un nouveau téléchargement de Psiphon sans vérifier la signature numérique, tel que décrit <a href=\"#authentic-windows\">ici</a>.",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "privacy-information-collected-client-advertising-networks-para-2": {
@@ -395,12 +391,8 @@
         "message": "Seulement en mode RPV. Suite à une connexion réussie en mode RPV, tout le trafic de votre ordinateur passera par le réseau Psiphon. Si le mode RPV n'est pas activé, seules les applications utilisant les mandataires HTTP et SOCKS locaux seront relayées. ",
         "description": ""
     },
-    "faq-information-collected-answer-para-2-item-8": {
-        "message": "Nombre de requêtes HTTPS",
-        "description": ""
-    },
     "about-who-we-are-para-1": {
-        "message": "Psiphon Inc. est une compagnie basée à Toronto, produisant des logiciels multiplateformes à code source ouvert qui aident plus de trois millions de personnes, chaque semaine, à se connecter à du contenu sur Internet. Nous nous concentrons, en tant qu'équipe, à fournir les meilleurs logiciels possible, produisant de nouveaux produits régulièrement et nous assurant que notre évolution colle aux besoins de notre auditoire mondial en croissance constante.",
+        "message": "Psiphon inc. est une compagnie basée à Toronto, produisant des logiciels multiplateformes à code source ouvert qui aident plus de trois millions de personnes, chaque semaine, à se connecter à du contenu sur Internet. Nous nous concentrons, en tant qu'équipe, à fournir les meilleurs logiciels possible, produisant de nouveaux produits régulièrement et nous assurant que notre évolution colle aux besoins de notre auditoire mondial en croissance constante.",
         "description": ""
     },
     "user-guide-windows-para-3": {
@@ -416,7 +408,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-7": {
-        "message": "Octets transférés ",
+        "message": "Total des octets transférés et octets transférés pour certains domaines précis",
         "description": ""
     },
     "privacy-bulletin-title": {
@@ -468,7 +460,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
     },
     "what-is-psiphon-body-para-1": {
-        "message": "Psiphon est outil de contournement de Psiphon Inc. utilisant les technologies RPV, SSH et HTTP de relais par serveur mandataire pour vous fournir un accès non censuré au contenu Internet. Votre client Psiphon prendra automatiquement connaissance de nouveaux points d'accès pour maximiser vos chances de court-circuiter la censure.",
+        "message": "Psiphon est outil de contournement de Psiphon inc. utilisant les technologies RPV, SSH et HTTP de relais par serveur mandataire pour vous fournir un accès non censuré au contenu Internet. Votre client Psiphon prendra automatiquement connaissance des nouveaux points d'accès pour maximiser vos chances de court-circuiter la censure.",
         "description": ""
     },
     "user-guide-description": {
@@ -548,7 +540,7 @@
         "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
     },
     "user-guide-windows-para-1": {
-        "message": "Téléchargez le programme client et exécutez-le. Une fois démarré, vous devriez voir un message de sécurité indiquant que ce programme est un produit authentique de Psiphon Inc.",
+        "message": "Téléchargez le programme client et exécutez-le. Une fois démarré, vous devriez voir un message de sécurité indiquant que ce programme est un produit authentique de Psiphon inc.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2": {
@@ -624,7 +616,7 @@
         "description": ""
     },
     "license-para-1": {
-        "message": "Ce logiciel et toute propriété intellectuelle associée est la propriété de Psiphon Inc., une société enregistrée en Ontario dont le siège social est situé à Toronto, Canada.",
+        "message": "Ce logiciel et toute propriété intellectuelle associée est la propriété de Psiphon inc., une société enregistrée en Ontario dont le siège social est situé à Toronto, Canada.",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-5": {
@@ -700,7 +692,7 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "Votre appareil est-il raciné",
+        "message": "Votre appareil est-il raciné ou non ?",
         "description": ""
     },
     "sponsor-para-2": {
@@ -804,7 +796,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-para-3": {
-        "message": "Psiphon est conçu pour fournir un accès libre au contenu en ligne. Psiphon n'augmente pas la protection des renseignements personnels en ligne, et ne devrait pas être considéré ou utilisé comme un outil de sécurité en ligne.",
+        "message": "Psiphon est conçu pour fournir un accès libre au contenu en ligne. Psiphon n'augmente pas la protection des renseignements personnels en ligne et ne devrait pas être considéré ou utilisé comme un outil de sécurité en ligne.",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-3": {
@@ -944,7 +936,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "Depuis 2008, Psiphon a aidé des millions de personnes, dans des pays aux libertés limitées de par le monde, à accéder de manière sûre à des connaissances et à des idées censurées. Psiphon peut maintenant faire la même chose pour vous.",
+        "message": "Depuis 2008, Psiphon a aidé des millions de personnes, dans des pays aux libertés limitées dans le monde entier, à accéder de manière sécuritaire à des connaissances et à des idées censurées. Psiphon peut maintenant faire la même chose pour vous.",
         "description": ""
     },
     "about-title": {
@@ -996,7 +988,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "license-termination-terms-of-service-violations-header": {
-        "message": "Résiliation ; infraction aux conditions générales d'utilisation",
+        "message": "Résiliation ; violations des conditions générales d'utilisation",
         "description": ""
     },
     "faq-section-how-psiphon-works": {
@@ -1112,7 +1104,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "what-is-psiphon-body-para-2": {
-        "message": "Psiphon est conçu pour fournir un accès libre au contenu en ligne. Psiphon n'augmente pas la protection des renseignements personnels en ligne, et ne devrait pas être considéré ou utilisé comme un outil de sécurité en ligne.",
+        "message": "Psiphon est conçu pour fournir un accès libre au contenu en ligne. Psiphon n'augmente pas la protection des renseignements personnels en ligne et ne devrait pas être considéré ou utilisé comme un outil de sécurité en ligne.",
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
@@ -1152,7 +1144,7 @@
         "description": "page title for the download page"
     },
     "faq-authentic-android-answer-para-1": {
-        "message": "Chaque client de Psiphon pour Android est livré comme fichier APK d'Android (« . apk ») signé numériquement pas Psiphon Inc. Voici la clé publique du certificat de Psiphon Inc. : ",
+        "message": "Chaque client de Psiphon pour Android est livré comme fichier APK d'Android (« . apk ») signé numériquement pas Psiphon inc. Voici la clé publique du certificat de Psiphon inc. : ",
         "description": ""
     },
     "download-android-direct": {
@@ -1164,7 +1156,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-6": {
-        "message": "Lorsque vous choisissez d'envoyer vos commentaires avec Psiphon, vous aurez la possibilité d'inclure des données de diagnostic. Nous utilisons ces données pour nous aider à dépanner tout problème que vous pourriez avoir et pour nous aider aussi à assurer un fonctionnement sans anicroche de Psiphon. L'envoi de ces données est entièrement facultatif. Les données sont chiffrées avant leur envoi et ne peuvent être déchiffrées que par nous. Les informations contenues dans les données varient selon la plateforme, mais peuvent inclure :",
+        "message": "Lorsque vous choisissez d'envoyer une rétroaction avec Psiphon, vous avez la possibilité d'inclure des données de diagnostic. Nous utilisons ces données pour nous aider à dépanner tout problème que vous pourriez avoir et aussi pour nous aider à assurer un fonctionnement fluide de Psiphon. L'envoi de ces données est entièrement facultatif. Les données sont chiffrées avant leur envoi et ne peuvent être déchiffrées que par nous. Les informations contenues dans les données varient selon la plateforme, mais peuvent inclure :",
         "description": ""
     },
     "about-who-we-are-head": {
@@ -1288,7 +1280,7 @@
         "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
     },
     "about-get-latest-info-head": {
-        "message": "Obtenir les dernières informations à propos de Psiphon",
+        "message": "Obtenir les dernières informations sur Psiphon",
         "description": ""
     },
     "user-guide-windows-image-2-alt": {
@@ -1340,7 +1332,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-bulletin-entry-item-head-who-will-see": {
-        "message": "Qui verra les données à part Psiphon Inc.",
+        "message": "Qui verra les données à part Psiphon inc.",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
@@ -1416,7 +1408,7 @@
         "description": ""
     },
     "license-distribution-para": {
-        "message": "Seuls les logiciels clients créés par Psiphon Inc. ont le droit d'utiliser le service Psiphon. Distribuer ou utiliser un client tiers ou un outil afin d'utiliser le service Psiphon est une infraction à cette licence.",
+        "message": "Seuls les logiciels clients créés par Psiphon inc. ont le droit d'utiliser le service Psiphon. Distribuer ou utiliser un client tiers ou un outil afin d'utiliser le service Psiphon est une infraction à cette licence.",
         "description": ""
     },
     "user-guide-android-image-1-alt": {
@@ -1432,7 +1424,7 @@
         "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
     },
     "main-gets-you-where-you-want-para-1": {
-        "message": "Après avoir traité avec des régimes répressifs de par le monde, nous sommes particulièrement bien positionnés pour vous aider à atteindre le contenu que vous désirez, n'importe quand et où que vous soyez. ",
+        "message": "Après avoir traité avec des régimes répressifs dans le monde entier, nous sommes particulièrement bien positionnés pour vous aider à atteindre le contenu que vous désirez, n'importe quand, où que vous soyez. ",
         "description": ""
     },
     "user-guide-android-para-verify-authentic": {
@@ -1464,7 +1456,7 @@
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {
-        "message": "Psiphon pour Windows n'est jamais distribué comme paquet installable. Chaque client Psiphon pour Windows est un seul fichier exécutable (« .exe ») qui est signé numériquement par Psiphon Inc. Windows vérifie automatiquement cette signature lorsque vous exécutez le client. Vous pouvez aussi inspecter la signature manuellement avant d'exécuter le client par le biais du menu contextuel Propriétés du fichier et en contrôlant l'onglet Signatures numériques. L'empreinte SHA1 de la clé publique du certificat de Psiphon Inc. est affichée dans l'onglet Détails du menu contextuel du Certificat.",
+        "message": "Psiphon pour Windows n'est jamais distribué comme paquet installable. Chaque client Psiphon pour Windows est un seul fichier exécutable (« .exe ») qui est signé numériquement par Psiphon inc. Windows vérifie automatiquement cette signature lorsque vous exécutez le client. Vous pouvez aussi inspecter la signature manuellement avant d'exécuter le client par le biais du menu contextuel Propriétés du fichier et en contrôlant l'onglet Signatures numériques. L'empreinte SHA1 de la clé publique du certificat de Psiphon inc. est affichée dans l'onglet Détails du menu contextuel du Certificat.",
         "description": ""
     },
     "user-guide-windows-para-6": {
