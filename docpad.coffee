@@ -337,7 +337,7 @@ docpadConfig = {
         "tk": "Türkmençe"
         "tr": "Türkçe"
         "ug@Latn": "Uyghurche"
-        "uz@cyrillic": "Ўзбекча"
+        "uz@Cyrl": "Ўзбекча"
         "uz@Latn": "O'zbekcha"
         "vi": "Tiếng Việt"
         "zh": "简体中文"
