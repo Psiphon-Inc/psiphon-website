@@ -166,13 +166,141 @@
     "message": "How do I enable Android \"sideloading\"?",
     "description": "FAQ question."
   },
+  "faq-android-enable-sideloading-answer-para-0": {
+    "message": "“Sideloading” means installing an app on your device without going through the Play Store. This is desirable for people who do not have access to the Play Store, or when the app is not available in their region.",
+    "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
+  },
   "faq-android-enable-sideloading-answer-para-1": {
-    "message": "In order to install a direct download of Psiphon for Android, you must enable \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". To do so, go into your Android settings, then into the \"Security\" section, then enable \"Unknown sources\".",
-    "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+    "message": "In order to install a direct download of Psiphon for Android, you must enable sideloading on your device. To do so, go into your Android settings, then into the “Security” section, then enable “Unknown sources”.",
+    "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
   },
   "faq-android-enable-sideloading-image-alt": {
     "message": "screenshot of enabling sideloading",
     "description": "alt text for an image"
+  },
+  "faq-ios-sideloading-question": {
+    "message": "How do I “sideload” Psiphon on my iOS device?",
+    "description": "FAQ question."
+  },
+  "faq-ios-sideloading-sideloading-answer-intro-1": {
+    "message": "“Sideloading” means installing an app on your device without going through the App Store. This is desirable for people who do not have access to the App Store, or when the app is not available in their region.",
+    "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-sideloading-answer-intro-2": {
+    "message": "Psiphon Browser can be sideloaded onto your iOS device using the <a href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> tool. Your device does not need to be jailbroken. You need to have an Apple ID account (or access to the credentials for one) and the ability to contact Apple during the side-loading process. (Depending on your countries blocking, you may need to use a VPN on your computer during the side-loading.)",
+    "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Note that 'Cydia Impactor' is the name of a third-party tool and must not be translated."
+  },
+  "faq-ios-sideloading-sideloading-answer-intro-3": {
+    "message": "Cydia Impactor works on macOS/OS X, Windows (with iTunes installed), and Linux.",
+    "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-sideloading-answer-intro-4": {
+    "message": "<strong>NOTE:</strong> If the Apple ID used for sideloading <em>is not</em> a developer account, the app will need to re-loaded each week. This limitation is imposed by Apple. If the Apple ID <em>is</em> a developer account, then the installation will be valid for a year.",
+    "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-1": {
+    "message": "<a href=\"<%= @getPageURL '/download.html' %>\">Download “PsiphonBrowser.ipa”</a> onto your computer. (It will probably be saved in your “Downloads” folder.)",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-2": {
+    "message": "Your iOS device must be connected to the Internet. Plug your iOS device into your computer. If you are prompted to “Trust this Computer?”, click the “Trust” button.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-image-1-alt": {
+    "message": "screenshot of the iOS device prompt for trusting the attached computer",
+    "description": "alt text for an iOS sideloading image"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-3": {
+    "message": "Download the latest version of <a target=\"_blank\" href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> for your operating system: <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/1\">macOS/OS X</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/2\">Windows</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/4\">Linux 32-bit</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/5\">Linux 64-bit</a>.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-4": {
+    "message": "Run Cydia Impactor.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-5": {
+    "message": "On the Impactor menu, click “Device” and then “Install Package”",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate quoted text in this string -- they are from Cydia Impactor, which is not itself translated."
+  },
+  "faq-ios-sideloading-image-2-alt": {
+    "message": "screenshot of the Cydia Impactor menu item 'Install Package'",
+    "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
+  },
+  "faq-ios-sideloading-sideloading-answer-step-6": {
+    "message": "In the file browser window that opens, navigate to where you saved “PsiphonBrowser.ipa” and double-click it.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-7": {
+    "message": "Type your Apple ID email address into the prompt that follows. Then click “OK”.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
+  },
+  "faq-ios-sideloading-image-3-alt": {
+    "message": "screenshot of the Cydia Impactor prompt for entering the user's Apple ID email address",
+    "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
+  },
+  "faq-ios-sideloading-sideloading-answer-step-8": {
+    "message": "Type your Apple ID password into the next prompt. Then click “OK”.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
+  },
+  "faq-ios-sideloading-image-4-alt": {
+    "message": "screenshot of the Cydia Impactor prompt for entering the user's Apple ID password",
+    "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
+  },
+  "faq-ios-sideloading-sideloading-answer-step-9": {
+    "message": "When Cydia Impactor is finished working, unlock your phone and open Settings. You can also unplug your device from your computer at this point.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-image-5-alt": {
+    "message": "screenshot iOS home screen Settings launcher",
+    "description": "Alt text for an iOS sideloading image"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-10": {
+    "message": "In Settings, click on “General”.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-image-6-alt": {
+    "message": "screenshot iOS Settings screen, showing the 'General' item",
+    "description": "Alt text for an iOS sideloading image"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-11": {
+    "message": "In the “General” section, scroll to the bottom and click on “Device Management”.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-image-7-alt": {
+    "message": "screenshot iOS General Settings screen, showing the 'Device Management' item",
+    "description": "Alt text for an iOS sideloading image"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-12": {
+    "message": "Click on your Apple ID email address in the screen that appears.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-image-8-alt": {
+    "message": "screenshot iOS Device Management Settings screen, showing the item corresponding to the user's email address",
+    "description": "Alt text for an iOS sideloading image"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-13": {
+    "message": "In the next screen click the item that says “Trust”.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-image-9-alt": {
+    "message": "screenshot iOS Device Management Settings screen for the current user, showing the button they press to trust their account as an app developer",
+    "description": "Alt text for an iOS sideloading image"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-14": {
+    "message": "Click “Trust” in the next dialog box to confirm the action.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-image-10-alt": {
+    "message": "screenshot iOS Device Management Settings screen for the current user, showing the prompt to confirm that they trust their account as an app developer",
+    "description": "Alt text for an iOS sideloading image"
+  },
+  "faq-ios-sideloading-sideloading-answer-step-15": {
+    "message": "Press the Home button to return to your home screen. Now you can launch Psiphon Browser.",
+    "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+  },
+  "faq-ios-sideloading-image-11-alt": {
+    "message": "screenshot iOS home screen, showing the Psiphon launcher icon",
+    "description": "Alt text for an iOS sideloading image"
   },
   "faq-information-collected-question": {
     "message": "What user information does Psiphon collect?",
