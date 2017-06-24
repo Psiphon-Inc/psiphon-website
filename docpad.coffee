@@ -58,34 +58,33 @@ docpadConfig = {
 
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
-    languages: ['en', 'fa', 'ar', 'zh', 'de', 'el', 'es', 'fi', 'fr', 'hr', 'id', 'kk', 'ko', 'nb', 'nl', 'pt_BR', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'vi', 'zh_TW']
+    languages: ['en', 'fa', 'ar', 'zh', 'bo', 'de', 'el', 'es', 'fi', 'fr', 'hr', 'id', 'kk', 'ko', 'nb', 'nl', 'pt_BR', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'vi', 'zh_TW']
 
     # Translation file location.
     translation_files:
       en: './_locales/en/messages.json'
-      fa: './_locales/fa/messages.json'
+      bo: './_locales/bo/messages.json'
       ar: './_locales/ar/messages.json'
-      zh: './_locales/zh/messages.json'
-      ru: './_locales/ru/messages.json'
-      tk: './_locales/tk/messages.json'
-      th: './_locales/th/messages.json'
-      kk: './_locales/kk/messages.json'
-      es: './_locales/es/messages.json'
-      vi: './_locales/vi/messages.json'
-      nb: './_locales/nb/messages.json'
-      fr: './_locales/fr/messages.json'
-      tr: './_locales/tr/messages.json'
       de: './_locales/de/messages.json'
       el: './_locales/el/messages.json'
+      es: './_locales/es/messages.json'
+      fa: './_locales/fa/messages.json'
       fi: './_locales/fi/messages.json'
-      ko: './_locales/ko/messages.json'
-      pt_PT: './_locales/pt_PT/messages.json'
+      fr: './_locales/fr/messages.json'
       hr: './_locales/hr/messages.json'
-
       id: './_locales/id/messages.json'
-      fi: './_locales/fi/messages.json'
+      kk: './_locales/kk/messages.json'
+      ko: './_locales/ko/messages.json'
+      nb: './_locales/nb/messages.json'
       nl: './_locales/nl/messages.json'
       pt_BR: './_locales/pt_BR/messages.json'
+      pt_PT: './_locales/pt_PT/messages.json'
+      ru: './_locales/ru/messages.json'
+      th: './_locales/th/messages.json'
+      tk: './_locales/tk/messages.json'
+      tr: './_locales/tr/messages.json'
+      vi: './_locales/vi/messages.json'
+      zh: './_locales/zh/messages.json'
       zh_TW: './_locales/zh_TW/messages.json'
 
     # Translations will be loaded into this object.
@@ -311,6 +310,7 @@ docpadConfig = {
       map =
         "ar": "العربية"
         "az": "azərbaycan dili"
+        "bo": "བོད་ཡིག"
         "cs": "Čeština"
         "de": "Deutsch"
         "el": "Ελληνικά"
