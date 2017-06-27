@@ -44,6 +44,30 @@ layout: page
       </div>
     </div>
 
+    <!-- Psiphon Browser for iOS. -->
+    <div class="row download-item">
+      <div class="download-os-with-qr">
+        <a href="<%- @downloads.iosBrowserAppStore %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot '/images/ios/ios-app-store.png' %>">
+        </a>
+      </div>
+      <div class="download-link-with-qr">
+        <h4>
+          <a href="<%- @downloads.iosBrowserAppStore %>" class="alert-link">
+            <%- @tt 'download-ios-appstore-psiphon-browser' %>
+          </a>
+        </h4>
+        <p>
+          <%- @tt 'download-ios-appstore-psiphon-browser-description' %>
+        </p>
+      </div>
+      <div class="download-qr">
+        <a href="<%- @downloads.iosBrowserAppStore %>">
+          <img class="img-responsive" src="<%= @relativeToRoot '/images/ios/psiphon-browser-app-store-qr.png' %>">
+        </a>
+      </div>
+    </div>
+
   </div>
 </div>
 

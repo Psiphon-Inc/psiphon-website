@@ -168,6 +168,7 @@ docpadConfig = {
       playstore: 'https://play.google.com/store/apps/details?id=com.psiphon3'
       playstorePro: 'https://play.google.com/store/apps/details?id=com.psiphon3.subscription'
       playstoreDevPage: 'https://play.google.com/store/apps/developer?id=Psiphon+Inc.'
+      iosBrowserAppStore: 'https://itunes.apple.com/us/app/psiphon-browser/id1193362444?ls=1&mt=8'
 
     # -----------------------------
     # Helper Functions

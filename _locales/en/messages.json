@@ -155,7 +155,7 @@
     "message": "Psiphon for Android auto-updates itself, and this process automatically verifies that each update is authentic."
   },
   "faq-unsupported-platforms-question": {
-    "message": "Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?",
+    "message": "Is Psiphon available for macOS, Linux, Windows Phone, etc.?",
     "description": "FAQ question."
   },
   "faq-unsupported-platforms-answer-para-1": {
@@ -420,7 +420,7 @@
     "message": "Does Psiphon Browser for iOS proxy all of my device's Internet traffic?"
   },
   "faq-proxy-all-ios-browser-answer-para-1": {
-    "message": "The Psiphon iOS Browser app is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network."
+    "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network."
   },
   "faq-browser-compatibility-question": {
     "message": "Is Psiphon for Windows compatible with Internet Explorer, Firefox, and Chrome web browsers?"
@@ -647,7 +647,7 @@
     "description": "text for link to Psiphon for Windows download"
   },
   "download-windows-direct-description": {
-    "message": "Works on Windows XP, Windows Vista, Windows 7, and Windows 8 (desktop)."
+    "message": "Works on Windows XP, Windows Vista, Windows 7, Windows 8 (desktop), and Windows 10."
   },
   "download-android-direct": {
     "message": "Psiphon for Android direct download",
@@ -669,6 +669,13 @@
   },
   "download-android-amazon-description": {
     "message": "Compatible with Android 2.2 and up. Whole device mode requires Android 4.0 and up or a <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">rooted device</a>."
+  },
+  "download-ios-appstore-psiphon-browser": {
+    "message": "Psiphon Browser for iOS in the Apple App Store",
+    "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
+  },
+  "download-ios-appstore-psiphon-browser-description": {
+    "message": "Available for iOS 8 and higher."
   },
   "download-store-head": {
     "message": "App Store Downloads",
