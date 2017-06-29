@@ -11,14 +11,14 @@ layout: page
             <ul>
             <% for subNavItem in navItem.subnav: %>
               <li class="<%= if subNavItem.additional_classes then subNavItem.additional_classes.join(' ') else '' %>">
-                <a href="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>"><%= @tt @getPageInfo(subNavItem.name).nav_title_key %></a>
+                <a href="<%= @getFullTranslatedURL(@getPageInfo(subNavItem.name).filename) %>"><%= @tt @getPageInfo(subNavItem.name).nav_title_key %></a>
               </li>
             <% end %>
             </ul>
           </li>
         <% else: %>
           <li class="<%= if navItem.additional_classes then navItem.additional_classes.join(' ') else '' %>">
-            <a href="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>"><%= @tt @getPageInfo(navItem.name).nav_title_key %></a>
+            <a href="<%= @getFullTranslatedURL(@getPageInfo(navItem.name).filename) %>"><%= @tt @getPageInfo(navItem.name).nav_title_key %></a>
           </li>
         <% end %>
     <% end %>

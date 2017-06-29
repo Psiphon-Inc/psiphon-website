@@ -40,23 +40,21 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
 4. Generate site, serve it, and monitor for changes:
 
   ```
-  $ node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js run --global
+  $ node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js run --cache --offline
 
   # Site builds can be quite slow. Skip language generation for faster builds:
-  # node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js run --global --env fastbuild
+  # docpad run --cache --offline --env fastbuild
   ```
 
-  (The use of a complicated `node` command instead of `docpad` is so that the generate process has more memory to work with.)
+  The use of a complicated `node` command instead of `docpad` is so that the generate process has more memory to work with. Note that it's probably more memory-reasonable to generate the site separately from serving it (using `python -m SimpleHTTPServer 9778` or whatever). See below for simply generating the site.
 
-## Generating the site for deployment
+## Generating the site
+
+The commands necessary to do a constant-memory generation have been collected in a script.
 
 ```
-$ docpad clean
-$ node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js generate --global --env static,production
+$ ./generate.py
 ```
-
-
-
 
 ## Running the site at root and below a path
 

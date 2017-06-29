@@ -7,7 +7,7 @@ layout: default
 
 <div class="row index-splash">
   <div class="col-xs-8-center">
-    <a href="<%= @getPageURL '/download.html' %>">
+    <a href="<%= @getFullTranslatedURL '/download.html' %>">
       <img src="<%= @document.pathToRoot %>/images/hero/hero-large.png"
            class="img-responsive center-block" alt="<%= @tt 'index-hero-alt' %>">
       <h1 class="slabtext-container text-center" data-max-font-size="60">

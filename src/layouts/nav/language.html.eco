@@ -5,9 +5,9 @@ layout: page
 <div class="row">
   <div class="col-md-12">
     <ul>
-    <% for language in @languages: %>
+    <% for language in @all_languages: %>
       <li>
-        <a href="<%= @document.pathToRoot %>/<%= language %>/index.html"><%= @languageLabel language %></a>
+        <a href="<%= @getFullTranslatedURL('/index.html', language) %>"><%= @languageLabel language %></a>
       </li>
     <% end %>
     </ul>
