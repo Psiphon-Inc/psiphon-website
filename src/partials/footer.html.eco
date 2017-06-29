@@ -7,7 +7,7 @@
   </div>
   <div class="row">
     <div class="col-md-12 text-center">
-      <a href="<%= @getPageURL(@pageInfo['privacy'].filename) %>">
+      <a href="<%= @getFullTranslatedURL(@pageInfo['privacy'].filename) %>">
         <%= @tt 'privacy-nav-title' %>
       </a>
     </div>

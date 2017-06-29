@@ -36,7 +36,7 @@ layout: page
 <% end %>
 
 <!-- Only show the in-your-language section if there actually are any posts in the user's language (and the user's language isn't English) -->
-<% if @document.language != 'en' and @getCollection('posts').findAllLive({languagemakered: {$exists: false}, language: @document.language}).length: %>
+<% if @document.language != 'en' and @getCollection('posts').findOne({languagemakered: {$exists: false}, language: @document.language}): %>
 
   <div class="row">
     <div class="col-md-12">
@@ -44,7 +44,7 @@ layout: page
     </div>
   </div>
 
-  <% for document in @getCollection('posts').findAllLive({languagemakered: {$exists: false}, language: @document.language}).toJSON(): %>
+  <% for document in @getCollection('posts').findAll({languagemakered: {$exists: false}, language: @document.language}).toJSON(): %>
     <%= post_info document %>
   <% end %>
 
@@ -58,6 +58,6 @@ layout: page
   </div>
 <% end %>
 
-<% for document in @getCollection('posts').findAllLive({language: 'en'}).toJSON(): %>
+<% for document in @getCollection('posts').findAll({language: 'en'}).toJSON(): %>
   <%= post_info document %>
 <% end %>

@@ -9,14 +9,14 @@
         <span class="icon-bar"></span>
       </button>
       <noscript>
-        <a class="navbar-collapse-noscript" href="<%= @getPageURL '/nav/nav.html'%>"></a>
+        <a class="navbar-collapse-noscript" href="<%= @getFullTranslatedURL '/nav/nav.html'%>"></a>
       </noscript>
     </div>
 
-    <a class="navbar-brand-img <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getPageURL '/index.html' %>">
+    <a class="navbar-brand-img <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getFullTranslatedURL '/index.html' %>">
       <img src="<%= @document.pathToRoot %>/images/psiphon-logo-navbar.png">
     </a>
-    <a class="navbar-brand navbar-brand-name <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getPageURL '/index.html' %>">
+    <a class="navbar-brand navbar-brand-name <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getFullTranslatedURL '/index.html' %>">
       <span>
         <%= @tt 'psiphon' %>
       </span>
@@ -30,13 +30,13 @@
       <% for navItem in @navLayout: %>
         <% if 'subnav' of navItem: %>
           <li class="dropdown <%- @ifRTL 'navbar-right' %>">
-            <a href="<%= @getPageURL '/nav/nav.html'%>" class="dropdown-toggle" data-toggle="dropdown">
+            <a href="<%= @getFullTranslatedURL '/nav/nav.html'%>" class="dropdown-toggle" data-toggle="dropdown">
               <%= @tt navItem.nav_title_key %> <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
             <% for subNavItem in navItem.subnav: %>
-              <li about="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" class="<%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(subNavItem.name).filename) then 'active' else '' %> <%= if subNavItem.additional_classes then subNavItem.additional_classes.join(' ') else '' %>">
-                <a href="<%= @getPageURL(@getPageInfo(subNavItem.name).filename) %>" title="<%= @tt @getPageInfo(subNavItem.name).nav_title_key %>" class="nav-link">
+              <li about="<%= @getFullTranslatedURL(@getPageInfo(subNavItem.name).filename) %>" class="<%= if @relativeToRoot(@document.url) == @getFullTranslatedURL(@getPageInfo(subNavItem.name).filename) then 'active' else '' %> <%= if subNavItem.additional_classes then subNavItem.additional_classes.join(' ') else '' %>">
+                <a href="<%= @getFullTranslatedURL(@getPageInfo(subNavItem.name).filename) %>" title="<%= @tt @getPageInfo(subNavItem.name).nav_title_key %>" class="nav-link">
                   <%= @tt @getPageInfo(subNavItem.name).nav_title_key %>
                 </a>
               </li>
@@ -44,8 +44,8 @@
             </ul>
           </li>
         <% else: %>
-          <li about="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" class="<%- @ifRTL 'navbar-right' %> <%= if @relativeToRoot(@document.url) == @getPageURL(@getPageInfo(navItem.name).filename) then 'active' else '' %> <%= if navItem.additional_classes then navItem.additional_classes.join(' ') else '' %>">
-            <a href="<%= @getPageURL(@getPageInfo(navItem.name).filename) %>" title="<%= @tt @getPageInfo(navItem.name).nav_title_key %>" class="nav-link">
+          <li about="<%= @getFullTranslatedURL(@getPageInfo(navItem.name).filename) %>" class="<%- @ifRTL 'navbar-right' %> <%= if @relativeToRoot(@document.url) == @getFullTranslatedURL(@getPageInfo(navItem.name).filename) then 'active' else '' %> <%= if navItem.additional_classes then navItem.additional_classes.join(' ') else '' %>">
+            <a href="<%= @getFullTranslatedURL(@getPageInfo(navItem.name).filename) %>" title="<%= @tt @getPageInfo(navItem.name).nav_title_key %>" class="nav-link">
               <%= @tt @getPageInfo(navItem.name).nav_title_key %>
             </a>
           </li>
@@ -55,19 +55,19 @@
     </ul>
 
     <!-- LANGUAGE SWITCHER -->
-    <% if @languages.length > 1: %>
+    
     <ul class="nav navbar-nav <%- @ifRTL 'navbar-left', 'navbar-right' %>">
       <li class="languages dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="<%= @getPageURL '/nav/language.html' %>">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="<%= @getFullTranslatedURL '/nav/language.html' %>">
           <%= @languageLabel @document.language %> <b class="caret"></b>
         </a>
         <ul class="dropdown-menu" role="menu">
-          <% for language in @languages : %>
+          <% for language in @all_languages : %>
           <li>
             <!-- If there's no translated equivalent to the current page, just link to the translated index page -->
-            <% langDoc = @documentTranslated @document, language %>
-            <% langURL = if langDoc then langDoc.url else "/#{language}/"  %>
-            <a href="<%= @relativeToRoot langURL %>">
+            
+            
+            <a href="<%= @getFullTranslatedURL @document.url, language %>">
               <%= @languageLabel language %>
             </a>
           </li>
@@ -75,7 +75,7 @@
         </ul>
       </li>
     </ul>
-    <% end %>
+    
     <!-- /LANGUAGE SWITCHER -->
 
   </div>

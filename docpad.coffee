@@ -4,6 +4,7 @@
 url = require('url')
 cheerio = require('cheerio')
 helpers = require('./helpers')
+process = require('process')
 
 
 docpadConfig = {
@@ -59,6 +60,8 @@ docpadConfig = {
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
     languages: ['en', 'fa', 'ar', 'zh', 'bo', 'de', 'el', 'es', 'fi', 'fr', 'hr', 'id', 'kk', 'ko', 'nb', 'nl', 'pt_BR', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'vi', 'zh_TW']
+    # Even if this array is modified during generation, the full list will always
+    # be available in @all_languages.
 
     # Translation file location.
     translation_files:
@@ -349,19 +352,32 @@ docpadConfig = {
         languageCode
 
 
-    # Returns the translated document object if `document` is available as a
-    # translation in `lang`, otherwise returns falsy.
-    documentTranslated: (document, targetLang) ->
-      # document url has a leading '/'
-      LANG_SPLIT_INDEX = 1
-      currLang = document.url.split('/')[LANG_SPLIT_INDEX]
-      return no if currLang not in @languages
+    # Given a full or partial `url`, returns a full URL in the desired language.
+    # If `targetLang` is not provided, the full URL will be in the current document's
+    # language; otherwise the full URL will be in the specified language.
+    # Note that `url` must start with '/'.
+    # Examples (ignoring `pathToRoot` considerations):
+    #   `getFullTranslatedURL('/download.html')` will return `/zh/download.html` if the current document language is 'zh'.
+    #   `getFullTranslatedURL('/en/download.html')` will return `/zh/download.html` if the current document language is 'zh'.
+    #   `getFullTranslatedURL('/download.html', 'kk')` will return `/kk/download.html`.
+    #   `getFullTranslatedURL('/en/download.html', 'kk')` will return `/kk/download.html`.
+    # ASSUMPTION: Only URLs that will be translated will be passed in. There is
+    # not check to verify that this resulting URL is for a valid document.
+    getFullTranslatedURL: (url, targetLang) ->
+      if url[0] != '/'
+        throw "url must start with '/': #{url}"
 
-      translatedURL = ['/'+targetLang].concat(document.url.split('/')[LANG_SPLIT_INDEX+1...]).join('/')
-      translatedDoc = @getCollection('documents').findAllLive({url: translatedURL}).toJSON()
-      return translatedDoc[0] if translatedDoc.length > 0
+      targetLang = targetLang || @document.language || 'en'
 
-      return no
+      urlSplit = url.split('/').slice(1) # slicing off the initial empty string (due to leading '/'')
+
+      # If `url` has a language in its path, remove it.
+      urlLang = urlSplit[0]
+      if urlLang in @all_languages
+        url = '/' + urlSplit.slice(1).join('/')
+
+      fullTranslatedURL = "#{@document.pathToRoot}/#{targetLang}#{url}"
+      return fullTranslatedURL
 
 
     # Returns a formatted date
@@ -370,27 +386,6 @@ docpadConfig = {
       # we're just ouputting a standard date string and then letting browser
       # code do the actual localization.
       return date.toISOString()
-
-
-    # Get the language appropriate absolute URL for a language-relative URL.
-    # For example `getPathURL('/download.html')` might return `/en/download.html`.
-    getPageURL: (partialURL) ->
-      if partialURL[0] != '/'
-        throw 'partialURL must be language-absolute: ' + partialURL
-
-      # document url has a leading '/'
-      LANG_SPLIT_INDEX = 1
-      targetLang = @document.url.split('/')[LANG_SPLIT_INDEX]
-      if targetLang not in @languages
-        # Current document isn't language-specific. Default English.
-        targetLang = 'en'
-
-      translatedURL = '/' + targetLang + partialURL
-      translatedDoc = @getCollection('documents').findAllLive({url: translatedURL}).toJSON()
-      return @document.pathToRoot + translatedDoc[0].url if translatedDoc.length > 0
-
-      # There's no language-specific version of this file. Just return the argument.
-      return @document.pathToRoot + partialURL
 
 
     getIdForDocument: (document) ->
@@ -514,6 +509,66 @@ docpadConfig = {
     renderDocument: (opts) ->
       helpers.handleRenderDocument(opts)
 
+    docpadReady: (opts) ->
+      opts.docpad.config.templateData.all_languages = opts.docpad.config.templateData.languages
+
+      # We have a magic environment parameter that allows us to split the language
+      # generation into pieces, thereby limiting memory usage. For example,
+      # `--env languagesplit_2_5` will split the language list into 5 parts, and
+      # only generate the languages in the 2nd part.
+      if not opts.docpad.config.env
+        @docpad.log('Not splitting languages: no env')
+        return @
+
+      SPLIT_REGEX = /languagesplit_(\d+)_(\d+)/
+      splitMatch = opts.docpad.config.env.match(SPLIT_REGEX)
+      if not splitMatch
+        @docpad.log('Not splitting languages: no languagesplit')
+        return @
+
+      currLangSplit = parseInt(splitMatch[1]) - 1 # zero-based
+      totalLangSplits = parseInt(splitMatch[2])
+
+      if not totalLangSplits > opts.docpad.config.templateData.languages.length
+        @docpad.fatal('docpadReady: cannot have more splits than languages')
+        process.exit(1)
+        return @
+
+      if not currLangSplit > totalLangSplits
+        @docpad.fatal('docpadReady: currLangSplit > totalLangSplits')
+        process.exit(1)
+        return @
+
+      # Adapted from https://stackoverflow.com/a/2136090/729729
+      strideSlice = (arr, start, stride) ->
+        out = []
+        i = start
+        while i < arr.length
+          out.push arr[i]
+          i += stride
+        out
+      chunkify = (list, chunkSize) ->
+        out = []
+        i = 0
+        while i < chunkSize
+          out.push strideSlice(list, i, chunkSize)
+          i++
+        out
+
+      langChunks = chunkify(opts.docpad.config.templateData.languages, totalLangSplits)
+
+      langs = langChunks[currLangSplit]
+
+      @docpad.log('Splitting languages; #langs:', opts.docpad.config.templateData.languages.length, '#splits:', totalLangSplits, 'currentSplit:', currLangSplit+1, 'currentLangs:', langs)
+
+      if langs.length == 0
+        @docpad.fatal('docpadReady: no languages to generate, probably because the splits are too small (so maybe we are done!)')
+        process.exit(1)
+        return @
+
+      opts.docpad.config.templateData.languages = langs
+
+      @
 
   # =================================
   # DocPad Environments
