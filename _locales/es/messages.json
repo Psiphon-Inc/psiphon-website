@@ -240,7 +240,7 @@
         "description": ""
     },
     "faq-proxy-all-ios-browser-question": {
-        "message": "Does Psiphon Browser for iOS proxy all of my device's Internet traffic?",
+        "message": "¿El Navegador Psiphon para iOS proxyfica todo el tráfico de Internet de mi dispositivo?",
         "description": ""
     },
     "faq-ios-sideloading-sideloading-answer-step-10": {
@@ -305,7 +305,7 @@
     },
     "faq-authentic-windows-answer-para-2017": {
         "message": "Para el certificado válido para el periodo 2014-05-08 hasta 2017-09-06 la huella de validación de clave SHA1 es:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-redirect": {
         "message": "Por favor vea nuestra <a href=\"privacy.html\">Política de privacidad</a> para saber qué información recopilamos.",
@@ -348,7 +348,7 @@
         "description": "heading for the Android section of the User Guide"
     },
     "faq-unsupported-platforms-question": {
-        "message": "¿Está Psiphon disponible para OS X, Linux, iOS, Windows Phone, etc.?",
+        "message": "¿Está disponible Psiphon para mac OS, Linux, Windows Phone, etc.?",
         "description": "FAQ question."
     },
     "faq-subsection-troubleshooting-android": {
@@ -609,7 +609,7 @@
     },
     "faq-authentic-windows-answer-para-2": {
         "message": "Para el certificado válido para el periodo 2011-06-16 hasta 2012-06-21 la huella de validación de clave SHA1 es:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "what-is-psiphon-heading": {
         "message": "¿Qué es Psiphon?",
@@ -625,7 +625,7 @@
     },
     "faq-authentic-windows-answer-para-3": {
         "message": "Para el certificado válido para el periodo 2012-05-21 hasta 2014-07-30 la huella de validación de clave SHA1 es:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-meta-title": {
         "message": "Preguntas frecuentes (FAQ)",
@@ -1040,7 +1040,7 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "Funciona en Windows XP, Windows Vista, Windows 7, y Windows 8 (escritorio).",
+        "message": "Funciona en Windows XP, Windows Vista, Windows 7, Windows 8 (escritorio), y Windows 10.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
@@ -1090,6 +1090,10 @@
     "blog-index-posts-in-your-language": {
         "message": "Posts en su idioma",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
+    },
+    "download-ios-appstore-psiphon-browser-description": {
+        "message": "Disponible para iOS 8 o superior.",
+        "description": ""
     },
     "faq-isp-traffic-question": {
         "message": "¿Mi ISP puede ver lo que estoy haciendo en Internet mientras estoy usando Psiphon?",
@@ -1274,6 +1278,10 @@
     "download-android-amazon": {
         "message": "Psiphon para Android en la Tienda de Apps de Amazon",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
+    },
+    "download-ios-appstore-psiphon-browser": {
+        "message": "Navegador Psiphon para iOS en la Apple App Store.",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "user-guide-windows-image-1-alt": {
         "message": "Imagen que muestra la advertencia de seguridad de Windows para el ejecutable de Psiphon",
@@ -1487,6 +1495,10 @@
         "message": "Acerca de nosotros",
         "description": "text for the About page navigation item"
     },
+    "faq-authentic-windows-answer-para-2020": {
+        "message": "Para el certificado válido para el periodo 2017-07-05 a 2020-10-03 la huella de validación SHA1 es:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "¿Con qué frecuencia es usado cada protocolo? y los códigos de error después de las fallas",
         "description": ""
@@ -1496,7 +1508,7 @@
         "description": ""
     },
     "faq-ios-sideloading-sideloading-answer-step-1": {
-        "message": "<a href=\"download.html\">\">Descargue “PsiphonBrowser.ipa”</a> en su computadora (probablemente se guardará en su carpeta \"Descargas\").",
+        "message": "<a href=\"download.html\">Descargue “PsiphonBrowser.ipa”</a> en su equipo (probablemente se guardará en su carpeta \"Descargas\").",
         "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "privacy-information-collected-client-advertising-networks-head": {
@@ -1580,7 +1592,7 @@
         "description": ""
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "The Psiphon iOS Browser app is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
+        "message": "El Navegador Psiphon para iOS es una aplicación sólo-navegador y por tanto sólo encauzará datos por túnel mediante el Navegador Psiphon, y no enrutará el resto de sus aplicaciones (como sus aplicaciones de Facebook o Twitter) a través de la red Psiphon. Así que, por ejempo, si quiso usar la red Psiphon para acceder a su cuenta de Facebook, usaría nuestra aplicación para ir a Facebook a través de la aplicación Navegador Psiphon para iOS. Si fuera a abrir su aplicación de Facebook, se enrutaría a través de su Wi-Fi o conexión móvil/celular de datos, no a través del la red Psiphon.",
         "description": ""
     },
     "faq-mail-apps-ports-question": {

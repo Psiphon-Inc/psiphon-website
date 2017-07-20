@@ -240,7 +240,7 @@
         "description": ""
     },
     "faq-proxy-all-ios-browser-question": {
-        "message": "Does Psiphon Browser for iOS proxy all of my device's Internet traffic?",
+        "message": "آیا مرورگر سایفون برای IOS تمام ترافیک اینترنت دستگاه من را پروکسی می‌کند؟",
         "description": ""
     },
     "faq-ios-sideloading-sideloading-answer-step-10": {
@@ -305,7 +305,7 @@
     },
     "faq-authentic-windows-answer-para-2017": {
         "message": "برای مجوزهایی که از 2014-05-08 تا2017-09-06 مجاز هستند اثر انگشت SHA1  عبارت است از:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-redirect": {
         "message": "لطفا به منظور مشاهده اطلاعاتی که ما جمع آوری می کنیم، صفحه <a href=\"privacy.html\">سیاست های حفظ حریم خصوصی</a> را مشاهده کنید.",
@@ -609,7 +609,7 @@
     },
     "faq-authentic-windows-answer-para-2": {
         "message": "برای گواهینامه هایی که از تاریخ 2011-06-16 تا 2012-06-21 مجاز هستند اثر انگشت SHA1 عبارت است از:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "what-is-psiphon-heading": {
         "message": "سایفون چیست؟",
@@ -625,7 +625,7 @@
     },
     "faq-authentic-windows-answer-para-3": {
         "message": "برای گواهینامه هایی که از تاریخ 2012-05-21 تا 2014-07-30 مجاز هستند اثر انگشت SHA1 عبارت است از:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-meta-title": {
         "message": "سوال های متداول ",
@@ -1040,7 +1040,7 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "روی ویندوز اکس پی، ویستا، ٧ و ٨ کار می‌کند  ",
+        "message": "دارای قابلیت کار در ویندوز اکس‌پی، ویستا، ۷، ۸ (دسکتاپ)،‌ و ۱۰",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
@@ -1090,6 +1090,10 @@
     "blog-index-posts-in-your-language": {
         "message": "مطالب فارسی",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
+    },
+    "download-ios-appstore-psiphon-browser-description": {
+        "message": "یرای نسخه‌ی ۸ یا بالاتر ‌آی‌او‌اس در دسترس است. ",
+        "description": ""
     },
     "faq-isp-traffic-question": {
         "message": "آیا سرویس دهنده اینترنت امکان رصد فعالیت های من را در زمان استفاده از سایفون دارد؟",
@@ -1274,6 +1278,10 @@
     "download-android-amazon": {
         "message": "سایفون برای اندورید دراپ استورآمازون ",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
+    },
+    "download-ios-appstore-psiphon-browser": {
+        "message": "مرورگر‌ سایفون برای آی‌او‌اس در اپ‌استور اپل",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "user-guide-windows-image-1-alt": {
         "message": "عکس نشانگر هشدارامنیتی ویندوز برای فایل اجرایی سایفون است.  ",
@@ -1487,6 +1495,10 @@
         "message": "درباره ما ",
         "description": "text for the About page navigation item"
     },
+    "faq-authentic-windows-answer-para-2020": {
+        "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "میزان استفاده از پروتکل‌های استفاده شده و پیامهای خطا بعد ازناکارآمدی",
         "description": ""
@@ -1496,7 +1508,7 @@
         "description": ""
     },
     "faq-ios-sideloading-sideloading-answer-step-1": {
-        "message": "<a href=\"download.html\">دانلود \"PsiphonBrowser.ipa\"</a> بر روی کامپیوتر شما. ( این برنامه به احتمال زیاد در فولدر \"Downloads\" ذخیره خواهد شد.)",
+        "message": "<a href=\"<%= @getPageURL '/download.html' %>دانلود \"PsiphonBrowser.ipa\"</a> بر روی کامپیتور خود. ( این برنامه به احتمال زیاد در فولدر \"Downloads\" ذخیره خواهد شد.)",
         "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "privacy-information-collected-client-advertising-networks-head": {
@@ -1580,7 +1592,7 @@
         "description": ""
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "The Psiphon iOS Browser app is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
+        "message": "مرورگر سایفون برای IOS فقط یک برنامه مرورگر است و فقط از مرورگر سایفون تونل داده می شود, و دیگر برنامه های شما  (مانند برنامه های فیسبوک و توییتر) از طریق شبکه سایفون میسر نمی شود. بنابراین, به عنوان مثال, اگر شما می خواهید از شبکه Psiphon برای دسترسی به حساب فیس بوک خود استفاده کنید، از برنامه ما برای رفتن به فیس بوک از طریق برنامه Psiphon iOS Browser استفاده کنید. اگر شما برنامه فیسبوک خود را باز کردید، از طریق Wi-Fi یا ارتباط داده های تلفن همراه خود، از طریق شبکه Psiphon مسیر می شود.",
         "description": ""
     },
     "faq-mail-apps-ports-question": {

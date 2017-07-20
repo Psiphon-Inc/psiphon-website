@@ -305,7 +305,7 @@
     },
     "faq-authentic-windows-answer-para-2017": {
         "message": "证书有效期2014年-05月-08日到2017年-09月-06日 SHA1指纹是：",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-redirect": {
         "message": "请参阅我们的<a href=\"privacy.html\">隐私政策</a>了解我们收集哪些信息。",
@@ -348,7 +348,7 @@
         "description": "heading for the Android section of the User Guide"
     },
     "faq-unsupported-platforms-question": {
-        "message": "Psiphon 可以用在 OS X、Linux、iOS、Windows Phone 等平台吗？",
+        "message": "Is Psiphon available for macOS, Linux, Windows Phone, etc.?",
         "description": "FAQ question."
     },
     "faq-subsection-troubleshooting-android": {
@@ -609,7 +609,7 @@
     },
     "faq-authentic-windows-answer-para-2": {
         "message": "有效期从2011年-06月-16日到2012年-06月-21日的证书的 SHA1指纹是：",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "what-is-psiphon-heading": {
         "message": "什么是赛风？",
@@ -625,7 +625,7 @@
     },
     "faq-authentic-windows-answer-para-3": {
         "message": "证书有效期2012年-05月-21日到2014年-07月-30日 SHA1指纹是：",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-meta-title": {
         "message": "常见问题与解答",
@@ -1040,7 +1040,7 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "支持 Windows XP、Windows Vista、Windows 7 和 Windows 8（桌面模式）。",
+        "message": "支持 Windows XP、Windows Vista、Windows 7、Windows 8（桌面模式）和 Windows 10。",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
@@ -1090,6 +1090,10 @@
     "blog-index-posts-in-your-language": {
         "message": "用中文发布",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
+    },
+    "download-ios-appstore-psiphon-browser-description": {
+        "message": "Available for iOS 8 and higher.",
+        "description": ""
     },
     "faq-isp-traffic-question": {
         "message": "在我使用赛风时，我的互联网服务提供商能看到我在做什么吗？",
@@ -1274,6 +1278,10 @@
     "download-android-amazon": {
         "message": "亚马逊应用商店中的赛风安卓版",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
+    },
+    "download-ios-appstore-psiphon-browser": {
+        "message": "Psiphon Browser for iOS in the Apple App Store",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "user-guide-windows-image-1-alt": {
         "message": "显示 赛风可执行文件引发的 Windows系统安全警告的图像",
@@ -1487,6 +1495,10 @@
         "message": "关于我们",
         "description": "text for the About page navigation item"
     },
+    "faq-authentic-windows-answer-para-2020": {
+        "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "多长时间使用这些协议？失败后的错误代码是什么？",
         "description": ""
@@ -1580,7 +1592,7 @@
         "description": ""
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "The Psiphon iOS Browser app is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
+        "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
         "description": ""
     },
     "faq-mail-apps-ports-question": {

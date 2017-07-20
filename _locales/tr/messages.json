@@ -305,7 +305,7 @@
     },
     "faq-authentic-windows-answer-para-2017": {
         "message": "2014-05-08 ve 2017-09-06 arasında geçerli sertifika için SHA1 parmak izi:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-redirect": {
         "message": "Lütfen topladığımız bilgiler hakkında daha fazlasını öğrenmek için <a href=\"privacy.html\">Gizlilik İlkemize</a> bakın.",
@@ -348,7 +348,7 @@
         "description": "heading for the Android section of the User Guide"
     },
     "faq-unsupported-platforms-question": {
-        "message": "Psiphon'un OS X, Linux, İOS, Windows Phone, vs. için sürümleri mevcut mu?",
+        "message": "Psiphon'un macOS, Linux, Windows Phone, vs. için sürümleri mevcut mu?",
         "description": "FAQ question."
     },
     "faq-subsection-troubleshooting-android": {
@@ -376,7 +376,7 @@
         "description": ""
     },
     "faq-ios-sideloading-sideloading-answer-step-14": {
-        "message": "Click “Trust” in the next dialog box to confirm the action.",
+        "message": "İşlemi onaylamak için sonraki pencerede \"Güven\" tıklayın.",
         "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-who-we-are-exec-team-head": {
@@ -609,7 +609,7 @@
     },
     "faq-authentic-windows-answer-para-2": {
         "message": "2011-06-16 ve 2012-06-21 arasında geçerli sertifika için SHA1 parmak izi:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "what-is-psiphon-heading": {
         "message": "Psiphon nedir?",
@@ -625,7 +625,7 @@
     },
     "faq-authentic-windows-answer-para-3": {
         "message": "2012-05-21 ve 2014-07-30 arasında geçerli sertifika için SHA1 parmak izi:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-meta-title": {
         "message": "Sıkça Sorulan Sorular",
@@ -772,7 +772,7 @@
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-ios-sideloading-image-4-alt": {
-        "message": "screenshot of the Cydia Impactor prompt for entering the user's Apple ID password",
+        "message": "Cydia Impactor uygulamasının kullanıcıdan Apple Kimliği parolası girmesini isterken ekran görüntüsü",
         "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "page-keyword-how-to": {
@@ -960,7 +960,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-android-enable-sideloading-answer-para-1": {
-        "message": "In order to install a direct download of Psiphon for Android, you must enable sideloading on your device. To do so, go into your Android settings, then into the “Security” section, then enable “Unknown sources”.",
+        "message": "Android için Psiphon'ı doğrudan indirebilmek için,  cihazınızda yan yükleme özelliğini etkinleştirmelisiniz. Bunu yapmak için Android ayarlarına gidip, ardından \"Güvenlik\" alanındaki \"Bilinmeyen kaynaklar\" seçeneğini etkinleştirmelisiniz.",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-isp-traffic-answer-para-4": {
@@ -1040,7 +1040,7 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "Windows XP, Windows Vista, Windows 7 ve Windows 8 (masaüstü) işletim sistemlerinde çalışır.",
+        "message": "Windows XP, Windows Vista, Windows 7, Windows 8 (masaüstü) ve Windows 10 işletim sistemlerinde çalışır.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
@@ -1090,6 +1090,10 @@
     "blog-index-posts-in-your-language": {
         "message": "Türkçe Gönderiler",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
+    },
+    "download-ios-appstore-psiphon-browser-description": {
+        "message": "Available for iOS 8 and higher.",
+        "description": ""
     },
     "faq-isp-traffic-question": {
         "message": "ISS'ım Psiphon kullanırken yaptıklarımı görebilir mi?",
@@ -1274,6 +1278,10 @@
     "download-android-amazon": {
         "message": "Amazon AppStore içerisindeki Android için Psiphon",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
+    },
+    "download-ios-appstore-psiphon-browser": {
+        "message": "Psiphon Browser for iOS in the Apple App Store",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "user-guide-windows-image-1-alt": {
         "message": "Psiphon çalıştırılabilir dosyası için Windows güvenlik uyarısını gösteren resim",
@@ -1476,7 +1484,7 @@
         "description": ""
     },
     "faq-ios-sideloading-image-8-alt": {
-        "message": "screenshot iOS Device Management Settings screen, showing the item corresponding to the user's email address",
+        "message": "iOS Cihaz Yönetim Ayarları ekranı, kullanıcı e-posta adresine ait ögeyi gösteriyor",
         "description": "Alt text for an iOS sideloading image"
     },
     "page-keyword-http-proxy": {
@@ -1486,6 +1494,10 @@
     "about-nav-title": {
         "message": "Hakkımızda",
         "description": "text for the About page navigation item"
+    },
+    "faq-authentic-windows-answer-para-2020": {
+        "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "Her protokolün ne kadar sıklıkla kullanıldığı ve başarısızlıktan sonraki hata kodları",
@@ -1536,7 +1548,7 @@
         "description": ""
     },
     "faq-ios-sideloading-image-1-alt": {
-        "message": "screenshot of the iOS device prompt for trusting the attached computer",
+        "message": "İliştirilmiş bilgisayara güvenilmesi için iOS aygıtı sorgusu",
         "description": "alt text for an iOS sideloading image"
     },
     "user-guide-android-image-1-alt": {
@@ -1580,7 +1592,7 @@
         "description": ""
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "The Psiphon iOS Browser app is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
+        "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
         "description": ""
     },
     "faq-mail-apps-ports-question": {

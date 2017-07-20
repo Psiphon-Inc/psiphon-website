@@ -305,7 +305,7 @@
     },
     "faq-authentic-windows-answer-para-2017": {
         "message": "For the certificate valid for the period 2014-05-08 to 2017-09-06 the SHA1 thumbprint is:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-redirect": {
         "message": "Please see our <a href=\"privacy.html\">Privacy Policy</a> to learn about what information we collect.",
@@ -348,7 +348,7 @@
         "description": "heading for the Android section of the User Guide"
     },
     "faq-unsupported-platforms-question": {
-        "message": "Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?",
+        "message": "Is Psiphon available for macOS, Linux, Windows Phone, etc.?",
         "description": "FAQ question."
     },
     "faq-subsection-troubleshooting-android": {
@@ -609,7 +609,7 @@
     },
     "faq-authentic-windows-answer-para-2": {
         "message": "For the certificate valid for the period 2011-06-16 to 2012-06-21 the SHA1 thumbprint is:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "what-is-psiphon-heading": {
         "message": "O que é Psiphon?",
@@ -625,7 +625,7 @@
     },
     "faq-authentic-windows-answer-para-3": {
         "message": "For the certificate valid for the period 2012-05-21 to 2014-07-30 the SHA1 thumbprint is:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-meta-title": {
         "message": "Frequently Asked Questions",
@@ -1040,7 +1040,7 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "Works on Windows XP, Windows Vista, Windows 7, and Windows 8 (desktop).",
+        "message": "Works on Windows XP, Windows Vista, Windows 7, Windows 8 (desktop), and Windows 10.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
@@ -1090,6 +1090,10 @@
     "blog-index-posts-in-your-language": {
         "message": "Publicações no seu idioma",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
+    },
+    "download-ios-appstore-psiphon-browser-description": {
+        "message": "Available for iOS 8 and higher.",
+        "description": ""
     },
     "faq-isp-traffic-question": {
         "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
@@ -1274,6 +1278,10 @@
     "download-android-amazon": {
         "message": "Psiphon for Android in the Amazon AppStore",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
+    },
+    "download-ios-appstore-psiphon-browser": {
+        "message": "Psiphon Browser for iOS in the Apple App Store",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "user-guide-windows-image-1-alt": {
         "message": "Image showing the Windows security warning for the Psiphon executable",
@@ -1487,6 +1495,10 @@
         "message": "Sobre Nós",
         "description": "text for the About page navigation item"
     },
+    "faq-authentic-windows-answer-para-2020": {
+        "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "How often each protocol is used, and error codes after failure",
         "description": ""
@@ -1580,7 +1592,7 @@
         "description": ""
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "The Psiphon iOS Browser app is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
+        "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
         "description": ""
     },
     "faq-mail-apps-ports-question": {
