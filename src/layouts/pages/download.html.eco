@@ -24,6 +24,7 @@ layout: page
     <div class="row download-item">
       <div class="download-os-with-qr">
         <a href="<%- @downloads.playstoreDevPage %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/android-psiphon-logo.png' %>">
           <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/google-play-store.png' %>">
         </a>
       </div>
@@ -44,10 +45,36 @@ layout: page
       </div>
     </div>
 
+    <!-- Psiphon VPN for iOS. -->
+    <div class="row download-item">
+      <div class="download-os-with-qr">
+        <a href="<%- @downloads.iosVpnAppStore %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot '/images/ios/ios-vpn-logo.png' %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot '/images/ios/ios-app-store.png' %>">
+        </a>
+      </div>
+      <div class="download-link-with-qr">
+        <h4>
+          <a href="<%- @downloads.iosVpnAppStore %>" class="alert-link">
+            <%- @tt 'download-ios-appstore-psiphon-vpn' %>
+          </a>
+        </h4>
+        <p>
+          <%- @tt 'download-ios-appstore-psiphon-vpn-description' %>
+        </p>
+      </div>
+      <div class="download-qr">
+        <a href="<%- @downloads.iosVpnAppStore %>">
+          <img class="img-responsive" src="<%= @relativeToRoot '/images/ios/psiphon-vpn-app-store-qr.png' %>">
+        </a>
+      </div>
+    </div>
+
     <!-- Psiphon Browser for iOS. -->
     <div class="row download-item">
       <div class="download-os-with-qr">
         <a href="<%- @downloads.iosBrowserAppStore %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot '/images/ios/ios-browser-logo.png' %>">
           <img class="download-os-logo" src="<%= @relativeToRoot '/images/ios/ios-app-store.png' %>">
         </a>
       </div>
@@ -81,6 +108,7 @@ layout: page
   <div class="row download-item show-if-android">
     <div class="download-os-with-qr">
       <a href="<%- @relativeToRoot @downloads.android %>">
+        <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/android-psiphon-logo.png' %>">
         <img class="download-os-logo" src="<%= @relativeToRoot '/images/android/android-logo.png' %>">
       </a>
     </div>
@@ -101,10 +129,10 @@ layout: page
     </div>
   </div>
 
-
   <div class="row download-item show-if-windows">
     <div class="download-os">
       <a href="<%- @relativeToRoot @downloads.windows %>">
+        <img class="download-os-logo" src="<%= @relativeToRoot '/images/windows/windows-psiphon-logo.png' %>">
         <img class="download-os-logo" src="<%= @relativeToRoot '/images/windows-logo.png' %>">
       </a>
     </div>
