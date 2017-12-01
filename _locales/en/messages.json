@@ -118,7 +118,7 @@
     "description": "Section heading for FAQ entries that don't fit in any other category."
   },
   "faq-authentic-windows-image-alt": {
-    "message": "Image showing how to check the Psiphon executable signature on Windows",
+    "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
     "description": "alt text for an image"
   },
   "faq-authentic-windows-question": {
@@ -182,7 +182,7 @@
     "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
   },
   "faq-android-enable-sideloading-image-alt": {
-    "message": "screenshot of enabling sideloading",
+    "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
     "description": "alt text for an image"
   },
   "faq-information-collected-question": {
@@ -316,7 +316,7 @@
     "description": "FAQ question. Note that 'port' is referring to network ports."
   },
   "faq-port-restrictions-answer-para-1": {
-    "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information.",
+    "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
     "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
   },
   "faq-mail-apps-ports-question": {
@@ -601,16 +601,12 @@
   "user-guide-android-para-4": {
     "message": "Once the app has connected to the network, it will launch the built-in Psiphon browser. Psiphon for Android does not automatically tunnel the traffic for the default Android browser or other apps. By default, only the Psiphon browser is tunneled through the Psiphon network."
   },
-  "user-guide-android-image-1-alt": {
-    "message": "Image showing the Android setting for allowing non-Play Store apps",
-    "description": "alt text for an image"
-  },
   "user-guide-android-ui-status-image-alt": {
-    "message": "Image showing Psiphon running on Android, on the status panel",
+    "message": "Screenshot of Psiphon for Android showing the status panel",
     "description": "alt text for an image"
   },
   "user-guide-android-image-3-alt": {
-    "message": "Image showing the different parts of the Psiphon Android web browser",
+    "message": "Screenshot showing the Psiphon for Android web browser",
     "description": "alt text for an image"
   },
   "user-guide-android-image-3-annotation-1": {
@@ -654,7 +650,7 @@
     "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
   },
   "user-guide-android-ui-logs-image-alt": {
-    "message": "Image showing Psiphon running on Android, on the logs panel",
+    "message": "Screenshot showing the Psiphon for Android logs panel",
     "description": "alt text for an image"
   },
   "user-guide-android-ui-logs-image-annotation-1": {
@@ -662,7 +658,7 @@
     "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
   },
   "user-guide-android-ui-statistics-image-alt": {
-    "message": "Image showing Psiphon running on Android, on the statistics panel",
+    "message": "Screenshot showing the Psiphon for Android statistics panel",
     "description": "alt text for an image"
   },
   "user-guide-android-ui-statistics-image-annotation-1": {
@@ -711,15 +707,15 @@
     "message": "When you close the program, Psiphon automatically disconnects. You can also click on the icon to toggle the connection."
   },
   "user-guide-windows-image-1-alt": {
-    "message": "Image showing the Windows security warning for the Psiphon executable",
+    "message": "Screenshot showing the Windows security warning for the Psiphon executable",
     "description": "alt text for an image"
   },
   "user-guide-windows-image-2-alt": {
-    "message": "Image showing Psiphon starting up on Windows",
+    "message": "Screenshot showing Psiphon starting up on Windows",
     "description": "alt text for an image"
   },
   "user-guide-windows-image-3-alt": {
-    "message": "Image showing Psiphon connected on Windows",
+    "message": "Screenshot showing Psiphon connected on Windows",
     "description": "alt text for an image"
   },
   "blog-index-title": {
@@ -822,7 +818,7 @@
     "message": "Statement of Limitations of Liability"
   },
   "license-statement-of-limitations-of-liability-para": {
-    "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption."
+    "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption."
   },
   "license-termination-terms-of-service-violations-header": {
     "message": "Termination; Terms of Service Violations"
