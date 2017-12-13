@@ -47,6 +47,10 @@
         "message": "تماس با ما",
         "description": ""
     },
+    "faq-ios-sideloading-sideloading-answer-step-15": {
+        "message": "دکمه‌ی خانه را بزنید تا به صفحه‌ی خانه برگردید. حالا می‌توانید مرورگر سایفون را باز کنید.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "privacy-description": {
         "message": "سیاست حفظ حریم خصوصی سایفون",
         "description": "description for the Privacy Policy page"
@@ -63,6 +67,10 @@
         "message": "سایفون",
         "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
+    "faq-mobile-hotspot-question": {
+        "message": "چرا هات‌اسپات موبایل اندروید و امکان اشتراک داده (tethering) برای سایفون کار نمی‌کند؟",
+        "description": "FAQ question."
+    },
     "faq-android-enable-sideloading-image-alt": {
         "message": "تصویری از روش فعال کردن ساید لودینگ",
         "description": "alt text for an image"
@@ -78,6 +86,10 @@
     "about-get-latest-info-para-1-developers-list": {
         "message": "توسعه دهندگان سایفون",
         "description": "text for link to the Psiphon Developers mailing list"
+    },
+    "faq-section-miscellaneous": {
+        "message": "متفرقه",
+        "description": "Section heading for FAQ entries that don't fit in any other category."
     },
     "about-who-we-are-software-development-para-2": {
         "message": "به همچنین ما میدانیم که بسیار مهم است که برای کاربران سخت کار کنیم تا تجربه بهتری از استفاده نرم افزار های ما ببرند. ما تمام سعی و تلاش خود را برای محافظت از کاربران و داده های آنها میکنیم. کاربران شاید تلاش ما برای این حفاظت اطلاعات آنها را هیچ وقت مشاهده نکنند, ولی ما میدانیم که آنها از تلاش های ما قدردانی میکنند.",
@@ -103,6 +115,10 @@
         "message": "حریم خصوصی",
         "description": "page title for the Privacy Policy page"
     },
+    "faq-ios-sideloading-sideloading-answer-step-5": {
+        "message": "در منوی Impactor، بر روی \"Device\" و بعد روی \"Install Package\" کلیک کنید",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate quoted text in this string -- they are from Cydia Impactor, which is not itself translated."
+    },
     "faq-information-collected-answer-para-12": {
         "message": "سرویس پاسخ خودکار ایمیل ما از سوی ابر EC2 آمازون میزبانی می شود. ما برای هر درخواست دو ایمیل ارسال می کنیم، و برای یکی از آن ها از SES آمازون استفاده می کنیم. این به معنی آن است که آمازون می تواند آدرس ایمیل شما و پاسخ ما را مشاهده کند.",
         "description": ""
@@ -114,6 +130,10 @@
     "main-gets-you-there-safely-para-1": {
         "message": "اینترنت آزاد خوبه، ولی کوکی ها و اکانت های دزدیده شده خوب نیست. سایفون یک راه امن به اینترنت را به شما می‌دهد. و مهم نیست برای چه و به چه شبکه‌ای متصل هستید.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-3": {
+        "message": "دانلود آخرین نسخه‌ی <a target=\"_blank\" href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> برای سیستم‌عامل‌های: <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/1\">مک</a>، <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/2\">ویندوز</a>، <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/4\">لینوکس ۳۲ بیت</a>، <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/5\">لینوکس ۶۴ بیت</a>",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "user-guide-android-image-3-alt": {
         "message": "عکس نشانگر قسمت های مختلف مرورگر اندورید سایفون است",
@@ -127,10 +147,6 @@
         "message": "استفاده شخصی یا مشخص شده",
         "description": ""
     },
-    "faq-information-collected-answer-para-2-item-6": {
-        "message": "آمار بازدیدکنندگان ( اطلاعات کامل برای وب سایت‌های حامیان)",
-        "description": ""
-    },
     "user-guide-android-ui-logs-image-alt": {
         "message": "عکس نشانگرسایفون در حال اجرا در قسمت ارقام روی اندورید است.    ",
         "description": "alt text for an image"
@@ -141,15 +157,23 @@
     },
     "faq-android-enable-sideloading-question": {
         "message": "چطور امکان \"ساید لودینگ\" اندروید را فعال کنم؟",
-        "description": ""
+        "description": "FAQ question."
     },
     "privacy-information-collected-websites-google-analytics-para-1": {
         "message": "ما از گوگل آنالیتیک به منظور جمع آوری اطلاعات مصرفی بر روی برخی از وب سایت هایمان استفاده می کنیم. اطلاعات به دست آمده از گوگل آنالیتیک تنها به منظور تحلیل آماری مرتبط با رفتار شما در همان سایت به خصوص استفاده می شود. این اطلاعات به دست آمده حاوی اطلاعات شناسایی فردی نیستند و با اطلاعات به دست آمده از هیچ منبع دیگری که فرد را قابل شناسایی کند ادغام نمی شوند.",
         "description": ""
     },
+    "faq-screen-filter-answer-para-1": {
+        "message": "مطمئن شوید که از اپلیکیشن‌های فیلتر تصویر که میزان روشنی تصویرتان را مدیریت می‌کند، استفاده نمی‌کنید. اگر جواب مثبت است، این اپلیکیشن را غیرفعال کنید. بسیاری از اپلیکیشن‌هایی از این دست (مانند Lux Auto Brightness, Twilight و Night Mode) در قابلیت مذکور اختلال ایجاد می‌کنند. ",
+        "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
+    },
     "faq-port-restrictions-question": {
-        "message": "آیا با محدویتی در رابطه با پورت وی‌پی‌ان دارید؟ چرا نمی‌توانم درحالت وی‌پی‌ان ایمیلی را ارسال کنم؟",
-        "description": ""
+        "message": "آیا محدودیتی برای پورت‌ها در هنگام استفاده از سایفون وجود دارد؟",
+        "description": "FAQ question. Note that 'port' is referring to network ports."
+    },
+    "faq-ie6-docbody-question": {
+        "message": "سایفون برای ویندوز خطای «doc.body is null or not an object» را می‌دهد و کار نمی‌کند.",
+        "description": "FAQ question."
     },
     "faq-ssh-plus-question": {
         "message": "می خواهید چه پروتکلی به طور پیش فرض برای تونل سایفون استفاده کنید؟",
@@ -158,6 +182,10 @@
     "about-who-we-are-software-development-para-1": {
         "message": "در سایفون, ما میخواهیم کا کاربرانمان تجربه خوبی از استفاده برنامه های ما داشته باشند. این یعنی که نرم افزار های ما برای استفاده باید راحت باشند, شبکه ما باید سریع باشد و هردو باید پایدار باشند. دسترسی به این برای هر توسه دهنده نرم افزار بسیار مشکل است, به خصوص وقتی این نرم افزار باید در شرایطی سخت و محیطی خصمانه, در زبان های گوناگون و پلتفرم های مختلف کار کند.     ",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-9": {
+        "message": "بعد از پایان رسیدن کار Cydia Impactor، موبایل خود را باز کنید و به قسمت Settings بروید. در این لحظه شما نیز می‌توانید دستگاه خود را از کامپیوتر جدا کنید. ",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "sponsor-nav-title": {
         "message": "حامی",
@@ -188,7 +216,7 @@
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "برخی از سخت افزارهای شبکه و یا ارتباطات اینترنت مشکلاتی را برای L2TP/IPSec که پروتکل های مورد استفاده در حالت وی پی ان سایفون است به وجود می آورد. حالت وی پی ان را غیر فعال کرده و مجددا تلاش کنید.",
+        "message": "برخی ارتباطات اینترنتی یا شبکه‌های سخت‌افزاری ممکن است بر روی عملکرد L2TP/IPsec یا همان پروتکلی که سایفون در وضعیت وی‌پی‌ان از آن استفاده می‌کند، مشکلاتی ایجاد کنند. ابتدا این وضعیت وی‌پی‌ان را غیرفعال کنید. ",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -211,6 +239,14 @@
         "message": "ما در حال به روز رسانی <a href=\"privacy.html\">سیاست های حفظ حریم خصوصی</a> هستیم. این مساله شامل تغییر در سوال \"سایفون چه اطلاعاتی را جمع آوری می کند؟\" در بخش سوالات متداول نیز می شود.",
         "description": ""
     },
+    "faq-proxy-all-ios-browser-question": {
+        "message": "آیا مرورگر سایفون برای IOS تمام ترافیک اینترنت دستگاه من را پروکسی می‌کند؟",
+        "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-10": {
+        "message": "در قسمت Settings، بر روی دکمه‌ی \"General\" کلیک کنید.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "about-description": {
         "message": "با تیمی که نرم افزار عبور از فیلتر سایفون را طراحی کرده اند، دیدار کنید",
         "description": "description for the About page"
@@ -227,6 +263,14 @@
         "message": "چرا پیغام \" خطا در برقراری ارتباط \" را مرتباً دریافت می‌کنم؟",
         "description": ""
     },
+    "faq-ie6-docbody-answer-xpie8": {
+        "message": "Internet Explorer 8 for Windows XP",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
+    },
+    "faq-ios-sideloading-image-7-alt": {
+        "message": "عکس از صفحه‌ی iOS General Setting، که آیتم \"Device Management\" را نشان می‌دهد.",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "faq-information-collected-answer-head-2": {
         "message": "بازخوردها",
         "description": ""
@@ -238,6 +282,10 @@
     "faq-authentic-windows-question": {
         "message": "آیا سایفون ۳ من برای ویندوز معتبر است؟",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-para-2": {
+        "message": "اگر نمی‌توانید ویندوز را به‌روز کنید و می‌خواهید اینترنت اکسپلورر ۷ یا ۸ را مستقیماً نصب کنید می‌توانید آنها را از لینک‌های زیر بگیرید:",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
     "faq-ip-change-answer-para-1": {
         "message": "کلاینت سایفون ٣ شما بصورت اتوماتیک سرورهای جدید سایفون را شناسایی می‌کند. هنگامیکه آخرین سرور استفاده شده غیر قابل دسترسی باشد، سرور دیگری جایگزین می‌گردد.",
@@ -252,16 +300,24 @@
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "مایکل هال مدیر ارشد عملیات سایفون است, و از زمان شروع پروژه سایفون در سیتیزن لب دانشگاه تورونتو با این شرکت بوده است. ازآن زمان مایکل توسعه نرم افزار در سایفون را هدایت کرده و با پرورش خلاقیت کمک کرده تا سایفون را دراوج فعالیت خود نگه دارد.   ",
+        "message": "مایکل هال رئیس شرکت سایفون است و از همان آغاز، که سایفون به عنوان پروژه‌ای در Citizen Lab دانشگاه تورنتو بود، همراه با سایفون مشغول به کار شد. او از همان زمان برای توسعه‌ی نرم افزار و کمک به آن تلاش می کند.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2017": {
         "message": "برای مجوزهایی که از 2014-05-08 تا2017-09-06 مجاز هستند اثر انگشت SHA1  عبارت است از:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-redirect": {
         "message": "لطفا به منظور مشاهده اطلاعاتی که ما جمع آوری می کنیم، صفحه <a href=\"privacy.html\">سیاست های حفظ حریم خصوصی</a> را مشاهده کنید.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
+    },
+    "faq-uninstall-windows-answer-para-1": {
+        "message": "سایفون برای ویندوز در ویندوز نصب نمی‌شود و بنابراین جزء فهرست «اضافه یا پاک کردن برنامه‌ها» نمایش داده نمی‌شود. شما می‌توانید برنامه‌ی قابل اجرا (executable file) را در پوشه‌ی دانلودها پیدا یا آن را به جای دیگری منتقل و اجرا کنید. برای پاک کردن برنامه، می‌توانید به سادگی فایل را پاک کنید.",
+        "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
+    },
+    "faq-ios-sideloading-image-3-alt": {
+        "message": "عکس از اعلان Cydia Impactor برای وارد کردن ایمیل اپل‌آیدی",
+        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "donate-heading": {
         "message": "کمک به سایفون",
@@ -271,13 +327,33 @@
         "message": "روش استفاده از سایفون در موبایل و ویندوز",
         "description": "meta title for the user guide page"
     },
+    "faq-windows-vpn-connect-answer-para-1": {
+        "message": "شبکه‌ی فایروال شما ممکن است اجازه‌ی استفاده از وی‌پی‌ان‌ها را ندهد. راوتر شما ممکن است طوری تنظیم نشده باشد تا پروتکل وی‌پی‌ان را بپذیرد. تنظیمات فایروال خود را چک کنید تا ببینید IPSec یا L2TP امکان انتقال داده را دارند یا نه. سیستم خدمات IPSec ممکن است غیرفعال شده باشند؛ تنظیمات خدمات خود را چک کنید و این سرویس را به نحوی فعال کنید تا به صورت خودکار شروع به کار کند. ",
+        "description": ""
+    },
+    "faq-get-updated-version-question": {
+        "message": "چطور می‌توانم یک نسخه‌ی به‌روزشده از سایفون داشته باشم؟",
+        "description": "FAQ question"
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "بر روی Run کلیک کرده و <code>regedit</code> را تایپ کنید تا به رجیستری بروید.  <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> را یافته و باز کنید، سپس در سمت راست <code>SkipProxySettings</code> را خواهید دید. مقدار این بخش را <code>1</code> بگذارید. سایفون دیگر به صورت خودکار تنظیمات پروکسی سیستم تان را تغییر نخواهد داد. ",
         "description": ""
     },
+    "faq-ie6-docbody-answer-para-1": {
+        "message": "این خطا در ویندوز اکس پی رخ می‌دهد اگر اینترنت اکسپلورر ۶ نصب شده باشد. سایفون در ویندوز با اینترنت اکسپلورر ۷ یا بالاتر کار می‌کند. بهترین راه برای نصب نرم‌افزارهای بالاتر روش \n<a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">\nبه‌روزرسانی ویندوز\n</a>\n است.",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+    },
     "user-guide-android-head": {
         "message": "سایفون برای اندروید",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-unsupported-platforms-question": {
+        "message": "آیا سایفون برای سیستم عامل مک٬ لینوکس٬ آی‌او‌اس و ویندوزفون در دسترس است؟",
+        "description": "FAQ question."
+    },
+    "faq-subsection-troubleshooting-android": {
+        "message": "اندروید",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Android-specific."
     },
     "privacy-bulletin-entry-2-title": {
         "message": "2015-06-01: بروز رسانی سیاست حفظ حریم خصوصی",
@@ -291,9 +367,17 @@
         "message": "سوال های متداول ",
         "description": "title for the FAQ page"
     },
+    "faq-ios-sideloading-sideloading-answer-step-6": {
+        "message": "در پنجره‌ی جستجوی فایل‌ها که باز خواهد شد، جایی که \"PsiphonBrowser.ipa\" را ذخیره کرده‌اید را پیدا کرده و روی برنامه دوبار کلیک کنید.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "privacy-information-collected-s3-logging-para-1": {
         "message": "ما از آمازون S3 به منظور ذخیره برخی از موارد مانند فایل های وب سایت ها و لیست کاشف سرور سایفون استفاده می کنیم و گاهی سیاهه برداری از دانلود این فایل ها را فعال می سازیم. تحلیل این سیاهه ها به ما کمک می کند که به سوالاتی مانند \"چه تعداد کاربر دانلود لیست کاشف را آغاز کرده اند، اما به پایان نبرده اند؟\"، \"دانلود داده ها چطور بین بخش های وب سایت و سرور کاشف تقسیم شده است؟\"، و \"آیا یک مهاجم سعی دارد حمله محروم سازی از سرویس علیه وب سایت های ما انجام دهد؟\" پاسخ دهیم.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-14": {
+        "message": "در پنجره‌ی بعدی برای تایید فرمان  بر روی دکمه‌ی \"Trust\" کلیک کنید.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-who-we-are-exec-team-head": {
         "message": "تیم اجرائی",
@@ -323,6 +407,10 @@
         "message": "ویندوز:",
         "description": ""
     },
+    "faq-ios-sideloading-sideloading-answer-step-2": {
+        "message": "دستگاه آی‌اواس شما باید به اینترنت وصل باشد. دستگاه خود را به کامپیوتر وصل کنید. اگر از شما درخواست شد که به این کامپیوتر اعتماد کنید \"?Trust this Computer\"، بر روی دکمه‌ی \"Trust\" کلیک کنید. ",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "این تغییرات از 2015-06-01T00:00Z موثر هستند.",
         "description": ""
@@ -331,9 +419,17 @@
         "message": "هشدار: تیم سایفون متوجه یک بد افزار شده است که خود را به عنوان برنامه سایفون ٣ برای ویندوز جلوه داده است. این بدافزار, به عنوان یک فایل فشرده شده (zip.) به نام \"pisphone3.zip\" از طریق وبسایت www.copy.com در حال بخش است. امکان دارد که این فایل از طریق وبسایت ها و لینک های  دیگری نیز مورد دسترسی قرار گرفته باشد. این فایل فشرده شامل یک برنامه اجرایی ویندوز به نام \"pisphone3.exe\" است که توضیحات و اطلاعات آنرا  میتوانید در وبسایت Virus Total مشاهده کنید:\n<a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>\nنکات مهمی که به آن باید توجه کنید اسم اشتباه برنامه است که با \"e\" در آخر اسم سایفون نوشته شده است. مهمتراز آن, این برنامه توسط شرکت سایفون امضا نشده است. هیچ وقت فایل اجرایی سایفون ٣ را که تازه دانلود کردید, بدون چک کردن امضای دیجیتالی آن اجرا نکنید. چک کردن امضای دیجیتالی سایفون را  میتوانید از اینجا یاد بگیرید و اطلاعات لازم را ببینید:\n<a href=\"#is_my_psiphon_3_for_windows_authentic\">آیا نسخه سایفون ٣ ویندوز من معتبر است؟</a>\n  \n\n ",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
+    "privacy-information-collected-client-advertising-networks-para-2": {
+        "message": "البته شما می‌توانید از استفاده‌ی (داوطلبانه) از کوکی‌های موضوع‌محور ما صرف‌نظر کنید. برای این کار به اینجا مراجعه کنید: ...",
+        "description": ""
+    },
     "faq-information-collected-answer-para-5": {
         "message": "کلیه آمارهای به اشتراک گذاشته شده با حامیان بر مبنای تاریخ، ضامن و منطقه دسته بندی می‌گردند.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-8": {
+        "message": "در اعلان بعدی رمز عبور اپل‌آیدی خود را بنویسید و سپس بر روی  دکمه‌ی \"OK\" کلیک کنید. ",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
     },
     "user-guide-android-ui-statistics-image-annotation-3": {
         "message": "داده های دریافت شده از طریق سایفون",
@@ -341,10 +437,6 @@
     },
     "faq-proxy-all-answer-para-1": {
         "message": "فقط در حالت وی پی ان. بعد از این که در حالت وی پی ان، ارتباط برقرار شود، کل ترافیک کامپیوتر از شبکه سایفون عبور خواهد کرد. زمانی که حالت وی پی ان فعال نباشد، تنها نرم افزارهایی که از local HTTP و پراکسی SOCKS استفاده می کنند، پراکسی خواهند شد.",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-2-item-8": {
-        "message": "تعداد درخواست‌های HTTPS",
         "description": ""
     },
     "about-who-we-are-para-1": {
@@ -364,7 +456,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-7": {
-        "message": "میزان بایت‌های انتقال یافته",
+        "message": "تمام بایت‌های منتقل شده و بایت‌های منتقل شده برخی از دامنه‌های خاص",
         "description": ""
     },
     "privacy-bulletin-title": {
@@ -376,7 +468,7 @@
         "description": "Please modify the Wikipedia link to point to the correct language entry"
     },
     "page-keyword-instructions": {
-        "message": "دستورالعملها",
+        "message": "دستورالعمل‌ها",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-developers": {
@@ -392,7 +484,7 @@
         "description": ""
     },
     "faq-root-wdm-answer-para-1": {
-        "message": "Before December 2015 Psiphon for Android had a feature that allowed users with older Android devices (pre-4.0/ICS) to tunnel the whole device if it was rooted. A major update to Psiphon at that time necessitated the removal of that feature.",
+        "message": "پیش از دسامبر ۲۰۱۵ سایفون در اندروید گزینه‌ای داشت که به کاربران اجازه می‌داد که با گوشی‌های قدیمی تر اندروید هم از طریق روت کردن کل دستگاه به تونل سایفون وصل شوند. یک تغییر اساسی در سایفون، ما را ناچار به حذف آن کرد. ",
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-isp-traffic-answer-para-2": {
@@ -431,6 +523,14 @@
         "message": "گروه کاربران سایفون",
         "description": "text for link to the Psiphon Users mailing list"
     },
+    "faq-subsection-troubleshooting-windows": {
+        "message": "ویندوز",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
+    },
+    "faq-ios-sideloading-sideloading-answer-intro-4": {
+        "message": "<strong>توجه:</strong> اگر اپل‌آیدی که برای سایدلودینگ استفاده شده حساب برنامه‌نویس <em>نباشد</em>، نیاز است که اپلیکیشن را هر هفته نصب کنید. این محدودیت از طرف شرکت اپل گذاشته شده است. اگر اپل‌‌آیدی یک حساب برنامه‌نویس <em>باشد</em>، در این صورت اپلیکیشن برای یک سال معتبر خواهد بود.",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "بیانیه محدودیت‌های مسئولیت",
         "description": ""
@@ -442,6 +542,10 @@
     "faq-nav-title": {
         "message": "سوال‌های متداول",
         "description": "text for the FAQ page navigation item"
+    },
+    "faq-av-firewall-answer-para-1": {
+        "message": "اولین چیزی که باید چک کنید این است که نسخه‌ی معتبری از سایفون را دارید. لطفاً این \n<a href=\"#verify-psiphon-authentic\">\nقدم‌ها را بردارید\n</a>\n تا مطمئن شوید که نسخه‌ی سایفون شما معتبر است. اگر معتبر نیست، لطفاً \n <a href=\"mailto:info@psiphon.ca\">\nیک ایمیل\n</a>\n به ما بفرستید و بگویید که آن را از کجا تهیه کرده‌اید و اگر ممکن است، فایل قابل اجرا را نیز همراه‌اش بفرستید.",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
     },
     "alert-heading": {
         "message": "هشدار",
@@ -459,6 +563,10 @@
         "message": "صفحه در حال لود",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-ios-sideloading-image-9-alt": {
+        "message": "عکس از صفحه‌ی iOS Device Management Settings‌ برای کاربر کنونی. این عکس دکمه‌ای را نشان می‌دهد تا بعد از کلیک کردن به عنوان یک برنامه‌نویس اپلیکیشن تایید شوند. ",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "faq-authentic-android-answer-para-3": {
         "message": "سایفون ۳ اندورید بطور اتوماتیک بروز رسانی می‌شود و این فرایند بصورت خودکار مشخص می‌کند که بروزرسانی معتبر است.",
         "description": ""
@@ -466,6 +574,14 @@
     "main-gets-you-there-safely-head-2": {
         "message": "آیا می‌خواهید با امنیت از شبکه وای-فای عمومی استفاده کنید؟ ",
         "description": ""
+    },
+    "faq-ios-sideloading-image-2-alt": {
+        "message": "عکس ازآیتم Install Package در منوی Cydia Impactor ",
+        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
+    },
+    "faq-android-upgrade-bug-question": {
+        "message": "پس از به‌روز کردن اپلیکیشن اندروید سایفون، سایفون وصل نمی‌شود",
+        "description": "FAQ question."
     },
     "faq-authentic-android-question": {
         "message": "آیا سایفون 3 من برای اندروید معتبر است؟",
@@ -479,13 +595,21 @@
         "message": "دانلود برنامه اندروید و ویندوز",
         "description": "meta title for the download page"
     },
+    "faq-unsupported-platforms-answer-para-1": {
+        "message": "پلتفرم‌هایی که ما استفاده می‌کنیم اینجا موجود هستند: … ما دائماً تلاش می‌کنیم که پشتیبانی از این پلتفرم‌ها را گسترش دهیم به این امید که از سیستم عامل محبوب شما نیز در آینده‌ی نزدیک پیشتیبانی کنیم.",
+        "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
+    },
+    "faq-ios-sideloading-image-10-alt": {
+        "message": "عکس از صفحه‌ی iOS Device Management Settings برای کاربر کنونی. این عکس نشان‌دهنده‌ی اعلانی برای تایید کاربر به عنوان یک برنامه نویس اپلیکیشن است.",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "user-guide-windows-para-1": {
         "message": "روی برنامه کلاینت (یا بازدید کننده) کلیک و آنرا اجرا نمایید.  هنگام اجرای برنامه،شما باید پیغام امنیتی که نشان دهد این برنامه محصول شرکت سایفون می باشد را مشاهده کنید.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2": {
         "message": "برای گواهینامه هایی که از تاریخ 2011-06-16 تا 2012-06-21 مجاز هستند اثر انگشت SHA1 عبارت است از:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "what-is-psiphon-heading": {
         "message": "سایفون چیست؟",
@@ -501,7 +625,7 @@
     },
     "faq-authentic-windows-answer-para-3": {
         "message": "برای گواهینامه هایی که از تاریخ 2012-05-21 تا 2014-07-30 مجاز هستند اثر انگشت SHA1 عبارت است از:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-meta-title": {
         "message": "سوال های متداول ",
@@ -563,9 +687,29 @@
         "message": "داده های دریافت شده‌ی فشرده از طریق سایفون",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
     },
+    "faq-av-firewall-question": {
+        "message": "چرا آنتی ویروس یا فایروال سایفون را به عنوان یک تهدید معرفی می‌کنند؟",
+        "description": "FAQ question."
+    },
+    "faq-windows-metro-answer-para-1": {
+        "message": "ویندوز ۸ یک گزینه‌ی جایگزین برای واسط کاربر اپلیکیشن دسکتاپ به نام مترو معرفی کرد، که بعدتر اپلیکیشن واسط کاربر مدرن نامیده شد. تعداد اندکی از اپلیکیشن‌ها فقط در وضعیت مترو اجراشدنی هستند و برخی مانند اینترنت اکسپلورر هم در وضعیت مترو هم در وضعیت دسکتاپ قابل اجرا هستند. این وضعیت واسط کاربر جدید هم در ویندوز ۸.۱ هم تا حد کمتر در ویندوز ۱۰ ادامه دارد.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
+    },
+    "faq-get-updated-version-answer-para-1": {
+        "message": "<strong>\nاندروید:\n</strong>\n اگر شما نسخه‌ی اندروید سایفون را از گوگل پلی استور نصب کرده‌اید، به صورت خودکار و هنگامی که پلی استور  نسخه‌ی جدیدتری داشته باشد به روز می‌شود. اگر شما سایفون اندروید نصب کرده‌اید، سایفون تغییرات به‌روزرسانی را دانلود می‌کند و پیش از نصب برای گرفتن مجوز از شما سوال می‌کند. \n",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+    },
+    "faq-mobile-hotspot-answer-para-1": {
+        "message": "این به خاطر محدودیت هات‌اسپات اندروید و پیاده‌سازی امکان اشتراکِ داده یا همان tethering است. ممکن است دستگاه به اشتراک گذاشته شده نتواند به اینترنت وصل شود یا اینکه ترافیک آنلاین نتواند از طریق وی‌پی‌ان جریان پیدا کند.",
+        "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
+    },
     "user-guide-windows-head": {
         "message": "سایفون برای ویندوز",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-periodic-disconnect-answer-para-1": {
+        "message": "در بیشتر مواقع، عامل اصلی این مشکل ناپایداری اتصال اینترنت است. در تلفن‌های همراه، ممکن است این به معنای از دست رفتن آنتن باشد. در رایانه‌ها، این یعنی وای‌فای ناپایدار یا یک شرکت غیرقابل اطمینان برای تامین اینترنت شما.",
+        "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
     },
     "footer-copyright": {
         "message": "کپی‌رایت",
@@ -620,12 +764,16 @@
         "description": ""
     },
     "faq-root-wdm-question-toc": {
-        "message": "What happened to whole device mode for rooted Android devices?",
+        "message": "«کل دستگاه» برای گوشی‌های روت‌شده‌ی اندروید چی شد؟",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-root-wdm-question": {
-        "message": "What happened to whole device mode for rooted Android devices?",
+        "message": "«کل دستگاه» برای گوشی‌های روت‌شده‌ی اندروید چی شد؟",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-ios-sideloading-image-4-alt": {
+        "message": "عکس از اعلان Cydia Impactor برای وارد کردن رمز‌عبور اپل‌آیدی",
+        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "page-keyword-how-to": {
         "message": "چطور",
@@ -634,6 +782,14 @@
     "sponsor-description": {
         "message": "برای حمایت مالی می‌توانید روی \"صفحه در حال لود\" تبلیغ کرده و یا به طور مستقیم به پروژه‌ی سایفون کمک مالی کنید",
         "description": "Page description for the Sponsorship page"
+    },
+    "faq-windows-vpn-connect-question": {
+        "message": "چرا نمی‌توانم به سایفون در ویندوز با وضعیت L2TP/IPSec وصل شوم؟",
+        "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-2": {
+        "message": "در بیشتر مواقع ساده‌ترین راه برای حل این مشکل این است که دوباره به سایفون وصل شوید و یک بار به درستی آن را قطع کنید. ",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "about-get-latest-info-para-1-list-start": {
         "message": "عضو  خبرنامه ما شوید:",
@@ -651,6 +807,14 @@
         "message": "انتخاب زبان ",
         "description": ""
     },
+    "faq-get-updated-version-answer-para-2": {
+        "message": "<strong>\nویندوز:\n</strong>\n سایفون برای ویندوز تغییرات به‌روزرسانی را که موجود باشند، دانلود و نصب می‌کند.\n",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
+    },
+    "faq-uninstall-windows-question": {
+        "message": "چطور می‌توانم سایفون را از ویندوز پاک کنم؟\n",
+        "description": "FAQ question"
+    },
     "user-guide-android-para-4": {
         "message": "زمانیکه یک برنامه به شبکه متصل می‌شود، برنامه از پیش ساحته شده مرورگر سایفون را مستقر می‌کند. سایفون ٣ برای اندروید بطور اتوماتیک ترافیک روی مرورگر پیش فرض اندروید یا برنامه های دیگر را کانالیزه نمی‌کند. بصورت پیش فرض، فقط مرورگر سایفون از طریق شبکه سایفون ٣ کانالیزه می‌شود.",
         "description": ""
@@ -660,12 +824,24 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-windows-para-2": {
-        "message": "سایفون ۳ بطوراتوماتیک هنگام اجرای برنامه شروع به برقراری ارتباط می‌کند. هنگام برقراری ارتباط، ایکون در حال چرخش نمایش داده می شود. شما می توانید یکی از روشهای تونل ارتباطی را دنبال کنید: وی پی ان (L2TP over IPSec)، اس اس اچ یا اس اس اچ +. اس اس اچ +: اس اس اچ مبهم است که یک لایه رندوم بر روی اس اس اچ قرار میدهد که از انگشت نگاری پروتکل اس اس اچ جلوگیری میکند.",
+        "message": "سایفون ۳ بطور خودکار هنگام اجرای برنامه شروع به برقراری اتصال می کند. هنگام برقراری اتصال، ایکون در حال چرخش نمایش داده می شود. شما می توانید یکی از روش‌های تونل ارتباطی را دنبال کنید: وی پی ان، اس اس اچ پلاس یا اس اس اچ \n\nVPN L2TP over IPSec \n\nSSH  \n\nSSH plus obfuscation, a randomized layer on top of SSH to avoid protocol finger printing",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
         "message": "تکنیک های پیشرفته ای نیز وجود دارد که می تواند با مرور ترافیک رمزنگاری شده بخش هایی از آن را بخواند که از آن جمله می توان به وب سایت های بازدیدی اشاره کرد. مهم ترین مثال این مورد، <a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">انگشت نگاری از ترافیک</a> است.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-7": {
+        "message": "در اعلان بعدی ایمیل اپل‌آیدی خود را بنویسید و سپس بر روی  دکمه‌ی \"OK\" کلیک کنید. ",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
+    },
+    "faq-reset-system-proxy-answer-para-3": {
+        "message": "برای اینکه تنظیمات پراکسی را به شکل دستی اصلاح کنید، برنامه‌ی اینترنت اکسپلورر را باز کرده و به Tools menu یا منوی ابزار بروید (علامت چرخ‌دنده) سپس بر Internet Options، بعد Connections tab و در آخر بر LAN Settings button کلیک کنید. در نهایت گزینه‌ی \"Use a proxy server for your LAN\" را غیرفعال کنید.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "download-android-playstore-pro": {
+        "message": "سایفون پرو (Psiphon Pro) برای اندروید در فرشگاه گوگل پلی.",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
         "message": "وی پی ان",
@@ -703,6 +879,10 @@
         "message": "اطمینان، سرعت، سادگی: هر سه را انتخاب کنید",
         "description": ""
     },
+    "faq-android-upgrade-bug-answer-para-1": {
+        "message": "اگر سایفون وصل است هنگامی که یک به‌روزرسانی صورت می‌گیرد و نصب می‌شود، ممکن است که نتواند دوباره بلافاصله پس از آن وصل شود و خطای «شروع-تونل-اپلیکیشن کار نمی‌کند و آماده نیست» یا “start_tunnel_failed application is not prepared or revoked” نمایش داده می‌شود. این به خاطر یک\n <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">\n باگ در سیستم عامل اندروید\n</a>\n است. این شرایط ممکن است با خاموش و روشن کردن دستگاه گوشی شما درست شود.",
+        "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
+    },
     "about-who-we-are-software-development-head": {
         "message": "توسعه نرم‌افزار",
         "description": ""
@@ -710,6 +890,10 @@
     "faq-connection-failed-answer-para-1": {
         "message": "اگر شما پیغام \" خطا در برقراری ارتباط\" را بطور متداوم مشاهده کردید، به این معنی است که هیچ سرور قابل دسترسی که کلاینت شما قادر به شناسایی آن باشد وجود ندارد. در این صورت باید یک کلاینت جدید سایفون ۳ را دانلود و نصب نمایید.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-12": {
+        "message": "در صفحه‌ای که نمایان خواهد شد، بر روی ایمیل اپل‌آیدی‌تان کلیک کنید. ",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "faq-authentic-windows-image-alt": {
         "message": "عکس نشانگرچگونه چک کردن امضای دیجیتال فایل اجرایی سایفون برای ویندوز است",
@@ -723,9 +907,17 @@
         "message": "چرا این کار را انجام می دهیم",
         "description": ""
     },
-    "generic-image-figcaption": {
-        "message": "نکات قابل توجه:",
-        "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
+    "faq-ios-sideloading-sideloading-answer-intro-1": {
+        "message": "«سایدلودینگ» به معنی آن است که یک اپلیکیشن را بدون رفتن به پلی‌استور به روی دستگاه خود نصب کنید. این روش مناسبی است برای افرادی که دسترسی به پلی‌استور ندارند، یا زمانی که یک اپلیکیشن در منطقه‌ای خاص در دسترس نیست.",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
+    "faq-ios-sideloading-sideloading-answer-step-4": {
+        "message": "اجرای برنامه‌ی Cydia Impactor",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
+    "faq-windows-metro-answer-para-3": {
+        "message": "وقتی تلاش می‌کنید در وضعیت مترو اپلیکیشن‌ها را اجرا کنید و آنها کار نمی‌کنند، پیغام‌هایی را به صورت خطا دریافت می‌کنید به این دلیل که سایفون وصل است. مثال‌های که در زیر می‌آیند، خطاهایی را در همین رابطه نشان می‌دهند.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
     },
     "about-who-we-are-partners-para-2": {
         "message": "یکی از موفق‌ترین شراکت‌های ما با <a href=\"https://asl19.org/\" target=\"_blank\">اصل۱۹</a> بوده، که به ارائه‌ی ترجمه و خدمات پشتیبانی به زبان فارسی پرداخته و نقشی کلیدی در رشد مخاطبان ما داشته است.",
@@ -735,13 +927,29 @@
         "message": "خدمات سافون تنها برای استفاده های شخصی در نظر گرفته شده است. اگر تمایل دارید که از سایفون برای مقاصد دیگر استفاده کنید و یا امکانات بیشتری دریافت کنید، ما سرویس تجاری خود را به شما پیشنهاد می کنیم. برای اطلاعات بیشتر با آدرس ایمیل<a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a> تماس بگیرید.",
         "description": ""
     },
+    "faq-windows-metro-question": {
+        "message": "چرا اپلیکیشن‌های مترو ویندوز ۸ (Windows Metro) یا همان اپلیکیشن‌هایی با واسط کاربر مدرن (Modern UI) در سایفون کار نمی‌کنند؟\n",
+        "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+    },
     "resources-nav-title": {
         "message": "منابع",
         "description": "title for the Resources"
     },
+    "faq-mail-apps-ports-answer-para-1": {
+        "message": "این احتمالاً به خاطر \n<a href=\"#port-restrictions\">\nمحدودیت‌های پورت\n</a>\n سایفون است. ",
+        "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+    },
+    "faq-windows-metro-answer-para-2": {
+        "message": "اپلیکیش‌ها در وضعیت مترو نمی‌توانند از یک پراکسی محلی استفاده کنند، بدون اینکه تنظیمات امنیتی سیستم را تغییر دهند. به عبارت دیگر، اپلیکیشن‌های وضعیت مترو هنگامی که سایفون وصل است، نمی‌توانند از سایفون استفاده کنند و یا به اینترنت وصل شوند. شما می‌توانید از گزینه‌ی \n<a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">\nEnableLoopback Utility \n</a>\nاستفاده کنید تا به اپلیکیشن‌های وضعیت مترو اجازه دهید که با سایفون کار کنند. ",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+    },
     "user-guide-windows-image-3-alt": {
         "message": "عکس نشانگر اتصال سایفون در ویندوز است",
         "description": "alt text for an image"
+    },
+    "faq-section-installing-running-updating": {
+        "message": "نصب‌٬ اجرا و به‌روزرسانی سایفون ",
+        "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software."
     },
     "blog-index-subscribe": {
         "message": "اشتراک",
@@ -753,11 +961,15 @@
     },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "برای نصب مستقیم سایفون در اندروید، شما باید \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">ساید لودینگ</a>\" را فعال کنید. برای این کار، به تنظیمات دستگاه اندرویدی خود بروید، و در بخش امنیت، منابع ناشناس را فعال کنید.",
-        "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-isp-traffic-answer-para-4": {
         "message": "اگر شما نیاز به ناشناس ماندن در اینترنت دارید، آنگاه باید از برنامه  <a href=\"https://www.torproject.org/\" target=\"_blank\">تور</a>  به جای سایفون استفاده کنید.",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-xpie7": {
+        "message": "Internet Explorer 7 for Windows XP",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
     "page-keyword-sponsor": {
         "message": "حامی",
@@ -807,6 +1019,10 @@
         "message": "سایفون در حالت وی پی ان یا تونل تمام گوشی در حال اجراست. تمام اپلیکیشن‌ها از طریق سایفون تونل می‌شوند. ",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
+    "faq-ios-sideloading-image-6-alt": {
+        "message": "عکس از صفحه‌ی iOS General Setting، که آیتم \"General\" را نشان می‌دهد.",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "main-pick-three-para-1": {
         "message": "از سال 2008، سایفون به میلیون ها نفر در کشورهایی با محدودیت آزادی در سراسر جهان کمک کرده است که به ایده ها و اطلاعات سانسور نشده دسترسی یابند. حال سایفون می تواند همین کار را برای شما نیز انجام دهد. ",
         "description": ""
@@ -824,11 +1040,19 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "روی ویندوز اکس پی، ویستا، ٧ و ٨ کار می‌کند  ",
+        "message": "دارای قابلیت کار در ویندوز اکس‌پی، ویستا، ۷، ۸ (دسکتاپ)،‌ و ۱۰",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
         "message": "به عنوان کاربران سایفون، شما آزاد هستید که هر زمانی مجوز توافقنامه را با قطع استفاده از بخشی یا کل سرویس سایفون و حذف کامل برنامه از روی دستگاه تان خاتمه دهید.",
+        "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-1": {
+        "message": "وقتی که سایفون در ویندوز وصل می‌شود، تنظیمات پراکسی رایانه‌تان را اصلاح می‌کند، و هنگامی که از کار می‌افتد، تنظیمات را به حالت اول بازمی‌گرداند. اگر سایفون در ویندوز به خوبی خارج نشود، ممکن است نتواند تنظیمات پراکسی را به درستی به حالت اول بازگرداند و در نتیجه شما نمی‌توانید به اینترنت وصل شود. ",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "privacy-information-collected-client-advertising-networks-para-1": {
+        "message": "ما برخی اوقات از تبلیغات برای پشتیبانی از خدمات‌مان بهره می‌بریم، که ممکن است از فناوری‌های کوکی‌ها و یا بیکن‌ها (Web Beacon) استفاده کنند. همکاران تبلیغاتی ما از طریق استفاده از این کوکی‌ها می‌توانند تبلیغات را بر مبنای اطلاعات مصرفی شما ارائه دهند. هر اطلاعاتی که از این طریق جمع‌آوری می‌شود بر مبنای سیاست‌های حریم خصوصی ِهمکاران ما خواهد بود:",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-5": {
@@ -836,7 +1060,7 @@
         "description": ""
     },
     "faq-orig-file-purpose-question": {
-        "message": "فایل \"psiphon3.exe.orig\"  چیست؟ ",
+        "message": "فایل \"psiphon3.exe.orig\"  چیست؟",
         "description": ""
     },
     "index-meta-title": {
@@ -855,6 +1079,10 @@
         "message": "فسخ شرایط و ضوابط نقض خدمات",
         "description": ""
     },
+    "faq-section-how-psiphon-works": {
+        "message": "سایفون چطور کار‌ می‌کند؟",
+        "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
+    },
     "user-guide-android-image-3-annotation-1": {
         "message": "سایفون در حال اجراست",
         "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
@@ -863,9 +1091,17 @@
         "message": "مطالب فارسی",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
+    "download-ios-appstore-psiphon-browser-description": {
+        "message": "یرای نسخه‌ی ۸ یا بالاتر ‌آی‌او‌اس در دسترس است. ",
+        "description": ""
+    },
     "faq-isp-traffic-question": {
         "message": "آیا سرویس دهنده اینترنت امکان رصد فعالیت های من را در زمان استفاده از سایفون دارد؟",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-intro-3": {
+        "message": "Cydia Impactor بر روی مک‌اواس/اواس‌اکس، ویندوز(‌ با برنامه آیتینوز)، و لینوکس قابل اجرا است. ",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "open-source-para-3-list-start": {
         "message": "ویندوز:",
@@ -887,6 +1123,14 @@
         "message": "نشان دهنده نسخه سایفون درحال اجرای شما است",
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
+    "download-android-playstore-pro-description": {
+        "message": "با دانلود سایفون پرو از فروشگاه گوگل پلی از <strong>استفاده‌‌ی آزادانه از اینترنت</strong> پشتیبانی کنید. (در همه‌‌ی کشورها موجود نیست) ",
+        "description": ""
+    },
+    "faq-section-compatibility": {
+        "message": "سازگاری با برنامه‌های دیگر ",
+        "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
+    },
     "open-source-nav-title": {
         "message": "متن باز",
         "description": ""
@@ -898,6 +1142,10 @@
     "faq-ip-change-question": {
         "message": "چرا آدرس ای پی های سایفون من دائم عوض می‌شوند؟",
         "description": ""
+    },
+    "faq-periodic-disconnect-question": {
+        "message": "چرا اتصال سایفون گاهی قطع می‌شود؟",
+        "description": "FAQ question."
     },
     "privacy-bulletin-meta-title": {
         "message": "بولتن حفظ حریم خصوصی کاربران",
@@ -923,6 +1171,10 @@
         "message": "شما را به جایی که می‌خواهید بروید، می‌برد...",
         "description": ""
     },
+    "faq-screen-filter-question": {
+        "message": "هنگامی که سایفون در اندروید وصل می‌شود چرا نمی‌توانم گزینه‌ی «من به این اپلیکیشن اعتماد دارم» (I trust this application) را انتخاب بکنم؟‌ ",
+        "description": "FAQ question."
+    },
     "faq-information-collected-answer-para-14": {
         "message": "در صورتی که نیاز داشته باشیم که مشکلی را بیابیم، ممکن است برای مدتی کوتاه گزارش کامل از سرور میل را فعال کنیم. اگر شما در آن مدت ایمیلی ارسال کنید، آدرس ایمیل شما در گزارش سیستم درج می شود. آن گزارش ها بعد از یک هفته حذف می شوند.",
         "description": ""
@@ -930,6 +1182,10 @@
     "faq-information-collected-answer-para-2-item-4": {
         "message": "چه مدت یکبار سرورهای جدید کشف می‌شوند",
         "description": ""
+    },
+    "privacy-information-collected-client-head": {
+        "message": "نرم‌افزار کلاینت سایفون",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon client software"
     },
     "open-source-para-1": {
         "message": "سایفون یک پروژه متن باز است. می توانید کد منبع و مستندسازی طراحی ما را در بیت باکت و صفحه گت هاب پروژه مشاهده کنید.",
@@ -971,13 +1227,17 @@
         "message": "کارخواه سایفون از این قطعات متن باز استفاده میکند: ",
         "description": ""
     },
-    "download-android-playstore": {
-        "message": "سایفون برای اندورید در پلی استور گوگل",
-        "description": "text for link to Psiphon for Android in the Google Play Store"
-    },
     "page-keyword-contact": {
         "message": "تماس",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-get-updated-version-answer-para-3": {
+        "message": "<strong>\nبه‌روزرسانی دستی:\n</strong>\n اگر سازوکار خودکار به‌روزرسانی سایفون کار نمی‌کند (مثلاً در شرایطی\n که مسدود شده باشد) شما می‌توانید یک نسخه‌ی کپی تازه از آن را از \n<a href=\"download.html\">\nصفحه‌ی دانلود\n</a>\n آن بگیرید.\n",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
+    },
+    "faq-ios-sideloading-question": {
+        "message": "چطور سایفون را بر روی دستگاه آی‌اواس‌ام «ساید‌-لود» کنم؟",
+        "description": "FAQ question."
     },
     "download-title": {
         "message": "دانلود سایفون",
@@ -1019,6 +1279,10 @@
         "message": "سایفون برای اندورید دراپ استورآمازون ",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
+    "download-ios-appstore-psiphon-browser": {
+        "message": "مرورگر‌ سایفون برای آی‌او‌اس در اپ‌استور اپل",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
+    },
     "user-guide-windows-image-1-alt": {
         "message": "عکس نشانگر هشدارامنیتی ویندوز برای فایل اجرایی سایفون است.  ",
         "description": "alt text for an image"
@@ -1044,12 +1308,8 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "اتصالات خروجی سایفون برای ویندوز وی پی ان فقط ازاین پورت ها امکان پذیر هستند: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>این <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\"> گفتگو</a> را برای اطلاعات بیشتر ببینید. بیشترکلاینت‌های ایمیل نمی‌تواند روی پورت های 25 و 587 واصل شوند. برای اطلاعات  بشتراین <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">گفتگو</a> را ببینید.   ",
-        "description": ""
-    },
-    "download-android-playstore-description": {
-        "message": "سازگاری با اندورید ٢.٢ و بالا. تونل تمام گوشی به اندروید ٤.٠ به بالا یا <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">گوشی روت</a> شده دارد. ",
-        "description": ""
+        "message": ":ارتباطات خروجی ازشبکه سایفون فقط از روی پورت‌های خاصی امکان‌پذیر است. پورت‌های  \n<code>\n53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080\n</code>\nاین\n<a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">\nگفتگو\n</a> \nبرای اطلاعات بیشتر بخوانید. \n کلاینت‌های ایمیل نمی‌توانند ارتباطی خارج از پورت25 ایجاد کنند. این \n<a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">\nگفتگو\n</a>\nرا برای اطلاعات بیشتر بخوانید",
+        "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
         "message": "دانلودهای آپ استور ",
@@ -1058,10 +1318,6 @@
     "sponsor-meta-title": {
         "message": "حمایت مالی، تبلیغات، و کمک‌های مالی",
         "description": "Page title for the Sponsorship page"
-    },
-    "faq-root-wdm-answer-para-2": {
-        "message": "If you require that functionality, you can use a “legacy” version of Psiphon for Android. That version will be lacking some of the advanced circumvention abilities of modern Psiphon, but it may be sufficient for your needs. You can <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">download the “legacy” version here</a>.",
-        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "چگونه نسخه سایفون ۳ کنونی خود را چک کنم؟",
@@ -1083,8 +1339,12 @@
         "message": "سایفون به شکل خودکار سیستم تان را برای استفاده از یک پروکسی محلی HTTP/HTTPS و پروکسی SOCKS محلی تنظیم می کند. اگر در تنظیمات سایفون، پورت خاصی در نظر گرفته نشده باشد، شماره پورت به طور شانسی انتخاب می شود. نرم افزارهایی که به طور خودکار از تنظیمات پروکسی ویندوز استفاده می کنند، پروکسی خواهند شد. شاید نیاز داشته باشید که برای برخی از نرم افزارها این تنظیمات را به صورت دستی انجام دهید. هر دو نسخه سایفون - ویندوز و اندروید - از این تنظیمات محلی پروکسی استفاده می کنند. ",
         "description": ""
     },
+    "faq-section-privacy-security": {
+        "message": "حریم خصوصی و امنیت",
+        "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
+    },
     "faq-vpn-protocol-answer-para-1": {
-        "message": " سایفون از پروتوکول L2TP/IPSec استفاده می کند. فایروال شبکه شما ممکن است اجازه استفاده از وی پی ان را ندهد. تنظیمات فایروال خود را چک کنید و ببینید که مسیریاب منزل شما ممکن است برای عبوراز پروتوکول VPN  تنظیم نشده باشد. تنظیمات سرویس خود را چک کنید، ممکن است سرویس IPSec یا L2TP  سیستم شما غیر فعال باشد. تنظیمات فایروال خود را چک کنید، ممکن است سرویس IPSec  سیستم شما غیر فعال باشد. تنظیمات سرویس خود را چک کنید و این سرویس را فعال سازید تا بصورت اتوماتیک آغاز به کار کند.     ",
+        "message": "سایفون از پروتکل وی‌پی‌ان L2TP/IPsec استفاده می‌کند.",
         "description": ""
     },
     "license-distribution-header": {
@@ -1095,9 +1355,17 @@
         "message": "نسخه آنتی-ویروس",
         "description": ""
     },
+    "faq-reset-system-proxy-question": {
+        "message": "پس از استفاده از سایفون در ویندوز، رایانه‌ی من دیگر نمی‌تواند به اینترنت وصل شود",
+        "description": "FAQ question."
+    },
     "sponsor-para-1": {
         "message": "کاربران سایفون هروقت به برنامه وصل می‌شوند این صفحه را خواهند دید. فرصت‌های تبلیغات برای این صفحه بطور هفتگی هستند.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-11": {
+        "message": "در قسمت \"General\"، به پایین صفحه بروید و بر روی \"Device Manager\" کلیک کنید.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "faq-autoproxy-question": {
         "message": "من از افزونه پراکسی خودکار فایرفاکس استفاده می‌کنم <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. چگونه می توانم از تنظیم پراکسی سیستم خود توسط سایفون 3 برای ویندوز جکوگیری کنم؟",
@@ -1115,6 +1383,10 @@
         "message": "سایفون ترافیک دی ان اس را به یک لیست سفید از سرورهای دی ان اس تایید شده محدود می کند. کلاینت سایفون به شکل خودکار تنظیمات سرور دی ان اس VPN را انجام می دهد. اگر پیام های خطایی درباره دی ان اس دریافت می کنید، مطمئن شوید که به بدافزار \"DNS Changer\" آلوده نشده باشید، چرا که این بدافزار تلاش می کند تنظیمات دی ان اس شما را تغییر دهد. در <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">اینجا</a> می توانید به اطلاعات بیشتری دسترسی داشته باشید.",
         "description": ""
     },
+    "faq-section-troubleshooting": {
+        "message": "پشتیبانی",
+        "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
+    },
     "about-get-latest-info-head": {
         "message": "آخرین اطلاعات درباره سایفون ٣ را دریافت کنید",
         "description": ""
@@ -1124,7 +1396,7 @@
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
-        "message": "فرایند بروزرسانی خودکار سایفون 3 برای ویندوز نسخه قدیمی خود را به \"psiphon3.exe.orig\" تغییر نام می‌دهد. فایلهای قدیمی با پسوند \".orig\" را می‌توانید با خیال راحت پاک کنید. ",
+        "message": "فرایند بروزرسانی خودکار سایفون ۳ در ویندوز نسخه قدیمی را به \"psiphon3.exe.orig\" تغییر نام می‌دهد. فایل‌های قدیمی با پسوند \".orig\" را می‌توانید با خیال راحت پاک کنید.",
         "description": ""
     },
     "privacy-bulletin-entry-1-why-doing": {
@@ -1139,6 +1411,10 @@
         "message": "کارل کاتوریا مدیر بخش بازرگانی است که به تازگی از لندن به تیم در تورنتو پیوسته است. او مسئول مدیریت روابط کاری با شرکای رسانه‌ای و پخش‌کنندۀ ما بوده و به دنبال پیدا کردن فرصت‌های جدید برای فعالیتهای شرکت است.",
         "description": ""
     },
+    "faq-android-enable-sideloading-answer-para-0": {
+        "message": "«سایدلودینگ» به معنی آن است که یک اپلیکیشن را بدون رفتن به پلی‌استور به روی دستگاه خود نصب کنید. این روش مناسبی است برای افرادی که دسترسی به پلی‌استور ندارند، یا زمانی که یک اپلیکیشن در منطقه‌ای خاص در دسترس نیست.",
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
+    },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "تعداد بروزرسانی‌ها",
         "description": ""
@@ -1147,9 +1423,21 @@
         "message": "سانسور",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-section-verify-psiphon-authentic": {
+        "message": " اعتبار نسخه سایفون خود را بسنجید ",
+        "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
+    },
     "blog-index-meta-title": {
         "message": "بلاگ تیم سایفون",
         "description": ""
+    },
+    "faq-ios-sideloading-image-5-alt": {
+        "message": "عکس از صفحه‌ی آی‌اواس Setting Launcher",
+        "description": "Alt text for an iOS sideloading image"
+    },
+    "faq-ios-sideloading-sideloading-answer-step-13": {
+        "message": "در صفحه‌ی بعدی به روی آیتمی که \"Trust\" نوشته شده، کلیک کنید.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "user-guide-windows-para-4": {
         "message": "در حالت SSH و SSH+، سایفون به طور خودکار تنظیمات پروکسی ویندوز را انجام می دهد، بنابراین ترافیک شبکه نرم افزارهایی که از این تنظیمات استفاده می کنند، از طریق سایفون تونل خواهد شد. این تنظیمات عموما توسط بیشتر مرورگرهای اصلی مورد استفاده قرار می گیرند. ",
@@ -1195,6 +1483,10 @@
         "message": "گزارش شامل اطلاعات آدرس های آی پی، کاربران و برچسب های زمانی دسترسی به سایت ها می شود. وقتی این اطلاعات پردازش شدند، ما یک شمارش کاربران بر مبنای منطقه جغرافیایی آن ها انجام می دهیم تا ببینیم چه کسانی توان دسترسی به فایل موجود در درخواست را داشته اند. ",
         "description": ""
     },
+    "faq-ios-sideloading-image-8-alt": {
+        "message": "عکس از صفحه‌ی iOS Device Management Setting که موارد مرتبط به ایمیل کاربر را نشان می‌دهد",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "page-keyword-http-proxy": {
         "message": "پراکسی http",
         "description": "web page meta keyword used for SEO"
@@ -1203,6 +1495,10 @@
         "message": "درباره ما ",
         "description": "text for the About page navigation item"
     },
+    "faq-authentic-windows-answer-para-2020": {
+        "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "میزان استفاده از پروتکل‌های استفاده شده و پیامهای خطا بعد ازناکارآمدی",
         "description": ""
@@ -1210,6 +1506,18 @@
     "privacy-para-1": {
         "message": "سایفون متعهد به حفاظت از منافع حفظ حریم خصوصی مشتریان خود، کاربران نهایی، توزیع کنندگان و تامین کنندگان است. این سیاست حفظ حریم خصوصی در نظر گرفته شده است تا شما بدانید اطلاعات خصوصی شما چگونه امکان دارد مورد استفاده قرار گیرد. سایفون یک شرکت کانادایی که دفتر مرکزی آن واقع در انتاریو است، و سیاست حفظ حریم خصوصی ما برای منعکس کردن قوانین و اساسنامه حفظ حریم خصوصی انتاریو و کانادا وسعه داده شده است.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-1": {
+        "message": "<a href=\"<%= @getPageURL '/download.html' %>دانلود \"PsiphonBrowser.ipa\"</a> بر روی کامپیتور خود. ( این برنامه به احتمال زیاد در فولدر \"Downloads\" ذخیره خواهد شد.)",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
+    "privacy-information-collected-client-advertising-networks-head": {
+        "message": "شبکه‌های تبلیغاتی",
+        "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "faq-ios-sideloading-sideloading-answer-intro-2": {
+        "message": "مرورگر سایفون می‌تواند توسط ابزار <a href=\"http://www.cydiaimpactor.com/\">Cydia Imapctor</a> بر روی دستگاه آی‌اواس ساید‌لود شود. دستگاه آی‌اواس شما نیازی به قفل‌شکنی ندارد. شما نیاز به یک حساب اپل‌آیدی دارید ( یا دسترسی به یک آیدی معتبر) و همچنین امکان ارتباط با اپل هنگام پروسه‌ی ساید‌-لودینگ. (اگر به‌دلیل فیلتر یا بلاک بودن امکان ارتباط وجود نداشت، هنگام ساید-لودینگ در کامپیتور به وی‌پی‌ان وصل باشید.)",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Note that 'Cydia Impactor' is the name of a third-party tool and must not be translated."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "سایفون این حق را برای خود محفوظ نگاه می دارد که گواهینامه ها را در هر زمانی، بدون دلیل و بدون پرداخت غرامت ملغی کند. با استفاده از سایفون، شما می پذیرید که از برنامه به هیچ شکلی استفاده نکنید که شرایط استفاده از خدمات و یا مجوز توافقنامه را نقض کند. ",
@@ -1239,6 +1547,10 @@
         "message": "تنها نرم افزارهایی که توسط سافون طراحی شده باشد اجازه استفاده از سرویس سایفون را دارد. توزیع و یا استفاده سوم شخص از ابزارها برای استفاده از سرویس سایفون، نقض این گواهینامه به شمار می رود..",
         "description": ""
     },
+    "faq-ios-sideloading-image-1-alt": {
+        "message": "عکس از اعلان دستگاه آی‌او‌اس برای اعتماد به کامپیوتر وصل شده",
+        "description": "alt text for an iOS sideloading image"
+    },
     "user-guide-android-image-1-alt": {
         "message": "عکس نشانگر تنظیمات اندورید برای اجازه کاربرد اپلیکیشن های غیرگوگل پلی استوراست. ",
         "description": "alt text for an image"
@@ -1246,6 +1558,14 @@
     "page-keyword-contribute": {
         "message": "کمک",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-av-firewall-answer-para-2": {
+        "message": "اگر کپی شما اصل است، احتمالاً این یک تک گزارش اشتباه از وجود یک ویروس است. اگرچه بیشتر آنتی‌ویروس‌ها و فایروال‌ها امضای دیجیتال سایفون را به قواعد فهرست سفید (Whitelist) خود اضافه کرده‌اند، بعضی از آنها ممکن است به اشتباه فایل قابل اجرای سایفون را به عنوان یک تهدید و یا ویروس شناسایی کنند. در این صورت لطفاً \n<a href=\"mailto:info@psiphon.ca\">\nیک ایمیل\n</a>\n به ما بفرستید و مشخص کنید که چه فایروال یا آنتی‌ویروسی استفاده می‌کنید و ما با آنها تماس بگیریم و مشکل را حل کنیم.\n",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+    },
+    "faq-ios-sideloading-image-11-alt": {
+        "message": "عکس از صفحه‌ی خانه‌ی آی‌اواس که آیکون سایفون را نشان می‌دهد",
+        "description": "Alt text for an iOS sideloading image"
     },
     "main-gets-you-where-you-want-para-1": {
         "message": "بعد ازمقابله با کشورهای سانسور کننده اینترنت، ما به طور منحصر به فرد مناسب هستیم که به شما کمک کنیم به جایی که می‌خواهید وصل شوید، هروقت می‌خواهید و هر کجا که می‌خواهید. ",
@@ -1270,6 +1590,14 @@
     "download-direct-head": {
         "message": "دانلود های مستقیم ",
         "description": ""
+    },
+    "faq-proxy-all-ios-browser-answer-para-1": {
+        "message": "مرورگر سایفون برای IOS فقط یک برنامه مرورگر است و فقط از مرورگر سایفون تونل داده می شود, و دیگر برنامه های شما  (مانند برنامه های فیسبوک و توییتر) از طریق شبکه سایفون میسر نمی شود. بنابراین, به عنوان مثال, اگر شما می خواهید از شبکه Psiphon برای دسترسی به حساب فیس بوک خود استفاده کنید، از برنامه ما برای رفتن به فیس بوک از طریق برنامه Psiphon iOS Browser استفاده کنید. اگر شما برنامه فیسبوک خود را باز کردید، از طریق Wi-Fi یا ارتباط داده های تلفن همراه خود، از طریق شبکه Psiphon مسیر می شود.",
+        "description": ""
+    },
+    "faq-mail-apps-ports-question": {
+        "message": "چرا نمی‌توانم اپلیکیشن محبوب خود را هنگام استفاده از سایفون استفاده کنم؟ چرا نمی‌توانم ایمیل بفرستم هنگامی که از اپلیکیشن ایمیل ام استفاده می‌کنم؟",
+        "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-1": {
         "message": "تعداد درخواستهای ایمیلی برای دریافت یا دانلود برنامه کلاینت (یا بازدید کننده)",

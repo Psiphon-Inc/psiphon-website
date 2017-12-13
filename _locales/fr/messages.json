@@ -8,7 +8,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-autoproxy-question-toc": {
-        "message": "J'utilise AutoProxy. Comment puis-je dire à Psiphon pour Windows de ne pas configurer les paramètres du serveur mandataire système?",
+        "message": "J'utilise AutoProxy. Comment puis-je dire à Psiphon pour Windows de ne pas configurer les paramètres du serveur mandataire système ?",
         "description": ""
     },
     "page-keyword-psiphon2": {
@@ -20,7 +20,7 @@
         "description": ""
     },
     "faq-vpn-protocol-question": {
-        "message": "Quel protocole de RPV est utilisé par Psiphon pour Windows? Pourquoi ne puis-je pas me connecter?",
+        "message": "Quel protocole de RPV est utilisé par Psiphon pour Windows? Pourquoi ne puis-je pas me connecter ?",
         "description": ""
     },
     "user-guide-android-image-3-annotation-2": {
@@ -36,16 +36,20 @@
         "description": ""
     },
     "faq-proxy-all-question": {
-        "message": "Est-ce que Psiphon pour Windows relaye tout mon trafic Internet?",
+        "message": "Est-ce que Psiphon pour Windows relaye tout mon trafic Internet ?",
         "description": ""
     },
     "user-guide-android-para-1": {
-        "message": "Cliquez sur un lien Psiphon APK dans votre client de courriel ou dans votre navigateur Android pour commencer l'installation (si vous obtenez une erreur, vous pourriez avoir à <a href=\"./faq.html#android-enable-sideloading\">activer l'installation alternative</a>.)",
+        "message": "Cliquez sur un lien Psiphon APK dans votre client de courriel ou dans votre navigateur Android pour commencer l'installation (si vous obtenez une erreur, il vous faudra peut-être <a href=\"./faq.html#android-enable-sideloading\">activer l'installation alternative</a>.)",
         "description": ""
     },
     "about-contact-head": {
         "message": "Nous contacter",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-15": {
+        "message": "Appuyez sur le bouton principal pour retourner à l'écran d'accueil. Vous pouvez maintenant lancer le navigateur Psiphon.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "privacy-description": {
         "message": "Politique de confidentialité de Psiphon",
@@ -63,6 +67,10 @@
         "message": "Psiphon",
         "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
+    "faq-mobile-hotspot-question": {
+        "message": "Pourquoi les points d'accès mobile et la fonction modem USB d'Android ne fonctionnent-ils pas avec Psiphon ?",
+        "description": "FAQ question."
+    },
     "faq-android-enable-sideloading-image-alt": {
         "message": "capture d'écran de l'activation de l'installation alternative",
         "description": "alt text for an image"
@@ -79,12 +87,16 @@
         "message": "Développeurs Psiphon",
         "description": "text for link to the Psiphon Developers mailing list"
     },
+    "faq-section-miscellaneous": {
+        "message": "Divers",
+        "description": "Section heading for FAQ entries that don't fit in any other category."
+    },
     "about-who-we-are-software-development-para-2": {
         "message": "Et nous savons qu'il est tout aussi important de travailler fort en coulisse pour nos utilisateurs. La protection de nos utilisateurs et de leurs données est de la plus grande importance. Les utilisateurs pourraient ne jamais remarquer les mesures en place pour protéger la confidentialité de leurs renseignements et leur sécurité, mais nous savons qu'ils l'apprécient.",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
-        "message": "L'analytique Google met en place un fichier témoin permanent dans votre navigateur Web pour vous identifier comme utilisateur unique la prochaine fois que vous visiterez le site, mais ce fichier témoin ne peut être utilisé que par Google, et les données recueillies ne peuvent pas être changées ou récupérées par des services d'autres domaines.",
+        "message": "L'analytique Google met en place un témoin permanent dans votre navigateur Web pour vous identifier comme utilisateur unique la prochaine fois que vous visiterez le site, mais ce fichier témoin ne peut être utilisé que par Google, et les données recueillies ne peuvent pas être changées ou récupérées par des services d'autres domaines.",
         "description": ""
     },
     "open-source-description": {
@@ -96,15 +108,19 @@
         "description": ""
     },
     "main-gets-you-there-safely-head-1": {
-        "message": "...et vous y amène en toute sécurité.",
+        "message": "...et vous y mène en toute sécurité.",
         "description": ""
     },
     "privacy-title": {
         "message": "Politique de confidentialité",
         "description": "page title for the Privacy Policy page"
     },
+    "faq-ios-sideloading-sideloading-answer-step-5": {
+        "message": "Dans le menu d'Impactor, cliquez sur «&nbsp;Device&nbsp;» puis sur «&nbsp;Install Package&nbsp;»",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate quoted text in this string -- they are from Cydia Impactor, which is not itself translated."
+    },
     "faq-information-collected-answer-para-12": {
-        "message": "Notre serveur répondeur automatique de courriel est hébergé dans le nuage Amazon EC2. Nous envoyons deux réponses par courriel pour chaque demande, et pour l'une de ces réponses nous utilisons Amazon SES. Ceci signifie qu'Amazon peut voir votre courriel et notre réponse.",
+        "message": "Notre serveur répondeur automatique de courriel est hébergé dans le nuage Amazon EC2. Nous envoyons deux réponses par courriel pour chaque demande, et pour l'une de ces réponses nous utilisons Amazon SES. Cela signifie qu'Amazon peut voir votre courriel et notre réponse.",
         "description": ""
     },
     "page-keyword-psiphon1": {
@@ -112,8 +128,12 @@
         "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-there-safely-para-1": {
-        "message": "L'Internet libre, c'est bien, mais les fichiers témoins et les comptes volés, ça l'est moins. Psiphon vous offre un chemin sécurisé vers Internet, peu importe quel réseau vous utilisez pour vous connecter.",
+        "message": "L'Internet libre, c'est bien, mais les témoins et les comptes volés, ça l'est moins. Psiphon vous offre un chemin sécurisé vers Internet, peu importe quel réseau vous utilisez pour vous connecter.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-3": {
+        "message": "Téléchargez la dernière version de <a target=\"_blank\" href=\"http://www.cydiaimpactor.com/\">«&nbsp;Cydia Impactor&nbsp;»</a> pour votre système d'exploitation : <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/1\">macOS/OS X</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/2\">Windows</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/4\">Linux 32 bits</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/5\">Linux 64 bits</a>.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "user-guide-android-image-3-alt": {
         "message": "Image montrant les différentes parties du navigateur Web Psiphon pour Android",
@@ -127,10 +147,6 @@
         "message": "Utilisation personnelle ou spécifiée",
         "description": ""
     },
-    "faq-information-collected-answer-para-2-item-6": {
-        "message": "Pages vues (URL de pages entières pour les sites Web des commanditaires) ",
-        "description": ""
-    },
     "user-guide-android-ui-logs-image-alt": {
         "message": "Image montrant le panneau des journaux de Psiphon pour Android",
         "description": "alt text for an image"
@@ -140,24 +156,36 @@
         "description": ""
     },
     "faq-android-enable-sideloading-question": {
-        "message": "Comment puis-je activer l'« installation alternative » sous Android?",
-        "description": ""
+        "message": "Comment puis-je activer l'«&nbsp;installation alternative&nbsp;» sous Android ?",
+        "description": "FAQ question."
     },
     "privacy-information-collected-websites-google-analytics-para-1": {
         "message": "Nous utilisons l'analytique Google sur certains de nos sites Web pour recueillir des informations d'utilisation. Les informations recueillies par l'analytique Google ne seront utilisées que pour des analyses statistiques sur votre comportement de navigation sur ce site particulier. Les informations que nous obtenons de l'analytique Google ne comportent aucune identification personnelle, et ne sont pas combinées aux informations d'autres sources pour créer des informations d'identification personnelle.",
         "description": ""
     },
+    "faq-screen-filter-answer-para-1": {
+        "message": "Vérifiez si vous exécutez une appli de filtrage de l'écran ou une appli qui gère la luminosité de l'écran. Si c'est la cas, essayez de la désactiver. La plupart de ces applis (telles que Lux Auto Brightness, Twilight, Night Mode) interfèrent avec la capacité de l'utilisateur d'interagir avec cette invite.",
+        "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
+    },
     "faq-port-restrictions-question": {
-        "message": "Y a-t-il des restrictions de port en mode RPV ? Pourquoi ne puis-je pas envoyer de courriel en utilisant mon client de courriel en mode RPV?",
-        "description": ""
+        "message": "Y a-t-il des restrictions de port lors de l'utilisation de Psiphon ?",
+        "description": "FAQ question. Note that 'port' is referring to network ports."
+    },
+    "faq-ie6-docbody-question": {
+        "message": "Psiphon pour Windows retourne l'erreur «&nbsp;doc.body a la valeur Null ou n'est pas un objet&nbsp;» et ne fonctionne pas.",
+        "description": "FAQ question."
     },
     "faq-ssh-plus-question": {
-        "message": "Quel protocole est utilisé par le tunnel Psiphon par défaut?",
+        "message": "Quel protocole est utilisé par le tunnel Psiphon par défaut ?",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
-        "message": "Chez Psiphon, nous voulons que nos utilisateurs vivent une expérience agréable. Ceci signifie que nos logiciels doivent être conviviaux, que notre réseau doit être rapide, et que les deux doivent être d'une stabilité à toute épreuve. Un but difficile à atteindre pour un développeur, mais encore plus quand votre logiciel doit fonctionner dans un environnement antagonique en évolution constante, en plusieurs langues et sur plusieurs plateformes.",
+        "message": "Chez Psiphon, nous voulons que nos utilisateurs vivent une expérience agréable. Cela signifie que nos logiciels doivent être conviviaux, que notre réseau doit être rapide, et que les deux doivent être d'une stabilité à toute épreuve. Un but difficile à atteindre pour un développeur, mais encore plus quand votre logiciel doit fonctionner dans un environnement antagonique en évolution constante, en plusieurs langues et sur plusieurs plateformes.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-9": {
+        "message": "Quand «&nbsp;Cydia Impactor&nbsp;» a terminé sa tâche, déverrouillez votre téléphone et accédez aux Réglages. Vous pourrez alors déconnecter votre appareil de votre ordinateur.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "sponsor-nav-title": {
         "message": "Commanditaire",
@@ -176,7 +204,7 @@
         "description": "alt text for an image"
     },
     "faq-vpn-slow-question": {
-        "message": "Je peux me connecter à Psiphon pour Windows en mode RPV, mais pourquoi est-ce si lent? Parfois les pages Web ne se chargent pas du tout.",
+        "message": "Je peux me connecter à Psiphon pour Windows en mode RPV, mais pourquoi est-ce si lent ? Parfois les pages Web ne se chargent pas du tout.",
         "description": ""
     },
     "privacy-meta-title": {
@@ -188,7 +216,7 @@
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Certains équipements de réseautique ou connexions Internet pourraient causer des problèmes de performance avec L2TP/IPSec qui est le protocole utilisé par Psiphon en mode RPV. Essayez de désactiver le mode RPV.",
+        "message": "Certains équipements de réseautique ou connexions Internet pourraient causer des problèmes de performance avec L2TP/IPsec qui est le protocole utilisé par Psiphon en mode RPV. Essayez de désactiver le mode RPV.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -208,8 +236,16 @@
         "description": "text for link to the Psiphon Announcements mailing list"
     },
     "privacy-bulletin-entry-2-what-doing": {
-        "message": "Nous mettons à jour notre <a href=\"privacy.html\">politique de confidentialité</a>. Ceci inclut l'ajout de la réponse à la question de la FAQ « Quelles informations sont recueillies par Psiphon? ».",
+        "message": "Nous mettons à jour notre <a href=\"privacy.html\">politique de confidentialité</a>. Cela inclut l'ajout de la réponse à la question de la FAQ «&nbsp;Quelles informations sont recueillies par Psiphon ?&nbsp;».",
         "description": ""
+    },
+    "faq-proxy-all-ios-browser-question": {
+        "message": "Est-ce que le navigateur Psiphon pour iOS relaye tout le trafic Internet de mon appareil ?",
+        "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-10": {
+        "message": "Dans les réglages, cliquez sur «&nbsp;Général&nbsp;».",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-description": {
         "message": "Rencontrez l'équipe derrière les logiciels Psiphon de contournement de la censure sur Internet",
@@ -224,20 +260,32 @@
         "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "faq-connection-failed-question": {
-        "message": "Pourquoi vois-je le message « Échec de connexion » apparaître en boucle?",
+        "message": "Pourquoi vois-je le message «&nbsp;Échec de connexion&nbsp;» apparaître en boucle ?",
         "description": ""
     },
+    "faq-ie6-docbody-answer-xpie8": {
+        "message": "Internet Explorer 8 pour Windows XP",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
+    },
+    "faq-ios-sideloading-image-7-alt": {
+        "message": "capture de l'écran Réglages Général d'iOS affichant l'élément «&nbsp;Gestion des périphériques&nbsp;»",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "faq-information-collected-answer-head-2": {
-        "message": "Réactions",
+        "message": "Rétroaction",
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "Lorsque vous envoyez une demande par courriel à notre serveur répondeur automatique de courriel, nous pouvons voir votre adresse courriel. Pendant le traitement de votre courriel, cette adresse est enregistrée sur le disque du serveur de courriel, et elle est supprimée après traitement (habituellement après quelques secondes). Nous ne permettons pas que votre adresse courriel soit inscrite dans le journal du système.",
+        "message": "Lorsque vous envoyez une demande par courriel à notre serveur répondeur automatique de courriel, nous pouvons voir votre adresse courriel. Pendant le traitement de votre courriel, cette adresse est enregistrée sur le disque du serveur de courriel, puis elle est supprimée après traitement (habituellement après quelques secondes). Nous ne permettons pas que votre adresse courriel soit inscrite dans le journal du système.",
         "description": ""
     },
     "faq-authentic-windows-question": {
-        "message": "Mon Psiphon pour Windows est-il authentique?",
+        "message": "Mon Psiphon pour Windows est-il authentique ?",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-para-2": {
+        "message": "Si vous ne pouvez pas utiliser Windows Update et souhaitez installer Internet Explorer 7 ou Internet Explorer 8 directement, vous pouvez les obtenir en suivant ces liens :",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
     "faq-ip-change-answer-para-1": {
         "message": "Votre client Psiphon découvrira automatiquement les nouveaux serveurs Psiphon. Si le dernier serveur utilisé est actuellement non disponible, un autre peut être utilisé à la place.",
@@ -252,16 +300,24 @@
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "Michael Hull est directeur de l'exploitation, et fait partie de Psiphon depuis le tout début, lors de sa naissance comme projet du « Citizen Lab » à l'université de Toronto. Il a depuis dirigé l'effort de développement de logiciels et aide à stimuler l'innovation qui maintient Psiphon au sommet.",
+        "message": "Michael Hull est le président de Psiphon inc. Il fait partie de l'équipe Psiphon depuis le début, quand elle commença comme projet du «&nbsp;Citizen Lab&nbsp;» de l'Université de Toronto. Il a depuis guidé les efforts de développement et fait avancer l'innovation qui assure l'excellence de Psiphon.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2017": {
         "message": "Pour le certificat valide durant la période du 08-05-2014 au 06-09-2017, l'empreinte SHA1 est :",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-redirect": {
-        "message": "Veuillez consulter notre <a href=\"privacy.html\">politique de confidentialité</a> pour connaître quelles informations nous recueillons.",
+        "message": "Veuillez consulter notre <a href=\"privacy.html\">politique de confidentialité</a> pour savoir quelles sont les informations recueillies.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
+    },
+    "faq-uninstall-windows-answer-para-1": {
+        "message": "Psiphon pour Windows ne s'installe pas et n'apparaîtra pas dans la liste «&nbsp;Ajout/suppression de programmes&nbsp;». Le fichier exécutable peut être lancé à partir de votre répertoire «&nbsp;téléchargements&nbsp;», ou peut être copié dans un répertoire différent et y être exécuté. Si vous désirez supprimer le programme, vous pouvez simplement supprimer le fichier exécutable.",
+        "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
+    },
+    "faq-ios-sideloading-image-3-alt": {
+        "message": "capture d'écran de «&nbsp;Cydia Impactor&nbsp;» demandant l'adresse courriel de l'identifiant Apple de l'utilisateur",
+        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "donate-heading": {
         "message": "Contribuer à Psiphon",
@@ -271,13 +327,33 @@
         "message": "Comment utiliser Psiphon sur les appareils mobiles et sur Windows",
         "description": "meta title for the user guide page"
     },
+    "faq-windows-vpn-connect-answer-para-1": {
+        "message": "Le pare-feu de votre réseau pourrait empêcher l'utilisation d'un RPV. Votre routeur domestique pourrait ne pas être configuré pour le transit avec ce protocole ; vérifiez les paramètres de votre pare-feu pour vous assurer que le transit IPsec ou L2TP est activé. Les services IPsec de votre système pourraient être désactivés ; vérifiez les paramètres de vos services et activez ce service afin qu'il démarre.",
+        "description": ""
+    },
+    "faq-get-updated-version-question": {
+        "message": "Comment puis-je obtenir une version à jour de Psiphon ?",
+        "description": "FAQ question"
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "Cliquez sur Exécuter, et tapez <code>regedit</code> pour ouvrir l'éditeur de registre. Trouvez et ouvrez <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, et sur le côté droit vous verrez <code>SkipProxySettings</code>. Définissez cette valeur à <code>1</code> et Psiphon ne configurera pas automatiquement les paramètres du serveur mandataire système.",
         "description": ""
     },
+    "faq-ie6-docbody-answer-para-1": {
+        "message": "Cette erreur surviendra sur Windows XP si Internet Explorer 6 est installé. Psiphon pour Windows exige qu'Internet Explorer 7 ou ultérieure soit installé. La meilleure façon d'installer des versions ultérieures d'Internet Explorer est avec <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Windows Update</a>.",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+    },
     "user-guide-android-head": {
         "message": "Psiphon pour Android",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-unsupported-platforms-question": {
+        "message": "Psiphon est-il proposé pour macOS, Linux, Windows Phone, etc. ?",
+        "description": "FAQ question."
+    },
+    "faq-subsection-troubleshooting-android": {
+        "message": "Android",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Android-specific."
     },
     "privacy-bulletin-entry-2-title": {
         "message": "01-06-2015 : mise à jour de la politique de confidentialité",
@@ -291,9 +367,17 @@
         "message": "Foire aux questions",
         "description": "title for the FAQ page"
     },
+    "faq-ios-sideloading-sideloading-answer-step-6": {
+        "message": "Dans la fenêtre du navigateur de fichiers qui s'ouvre, rendez-vous où vous avez enregistré «&nbsp;PsiphonBrowser.ipa&nbsp;» et double-cliquez dessus.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "privacy-information-collected-s3-logging-para-1": {
-        "message": "Nous utilisons Amazon S3 pour stocker des actifs tels que les fichiers de sites Web et les listes de découverte des serveurs Psiphon. Nous activons parfois la journalisation du téléchargement de ces fichiers. L'analyse de ces journaux nous permet de répondre à des questions comme « combien d'utilisateurs commence le téléchargement de la liste de découverte des serveurs mais ne le termine pas? », « comment les données téléchargées sont-elles divisées entre les actifs de sites Web et la découverte des serveurs ? », et « un attaquant est-il en train de tenter un déni de service contre nos sites Web? »",
+        "message": "Nous utilisons Amazon S3 pour stocker des actifs tels que les fichiers de sites Web et les listes de découverte des serveurs Psiphon. Nous activons parfois la journalisation du téléchargement de ces fichiers. L'analyse de ces journaux nous permet de répondre à des questions comme «&nbsp;combien d'utilisateurs commencent le téléchargement de la liste de découverte des serveurs, mais ne le termine pas ?&nbsp;», «&nbsp;comment les données téléchargées sont-elles divisées entre les actifs de sites Web et la découverte des serveurs ?&nbsp;» et «&nbsp;un attaquant est-il en train de tenter un déni de service contre nos sites Web ?&nbsp;»",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-14": {
+        "message": "Cliquer sur «&nbsp;Se fier&nbsp;» dans la prochaine boîte de dialogue pour confirmer l'action.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-who-we-are-exec-team-head": {
         "message": "Équipe de direction",
@@ -312,28 +396,40 @@
         "description": "web page meta keyword used for SEO"
     },
     "blog-index-intro": {
-        "message": "Psiphon Inc. est une entreprise canadienne, et la plupart des membres de notre équipe sont des anglophones natifs. Ceci signifie que les billets de notre blogue sont à l'origine en anglais. Nous les traduiront en d'autres langues quand nous le pourrons.",
+        "message": "Psiphon inc. est une entreprise canadienne, et la plupart des membres de notre équipe sont anglophones. Cela signifie que les billets de notre blogue sont à l'origine en anglais. Nous les traduirons en d'autres langues si nous le pouvons.",
         "description": ""
     },
     "about-who-we-are-ops-para-1": {
-        "message": "Nous avons des contrats avec diverses entreprises, que ce soit des diffuseurs internationaux à grande échelle ou des organisations de défense des droits humains présentes dans un seul pays. Notre équipe d'exploitation et de sensibilisation rédige des rapports leur présentant combien de personnes accèdent à Psiphon par le biais de leurs méthodes de distribution. Elle étudie aussi les tendances, et surveille les événements à venir, événements qui pourraient influencer la libre circulation de l'information sur Internet.",
+        "message": "Nous avons des contrats avec diverses entreprises, que ce soit des diffuseurs internationaux à grande échelle ou de petites organisations de défense des droits de la personne présentes dans un seul pays. Notre équipe d'exploitation et de sensibilisation rédige des rapports leur présentant combien de personnes accèdent à Psiphon par le biais de leurs méthodes de distribution. Elle étudie aussi les tendances, et surveille les événements à venir, événements qui pourraient influencer la libre circulation de l'information sur Internet.",
         "description": ""
     },
     "faq-information-collected-answer-para-7-list-start": {
         "message": "Windows :",
         "description": ""
     },
+    "faq-ios-sideloading-sideloading-answer-step-2": {
+        "message": "Votre appareil iOS doit être connecté à Internet. Connectez votre appareil iOS à votre ordinateur. Si l'on vous demande de «&nbsp; confiance à cet ordinateur&nbsp;», cliquez sur le bouton «&nbsp;Se fier&nbsp;».",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "Ceci est effectif au moins avant 2015-06-01T00:00Z.",
         "description": ""
     },
     "alert-body": {
-        "message": "L'équipe Psiphon a découvert un programme malveillant déguisé en exécutable Psiphon pour Windows. Le programme malveillant est distribué comme fichier zip nommé « psiphone3.zip » sur www.copy.com et pourrait être proposé par d'autres sources. Le fichier zip contient un fichier binaire malveillant nommé « psiphone3.exe » dont les propriétés sont décrites sur <a href=\"https://www.virustotal.com/fr/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Remarquez la faute d'orthographe dans le nom. L'exécutable Windows n'est pas signé par Psiphon Inc. N'exécutez jamais un nouveau téléchargement de Psiphon sans vérifier la signature numérique, tel que décrit <a href=\"#authentic-windows\">ici</a>.",
+        "message": "L'équipe Psiphon a découvert un programme malveillant déguisé en exécutable Psiphon pour Windows. Le programme malveillant est distribué comme fichier zip nommé «&nbsp;psiphone3.zip&nbsp;» sur www.copy.com et pourrait être proposé par d'autres sources. Le fichier zip contient un fichier binaire malveillant nommé «&nbsp;psiphone3.exe&nbsp;» dont les propriétés sont décrites sur <a href=\"https://www.virustotal.com/fr/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Remarquez la faute d'orthographe dans le nom. L'exécutable Windows n'est pas signé par Psiphon inc. N'exécutez jamais un nouveau téléchargement de Psiphon sans vérifier la signature numérique, tel que décrit <a href=\"#authentic-windows\">ici</a>.",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
+    },
+    "privacy-information-collected-client-advertising-networks-para-2": {
+        "message": "Vous pouvez refuser l'utilisation de témoins pour la publicité axée sur les centres d'intérêt en visitant :",
+        "description": ""
     },
     "faq-information-collected-answer-para-5": {
         "message": "Toutes les statistiques partagées avec les commanditaires sont de plus regroupées par date, commanditaire et région.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-8": {
+        "message": "Saisissez le mot de passe de votre identifiant Apple dans la prochaine invite. Cliquez ensuite sur OK.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
     },
     "user-guide-android-ui-statistics-image-annotation-3": {
         "message": "Données reçues avec Psiphon",
@@ -343,12 +439,8 @@
         "message": "Seulement en mode RPV. Suite à une connexion réussie en mode RPV, tout le trafic de votre ordinateur passera par le réseau Psiphon. Si le mode RPV n'est pas activé, seules les applications utilisant les mandataires HTTP et SOCKS locaux seront relayées. ",
         "description": ""
     },
-    "faq-information-collected-answer-para-2-item-8": {
-        "message": "Nombre de requêtes HTTPS",
-        "description": ""
-    },
     "about-who-we-are-para-1": {
-        "message": "Psiphon Inc. est une compagnie basée à Toronto, produisant des logiciels multiplateformes à code source ouvert qui aident plus de trois millions de personnes, chaque semaine, à se connecter à du contenu sur Internet. Nous nous concentrons, en tant qu'équipe, à fournir les meilleurs logiciels possible, produisant de nouveaux produits régulièrement et nous assurant que notre évolution colle aux besoins de notre auditoire mondial en croissance constante.",
+        "message": "Psiphon inc. est une compagnie basée à Toronto, produisant des logiciels multiplateformes à code source ouvert qui aident plus de trois millions de personnes, chaque semaine, à se connecter à du contenu sur Internet. Nous nous concentrons, en tant qu'équipe, à fournir les meilleurs logiciels possible, produisant de nouveaux produits régulièrement et nous assurant que notre évolution colle aux besoins de notre auditoire mondial en croissance constante.",
         "description": ""
     },
     "user-guide-windows-para-3": {
@@ -360,11 +452,11 @@
         "description": ""
     },
     "faq-information-collected-question": {
-        "message": "Quelles informations sont recueillies par Psiphon?",
+        "message": "Quelles informations sont recueillies par Psiphon ?",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-7": {
-        "message": "Octets transférés ",
+        "message": "Total des octets transférés et octets transférés pour certains domaines précis",
         "description": ""
     },
     "privacy-bulletin-title": {
@@ -372,7 +464,7 @@
         "description": ""
     },
     "license-para-2": {
-        "message": "Le système Psiphon comprend à la fois des « logiciels » (code source des programmes et les applications dérivée de ce code) et un « service » (un système de logiciels client et serveur qui composent un tout fonctionnel). Les logiciels Psiphon et le code source sont <a href=\"https://fr.wikipedia.org/wiki/Free/Libre_Open_Source_Software\" target=\"_blank\">libres et ouverts</a> et <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/LICENSE?at=default\" target=\"_blank\">sont </a> sous <a href=\"https://www.gnu.org/licenses/gpl-3.0.fr.html\" target=\"_blank\">licence publique générale GNU version 3</a>. L'utilisation du service Psiphon se fait sous les termes de licence décrits sur cette page.",
+        "message": "Le système Psiphon comprend à la fois des «&nbsp;logiciels&nbsp;» (code source des programmes et les applications dérivées de ce code) et un «&nbsp;service&nbsp;» (un système de logiciels client et serveur qui composent un tout fonctionnel). Les logiciels Psiphon et le code source sont <a href=\"https://fr.wikipedia.org/wiki/Free/Libre_Open_Source_Software\" target=\"_blank\">libres et ouverts</a> et <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/LICENSE?at=default\" target=\"_blank\">sont </a> sous <a href=\"https://www.gnu.org/licenses/gpl-3.0.fr.html\" target=\"_blank\">licence publique générale GNU version 3</a>. L'utilisation du service Psiphon se fait sous les termes de licence décrits sur cette page.",
         "description": "Please modify the Wikipedia link to point to the correct language entry"
     },
     "page-keyword-instructions": {
@@ -388,7 +480,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "faq-isp-traffic-answer-para-1": {
-        "message": "Toutes les données passant par Psiphon sont chiffrées. Ceci signifie que votre FSI ne peut pas voir le contenu de votre trafic Internet : les pages Web que vous parcourez, vos clavardages, vos téléversements, etc.",
+        "message": "Toutes les données passant par Psiphon sont chiffrées. Cela signifie que votre FSI ne peut pas voir le contenu de votre trafic Internet : les pages Web que vous parcourez, vos clavardages, vos téléversements, etc.",
         "description": ""
     },
     "faq-root-wdm-answer-para-1": {
@@ -396,7 +488,7 @@
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "Cependant, souvenez-vous que Psiphon est conçu pour être un outil de contournement de la censure, et n'est pas particulièrement conçu à des fins de non surveillance. Psiphon n'empêche pas le stockage de votre historique de navigation et des fichiers témoins sur votre ordinateur. Et dans certains modes, et avec certaines configurations, votre trafic Internet pourrait ne pas être entièrement tunnellisé par Psiphon. Par exemple, si les paramètres du mandataire de votre navigateur sont mal configurés, ou si vous laissez votre navigateur ouvert après avoir quitté Psiphon.",
+        "message": "Cependant, souvenez-vous que Psiphon est conçu pour être un outil de contournement de la censure, et n'est pas particulièrement conçu à des fins de non surveillance. Psiphon n'empêche pas le stockage de votre historique de navigation et des témoins sur votre ordinateur. Et dans certains modes, et avec certaines configurations, votre trafic Internet pourrait ne pas être entièrement tunnellisé par Psiphon. Par exemple, si les paramètres du mandataire de votre navigateur sont mal configurés, ou si vous laissez votre navigateur ouvert après avoir quitté Psiphon.",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
@@ -416,7 +508,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
     },
     "what-is-psiphon-body-para-1": {
-        "message": "Psiphon est outil de contournement de Psiphon Inc. utilisant les technologies RPV, SSH et HTTP de relais par serveur mandataire pour vous fournir un accès non censuré au contenu Internet. Votre client Psiphon prendra automatiquement connaissance de nouveaux points d'accès pour maximiser vos chances de court-circuiter la censure.",
+        "message": "Psiphon est outil de contournement de Psiphon inc. utilisant les technologies RPV, SSH et HTTP de relais par serveur mandataire pour vous fournir un accès non censuré au contenu Internet. Votre client Psiphon prendra automatiquement connaissance des nouveaux points d'accès pour maximiser vos chances de court-circuiter la censure.",
         "description": ""
     },
     "user-guide-description": {
@@ -431,24 +523,36 @@
         "message": "Groupe d'utilisateurs Psiphon",
         "description": "text for link to the Psiphon Users mailing list"
     },
+    "faq-subsection-troubleshooting-windows": {
+        "message": "Windows",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
+    },
+    "faq-ios-sideloading-sideloading-answer-intro-4": {
+        "message": "<strong>NOTE :</strong> si l'identifiant Apple utilisé pour l'installation alternative n'est pas un compte développeur, l'appli devra être rechargée toutes les semaines. Cette restriction est imposée par Apple. Si l'identifiant Apple <em>est</em> un compte développeur, l'installation sera alors valide pour un an.",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "Déclaration de limite de responsabilité",
         "description": ""
     },
     "faq-information-collected-answer-para-10": {
-        "message": "Notez que si vous obtenez Psiphon d'une « logithèque », telle que le Google Play Store ou l'Amazon AppStore, des statistiques supplémentaires pourraient être recueillies par cette logithèque. Voici, par exemple, une description de ce que Google Play Store recueille :",
+        "message": "Notez que si vous obtenez Psiphon d'une «&nbsp;logithèque&nbsp;», telle que le Google Play Store ou l'Amazon AppStore, des statistiques supplémentaires pourraient être recueillies par cette logithèque. Voici, par exemple, une description de ce que Google Play Store recueille :",
         "description": ""
     },
     "faq-nav-title": {
         "message": "FAQ",
         "description": "text for the FAQ page navigation item"
     },
+    "faq-av-firewall-answer-para-1": {
+        "message": "Il faut d'abord vous assurer que vous détenez une copie authentique de Psiphon . Veuillez <a href=\"#verify-psiphon-authentic\">suivre ces instructions</a> pour vérifier que votre copie de Psiphon est authentique. Si elle n'est pas authentique, veuillez <a href=\"mailto:info@psiphon.ca\">nous envoyer un courriel</a> expliquant comment vous avez obtenu la copie, et en joignant si possible le fichier exécutable de Psiphon.",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+    },
     "alert-heading": {
         "message": "ALERTE",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "license-personal-or-specified-use-para": {
-        "message": "L'utilisation du service Psiphon est accordé sous une licence personnelle non exclusive. En utilisant Psiphon, vous acceptez de n'utiliser le service qu'a à des fins personnelles et non commerciales. Vous ne pouvez pas (ni ne pouvez permettre à un tiers de) louer, émettre une sous-licence, revendre ou distribuer autrement l'utilisation du service Psiphon à des fins commerciales.",
+        "message": "L'utilisation du service Psiphon est accordée sous une licence personnelle non exclusive. En utilisant Psiphon, vous acceptez de n'utiliser le service qu'à des fins personnelles et non commerciales. Vous ne pouvez pas (ni ne pouvez permettre à un tiers de) louer, émettre une sous-licence, revendre ou distribuer autrement l'utilisation du service Psiphon à des fins commerciales.",
         "description": ""
     },
     "faq-browser-compatibility-question": {
@@ -459,16 +563,28 @@
         "message": "page de renvoi destination",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-ios-sideloading-image-9-alt": {
+        "message": "capture de l'écran «&nbsp;Gestion des périphériques&nbsp;» des Réglages d'iOS pour l'utilisateur actuel, affichant le bouton sur lequel il appuie pour faire confiance à son compte comme développeur d'applis",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "faq-authentic-android-answer-para-3": {
         "message": "Psiphon pour Android se met à jour automatiquement et ce processus vérifie l'authenticité de chaque mise à jour.",
         "description": ""
     },
     "main-gets-you-there-safely-head-2": {
-        "message": "Vous voulez surfer sur le Net en toute sécurité en utilisant le Wi-Fi public?",
+        "message": "Vous voulez surfer sur le Net en toute sécurité en utilisant le Wi-Fi public ?",
         "description": ""
     },
+    "faq-ios-sideloading-image-2-alt": {
+        "message": "capture d'écran de l'élément de menu «&nbsp;Install Package&nbsp;» de «&nbsp;Cydia Impactor&nbsp;»",
+        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
+    },
+    "faq-android-upgrade-bug-question": {
+        "message": "Après avoir mis à niveau l'appli Psiphon pour Android, elle ne se connecte pas.",
+        "description": "FAQ question."
+    },
     "faq-authentic-android-question": {
-        "message": "Mon Psiphon pour Android est-il authentique?",
+        "message": "Mon Psiphon pour Android est-il authentique ?",
         "description": ""
     },
     "psiphon": {
@@ -479,16 +595,24 @@
         "message": "Télécharger l'appli Android et le client Windows",
         "description": "meta title for the download page"
     },
+    "faq-unsupported-platforms-answer-para-1": {
+        "message": "Les plateformes que nous prenons en charge sont celles proposées sur la <a href=\"download.html\">page Téléchargement</a>. Nous travaillons sans relâche afin d'élargir le nombre de plateformes prises en charge, et nous espérons prendre en charge votre SE de choix dans un proche avenir !",
+        "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
+    },
+    "faq-ios-sideloading-image-10-alt": {
+        "message": "capture de l'écran «&nbsp;Gestion des périphériques&nbsp;» des Réglages d'iOS pour l'utilisateur actuel, demandant de confirmer qu'il fait confiance à son compte comme développeur d'applis",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "user-guide-windows-para-1": {
-        "message": "Téléchargez le programme client et exécutez-le. Une fois démarré, vous devriez voir un message de sécurité indiquant que ce programme est un produit authentique de Psiphon Inc.",
+        "message": "Téléchargez le programme client et exécutez-le. Une fois démarré, vous devriez voir un message de sécurité indiquant que ce programme est un produit authentique de Psiphon inc.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2": {
         "message": "Pour le certificat valide durant la période du 16-06-2011 au 21-06-2012, l'empreinte SHA1 est :",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "what-is-psiphon-heading": {
-        "message": "Qu'est-ce que Psiphon?",
+        "message": "Qu'est-ce que Psiphon ?",
         "description": ""
     },
     "user-guide-nav-title": {
@@ -501,7 +625,7 @@
     },
     "faq-authentic-windows-answer-para-3": {
         "message": "Pour le certificat valide durant la période du 21-05-2012 au 30-07-2014, l'empreinte SHA1 est :",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-meta-title": {
         "message": "Foire aux questions",
@@ -524,7 +648,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
     },
     "privacy-bulletin-entry-1-what-doing": {
-        "message": "Nous activons la journalisation des accès pour le « compartiment » Amazon S3 d'un site Web ( c.-à-d le conteneur de stockage). (Pour des raisons techniques, nous exécutons des douzaines de copies du site Web dans plusieurs compartiments S3.)",
+        "message": "Nous activons la journalisation des accès pour le «&nbsp;compartiment&nbsp;» Amazon S3 d'un site Web ( c.-à-d. le conteneur de stockage). (Pour des raisons techniques, nous exécutons des douzaines de copies du site Web dans plusieurs compartiments S3.)",
         "description": ""
     },
     "open-source-para-4-list-start": {
@@ -536,11 +660,11 @@
         "description": ""
     },
     "license-terms-of-use-para": {
-        "message": "En utilisant le service Psiphon, vous acceptez de ne pas l'utiliser de façon à enfreindre les lois canadiennes, ni les droits d'un tiers.",
+        "message": "En utilisant le service Psiphon, vous acceptez de ne pas l'utiliser de façon à enfreindre les lois canadiennes ni les droits d'un tiers.",
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "Comment puis-je configurer les applications pour quelles utilisent le tunnel Psiphon?",
+        "message": "Comment puis-je configurer les applications pour quelles utilisent le tunnel Psiphon ?",
         "description": ""
     },
     "page-keyword-circumvention": {
@@ -556,16 +680,36 @@
         "description": ""
     },
     "license-para-1": {
-        "message": "Ce logiciel et toute propriété intellectuelle associée est la propriété de Psiphon Inc., une société enregistrée en Ontario dont le siège social est situé à Toronto, Canada.",
+        "message": "Ce logiciel et toute propriété intellectuelle associée est la propriété de Psiphon inc., une société enregistrée en Ontario dont le siège social est situé à Toronto, Canada.",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-annotation-5": {
         "message": "Données reçues comprimées avec Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
     },
+    "faq-av-firewall-question": {
+        "message": "Pourquoi mon antivirus ou mon pare-feu considèrent-ils que Psiphon est une menace ?",
+        "description": "FAQ question."
+    },
+    "faq-windows-metro-answer-para-1": {
+        "message": "Windows 8 a présenté une solution de remplacement à l'interface d'applis du bureau appelée «&nbsp;Metro&nbsp;» et qui a ensuite été renommée «&nbsp;Modern UI&nbsp;». Quelques applications, très peu en fait, ne peuvent que fonctionner en «&nbsp;mode Metro&nbsp;» et certaines (comme Internet Explorer ) peuvent soit fonctionner en  «&nbsp;mode Metro&nbsp;», soit en  «&nbsp;mode bureau&nbsp;». Ce nouveau mode d'interface existe encore dans Windows 8.1 et, dans une moindre mesure, dans Windows 10.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
+    },
+    "faq-get-updated-version-answer-para-1": {
+        "message": "<strong>Android :</strong> si vous avez installé Psiphon pour Android grâce à la logithèque Google Play Store, l'appli sera mise à jour automatiquement par la logithèque Google Play Store. Si vous avez opté pour une installation alternative de Psiphon pour Android, le client Psiphon téléchargera la mise à jour quand elle sera proposée, et une notification apparaîtra vous demandant d'installer la mise à jour.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+    },
+    "faq-mobile-hotspot-answer-para-1": {
+        "message": "Ceci est causé par une restriction de la mise en oeuvre des points d'accès mobile et de la fonction modem USB d'Android. Il se pourrait que l'appareil relié ne puisse pas se connecter à Internet ou que le trafic ne soit pas acheminé par le RPV.",
+        "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
+    },
     "user-guide-windows-head": {
         "message": "Psiphon pour Windows",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-periodic-disconnect-answer-para-1": {
+        "message": "Cela est habituellement causé par une connexion non fiable ou irrégulière vers votre appareil ou votre ordinateur. Sur un téléphone, cela peut provenir d'une perte de réception. Sur un ordinateur, cela peut provenir d'une connexion Wi-Fi irrégulière ou d'un fournisseur de services Internet non fiable.",
+        "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
     },
     "footer-copyright": {
         "message": "Tous droits réservés ",
@@ -592,11 +736,11 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
     },
     "download-via-email-description": {
-        "message": "Si notre site Web ou nos liens de téléchargement sont bloqués ou censurés, vous pouvez demander l'envoi par courriel des téléchargements.",
+        "message": "Si notre site Web ou nos liens de téléchargement sont bloqués ou censurés, vous pouvez demander que les téléchargements vous soient envoyés par courriel.",
         "description": ""
     },
     "download-via-email-head": {
-        "message": "Télécharger par courriel",
+        "message": "Téléchargement par courriel",
         "description": ""
     },
     "donate-body": {
@@ -612,7 +756,7 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "Votre appareil est-il raciné",
+        "message": "Votre appareil est-il raciné ou non ?",
         "description": ""
     },
     "sponsor-para-2": {
@@ -620,12 +764,16 @@
         "description": ""
     },
     "faq-root-wdm-question-toc": {
-        "message": "Qu'est-il arrivé au mode Tout l'appareil pour les appareils Android racinés?",
+        "message": "Qu'est-il arrivé au mode Tout l'appareil pour les appareils Android racinés ?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-root-wdm-question": {
-        "message": "Qu'est-il arrivé au mode Tout l'appareil pour les appareils Android racinés?",
+        "message": "Qu'est-il arrivé au mode Tout l'appareil pour les appareils Android racinés ?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-ios-sideloading-image-4-alt": {
+        "message": "capture d'écran de «&nbsp;Cydia Impactor&nbsp;» demandant le mot de passe de l'identifiant Apple de l'utilisateur",
+        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "page-keyword-how-to": {
         "message": "comment faire",
@@ -635,12 +783,20 @@
         "message": "Devenez commanditaire en annonçant sur une page de renvoi, ou faites un don individuel au projet Psiphon.",
         "description": "Page description for the Sponsorship page"
     },
+    "faq-windows-vpn-connect-question": {
+        "message": "Pourquoi ne puis-je pas me connecter en mode L2TP/IPsec avec Psiphon pour Windows ?",
+        "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-2": {
+        "message": "Pour la plupart des utilisateurs, la façon la plus facile de corriger cela est de se connecter de nouveau avec Psiphon, puis de se déconnecter proprement.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
     "about-get-latest-info-para-1-list-start": {
         "message": "Rejoignez nos listes de diffusion :",
         "description": ""
     },
     "faq-information-collected-answer-para-9": {
-        "message": "De temps en temps, Psiphon pourrait devoir enregistrer des informations complémentaires afin de résoudre un problème avec notre service. Si ceci a lieu, nous ajouterons une entrée au <a href=\"./privacy-bulletin.html\">bulletin sur la confidentialité</a> décrivant ce qui a été enregistré, la durée de conservation, et la raison.",
+        "message": "De temps en temps, Psiphon pourrait devoir enregistrer des informations complémentaires afin de résoudre un problème avec notre service. Si cela a lieu, nous ajouterons une entrée au <a href=\"./privacy-bulletin.html\">bulletin sur la confidentialité</a> décrivant ce qui a été enregistré, la durée de conservation, et la raison.",
         "description": ""
     },
     "privacy-bulletin-entry-1-when-doing": {
@@ -651,6 +807,14 @@
         "message": "Choisissez votre langue",
         "description": ""
     },
+    "faq-get-updated-version-answer-para-2": {
+        "message": "<strong>Windows :</strong> le client Psiphon pour Windows téléchargera et installera les mises à jour si elles sont proposées.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
+    },
+    "faq-uninstall-windows-question": {
+        "message": "Comment puis-je désinstaller Psiphon pour Windows ?",
+        "description": "FAQ question"
+    },
     "user-guide-android-para-4": {
         "message": "Une fois que l'appli est connectée au réseau, elle lancera le navigateur Psiphon intégré. Psiphon pour Android ne tunnellise pas automatiquement le trafic pour le navigateur Android par défaut ou pour les autres applis. Par défaut, seul le navigateur Psiphon est tunnellisé au travers du réseau Psiphon.",
         "description": ""
@@ -660,12 +824,24 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-windows-para-2": {
-        "message": "Psiphon commence automatiquement à se connecter dès que vous l'exécutez. Alors qu'il se connecte, une icône rotative est affichée. Vous pouvez choisir l'un des modes de tunnellisation suivants :  RPV (L2TP sur IPSec), SSH, ou SSH+ (SSH plus brouillage, une couche aléatoire par dessus SSH pour éviter le pistage par empreinte numérique unique du protocole).",
+        "message": "Psiphon commence automatiquement à se connecter dès que vous l'exécutez. Alors qu'il se connecte, une icône rotative est affichée. Vous pouvez choisir l'un des modes de tunnellisation suivants : RPV (L2TP sur IPsec), SSH, ou SSH+ (SSH plus brouillage, une couche aléatoire par dessus SSH pour éviter le pistage par empreinte numérique unique du protocole).",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "Il existe aussi des techniques sophistiquées qui peuvent examiner un trafic chiffré et en extraire certaines informations, comme le site qui est parcouru. Le premier exemple de ceci est le « <a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">pistage par empreinte numérique</a> ».",
+        "message": "Il existe aussi des techniques sophistiquées qui peuvent examiner un trafic chiffré et en extraire certaines informations, comme le site qui est parcouru. Le premier exemple de ceci est le «&nbsp;<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">pistage par empreinte numérique</a>&nbsp;».",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-7": {
+        "message": "Saisissez l'adresse courriel de votre identifiant Apple dans la prochaine invite. Cliquez ensuite sur OK.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
+    },
+    "faq-reset-system-proxy-answer-para-3": {
+        "message": "Pour corriger manuellement vos paramètres de serveur mandataire, ouvrir Internet Explorer, puis se rendre dans le menu Outils (ou icône d'engrenage), Options Internet → onglet Connexions → bouton Paramètres réseau. Décocher ensuite «&nbsp;Utiliser un serveur mandataire pour votre réseau local...&nbsp;",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "download-android-playstore-pro": {
+        "message": "<strong>Psiphon Pro</strong> pour Android dans Google Play Store",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
         "message": "rpv vpn",
@@ -684,7 +860,7 @@
         "description": ""
     },
     "about-who-we-are-software-development-para-3": {
-        "message": "L'équipe de développement des logiciels Psiphon s'efforce de fournir les solutions de contournement les meilleurs, les plus rapides, les plus conviviales, et les plus ouvertes. Nous explorons aussi de nouveaux domaines où notre expertise pourrait protéger, renforcer et libérer les esprits des utilisateurs à l'échelle mondiale.",
+        "message": "L'équipe de développement des logiciels Psiphon s'efforce de fournir les solutions de contournement les meilleures, les plus rapides, les plus conviviales, et les plus ouvertes. Nous explorons aussi de nouveaux domaines où notre expertise pourrait protéger, renforcer et libérer les esprits des utilisateurs à l'échelle mondiale.",
         "description": ""
     },
     "page-keyword-windows": {
@@ -692,40 +868,56 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-para-3": {
-        "message": "Psiphon est conçu pour fournir un accès libre au contenu en ligne. Psiphon n'augmente pas la protection des renseignements personnels en ligne, et ne devrait pas être considéré ou utilisé comme un outil de sécurité en ligne.",
+        "message": "Psiphon est conçu pour fournir un accès libre au contenu en ligne. Psiphon n'augmente pas la protection des renseignements personnels en ligne et ne devrait pas être considéré ou utilisé comme un outil de sécurité en ligne.",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-3": {
-        "message": "Comment vous êtes connecté à Internet (par exemple, si vous utilisez une ligne commutée ou par un serveur mandataire)",
+        "message": "La façon dont vous êtes connecté à Internet (par exemple, si vous utilisez une ligne commutée ou par un serveur mandataire)",
         "description": ""
     },
     "main-pick-three-head-1": {
         "message": "Confiance, rapidité, simplicité : choisissez les trois",
         "description": ""
     },
+    "faq-android-upgrade-bug-answer-para-1": {
+        "message": "Si Psiphon est connectée durant l'installation d'une mise à niveau, il est possible que l'appli ne puisse pas se connecter par la suite, et elle affichera l'erreur «&nbsp;l'application start_tunnel_failed n'est pas prête ou est révoquée&nbsp;». Cela est causé par un <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">bogue du SE Android</a>. Cette situation peut-être corrigée en redémarrant votre appareil.",
+        "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
+    },
     "about-who-we-are-software-development-head": {
         "message": "Développement de logiciels ",
         "description": ""
     },
     "faq-connection-failed-answer-para-1": {
-        "message": "Si des messages « Échec de connexion » se répètent, ceci signifie qu'il n'y a aucun serveur disponible dont le client à connaissance. Essayez de télécharger un nouveau client Psiphon.",
+        "message": "Si des messages «&nbsp;Échec de connexion&nbsp;» se répètent, cela signifie qu'il n'y a aucun serveur disponible dont le client a connaissance. Essayez de télécharger un nouveau client Psiphon.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-12": {
+        "message": "Cliquez sur l'adresse courriel de votre identifiant Apple sur l'écran qui apparaît.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "faq-authentic-windows-image-alt": {
         "message": "Image montrant comment vérifier la signature de l'exécutable Psiphon sous Windows",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Gris</span>: connexion en cours<br><span style=\"color:red\">Rouge</span>: non connecté<br><span style=\"color:Blue\">Bleu</span>: connecté",
+        "message": "<span style=\"color:grey\">Gris</span> : connexion en cours<br><span style=\"color:red\">Rouge</span> : non connecté<br><span style=\"color:Blue\">Bleu</span> : connecté",
         "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
     },
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "Pourquoi nous le faisons",
         "description": ""
     },
-    "generic-image-figcaption": {
-        "message": "Choses à remarquer :",
-        "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
+    "faq-ios-sideloading-sideloading-answer-intro-1": {
+        "message": "L'«&nbsp;installation alternative&nbsp;» consiste à installer une appli sur votre appareil sans passer par la logithèque App Store. Cela est souhaitable pour les personnes qui n'ont pas accès à la logithèque App Store ou si l'appli n'est pas proposée dans leur région.",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
+    "faq-ios-sideloading-sideloading-answer-step-4": {
+        "message": "Exécutez «&nbsp;Cydia Impactor&nbsp;».",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
+    "faq-windows-metro-answer-para-3": {
+        "message": "Voici des exemples de messages d'erreur que vous pourriez voir lorsque des applis en mode Metro essaient sans succès de fonctionner avec Psiphon.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
     },
     "about-who-we-are-partners-para-2": {
         "message": "L'un de nos partenariats les plus réussis est avec <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a> qui propose des traductions et des services de soutien en persan, et qui a nettement contribué à nous aider à accroître notre auditoire.",
@@ -735,13 +927,29 @@
         "message": "Le service Psiphon est strictement destiné aux particuliers, et n'est que pour une utilisation personnelle. Si vous souhaitez utiliser Psiphon à d'autres fins ou si vous avez d'autres besoins, nous offrons un service commercial payant. Pour davantage de détails, envoyez-nous un courriel à <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>.",
         "description": ""
     },
+    "faq-windows-metro-question": {
+        "message": "Pourquoi ne puis-je pas tunnelliser mes applis Windows Metro (Modern UI) avec Psiphon ?",
+        "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+    },
     "resources-nav-title": {
         "message": "Ressources",
         "description": "title for the Resources"
     },
+    "faq-mail-apps-ports-answer-para-1": {
+        "message": "Cela est probablement causé par les <a href=\"#port-restrictions\">restrictions de port</a> de Psiphon.",
+        "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+    },
+    "faq-windows-metro-answer-para-2": {
+        "message": "Les applications utilisant le mode Metro ne peuvent pas utiliser un mandataire local sans que l'utilisateur modifie les paramètres de sécurité du système. Cela signifie que les applis en mode Metro ne peuvent pas utiliser Psiphon, et ne pourront pas atteindre l'Internet quand Psiphon est connecté. Vous pouvez utiliser l'<a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">utilitaire «&nbsp;EnableLoopback&nbsp;»</a> pour permettre aux applis en mode Metro de fonctionner avec Psiphon.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+    },
     "user-guide-windows-image-3-alt": {
         "message": "Image montrant Psiphon connecté sous Windows",
         "description": "alt text for an image"
+    },
+    "faq-section-installing-running-updating": {
+        "message": "Installer, exécuter et mettre Psiphon à jour",
+        "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software."
     },
     "blog-index-subscribe": {
         "message": "Abonnez-vous",
@@ -752,12 +960,16 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-android-enable-sideloading-answer-para-1": {
-        "message": "Afin d'installer un téléchargement direct de Psiphon pour Android, vous devez activer l'« <a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">installation alternative</a> ». Pour ce faire, dans vos paramètres Android, Sécurité, activez les « Sources inconnues ».",
-        "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+        "message": "Afin d'installer un téléchargement direct de Psiphon pour Android, vous devez activer l'installation alternative sur votre appareil. Pour ce faire, allez dans vos paramètres Android, puis dans la section «&nbsp;Sécurité&nbsp;» et activez ensuite les «&nbsp;Sources inconnues&nbsp;».",
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-isp-traffic-answer-para-4": {
         "message": "Si vous exigez que votre anonymat soit préservé sur Internet, utilisez <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> au lieu de Psiphon.",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-xpie7": {
+        "message": "Internet Explorer 7 pour Windows XP",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
     "page-keyword-sponsor": {
         "message": "commanditaire",
@@ -807,8 +1019,12 @@
         "message": "Psiphon fonctionne en mode RPV ou Tout l'appareil. Toutes les applications sont tunnellisées par Psiphon.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
+    "faq-ios-sideloading-image-6-alt": {
+        "message": "capture de l'écran Réglages d'iOS affichant l'élément «&nbsp;Général&nbsp;»",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "main-pick-three-para-1": {
-        "message": "Depuis 2008, Psiphon a aidé des millions de personnes, dans des pays aux libertés limitées de par le monde, à accéder de manière sûre à des connaissances et à des idées censurées. Psiphon peut maintenant faire la même chose pour vous.",
+        "message": "Depuis 2008, Psiphon a aidé des millions de personnes, dans des pays aux libertés limitées dans le monde entier, à accéder de manière sécuritaire à des connaissances et à des idées censurées. Psiphon peut maintenant faire la même chose pour vous.",
         "description": ""
     },
     "about-title": {
@@ -824,11 +1040,19 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "Fonctionne sous Windows XP, Windows Vista, Windows 7 et Windows 8 (ordinateur de bureau).",
+        "message": "Fonctionne sur Windows XP, Windows Vista, Windows 7, Windows 8 (bureau et Windows 10.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
         "message": "En tant qu'utilisateur, vous êtes libre de résilier cette licence en tout temps en cessant d'utiliser toute composante du service Psiphon et en supprimant toute trace du logiciel de votre appareil.",
+        "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-1": {
+        "message": "Quand Psiphon pour Windows se connecte, il modifie les paramètres de serveur mandataire de votre ordinateur, et quand il se déconnecte, il les rétablit à leurs valeurs initiales. Si Psiphon pour Windows ne se ferme pas correctement, il pourrait ne pas rétablir correctement les paramètres initiaux de serveur mandataire, et cela vous empêchera de vous connecter à Internet.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "privacy-information-collected-client-advertising-networks-para-1": {
+        "message": "Nous avons parfois recours à des publicités pour soutenir nos services, et celles-ci pourraient utiliser des technologies telles que des témoins et des pixels invisibles. L'utilisation de fichiers témoins par nos partenaires publicitaires leur permet, ainsi qu'à leurs partenaires, de présenter des publicités selon vos données d'utilisation. Toute information recueillie par ce processus sera gérée suivant les conditions générales des politiques de confidentialité de nos partenaires publicitaires :",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-5": {
@@ -836,7 +1060,7 @@
         "description": ""
     },
     "faq-orig-file-purpose-question": {
-        "message": "Qu'est-ce que le fichier « psiphon3.exe.orig »?",
+        "message": "Qu'est-ce que le fichier «&nbsp;psiphon3.exe.orig&nbsp;» ?",
         "description": ""
     },
     "index-meta-title": {
@@ -852,8 +1076,12 @@
         "description": "web page meta keyword used for SEO"
     },
     "license-termination-terms-of-service-violations-header": {
-        "message": "Résiliation ; infraction aux conditions générales d'utilisation",
+        "message": "Résiliation ; violations des conditions générales d'utilisation",
         "description": ""
+    },
+    "faq-section-how-psiphon-works": {
+        "message": "Comment Psiphon fonctionne-t-il ?",
+        "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
     },
     "user-guide-android-image-3-annotation-1": {
         "message": "Psiphon est en cours d'exécution",
@@ -863,9 +1091,17 @@
         "message": "Billets en français",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
-    "faq-isp-traffic-question": {
-        "message": "Mon FSI peut-il voir ce que je fais sur Internet quand j'utilise Psiphon?",
+    "download-ios-appstore-psiphon-browser-description": {
+        "message": "Proposé for iOS 8 et ultérieure.",
         "description": ""
+    },
+    "faq-isp-traffic-question": {
+        "message": "Mon FSI peut-il voir ce que je fais sur Internet quand j'utilise Psiphon ?",
+        "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-intro-3": {
+        "message": "«&nbsp;Cydia Impactor&nbsp;» fonctionne sous macOS/OS X, Windows (avec iTunes installé) et Linux.",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "open-source-para-3-list-start": {
         "message": "Windows :",
@@ -887,17 +1123,29 @@
         "message": "Montre quelle version de Psiphon vous exécutez actuellement",
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
+    "download-android-playstore-pro-description": {
+        "message": "<strong>Soutenez la liberté sur Internet</strong> en téléchargeant Psiphon Pro dans la logithèque Google Play Store. (N'est pas proposé dans tous les pays.)",
+        "description": ""
+    },
+    "faq-section-compatibility": {
+        "message": "Compatibilité avec d'autres applications",
+        "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
+    },
     "open-source-nav-title": {
         "message": "Code source ouvert",
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "Le service Psiphon est fourni « tel quel » et sans garantie ni responsabilité expresse ou implicite. Psiphon décline toute garantie et responsabilité associée à l'utilisation de ce service, incluant les atteintes à la personne, et les dommages accessoires, spéciaux, indirects ou immatériels, personnels ou commerciaux, incluant les pertes de données et les pertes pour interruption d'exploitation.",
+        "message": "Le service Psiphon est fourni «&nbsp;tel quel&nbsp;» et sans garantie ni responsabilité expresse ou implicite. Psiphon décline toute garantie et responsabilité associée à l'utilisation de ce service, incluant les atteintes à la personne, et les dommages accessoires, spéciaux, indirects ou immatériels, personnels ou commerciaux, incluant les pertes de données et les pertes pour interruption d'exploitation.",
         "description": ""
     },
     "faq-ip-change-question": {
-        "message": "Pourquoi mon adresse IP Psiphon change-t-elle fréquemment?",
+        "message": "Pourquoi mon adresse IP Psiphon change-t-elle fréquemment ?",
         "description": ""
+    },
+    "faq-periodic-disconnect-question": {
+        "message": "Pourquoi ma connexion Psiphon se déconnecte-t-elle parfois ?",
+        "description": "FAQ question."
     },
     "privacy-bulletin-meta-title": {
         "message": "Bulletins sur la confidentialité",
@@ -923,6 +1171,10 @@
         "message": "Vous mène là où vous voulez aller...",
         "description": ""
     },
+    "faq-screen-filter-question": {
+        "message": "Lorsque Psiphon pour Android se connecte pour la première fois, pourquoi ne puis-je pas sélectionner «&nbsp;Je fais confiance à cette application&nbsp;» ?",
+        "description": "FAQ question."
+    },
     "faq-information-collected-answer-para-14": {
         "message": "Si nous devons diagnostiquer un problème, nous pourrions activer la journalisation complète du serveur de courriel pour une courte durée. Si vous envoyez un courriel pendant ce temps, votre adresse de courriel sera inscrite dans le journal système. Les journaux sont supprimés une fois par semaine.",
         "description": ""
@@ -931,12 +1183,16 @@
         "message": "Fréquence de découverte des nouveaux serveurs",
         "description": ""
     },
+    "privacy-information-collected-client-head": {
+        "message": "Logiciel client Psiphon",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon client software"
+    },
     "open-source-para-1": {
         "message": "Psiphon est un projet à code source ouvert. Vous pouvez trouvez le code source et les documents de conception sur les pages de notre projet sur Bitbucket et Github.",
         "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
     },
     "main-gets-you-where-you-want-head-2": {
-        "message": "Censuré par votre pays, votre société ou votre campus?",
+        "message": "Censuré par votre pays, votre société ou votre campus ?",
         "description": ""
     },
     "page-keyword-download": {
@@ -944,7 +1200,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "what-is-psiphon-body-para-2": {
-        "message": "Psiphon est conçu pour fournir un accès libre au contenu en ligne. Psiphon n'augmente pas la protection des renseignements personnels en ligne, et ne devrait pas être considéré ou utilisé comme un outil de sécurité en ligne.",
+        "message": "Psiphon est conçu pour fournir un accès libre au contenu en ligne. Psiphon n'augmente pas la protection des renseignements personnels en ligne et ne devrait pas être considéré ou utilisé comme un outil de sécurité en ligne.",
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
@@ -971,20 +1227,24 @@
         "message": "Les clients Psiphon utilisent les composants à code source ouvert suivants :",
         "description": ""
     },
-    "download-android-playstore": {
-        "message": "Psiphon pour Android dans le Google Play Store",
-        "description": "text for link to Psiphon for Android in the Google Play Store"
-    },
     "page-keyword-contact": {
         "message": "contact",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-get-updated-version-answer-para-3": {
+        "message": "<strong>Mise à jour manuelle : </strong> si le mécanisme de mise à jour automatique de Psiphon ne fonctionne pas (par exemple s'il a été bloqué), vous trouverez des informations sur la façon d'obtenir une nouvelle copie de Psiphon sur la <a href=\"download.html\">page Téléchargement</a>.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
+    },
+    "faq-ios-sideloading-question": {
+        "message": "Comment puis-je exécuter une «&nbsp;installation alternative&nbsp;» de Psiphon sur mon appareil iOS ?",
+        "description": "FAQ question."
     },
     "download-title": {
         "message": "Télécharger Psiphon",
         "description": "page title for the download page"
     },
     "faq-authentic-android-answer-para-1": {
-        "message": "Chaque client de Psiphon pour Android est livré comme fichier APK d'Android (« . apk ») signé numériquement pas Psiphon Inc. Voici la clé publique du certificat de Psiphon Inc. : ",
+        "message": "Chaque client de Psiphon pour Android est livré comme fichier APK d'Android («&nbsp;. apk&nbsp;») signé numériquement pas Psiphon inc. Voici la clé publique du certificat de Psiphon inc. : ",
         "description": ""
     },
     "download-android-direct": {
@@ -996,11 +1256,11 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-6": {
-        "message": "Lorsque vous choisissez d'envoyer vos commentaires avec Psiphon, vous aurez la possibilité d'inclure des données de diagnostic. Nous utilisons ces données pour nous aider à dépanner tout problème que vous pourriez avoir et pour nous aider aussi à assurer un fonctionnement sans anicroche de Psiphon. L'envoi de ces données est entièrement facultatif. Les données sont chiffrées avant leur envoi et ne peuvent être déchiffrées que par nous. Les informations contenues dans les données varient selon la plateforme, mais peuvent inclure :",
+        "message": "Lorsque vous choisissez d'envoyer une rétroaction avec Psiphon, vous avez la possibilité d'inclure des données de diagnostic. Nous utilisons ces données pour nous aider à dépanner tout problème que vous pourriez avoir et aussi pour nous aider à assurer un fonctionnement fluide de Psiphon. L'envoi de ces données est entièrement facultatif. Les données sont chiffrées avant leur envoi et ne peuvent être déchiffrées que par nous. Les informations contenues dans les données varient selon la plateforme, mais peuvent inclure :",
         "description": ""
     },
     "about-who-we-are-head": {
-        "message": "Qui nous sommes",
+        "message": "Qui sommes-nous",
         "description": ""
     },
     "faq-browser-compatibility-answer-para-1": {
@@ -1019,12 +1279,16 @@
         "message": "Psiphon pour Android dans l'AppStore d'Amazon",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
+    "download-ios-appstore-psiphon-browser": {
+        "message": "Le navigateur Psiphon pour iOS dans la logithèque «&nbsp;App Store&nbsp;» d'Apple",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
+    },
     "user-guide-windows-image-1-alt": {
         "message": "Image montrant l'avertissement de sécurité de Windows pour l'exécutable Psiphon",
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
-        "message": "Si vous n'avez pas accès au Google Play Store, vous pouvez télécharger et installer (« <a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">installation alternative</a> ») Psiphon pour Android directement.",
+        "message": "Si vous n'avez pas accès à la logithèque Google Play Store, vous pouvez télécharger et installer («&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">installation alternative</a>&nbsp;») Psiphon pour Android directement.",
         "description": ""
     },
     "page-keyword-user-guide": {
@@ -1044,12 +1308,8 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Les connexions sortantes du RPV Psiphon pour Windows peuvent uniquement se faire par les ports suivants : <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. Consultez cette <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> pour plus d'informations. Les clients de courriel ne peuvent pas établir de connexions sortantes par les ports 25 et 587. Consultez cette <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> pour plus d'informations.",
-        "description": ""
-    },
-    "download-android-playstore-description": {
-        "message": "Compatible avec Android 2.2 ou ultérieure. Le mode Tout l'appareil exige Android 4.0 ou ultérieure ou un <a href=\"https://fr.wikipedia.org/wiki/Root_d%27Android\" target=\"_blank\">appareil raciné</a>.",
-        "description": ""
+        "message": "Avec le réseau Psiphon, les connexions sortantes ne peuvent se faire que par une série de ports de serveur incluant : <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Consultez cette <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a>  pour plus d'informations. Les clients de courriel ne peuvent pas établir de connexions sortantes par le port 25. Consultez cette <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> pour plus d'informations.",
+        "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
         "message": "Téléchargements d'une logithèque",
@@ -1059,12 +1319,8 @@
         "message": "Commandite, publicité et dons",
         "description": "Page title for the Sponsorship page"
     },
-    "faq-root-wdm-answer-para-2": {
-        "message": "Si vous exigez cette fonction, vous pouvez utiliser une version « patrimoniale » de Psiphon pour Android. Certaines aptitudes avancées de contournement du Psiphon moderne seront absentes de cette version, mais cela pourrait convenir à vos besoins. Vous pouvez <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">télécharger la version « patrimoniale » ici</a>.",
-        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
-    },
     "faq-check-version-question": {
-        "message": "Comment puis-je vérifier quelle version de Psiphon j'utilise?",
+        "message": "Comment puis-je vérifier quelle version de Psiphon j'utilise ?",
         "description": ""
     },
     "site-title": {
@@ -1083,8 +1339,12 @@
         "message": "Psiphon configurera automatiquement votre système pour qu'il utilise un mandataire HTTP/HTTPS et un mandataire SOCKS local. Les numéros de port de ces serveurs mandataires sont choisis au hasard, à moins qu'ils ne soient spécifiés dans les paramètres Psiphon. Les applications Windows utilisant les paramètres du mandataire système seront automatiquement relayées. Vous pouvez configurer manuellement d'autres applications afin qu'elles utilisent les mandataires locaux. Psiphon pour Windows et Psiphon pour Android exécutent tous les deux ces mandataires locaux.",
         "description": ""
     },
+    "faq-section-privacy-security": {
+        "message": "Confidentialité et sécurité",
+        "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
+    },
     "faq-vpn-protocol-answer-para-1": {
-        "message": "Psiphon utilise le protocole RPV L2TP/IPSec. Le pare-feu de votre réseau pourrait ne pas autoriser l'utilisation du RPV. Votre routeur domestique pourrait ne pas être configuré pour laisser passer ce protocole RPV ; vérifiez les paramètres de votre pare-feu pour vous assurer que le transit IPSec ou L2TP est activé. Le service IPSec de votre système pourrait être désactivé ; vérifiez les paramètres de vos services et activez ce service en démarrage automatique.",
+        "message": "Psiphon utilise le protocole RPV L2TP/IPsec.",
         "description": ""
     },
     "license-distribution-header": {
@@ -1095,28 +1355,40 @@
         "message": "La version de l'antivirus",
         "description": ""
     },
+    "faq-reset-system-proxy-question": {
+        "message": "Après avoir utilisé Psiphon pour Windows mon ordinateur ne peut plus se connecter à Internet.",
+        "description": "FAQ question."
+    },
     "sponsor-para-1": {
         "message": "Tout utilisateur chargeant Psiphon verra la page de renvoi à chaque connexion avec le logiciel. Des possibilités de commandite sont offertes à la semaine pour cette page.",
         "description": ""
     },
+    "faq-ios-sideloading-sideloading-answer-step-11": {
+        "message": "Dans la section «&nbsp;Général&nbsp;», faites défiler vers le bas et cliquez sur «&nbsp;Gestion des périphériques&nbsp;».",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "faq-autoproxy-question": {
-        "message": "I use <a href=\"https://addons.mozilla.org/fr/firefox/addon/autoproxy/\">AutoProxy</a>. Comment puis-je dire à Psiphon pour Windows de ne pas configurer les paramètres du serveur mandataire système?",
+        "message": "J'utilise <a href=\"https://addons.mozilla.org/fr/firefox/addon/autoproxy/\">AutoProxy</a>. Comment puis-je dire à Psiphon pour Windows de ne pas configurer les paramètres du serveur mandataire système ?",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-3": {
-        "message": "La capacité de Google à utiliser et à partager les informations recueillies par l'analytique Google sur vos visites de ce site est restreinte par <a href=\"http://www.google.com/analytics/terms/fr.html\" target=\"_blank\">les conditions d'utilisation de l'analytique Google</a> et la <a href=\"https://www.google.ca/intl/fr/policies/privacy/\" target=\"_blank\">politique de confidentialité de Google</a>. Vous pouvez choisir l'option d'exclusion en désactivant les fichiers témoins dans les paramètres de préférence de votre navigateur Web.",
+        "message": "La capacité de Google à utiliser et à partager les informations recueillies par l'analytique Google sur vos visites de ce site est restreinte par <a href=\"http://www.google.com/analytics/terms/fr.html\" target=\"_blank\">les conditions d'utilisation de l'analytique Google</a> et la <a href=\"https://www.google.ca/intl/fr/policies/privacy/\" target=\"_blank\">politique de confidentialité de Google</a>. Vous pouvez choisir l'option d'exclusion en désactivant les témoins dans les paramètres de préférence de votre navigateur Web.",
         "description": ""
     },
     "faq-isp-traffic-question-toc": {
-        "message": "Mon FSI peut-il voir ce que je fais sur Internet quand j'utilise Psiphon?",
+        "message": "Mon FSI peut-il voir ce que je fais sur Internet quand j'utilise Psiphon ?",
         "description": ""
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "Psiphon restreint le trafic DNS à une liste blanche de serveurs DNS approuvés. Le client Psiphon configure automatiquement les paramètres du serveur DNS de votre RPV. Si vous obtenez des erreurs liées au DNS, assurez-vous de ne pas être infecté par le programme malveillant « DNS Changer » qui essaie de changer les paramètres de votre serveur DNS. Plus d'infos <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">ici</a>.",
+        "message": "Psiphon restreint le trafic DNS à une liste blanche de serveurs DNS approuvés. Le client Psiphon configure automatiquement les paramètres du serveur DNS de votre RPV. Si vous obtenez des erreurs liées au DNS, assurez-vous de ne pas être infecté par le programme malveillant «&nbsp;DNS Changer&nbsp;» qui essaie de changer les paramètres de votre serveur DNS. Plus d'infos <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">ici</a>.",
         "description": ""
     },
+    "faq-section-troubleshooting": {
+        "message": "Dépannage",
+        "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
+    },
     "about-get-latest-info-head": {
-        "message": "Obtenir les dernières informations à propos de Psiphon",
+        "message": "Obtenir les dernières informations sur Psiphon",
         "description": ""
     },
     "user-guide-windows-image-2-alt": {
@@ -1124,20 +1396,24 @@
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
-        "message": "Le processus automatique de mise à jour de Psiphon pour Windows renomme l'ancienne version en « psiphon3.exe.orig ». Les anciens fichiers avec le suffixe « .orig » peuvent être supprimés en toute sécurité. ",
+        "message": "Le processus de mise à jour automatique de Psiphon pour Windows renomme son ancienne version en «&nbsp;psiphon3.exe.orig&nbsp;». Les anciens fichiers avec le suffixe «&nbsp;.orig&nbsp;» peuvent être supprimés sans risque.",
         "description": ""
     },
     "privacy-bulletin-entry-1-why-doing": {
-        "message": "Nous le faisons afin de déterminer le nombre d'accès à la « liste de serveurs distants » stockée dans le compartiment. Ceci nous aidera à nous faire une idée du nombre d'utilisateurs éprouvant des échecs de connexion.",
+        "message": "Nous le faisons afin de déterminer le nombre d'accès à la «&nbsp;liste de serveurs distants&nbsp;» stockée dans le compartiment. Ceci nous aidera à nous faire une idée du nombre d'utilisateurs éprouvant des échecs de connexion.",
         "description": ""
     },
     "download-nav-title": {
-        "message": "Télécharger",
+        "message": "Téléchargement",
         "description": "text for the Download page navigation item"
     },
     "about-who-we-are-exec-team-para-2": {
         "message": "Karl Kathuria est VP de la gestion commerciale, et vient de se joindre récemment à l'équipe à Toronto en provenance de Londres. Il gère les relations d'affaires avec nos partenaires de diffusion et de distribution, et est chargé de trouver de nouvelles possibilités pour les activités de la compagnie.",
         "description": ""
+    },
+    "faq-android-enable-sideloading-answer-para-0": {
+        "message": "L'«&nbsp;installation alternative&nbsp;» consiste à installer une appli sur votre appareil sans passer par la logithèque Play Store. Cela est souhaitable pour les personnes qui n'ont pas accès à la logithèque Play Store ou si l'appli n'est pas proposée dans leur région.",
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "Nombre de mises à niveau",
@@ -1147,12 +1423,24 @@
         "message": "censure",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-section-verify-psiphon-authentic": {
+        "message": "Vérifier que votre téléchargement Psiphon est authentique",
+        "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
+    },
     "blog-index-meta-title": {
         "message": "Le blogue de l’équipe Psiphon",
         "description": ""
     },
+    "faq-ios-sideloading-image-5-alt": {
+        "message": "capture de l'écran d'accueil iOS affichant l'icône du lanceur Réglages",
+        "description": "Alt text for an iOS sideloading image"
+    },
+    "faq-ios-sideloading-sideloading-answer-step-13": {
+        "message": "Sur le prochaine écran, cliquez sur l'élément «&nbsp;Se fier&nbsp;».",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "user-guide-windows-para-4": {
-        "message": "En modes SSH et SSH+, Psiphon paramètre automatiquement le serveur mandataire système de Windows afin que le trafic des applications respectant ces réglages soit tunnellisé par Psiphon. Ces paramètres sont respectés par défaut par tous les grands navigateurs Web.",
+        "message": "En modes SSH et SSH+, Psiphon paramètre automatiquement le serveur mandataire système de Windows afin que le trafic des applications respectant ces paramètres soit tunnellisé par Psiphon. Ces paramètres sont respectés par défaut par tous les grands navigateurs Web.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1164,7 +1452,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-bulletin-entry-item-head-who-will-see": {
-        "message": "Qui verra les données à part Psiphon Inc.",
+        "message": "Qui verra les données à part Psiphon inc.",
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
@@ -1195,6 +1483,10 @@
         "message": "La journalisation recueillera les adresses IP, les agents utilisateurs et les horodatages d'accès à un site Web. Quand les données seront traitées, nous aurons un décompte des utilisateurs, divisé par le nombre de régions géographiques, ayant accédé au fichier en question. ",
         "description": ""
     },
+    "faq-ios-sideloading-image-8-alt": {
+        "message": "Capture de l'écran «&nbsp;Gestion des périphériques&nbsp;» des «&nbsp;Réglages&nbsp;» d'iOS affichant l'élément correspondant à l'adresse courriel de l'utilisateur",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "page-keyword-http-proxy": {
         "message": "http serveur mandataire proxy ",
         "description": "web page meta keyword used for SEO"
@@ -1203,13 +1495,29 @@
         "message": "À propos de nous",
         "description": "text for the About page navigation item"
     },
+    "faq-authentic-windows-answer-para-2020": {
+        "message": "Pour le certificat valide durant la période du 05-07-2017 au 03-10-2020, l'empreinte SHA1 est :",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "Fréquence d'utilisation de chaque protocole, et les codes d'erreurs après échec",
         "description": ""
     },
     "privacy-para-1": {
-        "message": "Psiphon est résolu à protéger la confidentialité de ces clients, de ces utilisateurs finals, de ces distributeurs et de ces fournisseurs. Cette politique de confidentialité vise à vous donner des informations générales sur l'utilisation potentielle de vos informations personnelles. Psiphon est une société canadienne dont le siège social est situé en Ontario, et notre politique de confidentialité a été développée pour refléter les lois et statuts canadiens et ontariens sur la protection des renseignements personnels.",
+        "message": "Psiphon est déterminé à protéger la confidentialité de ces clients, de ces utilisateurs finals, de ces distributeurs et de ces fournisseurs. Cette politique de confidentialité vise à vous donner des informations générales sur l'utilisation potentielle de vos informations personnelles. Psiphon est une société canadienne dont le siège social est situé en Ontario, et notre politique de confidentialité a été développée pour refléter les lois et statuts canadiens et ontariens sur la protection des renseignements personnels.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-1": {
+        "message": "<a href=\"download.html\">Téléchargez «&nbsp;PsiphonBrowser.ipa&nbsp;»</a> sur votre ordinateur. (Il sera probablement enregistré dans votre dossier «&nbsp;Téléchargements&nbsp;».)",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
+    "privacy-information-collected-client-advertising-networks-head": {
+        "message": "Réseaux publicitaires",
+        "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "faq-ios-sideloading-sideloading-answer-intro-2": {
+        "message": "Une installation alternative du navigateur Psiphon peut être exécutée sur votre appareil iOS en utilisant l'outil <a href=\"http://www.cydiaimpactor.com/\">«&nbsp;Cydia Impactor&nbsp;»</a>. Votre appareil n'a pas à être débridé. Vous devez avoir un compte d'identifiant Apple (ou les renseignements d'un tel compte) et la  possibilité de contacter Apple pendant le processus d'installation alternative. (Selon les blocages en place dans vos pays, vous pourriez devoir utiliser un RPV sur votre ordinateur pendant l'installation alternative.)",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Note that 'Cydia Impactor' is the name of a third-party tool and must not be translated."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon se réserve le droit à sa discrétion d'annuler cette licence à tout moment, pour une raison quelconque ou sans raison, et sans pénalité. En utilisant Psiphon, vous acceptez de ne pas utiliser le service de façon à enfreindre les conditions générales d'utilisation et de licence.",
@@ -1232,12 +1540,16 @@
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "De plus, en modes SSH et SSH+, Psiphon propose une option de tunnel scindé avec laquelle le trafic international est tunnellisé à travers le serveur mandataire et le trafic intérieur ne l'est pas. Cocher l'option « Ne pas relayer les sites Web nationaux... » pour activer la tunnellisation scindée. Lorsque cette option est active, les domaines non relayés sont signalés dans la zone de message.",
+        "message": "De plus, en modes SSH et SSH+, Psiphon propose une option de tunnel scindé avec laquelle le trafic international est tunnellisé par le serveur mandataire et le trafic intérieur ne l'est pas. Cocher l'option «&nbsp;Ne pas relayer les sites Web nationaux...&nbsp;» pour activer la tunnellisation scindée. Lorsque cette option est active, les domaines non relayés sont signalés dans la zone de message.",
         "description": ""
     },
     "license-distribution-para": {
-        "message": "Seuls les logiciels clients créés par Psiphon Inc. ont le droit d'utiliser le service Psiphon. Distribuer ou utiliser un client tiers ou un outil afin d'utiliser le service Psiphon est une infraction à cette licence.",
+        "message": "Seuls les logiciels clients créés par Psiphon inc. ont le droit d'utiliser le service Psiphon. Distribuer ou utiliser un client tiers ou un outil afin d'utiliser le service Psiphon est une infraction à cette licence.",
         "description": ""
+    },
+    "faq-ios-sideloading-image-1-alt": {
+        "message": "capture d'écran de l'appareil iOS demandant de faire confiance à l'ordinateur connecté",
+        "description": "alt text for an iOS sideloading image"
     },
     "user-guide-android-image-1-alt": {
         "message": "Image montrant le paramètre Android pour autoriser les applis ne provenant pas du Google Play Store.",
@@ -1247,8 +1559,16 @@
         "message": "contribuer",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-av-firewall-answer-para-2": {
+        "message": "Si votre copie de Psiphon est authentique, il s'agit alors d'un faux positif. Bien que la plupart des programmes d'antivirus/pare-feu aient ajouté la signature numérique de Psiphon à leurs règles de «&nbsp;liste blanche&nbsp;», certains de ces programmes pourraient encore identifier de manière erronée le fichier exécutable de Psiphon comme virus ou menace. Dans ce cas, veuillez <a href=\"mailto:info@psiphon.ca\">nous envoyer un courriel</a> indiquant le programme d'antivirus/pare-feu que vous utilisez, et nous contacterons le fournisseur de l'antivirus/pare-feu afin de résoudre le problème.",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+    },
+    "faq-ios-sideloading-image-11-alt": {
+        "message": "capture de l'écran d'accueil iOS affichant l'icône du lanceur Psiphon",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "main-gets-you-where-you-want-para-1": {
-        "message": "Après avoir traité avec des régimes répressifs de par le monde, nous sommes particulièrement bien positionnés pour vous aider à atteindre le contenu que vous désirez, n'importe quand et où que vous soyez. ",
+        "message": "Après avoir traité avec des régimes répressifs dans le monde entier, nous sommes particulièrement bien positionnés pour vous aider à atteindre le contenu que vous désirez, n'importe quand, où que vous soyez. ",
         "description": ""
     },
     "user-guide-android-para-verify-authentic": {
@@ -1271,12 +1591,20 @@
         "message": "Téléchargements directs",
         "description": ""
     },
+    "faq-proxy-all-ios-browser-answer-para-1": {
+        "message": "Le navigateur Psiphon pour iOS est une application spécifique au navigateur. Ainsi, elle ne tunnellisera les données que par le navigateur Psiphon et n'acheminera pas vos autres applis (comme vos applis Facebook ou Twitter) par le réseau Psiphon. Donc, par exemple, si vous vouliez utiliser le réseau Psiphon pour accéder à votre compte Facebook, vous utiliseriez notre appli de navigation Psiphon pour iOS pour aller sur Facebook. Si vous ouvriez votre appli Facebook, elle serait acheminée par votre réseau Wi-Fi ou votre connexion de données cellulaires, pas par le réseau Psiphon.",
+        "description": ""
+    },
+    "faq-mail-apps-ports-question": {
+        "message": "Pourquoi ne puis-je pas utiliser mon appli préférée quand Psiphon fonctionne ? Pourquoi ne puis-je pas envoyer de courriel avec mon client de courriel ?",
+        "description": "FAQ question."
+    },
     "faq-information-collected-answer-para-2-item-1": {
         "message": "Nombre de demandes par courriel de lien de téléchargement du client",
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {
-        "message": "Psiphon pour Windows n'est jamais distribué comme paquet installable. Chaque client Psiphon pour Windows est un seul fichier exécutable (« .exe ») qui est signé numériquement par Psiphon Inc. Windows vérifie automatiquement cette signature lorsque vous exécutez le client. Vous pouvez aussi inspecter la signature manuellement avant d'exécuter le client par le biais du menu contextuel Propriétés du fichier et en contrôlant l'onglet Signatures numériques. L'empreinte SHA1 de la clé publique du certificat de Psiphon Inc. est affichée dans l'onglet Détails du menu contextuel du Certificat.",
+        "message": "Psiphon pour Windows n'est jamais distribué comme paquet installable. Chaque client Psiphon pour Windows est un seul fichier exécutable («&nbsp;.exe&nbsp;») qui est signé numériquement par Psiphon inc. Windows vérifie automatiquement cette signature lorsque vous exécutez le client. Vous pouvez aussi inspecter la signature manuellement avant d'exécuter le client par le biais du menu contextuel Propriétés du fichier et en contrôlant l'onglet Signatures numériques. L'empreinte SHA1 de la clé publique du certificat de Psiphon inc. est affichée dans l'onglet Détails du menu contextuel du Certificat.",
         "description": ""
     },
     "user-guide-windows-para-6": {

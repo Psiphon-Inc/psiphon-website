@@ -16,7 +16,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "Office of the Privacy Commissioner of Canada",
+        "message": "Kanada Gizlilik Müdürlüğü Ofisi",
         "description": ""
     },
     "faq-vpn-protocol-question": {
@@ -47,6 +47,10 @@
         "message": "Bize Ulaşın",
         "description": ""
     },
+    "faq-ios-sideloading-sideloading-answer-step-15": {
+        "message": "Press the Home button to return to your home screen. Now you can launch Psiphon Browser.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "privacy-description": {
         "message": "Psiphon'ın gizlilik ilkesi",
         "description": "description for the Privacy Policy page"
@@ -62,6 +66,10 @@
     "index-hero-alt": {
         "message": "Psiphon",
         "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
+    },
+    "faq-mobile-hotspot-question": {
+        "message": "Neden Android mobil Kişisel Erişim Noktası ve USB paylaşımı Psiphon'da çalışmıyor?",
+        "description": "FAQ question."
     },
     "faq-android-enable-sideloading-image-alt": {
         "message": "yan yükleme etkinleştirme ekran görüntüsü",
@@ -79,8 +87,12 @@
         "message": "Psiphon Geliştiricileri",
         "description": "text for link to the Psiphon Developers mailing list"
     },
+    "faq-section-miscellaneous": {
+        "message": "Diğerleri",
+        "description": "Section heading for FAQ entries that don't fit in any other category."
+    },
     "about-who-we-are-software-development-para-2": {
-        "message": "We also know that it's just as important to work hard for our users behind the scenes. We protect our users and their data to the utmost. Users might never notice the measures to ensure their privacy and security, but we know they appreciate it.",
+        "message": "Aynı zamanda kullanıcılarımız için perde arkasından sıkı çalışmamızın eşit ölçüde önemli olduğunu biliyoruz. Kullanıcılarımızı ve bilgilerini en üst derecede koruyoruz. Kullanıcılarımız gizliilk ve güvenleri için ne tür önlemler aldığımızın farkında olmayabilirler, ama çabalarımızı takdir ettiklerini biliyoruz.",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
@@ -103,6 +115,10 @@
         "message": "Gizlilik İlkesi",
         "description": "page title for the Privacy Policy page"
     },
+    "faq-ios-sideloading-sideloading-answer-step-5": {
+        "message": "On the Impactor menu, click “Device” and then “Install Package”",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate quoted text in this string -- they are from Cydia Impactor, which is not itself translated."
+    },
     "faq-information-collected-answer-para-12": {
         "message": "Otomatik e-posta yanıtlayıcı sunucumuz Amazon EC2 bulut sisteminde barındırılmaktadır. Her talep için iki e-posta yanıtı gönderiyoruz ve bu yanıtlardan biri için Amazon SES kullanıyoruz. Bu da, Amazon'un gönderdiğiniz e-postayı ve size olan yanıtımızı görebileceği demektir.",
         "description": ""
@@ -114,6 +130,10 @@
     "main-gets-you-there-safely-para-1": {
         "message": "Özgür İnternet güzel, ancak çalınmış çerez ve hesaplar değil. Psiphon bağlandığınız ağ ne olursa olsun, İnternet'inize güvenli bir yol sunar.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-3": {
+        "message": "Download the latest version of <a target=\"_blank\" href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> for your operating system: <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/1\">macOS/OS X</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/2\">Windows</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/4\">Linux 32-bit</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/5\">Linux 64-bit</a>.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "user-guide-android-image-3-alt": {
         "message": "Psiphon Android web tarayıcısının farklı bölümlerini gösteren resim",
@@ -127,10 +147,6 @@
         "message": "Kişisel veya Özel Kullanım",
         "description": ""
     },
-    "faq-information-collected-answer-para-2-item-6": {
-        "message": "Sayfa görünümleri (sponsor web siteleri için tam sayfa adresleri)",
-        "description": ""
-    },
     "user-guide-android-ui-logs-image-alt": {
         "message": "Günlük panelinde Android üzerinde çalışan Psiphon gösteren resim",
         "description": "alt text for an image"
@@ -141,15 +157,23 @@
     },
     "faq-android-enable-sideloading-question": {
         "message": "Android \"yan yükleme\" özelliğini nasıl etkinleştirebilirim?",
-        "description": ""
+        "description": "FAQ question."
     },
     "privacy-information-collected-websites-google-analytics-para-1": {
         "message": "Kullanım hakkında bilgi toplamak için sitelerimizden bazılarında Google Analytics kullanıyoruz. Bu bilgi sadece, Google Analytics tarafından bu belirli site üzerinde gezinme davranışlarınıza bağlı istatistiksel analizler için kullanılacaktır. Google Analytics'ten edindiğimiz bilgi, kişisel tanımlama yapılabilecek veya diğer bilgiler ile birleştirilerek kişisel tanımlama bilgisi oluşturulma amaçlı kullanılmaz.",
         "description": ""
     },
+    "faq-screen-filter-answer-para-1": {
+        "message": "Ekran filtresi ya da ekranınızın parlaklığını ayarlayan bir uygulamanın çalışmakta olup olmadığını kontrol edin. Eğer öyleyse, bu uygulamayı devre dışı bırakmayı deneyin. Bu uygulamaların çoğu (örneğin: Lux Auto Brightness, Twilight, Night Mode) kullanıcının bu istemciyle etkileşebilme kabiliyetini engeller.",
+        "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
+    },
     "faq-port-restrictions-question": {
-        "message": "VPN kipinde bağlantı noktası kısıtlamaları var mı? Niçin posta istemcimi VPN kipinde kullanara e-posta gönderemiyorum?",
-        "description": ""
+        "message": "Psiphon'u kullanırken herhangi bir port (çıkış) kısıtlaması var mıdır?",
+        "description": "FAQ question. Note that 'port' is referring to network ports."
+    },
+    "faq-ie6-docbody-question": {
+        "message": "Psiphon Windows'ta “doc.body is null or not an object” hatası veriyor ve çalışmıyor.",
+        "description": "FAQ question."
     },
     "faq-ssh-plus-question": {
         "message": "Psiphon'ın öntanımlı olarak kullandığı protokol nedir?",
@@ -158,6 +182,10 @@
     "about-who-we-are-software-development-para-1": {
         "message": "Psiphon'da kullanıcılarımızın iyi bir deneyim yaşamasını istiyoruz. Bunun anlamı, yazılımımız kullanımı kolay olmalı, ağımız hızlı olması ve ikisi birden dengeli çalışmalıdır. Bu zor geliştiriciler için zor bir iştir, hele ki yazılımınız sürekli değişen reklam ortamı ve birçok dil ve platform üzerine kuruluysa.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-9": {
+        "message": "When Cydia Impactor is finished working, unlock your phone and open Settings. You can also unplug your device from your computer at this point.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "sponsor-nav-title": {
         "message": "Sponsor",
@@ -188,7 +216,7 @@
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Bazı ağ donanım ve İnternet bağlantıları, VPN kipinde Psiphon tarafından kullanılan L2TP/IPSec için performans sorunlarına neden olabilir. VPN kipini devre dışı bırakmayı deneyin.",
+        "message": "Bazı ağ oluşturma donanımları veya internet bağlantıları Psiphon tarafından VPN modunda kullanılan L2TP/IPsec protokolü için performans problemlerine yol açabilir. VPN modunu devre dışı bırakmayı deneyin.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -211,6 +239,14 @@
         "message": "<a href=\"privacy.html\">Gizlilik İlkemi</a>'zi güncelliyoruz. Bu, SSS sorusu \"Psiphon'ın topladığı bilgiler neler?\" sorusuna birleştirilmesini de içeriyor.",
         "description": ""
     },
+    "faq-proxy-all-ios-browser-question": {
+        "message": "Does Psiphon Browser for iOS proxy all of my device's Internet traffic?",
+        "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-10": {
+        "message": "In Settings, click on “General”.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "about-description": {
         "message": "Psiphon'ın İnternet koruma yazılımı arkasındaki takımla tanışın",
         "description": "description for the About page"
@@ -227,6 +263,14 @@
         "message": "Niçin tekrar tekrar \"bağlantı başarısız\" iletisini görüyorum?",
         "description": ""
     },
+    "faq-ie6-docbody-answer-xpie8": {
+        "message": "Windows XP için Internet Explorer 8",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
+    },
+    "faq-ios-sideloading-image-7-alt": {
+        "message": "screenshot iOS General Settings screen, showing the 'Device Management' item",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "faq-information-collected-answer-head-2": {
         "message": "Geribildirim",
         "description": ""
@@ -238,6 +282,10 @@
     "faq-authentic-windows-question": {
         "message": "Windows için Psiphon'ım gerçek mi?",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-para-2": {
+        "message": "Windows Güncellemesi'ni kullanamıyorsanız ve direkt olarak Internet Explorer 7 ya da Internet Explorer 8 yüklemek istiyorsanız bu linkleri kullanabilirsiniz:",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
     "faq-ip-change-answer-para-1": {
         "message": "Psiphon istemciniz, yeni Psiphon sunucularını otomatik olarak keşfedecektir. Son kullanılan sunucu şu anda kullanılamıyorsa, bunun yerine farklı biri kullanılacak.",
@@ -252,16 +300,24 @@
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "Michael Hull is the Chief Operating Officer, and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game.",
+        "message": "Michael Hull is President of Psiphon Inc., and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2017": {
         "message": "2014-05-08 ve 2017-09-06 arasında geçerli sertifika için SHA1 parmak izi:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-redirect": {
         "message": "Lütfen topladığımız bilgiler hakkında daha fazlasını öğrenmek için <a href=\"privacy.html\">Gizlilik İlkemize</a> bakın.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
+    },
+    "faq-uninstall-windows-answer-para-1": {
+        "message": "Psiphon Windows'a yüklenmediği için Windows'un \"Program Ekle/Kaldır\" listesinde görünmez. Çalıştırılabilir dosya \"Yüklenenler\" listesinden açılabilir, ya da başka bir dizine kopyalanıp oradan açılabilir. Programı kaldırmak istiyorsanız çalıştırılabilir dosyayı silmeniz yeterli.",
+        "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
+    },
+    "faq-ios-sideloading-image-3-alt": {
+        "message": "screenshot of the Cydia Impactor prompt for entering the user's Apple ID email address",
+        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "donate-heading": {
         "message": "Psiphon'a Katkıda Bulunun",
@@ -271,13 +327,33 @@
         "message": "Psiphon'ı Taşınabilir Aygıtlarda ve Windows'ta kullanma",
         "description": "meta title for the user guide page"
     },
+    "faq-windows-vpn-connect-answer-para-1": {
+        "message": "Ağınızın güvenlik duvarı VPNlerin kullanılmasına izin vermiyor olabilir. Evdeki routerınız VPN protokolleri yoluyla geçişe ayarlı olmayabilir; güvenlik duvarı ayarlarınızı kontrol edin ve IPsec veya L2TP geçişinin izin verildiğine emin olun. Sisteminizin IPsec servisleri devre dışı bırakılmış olabilir; servis ayarlarınızı kontrol edin ve bu servislerin otomatik olarak başlatılmasını etkinleştirin.",
+        "description": ""
+    },
+    "faq-get-updated-version-question": {
+        "message": "Psiphon'un güncellenmiş versiyonunu nasıl edinebilirim?",
+        "description": "FAQ question"
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "Kayıt Düzenleyicisini açmak için Çalıştır tıklayın ve <code>regedit</code> yazın. <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> ögesini bulun ve açın. Ardından sağ tarafında <code>SkipProxySettings</code> göreceksiniz. Bu değeri <code>1</code> yaptığınızda Psiphon sistem vekil sunucu ayarlarını otomatik olarak yapılandırmayacak.",
         "description": ""
     },
+    "faq-ie6-docbody-answer-para-1": {
+        "message": "Bu sorun, Windows XP'de Internet Explorer 6 yüklüyse ortaya çıkabilir. Psiphon, Windows'ta çalışabilmek için Internet Explorer 7 ya da üzeri tarayıcıya ihtiyaç duyar. Internet Explorer'ın üst sürümlerini yüklemenin en iyi yolu: <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Windows Update</a>.",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+    },
     "user-guide-android-head": {
         "message": "Android için Psiphon",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-unsupported-platforms-question": {
+        "message": "Psiphon'un macOS, Linux, Windows Phone, vs. için sürümleri mevcut mu?",
+        "description": "FAQ question."
+    },
+    "faq-subsection-troubleshooting-android": {
+        "message": "Android",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Android-specific."
     },
     "privacy-bulletin-entry-2-title": {
         "message": "2015-06-01: Gizlilik İlke güncellemesi",
@@ -291,9 +367,17 @@
         "message": "Sıkça Sorulan Sorular",
         "description": "title for the FAQ page"
     },
+    "faq-ios-sideloading-sideloading-answer-step-6": {
+        "message": "In the file browser window that opens, navigate to where you saved “PsiphonBrowser.ipa” and double-click it.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "privacy-information-collected-s3-logging-para-1": {
         "message": "Psiphon sunucu keşif listeleri, web site dosyaları gibi dosyaları depolamak için Amazon S3 kullanıyoruz. Bazen bu dosyaların indirilme takipleri için günlüğü etkinleştiriyoruz. Bu günlükleri incelemek \"Kaç kullanıcı sunucu keşif listesini indirmeye başlıyor, ancak tamamlamıyor\", \"İndirilen veri, web site dosyaları ile sunucu keşfi arasında nasıl bir oranda\" ve \"bir saldırgan web sitelerimize karşı DoS (denial-of-service) saldırısı yapıyor mu\" gibi soruları yanıtlamamızı sağlıyor.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-14": {
+        "message": "İşlemi onaylamak için sonraki pencerede \"Güven\" tıklayın.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-who-we-are-exec-team-head": {
         "message": "Exec Takımı",
@@ -316,12 +400,16 @@
         "description": ""
     },
     "about-who-we-are-ops-para-1": {
-        "message": "We have contracts in place with a range of companies, from large-scale international broadcasters to small human rights organizations operating in single countries. Our Operations and Outreach team compiles reports showing them how many people are accessing Psiphon through their distribution methods. They also study trends and look out for upcoming events that might impact the free flow of information on the Internet.",
+        "message": "Büyük çaplı uluslararası yayın kuruluşlarından küçük yerel insan hakları kurumlarına kadar varan bir dizi kuruluşla anlaşmamız var. İşletim ve Destek ekibimiz bu kuruluşlara dağıtım kanallarından Psiphon'a kaç kişinin ulaştığı konusunda raporlar hazırlar. Aynı zamanda  güncel konuları inceleyip internetteki bağımsız bilgi akışını etkileyebilecek yaklaşan olayları takip eder.",
         "description": ""
     },
     "faq-information-collected-answer-para-7-list-start": {
         "message": "Windows:",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-2": {
+        "message": "Your iOS device must be connected to the Internet. Plug your iOS device into your computer. If you are prompted to “Trust this Computer?”, click the “Trust” button.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "Bu en erken 2015-06-01T00:00Z tarihinde etkili olacaktır.",
@@ -331,9 +419,17 @@
         "message": "Psiphon Takımı, bir Windows için Psiphon uygulamasında özel bir kötü amaçlı yazılım keşfetti. Kötü amaçlı yazılım www.copy.com ve diğer kaynaklardan \"pisphone3.zip\" adıyla dağıtılmaktadır. Zip dosyası \"pisphone3.exe\" adında zararlı bir yazılım içermektedir ve bunun özellikleri <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a> sitesinde açıklanmıştır. İsmin hatalı yazımına dikkat edin. Bu Windows uygulama dosyası Psiphon Inc. tarafından dijital olarak imzalanmamıştır. Dijital imzasını <a href=\"#authentic-windows\">burada</a> anlatıldığı şekilde denetlemeden, henüz indirilmiş Psiphon'ı asla çalıştırmayın.",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
+    "privacy-information-collected-client-advertising-networks-para-2": {
+        "message": "Bu çerezleri ilgi-odaklı reklam için şu sayfayı ziyaret ederek devre dışı bırakabilirsiniz:",
+        "description": ""
+    },
     "faq-information-collected-answer-para-5": {
         "message": "Sponsorlar ile paylaşılan tüm istatistikler, sonradan tarih, sponsor ve bölgeye göre daha iyi şekilde birleştirilmektedir.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-8": {
+        "message": "Type your Apple ID password into the next prompt. Then click “OK”.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
     },
     "user-guide-android-ui-statistics-image-annotation-3": {
         "message": "Psiphon aracılığıyla alınan veri",
@@ -341,10 +437,6 @@
     },
     "faq-proxy-all-answer-para-1": {
         "message": "Sadece VPN kipinde. VPN kipinde başarılı bir bağlantıdan sonra, tüm bilgisayarınızın trafiği Psiphon ağından geçecek. VPN kipi etkin değilse, sadece yerel HTTP ve SOCKS vekil sunucuları (proksi) kullanan uygulamalar vekil sunucu altına geçecek.",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-2-item-8": {
-        "message": "HTTPS istek sayısı",
         "description": ""
     },
     "about-who-we-are-para-1": {
@@ -364,7 +456,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-7": {
-        "message": "Aktarılan baytlar",
+        "message": "Toplam ve bazı özel etki alanlarına aktarılmış bayt sayısı",
         "description": ""
     },
     "privacy-bulletin-title": {
@@ -392,7 +484,7 @@
         "description": ""
     },
     "faq-root-wdm-answer-para-1": {
-        "message": "Before December 2015 Psiphon for Android had a feature that allowed users with older Android devices (pre-4.0/ICS) to tunnel the whole device if it was rooted. A major update to Psiphon at that time necessitated the removal of that feature.",
+        "message": "Aralık 2015'ten önce Psiphon'un Android sürümünde rootlanmış eski Adroid cihazı (-4.0/ICS öncesi) olan kullanıcıların tüm cihazı tünellemelerine yarayan bir özellik mevcuttu. O sıralarda yapılan büyük çaplı bir güncelleme bu özelliğin kaldırılmasını gerektirdi.",
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-isp-traffic-answer-para-2": {
@@ -431,6 +523,14 @@
         "message": "Psiphon Kullanıcı Grubu",
         "description": "text for link to the Psiphon Users mailing list"
     },
+    "faq-subsection-troubleshooting-windows": {
+        "message": "Windows",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
+    },
+    "faq-ios-sideloading-sideloading-answer-intro-4": {
+        "message": "<strong>NOTE:</strong> If the Apple ID used for sideloading <em>is not</em> a developer account, the app will need to be re-loaded each week. This limitation is imposed by Apple. If the Apple ID <em>is</em> a developer account, then the installation will be valid for a year.",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "Sorumluluk Sınırlama Beyanı",
         "description": ""
@@ -442,6 +542,10 @@
     "faq-nav-title": {
         "message": "SSS",
         "description": "text for the FAQ page navigation item"
+    },
+    "faq-av-firewall-answer-para-1": {
+        "message": "Kontrol etmeniz gereken ilk şey Psiphon'un orijinal kopyasını edinmiş olup olmadığınızdır. Lütfen Pspihon'un orijinal olup olmadığını kontrol etmek için <a href=\"#verify-psiphon-authentic\">bu talimatları</a> takip edin. Orijinal değilse, lütfen bize elinizdeki kopyayı nasıl edindiğinizle ilgili bilgiyi ve mümkünse çalıştırılabilir dosyayı içeren bir <a href=\"mailto:info@psiphon.ca\">e-posta yollayın</a> .",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
     },
     "alert-heading": {
         "message": "UYARI",
@@ -459,6 +563,10 @@
         "message": "varış sayfası",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-ios-sideloading-image-9-alt": {
+        "message": "screenshot iOS Device Management Settings screen for the current user, showing the button they press to trust their account as an app developer",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "faq-authentic-android-answer-para-3": {
         "message": "Android için Psiphon kendini otomatik olarak günceller ve bu süreç her güncellemenin gerçek olduğunu otomatik doğrular.",
         "description": ""
@@ -466,6 +574,14 @@
     "main-gets-you-there-safely-head-2": {
         "message": "Herkese açık kablosuz (WiFi) kullanırken güvenle sörf yapmak mı istiyorsunuz?",
         "description": ""
+    },
+    "faq-ios-sideloading-image-2-alt": {
+        "message": "screenshot of the Cydia Impactor menu item 'Install Package'",
+        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
+    },
+    "faq-android-upgrade-bug-question": {
+        "message": "Psiphon'u Android'te güncelledikten sonra bağlanmıyor.",
+        "description": "FAQ question."
     },
     "faq-authentic-android-question": {
         "message": "Android için Psiphon'ım gerçek mi?",
@@ -479,13 +595,21 @@
         "message": "Android uygulaması ve Windows istemcisini indir",
         "description": "meta title for the download page"
     },
+    "faq-unsupported-platforms-answer-para-1": {
+        "message": "Desteklediğimiz mevcut platformlar şunlar: <a href=\"download.html\">Download page</a>. Platform desteğimizi genişletmek için sürekli çalışıyoruz ve yakın gelecekte dilediğiniz OS desteğini sağlamayı umuyoruz!",
+        "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
+    },
+    "faq-ios-sideloading-image-10-alt": {
+        "message": "screenshot iOS Device Management Settings screen for the current user, showing the prompt to confirm that they trust their account as an app developer",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "user-guide-windows-para-1": {
         "message": "İstemci programını indirin ve çalıştırın. Çalıştırdığınızda bu programın gerçek bir Psiphon Inc. ürünü olduğunu gösteren güvenlik sorgusu görmelisiniz.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2": {
         "message": "2011-06-16 ve 2012-06-21 arasında geçerli sertifika için SHA1 parmak izi:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "what-is-psiphon-heading": {
         "message": "Psiphon nedir?",
@@ -501,7 +625,7 @@
     },
     "faq-authentic-windows-answer-para-3": {
         "message": "2012-05-21 ve 2014-07-30 arasında geçerli sertifika için SHA1 parmak izi:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-meta-title": {
         "message": "Sıkça Sorulan Sorular",
@@ -563,9 +687,29 @@
         "message": "Psiphon aracılığıyla alınan veri sıkıştırması",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
     },
+    "faq-av-firewall-question": {
+        "message": "Neden antivirüs (AV) programım veya güvenlik duvarım Psiphon'u bir tehdit olarak görüyor?",
+        "description": "FAQ question."
+    },
+    "faq-windows-metro-answer-para-1": {
+        "message": "Windows 8, masaüstü uygulamasına alternatif olarak adını sonradan \"Modern UI\" olarak değiştirdiği \"Metro\" isimli bir arayüz tanıttı. Bazı uygulamalar, çok nadir olarak, yalnızca \"Metro modu\"'nda çalışabilir ve bazıları (Internet Explorer gibi) ya \"Metro modu\"'nda ya da \"Masaüstü modu\"'nda çalışabilir. Bu yeni kullanıcı arayüzü Windows 8.1'de ve daha nadir olarak Windows 10'da hala mevcuttur.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
+    },
+    "faq-get-updated-version-answer-para-1": {
+        "message": "<strong>Android:</strong> Psiphon'u Android için Google Play Store'dan yüklediyseniz, bir güncelleme mevcut olduğunda Play Store tarafından otomatik olarak yüklenir. Psiphon'u Android için transfer etme yoluyla yüklediyseniz, Psiphon istemcisi mevcut güncellemeleri yapmak için güncellemeyi yüklemenizi söyleyen bir uyarı gönderir.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+    },
+    "faq-mobile-hotspot-answer-para-1": {
+        "message": "Bu, Android'in Kişisel Erişim Noktası ve USB paylaşım tanımlamasındaki bir kısıtlamadan ötürüdür. Ya paylaşılan cihazın internete bağlanmadığını, ya da trafiğin VPN yoluyla gerçekleşmediğini deneyimleyebilirsiniz.",
+        "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
+    },
     "user-guide-windows-head": {
         "message": "Windows için Psiphon",
         "description": "heading for the Android section of the User Guide"
+    },
+    "faq-periodic-disconnect-answer-para-1": {
+        "message": "Bu sorun bilgisayarlarda çoğu zaman güvenilir olmayan ya da zayıf internet bağlantısından kaynaklanır. Telefondan bağlanıyorsanız sinyalin düşük olmasından kaynaklanıyor olabiilir.",
+        "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
     },
     "footer-copyright": {
         "message": "Telif Hakkı",
@@ -620,12 +764,16 @@
         "description": ""
     },
     "faq-root-wdm-question-toc": {
-        "message": "What happened to whole device mode for rooted Android devices?",
+        "message": "Android cihazları rootladıktan sonra tüm cihaz (whole device) moduna ne oldu?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-root-wdm-question": {
-        "message": "What happened to whole device mode for rooted Android devices?",
+        "message": "Android cihazları rootladıktan sonra whole device moduna ne oldu?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-ios-sideloading-image-4-alt": {
+        "message": "Cydia Impactor uygulamasının kullanıcıdan Apple Kimliği parolası girmesini isterken ekran görüntüsü",
+        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "page-keyword-how-to": {
         "message": "nasıl yapılır",
@@ -634,6 +782,14 @@
     "sponsor-description": {
         "message": "Bir açılış sayfasında reklam vermek üzere sponsor olun veya Psiphon projesine bireysel olarak bağış yapın",
         "description": "Page description for the Sponsorship page"
+    },
+    "faq-windows-vpn-connect-question": {
+        "message": "Neden Psiphon'a Windows'ta L2TP/IPsec modunda bağlanamıyorum?",
+        "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-2": {
+        "message": "Bu problemi çözebilmenin en kolay yolu, yeniden Psiphon'a bağlanıp doğru şekilde çıkış yapmanızdır.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "about-get-latest-info-para-1-list-start": {
         "message": "Posta listemize katılın:",
@@ -651,6 +807,14 @@
         "message": "Dilinizi seçin",
         "description": ""
     },
+    "faq-get-updated-version-answer-para-2": {
+        "message": "<strong>Windows:</strong Psiphon'un Windows istemcisi mevcut güncellemeleri otomatik olarak yükler.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
+    },
+    "faq-uninstall-windows-question": {
+        "message": "Psiphon'u Windows'tan nasıl kaldırabilirim?",
+        "description": "FAQ question"
+    },
     "user-guide-android-para-4": {
         "message": "Uygulama ağa bağlandıktan sonra dahili Psiphon tarayıcısını çalıştıracaktır. Android için Psiphon, öntanımlı Android tarayıcısı ve diğer uygulamaların trafiğini otomatik olarak tünellemez. Öntanımlı olarak sadece Psiphon tarayıcısı Psiphon ağı yoluyla tünellenir.",
         "description": ""
@@ -660,12 +824,24 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-windows-para-2": {
-        "message": "Psiphon, çalıştırılır çalıştırılmaz otomatik olarak bağlanmaya başlar. Bağlanırken dönen bir simge görüntülenir. Şu tünel kiplerinden birini seçebilirsiniz: VPN (IPSec üzerinden L2TP), SSH veya SSH+ (SSH artı şaşırtma, protokol parmak izi gösteriminden kaçınılması için SSH üzerinde rastgeleleştirilmiş bir katman).",
+        "message": "Psiphon çalıştırılır çalıştırılmaz otomatik olarak bağlantıyı başlatır. Bağlanma aşamasında dönen bir simge görüntülenir. Şu tunnel modlarından birini seçebilirsiniz: VPN (IPsec üzerine L2TP), SSH, veya SSH+ (SSH artı gizleme, protokol parmakizi kontrolünü engellemek için oluşturulmuş randomize edilmiş SSH üzerindeki bir katman).",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
         "message": "Ayrıca, şifreli trafiğe bakıp, hangi sitede gezildiği gibi şeyleri kararlaştırmada kullanılabilecek gelişmiş teknikler mevcuttur. Bunun ilk örneği: \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">trafik parmakizi</a>\".",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-7": {
+        "message": "Type your Apple ID email address into the prompt that follows. Then click “OK”.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
+    },
+    "faq-reset-system-proxy-answer-para-3": {
+        "message": "Proxy ayarlarını kendiniz düzeltmek istiyorsanız Internet Explorer'ı açın, daha sonra Araçlar menüsüne (ya da ayarlar simgesine) tıklayın, İnternet Seçenekleri → Bağlantılar → LAN ayarlarına tıkladıktan sonra \"LAN için proxy sunucusu kullan\" seçeneğini kaldırın.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "download-android-playstore-pro": {
+        "message": "Android için Google Play Store'da: <strong>Psiphon Pro</strong>",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
         "message": "vpn",
@@ -684,7 +860,7 @@
         "description": ""
     },
     "about-who-we-are-software-development-para-3": {
-        "message": "Psiphon's software development team strives to deliver the best, fastest, easiest, and most open circumvention solutions. We're also exploring new areas where our expertise can protect, empower, and free the minds of users worldwide.",
+        "message": "Psiphon'un yazılım geliştirme ekibi en iyi, en hızlı, en kolay ve en açık sansür engelleme çözümleri sunmaya çalışır. Aynı zamanda uzmanlığımızın dünya çapındaki kullanıcılarımızın düşüncelerini koruyabileceği, güçlendirebileceği ve özgürleştirebileceği yeni alanları keşfediyoruz.",
         "description": ""
     },
     "page-keyword-windows": {
@@ -703,6 +879,10 @@
         "message": "Güven, Hız, Sadelik: üçünü seçin",
         "description": ""
     },
+    "faq-android-upgrade-bug-answer-para-1": {
+        "message": "Güncelleme yüklenirken Psiphon internete bağlıysa daha sonra bağlantı kuramayabilir ve “start_tunnel_failed application is not prepared or revoked” hatası verir. Bu, <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\"> Andorid OS hatasından dolayıdır. Bu problemi cihazınızı yeniden başlatarak çözebilirsiniz.",
+        "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
+    },
     "about-who-we-are-software-development-head": {
         "message": "Yazılım Geliştirme",
         "description": ""
@@ -710,6 +890,10 @@
     "faq-connection-failed-answer-para-1": {
         "message": "Eğer sıkça \"bağlantı başarısız\" iletilerini görüyorsanız, istemcinizin bildiği kullanılabilir sunucu yok demektir. Yeni bir Psiphon istemcisi indirmeyi deneyin.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-12": {
+        "message": "Click on your Apple ID email address in the screen that appears.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "faq-authentic-windows-image-alt": {
         "message": "Windows'ta Psiphon uygulama imzasının nasıl denetleneceğini gösteren resim",
@@ -723,9 +907,17 @@
         "message": "Niçin yapıyoruz",
         "description": ""
     },
-    "generic-image-figcaption": {
-        "message": "Akılda tutulması gerekenler:",
-        "description": "Displayed below image to draw attention to important features in the image. Usually hidden and in-image annotations are used instead."
+    "faq-ios-sideloading-sideloading-answer-intro-1": {
+        "message": "“Sideloading” means installing an app on your device without going through the App Store. This is desirable for people who do not have access to the App Store, or when the app is not available in their region.",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
+    "faq-ios-sideloading-sideloading-answer-step-4": {
+        "message": "Run Cydia Impactor.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
+    "faq-windows-metro-answer-para-3": {
+        "message": "Metro modu uygulamaları Psiphon yoluyla bağlanmaya çalışıp başarısız olduğunda şu gibi hata mesajları görebilirsiniz.",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
     },
     "about-who-we-are-partners-para-2": {
         "message": "En başarılı ortaklarımızdan birisi <a href=\"https://asl19.org/\" target=\"_blank\">ASL19</a>, Kendileri bize Farsça dili çevirileri ve servis desteği sağlamaktadır. Ayrıca hedef kitlemizi büyütmede yardım etmektedir.",
@@ -735,13 +927,29 @@
         "message": "Psiphon hizmeti, katı bir şekilde bireysel kullanıcılar ve sadece kişisel kullanımları için amaçlanmıştır. Psiphon'ı diğer herhangi bir amaç için kullanmak isterseniz veya ek gereksinimleriniz varsa, ücretli, ticari hizmet de sunuyoruz. Daha fazla bilgi için <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a> adresine e-posta gönderin.",
         "description": ""
     },
+    "faq-windows-metro-question": {
+        "message": "Neden Windows Metro (ya da Modern IU) uygulamalarımı Psiphon yoluyla tünelleyemiyorum?",
+        "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+    },
     "resources-nav-title": {
         "message": "Kaynaklar",
         "description": "title for the Resources"
     },
+    "faq-mail-apps-ports-answer-para-1": {
+        "message": "Bu, muhtemelen Psiphon'un n's <a href=\"#port-restrictions\">port restrictions</a> ile ilgilidir.",
+        "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+    },
+    "faq-windows-metro-answer-para-2": {
+        "message": "Metro modu'ndaki uygulamalar, kullanıcı sistem güvenlik ayarlarını değiştirmeden yerel proxy kullanamazlar. Bu, Metro modu uygulamalarının Psiphon'u kullanamayacağı ve Psiphon'a bağlıyken internete erişemeyecekleri anlamına gelir. Metro modu uygulamalarının Psiphon'da çalışmasına izin vermek için şunu kullanabilirsiniz: <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">EnableLoopback Utility</a",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+    },
     "user-guide-windows-image-3-alt": {
         "message": "Windows'ta Psiphon'ın bağlandığını gösteren resim",
         "description": "alt text for an image"
+    },
+    "faq-section-installing-running-updating": {
+        "message": "Psiphon'u Yükleme, Çalıştırma ve Güncelleme",
+        "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software."
     },
     "blog-index-subscribe": {
         "message": "Üye ol",
@@ -752,12 +960,16 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-android-enable-sideloading-answer-para-1": {
-        "message": "Android için Psiphon'ı doğrudan indirebilmek için,  \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">yan yükleme</a>\" özelliğini etkinleştirmelisiniz. Bunu yapmak için Android ayarlarına gidip, ardından \"Güvenlik\" alanındaki \"Bilinmeyen kaynaklar\" seçeneğini etkinleştirmelisiniz.",
-        "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+        "message": "Android için Psiphon'ı doğrudan indirebilmek için,  cihazınızda yan yükleme özelliğini etkinleştirmelisiniz. Bunu yapmak için Android ayarlarına gidip, ardından \"Güvenlik\" alanındaki \"Bilinmeyen kaynaklar\" seçeneğini etkinleştirmelisiniz.",
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-isp-traffic-answer-para-4": {
         "message": "Eğer İnternet'te anonimliğe ihtiyacınız varsa, Psiphon yerine <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> kullanmalısınız.",
         "description": ""
+    },
+    "faq-ie6-docbody-answer-xpie7": {
+        "message": "Windows XP için Internet Explorer 7",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
     "page-keyword-sponsor": {
         "message": "sponsor",
@@ -807,6 +1019,10 @@
         "message": "Psiphon, VPN veya Tüm Cihaz kipinde çalışıyor. Tüm uygulamalar Psiphon aracılığıyla tünelleniyor.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
+    "faq-ios-sideloading-image-6-alt": {
+        "message": "screenshot iOS Settings screen, showing the 'General' item",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "main-pick-three-para-1": {
         "message": "2008'den bu yana Psiphon, dünya çapındaki sınırlandırılmış özgürlüğe sahip ülkelerde milyonlarca insana sansürlü bilgi ve fikirlere güvenle erişebilmeleri için yardım etti. Şimdi aynısını sizin için de yapabilir.",
         "description": ""
@@ -824,11 +1040,19 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "Windows XP, Windows Vista, Windows 7 ve Windows 8 (masaüstü) işletim sistemlerinde çalışır.",
+        "message": "Windows XP, Windows Vista, Windows 7, Windows 8 (masaüstü) ve Windows 10 işletim sistemlerinde çalışır.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
         "message": "Kullanıcı olarak, bu lisans sözleşmesini istediğiniz herhangi bir anda Psiphon hizmetinin tüm parçalarını kullanmayı bırakarak ve bu uygulamanın tüm örneklerini cihazınızdan kaldırarak sonlandırabilirsiniz.",
+        "description": ""
+    },
+    "faq-reset-system-proxy-answer-para-1": {
+        "message": "Psiphon Windows'ta bağlandıktan sonra bilgisayarınızın proxy ayarlarını düzenler ve bağlantı kesilirken orijinal ayarlarına geri döndürür. Psiphon Windows'tan doğru şekilde çıkış yapmazsa proxy ayarlarını orijinaline döndüremeyebilir ve bu internete bağlanamamanıza yol açar.",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+    },
+    "privacy-information-collected-client-advertising-networks-para-1": {
+        "message": "Bazen hizmetimizi desteklemek için web işareti ve çerez gibi teknolojileri kullanan reklamlar veriyoruz. Reklam veren partnerlerimizin çerez kullanımı sizin bilgi kullanımınıza bağlı olarak onların ve iş ortaklarının reklam sunmalarını sağlıyor. Bu işlem sırasında toplanılan bilgiler reklam veren partnerlerimizin gizlilik politikaları üzerinden kontrol ediliyor:",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-5": {
@@ -836,7 +1060,7 @@
         "description": ""
     },
     "faq-orig-file-purpose-question": {
-        "message": "\"psiphon3.exe.orig\" dosyası nedir?",
+        "message": "\"psiphon.3.exe.orig\" dosyası nedir?",
         "description": ""
     },
     "index-meta-title": {
@@ -855,6 +1079,10 @@
         "message": "Sonlandırma; Hizmet Şartı İhlalleri",
         "description": ""
     },
+    "faq-section-how-psiphon-works": {
+        "message": "Psiphon Nasıl Çalışır",
+        "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
+    },
     "user-guide-android-image-3-annotation-1": {
         "message": "Psiphon çalışıyor",
         "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
@@ -863,9 +1091,17 @@
         "message": "Türkçe Gönderiler",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
+    "download-ios-appstore-psiphon-browser-description": {
+        "message": "Available for iOS 8 and higher.",
+        "description": ""
+    },
     "faq-isp-traffic-question": {
         "message": "ISS'ım Psiphon kullanırken yaptıklarımı görebilir mi?",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-intro-3": {
+        "message": "Cydia Impactor works on macOS/OS X, Windows (with iTunes installed), and Linux.",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "open-source-para-3-list-start": {
         "message": "Windows:",
@@ -887,6 +1123,14 @@
         "message": "Şu anda çalıştırdığınız Psiphon sürümünü gösterir",
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
+    "download-android-playstore-pro-description": {
+        "message": "Psiphon Pro'yu Google Play Store'dan yükleyerek <strong>internet özgürlüğünü destekleyin</strong> (tüm ülkelerde mevcut değildir).",
+        "description": ""
+    },
+    "faq-section-compatibility": {
+        "message": "Diğer Uygulamalarla Uyumluluk",
+        "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
+    },
     "open-source-nav-title": {
         "message": "Açık Kaynak",
         "description": ""
@@ -899,16 +1143,20 @@
         "message": "Niçin Psiphon IP adresim sıkça değişiyor?",
         "description": ""
     },
+    "faq-periodic-disconnect-question": {
+        "message": "Neden Psiphon bağlantım arada bir kesiliyor?",
+        "description": "FAQ question."
+    },
     "privacy-bulletin-meta-title": {
         "message": "Gizlilik Bültenleri",
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "Office of the Information and Privacy Commissioner of Ontario",
+        "message": "Ontario Bilgi ve Gizlilik Müdürlüğü Ofisi",
         "description": ""
     },
     "about-who-we-are-ops-head": {
-        "message": "Operations and Outreach",
+        "message": "İşlemtim ve Destek",
         "description": ""
     },
     "faq-information-collected-answer-head-4": {
@@ -923,6 +1171,10 @@
         "message": "Gitmek istediğiniz yere götürür...",
         "description": ""
     },
+    "faq-screen-filter-question": {
+        "message": "Psiphon Android'e ilk bağlandığında neden \"bu uygulamaya güven\"'i seçemiyorum?",
+        "description": "FAQ question."
+    },
     "faq-information-collected-answer-para-14": {
         "message": "Bir sorunu tanılamamız gerekirse, kısa bir süreliğine tam posta sunucu günlüklemeyi etkinleştirebiliyoruz. Bu süre zarfında bir e-posta göndermişseniz, e-posta adresiniz sistem günlüğüne yazılacaktır. Bu günlükler bir hafta sonra silinir.",
         "description": ""
@@ -930,6 +1182,10 @@
     "faq-information-collected-answer-para-2-item-4": {
         "message": "Yeni sunucuların ne kadar sıklıkla keşfedildiği",
         "description": ""
+    },
+    "privacy-information-collected-client-head": {
+        "message": "Psiphon İstemci Yazılımı",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon client software"
     },
     "open-source-para-1": {
         "message": "Psiphon açık kaynaklı bir projedir. Kaynak kodunu ve tasarım belgelerini Bitbucket ve Github proje sayfalarımızda bulabilirsiniz.",
@@ -971,13 +1227,17 @@
         "message": "Psiphon istemcileri aşağıdaki açık kaynak bileşenlerini kullanmaktadır:",
         "description": ""
     },
-    "download-android-playstore": {
-        "message": "Google Play Mağazası'nda Android için Psiphon",
-        "description": "text for link to Psiphon for Android in the Google Play Store"
-    },
     "page-keyword-contact": {
         "message": "iletişim",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-get-updated-version-answer-para-3": {
+        "message": "<strong>Manually updating:</strong> Psiphon'un otomatik güncelleme mekanizması çalışmıyorsa (örneğin, engellenmişse), Psiphon'un yeni sürümünü indirebilmek için bilgiyi buradan bulabilirsiniz: <a href=\"download.html\">Download page</a>.",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
+    },
+    "faq-ios-sideloading-question": {
+        "message": "How do I “sideload” Psiphon on my iOS device?",
+        "description": "FAQ question."
     },
     "download-title": {
         "message": "Psiphon'ı İndir",
@@ -1019,6 +1279,10 @@
         "message": "Amazon AppStore içerisindeki Android için Psiphon",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
+    "download-ios-appstore-psiphon-browser": {
+        "message": "Psiphon Browser for iOS in the Apple App Store",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
+    },
     "user-guide-windows-image-1-alt": {
         "message": "Psiphon çalıştırılabilir dosyası için Windows güvenlik uyarısını gösteren resim",
         "description": "alt text for an image"
@@ -1044,12 +1308,8 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Windows için Psiphon giden bağlantılar sadece aşağıdaki bağlantı noktaları için yapılabilir: <code>53, 80, 443, 554, 1935, 7070, 8000, 8001, 6971-6999</code>. Daha fazla bilgi için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">bu tartışmaya</a> bakın. Posta istemcileri bağlantı noktası 25 ve 587'ye bağlanamıyor. Daha fazla bilgi için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">bu tartışmaya</a> bakın.",
-        "description": ""
-    },
-    "download-android-playstore-description": {
-        "message": "Android 2.2 ve üstü sürümler ile uyumlu. Tüm cihaz kipi Android 4.0 veya üstü ya da <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">root (yönetici hakkı verilmiş) cihaz</a> gerektirir.",
-        "description": ""
+        "message": "Psiphon yoluyla yapılan çıkış bağlantıları yalnızca şunları içeren kısıtlanmış sunucu portları serisine yapılabilir: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. \nDaha fazla bilgi için şuna göz atın: <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> Posta istemcileri port 25 yoluyla çıkış bağlantısı gerçekleştiremezler. Daha fazla bilgi için şuna göz atın: <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a>",
+        "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
         "message": "Uygulama Mağazası İndirmeleri",
@@ -1058,10 +1318,6 @@
     "sponsor-meta-title": {
         "message": "Sponsorluk, reklam verme ve bağışlar",
         "description": "Page title for the Sponsorship page"
-    },
-    "faq-root-wdm-answer-para-2": {
-        "message": "If you require that functionality, you can use a “legacy” version of Psiphon for Android. That version will be lacking some of the advanced circumvention abilities of modern Psiphon, but it may be sufficient for your needs. You can <a href=\"https://s3.amazonaws.com/psiphon/legacy/PsiphonAndroidLegacy.apk\">download the “legacy” version here</a>.",
-        "description": "This is the second paragraph of a FAQ answer. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-check-version-question": {
         "message": "Psiphon'ımın geçerli sürümünü nasıl denetleyebilirim?",
@@ -1083,8 +1339,12 @@
         "message": "Psiphon otomatik olarak sisteminizi yerel bir HTTP/HTTPS vekil sunucusunu <code>127.0.0.1:8080</code> ve yerel bir SOCKS vekil sunucusunu <code>127.0.0.1:1080</code> konumlarına yapılandıracaktır. Sistem Vekil Sunucu Ayarlarını kullanan Windows uygulamaları otomatik olarak bunu kullanacaktır. Diğer yazılımları bu yerel vekil sunucuları kullanmaları üzere el ile yapılandırabilirsiniz. Windows için Psiphon ve Android için Psiphon bu yerel vekil sunucuları çalıştırmaktadır.",
         "description": ""
     },
+    "faq-section-privacy-security": {
+        "message": "Gizlilik ve Güvenlik",
+        "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
+    },
     "faq-vpn-protocol-answer-para-1": {
-        "message": "Psiphon, L2TP/IPSec VPN protokolünü kullanır. Ağ güvenlik duvarınız VPN kullanımına izin vermeyebilir. Ev yönlendiriciniz bu VPN protokolü aracılığıyla geçiş için yapılandırılmış olmayabilir; IPSec veya L2TP aracılığıyla geçişin etkin olup olmadığını denetlemek için güvenlik duvarı ayarlarınıza bakın. Sisteminizin IPSec Hizmetleri devre dışı olabilir; bu hizmeti otomatik etkinleştirmek için hizmet ayarlarınıza bakıp etkinleştirin.",
+        "message": "Psiphon  L2TP/IPsec VPN protokolünü kullanır.",
         "description": ""
     },
     "license-distribution-header": {
@@ -1095,9 +1355,17 @@
         "message": "Anti virüs sürümü",
         "description": ""
     },
+    "faq-reset-system-proxy-question": {
+        "message": "Psiphon'un Windows sürümünü kullandıktan sonra bilgisayarım internete bağlanmıyor.",
+        "description": "FAQ question."
+    },
     "sponsor-para-1": {
         "message": "Psiphon'ı yükleyen herkes yazılım ile bağlandığında bir hedef sayfa görecekler. Bu sayfanın sonunda haftanın sponsorluk fırsatları kullanılabilir.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-11": {
+        "message": "In the “General” section, scroll to the bottom and click on “Device Management”.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "faq-autoproxy-question": {
         "message": "<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a> (Otomatik Vekil Sunucu) kullanıyorum. Windows için Psiphon'a sistem vekil sunucu ayarlarımı kullanmamasını nasıl söyleyebilirim?",
@@ -1115,6 +1383,10 @@
         "message": "Psiphon, DNS trafiğini beyaz listedeki (kıdemli) DNS sunucularına sınırlar. Psiphon istemcisi otomatik olarak VPN DNS sunucu ayarlarınızı yapılandırır. Eğer DNS ile ilgili hatalar alıyorsanız, \"DNS Changer\" olarak bilinen ve DNS sunucu ayarlarınızı değiştirmeye kötü amaçlı yazılımın çalışan bilgisayarınızda bulunmadığından emin olun. Daha fazla bilgi <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">burada</a> bulunabilir.",
         "description": ""
     },
+    "faq-section-troubleshooting": {
+        "message": "Sorun Tespiti",
+        "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
+    },
     "about-get-latest-info-head": {
         "message": "Psiphon hakkında en son bilgileri alın",
         "description": ""
@@ -1124,7 +1396,7 @@
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
-        "message": "Windows için Psiphon otomatik güncelleme sürecinde, eski sürüm dosyalar \"psiphon3.exe.orig\" olarak adlandırılacaktır. \".orig\" son ekine sahip tüm eski dosyalar güvenle silinebilir.",
+        "message": "Psiphon'un otomatik Windows güncelleme işlemi eski versiyonun adını “psiphon3.exe.orig” olarak değiştirir. Eski “.orig” ekli dosyalar güvenle silinebilir.",
         "description": ""
     },
     "privacy-bulletin-entry-1-why-doing": {
@@ -1136,8 +1408,12 @@
         "description": "text for the Download page navigation item"
     },
     "about-who-we-are-exec-team-para-2": {
-        "message": "Karl Kathuria is the VP of Commercial Management, and has recently joined the team in Toronto from London. He is responsible for managing the business relationships with our broadcast and distribution partners, and for finding new opportunities for the company’s activities.",
+        "message": "Karl Kathuria şirketimizin Yönetim Kurulu Başkanı olup Londra'dan Toronto ekibimize katılmıştır. Yayın ve dağıtım partnerlerimizle iş ilişkilerini yönetmekten ve şirket aktiviteleri için yeni fırsatlar yaratmaktan sorumludur. ",
         "description": ""
+    },
+    "faq-android-enable-sideloading-answer-para-0": {
+        "message": "“Sideloading” means installing an app on your device without going through the Play Store. This is desirable for people who do not have access to the Play Store, or when the app is not available in their region.",
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "Yükseltme sayısı",
@@ -1147,9 +1423,21 @@
         "message": "sansür",
         "description": "web page meta keyword used for SEO"
     },
+    "faq-section-verify-psiphon-authentic": {
+        "message": "Psiphon Uygulamanızın Orijinal Olduğunu Doğrulayın",
+        "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
+    },
     "blog-index-meta-title": {
         "message": "Psiphon Takımı Blogu",
         "description": ""
+    },
+    "faq-ios-sideloading-image-5-alt": {
+        "message": "screenshot iOS home screen Settings launcher",
+        "description": "Alt text for an iOS sideloading image"
+    },
+    "faq-ios-sideloading-sideloading-answer-step-13": {
+        "message": "In the next screen click the item that says “Trust”.",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "user-guide-windows-para-4": {
         "message": "SSH ve SSH+ kiplerinde, Psiphon otomatik olarak Windows sistem vekil sunucu ayarlarını belirler ve uygulamaların trafiğinin Psiphon yoluyla tünellenmesine uymasını sağlar. Bu ayarlar öntanımlı olarak tüm başlıca web tarayıcıları tarafından algılanır.",
@@ -1195,6 +1483,10 @@
         "message": "Günlükleme; IP adreslerini, kullanıcı yardımcısını ve siteye erişme zamanlarını içerecek. Ardından veri işlenerek; kullanıcı sayısının, sorundaki dosyaya erişenler arasındaki coğrafi bölge kullanıcılarına bölünecek.",
         "description": ""
     },
+    "faq-ios-sideloading-image-8-alt": {
+        "message": "iOS Cihaz Yönetim Ayarları ekranı, kullanıcı e-posta adresine ait ögeyi gösteriyor",
+        "description": "Alt text for an iOS sideloading image"
+    },
     "page-keyword-http-proxy": {
         "message": "http vekil sunucusu",
         "description": "web page meta keyword used for SEO"
@@ -1203,6 +1495,10 @@
         "message": "Hakkımızda",
         "description": "text for the About page navigation item"
     },
+    "faq-authentic-windows-answer-para-2020": {
+        "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "Her protokolün ne kadar sıklıkla kullanıldığı ve başarısızlıktan sonraki hata kodları",
         "description": ""
@@ -1210,6 +1506,18 @@
     "privacy-para-1": {
         "message": "Psiphon; müşterilerinin, son kullanıcıların, dağıtıcı ve sağlayıcıların gizliliklerini korumaya adanmıştır. Bu gizlilik poliçesi kişisel bilgilerinizin nasıl kullanılacağı hakkında size genel bir bilgi sağlamak amacıyla oluşturulmuştur. Psiphon, ana merkezi Ontario'da olan bir Kanada kurumu olup, gizlilik poliçemiz Kanada ve Ontario gizlilik kanun ve durumlarını yansıtarak oluşturulmuştur.",
         "description": ""
+    },
+    "faq-ios-sideloading-sideloading-answer-step-1": {
+        "message": "<a href=\"download.html\">Download “PsiphonBrowser.ipa”</a> onto your computer. (It will probably be saved in your “Downloads” folder.)",
+        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
+    },
+    "privacy-information-collected-client-advertising-networks-head": {
+        "message": "Reklamveren Ağlar",
+        "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "faq-ios-sideloading-sideloading-answer-intro-2": {
+        "message": "Psiphon Browser can be sideloaded onto your iOS device using the <a href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> tool. Your device does not need to be jailbroken. You need to have an Apple ID account (or access to the credentials for one) and the ability to contact Apple during the side-loading process. (Depending on your countries blocking, you may need to use a VPN on your computer during the side-loading.)",
+        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Note that 'Cydia Impactor' is the name of a third-party tool and must not be translated."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon, bu lisansı hiçbir sebep belirtmeden ve herhangi bir ödeme yapmaksızın her an iptal etme yetkisine sahiptir. Psiphon kullanarak, hizmet şartları veya lisans sözleşmesine aykırı hiçbir şekilde hizmeti kullanmayacağınızı kabul etmektesiniz.",
@@ -1239,6 +1547,10 @@
         "message": "Psiphon hizmetinin sadece Psiphon Inc. tarafından oluşturulan yazılım istemciler tarafından kullanılmasına izin verilir. Psiphon hizmetini kullanan bir üçüncü parti istemci/araç kullanmak veya dağıtmak bu lisansın ihlal edilmesi demektir.",
         "description": ""
     },
+    "faq-ios-sideloading-image-1-alt": {
+        "message": "İliştirilmiş bilgisayara güvenilmesi için iOS aygıtı sorgusu",
+        "description": "alt text for an iOS sideloading image"
+    },
     "user-guide-android-image-1-alt": {
         "message": "Play Store'dan olmayan uygulamalara izin verilmesi için Android ayarını gösteren resim",
         "description": "alt text for an image"
@@ -1246,6 +1558,14 @@
     "page-keyword-contribute": {
         "message": "katkıda bulunun",
         "description": "web page meta keyword used for SEO"
+    },
+    "faq-av-firewall-answer-para-2": {
+        "message": "Pspihon kopyanız orijinal ise, bu muhtemelen yanlış bir pozitif rapor durumudur. Çoğu antivirüs/güvenlik duvarı programlarının Psiphon'un dijital imzasını güvenilir adresler listesine eklemiş olmasına rağmen, bazıları Psiphon'un çalıştırılabilir dosyasını yanlışlıkla virüs ya da tehdit olarak algılayabilir. Bu durumda, AV/güvenlik duvarı sağlayıcısıyla sorunu çözebilmemiz için lütfen bize kullandığınız AV/güvenlik duvarı programının adını belirten bir <a href=\"mailto:info@psiphon.ca\">e-posta gönderin</a> .",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+    },
+    "faq-ios-sideloading-image-11-alt": {
+        "message": "screenshot iOS home screen, showing the Psiphon launcher icon",
+        "description": "Alt text for an iOS sideloading image"
     },
     "main-gets-you-where-you-want-para-1": {
         "message": "Dünyadaki baskıcı rejimlerle başa çıktıktan sonra, istediğiniz içeriğe, ne zaman ve nerede isterseniz erişebilmenize yardım etmek için benzersiz bir şekilde uyum sağladık.",
@@ -1270,6 +1590,14 @@
     "download-direct-head": {
         "message": "Doğrudan İndirmeler",
         "description": ""
+    },
+    "faq-proxy-all-ios-browser-answer-para-1": {
+        "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
+        "description": ""
+    },
+    "faq-mail-apps-ports-question": {
+        "message": "Neden Psiphon çalışırken favori uygulamamı kullanamıyorum? Neden posta istemcimi kullanarak e-posta yollayamıyorum?",
+        "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-1": {
         "message": "İstemci indirme bağlantısı için e-posta talep sayısı",

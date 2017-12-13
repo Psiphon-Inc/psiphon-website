@@ -8,13 +8,13 @@
     <updated><%= @site.date.toISOString() %></updated>
 
     <link href="<%= @urlResolve(@site.url, @document.url) %>" rel="self"/>
-    <link type="text/html" href="<%= @urlResolve(@site.url, @getPageURL(@getPageInfo('blog-index').filename)) %>" rel="alternate"/>
+    <link type="text/html" href="<%= @urlResolve(@site.url, @getFullTranslatedURL(@getPageInfo('blog-index').filename)) %>" rel="alternate"/>
     <link href="<%= @site.url %>"/>
 
     <icon><%= @urlResolve(@site.url, '/images/psiphon-logo-48.png') %></icon>
     <logo><%= @urlResolve(@site.url, '/images/psiphon-logo-512.png') %></logo>
 
-    <% for document in @getCollection('posts').findAllLive({language: @document.language}).toJSON()[0..9]: %>
+    <% for document in @getCollection('posts').findAll({language: @document.language}).toJSON()[0..9]: %>
     <entry>
         <id><%= @getIdForDocument(document) %></id>
         <title><%= document.title %></title>

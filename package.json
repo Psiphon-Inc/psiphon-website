@@ -1,5 +1,6 @@
 {
   "name": "psiphon-circumvention-system-website",
+  "private": true,
   "version": "0.0.1",
   "description": "Website for Psiphon. Based on Twitter Bootstrap skeleton for DocPad.",
   "homepage": "http://psiphon3.com",
@@ -20,18 +21,18 @@
   },
   "dependencies": {
     "cheerio": "^0.17.0",
-    "docpad": "6.x",
-    "docpad-plugin-coffeescript": "2.x",
-    "docpad-plugin-eco": "2.x",
-    "docpad-plugin-highlightjs": "2.x",
-    "docpad-plugin-less": "2.x",
-    "docpad-plugin-marked": "2.x",
-    "docpad-plugin-partials": "2.x",
-    "docpad-plugin-related": "2.x",
-    "docpad-plugin-text": "2.x"
+    "docpad": "~6.79.4",
+    "docpad-plugin-coffeescript": "~2.6.0",
+    "docpad-plugin-eco": "~2.2.1",
+    "docpad-plugin-highlightjs": "~2.5.0",
+    "docpad-plugin-less": "~2.5.1",
+    "docpad-plugin-marked": "~2.4.0",
+    "docpad-plugin-partials": "~2.11.0",
+    "docpad-plugin-related": "~2.3.0",
+    "docpad-plugin-text": "~2.5.0",
+    "lodash": "4.12.x"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
     "start": "node_modules/docpad/bin/docpad-server"

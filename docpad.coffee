@@ -4,6 +4,7 @@
 url = require('url')
 cheerio = require('cheerio')
 helpers = require('./helpers')
+process = require('process')
 
 
 docpadConfig = {
@@ -58,34 +59,36 @@ docpadConfig = {
 
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
-    languages: ['en', 'fa', 'ar', 'zh', 'az', 'de', 'el', 'es', 'fr', 'id', 'kk', 'ko', 'hr', 'nb', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'ug@Latn', 'uz@cyrillic', 'uz@Latn', 'vi']
+    languages: ['en', 'fa', 'ar', 'zh', 'bo', 'de', 'el', 'es', 'fi', 'fr', 'hr', 'id', 'kk', 'ko', 'nb', 'nl', 'pt_BR', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'vi', 'zh_TW']
+    # Even if this array is modified during generation, the full list will always
+    # be available in @all_languages.
 
     # Translation file location.
     translation_files:
       en: './_locales/en/messages.json'
-      fa: './_locales/fa/messages.json'
+      bo: './_locales/bo/messages.json'
       ar: './_locales/ar/messages.json'
-      zh: './_locales/zh/messages.json'
-      ru: './_locales/ru/messages.json'
-      'uz@cyrillic': './_locales/uz@cyrillic/messages.json'
-      'uz@Latn': './_locales/uz@Latn/messages.json'
-      tk: './_locales/tk/messages.json'
-      th: './_locales/th/messages.json'
-      az: './_locales/az/messages.json'
-      'ug@Latn': './_locales/ug@Latn/messages.json'
-      kk: './_locales/kk/messages.json'
-      es: './_locales/es/messages.json'
-      vi: './_locales/vi/messages.json'
-      nb: './_locales/nb/messages.json'
-      fr: './_locales/fr/messages.json'
-      tr: './_locales/tr/messages.json'
       de: './_locales/de/messages.json'
       el: './_locales/el/messages.json'
+      es: './_locales/es/messages.json'
+      fa: './_locales/fa/messages.json'
       fi: './_locales/fi/messages.json'
-      ko: './_locales/ko/messages.json'
-      pt_PT: './_locales/pt_PT/messages.json'
+      fr: './_locales/fr/messages.json'
       hr: './_locales/hr/messages.json'
       id: './_locales/id/messages.json'
+      kk: './_locales/kk/messages.json'
+      ko: './_locales/ko/messages.json'
+      nb: './_locales/nb/messages.json'
+      nl: './_locales/nl/messages.json'
+      pt_BR: './_locales/pt_BR/messages.json'
+      pt_PT: './_locales/pt_PT/messages.json'
+      ru: './_locales/ru/messages.json'
+      th: './_locales/th/messages.json'
+      tk: './_locales/tk/messages.json'
+      tr: './_locales/tr/messages.json'
+      vi: './_locales/vi/messages.json'
+      zh: './_locales/zh/messages.json'
+      zh_TW: './_locales/zh_TW/messages.json'
 
     # Translations will be loaded into this object.
     translations: {}
@@ -166,11 +169,15 @@ docpadConfig = {
       android: '/PsiphonAndroid.apk'
       email: 'get@psiphon3.com'
       playstore: 'https://play.google.com/store/apps/details?id=com.psiphon3'
+      playstorePro: 'https://play.google.com/store/apps/details?id=com.psiphon3.subscription'
+      playstoreDevPage: 'https://play.google.com/store/apps/developer?id=Psiphon+Inc.'
+      iosBrowserAppStore: 'https://itunes.apple.com/us/app/psiphon-browser/id1193362444?ls=1&mt=8'
+      iosVpnAppStore: 'https://itunes.apple.com/us/app/psiphon/id1276263909?ls=1&mt=8'
 
     # -----------------------------
     # Helper Functions
 
-    # `document` arugment is optional -- if not supplied, @document will be used
+    # `document` argument is optional -- if not supplied, @document will be used
     getPageInfoKeyFromDocument: (document) ->
       if not document
         document = @document
@@ -191,7 +198,7 @@ docpadConfig = {
       return @pageInfo[name]
 
     # The title might need to be translated from a string key.
-    # `document` arugment is optional -- if not supplied, @document will be used
+    # `document` argument is optional -- if not supplied, @document will be used
     getTitle: (document) ->
       if not document
         document = @document
@@ -292,14 +299,14 @@ docpadConfig = {
     rtl_languages: ['ar', 'fa', 'he']
 
 
-    # `document` arugment is optional -- if not supplied, @document will be used
+    # `document` argument is optional -- if not supplied, @document will be used
     isRTL: (document=null) ->
       if not document
         document = @document
       document.language in @rtl_languages
 
 
-    # `document` arugment is optional -- if not supplied, @document will be used
+    # `document` argument is optional -- if not supplied, @document will be used
     ifRTL: (rtlValue, ltrValue='', document=null) ->
       if @isRTL(document) then rtlValue else ltrValue
 
@@ -307,6 +314,8 @@ docpadConfig = {
     languageLabel: (languageCode) ->
       map =
         "ar": "العربية"
+        "az": "azərbaycan dili"
+        "bo": "བོད་ཡིག"
         "cs": "Čeština"
         "de": "Deutsch"
         "el": "Ελληνικά"
@@ -320,43 +329,56 @@ docpadConfig = {
         "hu": "Magyar"
         "id": "Bahasa Indonesia"
         "it": "Italiano"
+        "kk": "қазақ тілі"
         "ko": "한국말"
         "nl": "Nederlands"
         "nb": "Norsk (bokmål)"
         "pl": "Polski"
-        "pt_BR": "Português(Br)"
-        "pt_PT": "Português(Pt)"
+        "pt_BR": "Português (Brasil)"
+        "pt_PT": "Português (Portugal)"
         "ru": "Русский"
         "sv": "Svenska"
-        "zh": "中文"
-        "uz@cyrillic": "Ўзбекча"
-        "uz@Latn": "O'zbekcha"
-        "tk": "Türkmençe"
         "th": "ภาษาไทย"
-        "az": "azərbaycan dili"
-        "ug@Latn": "Uyghurche"
-        "kk": "қазақ тілі"
-        "vi": "Tiếng Việt"
+        "tk": "Türkmençe"
         "tr": "Türkçe"
+        "ug@Latn": "Uyghurche"
+        "uz@Cyrl": "Ўзбекча"
+        "uz@Latn": "O'zbekcha"
+        "vi": "Tiếng Việt"
+        "zh": "简体中文"
+        "zh_TW": "繁体中文"
       if map[languageCode]
         map[languageCode]
       else
         languageCode
 
 
-    # Returns the translated document object if `document` is available as a
-    # translation in `lang`, otherwise returns falsy.
-    documentTranslated: (document, targetLang) ->
-      # document url has a leading '/'
-      LANG_SPLIT_INDEX = 1
-      currLang = document.url.split('/')[LANG_SPLIT_INDEX]
-      return no if currLang not in @languages
+    # Given a full or partial `url`, returns a full URL in the desired language.
+    # If `targetLang` is not provided, the full URL will be in the current document's
+    # language; otherwise the full URL will be in the specified language.
+    # Note that `url` must start with '/'.
+    # Examples (ignoring `pathToRoot` considerations):
+    #   `getFullTranslatedURL('/download.html')` will return `/zh/download.html` if the current document language is 'zh'.
+    #   `getFullTranslatedURL('/en/download.html')` will return `/zh/download.html` if the current document language is 'zh'.
+    #   `getFullTranslatedURL('/download.html', 'kk')` will return `/kk/download.html`.
+    #   `getFullTranslatedURL('/en/download.html', 'kk')` will return `/kk/download.html`.
+    # ASSUMPTION: Only URLs that will be translated will be passed in. There is
+    # not check to verify that this resulting URL is for a valid document.
+    getFullTranslatedURL: (url, targetLang) ->
+      if url[0] != '/'
+        throw "url must start with '/': #{url}"
 
-      translatedURL = ['/'+targetLang].concat(document.url.split('/')[LANG_SPLIT_INDEX+1...]).join('/')
-      translatedDoc = @getCollection('documents').findAllLive({url: translatedURL}).toJSON()
-      return translatedDoc[0] if translatedDoc.length > 0
+      targetLang = targetLang || @document.language || 'en'
 
-      return no
+      urlSplit = url.split('/').slice(1) # slicing off the initial empty string (due to leading '/'')
+
+      # If `url` has a language in its path, remove it.
+      urlLang = urlSplit[0]
+      if urlLang in @all_languages
+        url = '/' + urlSplit.slice(1).join('/')
+
+      fullTranslatedURL = "#{@document.pathToRoot}/#{targetLang}#{url}"
+      return fullTranslatedURL
 
 
     # Returns a formatted date
@@ -365,27 +387,6 @@ docpadConfig = {
       # we're just ouputting a standard date string and then letting browser
       # code do the actual localization.
       return date.toISOString()
-
-
-    # Get the language appropriate absolute URL for a language-relative URL.
-    # For example `getPathURL('/download.html')` might return `/en/download.html`.
-    getPageURL: (partialURL) ->
-      if partialURL[0] != '/'
-        throw 'partialURL must be language-absolute: ' + partialURL
-
-      # document url has a leading '/'
-      LANG_SPLIT_INDEX = 1
-      targetLang = @document.url.split('/')[LANG_SPLIT_INDEX]
-      if targetLang not in @languages
-        # Current document isn't language-specific. Default English.
-        targetLang = 'en'
-
-      translatedURL = '/' + targetLang + partialURL
-      translatedDoc = @getCollection('documents').findAllLive({url: translatedURL}).toJSON()
-      return @document.pathToRoot + translatedDoc[0].url if translatedDoc.length > 0
-
-      # There's no language-specific version of this file. Just return the argument.
-      return @document.pathToRoot + partialURL
 
 
     getIdForDocument: (document) ->
@@ -509,6 +510,66 @@ docpadConfig = {
     renderDocument: (opts) ->
       helpers.handleRenderDocument(opts)
 
+    docpadReady: (opts) ->
+      opts.docpad.config.templateData.all_languages = opts.docpad.config.templateData.languages
+
+      # We have a magic environment parameter that allows us to split the language
+      # generation into pieces, thereby limiting memory usage. For example,
+      # `--env languagesplit_2_5` will split the language list into 5 parts, and
+      # only generate the languages in the 2nd part.
+      if not opts.docpad.config.env
+        @docpad.log('Not splitting languages: no env')
+        return @
+
+      SPLIT_REGEX = /languagesplit_(\d+)_(\d+)/
+      splitMatch = opts.docpad.config.env.match(SPLIT_REGEX)
+      if not splitMatch
+        @docpad.log('Not splitting languages: no languagesplit')
+        return @
+
+      currLangSplit = parseInt(splitMatch[1]) - 1 # zero-based
+      totalLangSplits = parseInt(splitMatch[2])
+
+      if not totalLangSplits > opts.docpad.config.templateData.languages.length
+        @docpad.fatal('docpadReady: cannot have more splits than languages')
+        process.exit(1)
+        return @
+
+      if not currLangSplit > totalLangSplits
+        @docpad.fatal('docpadReady: currLangSplit > totalLangSplits')
+        process.exit(1)
+        return @
+
+      # Adapted from https://stackoverflow.com/a/2136090/729729
+      strideSlice = (arr, start, stride) ->
+        out = []
+        i = start
+        while i < arr.length
+          out.push arr[i]
+          i += stride
+        out
+      chunkify = (list, chunkSize) ->
+        out = []
+        i = 0
+        while i < chunkSize
+          out.push strideSlice(list, i, chunkSize)
+          i++
+        out
+
+      langChunks = chunkify(opts.docpad.config.templateData.languages, totalLangSplits)
+
+      langs = langChunks[currLangSplit]
+
+      @docpad.log('Splitting languages; #langs:', opts.docpad.config.templateData.languages.length, '#splits:', totalLangSplits, 'currentSplit:', currLangSplit+1, 'currentLangs:', langs)
+
+      if langs.length == 0
+        @docpad.fatal('docpadReady: no languages to generate, probably because the splits are too small (so maybe we are done!)')
+        process.exit(1)
+        return @
+
+      opts.docpad.config.templateData.languages = langs
+
+      @
 
   # =================================
   # DocPad Environments

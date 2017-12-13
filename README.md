@@ -24,7 +24,7 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
 1. Install [Node.js](http://nodejs.org/).
 
 2. Install [Docpad](http://docpad.org/):
-  
+
   ```
   $ [sudo] npm install -g docpad
   ```
@@ -40,19 +40,21 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
 4. Generate site, serve it, and monitor for changes:
 
   ```
-  $ docpad run
+  $ node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js run --cache --offline
 
   # Site builds can be quite slow. Skip language generation for faster builds:
-  # docpad run --env fastbuild
+  # docpad run --cache --offline --env fastbuild
   ```
 
-## Generating the site for deployment
+  The use of a complicated `node` command instead of `docpad` is so that the generate process has more memory to work with. Note that it's probably more memory-reasonable to generate the site separately from serving it (using `python -m SimpleHTTPServer 9778` or whatever). See below for simply generating the site.
+
+## Generating the site
+
+The commands necessary to do a constant-memory generation have been collected in a script.
 
 ```
-$ docpad clean
-$ docpad generate --env static,production
+$ ./generate.py
 ```
-
 
 ## Running the site at root and below a path
 
@@ -77,7 +79,7 @@ And the path will remain correct regardless of the path location of the containi
 Serving the site with Docpad will only test the site-at-root scenario. Testing the site-under-subdirectory scenario can be done like so:
 
 1. Run a static site server in the root directory of the website source (i.e., the directory of this README lives in). (You can use Python's `SimpleHTTPServer` or Node's `node-static` package, or whatever.)
-2. In your browser, go to `http://localhost:8080/out/`. 
+2. In your browser, go to `http://localhost:8080/out/`.
 3. You'll be redirected to `http://localhost:8080/out/en/index.html`. The site is effectively under the `out` directory.
 4. Browse around. Watch the console for errors.
 
@@ -104,7 +106,7 @@ Translations can be written using either Markdown or HTML. We're not yet sure if
 
 If the translation is done in HTML, it should only contain the inner body of the post, and not `<html>`, `<head>`, or `<body>` tags; here is [an example of one](https://bitbucket.org/psiphon/psiphon-circumvention-system/src/cfc2d583bb8cd8f3c4a61d2d248a90c742389ff9/Website/src/documents/fa/blog/psiphon-a-technical-description.html).
 
-At the top of the raw blog post example above you will see the post "metadata". The `title` must be translated and the `author` may be transliterated if appropriate for the target langage. The `layout` must not be changed. 
+At the top of the raw blog post example above you will see the post "metadata". The `title` must be translated and the `author` may be transliterated if appropriate for the target langage. The `layout` must not be changed.
 
 
 ### Locale-specific images
@@ -141,3 +143,4 @@ Metadata in layouts is basically ignored (besides another `layout` in the chain)
 ## Credits
 
 Background pattern from: http://subtlepatterns.com/3px-tile/
+
