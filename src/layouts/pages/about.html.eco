@@ -10,7 +10,6 @@ layout: page
 
     <h3><%= @tt 'about-who-we-are-exec-team-head' %></h3>
     <p><%= @tt 'about-who-we-are-exec-team-para-1' %></p>
-    <p><%= @tt 'about-who-we-are-exec-team-para-2' %></p>
 
     <h3><%= @tt 'about-who-we-are-software-development-head' %></h3>
     <p><%= @tt 'about-who-we-are-software-development-para-1' %></p>
@@ -41,6 +40,15 @@ layout: page
       <li>
         <a href="https://github.com/DravenJohnson" target="_blank">Draven Johnson</a>
       </li>
+      <li>
+        <a href="https://github.com/tmgrask" target="_blank">Tasker Mackersy</a>
+      </li>
+      <li>
+        <a href="https://github.com/daveosborne" target="_blank">David Osborne</a>
+      </li>
+      <li>
+        <a href="https://github.com/amirkhan5" target="_blank">Amir Khan</a>
+      </li>
     </ul>
 
     <h3><%= @tt 'about-who-we-are-ops-head' %></h3>
@@ -48,7 +56,6 @@ layout: page
 
     <h3><%= @tt 'about-who-we-are-partners-head' %></h3>
     <p><%- @tt 'about-who-we-are-partners-para-1' %></p>
-    <p><%- @tt 'about-who-we-are-partners-para-2' %></p>
   </div>
 </div>
 
