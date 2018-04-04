@@ -47,10 +47,6 @@
         "message": "ང་ཚོར་འབྲེལ་བ་གནང་རོགས།",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-15": {
-        "message": "དྲྭ་ཤེལ་ཨ་མར་མཛུབ་སྣོན་བྱས་ཏེ་དྲྭ་ངོས་ཨ་མར་སྐྱར་ལོག་བྱས། དེ་ནས་ཁྱེད་རང་གིས་སཡི་ཕོན་བལྟ་ཆས་འགོ་འཛུགས་བྱེད་ཐུབ།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-description": {
         "message": "སཡི་ཕོན་གསང་དོན་སྲིད་བྱུས།",
         "description": "description for the Privacy Policy page"
@@ -72,8 +68,12 @@
         "description": "FAQ question."
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "ཟུར་འཇུག་ཐུབ་པའི་པར་ལེན།",
+        "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
         "description": "alt text for an image"
+    },
+    "download-ios-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for iOS</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "page-keyword-proxy": {
         "message": "ངོ་ཚབ།",
@@ -115,10 +115,6 @@
         "message": "གསང་དོན་སྲིད་བྱུས།",
         "description": "page title for the Privacy Policy page"
     },
-    "faq-ios-sideloading-sideloading-answer-step-5": {
-        "message": "Impactor གྱི་རེའུ་མིག་གི་སྒང་ལ། \"ཡོ་བྱད་\"སྣོན། དེ་ནས\"ཐུམ་སྒྲིལ་འགྲིག་བཅུག་\"བྱེད།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate quoted text in this string -- they are from Cydia Impactor, which is not itself translated."
-    },
     "faq-information-collected-answer-para-12": {
         "message": "ང་ཚོའི་གློག་འཕྲིན་རང་འགུལ་ལན་འདེབས་ཞབས་ཞུ་འཕྲུལ་ཆས་དེ་Amazon EC2 cloud སྒང་ལ་བཞག་ཐུབ། ང་ཚོས་རེ་སྐུལ་ཞུ་མཁན་མི་རེ་ལ་གློག་འཕྲིན་ལན་འདེབས་ཚར་གཉིས་རེ་བྱེད་རྒྱུ་ཡིན་ལ་དེའི་ནང་ནས་ལན་འདེབས་གཅིག་Amazon SES རྒྱུད་དེ་བེད་སྤྱོད་བྱེད་ཀྱི་ཡིན། དེས་ན་ཨེ་མ་ཛོན་Amazon གྱིས་ཁྱེད་རང་གིས་བཏང་བའི་གློག་འཕྲིན་དང་ང་ཚོའི་ལན་འདེབས་གཉིས་ཀ་མཐོང་ཐུབ་ཀྱི་ཡོད།",
         "description": ""
@@ -131,12 +127,8 @@
         "message": "དྲྭ་རྒྱ་ལ་རིན་པ་སྤྲད་མི་དགོས་ན་ཡག་པོ་ཞེ་དྲག་འདུག འོན་ཀྱང་ཡིག་ཆ་གསོག་ཉར་དང་ཁ་བྱང་རྐུས་ན་ཡག་པོ་མ་རེད། དེས་ན་སཡི་ཕོན་གྱིས་ཁྱེད་རང་དྲྭ་རྒྱ་གང་འདྲ་ཞིག་ལ་མཐུད་ཀྱང་རུང་་ཉེན་ཁ་མེད་པའི་དྲྭ་ལམ་སྟེར་ཐུབ་ཀྱི་ཡོད།",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-3": {
-        "message": "ཐོན་གསར་ཤོས་དེ་ཕབ་ལེན་བྱེད།<a target=\"_blank\" href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> བཀོལ་སྤྱོད་སྒྲིག་སྲོལ་ <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/1\">macOS/OS X</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/2\">Windows</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/4\">Linux 32-bit</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/5\">Linux 64-bit</a>.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "user-guide-android-image-3-alt": {
-        "message": "སཡི་ཕོན་ནང་གི་ཨེན་ཀྲོཌ་དྲ་རྒྱ་བལྟ་ཆས་གྱི་ཆ་ཤས་འདྲ་མིན་སྟོན་པའི་པར་རིས་སྟོན་བཞིན་པ།",
+        "message": "Screenshot showing the Psiphon for Android web browser",
         "description": "alt text for an image"
     },
     "page-keyword-open-source": {
@@ -148,7 +140,7 @@
         "description": ""
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "ཐོ་གཞུང་གི་རེའུ་མིག་གི་སྒང་ལ་ཨེན་ཀྲོཌ་ནང་ལ་སཡི་ཕོན་བེད་སྤྱོད་བྱེད་བཞིན་པའི་པར་སྟོན་གྱི་འདུག",
+        "message": "Screenshot showing the Psiphon for Android logs panel",
         "description": "alt text for an image"
     },
     "license-terms-of-use-header": {
@@ -183,10 +175,6 @@
         "message": "སཡི་ཕོན་སྤྱོད་པའི་སྐབས་སུ་ལོངས་་སྤྱོད་པ་པོ་རྣམས་ལ་ཉམས་མྱོང་བཟང་པོ་རྙེད་ཐུབ་པ་ཞིག་དགོས། དེ་ནི་ང་ཚོའི་མཉེན་ཆས་དེ་བཞིན་སྤྱོད་བདེ་བ་དང་། ང་ཚོའི་དྲྭ་རྒྱ་དེ་མགྱོགས་པོ་ཞིག་དགོས་པ་མ་ཟད་ད་གཉིས་ཀའི་རྨང་གཞི་བྲག་རི་ལྟར་བརྟན་པོ་ཞིག་ངེས་པར་དུ་དགོས་ཀྱི་ཡོད། དེ་འདྲ་ཡོང་བ་ནི་རྒྱ་བསྐྱེད་པ་སུ་འདྲ་ཞིག་གིས་བལྟས་ནའང་ཐོབ་དཀའ་བ་ཞིག་ཡིན། ལྷག་པར་དུ་ཁྱེད་རང་གི་མཉེན་ཆས་དེ་བཞིན་རྟག་ཏུ་འགྱུར་བའི་རྙོག་ཟིང་ཅན་གྱི་ཁོར་ཡུག་དང་སྐད་རིགས་མི་འདྲ་བ་མང་པོ་དང་། བབས་སྟེགས་སྣ་ཚོགས་ནང་དུ་བཀོལ་སྤྱོད་བྱེད་དགོས་ཀྱི་ཡོད།",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-9": {
-        "message": "གལ་ཏེ་Cydia Impactor ལས་ཀ་བྱེད་མཚམས་བཞག་པའི་ཚེ་རང་གི་ལག་ཐོགས་ཁ་པར་སྒོ་ཕྱེས་ཏེ་སྒྲིག་བཀོད་ནང་འཛུལ། སྐབས་དེ་དུས་ཁྱེད་རང་གི་ཁ་པར་དེ་གློག་ཀླད་ནས་མཐུད་ཀ་བཅད་ནའང་འགྲིག",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "sponsor-nav-title": {
         "message": "སྦྱིན་བདག",
         "description": "Navigation text for the Sponsorship page"
@@ -200,7 +188,7 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
-        "message": "གྲངས་ཐོའི་རེའུ་མིག་ནང་ཨེན་ཀྲོཌ་ནང་ལ་སཡི་ཕོན་འགྲོ་བཞིན་པའི་པར་འདི་སྟོན་གྱི་འདུག",
+        "message": "Screenshot of Psiphon for Android showing the status panel",
         "description": "alt text for an image"
     },
     "faq-vpn-slow-question": {
@@ -243,10 +231,6 @@
         "message": "iOS ནང་གི་སཡི་ཕོན་བལྟ་ཆས་ཀྱིས་ངའི་ཡོ་བྱད་ནང་གི་དྲྭ་ཟིང་ཚང་མའི་ངོ་ཚབ་བྱས་སམ།",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-10": {
-        "message": "སྒྲིག་བཀོད་ནང་འཛུལ་ནས་\"སྤྱོ་ཡོངས་\"ལ་སྣོན།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "about-description": {
         "message": "སཡི་ཕོན་དྲྭ་རྒྱ་དམ་བསྒྲགས་ཉེན་གཡོལ་མཉེན་ཆས་ཕྱག་ལས་གནང་མཁན་གྱི་རུ་ཁག་རྣམས་ལན་གཅིག་གཟིགས་དང།",
         "description": "description for the About page"
@@ -266,10 +250,6 @@
     "faq-ie6-docbody-answer-xpie8": {
         "message": "ཝིན་ཌོ་XP ཆེད་དུ་Internet Explorer 8",
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
-    },
-    "faq-ios-sideloading-image-7-alt": {
-        "message": "\"ཡོ་བྱད་སྟངས་འཛིན།\"རྣམ་གྲངས་སྟོན་པའི་iOS སྤྱི་ཡོངས་དྲྭ་ཤེལ་སྒྲིག་བཀོད་ཀྱི་དྲ་ཤེལ་པར་ལེན།",
-        "description": "Alt text for an iOS sideloading image"
     },
     "faq-information-collected-answer-head-2": {
         "message": "དགོངས་འཆར།",
@@ -314,10 +294,6 @@
     "faq-uninstall-windows-answer-para-1": {
         "message": "ཝིན་ཌོ་ནང་གི་སཡི་ཕོན་འགྲིག་བཅུག་བྱེད་ཐུབ་མེད་པས་ཝིན་ཌོ་ནང་དུ་ \"སྣོན་པའམ་ཡང་ན་ཕྱིར་སྟོན་\"གྱི་ཐོ་གཞུང་སྒང་ལ་ཏག་ཏག་ཤར་ཐུབ་ཀྱི་མིན་འདུག ཡིག་ཆ་དེ་་\"ཕབ་ལེན་\"གྱི་ཕྱོགས་དེབ་ནས་འཁོར་སྐྱོད་བྱེད་ཐུབ་པའམ་ཡང་ན་ཕྱོགས་དེབ་གཞན་ཞིག་གི་སྒང་ལ་ཤུས་ཏེ་དེ་ནས་འཁོར་སྐྱོད་བྱེད་ཐུབ། གལ་ཏེ་ལས་དོན་དེ་ཕྱིར་སྟོན་འདོད་ན་ཁྱེད་རང་གིས་བེད་སྤྱོད་བཏང་བའི་ཡིག་ཆ་དེ་སུབ་ན་དེ་གས་འགྲིག་གི་རེད།",
         "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
-    },
-    "faq-ios-sideloading-image-3-alt": {
-        "message": "སྤྱོད་པ་པོའི་Apple ID གསང་ཨང་ནང་འཛུལ་ཆེད་དུ་Cydia Impactor་གྱི་དྲྭ་ཤེལ་གྱི་པར་ལེན་ཡིན། ",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "donate-heading": {
         "message": "སཡི་ཕོན་ལ་མཐུན་སྦྱོར་གནང་རོགས།",
@@ -367,17 +343,9 @@
         "message": "ཡང་སེ་སྐུལ་བའི་དྲི་བ།",
         "description": "title for the FAQ page"
     },
-    "faq-ios-sideloading-sideloading-answer-step-6": {
-        "message": "ཝིན་ཌོ་ནང་གི་ཡིག་ཆ་བལྟ་ཆས་ཁ་ཕྱེས་ནས་རང་གི་གང་དུ་ཉར་ཚགས་བྱས་པའི་ཕྱོགས་སུ་ཁྲིད་ནས “PsiphonBrowser.ipa”གོང་གི་དྲྭ་ཚིགས་འདི་ལ་ཐེངས་གཉིས་སྣོན་དགོས།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-information-collected-s3-logging-para-1": {
         "message": "ང་ཚོས་ཨེ་མ་ཛོན་ S3 གསོག་ཉར་ཁང་འདིའི་དྲྭ་རྒྱའི་ཡིག་ཆ་དང་། སཡི་ཕོན་ཞབས་ཞུ་འཕྲུལ་ཆས་ཀྱི་གསར་རྙེད་ཐོ་གཞུང་གསོག་ཉར་བྱེད་ཀྱི་ཡོད། སྐབས་རེ་ང་ཚོས་ཡིག་ཚགས་དེ་ཚོའི་གྲངས་ཐོའི་ཕབ་ལེན་ཡང་བྱེད་ཀྱི་ཡོད། གྲངས་ཐོ་དེ་དག་ལ་ཞིབ་བཤེར་བྱས་པ་ལ་བརྟེན་ནས་གཤམ་ལ་ང་ཚོར་སྐུལ་བའི་དྲི་བ་ཁག་གི་ལན་འདེབས་བྱེད་རྒྱུར་ཕན་ཐོག་ཆེན་པོ་ཡོང་གི་འདུག དཔེར་ན། \"སྤྱོད་པ་པོ་མི་ག་ཚོད་ཀྱིས་ཞབས་ཞུ་འཕྲུལ་ཆས་གསར་རྙེད་ཐོ་གཞུང་ཕབ་ལེན་བྱེད་འགོ་བཙུགས་ནས་མཇུག་མ་སྐྱེལ་བའི་གྲངས་ག་ཚོད་ཡོད་དམ།\" \"ང་ཚོས་ཕབ་ལེན་བྱས་པའི་ཡིག་ཚགས་རྣམས་དྲྭ་རྒྱའི་རྒྱུ་ཆ་དང་ཞབས་ཞུ་འཕྲུལ་ཆས་གསར་རྙེད་གཉིས་ཀྱི་བར་ཇི་ལྟར་བགོས་དོགས་སམ།\" \"ང་ཚོའི་དྲྭ་ཚིགས་ལ་འཐབ་འཛིང་བྱེད་མཁན་གྱིས་ཞབས་ཞུ་དྭང་ལེན་མ་བྱས་པ་རེད་དམ།\"",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-14": {
-        "message": "\"ཡིད་ཆེས་ཡོད།\" ཅེས་པའི་གླེང་སྒམ་རྗེས་མ་དེར་སྣོན་ནས་ལས་ཀ་དེ་གཏན་འཁེལ་བཟོས།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-who-we-are-exec-team-head": {
         "message": "འགན་འཛིན་རུ་ཁག",
@@ -407,10 +375,6 @@
         "message": "ཝིན་ཌོ།",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-2": {
-        "message": "ཁྱེད་རང་གི་iOS ཡོ་བྱད་དེ་བཞིན་ངེས་པར་དུ་དྲྭ་རྒྱར་མཐུད་དགོས། iOS ཡོ་བྱད་དེ་ཁྱེད་རང་གི་གློག་ཀླད་ལ་མཐུད།  གལ་ཏེ་དེའི་མཇུག་ཐོག་ཏུ་དེ་མ་ཐག་ཏུ་\"གློག་ཀླད་འདི་ལ་ཡིད་ཆེས་བྱེད་\"ཅེས་སྟོན་པའི་ཚེ་\"ཡིད་ཆེས་ཡོད་\" ཅེས་པའི་མཛུབ་སྣོན་དེ་ལ་སྣོན་དགོས།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "འདི་ནི་2015-06-01T00:00Zནས་འགོ་འཛུགས་པ་རེད།",
         "description": ""
@@ -426,10 +390,6 @@
     "faq-information-collected-answer-para-5": {
         "message": "སྦྱིན་བདག་ཁག་ལ་གྲངས་ཐོ་བགོ་འགྲེམས་བྱས་པ་འདི་དག་ཟླ་ཚེས་དང་། སྦྱིན་བདག ས་ཁུལ་བཅས་ཀྱི་སྒོ་ནས་ནང་དུ་ཚུད་ཡོད།",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-8": {
-        "message": "ཁྱེད་རང་གི་Apple ID གསང་ཨང་རྗེས་མ་དེའི་མཇུག་ཐོག་དེ་མ་ཐག་ཏུ་མཛུབ་སྣོན་བྱེད། དེ་ནས་ \"OK\" སྣོན།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
     },
     "user-guide-android-ui-statistics-image-annotation-3": {
         "message": "སཡི་ཕོན་རྒྱུད་དེ་འབྱོར་བའི་ཡིག་ཚགས།",
@@ -527,10 +487,6 @@
         "message": "ཝིན་ཌོ།",
         "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
     },
-    "faq-ios-sideloading-sideloading-answer-intro-4": {
-        "message": "<strong>དྲན་ཐོ།:</strong> གལ་ཏེ་ཟུར་བཅུག་གི་ཆེད་དུ་བེད་སྤྱོད་བྱས་པའི་Apple ID དེ་བཞིན་ 2མཉེན་ཆས་བཟོ་མཁན་གྱི་ཁ་བྱང་<em>མིན་ན།</em>མཉེན་ཆས་དེ་བདུན་ཕྲག་རེ་རེའི་ནང་སྐྱར་བཅུག་བྱེད་དགོས་ཀྱི་ཡོད། ཚད་འཛིན་འདི་Apple IDགྱི་བཟོ་ལས་ཉིད་ཀྱིས་གཏན་འབེབས་བྱས་པ་རེད། གལ་ཏེ་Apple ID <em>མཉེན་ཆས་བཟོ་མཁན་</em> རང་ཉིད་ཀྱི་ཡིན་ན་འགྲིག་བཅུག་བྱས་པ་འདིས་དུས་ཡུན་ལོ་གཅིག་གི་བར་དུ་ཡོད།",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "འགན་འཁྲིའི་ཚད་འཛིན་གྱི་བསྒྲགས་གཏམ།",
         "description": ""
@@ -563,10 +519,6 @@
         "message": "འབབ་སྟེགས་དྲྭ་ཤོག",
         "description": "web page meta keyword used for SEO"
     },
-    "faq-ios-sideloading-image-9-alt": {
-        "message": "སྤྱོད་པ་པོའི་iOS གྱི་ཡོ་བྱད་སྟངས་འཛིན་སྒྲིག་སྲོལ་གྱི་དྲྭ་ཤུས་པར་ལེན། འདིས་མཉེན་ཆས་བཟོ་མཁན་ཚོའི་་ཁ་བྱང་དེ་ལ་ཡིད་ཆོས་ཡོད་པའི་གཏན་འཁེལ་བཟོ་གི་ཡོད།",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "faq-authentic-android-answer-para-3": {
         "message": "ཨོན་ཀྲོཌ་ནང་གི་སཡི་ཕོན་དེ་རང་འགུལ་གྱི་གསར་སྒྱུར་དང་འདི་ལ་བརྟེན་ནས་གསར་སྒྱུར་རེ་རེ་ནས་ཁུངས་ལྡན་ཡིན་པ་རང་འགུལ་གྱི་ར་སྤྲོད་ཐུབ།",
         "description": ""
@@ -574,10 +526,6 @@
     "main-gets-you-there-safely-head-2": {
         "message": "མི་མང་གི་WIFI བེད་སྤྱོད་བྱེད་སྐབས་སྲུང་སྐྱོབ་དགོས་སམ།",
         "description": ""
-    },
-    "faq-ios-sideloading-image-2-alt": {
-        "message": "Cydia Impactor རེའུ་མིག་རྣམ་གྲངས་དྲྭ་ཤེལ་པར་ལེན། \"འགྲིག་བཅུག་ཐུམ་སྒྲིལ།\"",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "faq-android-upgrade-bug-question": {
         "message": "ཨེན་ཀྲོཌ་ཆེད་དུ་སཡི་ཕོན་མཉེན་ཆས་གོང་སྤོས་བྱས་ཚར་བའི་རྗེས་སུ་མཐུད་ཁ་རྒྱབ་མི་ཐུབ།",
@@ -598,10 +546,6 @@
     "faq-unsupported-platforms-answer-para-1": {
         "message": "ང་ཚཽས་རྒྱབ་སྐྱོར་བྱས་པའི་བབས་སྟེགས་འདི་གཤམ་གྱི་དྲྭ་ཚིགས་སྒང་ལ་ཡོད་<a href=\"download.html\"> ཕབ་ལེན་བྱེད། </a> ང་ཚོས་དུས་རྟག་ཏུ་ང་ཚོའི་བབས་སྟེགས་རོགས་རམ་རྒྱ་བསྐྱེད་གཏོང་རྒྱུར་འབད་བརྕོན་བྱེད་བཞིན་ཡོད། དེ་འདྲ་སོང་ཙང་མ་འོངས་པ་ལ་ཁྱེད་རྣམ་པར་འདོད་པ་ཡོད་པའི་OS ལ་རྒྱབ་སྐྱོར་ཞུ་ཐུབ་པའི་རེ་བ་ཡོད།",
         "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
-    },
-    "faq-ios-sideloading-image-10-alt": {
-        "message": "སྤྱོད་པ་པོའི་iOS གྱི་ཡོ་བྱད་སྟངས་འཛིན་སྒྲིག་སྲོལ་གྱི་དྲྭ་ཤུས་པར་ལེན། འདིས་མཉེན་ཆས་བཟོ་མཁན་ཚོའི་་ཁ་བྱང་དེ་ལ་ཡིད་ཆོས་ཡོད་པའི་གཏན་འཁེལ་བཟོ་གི་ཡོད།",
-        "description": "Alt text for an iOS sideloading image"
     },
     "user-guide-windows-para-1": {
         "message": "མཉེན་ཆས་འཆར་བཀོད་ཕབ་ལེན་བྱས་ཏེ་བེད་སྤྱོད་བྱེད། དེ་བེད་སྤྱོད་བྱེད་སྐབས་སུ་བདེ་འཇགས་ཀྱི་བརྡ་ལན་ཞིག་གཏོང་གི་ཡོད། དེ་སྟོན་ན་སཡི་ཕོན Inc.འདི་ཁུངས་ལྡན་ཡིན་པ་མཚོན་ཐུབ།",
@@ -771,10 +715,6 @@
         "message": "ཆོག་མཆན་ཆ་ཚང་ཡོད་པའི་ཨེན་ཀྲོཌ་ཡོ་བྱད་ཨ་མའི་ཡོ་བྱད་ཆ་ཚང་གི་འགྲོ་ལུགས་ལ་གང་བྱས་སམ།",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
-    "faq-ios-sideloading-image-4-alt": {
-        "message": "སྤྱོད་པ་པོའི་Apple ID གསང་ཨང་ནང་འཛུལ་ཆེད་དུ་Cydia Impactor་གྱི་དྲྭ་ཤེལ་གྱི་པར་ལེན་ཡིན།",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
-    },
     "page-keyword-how-to": {
         "message": "ཇི་ལྟར།",
         "description": "web page meta keyword used for SEO"
@@ -831,16 +771,12 @@
         "message": "གསང་སྡོམ་དྲྭ་ཟིང་ལ་ལྟ་རྟོགས་བྱས་པའི་མྱུར་སྐྱོབ་ཐབས་ལམ་དང་དེའི་སྒང་ལ་བལྟ་གི་ཡོད། དཔེར་ན་དྲྭ་ཚིགས་ག་རེ་བལྟ་གི་ཡོད་དམ། དཔེ་དང་པོ་ནི། \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">དྲྭ་ཟིང་གི་མཛུབ་མོའི་པར་ལེན།</a>\".",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-7": {
-        "message": "ཁྱེད་རང་གི་Apple IDགློག་འཕྲིན་ཁ་བྱང་དེའི་མཇུག་ཐོག་དེ་མ་ཐག་ཏུ་མཛུབ་སྣོན་བྱེད། དེ་ནས་ \"OK\" སྣོན།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
-    },
     "faq-reset-system-proxy-answer-para-3": {
         "message": "ཁྱེད་རང་གི་ངོ་ཚབ་སྒྲིག་བཀོད་དེ་མཛུབ་འདེམས་བྱས་ན། Internet Explorerབལྟ་ཆས་ཁ་ཕྱེས། དེ་ནས་ལག་ཆ་འདེམས་པའི་རེའུ་མིག་ལ་རྒྱུགས། ( gear icon) དྲྭ་རྒྱ་གདམ་ཀ། → དྲྭ་ཤོག་མཐུད་ཀ། → LAN སྒྲིག་བཀོད་མཛུབ་སྣོན། དེ་ནས་ཟུར་དུ་ཡོད་པའི་ཞུ་དག་རྟགས་ཅན་མེད་པ་བཟོས་ཏེ། \"LAN གྱི་ཆེད་དུ་ངོ་ཚབ་ཞབས་ཞུ་འཕྲུལ་ཆས་བེད་སྤྱོད་བྱེད།\"",
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "download-android-playstore-pro": {
-        "message": "<strong>Psiphon Pro</strong> ཨེན་ཀྲོཌ་ཆེད་དུ་གྷུ་གྷལ་མཉེན་ཆས་གསོག་ཉར་ཁང་ནང་ཡོད།",
+        "message": "<strong>Psiphon Pro for Android</strong> in the Google Play Store",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
@@ -891,12 +827,8 @@
         "message": "གལ་ཏེ་ཁྱེད་རང་ལ་མུ་མཐུད་དེ་\"མཐུད་ཐུབ་མ་སོང།\" ཞེས་པའི་འཕྲིན་ཐུང་ཐེངས་ཁ་ཤས་མཐོང་ཚེ། ཁྱེད་རང་གི་མཉེས་ཆས་ཀྱི་ཞབས་ཞུ་འཕྲུལ་ཆས་མེད་པ་ཤེས་ཐུབ། སྐབས་དེ་དུས་སཡི་ཕོན་མཉེན་ཆས་གསར་པ་ཕབ་ལེན་གནང་རོགས།",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-12": {
-        "message": "དྲྭ་ཤེལ་ཤར་བ་འདིའི་ནང་ཁྱེད་རང་གི་Apple གློག་འཕྲིན་ཁ་བྱང་སྣོན།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-authentic-windows-image-alt": {
-        "message": "ཝིན་ཌོ་ནང་གི་སཡི་ཕོན་སྒང་ལ་བེད་སྤྱོད་བྱས་པའ་མིང་རྟགས་ཞིབ་བཤེར་གང་འདྲ་བྱེད་མིན་སྟོན་པའི་པར་རིས།",
+        "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
@@ -906,14 +838,6 @@
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "ང་ཚོས་ག་རེ་བྱས་ནས་བྱེད་ཀྱི་ཡོད་དམ།",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-1": {
-        "message": "\"ཟུར་བཅུག\" ཅེས་པ་ནི་རང་གི་ཡོ་བྱད་ནང་མཉེན་ཆས་གསོག་ཉར་ཁང་རྒྱུད་མི་དགོས་པར་མཉེན་ཆས་འགྲིག་བཅུག་བྱས་པ་ལ་ཟེར། འདི་ནི་མཉེས་ཆས་གསོག་ཉར་ཁང་བེད་སྤྱོད་མི་བྱེད་མཁན་དང་རང་གི་ས་ཁུལ་ལ་མཉེན་ཆས་འདི་དག་གི་དགོས་མཁོ་སྒྲུབ་",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
-    "faq-ios-sideloading-sideloading-answer-step-4": {
-        "message": "Cydia Impactorའགོ་འཛུགས།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "faq-windows-metro-answer-para-3": {
         "message": "ཁྱེད་རང་སཡི་ཕོན་རྒྱུད་དེ་Metro mode་འཚོལ་བྱེད་ཀྱི་མཉེན་ཆས་བེད་སྤྱོད་ཏག་ཏག་བཏང་མི་ཐུབ་པའི་སྐབས་ལན་འདེབས་ནོར་བ་འདི་ལྟ་བུ་ཤར་ཡོང་གི་རེད།",
@@ -940,7 +864,7 @@
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
     },
     "user-guide-windows-image-3-alt": {
-        "message": "སཡི་ཕོན་དེ་བཞིན་ཝིན་ཌོ་ལ་མཐུད་ཟིན་པའི་པར་སྟོན་པ།",
+        "message": "Screenshot showing Psiphon connected on Windows",
         "description": "alt text for an image"
     },
     "faq-section-installing-running-updating": {
@@ -1015,10 +939,6 @@
         "message": "VPN དང་ཡོ་བྱད་ཚ་ཚང་ནང་སཡི་ཕོན་འཁོར་བསྐྱོད་བྱེད་བཞིན་ཡོད། མཉེན་ཆས་ཚང་མ་སཡི་ཕོན་རྒྱུད་དེ་ཡུར་བའི་ནང་བསྡུས་ཡོད།",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
-    "faq-ios-sideloading-image-6-alt": {
-        "message": "IOSདྲྭ་ཤེལ་སྒྲིག་བཀོད་པར་ལེན། \"སྤྱི་ཡོངས་\"རྣམ་གྲངས་གསལ་སྟོན།",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "main-pick-three-para-1": {
         "message": "ཕྱི་ལོ་2008 ལོ་ནས་སཡི་ཕོན་གྱིས་རང་དབང་ལ་དམ་བསྒྲགས་ཡོད་པའི་རྒྱལ་ཁབ་ནང་གི་མི་ས་ཡ་མང་པོར་ཤེས་བྱ་དང་བསམ་བློའི་དམ་བསྒྲགས་ཡོད་པ་རྣམས་བདེ་འཇགས་ངང་ནས་བལྟ་ཐུབ་པའི་ཕན་ཐོག་བྱས་ཡོད། འདི་ལྟར་ན་ད་ཆ་སཡི་ཕོན་གྱིས་ཁྱེད་རང་ལའང་དེ་ག་རང་བྱེད་ཐུབ།",
         "description": ""
@@ -1059,6 +979,10 @@
         "message": "ཡིག་ཆ་འདི་གང་ཡིན།“psiphon3.exe.orig”?",
         "description": ""
     },
+    "download-ios-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
+        "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
     "index-meta-title": {
         "message": "ཝིན་ཌོ་དང་ལག་ཐོགས་ཁ་པར་གཉིས་ཀྱི་ཆེད་དུ་དྲྭ་རྒྱར་དམ་བསྒྲགས་མེད་པའི་ཐོག་ནས་སྤྱོད་ཐུབ།",
         "description": "Meta title for the index page"
@@ -1088,16 +1012,12 @@
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "iOS 8 དང་དེའི་ཐོན་རིམ་གོང་མར་བེད་སྤྱོད་ཡོད་།",
-        "description": ""
+        "message": "Access your favorite web sites and services through the Psiphon network with our easy-to-use web browser. Available for iOS 8 and higher.",
+        "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "faq-isp-traffic-question": {
         "message": "ངས་དྲྭ་རྒྱ་རྒྱུད་དེ་སཡི་ཕོན་བེད་སྤྱོད་བྱེད་པ་དེ་ངའི་ ISP གྱིས་ལྟ་ཐུབ་ཀྱི་རེད་དམ།",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-3": {
-        "message": "Cydia Impactor དེ་བཞིན་ macOS/OS X, Windows  (with iTunes འགྲིག་འཇུག་བྱས་ཟིན་པ་), དང་Linuxབཅས་ཀྱི་ནང་ལས་ཀ་བྱེད་ཐུབ།",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "open-source-para-3-list-start": {
         "message": "ཝིན་ཌོ།",
@@ -1132,7 +1052,7 @@
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "སཡི་ཕོན་གྱིས་\"as is\" གྱི་ཞབས་ཞུ་སྟེར་བ་དང་། དེ་ཡང་གན་རྒྱ་དང་། གསལ་བཤད། འགན་འཁྲིའི་རིགས་གང་ཡང་མེད། སཡི་ཕོན་མཉེན་ཆས་བེད་སྤྱོད་བྱས་ནས་མི་སྒེར་ལ་གནོད་སྐྱོན་ཕོག་པ། དམིགས་བསལ་གནོད་སྐྱོན། རྒྱུད་དེ་གནོད་སྐྱོན་བྱུང་བ་སོགས་དང། ཡང་ན་ཚོང་ཟོག་ལ་སྐྱོན་ཤོར་བ། དེས་རྐྱེན་བྱས་ཏེ་ཡིག་ཆ་བོར་རླག་ཤོར་བ་དང་། ཚོང་ལ་བར་ཆད་བྱུང་བ་སོགས་ཀྱི་རིགས་ཐམས་ཅད་ལ་འགན་གང་ཡང་ཁུར་རྒྱུ་མིན། ",
+        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
         "description": ""
     },
     "faq-ip-change-question": {
@@ -1231,10 +1151,6 @@
         "message": "<strong>མཛུབ་འདེམས་བྱས་ཏེ་གསར་སྒྱུར་བྱས་</strong> གལ་ཏེ་སཡི་ཕོན་རང་འགུལ་གསར་སྒྱུར་ཐོག་འཁོར་སྐྱོད་མ་བྱས་པའམ་(དཔེར་ན། གལ་ཏེ་དེ་བཀག་འགོག་བྱས་ཚེ་) ཁྱེད་རང་ལ་ཕབ་ལེན་དྲྭ་ཤོག་ནས་སཡི་ཕོན་གྱིས་ཕབ་བཤུས་གསར་པ་ཞིག་ལེན་ནས་དེའི་སྐོར་གྱི་གནས་ཚུལ་འཚོལ་ཐུབ།<a href=\"download.html\">ཕབ་ལེན་དྲྭ་ཤོག</a>.",
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
     },
-    "faq-ios-sideloading-question": {
-        "message": "ངའི་IOS ཡོ་བྱད་ནང་ལ་སཡི་ཕོན་གང་འདྲ་སེ་བྱས་ནས་\"ཟུར་བཅུག་\"བྱེད་དགོས་སམ།",
-        "description": "FAQ question."
-    },
     "download-title": {
         "message": "སཡི་ཕོན་ཕབ་ལེན།",
         "description": "page title for the download page"
@@ -1276,11 +1192,11 @@
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "download-ios-appstore-psiphon-browser": {
-        "message": "iOS ཆེད་དུ་སཡི་ཕོན་བལྟ་ཆས་དེ་Apple མཉེན་ཆས་གསོག་ཉར་ཁང་ནང་ཡོད།",
-        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
+        "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "user-guide-windows-image-1-alt": {
-        "message": "ཝིན་ཌོ་སྲུང་སྐྱོབ་ཀྱིས་སཡི་ཕོན་ལག་བསྟར་བྱེད་མཁན་ལ་ཉེན་བརྡ་གཏོང་བའི་པར།",
+        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
@@ -1304,7 +1220,7 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "སཡི་ཕོན་དྲྭ་རྒྱ་རྒྱུད་དེ་མཚམས་ཀྱི་ཕྱི་རོལ་ལ་འབྲེལ་མཐུད་བྱེད་སྐབས་གཤམ་གྱི་མཐུད་སྒོ་དེ་དག་ལ་བཀག་སྡོམ་མེད།  <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>.འདིར་ལྟོས་ <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">གྲོས་བསྡུར</a> གནས་ཚུལ་འཕར་མ་ཤེས་འདོད་ན་གོང་གི་དྲྭ་ཚིགས་ལ་གཟིགས། གློག་འཕྲིན་འདི་རྣམས་མཐུད་སྒོ་25 སྒང་ལ་མཚམས་ཀྱི་ཕྱི་རོལ་ལ་འབྲེལ་མཐུད་བྱེད་མི་ཐུབ། འདིར་ལྟོས་ <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">གྲོས་བསྡུར་</a> གནས་ཚུལ་འཕར་མ།",
+        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
@@ -1359,10 +1275,6 @@
         "message": "སུས་སཡི་ཕོན་ནང་འཇུག་བྱས་ནས་མཉེན་ཆས་དང་མཐུད་ཚེ་བབས་སྟེགས་ཀྱི་དྲྭ་ཤོག་མཐོང་ཐུབ། དྲྭ་ཤོག་འདིར་བདུན་ཕྲག་དེ་ནས་སྦྱིན་བདག་བྱ་རྒྱུའི་གོ་སྐབས་ཡོད།",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-11": {
-        "message": "\"སྤྱི་ཡོངས་\" ཀྱི་སྡེ་ཚན་ནང་། མར་འགྲིལ་བྱས་ནས་\"ཡོ་བྱད་སྟངས་འཛིན་\"སྣོན།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-autoproxy-question": {
         "message": "ངས་ <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">རང་འགུལ་ངོ་ཚབ་</a> ངས་ཝིན་ཌོ་ནང་གི་སཡི་ཕོན་ལ་ངའི་སྒྲིག་སྲོལ་ངོ་ཚབ་སྒྲིག་བཀོད་སྡེབ་སྒྲིག་མ་བྱས་རོགས་ཞེས་གང་འདྲ་བྱས་ནས་ལབ་དགོས་སམ།",
         "description": ""
@@ -1388,7 +1300,7 @@
         "description": ""
     },
     "user-guide-windows-image-2-alt": {
-        "message": "ཝིན་ཌོ་སྒང་ལ་པར་རིས་སྟོན་ཆེད་སིཡི་ཕོན་འགོ་འཛུགས་བཞིན་པ།",
+        "message": "Screenshot showing Psiphon starting up on Windows",
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
@@ -1423,14 +1335,6 @@
         "message": "སཡི་ཕོན་རུ་ཁག་གི་དྲྭ་ཚིགས།",
         "description": ""
     },
-    "faq-ios-sideloading-image-5-alt": {
-        "message": "iOS དྲྭ་ཤེལ་ཨ་མའི་སྒྲིག་བཀོད་འགོ་འཛུགས་བྱེད་མཁན་གྱི་དྲྭ་ཤེལ་པར།",
-        "description": "Alt text for an iOS sideloading image"
-    },
-    "faq-ios-sideloading-sideloading-answer-step-13": {
-        "message": "དྲྭ་ཤེལ་་རྗེས་མ་དེར་\"ཡིད་ཆེས་\"བྲིས་པའི་རྣམ་གྲངས་དེ་སྣོན།",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "user-guide-windows-para-4": {
         "message": " SSH དང་ SSH+ ཚུལ་གཉིས་ཀྱི་ནང་ལ་སཡི་ཕོན་གྱིས་རང་འགུལ་ཐོག་ནས་ཝིན་ཌོ་ངོ་ཚབ་སྒྲིག་བཀོད་ལམ་ལུགས་སྒྲིག་ཅིང་། མཉེན་ཆས་ཀྱི་ཆེད་དུ་དྲྭ་ཟིང་དེ་དག་སྒྲིག་བཀོད་ལ་ལྟོས་པ་རྣམས་སཡི་ཕོན་རྒྱུད་དེ་ཡུར་བའི་ནང་འགྲོ་ཐུབ། དྲྭ་རྒྱའི་བལྟ་ཆས་མང་ཆེ་བས་སྒྲིག་བཀོད་དེ་དག་ལ་ལྟོས་ཚབས་ཆེན་པོ་ཡོད།",
         "description": ""
@@ -1448,7 +1352,7 @@
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "གྲངས་ཐོའི་རེའུ་མིག་ནང་ཨེན་ཀྲོཌ་ནང་ལ་སཡི་ཕོན་འགྲོ་བཞིན་པའི་པར་འདི་སྟོན་གྱི་འདུག",
+        "message": "Screenshot showing the Psiphon for Android statistics panel",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-head-1": {
@@ -1475,10 +1379,6 @@
         "message": "ཟིན་ཐོ་འདིས་དྲྭ་ཚིགས་གཅིག་བེད་སྤྱོད་བྱས་པའི་ IP ཁ་བྱང། སྤྱོད་པ་པོའི་ངོ་ཚབ་དང་། དུས་ཀྱི་ཐམ་ཀ་བཅས་ཀྱི་ཐོ་གཞུང་བསྡུ་རུབ་་བྱེད་ཀྱི་ཡོད། གྲངས་ཐོ་དེ་དག་རྒྱུན་སྤྱོད་བྱེད་བཞིན་པའི་སྐབས་སུ་ང་ཚོས་བེད་སྤྱོད་བྱེད་མཁན་གྱི་གྲངས་རྣམས་རང་རང་གི་ས་གནས་ས་སོར་བགོས་ཏེ་དྲི་བ་ཡོད་པའི་ཡིག་ཆ་རྣམས་བེད་སྤྱོད་བྱེད་ཐུབ།",
         "description": ""
     },
-    "faq-ios-sideloading-image-8-alt": {
-        "message": "iOS ཡོ་བྱད་སྟངས་འཛིན་སྒྲིག་བཀོད་དྲྭ་ཤེལ་གྱི་པར་ལེན་འདིའི་སྤྱོད་པ་པོའི་གློག་འཕྲིན་ཁ་བྱང་ལ་འབྲེལ་བ་བྱེད་མཁན་གྱི་རྣམ་གྲངས།",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "page-keyword-http-proxy": {
         "message": "http ངོ་ཚབ།",
         "description": "web page meta keyword used for SEO"
@@ -1488,7 +1388,7 @@
         "description": "text for the About page navigation item"
     },
     "faq-authentic-windows-answer-para-2020": {
-        "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
+        "message": "ཆོག་མཆན་ལག་ཁྱེར་གྱི་ཆེད་དུ་དུས་ཡུན་ 2017-07-05 ནས་2020-10-03 tེhe SHA1 མཛུབ་ཐེལ་:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-para-2-item-3": {
@@ -1499,17 +1399,9 @@
         "message": "སཡི་ཕོན་ནི་སྤྱོད་མཁན། འགྲེལ་སྤེལ་བ། མཁྲོ་སྤྲོད་བྱེད་མཁན་ཚོའི་འདོད་མོས་ཀྱི་གསང་དོན་རྣམས་སྲུང་སྐྱོབ་བྱེད་རྒྱུའི་ཁས་ལེན་དམ་བཅའ་བརྟན་པོ་ཡོད། གསང་དོན་སྲིད་བྱུས་འདིས་ཆེད་དུ་དམིགས་ནས་ཁྱེད་རང་སྒེར་གྱི་གནས་ཚུལ་རྣམས་བེད་སྤྱོད་གང་འདྲ་གཏོང་མིན་ཐད་ལ་གནས་ཚུལ་སྟེར་གྱི་ཡོད། སཡི་ཕོན་ནི་ཁེ་ན་ཌའི་མཉམ་འབྲེལ་ཞིག་དང་དེའི་ལས་ཁུངས་ཨ་མ་འདི་ཨོན་ཀྲ་རིཡོ་ནང་ཡོད། ང་ཚོའི་གསང་དོན་སྲིད་བྱུས་ནི་ཁེ་ན་ཌ་དང་ཨོན་ཀྲ་རིཡོ་གཉིས་ཀྱི་གསང་བའི་སྒྲིག་ཁྲིམས་མཚོན་ཐུབ་ཀྱི་ཡོད།",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-1": {
-        "message": "<a href=\"download.html\">ཕབ་ལེན་“PsiphonBrowser.ipa”</a> ཁྱེད་རང་གི་གློག་ཀླད་སྒང་ལ་ཡོད།་ (འདི་ཕལ་ཆེར་ཡིག་ཁུག་“ཕབ་ལེན་” ནང་ལ་ཉར་ཚགས་བྱེད་ཡོད་སྲིད།)",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "དྲིལ་བསྒྲགས་འབྲེལ་ལམ།",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-2": {
-        "message": "སཡི་ཕོན་བལྟ་ཆས་་ཁྱེད་རང་གི་IOS ཡོ་བྱད་ནང་ <a href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> ཡོ་བྱད་བེད་སྤྱོད་བྱས་ཏེ་ཟུར་བཅུག་བྱེད་ཆོག ཁྱེད་རང་གི་ཡོ་བྱད་བཙོན་གྲོལ་(jailbroken)གཏོང་མི་དགོས། ཁྱེད་རང་ལ་ Apple ID ཁ་བྱང་དགོས་པ་དང་དེ་ལ་འབྲེལ་བྱས་ནས་ཟུར་བཅུག་འགོ་བཛུགས། (རྒྱལ་ཁབ་སོ་སོའི་བཀག་སྡོམ་ལ་བརྟེན་ནས་ཟུར་བཅུག་བྱས་པའི་སྐབས་ལ་VPNབེད་སྤྱོད་གཏོང་དགོས་ཐུག་སྲིད་་པ་རེད།",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Note that 'Cydia Impactor' is the name of a third-party tool and must not be translated."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "སཡི་ཕོན་འདི་དུས་ཚོད་ནམ་ཡིན་དང་རྒྱུ་མཚན་དམིགས་བསལ་གང་ཡང་མི་དགོས་པར་མཇུག་བསྡུ་བ་དང་སྒོ་རྒྱབ་རྒྱུའི་ཆོག་མཆན་བདག་དབང་འདི་སཡི་ཕོན་ཁོ་ན་ལས་གཞན་སུ་ལའང་མེད། སཡི་ཕྷོན་བེད་སྤྱོད་བྱེད་སྐབས་ཁས་ལེན་བྱས་སྒྲིག་ཁྲིམས་རྣམས་རྩ་བ་ནས་བརྒལ་རྒྱུ་མེད།",
@@ -1539,14 +1431,6 @@
         "message": "སཡི་ཕོན་ Inc. ཁོ་ནས་བཟོས་པའི་མཉེན་ཆས་ཚོང་ཤག་རྣམས་ལ་སཡི་ཕོན་ཞབས་ཞུ་བེད་སྤྱོད་བྱེད་རྒྱུའི་ཆོག་མཆན་ཡོད། གལ་ཏེ་ཆོག་མཆན་ལག་ཁྱེར་དེ་བཞིན་ཚོགས་སྡེ་གཞན་དག་ལ་འགྲེམས་སྤེལ་དང་དེས་སཡི་ཕོན་ཞབས་ཞུའི་མ་ལག་བེད་སྤྱོད་བྱས་པ་སོགས་ནི་ཁྲིམས་འགལ་ཆགས་ཀྱི་ཡོད།",
         "description": ""
     },
-    "faq-ios-sideloading-image-1-alt": {
-        "message": "iOS ཡོ་བྱད་གྱི་དྲྭ་ཤེལ་པར་ལེན་བྱེད་འདིས་ཟུར་སྣོན་བྱེད་པའི་གློག་ཀླད་ལ་ཡིད་ཆེས་ཡོད་པ་སྟོན།",
-        "description": "alt text for an iOS sideloading image"
-    },
-    "user-guide-android-image-1-alt": {
-        "message": "ཨིན་ཀྲོཌ་སྒྲིག་བཀོད་ནང་གི་གྷུ་གྷལ་མཉེན་ཆས་གསོག་ཉར་ཨ་མ་མ་ཡིན་པ་གཞན་གྱི་རིགས་པར་རིས་སྟོན་བཞིན་པ།",
-        "description": "alt text for an image"
-    },
     "page-keyword-contribute": {
         "message": "མཐུན་སྦྱོར།",
         "description": "web page meta keyword used for SEO"
@@ -1554,10 +1438,6 @@
     "faq-av-firewall-answer-para-2": {
         "message": "གལ་ཏེ་ཁྱེད་རང་ལ་ཡོད་པའི་སཡི་ཕོན་དེ་ཁུངས་ལྡན་ཞིག་ཡིན་ན། ཁྱེད་རང་ལ་ཁུངས་ལྡན་རེད་ཅེས་རག་པའི་ལན་འདི་རྫུན་མ་རེད། དྲྭ་འབུ་འགོག་བྱེད་དང་མེ་གྱང་མང་ཆེ་བའི་ནང་ལ་སཡི་ཕོན་གློག་ཀླད་མིང་རྟགས་འདི་ཁོང་ཚོའི་ཐོ་གཞུང་དཀར་པོའི་ནང་བཅུག་ཡོད། ཡིན་ནའང་སྐབས་རེ་སཡི་ཕོན་འདི་དྲྭ་འབུ་དང་ཉེན་ཁའི་རང་བཞིན་ཅན་ཞིག་ངོས་འཛིན་བྱེད་ཀྱི་ཡོད། གནས་སྟངས་འདི་འདྲའི་སྐབས་སུ་ <a href=\"mailto:info@psiphon.ca\">ང་ཚོར་གློག་འཕྲིན་གཏོང་རོགས་གནང་</a>ཁྱེད་རང་གི་བེད་སྤྱོད་གཏོང་བའི་ AV/མ་ེགྱང་གཉིས་ཀྱི་འཆར་བཀོར་གང་ཡིན་ཁ་གསལ་པར་སྟོན་རོགས། དེ་ནས་ང་ཚོས་ AV/དང་མེ་གྱང་འཚོང་མཁན་གཉིས་ལ་འབྲེལ་གཏུགས་བྱས་ནས་དཀའ་ངལ་འདི་སེལ་ཐབས་བྱེད་ཀྱི་ཡིན།",
         "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
-    },
-    "faq-ios-sideloading-image-11-alt": {
-        "message": "iOS དྲྭ་ཤེལ་ཨ་མའི་སྒྲིག་བཀོད་འགོ་འཛུགས་བྱེད་མཁན་གྱི་སཡི་ཕོན་འགོ་འཛུགས་རྟགས་ཅན་སྟོན་རྒྱུ།",
-        "description": "Alt text for an iOS sideloading image"
     },
     "main-gets-you-where-you-want-para-1": {
         "message": "འཛམ་གླིང་གི་ཕྱོགས་གང་སར་དམག་དཔུང་གི་བཙན་འོག་ཏུ་ཚུད་ནས་དེ་དག་ལ་གདོང་ལེན་བྱས་པའི་རྗེས་སུ། ད་ཆ་ང་ཚོ་དམིགས་བསལ་ཅན་གྱི་གནས་བབས་ཤིག་གི་འོག་ཁྱེད་རྣམས་ས་ཕྱོག་གང་དུ་གནས་ཀྱང་དགོས་མཁོ་ཅན་གྱི་གནས་ཚུལ་།རག་ཐུབ་པའི་མཐུན་འགྱུར་བྱེད་ཀྱི་ཡོད།",

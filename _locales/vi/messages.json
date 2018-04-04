@@ -1,6 +1,6 @@
 {
     "index-hero-subtext": {
-        "message": "vượt biên giới",
+        "message": "bên kia biên giới",
         "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
     },
     "page-keyword-source-code": {
@@ -47,10 +47,6 @@
         "message": "Liên lạc với chúng tôi",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-15": {
-        "message": "Nhấn nút Home để trở về trang nhà. Bây giờ bạn có thể khởi động Trình duyệt Psiphon.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-description": {
         "message": "Chính sách quyền Riêng Tư của Psiphon",
         "description": "description for the Privacy Policy page"
@@ -72,19 +68,23 @@
         "description": "FAQ question."
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "hình ảnh cho phép sideloading",
+        "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
         "description": "alt text for an image"
+    },
+    "download-ios-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for iOS</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "page-keyword-proxy": {
         "message": "proxy",
         "description": "web page meta keyword used for SEO"
     },
     "download-list-join": {
-        "message": "Tham gia vào <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Danh sách gửi thư thông báo</a> của chúng tôi để nhận các thông báo quan trọng và các khuyến cáo về an ninh.",
+        "message": "Tham gia vào <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Danh sách nhận thư thông báo</a> của chúng tôi để nhận các thông báo quan trọng và các khuyến cáo về an ninh.",
         "description": ""
     },
     "about-get-latest-info-para-1-developers-list": {
-        "message": "Các nhà phát triển Psiphon",
+        "message": "Nhóm phát triển Psiphon",
         "description": "text for link to the Psiphon Developers mailing list"
     },
     "faq-section-miscellaneous": {
@@ -115,10 +115,6 @@
         "message": "Chính sách quyền Riêng Tư",
         "description": "page title for the Privacy Policy page"
     },
-    "faq-ios-sideloading-sideloading-answer-step-5": {
-        "message": "Trong menu của Impactor, bấm vào \"Device\" (thiết bị) rồi bấm \"Install Package\" (cài đặt gói)",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate quoted text in this string -- they are from Cydia Impactor, which is not itself translated."
-    },
     "faq-information-collected-answer-para-12": {
         "message": "Máy chủ có email hồi đáp của chúng tôi được chứa trên vùng mây Amazon EC2. Chúng tôi gửi hai email trả lời cho mỗi email yêu cầu, và chúng tôi dùng Amazon SES cho một trong những hồi đáp. Điều này có nghĩa là Amazon có khả năng thấy email bạn gửi và hồi đáp của chúng tôi cho bạn.",
         "description": ""
@@ -128,15 +124,11 @@
         "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-there-safely-para-1": {
-        "message": "Internet tự do thì tuyệt, nhưng cookies và tài khoản bị đánh cắp thì không hay. Psiphon cho bạn một lối đi an toàn vào internet, bất kỳ bạn kết nối vào mạng nào.",
+        "message": "Internet tự do thì tuyệt, nhưng cookies và tài khoản bị đánh cắp thì không hay chút nào. Psiphon cho bạn một lối đi an toàn vào internet, bất kỳ bạn kết nối vào mạng nào.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-3": {
-        "message": "Tải phiên bản mới nhất của <a target=\"_blank\" href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> cho hệ điều hành của bạn: <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/1\">macOS/OS X</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/2\">Windows</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/4\">Linux 32-bit</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/5\">Linux 64-bit</a>.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "user-guide-android-image-3-alt": {
-        "message": "Hình ảnh cho thấy các phần khác nhau của trình duyệt Psiphon Android",
+        "message": "Screenshot showing the Psiphon for Android web browser",
         "description": "alt text for an image"
     },
     "page-keyword-open-source": {
@@ -148,7 +140,7 @@
         "description": ""
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "Hình ảnh cho thấy Psiphon đang chạy trên Android, trên bảng ký sự",
+        "message": "Screenshot showing the Psiphon for Android logs panel",
         "description": "alt text for an image"
     },
     "license-terms-of-use-header": {
@@ -168,7 +160,7 @@
         "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
     },
     "faq-port-restrictions-question": {
-        "message": "Có giới hạn về cổng khi dùng Psiphon?",
+        "message": "Có giới hạn nào về cổng khi dùng Psiphon?",
         "description": "FAQ question. Note that 'port' is referring to network ports."
     },
     "faq-ie6-docbody-question": {
@@ -176,16 +168,12 @@
         "description": "FAQ question."
     },
     "faq-ssh-plus-question": {
-        "message": "Đường hầm mặc định của Psiphon dùng giao thức nào?",
+        "message": "Đường hầm kết nối an toàn mặc định của Psiphon dùng giao thức nào?",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
         "message": "Psiphon chúng tôi muốn người dùng có một trãi nghiệm tốt. Điều đó có nghĩa là phần mềm chúng tôi phải dễ dùng, mạng phải lẹ, và cả hai cần phải thật vững chắc. Điều này không dễ thực hiện cho các nhà phát triển, nhất là khi phần mềm phải hoạt động trong một môi trường đối nghịch thường xuyên thay đổi và phải chạy trên nhiều nền và ngôn ngữ khác nhau.",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-9": {
-        "message": "Khi Cydia Impactor làm việc xong, mở khóa điện thoại, và mở Settings (thiết đặt). Bạn cũng có thể gỡ thiết bị ra khỏi máy tính vào lúc này.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "sponsor-nav-title": {
         "message": "Nhà bảo trợ",
@@ -200,7 +188,7 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
-        "message": "Hình ảnh cho thấy Psiphon đang chạy trên Android, trên bảng trạng thái",
+        "message": "Screenshot of Psiphon for Android showing the status panel",
         "description": "alt text for an image"
     },
     "faq-vpn-slow-question": {
@@ -216,7 +204,7 @@
         "description": ""
     },
     "faq-vpn-slow-answer-para-1": {
-        "message": "Một số phần cứng mạng hoặc các kết nối internet có thể tạo vấn đề cho L2TP/IPsec là giao thức mà Psiphon dùng trong chế độ VPN. Thử tắt chế độ VPN.",
+        "message": "Một số thiết bị mạng hoặc các kết nối internet có thể tạo vấn đề cho L2TP/IPsec là giao thức mà Psiphon dùng trong chế độ VPN. Thử tắt chế độ VPN.",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -243,10 +231,6 @@
         "message": "Trình Duyệt Psiphon cho iOS có proxy tất cả lưu lượng giao thông internet của thiết bị?",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-10": {
-        "message": "Trong Settings (thiết đặt), bấm vào \"General\" (tổng quát)",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "about-description": {
         "message": "Gặp đội ngũ thực hiện phần mềm Psiphon vượt kiểm duyệt Internet",
         "description": "description for the About page"
@@ -266,10 +250,6 @@
     "faq-ie6-docbody-answer-xpie8": {
         "message": "Internet Explorer 8 cho Windows XP",
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
-    },
-    "faq-ios-sideloading-image-7-alt": {
-        "message": "hình ảnh của trang iOS General Settings (thiết đặt tổng quát), cho thấy mục 'Device Management' (quản trị thiết bị)",
-        "description": "Alt text for an iOS sideloading image"
     },
     "faq-information-collected-answer-head-2": {
         "message": "Phản hồi",
@@ -314,10 +294,6 @@
     "faq-uninstall-windows-answer-para-1": {
         "message": "Psiphon cho Windows không có cài đặt, và do đó không hiện ra trong danh sách \"Add or Remove Programs\" của Windows. Tập tin chương trình có thể chạy từ ngăn \"Downloads\", hoặc có thể sao chép qua ngăn khác và cho chạy từ đó. Nếu bạn muốn xóa bỏ trình này, chỉ cần xoá tập tin chương trình.",
         "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
-    },
-    "faq-ios-sideloading-image-3-alt": {
-        "message": "hình ảnh của Cydia Impactor nhắc điền vào email Apple ID của người dùng",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "donate-heading": {
         "message": "Đóng góp cho Psiphon",
@@ -367,17 +343,9 @@
         "message": "Các câu hỏi thường gặp",
         "description": "title for the FAQ page"
     },
-    "faq-ios-sideloading-sideloading-answer-step-6": {
-        "message": "Khi cửa sổ quản lý tập tin mở ra, đi đến nơi bạn lưu “PsiphonBrowser.ipa” và bấm đúp vào nó.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-information-collected-s3-logging-para-1": {
         "message": "Chúng tôi dùng Amazon S3 để lưu trữ những dữ liệu như tập tin trang web và danh sách khám phá máy chủ Psiphon. Đôi khi chúng tôi ghi lại việc tải các tập tin nàỵ  Phân tích các ký sự này giúp chúng tôi trả lời những câu hỏi như \"bao nhiêu người bắt đầu nhưng không hoàn tất việc tải xuống danh sách khám phá máy chủ?\", \"bao nhiêu phần dữ liệu tải xuống là tập tin trang web và khám phá máy chủ?\", và \"có kẻ tìm cách tấn công từ chối dịch vụ trang web chúng tôi?\"",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-14": {
-        "message": "Bấm \"Tin cậy\" trong hộp thoại kế để xác nhận việc làm.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-who-we-are-exec-team-head": {
         "message": "Nhóm ĐIều Hành",
@@ -407,16 +375,12 @@
         "message": "Windows:",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-2": {
-        "message": "Thiết bị iOS phải nối mạng. Cắm thiết bị iOS vào máy tính. Nếu được hỏi \"Trust this Computer?\" (tin cậy máy tính này không), bấm nút \"Trust\" (Tin cậy)",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "Có hiệu lực từ 2015-06-01T00:00Z.",
         "description": ""
     },
     "alert-body": {
-        "message": "Nhóm Psiphon khám phá ra một trường hợp mã độc ngụy trang làm trình Psiphon cho Windows. Mã độc này được phân phối dưới dạng tập tin zip mang tên \"pisphone3.zip\" trên trang www.copy.com và có thể có từ nhiều nguồn khác. Tập tin zip chứa một mã độc mang tên \"pisphone3.exe\" với thuộc tính được mô tả tại <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Để ý việc đánh vần sai tên. Trình Windows này không mang chữ ký số của Psiphon Inc. Không bao giờ cho chạy trình Psiphon vừa tải xuống mà không phối kiểm chữ ký số của nó, như mô tả <a href=\"#authentic-windows\">nơi đây</a>.",
+        "message": "Đội ngũ Psiphon khám phá ra một trường hợp mã độc ngụy trang làm trình Psiphon cho Windows. Mã độc này được phân phối dưới dạng tập tin zip mang tên \"pisphone3.zip\" trên trang www.copy.com và có thể có từ nhiều nguồn khác. Tập tin zip chứa một mã độc mang tên \"pisphone3.exe\" với thuộc tính được mô tả tại <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Để ý việc đánh vần sai tên. Trình Windows này không mang chữ ký số của Psiphon Inc. Không bao giờ cho chạy trình Psiphon vừa tải xuống mà không phối kiểm chữ ký số của nó, như mô tả <a href=\"#authentic-windows\">nơi đây</a>.",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "privacy-information-collected-client-advertising-networks-para-2": {
@@ -427,16 +391,12 @@
         "message": "Tất cả số liệu thống kê được chia sẻ với nhà tài trợ sẽ được tổng hợp thêm theo ngày, nhà tài trợ, và khu vực.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-8": {
-        "message": "Điền vào mật khẩu của Apple ID của bạn khi được nhắc kế tiếp. Rồi bấm \"OK\".",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
-    },
     "user-guide-android-ui-statistics-image-annotation-3": {
         "message": "Dữ liệu nhận qua Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "Chỉ có trong chế độ VPN. Sau khi một kết nối thành công được thiết lập trong chế độ VPN, giao thông toàn bộ máy tính của bạn sẽ đi qua mạng Psiphon. Khi chế độ VPN không được kích hoạt, chỉ các ứng dụng sử dụng các proxy HTTP và SOCKS địa phương sẽ được ủy nhiệm.",
+        "message": "Chỉ có trong chế độ VPN. Sau khi một kết nối thành công được thiết lập trong chế độ VPN, giao thông toàn bộ máy tính của bạn sẽ đi qua mạng Psiphon. Khi chế độ VPN không được kích hoạt, chỉ các ứng dụng nào sử dụng proxy HTTP và SOCKS địa phương sẽ được ủy nhiệm.",
         "description": ""
     },
     "about-who-we-are-para-1": {
@@ -444,7 +404,7 @@
         "description": ""
     },
     "user-guide-windows-para-3": {
-        "message": "Kết nối đến máy chủ Psiphon được thiết lập khi có biểu tượng màu xanh lá cây hiển thị. Trong chế độ VPN, tất cả các lưu lượng truy cập của bạn sẽ tự động xuyên hầm qua Psiphon.",
+        "message": "Kết nối đến máy chủ Psiphon được thiết lập khi có biểu tượng màu xanh lá cây hiển thị. Trong chế độ VPN, tất cả các lưu lượng truy cập của bạn sẽ tự động đi xuyên qua Psiphon.",
         "description": ""
     },
     "license-meta-title": {
@@ -476,7 +436,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Để chạy Psiphon trong chế độ Đường hầm Toàn Thiết Bị, bạn phải có Android 4.0+ hoặc thiết bị đã root.<br><br>Tùy chọn này sẽ không có cho các thiết bị không root với phiên bản Android cũ hơn.",
+        "message": "Để chạy Psiphon trong chế độ Kết Nối Toàn Thiết Bị Xuyên Qua Psiphon, bạn phải có Android 4.0+ hoặc thiết bị đã root.<br><br>Tùy chọn này sẽ không có cho các thiết bị không root với phiên bản Android cũ hơn.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "faq-isp-traffic-answer-para-1": {
@@ -484,11 +444,11 @@
         "description": ""
     },
     "faq-root-wdm-answer-para-1": {
-        "message": "Trước tháng Mười Hai 2015, Psiphon cho Android có một tính năng cho phép người dùng với thiết bị Android cũ (trước 4.0/ICS) xuyên hầm toàn thiết bị nếu đã có root. Một phiên bản cập nhật lớn cho Psiphon lúc đó đòi hỏi phải loại bỏ tính năng đó. ",
+        "message": "Trước tháng Mười Hai 2015, Psiphon cho Android có một tính năng cho phép người dùng với thiết bị Android cũ (trước 4.0/ICS) đưa toàn thiết bị đi xuyên qua Psiphon nếu đã có root. Một phiên bản cập nhật lớn cho Psiphon lúc đó đòi hỏi phải loại bỏ tính năng đó. ",
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "Tuy nhiên, xin nhớ là Psiphon được thiết kế làm công cụ vượt kiểm duyệt, chứ không được thiết kế đặc biệt cho mục tiêu chống theo dõi. Psiphon không ngăn ngừa việc lịch sử lướt mạng và cookies được giữ trên máy tính của bạn. Và trong một số chế độ và cấu hình, toàn bộ lưu lượng giao thông internet của bạn có thể không xuyên hầm qua Psiphon -- chẳng hạn như nếu thiết đặt proxy của trình duyệt bị cấu hinh không đúng, hoặc nếu bạn vẫn để mở trình duyệt đó sau khi rời Psiphon.",
+        "message": "Tuy nhiên, xin nhớ là Psiphon được thiết kế làm công cụ vượt kiểm duyệt, chứ không được thiết kế đặc biệt cho mục tiêu chống theo dõi. Psiphon không ngăn ngừa việc lịch sử lướt mạng và cookies được giữ trên máy tính của bạn. Và trong một số chế độ và cấu hình, toàn bộ lưu lượng giao thông internet của bạn có thể không đi xuyên qua Psiphon -- chẳng hạn như nếu thiết đặt proxy của trình duyệt bị cấu hinh không đúng, hoặc nếu bạn vẫn để mở trình duyệt đó sau khi rời Psiphon.",
         "description": ""
     },
     "user-guide-windows-para-verify-authentic": {
@@ -527,10 +487,6 @@
         "message": "Windows",
         "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
     },
-    "faq-ios-sideloading-sideloading-answer-intro-4": {
-        "message": "<strong>LƯU Ý:</strong> Nếu Apple ID dùng để sideloading <em>không phải là</em> tài khoản phát triển, ứng dúng cần được nạp lại mỗi tuần. Giới hạn này là do Apple đặt ra. Nếu Apple ID <em>là</em> là tài khoản phát triển, thì việc cài đặt sẽ có giá trị một năm.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "Tuyên bố về những hạn chế trách nhiệm pháp lý",
         "description": ""
@@ -548,7 +504,7 @@
         "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
     },
     "alert-heading": {
-        "message": "Cảnh báo",
+        "message": "CẢNH BÁO",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "license-personal-or-specified-use-para": {
@@ -563,10 +519,6 @@
         "message": "trang đầu tiên",
         "description": "web page meta keyword used for SEO"
     },
-    "faq-ios-sideloading-image-9-alt": {
-        "message": "hình ảnh của trang iOS Device Management Settings (thiết đặt quản trị thiết bị) cho người dùng hiện thời, cho thấy nút nhấn để tin cậy tài khoản phát triển ứng dụng của họ.",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "faq-authentic-android-answer-para-3": {
         "message": "Psiphon cho Android tự động cập nhật và quá trình này tự động xác minh mỗi bản cập nhật là chính gốc.",
         "description": ""
@@ -574,10 +526,6 @@
     "main-gets-you-there-safely-head-2": {
         "message": "Muốn lướt mạng an toàn khi dùng WiFi công cộng?",
         "description": ""
-    },
-    "faq-ios-sideloading-image-2-alt": {
-        "message": "hình ảnh của menu Cydia Impactor, mục 'Install Package' (cài đặt gói)",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "faq-android-upgrade-bug-question": {
         "message": "Sau khi nâng cấp ứng dụng Psiphon cho Android, nó không kết nối nữa.",
@@ -599,12 +547,8 @@
         "message": "Các nền tảng chúng tôi hỗ trợ được liệt kê trong <a href=\"download.html\">Trang tải về</a>. Chúng tôi luôn nỗ lực để mở rộng hỗ trợ cho các nền khác, hy vọng rằng chúng tôi sẽ hỗ trợ hệ điều hành bạn mong muốn trong tương lai gần!",
         "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
     },
-    "faq-ios-sideloading-image-10-alt": {
-        "message": "hình ảnh của trang iOS Device Management Settings (thiết đặt quản trị thiết bị) cho người dùng hiện thời, cho thấy lời xác nhận là họ tin cậy tài khoản phát triển ứng dụng của họ.",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "user-guide-windows-para-1": {
-        "message": "Tải chương trình client xuống và chạy. Khi bạn chạy chương trình, bạn sẽ thấy thông báo nhắc bảo mật cho biết rằng chương trình này là một sản phẩm hợp pháp của Psiphon Inc.",
+        "message": "Tải chương trình xuống và chạy. Khi bạn chạy chương trình, bạn sẽ thấy thông báo nhắc bảo mật cho biết rằng chương trình này là một sản phẩm chính thống của Psiphon Inc.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2": {
@@ -664,7 +608,7 @@
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "Làm thế nào tôi cấu hình các ứng dụng để sử dụng đường hầm Psiphon?",
+        "message": "Làm thế nào tôi cấu hình các ứng dụng để đi xuyên qua Psiphon?",
         "description": ""
     },
     "page-keyword-circumvention": {
@@ -771,10 +715,6 @@
         "message": "Chế độ toàn thiết bị cho Android được root đâu rồi?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
-    "faq-ios-sideloading-image-4-alt": {
-        "message": "hình ảnh của ứng dụng Cydia Impactor nhắc người dùng điền vào mật khẩu của Apple ID",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
-    },
     "page-keyword-how-to": {
         "message": "làm thế nào",
         "description": "web page meta keyword used for SEO"
@@ -784,7 +724,7 @@
         "description": "Page description for the Sponsorship page"
     },
     "faq-windows-vpn-connect-question": {
-        "message": "Tại sao tôi không kết nối với Psiphon cho Windows được trong chế đố L2TP/IPsec?",
+        "message": "Tại sao tôi không kết nối với Psiphon cho Windows được trong chế độ L2TP/IPsec?",
         "description": ""
     },
     "faq-reset-system-proxy-answer-para-2": {
@@ -792,7 +732,7 @@
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "about-get-latest-info-para-1-list-start": {
-        "message": "Tham gia vào danh sách gửi thư của chúng tôi:",
+        "message": "Tham gia vào danh sách nhận tin tức của chúng tôi:",
         "description": ""
     },
     "faq-information-collected-answer-para-9": {
@@ -816,7 +756,7 @@
         "description": "FAQ question"
     },
     "user-guide-android-para-4": {
-        "message": "Khi ứng dụng kết nối vào mạng, nó sẽ khởi động trình duyệt Psiphon cài sẵn. Psiphon cho Android không tự động xuyên hầm các lưu lượng giao thông cho trình duyệt Android mặc định hay các ứng dụng khác. Theo mặc định chỉ có trình duyệt Psiphon được xuyên hầm qua mạng Psiphon.",
+        "message": "Khi ứng dụng kết nối vào mạng, nó sẽ khởi động trình duyệt Psiphon cài sẵn. Psiphon cho Android không tự động chuyển lưu lượng giao thông cho trình duyệt Android mặc định hay các ứng dụng khác đi qua Psiphon. Theo mặc định chỉ có trình duyệt Psiphon được đi xuyên qua mạng Psiphon.",
         "description": ""
     },
     "user-guide-android-image-3-annotation-4": {
@@ -824,23 +764,19 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-windows-para-2": {
-        "message": "Psiphon tự động kết nối khi bạn cho chạy. Trong lúc đang kết nối, một biểu tượng xoay tròn được hiển thị. Bạn có thể chọn một trong các chế độ đường hầm: VPN (L2TP qua IPsec), SSH, hoặc SSH+ (tức SSH với kỹ thuật rối mã, thêm một lớp ngẫu nhiên bên trên SSH để tránh bị dò ra giao thức).",
+        "message": "Psiphon tự động kết nối khi bạn cho chạy. Trong lúc đang kết nối, một biểu tượng xoay tròn được hiển thị. Bạn có thể chọn một trong các chế độ kết nối an toàn: VPN (L2TP qua IPsec), SSH, hoặc SSH+ (tức SSH với kỹ thuật rối mã, thêm một lớp ngẫu nhiên bên trên SSH để tránh bị dò ra giao thức).",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
         "message": "Ngoài ra có những kỹ thuật cấp cao có thể phân tích lưu lượng giao thông mã hóa và xác định một số điều, chẳng hạn như xem trang web nào. Thí dụ điển hình của chuyện này là \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\" (nhận dạng lưu lượng giao thông)",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-7": {
-        "message": "Điền vào email của Apple ID của bạn khi được nhắc kế tiếp. Rồi bấm \"OK\".",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
-    },
     "faq-reset-system-proxy-answer-para-3": {
         "message": "Để tự sửa thiết đặt proxy, mở trình duyệt Internet Explorer, vào menu Tools (có biểu tượng răng cưa), Internet Options  → Connections tab → nút LAN Settings. Gỡ dấu tíc của tùy chọn “Use a proxy server for your LAN” (dùng proxy cho LAN)",
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "download-android-playstore-pro": {
-        "message": "<strong>Psiphon Pro</strong> cho Android trong cửa hàng Google Play",
+        "message": "<strong>Psiphon Pro for Android</strong> in the Google Play Store",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
@@ -891,12 +827,8 @@
         "message": "Nếu bạn thấy thông báo \"kết nối thất bại\", có nghĩa là không có máy chủ nào sẵn có mà ứng dụng biết đến. Thử tải một phiên bản Psiphon mới xuống.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-12": {
-        "message": "Bấm vào địa chỉ email của Apple ID của bạn trong trang hiện ra.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-authentic-windows-image-alt": {
-        "message": "Hình ảnh cho thấy cách kiểm chữ ký của ứng dụng Psiphon cho Windows",
+        "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
@@ -907,14 +839,6 @@
         "message": "Tại sao chúng tôi làm",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-intro-1": {
-        "message": "“Sideloading” có nghĩa là cài đặt một ứng dụng vào thiết bị của bạn mà không phải đi qua cửa hàng App Store. Điều này hữu ích cho những ai không truy cập vào được cửa hàng App Store, hoặc khi ứng dụng không có cho khu vực của họ.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
-    "faq-ios-sideloading-sideloading-answer-step-4": {
-        "message": "Chạy Cydia Impactor.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-windows-metro-answer-para-3": {
         "message": "Sau đây là các ví dụ của thông báo lỗi mà bạn có thể thấy khi ứng dụng chế độ Metro tìm cách nối mạng không được với Psiphon.",
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
@@ -924,7 +848,7 @@
         "description": ""
     },
     "faq-windows-metro-question": {
-        "message": "Tại sao tôi không xuyên hầm các ứng dụng của Windows Metro (tức Modern UI) qua Psiphon được?",
+        "message": "Tại sao tôi không đưa các ứng dụng của Windows Metro (tức Modern UI) đi xuyên qua Psiphon được?",
         "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
     },
     "resources-nav-title": {
@@ -940,7 +864,7 @@
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
     },
     "user-guide-windows-image-3-alt": {
-        "message": "Hình ảnh cho thấy Psiphon đã được kết nối trên Windows",
+        "message": "Screenshot showing Psiphon connected on Windows",
         "description": "alt text for an image"
     },
     "faq-section-installing-running-updating": {
@@ -956,7 +880,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-android-enable-sideloading-answer-para-1": {
-        "message": "Để cài đặt trực tiếp Psiphon cho Android, bạn phải cho phép sideloading trong thiết bị. Vào phần thiết đặt của Android, rồi vào phần \"Bảo mật\", bật mở tùy chọn \"Unknown sources\" (nguồn vô danh).",
+        "message": "Để cài đặt trực tiếp Psiphon cho Android, bạn phải cho phép sideloading trong thiết bị. Vào phần thiết đặt của Android, rồi vào phần \"Bảo mật\", bật mở tùy chọn \"Unknown sources\" (nguồn lạ).",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-isp-traffic-answer-para-4": {
@@ -1012,12 +936,8 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon đang chạy trong chế độ VPN hay Toàn Thiết Bị. Tất cả các ứng dụng được xuyên hầm qua Psiphon.",
+        "message": "Psiphon đang chạy trong chế độ VPN hay Toàn Thiết Bị. Tất cả mọi ứng dụng được kết nối xuyên qua Psiphon.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "faq-ios-sideloading-image-6-alt": {
-        "message": "hình ảnh của trang iOS Settings (thiết đặt), cho thấy mục 'General' (tổng quát)",
-        "description": "Alt text for an iOS sideloading image"
     },
     "main-pick-three-para-1": {
         "message": "Kể từ năm 2008, Psiphon đã giúp hàng triệu người ở các nước bị hạn chế tự do trên toàn thế giới tiếp cận một cách an toàn những kiến thức và tư tưởng bị kiểm duyệt. Bây giờ Psiphon có thể làm tương tự cho bạn.",
@@ -1040,7 +960,7 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
-        "message": "Là người sử dụng, bạn được tự do chấm dứt thỏa thuận cấp phép này bất cứ lúc nào bằng cách ngừng sử dụng bất kỳ và tất cả các bộ phận của dịch vụ Psiphon và xóa tất cả các thực thể của các ứng dụng phần mềm từ thiết bị của bạn.",
+        "message": "Là người sử dụng, bạn được tự do chấm dứt thỏa thuận cấp phép này bất cứ lúc nào bằng cách ngừng sử dụng bất kỳ và tất cả các phần của dịch vụ Psiphon và xóa tất cả các thực thể của các ứng dụng phần mềm từ thiết bị của bạn.",
         "description": ""
     },
     "faq-reset-system-proxy-answer-para-1": {
@@ -1058,6 +978,10 @@
     "faq-orig-file-purpose-question": {
         "message": "Tập tin “psiphon3.exe.orig” là gì?",
         "description": ""
+    },
+    "download-ios-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
+        "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "index-meta-title": {
         "message": "Truy cập Internet không bị kiểm duyệt cho Windows và Di Động",
@@ -1088,16 +1012,12 @@
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "Có cho iOS 8 hay cao hơn.",
-        "description": ""
+        "message": "Access your favorite web sites and services through the Psiphon network with our easy-to-use web browser. Available for iOS 8 and higher.",
+        "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "faq-isp-traffic-question": {
         "message": "Nhà mạng của tôi có thấy tôi làm gì trên Internet trong lúc tôi đang dùng Psiphon?",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-3": {
-        "message": "Cydia Impactor chạy trên macOS/OS X, Windows (cần iTunes), và Linux",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "open-source-para-3-list-start": {
         "message": "Windows:",
@@ -1132,7 +1052,7 @@
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "Dịch vụ Psiphon được cung cấp \"nguyên trạng\" và không có bất cứ bảo hành nào hoặc chịu trách nhiệm hàm ý hay rõ rệt. Psiphon phủ nhận tất cả bảo hành và trách nhiệm liên đới với việc sử dụng dịch vụ này bao gồm gây thương tích cá nhân, hoặc bất cứ thiệt hại nào về phương diện cá nhân hay thương mại một cách vô tình, đặc biệt, gián tiếp hay hệ quả, kể cả thất thoát dữ liệu và gián đoạn kinh doanh.",
+        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
         "description": ""
     },
     "faq-ip-change-question": {
@@ -1231,10 +1151,6 @@
         "message": "<strong>Cập nhật thủ công:</strong> Nếu phưong thức tự động cập nhật của Psiphon không chạy (ví dụ như, nếu bị chặn), bạn xem cách lấy phiên bản mới của Psiphon trong <a href=\"download.html\">Trang Tải xuống</a>.",
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
     },
-    "faq-ios-sideloading-question": {
-        "message": "Làm sao \"sideload\" Psiphon trên thiết bị iOS?",
-        "description": "FAQ question."
-    },
     "download-title": {
         "message": "Tải Psiphon",
         "description": "page title for the download page"
@@ -1252,7 +1168,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-6": {
-        "message": "Khi bạn chọn để gửi thông tin phản hồi thông qua Psiphon, bạn sẽ có tùy chọn bao gồm dữ liệu chẩn đoán. Chúng tôi sử dụng dữ liệu này để giúp chúng tôi tháo gỡ bất kỳ vấn đề nào mà bạn có thể gặp phải và để giúp chúng tôi giữ cho Psiphon chạy trơn tru. Việc gửi dữ liệu này hoàn toàn là tùy chọn. Các dữ liệu được mã hóa trước khi bạn gửi nó đi và chỉ có thể được giải mã bởi chúng tôi. Thông tin trong các dữ liệu thay đổi theo nền, nhưng nó có thể bao gồm:",
+        "message": "Khi bạn chọn để gửi thông tin phản hồi thông qua Psiphon, bạn sẽ có tùy chọn bao gồm dữ liệu chẩn đoán. Chúng tôi sử dụng dữ liệu này để giúp chúng tôi gỡ lỗi bất kỳ vấn đề nào mà bạn có thể gặp phải và để giúp chúng tôi giữ cho Psiphon chạy trơn tru. Việc gửi dữ liệu này hoàn toàn là tùy chọn. Các dữ liệu được mã hóa trước khi bạn gửi nó đi và chỉ có thể được giải mã bởi chúng tôi. Thông tin trong các dữ liệu thay đổi theo nền, nhưng nó có thể bao gồm:",
         "description": ""
     },
     "about-who-we-are-head": {
@@ -1276,11 +1192,11 @@
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "download-ios-appstore-psiphon-browser": {
-        "message": "Trình Duyệt Psiphon cho iOS trong Apple App Store",
-        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
+        "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "user-guide-windows-image-1-alt": {
-        "message": "Hình ảnh cho thấy cảnh báo an ninh của Windows cho phần mềm Psiphon",
+        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
@@ -1304,7 +1220,7 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Các đường kết nối ra ngoài qua mạng Psiphon chỉ có thể đi qua các cổng sau đây: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Đọc thêm <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">phần thảo luận</a> để biết thêm chi tiết. Các phần mềm email không thể có đường kết nối ra ngoài trên cổng 25 . Đọc thêm <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">phần thảo luận</a> để biết thêm chi tiết.",
+        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
@@ -1332,7 +1248,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "Psiphon sẽ tự động cấu hình hệ thống của bạn để sử dụng proxy HTTP/HTTPS địa phương và proxy SOCKS địa phương. Cổng cho các proxi này được chọn ngẫu nhiên, trừ khi được ấn định trong thiết đặt của Psiphon. Các ứng dụng Windows dùng Thiết Đặt Proxy Hệ Thống sẽ được tự động proxy. Bạn có thể cấu hình thủ công cho các ứng dụng khác sử dụng các proxy địa phương này. Cả Psiphon cho Windows và cho Android đều chạy các proxy địa phương này.",
+        "message": "Psiphon sẽ tự động cấu hình hệ thống của bạn để sử dụng proxy HTTP/HTTPS địa phương và proxy SOCKS địa phương. Cổng cho các proxy này được chọn ngẫu nhiên, trừ khi được ấn định trong thiết đặt của Psiphon. Các ứng dụng Windows dùng Thiết Đặt Proxy Hệ Thống sẽ được tự động proxy. Bạn có thể cấu hình thủ công cho các ứng dụng khác sử dụng các proxy địa phương này. Cả Psiphon cho Windows và cho Android đều chạy các proxy địa phương này.",
         "description": ""
     },
     "faq-section-privacy-security": {
@@ -1356,12 +1272,8 @@
         "description": "FAQ question."
     },
     "sponsor-para-1": {
-        "message": "Tất cả những người dùng Psiphon sẽ thấy trang đầu tiên bất cứ khi nào họ kết nối với phần mềm. Các cơ hội bảo trợ tính theo tuần có dành sẵn cho trang này.",
+        "message": "Tất cả những người dùng Psiphon sẽ thấy trang đầu tiên bất cứ khi nào họ kết nối với phần mềm. Cơ hội bảo trợ được dành sẵn cho trang này và tính giá theo tuần.",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-11": {
-        "message": "Trong phần \"General\" (tổng quát), đi xuống dưới và bấm vào \"Device Management\" (quản trị thiết bị).",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "faq-autoproxy-question": {
         "message": "Tôi dùng <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. Làm sao để bảo Psiphon cho Windows đừng cấu hình thiết đặt proxy hệ thống của tôi?",
@@ -1388,7 +1300,7 @@
         "description": ""
     },
     "user-guide-windows-image-2-alt": {
-        "message": "Hình ảnh cho thấy Psiphon đang khởi động trên Windows",
+        "message": "Screenshot showing Psiphon starting up on Windows",
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
@@ -1423,16 +1335,8 @@
         "message": "Trang Blog Nhóm Psiphon",
         "description": ""
     },
-    "faq-ios-sideloading-image-5-alt": {
-        "message": "hình ảnh của trang nhà iOS khởi động Thiết đặt",
-        "description": "Alt text for an iOS sideloading image"
-    },
-    "faq-ios-sideloading-sideloading-answer-step-13": {
-        "message": "Trong trang kế tiếm, bấm vào mục ghi \"Trust\" (tin cậy)",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "user-guide-windows-para-4": {
-        "message": "Ở các chế độ SSH và SSH+, Psiphon tự động lập các thiết đặt proxy của hệ thống Windows, do đó các luồng giao thông mạng cho các ứng dụng tuân thủ các thiết đặt này sẽ xuyên hầm qua Psiphon. Những thiết đặt này theo mặc định được tất cả các trình duyệt web chính tuân thủ.",
+        "message": "Ở các chế độ SSH và SSH+, Psiphon tự động lập các thiết đặt proxy của hệ thống Windows, do đó các luồng giao thông mạng cho các ứng dụng tuân thủ các thiết đặt này sẽ đi xuyên qua Psiphon. Những thiết đặt này theo mặc định được tất cả các trình duyệt web chính tuân thủ.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1448,7 +1352,7 @@
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "Hình ảnh cho thấy Psiphon đang chạy trên Android, trên bảng thống kê",
+        "message": "Screenshot showing the Psiphon for Android statistics panel",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-head-1": {
@@ -1475,10 +1379,6 @@
         "message": "Ký sự sẽ thu thập điạ chỉ IP, tên phần mềm, và dấu thời gian khi truy cập vào một trang web. Khi xử lý dữ liệu đó, chúng tôi sẽ có số lượng người dùng phân bố theo điạ dư từng truy cập vào tập tin được đặt ra.",
         "description": ""
     },
-    "faq-ios-sideloading-image-8-alt": {
-        "message": "hình ảnh của trang iOS Device Management Settings (thiết đặt quản trị thiết bị), cho thấy mục tương ứng với địa chỉ email của người dùng",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "page-keyword-http-proxy": {
         "message": "proxy http",
         "description": "web page meta keyword used for SEO"
@@ -1492,24 +1392,16 @@
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-para-2-item-3": {
-        "message": "Mỗi giao thức được sử dụng có thường xuyên không, và mã lỗi sau khi thất bại",
+        "message": "Mỗi giao thức được sử dụng bao nhiêu lần, và mã lỗi sau khi thất bại",
         "description": ""
     },
     "privacy-para-1": {
         "message": "Pisphon cam kết bảo vệ quyền riêng tư của khách hàng, người dùng cuối, đại lý và nhà cung cấp. Chính sách quyền riêng tư này nhằm cho bạn biết thông tin tổng quát về việc thông tin cá nhân của bạn được sử dụng thế nào. Psiphon là một công ty Canada với văn phòng chính đặt tại Ontario, và chính sách quyền riêng tư của chúng tôi được soạn thảo để phản ảnh luật lệ về quyền riêng tư của bang Ontario và Canada.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-1": {
-        "message": "<a href=\"download.html\">Tải “PsiphonBrowser.ipa”</a> về máy tính. (Có thể tập tin được lưu trong thư mục “Downloads”.)",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "Mạng Quảng Cáo",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-2": {
-        "message": "Trình duyệt Psiphon có thể được sideload vào thiết bị iOS dùng công cụ <a href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a>. Thiết bị không cần phải jailbroken. Bạn cần có tài khoản Apple ID (hoặc có dữ kiện đăng nhập vào) và có cách để liên lạc với Apple trong tiến trình side-loading. (Tùy theo tình hình ngăn chặn tại quốc gia của bạn, có thể cần dùng VPN trên máy tính trong lúc side-loading.)",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Note that 'Cydia Impactor' is the name of a third-party tool and must not be translated."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon giữ quyền đơn phương chấm dứt giấy phép này bất kỳ lúc nào vì bất kỳ hoặc không có lý do nào và không bị phạt. Với việc dùng Psiphon, bạn đồng ý không sử dụng dịch vụ dưới bất cứ phương cách nào vi phạm các điều khoản của dịch vụ và giấy phép.",
@@ -1532,20 +1424,12 @@
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "Hơn nữa, trong chế độ SSH và SSH+, Psiphon cung cấp một tùy chọn  đường hầm tách, nơi lưu lượng giao thông quốc tế được xuyên hầm thông qua proxy và lưu lượng giao thông nội địa thì không. Kiểm tra tùy chọn “Đừng proxy các trang web nội địa”  để kích hoạt đường hầm tách. Khi tùy chọn này được bật lên, các miền không được proxy được thông báo trong khu vực tin nhắn.",
+        "message": "Hơn nữa, trong chế độ SSH và SSH+, Psiphon cung cấp một tùy chọn tách đôi, nơi lưu lượng giao thông quốc tế được đưa xuyên qua proxy và lưu lượng giao thông nội địa thì không. Kiểm tra tùy chọn “Đừng proxy các trang web nội địa”  để kích hoạt tùy chọn tách đôi. Khi tùy chọn này được bật lên, các miền không được proxy được thông báo trong khu vực tin nhắn.",
         "description": ""
     },
     "license-distribution-para": {
         "message": "Chỉ có các phần mềm do công ty Psiphon soạn thảo là được phép dùng dịch vụ Psiphon. Sử dụng hay phân phối một phần mềm hay công cụ của bên thứ ba để dùng với dịch vụ Psiphon là vi phạm vào giấy phép này.",
         "description": ""
-    },
-    "faq-ios-sideloading-image-1-alt": {
-        "message": "Hình ảnh của thiết bị iOS nhắc xin tin cậy máy tính đính kèm",
-        "description": "alt text for an iOS sideloading image"
-    },
-    "user-guide-android-image-1-alt": {
-        "message": "Hình ảnh cho thấy thiết đặt Android cho phép các ứng dụng bên ngoài cửa hàng Google Play",
-        "description": "alt text for an image"
     },
     "page-keyword-contribute": {
         "message": "đóng góp",
@@ -1554,10 +1438,6 @@
     "faq-av-firewall-answer-para-2": {
         "message": "Nến bản Psiphon của bạn là chính gốc, thì đây là trường hợp báo động lầm. Mặc dầu đa số phần mềm chống vi-rút/tường lửa đã thêm chữ ký số của Psiphon vào danh sách tin tưởng, một vài phần mềm vẫn lầm lẫn cho rằng tập tin chương trình của Psiphon là mã độc. Trong trường hợp này, xin <a href=\"mailto:info@psiphon.ca\">gửi email cho chúng tôi</a>, cho biết phần mềm chống vi-rút/tường lửa bạn đang dùng, rồi chúng tôi sẽ liên lạc với công ty đó để giải quyết.",
         "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
-    },
-    "faq-ios-sideloading-image-11-alt": {
-        "message": "hình ảnh trang nhà của iOS, cho thấy biểu tượng khởi động Psiphon",
-        "description": "Alt text for an iOS sideloading image"
     },
     "main-gets-you-where-you-want-para-1": {
         "message": "Sau khi đối đầu với các chế độ hà khắc trên thế giới, chúng tôi đủ điều kiện để giúp bạn có được thông tin bạn muốn, bất cứ lúc nào và nơi nào bạn muốn.",

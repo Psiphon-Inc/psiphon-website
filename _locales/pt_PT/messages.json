@@ -47,10 +47,6 @@
         "message": "Contacte-nos",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-15": {
-        "message": "Press the Home button to return to your home screen. Now you can launch Psiphon Browser.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-description": {
         "message": "Psiphon - Política de Privacidade",
         "description": "description for the Privacy Policy page"
@@ -72,8 +68,12 @@
         "description": "FAQ question."
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "screenshot of enabling sideloading",
+        "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
         "description": "alt text for an image"
+    },
+    "download-ios-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for iOS</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "page-keyword-proxy": {
         "message": "proxy",
@@ -115,10 +115,6 @@
         "message": "Política de Privacidade",
         "description": "page title for the Privacy Policy page"
     },
-    "faq-ios-sideloading-sideloading-answer-step-5": {
-        "message": "On the Impactor menu, click “Device” and then “Install Package”",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate quoted text in this string -- they are from Cydia Impactor, which is not itself translated."
-    },
     "faq-information-collected-answer-para-12": {
         "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. We send two email responses to every request, and for one of those responses we use Amazon SES. This means that Amazon is able to see the email you send and our response to you.",
         "description": ""
@@ -131,12 +127,8 @@
         "message": "Free internet is nice, but stolen cookies and accounts are not. Psiphon gives you a safe path to the Internet, no matter what network you're using to connect.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-3": {
-        "message": "Download the latest version of <a target=\"_blank\" href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> for your operating system: <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/1\">macOS/OS X</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/2\">Windows</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/4\">Linux 32-bit</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/5\">Linux 64-bit</a>.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "user-guide-android-image-3-alt": {
-        "message": "Imagem que mostra as partes diferentes do navegador da web Android Psiphon",
+        "message": "Screenshot showing the Psiphon for Android web browser",
         "description": "alt text for an image"
     },
     "page-keyword-open-source": {
@@ -148,7 +140,7 @@
         "description": ""
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "Image showing Psiphon running on Android, on the logs panel",
+        "message": "Screenshot showing the Psiphon for Android logs panel",
         "description": "alt text for an image"
     },
     "license-terms-of-use-header": {
@@ -183,10 +175,6 @@
         "message": "At Psiphon, we need our users to have a good experience. That means that our software needs to be easy to use, our network needs to be fast, and they both need to be rock-solid stable. This is tough for any developers to achieve, but especialy so when your software has to operate in an ever-changing adversarial environment and across many languages and platforms.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-9": {
-        "message": "When Cydia Impactor is finished working, unlock your phone and open Settings. You can also unplug your device from your computer at this point.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "sponsor-nav-title": {
         "message": "Patrocinador",
         "description": "Navigation text for the Sponsorship page"
@@ -200,7 +188,7 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
-        "message": "Image showing Psiphon running on Android, on the status panel",
+        "message": "Screenshot of Psiphon for Android showing the status panel",
         "description": "alt text for an image"
     },
     "faq-vpn-slow-question": {
@@ -243,10 +231,6 @@
         "message": "Does Psiphon Browser for iOS proxy all of my device's Internet traffic?",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-10": {
-        "message": "Nas Definições, toque em “Geral”.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "about-description": {
         "message": "Conheça a equipa por detrás do Psiphon's - Software de contornar a censura da Internet",
         "description": "description for the About page"
@@ -266,10 +250,6 @@
     "faq-ie6-docbody-answer-xpie8": {
         "message": "Internet Explorer 8 para o Windows XP",
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
-    },
-    "faq-ios-sideloading-image-7-alt": {
-        "message": "screenshot iOS General Settings screen, showing the 'Device Management' item",
-        "description": "Alt text for an iOS sideloading image"
     },
     "faq-information-collected-answer-head-2": {
         "message": "Feedback",
@@ -314,10 +294,6 @@
     "faq-uninstall-windows-answer-para-1": {
         "message": "Psiphon for Windows does not get installed, and won't appear in Windows’ “Add or Remove Programs” list. The executable file can be run from your “Downloads” directory, or it can be copied to a different directory and run from there. If you want to remove the program, you can simply delete the executable file.",
         "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
-    },
-    "faq-ios-sideloading-image-3-alt": {
-        "message": "screenshot of the Cydia Impactor prompt for entering the user's Apple ID email address",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "donate-heading": {
         "message": "Contribua para o Psiphon",
@@ -367,17 +343,9 @@
         "message": "Perguntas Mais Frequentes",
         "description": "title for the FAQ page"
     },
-    "faq-ios-sideloading-sideloading-answer-step-6": {
-        "message": "In the file browser window that opens, navigate to where you saved “PsiphonBrowser.ipa” and double-click it.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-information-collected-s3-logging-para-1": {
         "message": "We use Amazon S3 to store assets such as website files and Psiphon server discovery lists. We sometimes enable logging of downloads of these files. Analyzing these logs helps us to answer questions like \"how many users are starting but not completing the download of the server discovery list?\", \"how is the downloaded data split between website assets and server discovery?\", and \"is an attacker making a denial-of-service attempt against our websites?\"",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-14": {
-        "message": "Click “Trust” in the next dialog box to confirm the action.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-who-we-are-exec-team-head": {
         "message": "Equipa Executiva",
@@ -407,10 +375,6 @@
         "message": "Windows:",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-2": {
-        "message": "Your iOS device must be connected to the Internet. Plug your iOS device into your computer. If you are prompted to “Trust this Computer?”, click the “Trust” button.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "This is in effect by at least 2015-06-01T00:00Z.",
         "description": ""
@@ -426,10 +390,6 @@
     "faq-information-collected-answer-para-5": {
         "message": "All statistics shared with sponsors are further aggregated by date, sponsor, and region.",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-8": {
-        "message": "Type your Apple ID password into the next prompt. Then click “OK”.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
     },
     "user-guide-android-ui-statistics-image-annotation-3": {
         "message": "Dados recebidos através do Psiphon",
@@ -527,10 +487,6 @@
         "message": "Windows",
         "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
     },
-    "faq-ios-sideloading-sideloading-answer-intro-4": {
-        "message": "<strong>NOTE:</strong> If the Apple ID used for sideloading <em>is not</em> a developer account, the app will need to be re-loaded each week. This limitation is imposed by Apple. If the Apple ID <em>is</em> a developer account, then the installation will be valid for a year.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "Statement of Limitations of Liability",
         "description": ""
@@ -563,10 +519,6 @@
         "message": "landing page",
         "description": "web page meta keyword used for SEO"
     },
-    "faq-ios-sideloading-image-9-alt": {
-        "message": "screenshot iOS Device Management Settings screen for the current user, showing the button they press to trust their account as an app developer",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "faq-authentic-android-answer-para-3": {
         "message": "Psiphon for Android auto-updates itself, and this process automatically verifies that each update is authentic.",
         "description": ""
@@ -574,10 +526,6 @@
     "main-gets-you-there-safely-head-2": {
         "message": "Deseja navegar com segurança quando utilizar uma Wi-Fi pública?",
         "description": ""
-    },
-    "faq-ios-sideloading-image-2-alt": {
-        "message": "screenshot of the Cydia Impactor menu item 'Install Package'",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "faq-android-upgrade-bug-question": {
         "message": "After upgrading the Psiphon for Android app, it won't connect.",
@@ -598,10 +546,6 @@
     "faq-unsupported-platforms-answer-para-1": {
         "message": "The platforms we support are those available on the <a href=\"download.html\">Download page</a>. We are constantly working to expand our platform support, so hopefully we'll support your desired OS in the near future!",
         "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
-    },
-    "faq-ios-sideloading-image-10-alt": {
-        "message": "screenshot iOS Device Management Settings screen for the current user, showing the prompt to confirm that they trust their account as an app developer",
-        "description": "Alt text for an iOS sideloading image"
     },
     "user-guide-windows-para-1": {
         "message": "Download the client program and run it. When you run it, you should see a security prompt showing that this program is a legitimate product of Psiphon Inc.",
@@ -771,10 +715,6 @@
         "message": "What happened to whole device mode for rooted Android devices?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
-    "faq-ios-sideloading-image-4-alt": {
-        "message": "screenshot of the Cydia Impactor prompt for entering the user's Apple ID password",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
-    },
     "page-keyword-how-to": {
         "message": "Como",
         "description": "web page meta keyword used for SEO"
@@ -831,16 +771,12 @@
         "message": "There are also advanced techniques which can look at encrypted traffic and determine some things about it, such as what website is being browsed. The primary example of this is \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">traffic fingerprinting</a>\".",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-7": {
-        "message": "Type your Apple ID email address into the prompt that follows. Then click “OK”.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
-    },
     "faq-reset-system-proxy-answer-para-3": {
         "message": "To manually fix your proxy settings, open Internet Explorer, then go to the Tools menu (or gear icon), Internet Options → Connections tab → LAN Settings button. Then remove the checkmark beside “Use a proxy server for your LAN”.",
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "download-android-playstore-pro": {
-        "message": "<strong>Psiphon Pro</strong> para Android na Loja Google Play",
+        "message": "<strong>Psiphon Pro for Android</strong> in the Google Play Store",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
@@ -891,12 +827,8 @@
         "message": "If you see repeated \"connection failed\" messages, it means that there are no available servers that your client knows about. Try to download a new Psiphon client.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-12": {
-        "message": "Click on your Apple ID email address in the screen that appears.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-authentic-windows-image-alt": {
-        "message": "Image showing how to check the Psiphon executable signature on Windows",
+        "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
@@ -906,14 +838,6 @@
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "Why we're doing it",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-1": {
-        "message": "“Sideloading” means installing an app on your device without going through the App Store. This is desirable for people who do not have access to the App Store, or when the app is not available in their region.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
-    "faq-ios-sideloading-sideloading-answer-step-4": {
-        "message": "Run Cydia Impactor.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "faq-windows-metro-answer-para-3": {
         "message": "The following are examples of the error message you might see when Metro mode apps are trying and failing to work through Psiphon.",
@@ -940,7 +864,7 @@
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
     },
     "user-guide-windows-image-3-alt": {
-        "message": "Imagem que mostra o Psiphon conetado no windows",
+        "message": "Screenshot showing Psiphon connected on Windows",
         "description": "alt text for an image"
     },
     "faq-section-installing-running-updating": {
@@ -1015,10 +939,6 @@
         "message": "Psiphon is running in VPN or Whole Device mode. All applications are tunneled through Psiphon.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
-    "faq-ios-sideloading-image-6-alt": {
-        "message": "screenshot iOS Settings screen, showing the 'General' item",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "main-pick-three-para-1": {
         "message": "Since 2008, Psiphon has helped millions of people in freedom-restricted countries around the world safely access censored knowledge and ideas. Now Psiphon can do the same for you.",
         "description": ""
@@ -1059,6 +979,10 @@
         "message": "O que é o o ficheiro “psiphon3.exe.orig”?",
         "description": ""
     },
+    "download-ios-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
+        "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
     "index-meta-title": {
         "message": "Acesso à Internet não censurado para o Windows e Telemóvel",
         "description": "Meta title for the index page"
@@ -1088,16 +1012,12 @@
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "Disponível para iOS 8 e superior.",
-        "description": ""
+        "message": "Access your favorite web sites and services through the Psiphon network with our easy-to-use web browser. Available for iOS 8 and higher.",
+        "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "faq-isp-traffic-question": {
         "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-3": {
-        "message": "Cydia Impactor works on macOS/OS X, Windows (with iTunes installed), and Linux.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "open-source-para-3-list-start": {
         "message": "Windows:",
@@ -1132,7 +1052,7 @@
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
+        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
         "description": ""
     },
     "faq-ip-change-question": {
@@ -1231,10 +1151,6 @@
         "message": "<strong>Manually updating:</strong> If the Psiphon self-updating mechanism isn't working (for example, if it's been blocked), you can find information about getting a fresh copy of Psiphon from the <a href=\"download.html\">Download page</a>.",
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
     },
-    "faq-ios-sideloading-question": {
-        "message": "How do I “sideload” Psiphon on my iOS device?",
-        "description": "FAQ question."
-    },
     "download-title": {
         "message": "Transferir o Psiphon",
         "description": "page title for the download page"
@@ -1276,11 +1192,11 @@
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "download-ios-appstore-psiphon-browser": {
-        "message": "Psiphon Browser para iOS na Loja Apple App",
-        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
+        "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "user-guide-windows-image-1-alt": {
-        "message": "Image showing the Windows security warning for the Psiphon executable",
+        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
@@ -1304,7 +1220,7 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information.",
+        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
@@ -1359,10 +1275,6 @@
         "message": "Everyone who loads Psiphon will see the landing page whenever they connect with the software. Sponsorship opportunities are available by the week for this page.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-11": {
-        "message": "In the “General” section, scroll to the bottom and click on “Device Management”.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-autoproxy-question": {
         "message": "Eu utilizo <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">Proxy Automático</a>. Como é que eu posso dizer ao Psiphon para o Windows não configurar as minhas definições do proxy do sistema?",
         "description": ""
@@ -1388,7 +1300,7 @@
         "description": ""
     },
     "user-guide-windows-image-2-alt": {
-        "message": "Imagem que mostra o Psiphon a iniciar no Windows",
+        "message": "Screenshot showing Psiphon starting up on Windows",
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
@@ -1423,14 +1335,6 @@
         "message": "O Blogue da Equipa do Psiphon",
         "description": ""
     },
-    "faq-ios-sideloading-image-5-alt": {
-        "message": "screenshot iOS home screen Settings launcher",
-        "description": "Alt text for an iOS sideloading image"
-    },
-    "faq-ios-sideloading-sideloading-answer-step-13": {
-        "message": "In the next screen click the item that says “Trust”.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "user-guide-windows-para-4": {
         "message": "In SSH and SSH+ modes, Psiphon automatically sets the Windows system proxy settings, so network traffic for applications that respect these settings will be tunneled through Psiphon. These settings are respected by default by all major web browsers.",
         "description": ""
@@ -1448,7 +1352,7 @@
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "Imagem que mostra o Psiphon em execução no Android, no painel das estatísticas",
+        "message": "Screenshot showing the Psiphon for Android statistics panel",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-head-1": {
@@ -1475,10 +1379,6 @@
         "message": "The logging will collect IP addresses, user agents, and timestamps of access to one website. When that data is processed, we will have a count of users divided by geographic region that have accessed the file in question.",
         "description": ""
     },
-    "faq-ios-sideloading-image-8-alt": {
-        "message": "screenshot iOS Device Management Settings screen, showing the item corresponding to the user's email address",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "page-keyword-http-proxy": {
         "message": "proxy de http",
         "description": "web page meta keyword used for SEO"
@@ -1499,17 +1399,9 @@
         "message": "Psiphon is committed to protecting the privacy interests of its customers, end users, distributors and suppliers. This privacy policy is intended to provide you with general information on how your personal information may be used. Psiphon is a Canadian corporation with its head office located in Ontario, and our privacy policy has been developed to reflect Canadian and Ontario privacy laws and statutes.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-1": {
-        "message": "Transfira o “PsiphonBrowser.ipa”</a> para o seu computador. (Este será provavelmente guardado na pasta “Downloads” / \"Transferências\" / \"Descargas\").",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "Redes de Publicidade",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-2": {
-        "message": "Psiphon Browser can be sideloaded onto your iOS device using the <a href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> tool. Your device does not need to be jailbroken. You need to have an Apple ID account (or access to the credentials for one) and the ability to contact Apple during the side-loading process. (Depending on your countries blocking, you may need to use a VPN on your computer during the side-loading.)",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Note that 'Cydia Impactor' is the name of a third-party tool and must not be translated."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon reserves the right at its sole discretion to terminate this license at any time for any or no reason, and without penalty. By using Psiphon, you agree not to use the service in any manner that violates the terms of service and license agreement.",
@@ -1539,14 +1431,6 @@
         "message": "Only software clients created by Psiphon Inc. are permitted to use the Psiphon service. It is a violation of this license to distribute or use a third-party client or tool for use with the Psiphon service.",
         "description": ""
     },
-    "faq-ios-sideloading-image-1-alt": {
-        "message": "screenshot of the iOS device prompt for trusting the attached computer",
-        "description": "alt text for an iOS sideloading image"
-    },
-    "user-guide-android-image-1-alt": {
-        "message": "Imagem que mostra os parâmetros do Android para permitir apps que não são da Play Store",
-        "description": "alt text for an image"
-    },
     "page-keyword-contribute": {
         "message": "Contribuir",
         "description": "web page meta keyword used for SEO"
@@ -1554,10 +1438,6 @@
     "faq-av-firewall-answer-para-2": {
         "message": "If your copy of Psiphon is authentic, then this is an instance of a false positive report. Although most antivirus/firewall programs have added Psiphon’s digital signature to their whitelist rules, some may still erroneously identify Psiphon’s executable file as a virus or threat. In this case, please <a href=\"mailto:info@psiphon.ca\">send us an email</a>, specifying the AV/firewall program you use, and we will contact the AV/firewall vendor to solve the problem.",
         "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
-    },
-    "faq-ios-sideloading-image-11-alt": {
-        "message": "screenshot iOS home screen, showing the Psiphon launcher icon",
-        "description": "Alt text for an iOS sideloading image"
     },
     "main-gets-you-where-you-want-para-1": {
         "message": "After dealing with repressive regimes around the world, we are uniquely suited to help you get to the content you want, whenever and wherever you want it.",

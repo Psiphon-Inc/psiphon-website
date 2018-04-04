@@ -47,10 +47,6 @@
         "message": "聯系我們",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-15": {
-        "message": "Press the Home button to return to your home screen. Now you can launch Psiphon Browser.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-description": {
         "message": "賽風的隱私政策",
         "description": "description for the Privacy Policy page"
@@ -72,8 +68,12 @@
         "description": "FAQ question."
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "啟用側面負載的屏幕截圖",
+        "message": "安卓安全設置的螢幕截圖，調整安全設置以便安裝非 Google Play 商店的應用。",
         "description": "alt text for an image"
+    },
+    "download-ios-appstore-psiphon-vpn": {
+        "message": "蘋果應用商店的<strong> iOS 賽風 </strong> ",
+        "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "page-keyword-proxy": {
         "message": "代理",
@@ -115,10 +115,6 @@
         "message": "隱私政策",
         "description": "page title for the Privacy Policy page"
     },
-    "faq-ios-sideloading-sideloading-answer-step-5": {
-        "message": "On the Impactor menu, click “Device” and then “Install Package”",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate quoted text in this string -- they are from Cydia Impactor, which is not itself translated."
-    },
     "faq-information-collected-answer-para-12": {
         "message": "我們的郵件自動回復伺服器托管在Amazon EC2雲端。對每個請求我們會回覆兩封電郵，其中一封採用Amazon SES回覆。這意味著Amazon能看到您發的郵件跟我們的回覆。",
         "description": ""
@@ -131,12 +127,8 @@
         "message": "自由網路很好，但盜竊 cookie 和帳號的行為十分惡劣。無論您使用何種方式連接網路，賽風能為您提供安全訪問互聯網的途徑。",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-3": {
-        "message": "Download the latest version of <a target=\"_blank\" href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> for your operating system: <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/1\">macOS/OS X</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/2\">Windows</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/4\">Linux 32-bit</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/5\">Linux 64-bit</a>.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "user-guide-android-image-3-alt": {
-        "message": "顯示賽風安卓版本的網頁瀏覽器擁有不同組件的圖像",
+        "message": "螢幕截圖顯示賽風在 Android 版網頁瀏覽器",
         "description": "alt text for an image"
     },
     "page-keyword-open-source": {
@@ -148,7 +140,7 @@
         "description": ""
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "在安卓日志面板上，顯示 Psiphon 在安卓中運行的圖像",
+        "message": "螢幕截圖為賽風的 Android 活動記錄面板",
         "description": "alt text for an image"
     },
     "license-terms-of-use-header": {
@@ -183,10 +175,6 @@
         "message": "賽風旨在為用戶提供優良體驗,這意味着我們的軟件需要容易使用和網速快捷的特點,這兩點必須同時得到發展且保持穩定, 這對任何開發人員都是挑戰, 尤其是當軟體運行在一個不斷變換和多種語言的發展平台上。",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-9": {
-        "message": "When Cydia Impactor is finished working, unlock your phone and open Settings. You can also unplug your device from your computer at this point.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "sponsor-nav-title": {
         "message": "贊助者",
         "description": "Navigation text for the Sponsorship page"
@@ -200,7 +188,7 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
-        "message": "在狀態面板中，顯示賽風在安卓系統中運行的圖像",
+        "message": "賽風安卓版的狀態面板螢幕截圖",
         "description": "alt text for an image"
     },
     "faq-vpn-slow-question": {
@@ -240,12 +228,8 @@
         "description": ""
     },
     "faq-proxy-all-ios-browser-question": {
-        "message": "Does Psiphon Browser for iOS proxy all of my device's Internet traffic?",
+        "message": " iOS 版的賽風瀏覽器會代理設備上全部的互聯網流量嗎？",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-10": {
-        "message": "In Settings, click on “General”.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-description": {
         "message": "請認識我們賽風網絡翻牆軟體的背后團隊。",
@@ -266,10 +250,6 @@
     "faq-ie6-docbody-answer-xpie8": {
         "message": "Internet Explorer 8 for Windows XP",
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
-    },
-    "faq-ios-sideloading-image-7-alt": {
-        "message": "screenshot iOS General Settings screen, showing the 'Device Management' item",
-        "description": "Alt text for an iOS sideloading image"
     },
     "faq-information-collected-answer-head-2": {
         "message": "反饋",
@@ -300,7 +280,7 @@
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "Michael Hull is President of Psiphon Inc., and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game.",
+        "message": "Michael Hull 是賽風公司董事長，當賽風一開始還是多倫多大學 Citizen Lab 底下的成品時，他即開始參與。他負責領導軟體開發並協助鼓勵創新好讓賽風可以維持在該領域的頂尖地位。",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2017": {
@@ -314,10 +294,6 @@
     "faq-uninstall-windows-answer-para-1": {
         "message": "若電腦上無安裝賽風,則它就不會出現在Windows’ 的“新增或移除程式”清單上 . 這個執行檔可從檔案下載的目錄資料夾裏來執行,它可以複制移動到其它目錄下來執行。如果要移除程式，只要刪除執行檔案即可。 　",
         "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
-    },
-    "faq-ios-sideloading-image-3-alt": {
-        "message": "screenshot of the Cydia Impactor prompt for entering the user's Apple ID email address",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "donate-heading": {
         "message": "為賽風貢獻",
@@ -348,7 +324,7 @@
         "description": "heading for the Android section of the User Guide"
     },
     "faq-unsupported-platforms-question": {
-        "message": "Is Psiphon available for macOS, Linux, Windows Phone, etc.?",
+        "message": "賽風是否支援 macOS, Linux, Windows 手機等作業系統？",
         "description": "FAQ question."
     },
     "faq-subsection-troubleshooting-android": {
@@ -367,17 +343,9 @@
         "message": "常見問題與解答",
         "description": "title for the FAQ page"
     },
-    "faq-ios-sideloading-sideloading-answer-step-6": {
-        "message": "In the file browser window that opens, navigate to where you saved “PsiphonBrowser.ipa” and double-click it.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-information-collected-s3-logging-para-1": {
         "message": "我們使用 Amazon S3 儲存資料，例如網站文件和賽風服務器搜尋列表等。我們有時允許記錄這些文件的下載。分析這些數據能夠幫助我們回答一些問題，例如“多少用戶中斷了服務器搜尋列表的下載？”，“下載的資料如何在網站資料及服務器搜尋間分配？”和“我們的網站是否面臨拒絕服務攻擊？”",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-14": {
-        "message": "Click “Trust” in the next dialog box to confirm the action.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-who-we-are-exec-team-head": {
         "message": "行政團隊",
@@ -407,10 +375,6 @@
         "message": "Windows：",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-2": {
-        "message": "Your iOS device must be connected to the Internet. Plug your iOS device into your computer. If you are prompted to “Trust this Computer?”, click the “Trust” button.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "最遲於2015-06-01T00:00起正式生效",
         "description": ""
@@ -426,10 +390,6 @@
     "faq-information-collected-answer-para-5": {
         "message": "所有與贊助商共享的統計資料將會按照日期、贊助商和地區來匯總。",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-8": {
-        "message": "Type your Apple ID password into the next prompt. Then click “OK”.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
     },
     "user-guide-android-ui-statistics-image-annotation-3": {
         "message": "通過賽風接收的資料",
@@ -527,10 +487,6 @@
         "message": "Windows",
         "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
     },
-    "faq-ios-sideloading-sideloading-answer-intro-4": {
-        "message": "<strong>NOTE:</strong> If the Apple ID used for sideloading <em>is not</em> a developer account, the app will need to be re-loaded each week. This limitation is imposed by Apple. If the Apple ID <em>is</em> a developer account, then the installation will be valid for a year.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "有限責任聲明",
         "description": ""
@@ -563,10 +519,6 @@
         "message": "登錄頁面",
         "description": "web page meta keyword used for SEO"
     },
-    "faq-ios-sideloading-image-9-alt": {
-        "message": "screenshot iOS Device Management Settings screen for the current user, showing the button they press to trust their account as an app developer",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "faq-authentic-android-answer-para-3": {
         "message": "賽風安卓版能夠自動更新，更新過程中會自動驗證每個更新是可信的。",
         "description": ""
@@ -574,10 +526,6 @@
     "main-gets-you-there-safely-head-2": {
         "message": "想要在使用公用 WiFi 網絡時安全瀏覽網站？",
         "description": ""
-    },
-    "faq-ios-sideloading-image-2-alt": {
-        "message": "screenshot of the Cydia Impactor menu item 'Install Package'",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "faq-android-upgrade-bug-question": {
         "message": "更新手機版賽風後, 它反而無法連線。",
@@ -598,10 +546,6 @@
     "faq-unsupported-platforms-answer-para-1": {
         "message": "我們支持的作業系系統<a href=\"download.html\">下載頁面</a>。我們仍在不斷擴展我們支持的作業系統，因此我們有希望在未來支持你想要的作業系統！",
         "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
-    },
-    "faq-ios-sideloading-image-10-alt": {
-        "message": "screenshot iOS Device Management Settings screen for the current user, showing the prompt to confirm that they trust their account as an app developer",
-        "description": "Alt text for an iOS sideloading image"
     },
     "user-guide-windows-para-1": {
         "message": "下載客戶端軟體，執行它。當執行時，應該會看到一個安全提示，顯示此軟體是賽風公司的合法產品。",
@@ -771,10 +715,6 @@
         "message": "root過的Android設備上的全局模式怎麼了？",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
-    "faq-ios-sideloading-image-4-alt": {
-        "message": "screenshot of the Cydia Impactor prompt for entering the user's Apple ID password",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
-    },
     "page-keyword-how-to": {
         "message": "如何",
         "description": "web page meta keyword used for SEO"
@@ -831,16 +771,12 @@
         "message": "已有先進的技術可以探測加密的流量並獲得相關信息，譬如瀏覽了什麼網站。其主要的例子是“<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">流量指紋識別</a>”。",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-7": {
-        "message": "Type your Apple ID email address into the prompt that follows. Then click “OK”.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
-    },
     "faq-reset-system-proxy-answer-para-3": {
         "message": "要手動來調整代理設定, 請打開, 到工具選單下(或是引擊的圖示), 網路選項 → 連線分頁 → 本地網路設定按鍵。然後請移除 “Use a proxy server for your LAN”的勾選框。",
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "download-android-playstore-pro": {
-        "message": "Android<strong>Psiphon專業版 Pro</strong>  在Google Play 商店",
+        "message": "Google Play 商店中的安卓<strong>賽風專業版</strong>  ",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
@@ -891,12 +827,8 @@
         "message": "如果你重復看到\"連接失敗\"的消息，就說明目前沒有可用的伺服器。請嘗試下載新賽風客戶端。",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-12": {
-        "message": "Click on your Apple ID email address in the screen that appears.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-authentic-windows-image-alt": {
-        "message": "顯示如何在 Windows系統中檢查賽風可執行文件簽名的圖像",
+        "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
@@ -906,14 +838,6 @@
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "為什麼我們要這麼做",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-1": {
-        "message": "“Sideloading” means installing an app on your device without going through the App Store. This is desirable for people who do not have access to the App Store, or when the app is not available in their region.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
-    "faq-ios-sideloading-sideloading-answer-step-4": {
-        "message": "Run Cydia Impactor.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "faq-windows-metro-answer-para-3": {
         "message": "下面錯誤訊息的例子或許會在Metro 模式應用試著要使用賽風但失敗的時候出現。",
@@ -940,7 +864,7 @@
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
     },
     "user-guide-windows-image-3-alt": {
-        "message": "在Windows系統中顯示賽風已連接的圖像",
+        "message": "螢幕截圖顯示賽風在 Windows 系統上的連線",
         "description": "alt text for an image"
     },
     "faq-section-installing-running-updating": {
@@ -956,7 +880,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-android-enable-sideloading-answer-para-1": {
-        "message": "In order to install a direct download of Psiphon for Android, you must enable sideloading on your device. To do so, go into your Android settings, then into the “Security” section, then enable “Unknown sources”.",
+        "message": "要在 Android 設備上直接下載賽風軟體，必須打開設備上可安裝軟體功能，請在 Android 設定處，挑選 “安全性” 部份，再啟動“未知的來源”。",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-isp-traffic-answer-para-4": {
@@ -1015,10 +939,6 @@
         "message": "賽風正在 VPN 或全局代理下運行。所有數據將通過 Psiphon 通道傳輸。",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
-    "faq-ios-sideloading-image-6-alt": {
-        "message": "screenshot iOS Settings screen, showing the 'General' item",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "main-pick-three-para-1": {
         "message": "2008年以來，賽風已經幫助了世界各地自由受限制國家的上百萬用戶，使他們安全訪問被審查的知識和理念。現在，賽風能為您提供同樣的服務。",
         "description": ""
@@ -1036,7 +956,7 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "Works on Windows XP, Windows Vista, Windows 7, Windows 8 (desktop), and Windows 10.",
+        "message": "可運行在 Windows XP, Windows Vista, Windows 7, Windows 8 (桌機版) 和 Windows 10.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
@@ -1058,6 +978,10 @@
     "faq-orig-file-purpose-question": {
         "message": "“psiphon3.exe.orig”文件是什麼？",
         "description": ""
+    },
+    "download-ios-appstore-psiphon-vpn-description": {
+        "message": "在 iPhone 或 iPad 上頭的應用程式都將透過賽風網路來訪問網際網路。支援 iOS 10.2 以上版本。",
+        "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "index-meta-title": {
         "message": "適用於 Windows 和移動設備的無審查網路訪問",
@@ -1088,16 +1012,12 @@
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "Available for iOS 8 and higher.",
-        "description": ""
+        "message": "通過賽風網路好用的網頁瀏覽器來訪問所喜愛的網站和服務。支援 iOS 8 以上版本。",
+        "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "faq-isp-traffic-question": {
         "message": "在我使用賽風時，我的網路連線服務提供商能看到我在做什麼嗎？",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-3": {
-        "message": "Cydia Impactor works on macOS/OS X, Windows (with iTunes installed), and Linux.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "open-source-para-3-list-start": {
         "message": "Windows：",
@@ -1132,7 +1052,7 @@
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "賽風服務秉承原本不保修的宗旨。賽風不授權或承擔任何與此設備有關的風險，包括個人創傷，任何意外，特別，非直接或嚴重或商業損失，譬如資料流失和業務中斷。",
+        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
         "description": ""
     },
     "faq-ip-change-question": {
@@ -1231,10 +1151,6 @@
         "message": "<strong>手動更新:</strong> 如果賽風的自動更新無法運作 (例如,遭到封鎖), 可以到<a href=\"download.html\">下載頁</a>取得新版本的賽風軟體。",
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
     },
-    "faq-ios-sideloading-question": {
-        "message": "How do I “sideload” Psiphon on my iOS device?",
-        "description": "FAQ question."
-    },
     "download-title": {
         "message": "下載賽風",
         "description": "page title for the download page"
@@ -1276,11 +1192,11 @@
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "download-ios-appstore-psiphon-browser": {
-        "message": "Psiphon Browser for iOS in the Apple App Store",
-        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
+        "message": "蘋果應用商店的<strong>賽風 iOS 瀏覽器</strong> ",
+        "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "user-guide-windows-image-1-alt": {
-        "message": "顯示 賽風可執行文件引發的 Windows系統安全警告的圖像",
+        "message": "螢幕截圖為賽風執行時 Windows 出現的安全警告",
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
@@ -1304,7 +1220,7 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "透過賽風的對外連線被限制在一組伺服器端口，包括: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. 請參考此處 <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">討論</a> 以了解更多資訊. 郵件客戶端軟體無法利用 port 25建立對外連線. 請見<a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">這串討論</a>取得更多資訊。",
+        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
@@ -1359,10 +1275,6 @@
         "message": "使用賽風的每位用戶，不論何時連接到本軟體時都會看到登陸頁。該頁面上的贊助時長按星期計。",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-11": {
-        "message": "In the “General” section, scroll to the bottom and click on “Device Management”.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-autoproxy-question": {
         "message": "我使用 <a href=\"https://addons.mozilla.org/zh-CN/firefox/addon/autoproxy\">AutoProxy</a>。我如何使 Windows 版賽風而不必修改我的系統代理設置？",
         "description": ""
@@ -1388,7 +1300,7 @@
         "description": ""
     },
     "user-guide-windows-image-2-alt": {
-        "message": "賽風在 Windows 中啟動的圖像",
+        "message": "螢幕截圖顯示賽風在 Windows 系統上開始啟動",
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
@@ -1404,7 +1316,7 @@
         "description": "text for the Download page navigation item"
     },
     "faq-android-enable-sideloading-answer-para-0": {
-        "message": "“Sideloading” means installing an app on your device without going through the Play Store. This is desirable for people who do not have access to the Play Store, or when the app is not available in their region.",
+        "message": "“Sideloading” 指的是不透過Play 商店，直接在設備上安裝應用軟體。對於無法接取 Play 商店的用戶或是在一些地區某個應用無法上架，這樣的安裝功能就很有用了。",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-information-collected-answer-para-2-item-2": {
@@ -1423,14 +1335,6 @@
         "message": "賽風團隊部落格",
         "description": ""
     },
-    "faq-ios-sideloading-image-5-alt": {
-        "message": "screenshot iOS home screen Settings launcher",
-        "description": "Alt text for an iOS sideloading image"
-    },
-    "faq-ios-sideloading-sideloading-answer-step-13": {
-        "message": "In the next screen click the item that says “Trust”.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "user-guide-windows-para-4": {
         "message": "在SSH和SSH+模式，賽風3將自動設置Windows系統的代理設置， 並應用流量將通道通過賽風。這些設置也會默認成為所有主要的網路瀏覽器的設定。",
         "description": ""
@@ -1448,7 +1352,7 @@
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "在安卓系統的數據統計面板上顯示賽風正在運行",
+        "message": "螢幕截圖顯示賽風在 Android 上的統計面板",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-head-1": {
@@ -1475,10 +1379,6 @@
         "message": "日誌會收集IP地址、用戶代理和訪問各網頁的時間戳記。當數據經過處理後，我們會統計按地理位置劃分的訪問了問題中文件的用戶數量。",
         "description": ""
     },
-    "faq-ios-sideloading-image-8-alt": {
-        "message": "screenshot iOS Device Management Settings screen, showing the item corresponding to the user's email address",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "page-keyword-http-proxy": {
         "message": "http 代理",
         "description": "web page meta keyword used for SEO"
@@ -1488,7 +1388,7 @@
         "description": "text for the About page navigation item"
     },
     "faq-authentic-windows-answer-para-2020": {
-        "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
+        "message": "2017-07-05 到 2020-10-03 有效憑證的SHA1 指紋為：",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-para-2-item-3": {
@@ -1499,17 +1399,9 @@
         "message": "賽風致力於保護其客戶、最終用戶、分發商和供應商的隱私權益。本隱私權政策旨在向您正常的一般資訊，包括您的個人資料如何可能被使用。賽風是一家加拿大公司，其總部設在安大略省。我們的隱私權政策基於加拿大和安大略省的隱私法規法律來制定。",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-1": {
-        "message": "<a href=\"download.html\">Download “PsiphonBrowser.ipa”</a> onto your computer. (It will probably be saved in your “Downloads” folder.)",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "廣告網路",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-2": {
-        "message": "Psiphon Browser can be sideloaded onto your iOS device using the <a href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> tool. Your device does not need to be jailbroken. You need to have an Apple ID account (or access to the credentials for one) and the ability to contact Apple during the side-loading process. (Depending on your countries blocking, you may need to use a VPN on your computer during the side-loading.)",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Note that 'Cydia Impactor' is the name of a third-party tool and must not be translated."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "賽風有權在任何時間或以任何原因終止許可，而不受處罰。通過使用賽風，你同意不會違反賽風的服務和許可協議條款。",
@@ -1539,14 +1431,6 @@
         "message": "只有賽風認可的客戶才能使用本公司的服務。任何第三者用戶或是工具使用賽風服務，都是違反本公司的執照。",
         "description": ""
     },
-    "faq-ios-sideloading-image-1-alt": {
-        "message": "screenshot of the iOS device prompt for trusting the attached computer",
-        "description": "alt text for an iOS sideloading image"
-    },
-    "user-guide-android-image-1-alt": {
-        "message": "顯示允許非Play Store應用程序進行安卓設置的圖像",
-        "description": "alt text for an image"
-    },
     "page-keyword-contribute": {
         "message": "貢獻",
         "description": "web page meta keyword used for SEO"
@@ -1554,10 +1438,6 @@
     "faq-av-firewall-answer-para-2": {
         "message": "如果你的賽風版本經過授權,那麼這就是一個假的正向報告。 雖然大多數的防毒軟體和防火牆都需要新增賽風的數位簽章到他們的白名單規則中，有一些可能仍然無法正確地辨認賽風的執行檔案誤認為是病毒或威脅。這種情況下，請 <a href=\"mailto:info@psiphon.ca\">來信告訴我們</a>,特別指出你所用的防毒軟體和防火牆程式 ，我們將連繫相關的軟體公司來解決這個問題。",
         "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
-    },
-    "faq-ios-sideloading-image-11-alt": {
-        "message": "screenshot iOS home screen, showing the Psiphon launcher icon",
-        "description": "Alt text for an iOS sideloading image"
     },
     "main-gets-you-where-you-want-para-1": {
         "message": "與世界各地的專制政權鬥爭，我們特別適合幫助您隨時隨地獲取所需的內容。",
@@ -1584,7 +1464,7 @@
         "description": ""
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
+        "message": "iOS 版的賽風瀏覽器只是一款瀏覽器應用，因此只有透過它上網的流量與資料會走賽風隨道，而其它的應用(例如臉書或推特應用) 則不會被指引到賽風的網路。因此如果欲使用賽風網路來接取臉書帳號，則必須透過賽風瀏覽器。如果使用的是臉書應用，它會經由你的無線或行動電信連結而不會經由賽風網路。",
         "description": ""
     },
     "faq-mail-apps-ports-question": {

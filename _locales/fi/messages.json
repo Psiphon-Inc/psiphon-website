@@ -68,8 +68,12 @@
         "description": "FAQ question."
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "screenshot of enabling sideloading",
+        "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
         "description": "alt text for an image"
+    },
+    "download-ios-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for iOS</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "page-keyword-proxy": {
         "message": "proxy",
@@ -104,7 +108,7 @@
         "description": ""
     },
     "main-gets-you-there-safely-head-1": {
-        "message": "...and gets you there safely.",
+        "message": "... ja vie sinut sinne turvallisesti.",
         "description": ""
     },
     "privacy-title": {
@@ -120,11 +124,11 @@
         "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-there-safely-para-1": {
-        "message": "Free internet is nice, but stolen cookies and accounts are not. Psiphon gives you a safe path to the Internet, no matter what network you're using to connect.",
+        "message": "Ilmainen internet on kiva, mutta varastetut käyttäjätilit ja keksit eivät. Käytitpä mitä tahansa verkkoa, Psiphon antaa sinulle turvallisen reitin internetiin.",
         "description": ""
     },
     "user-guide-android-image-3-alt": {
-        "message": "Image showing the different parts of the Psiphon Android web browser",
+        "message": "Screenshot showing the Psiphon for Android web browser",
         "description": "alt text for an image"
     },
     "page-keyword-open-source": {
@@ -136,7 +140,7 @@
         "description": ""
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "Image showing Psiphon running on Android, on the logs panel",
+        "message": "Screenshot showing the Psiphon for Android logs panel",
         "description": "alt text for an image"
     },
     "license-terms-of-use-header": {
@@ -184,7 +188,7 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
-        "message": "Image showing Psiphon running on Android, on the status panel",
+        "message": "Screenshot of Psiphon for Android showing the status panel",
         "description": "alt text for an image"
     },
     "faq-vpn-slow-question": {
@@ -221,6 +225,10 @@
     },
     "privacy-bulletin-entry-2-what-doing": {
         "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. This includes merging into it the answer to the FAQ question \"What information does Psiphon collect?\".",
+        "description": ""
+    },
+    "faq-proxy-all-ios-browser-question": {
+        "message": "Does Psiphon Browser for iOS proxy all of my device's Internet traffic?",
         "description": ""
     },
     "about-description": {
@@ -272,12 +280,12 @@
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "Michael Hull is the Chief Operating Officer, and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game.",
+        "message": "Michael Hull is President of Psiphon Inc., and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2017": {
         "message": "For the certificate valid for the period 2014-05-08 to 2017-09-06 the SHA1 thumbprint is:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-redirect": {
         "message": "Please see our <a href=\"privacy.html\">Privacy Policy</a> to learn about what information we collect.",
@@ -316,7 +324,7 @@
         "description": "heading for the Android section of the User Guide"
     },
     "faq-unsupported-platforms-question": {
-        "message": "Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?",
+        "message": "Is Psiphon available for macOS, Linux, Windows Phone, etc.?",
         "description": "FAQ question."
     },
     "faq-subsection-troubleshooting-android": {
@@ -460,7 +468,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
     },
     "what-is-psiphon-body-para-1": {
-        "message": "Psiphon is a circumvention tool from Psiphon Inc. that utilizes VPN, SSH and HTTP Proxy technology to provide you with uncensored access to Internet content. Your Psiphon client will automatically learn about new access points to maximize your chances of bypassing censorship.",
+        "message": "Psiphon on työkalu, joka käyttää VPN-, SSH-, ja HTTP Proxy -teknologioita päästääkseen sinut käsiksi sensuroimattomaan Internetin sisältöön. Maksimoidakseen mahdollisuutesi sensuurin ohittamiseen, Psiphon-ohjelmasi oppii automaattisesti uudet yhteyspisteet.",
         "description": ""
     },
     "user-guide-description": {
@@ -468,7 +476,7 @@
         "description": "description for the user guide page"
     },
     "blog-index-nav-title": {
-        "message": "Our Blog",
+        "message": "Blogi",
         "description": "Text for the navigation bar link to the blog"
     },
     "about-get-latest-info-para-1-users-list": {
@@ -516,7 +524,7 @@
         "description": ""
     },
     "main-gets-you-there-safely-head-2": {
-        "message": "Want to surf securely when using public WiFi?",
+        "message": "Haluatko surffata turvallisesti, kun käytät yleistä WiFiä?",
         "description": ""
     },
     "faq-android-upgrade-bug-question": {
@@ -545,14 +553,14 @@
     },
     "faq-authentic-windows-answer-para-2": {
         "message": "For the certificate valid for the period 2011-06-16 to 2012-06-21 the SHA1 thumbprint is:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "what-is-psiphon-heading": {
         "message": "Mikä on Psiphon?",
         "description": ""
     },
     "user-guide-nav-title": {
-        "message": "User Guide",
+        "message": "Käyttöopas",
         "description": "text for the user guide page navigation item"
     },
     "page-keyword-updates": {
@@ -561,7 +569,7 @@
     },
     "faq-authentic-windows-answer-para-3": {
         "message": "For the certificate valid for the period 2012-05-21 to 2014-07-30 the SHA1 thumbprint is:",
-        "description": ""
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-meta-title": {
         "message": "Usein Kysytyt Kysymykset",
@@ -592,7 +600,7 @@
         "description": ""
     },
     "open-source-title": {
-        "message": "Open Source",
+        "message": "Avoin lähdekoodi",
         "description": ""
     },
     "license-terms-of-use-para": {
@@ -608,7 +616,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "open-source-meta-title": {
-        "message": "Open Source",
+        "message": "Avoin lähdekoodi",
         "description": ""
     },
     "privacy-bulletin-entry-2-why-doing": {
@@ -768,7 +776,7 @@
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "download-android-playstore-pro": {
-        "message": "<strong>Psiphon Pro</strong> for Android in the Google Play Store",
+        "message": "<strong>Psiphon Pro for Android</strong> in the Google Play Store",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
@@ -804,7 +812,7 @@
         "description": ""
     },
     "main-pick-three-head-1": {
-        "message": "Trust, Speed, Simplicity: pick three",
+        "message": "Luotettavuus, nopeus, yksinkertaisuus: valitse kolme",
         "description": ""
     },
     "faq-android-upgrade-bug-answer-para-1": {
@@ -820,7 +828,7 @@
         "description": ""
     },
     "faq-authentic-windows-image-alt": {
-        "message": "Image showing how to check the Psiphon executable signature on Windows",
+        "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
@@ -856,7 +864,7 @@
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
     },
     "user-guide-windows-image-3-alt": {
-        "message": "Kuva, joka näyttää, että Psiphon on yhdistettynä Windowsissa",
+        "message": "Screenshot showing Psiphon connected on Windows",
         "description": "alt text for an image"
     },
     "faq-section-installing-running-updating": {
@@ -872,8 +880,8 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-android-enable-sideloading-answer-para-1": {
-        "message": "In order to install a direct download of Psiphon for Android, you must enable \"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\". To do so, go into your Android settings, then into the \"Security\" section, then enable \"Unknown sources\".",
-        "description": "Please modify the 'en' in the Wikipedia domain to be language-specific"
+        "message": "In order to install a direct download of Psiphon for Android, you must enable sideloading on your device. To do so, go into your Android settings, then into the “Security” section, then enable “Unknown sources”.",
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-isp-traffic-answer-para-4": {
         "message": "If you require anonymity over the Internet then you should use <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> instead of Psiphon.",
@@ -932,11 +940,11 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "main-pick-three-para-1": {
-        "message": "Since 2008, Psiphon has helped millions of people in freedom-restricted countries around the world safely access censored knowledge and ideas. Now Psiphon can do the same for you.",
+        "message": "Vuodesta 2008 lähtien Psiphon on auttanut miljoonia ihmisiä ympäri maailman pääsemään turvallisesti käsiksi sensuroituun tietoon ja ideoihin maissa jotka rajoittavat heidän vapauksiaan. Nyt Psiphon voi tehdä saman sinulle.",
         "description": ""
     },
     "about-title": {
-        "message": "About Us",
+        "message": "Tietoja meistä",
         "description": "page title for the About page"
     },
     "faq-information-collected-answer-para-8-item-1": {
@@ -948,7 +956,7 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "Toimii käyttöjärjestelmissä Windows XP, Windows Vista, Windows 7, ja Windows 8 (työpöytä).",
+        "message": "Works on Windows XP, Windows Vista, Windows 7, Windows 8 (desktop), and Windows 10.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
@@ -970,6 +978,10 @@
     "faq-orig-file-purpose-question": {
         "message": "What is the file “psiphon3.exe.orig”?",
         "description": ""
+    },
+    "download-ios-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
+        "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "index-meta-title": {
         "message": "Uncensored Internet access for Windows and Mobile",
@@ -998,6 +1010,10 @@
     "blog-index-posts-in-your-language": {
         "message": "Posts in your language",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
+    },
+    "download-ios-appstore-psiphon-browser-description": {
+        "message": "Access your favorite web sites and services through the Psiphon network with our easy-to-use web browser. Available for iOS 8 and higher.",
+        "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "faq-isp-traffic-question": {
         "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?",
@@ -1032,11 +1048,11 @@
         "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
     },
     "open-source-nav-title": {
-        "message": "Open Source",
+        "message": "Avoin lähdekoodi",
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
+        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
         "description": ""
     },
     "faq-ip-change-question": {
@@ -1068,7 +1084,7 @@
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {
-        "message": "Gets you where you want to go...",
+        "message": "Vie sinut sinne minne haluat mennä...",
         "description": ""
     },
     "faq-screen-filter-question": {
@@ -1092,7 +1108,7 @@
         "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
     },
     "main-gets-you-where-you-want-head-2": {
-        "message": "Censored by your country, corporation, or campus?",
+        "message": "Sensuroiko maasi, yrityksesi tai oppilaitoksesi?",
         "description": ""
     },
     "page-keyword-download": {
@@ -1175,8 +1191,12 @@
         "message": "Psiphon Android-käyttöjärjestelmälle Amazon AppStore-webbikaupassa",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
+    "download-ios-appstore-psiphon-browser": {
+        "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
+    },
     "user-guide-windows-image-1-alt": {
-        "message": "Image showing the Windows security warning for the Psiphon executable",
+        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
@@ -1188,7 +1208,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "about-meta-title": {
-        "message": "About Us",
+        "message": "Tietoja meistä",
         "description": "meta title for the About page"
     },
     "faq-information-collected-answer-para-13-item-2": {
@@ -1200,7 +1220,7 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See this <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">discussion</a> for more information.",
+        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
@@ -1280,7 +1300,7 @@
         "description": ""
     },
     "user-guide-windows-image-2-alt": {
-        "message": "Kuva, joka näyttää, että Psiphon käynnistyy Windowsissa",
+        "message": "Screenshot showing Psiphon starting up on Windows",
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
@@ -1294,6 +1314,10 @@
     "download-nav-title": {
         "message": "Lataa",
         "description": "text for the Download page navigation item"
+    },
+    "faq-android-enable-sideloading-answer-para-0": {
+        "message": "“Sideloading” means installing an app on your device without going through the Play Store. This is desirable for people who do not have access to the Play Store, or when the app is not available in their region.",
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "Number of upgrades",
@@ -1328,7 +1352,7 @@
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "Image showing Psiphon running on Android, on the statistics panel",
+        "message": "Screenshot showing the Psiphon for Android statistics panel",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-head-1": {
@@ -1360,8 +1384,12 @@
         "description": "web page meta keyword used for SEO"
     },
     "about-nav-title": {
-        "message": "About Us",
+        "message": "Tietoja meistä",
         "description": "text for the About page navigation item"
+    },
+    "faq-authentic-windows-answer-para-2020": {
+        "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "How often each protocol is used, and error codes after failure",
@@ -1403,10 +1431,6 @@
         "message": "Only software clients created by Psiphon Inc. are permitted to use the Psiphon service. It is a violation of this license to distribute or use a third-party client or tool for use with the Psiphon service.",
         "description": ""
     },
-    "user-guide-android-image-1-alt": {
-        "message": "Image showing the Android setting for allowing non-Play Store apps",
-        "description": "alt text for an image"
-    },
     "page-keyword-contribute": {
         "message": "avusta",
         "description": "web page meta keyword used for SEO"
@@ -1437,6 +1461,10 @@
     },
     "download-direct-head": {
         "message": "Direct Downloads",
+        "description": ""
+    },
+    "faq-proxy-all-ios-browser-answer-para-1": {
+        "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
         "description": ""
     },
     "faq-mail-apps-ports-question": {

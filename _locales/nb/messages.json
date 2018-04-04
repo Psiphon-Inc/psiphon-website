@@ -47,10 +47,6 @@
         "message": "Kontakt oss",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-15": {
-        "message": "Trykk på Hjem-knappen for å returnere til hjemmeskjermen. Nå kan du igangsette Psiphon-nettleseren.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-description": {
         "message": "Psiphons personverns-praksis",
         "description": "description for the Privacy Policy page"
@@ -60,7 +56,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "contact-email-para": {
-        "message": "Du kan kontakte Psiphon ved å sende en epost til:",
+        "message": "Du kan kontakte Psiphon ved å sende en e-post til:",
         "description": ""
     },
     "index-hero-alt": {
@@ -72,15 +68,19 @@
         "description": "FAQ question."
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "Skjermbilde av påslag av programvareinstallasjon på si",
+        "message": "Skjermavbildning av sikkerhetsinnstillingen i Android som tillater installasjon av programmer som ikke kommer fra Play-butikken",
         "description": "alt text for an image"
+    },
+    "download-ios-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for iOS</strong> i Apples App-butikk",
+        "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "page-keyword-proxy": {
         "message": "mellomtjener",
         "description": "web page meta keyword used for SEO"
     },
     "download-list-join": {
-        "message": "Meld deg på <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">epostlisten for kunngjøringer</a> for viktige meddelelser og sikkerhetsråd.",
+        "message": "Meld deg på <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">e-postlisten for kunngjøringer</a> for viktige meddelelser og sikkerhetsråd.",
         "description": ""
     },
     "about-get-latest-info-para-1-developers-list": {
@@ -108,19 +108,15 @@
         "description": ""
     },
     "main-gets-you-there-safely-head-1": {
-        "message": "...og bringer deg dit trygt.",
+        "message": "…og bringer deg dit trygt.",
         "description": ""
     },
     "privacy-title": {
         "message": "Personverns-praksis",
         "description": "page title for the Privacy Policy page"
     },
-    "faq-ios-sideloading-sideloading-answer-step-5": {
-        "message": "I Impactor-menyen, klikk på \"Enhet\" og så \"Installer pakke\"",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate quoted text in this string -- they are from Cydia Impactor, which is not itself translated."
-    },
     "faq-information-collected-answer-para-12": {
-        "message": "Vår tjener epost-svartjeneste kjører i Amazon EC2-skyen. Vi sender to epost-svar til hver forespørsel, og for en av disse bruker vi Amazon SES. Dette betyr at Amazon kan se eposten du sender og vårt svar til deg.",
+        "message": "Vår tjener e-postsvartjeneste kjører i Amazon EC2-skyen. Vi sender to e-postsvar til hver forespørsel, og for en av disse bruker vi Amazon SES. Dette betyr at Amazon kan se e-posten du sender og vårt svar til deg.",
         "description": ""
     },
     "page-keyword-psiphon1": {
@@ -128,15 +124,11 @@
         "description": "web page meta keyword used for SEO"
     },
     "main-gets-you-there-safely-para-1": {
-        "message": "Fritt Internett er bra, stjålne kaker og kontoer er det ikke. Psiphon gir deg en trygg sti til internett, slik at det ikke spiller noen rolle hvordan nettverk du bruker til å koble til.",
+        "message": "Fritt Internett er bra, stjålne informasjonskapsler og kontoer er det ikke. Psiphon gir deg en trygg sti til Internett, slik at det ikke spiller noen rolle hvordan nettverk du bruker til å koble til.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-3": {
-        "message": "Last ned siste versjon av<a target=\"_blank\" href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a> for ditt operativsystem: <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/1\">macOS/OS X</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/2\">Windows</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/4\">Linux 32-bit</a>, <a target=\"_blank\" href=\"https://cydia.saurik.com/api/latest/5\">Linux 64-bit</a>.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "user-guide-android-image-3-alt": {
-        "message": "Forskjellige deler av Psiphon-nettleseren kjørende på Android",
+        "message": "Skjermavbildning som viser nettleseren i Psiphon for Android",
         "description": "alt text for an image"
     },
     "page-keyword-open-source": {
@@ -148,11 +140,11 @@
         "description": ""
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "Loggføringspanelet til Psiphon, kjørende på Android",
+        "message": "Skjermavbildning som viser loggpanelet i Psiphon for Android",
         "description": "alt text for an image"
     },
     "license-terms-of-use-header": {
-        "message": "Brukervilkår",
+        "message": "Bruksvilkår",
         "description": ""
     },
     "faq-android-enable-sideloading-question": {
@@ -183,10 +175,6 @@
         "message": "Hos Psiphon, behøver vi at våre brukere har en god opplevelse. Det betyr at vår programvare må være enkel i bruk, vårt nettverk må være raskt, og at begge deler er bunnsolid. Dette er vanskelig å oppnå for utviklere, spesielt når programvaren må kjøre i et miljø i forandring og innbyrdes konkurranse, på flere plattformer og på mange forskjellige språk.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-9": {
-        "message": "Når Cydia Impactor har gjort seg ferdig, lås opp telefonen din og åpne Innstillinger. Du kan også koble fra enheten din fra datamaskinen din nå.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "sponsor-nav-title": {
         "message": "Sponsor",
         "description": "Navigation text for the Sponsorship page"
@@ -200,7 +188,7 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
-        "message": "Statuspanelet til Psiphon for Android",
+        "message": "Skjermavbildning som viser statuspanelet i Psiphon for Android",
         "description": "alt text for an image"
     },
     "faq-vpn-slow-question": {
@@ -243,10 +231,6 @@
         "message": "Mellomtjener Psiphon-nettleseren for iOS all min internett-trafikk for hele enheten?",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-10": {
-        "message": "I Innstillinger, klikk på \"Generelle innstillinger\".",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "about-description": {
         "message": "Møt laget bak Psiphons programvare for omgåelse av internettsensur",
         "description": "description for the About page"
@@ -267,16 +251,12 @@
         "message": "Internet Explorer 8 for Windows XP",
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
-    "faq-ios-sideloading-image-7-alt": {
-        "message": "skjermavbildning av hovedskjermen i iOS, som viser \"enhetsbehandling\"-elementet.",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "faq-information-collected-answer-head-2": {
         "message": "Tilbakemeldinger",
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "Når du sender en epostforespørsel til vår automatiske epostsvarserver-tjener, kan vi se epost-adressen din. Mens din epost er under behandling, blir den lagret til epostserverens disk, og slettet så fort behandlingen er unnagjort (som oftest i løpet av sekunder). Vi tillater ikke epost-adressen din skrevet til systemets loggfil.",
+        "message": "Når du sender en e-postforespørsel til vår automatiske e-postsvartjener, kan vi se e-postadressen din. Mens din e-post er under behandling, blir den lagret til e-posttjenerens disk, og slettet så fort behandlingen er unnagjort (som oftest i løpet av sekunder). Vi tillater ikke e-postadressen din skrevet til systemets loggfil.",
         "description": ""
     },
     "faq-authentic-windows-question": {
@@ -296,7 +276,7 @@
         "description": "Page title for the Sponsorship page"
     },
     "about-who-we-are-partners-para-1": {
-        "message": "Psiphon jobber med forskjellige brupper for brukerstøtte til folk hvor de er. Vi har oversettelser for vår programvare på 15 språk, og legger til flere av våre produkter gjennom <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">her/a>, som del av Localization Lab.",
+        "message": "Psiphon jobber med forskjellige grupper for brukerstøtte til folk hvor de er. Vi har oversettelser for vår programvare på 21 språk, og legger til flere av våre produkter gjennom <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">her</a>, som del av Localization Lab.",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
@@ -314,10 +294,6 @@
     "faq-uninstall-windows-answer-para-1": {
         "message": "Psiphon for Windows blir ikke installert, og vil dermed ikke finnes i Windows sin \"Legg til eller fjern programmer\"-liste. Den kjørbare fila kan startes fra \"Nedlastinger\"-mappen, eller det kan kopieres til en annen mappe og kjøres derfra. Hvis du ønsker å fjerne programmet, kan du ganske enkelt slette den kjørbare fila.",
         "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
-    },
-    "faq-ios-sideloading-image-3-alt": {
-        "message": "skjermavbildning av Cydia Impactor-forespørselen om å skrive inn e-postadressen for brukerens Apple-ID",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "donate-heading": {
         "message": "Bidra til Psiphon",
@@ -367,17 +343,9 @@
         "message": "Ofte Stilte Spørsmål",
         "description": "title for the FAQ page"
     },
-    "faq-ios-sideloading-sideloading-answer-step-6": {
-        "message": "I filutforskervinduet som blir åpnet, finn den lagrede \"PsiphonBrowser.ipa\" og dobbeltklikk den.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-information-collected-s3-logging-para-1": {
         "message": "Vi bruker Amazon S3 til å lagre tilhørende filer funnet på nettsiden og tjeneroppdagelseslister. Vi skrur noen ganger på logging av disse filene. Analysering av disse loggene hjelper oss å besvare spørsmål som \"hvor mange brukere starter men fullfører ikke nedlasting av tjeneroppdagelseslisten?\", \"hvordan fordeler lasten seg mellom ting tilhørende nettside og tjeneroppdagelse?\", og \"begås det tjenestenekt-angrep mot våre nettsider\"?",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-step-14": {
-        "message": "Klikk på \"Betro\" i neste dialogvindu for å bekrefte handlingen.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "about-who-we-are-exec-team-head": {
         "message": "Sjefs-laget",
@@ -407,10 +375,6 @@
         "message": "Windows:",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-2": {
-        "message": "Din iOS-enhet må være tilkoblet Internett. Plugg inn din iOS-enhet til datamaskinen din. Hvis du får forespørselen \"Stol på denne datamaskinen?\", klikk på \"Betro\"-knappen.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "Dette trådte i kraft senest 1. 06. 2015 T00:00Z.",
         "description": ""
@@ -427,10 +391,6 @@
         "message": "Resultatmengden av all statistikk delt med sponsorer inndeles ytterligere etter dato, sponsor eller region.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-8": {
-        "message": "Skriv inn passordet for din Apple-ID ved neste forespørsel. Klikk så \"OK\".",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
-    },
     "user-guide-android-ui-statistics-image-annotation-3": {
         "message": "Data mottatt gjennom Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
@@ -440,7 +400,7 @@
         "description": ""
     },
     "about-who-we-are-para-1": {
-        "message": "Psiphon Inc. er en bedrift basert i Toronto, der produserer multiplattform åpen-kilekode -programvareløsninger som hjelper over 3 millioner mennesker hver uke å koble seg til innhold på Internett. Vi er et arbeidslag fokusert på å levere så bra programvare vi kan, introdusere nye produkter regelmessig, og å forsikre oss om at vi treffer behovene til vår kontinuerlig økende globale publikum.",
+        "message": "Psiphon Inc. er en bedrift basert i Toronto, som produserer multiplattforms åpen-kilekode -programvareløsninger som hjelper over 3 millioner mennesker hver uke å koble seg til innhold på Internett. Vi er et arbeidslag fokusert på å levere så bra programvare vi kan. I så måte introduserer vi nye produkter regelmessig, og å forsikrer oss om at vi treffer behovene til vårt kontinuerlig økende globale publikum.",
         "description": ""
     },
     "user-guide-windows-para-3": {
@@ -527,10 +487,6 @@
         "message": "Windows",
         "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
     },
-    "faq-ios-sideloading-sideloading-answer-intro-4": {
-        "message": "<strong>MERK:</strong> Hvis Apple-ID-en brukes for sidelasting og <em>ikke</em> er en utviklingskonto, vil programmet måtte lastes inn igjen hver uke. Denne begrensningen er Apple skyld i. Hvis Apple-ID-en <em>er</em> en utviklingskonto, vil installasjonen være gyldig i ett år.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "license-statement-of-limitations-of-liability-header": {
         "message": "Statutt for begrensninger og ansvar",
         "description": ""
@@ -563,10 +519,6 @@
         "message": "landingsside",
         "description": "web page meta keyword used for SEO"
     },
-    "faq-ios-sideloading-image-9-alt": {
-        "message": "skjermavbildning av innstillingsskjermen for enhetsbehandling i iOS for gjeldende bruker, som viser knappen de trykker for å bekrefte programutviklingskontoen",
-        "description": "Alt text for an iOS sideloading image"
-    },
     "faq-authentic-android-answer-para-3": {
         "message": "Psiphon for Android oppdaterer seg selv automatisk, denne prosessen sjekker at hver oppdatering er ekte.",
         "description": ""
@@ -574,10 +526,6 @@
     "main-gets-you-there-safely-head-2": {
         "message": "Vil du surfe i sikkerhet når du bruker offentlig trådløsnett?",
         "description": ""
-    },
-    "faq-ios-sideloading-image-2-alt": {
-        "message": "skjermavbildning av Cydia Impactor-menyelementer for \"Installer pakke\"",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
     },
     "faq-android-upgrade-bug-question": {
         "message": "Etter oppgradering av Psiphon for Android-programmet vil det ikke koble til.",
@@ -598,10 +546,6 @@
     "faq-unsupported-platforms-answer-para-1": {
         "message": "Plattformene vi støtter er dem som til enhver tid finnes på <a href=\"download.html\">nedlastingssiden</a>. Vi jobber konstant med å utvide støtten, så forhåpentligvis støtter vi ditt ønskede OS i nær fremtid.",
         "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
-    },
-    "faq-ios-sideloading-image-10-alt": {
-        "message": "skjermavbildning av innstillingsskjermen for enhetsbehandling i iOS for gjeldende bruker, som viser en forespørsel om å bekrefte at de tiltror programutviklingskontoen.",
-        "description": "Alt text for an iOS sideloading image"
     },
     "user-guide-windows-para-1": {
         "message": "Last ned klient-programmet og kjør det. Når du kjører det, vil du se en sikkerhetsforespørsel som viser deg at dette programmet er et legitimt produkt fra Psiphon Inc.",
@@ -728,7 +672,7 @@
         "description": "description for the FAQ page"
     },
     "faq-information-collected-answer-para-2-item-9": {
-        "message": "Klient-plattform (",
+        "message": "Klient-plattform (forenklet operativsystemsliste; f.eks. ikke en detaljert brukeragent som skriver seg fra nettleseren)",
         "description": ""
     },
     "user-guide-android-image-3-annotation-5": {
@@ -736,11 +680,11 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
     },
     "download-via-email-description": {
-        "message": "Hvis vår nettside eller nedlastingslenker er blokkerte eller sensurerte, kan du be om å få dem tilsendt per epost.",
+        "message": "Hvis vår nettside eller nedlastingslenker er blokkerte eller sensurerte, kan du be om å få dem tilsendt per e-post.",
         "description": ""
     },
     "download-via-email-head": {
-        "message": "Last ned via Epost",
+        "message": "Last ned via e-post",
         "description": ""
     },
     "donate-body": {
@@ -748,7 +692,7 @@
         "description": "The body of the page section that shows the donation buttons"
     },
     "faq-information-collected-answer-para-13-item-3": {
-        "message": "Størrelsen på eposten.",
+        "message": "Størrelsen på e-posten.",
         "description": ""
     },
     "download-windows-direct": {
@@ -771,10 +715,6 @@
         "message": "Hva skjedde med hele-fjøla-modus for Androidenheter med superbrukerprivilegier?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
-    "faq-ios-sideloading-image-4-alt": {
-        "message": "skjermavbildning av Cydia Impactor-forespørselen om å skrive inn passordet for brukerens Apple-ID",
-        "description": "Alt text for an iOS sideloading image. Note that 'Cydia Impactor' is a product name and should not be translated."
-    },
     "page-keyword-how-to": {
         "message": "hvordan",
         "description": "web page meta keyword used for SEO"
@@ -792,7 +732,7 @@
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "about-get-latest-info-para-1-list-start": {
-        "message": "Meld deg på vår epost-liste:",
+        "message": "Meld deg på vår e-postliste:",
         "description": ""
     },
     "faq-information-collected-answer-para-9": {
@@ -831,16 +771,12 @@
         "message": "Det finnes også avanserte teknikker som kan spore detaljer i kryptert trafikk, som hvilke nettsider som blir lest. Det fremste eksemplet på dette er \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">trafikk-fingeravtrykk</a>.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-7": {
-        "message": "Skriv inn e-postadressen for din Apple-ID i forespørselen som vises. Klikk så \"OK\".",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Do not translate 'OK' as that button will not be translated."
-    },
     "faq-reset-system-proxy-answer-para-3": {
         "message": "For å fikse dine mellomtjener-innstillinger manuelt, åpne Internet Explorer, gå til Verktøysmenyen (eller tannhjul-ikonet), Internettvalg →Tilkoblingsfanen →Knappen for LAN-innstillinger. Fjern så utkryssingen ved siden av \"Bruk en mellomtjener for mitt LAN\".",
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "download-android-playstore-pro": {
-        "message": "<strong>Psiphon Pro<strong> for Android i Google play-butikken",
+        "message": "<strong>Psiphon Pro for Android<strong> i Google Play-butikken",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
@@ -891,12 +827,8 @@
         "message": "Hvis du ser gjentatte \"tilkobling feilet\"-meldinger, betyr det at det ikke er noen tilgjengelige tjenere som din klient vet om. Prøv å laste ned en ny Psiphon-klient.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-12": {
-        "message": "Klikk på e-postadressen for din Apple-ID i skjermen som vises.",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-authentic-windows-image-alt": {
-        "message": "Visuell beskrivelse av hvordan man sjekker signaturen til den kjørbare Psiphon filen på Windows",
+        "message": "Flyten av dialogvindu som kreves for å finne sertifikatsfingeravtrykket for Psiphon på Windows",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
@@ -907,20 +839,12 @@
         "message": "Hvorfor vi gjør det",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-intro-1": {
-        "message": "\"Sidelasting\" betyr at du installerer et program på enheten din uten å gå gjennom App-butikken. Dette er nyttig for folk som ikke vil bli spionert på, ikke har tilgang til App-butikken, eller når programmet ikke er tilgjengelig i deres region.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
-    "faq-ios-sideloading-sideloading-answer-step-4": {
-        "message": "Kjør Cydia Impactor",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-windows-metro-answer-para-3": {
         "message": "Dette er eksempler på feilmeldinger du får når programmer i Metro-modus ikke klarer å fungere gjennom Psiphon.",
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
     },
     "license-para-3": {
-        "message": "Psiphon-tjenesten er utelukkende for private, og bare for personlig bruk. Hvis du ønsker å bruke Psiphon til noe annet formål eller har ytterligere krav, tilbyr vi en betalt, komersiell tjeneste. For flere detaljer, send epost til <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>.",
+        "message": "Psiphon-tjenesten er utelukkende for private, og bare for personlig bruk. Hvis du ønsker å bruke Psiphon til noe annet formål eller har ytterligere krav, tilbyr vi en betalt, komersiell tjeneste. For flere detaljer, send e-post til <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>.",
         "description": ""
     },
     "faq-windows-metro-question": {
@@ -940,7 +864,7 @@
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
     },
     "user-guide-windows-image-3-alt": {
-        "message": "Psiphon når det er tilkoblet, på Windows",
+        "message": "Skjermavbildning som viser Psiphon tilkoblet på Windows",
         "description": "alt text for an image"
     },
     "faq-section-installing-running-updating": {
@@ -1008,16 +932,12 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-information-collected-answer-para-13-item-1": {
-        "message": "Datoen og tidspunktet epost-forespørselen ble mottatt.",
+        "message": "Datoen og tidspunktet e-postforespørselen ble mottatt.",
         "description": ""
     },
     "user-guide-android-ui-status-image-annotation-1": {
         "message": "Psiphon kjører i VPN eller hele fjøla-modus. Alle programmer tunneleres gjennom Psiphon.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "faq-ios-sideloading-image-6-alt": {
-        "message": "skjermavbildning av hovedskjermen i iOS, som viser \"Generelle innstillinger\"-elementet.",
-        "description": "Alt text for an iOS sideloading image"
     },
     "main-pick-three-para-1": {
         "message": "Siden 2008 har Psiphon hjulpet millioner av mennesker i ufrie land med å nå en verden av sensurert materiale og idéer på sikkert vis. Nå kan Psiphon gjøre det samme for deg.",
@@ -1059,6 +979,10 @@
         "message": "Hva er filen “psiphon3.exe.orig”?",
         "description": ""
     },
+    "download-ios-appstore-psiphon-vpn-description": {
+        "message": "Alle programmene på din iPhone eller iPad vil ha tilgang til Internett gjennom Psiphon-nettverket. Tilgjengelig for iOS 10.2 eller høyere.",
+        "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
     "index-meta-title": {
         "message": "Usensurert Internett-tilgang for Windows og mobil-løsninger",
         "description": "Meta title for the index page"
@@ -1088,16 +1012,12 @@
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "Tilgjengelig på iOS 8 og høyere.",
-        "description": ""
+        "message": "Få tilgang til dine favorittnettsider og tjenester gjennom Psiphon-nettverket med vår enkel-å-bruke -nettleser. Tilgjengelig på iOS 8 og høyere.",
+        "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "faq-isp-traffic-question": {
         "message": "Kan min nettilbyder se hva jeg gjør på Internett når jeg bruker Psiphon?",
         "description": ""
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-3": {
-        "message": "Cydia Impactor fungerer på macOS/OS X, Windows (with iTunes installert), og Linux.",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
     },
     "open-source-para-3-list-start": {
         "message": "Windows:",
@@ -1164,7 +1084,7 @@
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {
-        "message": "Får deg dit du vil hen...",
+        "message": "Får deg dit du vil hen…",
         "description": ""
     },
     "faq-screen-filter-question": {
@@ -1172,7 +1092,7 @@
         "description": "FAQ question."
     },
     "faq-information-collected-answer-para-14": {
-        "message": "Hvis vi må diagnostisere problemet, kan det hende vi må skru på full logging på epost-tjeneren en kort periode. Hvis du sender en epost i løpet av denne perioden vil epostadressen din bli skrevet til system-loggen. De loggene blir slettet etter én uke.",
+        "message": "Hvis vi må diagnostisere problemet, kan det hende vi må skru på full logging på e-posttjeneren en kort periode. Hvis du sender en e-post i løpet av denne perioden vil e-postadressen din bli skrevet til system-loggen. De loggene blir slettet etter én uke.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-4": {
@@ -1200,7 +1120,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
-        "message": "Epost-tjeneren epost-forespørselen kom fra. (spesifikt de siste tre delene av domenenavnet. For eksempel, <code>ne1.eksempel.no</code>, men ikke <code>nett120113.post.ne1.eksempel.no </code>.)",
+        "message": "E-posttjeneren e-postforespørselen kom fra. (spesifikt de siste tre delene av domenenavnet. For eksempel, <code>ne1.eksempel.no</code>, men ikke <code>nett120113.post.ne1.eksempel.no </code>.)",
         "description": ""
     },
     "page-keyword-manual": {
@@ -1230,10 +1150,6 @@
     "faq-get-updated-version-answer-para-3": {
         "message": "<strong>Manuell oppdatering:</strong> Hvis Psiphons egne selvoppdateringsmekanisme ikke fungerer (for eksempel hvis det har blitt blokkert), kan du finne informasjon om hvordan du laster ned en fersk utgave av Psiphon fra <a href=\"download.html\">nedlastingssiden</a>.",
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
-    },
-    "faq-ios-sideloading-question": {
-        "message": "Hvordan \"sidelaster\" jeg Psiphon på min iOS-enhet?",
-        "description": "FAQ question."
     },
     "download-title": {
         "message": "Last ned Psiphon",
@@ -1268,7 +1184,7 @@
         "description": ""
     },
     "faq-information-collected-answer-head-3": {
-        "message": "Epost-svartjeneste",
+        "message": "Svartjeneste for e-post",
         "description": ""
     },
     "download-android-amazon": {
@@ -1276,11 +1192,11 @@
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "download-ios-appstore-psiphon-browser": {
-        "message": "Psiphon-nettleser for iOS i Apple-programbutikken.",
-        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
+        "message": "<strong>Psiphon-nettleseren for iOS</strong> i Apples App-butikk",
+        "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "user-guide-windows-image-1-alt": {
-        "message": "Sikkerhetsadvarsel for den kjørbare Psiphon fila",
+        "message": "Skjermavbildning som viser en sikkerhetsadvarsel i Windows for den kjørbare Psiphon-fila",
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
@@ -1296,7 +1212,7 @@
         "description": "meta title for the About page"
     },
     "faq-information-collected-answer-para-13-item-2": {
-        "message": "Datoen og tidspunktet epost-forespørselen ble besvart.",
+        "message": "Datoen og tidspunktet e-postforespørselen ble besvart.",
         "description": ""
     },
     "sponsor-banner-alt-text": {
@@ -1304,7 +1220,7 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Utgående tilkoblinger fra Psiphon-nettverket kan gjøres bare fra følgende porter:\n<code> 53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080 </code>. Se denne <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">diskusjonen</a> for mer informasjon. E-postklienter kan ikke gjøre utgående tilkoblinger på port 25. Se <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">denne diskusjonen</a> for mer informasjon.",
+        "message": "Utgående tilkoblinger fra Psiphon-nettverket kan kun gjøres bare fra følgende porter:\n<code> 53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080 </code>. Se denne <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">diskusjonen</a> for mer informasjon. E-postklienter kan ikke gjøre utgående tilkoblinger på port 25. Se <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">denne diskusjonen</a> for mer informasjon.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
@@ -1359,10 +1275,6 @@
         "message": "Alle som starter Psiphon vil se landingssiden når de kobler til med programvaren. Sponsormuligheter er tilgjengelige på ukentlig basis for denne siden.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-11": {
-        "message": "I \"Generelle innstillinger\"-delen, rull til bunnen og klikk på \"Enhetsbehandling\".",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "faq-autoproxy-question": {
         "message": "Jeg bruker <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a> Hvordan kan jeg få Psiphon for Windows til ikke å konfigurere mine mellomtjener-innstillinger?",
         "description": ""
@@ -1388,7 +1300,7 @@
         "description": ""
     },
     "user-guide-windows-image-2-alt": {
-        "message": "Bilde viser oppstart av Psiphon på Windows",
+        "message": "Skjermavbildning som viser oppstart av Psiphon på Windows",
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
@@ -1423,20 +1335,12 @@
         "message": "Blogg fra laget bak Psiphon",
         "description": ""
     },
-    "faq-ios-sideloading-image-5-alt": {
-        "message": "skjermavbildning av iOS-hjemmeskjermens innstillings-oppstarter",
-        "description": "Alt text for an iOS sideloading image"
-    },
-    "faq-ios-sideloading-sideloading-answer-step-13": {
-        "message": "I neste dialogvindu, klikk der det står \"Betro\".",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "user-guide-windows-para-4": {
         "message": "I SSH og SSH+ -modi, setter Psiphon automatisk systemets mellomtjener-innstillinger, slik at trafikk fra programmer som forholder seg til disse innstillingene blir dirigert gjennom en Psiphon-tunnel . Alle store nettlesere forholder seg til disse innstillingene normalt sett.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
-        "message": "For hver epost vi får, lagrer vil følgende informasjon:",
+        "message": "For hver e-post vi får, lagrer vil følgende informasjon:",
         "description": ""
     },
     "page-keyword-advertise": {
@@ -1448,7 +1352,7 @@
         "description": ""
     },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "Statistikk-panelet til Psiphon, kjørende på Android",
+        "message": "Skjermavbildning som viser statistikkpanelet i Psiphon for Android",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-head-1": {
@@ -1468,16 +1372,12 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
     },
     "faq-authentic-android-answer-alert": {
-        "message": "<b>VARSEL:</b> Et nylig <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">repportert</a> sikkerhetshull kan forårsake at skadelige APK-er vises som glydige. Vi anbefaler at brukere skrur på Googles Verify apps (gyldighets-sjekk) slik det er står beskrevet<a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">her</a>.",
+        "message": "<b>VARSEL:</b> Et nylig <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">rapportert</a> sikkerhetshull kan forårsake at skadelige APK-er vises som gyldige. Vi anbefaler at brukere skrur på Googles Verify apps (gyldighets-sjekk) slik det er står beskrevet<a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">her</a>.",
         "description": ""
     },
     "privacy-bulletin-entry-1-what-data": {
         "message": "Loggingen vil innhente IP-adresser, brukeragenter, tidsstempel for tilgang til en nettside. Når dataen er behandlet, vil vi ha tall på brukere fordelt på geografisk område som har tilknyttet seg filen det gjelder.",
         "description": ""
-    },
-    "faq-ios-sideloading-image-8-alt": {
-        "message": "skjermavbilding for enhetsbehandlingsskjermen i iOS, som viser hva som samsvarer med brukerens e-postadresse",
-        "description": "Alt text for an iOS sideloading image"
     },
     "page-keyword-http-proxy": {
         "message": "http-mellomtjener",
@@ -1499,17 +1399,9 @@
         "message": "Psiphon har forankret et ønske om å beskytte personvernet til sine kunder, bruker, distributører og detalj-ledd. Denne praksisen har som intensjon å opplyse deg om hvordan din private informasjon kan bli brukt. Psiphon er et Kanadisk selskap med hovedkontor i Ontario, og vår sikkerhetspraksis har blitt utviklet for å ettergå personverns-lover og statutter som gjelder for Canada og Ontario.",
         "description": ""
     },
-    "faq-ios-sideloading-sideloading-answer-step-1": {
-        "message": "<a href=\"download.html\">Last ned “PsiphonBrowser.ipa”</a> til datamaskinen din. (Det vil antagelig bli lagret i mappa kalt \"Nedlastinger\".)",
-        "description": "One step of the instructions that answer the FAQ question 'How do I “sideload” Psiphon on my iOS device?'"
-    },
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "Reklamenettverk",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
-    },
-    "faq-ios-sideloading-sideloading-answer-intro-2": {
-        "message": "Psiphon-nettleseren kan sidelastes på en iOS-enhet ved bruk av <a href=\"http://www.cydiaimpactor.com/\">Cydia Impactor</a>-verktøyet. Din enhet trenger ikke jailbreak. Du trenger en Apple-ID -konto (eller tilgang til identitetsdetaljene for en) og muligheten til å kontakte Apple under sideinnlastingsprosessen. (Avhengig av ditt lands blokkering, kan det hende du må bruke VPN på maskinen din under sidelasting.)",
-        "description": "Part of the introduction of the answer to the FAQ question 'How do I “sideload” Psiphon on my iOS device?' Note that 'Cydia Impactor' is the name of a third-party tool and must not be translated."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon reserverer seg ene og alene retten til å si opp denne lisensen når som helst, uten eller av hvilken som helst grunn, uten straff. Ved bruk av Psiphon sier du deg enig i å ikke bruke tjenesten på noe vis som er i strid med vilkårene om tjeneste og lisens beskrevet i avtalen.",
@@ -1524,7 +1416,7 @@
         "description": "text for the Privacy Policy page navigation item"
     },
     "sponsor-para-3": {
-        "message": "For mer informasjon, send en epost til <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
+        "message": "For mer informasjon, send en e-post til <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>",
         "description": ""
     },
     "privacy-bulletin-entry-1-title": {
@@ -1532,20 +1424,12 @@
         "description": ""
     },
     "user-guide-windows-para-5": {
-        "message": "Videre tilbyr Psiphon i SSH og SSH+ modus valg av en delt tunnel-løsning der internasjonal trafikk går gjennom mellomtjeneren mens innenlands-trafikk ikke gjør det. Velg \"Ikke mellomtjen nettsider innenlands\" for å skru på delt tunnelering. Når dette valget er gjeldende vil ikke mellomtjente domener bli rapportert i meldingsfeltet.",
+        "message": "Videre tilbyr Psiphon i SSH og SSH+modus valg av en delt tunnel-løsning der internasjonal trafikk går gjennom mellomtjeneren mens innenlands-trafikk ikke gjør det. Velg \"Ikke mellomtjen nettsider innenlands\" for å skru på delt tunnelering. Når dette valget er gjeldende vil ikke mellomtjente domener bli rapportert i meldingsfeltet.",
         "description": ""
     },
     "license-distribution-para": {
         "message": "Bare programvare-klienter laget av Psiphon Inc. har lov til å bruke Psiphon-tjenesten. Tillatelse til bruk for tredjeparts-klienter og verktøy er ikke gitt, i så måte er dette derfor å anse som et brudd på denne lisensen.",
         "description": ""
-    },
-    "faq-ios-sideloading-image-1-alt": {
-        "message": "skjermavbilding av enhetsforespørselen i iOS for å tiltro en tilknyttet datamaskin",
-        "description": "alt text for an iOS sideloading image"
-    },
-    "user-guide-android-image-1-alt": {
-        "message": "Android-innstilling for å tillate programmer fra andre kilder enn Play-butikken.",
-        "description": "alt text for an image"
     },
     "page-keyword-contribute": {
         "message": "hjelp til",
@@ -1554,10 +1438,6 @@
     "faq-av-firewall-answer-para-2": {
         "message": "Hvis din kopi av Psiphon er ekte, er dette en falsk positiv feilmelding. Selv om de fleste antivirus/brannmurer har lagt til Psiphons digitale signatur til i sine hvitlister, gjenkjenner noen fremdeles feilaktig Psiphons kjørbare fil som et virus eller en trussel. I så fall, <a href=\"mailto:info@psiphon.ca\">send oss en e-post</a>, der du angir AV/brannmur du bruker, så vil vi kontakte AV/brannmur-tjenestetilbyderen og ordne problemet.",
         "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
-    },
-    "faq-ios-sideloading-image-11-alt": {
-        "message": "skjermavbildning av hjemmeskjermen, som viser ikonet for Psiphon-oppstarteren",
-        "description": "Alt text for an iOS sideloading image"
     },
     "main-gets-you-where-you-want-para-1": {
         "message": "Etter å ha hanskes med undertrykkende regimer rundt omkring i verden er vi unikt skreddersydd til å gi deg det innholdet du vil ha, når du vil, og hvorhen du ønsker det.",
@@ -1592,7 +1472,7 @@
         "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-1": {
-        "message": "Antall epost-forespørsler for nedlastingslenke for klient",
+        "message": "Antall e-postforespørsler for nedlastingslenke for klient",
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {
