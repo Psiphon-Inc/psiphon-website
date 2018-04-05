@@ -59,33 +59,44 @@ docpadConfig = {
 
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
-    languages: ['en', 'fa', 'ar', 'zh', 'bo', 'de', 'el', 'es', 'fi', 'fr', 'hr', 'id', 'kk', 'ko', 'nb', 'nl', 'pt_BR', 'pt_PT', 'ru', 'th', 'tk', 'tr', 'vi', 'zh_TW']
+    languages: ['en', 'fa', 'ar', 'zh', 'am', 'az', 'be', 'bn', 'bo', 'de', 'el', 'es', 'fa_AF', 'fi', 'fr', 'hr', 'id', 'kk', 'km', 'ko', 'ky', 'my', 'nb', 'nl', 'pt_BR', 'pt_PT', 'ru', 'tg', 'th', 'tk', 'tr', 'uk', 'uz', 'vi', 'zh_TW']
     # Even if this array is modified during generation, the full list will always
     # be available in @all_languages.
 
     # Translation file location.
     translation_files:
-      en: './_locales/en/messages.json'
-      bo: './_locales/bo/messages.json'
+      am: './_locales/am/messages.json'
       ar: './_locales/ar/messages.json'
+      az: './_locales/az/messages.json'
+      be: './_locales/be/messages.json'
+      bn: './_locales/bn/messages.json'
+      bo: './_locales/bo/messages.json'
       de: './_locales/de/messages.json'
       el: './_locales/el/messages.json'
+      en: './_locales/en/messages.json'
       es: './_locales/es/messages.json'
       fa: './_locales/fa/messages.json'
+      fa_AF: './_locales/fa_AF/messages.json'
       fi: './_locales/fi/messages.json'
       fr: './_locales/fr/messages.json'
       hr: './_locales/hr/messages.json'
       id: './_locales/id/messages.json'
       kk: './_locales/kk/messages.json'
+      km: './_locales/km/messages.json'
       ko: './_locales/ko/messages.json'
+      ky: './_locales/ky/messages.json'
+      my: './_locales/my/messages.json'
       nb: './_locales/nb/messages.json'
       nl: './_locales/nl/messages.json'
       pt_BR: './_locales/pt_BR/messages.json'
       pt_PT: './_locales/pt_PT/messages.json'
       ru: './_locales/ru/messages.json'
+      tg: './_locales/tg/messages.json'
       th: './_locales/th/messages.json'
       tk: './_locales/tk/messages.json'
       tr: './_locales/tr/messages.json'
+      uk: './_locales/uk/messages.json'
+      uz: './_locales/uz@Latn/messages.json'
       vi: './_locales/vi/messages.json'
       zh: './_locales/zh/messages.json'
       zh_TW: './_locales/zh_TW/messages.json'
@@ -313,8 +324,11 @@ docpadConfig = {
 
     languageLabel: (languageCode) ->
       map =
+        "am": "አማርኛ"
         "ar": "العربية"
         "az": "azərbaycan dili"
+        "be": "Беларуская"
+        "bn": "বাংলা"
         "bo": "བོད་ཡིག"
         "cs": "Čeština"
         "de": "Deutsch"
@@ -323,6 +337,7 @@ docpadConfig = {
         "es": "Español"
         "et": "Eesti"
         "fa": "فارسی"
+        "fa_AF": "ﻑﺍﺮﺳی ﺩﺭی"
         "fi": "Suomi"
         "fr": "Français"
         "hr": "Hrvatski"
@@ -330,7 +345,10 @@ docpadConfig = {
         "id": "Bahasa Indonesia"
         "it": "Italiano"
         "kk": "қазақ тілі"
+        "km": "ភាសាខ្មែរ"
         "ko": "한국말"
+        "ky": "Кыргызча"
+        "my": "မြန်မာဘာသာ"
         "nl": "Nederlands"
         "nb": "Norsk (bokmål)"
         "pl": "Polski"
@@ -338,10 +356,13 @@ docpadConfig = {
         "pt_PT": "Português (Portugal)"
         "ru": "Русский"
         "sv": "Svenska"
+        "tg": "Тоҷикӣ"
         "th": "ภาษาไทย"
         "tk": "Türkmençe"
         "tr": "Türkçe"
         "ug@Latn": "Uyghurche"
+        "uk": "Українська"
+        "uz": "O'zbekcha"
         "uz@Cyrl": "Ўзбекча"
         "uz@Latn": "O'zbekcha"
         "vi": "Tiếng Việt"
