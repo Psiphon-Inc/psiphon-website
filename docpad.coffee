@@ -584,8 +584,8 @@ docpadConfig = {
       @docpad.log('Splitting languages; #langs:', opts.docpad.config.templateData.languages.length, '#splits:', totalLangSplits, 'currentSplit:', currLangSplit+1, 'currentLangs:', langs)
 
       if langs.length == 0
-        @docpad.fatal('docpadReady: no languages to generate, probably because the splits are too small (so maybe we are done!)')
-        process.exit(1)
+        @docpad.log('docpadReady: no languages to generate, probably because the splits are too small (so maybe we are done!)')
+        process.exit(0)
         return @
 
       opts.docpad.config.templateData.languages = langs

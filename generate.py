@@ -3,7 +3,7 @@
 import subprocess
 
 DOCPAD_ENV = 'production,static'
-GENERATE_CHUNKS = 6
+GENERATE_CHUNKS = 35
 
 
 if __name__ == '__main__':
