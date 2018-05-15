@@ -124,6 +124,47 @@ layout: page
       <%= @tt 'faq-information-collected-answer-para-5' %>
     </p>
 
+    <!-- User VPN Data -->
+    <h3><%= @tt 'privacy-information-collected-vpndata-head' %></h3>
+
+    <h4><%= @tt 'privacy-information-collected-vpndata-whycare-subhead' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whycare-para-1' %>
+    </p>
+
+    <h4><%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-subhead' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-para-2' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-para-3' %>
+    </p>
+
+    <h4><%= @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-subhead' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start' %>
+      <ul>
+        <li><%= @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1' %></li>
+        <li><%= @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2' %></li>
+        <li><%- @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3' %></li>
+        <li><%= @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4' %></li>
+      </ul>
+    </p>
+
+    <h4><%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-subhead' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-2' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-3' %>
+    </p>
+
     <!-- Feedback -->
     <h3><%= @tt 'faq-information-collected-answer-head-2' %></h3>
     <p>
