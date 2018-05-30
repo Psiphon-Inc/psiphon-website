@@ -1280,7 +1280,7 @@
     "message": "You can opt out of the use of cookies for interest-based advertising by visiting:"
   },
   "privacy-information-collected-websites-head": {
-    "message": "Websites",
+    "message": "Psiphon Websites",
     "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
   },
   "privacy-information-collected-websites-google-analytics-head": {
@@ -1305,5 +1305,73 @@
   },
   "privacy-information-collected-s3-logging-para-2": {
     "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already serves the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate it and will not be shared with third parties."
+  },
+  "privacy-information-collected-vpndata-head": {
+    "message": "User VPN Data",
+    "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data through the Psiphon VPN"
+  },
+  "privacy-information-collected-vpndata-whycare-subhead": {
+    "message": "Why should you care?",
+    "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
+  },
+  "privacy-information-collected-vpndata-whycare-para-1": {
+    "message": "When using a VPN or proxy you should be concerned about what the provider can see in your data, collect from it, and do to it. For some web and email connections, it is theoretically possible for a VPN to see, collect, and modify the contents.",
+    "description": "Paragraph text in the 'Why should you care?' subsection of the 'User VPN Data' section of the Privacy page."
+  },
+  "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead": {
+    "message": "What does Psiphon do with your VPN data?",
+    "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
+  },
+  "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1": {
+    "message": "Psiphon looks at your data only to the degree necessary to collect statistics about the usage of our system. We record the total bytes transferred for a user connection, as well as the bytes transferred for some specific domains. These statistics are discarded after 60 days.",
+    "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
+  },
+  "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2": {
+    "message": "Psiphon does not inspect or record full URLs (only domain names), and does not further inspect your data. Psiphon does not modify your data as it passes through the VPN.",
+    "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
+  },
+  "privacy-information-collected-vpndata-whatdoespsiphondowith-para-3": {
+    "message": "Even this coarse data would be difficult to link back to you, since we immediately convert your IP address to geographical info and then discard the IP. Nor is any other identifying information stored.",
+    "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
+  },
+  "privacy-information-collected-vpndata-whydoespsiphonneed-subhead": {
+    "message": "Why does Psiphon need these statistics?",
+    "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why Psiphon needs VPN data stats."
+  },
+  "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start": {
+    "message": "This data is used by us to determine how our network is being used. This allows us to do things like:",
+    "description": "Paragraph text in the 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. This paragraph serves as preamble for a detailed list, which is why it ends with a colon."
+  },
+  "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
+    "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+    "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
+  },
+  "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2": {
+    "message": "Optimize for traffic types: Video streaming has different network requirements than web browsing does, which is different than chat, which is different than voice, and so on. Statistics about the number of bytes transferred for some major media providers helps us to understand how to provide the best experience to our users.",
+    "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
+  },
+  "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
+    "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+    "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. If available in your language, the blog post URLs should be updated to the localized post."
+  },
+  "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
+    "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+    "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. (English is using 'who' instead of 'whom' to reflect common idiom.)"
+  },
+  "privacy-information-collected-vpndata-whopsiphonshareswith-subhead": {
+    "message": "Who does Psiphon share these statistics with?",
+    "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
+  },
+  "privacy-information-collected-vpndata-whopsiphonshareswith-para-1": {
+    "message": "When sharing with third parties, Psiphon only ever provides coarse, aggregate domain-bytes statistics. We never share per-session information or any other possibly-identifying information.",
+    "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+  },
+  "privacy-information-collected-vpndata-whopsiphonshareswith-para-2": {
+    "message": "This sharing is typically done with services or organizations we collaborate with — as <a href=\"http://www.dw.com/en/psiphon-helps-dodge-the-online-trackers/a-16765092\" target=\"_blank\">we did with DW</a> a few years ago. These statistics help us and them answer questions like, “how many bytes were transferred through Psiphon for DW.com to all users in Iran in April?”",
+    "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+  },
+  "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
+    "message": "Again, we specifically do not give detailed or potentially user-identifying information to partners or any other third parties.",
+    "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
   }
 }
