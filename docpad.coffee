@@ -54,6 +54,7 @@ docpadConfig = {
         "/scripts/script.js"
       ]
       externalScripts: [
+        "https://widget.psi.cash/v1/psicash.js"
       ]
 
 
