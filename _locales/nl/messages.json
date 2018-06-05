@@ -79,6 +79,10 @@
         "message": "proxy",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-vpndata-whycare-subhead": {
+        "message": "Waarom zou je erom geven?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
+    },
     "download-list-join": {
         "message": "Word lid van onze <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\"> aankondigingen mailinglijst </a> voor belangrijke aankondigingen en beveiligingswaarschuwingen.",
         "description": ""
@@ -126,6 +130,10 @@
     "main-gets-you-there-safely-para-1": {
         "message": "Gratis internet is leuk, maar gestolen cookies en de rekeningen niet. Psiphon geeft je een veilige weg naar het internet, maakt niet uit welk netwerk u gebruikt om verbinding te maken.",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1": {
+        "message": "Psiphon bekijkt uw gegevens slechts in de mate die nodig is om statistieken te verzamelen over het gebruik van ons systeem. We registreren de totale bytes die voor een gebruiker-verbindings zijn overgedragen, evenals de bytes die voor sommige specifieke domeinen zijn overgedragen. Deze statistieken worden na 60 dagen weggegooid.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "user-guide-android-image-3-alt": {
         "message": "Screenshot tonen de Psiphon voor Android web browser",
@@ -359,6 +367,14 @@
         "message": "Event logs omvatten tijdstempels, regiocodes (land en stad), en niet-identificerende kenmerken waaronder sponsor ID (bepaald door die Psiphon klant gemaakt wordt gebruikt), klant-versie, en het type protocol. bekeken pagina worden geaggregeerd door de tijd en / of sessie alvorens te worden aangemeld.",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
+        "message": "Bepaal de aard van grote censuurgebeurtenissen: Sites en diensten worden vaak plotseling en zonder waarschuwing geblokkeerd, wat kan leiden tot enorme verschillen in regionaal gebruik van Psiphon. We hadden bijvoorbeeld tot 20x pieken in gebruik binnen 1 dag toen<a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazilië WhatsApp geblokkeerd </a> of <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkije sociale media geblokkeerd</a>.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. If available in your language, the blog post URLs should be updated to the localized post."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-3": {
+        "message": "Zelfs deze ruwe gegevens zijn moeilijk terug te koppelen, omdat we uw IP-adres onmiddellijk omzetten in geografische informatie en vervolgens het IP-adres weggooien. Evenmin wordt enige andere identificerende informatie opgeslagen.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "page-keyword-blog": {
         "message": "blog",
         "description": "web page meta keyword used for SEO"
@@ -435,6 +451,10 @@
         "message": "ontwikkelaars",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead": {
+        "message": "Wat doet Psiphon met uw VPN-gegevens?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
+    },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "Om Psiphon draaien in Tunnel Hele apparaat mode, moet je Android 4.0+ of de een rooted apparaat. <br> Deze optie is niet beschikbaar voor niet-rooted apparaten met een oudere versie van Android.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
@@ -482,6 +502,10 @@
     "about-get-latest-info-para-1-users-list": {
         "message": "Psiphon Gebruikers Groep",
         "description": "text for link to the Psiphon Users mailing list"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-subhead": {
+        "message": "Waarom heeft Psiphon deze statistieken nodig?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why Psiphon needs VPN data stats."
     },
     "faq-subsection-troubleshooting-windows": {
         "message": "Windows",
@@ -699,6 +723,10 @@
         "message": "Psiphon voor Windows",
         "description": "text for link to Psiphon for Windows download"
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2": {
+        "message": "Dit delen gebeurt meestal met services of organisaties waarmee we samenwerken - zoals<a href=\"http://www.dw.com/en/psiphon-helps-dodge-the-online-trackers/a-16765092\" target=\"_blank\">die we een paar jaar geleden met DW </a> hebben gedaan. Deze statistieken helpen ons en zij beantwoorden vragen als \"Hoeveel bytes werden in april door Psiphon voor DW.com overgedragen aan alle gebruikers in Iran?\"",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-information-collected-answer-para-8-item-3": {
         "message": "Of jouw apparaat is rooted",
         "description": ""
@@ -742,6 +770,10 @@
     "privacy-bulletin-entry-1-when-doing": {
         "message": "Registratie wordt ingeschakeld vanaf 2014-04-17T15: 00Z naar 2014-04-18T15: 00Z.",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start": {
+        "message": "Deze gegevens worden door ons gebruikt om te bepalen hoe ons netwerk wordt gebruikt. Dit stelt ons in staat om dingen te doen zoals:",
+        "description": "Paragraph text in the 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. This paragraph serves as preamble for a detailed list, which is why it ends with a colon."
     },
     "nav-language-title": {
         "message": "Kies je taal",
@@ -839,6 +871,10 @@
         "message": "Waarom we het doen",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-subhead": {
+        "message": "Met wie deelt Psiphon deze statistieken?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
+    },
     "faq-windows-metro-answer-para-3": {
         "message": "De volgende zijn voorbeelden van de foutmelding die u kunt zien wanneer Metro mode apps proberen niet te werken via Psiphon.",
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
@@ -910,6 +946,10 @@
     "page-keyword-help": {
         "message": "help",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
+        "message": "Raming van toekomstige kosten: de enorme hoeveelheid gebruikersgegevens die we elke maand overbrengen, is een belangrijke factor in onze kosten. Het is van vitaal belang voor ons om gebruiksfluctuaties te zien en te begrijpen.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "about-who-we-are-partners-head": {
         "message": "Partnerschappen ",
@@ -1131,8 +1171,12 @@
         "message": "De gegevens zullen niet meer dan één week bewaard. We zullen het bijhouden van de telling van de gebruikers langer - misschien voor onbepaalde tijd.",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2": {
+        "message": "Optimaliseren voor verkeerstypen: videostreaming heeft andere netwerkvereisten dan surfen op internet, wat anders is dan chatten, wat anders is dan spraak, enzovoort. Statistieken over het aantal overgedragen bytes voor enkele grote mediabureaus helpen ons te begrijpen hoe onze gebruikers de beste ervaring kunnen bieden.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "privacy-information-collected-websites-head": {
-        "message": "Websites",
+        "message": "Psiphon Websites",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
@@ -1231,6 +1275,10 @@
         "message": "Sponsoring, reclame, en donaties",
         "description": "Page title for the Sponsorship page"
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
+        "message": "Nogmaals, we geven specifiek geen gedetailleerde of potentieel gebruiker-identificerende informatie aan partners of andere derden.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-check-version-question": {
         "message": "Hoe kan ik mijn huidige versie van Psiphon controleren?",
         "description": ""
@@ -1242,6 +1290,10 @@
     "sponsor-header-sponsored-by": {
         "message": "Gesponsord door",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2": {
+        "message": "Psiphon inspecteert of registreert geen volledige URL's (alleen domeinnamen) en inspecteert uw gegevens niet verder. Psiphon wijzigt uw gegevens niet terwijl deze door de VPN gaan.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-privacy": {
         "message": "Privacy",
@@ -1319,6 +1371,10 @@
         "message": "\"Sideloading\" betekent het installeren van een app op uw apparaat zonder de Play Store door te gaan. Dit is wenselijk voor mensen die geen toegang hebben tot de Play Store, of wanneer de app niet beschikbaar is in hun regio.",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
+    "privacy-information-collected-vpndata-head": {
+        "message": "Gebruiker VPN Gegevens",
+        "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data through the Psiphon VPN"
+    },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "Aantal upgrades",
         "description": ""
@@ -1350,6 +1406,10 @@
     "privacy-bulletin-entry-item-head-who-will-see": {
         "message": "Die behalve Psiphon Inc. wil bekijken deze gegevens",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
+        "message": "Begrijp wie we moeten helpen: sommige sites en services worden nergens geblokkeerd, sommige worden altijd geblokkeerd in bepaalde landen en sommige worden in sommige landen af en toe geblokkeerd. Om ervoor te zorgen dat onze gebruikers vrij kunnen communiceren en leren, moeten we deze patronen begrijpen, zien wie getroffen is en werken met partners om ervoor te zorgen dat hun services het beste werkt met Psiphon.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. (English is using 'who' instead of 'whom' to reflect common idiom.)"
     },
     "user-guide-android-ui-statistics-image-alt": {
         "message": "Screenshot tonen de Psiphon voor Android panel statistieken",
@@ -1391,6 +1451,10 @@
         "message": "Voor het certificaat geldig voor de periode 2017-07-05 tot 2020-10-03 is de SHA1 duimafdruk:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-1": {
+        "message": "Bij het delen met derden levert Psiphon alleen grof, geaggregeerd domein-bytes statistieken. We delen nooit per sessie informatie of andere mogelijk identificeerbare informatie.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "Hoe vaak elk protocol wordt gebruikt, en foutcodes na mislukking",
         "description": ""
@@ -1402,6 +1466,10 @@
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "Reclame-Netwerken",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "privacy-information-collected-vpndata-whycare-para-1": {
+        "message": "Wanneer u een VPN of proxy gebruikt, moet u zich zorgen maken over wat de provider in uw gegevens kan zien, er gegevens van verzamelen en doen. Voor sommige web- en e-mailverbindingen is het theoretisch mogelijk dat een VPN de inhoud kan zien, verzamelen en wijzigen.",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon behoudt zich het recht voor om naar eigen goeddunken om deze licentie op ieder moment om welke reden te beëindigen, en zonder boete. Door het gebruik van Psiphon, gaat u ermee akkoord niet om de service te gebruiken op een manier dat de termen van de dienstverlening en licentie-overeenkomst schendt.",

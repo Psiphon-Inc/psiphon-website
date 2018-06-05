@@ -79,6 +79,10 @@
         "message": "proksi",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-vpndata-whycare-subhead": {
+        "message": "Why should you care?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
+    },
     "download-list-join": {
         "message": "Önemli duyurular ve güvenlik tavsiyeleri için <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Duyuru posta listemize</a> katılın.",
         "description": ""
@@ -126,6 +130,10 @@
     "main-gets-you-there-safely-para-1": {
         "message": "Özgür İnternet güzel, ancak çalınmış çerez ve hesaplar değil. Psiphon bağlandığınız ağ ne olursa olsun, İnternet'inize güvenli bir yol sunar.",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1": {
+        "message": "Psiphon looks at your data only to the degree necessary to collect statistics about the usage of our system. We record the total bytes transferred for a user connection, as well as the bytes transferred for some specific domains. These statistics are discarded after 60 days.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "user-guide-android-image-3-alt": {
         "message": "Screenshot showing the Psiphon for Android web browser",
@@ -359,6 +367,14 @@
         "message": "Olay günlükleri zaman damgaları, bölge kodları (ülke ve şehir) ve sponsor kimliği (kullanılan Psiphon istemcisi tarafından karar verilir), istemci sürümü ve protokol sürümü gibi tanımlama yapmayan nitelikleri içerir. Sayfa görüntüleri, oturum açılmadan önce zaman ve/veya oturum ile toplanır.",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
+        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. If available in your language, the blog post URLs should be updated to the localized post."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-3": {
+        "message": "Even this coarse data would be difficult to link back to you, since we immediately convert your IP address to geographical info and then discard the IP. Nor is any other identifying information stored.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "page-keyword-blog": {
         "message": "blog",
         "description": "web page meta keyword used for SEO"
@@ -435,6 +451,10 @@
         "message": "geliştiriciler",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead": {
+        "message": "What does Psiphon do with your VPN data?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
+    },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "Psiphon'ı Tüm Cihazı Tünelle kipinde çalıştırabilmek için Android 4.0+ veya yönetici hakkı verilmiş (root) telefona sahip olmalısınız.<br><br>Bu seçenek eski Android sürümüne sahip yönetici hakkı verilmemiş telefonlarda kullanılamayacaktır.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
@@ -482,6 +502,10 @@
     "about-get-latest-info-para-1-users-list": {
         "message": "Psiphon Kullanıcı Grubu",
         "description": "text for link to the Psiphon Users mailing list"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-subhead": {
+        "message": "Why does Psiphon need these statistics?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why Psiphon needs VPN data stats."
     },
     "faq-subsection-troubleshooting-windows": {
         "message": "Windows",
@@ -699,6 +723,10 @@
         "message": "Windows için Psiphon",
         "description": "text for link to Psiphon for Windows download"
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2": {
+        "message": "This sharing is typically done with services or organizations we collaborate with — as <a href=\"http://www.dw.com/en/psiphon-helps-dodge-the-online-trackers/a-16765092\" target=\"_blank\">we did with DW</a> a few years ago. These statistics help us and them answer questions like, “how many bytes were transferred through Psiphon for DW.com to all users in Iran in April?”",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-information-collected-answer-para-8-item-3": {
         "message": "Cihazınızın root'lu olup olmadığı",
         "description": ""
@@ -742,6 +770,10 @@
     "privacy-bulletin-entry-1-when-doing": {
         "message": "Günlük işlemi 2014-04-17T15:00Z ile 2014-04-18T15:00Z arası etkin olacaktır.",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start": {
+        "message": "This data is used by us to determine how our network is being used. This allows us to do things like:",
+        "description": "Paragraph text in the 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. This paragraph serves as preamble for a detailed list, which is why it ends with a colon."
     },
     "nav-language-title": {
         "message": "Dilinizi seçin",
@@ -839,6 +871,10 @@
         "message": "Niçin yapıyoruz",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-subhead": {
+        "message": "Who does Psiphon share these statistics with?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
+    },
     "faq-windows-metro-answer-para-3": {
         "message": "Metro modu uygulamaları Psiphon yoluyla bağlanmaya çalışıp başarısız olduğunda şu gibi hata mesajları görebilirsiniz.",
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
@@ -910,6 +946,10 @@
     "page-keyword-help": {
         "message": "yardım",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
+        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "about-who-we-are-partners-head": {
         "message": "Ortaklıklar",
@@ -1131,8 +1171,12 @@
         "message": "Bu bilgi bir haftadan daha fazla tutulmayacak. Kullanıcı sayısını daha uzun süre tutacağız -- muhtemelen süresiz.",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2": {
+        "message": "Optimize for traffic types: Video streaming has different network requirements than web browsing does, which is different than chat, which is different than voice, and so on. Statistics about the number of bytes transferred for some major media providers helps us to understand how to provide the best experience to our users.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "privacy-information-collected-websites-head": {
-        "message": "Web siteleri",
+        "message": "Psiphon Websites",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
@@ -1231,6 +1275,10 @@
         "message": "Sponsorluk, reklam verme ve bağışlar",
         "description": "Page title for the Sponsorship page"
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
+        "message": "Again, we specifically do not give detailed or potentially user-identifying information to partners or any other third parties.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-check-version-question": {
         "message": "Psiphon'ımın geçerli sürümünü nasıl denetleyebilirim?",
         "description": ""
@@ -1242,6 +1290,10 @@
     "sponsor-header-sponsored-by": {
         "message": "Sponsor",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2": {
+        "message": "Psiphon does not inspect or record full URLs (only domain names), and does not further inspect your data. Psiphon does not modify your data as it passes through the VPN.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-privacy": {
         "message": "gizlilik",
@@ -1319,6 +1371,10 @@
         "message": "“Sideloading” means installing an app on your device without going through the Play Store. This is desirable for people who do not have access to the Play Store, or when the app is not available in their region.",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
+    "privacy-information-collected-vpndata-head": {
+        "message": "User VPN Data",
+        "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data through the Psiphon VPN"
+    },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "Yükseltme sayısı",
         "description": ""
@@ -1350,6 +1406,10 @@
     "privacy-bulletin-entry-item-head-who-will-see": {
         "message": "Bu verileri Psiphon Inc. arkasındaki kimler görecek",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
+        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. (English is using 'who' instead of 'whom' to reflect common idiom.)"
     },
     "user-guide-android-ui-statistics-image-alt": {
         "message": "Screenshot showing the Psiphon for Android statistics panel",
@@ -1391,6 +1451,10 @@
         "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-1": {
+        "message": "When sharing with third parties, Psiphon only ever provides coarse, aggregate domain-bytes statistics. We never share per-session information or any other possibly-identifying information.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "Her protokolün ne kadar sıklıkla kullanıldığı ve başarısızlıktan sonraki hata kodları",
         "description": ""
@@ -1402,6 +1466,10 @@
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "Reklamveren Ağlar",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "privacy-information-collected-vpndata-whycare-para-1": {
+        "message": "When using a VPN or proxy you should be concerned about what the provider can see in your data, collect from it, and do to it. For some web and email connections, it is theoretically possible for a VPN to see, collect, and modify the contents.",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon, bu lisansı hiçbir sebep belirtmeden ve herhangi bir ödeme yapmaksızın her an iptal etme yetkisine sahiptir. Psiphon kullanarak, hizmet şartları veya lisans sözleşmesine aykırı hiçbir şekilde hizmeti kullanmayacağınızı kabul etmektesiniz.",
