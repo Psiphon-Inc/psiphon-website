@@ -39,6 +39,7 @@ layout: page
     </p>
 
     <!-- Psiphon Client Software -->
+    <span class="anchor-target" id="psiphon-client-software"></span>
     <h3><%= @tt 'privacy-information-collected-client-head' %></h3>
 
     <h4><%= @tt 'privacy-information-collected-client-advertising-networks-head' %></h4>
@@ -70,6 +71,7 @@ layout: page
     </ul>
 
     <!-- Websites -->
+    <span class="anchor-target" id="websites"></span>
     <h3><%= @tt 'privacy-information-collected-websites-head' %></h3>
 
     <h4><%= @tt 'privacy-information-collected-websites-google-analytics-head' %></h4>
@@ -93,6 +95,7 @@ layout: page
     </p>
 
     <!-- Psiphon Servers -->
+    <span class="anchor-target" id="psiphon-servers"></span>
     <h3><%= @tt 'faq-information-collected-answer-head-1' %></h3>
     <p>
       <%= @tt 'faq-information-collected-answer-para-1' %>
@@ -119,6 +122,7 @@ layout: page
     </p>
 
     <!-- User VPN Data -->
+    <span class="anchor-target" id="vpn-data"></span>
     <h3><%= @tt 'privacy-information-collected-vpndata-head' %></h3>
 
     <h4><%= @tt 'privacy-information-collected-vpndata-whycare-subhead' %></h4>
@@ -159,7 +163,45 @@ layout: page
       <%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-3' %>
     </p>
 
+    <!-- PsiCash -->
+    <span class="anchor-target" id="psicash"></span>
+    <h3>PsiCash</h3>
+    <p>
+      <%= @tt 'privacy-information-collected-psicash-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-psicash-para-2-list-start' %>
+      <ul>
+        <li><%= @tt 'privacy-information-collected-psicash-para-2-item-1' %></li>
+        <li><%= @tt 'privacy-information-collected-psicash-para-2-item-2' %></li>
+        <li><%= @tt 'privacy-information-collected-psicash-para-2-item-3' %></li>
+        <li><%= @tt 'privacy-information-collected-psicash-para-2-item-4' %></li>
+        <li><%= @tt 'privacy-information-collected-psicash-para-2-item-5' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-psicash-para-3-list-start' %>
+      <ul>
+        <li><%= @tt 'privacy-information-collected-psicash-para-3-item-1' %></li>
+        <li><%= @tt 'privacy-information-collected-psicash-para-3-item-2' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-psicash-para-4-list-start' %>
+      <ul>
+        <li><%= @tt 'privacy-information-collected-psicash-para-4-item-1' %></li>
+        <li><%= @tt 'privacy-information-collected-psicash-para-4-item-2' %></li>
+        <li><%= @tt 'privacy-information-collected-psicash-para-4-item-3' %></li>
+        <li><%= @tt 'privacy-information-collected-psicash-para-4-item-4' %></li>
+        <li><%= @tt 'privacy-information-collected-psicash-para-4-item-5' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-psicash-para-5' %>
+    </p>
+
     <!-- Feedback -->
+    <span class="anchor-target" id="feedback"></span>
     <h3><%= @tt 'faq-information-collected-answer-head-2' %></h3>
     <p>
       <%= @tt 'faq-information-collected-answer-para-6' %>
@@ -183,6 +225,7 @@ layout: page
     </p>
 
     <!-- Email Responder -->
+    <span class="anchor-target" id="email-responder"></span>
     <h3><%= @tt 'faq-information-collected-answer-head-3' %></h3>
     <p>
       <%= @tt 'faq-information-collected-answer-para-11' %>
@@ -204,6 +247,7 @@ layout: page
     </p>
 
     <!-- App Stores -->
+    <span class="anchor-target" id="app-stores"></span>
     <h3><%= @tt 'faq-information-collected-answer-head-4' %></h3>
     <p>
       <%= @tt 'faq-information-collected-answer-para-10' %>
