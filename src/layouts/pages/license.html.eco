@@ -46,5 +46,13 @@ layout: page
     <p>
       <%= @tt 'license-termination-terms-of-service-violations-para-2' %>
     </p>
+    <h2>
+      <%= @tt 'license-psicash-header' %>
+    </h2>
+    <ol>
+      <li><%= @tt 'license-psicash-item-1' %></li>
+      <li><%= @tt 'license-psicash-item-2' %></li>
+      <li><%= @tt 'license-psicash-item-3' %></li>
+    </ol>
   </div>
 </div>
