@@ -19,6 +19,10 @@
         "message": "Bureau van de Privacy Commissaris van Canada",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Gebruik van PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "Wat VPN-protocol wordt gebruikt door Psiphon voor Windows? Waarom kan ik geen verbinding maken?",
         "description": ""
@@ -46,6 +50,14 @@
     "about-contact-head": {
         "message": "Contact Ons",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "balans",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individuele gebruikersgegevens worden nooit gedeeld met derden. Grof geaggregeerde statistieken kunnen worden gedeeld, maar nooit in een vorm die gebruikers mogelijk kan identificeren.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-description": {
         "message": "Psiphon privacybeleid",
@@ -86,6 +98,10 @@
     "download-list-join": {
         "message": "Word lid van onze <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\"> aankondigingen mailinglijst </a> voor belangrijke aankondigingen en beveiligingswaarschuwingen.",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "gebruiker agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "Psiphon Ontwikkelaars",
@@ -207,6 +223,10 @@
         "message": "privacybeleid",
         "description": "meta title for the Privacy Policy page"
     },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "Voor het bewaken van de gezondheid en beveiliging van het systeem, worden systeem activiteit gegevens verzameld en samengevoegd. Deze gegevens omvatten:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "Hoe lang de gegevens worden bewaard",
         "description": ""
@@ -318,6 +338,10 @@
     "faq-get-updated-version-question": {
         "message": "Hoe kan ik een bijgewerkte versie van Psiphon krijgen?",
         "description": "FAQ question"
+    },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "gegenereerde gebruikertoegangtokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "faq-autoproxy-answer-para-1": {
         "message": "Klik op Uitvoeren en typ <code> regedit </ code> om de Register-editor te openen. Het vinden en openen <code> HKEY_CURRENT_USER \\ Software \\ Psiphon3 </ code>, en aan de rechterkant ziet u <code> SkipProxySettings </ code>. Stel deze waarde in <code> 1 </ code> en Psiphon niet automatisch het systeem proxy-instellingen te configureren.",
@@ -611,6 +635,10 @@
         "message": "Privacy Bulletins ",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash verdien geschiedenis, inclusief de acties waarvoor de beloningen zijn toegekend",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "Verbindingsduur",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -638,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "ontwijking",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon behoudt zich het recht voor om te veranderen de beloningen die op elk moment voor Cash kunnen worden ingewisseld.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "open bron",
@@ -683,6 +715,10 @@
         "message": "Copyright",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In de webbrowser van de gebruiker worden sommige gegevens opgeslagen toestaan om beloningen te verdienen en aankopen te doen. Deze gegevens omvatten:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "Onze normale verzameling van gegevens zoals deze zijn beschreven in <a href=\"./faq.html#information-collected\"> de FAQ </a>. Wanneer we nodig hebben om tijdelijk te veranderen (toename) onze data verzamelen, zullen we hier beschrijven wat we doen en wat de impact is.",
         "description": ""
@@ -690,6 +726,10 @@
     "user-guide-title": {
         "message": "Hoe te gebruiken Psiphon",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "Gebruiker land",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "Antwoorden op veelgestelde vragen over Psiphon",
@@ -834,6 +874,10 @@
     "page-keyword-windows": {
         "message": "windows",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash -uitgaven geschiedenis, inclusief welke aankopen zijn gedaan",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-para-3": {
         "message": "Psiphon is ontworpen om u te voorzien van open toegang tot online content. Psiphon niet vergroot uw online privacy, en mag niet worden beschouwd of gebruikt als een online security tool.",
@@ -1039,6 +1083,10 @@
         "message": "Beëindiging; Algemene gebruiksvoorwaarden Schendingen",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "balans",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "Hoe Psiphon Werkt",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1103,6 +1151,10 @@
         "message": "Waarom wordt mijn Psiphon verbinding soms verbroken?",
         "description": "FAQ question."
     },
+    "license-psicash-item-1": {
+        "message": "Als er gedurende een jaar geen PsiCash activiteit op uw apparaat is, behoudt Psiphon zich het recht voor om uw PsiCash te annuleren.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-meta-title": {
         "message": "Privacy Bulletins ",
         "description": ""
@@ -1119,6 +1171,10 @@
         "message": "App Stores",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "Als je verliest spoor van uw PsiCash, Bijvoorbeeld door het verlies van het apparaat, dan erken je dat Psiphon niet in staat zal zijn om deze fout te corrigeren en herstellen van uw PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "Wat we doen",
         "description": ""
@@ -1126,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "Krijgt u waar u wilt gaan ...",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "client versie",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "laatste activiteit tijdstempel",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "Wanneer Psiphon voor Android eerste verbinding maakt, waarom kan ik niet selecteren \"Ik vertrouw deze toepassing\"?",
@@ -1283,6 +1347,10 @@
         "message": "Hoe kan ik mijn huidige versie van Psiphon controleren?",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "De PsiCash-server slaat per gebruiker informatie op om toestaan voor gebruik van het systeem, inclusief:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "site-title": {
         "message": "Psiphon:  gratis net",
         "description": "the title for the site"
@@ -1363,6 +1431,10 @@
         "message": "Wij doen dit om te bepalen hoeveel toegangen er zijn aan de \"lijst van de externe server\" opgeslagen in de bucket. Dit zal helpen om ons een idee van hoeveel gebruikers zijn niet aansloten.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash-gegevens over geld verdienen en uitgeven",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "Download",
         "description": "text for the Download page navigation item"
@@ -1418,6 +1490,10 @@
     "faq-information-collected-answer-head-1": {
         "message": "Psiphon Servers",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "gegenereerde gebruikertoegangstokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "De toegang logbestanden worden ook opgeslagen in een Amazon S3 bucket, zodat Amazon toegang tot de logs hebben zal. (Echter, Amazon serveert de bestanden, zodat ze al toegang kunnen hebben tot deze informatie.)",
@@ -1515,6 +1591,10 @@
         "message": "U moet eerste <a href=\"./faq.html#authentic-android\">verifiëren dat uw exemplaar van Psiphon voor Android authentiek is</a>.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "wanneer een PsiCash beloning opnieuw mag worden geclaimd",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\"> toegang bucket logbestanden </a> IP-adressen, gebruikersagenten, en tijdstempels bevatten . Deze logbestanden worden opgeslagen in S3 zelf, zodat Amazon heeft toegang tot deze logs. (Echter, Amazon serveert al de bestanden, zodat ze al toegang kunnen hebben tot deze informatie.) Psiphon ontwikkelaars zullen de logs te downloaden, verzamel- en analyseren van de gegevens, en vervolgens de logs te verwijderen. Ruwe gegevens worden enkel lang genoeg worden gehouden om het verzamelen en zal niet worden gedeeld met derden.",
         "description": ""
@@ -1526,6 +1606,10 @@
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "Het PsiCash systeem verzamelt alleen informatie die nodig is voor het functioneren van het systeem, bewaakt de gezondheid van het systeem en zorgt voor de veiligheid van het systeem.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "download-direct-head": {
         "message": "Directe Downloads",

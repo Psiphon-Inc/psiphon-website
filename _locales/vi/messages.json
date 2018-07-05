@@ -19,6 +19,10 @@
         "message": "Văn phòng Ủy Viên Bảo vệ Quyền Riêng Tư Canada",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Use of PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "Giao thức VPN nào được sử dụng bởi Psiphon cho Windows? Tại sao tôi không thể kết nối?",
         "description": ""
@@ -46,6 +50,14 @@
     "about-contact-head": {
         "message": "Liên lạc với chúng tôi",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-description": {
         "message": "Chính sách quyền Riêng Tư của Psiphon",
@@ -86,6 +98,10 @@
     "download-list-join": {
         "message": "Tham gia vào <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Danh sách nhận thư thông báo</a> của chúng tôi để nhận các thông báo quan trọng và các khuyến cáo về an ninh.",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "Nhóm phát triển Psiphon",
@@ -207,6 +223,10 @@
         "message": "Chính sách quyền Riêng Tư",
         "description": "meta title for the Privacy Policy page"
     },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "Dữ liệu sẽ được giữ lại trong bao lâu?",
         "description": ""
@@ -318,6 +338,10 @@
     "faq-get-updated-version-question": {
         "message": "Làm sao để lấy phiên bản cập nhật của Psiphon?",
         "description": "FAQ question"
+    },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "faq-autoproxy-answer-para-1": {
         "message": "Nhấp vào Run, và nhập <code>regedit</code> để mở Registry Editor. Tìm và mở <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, và ở bên phải bạn sẽ thấy <code>SkipProxySettings</code>. Đặt giá trị này thành <code>1</code> và Psiphon 3 sẽ không tự động cấu hình thiết đặt proxy hệ thống.",
@@ -611,6 +635,10 @@
         "message": "Bản tin Quyền Riêng Tư",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash earning history, including what the actions the rewards were granted for",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "Thời gian kết nối",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -638,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "vượt kiểm duyệt",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "Nguồn mở",
@@ -683,6 +715,10 @@
         "message": "Bản quyền",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "Việc thâu thập thông tin thường lệ của chúng tôi được mô tả trong <a href=\"./faq.html#information-collected\">Những câu hỏi thường gặp</a>. Khi nào cần tạm thời thay đổi việc thu thập thông tin, chúng tôi sẽ giải thích nơi đây và cho biết tác động là gì.",
         "description": ""
@@ -690,6 +726,10 @@
     "user-guide-title": {
         "message": "Làm thế nào để sử dụng Psiphon",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "user country",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "Trả lời cho các câu hỏi thường gặp về Psiphon",
@@ -834,6 +874,10 @@
     "page-keyword-windows": {
         "message": "windows",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash spending history, including what purchases were made",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-para-3": {
         "message": "Psiphon được thiết kế để cho bạn khả năng truy cập tự do đến các nội dung trên mạng. Psiphon không gia tăng bảo mật của bạn trên mạng, và không nên được xem hay dùng như một công cụ bảo mật trên mạng.",
@@ -1039,6 +1083,10 @@
         "message": "Chấm dứt; Các điều khoản vi phạm dịch vụ",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "Psiphon hoạt động thế nào",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1103,6 +1151,10 @@
         "message": "Tại sao đường kết nối Psiphon thỉnh thoảng bị ngắt?",
         "description": "FAQ question."
     },
+    "license-psicash-item-1": {
+        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-meta-title": {
         "message": "Bản tin Quyền Riêng Tư",
         "description": ""
@@ -1119,6 +1171,10 @@
         "message": "Cửa hàng App",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "Chúng tôi đang làm gì",
         "description": ""
@@ -1126,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "Đưa bạn đến nơi bạn muốn...",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "client version",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "last activity timestamp",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "Khi Psiphon cho Android kết nối lần đầu, tại sao tôi không thể chọn \"I trust this application\" (Tôi tin tưởng ứng dụng này)?",
@@ -1283,6 +1347,10 @@
         "message": "Tôi có thể kiểm tra phiên bản hiện tại của Psiphon bằng cách nào?",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "site-title": {
         "message": "Psiphon: tự do cho mạng",
         "description": "the title for the site"
@@ -1363,6 +1431,10 @@
         "message": "Chúng tôi làm việc này để xác định có bao nhiêu truy cập vào \"danh sách máy chủ từ xa\" chứa trong bucket. Việc này giúp chúng tôi biết có bao nhiêu người dùng không kết nối được.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash earning and spending details",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "Tải xuống",
         "description": "text for the Download page navigation item"
@@ -1418,6 +1490,10 @@
     "faq-information-collected-answer-head-1": {
         "message": "Máy chủ Psiphon",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "Ký sự truy cập còn được lưu trên một bucket Amazon S3, do đó Amazon có truy cập vào ký sự. (Tuy nhiên, Amazon phục vụ tập tin, do đó họ đã có sẵn truy cập thông tin này.)",
@@ -1515,6 +1591,10 @@
         "message": "Đầu tiên bạn nên <a href=\"./faq.html#authentic-android\">kiểm tra lại bản Psiphon cho Android là bản chính gốc</a>.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "when a PsiCash reward is allowed to be claimed again",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">Ký sự truy cập bucket</a> S3  bao gồm địa chỉ IP, tên phần mềm, và dấu thời gian. Các ký sự này được giữ trên S3, do đó Amazon có quyền truy cập các ký sự này. (Tuy nhiên, Amazon đã phục vụ các tập tin này, do đó họ đã có sẵn truy cập các thông tin này.) Các nhà phát triển Psiphon sẽ tải xuống ký sự, tổng hợp và phân tích dữ liệu, rồi sẽ xóa ký sự. Các dữ liệu thô chỉ được giữ vừa đủ lâu để tổng hợp lại và sẽ không được chia sẻ với các bên thứ ba.",
         "description": ""
@@ -1526,6 +1606,10 @@
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "download-direct-head": {
         "message": "Tải trực tiếp",

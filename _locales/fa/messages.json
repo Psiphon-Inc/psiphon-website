@@ -19,6 +19,10 @@
         "message": "دفتر کمیساریای حفظ حریم خصوصی کانادا",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Use of PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "از چه کدام پروتکل وی‌پی‌ان  برای سایفون‌۳ روی ویندوز استفاده شده است؟ چرا نمی‌توانم متصل شوم؟",
         "description": ""
@@ -46,6 +50,14 @@
     "about-contact-head": {
         "message": "تماس با ما",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-description": {
         "message": "سیاست حفظ حریم خصوصی سایفون",
@@ -86,6 +98,10 @@
     "download-list-join": {
         "message": "عضو <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">گروه گوگل ما شوید </a> تا اطلاعیه‌های امنیتی و هشدارهای ما را  دریافت کنید.",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "توسعه دهندگان سایفون",
@@ -207,6 +223,10 @@
         "message": "حریم خصوصی",
         "description": "meta title for the Privacy Policy page"
     },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "برای چه مدت داده ها نگهداری می شوند",
         "description": ""
@@ -318,6 +338,10 @@
     "faq-get-updated-version-question": {
         "message": "چطور می‌توانم یک نسخه‌ی به‌روزشده از سایفون داشته باشم؟",
         "description": "FAQ question"
+    },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "faq-autoproxy-answer-para-1": {
         "message": "بر روی Run کلیک کرده و <code>regedit</code> را تایپ کنید تا به رجیستری بروید.  <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> را یافته و باز کنید، سپس در سمت راست <code>SkipProxySettings</code> را خواهید دید. مقدار این بخش را <code>1</code> بگذارید. سایفون دیگر به صورت خودکار تنظیمات پروکسی سیستم تان را تغییر نخواهد داد. ",
@@ -611,6 +635,10 @@
         "message": "بولتن حفظ حریم خصوصی کاربران",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash earning history, including what the actions the rewards were granted for",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "مدت زمان اتصال",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -638,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "دور زدن",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "متن باز",
@@ -683,6 +715,10 @@
         "message": "کپی‌رایت",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "شیوه های نرمال جمع آوری داده های ما در <a href=\"./faq.html#information-collected\">صفحه سوالات متداول</a> آمده است. هر زمان که به طور موقت تغییری (افزایشی) در داده های جمع آوری شده صورت بگیرد، ما در این صفحه آن را توضیح خواهیم داد که با آن ها چه کار داریم می کنیم و چه تاثیری بر کار ما خواهند داشت.",
         "description": ""
@@ -690,6 +726,10 @@
     "user-guide-title": {
         "message": "چگونه از سایفون استفاده کنیم",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "user country",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "پاسخ سوالات متداول سایفون",
@@ -834,6 +874,10 @@
     "page-keyword-windows": {
         "message": "ویندوز",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash spending history, including what purchases were made",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-para-3": {
         "message": "سایفون ۳ برای فراهم کردن دسترسی آزاد به مطالب اینترنت  طراحی شده است. سایفون نگهداری از اطلاعات محرمانه شما روی اینترنت را افزایش نمی دهد و نباید به عنوان یک ابزار محافظ یا امنیتی در اینترنت مورد استفاده قرار گیرد.",
@@ -1039,6 +1083,10 @@
         "message": "فسخ شرایط و ضوابط نقض خدمات",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "سایفون چطور کار‌ می‌کند؟",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1103,6 +1151,10 @@
         "message": "چرا اتصال سایفون گاهی قطع می‌شود؟",
         "description": "FAQ question."
     },
+    "license-psicash-item-1": {
+        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-meta-title": {
         "message": "بولتن حفظ حریم خصوصی کاربران",
         "description": ""
@@ -1119,6 +1171,10 @@
         "message": "آپ استور ",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "چیزی که ما در حال انجام آن هستیم",
         "description": ""
@@ -1126,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "شما را به جایی که می‌خواهید بروید، می‌برد...",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "client version",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "last activity timestamp",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "هنگامی که سایفون در اندروید وصل می‌شود چرا نمی‌توانم گزینه‌ی «من به این اپلیکیشن اعتماد دارم» (I trust this application) را انتخاب بکنم؟‌ ",
@@ -1283,6 +1347,10 @@
         "message": "چگونه نسخه سایفون ۳ کنونی خود را چک کنم؟",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "site-title": {
         "message": "سایفون: اینترنت خود را آزاد کنید",
         "description": "the title for the site"
@@ -1363,6 +1431,10 @@
         "message": "ما این کار را انجام می دهیم تا بتوانیم تعداد حدودی دسترسی ها به لیست سرور راه دور که در سطل ذخیره شده اند را محاسبه کنیم. این کار به ما کمک می کند تا ببینیم ارتباط چه تعداد از کاربران با شکست مواجه شده است.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash earning and spending details",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "دانلود",
         "description": "text for the Download page navigation item"
@@ -1418,6 +1490,10 @@
     "faq-information-collected-answer-head-1": {
         "message": "سرور های سایفون",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "سیاهه دسترسی ها در یک سطل S3 آمازون نیز ذخیره می شوند، بنابراین آمازون می تواند به سیاهه ها دسترسی داشته باشد. (یا به عبارت دیگر، آمازون میزبان فایل ها است، پس می تواند محتویات آن ها را نیز بخواند.)",
@@ -1515,6 +1591,10 @@
         "message": "شما باید ابتدا <a href=\"./faq.html#authentic-android\"> تایید کنید که نسخه سایفون شما معتبر است</a>.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "when a PsiCash reward is allowed to be claimed again",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">صندوق سیاهه های دسترسی</a> S3 شامل آدرس های IP، عوامل کاربری و زمان بندی هاست. این سیاهه ها خود به خود بر روی S3 ذخیره می شوند، بنابراین آمازون به آن ها دسترسی دارد. (هرچند که آمازون به دلیل فراهم کردن این فایل ها، به آن ها از ابتدا دسترسی دارد.) توسعه دهندگان سایفون سیاهه ها را دانلود می کنند، داده ها را تحلیل کرده و سپس سیاهه ها را پاک می کنند. داده های خام تنها تا زمان کافی برای جمع آوری آن ها نگهداری می شوند و با هیچ گروه سوم شخصی به اشتراک گذاشته نخواهند شد.",
         "description": ""
@@ -1526,6 +1606,10 @@
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "گوگل آنالیز",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "download-direct-head": {
         "message": "دانلود های مستقیم ",

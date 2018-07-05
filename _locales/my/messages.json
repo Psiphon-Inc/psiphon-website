@@ -19,6 +19,10 @@
         "message": "ကနေဒါနိုင်ငံ၏ ကိုယ်ရေးကိုယ်တာအချက်အလက်များနှင့် ပုဂ္ဂလလုံခြုံရေးဆိုင်ရာ ကော်မရှင်ရုံး",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Use of PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "Windows အတွက် Psiphon တွင် မည်သည့် VPN လုပ်ထုံးလုပ်နည်းကို အသုံးပြုသနည်း။ အဘယ်ကြောင့် ကျွနု်ပ်ချိတ်ဆက်၍မရသနည်း။",
         "description": ""
@@ -46,6 +50,14 @@
     "about-contact-head": {
         "message": "ကျွနု်ပ်တို့ကိုဆက်သွယ်ရန်",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-description": {
         "message": "Psiphon ၏ ကိုယ်ရေးကိုယ်တာအချက်အလက်လုံခြုံရေး မူဝါဒ",
@@ -86,6 +98,10 @@
     "download-list-join": {
         "message": "အရေးကြီးသည့် ကြေငြာချက်များနှင့် လုံခြုံရေးအတွက်အကြံပြုချက်များ သိရှိရန်အတွက် ကျွနု်ပ်တို့၏ ကြေငြာချက်များအား <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">အီးမေးလ်ပေးပို့သည့်စာရင်း</a>တွင် ပါဝင်လိုက်ပါ။",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "Psiphon Developers",
@@ -207,6 +223,10 @@
         "message": "ကိုယ်ရေးကိုယ်တာအချက်အလက်လုံခြုံရေး မူဝါဒ",
         "description": "meta title for the Privacy Policy page"
     },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "ထိုအချက်အလက်ကို အချိန်မည်မျှကြာအောင်ထိန်းသိမ်းထားမည်နည်း",
         "description": ""
@@ -318,6 +338,10 @@
     "faq-get-updated-version-question": {
         "message": "Psiphon ၏ အဆင့်မြှင့်တင်မွမ်းမံပြီးသား ဗားရှင်းကို မည်ကဲ့သို့ရနိုင်သနည်း။",
         "description": "FAQ question"
+    },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "faq-autoproxy-answer-para-1": {
         "message": "လည်ပတ်ရန်ကိုနှိပ်ပြီး မှတ်ပုံတင်ခြင်းတည်းဖြတ်မှုကို ဖွင့်ရန်အတွက် <code>regedit</code> ဟုရိုက်ပါ။ <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>ကိုရှာပြီးဖွင့်ပါ ပြီးလျှင် <code>ကြားခံများကို ကျော်လွှားရန်အပြင်အဆင်များ</code>ဆိုသည်ကို ညာဘက်တွင်တွေ့ရပါလိမ့်မည်။ ဤတွင် တန်ဖိုးကို <code>1</code>ထားပါက Psiphon သည် စက်၏ ကြားခံအပြင်အဆင်များကို အလိုအလျောက် စီစဥ်သတ်မှတ်တော့မည်မဟုတ်ပါ။",
@@ -611,6 +635,10 @@
         "message": "ကိုယ်ရေးအချက်အလက် စာစောင်များ",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash earning history, including what the actions the rewards were granted for",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "ချိတ်ဆက်မှုလိုင်းကြာချိန်",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -638,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "ကျော်လွှားမှု",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "ပွင့်လင်းရင်းမြစ် ",
@@ -683,6 +715,10 @@
         "message": "မူပိုင်ခွင့်",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "ကျွနု်ပ်တို့၏ ပုံမှန် အချက်အလက်များကောက်ယူသော အလေ့အထများကို <a href=\"./faq.html#information-collected\">မကြာခဏမေးလေ့ရှိသော မေးခွန်းများ</a>တွင် ဖော်ပြထားသည်။ ကျွနု်ပ်တို့ကောက်ယူသော အချက်အလက်မှုပုံစံကို ယာယီအားဖြင့် ပြောင်းလဲရန် (တိုးမြှင့်ရန်) လိုအပ်ပါက ကျွနု်ပ်တို့ ဘာလုပ်နေပြီ မည်ကဲ့သို့သက်ရောက်မှုရှိမည်ကို ဤနေရာတွင် ဖော်ပြပါသည်။",
         "description": ""
@@ -690,6 +726,10 @@
     "user-guide-title": {
         "message": "Psiphon အသုံးပြုနည်း",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "user country",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "Psiphon နှင့်ပတ်သက်၍ မကြာခဏမေးလေ့ရှိသောမေးခွန်းများအတွက် အဖြေများ",
@@ -834,6 +874,10 @@
     "page-keyword-windows": {
         "message": "windows",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash spending history, including what purchases were made",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-para-3": {
         "message": "Psiphon သည် အွန်လိုင်းပေါ်ရှိ အကြောင်းအရာများ လွတ်လပ်စွာရယူနိုင်ရန် ဖန်တီးထားခြင်းဖြစ်သည်။ Psiphon သည် သင့်၏ အွန်လိုင်းပေါ်ရှိပုဂ္ဂလလုံခြုံရေးကိုတိုးမြှင့်မပေးသောကြောင့် အွန်လိုင်းလုံခြုံရေး ကိရိယာတစ်ခုအနေဖြင့် ထည့်သွင်းစဥ်းစားခြင်း သို့မဟုတ် အသုံးပြုခြင်းများ မပြုလုပ်သင့်ပါ။",
@@ -1039,6 +1083,10 @@
         "message": "ရပ်ဆိုင်းခြင်း။ အသုံးပြုမှုဆိုင်ရာသဘောတူညီချက်များအား ဖောက်ဖျက်ခြင်း",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "Psiphon မည်ကဲ့သို့အလုပ်လုပ်သနည်း",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1103,6 +1151,10 @@
         "message": "အဘယ့်ကြောင့် ကျွနု်ပ်၏ Psiphon သည် တခါတရံတွင် ချိတ်ဆက်မှုပြတ်တောက်ရသနည်း။",
         "description": "FAQ question."
     },
+    "license-psicash-item-1": {
+        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-meta-title": {
         "message": "ကိုယ်ရေးအချက်အလက် စာစောင်များ",
         "description": ""
@@ -1119,6 +1171,10 @@
         "message": "App Store များ",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "ကျွနု်တို့ ဘာလုပ်နေသလဲ။",
         "description": ""
@@ -1126,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "သင်သွားချင်တဲ့နေရာကိုခေါ်ဆောင်သွားပေးမယ့်...",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "client version",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "last activity timestamp",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "Android အတွက် Psiphon ကို ပထမဆုံးအကြိမ် ချိတ်ဆက်ချိန်တွင် အဘယ်ကြောင့် “ဤ application ကို ယုံကြည်ပါသည်”ကို ရွေးချယ်၍မရသနည်း။",
@@ -1283,6 +1347,10 @@
         "message": "ကျွနု်ပ် လက်ရှိအသုံးပြုနေသော Psiphon ဗားရှင်းကို မည်ကဲ့သို့စစ်ဆေးသိရှိနိုင်မည်နည်း။",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "site-title": {
         "message": "Psiphon: သင့်ကွန်ယက်ချိတ်ဆက်မှုကိုလွတ်လပ်စေပါ",
         "description": "the title for the site"
@@ -1363,6 +1431,10 @@
         "message": "ကျွနု်ပ်တို့ ဤသို့ပြုလုပ်ရခြင်းမှာ bucket အတွင်းသိမ်းဆည်းထားသော \"အဝေးထိန်း ဆာဗာစာရင်း\" ကို မည်မျှရယူမှုရှိနေသည်ကို သိရှိရန်ဖြစ်သည်။ ဤသို့ပြုလုပ်ခြင်းဖြင့် အသုံးပြုသူမည်မျှသည် ချိတ်ဆက်ရန်မအောင်မြင်သည်ကို သိရှိနိုင်ရန် အထောက်အကူပြုပါသည်။",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash earning and spending details",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "ဒေါင်းလုပ်လုပ်ရန်",
         "description": "text for the Download page navigation item"
@@ -1418,6 +1490,10 @@
     "faq-information-collected-answer-head-1": {
         "message": "Psiphon ဆာဗာများ",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "အသုံးပြုမှုမှတ်တမ်းများကို Amazon S3 bucket တွင်လည်း သိမ်းဆည်းထားပါသည်၊ ထို့ကြောင့် Amazon သည်လည်း မှတ်တမ်းများကိုရယူနိုင်သည်။ (မည်သို့ပင်ဆိုစေ Amazon က ဖိုင်များကို သိမ်းဆည်းထားခြင်းကြောင့် ဤသတင်းအချက်အလက်များကို ရယူနိုင်ပြီးဖြစ်သည်။)",
@@ -1515,6 +1591,10 @@
         "message": "ပထမဦးစွာ <a href=\"./faq.html#authentic-android\">သင့်  Android အတွက် ရယူထားသော Psiphon သည် မှန်ကန်မှုရှိမရှိ အရင် စစ်ဆေးသင့်ပါသည်</a>",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "when a PsiCash reward is allowed to be claimed again",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket ရယူမှုမှတ်တမ်းများ</a> တွင် IP လိပ်စာများ၊ အသုံးပြုသူအေးဂျင့်များနှင့် အသုံးပြုသည့်အချိန်များပါဝင်သည်။ ဤမှတ်တမ်းများကို S3 ထဲတွင်ပင်သိမ်းဆည်းထားခြင်းကြောင့် Amazon သည် ထိုမှတ်တမ်းများကို ရယူနိုင်သည်။ (မည်သို့ပင်ဆိုစေ Amazon က ဖိုင်များကို သိမ်းဆည်းထားခြင်းကြောင့် ဤသတင်းအချက်အလက်များကို ရယူနိုင်ပြီးဖြစ်သည်။) Psiphon developers များသည် ထိုမှတ်တမ်းများကို ဒေါင်းလုပ်လုပ်ခြင်း၊ အချက်အလက်များ ပေါင်းစပ်ခြင်းနှင့် ခွဲခြမ်းစိတ်ဖြာခြင်းများပြုလုပ်ပြီး ထိုမှတ်တမ်းများကို ဖျက်ပစ်ပါသည်။ အချက်အလက်အကြမ်းများကို အခြား တတိယပါတီအဖွဲ့အစည်းများနှင့် ဝေမျှခြင်းများ ပြုလုပ်မည်မဟုတ်ဘဲ ခွဲခြမ်းစိတ်ဖြာလေ့လာမှုများပြုလုပ်ရန်အတွက် လုံလောက်သည့် အချိန်ပမာဏလောက်အတွင်းသာ သိမ်းဆည်းထားပါသည်။",
         "description": ""
@@ -1526,6 +1606,10 @@
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "download-direct-head": {
         "message": "တိုက်ရိုက် ဒေါင်းလုပ်လုပ်မှုများ",

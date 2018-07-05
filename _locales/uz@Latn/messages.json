@@ -19,6 +19,10 @@
         "message": "Kanadaning ma’lumotlar maxfiyligi bilan bog‘liq masalalar bo‘yicha mas’ul kanselyariyasi",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Use of PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "Psiphonning Windows versiyasi qaysi VPN protokolidan foydalanadi? Nega men ulana olmayapman?",
         "description": ""
@@ -46,6 +50,14 @@
     "about-contact-head": {
         "message": "Biz bilan bog‘lanish",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-description": {
         "message": "Psiphon maxfiylik siyosati",
@@ -86,6 +98,10 @@
     "download-list-join": {
         "message": "Muhim e’lonlar va xavfsizlik tavsiyalari olish uchun  <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">e’lonlar tarqatma xatlarimizga</a> obuna bo‘ling.",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "Psiphon dasturchilari",
@@ -207,6 +223,10 @@
         "message": "Maxfiylik siyosati",
         "description": "meta title for the Privacy Policy page"
     },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "Bu ma’lumotlar qaysi muddatda saqlanadi",
         "description": ""
@@ -318,6 +338,10 @@
     "faq-get-updated-version-question": {
         "message": "Psiphonning oxirgi versiyasini qayerdan olish mumkin?",
         "description": "FAQ question"
+    },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "faq-autoproxy-answer-para-1": {
         "message": "Windows ro‘yxat daftarchasini ochish uchun “Win+R” tugmalar birikmasini bosing va <code>regedit</code> qatorini kiriting. Keyin <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> jildini oching va o‘ng tomonda  <code>SkipProxySettings</code> parametrini ko‘rasiz. Uni ochib <code>1</code> qiymatini o‘rnatsangiz, Psiphon tizim proksi-serverini avtomatik sozlashdan voz kechadi.",
@@ -611,6 +635,10 @@
         "message": "Maxfiylik xabarnomalari",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash earning history, including what the actions the rewards were granted for",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "Ulanish davomiyligi",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -638,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "aylanib o‘tish",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "Ochiq kodli DT",
@@ -683,6 +715,10 @@
         "message": "Mualliflik huquqi",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "Qanday ma’lumotlarni yig‘ishimiz haqida <a href=\"./faq.html#information-collected\">KSS</a> sahifamizda yozilgan. Ba’zida ma’lumotlar yig‘ilishini vaqtincha o‘zgartirishimiz (oshirishimiz) mumkin, bunday o‘zgarishlar qachon va nega sodir bo‘lishini shu yerda bayon qilamiz.",
         "description": ""
@@ -690,6 +726,10 @@
     "user-guide-title": {
         "message": "Psiphondan qanday foydalanish mumkin",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "user country",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "Psiphon haqida ko‘p so‘raladigan savollarga javoblar",
@@ -834,6 +874,10 @@
     "page-keyword-windows": {
         "message": "windows",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash spending history, including what purchases were made",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-para-3": {
         "message": "Psiphon onlayn kontentga ochiq ruxsat berish uchun ishlab chiqilgan. Psiphondan foydalanish Internetdagi maxfiylikni oshirmaydi va uni onlayn xavfsizlik vositasi sifatida ko‘rish yoki ishlatish tavsiya etilmaydi.",
@@ -1039,6 +1083,10 @@
         "message": "Xizmatdan foydalanish shartlarining buzilishi va bitimning bekor qilinishi",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "Psiphon qanday ishlaydi",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1103,6 +1151,10 @@
         "message": "Nega Psiphon aloqasi ba’zida uzilib qolyapti?",
         "description": "FAQ question."
     },
+    "license-psicash-item-1": {
+        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-meta-title": {
         "message": "Maxfiylik xabarnomalari",
         "description": ""
@@ -1119,6 +1171,10 @@
         "message": "Dasturlar do‘koni",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "Nima qilyapmiz",
         "description": ""
@@ -1126,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "Istalgan saytingizni ochib beradi...",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "client version",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "last activity timestamp",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "Nega men Psiphonni Android qurilmasida birinchi ishga tushirganimda “Bu dasturga ishonaman” bandi tanlanmayapti?",
@@ -1283,6 +1347,10 @@
         "message": "Mendagi joriy Psiphon versiyasini qayerdan ko‘rsam bo‘ladi?",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "site-title": {
         "message": "Psiphon: erkin internet",
         "description": "the title for the site"
@@ -1363,6 +1431,10 @@
         "message": "Biz buni qutidagi “masofaviy serverlar ro‘yxatida” nechta ulanishlar yozilganligini aniqlash uchun qilamiz. Bu bizga foydalanuvchilarning nechtasi uzilib qolayotganini aniqlashda ham yordam beradi.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash earning and spending details",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "Yuklab olish",
         "description": "text for the Download page navigation item"
@@ -1418,6 +1490,10 @@
     "faq-information-collected-answer-head-1": {
         "message": "Psiphon serverlari",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "Ulanish qaydlari Amazon S3 qutisida saqlanadi, demak Amazon bu qaydlarni ko‘ra oladi. (Chunki, Amazon baribir bu fayllar bilan ishlaydi, demak ular bu axborotni aniq ko‘radi.)",
@@ -1515,6 +1591,10 @@
         "message": "Avval <a href=\"./faq.html#authentic-android\">Android uchun Psiphon ilovangizni ishonchliligini tekshiring</a>.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "when a PsiCash reward is allowed to be claimed again",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">qutisida yoziladigan jurnal qaydlari</a> IP manzillar, foydalanuvchi agentlari va ulanish vaqtlaridan iborat bo‘ladi. Qaydlar S3 qutisini o‘zida saqlanib, Amazon ularni ko‘ra oladi. (chunki Amazon bu fayllar bilan ishlaydi.) Psiphon dasturchilari jurnal qaydlarini yuklab oladi va tahlil qiladi, tahlildan keyin qaydlar tozalanadi. Manba kodli axborot ko‘proq saqlanishi mumkin, lekin hech kimga ulashilmaydi.",
         "description": ""
@@ -1526,6 +1606,10 @@
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "download-direct-head": {
         "message": "To‘g‘ridan-to‘g‘ri yuklanmalar",
