@@ -54,12 +54,16 @@ docpadConfig = {
         "/scripts/script.js"
       ]
       externalScripts: [
+        {
+          src: "https://widget.psi.cash/v1/psicash.js"
+          attrs: 'async defer data-cfasync="false"'
+        }
       ]
 
 
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
-    languages: ['en', 'fa', 'ar', 'zh', 'am', 'az', 'be', 'bn', 'bo', 'de', 'el', 'es', 'fa_AF', 'fi', 'fr', 'hr', 'id', 'kk', 'km', 'ko', 'ky', 'my', 'nb', 'nl', 'pt_BR', 'pt_PT', 'ru', 'tg', 'th', 'tk', 'tr', 'uk', 'uz', 'vi', 'zh_TW']
+    languages: ['en', 'fa', 'ar', 'zh', 'am', 'az', 'be', 'bn', 'bo', 'de', 'el', 'es', 'fa_AF', 'fi', 'fr', 'hr', 'id', 'kk', 'km', 'ko', 'ky', 'my', 'nb', 'nl', 'om', 'pt_BR', 'pt_PT', 'ru', 'tg', 'th', 'ti', 'tk', 'tr', 'uk', 'uz', 'vi', 'zh_TW']
     # Even if this array is modified during generation, the full list will always
     # be available in @all_languages.
 
@@ -88,11 +92,13 @@ docpadConfig = {
       my: './_locales/my/messages.json'
       nb: './_locales/nb/messages.json'
       nl: './_locales/nl/messages.json'
+      om: './_locales/om/messages.json'
       pt_BR: './_locales/pt_BR/messages.json'
       pt_PT: './_locales/pt_PT/messages.json'
       ru: './_locales/ru/messages.json'
       tg: './_locales/tg/messages.json'
       th: './_locales/th/messages.json'
+      ti: './_locales/ti/messages.json'
       tk: './_locales/tk/messages.json'
       tr: './_locales/tr/messages.json'
       uk: './_locales/uk/messages.json'
@@ -351,6 +357,7 @@ docpadConfig = {
         "my": "မြန်မာဘာသာ"
         "nl": "Nederlands"
         "nb": "Norsk (bokmål)"
+        "om": "Afaan Oromo"
         "pl": "Polski"
         "pt_BR": "Português (Brasil)"
         "pt_PT": "Português (Portugal)"
@@ -358,6 +365,7 @@ docpadConfig = {
         "sv": "Svenska"
         "tg": "Тоҷикӣ"
         "th": "ภาษาไทย"
+        "ti": "ትግርኛ"
         "tk": "Türkmençe"
         "tr": "Türkçe"
         "ug@Latn": "Uyghurche"

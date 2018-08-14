@@ -185,10 +185,6 @@
     "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
     "description": "alt text for an image"
   },
-  "faq-information-collected-question": {
-    "message": "What user information does Psiphon collect?",
-    "description": "FAQ question."
-  },
   "faq-information-collected-answer-redirect": {
     "message": "Please see our <a href=\"privacy.html\">Privacy Policy</a> to learn about what information we collect.",
     "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
@@ -602,7 +598,7 @@
     "message": "Once the app has connected to the network, it will launch the built-in Psiphon browser. Psiphon for Android does not automatically tunnel the traffic for the default Android browser or other apps. By default, only the Psiphon browser is tunneled through the Psiphon network."
   },
   "user-guide-android-ui-status-image-alt": {
-    "message": "Screenshot of Psiphon for Android showing the status panel",
+    "message": "Screenshot showing the Psiphon for Android status panel",
     "description": "alt text for an image"
   },
   "user-guide-android-image-3-alt": {
@@ -828,6 +824,22 @@
   },
   "license-termination-terms-of-service-violations-para-2": {
     "message": "As the user, you are free to terminate this license agreement at any time by discontinuing use of any and all parts of the Psiphon service, and deleting all instances of the software application from your device."
+  },
+  "license-psicash-header": {
+    "message": "Use of PsiCash",
+    "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+  },
+  "license-psicash-item-1": {
+    "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+    "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+  },
+  "license-psicash-item-2": {
+    "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+    "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+  },
+  "license-psicash-item-3": {
+    "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+    "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
   },
   "about-who-we-are-head": {
     "message": "Who We Are"
@@ -1157,113 +1169,11 @@
     "message": "Psiphon is designed to provide you with open access to online content. Psiphon does not increase your online privacy, and should not be considered or used as an online security tool."
   },
   "faq-information-collected-question": {
-    "message": "What user information does Psiphon collect?"
-  },
-  "faq-information-collected-answer-head-1": {
-    "message": "Psiphon Servers"
-  },
-  "faq-information-collected-answer-head-2": {
-    "message": "Feedback"
-  },
-  "faq-information-collected-answer-head-3": {
-    "message": "Email Responder"
-  },
-  "faq-information-collected-answer-head-4": {
-    "message": "App Stores",
-    "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
+    "message": "What user information does Psiphon collect?",
+    "description": "FAQ question."
   },
   "faq-information-collected-answer-para-9": {
     "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry to the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> describing what was recorded, how long it was kept, and why."
-  },
-  "faq-information-collected-answer-para-1": {
-    "message": "We collect the following data to find out how well Psiphon is working, what sites are popular, and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries."
-  },
-  "faq-information-collected-answer-para-2-item-1": {
-    "message": "Number of email requests for client download link"
-  },
-  "faq-information-collected-answer-para-2-item-2": {
-    "message": "Number of upgrades"
-  },
-  "faq-information-collected-answer-para-2-item-3": {
-    "message": "How often each protocol is used, and error codes after failure"
-  },
-  "faq-information-collected-answer-para-2-item-4": {
-    "message": "How often new servers are discovered"
-  },
-  "faq-information-collected-answer-para-2-item-5": {
-    "message": "Session count and session duration"
-  },
-  "faq-information-collected-answer-para-2-item-7": {
-    "message": "Total bytes transferred and bytes transferred for some specific domains"
-  },
-  "faq-information-collected-answer-para-2-item-9": {
-    "message": "Client platform (simplified operating system list; e.g, not a detailed browser user agent)"
-  },
-  "faq-information-collected-answer-para-3b": {
-    "message": "User IP addresses are not collected by Psiphon servers in the normal course of operation. Psiphon does not require user accounts, so, by default, there is no collection of email addresses, usernames, or passwords."
-  },
-  "faq-information-collected-answer-para-4": {
-    "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type. Page views are aggregated by time and/or session before being logged."
-  },
-  "faq-information-collected-answer-para-5": {
-    "message": "All statistics shared with sponsors are further aggregated by date, sponsor, and region."
-  },
-  "faq-information-collected-answer-para-6": {
-    "message": "When you choose to submit feedback through Psiphon you will have the option of including diagnostic data. We use this data to help us troubleshoot any problems you might be having and to help us keep Psiphon running smoothly. Sending this data is entirely optional. The data is encrypted before you send it, and can only be decrypted by us. The information in the data varies by platform, but it may include:"
-  },
-  "faq-information-collected-answer-para-7-list-start": {
-    "message": "Windows:"
-  },
-  "faq-information-collected-answer-para-7-item-1": {
-    "message": "Operating system version"
-  },
-  "faq-information-collected-answer-para-7-item-2": {
-    "message": "Anti-virus version"
-  },
-  "faq-information-collected-answer-para-7-item-3": {
-    "message": "How you're connected to the internet (for example, if you're using dial-up or connected via a proxy)"
-  },
-  "faq-information-collected-answer-para-7-item-4": {
-    "message": "How much free memory your computer has"
-  },
-  "faq-information-collected-answer-para-8-list-start": {
-    "message": "Android:"
-  },
-  "faq-information-collected-answer-para-8-item-1": {
-    "message": "Android version"
-  },
-  "faq-information-collected-answer-para-8-item-2": {
-    "message": "Device model"
-  },
-  "faq-information-collected-answer-para-8-item-3": {
-    "message": "Whether your device is rooted"
-  },
-  "faq-information-collected-answer-para-10": {
-    "message": "Note that if you get Psiphon from an \"app store\", such as the Google Play Store or Amazon AppStore, additional statistics may be collected by that store. For example, here is a description of what the Google Play Store collects:"
-  },
-  "faq-information-collected-answer-para-11": {
-    "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). We do not allow your email address to be written to the system's log file."
-  },
-  "faq-information-collected-answer-para-12": {
-    "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. We send two email responses to every request, and for one of those responses we use Amazon SES. This means that Amazon is able to see the email you send and our response to you."
-  },
-  "faq-information-collected-answer-para-13": {
-    "message": "For each email we receive, we store the following information:"
-  },
-  "faq-information-collected-answer-para-13-item-1": {
-    "message": "The date and time the email request was received."
-  },
-  "faq-information-collected-answer-para-13-item-2": {
-    "message": "The date and time the email request was replied to."
-  },
-  "faq-information-collected-answer-para-13-item-3": {
-    "message": "The size of the email."
-  },
-  "faq-information-collected-answer-para-13-item-4": {
-    "message": "The mail server the email request came from. (The three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)"
-  },
-  "faq-information-collected-answer-para-14": {
-    "message": "If we need to diagnose a problem, we may enable full mail server logging for a short amount of time. If you send an email during that time, your email address will be written to the system log. Those logs are deleted after one week."
   },
   "privacy-information-collected-client-head": {
     "message": "Psiphon Client Software",
@@ -1305,6 +1215,42 @@
   },
   "privacy-information-collected-s3-logging-para-2": {
     "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket access logs</a> contain IP addresses, user agents, and timestamps. These logs are stored in S3 itself, so Amazon has access to these logs. (However, Amazon already serves the files, so they can already access this information.) Psiphon developers will download the logs, aggregate and analyze the data, and then delete the logs. Raw data will be kept only long enough to aggregate it and will not be shared with third parties."
+  },
+  "faq-information-collected-answer-head-1": {
+    "message": "Psiphon Servers"
+  },
+  "faq-information-collected-answer-para-1": {
+    "message": "We collect the following data to find out how well Psiphon is working, what sites are popular, and what propagation strategies are effective. This information is shared with our partners so that they can see, for example, how often their sites are visited through Psiphon and from which countries."
+  },
+  "faq-information-collected-answer-para-2-item-1": {
+    "message": "Number of email requests for client download link"
+  },
+  "faq-information-collected-answer-para-2-item-2": {
+    "message": "Number of upgrades"
+  },
+  "faq-information-collected-answer-para-2-item-3": {
+    "message": "How often each protocol is used, and error codes after failure"
+  },
+  "faq-information-collected-answer-para-2-item-4": {
+    "message": "How often new servers are discovered"
+  },
+  "faq-information-collected-answer-para-2-item-5": {
+    "message": "Session count and session duration"
+  },
+  "faq-information-collected-answer-para-2-item-7": {
+    "message": "Total bytes transferred and bytes transferred for some specific domains"
+  },
+  "faq-information-collected-answer-para-2-item-9": {
+    "message": "Client platform (simplified operating system list; e.g, not a detailed browser user agent)"
+  },
+  "faq-information-collected-answer-para-3b": {
+    "message": "User IP addresses are not collected by Psiphon servers in the normal course of operation. Psiphon does not require user accounts, so, by default, there is no collection of email addresses, usernames, or passwords."
+  },
+  "faq-information-collected-answer-para-4": {
+    "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type. Page views are aggregated by time and/or session before being logged."
+  },
+  "faq-information-collected-answer-para-5": {
+    "message": "All statistics shared with sponsors are further aggregated by date, sponsor, and region."
   },
   "privacy-information-collected-vpndata-head": {
     "message": "User VPN Data",
@@ -1373,5 +1319,140 @@
   "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
     "message": "Again, we specifically do not give detailed or potentially user-identifying information to partners or any other third parties.",
     "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+  },
+  "privacy-information-collected-psicash-para-1": {
+    "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+    "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
+  },
+  "privacy-information-collected-psicash-para-2-list-start": {
+    "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+    "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+  },
+  "privacy-information-collected-psicash-para-2-item-1": {
+    "message": "generated user access tokens",
+    "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
+  },
+  "privacy-information-collected-psicash-para-2-item-2": {
+    "message": "balance",
+    "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+  },
+  "privacy-information-collected-psicash-para-2-item-3": {
+    "message": "last activity timestamp",
+    "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
+  },
+  "privacy-information-collected-psicash-para-2-item-4": {
+    "message": "PsiCash earning history, including what the actions the rewards were granted for",
+    "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+  },
+  "privacy-information-collected-psicash-para-2-item-5": {
+    "message": "PsiCash spending history, including what purchases were made",
+    "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
+  },
+  "privacy-information-collected-psicash-para-3-list-start": {
+    "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+    "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+  },
+  "privacy-information-collected-psicash-para-3-item-1": {
+    "message": "generated user access tokens",
+    "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
+  },
+  "privacy-information-collected-psicash-para-3-item-2": {
+    "message": "when a PsiCash reward is allowed to be claimed again",
+    "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+  },
+  "privacy-information-collected-psicash-para-4-list-start": {
+    "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+    "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+  },
+  "privacy-information-collected-psicash-para-4-item-1": {
+    "message": "user country",
+    "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
+  },
+  "privacy-information-collected-psicash-para-4-item-2": {
+    "message": "balance",
+    "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+  },
+  "privacy-information-collected-psicash-para-4-item-3": {
+    "message": "user agent string",
+    "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
+  },
+  "privacy-information-collected-psicash-para-4-item-4": {
+    "message": "client version",
+    "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+  },
+  "privacy-information-collected-psicash-para-4-item-5": {
+    "message": "PsiCash earning and spending details",
+    "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+  },
+  "privacy-information-collected-psicash-para-5": {
+    "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+    "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
+  },
+  "faq-information-collected-answer-head-2": {
+    "message": "Feedback"
+  },
+  "faq-information-collected-answer-para-6": {
+    "message": "When you choose to submit feedback through Psiphon you will have the option of including diagnostic data. We use this data to help us troubleshoot any problems you might be having and to help us keep Psiphon running smoothly. Sending this data is entirely optional. The data is encrypted before you send it, and can only be decrypted by us. The information in the data varies by platform, but it may include:"
+  },
+  "faq-information-collected-answer-para-7-list-start": {
+    "message": "Windows:"
+  },
+  "faq-information-collected-answer-para-7-item-1": {
+    "message": "Operating system version"
+  },
+  "faq-information-collected-answer-para-7-item-2": {
+    "message": "Anti-virus version"
+  },
+  "faq-information-collected-answer-para-7-item-3": {
+    "message": "How you're connected to the internet (for example, if you're using dial-up or connected via a proxy)"
+  },
+  "faq-information-collected-answer-para-7-item-4": {
+    "message": "How much free memory your computer has"
+  },
+  "faq-information-collected-answer-para-8-list-start": {
+    "message": "Android:"
+  },
+  "faq-information-collected-answer-para-8-item-1": {
+    "message": "Android version"
+  },
+  "faq-information-collected-answer-para-8-item-2": {
+    "message": "Device model"
+  },
+  "faq-information-collected-answer-para-8-item-3": {
+    "message": "Whether your device is rooted"
+  },
+  "faq-information-collected-answer-head-3": {
+    "message": "Email Responder"
+  },
+  "faq-information-collected-answer-para-11": {
+    "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). We do not allow your email address to be written to the system's log file."
+  },
+  "faq-information-collected-answer-para-12": {
+    "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. We send two email responses to every request, and for one of those responses we use Amazon SES. This means that Amazon is able to see the email you send and our response to you."
+  },
+  "faq-information-collected-answer-para-13": {
+    "message": "For each email we receive, we store the following information:"
+  },
+  "faq-information-collected-answer-para-13-item-1": {
+    "message": "The date and time the email request was received."
+  },
+  "faq-information-collected-answer-para-13-item-2": {
+    "message": "The date and time the email request was replied to."
+  },
+  "faq-information-collected-answer-para-13-item-3": {
+    "message": "The size of the email."
+  },
+  "faq-information-collected-answer-para-13-item-4": {
+    "message": "The mail server the email request came from. (The three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)"
+  },
+  "faq-information-collected-answer-para-14": {
+    "message": "If we need to diagnose a problem, we may enable full mail server logging for a short amount of time. If you send an email during that time, your email address will be written to the system log. Those logs are deleted after one week."
+  },
+  "faq-information-collected-answer-head-4": {
+    "message": "App Stores",
+    "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
+  },
+  "faq-information-collected-answer-para-10": {
+    "message": "Note that if you get Psiphon from an \"app store\", such as the Google Play Store or Amazon AppStore, additional statistics may be collected by that store. For example, here is a description of what the Google Play Store collects:"
   }
 }

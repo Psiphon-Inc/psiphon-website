@@ -19,6 +19,10 @@
         "message": "Kantor Komisaris Privasi Kanada",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Penggunaan PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "Apa protokol VPN yang digunakan Psiphon untuk Windows? Mengapa saya tidak bisa tersambung ke internet?",
         "description": ""
@@ -47,6 +51,14 @@
         "message": "Hubungi Kami",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "saldo",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Data pengguna individu tidak akan dibagi kepada pihak ketiga. Agregat statistik kasar mungkin akan dibagi tapi tak pernah dalam bentuk yang dapat memungkin suatu pihak untuk mengidentifikasi pengguna.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-description": {
         "message": "Kebijakan privasi Psiphon",
         "description": "description for the Privacy Policy page"
@@ -68,20 +80,28 @@
         "description": "FAQ question."
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
+        "message": "Tangkapan layar dari pengaturan keamanan Android yang membolehkan instalasi app yang bukan dari Play Store",
         "description": "alt text for an image"
     },
     "download-ios-appstore-psiphon-vpn": {
-        "message": "<strong>Psiphon for iOS</strong> in the Apple App Store",
+        "message": "<strong>Psiphon untuk iOS</strong> di Apple App Store",
         "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "page-keyword-proxy": {
         "message": "proksi",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-vpndata-whycare-subhead": {
+        "message": "Mengapa anda perlu peduli?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
+    },
     "download-list-join": {
         "message": "Bergabunglah dengan <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">milis Pengumuman</a> kami untuk mendapatkan pengumuman penting dan saran keamanan.",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "Pengembang Psiphon",
@@ -127,8 +147,12 @@
         "message": "Internet bebas itu bagus, tapi pasti tidak ada yang mau kuki dan akunnya dicuri. Psiphon memberi Anda jalur aman menuju internet, apa pun jaringannya.",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1": {
+        "message": "Psiphon melihat data Anda hanya sampai pada tingkat seperlunya saja untuk mengumpulkan staistik mengenai penggunaan sistem kami. Kami merekam total jumlah bit yang ditransfer untuk koneksi pgguna, juga bit yang ditransfer untuk domain-domain tertentu. Statistik ini dibuang setelah 60 hari. ",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "user-guide-android-image-3-alt": {
-        "message": "Screenshot showing the Psiphon for Android web browser",
+        "message": "Tangkapan layar menunjukkan peramban web Psiphon untuk Android",
         "description": "alt text for an image"
     },
     "page-keyword-open-source": {
@@ -140,7 +164,7 @@
         "description": ""
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android logs panel",
+        "message": "Tangkapan layar menunjukkan panel catatan Psiphon untuk Android",
         "description": "alt text for an image"
     },
     "license-terms-of-use-header": {
@@ -188,7 +212,7 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
-        "message": "Screenshot of Psiphon for Android showing the status panel",
+        "message": "Tangkapan layar Psiphon untuk Android menunjukkan panel status",
         "description": "alt text for an image"
     },
     "faq-vpn-slow-question": {
@@ -198,6 +222,10 @@
     "privacy-meta-title": {
         "message": "Kebijakan Privasi",
         "description": "meta title for the Privacy Policy page"
+    },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "Untuk memonitor sistem kesehatan, data aktivitas sistem dikumpulkan dan diagregat. Data ini termasuk:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "Sampai kapan data tersebut akan disimpan",
@@ -280,7 +308,7 @@
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "Michael Hull is President of Psiphon Inc., and has been with Psiphon since the very beginning, when it started as a project at the Citizen Lab, University of Toronto. He has since led the software development effort and helps to drive the innovation that keeps Psiphon at the very top of its game.",
+        "message": "Michael Hull adalah Presiden dari Psiphon Inc., dan telah bersama Psiphon sejak awal, ketika projek ini dimulai di Citizen Lab, Universitas Toronto. Semenjak itu, dia memimpin upaya pengembangan perangkat lunak dan membantu mendorong inovasi yang membuat Psiphon berada di puncak permainannya.",
         "description": ""
     },
     "faq-authentic-windows-answer-para-2017": {
@@ -311,6 +339,10 @@
         "message": "Bagaimana cara saya mendapat versi yang terbaharui dari Psiphon?",
         "description": "FAQ question"
     },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "membangkitkan token akses pengguna",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "Klik Run, ketik <code>regedit</code> untuk membuka Registry Editor. Cari, lalu buka <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> dan temukan <code>SkipProxySettings</code> di sisi kanan. Klik kanan, ubah value-nya menjadi <code>1</code> sehingga Psiphon tidak akan mengatur setelan proksi sistem secara otomatis.",
         "description": ""
@@ -324,7 +356,7 @@
         "description": "heading for the Android section of the User Guide"
     },
     "faq-unsupported-platforms-question": {
-        "message": "Is Psiphon available for macOS, Linux, Windows Phone, etc.?",
+        "message": "Apakah Psiphon tersedia untuk OS X, Linux, iOS, Windows Phone, dll.?",
         "description": "FAQ question."
     },
     "faq-subsection-troubleshooting-android": {
@@ -358,6 +390,14 @@
     "faq-information-collected-answer-para-4": {
         "message": "Catatan kegiatan meliputi waktu, kode wilayah (negara dan kota), dan atribut non-identifikasi, termasuk ID sponsor (ditentukan oleh versi aplikasi klien Psiphon yang digunakan), versi aplikasi klien, dan jenis protokol. Jumlah pemirsa laman dikumpulkan secara agregat berdasarkan waktu dan/atau sesi sebelum dicatat.",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
+        "message": "Menentukan sifat dari peristiwa penyensoran besar: Ssitus dan layanan seringkali terkena blok tiba-tiba dan tanpa peringatan, yang dapat menuntun pada variasi besar penggunaan regional Psiphon. Sebagai contoh, kami memproleh 20x peningkatan pengguna dalam beberapa hari saat <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brasil memblok WhatsApp</a> atau <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turki memblok media sosial</a>.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. If available in your language, the blog post URLs should be updated to the localized post."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-3": {
+        "message": "Bahkan data kasar ini akan sulit untuk dihubungkan kembali kepada Anda, karena kami segera mengubah alamat IP Anda ke info geografis dan kemudian membuang informasi IP. Juga tidak ada informasi identitas lain yang disimpan.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-blog": {
         "message": "blog",
@@ -396,7 +436,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "Hanya dalam modus VPN. Setelah berhasil tersambung ke internet dalam modus VPN, seluruh lalu lintas komputer Anda akan melewati jaringan Psiphon. Saat modus VPN dinonaktifkan, hanya aplikasi yang memakai proksi HTTP dan SOCKS lokal yang akan diproksikan.",
+        "message": "Hanya dalam mode VPN. Setelah berhasil tersambung ke internet dalam mode VPN, seluruh lalu lintas komputer Anda akan melewati jaringan Psiphon. Saat mode VPN dinonaktifkan, hanya aplikasi yang memakai proksi HTTP dan SOCKS lokal yang akan diproksikan.",
         "description": ""
     },
     "about-who-we-are-para-1": {
@@ -413,7 +453,7 @@
     },
     "faq-information-collected-question": {
         "message": "Apa saja informasi pengguna yang dikumpulkan Psiphon?",
-        "description": ""
+        "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-7": {
         "message": "Jumlah byte yang ditransfer dan byte yang ditransfer untuk beberapa domain tertentu",
@@ -434,6 +474,10 @@
     "page-keyword-developers": {
         "message": "pengembang",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead": {
+        "message": "Apa yang Psiphon lakukan kepada data VPN Anda?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "Untuk menjalankan Psiphon dalam modus Seluruh Perangkat, Anda harus memiliki perangkat Android 4.0+ atau yang telah di-root.<br><br>Pilihan ini tidak akan tersedia untuk perangkat Android versi lebih lama yang belum di-root.",
@@ -482,6 +526,10 @@
     "about-get-latest-info-para-1-users-list": {
         "message": "Grup Pengguna Psiphon",
         "description": "text for link to the Psiphon Users mailing list"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-subhead": {
+        "message": "Kenapa Psiphon membutuhkan statistik ini?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why Psiphon needs VPN data stats."
     },
     "faq-subsection-troubleshooting-windows": {
         "message": "Windows",
@@ -587,6 +635,10 @@
         "message": "Buletin Privasi",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "Sejarah pendapatan PsiCash, termasuk dari aksi apa ganjaran dihasilkan",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "Lama sambungan",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -614,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "penembus",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon berhak mengubah ganjaran yang dapat ditukar ke PsiCash setiap waktu.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "Sumber Terbuka",
@@ -659,6 +715,10 @@
         "message": "Hak Cipta",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "Di dalam peramban web pengguna, sejumlah data disimpan untuk mengaktifkan perolehan ganjaran dan melakukan pembelian. Data ini termasuk:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "Praktik pengumpulan data kami dalam keadaan normal dijelaskan di daftar <a href=\"./faq.html#information-collected\">Tanya-Jawab</a>. Jika suatu saat kami perlu mengubah (menambah) pengumpulan data kami untuk sementara, kami akan menjelaskan apa yang kami lakukan dan apa dampaknya di sini.",
         "description": ""
@@ -666,6 +726,10 @@
     "user-guide-title": {
         "message": "Cara Menggunakan Psiphon",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "negeri pengguna",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "Jawaban pertanyaan yang sering diajukan tentang Psiphon",
@@ -698,6 +762,10 @@
     "download-windows-direct": {
         "message": "Psiphon untuk Windows",
         "description": "text for link to Psiphon for Windows download"
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2": {
+        "message": "Proses berbagi ini biasanya dilakukan dengan layanan atau organisasi yang kami bekerjasama -- seperti yang <a href=\"http://www.dw.com/en/psiphon-helps-dodge-the-online-trackers/a-16765092\" target=\"_blank\">kami lakukan dengan DW</a> beberapa tahun yang lalu. Statistik ini membantu kami dan mereka menjawab pertanyaan seperti, \"berapa bit ditransfer melalui Psiphon ke DW.com untuk semua penggna di Iran pada bulan Aprl?\"",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "faq-information-collected-answer-para-8-item-3": {
         "message": "Untuk mengetahui status root perangkat Anda",
@@ -743,6 +811,10 @@
         "message": "Pencatatan akan diaktifkan mulai 17-04-2014, 15.00 GMT hingga 18-04-2014, 15.00 GMT",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start": {
+        "message": "Data ini kami gunakan untuk menentukan bagaimana jaringan kami digunakan. Ini membantu kami untuk melakukan hal seperti:",
+        "description": "Paragraph text in the 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. This paragraph serves as preamble for a detailed list, which is why it ends with a colon."
+    },
     "nav-language-title": {
         "message": "Pilih bahasa Anda",
         "description": ""
@@ -776,7 +848,7 @@
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
     "download-android-playstore-pro": {
-        "message": "<strong>Psiphon Pro for Android</strong> in the Google Play Store",
+        "message": "<strong>Psiphon Pro untuk Android</strong> di Google Play Store",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "page-keyword-vpn": {
@@ -803,6 +875,10 @@
         "message": "windows",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "Sejarah pengeluaran PsiCash, termasuk pembelian apa yang dikeluarkan",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-para-3": {
         "message": "Psiphon dirancang untuk memberi Anda akses terbuka ke konten online. Psiphon tidak menambah privasi online Anda dan tidak seharusnya dianggap atau digunakan sebagai alat keamanan berinternet.",
         "description": ""
@@ -828,7 +904,7 @@
         "description": ""
     },
     "faq-authentic-windows-image-alt": {
-        "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
+        "message": "Aliran kotak dialog yang diperlukan guna menemukan sidik jari sertifikat Psiphon untuk Windows",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-status-image-annotation-4": {
@@ -838,6 +914,10 @@
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "Mengapa kami melakukannya",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-subhead": {
+        "message": "Kepada siapa Psiphon membagikan statistik ini?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
     },
     "faq-windows-metro-answer-para-3": {
         "message": "Contoh berikut ini adalah pesan error yang mungkin anda lihat saat aplikasi dengan mode Metro sedang mencoba dan gagal untuk bekerja melalui Psiphon.",
@@ -864,7 +944,7 @@
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
     },
     "user-guide-windows-image-3-alt": {
-        "message": "Screenshot showing Psiphon connected on Windows",
+        "message": "Tangkapan layar menunjukkan Psiphon terkoneksi pada Windows",
         "description": "alt text for an image"
     },
     "faq-section-installing-running-updating": {
@@ -880,7 +960,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "faq-android-enable-sideloading-answer-para-1": {
-        "message": "In order to install a direct download of Psiphon for Android, you must enable sideloading on your device. To do so, go into your Android settings, then into the “Security” section, then enable “Unknown sources”.",
+        "message": "Agar dapat memasang Psiphon untuk Android yang diunduh secara langsung, Anda harus mengaktifkan sideloading pada perangkat Anda. Untuk mengaktifkannya, buka setelan Android Anda, lalu ke bagian \"Keamanan\", lalu aktifkan \"Sumber tidak dikenal\".",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-isp-traffic-answer-para-4": {
@@ -910,6 +990,10 @@
     "page-keyword-help": {
         "message": "bantuan",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
+        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "about-who-we-are-partners-head": {
         "message": "Kemitraan",
@@ -956,7 +1040,7 @@
         "description": ""
     },
     "download-windows-direct-description": {
-        "message": "Works on Windows XP, Windows Vista, Windows 7, Windows 8 (desktop), and Windows 10.",
+        "message": "Bekerja untuk Windows XP, Windows Vista, Windows 7, Windows 8 (desktop), dan Windows 10.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
@@ -980,7 +1064,7 @@
         "description": ""
     },
     "download-ios-appstore-psiphon-vpn-description": {
-        "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
+        "message": "Semua app dalam iPhone dan iPad anda akan mengakses Internet melalui jaringan Psiphon. Tersedia untuk iOS 10.2 dan versi lebih tinggi.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "index-meta-title": {
@@ -999,6 +1083,10 @@
         "message": "Penghentian Layanan; Pelanggaran Ketentuan Layanan",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "saldo",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "Bagaimana Psiphon Bekerja",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1012,7 +1100,7 @@
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "Access your favorite web sites and services through the Psiphon network with our easy-to-use web browser. Available for iOS 8 and higher.",
+        "message": "Akses situs web dan layanan favoritmu melalui jaringan Psiphon dengan peramban kami yang mudah digunakan. Tersedia untuk iOS 8 ke atas.",
         "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "faq-isp-traffic-question": {
@@ -1052,7 +1140,7 @@
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
+        "message": "Layanan Psiphon diberikan \"sebagaimana adanya\" dan tanpa disertai jaminan atau kewajiban apa pun, tersurat maupun tersirat. Psiphon menyangkal semua jaminan dan kewajiban yang berkaitan dengan penggunaan layanan ini meliputi cedera pribadi maupun segala bentuk kerugian pribadi atau komersial yang bersifat insidental, khusus, tak langsung, atau sebab-akibat, termasuk kehilangan data dan gangguan bisnis.",
         "description": ""
     },
     "faq-ip-change-question": {
@@ -1062,6 +1150,10 @@
     "faq-periodic-disconnect-question": {
         "message": "Kenapa koneksi Psiphon saya terkadang terputus?",
         "description": "FAQ question."
+    },
+    "license-psicash-item-1": {
+        "message": "Jika tidak ada aktivitas PsiCash pada perangkat Anda selama setahun, maka Psiphon punya hak untuk cancel PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
     },
     "privacy-bulletin-meta-title": {
         "message": "Buletin Privasi",
@@ -1079,6 +1171,10 @@
         "message": "Toko Aplikasi",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "Jika Anda kehilangan jejak PsiCash, sebagai contoh ketika Anda kehilangan perangkat, maka Anda mengetahui bahwa Psiphon tidak akan bisa membetulkan kesalahan ini dan memulihkan PsiCash Anda.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "Apa yang kami lakukan",
         "description": ""
@@ -1086,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "Mengantar ke mana pun yang Anda inginkan...",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "versi klien",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "aktivitas terakhir menurut cap waktu",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "Saat Psiphon untuk Android tersambung pertama kali, kenapa saya tidak dapat memilih \"Saya percaya aplikasi ini\"",
@@ -1131,8 +1235,12 @@
         "message": "Data tersebut akan disimpan tidak lebih dari satu minggu. Kami akan menyimpan jumlah pengguna lebih lama lagi, kemungkinan dalam rentang waktu tak terbatas.",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2": {
+        "message": "Mengoptimalkan untuk tipe lalu lintas: Video streaming punya persyaratan jaringan berbeda ketimbang peramban web, yang sangat berbeda ketimbang percakapan, yang berbeda dengan suara dan demikian demikian. Statistik soal besaran byte yang dipindahkan untuk penyedia media besar membantu kita untuk  untuk memahami bagaimana cara terbaik menyediakan pengalaman terbaik bagi para pengguna kami. ",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "privacy-information-collected-websites-head": {
-        "message": "Situs Web",
+        "message": "Situsweb Psiphon",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
@@ -1192,11 +1300,11 @@
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "download-ios-appstore-psiphon-browser": {
-        "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
+        "message": "<strong>Psiphon Browser untuk iOS</strong> di Apple App Store",
         "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "user-guide-windows-image-1-alt": {
-        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
+        "message": "Tangkapan layar memperlihatkan peringatan keamanan Windows untuk Psiphon yang dapat dieksekusi ",
         "description": "alt text for an image"
     },
     "download-android-direct-description": {
@@ -1220,7 +1328,7 @@
         "description": "alt text for an image"
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
+        "message": "Koneksi keluar melalui jaringan Psiphon hanya dapat dilakukan ke sekumpulan porta peladen yang terbatas termasuk: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Lihat <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">diskusi</a> ini untuk informasi lebih lanjut. Klien surel tidak dapat membuat koneksi keluar pada porta 25. Lihat <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">diskusi ini</a> untuk informasi lebih lanjut.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "download-store-head": {
@@ -1231,9 +1339,17 @@
         "message": "Sponsor, iklan, dan sumbangan",
         "description": "Page title for the Sponsorship page"
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
+        "message": "Sekali lagi, kami secara khusus tidak memberi informasi rinci atau yang berpotensi mengidentifikasi pengguna kepada rekan ataupun pihak ketiga.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-check-version-question": {
         "message": "Bagaimana cara mengecek versi Psiphon yang saya pakai?",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "PsiCash server menyimpan informasi tiap pengguna untuk mengaktifkan sistem operasi, termasuk:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "site-title": {
         "message": "Psiphon: Bebaskan internetmu",
@@ -1242,6 +1358,10 @@
     "sponsor-header-sponsored-by": {
         "message": "Didukung oleh:",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2": {
+        "message": "Psiphon tidak memeriksa atau merekam URL lengkap (hanya nama domain), dan tidak memeriksa lebih lanjut data Anda. Psiphon tidak mengubah data Anda saat melewati VPN.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-privacy": {
         "message": "privasi",
@@ -1300,7 +1420,7 @@
         "description": ""
     },
     "user-guide-windows-image-2-alt": {
-        "message": "Screenshot showing Psiphon starting up on Windows",
+        "message": "Penggunaan Psicash",
         "description": "alt text for an image"
     },
     "faq-orig-file-purpose-answer-para-1": {
@@ -1311,6 +1431,10 @@
         "message": "Kami melakukan hal ini untuk menentukan berapa banyak akses yang tersedia ke \"remote server list\" yang disimpan di dalam \"bucket\". Ini akan membantu kami mengetahui berapa banyak pengguna yang gagal menyambung.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "Detil endapatan dan pengeluaran PsiCash",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "Unduh",
         "description": "text for the Download page navigation item"
@@ -1318,6 +1442,10 @@
     "faq-android-enable-sideloading-answer-para-0": {
         "message": "“Sideloading” means installing an app on your device without going through the Play Store. This is desirable for people who do not have access to the Play Store, or when the app is not available in their region.",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
+    },
+    "privacy-information-collected-vpndata-head": {
+        "message": "Data pengguna VPN",
+        "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data through the Psiphon VPN"
     },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "Jumlah pembaruan",
@@ -1351,13 +1479,21 @@
         "message": "Siapa lagi selain Psiphon Inc. yang akan melihat data ini",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
+        "message": "Pahami siapa yang perlu kami bantu: Beberapa situs dan layanan tidak akan pernah diblokir di mana pun, beberapa akan selalu diblokir di negara-negara tertentu, dan beberapa terkadang akan diblokir di beberapa negara. Untuk memastikan bahwa pengguna kami dapat berkomunikasi dan belajar dengan bebas, kami perlu memahami pola-pola ini, melihat siapa yang terpengaruh, dan bekerja dengan rekan kami untuk memastikan layanan mereka bekerja paling baik dengan Psiphon.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. (English is using 'who' instead of 'whom' to reflect common idiom.)"
+    },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android statistics panel",
+        "message": "Tangkapan layar menunjukkan panel statistik Psiphon untuk Android",
         "description": "alt text for an image"
     },
     "faq-information-collected-answer-head-1": {
         "message": "Server Psiphon",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "membangkitkan token akses pengguna",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "Catatan akses juga disimpan di Amazon S3 sehingga Amazon akan memiliki akses terhadapnya (Amazon-lah yang menyediakan file-file itu sehingga mereka tentu bisa mengakses informasi tersebut).",
@@ -1388,8 +1524,12 @@
         "description": "text for the About page navigation item"
     },
     "faq-authentic-windows-answer-para-2020": {
-        "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
+        "message": "Sertfikat valid selama jangka waktu 2017-07-05 hingga 2020-10-03 untuk sidik jempol SHA1 adalah:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-1": {
+        "message": "Ketika berbagi dengan pihak ketiga, Psiphon hanya menyediakan statistik rata-rat yang kasar. Kami tidak pernah membagikan informasi tiap sesi ataupun informasi lainnya yang dapat mengidentifikasi. ",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "Seberapa sering penggunaan tiap-tiap protokol dan kode galat setelah terjadi kesalahan",
@@ -1402,6 +1542,10 @@
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "Jaringan Pengiklan",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "privacy-information-collected-vpndata-whycare-para-1": {
+        "message": "Ketika menggunakan VPN atau proxy Anda perlu mewaspadai apa yang provider dapat lihat, kumpulkan, dan lakukan pada data Anda. Untuk koneksi web dan surel, secara teori VPN dapat melihat, mengumpulkan, dan mengubah isinya.  ",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon berhak atas keputusannya sendiri untuk mengakhiri lisensi ini kapan pun dengan atau tanpa alasan apa pun dan tanpa berakibat hukuman. Dengan menggunakan Psiphon, Anda setuju tidak akan menggunakan layanan ini dengan cara apa pun yang melanggar Ketentuan Penggunaan dan Persetujuan Lisensi.",
@@ -1447,6 +1591,10 @@
         "message": "<a href=\"./faq.html#authentic-android\">Pastikan dulu salinan Psiphon untuk Android Anda asli</a>.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "saat ganjaran PsiCash diizinkan diklaim kembali",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">Bucket access log (catatan)</a> S3 berisi alamat IP, \"user agent\", dan waktu. Catatan tersebut disimpan di server S3 sehingga Amazon memiliki akses terhadapnya (Amazon-lah yang menyediakan file-file itu sehingga mereka tentu bisa mengakses informasi tersebut). Para pengembang Psiphon akan mengunduh catatan tersebut, menyatukan dan menganalisis data di dalamnya, lalu menghapusnya. Data mentah hanya akan disimpan sementara hingga agregatnya berhasil didapat dan tidak akan dibagikan dengan pihak ketiga.",
         "description": ""
@@ -1459,12 +1607,16 @@
         "message": "Google Analytics",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
     },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "Sistem PsiCash hanya mengumpulkan informasi yang diperlukan untuk berfungsinya sistem, memonitor sistem kesehatan sistem, dan memastikan sistem keamanan sistem. ",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
+    },
     "download-direct-head": {
         "message": "Unduhan Langsung",
         "description": ""
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network.",
+        "message": "Psiphon Browser untuk iOS adalah aplikasi khusus peramban. Karenanya hanya akan menyalurkan data melalui peramban Psiphon, dan tidak akan mengarahkan aplikasi Anda yang lain (seperti aplikasi Facebook atau Twitter Anda) melalui jaringan Psiphon. Jadi, misalnya, jika Anda ingin menggunakan jaringan Psiphon untuk mengakses akun Facebook Anda, Anda akan menggunakan aplikasi kami untuk masuk ke Facebook melalui aplikasi Psiphon iOS Browser. Jika Anda membuka Facebook app Anda, itu akan dialirkan melalui koneksi Wi-Fi atau data seluler Anda, bukan melalui jaringan Psiphon.",
         "description": ""
     },
     "faq-mail-apps-ports-question": {

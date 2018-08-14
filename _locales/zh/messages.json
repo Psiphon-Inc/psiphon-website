@@ -19,6 +19,10 @@
         "message": "加拿大隐私专员办公室",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Use of PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "Windows 版赛风使用什么 VPN 协议？为何我无法连接？",
         "description": ""
@@ -46,6 +50,14 @@
     "about-contact-head": {
         "message": "联系我们",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-description": {
         "message": "赛风的隐私政策",
@@ -79,9 +91,17 @@
         "message": "代理",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-vpndata-whycare-subhead": {
+        "message": "Why should you care?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
+    },
     "download-list-join": {
         "message": "如需获取重要公告和安全建议，请加入我们的<a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">公告邮件列表</a>。",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "赛风开发者",
@@ -126,6 +146,10 @@
     "main-gets-you-there-safely-para-1": {
         "message": "自由的互联网是美好的，但 cookie 或帐户被盗并非如此。无论使用何种方式连接网络，赛风都将为您提供安全访问互联网的途径。",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1": {
+        "message": "Psiphon looks at your data only to the degree necessary to collect statistics about the usage of our system. We record the total bytes transferred for a user connection, as well as the bytes transferred for some specific domains. These statistics are discarded after 60 days.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "user-guide-android-image-3-alt": {
         "message": "Android 版赛风集成浏览器部件截图",
@@ -198,6 +222,10 @@
     "privacy-meta-title": {
         "message": "隐私政策",
         "description": "meta title for the Privacy Policy page"
+    },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "数据将被保留多长时间",
@@ -311,6 +339,10 @@
         "message": "我该如何更新 Psiphon？",
         "description": "FAQ question"
     },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "点击“运行”，输入 <code>regedit</code> 打开注册表编辑器。找到并打开<code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>后，在右面会看到<code>SkipProxySettings</code>。将其值设置为 <code>1</code>，这样赛风将不再自动对系统代理设置进行配置。",
         "description": ""
@@ -358,6 +390,14 @@
     "faq-information-collected-answer-para-4": {
         "message": "事件日志包括时间戳、区域代码 （国家和城市）和非标识属性 （包括赞助商 ID，具有由赛风客户端版本确定）、客户端版本以及协议类型。页面浏览在生成日志之前按照时间和/或会话进行统计。",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
+        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. If available in your language, the blog post URLs should be updated to the localized post."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-3": {
+        "message": "Even this coarse data would be difficult to link back to you, since we immediately convert your IP address to geographical info and then discard the IP. Nor is any other identifying information stored.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-blog": {
         "message": "博客",
@@ -413,7 +453,7 @@
     },
     "faq-information-collected-question": {
         "message": "赛风收集用户的哪些信息？",
-        "description": ""
+        "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-7": {
         "message": "传输总字节数和特定域名的传输字节数",
@@ -434,6 +474,10 @@
     "page-keyword-developers": {
         "message": "开发人员",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead": {
+        "message": "What does Psiphon do with your VPN data?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "为了使用“全局代理”模式，须使用 Android 4.0+ 或具有 root 权限的设备。<br><br>对于 Android 版本较久未经 root 的设备，该选项不可用。",
@@ -482,6 +526,10 @@
     "about-get-latest-info-para-1-users-list": {
         "message": "赛风用户群组",
         "description": "text for link to the Psiphon Users mailing list"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-subhead": {
+        "message": "Why does Psiphon need these statistics?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why Psiphon needs VPN data stats."
     },
     "faq-subsection-troubleshooting-windows": {
         "message": "Windows",
@@ -587,6 +635,10 @@
         "message": "隐私公告",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash earning history, including what the actions the rewards were granted for",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "连接持续时间",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -614,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "规避",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "开放源代码",
@@ -659,6 +715,10 @@
         "message": "版权所有",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "关于常规数据收集信息，请参阅<a href=\"./faq.html#information-collected\">常见问题和解答</a>中的说明。无论何时，在数据收集需临时更改（增加），我们将在这里对收集的数据及其影响作出说明。",
         "description": ""
@@ -666,6 +726,10 @@
     "user-guide-title": {
         "message": "如何使用赛风",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "user country",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "赛风常见问题答案",
@@ -698,6 +762,10 @@
     "download-windows-direct": {
         "message": "适用于 Windows 系统的赛风",
         "description": "text for link to Psiphon for Windows download"
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2": {
+        "message": "This sharing is typically done with services or organizations we collaborate with — as <a href=\"http://www.dw.com/en/psiphon-helps-dodge-the-online-trackers/a-16765092\" target=\"_blank\">we did with DW</a> a few years ago. These statistics help us and them answer questions like, “how many bytes were transferred through Psiphon for DW.com to all users in Iran in April?”",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "faq-information-collected-answer-para-8-item-3": {
         "message": "您的设备以获得 root 权限？",
@@ -742,6 +810,10 @@
     "privacy-bulletin-entry-1-when-doing": {
         "message": "日志记录在 2014-04-17T15:00Z 至 2014-04-18T15:00Z 期间启用。",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start": {
+        "message": "This data is used by us to determine how our network is being used. This allows us to do things like:",
+        "description": "Paragraph text in the 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. This paragraph serves as preamble for a detailed list, which is why it ends with a colon."
     },
     "nav-language-title": {
         "message": "选择您的语言",
@@ -803,6 +875,10 @@
         "message": "Windows",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash spending history, including what purchases were made",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-para-3": {
         "message": "赛风旨在为用户提供在线内容的访问渠道，并不会提升在线隐私，因此不应视为或作为在线安全工具。",
         "description": ""
@@ -838,6 +914,10 @@
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "为什么我们要这么做",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-subhead": {
+        "message": "Who does Psiphon share these statistics with?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
     },
     "faq-windows-metro-answer-para-3": {
         "message": "Metro 模式下的应用试图使用赛风但出错时，将显示出错信息，示例如下。",
@@ -910,6 +990,10 @@
     "page-keyword-help": {
         "message": "帮助",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
+        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "about-who-we-are-partners-head": {
         "message": "合作伙伴",
@@ -999,6 +1083,10 @@
         "message": "终止；违反服务条款",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "赛风的工作原理",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1063,6 +1151,10 @@
         "message": "为何赛风有时会断线呢？",
         "description": "FAQ question."
     },
+    "license-psicash-item-1": {
+        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-meta-title": {
         "message": "隐私公告",
         "description": ""
@@ -1079,6 +1171,10 @@
         "message": "应用商店",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "我们在做什么",
         "description": ""
@@ -1086,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "带您抵达想要访问的地方...",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "client version",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "last activity timestamp",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "Android 版赛风首次连线时，为何无法选择“我信任该应用程序”？",
@@ -1131,8 +1235,12 @@
         "message": "这些数据保留时间不超过一周。用户计数保留时间更长（可能无限期）。",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2": {
+        "message": "Optimize for traffic types: Video streaming has different network requirements than web browsing does, which is different than chat, which is different than voice, and so on. Statistics about the number of bytes transferred for some major media providers helps us to understand how to provide the best experience to our users.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "privacy-information-collected-websites-head": {
-        "message": "网站",
+        "message": "Psiphon Websites",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
@@ -1231,9 +1339,17 @@
         "message": "赞助，广告和捐赠",
         "description": "Page title for the Sponsorship page"
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
+        "message": "Again, we specifically do not give detailed or potentially user-identifying information to partners or any other third parties.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-check-version-question": {
         "message": "如何查看赛风当前版本？",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "site-title": {
         "message": "赛风：自由网络",
@@ -1242,6 +1358,10 @@
     "sponsor-header-sponsored-by": {
         "message": "赞助者：",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2": {
+        "message": "Psiphon does not inspect or record full URLs (only domain names), and does not further inspect your data. Psiphon does not modify your data as it passes through the VPN.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-privacy": {
         "message": "隐私",
@@ -1311,6 +1431,10 @@
         "message": "为了确定保存在存储桶的“远程服务器列表”有多少访问量，以便我们评估多少用户无法连接。",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash earning and spending details",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "下载",
         "description": "text for the Download page navigation item"
@@ -1318,6 +1442,10 @@
     "faq-android-enable-sideloading-answer-para-0": {
         "message": "“旁加载” 指直接将安装应用至设备，而不通过 Google Play 商店。对于无法访问 Play 商店的用户或 Play 商店对某些地方不提供该应用，可使用旁加载。",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
+    },
+    "privacy-information-collected-vpndata-head": {
+        "message": "User VPN Data",
+        "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data through the Psiphon VPN"
     },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "升级数量",
@@ -1351,6 +1479,10 @@
         "message": "除了赛风公司，还有谁可看到这些数据",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
+        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. (English is using 'who' instead of 'whom' to reflect common idiom.)"
+    },
     "user-guide-android-ui-statistics-image-alt": {
         "message": "Android 版赛风统计选项卡截图",
         "description": "alt text for an image"
@@ -1358,6 +1490,10 @@
     "faq-information-collected-answer-head-1": {
         "message": "赛风服务器",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "访问日志也保存在 Amazon S3 存储桶，因此 Amazon 具有日志访问权限。（不过，因为这些文件已经使用了 Amazon 服务器，他们本来已经可以获取这些信息。）",
@@ -1391,6 +1527,10 @@
         "message": "有效期为 2017-07-05 到 2020-10-03 证书的 SHA1 指纹为：",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-1": {
+        "message": "When sharing with third parties, Psiphon only ever provides coarse, aggregate domain-bytes statistics. We never share per-session information or any other possibly-identifying information.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "每种协议的使用频率，以及失败后的错误代码",
         "description": ""
@@ -1402,6 +1542,10 @@
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "广告网络",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "privacy-information-collected-vpndata-whycare-para-1": {
+        "message": "When using a VPN or proxy you should be concerned about what the provider can see in your data, collect from it, and do to it. For some web and email connections, it is theoretically possible for a VPN to see, collect, and modify the contents.",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "赛风保留可在任何时候出于任何原因（或无原因）自行终止该许可授权而不受处罚的权利。使用赛风即表示，您同意不会以任何违反服务协议和许可协议的方式使用该服务。",
@@ -1447,6 +1591,10 @@
         "message": "首先，应<a href=\"./faq.html#authentic-android\">验证您的 Android 版赛风是可信版本</a>。",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "when a PsiCash reward is allowed to be claimed again",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">存储桶访问日志</a>包含 IP 地址、用户代理以及时间戳。这些日志存储在 S3 本身，因此亚马逊将有权限访问这些日志。（不过，因为这些文件已经使用了 Amazon 服务器，他们本来已经可以获取这些信息。）Psiphon 开发者将下载这些日志，并对数据进行汇总和分析，然后删除日志。原始数据将保留更长时间，直到足以对其进行汇总，同时这些数据并不与第三方分享。",
         "description": ""
@@ -1458,6 +1606,10 @@
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "download-direct-head": {
         "message": "直接下载",

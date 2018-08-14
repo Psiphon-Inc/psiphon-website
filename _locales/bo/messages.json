@@ -19,6 +19,10 @@
         "message": "ཁེ་ན་ཌའི་གསང་རྒྱ་དོན་གཅོད་ལས་ཁུངས།",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Use of PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "ཝིན་ཌོ་ནང་གི་སཡི་ཕོན་གྱིས་VPN སྒྲིག་གཞི་་གང་བེད་སྤྱོད་ཡོད་དམ། ང་ག་རེ་བྱས་ནས་མཐུད་མི་ཐུབ་པ་རེད།",
         "description": ""
@@ -46,6 +50,14 @@
     "about-contact-head": {
         "message": "ང་ཚོར་འབྲེལ་བ་གནང་རོགས།",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-description": {
         "message": "སཡི་ཕོན་གསང་དོན་སྲིད་བྱུས།",
@@ -79,9 +91,17 @@
         "message": "ངོ་ཚབ།",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-vpndata-whycare-subhead": {
+        "message": "Why should you care?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
+    },
     "download-list-join": {
         "message": "ང་ཚོའི་<a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">གློག་འཕྲིན་གསལ་བསྒྲགས་ཐོ་གཞུང་</a> རྒྱུད་དེ་གལ་ཆེའི་གསལ་བསྒྲགས་དང་སྲུང་སྐྱོབ་ལམ་སྟོན་ཡོང་ཆེད་དུ་མཉམ་བཞུགས་གནང་རོགས།",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "སཡི་ཕོན་བཟོ་མཁན། ",
@@ -126,6 +146,10 @@
     "main-gets-you-there-safely-para-1": {
         "message": "དྲྭ་རྒྱ་ལ་རིན་པ་སྤྲད་མི་དགོས་ན་ཡག་པོ་ཞེ་དྲག་འདུག འོན་ཀྱང་ཡིག་ཆ་གསོག་ཉར་དང་ཁ་བྱང་རྐུས་ན་ཡག་པོ་མ་རེད། དེས་ན་སཡི་ཕོན་གྱིས་ཁྱེད་རང་དྲྭ་རྒྱ་གང་འདྲ་ཞིག་ལ་མཐུད་ཀྱང་རུང་་ཉེན་ཁ་མེད་པའི་དྲྭ་ལམ་སྟེར་ཐུབ་ཀྱི་ཡོད།",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1": {
+        "message": "Psiphon looks at your data only to the degree necessary to collect statistics about the usage of our system. We record the total bytes transferred for a user connection, as well as the bytes transferred for some specific domains. These statistics are discarded after 60 days.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "user-guide-android-image-3-alt": {
         "message": "Screenshot showing the Psiphon for Android web browser",
@@ -198,6 +222,10 @@
     "privacy-meta-title": {
         "message": "གསང་དོན་སྲིད་བྱུས།",
         "description": "meta title for the Privacy Policy page"
+    },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "གྲངས་ཐོ་རྣམས་དུས་ཡུན་ག་ཚོས་བར་དུ་ཉར་གྱི་ཡོད།",
@@ -311,6 +339,10 @@
         "message": "ང་ལ་སཡི་ཕོན་ཐོན་གསར་པ་འདི་རག་ཐབས་གང་ཡོད་དམ།",
         "description": "FAQ question"
     },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "འགོ་འཛུགས་སྣོན་བྲིས་ <code>regedit</code> དེབ་སྐྱེལ་བྱེད་མཁན་གྱི་རྩོམ་སྒྲིག་པ།. འཚོལ་ནས་ཁ་ཕྱེས། <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, འདི་ཁྱེད་རང་གི་གཡས་ཕྱོགས་སུ་མཐོང <code>ངོ་ཚབ་སྒྲིག་བཀོད་མཆོང</code>ཚད་སྒྲིག་<code>1</code> སཡི་ཕོན་གྱིས་ངོ་ཚབ་སྒྲིག་བཀོད་འགྲོ་ལུགས་དེ་རང་འགུལ་ངང་ནས་འགྱུར་བ་གཏོང་མི་ཐུབ།",
         "description": ""
@@ -358,6 +390,14 @@
     "faq-information-collected-answer-para-4": {
         "message": "བྱེད་སྒོའི་ཐོ་བཀོད་ནང་དུས་རྟགས་དང་། ས་ཁུལ་གྱི་ཨང་རྟགས། (རྒྱལ་ཁབ་དང་གྲོང་ཁྱེར། ) ངོ་རྟགས་མི་ཆོད་པའི་སྦྱིན་བདག་གི་ངོས་འཛིན་ལག་ཁྱེར། (སཡི་ཕོན་མཉེན་ཆས་ཀྱིས་ཐག་ཆོད་) མཉེན་ཆས་ཀྱི་ཐོན་རིམ་། དང་སྒྲིག་གཞི་ཁག་ཚུད་ཡོད། དྲྭ་ཤོག་ནང་དུས་ཚོད་དང་ཡང་ན་ནང་འཇུག་མ་བྱས་གོང་ཐུན་ཚོད་ག་ཚོད་ཡོད་མིན་གྱི་སྒོ་ནས་ཕྱོགས་བསྡོམས་བྱས་ནས་མཐོང་ཐུབ།",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
+        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. If available in your language, the blog post URLs should be updated to the localized post."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-3": {
+        "message": "Even this coarse data would be difficult to link back to you, since we immediately convert your IP address to geographical info and then discard the IP. Nor is any other identifying information stored.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-blog": {
         "message": "དྲྭ་ཚིགས།",
@@ -413,7 +453,7 @@
     },
     "faq-information-collected-question": {
         "message": "སྤྱོད་མཁན་གྱིགནས་ཚུལ་གང་སཡི་ཕོན་གྱིས་མཁོ་བསྡུ་བྱེད་ཀྱི་ཡོད་དམ།",
-        "description": ""
+        "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-7": {
         "message": "bytes ཆ་ཚང་དབོར་འདྲེན་དང་bytesབྱེ་བྲག་པའ་ིདྲྭ་ཚིགས་ཁ་བྱང་འགའ་ཤས་ནས་དབོར་འདྲེན།",
@@ -434,6 +474,10 @@
     "page-keyword-developers": {
         "message": "རྒྱ་བསྐྱེད་གཏོང་མཁན།",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead": {
+        "message": "What does Psiphon do with your VPN data?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "སཡི་ཕོན་གྱི་མཉེན་ཆས་ནང་ཡོ་བྱད་ཆ་ཚང་ཡུར་བཅུག་འགྲོ་ལུགས་འཁོར་སྐྱོད་བྱས་ཚེ། ཁྱེད་རང་ལ་ཨེན་ཀྲོཌ་4.0+་ཡང་ན་ཆོག་མཆན་ཚང་མ་ཡོད་པའི་ཡོ་བྱད་ཨ་མ་འདི་་ངེས་པར་དུ་ཚང་དགོས།<br><br>འདི་ཨེན་ཀྲོཌ་ཐོན་རྙིང་པ་དང་ཆོག་མཆན་ཚ་ཚང་མེད་པའི་ཡོ་བྱད་ཨ་མ་ཁག་ལ་གདམ་ཀ་དེ་མེད།",
@@ -482,6 +526,10 @@
     "about-get-latest-info-para-1-users-list": {
         "message": "སཡི་ཕོན་སྤྱོད་མཁན་གྱི་ཚོགས་པ།",
         "description": "text for link to the Psiphon Users mailing list"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-subhead": {
+        "message": "Why does Psiphon need these statistics?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why Psiphon needs VPN data stats."
     },
     "faq-subsection-troubleshooting-windows": {
         "message": "ཝིན་ཌོ།",
@@ -587,6 +635,10 @@
         "message": "གསང་དོན་གསལ་བསྒྲགས།",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash earning history, including what the actions the rewards were granted for",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "མཐུད་ཁའི་དུས་ཡུན།",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -614,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "ཉེན་གཡོལ།",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "ཕྱི་གསལ་ནང་གསལ་གྱི་ཨང་རྟགས།",
@@ -659,6 +715,10 @@
         "message": "པར་སྐྲུན་བདག་དབང་།",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "ང་ཚོའི་ནམ་རྒྱུན་གྱི་ཡིག་ཆ་བསྡུ་རུབ་བྱེད་ལུགས་་དེ་བཞིན་<a href=\"./faq.html#information-collected\">ཡང་སེ་སྐུལ་བའི་དྲི་བ་</a>ནང་འགྲེལ་བཤད་རྒྱབ་དགོས། ང་ཚོས་བསྡུ་རུབ་བྱས་པའི་ཡིག་ཚགས་ཁག་ལ་ག་དུས་ཡིན་ཡང་གནས་སྐབས་འགྱུར་བ་འདྲ་(མང་དུ་གཏོང་བ།)གཏོང་དགོས་པ་ཐུག་པའི་ཚེ།  ང་ཚོས་གང་བྱ་རྒྱུ་ཡིན་མིན་དང་དེའི་ཤུགས་རྐྱེན་གང་ཡོང་མིན་འདིར་འགྲེལ་བཤད་བྱེད་རྒྱུ་ཡིན།",
         "description": ""
@@ -666,6 +726,10 @@
     "user-guide-title": {
         "message": "སཡི་ཕོན་ཇི་ལྟར་བེད་སྤྱོད་བྱེད་དགོས།",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "user country",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "སཡི་ཕོན་སྐོར་ལ་ཡང་སེ་སྐུལ་བའི་དྲི་བ་ཁག་གི་ལན་འདེབས།",
@@ -698,6 +762,10 @@
     "download-windows-direct": {
         "message": "ཝིན་ཌོ་ཆེད་དུ་སཡི་ཕོན།",
         "description": "text for link to Psiphon for Windows download"
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2": {
+        "message": "This sharing is typically done with services or organizations we collaborate with — as <a href=\"http://www.dw.com/en/psiphon-helps-dodge-the-online-trackers/a-16765092\" target=\"_blank\">we did with DW</a> a few years ago. These statistics help us and them answer questions like, “how many bytes were transferred through Psiphon for DW.com to all users in Iran in April?”",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "faq-information-collected-answer-para-8-item-3": {
         "message": "ཁྱེད་རང་གི་ཡོ་བྱད་དེ་ཆོག་མཆན་ཆ་ཚང་ཡོད་པའི་ཡོ་བྱད་ཨ་མ་དེ་རེད་པས།",
@@ -742,6 +810,10 @@
     "privacy-bulletin-entry-1-when-doing": {
         "message": "ཟིན་ཐོ་འདི་འགོ་འཛུགས་2014-04-17T15:00Z ནས་2014-04-18T15:00Z.",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start": {
+        "message": "This data is used by us to determine how our network is being used. This allows us to do things like:",
+        "description": "Paragraph text in the 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. This paragraph serves as preamble for a detailed list, which is why it ends with a colon."
     },
     "nav-language-title": {
         "message": "ཁྱེད་ཀྱི་སྐད་རིགས་འདེབས་རོགས།",
@@ -803,6 +875,10 @@
         "message": "ཝིན་ཌོ།",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash spending history, including what purchases were made",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-para-3": {
         "message": "སཡི་ཕོན་འདི་རང་གིས་དྲྭ་ཐོག་སྒང་ལ་ཡོད་པའི་གནད་ཚུང་རྣམས་དགག་བྱ་མེད་པར་ལྟ་ཐུབ་པའི་ཆེད་དུ་དམིགས་ནས་བཟོས་པ་ཞིག་རེད། སཡི་ཕོན་གྱིས་རང་གི་དྲྭ་ཐོག་སྒང་ལ་སྒེར་སྲུང་གི་ནུས་པ་ཆེ་རུ་གཏོང་གི་མེད་ལ་དེའི་ཐོག་ལ་རེ་བ་འང་བྱེད་རྒྱུ་མེད། ཡང་ན་འདི་དྲྭ་རྒྱ་སྲུང་སྐྱོབ་བྱེད་མཁན་གྱི་ལག་ཆ་ཞིག་ལ་བེད་སྤྱོད་མ་བཏང་།",
         "description": ""
@@ -838,6 +914,10 @@
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "ང་ཚོས་ག་རེ་བྱས་ནས་བྱེད་ཀྱི་ཡོད་དམ།",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-subhead": {
+        "message": "Who does Psiphon share these statistics with?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
     },
     "faq-windows-metro-answer-para-3": {
         "message": "ཁྱེད་རང་སཡི་ཕོན་རྒྱུད་དེ་Metro mode་འཚོལ་བྱེད་ཀྱི་མཉེན་ཆས་བེད་སྤྱོད་ཏག་ཏག་བཏང་མི་ཐུབ་པའི་སྐབས་ལན་འདེབས་ནོར་བ་འདི་ལྟ་བུ་ཤར་ཡོང་གི་རེད།",
@@ -910,6 +990,10 @@
     "page-keyword-help": {
         "message": "རོགས་རམ།",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
+        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "about-who-we-are-partners-head": {
         "message": "མཉམ་འབྲེལ།",
@@ -999,6 +1083,10 @@
         "message": "མཚམས་འཇོག; ཞབས་ཞུའི་སྒྲིག་གཞི་ལས་བརྒལ་བ།",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "སཡི་ཕོན་ལས་ཀ་གང་འདྲ་བྱེད་ཀྱི་འདུག",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1063,6 +1151,10 @@
         "message": "ངའི་སཡི་ཕོན་མཐུད་ཀ་དེ་སྐབས་རེ་ཆད་དགོས་དོན་གང་ཡིན་ནམ།",
         "description": "FAQ question."
     },
+    "license-psicash-item-1": {
+        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-meta-title": {
         "message": "གསང་དོན་གསལ་བསྒྲགས།",
         "description": ""
@@ -1079,6 +1171,10 @@
         "message": "མཉེན་ཆས་གསོག་ཉར།",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "ང་ཚོ་ག་རེ་བྱེད་ཀྱི་ཡོད་དམ།",
         "description": ""
@@ -1086,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "ཁྱེད་རང་གང་དུ་འགྲོ་འདོད་ནའང་སླེབས་ཐུབ།",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "client version",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "last activity timestamp",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "Android མཉེན་ཆས་ལ་སཡི་ཕོན་ཐོག་མར་མཐུད་སྐབས།\" ང་མཉེན་ཆས་འདི་ལ་ཡིད་ཆེས་ཡོད། \"ཅེས་པ་འདི་འདེམས་མི་ཐུབ་པའི་རྒྱུ་མཚན་གང་ཡིན།",
@@ -1131,8 +1235,12 @@
         "message": "ཡིག་ཚགས་རྣམས་བདུན་ཕྲག་གཅིག་ལས་མང་པ་ཉར་གྱི་མེད། ང་ཚོས་སྤྱོད་མཁན་གྱི་གྲངས་ཐོ་དེ་དུས་ཡུན་གང་མཚམས་ཉར་གྱི་ཡོད། ངེས་པ་མེད།",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2": {
+        "message": "Optimize for traffic types: Video streaming has different network requirements than web browsing does, which is different than chat, which is different than voice, and so on. Statistics about the number of bytes transferred for some major media providers helps us to understand how to provide the best experience to our users.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "privacy-information-collected-websites-head": {
-        "message": "དྲྭ་ཚིགས།",
+        "message": "Psiphon Websites",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
@@ -1231,9 +1339,17 @@
         "message": "སྦྱིན་བདག། ཁྱབ་བསྒྲགས་དང་ཞལ་འདེབས།",
         "description": "Page title for the Sponsorship page"
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
+        "message": "Again, we specifically do not give detailed or potentially user-identifying information to partners or any other third parties.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-check-version-question": {
         "message": "ང་ལ་ད་ལྟ་ཡོད་བཞིན་པའི་སཡི་ཕོན་ཐོན་ག་རེ་ཡིན་མིན་ཇི་ལྟར་ཞིབ་བཤེར་བྱེད་དགོས་སམ།",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "site-title": {
         "message": "སཡི་ཕོན་:ཁྱེད་ཀྱི་དྲ་རྒྱར་རང་དབང།",
@@ -1242,6 +1358,10 @@
     "sponsor-header-sponsored-by": {
         "message": "སྦྱིན་བདག་བྱེད་མཁན།",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2": {
+        "message": "Psiphon does not inspect or record full URLs (only domain names), and does not further inspect your data. Psiphon does not modify your data as it passes through the VPN.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-privacy": {
         "message": "གསང་དོན།",
@@ -1311,6 +1431,10 @@
         "message": "ང་ཚོས་དེ་ལྟར་བྱེད་དགོས་དོན་ནི་\"རྒྱང་སྦྲེལ་ཞབས་ཞུའི་འཕྲུལ་ཆས་ཐོ་གཞུང་\"ནང་ལ་ག་ཚོད་ཀྱི་དྲྭ་ཚིགས་དེ་བལྟ་ཐུབ་ཀྱི་ཡོད་མིན་བརྟག་དཔྱད་བྱེད་ཀྱི་ཡོད། འདིས་བེད་སྤྱོད་གཏོང་མཁན་ག་ཚོད་མཐུད་ཐུབ་མིན་ང་ཚོར་ཤེས་རྟོགས་ཡོང་བ་ལ་ཕན་གྱི་ཡོད།",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash earning and spending details",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "ཕབ་ལེན།",
         "description": "text for the Download page navigation item"
@@ -1318,6 +1442,10 @@
     "faq-android-enable-sideloading-answer-para-0": {
         "message": "\"ཟུར་བཅུག\" ཅེས་པ་ནི་རང་གི་ཡོ་བྱད་ནང་མཉེན་ཆས་གསོག་ཉར་ཁང་རྒྱུད་མི་དགོས་པར་མཉེན་ཆས་འགྲིག་བཅུག་བྱས་པ་ལ་ཟེར། འདི་ནི་མཉེས་ཆས་གསོག་ཉར་ཁང་བེད་སྤྱོད་མི་བྱེད་མཁན་དང་རང་གི་ས་ཁུལ་ལ་མཉེན་ཆས་འདི་དག་གི་དགོས་མཁོ་སྒྲུབ་ཐུབ།",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
+    },
+    "privacy-information-collected-vpndata-head": {
+        "message": "User VPN Data",
+        "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data through the Psiphon VPN"
     },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "གོང་སྤོས་ཀྱི་གྲངས་ཐོ།",
@@ -1351,6 +1479,10 @@
         "message": "སཡི་ཕྷོན་ཨིཀ་སཡི་ཕོན་ Inc.ལས་གཞན་པ་སུ་ཡིས་གྲངས་ཐོ་འདི་མཐོང་གི་ཡོད་དམ།",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
+        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. (English is using 'who' instead of 'whom' to reflect common idiom.)"
+    },
     "user-guide-android-ui-statistics-image-alt": {
         "message": "Screenshot showing the Psiphon for Android statistics panel",
         "description": "alt text for an image"
@@ -1358,6 +1490,10 @@
     "faq-information-collected-answer-head-1": {
         "message": "སཡི་ཕོན་ཞབས་ཞུ་འཕྲུལ་ཆས།",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "བལྟ་ཐུབ་པའི་ཟིན་ཐོའི་དེ་བཞིན་ཨེ་མ་ཛོན་Amazon S3 bucket ནང་དུའང་གསོག་ཉར་བྱས་ཡོད། (དེས་ན་ཨེ་མ་ཛོན་གྱིས་ཟིན་ཐོ་དེ་དག་ལྟ་ཐུབ།) ཨེ་མ་ཛོན་གྱིས་ཡིག་ཆ་རྣམས་གཅེས་ཉར་བྱེད་ཅིང་གནས་ཚུལ་དེ་དག་ལ་ལྟ་ཐུབ་ཀྱི་ཡོད།",
@@ -1391,6 +1527,10 @@
         "message": "ཆོག་མཆན་ལག་ཁྱེར་གྱི་ཆེད་དུ་དུས་ཡུན་ 2017-07-05 ནས་2020-10-03 tེhe SHA1 མཛུབ་ཐེལ་:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-1": {
+        "message": "When sharing with third parties, Psiphon only ever provides coarse, aggregate domain-bytes statistics. We never share per-session information or any other possibly-identifying information.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "སྒྲིག་གཞི་རེ་རེ་ལ་ཐེངས་ག་ཚོད་བེད་སྤྱོད་གཏོང་མིན་དང་། དོན་གོ་མི་ཆོད་པའི་ནོར་སྐྱོན་ཅན་གྱི་ཨང་རྟགས་བེད་སྤྱོད་བྱེད་དམ།",
         "description": ""
@@ -1402,6 +1542,10 @@
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "དྲིལ་བསྒྲགས་འབྲེལ་ལམ།",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "privacy-information-collected-vpndata-whycare-para-1": {
+        "message": "When using a VPN or proxy you should be concerned about what the provider can see in your data, collect from it, and do to it. For some web and email connections, it is theoretically possible for a VPN to see, collect, and modify the contents.",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "སཡི་ཕོན་འདི་དུས་ཚོད་ནམ་ཡིན་དང་རྒྱུ་མཚན་དམིགས་བསལ་གང་ཡང་མི་དགོས་པར་མཇུག་བསྡུ་བ་དང་སྒོ་རྒྱབ་རྒྱུའི་ཆོག་མཆན་བདག་དབང་འདི་སཡི་ཕོན་ཁོ་ན་ལས་གཞན་སུ་ལའང་མེད། སཡི་ཕྷོན་བེད་སྤྱོད་བྱེད་སྐབས་ཁས་ལེན་བྱས་སྒྲིག་ཁྲིམས་རྣམས་རྩ་བ་ནས་བརྒལ་རྒྱུ་མེད།",
@@ -1447,6 +1591,10 @@
         "message": "ཁྱེད་རང་གིས་དང་པོ་<a href=\"./faq.html#authentic-android\">ཁྱེད་རང་ལ་ཡོད་པའི་སཡི་ཕོན་འདི་ཨེན་ཀྲོཌ་ཆེད་དུ་ཡིན་མིན་བརྟག་དཔྱད་བྱེད</a>.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "when a PsiCash reward is allowed to be claimed again",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">སྤྱོད་ཐུབ་པའི་དྲྭ་སྣོད་ཐོ་གཞུང་</a> ནང་ IP ཁ་བྱང་དང་། སྤྱོད་མཁན་གྱི་ངོ་ཚབ་དང་། དུས་ཀྱི་ཐམ་ཀ་བཅས་ཡོད། གྲངས་ཐོ་འདི་རྣམས་ S3 ཁོ་རང་གི་ནང་ལ་གསོག་ཉར་བྱེད་ཡོད། དེར་བརྟེན་ཨེ་མ་ཛོན་ལ་གྲངས་ཐོ་དེ་དག་ལ་བལྟ་ཐུབ།  (དེས་ན་ཨེ་མ་ཛོན་གྱིས་ཟིན་ཐོ་དེ་དག་ལྟ་ཐུབ།) སཡི་ཕོན་རྒྱ་སྐྱེད་པས་ཡིག་ཆ་དེ་དག་གི་་གྲངས་ཐོ། ཕྱོགས་བསྡོམས། དཔྱད་པ་སོགས་བྱས་ཤིང་། མཐར་གྲངས་ཐོ་རྣམས་སུབ་ཀྱི་ཡོད། ཡིག་ཆ་དམར་རྗེན་རྣམས་ཀྱང་ཕྱོགས་བསྡོམས་བྱས་མ་ཚར་བར་དུས་ཚོད་གང་མཚམས་ཤིག་ཉར་ནས་ཚོགས་སྡེ་གསུམ་པ་དང་མཉམ་སྤྱོད་བྱེད་ཀྱི་མེད།",
         "description": ""
@@ -1458,6 +1606,10 @@
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "གྷུ་གྷལ་དཔྱད་གླེང་།",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "download-direct-head": {
         "message": "ཐད་ཀར་ཕབ་ལེན།",

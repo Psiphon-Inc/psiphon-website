@@ -19,6 +19,10 @@
         "message": "কানাডার গোপনীয়তা কমিশনার কার্যালয়",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Use of PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "উইন্ডোজ এর জন্য সাইফোন দ্বারা কি ভিপিএন প্রোটোকল ব্যবহৃত হয়?আমি কেন সংযোগ করতে পারি না?",
         "description": ""
@@ -46,6 +50,14 @@
     "about-contact-head": {
         "message": "আমাদের সাথে যোগাযোগ করুন",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-description": {
         "message": "সাইফনের গোপনীয়তা নীতি",
@@ -79,9 +91,17 @@
         "message": "প্রক্সি",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-vpndata-whycare-subhead": {
+        "message": "Why should you care?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
+    },
     "download-list-join": {
         "message": "গুরুত্বপূর্ণ ঘোষণা এবং নিরাপত্তা নির্দেশনার জন্য আমাদের ঘোষণা মেইলিং তালিকায় <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">যোগ দিন</a>। ",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "সাইফন  ডেভেলপারগণ",
@@ -126,6 +146,10 @@
     "main-gets-you-there-safely-para-1": {
         "message": "বিনামূল্যে ইন্টারনেট চমৎকার, কিন্তু কুকিজ চুরি এবং অ্যাকাউন্ট নয়।সাইফন আপনাকে ইন্টারনেটের জন্য একটি নিরাপদ পথ প্রদান করে, আপনি যে নেটওয়ার্কের সাথে সংযুক্ত হতে যাচ্ছেন তা কোনও ব্যাপারই না।",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1": {
+        "message": "Psiphon looks at your data only to the degree necessary to collect statistics about the usage of our system. We record the total bytes transferred for a user connection, as well as the bytes transferred for some specific domains. These statistics are discarded after 60 days.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "user-guide-android-image-3-alt": {
         "message": "স্ক্রিনশট অ্যান্ড্রয়েড ওয়েব ব্রাউজারের জন্য সাইফন দেখাচ্ছে",
@@ -198,6 +222,10 @@
     "privacy-meta-title": {
         "message": "গোপনীয়তা নীতি",
         "description": "meta title for the Privacy Policy page"
+    },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "কতক্ষণ তথ্য রাখা হবে",
@@ -311,6 +339,10 @@
         "message": "সাইফনের একটি আপডেটেড সংস্করণ কিভাবে পেতে পারি?",
         "description": "FAQ question"
     },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "চালান এ ক্লিক করুন, এবং regedit<code> টাইপ করুন</code>রেজিস্ট্রি এডিটর খুলতে। HKEY_CURRENT_USER \\ Software \\ Psiphon3<code> খুঁজুন এবং খুলুন</code>, এবং ডান দিকে আপনি <code>SkipProxySettings দেখতে পাবেন</code>। এই মান <code>1 সেট করুন</code> এবং সাইফন স্বয়ংক্রিয়ভাবে সিস্টেম প্রক্সি সেটিংস কনফিগার করবে না।",
         "description": ""
@@ -358,6 +390,14 @@
     "faq-information-collected-answer-para-4": {
         "message": "ইভেন্ট লগগুলির মধ্যে টাইমস্ট্যাম্প, অঞ্চল কোডগুলি (দেশ এবং শহর), এবং স্পনসর আইডিসহ অ-সনাক্তকারী বৈশিষ্ট্যগুলি (যা দ্বারা সাইফন ক্লায়েন্ট বিল্ড ব্যবহৃত হয়), ক্লায়েন্ট সংস্করণ এবং প্রোটোকল টাইপ অন্তর্ভুক্ত। পৃষ্ঠা মতামত লগ হওয়ার আগে সময় এবং / অথবা অধিবেশন দ্বারা সংগৃহীত হয়।",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
+        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. If available in your language, the blog post URLs should be updated to the localized post."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-3": {
+        "message": "Even this coarse data would be difficult to link back to you, since we immediately convert your IP address to geographical info and then discard the IP. Nor is any other identifying information stored.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-blog": {
         "message": "ব্লগ",
@@ -413,7 +453,7 @@
     },
     "faq-information-collected-question": {
         "message": "সাইফন কোন ব্যবহারকারীর তথ্য সংগ্রহ করে?",
-        "description": ""
+        "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-7": {
         "message": "মোট বাইটগুলি স্থানান্তরিত এবং বাইট কিছু নির্দিষ্ট ডোমেনগুলির জন্য স্থানান্তর করা হয়েছে",
@@ -434,6 +474,10 @@
     "page-keyword-developers": {
         "message": "ডেভেলপারগণ",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead": {
+        "message": "What does Psiphon do with your VPN data?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "টানেল হোল ডিভাইস মোডে সাইফন চালানোর জন্য, আপনার অ্যান্ড্রয়েড 4.0+ বা রুট করা ডিভাইস থাকা আবশ্যক।<br><br> এই বিকল্প অ্যানড্রয়েডের পুরোনো ভার্সন অ-মূলযুক্ত ডিভাইসের জন্য অনুপলব্ধ থাকবে।",
@@ -482,6 +526,10 @@
     "about-get-latest-info-para-1-users-list": {
         "message": "সাইফন ব্যবহারকারী গ্রুপ",
         "description": "text for link to the Psiphon Users mailing list"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-subhead": {
+        "message": "Why does Psiphon need these statistics?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why Psiphon needs VPN data stats."
     },
     "faq-subsection-troubleshooting-windows": {
         "message": "উইন্ডোজ",
@@ -587,6 +635,10 @@
         "message": "গোপনীয়তা বুলেটিন",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash earning history, including what the actions the rewards were granted for",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "সংযোগের সময়কাল",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -614,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "প্রতারণা",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "মুক্ত উৎস",
@@ -659,6 +715,10 @@
         "message": "কপিরাইট",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "আমাদের স্বাভাবিক তথ্য সংগ্রহ পদ্ধতিগুলি <a href=\"./faq.html#information-collected\">FAQ এ বর্ণিত</a>।যখনই সাময়িকভাবে আমাদের তথ্য সংগ্রহের (বৃদ্ধি) পরিবর্তন প্রয়োজন, আমরা এখানে বর্ণনা করব আমরা কী করছি এবং প্রভাব কি।",
         "description": ""
@@ -666,6 +726,10 @@
     "user-guide-title": {
         "message": "সাইফন কিভাবে ব্যবহার করবেন",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "user country",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "সাইফন সম্পর্কে প্রায়শই জিজ্ঞাসিত প্রশ্নাবলীর উত্তর",
@@ -698,6 +762,10 @@
     "download-windows-direct": {
         "message": "উইন্ডোজ এর জন্য সাইফন",
         "description": "text for link to Psiphon for Windows download"
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2": {
+        "message": "This sharing is typically done with services or organizations we collaborate with — as <a href=\"http://www.dw.com/en/psiphon-helps-dodge-the-online-trackers/a-16765092\" target=\"_blank\">we did with DW</a> a few years ago. These statistics help us and them answer questions like, “how many bytes were transferred through Psiphon for DW.com to all users in Iran in April?”",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "faq-information-collected-answer-para-8-item-3": {
         "message": "আপনার ডিভাইস রুট করা কিনা",
@@ -742,6 +810,10 @@
     "privacy-bulletin-entry-1-when-doing": {
         "message": "লগিং 2014-04-17T15:00Z to 2014-04-18T15:00Z থেকে কার্যকর হবে।",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start": {
+        "message": "This data is used by us to determine how our network is being used. This allows us to do things like:",
+        "description": "Paragraph text in the 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. This paragraph serves as preamble for a detailed list, which is why it ends with a colon."
     },
     "nav-language-title": {
         "message": "আপনার ভাষা নির্বাচন করুন",
@@ -803,6 +875,10 @@
         "message": "উইন্ডোজ",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash spending history, including what purchases were made",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-para-3": {
         "message": "সাইফন আপনাকে অনলাইন সামগ্রীতে খোলা অ্যাক্সেস প্রদানের জন্য ডিজাইন করা হয়েছে। সাইফন আপনার অনলাইন গোপনীয়তা বাড়ায় না, এবং একটি অনলাইন নিরাপত্তা সরঞ্জাম হিসাবে বিবেচনা এবং ব্যবহার করা উচিত নয়।",
         "description": ""
@@ -838,6 +914,10 @@
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "কেন আমরা এটা করছি",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-subhead": {
+        "message": "Who does Psiphon share these statistics with?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
     },
     "faq-windows-metro-answer-para-3": {
         "message": "নিম্নলিখিত মেট্রো মোড অ্যাপ্লিকেশনগুলি চেষ্টা করছে এবং সাইফনের মাধ্যমে কাজ করতে ব্যর্থ হওয়ার সময় আপনি যে ত্রুটির বার্তাটি দেখতে পারেন তার উদাহরণ নিম্নোক্ত দেওয়া আছে।",
@@ -910,6 +990,10 @@
     "page-keyword-help": {
         "message": "সাহায্য",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
+        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "about-who-we-are-partners-head": {
         "message": "অংশীদারিত্ব",
@@ -999,6 +1083,10 @@
         "message": "অবসান; পরিষেবার শর্তাবলী লঙ্ঘন",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "কিভাবে সাইফন কাজ করে",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1063,6 +1151,10 @@
         "message": "কেন আমার সাইফন সংযোগ কখনও কখনও সংযোগ বিচ্ছিন্ন করে?",
         "description": "FAQ question."
     },
+    "license-psicash-item-1": {
+        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-meta-title": {
         "message": "গোপনীয়তা বুলেটিন",
         "description": ""
@@ -1079,6 +1171,10 @@
         "message": "অ্যাপ স্টোর",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "আমরা কি করছি",
         "description": ""
@@ -1086,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "যেখানে আপনি যেতে চান সেখানে আপনি পাবেন ...",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "client version",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "last activity timestamp",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "যখন অ্যানড্রয়েডের জন্য সাইফন প্রথম সংযোগ করে, আমি কেন \"আমি এই অ্যাপ্লিকেশনটি বিশ্বাস করি\" নির্বাচন করতে পারি না?",
@@ -1131,8 +1235,12 @@
         "message": "তথ্য এক সপ্তাহের বেশি রাখা হবে না। আমরা ব্যবহারকারীদের গণনাকে দীর্ঘায়িত করব - সম্ভাব্য অনির্দিষ্টকালের জন্য।",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2": {
+        "message": "Optimize for traffic types: Video streaming has different network requirements than web browsing does, which is different than chat, which is different than voice, and so on. Statistics about the number of bytes transferred for some major media providers helps us to understand how to provide the best experience to our users.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "privacy-information-collected-websites-head": {
-        "message": "ওয়েবসাইটসমূহ",
+        "message": "Psiphon Websites",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
@@ -1231,9 +1339,17 @@
         "message": "পৃষ্ঠপোষকতা, বিজ্ঞাপন এবং অনুদান",
         "description": "Page title for the Sponsorship page"
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
+        "message": "Again, we specifically do not give detailed or potentially user-identifying information to partners or any other third parties.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-check-version-question": {
         "message": "আমার সাইফনের বর্তমান সংস্করণটি কিভাবে পরীক্ষা করব?",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "site-title": {
         "message": "সাইফন: আপনার নেট মুক্ত করুন",
@@ -1242,6 +1358,10 @@
     "sponsor-header-sponsored-by": {
         "message": "সৌজন্যে",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2": {
+        "message": "Psiphon does not inspect or record full URLs (only domain names), and does not further inspect your data. Psiphon does not modify your data as it passes through the VPN.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-privacy": {
         "message": "গোপনীয়তা",
@@ -1311,6 +1431,10 @@
         "message": "বাকেট-এ সংরক্ষিত \"রিমোট সার্ভার লিস্ট\" এ কতগুলি অ্যাক্সেস আছে তা নির্ধারণ করতে আমরা এটি করছি।এটি আমাদেরকে কীভাবে কতগুলি ব্যবহারকারী সংযোগ বিফল করতে ব্যর্থ হচ্ছে তা সম্পর্কে একটি ধারণা দিতে সাহায্য করবে।",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash earning and spending details",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "ডাউনলোড",
         "description": "text for the Download page navigation item"
@@ -1318,6 +1442,10 @@
     "faq-android-enable-sideloading-answer-para-0": {
         "message": "\"Sideloading\" এর অর্থ প্লে-স্টোরের মাধ্যমে না গিয়ে আপনার ডিভাইসে একটি অ্যাপ্লিকেশন ইনস্টল করা। এটি এমন ব্যক্তিদের জন্য উপভোগ্য যাদের প্লে-স্টোরের অ্যাক্সেস নেই, বা যখন তাদের অঞ্চলে অ্যাপ্লিকেশনটি উপলব্ধ না হয়।",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
+    },
+    "privacy-information-collected-vpndata-head": {
+        "message": "User VPN Data",
+        "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data through the Psiphon VPN"
     },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "আপগ্রেড এর সংখ্যা",
@@ -1351,6 +1479,10 @@
         "message": "সাইফান ইনক কে ছাড়া এই ডেটা দেখতে পাবেন",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
+        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. (English is using 'who' instead of 'whom' to reflect common idiom.)"
+    },
     "user-guide-android-ui-statistics-image-alt": {
         "message": " স্ক্রিনশট অ্যান্ড্রয়েড পরিসংখ্যান প্যানেলের জন্য সাইফন দেখাচ্ছে",
         "description": "alt text for an image"
@@ -1358,6 +1490,10 @@
     "faq-information-collected-answer-head-1": {
         "message": "সাইফন  সার্ভার",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "অ্যাক্সেস লগ একটি অ্যামাজন এস 3 বাকেট এর মধ্যেও সংরক্ষিত হয়, তাই অ্যামাজন এর লগের মধ্যে অ্যাক্সেস থাকবে। (যাইহোক, আমাজন ফাইলগুলি পরিবেশন করে, তাই তারা ইতিমধ্যে এই তথ্য অ্যাক্সেস করতে পারে।)",
@@ -1391,6 +1527,10 @@
         "message": "2017-07-05 থেকে 2020-10-03 পর্যায়কালের প্রমাণপত্রের জন্য SHA1 থাম্বপ্রিন্টটি হল:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-1": {
+        "message": "When sharing with third parties, Psiphon only ever provides coarse, aggregate domain-bytes statistics. We never share per-session information or any other possibly-identifying information.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "কিভাবে প্রায়ই প্রতিটি প্রোটোকল ব্যবহৃত হয়, এবং ত্রুটি কোডের ব্যর্থতার পর",
         "description": ""
@@ -1402,6 +1542,10 @@
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "বিজ্ঞাপন নেটওয়ার্ক",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "privacy-information-collected-vpndata-whycare-para-1": {
+        "message": "When using a VPN or proxy you should be concerned about what the provider can see in your data, collect from it, and do to it. For some web and email connections, it is theoretically possible for a VPN to see, collect, and modify the contents.",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "সাইফোন তার নিজস্ব বিবেচনার ভিত্তিতে যে কোনো সময় যে কোনো কারণে এই লাইসেন্সটি বাতিল করার অধিকার সংরক্ষণ করে,এবং শাস্তি ছাড়াই।সাইফন ব্যবহার করে, আপনি সেবার শর্তাবলী এবং লাইসেন্স চুক্তি লঙ্ঘন করে এমন কোনও উপায়ে পরিষেবাটি ব্যবহার করতে সম্মত হন না।",
@@ -1447,6 +1591,10 @@
         "message": "আপনি প্রথম <a href=\"./faq.html#authentic-android\">যাচাই করুন যে আপনার অ্যান্ড্রয়েড এর জন্য  সাইফন কপি যেন আসল হয়</a>।",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "when a PsiCash reward is allowed to be claimed again",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "এস 3<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\"> বাকেট অ্যাক্সেস লগগুলিতে</a> IP ঠিকানা, ব্যবহারকারী এজেন্ট এবং টাইমস্ট্যাম্প রয়েছে। এই লগগুলি S3-তে নিজেই সংরক্ষিত হয়, তাই আমাজনের এই লগগুলিতে অ্যাক্সেস আছে। (যাইহোক, আমাজন ইতোমধ্যে ফাইলগুলি পরিবেশন করে, যাতে তারা ইতিমধ্যেই এই তথ্যটি অ্যাক্সেস করতে পারে।) সাইফন ডেভেলপার লগগুলি ডাউনলোড করবে, সমষ্টিগত এবং ডেটা বিশ্লেষণ করবে, এবং তারপর লগগুলি মুছে ফেলবে। কাঁচা ডেটা কেবলমাত্র এটি সংহত করার জন্য যথেষ্ট পরিমাণে রাখা হবে এবং তৃতীয় পক্ষগুলির সাথে শেয়ার করা হবে না।",
         "description": ""
@@ -1458,6 +1606,10 @@
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "গুগল বিশ্লেষক",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "download-direct-head": {
         "message": "সরাসরি ডাউনলোড",

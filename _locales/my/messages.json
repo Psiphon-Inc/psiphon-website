@@ -19,6 +19,10 @@
         "message": "ကနေဒါနိုင်ငံ၏ ကိုယ်ရေးကိုယ်တာအချက်အလက်များနှင့် ပုဂ္ဂလလုံခြုံရေးဆိုင်ရာ ကော်မရှင်ရုံး",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Use of PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "Windows အတွက် Psiphon တွင် မည်သည့် VPN လုပ်ထုံးလုပ်နည်းကို အသုံးပြုသနည်း။ အဘယ်ကြောင့် ကျွနု်ပ်ချိတ်ဆက်၍မရသနည်း။",
         "description": ""
@@ -46,6 +50,14 @@
     "about-contact-head": {
         "message": "ကျွနု်ပ်တို့ကိုဆက်သွယ်ရန်",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-description": {
         "message": "Psiphon ၏ ကိုယ်ရေးကိုယ်တာအချက်အလက်လုံခြုံရေး မူဝါဒ",
@@ -79,9 +91,17 @@
         "message": "ကြားခံ",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-vpndata-whycare-subhead": {
+        "message": "Why should you care?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
+    },
     "download-list-join": {
         "message": "အရေးကြီးသည့် ကြေငြာချက်များနှင့် လုံခြုံရေးအတွက်အကြံပြုချက်များ သိရှိရန်အတွက် ကျွနု်ပ်တို့၏ ကြေငြာချက်များအား <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">အီးမေးလ်ပေးပို့သည့်စာရင်း</a>တွင် ပါဝင်လိုက်ပါ။",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "Psiphon Developers",
@@ -126,6 +146,10 @@
     "main-gets-you-there-safely-para-1": {
         "message": "လွတ်လပ်သော အင်တာနက်သည် ကောင်းပါသည် သို့သော် ကွတ်ကီးများနှင့် အကောင့်များအခိုးခံရခြင်းသည် မကောင်းပါ။ Psiphon သည် သင်မည်သည့်ကွန်ယက်ဖြင့်ချိတ်ဆက်နေသည်ဖြစ်စေ အင်တာနက်အသုံးပြုရန်အတွက် လုံခြုံသည့်လမ်းကြောင်းကို ပေးသည်။",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1": {
+        "message": "Psiphon looks at your data only to the degree necessary to collect statistics about the usage of our system. We record the total bytes transferred for a user connection, as well as the bytes transferred for some specific domains. These statistics are discarded after 60 days.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "user-guide-android-image-3-alt": {
         "message": "Screenshot showing the Psiphon for Android web browser",
@@ -198,6 +222,10 @@
     "privacy-meta-title": {
         "message": "ကိုယ်ရေးကိုယ်တာအချက်အလက်လုံခြုံရေး မူဝါဒ",
         "description": "meta title for the Privacy Policy page"
+    },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "ထိုအချက်အလက်ကို အချိန်မည်မျှကြာအောင်ထိန်းသိမ်းထားမည်နည်း",
@@ -311,6 +339,10 @@
         "message": "Psiphon ၏ အဆင့်မြှင့်တင်မွမ်းမံပြီးသား ဗားရှင်းကို မည်ကဲ့သို့ရနိုင်သနည်း။",
         "description": "FAQ question"
     },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "လည်ပတ်ရန်ကိုနှိပ်ပြီး မှတ်ပုံတင်ခြင်းတည်းဖြတ်မှုကို ဖွင့်ရန်အတွက် <code>regedit</code> ဟုရိုက်ပါ။ <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>ကိုရှာပြီးဖွင့်ပါ ပြီးလျှင် <code>ကြားခံများကို ကျော်လွှားရန်အပြင်အဆင်များ</code>ဆိုသည်ကို ညာဘက်တွင်တွေ့ရပါလိမ့်မည်။ ဤတွင် တန်ဖိုးကို <code>1</code>ထားပါက Psiphon သည် စက်၏ ကြားခံအပြင်အဆင်များကို အလိုအလျောက် စီစဥ်သတ်မှတ်တော့မည်မဟုတ်ပါ။",
         "description": ""
@@ -358,6 +390,14 @@
     "faq-information-collected-answer-para-4": {
         "message": "အသုံးပြုမှုမှတ်တမ်းများတွင် အသုံးပြုသည့်အချိန်၊ နယ်မြေကုဒ်များ(နိုင်ငံနှင့်မြို့) နှင့် (အသုံးပြုသည့် Psiphon ပေါ်မူတည်၍) ငွေကြေးထောက်ပံ့သူ၏ ID အပါအဝင် ဖော်ပြထားခြင်းမရှိသော ဝိသေသများ၊ သုံးစွဲသူဗားရှင်းနှင့် လုပ်ထုံးလုပ်နည်းအမျိုးအစားတို့ ပါဝင်သည်။ စာမျက်နှာကြည့်ရှုမှုများကို အချိန် နှင့်/သို့မဟုတ် ဝင်ရောက်ခြင်းမပြုမီ အပိုင်းအခြားဟူ၍ ခွဲခြမ်းပြီး အုပ်စုဖွဲ့ပြီးမှ  အသုံးပြုမှုမှတ်တမ်းတွင် ထည့်သွင်းသည်။",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
+        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. If available in your language, the blog post URLs should be updated to the localized post."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-3": {
+        "message": "Even this coarse data would be difficult to link back to you, since we immediately convert your IP address to geographical info and then discard the IP. Nor is any other identifying information stored.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-blog": {
         "message": "ဘလော့ဂ်",
@@ -413,7 +453,7 @@
     },
     "faq-information-collected-question": {
         "message": "Psiphon သည် အသုံးပြုသူ၏ မည်သည့်သတင်းအချက်အလက်များကောက်ယူသနည်း။",
-        "description": ""
+        "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-7": {
         "message": "လွှဲပြောင်းပေးလိုက်သည့် bytes နှင့် အချို့သောသတ်မှတ်ပြီးသည့် ဒိုမိန်းများကို လွှဲပြောင်းလိုက်သည့် bytes စုစုပေါင်း",
@@ -434,6 +474,10 @@
     "page-keyword-developers": {
         "message": "developers",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead": {
+        "message": "What does Psiphon do with your VPN data?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "Psiphon ကို စက်တစ်ခုလုံးနှင့်ချိတ်ဆက်လည်ပတ်ရန်အတွက် သင့်ထံတွင် Android 4.0 အထက် သို့မဟုတ် root လုပ်ထားသောစက်ရှိရမည်။ <br><br> ထို့အတွက် Android ဗားရှင်းအဟောင်းများနှင့် root မလုပ်ထားသောစက်များတွင် ယင်းကဲ့သို့ ပြုလုပ်၍ ရနိုင်မည်မဟုတ်ပါ။",
@@ -482,6 +526,10 @@
     "about-get-latest-info-para-1-users-list": {
         "message": "Psiphon အသုံးပြုသူများအဖွဲ့",
         "description": "text for link to the Psiphon Users mailing list"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-subhead": {
+        "message": "Why does Psiphon need these statistics?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why Psiphon needs VPN data stats."
     },
     "faq-subsection-troubleshooting-windows": {
         "message": "Windows",
@@ -587,6 +635,10 @@
         "message": "ကိုယ်ရေးအချက်အလက် စာစောင်များ",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash earning history, including what the actions the rewards were granted for",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "ချိတ်ဆက်မှုလိုင်းကြာချိန်",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -614,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "ကျော်လွှားမှု",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "ပွင့်လင်းရင်းမြစ် ",
@@ -659,6 +715,10 @@
         "message": "မူပိုင်ခွင့်",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "ကျွနု်ပ်တို့၏ ပုံမှန် အချက်အလက်များကောက်ယူသော အလေ့အထများကို <a href=\"./faq.html#information-collected\">မကြာခဏမေးလေ့ရှိသော မေးခွန်းများ</a>တွင် ဖော်ပြထားသည်။ ကျွနု်ပ်တို့ကောက်ယူသော အချက်အလက်မှုပုံစံကို ယာယီအားဖြင့် ပြောင်းလဲရန် (တိုးမြှင့်ရန်) လိုအပ်ပါက ကျွနု်ပ်တို့ ဘာလုပ်နေပြီ မည်ကဲ့သို့သက်ရောက်မှုရှိမည်ကို ဤနေရာတွင် ဖော်ပြပါသည်။",
         "description": ""
@@ -666,6 +726,10 @@
     "user-guide-title": {
         "message": "Psiphon အသုံးပြုနည်း",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "user country",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "Psiphon နှင့်ပတ်သက်၍ မကြာခဏမေးလေ့ရှိသောမေးခွန်းများအတွက် အဖြေများ",
@@ -698,6 +762,10 @@
     "download-windows-direct": {
         "message": "Windows အတွက် Psiphon ",
         "description": "text for link to Psiphon for Windows download"
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2": {
+        "message": "This sharing is typically done with services or organizations we collaborate with — as <a href=\"http://www.dw.com/en/psiphon-helps-dodge-the-online-trackers/a-16765092\" target=\"_blank\">we did with DW</a> a few years ago. These statistics help us and them answer questions like, “how many bytes were transferred through Psiphon for DW.com to all users in Iran in April?”",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "faq-information-collected-answer-para-8-item-3": {
         "message": "သင့်စက် root လုပ်ထားခြင်းရှိမရှိ",
@@ -742,6 +810,10 @@
     "privacy-bulletin-entry-1-when-doing": {
         "message": "ဝင်ရောက်ခြင်းကို 2014-04-17T15:00Z မှ 2014-04-18T15:00Z အထိ အသုံးပြုနိုင်အောင်ပြုလုပ်ထားပါသည်။",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start": {
+        "message": "This data is used by us to determine how our network is being used. This allows us to do things like:",
+        "description": "Paragraph text in the 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. This paragraph serves as preamble for a detailed list, which is why it ends with a colon."
     },
     "nav-language-title": {
         "message": "သင်၏ ဘာသာစကားကိုရွေးချယ်ရန်",
@@ -803,6 +875,10 @@
         "message": "windows",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash spending history, including what purchases were made",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-para-3": {
         "message": "Psiphon သည် အွန်လိုင်းပေါ်ရှိ အကြောင်းအရာများ လွတ်လပ်စွာရယူနိုင်ရန် ဖန်တီးထားခြင်းဖြစ်သည်။ Psiphon သည် သင့်၏ အွန်လိုင်းပေါ်ရှိပုဂ္ဂလလုံခြုံရေးကိုတိုးမြှင့်မပေးသောကြောင့် အွန်လိုင်းလုံခြုံရေး ကိရိယာတစ်ခုအနေဖြင့် ထည့်သွင်းစဥ်းစားခြင်း သို့မဟုတ် အသုံးပြုခြင်းများ မပြုလုပ်သင့်ပါ။",
         "description": ""
@@ -838,6 +914,10 @@
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "ကျွနု်တို့ ဘာကြောင့်ဒါကိုလုပ်ရနေရသလဲ။",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-subhead": {
+        "message": "Who does Psiphon share these statistics with?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
     },
     "faq-windows-metro-answer-para-3": {
         "message": "အောက်ပါ ဥပမာများသည် Metro ပုံစံတွင် အသုံးပြုနေသော apps များ Psiphon နှင့် ချိတ်ဆက်ရာတွင် မအောင်မြင်သည့်အခါပြသည့် သတင်းမက်ဆေ့များဖြစ်သည်။",
@@ -910,6 +990,10 @@
     "page-keyword-help": {
         "message": "အကူအညီ",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
+        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "about-who-we-are-partners-head": {
         "message": "မိတ်ဖက်အဖွဲ့များ",
@@ -999,6 +1083,10 @@
         "message": "ရပ်ဆိုင်းခြင်း။ အသုံးပြုမှုဆိုင်ရာသဘောတူညီချက်များအား ဖောက်ဖျက်ခြင်း",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "Psiphon မည်ကဲ့သို့အလုပ်လုပ်သနည်း",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1063,6 +1151,10 @@
         "message": "အဘယ့်ကြောင့် ကျွနု်ပ်၏ Psiphon သည် တခါတရံတွင် ချိတ်ဆက်မှုပြတ်တောက်ရသနည်း။",
         "description": "FAQ question."
     },
+    "license-psicash-item-1": {
+        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-meta-title": {
         "message": "ကိုယ်ရေးအချက်အလက် စာစောင်များ",
         "description": ""
@@ -1079,6 +1171,10 @@
         "message": "App Store များ",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "ကျွနု်တို့ ဘာလုပ်နေသလဲ။",
         "description": ""
@@ -1086,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "သင်သွားချင်တဲ့နေရာကိုခေါ်ဆောင်သွားပေးမယ့်...",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "client version",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "last activity timestamp",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "Android အတွက် Psiphon ကို ပထမဆုံးအကြိမ် ချိတ်ဆက်ချိန်တွင် အဘယ်ကြောင့် “ဤ application ကို ယုံကြည်ပါသည်”ကို ရွေးချယ်၍မရသနည်း။",
@@ -1131,8 +1235,12 @@
         "message": "အချက်အလက်ကို တစ်ပတ်ထက်ပို၍ သိမ်းဆည်းထားခြင်းမရှိပါ။ အသုံးပြုသူအရေအတွက်ကို အချိန်အတန်ကြာ၊ သတ်မှတ်ရက်မရှိ ကျွနိုပ်တို့ သိမ်းဆည်းထားပါမည်။",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2": {
+        "message": "Optimize for traffic types: Video streaming has different network requirements than web browsing does, which is different than chat, which is different than voice, and so on. Statistics about the number of bytes transferred for some major media providers helps us to understand how to provide the best experience to our users.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "privacy-information-collected-websites-head": {
-        "message": "ဝက်ဆိုက်များ",
+        "message": "Psiphon Websites",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
@@ -1231,9 +1339,17 @@
         "message": "ထောက်ပံ့ကူညီပေးမှု၊ ကြေငြာခြင်းနှင့် လှူဒါန်းမှုများ",
         "description": "Page title for the Sponsorship page"
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
+        "message": "Again, we specifically do not give detailed or potentially user-identifying information to partners or any other third parties.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-check-version-question": {
         "message": "ကျွနု်ပ် လက်ရှိအသုံးပြုနေသော Psiphon ဗားရှင်းကို မည်ကဲ့သို့စစ်ဆေးသိရှိနိုင်မည်နည်း။",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "site-title": {
         "message": "Psiphon: သင့်ကွန်ယက်ချိတ်ဆက်မှုကိုလွတ်လပ်စေပါ",
@@ -1242,6 +1358,10 @@
     "sponsor-header-sponsored-by": {
         "message": "ထောက်ပံ့ကူညီပေးသူ",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2": {
+        "message": "Psiphon does not inspect or record full URLs (only domain names), and does not further inspect your data. Psiphon does not modify your data as it passes through the VPN.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-privacy": {
         "message": "ကိုယ်ရေးကိုယ်တာအချက်အလက်နှင့် ပုဂ္ဂလလုံခြုံရေး",
@@ -1311,6 +1431,10 @@
         "message": "ကျွနု်ပ်တို့ ဤသို့ပြုလုပ်ရခြင်းမှာ bucket အတွင်းသိမ်းဆည်းထားသော \"အဝေးထိန်း ဆာဗာစာရင်း\" ကို မည်မျှရယူမှုရှိနေသည်ကို သိရှိရန်ဖြစ်သည်။ ဤသို့ပြုလုပ်ခြင်းဖြင့် အသုံးပြုသူမည်မျှသည် ချိတ်ဆက်ရန်မအောင်မြင်သည်ကို သိရှိနိုင်ရန် အထောက်အကူပြုပါသည်။",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash earning and spending details",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "ဒေါင်းလုပ်လုပ်ရန်",
         "description": "text for the Download page navigation item"
@@ -1318,6 +1442,10 @@
     "faq-android-enable-sideloading-answer-para-0": {
         "message": "“Sideloading” ၏အဓိပ္ပါယ်မှာ သင်၏ စက်အတွင်းသို့ app တစ်ခုကို Play Store မှရယူခြင်းမဟုတ်ဘဲသွင်းခြင်းဖြစ်သည်။ ဤသည်မှာ Play Store မရရှိနိုင်သည့်သူများ သို့မဟုတ် ထို app သည်သူတို့နေထိုင်ရာဒေသတွင် မရရှိနိုင်အခါတွင်အသုံးပြုသည်။ ",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
+    },
+    "privacy-information-collected-vpndata-head": {
+        "message": "User VPN Data",
+        "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data through the Psiphon VPN"
     },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "အဆင့်မြှင့်တင်မှု အရေအတွက်ပေါင်း",
@@ -1351,6 +1479,10 @@
         "message": "Psiphon Inc. အပြင်မည်သူကဤအချက်အလက်ကိုမြင်ရမည်နည်း",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
+        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. (English is using 'who' instead of 'whom' to reflect common idiom.)"
+    },
     "user-guide-android-ui-statistics-image-alt": {
         "message": "Screenshot showing the Psiphon for Android statistics panel",
         "description": "alt text for an image"
@@ -1358,6 +1490,10 @@
     "faq-information-collected-answer-head-1": {
         "message": "Psiphon ဆာဗာများ",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "အသုံးပြုမှုမှတ်တမ်းများကို Amazon S3 bucket တွင်လည်း သိမ်းဆည်းထားပါသည်၊ ထို့ကြောင့် Amazon သည်လည်း မှတ်တမ်းများကိုရယူနိုင်သည်။ (မည်သို့ပင်ဆိုစေ Amazon က ဖိုင်များကို သိမ်းဆည်းထားခြင်းကြောင့် ဤသတင်းအချက်အလက်များကို ရယူနိုင်ပြီးဖြစ်သည်။)",
@@ -1391,6 +1527,10 @@
         "message": "2017-07-05 မှ 2020-10-03 အထိဆီလျော်မှုရှိသော အသိအမှတ်ပြုမှု SHA1 thumbprint သည် :",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-1": {
+        "message": "When sharing with third parties, Psiphon only ever provides coarse, aggregate domain-bytes statistics. We never share per-session information or any other possibly-identifying information.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "မအောင်မြင်သည့်အခါ လုပ်ထုံးလုပ်နည်းတစ်ခုချင်းစီနှင့် မှားယွင်းသောကုတ်များကို မည်မျှအသုံးပြုသနည်း",
         "description": ""
@@ -1402,6 +1542,10 @@
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "ကြော်ငြာကွန်ယက်များ",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "privacy-information-collected-vpndata-whycare-para-1": {
+        "message": "When using a VPN or proxy you should be concerned about what the provider can see in your data, collect from it, and do to it. For some web and email connections, it is theoretically possible for a VPN to see, collect, and modify the contents.",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon သည် ၎င်း၏လိုင်စင်ကို မည်သည့်အချိန်တွင်မဆို အလျော်အစားပေးရန်မလိုဘဲ အကြောင်းပြချက်မရှိ ရပ်ဆိုင်း နိုင်သည့်အခွင့်အရေးရှိသည်။ Psiphon ကိုအသုံးပြုခြင်းဖြင့်သင်သည် အသုံးပြုမှုဆိုင်ရာသဘောတူညီချက်များနှင့် လိုင်စင်ပါအကြောင်းအရာများကို မဖောက်ဖျက်ရန်အတွက် သဘောတူပြီးဖြစ်သည်။",
@@ -1447,6 +1591,10 @@
         "message": "ပထမဦးစွာ <a href=\"./faq.html#authentic-android\">သင့်  Android အတွက် ရယူထားသော Psiphon သည် မှန်ကန်မှုရှိမရှိ အရင် စစ်ဆေးသင့်ပါသည်</a>",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "when a PsiCash reward is allowed to be claimed again",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">bucket ရယူမှုမှတ်တမ်းများ</a> တွင် IP လိပ်စာများ၊ အသုံးပြုသူအေးဂျင့်များနှင့် အသုံးပြုသည့်အချိန်များပါဝင်သည်။ ဤမှတ်တမ်းများကို S3 ထဲတွင်ပင်သိမ်းဆည်းထားခြင်းကြောင့် Amazon သည် ထိုမှတ်တမ်းများကို ရယူနိုင်သည်။ (မည်သို့ပင်ဆိုစေ Amazon က ဖိုင်များကို သိမ်းဆည်းထားခြင်းကြောင့် ဤသတင်းအချက်အလက်များကို ရယူနိုင်ပြီးဖြစ်သည်။) Psiphon developers များသည် ထိုမှတ်တမ်းများကို ဒေါင်းလုပ်လုပ်ခြင်း၊ အချက်အလက်များ ပေါင်းစပ်ခြင်းနှင့် ခွဲခြမ်းစိတ်ဖြာခြင်းများပြုလုပ်ပြီး ထိုမှတ်တမ်းများကို ဖျက်ပစ်ပါသည်။ အချက်အလက်အကြမ်းများကို အခြား တတိယပါတီအဖွဲ့အစည်းများနှင့် ဝေမျှခြင်းများ ပြုလုပ်မည်မဟုတ်ဘဲ ခွဲခြမ်းစိတ်ဖြာလေ့လာမှုများပြုလုပ်ရန်အတွက် လုံလောက်သည့် အချိန်ပမာဏလောက်အတွင်းသာ သိမ်းဆည်းထားပါသည်။",
         "description": ""
@@ -1458,6 +1606,10 @@
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "download-direct-head": {
         "message": "တိုက်ရိုက် ဒေါင်းလုပ်လုပ်မှုများ",

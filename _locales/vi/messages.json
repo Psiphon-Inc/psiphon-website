@@ -19,6 +19,10 @@
         "message": "Văn phòng Ủy Viên Bảo vệ Quyền Riêng Tư Canada",
         "description": ""
     },
+    "license-psicash-header": {
+        "message": "Use of PsiCash",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
     "faq-vpn-protocol-question": {
         "message": "Giao thức VPN nào được sử dụng bởi Psiphon cho Windows? Tại sao tôi không thể kết nối?",
         "description": ""
@@ -46,6 +50,14 @@
     "about-contact-head": {
         "message": "Liên lạc với chúng tôi",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-description": {
         "message": "Chính sách quyền Riêng Tư của Psiphon",
@@ -79,9 +91,17 @@
         "message": "proxy",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-vpndata-whycare-subhead": {
+        "message": "Why should you care?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
+    },
     "download-list-join": {
         "message": "Tham gia vào <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Danh sách nhận thư thông báo</a> của chúng tôi để nhận các thông báo quan trọng và các khuyến cáo về an ninh.",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "about-get-latest-info-para-1-developers-list": {
         "message": "Nhóm phát triển Psiphon",
@@ -126,6 +146,10 @@
     "main-gets-you-there-safely-para-1": {
         "message": "Internet tự do thì tuyệt, nhưng cookies và tài khoản bị đánh cắp thì không hay chút nào. Psiphon cho bạn một lối đi an toàn vào internet, bất kỳ bạn kết nối vào mạng nào.",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1": {
+        "message": "Psiphon looks at your data only to the degree necessary to collect statistics about the usage of our system. We record the total bytes transferred for a user connection, as well as the bytes transferred for some specific domains. These statistics are discarded after 60 days.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "user-guide-android-image-3-alt": {
         "message": "Screenshot showing the Psiphon for Android web browser",
@@ -198,6 +222,10 @@
     "privacy-meta-title": {
         "message": "Chính sách quyền Riêng Tư",
         "description": "meta title for the Privacy Policy page"
+    },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-bulletin-entry-item-head-how-long-retained": {
         "message": "Dữ liệu sẽ được giữ lại trong bao lâu?",
@@ -311,6 +339,10 @@
         "message": "Làm sao để lấy phiên bản cập nhật của Psiphon?",
         "description": "FAQ question"
     },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
+    },
     "faq-autoproxy-answer-para-1": {
         "message": "Nhấp vào Run, và nhập <code>regedit</code> để mở Registry Editor. Tìm và mở <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, và ở bên phải bạn sẽ thấy <code>SkipProxySettings</code>. Đặt giá trị này thành <code>1</code> và Psiphon 3 sẽ không tự động cấu hình thiết đặt proxy hệ thống.",
         "description": ""
@@ -358,6 +390,14 @@
     "faq-information-collected-answer-para-4": {
         "message": "Ký sự sự kiện bao gồm tem thời gian, mã vùng (quốc gia và thành phố) và các thuộc tính không nhận dạng bao gồm ID nhà bảo trợ (được xác định bằng bản phần mềm Psiphon được sử dụng), phiên bản phần mềm, và loại giao thức. Số lượt xem trang được tổng hợp theo thời gian và/hoặc phiên truy cập trước khi được ghi lại.",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
+        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. If available in your language, the blog post URLs should be updated to the localized post."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-3": {
+        "message": "Even this coarse data would be difficult to link back to you, since we immediately convert your IP address to geographical info and then discard the IP. Nor is any other identifying information stored.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-blog": {
         "message": "blog",
@@ -413,7 +453,7 @@
     },
     "faq-information-collected-question": {
         "message": "Psiphon thu thập thông tin gì của người dùng?",
-        "description": ""
+        "description": "FAQ question."
     },
     "faq-information-collected-answer-para-2-item-7": {
         "message": "Tổng số byte chuyển tải cho một số tên miền đặc trung",
@@ -434,6 +474,10 @@
     "page-keyword-developers": {
         "message": "các nhà phát triển",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead": {
+        "message": "What does Psiphon do with your VPN data?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "user-guide-android-ui-status-image-annotation-3": {
         "message": "Để chạy Psiphon trong chế độ Kết Nối Toàn Thiết Bị Xuyên Qua Psiphon, bạn phải có Android 4.0+ hoặc thiết bị đã root.<br><br>Tùy chọn này sẽ không có cho các thiết bị không root với phiên bản Android cũ hơn.",
@@ -482,6 +526,10 @@
     "about-get-latest-info-para-1-users-list": {
         "message": "Nhóm người dùng Psiphon",
         "description": "text for link to the Psiphon Users mailing list"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-subhead": {
+        "message": "Why does Psiphon need these statistics?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why Psiphon needs VPN data stats."
     },
     "faq-subsection-troubleshooting-windows": {
         "message": "Windows",
@@ -587,6 +635,10 @@
         "message": "Bản tin Quyền Riêng Tư",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash earning history, including what the actions the rewards were granted for",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "user-guide-android-ui-statistics-image-annotation-1": {
         "message": "Thời gian kết nối",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
@@ -614,6 +666,10 @@
     "page-keyword-circumvention": {
         "message": "vượt kiểm duyệt",
         "description": "web page meta keyword used for SEO"
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "open-source-meta-title": {
         "message": "Nguồn mở",
@@ -659,6 +715,10 @@
         "message": "Bản quyền",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-bulletin-intro-para-1": {
         "message": "Việc thâu thập thông tin thường lệ của chúng tôi được mô tả trong <a href=\"./faq.html#information-collected\">Những câu hỏi thường gặp</a>. Khi nào cần tạm thời thay đổi việc thu thập thông tin, chúng tôi sẽ giải thích nơi đây và cho biết tác động là gì.",
         "description": ""
@@ -666,6 +726,10 @@
     "user-guide-title": {
         "message": "Làm thế nào để sử dụng Psiphon",
         "description": "page title for the user guide page"
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "user country",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "faq-description": {
         "message": "Trả lời cho các câu hỏi thường gặp về Psiphon",
@@ -698,6 +762,10 @@
     "download-windows-direct": {
         "message": "Psiphon cho Windows",
         "description": "text for link to Psiphon for Windows download"
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2": {
+        "message": "This sharing is typically done with services or organizations we collaborate with — as <a href=\"http://www.dw.com/en/psiphon-helps-dodge-the-online-trackers/a-16765092\" target=\"_blank\">we did with DW</a> a few years ago. These statistics help us and them answer questions like, “how many bytes were transferred through Psiphon for DW.com to all users in Iran in April?”",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "faq-information-collected-answer-para-8-item-3": {
         "message": "Thiết bị có root không",
@@ -742,6 +810,10 @@
     "privacy-bulletin-entry-1-when-doing": {
         "message": "Ký sự sẽ chạy từ 2014-04-17T15:00Z đến 2014-04-18T15:00Z.",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start": {
+        "message": "This data is used by us to determine how our network is being used. This allows us to do things like:",
+        "description": "Paragraph text in the 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. This paragraph serves as preamble for a detailed list, which is why it ends with a colon."
     },
     "nav-language-title": {
         "message": "Chọn ngôn ngữ của bạn",
@@ -803,6 +875,10 @@
         "message": "windows",
         "description": "web page meta keyword used for SEO"
     },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash spending history, including what purchases were made",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-para-3": {
         "message": "Psiphon được thiết kế để cho bạn khả năng truy cập tự do đến các nội dung trên mạng. Psiphon không gia tăng bảo mật của bạn trên mạng, và không nên được xem hay dùng như một công cụ bảo mật trên mạng.",
         "description": ""
@@ -838,6 +914,10 @@
     "privacy-bulletin-entry-item-head-why-doing": {
         "message": "Tại sao chúng tôi làm",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-subhead": {
+        "message": "Who does Psiphon share these statistics with?",
+        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
     },
     "faq-windows-metro-answer-para-3": {
         "message": "Sau đây là các ví dụ của thông báo lỗi mà bạn có thể thấy khi ứng dụng chế độ Metro tìm cách nối mạng không được với Psiphon.",
@@ -910,6 +990,10 @@
     "page-keyword-help": {
         "message": "trợ giúp",
         "description": "web page meta keyword used for SEO"
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
+        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "about-who-we-are-partners-head": {
         "message": "Đối tác",
@@ -999,6 +1083,10 @@
         "message": "Chấm dứt; Các điều khoản vi phạm dịch vụ",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "balance",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
     "faq-section-how-psiphon-works": {
         "message": "Psiphon hoạt động thế nào",
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
@@ -1063,6 +1151,10 @@
         "message": "Tại sao đường kết nối Psiphon thỉnh thoảng bị ngắt?",
         "description": "FAQ question."
     },
+    "license-psicash-item-1": {
+        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-meta-title": {
         "message": "Bản tin Quyền Riêng Tư",
         "description": ""
@@ -1079,6 +1171,10 @@
         "message": "Cửa hàng App",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
+    "license-psicash-item-2": {
+        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
     "privacy-bulletin-entry-item-head-what-doing": {
         "message": "Chúng tôi đang làm gì",
         "description": ""
@@ -1086,6 +1182,14 @@
     "main-gets-you-where-you-want-head-1": {
         "message": "Đưa bạn đến nơi bạn muốn...",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "client version",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "last activity timestamp",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "faq-screen-filter-question": {
         "message": "Khi Psiphon cho Android kết nối lần đầu, tại sao tôi không thể chọn \"I trust this application\" (Tôi tin tưởng ứng dụng này)?",
@@ -1131,8 +1235,12 @@
         "message": "Dữ liệu sẽ được giữ không quá một tuần. Chúng tôi sẽ giữ số đếm lượng người dùng lâu hơn -- có thể là vô hạn định.",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2": {
+        "message": "Optimize for traffic types: Video streaming has different network requirements than web browsing does, which is different than chat, which is different than voice, and so on. Statistics about the number of bytes transferred for some major media providers helps us to understand how to provide the best experience to our users.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "privacy-information-collected-websites-head": {
-        "message": "Trang web",
+        "message": "Psiphon Websites",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "footer-license": {
@@ -1231,9 +1339,17 @@
         "message": "Bảo trợ, quảng cáo, và đóng góp",
         "description": "Page title for the Sponsorship page"
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
+        "message": "Again, we specifically do not give detailed or potentially user-identifying information to partners or any other third parties.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-check-version-question": {
         "message": "Tôi có thể kiểm tra phiên bản hiện tại của Psiphon bằng cách nào?",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "site-title": {
         "message": "Psiphon: tự do cho mạng",
@@ -1242,6 +1358,10 @@
     "sponsor-header-sponsored-by": {
         "message": "Được bảo trợ bởi",
         "description": ""
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2": {
+        "message": "Psiphon does not inspect or record full URLs (only domain names), and does not further inspect your data. Psiphon does not modify your data as it passes through the VPN.",
+        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "page-keyword-privacy": {
         "message": "quyền riêng tư",
@@ -1311,6 +1431,10 @@
         "message": "Chúng tôi làm việc này để xác định có bao nhiêu truy cập vào \"danh sách máy chủ từ xa\" chứa trong bucket. Việc này giúp chúng tôi biết có bao nhiêu người dùng không kết nối được.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash earning and spending details",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
     "download-nav-title": {
         "message": "Tải xuống",
         "description": "text for the Download page navigation item"
@@ -1318,6 +1442,10 @@
     "faq-android-enable-sideloading-answer-para-0": {
         "message": "“Sideloading” có nghĩa là cài đặt một ứng dụng vào thiết bị của bạn mà không phải đi qua cửa hàng Play. Điều này hữu ích cho những ai không truy cập vào được cửa hàng Play, hoặc khi ứng dụng không có cho khu vực của họ.",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
+    },
+    "privacy-information-collected-vpndata-head": {
+        "message": "User VPN Data",
+        "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data through the Psiphon VPN"
     },
     "faq-information-collected-answer-para-2-item-2": {
         "message": "Số lần nâng cấp",
@@ -1351,6 +1479,10 @@
         "message": "Ai khác ngoài Psiphon Inc. sẽ thấy dữ liệu này",
         "description": ""
     },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
+        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. (English is using 'who' instead of 'whom' to reflect common idiom.)"
+    },
     "user-guide-android-ui-statistics-image-alt": {
         "message": "Screenshot showing the Psiphon for Android statistics panel",
         "description": "alt text for an image"
@@ -1358,6 +1490,10 @@
     "faq-information-collected-answer-head-1": {
         "message": "Máy chủ Psiphon",
         "description": ""
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-bulletin-entry-1-who-will-see": {
         "message": "Ký sự truy cập còn được lưu trên một bucket Amazon S3, do đó Amazon có truy cập vào ký sự. (Tuy nhiên, Amazon phục vụ tập tin, do đó họ đã có sẵn truy cập thông tin này.)",
@@ -1391,6 +1527,10 @@
         "message": "Cho chứng chỉ hợp lệ trong khoảng thời gian 2017-07-05 đến 2020-10-03, mã nhận dạng SHA1 là:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-1": {
+        "message": "When sharing with third parties, Psiphon only ever provides coarse, aggregate domain-bytes statistics. We never share per-session information or any other possibly-identifying information.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
+    },
     "faq-information-collected-answer-para-2-item-3": {
         "message": "Mỗi giao thức được sử dụng bao nhiêu lần, và mã lỗi sau khi thất bại",
         "description": ""
@@ -1402,6 +1542,10 @@
     "privacy-information-collected-client-advertising-networks-head": {
         "message": "Mạng Quảng Cáo",
         "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
+    },
+    "privacy-information-collected-vpndata-whycare-para-1": {
+        "message": "When using a VPN or proxy you should be concerned about what the provider can see in your data, collect from it, and do to it. For some web and email connections, it is theoretically possible for a VPN to see, collect, and modify the contents.",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User VPN Data' section of the Privacy page."
     },
     "license-termination-terms-of-service-violations-para-1": {
         "message": "Psiphon giữ quyền đơn phương chấm dứt giấy phép này bất kỳ lúc nào vì bất kỳ hoặc không có lý do nào và không bị phạt. Với việc dùng Psiphon, bạn đồng ý không sử dụng dịch vụ dưới bất cứ phương cách nào vi phạm các điều khoản của dịch vụ và giấy phép.",
@@ -1447,6 +1591,10 @@
         "message": "Đầu tiên bạn nên <a href=\"./faq.html#authentic-android\">kiểm tra lại bản Psiphon cho Android là bản chính gốc</a>.",
         "description": ""
     },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "when a PsiCash reward is allowed to be claimed again",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
     "privacy-information-collected-s3-logging-para-2": {
         "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">Ký sự truy cập bucket</a> S3  bao gồm địa chỉ IP, tên phần mềm, và dấu thời gian. Các ký sự này được giữ trên S3, do đó Amazon có quyền truy cập các ký sự này. (Tuy nhiên, Amazon đã phục vụ các tập tin này, do đó họ đã có sẵn truy cập các thông tin này.) Các nhà phát triển Psiphon sẽ tải xuống ký sự, tổng hợp và phân tích dữ liệu, rồi sẽ xóa ký sự. Các dữ liệu thô chỉ được giữ vừa đủ lâu để tổng hợp lại và sẽ không được chia sẻ với các bên thứ ba.",
         "description": ""
@@ -1458,6 +1606,10 @@
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "download-direct-head": {
         "message": "Tải trực tiếp",

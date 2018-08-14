@@ -137,6 +137,12 @@ $ ->
     # the top.
     if window.location.hash == '#direct'
       $('#direct').insertBefore('#direct-priority-insert')
+      # Then we need to re-scroll because the browser may have already modified the scroll
+      # location due to the presence of the hash in the URL (happens in Firefox but not Chrome).
+      setTimeout(
+        () -> window.scrollTo(0, $('#direct').position().top),
+        1)
+
 
   # Do some processing that depends on site-specific configuration
   processSiteConfig()
