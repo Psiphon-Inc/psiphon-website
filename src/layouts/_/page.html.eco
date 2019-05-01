@@ -1,0 +1,12 @@
+---
+layout: _/default
+---
+
+<main id="page" class="page">
+  <header>
+    <h1><%= @getTitle() %></h1>
+  </header>
+  <section>
+    <div class="page-content"><%- @content %></div>
+  </section>
+</main>

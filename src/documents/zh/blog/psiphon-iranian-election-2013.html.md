@@ -2,7 +2,7 @@
 title: 赛风和2013年伊朗选举
 author: Karl Kathuria
 date: 2013-10-28
-layout: blog/post
+layout: _/blog/post
 ---
 
 赛风软件每星期有超过一百万的实时用户。大家会使用我们的软件去看新闻，资讯和平常获取不到的社交网络内容。我们分别提供Windows 跟安卓的App版本，主要透过我们所合作的国际广播公司和人权组织发放给他们的用户。

@@ -1,7 +1,7 @@
 ---
 title: Heartbleed and Psiphon
 author: Psiphon Team
-layout: blog/post
+layout: _/blog/post
 date: 2014-04-11
 ---
 
