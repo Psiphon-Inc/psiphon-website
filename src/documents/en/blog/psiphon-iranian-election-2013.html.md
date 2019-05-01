@@ -2,7 +2,7 @@
 title: Psiphon and the 2013 Iranian Election
 author: Karl Kathuria
 date: 2013-10-28
-layout: blog/post
+layout: _/blog/post
 ---
 
 Psiphon has over a million active users every week. People use our software to get news, information and social media content that they would otherwise not be able to see. We offer apps for Windows and Android devices, mostly distributed through partnerships with news broadcasters and human rights organisations.
