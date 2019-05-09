@@ -1,0 +1,92 @@
+---
+layout: _/page
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'about-who-we-are-head' %></h2>
+
+    <p><%= @tt 'about-who-we-are-para-1' %></p>
+
+    <h3><%= @tt 'about-who-we-are-exec-team-head' %></h3>
+    <p><%= @tt 'about-who-we-are-exec-team-para-1' %></p>
+
+    <h3><%= @tt 'about-who-we-are-software-development-head' %></h3>
+    <p><%= @tt 'about-who-we-are-software-development-para-1' %></p>
+    <p><%= @tt 'about-who-we-are-software-development-para-2' %></p>
+    <p><%= @tt 'about-who-we-are-software-development-para-3' %></p>
+    <ul>
+      <li>
+        Mike Fallone
+      </li>
+      <li>
+        Eugene Fryntov
+      </li>
+      <li>
+        <a href="https://github.com/rod-hynes/" target="_blank">Rod Hynes</a>
+      </li>
+      <li>
+        Adam Kruger
+      </li>
+      <li>
+        <a href="https://www.crypti.cc/" target="_blank">Adam Pritchard</a>
+      </li>
+      <li>
+        <a href="https://github.com/geebee" target="_blank">Michael Goldberger</a>
+      </li>
+      <li>
+        <a href="https://github.com/mirokuratczyk" target="_blank">Miro Kuratczyk</a>
+      </li>
+      <li>
+        <a href="https://github.com/DravenJohnson" target="_blank">Draven Johnson</a>
+      </li>
+      <li>
+        <a href="https://github.com/tmgrask" target="_blank">Tasker Mackersy</a>
+      </li>
+      <li>
+        <a href="https://github.com/daveosborne" target="_blank">David Osborne</a>
+      </li>
+      <li>
+        <a href="https://github.com/amirkhan5" target="_blank">Amir Khan</a>
+      </li>
+    </ul>
+
+    <h3><%= @tt 'about-who-we-are-ops-head' %></h3>
+    <p><%= @tt 'about-who-we-are-ops-para-1' %></p>
+
+    <h3><%= @tt 'about-who-we-are-partners-head' %></h3>
+    <p><%- @tt 'about-who-we-are-partners-para-1' %></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'about-contact-head' %></h2>
+    <p>
+      <%= @tt 'contact-email-para' %>
+    </p>
+    <p>
+      <a href="mailto:<%= @site.email %>"><%= @site.email %></a>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2><%= @tt 'about-get-latest-info-head' %></h2>
+    <p>
+      <%= @tt 'about-get-latest-info-para-1-list-start' %>
+      <ul>
+        <li>
+          <a href="https://groups.google.com/group/psiphon3"><%= @tt 'about-get-latest-info-para-1-announcements-list' %></a>
+        </li>
+        <li>
+          <a href="https://groups.google.com/group/psiphon3-users"><%= @tt 'about-get-latest-info-para-1-users-list' %></a>
+        </li>
+        <li>
+          <a href="https://groups.google.com/group/psiphon3-developers"><%= @tt 'about-get-latest-info-para-1-developers-list' %></a>
+        </li>
+      </ul>
+    </p>
+  </div>
+</div>

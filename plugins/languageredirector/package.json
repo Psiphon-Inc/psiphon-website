@@ -1,0 +1,16 @@
+{
+  "name": "docpad-plugin-languageredirector",
+  "version": "2.0.1",
+  "private": true,
+  "keywords": [
+    "docpad-plugin"
+  ],
+  "main": "./languageredirector.plugin.js",
+  "engines": {
+    "node": ">=0.8",
+    "docpad": ">=6"
+  },
+  "dependencies": {
+    "taskgroup": "^4.3.0"
+  }
+}

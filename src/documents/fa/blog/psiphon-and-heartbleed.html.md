@@ -1,7 +1,7 @@
 ---
-title: خونریزی قلبی و سایفون 
+title: خونریزی قلبی و سایفون
 author: تیم سایفون
-layout: blog/post
+layout: _/blog/post
 date: 2014-04-11
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 心血漏洞与赛风
 author: 賽风团队
-layout: blog/post
+layout: _/blog/post
 date: 2014-04-11
 ---
 
