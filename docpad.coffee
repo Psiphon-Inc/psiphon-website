@@ -209,7 +209,9 @@ docpadConfig = {
 
       if name not of @pageInfo
         if throwIfNotFound
-          throw "@getPageInfo from #{arguments.callee.caller}: bad page name: #{name}"
+          err = "@getPageInfo from '#{arguments.callee.caller}': bad page name: '#{name}'"
+          console.log err
+          throw err
         else
           return null
       return @pageInfo[name]
@@ -479,7 +481,7 @@ docpadConfig = {
           true
 
     posts: (database) ->
-      database.findAllLive({layout: 'blog/post'}, [date:-1])
+      database.findAllLive({layout: '_/blog/post'}, [date:-1])
 
 
   # =================================

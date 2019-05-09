@@ -1,0 +1,75 @@
+---
+layout: _/default
+---
+
+<div id="sponsor-snippet-container" class="hidden show-if-sponsor-snippet"></div>
+<hr class="sponsor-separator hidden show-if-sponsor-snippet" />
+
+<div class="row index-splash">
+  <div class="col-xs-8-center">
+    <a href="<%= @getFullTranslatedURL '/download.html' %>">
+      <img src="<%= @document.pathToRoot %>/images/hero/hero-large.png"
+           class="img-responsive center-block" alt="<%= @tt 'index-hero-alt' %>">
+      <h1 class="slabtext-container text-center" data-max-font-size="60">
+        <span class="slabtext slab-main">
+          <%= @tt 'index-hero-subtext' %>
+        </span>
+      </h1>
+    </a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6-left">
+    <div class="panel panel-default equal-height equal-height-md">
+      <div class="panel-heading">
+        <h2><%= @tt 'main-gets-you-where-you-want-head-1' %></h2>
+      </div>
+      <div class="panel-body">
+        <h4><%= @tt 'main-gets-you-where-you-want-head-2' %></h4>
+        <p>
+          <%= @tt 'main-gets-you-where-you-want-para-1' %>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6-right">
+    <div class="panel panel-default equal-height equal-height-md">
+      <div class="panel-heading">
+        <h2><%= @tt 'main-gets-you-there-safely-head-1' %></h2>
+      </div>
+      <div class="panel-body">
+        <h4><%= @tt 'main-gets-you-there-safely-head-2' %></h4>
+        <p>
+          <%= @tt 'main-gets-you-there-safely-para-1' %>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6-left">
+    <div class="panel panel-default equal-height equal-height-md">
+      <div class="panel-heading">
+        <h2><%= @tt 'main-pick-three-head-1' %></h2>
+      </div>
+      <div class="panel-body">
+        <p>
+          <%= @tt 'main-pick-three-para-1' %>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6-right">
+    <div class="panel panel-default equal-height equal-height-md">
+      <div class="panel-heading">
+        <h2><%= @tt 'what-is-psiphon-heading' %></h2>
+      </div>
+      <div class="panel-body">
+        <p><%= @tt 'what-is-psiphon-body-para-1' %></p>
+        <p><%= @tt 'what-is-psiphon-body-para-2' %></p>
+      </div>
+    </div>
+  </div>
+</div>

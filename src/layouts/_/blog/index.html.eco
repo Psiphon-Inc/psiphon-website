@@ -1,0 +1,63 @@
+---
+layout: _/page
+---
+
+<div class="row blog-index-subscribe">
+  <div class="col-md-12 text-right small">
+    <a href="feed.xml">
+      <%= @tt 'blog-index-subscribe' %>
+      <img src="<%= @relativeToRoot '/images/feed-icon-28x28.png' %>">
+    </a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <p class="well">
+      <%= @tt 'blog-index-intro' %>
+    </p>
+  </div>
+</div>
+
+<% post_info = (document) => %>
+<div class="row blog-post-info">
+  <div class="col-md-2-left">
+    <span class="blog-post-date localize-date"><%= @formatDate document.date %></span>
+  </div>
+  <div class="col-md-8">
+    <a class="blog-post-title" href="<%= @relativeToRoot document.url %>">
+      <%= document.title %>
+    </a>
+  </div>
+  <div class="col-md-2-right">
+    <span class="blog-post-author"><%= document.author %></span>
+  </div>
+</div>
+<% end %>
+
+<!-- Only show the in-your-language section if there actually are any posts in the user's language (and the user's language isn't English) -->
+<% if @document.language != 'en' and @getCollection('posts').findOne({languagemakered: {$exists: false}, language: @document.language}): %>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2><%= @tt 'blog-index-posts-in-your-language' %></h2>
+    </div>
+  </div>
+
+  <% for document in @getCollection('posts').findAll({languagemakered: {$exists: false}, language: @document.language}).toJSON(): %>
+    <%= post_info document %>
+  <% end %>
+
+<% end %>
+
+<% if @document.language != 'en': %>
+  <div class="row">
+    <div class="col-md-12">
+        <h2><%= @tt 'blog-index-posts-in-english' %></h2>
+    </div>
+  </div>
+<% end %>
+
+<% for document in @getCollection('posts').findAll({language: 'en'}).toJSON(): %>
+  <%= post_info document %>
+<% end %>

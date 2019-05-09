@@ -1,7 +1,7 @@
 ---
 title: A Technical Description of Psiphon
 author: Psiphon Team
-layout: blog/post
+layout: _/blog/post
 date: 2014-03-13
 ---
 

@@ -34,6 +34,7 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
   ```
   $ npm install .
   $ cd plugins/languagemaker && npm install . && cd -
+  $ cd plugins/languageredirector && npm install . && cd -
   # Or maybe: find . -name package.json -maxdepth 3 -execdir npm install \;
   ```
 
