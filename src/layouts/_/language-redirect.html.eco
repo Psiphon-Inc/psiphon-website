@@ -34,7 +34,9 @@
     }
 
     // Redirect to a language-specific index page
-    window.location.href = '<%= @document.pathToRoot %>/' + redirectLanguage + '<%= @document.targetFilename %>';
+    var dest = '<%= @document.pathToRoot %>/' + redirectLanguage + '<%= @document.targetFilename %>'
+               + window.location.search + window.location.hash;
+    window.location.href = dest;
   </script>
 </head>
 

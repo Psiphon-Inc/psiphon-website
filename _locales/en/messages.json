@@ -287,7 +287,15 @@
   },
   "faq-uninstall-windows-answer-para-1": {
     "message": "Psiphon for Windows does not get installed, and won't appear in Windows’ “Add or Remove Programs” list. The executable file can be run from your “Downloads” directory, or it can be copied to a different directory and run from there. If you want to remove the program, you can simply delete the executable file.",
-    "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
+    "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?'"
+  },
+  "faq-clear-windows-data-question": {
+    "message": "How do I clear Psiphon for Windows' local data?",
+    "description": "FAQ question"
+  },
+  "faq-clear-windows-data-answer-para-1": {
+    "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3</code>; or, more generally, <code>%APPDATA%\\Psiphon3</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>.",
+    "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?'"
   },
   "faq-proxy-all-question": {
     "message": "Does Psiphon for Windows proxy all of my Internet traffic?"
