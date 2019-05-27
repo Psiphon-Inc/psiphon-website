@@ -1,0 +1,49 @@
+---
+layout: _/page
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <p>
+      <%- @tt 'open-source-para-1' %>
+      <ul>
+        <li><a href="https://bitbucket.org/psiphon/psiphon-circumvention-system" target="_blank">bitbucket.org/psiphon/psiphon-circumvention-system</a></li>
+        <li><a href="https://github.com/Psiphon-Inc" target="_blank">github.com/Psiphon-Inc</a></li>
+        <li><a href="https://github.com/Psiphon-Labs" target="_blank">github.com/Psiphon-Labs</a></li>
+      </ul>
+    </p>
+
+    <p>
+      <%= @tt 'open-source-para-2' %>
+      <ul>
+        <li><a href="https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation" target="_blank">Obfuscated SSH patch</a></li>
+        <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+        <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/meek" target="_blank">meek</a></li>
+      </ul>
+    </p>
+
+    <p>
+      <%= @tt 'open-source-para-3-list-start' %>
+      <ul>
+        <li><a href="http://www.cryptopp.com/" target="_blank">Crypto++</a></li>
+        <li><a href="http://jsoncpp.sourceforge.net/" target="_blank">JsonCpp</a></li>
+        <li><a href="http://www.mrhinkydink.com/potty.htm" target="_blank">PoTTY</a></li>
+        <li><a href="http://code.google.com/p/yaml-cpp/" target="_blank">yaml-cpp</a></li>
+        <li><a href="http://www.zlib.net/" target="_blank">zlib</a></li>
+      </ul>
+    </p>
+
+    <p>
+      <%= @tt 'open-source-para-4-list-start' %>
+      <ul>
+        <li><a href="http://code.google.com/p/badvpn/" target="_blank">BadVPN</a></li>
+        <li><a href="http://code.google.com/p/connectbot/" target="_blank">ConnectBot</a></li>
+        <li><a href="http://www.cleondris.ch/opensource/ssh2/" target="_blank">Ganymed SSH2</a></li>
+        <li><a href="http://jsocks.sourceforge.net/" target="_blank">JSocks</a></li>
+        <li><a href="http://code.google.com/p/roottools/" target="_blank">RootTools</a></li>
+        <li><a href="http://code.google.com/p/zirco-browser/" target="_blank">Zirco</a></li>
+        <li><a href="https://www.gosquared.com/resources/flag-icons" target="_blank">GoSquared flag icons</a></li>
+      </ul>
+    </p>
+  </div>
+</div>

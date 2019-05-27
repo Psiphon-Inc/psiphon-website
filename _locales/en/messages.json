@@ -287,7 +287,15 @@
   },
   "faq-uninstall-windows-answer-para-1": {
     "message": "Psiphon for Windows does not get installed, and won't appear in Windows’ “Add or Remove Programs” list. The executable file can be run from your “Downloads” directory, or it can be copied to a different directory and run from there. If you want to remove the program, you can simply delete the executable file.",
-    "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
+    "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?'"
+  },
+  "faq-clear-windows-data-question": {
+    "message": "How do I clear Psiphon for Windows' local data?",
+    "description": "FAQ question"
+  },
+  "faq-clear-windows-data-answer-para-1": {
+    "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3</code>; or, more generally, <code>%APPDATA%\\Psiphon3</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>.",
+    "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?'"
   },
   "faq-proxy-all-question": {
     "message": "Does Psiphon for Windows proxy all of my Internet traffic?"
@@ -299,7 +307,7 @@
     "message": "Does Psiphon Browser for iOS proxy all of my device's Internet traffic?"
   },
   "faq-proxy-all-ios-browser-answer-para-1": {
-    "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data through the Psiphon browser, and will not route your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use our app to go to Facebook through the Psiphon iOS Browser app. If you were to open your Facebook app, it would route through your Wi-Fi or cellular data connection, not through the Psiphon network."
+    "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data that is loaded in the app itself, and will not tunnel your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use Psiphon Browser to go the Facebook website. If you were to open your Facebook app, it would use your direct internet connection, and would not be tunneled through the Psiphon network."
   },
   "faq-browser-compatibility-question": {
     "message": "Is Psiphon for Windows compatible with Internet Explorer, Firefox, and Chrome web browsers?"
@@ -419,7 +427,7 @@
     "message": "Can my ISP see what I'm doing on the Internet while I'm using Psiphon?"
   },
   "faq-isp-traffic-answer-para-1": {
-    "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages your browse, your chat messages, your uploads, etc."
+    "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages you browse, your chat messages, your uploads, etc."
   },
   "faq-isp-traffic-answer-para-2": {
     "message": "However, please keep in mind that Psiphon is designed to be a censorship circumvention tool, and is not specifically designed for anti-surveillance purposes. Psiphon does not prevent your browsing history and cookies from being stored on your computer. And in some modes and configurations all of your Internet traffic might not be tunneled through Psiphon -- for example if your browser's proxy settings are misconfigured, or if you leave your browser open after exiting Psiphon."
@@ -875,7 +883,8 @@
     "message": "Partnerships"
   },
   "about-who-we-are-partners-para-1": {
-    "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our software in 15 languages, and are adding more to our products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, as part of the Localization Lab hub."
+    "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our software in dozens of languages, and are adding more to our products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, with the help of the <a href=\"https://www.localizationlab.org/\" target=\"_blank\">Localization Lab</a>.",
+    "description": "There are more than 20 languages currently supported, so if your language has a better fit than 'dozens', please use it. You can also just use something more generic, like 'many'."
   },
   "about-contact-head": {
     "message": "Contact Us"
@@ -912,8 +921,8 @@
     "message": "Psiphon is open source Internet censorship circumvention software"
   },
   "open-source-para-1": {
-    "message": "Psiphon is an open source project. You can find source code and design documents on our Bitbucket and Github project pages.",
-    "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
+    "message": "Psiphon is an open source project. You can find source code and design documents on our Bitbucket and GitHub project pages.",
+    "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and GitHub project pages."
   },
   "open-source-para-2": {
     "message": "Psiphon clients use the following open source components:"
@@ -1341,7 +1350,7 @@
     "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
   },
   "privacy-information-collected-psicash-para-2-item-4": {
-    "message": "PsiCash earning history, including what the actions the rewards were granted for",
+    "message": "PsiCash earning history, including what actions the rewards were granted for",
     "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
   },
   "privacy-information-collected-psicash-para-2-item-5": {

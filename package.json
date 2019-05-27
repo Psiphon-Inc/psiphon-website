@@ -20,17 +20,17 @@
     "npm": ">=2"
   },
   "dependencies": {
-    "cheerio": "^0.17.0",
+    "cheerio": "^1.0.0-rc.3",
     "docpad": "~6.79.4",
-    "docpad-plugin-coffeescript": "~2.6.0",
-    "docpad-plugin-eco": "~2.2.1",
-    "docpad-plugin-highlightjs": "~2.5.0",
-    "docpad-plugin-less": "~2.5.1",
-    "docpad-plugin-marked": "~2.4.0",
-    "docpad-plugin-partials": "~2.11.0",
-    "docpad-plugin-related": "~2.3.0",
-    "docpad-plugin-text": "~2.5.0",
-    "lodash": "4.12.x"
+    "docpad-plugin-coffeescript": "^2.7.0",
+    "docpad-plugin-eco": "^2.3.0",
+    "docpad-plugin-highlightjs": "^2.6.0",
+    "docpad-plugin-less": "^2.6.0",
+    "docpad-plugin-marked": "^2.5.0",
+    "docpad-plugin-partials": "^2.13.0",
+    "docpad-plugin-related": "^2.4.0",
+    "docpad-plugin-text": "^2.6.0",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {},
   "main": "node_modules/docpad/bin/docpad-server",
