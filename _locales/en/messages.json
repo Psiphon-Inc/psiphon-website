@@ -1268,7 +1268,7 @@
   },
   "privacy-information-collected-vpndata-whycare-para-2": {
     "message": "When you use a VPN, all data to and from your device goes through it. If you visit a website that uses unencrypted HTTP, all of that site's data is visible to the VPN. If you visit a website that uses encrypted HTTPS, the site content is encrypted, but some information about the site might be visible to the VPN. Other apps and services on your device will also transfer data that is encrypted or unencrypted. (Note that this is distinct from the encryption that all VPNs provide. Here we're only concerned with data that is or is not encrypted <em>inside</em> the VPN tunnel.)",
-    "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an 'emphasis' (like italics) HTML tag, which can be used if it makes sense in your language."
   },
   "privacy-information-collected-vpndata-whycare-para-3": {
     "message": "For unencrypted services, it is possible for a VPN provider to see, collect, and modify (e.g., injecting ads into) the contents of your data. For encrypted data, it is still possible for a VPN to collect metadata about sites visited or actions taken. You should also be concerned with your VPN provider sharing your data with third parties.",
@@ -1276,7 +1276,7 @@
   },
   "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-subhead": {
     "message": "What does Psiphon <strong>NOT</strong> do with your data?",
-    "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what undesirable things Psiphon DOES NOT do with user data."
+    "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what undesirable things Psiphon DOES NOT do with user data. '<strong>' is an HTML tag that makes text bold, which can be used if it makes sense in your language."
   },
   "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-1": {
     "message": "We DO NOT collect or store any VPN data that is not mentioned here.",
@@ -1299,7 +1299,7 @@
     "description": "Paragraph text in the 'What kinds of user data does Psiphon collect?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
   "privacy-information-collected-vpndata-useractivity-subhead": {
-    "message": "<em>User Activity Data</em>",
+    "message": "User Activity Data",
     "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
   },
   "privacy-information-collected-vpndata-useractivity-para-1": {
@@ -1319,7 +1319,7 @@
     "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
   "privacy-information-collected-vpndata-aggdata-subhead": {
-    "message": "<em>Aggregated Data</em>",
+    "message": "Aggregated Data",
     "description": "Sub-heading for the definition of 'Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
   },
   "privacy-information-collected-vpndata-aggdata-para-1": {
@@ -1335,7 +1335,7 @@
     "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
   "privacy-information-collected-vpndata-shareable-subhead": {
-    "message": "<em>Shareable Aggregated Data</em>",
+    "message": "Shareable Aggregated Data",
     "description": "Sub-heading for the definition of 'Shareable Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
   },
   "privacy-information-collected-vpndata-shareable-para-1": {
@@ -1352,7 +1352,7 @@
   },
   "privacy-information-collected-vpndata-shareable-para-4": {
     "message": "An example of data that is <em>not shareable</em>: On a particular day, 2 people connected from Los Angeles. Those people will be included in the stats for the entire US, but that is too few people to anonymously share city data for.",
-    "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an HTML tag that adds emphasis (like italics), which can be used if it makes sense in your language."
   },
   "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead-v2": {
     "message": "What does Psiphon do with User Activity and Aggregated Data?",

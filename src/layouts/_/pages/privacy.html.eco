@@ -67,7 +67,7 @@ layout: _/page
       <%= @tt 'privacy-information-collected-vpndata-kindsofdata-para-1' %>
     </p>
 
-    <h5><%- @tt 'privacy-information-collected-vpndata-useractivity-subhead' %></h5>
+    <h5><em><%- @tt 'privacy-information-collected-vpndata-useractivity-subhead' %></em></h5>
     <p>
       <%= @tt 'privacy-information-collected-vpndata-useractivity-para-1' %>
     </p>
@@ -81,7 +81,7 @@ layout: _/page
       <%= @tt 'privacy-information-collected-vpndata-useractivity-para-4' %>
     </p>
 
-    <h5><%- @tt 'privacy-information-collected-vpndata-aggdata-subhead' %></h5>
+    <h5><em><%- @tt 'privacy-information-collected-vpndata-aggdata-subhead' %></em></h5>
     <p>
       <%= @tt 'privacy-information-collected-vpndata-aggdata-para-1' %>
     </p>
@@ -92,7 +92,7 @@ layout: _/page
       <%= @tt 'privacy-information-collected-vpndata-aggdata-para-3' %>
     </p>
 
-    <h5><%- @tt 'privacy-information-collected-vpndata-shareable-subhead' %></h5>
+    <h5><em><%- @tt 'privacy-information-collected-vpndata-shareable-subhead' %></em></h5>
     <p>
       <%= @tt 'privacy-information-collected-vpndata-shareable-para-1' %>
     </p>
