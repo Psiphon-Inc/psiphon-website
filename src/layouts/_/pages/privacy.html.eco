@@ -22,9 +22,6 @@ layout: _/page
         </a>
       </li>
     </ul>
-    <p>
-      <%= @tt 'privacy-para-3' %>
-    </p>
   </div>
 </div>
 
@@ -35,29 +32,128 @@ layout: _/page
     <h2><%= @tt 'faq-information-collected-question' %></h2>
 
     <p>
+      <!-- privacy bulletin link -->
       <%- @tt 'faq-information-collected-answer-para-9' %>
     </p>
 
-    <!-- Psiphon Client Software -->
-    <span class="anchor-target" id="psiphon-client-software"></span>
-    <h3><%= @tt 'privacy-information-collected-client-head' %></h3>
+    <!-- User VPN Data -->
+    <span class="anchor-target" id="vpn-data"></span>
+    <h3><%= @tt 'privacy-information-collected-vpndata-head-v2' %></h3>
 
-    <h4><%= @tt 'privacy-information-collected-client-advertising-networks-head' %></h4>
+    <h4><%= @tt 'privacy-information-collected-vpndata-whycare-subhead' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whycare-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'privacy-information-collected-vpndata-whycare-para-2' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whycare-para-3' %>
+    </p>
+
+    <h4><%- @tt 'privacy-information-collected-vpndata-whatdoespsiphonnotdowith-subhead' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-2' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-3' %>
+    </p>
+
+    <h4><%= @tt 'privacy-information-collected-vpndata-kindsofdata-subhead' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-kindsofdata-para-1' %>
+    </p>
+
+    <h5><em><%- @tt 'privacy-information-collected-vpndata-useractivity-subhead' %></em></h5>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-useractivity-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-useractivity-para-2' %>
+    </p>
+    <p>
+      <%- @tt 'privacy-information-collected-vpndata-useractivity-para-3' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-useractivity-para-4' %>
+    </p>
+
+    <h5><em><%- @tt 'privacy-information-collected-vpndata-aggdata-subhead' %></em></h5>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-aggdata-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'privacy-information-collected-vpndata-aggdata-para-2' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-aggdata-para-3' %>
+    </p>
+
+    <h5><em><%- @tt 'privacy-information-collected-vpndata-shareable-subhead' %></em></h5>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-shareable-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-shareable-para-2' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-shareable-para-3' %>
+    </p>
+    <p>
+      <%- @tt 'privacy-information-collected-vpndata-shareable-para-4' %>
+    </p>
+
+    <h4><%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-subhead-v2' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-para-1-v2' %>
+    </p>
+    <p>
+      <ul>
+        <li><%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-1' %></li>
+        <li><%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-2' %></li>
+        <li><%- @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-3' %></li>
+        <li><%- @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1' %></li>
+        <li><%- @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3' %></li>
+        <li><%- @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4' %></li>
+      </ul>
+    </p>
+
+    <h4><%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-subhead-v2' %></h4>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-1-v2' %>
+    </p>
+    <p>
+      <ul>
+        <li><%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-1' %></li>
+        <li><%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-2' %></li>
+        <li><%- @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-3' %></li>
+      </ul>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-3-v2' %>
+    </p>
+
+    <!-- Psiphon Client Advertising Networks -->
+    <span class="anchor-target" id="psiphon-client-software"></span>
+    <h3><%= @tt 'privacy-information-collected-client-ads-head' %></h3>
 
     <p>
       <%= @tt 'privacy-information-collected-client-advertising-networks-para-1' %>
     </p>
 
     <ul>
-    <li>
-    <a href="https://www.mopub.com/legal/privacy/">https://www.mopub.com/legal/privacy/</a>
-    </li>
-    <li>
-    <a href="https://www.mopub.com/legal/partners/">https://www.mopub.com/legal/partners/</a>
-    </li>
-    <li>
-    <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>
-    </li>
+      <li>
+        <a href="https://www.mopub.com/legal/privacy/">https://www.mopub.com/legal/privacy/</a>
+      </li>
+      <li>
+        <a href="https://www.mopub.com/legal/partners/">https://www.mopub.com/legal/partners/</a>
+      </li>
+      <li>
+        <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>
+      </li>
     </ul>
 
     <p>
@@ -65,9 +161,9 @@ layout: _/page
     </p>
 
     <ul>
-    <li>
-    <a href="https://www.mopub.com/optout/">https://www.mopub.com/optout/</a>
-    </li>
+      <li>
+        <a href="https://www.mopub.com/optout/">https://www.mopub.com/optout/</a>
+      </li>
     </ul>
 
     <!-- Websites -->
@@ -92,75 +188,6 @@ layout: _/page
     </p>
     <p>
       <%- @tt 'privacy-information-collected-s3-logging-para-2' %>
-    </p>
-
-    <!-- Psiphon Servers -->
-    <span class="anchor-target" id="psiphon-servers"></span>
-    <h3><%= @tt 'faq-information-collected-answer-head-1' %></h3>
-    <p>
-      <%= @tt 'faq-information-collected-answer-para-1' %>
-    </p>
-    <p>
-      <ul>
-        <li><%= @tt 'faq-information-collected-answer-para-2-item-1' %></li>
-        <li><%= @tt 'faq-information-collected-answer-para-2-item-2' %></li>
-        <li><%= @tt 'faq-information-collected-answer-para-2-item-3' %></li>
-        <li><%= @tt 'faq-information-collected-answer-para-2-item-4' %></li>
-        <li><%= @tt 'faq-information-collected-answer-para-2-item-5' %></li>
-        <li><%= @tt 'faq-information-collected-answer-para-2-item-7' %></li>
-        <li><%= @tt 'faq-information-collected-answer-para-2-item-9' %></li>
-      </ul>
-    </p>
-    <p>
-      <%= @tt 'faq-information-collected-answer-para-3b' %>
-    </p>
-    <p>
-      <%= @tt 'faq-information-collected-answer-para-4' %>
-    </p>
-    <p>
-      <%= @tt 'faq-information-collected-answer-para-5' %>
-    </p>
-
-    <!-- User VPN Data -->
-    <span class="anchor-target" id="vpn-data"></span>
-    <h3><%= @tt 'privacy-information-collected-vpndata-head' %></h3>
-
-    <h4><%= @tt 'privacy-information-collected-vpndata-whycare-subhead' %></h4>
-    <p>
-      <%= @tt 'privacy-information-collected-vpndata-whycare-para-1' %>
-    </p>
-
-    <h4><%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-subhead' %></h4>
-    <p>
-      <%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-para-1' %>
-    </p>
-    <p>
-      <%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-para-2' %>
-    </p>
-    <p>
-      <%= @tt 'privacy-information-collected-vpndata-whatdoespsiphondowith-para-3' %>
-    </p>
-
-    <h4><%= @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-subhead' %></h4>
-    <p>
-      <%= @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start' %>
-      <ul>
-        <li><%= @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1' %></li>
-        <li><%= @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2' %></li>
-        <li><%- @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3' %></li>
-        <li><%= @tt 'privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4' %></li>
-      </ul>
-    </p>
-
-    <h4><%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-subhead' %></h4>
-    <p>
-      <%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-1' %>
-    </p>
-    <p>
-      <%- @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-2' %>
-    </p>
-    <p>
-      <%= @tt 'privacy-information-collected-vpndata-whopsiphonshareswith-para-3' %>
     </p>
 
     <!-- PsiCash -->
