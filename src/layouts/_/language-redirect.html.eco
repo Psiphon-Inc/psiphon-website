@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="1; url=<%= @getFullTranslatedURL @document.targetFilename %>">
+
+  <title>Psiphon</title>
+
+  <script>
+    var defaultLanguage, supportedLanguages, language, redirectLanguage;
+
+    defaultLanguage = 'en';
+    supportedLanguages = <%- JSON.stringify @all_languages %>;
+    redirectLanguage = defaultLanguage;
+
+    try {
+      language = window.navigator.userLanguage || window.navigator.language || defaultLanguage;
+
+      // Some languages we support look like 'en' and some like 'en-US'. Some languages
+      // set in navigator.language look like 'en' and some like 'en-US'. So we'll
+      // check both combinations.
+
+      if (supportedLanguages.indexOf(language) >= 0) {
+        redirectLanguage = language;
+      }
+      else if (supportedLanguages.indexOf(language.substr(0, 2)) >= 0) {
+        redirectLanguage = language.substr(0, 2);
+      }
+    }
+    catch (e) {
+      // Really old Internet Explorer seems to throw an exception on the above code.
+      // We'll just catch and pass.
+    }
+
+    // Redirect to a language-specific index page
+    var dest = '<%= @document.pathToRoot %>/' + redirectLanguage + '<%= @document.targetFilename %>'
+               + window.location.search + window.location.hash;
+    window.location.href = dest;
+  </script>
+</head>
+
+<body>
+  If you are not redirected automatically, follow the <a href='<%= @getFullTranslatedURL @document.targetFilename %>'>link to the Psiphon home page</a>.
+</body>
+
+</html>

@@ -1,0 +1,710 @@
+---
+layout: _/page
+---
+
+<div class="row">
+  <div class="col-md-12">
+
+    <div id="faq-toc" class="panel-group" role="tablist">
+
+      <script type="text/template"" id="faq-toc-template">
+        <div class="panel panel-default panel-section">
+          <div class="panel-heading" role="tab" id="{{ head_id }}">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" href="#{{ collapse_id }}"
+                aria-expanded="false" aria-controls="{{ collapse_id }}">
+                {{ section_text }}
+              </a>
+              <a href="#{{ section_id }}">
+                <span class="glyphicon <%- @ifRTL('glyphicon-arrow-left', 'glyphicon-arrow-right') %>" aria-hidden="true"></span>
+              </a>
+            </h4>
+          </div>
+          <div id="{{ collapse_id }}" class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="{{ head_id }}" aria-expanded="false">
+            <ul class="list-group">
+
+              {{% _.forEach(subsections, function(sub) { if (!sub.questions.length) return; %}}
+                {{% if (sub.head_id) { /* if subsections aren't used for this section, then head_id is null */ %}}
+                  <div class="panel panel-subsection">
+                    <div class="panel-heading" role="tab" id="{{ sub.head_id }}">
+                      <h5 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" href="#{{ sub.collapse_id }}"
+                          aria-expanded="false" aria-controls="{{ sub.collapse_id }}">
+                          {{ sub.section_text }}
+                        </a>
+                        <a href="#{{ sub.section_id }}">
+                          <span class="glyphicon <%- @ifRTL('glyphicon-arrow-left', 'glyphicon-arrow-right') %>" aria-hidden="true"></span>
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="{{ sub.collapse_id }}" class="panel-collapse collapse" role="tabpanel"
+                        aria-labelledby="{{ sub.head_id }}" aria-expanded="false">
+                      <ul class="list-group">
+
+                        {{% _.forEach(sub.questions, function(q) { %}}
+                          <li class="list-group-item">
+                            <a href="#{{ q.id }}">{{ q.text }}</a>
+                          </li>
+                        {{% }); %}}
+
+                      </ul>
+                    </div>
+                  </div>
+                {{% } else { %}}
+                  {{% _.forEach(sub.questions, function(q) { %}}
+                    <li class="list-group-item">
+                      <a href="#{{ q.id }}">{{ q.text }}</a>
+                    </li>
+                  {{% }); %}}
+                {{% } %}}
+              {{% }); %}}
+
+            </ul>
+          </div>
+        </div>
+      </script>
+
+    </div>
+
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="verify-psiphon-authentic">
+      <%= @tt 'faq-section-verify-psiphon-authentic' %>
+    </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="authentic-windows" data-anchor-text="<%= @tt 'faq-authentic-windows-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-authentic-windows-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-authentic-windows-answer-para-1' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="<%= @relativeToRoot '/images/faq/faq-authentic-windows.png' %>" alt="<%= @tt 'faq-authentic-windows-image-alt' %>">
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-windows-answer-para-2020' %>
+    </p>
+    <p>
+      <code>89 fd cd 09 65 f4 dd 89 2b 25 7c 04 d5 b4 14 c7 ac 2b 5f 56</code>
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-windows-answer-para-2017' %>
+    </p>
+    <p>
+      <code>9b a0 bd 1c e4 ca f6 20 41 0d 46 47 ae 40 b0 7c 83 c7 31 99</code>
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-windows-answer-para-3' %>
+    </p>
+    <p>
+      <code>84 c5 13 5b 13 d1 53 96 7e 88 c9 13 86 0e 83 ee ef 48 8e 91</code>
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-windows-answer-para-2' %>
+    </p>
+    <p>
+      <code>8f b7 ef bd 20 a9 20 3a 38 37 08 a2 1e 0a 1d 2e ad 7b ee 6d</code>
+    </p>
+    <p>
+      <%= @tt 'faq-authentic-windows-answer-para-4' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="authentic-android" data-anchor-text="<%= @tt 'faq-authentic-android-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-authentic-android-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <div class="alert alert-warning">
+      <%- @tt 'faq-authentic-android-answer-alert' %>
+    </div>
+    <p>
+      <%= @tt 'faq-authentic-android-answer-para-1' %>
+    </p>
+    <pre><code class="no-highlight">Owner: CN=Psiphon Inc., OU=Psiphon Inc., O=Psiphon Inc.,
+L=Unknown, ST=Unknown, C=CA
+Issuer: CN=Psiphon Inc., OU=Psiphon Inc., O=Psiphon Inc.,
+L=Unknown, ST=Unknown, C=CA
+Serial number: 349480e5
+Valid from: Fri Jun 01 12:04:42 EDT 2012 until: Tue Oct 18 12:04:42 EDT 2039
+Certificate fingerprints:
+MD5:  BB:08:CD:91:22:FC:EB:17:1A:4A:3B:90:65:CE:2E:58
+SHA1: 49:2C:3A:49:20:F3:6B:AE:95:90:EB:69:A6:36:E9:88:A7:41:7A:95
+SHA256: 76:DB:EF:15:F6:77:26:D4:51:A1:23:59:B8:57:9C:0D:
+7A:9F:63:5D:52:6A:A3:74:24:DF:13:16:32:F1:78:10
+Signature algorithm name: SHA256withRSA
+Version: 3</code></pre>
+    <p>
+      <%= @tt 'faq-authentic-android-answer-para-2' %>
+    </p>
+    <pre><code class="no-highlight">$ unzip -p PsiphonAndroid.apk META-INF/PSIPHON.RSA | keytool -printcert
+$ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
+    <p>
+      <%= @tt 'faq-authentic-android-answer-para-3' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="privacy-security">
+      <%= @tt 'faq-section-privacy-security' %>
+    </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="isp-traffic" data-anchor-text="<%= @tt 'faq-isp-traffic-question-toc' %>"></span>
+  <div class="faq-question">
+    <h3><%- @tt 'faq-isp-traffic-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-isp-traffic-answer-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-isp-traffic-answer-para-2' %>
+    </p>
+    <p>
+      <%- @tt 'faq-isp-traffic-answer-para-3' %>
+    </p>
+    <p>
+      <%- @tt 'faq-isp-traffic-answer-para-4' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="information-collected" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-information-collected-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-information-collected-answer-redirect' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="installing-running-updating">
+      <%= @tt 'faq-section-installing-running-updating' %>
+    </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="unsupported-platforms" data-anchor-text="<%= @tt 'faq-unsupported-platforms-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-unsupported-platforms-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-unsupported-platforms-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="android-enable-sideloading" data-anchor-text="<%= @tt 'faq-android-enable-sideloading-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-android-enable-sideloading-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-android-enable-sideloading-answer-para-0' %>
+    </p>
+    <p>
+      <%- @tt 'faq-android-enable-sideloading-answer-para-1' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="<%= @relativeToRoot @ttURL '/images/faq/faq-android-enable-sideloading.png' %>" alt="<%= @tt 'faq-android-enable-sideloading-image-alt' %>">
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="check-version" data-anchor-text="<%= @tt 'faq-check-version-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-check-version-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-check-version-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="orig-file-purpose" data-anchor-text="<%= @tt 'faq-orig-file-purpose-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-orig-file-purpose-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-orig-file-purpose-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="get-updated-version" data-anchor-text="<%= @tt 'faq-get-updated-version-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-get-updated-version-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-get-updated-version-answer-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-get-updated-version-answer-para-2' %>
+    </p>
+    <p>
+      <%- @tt 'faq-get-updated-version-answer-para-3' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="uninstall-windows" data-anchor-text="<%= @tt 'faq-uninstall-windows-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-uninstall-windows-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-uninstall-windows-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="clear-windows-data" data-anchor-text="<%= @tt 'faq-clear-windows-data-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-clear-windows-data-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-clear-windows-data-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="how-psiphon-works">
+      <%= @tt 'faq-section-how-psiphon-works' %>
+    </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="ip-change" data-anchor-text="<%= @tt 'faq-ip-change-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-ip-change-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-ip-change-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="proxy-all" data-anchor-text="<%= @tt 'faq-proxy-all-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-proxy-all-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-proxy-all-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="proxy-all-ios-browser" data-anchor-text="<%= @tt 'faq-proxy-all-ios-browser-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-proxy-all-ios-browser-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-proxy-all-ios-browser-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="ssh-plus" data-anchor-text="<%= @tt 'faq-ssh-plus-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-ssh-plus-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-ssh-plus-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="vpn-protocol" data-anchor-text="<%= @tt 'faq-vpn-protocol-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-vpn-protocol-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-vpn-protocol-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="troubleshooting">
+      <%= @tt 'faq-section-troubleshooting' %>
+    </h2>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h3 class="faq-subsection anchor-target" id="troubleshooting-android">
+      <%= @tt 'faq-subsection-troubleshooting-android' %>
+    </h3>
+  </div>
+</div>
+
+<% # This is copied between all platforms %>
+<div class="row faq-qa">
+  <span class="anchor-target" id="connection-failed" data-anchor-text="<%= @tt 'faq-connection-failed-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-connection-failed-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-connection-failed-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<% # This is copied between all platforms %>
+<div class="row faq-qa">
+  <span class="anchor-target" id="periodic-disconnect" data-anchor-text="<%= @tt 'faq-periodic-disconnect-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-periodic-disconnect-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-periodic-disconnect-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="android-upgrade-bug" data-anchor-text="<%= @tt 'faq-android-upgrade-bug-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-android-upgrade-bug-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-android-upgrade-bug-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="screen-filter" data-anchor-text="<%= @tt 'faq-screen-filter-question' %>"></span>
+  <div class="faq-question">
+    <h3><%- @tt 'faq-screen-filter-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-screen-filter-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h3 class="faq-subsection anchor-target" id="troubleshooting-windows">
+      <%= @tt 'faq-subsection-troubleshooting-windows' %>
+    </h3>
+  </div>
+</div>
+
+<% # This is copied between all platforms %>
+<div class="row faq-qa">
+  <span class="anchor-target" id="connection-failed" data-anchor-text="<%= @tt 'faq-connection-failed-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-connection-failed-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-connection-failed-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<% # This is copied between all platforms %>
+<div class="row faq-qa">
+  <span class="anchor-target" id="periodic-disconnect" data-anchor-text="<%= @tt 'faq-periodic-disconnect-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-periodic-disconnect-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-periodic-disconnect-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="reset-system-proxy" data-anchor-text="<%= @tt 'faq-reset-system-proxy-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-reset-system-proxy-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-reset-system-proxy-answer-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'faq-reset-system-proxy-answer-para-2' %>
+    </p>
+    <p>
+      <%= @tt 'faq-reset-system-proxy-answer-para-3' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="<%= @relativeToRoot '/images/faq/faq-windows-reset-proxy-settings.png' %>">
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="ie6-docbody" data-anchor-text="<%= @tt 'faq-ie6-docbody-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-ie6-docbody-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-ie6-docbody-answer-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-ie6-docbody-answer-para-2' %>
+    </p>
+    <p>
+      <ul>
+        <li>
+          <a href="https://download.microsoft.com/download/C/C/0/CC0BD555-33DD-411E-936B-73AC6F95AE11/IE8-WindowsXP-x86-ENU.exe" target="_blank">
+            <%- @tt 'faq-ie6-docbody-answer-xpie8' %>
+          </a>
+          (<a href="https://download.microsoft.com/download/7/5/4/754D6601-662D-4E39-9788-6F90D8E5C097/IE8-WindowsServer2003-x64-ENU.exe" target="_blank">64-bit</a>)
+        </li>
+        <li>
+          <a href="https://download.microsoft.com/download/3/8/8/38889DC1-848C-4BF2-8335-86C573AD86D9/IE7-WindowsXP-x86-enu.exe" target="_blank">
+            <%- @tt 'faq-ie6-docbody-answer-xpie7' %>
+          </a>
+          (<a href="https://download.microsoft.com/download/1/1/4/114D5B07-4DBC-42F3-96FA-2097E207D0AF/IE7-WindowsServer2003-x64-enu.exe" target="_blank">64-bit</a>)
+        </li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="windows-vpn-connect" data-anchor-text="<%= @tt 'faq-windows-vpn-connect-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-windows-vpn-connect-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-windows-vpn-connect-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="vpn-slow" data-anchor-text="<%= @tt 'faq-vpn-slow-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-vpn-slow-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-vpn-slow-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="vpn-dns" data-anchor-text="<%= @tt 'faq-vpn-dns-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-vpn-dns-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-vpn-dns-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="compatibility">
+      <%= @tt 'faq-section-compatibility' %>
+    </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="browser-compatibility" data-anchor-text="<%= @tt 'faq-browser-compatibility-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-browser-compatibility-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-browser-compatibility-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="port-restrictions" data-anchor-text="<%= @tt 'faq-port-restrictions-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-port-restrictions-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-port-restrictions-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="mail-apps-ports" data-anchor-text="<%= @tt 'faq-mail-apps-ports-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-mail-apps-ports-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-mail-apps-ports-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="mobile-hotspot" data-anchor-text="<%= @tt 'faq-mobile-hotspot-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-mobile-hotspot-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-mobile-hotspot-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="av-firewall" data-anchor-text="<%= @tt 'faq-av-firewall-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-av-firewall-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-av-firewall-answer-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-av-firewall-answer-para-2' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="windows-metro" data-anchor-text="<%= @tt 'faq-windows-metro-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-windows-metro-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-windows-metro-answer-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-windows-metro-answer-para-2' %>
+    </p>
+    <p>
+      <%- @tt 'faq-windows-metro-answer-para-3' %>
+    </p>
+    <p>
+      <a href="<%= @relativeToRoot '/images/faq/windows-metro-1.png' %>">
+        <img class="img-responsive img-thumbnail" src="<%= @relativeToRoot '/images/faq/windows-metro-1.png' %>">
+      </a>
+    </p>
+    <p>
+      <a href="<%= @relativeToRoot '/images/faq/windows-metro-2.png' %>">
+        <img class="img-responsive img-thumbnail" src="<%= @relativeToRoot '/images/faq/windows-metro-2.png' %>">
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="configure-applications" data-anchor-text="<%= @tt 'faq-configure-applications-question' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-configure-applications-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-configure-applications-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="autoproxy" data-anchor-text="<%= @tt 'faq-autoproxy-question-toc' %>"></span>
+  <div class="faq-question">
+    <h3><%- @tt 'faq-autoproxy-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-autoproxy-answer-para-1' %>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="miscellaneous">
+      <%= @tt 'faq-section-miscellaneous' %>
+    </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="root-wdm" data-anchor-text="<%= @tt 'faq-root-wdm-question-toc' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-root-wdm-question' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%= @tt 'faq-root-wdm-answer-para-1' %>
+    </p>
+  </div>
+</div>

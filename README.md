@@ -32,9 +32,10 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
 3. Install all dependencies:
 
   ```
-  $ npm install .
-  $ cd plugins/languagemaker && npm install . && cd -
-  # Or maybe: find . -name package.json -maxdepth 3 -execdir npm install \;
+  $ npm ci
+  $ cd plugins/languagemaker && npm ci . && cd -
+  $ cd plugins/languageredirector && npm ci . && cd -
+  # Or maybe: find . -name package.json -maxdepth 3 -execdir npm ci \;
   ```
 
 4. Generate site, serve it, and monitor for changes:

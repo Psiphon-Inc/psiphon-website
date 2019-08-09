@@ -2,7 +2,7 @@
 title: '"Who We Are" added to the About page'
 author: Karl Kathuria
 date: 2014-01-30
-layout: blog/post
+layout: _/blog/post
 ---
 
 We feel that it's important that you (and everyone who uses our software) know that Psiphon is a team of actual people working hard to give you access to the open Internet. So we've updated our [About page](<%= @getFullTranslatedURL(@pageInfo['about'].filename) %>) to help you get to know us better.

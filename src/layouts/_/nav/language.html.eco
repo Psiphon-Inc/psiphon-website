@@ -1,0 +1,15 @@
+---
+layout: _/page
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <ul>
+    <% for language in @all_languages: %>
+      <li>
+        <a href="<%= @getFullTranslatedURL('/index.html', language) %>"><%= @languageLabel language %></a>
+      </li>
+    <% end %>
+    </ul>
+  </div>
+</div>
