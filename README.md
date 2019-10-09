@@ -145,3 +145,6 @@ Metadata in layouts is basically ignored (besides another `layout` in the chain)
 
 Background pattern from: http://subtlepatterns.com/3px-tile/
 
+## License
+
+See the `LICENSE` file.
