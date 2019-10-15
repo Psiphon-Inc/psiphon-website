@@ -26,19 +26,11 @@ $ pip install pipenv
 
 $ pipenv install --ignore-pipfile
 $ pipenv run python transifex_pull.py
+
+# To reset your pipenv state (e.g., after a Python upgrade):
+$ pipenv --rm
 '''
 
-import os
-import sys
-import errno
-import json
-import codecs
-import argparse
-import requests
-import localizable
-
-from ruamel.yaml import YAML
-from ruamel.yaml.compat import StringIO
 
 import transifexlib
 
@@ -80,7 +72,7 @@ DEFAULT_LANGS = {
     'tr': 'tr',         # Turkish
     #'ug': 'ug@Latn',    # Uighur (latin script)
     'uk': 'uk',         # Ukrainian
-    #'ur': 'ur',         # Urdu
+    'ur': 'ur',         # Urdu
     'uz': 'uz@Latn',    # Uzbek (latin script)
     #'uz@Cyrl': 'uz@Cyrl',    # Uzbek (latin script)
     'vi': 'vi',         # Vietnamese
