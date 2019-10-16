@@ -63,9 +63,11 @@ docpadConfig = {
 
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
-    languages: ['en', 'fa', 'ar', 'zh', 'am', 'az', 'be', 'bn', 'bo', 'de', 'el', 'es', 'fa_AF', 'fi', 'fr', 'hr', 'id', 'kk', 'km', 'ko', 'ky', 'my', 'nb', 'nl', 'om', 'pt_BR', 'pt_PT', 'ru', 'tg', 'th', 'ti', 'tk', 'tr', 'uk', 'uz', 'vi', 'zh_TW']
+    languages: ['en', 'fa', 'ar', 'zh', 'am', 'az', 'be', 'bn', 'bo', 'de', 'el', 'es', 'fa_AF', 'fi', 'fr', 'hr', 'id', 'kk', 'km', 'ko', 'ky', 'my', 'nb', 'nl', 'om', 'pt_BR', 'pt_PT', 'ru', 'tg', 'th', 'ti', 'tk', 'tr', 'uk', 'ur', 'uz', 'vi', 'zh_TW']
     # Even if this array is modified during generation, the full list will always
     # be available in @all_languages.
+
+    rtl_languages: ['ar', 'fa', 'fa_AF', 'he', 'ur']
 
     # Translation file location.
     translation_files:
@@ -102,6 +104,7 @@ docpadConfig = {
       tk: './_locales/tk/messages.json'
       tr: './_locales/tr/messages.json'
       uk: './_locales/uk/messages.json'
+      ur: './_locales/ur/messages.json'
       uz: './_locales/uz@Latn/messages.json'
       vi: './_locales/vi/messages.json'
       zh: './_locales/zh/messages.json'
@@ -315,9 +318,6 @@ docpadConfig = {
       if fallback_url_found then fallback_url else no_lang_fallback_url
 
 
-    rtl_languages: ['ar', 'fa', 'he']
-
-
     # `document` argument is optional -- if not supplied, @document will be used
     isRTL: (document=null) ->
       if not document
@@ -372,6 +372,7 @@ docpadConfig = {
         "tr": "Türkçe"
         "ug@Latn": "Uyghurche"
         "uk": "Українська"
+        "ur": "اُردُو"
         "uz": "O'zbekcha"
         "uz@Cyrl": "Ўзбекча"
         "uz@Latn": "O'zbekcha"

@@ -1,1027 +1,547 @@
 {
+    "site-title": {
+        "message": "ሳይፈን፡- ኔትወርክዎን ነጻ ያውጡ",
+        "description": "the title for the site"
+    },
+    "index-meta-title": {
+        "message": "ለWindows እና ለተንቀሳቃሽ ስልክ ያልተገደበ ኢንተርኔት አገልግሎት ",
+        "description": "Meta title for the index page"
+    },
+    "index-description": {
+        "message": "ሳይፈን ለWindows እና ተንቀሳቃሽ ስልክ አእማዶች የማለፊይ ሶፍትዌር ሲሆን  ያልተገደበ ኢንተርኔት አገልግሎት ይሰጣል። ",
+        "description": "Page description for the index page"
+    },
     "index-hero-subtext": {
         "message": "ድምበር አቋራጭ",
         "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
-    },
-    "page-keyword-source-code": {
-        "message": "የምጭ ኮድ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-autoproxy-question-toc": {
-        "message": "የራስሰር ተኪ እጠቀማለሁ። የWindows ሳይፈኔ የተኪ ስርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ？ ",
-        "description": ""
-    },
-    "page-keyword-psiphon2": {
-        "message": "ሳይፈን2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "privacy-canadian-privacy-commission-link-text": {
-        "message": "የካናዳ የግላዊነት ኮሚሽን ቢሮ  ",
-        "description": ""
-    },
-    "license-psicash-header": {
-        "message": "Use of PsiCash",
-        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
-    },
-    "faq-vpn-protocol-question": {
-        "message": "ሳይፈን ለWindows የሚጠቀመው የVPN ፕሮቶኮል ምንድን ነው？ መገናኘት የማልችለው ለምንድን ነው？ ",
-        "description": ""
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "የተከፈቱ ትሮችን ለዋውጥ",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "privacy-bulletin-entry-item-head-how-many-users": {
-        "message": "ምን ያህል ተጠቃሚዎች ይነካሉ ",
-        "description": ""
-    },
-    "privacy-bulletin-entry-item-head-what-data": {
-        "message": "ምን አይነት የተጠቃሚ ዳታ ይሰበሰባል ",
-        "description": ""
-    },
-    "faq-proxy-all-question": {
-        "message": "የWindows ሳይፈኔ ሁሉንም የኢንተርኔት ትራፊኬን  በተኪ ያደርገዋል ？ ",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "መጫንን ለማስጀመር የሳይፈን APK ትይይዝን ከAndroid ኢሜል ደምበኛ ላይ ወይም የድር መዳሰሻ ላይ ጠቅ ያድርጉ። (ስህተት ካገኙ <a href=\"./faq.html#android-enable-sideloading\">የጎንዮሽ ጫኙን  ማስቻል </a> ሊያስፈልጎት ይችላል።)",
-        "description": ""
-    },
-    "about-contact-head": {
-        "message": "ያነጋግሩን",
-        "description": ""
-    },
-    "privacy-information-collected-psicash-para-2-item-2": {
-        "message": "balance",
-        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
-    },
-    "privacy-information-collected-psicash-para-5": {
-        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
-        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
-    },
-    "privacy-description": {
-        "message": "የሳይፈን የግላዊነት ፖሊሲ ",
-        "description": "description for the Privacy Policy page"
-    },
-    "page-keyword-android": {
-        "message": "android",
-        "description": "web page meta keyword used for SEO"
-    },
-    "contact-email-para": {
-        "message": "ወደሚከተለው አድራሻ ኢሜይል በመላክ ሳይፈንን ማነጋገር ይችላሉ፡- ",
-        "description": ""
     },
     "index-hero-alt": {
         "message": "ሳይፈን ",
         "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
-    "faq-mobile-hotspot-question": {
-        "message": "የAndroid ተንቀሳቃሽ ሆትስፖቶች እና USB ግንኘነት  በሳይፈን በኩል የማይሰሩት ለምንድን ነው？  ",
-        "description": "FAQ question."
-    },
-    "faq-android-enable-sideloading-image-alt": {
-        "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
-        "description": "alt text for an image"
-    },
-    "download-ios-appstore-psiphon-vpn": {
-        "message": "<strong>Psiphon for iOS</strong> in the Apple App Store",
-        "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
-    },
-    "page-keyword-proxy": {
-        "message": "ተኪ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "privacy-information-collected-vpndata-whycare-subhead": {
-        "message": "Why should you care?",
-        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
-    },
-    "download-list-join": {
-        "message": "አስፈላጊ ማስታወቂያዎች እና ለደህንነት ምክሮች <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">የማስታወቂያ ኢሜል ዝርዝራችንን</a> ይቀላቀሉ። ",
+    "nav-language-title": {
+        "message": "ቋንቋዎን ይምረጡ ",
         "description": ""
     },
-    "privacy-information-collected-psicash-para-4-item-3": {
-        "message": "user agent string",
-        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
+    "nav-title": {
+        "message": "ዳሰሳ ",
+        "description": ""
     },
-    "about-get-latest-info-para-1-developers-list": {
-        "message": "የሳይፈን አበልጻጊዎች ",
-        "description": "text for link to the Psiphon Developers mailing list"
+    "faq-title": {
+        "message": "ኤፍኤኪው ",
+        "description": "title for the FAQ page"
+    },
+    "faq-meta-title": {
+        "message": "ተደጋግመው የሚጠየቁ ጥያቄዎች ",
+        "description": "meta title for the FAQ page"
+    },
+    "faq-nav-title": {
+        "message": "ኤፍኤኪው ",
+        "description": "text for the FAQ page navigation item"
+    },
+    "faq-description": {
+        "message": "ስለ ሳይፈን ተደጋግመው የተጠየቁ ጥያቄዎች መልስ ",
+        "description": "description for the FAQ page"
+    },
+    "resources-nav-title": {
+        "message": "ግብዓቶች ",
+        "description": "title for the Resources"
+    },
+    "user-guide-title": {
+        "message": "የሳይፈን አጠቃቀም ",
+        "description": "page title for the user guide page"
+    },
+    "user-guide-meta-title": {
+        "message": "ሳይፈንን በተንቀሳቃሽ ስልክ እና በWindows ላይ እንዴት መጠቀም እንደሚቻል",
+        "description": "meta title for the user guide page"
+    },
+    "user-guide-nav-title": {
+        "message": "የተጠቃሚ መመሪያ ",
+        "description": "text for the user guide page navigation item"
+    },
+    "user-guide-description": {
+        "message": "ሳይፈንን በተንቀሳቃሽ ስልክ እና በWindows አእማዶች  ላይ እንዴት እንደሚጠቀሙ የሚያሳይ የተጠቃሚዎች መመሪያ ",
+        "description": "description for the user guide page"
+    },
+    "download-title": {
+        "message": "ሳይፈንን አውርድ ",
+        "description": "page title for the download page"
+    },
+    "download-meta-title": {
+        "message": "የAndroid መተግበሪያ እና የWindows ደምበኛ አውርድ ",
+        "description": "meta title for the download page"
+    },
+    "download-nav-title": {
+        "message": "አውርድ ",
+        "description": "text for the Download page navigation item"
+    },
+    "download-description": {
+        "message": "ለWindows እና ለAndroid በቀጥታ እና በነጻ ሳይፈንን ማውረድ ",
+        "description": "title for the download page"
+    },
+    "faq-section-verify-psiphon-authentic": {
+        "message": "ያወረዱት ሳይፈን ትክክለኛ መሆኑን ያረጋግጡ ",
+        "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
+    },
+    "faq-section-privacy-security": {
+        "message": "ግላዊነት እና ደህንነት ",
+        "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
+    },
+    "faq-section-installing-running-updating": {
+        "message": "ሳይፈንን መጫን፣ ማሄድ እና ማዘመን ",
+        "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software."
+    },
+    "faq-section-how-psiphon-works": {
+        "message": "ሳይፈን እንዴት ይሰራል ",
+        "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
+    },
+    "faq-section-troubleshooting": {
+        "message": "መፍትሄ ማፈላለግ",
+        "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
+    },
+    "faq-subsection-troubleshooting-android": {
+        "message": "Android",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Android-specific."
+    },
+    "faq-subsection-troubleshooting-windows": {
+        "message": "Windows",
+        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
+    },
+    "faq-section-compatibility": {
+        "message": "ከሌሎች መተግበሪያዎች ጋር ያለው ተኋኋኝነት ",
+        "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
     },
     "faq-section-miscellaneous": {
         "message": "ልዩልዩ ",
         "description": "Section heading for FAQ entries that don't fit in any other category."
     },
-    "about-who-we-are-software-development-para-2": {
-        "message": "ከመጋረጃ በስተጀርባ ሆኖ  ጠንክሮ መስራት ለተጠቃሚዎቻችን አስፈላጊ እንደሆነ እንረዳለን። ተጠቃሚዎቻችንን እና ዳታዎቻቸውን በምንችለው አቅም ሁሉ እንጠብቃለን። ተጠቃሚቆች ግላዊነታቸውን እና ደህንነታቸውን ለማስጠበቅ የምንወስዳቸውን እርምጃዎች ላያስተውሉ ይችላሉ ነገር ግን እንደሚያደንቁት እናውቃለን።  ",
-        "description": ""
-    },
-    "privacy-information-collected-websites-google-analytics-para-2": {
-        "message": "Google Analytics ድረ ገጹን እንደገና በሚጎበኝበት ወቅት  እርስዎን እንደ ልዩ ተጠቃሚ ለመለየት በድረ ገጽ መዳሰሻዎ ላይ ቋሚ ኩኪዎችን ይተክላል ነገር ግን እነኚህ ኩኪዎች ከGoogle በስተቀር በማንም ጥቅም ላይ ላይ የማይውሉ ሲሆን የተሰበሰበው ዳታ በሌላ ዶሜኖች አገልግሎቶች ለውጥ አይደረግባቸውም ወይም አይገኙም።  ",
-        "description": ""
-    },
-    "open-source-description": {
-        "message": "ሳይፈን ክፍተ ምንጭ የኢንተርኔት እገዳን የማለፊያ ሶፍትዌር ነው ",
-        "description": ""
-    },
-    "privacy-para-2": {
-        "message": "የካናዳ እና ኦንታሪዮ የግላዊነት ህጎችን በተመለከተ የበለጠ መረጃ ለማግኘት እባክዎን የሚከተለውን ይጎብኙ፡- ",
-        "description": ""
-    },
-    "main-gets-you-there-safely-head-1": {
-        "message": "...እናም ያለ ችግር ያደርስዎታል። ",
-        "description": ""
-    },
-    "privacy-title": {
-        "message": "የግላዊነት ፖሊሲ ",
-        "description": "page title for the Privacy Policy page"
-    },
-    "faq-information-collected-answer-para-12": {
-        "message": "የኢሜል ራስ መላሽ አገልጋያችን በAmazon EC2 ክላውድ ላይ ይስተናገዳል። ለእያንዳንዱ ጥያቄ ሁለት የኢሜል ምላሾችን እንልካለን እናም ከሁለቱ ለአንዱ ምላሽ የAmazon SESን እንጠቀማለን። ይህ ማለት Amazon እርሶ የላኩትን ኢሜል እና የእኛን ምላሽ ማየት ይችላል ማለት ነው።",
-        "description": ""
-    },
-    "page-keyword-psiphon1": {
-        "message": "ሳይፈን1",
-        "description": "web page meta keyword used for SEO"
-    },
-    "main-gets-you-there-safely-para-1": {
-        "message": "ነጻ የኢንተርኔት አገልግሎት አሪፍ ነው ነገር ግን የተሰረቁ ኩኪዎች እና መለያዎች ግን አይደሉም። ሳይፈን ለመገናኘት የሚጠቀሙት ኔትወርክ ምንም አይነት ቢሆን ጤነኛ  የኢንተርኔት መንገድ ይሰጦታል። ",
-        "description": ""
-    },
-    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1": {
-        "message": "Psiphon looks at your data only to the degree necessary to collect statistics about the usage of our system. We record the total bytes transferred for a user connection, as well as the bytes transferred for some specific domains. These statistics are discarded after 60 days.",
-        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Screenshot showing the Psiphon for Android web browser",
+    "faq-authentic-windows-image-alt": {
+        "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
         "description": "alt text for an image"
     },
-    "page-keyword-open-source": {
-        "message": "ምንጨ ክፍት  ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "license-personal-or-specified-use-header": {
-        "message": "የግል ወይም የተለየ ጥቅም ",
+    "faq-authentic-windows-question": {
+        "message": "የኔ የWindows ሰይፈን ትክክለኛ ነው？ ",
         "description": ""
     },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android logs panel",
-        "description": "alt text for an image"
-    },
-    "license-terms-of-use-header": {
-        "message": "የአጠቃቀም ስምምነቶች ",
+    "faq-authentic-windows-answer-para-1": {
+        "message": "የWindows ሳይፈን እንደሚጫን እሽግ ሆኖ በፍጹም አልተሰራጨም። እያንዳንዱ የWindows ሳይፈን ደምበኛ ነጠላ ራስ ጫኝ  (\".exe\") ሰነድ ሲሆን የሳይፈን ኩባንያ የዲጂታል ፊርማ አለበት። ደንበያውን በሚያሄዱበት ወቅት Windows የዚህን ፊርማ ትክክለኛነት በራስሰር ያረጋግጣል። በተጨማሪም ደምበኛውን ከማስኬድዎ በፊት የሰነዱን ባህሪዎች ሳጥን በመጠቆም እና የዲጂታል ፊርማ ትሩን  በመመርመር ፊርማውን ማጣራት  ይችላሉ። የሳይፈን ኩባንያ SHA1 የጣት አሻራ ሰርትፍኬት ይፋዊ ቁልፍ በሰርትፍኬት ዝርዝር ሳጥን  ትር ላይ ይታያል። ",
         "description": ""
     },
-    "faq-android-enable-sideloading-question": {
-        "message": "የAndroid “ሳይድሎዲንግ”ን እንዴት ማስቻል እችላለሁ？ ",
-        "description": "FAQ question."
+    "faq-authentic-windows-answer-para-2020": {
+        "message": " ከ 2017-07-05 እስከ 2020-10-03 ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ የሚከተለው ነው፡- ",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
-    "privacy-information-collected-websites-google-analytics-para-1": {
-        "message": "በአንዳንድ ድረ ገጾቻችን ላይ ስለ አጠቃቀም መረጃ ለመሰብሰብ Google Analyticsን እንጠቀማለን። በGoogle Analytics የሚሰበሰቡ መረጃዎች ጥቅም ላይ የሚውሉት በተለይ በዚህ ድረ ገጽ ላይ  ያሎትን የዳሰሳ ባህሪ ስታትስቲካዊ ትንታኔ ለመስራት ብቻ ነው። ከGoogle Analytics የምናገኘው መረጃ የሰዎችን ማንነት አይገልጽም እንዲሁም  የሰዎችን ማንነት የሚገልጹ መረጃዎችን ለመፍጠር  ከሌሎች ምንጮች መረጃ ጋር  አይቀላቀልም። ",
+    "faq-authentic-windows-answer-para-2017": {
+        "message": " ከ2014-05-08 እስከ 2017-09-06  ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ የሚከተለው ነው፡-",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
+    "faq-authentic-windows-answer-para-3": {
+        "message": "እ.ኤ.አ. ከ2012-05-21 እስከ 2014-07-30  ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ ይህ ነው፡- ",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
+    "faq-authentic-windows-answer-para-2": {
+        "message": "እ.ኤ.አ. ከ2011-06-16 እስከ 2012-06-21 ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ ይህ ነው፡- ",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
+    "faq-authentic-windows-answer-para-4": {
+        "message": "የWindows  ሳይፈን እራሱን የሚያዘምን ሲሆን ይህም ሂደት እያንዳንዱ ዝመና ትክክለኛ መሆኑን ያረጋግጣል። ",
         "description": ""
     },
-    "faq-screen-filter-answer-para-1": {
-        "message": "የስክሪን አጣሪ መተበሪያ ወይም የስክሪኑን ድምቀት የሚቆጣጠር መተግበሪያ እያሄዱ እንደሆነ ያጣሩ።  ከሆነ ለማቦዘን ይሞክሩ። አብዛኞቹ እነዚህ መተግበሪያዎች (ለምሳሌ Lux Auto Brightness, Twilight, Night Mode) ከዚህ ጥያቄ ጋር ተጠቃሚው በሚያደርገው መስተጋብር ጣልቃ ይገባሉ። ",
-        "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
-    },
-    "faq-port-restrictions-question": {
-        "message": "ሳይፈንን በምጠቀምበት ወቅት  የወደብ ክልከላዎች አሉን？",
-        "description": "FAQ question. Note that 'port' is referring to network ports."
-    },
-    "faq-ie6-docbody-question": {
-        "message": "የWindows ሳይፈን “doc.body is null or not an object” የሚል የስህተት መልእክት ይሰጣል እና አይሰራም። ",
-        "description": "FAQ question."
-    },
-    "faq-ssh-plus-question": {
-        "message": "ነባሪው የሳይፈን መዘዋወሪያ የሚጠቀመው ምን ፕሮቶኮል ነው？ ",
+    "faq-authentic-android-question": {
+        "message": "የኔ የAndroid ሳይፈን የተረጋገጠ ነው？ ",
         "description": ""
     },
-    "about-who-we-are-software-development-para-1": {
-        "message": "በሳይፈን ተጠቃሚዎቻችን መልካም ተሞክሮ እንዲኖራቸው እንፈልጋለን። ይህ ማለት ሶፍትዌራችን ለመጠቀም ቀላል፣ ኔትወርካችን ፈጣን እና ሁለቱም መሰረተ ጽኑ እና አስተማማን መሆን አለባቸው። ይህን ማሳካት በተለይም ሶፍትዌሩ ሁልጊዜም በለውጥ ላይ ባለ አስቸጋሪ ከባቢ ውስጥ እና በብዙ ቋንቋዎች እና አእማዶች መስራት በሚጠበቅበት ወቅት ለማንኛውም የሶፍትዌር አበልጻጊ በቀላሉ የሚቻል አይደለም። ",
+    "faq-authentic-android-answer-alert": {
+        "message": "<b>ማስጠንቀቂያ፡-</b>  የAndroid መተግበሪያ የፊርማ ማጣሪያ ሸረኛ APKዎችን በሃሰት ትክክለኛ አድርጎ መዘገቡ በቅርቡ <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">የተገለጸ </a>ተጋላጭነቱ  ነው። <a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">እዚህ </a>እንደተቀመጠው ተጠቃሚዎች የGoogle ማረገገጫ መተግበሪያዎችን እንዲያበሩ  እንመክራለን። ",
         "description": ""
     },
-    "sponsor-nav-title": {
-        "message": "እስፖንሰር ",
-        "description": "Navigation text for the Sponsorship page"
-    },
-    "download-android-amazon-description": {
-        "message": "ከAndroid  2.2 እና ከዚያ በላይ ከሆኑ ጋር ተኳኳኝ ነው። የሙሉ በሙሉ መሳሪያ ሁነታ Android  4.0 እና ከዚያ በላይያሉ ወይም <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">ሩትድ መሳሪያን</a> ይፈልጋል። ",
-        "description": ""
-    },
-    "license-nav-title": {
-        "message": "ፍቃድ",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Screenshot of Psiphon for Android showing the status panel",
-        "description": "alt text for an image"
-    },
-    "faq-vpn-slow-question": {
-        "message": "በWindows  ከሳይፈን ጋር በVPN ሁነታ መገናኘት እችላለሁ ነገር ግን ለምን ቀርፋፋ ሆነ？  አንዳንድ ጊዜ ድረ ገጾች ጭራሹኑ አይጭኑም። ",
-        "description": ""
-    },
-    "privacy-meta-title": {
-        "message": "የግላዊነት ፖሊሲ  ",
-        "description": "meta title for the Privacy Policy page"
-    },
-    "privacy-information-collected-psicash-para-4-list-start": {
-        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
-        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
-    },
-    "privacy-bulletin-entry-item-head-how-long-retained": {
-        "message": "ዳታው ለምን ያህል ጊዜ እንደሚቀመጥ",
-        "description": ""
-    },
-    "faq-vpn-slow-answer-para-1": {
-        "message": "በሳይፈን VPN ሞድ ጥቅም ላይ የሚውለው L2TP/IPsec ፕሮቶኮል ለአንዳንድ የኔትወርክ ሃርድዌር ወይም የኢንተርኔት ግንኝነቶች የአፈጻጸም ችግር ሊያስከትል ይችላል። የVPN ሞድን ለማቦዘን ይሞክሩ። ",
-        "description": ""
-    },
-    "privacy-bulletin-entry-item-head-when-doing": {
-        "message": "ያን የምናደርገው መቼ ነው ",
+    "faq-authentic-android-answer-para-1": {
+        "message": "እያንዳንዱ የAndroid ሳይፈን ደምበኛ የሚላከው የሳይፈን ኩባንያ ዲጂታል ፊርማ እንዳለበት Android APK (\".apk\") ሰነድ ነው።   የሳይፈን ኩባንያ ሰርትፍኬት ይፋዊ ቁልፍ እንደሚከተለው ነው፡- ",
         "description": ""
     },
     "faq-authentic-android-answer-para-2": {
         "message": "APK  (1) ከመዛግብት ውስጥ ሰርትፍኬቱን በማውጣት እና የጣት አሻራው ከላይ ከተጠቀሰው ዋጋ ጋር መስማማቱን በማጣራት እና (2 ) APKው በሰርትፍኬቱ መፈረሙን በማረጋገጥ ሊረጋገጥ ይችላል።  ለምሳሌ የUnix እና የJava የትእዛዝ መስመር መሳሪያዎችን በመጠቀም፡- ",
         "description": ""
     },
-    "page-keyword-psiphon3": {
-        "message": "ሳይፈን 3 ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "about-get-latest-info-para-1-announcements-list": {
-        "message": "የሳይፈን ማስታወቂያዎች ",
-        "description": "text for link to the Psiphon Announcements mailing list"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "<a href=\"privacy.html\">የግላዊነት ፖሊሲያችንን</a> እያዘመንን ነው። ይህም “ሳይፈን ምን አይነት መረጃዎችን ይሰበስባል？” የሚለውን የኤፍኤኪው ጥያቄ መልስ በውስጡ ማካተትን ይጨምራል። ",
+    "faq-authentic-android-answer-para-3": {
+        "message": "የAndroid ሳይፈን እራሱን የሚያዘምን ሲሆን ይህም ሂደት እያንዳንዱ ዝመና ትክክለኛ መሆኑን ያረጋግጣል። ",
         "description": ""
-    },
-    "faq-proxy-all-ios-browser-question": {
-        "message": "የIOS ሳይፈን መዳሰሻ  የመሳሪያዬን የኢንተርኔት ትራፊክ በሙሉ በተኪ ያደርገዋል ？ ",
-        "description": ""
-    },
-    "about-description": {
-        "message": "ከሳይፈን የኢንተርኔት እገዳን ማለፊያ ሶፍትዌር በስተጀርባ ያለውን ቡድን ይተዋወቁ ",
-        "description": "description for the About page"
-    },
-    "faq-information-collected-answer-para-7-item-1": {
-        "message": "የስርአተ ክወና ስሪት ",
-        "description": ""
-    },
-    "privacy-information-collected-s3-logging-head": {
-        "message": "የማጠራቀሚያ መዳረሻ መዝገብ ",
-        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
-    },
-    "faq-connection-failed-question": {
-        "message": "ለምን \"ግንኙነቱ አልተሳካም\" የሚል መልዕክት በተደጋጋሚ አያለሁ?",
-        "description": ""
-    },
-    "faq-ie6-docbody-answer-xpie8": {
-        "message": "Internet Explorer 8 ለWindows XP",
-        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
-    },
-    "faq-information-collected-answer-head-2": {
-        "message": "ግብረመልስ",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-11": {
-        "message": "በራሱ ኢሜል ወደሚመልሰው አገልጋያችን የኢሜል ጥያቄ በሚልኩበት ወቅት የኢሜል አድራሻዎን ማየት እንችላለን ። ኢሜልዎ በሂደት ላይ እያለ የኢሜል አገልጋይ ዲስክ ላይ ይቀመጣል እናም ሂደቱ ከተጠናቀቀ በኋላ  (አብዛኛውን ጊዜ በጥቂት ከሰንዶች ውስጥ) ወዲያውኑ ይሰረዛል።  የኢሜል አድራሻዎ በስርአቱ የመዝገብ ሰነድ ላይ እንዲጻፍ አንፈቅድም። ",
-        "description": ""
-    },
-    "faq-authentic-windows-question": {
-        "message": "የኔ የWindows ሰይፈን ትክክለኛ ነው？ ",
-        "description": ""
-    },
-    "faq-ie6-docbody-answer-para-2": {
-        "message": "የWindows ዝመናን መጠቀም ካልቻሉ እና Internet Explorer 7 ወይም Internet Explorer 8 በቀጥታ መጫን ከፈለጉ በሚከተሉት ትይይዞች አማካኝነት ሊያገኟቸው ይችላሉ፡-",
-        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
-    },
-    "faq-ip-change-answer-para-1": {
-        "message": "የሳይፈኞ ደምበኛዎ በራሱ አዳዲስ የሳይፈን አገልጋዮችን ያገኛል። በመጨረሻ ጥቅም ላይ የዋለው አገልጋይ በማይገኝበት ወቅት በምትኩ ሌላ አገልጋይ ጥቅም ላይ ሊውል ይችላል። ",
-        "description": ""
-    },
-    "sponsor-title": {
-        "message": "ስፖንሰር ይሁኑ",
-        "description": "Page title for the Sponsorship page"
-    },
-    "about-who-we-are-partners-para-1": {
-        "message": "ሳይፈን ከተለያዩ ቡድኖች ጋር በቅርበት በመስራት ባሉበት ስፍራ ሆነው  ሳይፈንን  ለሚጠቀሙ ሰዎች ድጋፍ እና ምክርን ይሰጣል። ሶፍዌራችን በ15 ቋንቋዎች ትርጉሞች ያሉት ሲሆን በሎካላይዜሽን ላብ ማእከላችን ክፍል ተጨማሪ ቋንቋዎችን <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">በትራንስ ፊክስ</a> አማካኝነት ወደ ምርቶቻችን እያስገባን ነው። ",
-        "description": ""
-    },
-    "about-who-we-are-exec-team-para-1": {
-        "message": "ማይክል ኸል የሳይፈን ኩባንያ ፕሬዝዳንት ሲሆን ሳይፈን በቶሮንቶ ዩኒቨርስቲ የሲትዝን ላብ ውስጥ ፕሮጀት ከነበረበት ወቅት ጊዜ አንስቶ ከሳይፈን ጋር አብሮ የነበረ ነው። ከዚያ ጊዜ ጀምሮ የተለያዩ የሶፍትዌር ማበልጸግ ጥረቶችን በመምራት ያገለገለ ሲሆን ሳይፈንን በውድድሩ ቀዳሚ እንዲሆን የሚያስችሉ ፈጠራዎችን አምጥቷል። ",
-        "description": ""
-    },
-    "faq-authentic-windows-answer-para-2017": {
-        "message": " ከ2014-05-08 እስከ 2017-09-06  ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ የሚከተለው ነው፡-",
-        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
-    },
-    "faq-information-collected-answer-redirect": {
-        "message": "ስለምንሰበስበው መረጃ ለማወቅ እባክዎ <a href=\"privacy.html\">የግላዊነት ፖሊሲያችንን</a> ይመልከቱ። ",
-        "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
-    },
-    "faq-uninstall-windows-answer-para-1": {
-        "message": "የWindows ሳይፈን አይጫንም እናም በWindows “ ፕሮግራሞችን አክል ወይም አስወግድ” ዝርዝር ውስጥ አይታይም። የራስ ጫኝ ሰነዱ ከ“ውርድ ፋይሎች“ ማህደር ሊሄድ ወይም ወደ ሌላ ማህደር ከተቀዳ በኋላ ከዚያ ሊሄድ ትችላል። ፕሮግራሙን ማስወገድ ከፈለጉ  በቀላሉ ራስ ጫኝ ሰነዱን ማጥፋት ይችላሉ። ",
-        "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' for Android users."
-    },
-    "donate-heading": {
-        "message": "ለሳይፈን አስተዋጽዎ ያድርጉ ",
-        "description": "The heading of the page section that shows the donation buttons"
-    },
-    "user-guide-meta-title": {
-        "message": "ሳይፈንን በተንቀሳቃሽ ስልክ እና በWindows ላይ እንዴት መጠቀም እንደሚቻል",
-        "description": "meta title for the user guide page"
-    },
-    "faq-windows-vpn-connect-answer-para-1": {
-        "message": "የኔትወርክዎት ፋየርዎልዎ የVPN ኔትወርክን መጠቀም ላይፈቅድ ይችላል። የቤትዎ ራውተር በዚህ የVPN ፕሮቶኮል እንዲያልፍ ላይዋቀር ይችላል። IPsec ወይም L2TP  በስር ማለፍ እንደነቃ ለማየት የፋየርዎል ቅንብርዎን ያጣሩ። የስርአቶ IPsec አገልግሎቶ ቦዝነው ሊሆን ስለሚችል የአገልግሎት ቅንብሮትን  ይመልከቱ እና እነዚህን አገልግሎቶች በራሳቸው እንዲጀምሩ ያንቁ። ",
-        "description": ""
-    },
-    "faq-get-updated-version-question": {
-        "message": "የዘመነን የሳይፈን ስሪት እንዴት ማግኘት እችላለሁ？ ",
-        "description": "FAQ question"
-    },
-    "privacy-information-collected-psicash-para-2-item-1": {
-        "message": "generated user access tokens",
-        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
-    },
-    "faq-autoproxy-answer-para-1": {
-        "message": "አስኪድ የሚለውን ጠቅ ያድርጉ እና  የመዝገብ አርትኦቱን ለመክፈት <code> regedit</code> ብለው ይተይቡ። <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>እና በቀኝ በኩል <code>SkipProxySettings</code> የሚል ያያሉ። ይህንን መጠን <code>1</code> ያድርጉ እና ሳይፈን የተኪ ስርአት ቅንብሩን በራስሰር አያዋቅረውም። ",
-        "description": ""
-    },
-    "faq-ie6-docbody-answer-para-1": {
-        "message": "በWindows XP ላይ Internet Explorer 6 የተጫነ ከሆነ ይህ ስህተት ሊከሰት ይችላል። የWindows ሳይፈን Internet Explorer 7 ወይም ከዛ በላይ እንዲጫን ይፈልጋል። የInternet Explorer ከፍተኛ ስሪቶችን የመጫኛ ጥሩው መንገድ <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Windows ዝመናን</a> በመጠቀም ነው።  ",
-        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
-    },
-    "user-guide-android-head": {
-        "message": "ሰይፈን ለAndroid ",
-        "description": "heading for the Android section of the User Guide"
     },
     "faq-unsupported-platforms-question": {
         "message": "ሳይፈን ለmacOS፣ Linux፣ Windows ስልክ እና ለመሳሳሰሉት ይገኛል？ ",
         "description": "FAQ question."
     },
-    "faq-subsection-troubleshooting-android": {
-        "message": "Android",
-        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Android-specific."
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01፡- የግላዊነት ፖሊሲ ዝመና ",
-        "description": ""
-    },
-    "index-description": {
-        "message": "ሳይፈን ለWindows እና ተንቀሳቃሽ ስልክ አእማዶች የማለፊይ ሶፍትዌር ሲሆን  ያልተገደበ ኢንተርኔት አገልግሎት ይሰጣል። ",
-        "description": "Page description for the index page"
-    },
-    "faq-title": {
-        "message": "ኤፍኤኪው ",
-        "description": "title for the FAQ page"
-    },
-    "privacy-information-collected-s3-logging-para-1": {
-        "message": "እንደ የድረ ገጽ ፋይሎች እና የሳይፈን አገልጋይ ማግኛ ዝርዝሮች ያሉ ሀብቶችን ለማጠራቀም Amazon S3ን እንጠቀማለን። አንዳንዴ ለእነኚህ መዛግበት የማውረጃ መዝገቦችን እናነቃለን። እነዚህን መዛግብት መተንተን ”ምን ያህል ተጠቃሚዎች የአገልጋይ ማግኛ ዝርዝሮችን ማውረድ ጀምረው አልጨረሱም？” ፣ “የወረደው ዳታ በድረ ገጹ ሀብቶች እና በአገልጋይ ማግኛ መካከል እንዴት ነው የሚካፈለው？” እና “አጥቂ በድረ ገጾቻችን ላይ ያገልግሎት ክልከላ ጥቃት ለመፈጸም እየሞከረ ነው？” እና የመሳሰሉትን ጥያቄዎች ለመመለስ ይረዳናል።  ",
-        "description": ""
-    },
-    "about-who-we-are-exec-team-head": {
-        "message": "አስፈጻሚ ቡድን ",
-        "description": ""
-    },
-    "page-keyword-ssh": {
-        "message": "ssh",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-information-collected-answer-para-4": {
-        "message": "የሁነት መዝገቦች የጊዜ ማህተሞችን፣ የክልል ኮዶችን  (ሃገር እና ከተማ)፣  የስፖንሰር IDን ጨምሮ ማንነትን የማያመለክቱ ገጽታዎች (ጥቅም ላይ በዋለው የሳይፈን ደምበኛ ስሪት የሚወሰን)፣ የደምበኛ ስሪት እና የፕሮቶኮል አይነትን ጨምረው ይይዛሉ። የገጽ እይታዎች ከመመዝገባቸው በፊት በሰአት እና/ወይም በክፍለ-ጊዜ ይደመራሉ። ",
-        "description": ""
-    },
-    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
-        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
-        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. If available in your language, the blog post URLs should be updated to the localized post."
-    },
-    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-3": {
-        "message": "Even this coarse data would be difficult to link back to you, since we immediately convert your IP address to geographical info and then discard the IP. Nor is any other identifying information stored.",
-        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
-    },
-    "page-keyword-blog": {
-        "message": "ጦማር ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "blog-index-intro": {
-        "message": "ሳይፈን ኢንክ. የካናዳ ኩባንያ ሲሆን አብዛኞቹ የቡድናችን አባላት የአፍ መፍቻ ቋንቋቸው እንግሊዘኛ ነው። ይህ ማለት የጦማር ጽሁፎቻችን በመጀመሪያ በእንግሊዘኛ የተዘጋጁ ናቸው ማለት ነው። ወደ ተለያዩ ቋንቋዎች የቻልነውን ያህል እንተረጉማቸዋለን ። ",
-        "description": ""
-    },
-    "about-who-we-are-ops-para-1": {
-        "message": "ከትልልቅ አለማቀፍ አስተላላፊ ኩባንያዎች እስከ በአንድ ሃገር ብቻ የሚሰሩ ትንንሽ የሰብአዊ መብት ድርጅቶች ድረስ ከብዙ ኩባንያዎች ጋር የስራ ስምምነቶች አሉን። የአፈጻጸም እና ህዝብ ግንኙነት ቡድናችን ስንት ሰዎች በስርጭት መንገዳቸው አማካኝነት ሳይፈንን እንደሚጠቀሙ ሪፖርቶችን በማዘጋጀት ያሳያሉ። በተጨማሪም በኢንተርኔት ላይ ነጻ የመረጃ ስርጭት ላይ ተጽኖ ሊያሳድር የሚችሉ ሁኔታዎችን እና ሁነቶችን አዝማሚዎች በማየት ጥናት ያደርጋሉ። ",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-7-list-start": {
-        "message": "Windows፡- ",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "ይህ ቢያንስ ከ 2015-06-01T00:00Z ጀምሮ ተግባራዊ ሆኗል። ",
-        "description": ""
-    },
-    "alert-body": {
-        "message": "የሳይፈን ቡድን ለWindows የሚሆን ራስ ጫኝ  የሳይፈን ሶፍትዌሮች የሚመስሉ ሸረኛ ሶፍትዌሮች እንዳሉ  አግኝቷል። ይህ ሸረኛ ሶፍትዌር  የሚሰራጨው \"pisphone3.zip\" የሚል ስም ባለው የዚፕ ሰነድ ሲሆን በwww.copy.com ድረ ገጽ ወይም በሌሎች ምንጮችም ላይ ሊገኝ ይችላል። ይህ የዚፕ ሰነድ ባህሪው <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>  ላይ የተገለጸውን \"pisphone3.exe\" የሚባለውን  ሸረኛ ጥንድ ሰነድ ይዟል።   የስሙን የሆሄያት ግድፈት ያስተውሉ። ይህ የWindows ራስ  ጫኝ በሳይፈን ኩባንያ በዲጂታል የተፈረመ አይደለም። <a href=\"#authentic-windows\">እዚህ </a>ላይ እንደተገለጸው የዲጂታል ፊርማውን ሳያጣሩ አዲስ የወረደ ሳይፈንን አይጫኑ። ",
-        "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
-    },
-    "privacy-information-collected-client-advertising-networks-para-2": {
-        "message": "የሚከተለውን በመጎብኘት ፍላጎትን መሰረት ካደረገ የማስታወቂያ ኩኪዎች አጠቃወም መውጣት ይችላሉ፡- ",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-5": {
-        "message": "ለስፖንሰሮቻችን የምናካፍላቸው ሁሉም ስታትስቲካዊ መረጃዎች በቀን፣ በስፖንሰር እና በክልል በድምር ሆነው ይዘጋጃሉ። ",
-        "description": ""
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "በሳይፈን በኩል የደረሰ ዳታ ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "faq-proxy-all-answer-para-1": {
-        "message": "በVPN ሁነታ ብቻ። ስኬታማ ግንኙነት በVPN  ሁነታ ከተፈጸመ በኋላ ሁሉም የኮምፒውተሮት ትራፊክ በሳይፈን ኔትወርክ ያልፋል። የVPN ሞድ ካልነቃ የአካባቢ የHTTP እና የSOCKS ተኪዎችን የሚጠቀሙ መተግበሪያዎች ብቻ ተኪ ይሆናሉ። ",
-        "description": ""
-    },
-    "about-who-we-are-para-1": {
-        "message": "የሳይፈን ኢንክ. በቶሮንቶ የሚገኝ ኩባንያ ሲሆን በሳምት ከ3 ሚሊዮን በላይ የሚሆኑ ሰዎች የኢንተርኔት ይዘትን እንዲያገኙ የሚያደርግ ክፍተ ምንጭ የሆነ ብዙሃ አእማድ ሶፍትዌርን የሚሰራ ኩባንያ ነው። በምንችለው መጠን ምርጥ ሶትዌርን ለማቅረብ፣ በየጊዜው አዳዲስ ምርቶችን ለማስተዋውቅ እና ያለማቋረጥ እያደገ የመጣውን የአለም አቀፍ ታዳሚዎቻችንን ፍላጎት ለማሟላት በትኩረት  የምንጥር ቡድን ነን። ",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "አረንጓዴ አዶ ሲታይ ከሳይፈን አገልጋይ  ግንኝነት መፈጠሩን ያመለክታል። በVPN ሁነታ ውስጥ ሁሉም የኢንተርኔት ትራፊክዎ በሳይፈን አማካኝነት በቀጥታ ይዘዋወራሉ።  ",
-        "description": ""
-    },
-    "license-meta-title": {
-        "message": "የመጨረሻ ተጠቃሚ ፈቃድ ስምምነት ",
-        "description": ""
-    },
-    "faq-information-collected-question": {
-        "message": "ሳይፈን የሚሰበስበው የተጠቃሚዎች መረጃ ምን አይነት ነው？ ",
-        "description": "FAQ question."
-    },
-    "faq-information-collected-answer-para-2-item-7": {
-        "message": "አጠቅላይ የተዘዋወሩ  ባይቶች እና ለተወሰኑ ጎራዎች የተዘዋወሩ ባይትቶች",
-        "description": ""
-    },
-    "privacy-bulletin-title": {
-        "message": "የግላዊነት ማስታወሻዎች ",
-        "description": ""
-    },
-    "license-para-2": {
-        "message": "የሳይፈን ስርአት  “ሶፍትዌር” (የፕሮግራሙ ምንጨ ኮድ እና ከኮዱ የተቀዱ መተግበሪያዎች) እና  “አገልግሎት” (ሁሉንም እንዲሰራ የሚያደርግ የደምበኛ እና የአገልጋይ ሶፍትዌር ስርአት ) ያካትታል።   የሳይፈን ሶፍትዌር እና ምንጨ ኮድ <a href=\"https://en.wikipedia.org/wiki/Free_and_open_source_software\" target=\"_blank\">ነጻ እና ክፍተ ምንጭ</a> እና በ<a href=\"https://www.gnu.org/copyleft/gpl.html\" target=\"_blank\">GNU አጠቃላይ የህዝብ ፈቃድ 3</a> መሰረት  <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/LICENSE?at=default\" target=\"_blank\">ፍቃድ ያላቸው</a> ናቸው።  የሳይፈን አገልግሎትን መጠቀም በዚህ ገጽ ላይ በተገለጸው ስምምነት ፍቃድ ያለው ነው። ",
-        "description": "Please modify the Wikipedia link to point to the correct language entry"
-    },
-    "page-keyword-instructions": {
-        "message": "መመሪያዎች ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-developers": {
-        "message": "አበልጻጊዎች ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead": {
-        "message": "What does Psiphon do with your VPN data?",
-        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "ሳይፈንን በመሳሪያ ሙሉ በሙሉ ሁነታ መዘዋወሪያ ለማሰራት Android  4.0+ ወይም ሩትድ የሆነ መሳሪያ ሊኖርዎት ያስፈልጋል። <br><br> ሩትድ ላልሆኑ የቆዩ የAndroid ስሪቶች  ይህ አማራጭ አይገኝም ። ",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "faq-isp-traffic-answer-para-1": {
-        "message": "በሳይፈን የሚያልፈው ዳታ ሁሉ የተመሰጠረ ነው። ይህም ማለት የኢንተርኔት አገልግሎት አቅራቢዎ የኢንተርኔት ትራፊክ ይዘትዎን፣ የሚዳስሷቸውን ድረ ገጾች፣ የቻት መልእክቶችዎን የሚጭኗቸውን እና የመሳሰሉትን ማየት አይችልም። ",
-        "description": ""
-    },
-    "faq-root-wdm-answer-para-1": {
-        "message": "እ.ኤ.አ. ከዲሴምበር 2015 በፊት የAndroid ሳይፈን ቆየት ያሉ የAndroid መሳሪያ (pre-4.0/ICS) ያላቸው ተጠቃዎች  መሳሪያው ሩትድ ከሆነ ሙሉ በሙሉ የመሳሪያ ማስተላለፊያን መጠቀም የሚያስችል ገጽታ ነበረው። በዚያ ወቅት በሳይፈን ላይ በተደረገ ዋና የሆነ ዝመና የተነሳ ይህ ገጽታ ሊወገድ ችሏል። ",
-        "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
-    },
-    "faq-isp-traffic-answer-para-2": {
-        "message": "ነገር ግን ሳይፈን እገዳን የማለፊያ መሳሪያ እንደሆነ እና በአሰራሩ በተለይ ለጸረ ስለላ አላማ የማይውል መሆኑን ማስታወስ ያስፈልጋል። ሳይፈን የዳሰሳ ታሪክዎን እና ኩኪዎችዎን በኮምፒውተሮ ላይ ከመተራቀም አያግድም። እናም በአንዳንድ ሁነታዎች እና አወቃቀሮች ሁሉም የኢንተርኔት ትራፊክዎ በሳይፈን አማካኝነት ላይተላለፉ ይችላሉ። ለምሳሌ የመዳሰሻ ተኪዎ ቅንብር በትክክል ካልተዋቀረ ወይም ከሳይፈን ከወጡ በኋላ መዳሰሸሻዎን ክፍት የተውት እንደሆነ። ",
-        "description": ""
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "በመጀመሪያ <a href=\"./faq.html#authentic-windows\">የWindows ሳይፈን ቅዲዎ ትክክለኛ መሆኑን ማረጋገጥ </a>አለብዎት። ",
-        "description": ""
-    },
-    "page-keyword-code": {
-        "message": "ኮድ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-vpn-dns-question": {
-        "message": "ከWindows ሳይፈኔ ጋር በVPN ሁነታ በምገናኝበት ወቅት  ከድረገጾቼ ውስጥ አንዱም አይጭንም። የጎራ ፍለጋው አልተሳካም የሚል የስህተት መልእክት አገኛለሁ። ",
-        "description": ""
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "በሳይፈን በኩል የተላከ  ዳታ ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "what-is-psiphon-body-para-1": {
-        "message": "ሳይፈን ያልተገደበ የኢንተርኔት ይዘትን እንዲያገኙ የሚያስችል የVPN, የSSH እና የHTTP ተኪ ቴክኖሎጂን የሚጠቀም በሳይፈን ኩባንያ የተሰራ የማለፊያ መሳሪያ ነው።  የሳይፈን ደምበኛዎት እገዳውን ለማለፍ የሚያስችል እድልዎን ለማስፋት አዳዲስ የመገናኛ ቦታዎን በራስሰር ያውቃል ። ",
-        "description": ""
-    },
-    "user-guide-description": {
-        "message": "ሳይፈንን በተንቀሳቃሽ ስልክ እና በWindows አእማዶች  ላይ እንዴት እንደሚጠቀሙ የሚያሳይ የተጠቃሚዎች መመሪያ ",
-        "description": "description for the user guide page"
-    },
-    "blog-index-nav-title": {
-        "message": "ጦማራችን ",
-        "description": "Text for the navigation bar link to the blog"
-    },
-    "about-get-latest-info-para-1-users-list": {
-        "message": "የሳይፈን የተጠቃሚዎች ቡድን ",
-        "description": "text for link to the Psiphon Users mailing list"
-    },
-    "privacy-information-collected-vpndata-whydoespsiphonneed-subhead": {
-        "message": "Why does Psiphon need these statistics?",
-        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes why Psiphon needs VPN data stats."
-    },
-    "faq-subsection-troubleshooting-windows": {
-        "message": "Windows",
-        "description": "A FAQ subsection of the 'Troubleshooting' section. This is for problems that are Windows-specific."
-    },
-    "license-statement-of-limitations-of-liability-header": {
-        "message": "የተጠያቂነት ገደብ መግለጫ",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-10": {
-        "message": "ያስተውሉ ሳይፈንን እንደ Google Play Store ወይም Amazon AppStore ካሉ የ“የመተግበሪያ መደብሮች“ ላይ ካወረዱ በመደብሩ ተጨማሪ ስታትስቲኮች ሊሰበሰብ ይችላል። ለምሳሌ Google Play Store ምን ምን እንደሚሰበስብ ገለጻ ይኸውልዎ፡- ",
-        "description": ""
-    },
-    "faq-nav-title": {
-        "message": "ኤፍኤኪው ",
-        "description": "text for the FAQ page navigation item"
-    },
-    "faq-av-firewall-answer-para-1": {
-        "message": "በመጀመሪያ ማድረግ የሚገባዎት ነገር የሳይፈን የተረጋገጠ ቅጂ እንዳልዎት ማጣራት ነው። የሳይፈን ቅዲዎ ትክክለኛ እንደሆነ ለማረጋገጥ እባክዎን <a href=\"#verify-psiphon-authentic\">እነዚህን መመሪያዎች ይከተሉ</a>።  ትክክለኛ ካልሆነ ይህን ቅዲ እንዴት እንዳገኙት የሚገልጽ መረጃ እና ከተቻለም  የሳይፈኑን ራስ ጫኝ አባሪ በማድረግ እባክዎን <a href=\"mailto:info@psiphon.ca\">ኢሜል ይላኩልን</a>። ",
-        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
-    },
-    "alert-heading": {
-        "message": "ማስጠንቀቂያ ",
-        "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
-    },
-    "license-personal-or-specified-use-para": {
-        "message": "የሳይፈን አገልግሎትን መጠቀም የሚፈቀደው ብቸኛ ባልሆነ የግል ፍቃድ አማካኝነት ነው። ሳይፈንን ሲጠቀሙ አገልግሎቱን የሚጠቀሙት ለግል እደሆነ እና የንግድ ስራ እንዳልሆነ ተስማምተው ነው። የሳይፈንን አገልግሎት (እርስዎም  ሆኑ ሌላ ሶስተኛ አካል)  መከራየት፣ ማከራየት፣ ፍቃድ መስጠት፣ መሸጥ፣ መለወጥ ወይም ለንግድ ስራ ማሰራጨት አይችሉም። ",
-        "description": ""
-    },
-    "faq-browser-compatibility-question": {
-        "message": "የWindows ሳይፈን ከInternet Explorer፣ Firefox  እና Chrome የድር መዳሰሻዎች ጋር ተኳኋኝ ነው？ ",
-        "description": ""
-    },
-    "page-keyword-landing-page": {
-        "message": "የማረፊያ ገጽ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-authentic-android-answer-para-3": {
-        "message": "የAndroid ሳይፈን እራሱን የሚያዘምን ሲሆን ይህም ሂደት እያንዳንዱ ዝመና ትክክለኛ መሆኑን ያረጋግጣል። ",
-        "description": ""
-    },
-    "main-gets-you-there-safely-head-2": {
-        "message": "ለህዝብ ክፍት የሆነ WiFiን ሲጠቀሙ ደህንነቱ በተጠበቀ መንገድ መዳሰስ ይፈልጋሉ？ ",
-        "description": ""
-    },
-    "faq-android-upgrade-bug-question": {
-        "message": "የAndroid ሳይፈንን መተግበሪያውን ካላቁት በኋላ  አይገናኝም።",
-        "description": "FAQ question."
-    },
-    "faq-authentic-android-question": {
-        "message": "የኔ የAndroid ሳይፈን የተረጋገጠ ነው？ ",
-        "description": ""
-    },
-    "psiphon": {
-        "message": "ሳይፈን ",
-        "description": "The name of the product. Probably not translated or transliterated for most languages"
-    },
-    "download-meta-title": {
-        "message": "የAndroid መተግበሪያ እና የWindows ደምበኛ አውርድ ",
-        "description": "meta title for the download page"
-    },
     "faq-unsupported-platforms-answer-para-1": {
         "message": "የምንደግፋቸው አእማዶች <a href=\"download.html\">በማውረጃ ገጽ</a>ላይ የሚገኑት ናቸው። የአእማድ ድጋፋችንን ለማስፋት ያለማቋረጥ በመስራት ላይ ስለሆንን የሚፈልጉትን የስርአተ ክወና የሚደግፍ አገልግሎት በቅርቡ እንደምንሰጥ ተስፍ አናደርጋለን！",
         "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
     },
-    "user-guide-windows-para-1": {
-        "message": "የደምበኛውን ፕሮግራም በማውረድ ያስኪዱት። በሚያስኬዱበት ወቅት ይህ የሳይፈን ኩባንያ ትክክለኛ ምርት እንደሆነ የሚያሳይ የደንነት መግለጫ ማየት ይኖርቦታል። ",
-        "description": ""
-    },
-    "faq-authentic-windows-answer-para-2": {
-        "message": "እ.ኤ.አ. ከ2011-06-16 እስከ 2012-06-21 ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ ይህ ነው፡- ",
-        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
-    },
-    "what-is-psiphon-heading": {
-        "message": "ሳይፈን ምንድን ነው？ ",
-        "description": ""
-    },
-    "user-guide-nav-title": {
-        "message": "የተጠቃሚ መመሪያ ",
-        "description": "text for the user guide page navigation item"
-    },
-    "page-keyword-updates": {
-        "message": "ዝመናዎች ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-authentic-windows-answer-para-3": {
-        "message": "እ.ኤ.አ. ከ2012-05-21 እስከ 2014-07-30  ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ ይህ ነው፡- ",
-        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
-    },
-    "faq-meta-title": {
-        "message": "ተደጋግመው የሚጠየቁ ጥያቄዎች ",
-        "description": "meta title for the FAQ page"
-    },
-    "faq-ssh-plus-answer-para-1": {
-        "message": "ሳይፈን SSHን ከመሰወሪያነት በተጨማሪ  የSSHን ግንኙነት የሚጠቀመው  ከጣት ኧሻራ ፕሮቶኮል SSH ለመከላከል ነው። የፕሮቶኮሉ መግለጫ <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\"> እዚህ</a> ሊገኝ ይችላል። ",
-        "description": ""
-    },
-    "license-title": {
-        "message": "የሳይፈን የመጨረሻ ተጠቃሚ የፍቃድ ስምምነት ",
-        "description": ""
-    },
-    "privacy-bulletin-description": {
-        "message": "የግላዊነት ማስታወሻዎች  ",
-        "description": ""
-    },
-    "privacy-information-collected-psicash-para-2-item-4": {
-        "message": "PsiCash earning history, including what the actions the rewards were granted for",
-        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "የግንኙነት ቆይታ ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "የማግኛ መዝገብን ለአንድ ድረ ገጽ Amazon S3 ”በኬት“(ማለትም የማከማቻ መያዣ) እያነቃን ነው። (በቴክኒካል ምክኒያቶች ደርዘን የሚያህሉ የድረ ገጹን ቅዲዎች በተለያዩ የS3 በኬቶች እናሄዳለን። )",
-        "description": ""
-    },
-    "open-source-para-4-list-start": {
-        "message": "Android፡-",
-        "description": ""
-    },
-    "open-source-title": {
-        "message": "ምንጨ ክፍት ",
-        "description": ""
-    },
-    "license-terms-of-use-para": {
-        "message": "የሳይፈን አገልግሎትን በሚጠቀሙበት ጊዜ ማንኛውንም አይነት የካናዳን ህግ ወይም ሌላ የሶስተኛ ወገን መብት በማይጥስ መልኩ ለመጠቀም ተስማምተው ነው። ",
-        "description": ""
-    },
-    "faq-configure-applications-question": {
-        "message": "የሳይፈንን መዘዋወሪያ ለመጠቀም መተግበሪያዎችን እንዴት ማዋቀር አለብኝ？ ",
-        "description": ""
-    },
-    "page-keyword-circumvention": {
-        "message": "ማለፊያ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "license-psicash-item-3": {
-        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
-        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
-    },
-    "open-source-meta-title": {
-        "message": "ምንጨ ክፍት ",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "<a href=\"privacy.html\">የግላዊነት ፖሊሲ</a> ገጽ አሁን ስለ ሳይፈን ግላዊነት እና የዳታ አሰባሰብ ፖሊሲዎች ተጠቃሚዎች ሊጎበኙት የሚገባው ብቸኛው ስፍራ ነው።  ለአንዳንድ ድረገጾቻችን የማስታወቂያዎች፣ የትንተናዎች እና የምዝገባዎችን አጠቃቀም እንዲያንጸባርቅ ሆኖ ዘምኗል። ",
-        "description": ""
-    },
-    "license-para-1": {
-        "message": "ይህ ሶፍትዌር እና ማንኛውም ተዛማጅ አዕምሯዊ ንብረት ዋና ቢሮው በቶሮንቶ፣ ኦንታርዮ ካናዳ ያለው እና በኦንታሪዎ ኮርፖሬሽን የተመዘገበው የሳይፈን ኩባንያ ንብረት ነው።  ",
-        "description": ""
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "በሳይፈን በኩል ታምቆ  የደረሰ ዳታ ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "faq-av-firewall-question": {
-        "message": "ጸረ ቫይረሴ (AV)  ወይም ግድግዳዬ ሳይፈንን እንደ ስጋት የሚያየው ለምንድን ነው？ ",
+    "faq-android-enable-sideloading-question": {
+        "message": "የAndroid “ሳይድሎዲንግ”ን እንዴት ማስቻል እችላለሁ？ ",
         "description": "FAQ question."
     },
-    "faq-windows-metro-answer-para-1": {
-        "message": "Windows 8 ለዴስክቶፕ መግበሪያ በይነገጽ “Metro” የሚባል አማራጭ አስተዋውቋል። ይህ በኋላ ላይ “Modern UI” በመባል ተሰይሟል። ጥቂት ነገር ግን በጣም ውስን የሆኑ መተግበሪያዎች “በMetro ሁነታ” ላይ ይሰራሉ። እንዲሁም አንዳንድ (እንደ Internet Explorer ያሉ) “በMetro ሁነታ” ወይም “ዴስክቶፕ ሁነታ” ይሰራሉ። ይህ አዲስ የተጠቃሚ በይነገጽ ሁነታ በWindows 8.1  እና በጥቂቱም ቢሆን በWindows 10 ቀጥሏል። ",
-        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
+    "faq-android-enable-sideloading-answer-para-0": {
+        "message": "“የጎንዮሽ ጭነት” ማለት በመሳሪያዎ ላይ በPlay Store ሳይሄዱ መተግበሪያን መጫን ማለት ነው። ይህ Play Storeን ማግኘት በማይችሉ ሰዎች ወይም በክልልላቸው መተግበሪያውን ማግኘት ለማይችሉ ሰዎች ተመራጭ ነው። ",
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
-    "faq-get-updated-version-answer-para-1": {
-        "message": "<strong>Android፡-</strong> የAndroid ሳይፈንን በGoogle Play Store አማካኝነት የጫኑ ከሆነ Play Store ዝመና ሲኖር በራሱ ያዘምነዋል። የAndroid ሳይፈንን በጎን የጫኑ ከሆነ የሳይፈን ደምበኛ ዝመናዎች ሲኖሩ ያወርድ እና ዝመናውን እንዲጭኑ የሚጠይቅ ማስታወቂያ ይታያል። ",
-        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+    "faq-android-enable-sideloading-answer-para-1": {
+        "message": "ለAndroid  በቀጥታ የወረደ ሳይፈን ለመጫን በመሳሪያዎ ላይ ሳይድ ሎዲንግን ማንቃት አለብዎት።ይህንን ለማድረግ ወደ Android ቅንብሮችዎ ይሂዱ፣ ቀጥለው ወደ “ደህንነት” ክፍል በመሄድ “ያልታወቁ ምንጮች” የሚለውን ያንቁ። ",
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
-    "faq-mobile-hotspot-answer-para-1": {
-        "message": "ይህ በAndroid ሆትስፖት እና ስኬት አፈጻጸም ውስንነቶች የተነሳ ሊሆን ይችላል። የተገናኘው መሳሪያ ከኢንተርኔት ጋር መገናኛት እንደማይችል ወይም ትራፊኩ በVPN በኩል እንደማይሄድ ሊያዩ ይችላሉ። ",
-        "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
+    "faq-android-enable-sideloading-image-alt": {
+        "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
+        "description": "alt text for an image"
     },
-    "user-guide-windows-head": {
-        "message": "ሰይፈን ለWindows ",
-        "description": "heading for the Android section of the User Guide"
+    "faq-information-collected-answer-redirect": {
+        "message": "ስለምንሰበስበው መረጃ ለማወቅ እባክዎ <a href=\"privacy.html\">የግላዊነት ፖሊሲያችንን</a> ይመልከቱ። ",
+        "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
     },
-    "faq-periodic-disconnect-answer-para-1": {
-        "message": "በዘብዛኛው ጊዜ ይህ  የሚከሰተው የመሳሪያዎ ወይም የኮምፒውተሮ የኢንተርኔት ግንኘነት የማያስተማምን ወይም የሚቆራረጥ ከሆነ ነው። በተንቀሳቃሽ ስልክ ላይ ሲሆን ይህ ግንኙነት ማጣት ሊሆን ይችላል። በኮምፒውተር ላይ ግን የሚቆራረጥ Wi-Fi ወይም የማያስተማምን የኢንተርኔት አገልግሎት ሰጪ ማለት ሊሆን ይችላል። ",
-        "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
-    },
-    "footer-copyright": {
-        "message": "የቅጂ መብት",
-        "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
-    },
-    "privacy-information-collected-psicash-para-3-list-start": {
-        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
-        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
-    },
-    "privacy-bulletin-intro-para-1": {
-        "message": "መደበኛው የዳታ አሰባሰብ አሠራራችን በ<a href=\"./faq.html#information-collected\">ኤፍኤኪው</a>ውስጥ ተገልጿል። ለጊዜውም ቢሆን የዳታ አሰባሰባችንን  በምቀይርበት (በምንጨምርበት) ወቅት  ምን እየሰራን እንደሆነ እና ተጽእኖውን እዚህ እንገልጻለን። ",
+    "faq-ip-change-question": {
+        "message": "የሳይፈን የIP አድራሻዬ በተደጋጋሚ ለምን ይቀየራል？ ",
         "description": ""
     },
-    "user-guide-title": {
-        "message": "የሳይፈን አጠቃቀም ",
-        "description": "page title for the user guide page"
-    },
-    "privacy-information-collected-psicash-para-4-item-1": {
-        "message": "user country",
-        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
-    },
-    "faq-description": {
-        "message": "ስለ ሳይፈን ተደጋግመው የተጠየቁ ጥያቄዎች መልስ ",
-        "description": "description for the FAQ page"
-    },
-    "faq-information-collected-answer-para-2-item-9": {
-        "message": "የደምበኛ አእማድ (የተሳለጥ  የስርአተ ክወና ዝርዝር; ለምሳሌ ጥልቅ ያልሆነ የመዳሰሻ ተጠቃሚ ወኪል)",
+    "faq-ip-change-answer-para-1": {
+        "message": "የሳይፈኞ ደምበኛዎ በራሱ አዳዲስ የሳይፈን አገልጋዮችን ያገኛል። በመጨረሻ ጥቅም ላይ የዋለው አገልጋይ በማይገኝበት ወቅት በምትኩ ሌላ አገልጋይ ጥቅም ላይ ሊውል ይችላል። ",
         "description": ""
     },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "አዲስ ትር ክፈት",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "download-via-email-description": {
-        "message": "ድረ ገጻችን ወይም የማውረጃ ትይይዞቻችን ከታገዱ ወይም እቀባ ከተጣለባቸው ሰነዶቹ በኢሜል በኩል እንዲላክሎት ጥያቄ ማቅረብ ይችላሉ። ",
-        "description": ""
-    },
-    "download-via-email-head": {
-        "message": "በኢሜል በኩል አውርድ",
-        "description": ""
-    },
-    "donate-body": {
-        "message": "ለሁሉም ሰው ክፍት የሆነ  ኢንተርኔት ማቅረብ እንዲችል ሳይፈንን መርዳት ይችላሉ። ከሚከተሉት መካከል አንዱን ይምረጡ። ",
-        "description": "The body of the page section that shows the donation buttons"
-    },
-    "faq-information-collected-answer-para-13-item-3": {
-        "message": "የኢሜሉን መጠን። ",
-        "description": ""
-    },
-    "download-windows-direct": {
-        "message": "ሳይፈን ለWindows ",
-        "description": "text for link to Psiphon for Windows download"
-    },
-    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2": {
-        "message": "This sharing is typically done with services or organizations we collaborate with — as <a href=\"http://www.dw.com/en/psiphon-helps-dodge-the-online-trackers/a-16765092\" target=\"_blank\">we did with DW</a> a few years ago. These statistics help us and them answer questions like, “how many bytes were transferred through Psiphon for DW.com to all users in Iran in April?”",
-        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
-    },
-    "faq-information-collected-answer-para-8-item-3": {
-        "message": "መሳሪያዎ ሩትድ መሆኑ ወይም አለመሆኑ ",
-        "description": ""
-    },
-    "sponsor-para-2": {
-        "message": "የመረጡትን ባነር በድረ ገጾ ገጽ ላይ ተያይዞ ያዩታል። ይህም የኢንተርኔትን መዳደስ የደህንነት ከለላን ለመጨመር ሳይፈንን መጠቀም የቴክኒክ እውቀታቸው ከፍተኛ የሆኑ ታዳሚዎችን ለመድረስ ልዩ እድል ነው ",
-        "description": ""
-    },
-    "faq-root-wdm-question-toc": {
-        "message": "ሩትድ ለሆኑ የAndroid መሳሪያዎች የሙሉ በሙሉ መሳሪያ ሁነታ ላይ ምን ተከሰተ? ",
-        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
-    },
-    "faq-root-wdm-question": {
-        "message": "ሩትድ ለሆኑ የAndroid መሳሪያዎች የሙሉ በሙሉ መሳሪያ ሁነታ ላይ ምን ተከሰተ? ",
-        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
-    },
-    "page-keyword-how-to": {
-        "message": "እንዴት ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "sponsor-description": {
-        "message": "በማረፊያ ገጽ ላይ በማስተዋወቅ ስፕንሰር ይሁኑ ወይም በግል ለሳይፈን ፕሮጀክት ይለግሱ",
-        "description": "Page description for the Sponsorship page"
-    },
-    "faq-windows-vpn-connect-question": {
-        "message": "በWindow ሳይፈን በ L2TP/IPsec VPN ሁነታ መገናኘት የማልችለው ለምንድን ነው？",
-        "description": ""
-    },
-    "faq-reset-system-proxy-answer-para-2": {
-        "message": "ለብዙ ሰዎች ይህንን የማስተካከያ ቀላሉ መንገድ ሳይፈንን በድጋሚ ማገናኘት እና ከዛም በተስተካከለ መልኩ ግንኙነቱን ማቋረጥ ነው። ",
-        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
-    },
-    "about-get-latest-info-para-1-list-start": {
-        "message": "የኢሜል ዝርዝራችንን ይቀላቀሉ፡-",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-9": {
-        "message": "ከአገልግሎታችን ጋር የተያያዙ ችግሮችን ለመፍታት ሳይፈን ከጊዜ ወደ ጊዜ ተጨማሪ መረጃዎችን ሊመዘግብ ይችላል።  ይህ ሲከሰት ምን እንደተመዘገበ፣ ለምን ያህል ጊዜ እንደተቀመጠ እና ለምን እንደተመዘገበ የሚገልጽ ዓረፍተ ነገር  <a href=\"./privacy-bulletin.html\">በግላዊነት መመሪያው </a>ላይ እናስገባለን። ",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "መመዝገብ  ከ2014-04-17T15:00Z እስከ 2014-04-18T15:00Z ባለው ይነቃል።",
-        "description": ""
-    },
-    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-list-start": {
-        "message": "This data is used by us to determine how our network is being used. This allows us to do things like:",
-        "description": "Paragraph text in the 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. This paragraph serves as preamble for a detailed list, which is why it ends with a colon."
-    },
-    "nav-language-title": {
-        "message": "ቋንቋዎን ይምረጡ ",
-        "description": ""
-    },
-    "faq-get-updated-version-answer-para-2": {
-        "message": "<strong>Windows፡-</strong> የWindows ሳይፈን ደምበኛ ዝመናዎች ሲኖሩ በማውረድ ይጭናል። ",
-        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
-    },
-    "faq-uninstall-windows-question": {
-        "message": "የWindows ሳይፈንን እንዴት ማራገፍ እችላለሁ？",
-        "description": "FAQ question"
-    },
-    "user-guide-android-para-4": {
-        "message": "መተግበሪያው ከኔትወርኩ ጋር አንዴ ከተገናኘ አብሮ ገነብ የሆነውን የሳይፈን መዳሰሻ ያስጀምራል። የAndroid ሳይፈን ነባሪ የAndroid መዳሰሻን ወይም የሌሎች መተገበሪያዎች የኢንተርኔት ትራፊክን በራሱ አያዘዋውርም። በነባሪው በሳይፈን ኔትወርክ ውስጥ የሚተላለፈው የሳይፈን መዳሰሻ ብቻ ነው። ",
-        "description": ""
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "የአሁኑ ገጽ ላይ እልባት አድርግ ",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-windows-para-2": {
-        "message": "ሳይፈንን ሲያስሰሩት በቀጥታ ግንኙነት መፍጠር ይጀምራል። በሚገናኝበት ወቅት የሚሽከረከር አዶ ይታያል። ከሚከተሉት የማዘዋወሪያ ሁነታዎች አንዱን መምረጥ ይችላሉ፡- VPN (L2TP over IPsec)፣ SSH ወይም SSH+ (SSH እና መሰወር ፣  የፕሮቶኮል አሻራ ለማስቀረት በSSH ላይ የተጨመረ  የዘፈቀደ ንብርብር )።",
-        "description": ""
-    },
-    "faq-isp-traffic-answer-para-3": {
-        "message": "በተጨማሪም የተመሰጠሩ ትራፊኮችን ሊያዩ እና አንዳንድ ነገሮችን ሊወስኑ የሚችሉ ለምሳሌ  በመዳሰስ ላይ ያለው ድረ ገጽ የቱ እንደሆነ ሊያውቁ የሚችሊ የላቁ ቴክኒኮች አሉ።  የዚህ ዋና ምሳሌ ሊሆን የሚችለው “<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">የትራፊክ እንቅስቃሴ አሻራ</a>” ነው። ",
-        "description": ""
-    },
-    "faq-reset-system-proxy-answer-para-3": {
-        "message": "የተኪ ቅንብሮን በማኗል ለማስተካከል  Internet Explorerን እክፈቱ እና ወደ መሳሪያዎች ምናሌ (ወይም የጊር አዶ) በመሄድ፣  የኢንተርኔት አማራጭ → የግንኙነቶች ትር → የLAN ቅንብሮች አዝራር የሚለው ጋር ይሂዱ። በመቀጠል “ለLANዎ የተኪ አገልጋይ ይጠቀሙ” ከሚለው ጎን ያለውን የምርጫ ምልክት ያስወግዱ። ",
-        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
-    },
-    "download-android-playstore-pro": {
-        "message": "<strong>Psiphon Pro for Android</strong> in the Google Play Store",
-        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
-    },
-    "page-keyword-vpn": {
-        "message": "vpn",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-partnerships": {
-        "message": "አጋርነቶች ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-development": {
-        "message": "ማበልጸግ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "blog-index-title": {
-        "message": "የቡድን ጦማር ",
-        "description": ""
-    },
-    "about-who-we-are-software-development-para-3": {
-        "message": "የሳይፈን ሶፍትዌር አበልጻጊ ቡድን ምርጥ፣ ፈጣን፣ ቀላል እና ክፍት የማለፊያ መፍትሄዎችን ለማቅረብ ይተጋል። በተጨማሪም በአለም ላይ ያሉ ተጠቃሚዎችን አእምሮ ነጻ የሚያወጡ፣ የሚጠብቁ እና ብቃትን የሚጨምሩ በሙያችን ያሉ አዳዲስ ነገሮችን ለማየት እንሞክራለን። ",
-        "description": ""
-    },
-    "page-keyword-windows": {
-        "message": "windows",
-        "description": "web page meta keyword used for SEO"
-    },
-    "privacy-information-collected-psicash-para-2-item-5": {
-        "message": "PsiCash spending history, including what purchases were made",
-        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
-    },
-    "privacy-para-3": {
-        "message": "ሳይፈን የተሰራው የመስመር ላይ  ክፍተ ምንጭ ይዘቶችን ለማቅረብ ነው። ሳይፈን የመስመር ላይ ግላዊነትዎን ስለማይጨምር እንደ የመስመር ላይ የደህንነት መሳሪያ መታየት  ወይም መጠቀም የለበትም። ",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-7-item-3": {
-        "message": "ከኢንተርኔቱ ጋር የተገናኙበት መንገድ (ለምሳሌ የሚጠቀሙት የዳይል አፕ ከሆነ ወይም የተገኛኙት በተኪ ከሆነ)",
-        "description": ""
-    },
-    "main-pick-three-head-1": {
-        "message": "እምነት፣ ፍጥነት፣ ቀላልነት፡- ሦስቱንም ያግኙ ",
-        "description": ""
-    },
-    "faq-android-upgrade-bug-answer-para-1": {
-        "message": "የዝመና ሂደቱ እየተጫነ ባለበት ወቅት ሳይፈን የተገናኘ ከሆነ ቀጥሎ መገናኘት ላይችል የሚችል ሲሆን “start_tunnel_failed application is not prepared or revoked” የሚል የስህተት መልእክት ያሳያል። ይህ የሚሆነው <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">በAndroid ስርአተ ክወና ስህተት</a> የተነሳ ነው። ይህ ሁኔታ መሳሪያውን መልሶ በማስነሳት ሊስተካከል ይችላል።  ",
-        "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
-    },
-    "about-who-we-are-software-development-head": {
-        "message": "ሶፍዌር ማበልጸግ ",
+    "faq-connection-failed-question": {
+        "message": "ለምን \"ግንኙነቱ አልተሳካም\" የሚል መልዕክት በተደጋጋሚ አያለሁ?",
         "description": ""
     },
     "faq-connection-failed-answer-para-1": {
         "message": "\"ግንኙነቱ አልተሳካም\" የሚል መልዕክት ተደጋግሞ ከተመለከቱ የእርስዎ ደንበኛ የሚያውቀው ምንም አይነት አገልጋዮች አላገኘም ማለት ነው። አዲስ የሳይፈን ደምበኛን ለማውረድ ይሞክሩ። ",
         "description": ""
     },
-    "faq-authentic-windows-image-alt": {
-        "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
-        "description": "alt text for an image"
+    "faq-reset-system-proxy-question": {
+        "message": "የWindows ሳይፈንን ከተጠቀምኩ በኋላ ኮምፒውተሬ ከኢንተርኔት ጋር መገናኘት አቆመ። ",
+        "description": "FAQ question."
     },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">ግራጫ</span>፡- በማገናኘት ላይ<br><span style=\"color:red\">ቀይ</span>፡- አልተገናኘም <br><span style=\"color:Blue\">ሰማያዊ</span>፡- ተገኛኝቷል",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
+    "faq-reset-system-proxy-answer-para-1": {
+        "message": "የWindows ሳይፈን በሚገናኝበት ወቅት የኮምፒውተርዎን የተኪ ቅንብር ይቀይረዋል እናም ግንኙነት ሲቋረጥ መልሶ ወደነበረበት ሁኔታ ይመልሰዋል። የWindows ሳይፈን  በትክክል የማይወጣ ከሆነ የመጀመሪያውን የተኪ ቅንብር በትክክል ላይመልሰው ይችላል። ይህም እርስዎን ከኢንተርኔት ጋር መገናኘት እንዳይችሉ ሊያደርግዎት ይችላል።",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
-    "privacy-bulletin-entry-item-head-why-doing": {
-        "message": "ያን የምናደርገው ለምንድን ነው ",
-        "description": ""
+    "faq-reset-system-proxy-answer-para-2": {
+        "message": "ለብዙ ሰዎች ይህንን የማስተካከያ ቀላሉ መንገድ ሳይፈንን በድጋሚ ማገናኘት እና ከዛም በተስተካከለ መልኩ ግንኙነቱን ማቋረጥ ነው። ",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
-    "privacy-information-collected-vpndata-whopsiphonshareswith-subhead": {
-        "message": "Who does Psiphon share these statistics with?",
-        "description": "Sub-heading in the 'User VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
+    "faq-reset-system-proxy-answer-para-3": {
+        "message": "የተኪ ቅንብሮን በማኗል ለማስተካከል  Internet Explorerን እክፈቱ እና ወደ መሳሪያዎች ምናሌ (ወይም የጊር አዶ) በመሄድ፣  የኢንተርኔት አማራጭ → የግንኙነቶች ትር → የLAN ቅንብሮች አዝራር የሚለው ጋር ይሂዱ። በመቀጠል “ለLANዎ የተኪ አገልጋይ ይጠቀሙ” ከሚለው ጎን ያለውን የምርጫ ምልክት ያስወግዱ። ",
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
     },
-    "faq-windows-metro-answer-para-3": {
-        "message": "የሚከተሉት ምሳሌዎች የMetro ሁነታ መተግበሪያዎች ከሳይፈን ጋር ለመስራት ሲሞክሩ እና ሳይሳካላቸው ሲቀር ሊያሳዩአቸው የሚችሏቸው የስህተት መልእክቶች ናቸው። ",
-        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
+    "faq-android-upgrade-bug-question": {
+        "message": "የAndroid ሳይፈንን መተግበሪያውን ካላቁት በኋላ  አይገናኝም።",
+        "description": "FAQ question."
     },
-    "license-para-3": {
-        "message": "የሳይፈን አገልገሎት በጥብቅ ለግለሰቦች እና  ለግል ጥቅም ብቻ የታሰበ ነው። ሳይፈንን ለሌላ አላማ መጠቀመም ከፈለጉ ወይም ተጨማሪ መስፈርቶች ካሉዎት በክፍያ የንግድ አገልግሎት እንሰጣለን። ለበለጠ መረጃ በ <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a> ኢሜል ያድርጉልን። ",
-        "description": ""
+    "faq-android-upgrade-bug-answer-para-1": {
+        "message": "የዝመና ሂደቱ እየተጫነ ባለበት ወቅት ሳይፈን የተገናኘ ከሆነ ቀጥሎ መገናኘት ላይችል የሚችል ሲሆን “start_tunnel_failed application is not prepared or revoked” የሚል የስህተት መልእክት ያሳያል። ይህ የሚሆነው <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">በAndroid ስርአተ ክወና ስህተት</a> የተነሳ ነው። ይህ ሁኔታ መሳሪያውን መልሶ በማስነሳት ሊስተካከል ይችላል።  ",
+        "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
     },
-    "faq-windows-metro-question": {
-        "message": "የWindows Metro (ወይም Modern UI) መተግበሪያ በሳይፈን ማዘዋወር የማልችለው ለምንድን ነው？ ",
-        "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+    "faq-periodic-disconnect-question": {
+        "message": "የሳይፈን ግንኙነቴ አንዳንዴ ለምን ይቋረጣል？",
+        "description": "FAQ question."
     },
-    "resources-nav-title": {
-        "message": "ግብዓቶች ",
-        "description": "title for the Resources"
+    "faq-periodic-disconnect-answer-para-1": {
+        "message": "በዘብዛኛው ጊዜ ይህ  የሚከሰተው የመሳሪያዎ ወይም የኮምፒውተሮ የኢንተርኔት ግንኘነት የማያስተማምን ወይም የሚቆራረጥ ከሆነ ነው። በተንቀሳቃሽ ስልክ ላይ ሲሆን ይህ ግንኙነት ማጣት ሊሆን ይችላል። በኮምፒውተር ላይ ግን የሚቆራረጥ Wi-Fi ወይም የማያስተማምን የኢንተርኔት አገልግሎት ሰጪ ማለት ሊሆን ይችላል። ",
+        "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
     },
-    "faq-mail-apps-ports-answer-para-1": {
-        "message": "ይህ ምናልባት ሊሆን የሚችለው በሳይፈን <a href=\"#port-restrictions\"> ጣቢያ ክልከላ </a> የተነሳ ነው። ",
-        "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+    "faq-ie6-docbody-question": {
+        "message": "የWindows ሳይፈን “doc.body is null or not an object” የሚል የስህተት መልእክት ይሰጣል እና አይሰራም። ",
+        "description": "FAQ question."
     },
-    "faq-windows-metro-answer-para-2": {
-        "message": "በMetro ሁነታ ያሉ መተግበሪያዎች የተጠቃሚ የደህንነት ስርአት ቅንብርን ተጠቃሚው ካላስተካከለ የአካባቢ ተኪን መጠቀም አይችሉም። ይህ ማለት የMetro ሁነታ መተግበሪያዎች ሳይፈንን መጠቀም አይችሉም እንዲሁም ሳይፈን በተገናኘበት ወቅት ኢንተርኔትን መድረስ አይችሉም። የMetro ሁነታ መተግበሪያዎች ከሳይፈን ጋር እንዲሰሩ <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">EnableLoopback Utility</a> መጠቀም ይችላሉ። ",
-        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+    "faq-ie6-docbody-answer-para-1": {
+        "message": "በWindows XP ላይ Internet Explorer 6 የተጫነ ከሆነ ይህ ስህተት ሊከሰት ይችላል። የWindows ሳይፈን Internet Explorer 7 ወይም ከዛ በላይ እንዲጫን ይፈልጋል። የInternet Explorer ከፍተኛ ስሪቶችን የመጫኛ ጥሩው መንገድ <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Windows ዝመናን</a> በመጠቀም ነው።  ",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
-    "user-guide-windows-image-3-alt": {
-        "message": "Screenshot showing Psiphon connected on Windows",
-        "description": "alt text for an image"
+    "faq-ie6-docbody-answer-para-2": {
+        "message": "የWindows ዝመናን መጠቀም ካልቻሉ እና Internet Explorer 7 ወይም Internet Explorer 8 በቀጥታ መጫን ከፈለጉ በሚከተሉት ትይይዞች አማካኝነት ሊያገኟቸው ይችላሉ፡-",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
-    "faq-section-installing-running-updating": {
-        "message": "ሳይፈንን መጫን፣ ማሄድ እና ማዘመን ",
-        "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software."
-    },
-    "blog-index-subscribe": {
-        "message": "ይመዝገቡ ",
-        "description": ""
-    },
-    "page-keyword-donate": {
-        "message": "ለግስ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-android-enable-sideloading-answer-para-1": {
-        "message": "ለAndroid  በቀጥታ የወረደ ሳይፈን ለመጫን በመሳሪያዎ ላይ ሳይድ ሎዲንግን ማንቃት አለብዎት።ይህንን ለማድረግ ወደ Android ቅንብሮችዎ ይሂዱ፣ ቀጥለው ወደ “ደህንነት” ክፍል በመሄድ “ያልታወቁ ምንጮች” የሚለውን ያንቁ። ",
-        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
-    },
-    "faq-isp-traffic-answer-para-4": {
-        "message": "ኢንተርኔት ሲጠቀሙ ማንነትዎ እንዲታወቅ የማይፈልጉ ከሆነ መጠቀም ያለብዎት ከሳይፈን ይልቅ <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> ነው። ",
-        "description": ""
+    "faq-ie6-docbody-answer-xpie8": {
+        "message": "Internet Explorer 8 ለWindows XP",
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
     "faq-ie6-docbody-answer-xpie7": {
         "message": "Internet Explorer 7 ለWindows XP",
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
-    "page-keyword-sponsor": {
-        "message": "እስፖንሰር ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "nav-title": {
-        "message": "ዳሰሳ ",
+    "faq-check-version-question": {
+        "message": "አሁን ያለኝን የሳይፈን ስሪት መፈተሽ እንዴት እችላለሁ？ ",
         "description": ""
     },
-    "faq-authentic-windows-answer-para-4": {
-        "message": "የWindows  ሳይፈን እራሱን የሚያዘምን ሲሆን ይህም ሂደት እያንዳንዱ ዝመና ትክክለኛ መሆኑን ያረጋግጣል። ",
+    "faq-check-version-answer-para-1": {
+        "message": "ሳይፈን ሲጀምር በመጀመሪያው የመዝገብ ውጤት መስመር ላይ የደምበኛ ስሪቱን ያሳያል። ",
         "description": ""
     },
-    "faq-information-collected-answer-para-3b": {
-        "message": "በመደበኛ የሳይፈን  አገልጋይ አሰራር የተጠቃሚ IP አድራሻዎች አይሰበሰቡም። ሳይፈንን ለመጠቀም የተጠቃሚ መለያዎች አያስፈልግም። ይህ ማለት በነባሪ የኢሜል አድራሻዎች፣ የተጠቃሚ ስሞች ወይም የማለፊያ ቃሎች አይሰበሰቡም ማለት ነው። ",
+    "faq-get-updated-version-question": {
+        "message": "የዘመነን የሳይፈን ስሪት እንዴት ማግኘት እችላለሁ？ ",
+        "description": "FAQ question"
+    },
+    "faq-get-updated-version-answer-para-1": {
+        "message": "<strong>Android፡-</strong> የAndroid ሳይፈንን በGoogle Play Store አማካኝነት የጫኑ ከሆነ Play Store ዝመና ሲኖር በራሱ ያዘምነዋል። የAndroid ሳይፈንን በጎን የጫኑ ከሆነ የሳይፈን ደምበኛ ዝመናዎች ሲኖሩ ያወርድ እና ዝመናውን እንዲጭኑ የሚጠይቅ ማስታወቂያ ይታያል። ",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+    },
+    "faq-get-updated-version-answer-para-2": {
+        "message": "<strong>Windows፡-</strong> የWindows ሳይፈን ደምበኛ ዝመናዎች ሲኖሩ በማውረድ ይጭናል። ",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
+    },
+    "faq-get-updated-version-answer-para-3": {
+        "message": "<strong>በማኑዋል ማዘመን፡-</strong> የሳይፈን ራስ አዘምን አሰራር  የማይሰራ ከሆነ (ለምሳሌ የታገደ ከሆነ ) አዲስ የሳይፈን ቅጂ እንዴት ማግኘት እንደሚችሉ <a href=\"download.html\">ከማውረጃ ገጹ</a>መረጃ ማግኘት ይችላሉ።",
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
+    },
+    "faq-orig-file-purpose-question": {
+        "message": "“psiphon3.exe.orig” የሚለው ሰነድ ምንድን ነው？ ",
         "description": ""
     },
-    "page-keyword-help": {
-        "message": "እገዛ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
-        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
-        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
-    },
-    "about-who-we-are-partners-head": {
-        "message": "አጋርነቶች ",
+    "faq-orig-file-purpose-answer-para-1": {
+        "message": "የሳይፈን ለWindows ራስሰር የማዘመን ሂደት የቀድሞ ስሪቱን ስም ወደ “psiphon3.exe.orig” ይቀይራል። በ“.orig” ድረ ቅጥያ የሚያበቁ የቀድሞ ሰነዶችን ያለችግር መጥፋት ይችላሉ። ",
         "description": ""
     },
-    "blog-index-description": {
-        "message": "ከሳይፈን ቡድን ጋር ከመጋረጃ በስተጀርባ ",
+    "faq-uninstall-windows-question": {
+        "message": "የWindows ሳይፈንን እንዴት ማራገፍ እችላለሁ？",
+        "description": "FAQ question"
+    },
+    "faq-uninstall-windows-answer-para-1": {
+        "message": "የWindows ሳይፈን አይጫንም እናም በWindows “ ፕሮግራሞችን አክል ወይም አስወግድ” ዝርዝር ውስጥ አይታይም። የራስ ጫኝ ሰነዱ ከ“ውርድ ፋይሎች“ ማህደር ሊሄድ ወይም ወደ ሌላ ማህደር ከተቀዳ በኋላ ከዚያ ሊሄድ ትችላል። ፕሮግራሙን ማስወገድ ከፈለጉ  በቀላሉ ራስ ጫኝ ሰነዱን ማጥፋት ይችላሉ። ",
+        "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?'"
+    },
+    "faq-clear-windows-data-question": {
+        "message": "How do I clear Psiphon for Windows' local data?",
+        "description": "FAQ question"
+    },
+    "faq-clear-windows-data-answer-para-1": {
+        "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3</code>; or, more generally, <code>%APPDATA%\\Psiphon3</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>.",
+        "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?'"
+    },
+    "faq-proxy-all-question": {
+        "message": "የWindows ሳይፈኔ ሁሉንም የኢንተርኔት ትራፊኬን  በተኪ ያደርገዋል ？ ",
         "description": ""
     },
-    "faq-information-collected-answer-para-7-item-4": {
-        "message": "ኮምፒውተሮ ምን ያህል ነጻ የሜሞሪ ቦታ አለው ",
+    "faq-proxy-all-answer-para-1": {
+        "message": "በVPN ሁነታ ብቻ። ስኬታማ ግንኙነት በVPN  ሁነታ ከተፈጸመ በኋላ ሁሉም የኮምፒውተሮት ትራፊክ በሳይፈን ኔትወርክ ያልፋል። የVPN ሞድ ካልነቃ የአካባቢ የHTTP እና የSOCKS ተኪዎችን የሚጠቀሙ መተግበሪያዎች ብቻ ተኪ ይሆናሉ። ",
         "description": ""
     },
-    "page-keyword-app-store": {
-        "message": "app store",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-psiphon-team": {
-        "message": "የሳይፈን ቡድን ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-information-collected-answer-para-13-item-1": {
-        "message": "የኢሜል ጥያቄውን የተቀበልንበትን ቀን እና ሰአት። ",
+    "faq-proxy-all-ios-browser-question": {
+        "message": "የIOS ሳይፈን መዳሰሻ  የመሳሪያዬን የኢንተርኔት ትራፊክ በሙሉ በተኪ ያደርገዋል ？ ",
         "description": ""
     },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "ሳይፈን እየሰራ ያለው በVPN  ወይም  የመሳሪያ ሙሉ በሙሉ  ሁነታ ነው።  ሁሉም መተግበሪያዎች የሚዘዋወሩት በሳይፈን አማካኝነት ነው። ",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
+    "faq-proxy-all-ios-browser-answer-para-1": {
+        "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data that is loaded in the app itself, and will not tunnel your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use Psiphon Browser to go the Facebook website. If you were to open your Facebook app, it would use your direct internet connection, and would not be tunneled through the Psiphon network.",
+        "description": ""
+    },
+    "faq-browser-compatibility-question": {
+        "message": "የWindows ሳይፈን ከInternet Explorer፣ Firefox  እና Chrome የድር መዳሰሻዎች ጋር ተኳኋኝ ነው？ ",
+        "description": ""
+    },
+    "faq-browser-compatibility-answer-para-1": {
+        "message": "አዎ። የመዳሰሻዎን ቅንብር ይመልከቱ እና የተኪ ስርአት ቅንብሮችን ለመጠቀም እንደተቀናበረ ያረጋግጡ። ",
+        "description": ""
+    },
+    "faq-port-restrictions-question": {
+        "message": "ሳይፈንን በምጠቀምበት ወቅት  የወደብ ክልከላዎች አሉን？",
+        "description": "FAQ question. Note that 'port' is referring to network ports."
+    },
+    "faq-port-restrictions-answer-para-1": {
+        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
+        "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
+    },
+    "faq-mail-apps-ports-question": {
+        "message": "ሳይፈንን እየተጠቀምኩ የምወደውን መተግበሪያ መጠቀም የማልችለው ለምንድን ነው？  የሜል ደምበኛዬን ተጠቅሜ ኢሜል መላክ የማልችለው ለምንድን ነው？  ",
+        "description": "FAQ question."
+    },
+    "faq-mail-apps-ports-answer-para-1": {
+        "message": "ይህ ምናልባት ሊሆን የሚችለው በሳይፈን <a href=\"#port-restrictions\"> ጣቢያ ክልከላ </a> የተነሳ ነው። ",
+        "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+    },
+    "faq-mobile-hotspot-question": {
+        "message": "የAndroid ተንቀሳቃሽ ሆትስፖቶች እና USB ግንኘነት  በሳይፈን በኩል የማይሰሩት ለምንድን ነው？  ",
+        "description": "FAQ question."
+    },
+    "faq-mobile-hotspot-answer-para-1": {
+        "message": "ይህ በAndroid ሆትስፖት እና ስኬት አፈጻጸም ውስንነቶች የተነሳ ሊሆን ይችላል። የተገናኘው መሳሪያ ከኢንተርኔት ጋር መገናኛት እንደማይችል ወይም ትራፊኩ በVPN በኩል እንደማይሄድ ሊያዩ ይችላሉ። ",
+        "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
+    },
+    "faq-av-firewall-question": {
+        "message": "ጸረ ቫይረሴ (AV)  ወይም ግድግዳዬ ሳይፈንን እንደ ስጋት የሚያየው ለምንድን ነው？ ",
+        "description": "FAQ question."
+    },
+    "faq-av-firewall-answer-para-1": {
+        "message": "በመጀመሪያ ማድረግ የሚገባዎት ነገር የሳይፈን የተረጋገጠ ቅጂ እንዳልዎት ማጣራት ነው። የሳይፈን ቅዲዎ ትክክለኛ እንደሆነ ለማረጋገጥ እባክዎን <a href=\"#verify-psiphon-authentic\">እነዚህን መመሪያዎች ይከተሉ</a>።  ትክክለኛ ካልሆነ ይህን ቅዲ እንዴት እንዳገኙት የሚገልጽ መረጃ እና ከተቻለም  የሳይፈኑን ራስ ጫኝ አባሪ በማድረግ እባክዎን <a href=\"mailto:info@psiphon.ca\">ኢሜል ይላኩልን</a>። ",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+    },
+    "faq-av-firewall-answer-para-2": {
+        "message": "የሳይፈን ቅጂዎ ትክክለኛ ከሆነ ይህ የስህተት ሪፖርት አጋጣሚ ሊሆን ይችላል። ምንም እንኳ አብዛኞቹ ጸረ ቫይረሶች/የፋየርወል ፕሮግራሞች የሳይፈንን ዲጂታል ፊርማ በዝርዝራቸው ያስገቡ ቢሆንም አንዳንዶቹ የሳይፈንን ራስ ጫኝ ሰነድ በስህተት እንደ ቫይረስ ወይም ስጋት ሊያዩት ይችላሉ። በዚህ ጊዜ እባክዎ የሚቀሙትን ጸረ ቫይረስ/ ፋየርዎል ፕሮግራም በመጥቀስ <a href=\"mailto:info@psiphon.ca\">ኢሜል ይላኩልን</a>። እኛም የጸረ ቫይረስ/ ፋየርዎል ሻጩን በማግኘት ችግሩን ለመፍታት እንሞክራለን። ",
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+    },
+    "faq-windows-metro-question": {
+        "message": "የWindows Metro (ወይም Modern UI) መተግበሪያ በሳይፈን ማዘዋወር የማልችለው ለምንድን ነው？ ",
+        "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+    },
+    "faq-windows-metro-answer-para-1": {
+        "message": "Windows 8 ለዴስክቶፕ መግበሪያ በይነገጽ “Metro” የሚባል አማራጭ አስተዋውቋል። ይህ በኋላ ላይ “Modern UI” በመባል ተሰይሟል። ጥቂት ነገር ግን በጣም ውስን የሆኑ መተግበሪያዎች “በMetro ሁነታ” ላይ ይሰራሉ። እንዲሁም አንዳንድ (እንደ Internet Explorer ያሉ) “በMetro ሁነታ” ወይም “ዴስክቶፕ ሁነታ” ይሰራሉ። ይህ አዲስ የተጠቃሚ በይነገጽ ሁነታ በWindows 8.1  እና በጥቂቱም ቢሆን በWindows 10 ቀጥሏል። ",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
+    },
+    "faq-windows-metro-answer-para-2": {
+        "message": "በMetro ሁነታ ያሉ መተግበሪያዎች የተጠቃሚ የደህንነት ስርአት ቅንብርን ተጠቃሚው ካላስተካከለ የአካባቢ ተኪን መጠቀም አይችሉም። ይህ ማለት የMetro ሁነታ መተግበሪያዎች ሳይፈንን መጠቀም አይችሉም እንዲሁም ሳይፈን በተገናኘበት ወቅት ኢንተርኔትን መድረስ አይችሉም። የMetro ሁነታ መተግበሪያዎች ከሳይፈን ጋር እንዲሰሩ <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">EnableLoopback Utility</a> መጠቀም ይችላሉ። ",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+    },
+    "faq-windows-metro-answer-para-3": {
+        "message": "የሚከተሉት ምሳሌዎች የMetro ሁነታ መተግበሪያዎች ከሳይፈን ጋር ለመስራት ሲሞክሩ እና ሳይሳካላቸው ሲቀር ሊያሳዩአቸው የሚችሏቸው የስህተት መልእክቶች ናቸው። ",
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
+    },
+    "faq-vpn-protocol-question": {
+        "message": "ሳይፈን ለWindows የሚጠቀመው የVPN ፕሮቶኮል ምንድን ነው？ መገናኘት የማልችለው ለምንድን ነው？ ",
+        "description": ""
+    },
+    "faq-vpn-protocol-answer-para-1": {
+        "message": "ሳይፈን L2TP/IPsec VPN ፕሮቶኮልን ይጠቀማል። ",
+        "description": ""
+    },
+    "faq-windows-vpn-connect-question": {
+        "message": "በWindow ሳይፈን በ L2TP/IPsec VPN ሁነታ መገናኘት የማልችለው ለምንድን ነው？",
+        "description": ""
+    },
+    "faq-windows-vpn-connect-answer-para-1": {
+        "message": "የኔትወርክዎት ፋየርዎልዎ የVPN ኔትወርክን መጠቀም ላይፈቅድ ይችላል። የቤትዎ ራውተር በዚህ የVPN ፕሮቶኮል እንዲያልፍ ላይዋቀር ይችላል። IPsec ወይም L2TP  በስር ማለፍ እንደነቃ ለማየት የፋየርዎል ቅንብርዎን ያጣሩ። የስርአቶ IPsec አገልግሎቶ ቦዝነው ሊሆን ስለሚችል የአገልግሎት ቅንብሮትን  ይመልከቱ እና እነዚህን አገልግሎቶች በራሳቸው እንዲጀምሩ ያንቁ። ",
+        "description": ""
+    },
+    "faq-vpn-slow-question": {
+        "message": "በWindows  ከሳይፈን ጋር በVPN ሁነታ መገናኘት እችላለሁ ነገር ግን ለምን ቀርፋፋ ሆነ？  አንዳንድ ጊዜ ድረ ገጾች ጭራሹኑ አይጭኑም። ",
+        "description": ""
+    },
+    "faq-vpn-slow-answer-para-1": {
+        "message": "በሳይፈን VPN ሞድ ጥቅም ላይ የሚውለው L2TP/IPsec ፕሮቶኮል ለአንዳንድ የኔትወርክ ሃርድዌር ወይም የኢንተርኔት ግንኝነቶች የአፈጻጸም ችግር ሊያስከትል ይችላል። የVPN ሞድን ለማቦዘን ይሞክሩ። ",
+        "description": ""
+    },
+    "faq-vpn-dns-question": {
+        "message": "ከWindows ሳይፈኔ ጋር በVPN ሁነታ በምገናኝበት ወቅት  ከድረገጾቼ ውስጥ አንዱም አይጭንም። የጎራ ፍለጋው አልተሳካም የሚል የስህተት መልእክት አገኛለሁ። ",
+        "description": ""
+    },
+    "faq-vpn-dns-answer-para-1": {
+        "message": "ሳይፈን የDNS  ትራፊኮችን በDNS  አገልጋዮች በተጣሩ ዝርዝሮች መሰረት ይገድባል። የሳይፈን ደምበኛ የእርስዎን VPN DNS አገልጋይ ቅንብሮች በራሱ ያዋቅራል። ከDNS  ጋር በተያያዘ ስህተቶችን የሚያገኙ ከሆነ የDNS  አገልጋይ ቅንብሮችን ለመቀየር በሚሞክረው  የ“DNS  Changer\" ሸረኛ ሶፍትዌር አለመጠቃትዎን ያጣሩ። የነበጠ መረጃ <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">እዚህ</a> ሊያገኑ ይችላሉ።  ",
+        "description": ""
+    },
+    "faq-configure-applications-question": {
+        "message": "የሳይፈንን መዘዋወሪያ ለመጠቀም መተግበሪያዎችን እንዴት ማዋቀር አለብኝ？ ",
+        "description": ""
+    },
+    "faq-configure-applications-answer-para-1": {
+        "message": "ሳይፈን  የአካባቢ HTTP/HTTPS ተኪን እና የአካባቢ SOCKS ተኪን እንዲጠቀም ስርአቶን በራሱ ያዋቅራል። የእነኚህ ተኪዎች የመገናኝ ቁጥር በሳይፈን ቅንብር ወስጥ በግልጽ ካልተቀመጠ በስተቀር  በዘፈቀደ ይመረጣል። የስርአት ተኪ ቅንብሮችን የሚጠቀሙ የWindows መተግበሪያዎች በራሳቸው ተኪ ይሆናሉ። እነዚህን የአካባቢ ተኪዎች ለመጠቀም መተገበሪያዎቹን በእጅዎ ሊያቀናብሩ ይችላሉ። ሁለቱም የWindows ሳይፈን እና የAndroid ሳይፈን እነዚህን የአካባቢ ተኪዎች ያሰራሉ። ",
+        "description": ""
+    },
+    "faq-ssh-plus-question": {
+        "message": "ነባሪው የሳይፈን መዘዋወሪያ የሚጠቀመው ምን ፕሮቶኮል ነው？ ",
+        "description": ""
+    },
+    "faq-ssh-plus-answer-para-1": {
+        "message": "ሳይፈን SSHን ከመሰወሪያነት በተጨማሪ  የSSHን ግንኙነት የሚጠቀመው  ከጣት ኧሻራ ፕሮቶኮል SSH ለመከላከል ነው። የፕሮቶኮሉ መግለጫ <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\"> እዚህ</a> ሊገኝ ይችላል። ",
+        "description": ""
+    },
+    "faq-autoproxy-question": {
+        "message": "<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">የራስ ተኪ</a> እጠቀማለሁ። የWindows ሳይፈኔ የተኪ ስርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ？ ",
+        "description": ""
+    },
+    "faq-autoproxy-question-toc": {
+        "message": "የራስሰር ተኪ እጠቀማለሁ። የWindows ሳይፈኔ የተኪ ስርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ？ ",
+        "description": ""
+    },
+    "faq-autoproxy-answer-para-1": {
+        "message": "አስኪድ የሚለውን ጠቅ ያድርጉ እና  የመዝገብ አርትኦቱን ለመክፈት <code> regedit</code> ብለው ይተይቡ። <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>እና በቀኝ በኩል <code>SkipProxySettings</code> የሚል ያያሉ። ይህንን መጠን <code>1</code> ያድርጉ እና ሳይፈን የተኪ ስርአት ቅንብሩን በራስሰር አያዋቅረውም። ",
+        "description": ""
+    },
+    "faq-screen-filter-question": {
+        "message": "የAndroid ሳይፈን መጀመሪያ ሲገናኝ ”ይህንን መተግበሪያ አምነዋለሁ“ የሚለውን መምረጥ የማልችለው ለምንድን ነው？ ",
+        "description": "FAQ question."
+    },
+    "faq-screen-filter-answer-para-1": {
+        "message": "የስክሪን አጣሪ መተበሪያ ወይም የስክሪኑን ድምቀት የሚቆጣጠር መተግበሪያ እያሄዱ እንደሆነ ያጣሩ።  ከሆነ ለማቦዘን ይሞክሩ። አብዛኞቹ እነዚህ መተግበሪያዎች (ለምሳሌ Lux Auto Brightness, Twilight, Night Mode) ከዚህ ጥያቄ ጋር ተጠቃሚው በሚያደርገው መስተጋብር ጣልቃ ይገባሉ። ",
+        "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
+    },
+    "faq-isp-traffic-question-toc": {
+        "message": "የኢንተርኔት አገልግሎት አቅራቢዬ ሳይፈንን እየተጠቀምኩኝ ኢንተርኔት ላይ ምን እያደረኩ እንደሆነ ማየት ይችላል？ ",
+        "description": ""
+    },
+    "faq-isp-traffic-question": {
+        "message": "የኢንተርኔት አገልግሎት አቅራቢዬ ሳይፈንን እየተጠቀምኩኝ ኢንተርኔት ላይ ምን እያደረኩ እንደሆነ ማየት ይችላል？  ",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-1": {
+        "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages you browse, your chat messages, your uploads, etc.",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-2": {
+        "message": "ነገር ግን ሳይፈን እገዳን የማለፊያ መሳሪያ እንደሆነ እና በአሰራሩ በተለይ ለጸረ ስለላ አላማ የማይውል መሆኑን ማስታወስ ያስፈልጋል። ሳይፈን የዳሰሳ ታሪክዎን እና ኩኪዎችዎን በኮምፒውተሮ ላይ ከመተራቀም አያግድም። እናም በአንዳንድ ሁነታዎች እና አወቃቀሮች ሁሉም የኢንተርኔት ትራፊክዎ በሳይፈን አማካኝነት ላይተላለፉ ይችላሉ። ለምሳሌ የመዳሰሻ ተኪዎ ቅንብር በትክክል ካልተዋቀረ ወይም ከሳይፈን ከወጡ በኋላ መዳሰሸሻዎን ክፍት የተውት እንደሆነ። ",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-3": {
+        "message": "በተጨማሪም የተመሰጠሩ ትራፊኮችን ሊያዩ እና አንዳንድ ነገሮችን ሊወስኑ የሚችሉ ለምሳሌ  በመዳሰስ ላይ ያለው ድረ ገጽ የቱ እንደሆነ ሊያውቁ የሚችሊ የላቁ ቴክኒኮች አሉ።  የዚህ ዋና ምሳሌ ሊሆን የሚችለው “<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">የትራፊክ እንቅስቃሴ አሻራ</a>” ነው። ",
+        "description": ""
+    },
+    "faq-isp-traffic-answer-para-4": {
+        "message": "ኢንተርኔት ሲጠቀሙ ማንነትዎ እንዲታወቅ የማይፈልጉ ከሆነ መጠቀም ያለብዎት ከሳይፈን ይልቅ <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> ነው። ",
+        "description": ""
+    },
+    "faq-root-wdm-question": {
+        "message": "ሩትድ ለሆኑ የAndroid መሳሪያዎች የሙሉ በሙሉ መሳሪያ ሁነታ ላይ ምን ተከሰተ? ",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-root-wdm-question-toc": {
+        "message": "ሩትድ ለሆኑ የAndroid መሳሪያዎች የሙሉ በሙሉ መሳሪያ ሁነታ ላይ ምን ተከሰተ? ",
+        "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "faq-root-wdm-answer-para-1": {
+        "message": "እ.ኤ.አ. ከዲሴምበር 2015 በፊት የAndroid ሳይፈን ቆየት ያሉ የAndroid መሳሪያ (pre-4.0/ICS) ያላቸው ተጠቃዎች  መሳሪያው ሩትድ ከሆነ ሙሉ በሙሉ የመሳሪያ ማስተላለፊያን መጠቀም የሚያስችል ገጽታ ነበረው። በዚያ ወቅት በሳይፈን ላይ በተደረገ ዋና የሆነ ዝመና የተነሳ ይህ ገጽታ ሊወገድ ችሏል። ",
+        "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
+    },
+    "alert-heading": {
+        "message": "ማስጠንቀቂያ ",
+        "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
+    },
+    "alert-body": {
+        "message": "የሳይፈን ቡድን ለWindows የሚሆን ራስ ጫኝ  የሳይፈን ሶፍትዌሮች የሚመስሉ ሸረኛ ሶፍትዌሮች እንዳሉ  አግኝቷል። ይህ ሸረኛ ሶፍትዌር  የሚሰራጨው \"pisphone3.zip\" የሚል ስም ባለው የዚፕ ሰነድ ሲሆን በwww.copy.com ድረ ገጽ ወይም በሌሎች ምንጮችም ላይ ሊገኝ ይችላል። ይህ የዚፕ ሰነድ ባህሪው <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>  ላይ የተገለጸውን \"pisphone3.exe\" የሚባለውን  ሸረኛ ጥንድ ሰነድ ይዟል።   የስሙን የሆሄያት ግድፈት ያስተውሉ። ይህ የWindows ራስ  ጫኝ በሳይፈን ኩባንያ በዲጂታል የተፈረመ አይደለም። <a href=\"#authentic-windows\">እዚህ </a>ላይ እንደተገለጸው የዲጂታል ፊርማውን ሳያጣሩ አዲስ የወረደ ሳይፈንን አይጫኑ። ",
+        "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
+    },
+    "download-now-button": {
+        "message": "አሁን አውርድ ",
+        "description": "The text on the Download Now button"
+    },
+    "what-is-psiphon-heading": {
+        "message": "ሳይፈን ምንድን ነው？ ",
+        "description": ""
+    },
+    "what-is-psiphon-body-para-1": {
+        "message": "ሳይፈን ያልተገደበ የኢንተርኔት ይዘትን እንዲያገኙ የሚያስችል የVPN, የSSH እና የHTTP ተኪ ቴክኖሎጂን የሚጠቀም በሳይፈን ኩባንያ የተሰራ የማለፊያ መሳሪያ ነው።  የሳይፈን ደምበኛዎት እገዳውን ለማለፍ የሚያስችል እድልዎን ለማስፋት አዳዲስ የመገናኛ ቦታዎን በራስሰር ያውቃል ። ",
+        "description": ""
+    },
+    "what-is-psiphon-body-para-2": {
+        "message": "ሳይፈን የተሰራው የመስመር ላይ  ክፍተ ምንጭ ይዘቶችን ለማቅረብ ነው። ሳይፈን የመስመር ላይ ግላዊነትዎን ስለማይጨምር እንደ የመስመር ላይ የደህንነት መሳሪያ መታየት  ወይም ጥቅም ላይ መዋል የለበትም። ",
+        "description": ""
+    },
+    "main-gets-you-where-you-want-head-1": {
+        "message": "የሚፈልጉበት ቦታ ያደርስዎታል ...",
+        "description": ""
+    },
+    "main-gets-you-where-you-want-head-2": {
+        "message": " ይህ በአገርዎ፣ በኩንባያዎ፣ ወይም ካምፓስ ውስጥ ታግዷል?",
+        "description": ""
+    },
+    "main-gets-you-where-you-want-para-1": {
+        "message": "አለማችን ላይ ያሉ አፋኝ መንግስታት አሰራርን ስለምናውቅ  የሚፈልጉትን ይዘት በሚፈልጉት ቦታ እና ወቅት እንዲያገኙ በተለየ ሁኔታ ለመርዳት ልምዱ አለን። ",
+        "description": ""
+    },
+    "main-gets-you-there-safely-head-1": {
+        "message": "...እናም ያለ ችግር ያደርስዎታል። ",
+        "description": ""
+    },
+    "main-gets-you-there-safely-head-2": {
+        "message": "ለህዝብ ክፍት የሆነ WiFiን ሲጠቀሙ ደህንነቱ በተጠበቀ መንገድ መዳሰስ ይፈልጋሉ？ ",
+        "description": ""
+    },
+    "main-gets-you-there-safely-para-1": {
+        "message": "ነጻ የኢንተርኔት አገልግሎት አሪፍ ነው ነገር ግን የተሰረቁ ኩኪዎች እና መለያዎች ግን አይደሉም። ሳይፈን ለመገናኘት የሚጠቀሙት ኔትወርክ ምንም አይነት ቢሆን ጤነኛ  የኢንተርኔት መንገድ ይሰጦታል። ",
+        "description": ""
+    },
+    "main-pick-three-head-1": {
+        "message": "እምነት፣ ፍጥነት፣ ቀላልነት፡- ሦስቱንም ያግኙ ",
+        "description": ""
     },
     "main-pick-three-para-1": {
         "message": "ኤ.ኤ.አ. ከ2008 ጀመሮ ሳይፈን በአለም ላይ ነጻነታቸው ውስን በሆነባቸው ሃገራት በሚሊዮኖች የሚቆጠሩ ሰዎች የታገደ እውቀትን እና ሃሳቦችን እንዲያገኙ ረድቷል። አሁን ሳይፈን ይህንን ለእርስዎ ማድረግ ይችላል። ",
@@ -1031,620 +551,1188 @@
         "message": "ስለ እኛ ",
         "description": "page title for the About page"
     },
-    "faq-information-collected-answer-para-8-item-1": {
-        "message": "የአንድሮይድ ስሪት",
+    "about-meta-title": {
+        "message": "ስለ እኛ ",
+        "description": "meta title for the About page"
+    },
+    "about-nav-title": {
+        "message": "ስለ እኛ ",
+        "description": "text for the About page navigation item"
+    },
+    "about-description": {
+        "message": "ከሳይፈን የኢንተርኔት እገዳን ማለፊያ ሶፍትዌር በስተጀርባ ያለውን ቡድን ይተዋወቁ ",
+        "description": "description for the About page"
+    },
+    "about-get-latest-info-head": {
+        "message": "ስለ ሳይፈን የመጨረሻውን ዘመንኛ መረጃ ያግኙ ",
         "description": ""
     },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "ምን ያህል ሰዎች በዚህ ሊጠቁ እደሚችሉ ገና በእርግጠኝነት አናውቅም (ይህንንም የምናደርገው በዚህ የተነሳ ነው) ነገር ግን ከ10,000 ተጠቃሚዎች እንደሚያንሱ እንገምታለን። ",
+    "about-get-latest-info-para-1-list-start": {
+        "message": "የኢሜል ዝርዝራችንን ይቀላቀሉ፡-",
         "description": ""
+    },
+    "about-get-latest-info-para-1-announcements-list": {
+        "message": "የሳይፈን ማስታወቂያዎች ",
+        "description": "text for link to the Psiphon Announcements mailing list"
+    },
+    "about-get-latest-info-para-1-users-list": {
+        "message": "የሳይፈን የተጠቃሚዎች ቡድን ",
+        "description": "text for link to the Psiphon Users mailing list"
+    },
+    "about-get-latest-info-para-1-developers-list": {
+        "message": "የሳይፈን አበልጻጊዎች ",
+        "description": "text for link to the Psiphon Developers mailing list"
+    },
+    "download-windows-direct": {
+        "message": "ሳይፈን ለWindows ",
+        "description": "text for link to Psiphon for Windows download"
     },
     "download-windows-direct-description": {
         "message": "በWindows XP፣ Windows Vista፣ Windows 7፣ Windows 8 (ዴስክቶፕ)፣ እና Windows 10 ላይ ይሰራል። ",
-        "description": ""
-    },
-    "license-termination-terms-of-service-violations-para-2": {
-        "message": "እንደ ተጠቃሚ ማንኛውንም ወይም ሁሉንም የሳይፈን አገልግሎቶች መጠቀም በማቆም እና ከመሳሪያዎ ላይ የመተገበሪያውን ሁሉንም ሁኔታዎች በማጥፋት የመጠቀሚያ ፍቃዱን በፈለጉት ሰአት ማቋረጥ ይችላሉ። ",
-        "description": ""
-    },
-    "faq-reset-system-proxy-answer-para-1": {
-        "message": "የWindows ሳይፈን በሚገናኝበት ወቅት የኮምፒውተርዎን የተኪ ቅንብር ይቀይረዋል እናም ግንኙነት ሲቋረጥ መልሶ ወደነበረበት ሁኔታ ይመልሰዋል። የWindows ሳይፈን  በትክክል የማይወጣ ከሆነ የመጀመሪያውን የተኪ ቅንብር በትክክል ላይመልሰው ይችላል። ይህም እርስዎን ከኢንተርኔት ጋር መገናኘት እንዳይችሉ ሊያደርግዎት ይችላል።",
-        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
-    },
-    "privacy-information-collected-client-advertising-networks-para-1": {
-        "message": "አገልግሎታችንን ለመደገፍ እንድንችል እንደ ኩኪዎች እና የድር ቢከን ያሉ ቴክኖሎጂዎችን የሚጠቀሙ ማስታወቂያዎችን አልፎ አልፎ  እንጠቀማለን። የማስታወቂያ አጋሮቻችን ኩኪዎችን መጠቀም እነርሱን እና አጋሮቻቸውን በእርስዎ የዳታ አጠቃቀም ላይ በመመስረት ማስታወቂያዎችን እንዲያስተላልፉ ያስችላቸዋል። በዚህ ሂደት የሚሰበሰብ ማንኛውም መረጃ የሚያዘው በማስታወቂያ አጋሮቻቻን የግላዊነት ፖሊሲዎች ውል መሰረት ነው፡- ",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-2-item-5": {
-        "message": "የክፍለ ጊዜ ብዛት እና  ቆይታ",
-        "description": ""
-    },
-    "faq-orig-file-purpose-question": {
-        "message": "“psiphon3.exe.orig” የሚለው ሰነድ ምንድን ነው？ ",
-        "description": ""
-    },
-    "download-ios-appstore-psiphon-vpn-description": {
-        "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
-        "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
-    },
-    "index-meta-title": {
-        "message": "ለWindows እና ለተንቀሳቃሽ ስልክ ያልተገደበ ኢንተርኔት አገልግሎት ",
-        "description": "Meta title for the index page"
-    },
-    "faq-information-collected-answer-para-8-item-2": {
-        "message": "የመሳሪያ ሞዴል ",
-        "description": ""
-    },
-    "page-keyword-play-store": {
-        "message": "play store",
-        "description": "web page meta keyword used for SEO"
-    },
-    "license-termination-terms-of-service-violations-header": {
-        "message": "መቋረጥ፤ የአገልግሎት ስምምነት ጥሰቶች ",
-        "description": ""
-    },
-    "privacy-information-collected-psicash-para-4-item-2": {
-        "message": "balance",
-        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
-    },
-    "faq-section-how-psiphon-works": {
-        "message": "ሳይፈን እንዴት ይሰራል ",
-        "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "ሳይፈን እየሰራ ነው ",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "blog-index-posts-in-your-language": {
-        "message": "በራስዎ ቋንቋ ይለጥፋል ",
-        "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
-    },
-    "download-ios-appstore-psiphon-browser-description": {
-        "message": "Access your favorite web sites and services through the Psiphon network with our easy-to-use web browser. Available for iOS 8 and higher.",
-        "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
-    },
-    "faq-isp-traffic-question": {
-        "message": "የኢንተርኔት አገልግሎት አቅራቢዬ ሳይፈንን እየተጠቀምኩኝ ኢንተርኔት ላይ ምን እያደረኩ እንደሆነ ማየት ይችላል？  ",
-        "description": ""
-    },
-    "open-source-para-3-list-start": {
-        "message": "Windows፡- ",
-        "description": ""
-    },
-    "download-now-button": {
-        "message": "አሁን አውርድ ",
-        "description": "The text on the Download Now button"
-    },
-    "blog-index-posts-in-english": {
-        "message": "የእንግሊዝኛ ልጥፎች",
-        "description": "Heading for the list of blog posts that are available in English"
-    },
-    "user-guide-android-para-3": {
-        "message": "የሳይፈን መተግበሪያን በሚያስጀምሩበት ወቅት ከሳይፈን ኔትወርክ ጋር መገናኘት በራሱ ይጀምራል። ",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "እየተጠቀሙ ያሉት የትኛውን የሳይፈን ስሪት እንደሆነ ያሳያል",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "download-android-playstore-pro-description": {
-        "message": "ሳይፈን ፕሮን ከGoogle Play Store በማውረድ <strong>የኢንተርኔት ነጻነትን ይደግፉ</strong>። (በሁሉም ሃገራት አይገኝም።)",
-        "description": ""
-    },
-    "faq-section-compatibility": {
-        "message": "ከሌሎች መተግበሪያዎች ጋር ያለው ተኋኋኝነት ",
-        "description": "Section heading for FAQ entries that pertain to Psiphon's compatibility with other software (web browsers, etc.)."
-    },
-    "open-source-nav-title": {
-        "message": "ምንጨ ክፍት  ",
-        "description": ""
-    },
-    "license-statement-of-limitations-of-liability-para": {
-        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
-        "description": ""
-    },
-    "faq-ip-change-question": {
-        "message": "የሳይፈን የIP አድራሻዬ በተደጋጋሚ ለምን ይቀየራል？ ",
-        "description": ""
-    },
-    "faq-periodic-disconnect-question": {
-        "message": "የሳይፈን ግንኙነቴ አንዳንዴ ለምን ይቋረጣል？",
-        "description": "FAQ question."
-    },
-    "license-psicash-item-1": {
-        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
-        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
-    },
-    "privacy-bulletin-meta-title": {
-        "message": "የግላዊነት ማስታወሻዎች  ",
-        "description": ""
-    },
-    "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "የኦንታሪዮ የመረጃ እና የግላዊነት ኮሚሽነር ቢሮ  ",
-        "description": ""
-    },
-    "about-who-we-are-ops-head": {
-        "message": "አፈጻጸም እና ህዝብ ግንኙነት ",
-        "description": ""
-    },
-    "faq-information-collected-answer-head-4": {
-        "message": "መተግበሪያ መደብሮች ",
-        "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
-    },
-    "license-psicash-item-2": {
-        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
-        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
-    },
-    "privacy-bulletin-entry-item-head-what-doing": {
-        "message": "ምን እያደረግን ነው ",
-        "description": ""
-    },
-    "main-gets-you-where-you-want-head-1": {
-        "message": "የሚፈልጉበት ቦታ ያደርስዎታል ...",
-        "description": ""
-    },
-    "privacy-information-collected-psicash-para-4-item-4": {
-        "message": "client version",
-        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
-    },
-    "privacy-information-collected-psicash-para-2-item-3": {
-        "message": "last activity timestamp",
-        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
-    },
-    "faq-screen-filter-question": {
-        "message": "የAndroid ሳይፈን መጀመሪያ ሲገናኝ ”ይህንን መተግበሪያ አምነዋለሁ“ የሚለውን መምረጥ የማልችለው ለምንድን ነው？ ",
-        "description": "FAQ question."
-    },
-    "faq-information-collected-answer-para-14": {
-        "message": "አንድን ችግር ለመመርመር ከፈለግን ለአጭር ጊዜ የሙሉ ሜል አገልጋይ መዝገብን ልናነቃ እንችላለን።  በዛ ጊዜ ኢሜል ከላኩ  የኢሜል አድራሻዎ በስርአት መዝገብ ውስጥ ይመዘገባል። እነዚህ መዛግብት ከአንድ ሳምንት በኋላ ይሰረዛሉ። ",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-2-item-4": {
-        "message": "አዲስ አገልጋዮች በየምን ያህል ጊዜ ይገኛሉ ",
-        "description": ""
-    },
-    "privacy-information-collected-client-head": {
-        "message": "የሳይፈን ደምበኛ ሶፍትዌር  ",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon client software"
-    },
-    "open-source-para-1": {
-        "message": "ሳይፈን ምንጭ ክፍት ፕሮጀችት ነው። የኮዱን ምንጭ እና የዲዛይን ዶክመንቶችን በ Bitbucket እና Github ፖሮጀክት ገጾቻችን ላይ ማግኘት ይችላሉ። ",
-        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and Github project pages."
-    },
-    "main-gets-you-where-you-want-head-2": {
-        "message": " ይህ በአገርዎ፣ በኩንባያዎ፣ ወይም ካምፓስ ውስጥ ታግዷል?",
-        "description": ""
-    },
-    "page-keyword-download": {
-        "message": "አውርድ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "ሳይፈን የተሰራው የመስመር ላይ  ክፍተ ምንጭ ይዘቶችን ለማቅረብ ነው። ሳይፈን የመስመር ላይ ግላዊነትዎን ስለማይጨምር እንደ የመስመር ላይ የደህንነት መሳሪያ መታየት  ወይም ጥቅም ላይ መዋል የለበትም። ",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-13-item-4": {
-        "message": "የኢሜል ጥያቄው የመጣበት የሜል አገልጋይ። (የጎራ ስሙ እጅግ የማይታወቁ ሶስት ክፍሎች።  ለምሳሌ  <code>ne1.example.com</code> እንጂ <code>web120113.mail.ne1.example.com</code> አይደለም።)",
-        "description": ""
-    },
-    "page-keyword-manual": {
-        "message": "ማኑዋል ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "ዳታው ከአንድ ሳምንት በላይ አይቀመጥም። የተጠቃሚዎችን ቁጥር ረዘም ላለ ጊዜ ምናልባትም  ላልተወሰነ ጊዜ እናስቀምጣለን። ",
-        "description": ""
-    },
-    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-2": {
-        "message": "Optimize for traffic types: Video streaming has different network requirements than web browsing does, which is different than chat, which is different than voice, and so on. Statistics about the number of bytes transferred for some major media providers helps us to understand how to provide the best experience to our users.",
-        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page."
-    },
-    "privacy-information-collected-websites-head": {
-        "message": "Psiphon Websites",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
-    },
-    "footer-license": {
-        "message": "የዚህ ድረ ገጽ ይዘት ፈቃድ ያለው በ",
-        "description": "The beginning of the 'Licensed under [license name here]' footer text"
-    },
-    "open-source-para-2": {
-        "message": "የሳይፈን ደምበኞች የሚከተሉትን ክፍት የመረጃ ክፍሎች ይጠቀማሉ፡-",
-        "description": ""
-    },
-    "page-keyword-contact": {
-        "message": "እውቂያ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-get-updated-version-answer-para-3": {
-        "message": "<strong>በማኑዋል ማዘመን፡-</strong> የሳይፈን ራስ አዘምን አሰራር  የማይሰራ ከሆነ (ለምሳሌ የታገደ ከሆነ ) አዲስ የሳይፈን ቅጂ እንዴት ማግኘት እንደሚችሉ <a href=\"download.html\">ከማውረጃ ገጹ</a>መረጃ ማግኘት ይችላሉ።",
-        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
-    },
-    "download-title": {
-        "message": "ሳይፈንን አውርድ ",
-        "description": "page title for the download page"
-    },
-    "faq-authentic-android-answer-para-1": {
-        "message": "እያንዳንዱ የAndroid ሳይፈን ደምበኛ የሚላከው የሳይፈን ኩባንያ ዲጂታል ፊርማ እንዳለበት Android APK (\".apk\") ሰነድ ነው።   የሳይፈን ኩባንያ ሰርትፍኬት ይፋዊ ቁልፍ እንደሚከተለው ነው፡- ",
         "description": ""
     },
     "download-android-direct": {
         "message": "ሳይፈን ለAndroidን ቀጥታ ማውረድ ",
         "description": "text for link to Psiphon for Android direct download"
     },
-    "page-keyword-home-page": {
-        "message": "ቅድመ ገጽ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-information-collected-answer-para-6": {
-        "message": "በሳይፈን በኩል ግብረመልስ ማስገባትን በሚመርጡበት ወቅት የምርመራ ዳታን የመጨመር አማራጭ አለዎት።  ይህን ዳታ ሊያጋጥሞት የሚችሉትን ችግሮች ለመፍታት እና ሳይፈን ያለ ምንም ችግር እንዲሰራ እንዲያግዘን እንጠቀምበታለም። ይህንን ዳታ መላክ ሙሉ በሙሉ በምርጫ የሚደረግ ነው። ዳታው እርስዎ ሳይልኩት በፊት የሚመሰጠር ሲሆን የሚፈታውም በእኛ ብቻ ነው። በዳታው ውስጥ ያለው መረጃ በሚጠቀሙት አእማድ ሊለያይ ቢችልም የሚከተለውን ሊያካትት ይችላል፡-  ",
+    "download-android-direct-description": {
+        "message": "Google Play Storeን መድረስ ካልቻሉ ሳይፈን  ለAndroidን በቀጥታ  (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">ከጎን </a>\") ማውረድ እና መጫን ይችላሉ። ",
         "description": ""
     },
-    "about-who-we-are-head": {
-        "message": "እኛ ማን ነን ",
-        "description": ""
+    "download-android-playstore-pro": {
+        "message": "<strong>Psiphon Pro for Android</strong> in the Google Play Store",
+        "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
-    "faq-browser-compatibility-answer-para-1": {
-        "message": "አዎ። የመዳሰሻዎን ቅንብር ይመልከቱ እና የተኪ ስርአት ቅንብሮችን ለመጠቀም እንደተቀናበረ ያረጋግጡ። ",
-        "description": ""
-    },
-    "faq-information-collected-answer-para-8-list-start": {
-        "message": "Android፡-",
-        "description": ""
-    },
-    "faq-information-collected-answer-head-3": {
-        "message": "የኢሜል መላሽ ",
+    "download-android-playstore-pro-description": {
+        "message": "ሳይፈን ፕሮን ከGoogle Play Store በማውረድ <strong>የኢንተርኔት ነጻነትን ይደግፉ</strong>። (በሁሉም ሃገራት አይገኝም።)",
         "description": ""
     },
     "download-android-amazon": {
         "message": "የAndroid ሳይፈን በAmazon AppStore ውስጥ ",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
+    "download-android-amazon-description": {
+        "message": "ከAndroid  2.2 እና ከዚያ በላይ ከሆኑ ጋር ተኳኳኝ ነው። የሙሉ በሙሉ መሳሪያ ሁነታ Android  4.0 እና ከዚያ በላይያሉ ወይም <a href=\"https://en.wikipedia.org/wiki/Android_rooting\" target=\"_blank\">ሩትድ መሳሪያን</a> ይፈልጋል። ",
+        "description": ""
+    },
+    "download-ios-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for iOS</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
+    },
+    "download-ios-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
+        "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
         "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
-    "user-guide-windows-image-1-alt": {
-        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
-        "description": "alt text for an image"
-    },
-    "download-android-direct-description": {
-        "message": "Google Play Storeን መድረስ ካልቻሉ ሳይፈን  ለAndroidን በቀጥታ  (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">ከጎን </a>\") ማውረድ እና መጫን ይችላሉ። ",
-        "description": ""
-    },
-    "page-keyword-user-guide": {
-        "message": "የተጠቃሚ መመሪያ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "about-meta-title": {
-        "message": "ስለ እኛ ",
-        "description": "meta title for the About page"
-    },
-    "faq-information-collected-answer-para-13-item-2": {
-        "message": "ለኢሜል ጥያቄው ምላሽ የተሰጠበትን ቀን እና ሰአት። ",
-        "description": ""
-    },
-    "sponsor-banner-alt-text": {
-        "message": "የእስፖንሰር ምልክት ",
-        "description": "alt text for an image"
-    },
-    "faq-port-restrictions-answer-para-1": {
-        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
-        "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
+    "download-ios-appstore-psiphon-browser-description": {
+        "message": "Access your favorite web sites and services through the Psiphon network with our easy-to-use web browser. Available for iOS 8 and higher.",
+        "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "download-store-head": {
         "message": "ከApp Store የወረዱ ",
         "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
     },
-    "sponsor-meta-title": {
-        "message": "የስፖንሰርሺፕ ድጋፍ፣ ማስታወቂያ እና ልገሳዎች",
-        "description": "Page title for the Sponsorship page"
-    },
-    "privacy-information-collected-vpndata-whopsiphonshareswith-para-3": {
-        "message": "Again, we specifically do not give detailed or potentially user-identifying information to partners or any other third parties.",
-        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
-    },
-    "faq-check-version-question": {
-        "message": "አሁን ያለኝን የሳይፈን ስሪት መፈተሽ እንዴት እችላለሁ？ ",
+    "download-direct-head": {
+        "message": "በቀጥታ የወረዱ ",
         "description": ""
     },
-    "privacy-information-collected-psicash-para-2-list-start": {
-        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
-        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
-    },
-    "site-title": {
-        "message": "ሳይፈን፡- ኔትወርክዎን ነጻ ያውጡ",
-        "description": "the title for the site"
-    },
-    "sponsor-header-sponsored-by": {
-        "message": "ስፖንሰር የተደረገው በ ",
+    "download-via-email-head": {
+        "message": "በኢሜል በኩል አውርድ",
         "description": ""
     },
-    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2": {
-        "message": "Psiphon does not inspect or record full URLs (only domain names), and does not further inspect your data. Psiphon does not modify your data as it passes through the VPN.",
-        "description": "Paragraph text in the 'What does Psiphon do with your VPN data?' subsection of the 'User VPN Data' section of the Privacy page."
-    },
-    "page-keyword-privacy": {
-        "message": "ግላዊነት",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-configure-applications-answer-para-1": {
-        "message": "ሳይፈን  የአካባቢ HTTP/HTTPS ተኪን እና የአካባቢ SOCKS ተኪን እንዲጠቀም ስርአቶን በራሱ ያዋቅራል። የእነኚህ ተኪዎች የመገናኝ ቁጥር በሳይፈን ቅንብር ወስጥ በግልጽ ካልተቀመጠ በስተቀር  በዘፈቀደ ይመረጣል። የስርአት ተኪ ቅንብሮችን የሚጠቀሙ የWindows መተግበሪያዎች በራሳቸው ተኪ ይሆናሉ። እነዚህን የአካባቢ ተኪዎች ለመጠቀም መተገበሪያዎቹን በእጅዎ ሊያቀናብሩ ይችላሉ። ሁለቱም የWindows ሳይፈን እና የAndroid ሳይፈን እነዚህን የአካባቢ ተኪዎች ያሰራሉ። ",
+    "download-via-email-description": {
+        "message": "ድረ ገጻችን ወይም የማውረጃ ትይይዞቻችን ከታገዱ ወይም እቀባ ከተጣለባቸው ሰነዶቹ በኢሜል በኩል እንዲላክሎት ጥያቄ ማቅረብ ይችላሉ። ",
         "description": ""
     },
-    "faq-section-privacy-security": {
-        "message": "ግላዊነት እና ደህንነት ",
-        "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
-    },
-    "faq-vpn-protocol-answer-para-1": {
-        "message": "ሳይፈን L2TP/IPsec VPN ፕሮቶኮልን ይጠቀማል። ",
+    "download-list-join": {
+        "message": "አስፈላጊ ማስታወቂያዎች እና ለደህንነት ምክሮች <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">የማስታወቂያ ኢሜል ዝርዝራችንን</a> ይቀላቀሉ። ",
         "description": ""
     },
-    "license-distribution-header": {
-        "message": "ስርጭት ",
+    "user-guide-android-head": {
+        "message": "ሰይፈን ለAndroid ",
+        "description": "heading for the Android section of the User Guide"
+    },
+    "user-guide-android-para-verify-authentic": {
+        "message": "በመጀመሪያ <a href=\"./faq.html#authentic-android\">የሳይፈን ለAndroid ቅዲዎ ትክክለኛ መሆኑን ማረጋገጥ</a> አለብዎት። ",
         "description": ""
     },
-    "faq-information-collected-answer-para-7-item-2": {
-        "message": "ጸረ ቫይረስ ስሪት ",
+    "user-guide-android-para-1": {
+        "message": "መጫንን ለማስጀመር የሳይፈን APK ትይይዝን ከAndroid ኢሜል ደምበኛ ላይ ወይም የድር መዳሰሻ ላይ ጠቅ ያድርጉ። (ስህተት ካገኙ <a href=\"./faq.html#android-enable-sideloading\">የጎንዮሽ ጫኙን  ማስቻል </a> ሊያስፈልጎት ይችላል።)",
         "description": ""
     },
-    "faq-reset-system-proxy-question": {
-        "message": "የWindows ሳይፈንን ከተጠቀምኩ በኋላ ኮምፒውተሬ ከኢንተርኔት ጋር መገናኘት አቆመ። ",
-        "description": "FAQ question."
-    },
-    "sponsor-para-1": {
-        "message": "ማንኛውም ሳይፈንን የሚጭን ሰው ከሶፍትዌሩ ጋር በሚገናኝበት ወቅት ማረፊያ ገጹን ይመለከታል። በዚህ ገጽ ላይ የስፖንሰርሺፕ ዕድሎችን  በሳምንት ማግኘት ይቻላል። ",
+    "user-guide-android-para-3": {
+        "message": "የሳይፈን መተግበሪያን በሚያስጀምሩበት ወቅት ከሳይፈን ኔትወርክ ጋር መገናኘት በራሱ ይጀምራል። ",
         "description": ""
     },
-    "faq-autoproxy-question": {
-        "message": "<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">የራስ ተኪ</a> እጠቀማለሁ። የWindows ሳይፈኔ የተኪ ስርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ？ ",
+    "user-guide-android-para-4": {
+        "message": "መተግበሪያው ከኔትወርኩ ጋር አንዴ ከተገናኘ አብሮ ገነብ የሆነውን የሳይፈን መዳሰሻ ያስጀምራል። የAndroid ሳይፈን ነባሪ የAndroid መዳሰሻን ወይም የሌሎች መተገበሪያዎች የኢንተርኔት ትራፊክን በራሱ አያዘዋውርም። በነባሪው በሳይፈን ኔትወርክ ውስጥ የሚተላለፈው የሳይፈን መዳሰሻ ብቻ ነው። ",
         "description": ""
     },
-    "privacy-information-collected-websites-google-analytics-para-3": {
-        "message": "የGoogle ሰለ ጎበኟቸው ድረ ገጾች በGoogle Analytics የተሰበሰቡ መረጃዎችን የመጠቀም እና የማካፈል ችሎታ <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">በGoogle Analytics የአጠቃቀም ውሎች </a> እና <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">በGoogle የግላዊነት ፖሊሲ</a>የተወሰነ ነው። በድር መዳሰሻዎ የምርጫ ቅንብር ውስጥ ኩኪዎች በማጥፋት ከዚህ አማራጭ ራስዎን ሊያወጡ ይችላሉ። ",
-        "description": ""
-    },
-    "faq-isp-traffic-question-toc": {
-        "message": "የኢንተርኔት አገልግሎት አቅራቢዬ ሳይፈንን እየተጠቀምኩኝ ኢንተርኔት ላይ ምን እያደረኩ እንደሆነ ማየት ይችላል？ ",
-        "description": ""
-    },
-    "faq-vpn-dns-answer-para-1": {
-        "message": "ሳይፈን የDNS  ትራፊኮችን በDNS  አገልጋዮች በተጣሩ ዝርዝሮች መሰረት ይገድባል። የሳይፈን ደምበኛ የእርስዎን VPN DNS አገልጋይ ቅንብሮች በራሱ ያዋቅራል። ከDNS  ጋር በተያያዘ ስህተቶችን የሚያገኙ ከሆነ የDNS  አገልጋይ ቅንብሮችን ለመቀየር በሚሞክረው  የ“DNS  Changer\" ሸረኛ ሶፍትዌር አለመጠቃትዎን ያጣሩ። የነበጠ መረጃ <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">እዚህ</a> ሊያገኑ ይችላሉ።  ",
-        "description": ""
-    },
-    "faq-section-troubleshooting": {
-        "message": "መፍትሄ ማፈላለግ",
-        "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
-    },
-    "about-get-latest-info-head": {
-        "message": "ስለ ሳይፈን የመጨረሻውን ዘመንኛ መረጃ ያግኙ ",
-        "description": ""
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Screenshot showing Psiphon starting up on Windows",
+    "user-guide-android-ui-status-image-alt": {
+        "message": "Screenshot showing the Psiphon for Android status panel",
         "description": "alt text for an image"
     },
-    "faq-orig-file-purpose-answer-para-1": {
-        "message": "የሳይፈን ለWindows ራስሰር የማዘመን ሂደት የቀድሞ ስሪቱን ስም ወደ “psiphon3.exe.orig” ይቀይራል። በ“.orig” ድረ ቅጥያ የሚያበቁ የቀድሞ ሰነዶችን ያለችግር መጥፋት ይችላሉ። ",
+    "user-guide-android-image-3-alt": {
+        "message": "Screenshot showing the Psiphon for Android web browser",
+        "description": "alt text for an image"
+    },
+    "user-guide-android-image-3-annotation-1": {
+        "message": "ሳይፈን እየሰራ ነው ",
+        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
+    },
+    "user-guide-android-image-3-annotation-2": {
+        "message": "የተከፈቱ ትሮችን ለዋውጥ",
+        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
+    },
+    "user-guide-android-image-3-annotation-3": {
+        "message": "አሁን ያለውን ትር ዝጋ ",
+        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
+    },
+    "user-guide-android-image-3-annotation-4": {
+        "message": "የአሁኑ ገጽ ላይ እልባት አድርግ ",
+        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
+    },
+    "user-guide-android-image-3-annotation-5": {
+        "message": "አዲስ ትር ክፈት",
+        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
+    },
+    "user-guide-android-ui-status-image-annotation-1": {
+        "message": "ሳይፈን እየሰራ ያለው በVPN  ወይም  የመሳሪያ ሙሉ በሙሉ  ሁነታ ነው።  ሁሉም መተግበሪያዎች የሚዘዋወሩት በሳይፈን አማካኝነት ነው። ",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
+    },
+    "user-guide-android-ui-status-image-annotation-2": {
+        "message": "የሁኔታ  ትር ተመርጧል",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
+    },
+    "user-guide-android-ui-status-image-annotation-3": {
+        "message": "ሳይፈንን በመሳሪያ ሙሉ በሙሉ ሁነታ መዘዋወሪያ ለማሰራት Android  4.0+ ወይም ሩትድ የሆነ መሳሪያ ሊኖርዎት ያስፈልጋል። <br><br> ሩትድ ላልሆኑ የቆዩ የAndroid ስሪቶች  ይህ አማራጭ አይገኝም ። ",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
+    },
+    "user-guide-android-ui-status-image-annotation-4": {
+        "message": "<span style=\"color:grey\">ግራጫ</span>፡- በማገናኘት ላይ<br><span style=\"color:red\">ቀይ</span>፡- አልተገናኘም <br><span style=\"color:Blue\">ሰማያዊ</span>፡- ተገኛኝቷል",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
+    },
+    "user-guide-android-ui-status-image-annotation-5": {
+        "message": "እየተጠቀሙ ያሉት የትኛውን የሳይፈን ስሪት እንደሆነ ያሳያል",
+        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
+    },
+    "user-guide-android-ui-logs-image-alt": {
+        "message": "Screenshot showing the Psiphon for Android logs panel",
+        "description": "alt text for an image"
+    },
+    "user-guide-android-ui-logs-image-annotation-1": {
+        "message": "የሳይፈን እንቅስቃሴ መዝገብ ",
+        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
+    },
+    "user-guide-android-ui-statistics-image-alt": {
+        "message": "Screenshot showing the Psiphon for Android statistics panel",
+        "description": "alt text for an image"
+    },
+    "user-guide-android-ui-statistics-image-annotation-1": {
+        "message": "የግንኙነት ቆይታ ",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
+    },
+    "user-guide-android-ui-statistics-image-annotation-2": {
+        "message": "በሳይፈን በኩል የተላከ  ዳታ ",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
+    },
+    "user-guide-android-ui-statistics-image-annotation-3": {
+        "message": "በሳይፈን በኩል የደረሰ ዳታ ",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
+    },
+    "user-guide-android-ui-statistics-image-annotation-4": {
+        "message": "በሳይፈን በኩል ታምቆ  የተላከ  ዳታ ",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
+    },
+    "user-guide-android-ui-statistics-image-annotation-5": {
+        "message": "በሳይፈን በኩል ታምቆ  የደረሰ ዳታ ",
+        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
+    },
+    "user-guide-windows-head": {
+        "message": "ሰይፈን ለWindows ",
+        "description": "heading for the Android section of the User Guide"
+    },
+    "user-guide-windows-para-verify-authentic": {
+        "message": "በመጀመሪያ <a href=\"./faq.html#authentic-windows\">የWindows ሳይፈን ቅዲዎ ትክክለኛ መሆኑን ማረጋገጥ </a>አለብዎት። ",
         "description": ""
     },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "ይህንን የምናደርገው  በበኬት ውስጥ የተጠራቀመውን ”የርቀት አገልጋይ ዝርዝር“ ምን ያህል ጊዜ ጥቅም ላይ እንደዋለ ለመወሰን ነው። ይህም ምን ያክል ተጠቃሚዎች መገናኘት እንዳልቻሉ ሃሳብ ለማግኘት እንዲረዳን ነው። ",
+    "user-guide-windows-para-1": {
+        "message": "የደምበኛውን ፕሮግራም በማውረድ ያስኪዱት። በሚያስኬዱበት ወቅት ይህ የሳይፈን ኩባንያ ትክክለኛ ምርት እንደሆነ የሚያሳይ የደንነት መግለጫ ማየት ይኖርቦታል። ",
         "description": ""
     },
-    "privacy-information-collected-psicash-para-4-item-5": {
-        "message": "PsiCash earning and spending details",
-        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
-    },
-    "download-nav-title": {
-        "message": "አውርድ ",
-        "description": "text for the Download page navigation item"
-    },
-    "faq-android-enable-sideloading-answer-para-0": {
-        "message": "“የጎንዮሽ ጭነት” ማለት በመሳሪያዎ ላይ በPlay Store ሳይሄዱ መተግበሪያን መጫን ማለት ነው። ይህ Play Storeን ማግኘት በማይችሉ ሰዎች ወይም በክልልላቸው መተግበሪያውን ማግኘት ለማይችሉ ሰዎች ተመራጭ ነው። ",
-        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
-    },
-    "privacy-information-collected-vpndata-head": {
-        "message": "User VPN Data",
-        "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data through the Psiphon VPN"
-    },
-    "faq-information-collected-answer-para-2-item-2": {
-        "message": "የማላቅ ብዛት ",
+    "user-guide-windows-para-2": {
+        "message": "ሳይፈንን ሲያስሰሩት በቀጥታ ግንኙነት መፍጠር ይጀምራል። በሚገናኝበት ወቅት የሚሽከረከር አዶ ይታያል። ከሚከተሉት የማዘዋወሪያ ሁነታዎች አንዱን መምረጥ ይችላሉ፡- VPN (L2TP over IPsec)፣ SSH ወይም SSH+ (SSH እና መሰወር ፣  የፕሮቶኮል አሻራ ለማስቀረት በSSH ላይ የተጨመረ  የዘፈቀደ ንብርብር )።",
         "description": ""
     },
-    "page-keyword-censorship": {
-        "message": "እገዳ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-section-verify-psiphon-authentic": {
-        "message": "ያወረዱት ሳይፈን ትክክለኛ መሆኑን ያረጋግጡ ",
-        "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
-    },
-    "blog-index-meta-title": {
-        "message": "የሳይፈን ቡድን ጦማር ",
+    "user-guide-windows-para-3": {
+        "message": "አረንጓዴ አዶ ሲታይ ከሳይፈን አገልጋይ  ግንኝነት መፈጠሩን ያመለክታል። በVPN ሁነታ ውስጥ ሁሉም የኢንተርኔት ትራፊክዎ በሳይፈን አማካኝነት በቀጥታ ይዘዋወራሉ።  ",
         "description": ""
     },
     "user-guide-windows-para-4": {
         "message": "በSSH and SSH+ ሁነታዎች ሳይፈን የWindows ስርአት ተኪ ቅንብሮችን በራሱ  ያስተካክላል። ይህም ይንን ስርአት የሚያከብሩ የመተግበሪያዎች ኔትወርክ ትራፊክ በሳይፈን ማስተላለፊያ ውስጥ እንዲያልፉ ያደርጋል። እነኚህ ቅንብሮች በሁሉም ዋና ዋና የድር መዳሰሻዎች በነባሪ ይከበራሉ። ",
         "description": ""
     },
-    "faq-information-collected-answer-para-13": {
-        "message": "ለእያንዳንዱ ለሚደርሰን ኢሜል የሚከተሉትን መረጃዎች እናስቀምጣለን፡-",
-        "description": ""
-    },
-    "page-keyword-advertise": {
-        "message": "አስተዋውቅ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "privacy-bulletin-entry-item-head-who-will-see": {
-        "message": "ከሳይፈን ኢንክ. ባሻገር ዳታውን ማን ያየዋል ",
-        "description": ""
-    },
-    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
-        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
-        "description": "Bullet list text under 'Why does Psiphon need these statistics?' subsection of the 'User VPN Data' section of the Privacy page. (English is using 'who' instead of 'whom' to reflect common idiom.)"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android statistics panel",
-        "description": "alt text for an image"
-    },
-    "faq-information-collected-answer-head-1": {
-        "message": "የሳይፈን አገልጋዮች ",
-        "description": ""
-    },
-    "privacy-information-collected-psicash-para-3-item-1": {
-        "message": "generated user access tokens",
-        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "የመዳረሻ መዝገቦቹ በAmazon  S3  በኬት ውስጥም ስለሚቀመጡ አማዞን ማዝገቡን ማግኘት ይችላል። (ይሁንና ሰነዶቹን የሚያቀርበው አማዞን ስለሆነ መረጃውን ቀድሞውኑ ማግኘት ይችላል።)",
-        "description": ""
-    },
-    "faq-check-version-answer-para-1": {
-        "message": "ሳይፈን ሲጀምር በመጀመሪያው የመዝገብ ውጤት መስመር ላይ የደምበኛ ስሪቱን ያሳያል። ",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "የሁኔታ  ትር ተመርጧል",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "faq-authentic-android-answer-alert": {
-        "message": "<b>ማስጠንቀቂያ፡-</b>  የAndroid መተግበሪያ የፊርማ ማጣሪያ ሸረኛ APKዎችን በሃሰት ትክክለኛ አድርጎ መዘገቡ በቅርቡ <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">የተገለጸ </a>ተጋላጭነቱ  ነው። <a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">እዚህ </a>እንደተቀመጠው ተጠቃሚዎች የGoogle ማረገገጫ መተግበሪያዎችን እንዲያበሩ  እንመክራለን። ",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "መዝገቡ የአንድን ድረ ገጽ ተደራሽነት የIP አድራሻዎች፣ የተጠቃሚ ወኪሎች እና የጊዜ ማህተሞች ይሰበስባል። ይህን ዳታ በምናሰላበት ወቅት በጆግሪያፊያዊ ክልል  ተከፋፍሎ ሰነዱን ያገኙትን የተጠቃሚቆች ቁጥር እናገኛለን። ",
-        "description": ""
-    },
-    "page-keyword-http-proxy": {
-        "message": "http ተኪ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "about-nav-title": {
-        "message": "ስለ እኛ ",
-        "description": "text for the About page navigation item"
-    },
-    "faq-authentic-windows-answer-para-2020": {
-        "message": " ከ 2017-07-05 እስከ 2020-10-03 ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ የሚከተለው ነው፡- ",
-        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
-    },
-    "privacy-information-collected-vpndata-whopsiphonshareswith-para-1": {
-        "message": "When sharing with third parties, Psiphon only ever provides coarse, aggregate domain-bytes statistics. We never share per-session information or any other possibly-identifying information.",
-        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User VPN Data' section of the Privacy page."
-    },
-    "faq-information-collected-answer-para-2-item-3": {
-        "message": "እያንዳንዱ ፕሮቶኮል በምን ያህል ጊዜ ጥቅም ላይ እንደዋለ እና ካለመሳካት  በኋላ የሚከሰቱ የስህተት ኮዶች ",
-        "description": ""
-    },
-    "privacy-para-1": {
-        "message": "ሳይፈን የደምበኞቹን፣ የመጨረሻ ተጠቃሚዎቹን፣ የአከፋፋዮቹን እና የአቅራቢዎቹን የጋላዊነት ፍላጎቶች ለመጠበቅ ይተጋል። ይህ የግላዊነት ፖሊሲ የታሰበው የግል መረጃዎችዎ እንዴት ጥቅም ላይ እንደሚውል አጠቃላይ መረጃ ለማቅረብ ነው። ሳይፈን ዋና መስሪያቤቱ በኦንታሪዮ የሚገኝ ካናዳዊ ኩባንያ ሲሆን የግላዊነት ፖሊሲያችን የካናዳን እና የኦንታሪዮን የግላዊነት ህጎች እና ደንቦች እንዲያንጸባርቅ ተደርጎ  የተቀረጸ ነው። ",
-        "description": ""
-    },
-    "privacy-information-collected-client-advertising-networks-head": {
-        "message": "የማስታወቂያ ኔትወርኮች ",
-        "description": "Sub-heading for section describing use of Advertising Networks and what info they collect"
-    },
-    "privacy-information-collected-vpndata-whycare-para-1": {
-        "message": "When using a VPN or proxy you should be concerned about what the provider can see in your data, collect from it, and do to it. For some web and email connections, it is theoretically possible for a VPN to see, collect, and modify the contents.",
-        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User VPN Data' section of the Privacy page."
-    },
-    "license-termination-terms-of-service-violations-para-1": {
-        "message": "ሳይፈን ይህንን ፈቃድ በፈለገ ሰአት፣ በማንኛውም ወይም ያለምንም ምክንያት፣ እና ያለ ምንም ቅጣት የማቋረጥ መብት ሙሉ በሙሉ አለው። የሳይፈንን አገልግሎትን ሲጠቀሙ የአገልግሎት ስምምነቶች  እና የፈቃድ ስምምነቶችን በማይጥስ መልኩ እንደሚጠቀሙ ተስማምተው ነው። ",
-        "description": ""
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "አሁን ያለውን ትር ዝጋ ",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "privacy-nav-title": {
-        "message": "የግላዊነት ፖሊሲ  ",
-        "description": "text for the Privacy Policy page navigation item"
-    },
-    "sponsor-para-3": {
-        "message": "ለበለጠ መረጃ በሚከተለው አድራሻ ኢሜል ይላኩ  <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>  ",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17፡- S3 የበኬት መዝገብን አንቃ",
-        "description": ""
-    },
     "user-guide-windows-para-5": {
         "message": "በተጨማሪም በSSH እና  SSH+ ሁነታዎች ውስጥ ሳይፈን የተከፈለ ማዘዋወሪያ አማራጭን ይሰጣል። ይህም አለማቀፍ ትራፊክ በተኪው አማካኝነት ሲዘዋወር የአካባቢ ትራፊክ ደግሞ በተኪው አይዘዋወርም። የተከፈለ ማዘዋወርያን ለማስቻል  “የአካባቢ ድረገጾችን በተኪ አታድርግ” የሚለውን ይምረጡ። ይህ ምርጫ በሚመረጥበት ወቅት ያልተተኩ ጎራዎች በመልእክት ክፍሉ ይዘገባሉ ።",
-        "description": ""
-    },
-    "license-distribution-para": {
-        "message": "በሳይፈን ኩባንያ የተፈጠሩ የሶፍትዌር ደንበኞች ብቻ የሰይፈን አገልግሎትን እንዲጠቀሙ ተፈቅዶላቸዋል። በሳይፈን አገልግሎትን ከሶስተኛ ወገን ደምበኛ ወይም መሳሪያ ጋር መጠቀም ወይም ማከፋፈል ይህንን ፈቃድ መጣስ ነው። ",
-        "description": ""
-    },
-    "page-keyword-contribute": {
-        "message": "አዋጣ ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "faq-av-firewall-answer-para-2": {
-        "message": "የሳይፈን ቅጂዎ ትክክለኛ ከሆነ ይህ የስህተት ሪፖርት አጋጣሚ ሊሆን ይችላል። ምንም እንኳ አብዛኞቹ ጸረ ቫይረሶች/የፋየርወል ፕሮግራሞች የሳይፈንን ዲጂታል ፊርማ በዝርዝራቸው ያስገቡ ቢሆንም አንዳንዶቹ የሳይፈንን ራስ ጫኝ ሰነድ በስህተት እንደ ቫይረስ ወይም ስጋት ሊያዩት ይችላሉ። በዚህ ጊዜ እባክዎ የሚቀሙትን ጸረ ቫይረስ/ ፋየርዎል ፕሮግራም በመጥቀስ <a href=\"mailto:info@psiphon.ca\">ኢሜል ይላኩልን</a>። እኛም የጸረ ቫይረስ/ ፋየርዎል ሻጩን በማግኘት ችግሩን ለመፍታት እንሞክራለን። ",
-        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
-    },
-    "main-gets-you-where-you-want-para-1": {
-        "message": "አለማችን ላይ ያሉ አፋኝ መንግስታት አሰራርን ስለምናውቅ  የሚፈልጉትን ይዘት በሚፈልጉት ቦታ እና ወቅት እንዲያገኙ በተለየ ሁኔታ ለመርዳት ልምዱ አለን። ",
-        "description": ""
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "በመጀመሪያ <a href=\"./faq.html#authentic-android\">የሳይፈን ለAndroid ቅዲዎ ትክክለኛ መሆኑን ማረጋገጥ</a> አለብዎት። ",
-        "description": ""
-    },
-    "privacy-information-collected-psicash-para-3-item-2": {
-        "message": "when a PsiCash reward is allowed to be claimed again",
-        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
-    },
-    "privacy-information-collected-s3-logging-para-2": {
-        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">የበኬት መዳረሻ መዝገቦች </a> የIP አድራሻዎችን፣ የተጠቃሚ ኤጀንቶችን እና የጊዜ ማህተሞችን ይይዛሉ። እንዚህ መዝገቦች የሚጠራቀሙት በራሱ S3 ስለሆነ Amazon ሊያገኛቸው ይችላል።  (ቢሆንም Amazon ሰነዱን ቀድሞውኑ ስለሚያቀርብ ይህን መረጃ ማግኘት ይችላል።)  የሳይፈን አበልጻጊዎች መዝገቦቹን አውርደው ካጠቃለሉ እና ከተነተኑ በኋላ ዝርዝሩን ያጠፉታል።  ጥሬ ዳታ የሚቀመጠው እስኪጠቃለል ብቻ ሲሆን ለሶስተኛ ወገን አይጋራም። ",
-        "description": ""
-    },
-    "download-description": {
-        "message": "ለWindows እና ለAndroid በቀጥታ እና በነጻ ሳይፈንን ማውረድ ",
-        "description": "title for the download page"
-    },
-    "privacy-information-collected-websites-google-analytics-head": {
-        "message": "የጎግል ትንታኔዎች ",
-        "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
-    },
-    "privacy-information-collected-psicash-para-1": {
-        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
-        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
-    },
-    "download-direct-head": {
-        "message": "በቀጥታ የወረዱ ",
-        "description": ""
-    },
-    "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "የIOS ሳይፈን መዳሰሻ  መዳሰሻ ብቻ የሆነ መተግበሪያ ሲሆን ዳታውን የሚያዘዋውረው በሳይፈን መዳሰሻ ብቻ ሲሆን ነው። ይህም ሌሎች መተግበሪያዎችን (ለምሳሌ የFacebook ወይም የTwitter መተግበሪያዎችዎን) በሳይፈን ኔትወርክ አያዘዋውርም። ይህ ማለት ለምሳሌ የFacebook መለያዎን ሳይፈን ኔትወርክን ተጠቅመው ለማግኘት ቢፈልጉ በሳይፈን IOS መዳሰሻ መተግበሪያ አማካኝነት ወደ Facebook ለመሄድ መተግበሪያችንን መጠቀም አለብዎት። የFacebook መተግበሪያውን የሚከፍቱ ከሆነ በሳይፈን ኔትወርክ ሳይሆን በWIFI ወይም በስልክዎ የዳታ ግንኙነትዎ አማካኝነት ይዘዋወራል። ",
-        "description": ""
-    },
-    "faq-mail-apps-ports-question": {
-        "message": "ሳይፈንን እየተጠቀምኩ የምወደውን መተግበሪያ መጠቀም የማልችለው ለምንድን ነው？  የሜል ደምበኛዬን ተጠቅሜ ኢሜል መላክ የማልችለው ለምንድን ነው？  ",
-        "description": "FAQ question."
-    },
-    "faq-information-collected-answer-para-2-item-1": {
-        "message": "የደምበኛ የማውረጃ ትይይዝ የኢሜል ጥያቄዎች ቁጥር ",
-        "description": ""
-    },
-    "faq-authentic-windows-answer-para-1": {
-        "message": "የWindows ሳይፈን እንደሚጫን እሽግ ሆኖ በፍጹም አልተሰራጨም። እያንዳንዱ የWindows ሳይፈን ደምበኛ ነጠላ ራስ ጫኝ  (\".exe\") ሰነድ ሲሆን የሳይፈን ኩባንያ የዲጂታል ፊርማ አለበት። ደንበያውን በሚያሄዱበት ወቅት Windows የዚህን ፊርማ ትክክለኛነት በራስሰር ያረጋግጣል። በተጨማሪም ደምበኛውን ከማስኬድዎ በፊት የሰነዱን ባህሪዎች ሳጥን በመጠቆም እና የዲጂታል ፊርማ ትሩን  በመመርመር ፊርማውን ማጣራት  ይችላሉ። የሳይፈን ኩባንያ SHA1 የጣት አሻራ ሰርትፍኬት ይፋዊ ቁልፍ በሰርትፍኬት ዝርዝር ሳጥን  ትር ላይ ይታያል። ",
         "description": ""
     },
     "user-guide-windows-para-6": {
         "message": "ፕሮግራሙን በሚዘጉበት ወቅት ሳይፈን በራስሰር ግንኙነቱን ያቋርጣል። በተጨማሪም አዶው ላይ ጠቅ በመድረግ ግንኙነቱን መቀያየር ይችላሉ። ",
         "description": ""
     },
-    "faq-information-collected-answer-para-1": {
-        "message": "እነዚህን ዳታዎች የምንሰበስበው ሳይፈን በደንብ እንደሚሰራ፣ የትኞቹ ድረ ገጾች ዝነኛ እንደሆኑ እና የትኞቹ የማራቢያ ዘዴዎች ውጤታማ እንደሆኑ ለማወቅ ነው። ይህን መረጃ ለአጋሮቻችን የምናጋራው ድረ ገጾቻቸው በሳይፈን በኩል ምን ያህል ጊዜ እና ከየትኞቹ ሀገሮች እንደተጎበኙ እንዲያዩ ነው። ",
+    "user-guide-windows-image-1-alt": {
+        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
+        "description": "alt text for an image"
+    },
+    "user-guide-windows-image-2-alt": {
+        "message": "Screenshot showing Psiphon starting up on Windows",
+        "description": "alt text for an image"
+    },
+    "user-guide-windows-image-3-alt": {
+        "message": "Screenshot showing Psiphon connected on Windows",
+        "description": "alt text for an image"
+    },
+    "blog-index-title": {
+        "message": "የቡድን ጦማር ",
         "description": ""
     },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "በሳይፈን በኩል ታምቆ  የተላከ  ዳታ ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
+    "blog-index-meta-title": {
+        "message": "የሳይፈን ቡድን ጦማር ",
+        "description": ""
     },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "የሳይፈን እንቅስቃሴ መዝገብ ",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
+    "blog-index-nav-title": {
+        "message": "ጦማራችን ",
+        "description": "Text for the navigation bar link to the blog"
+    },
+    "blog-index-description": {
+        "message": "ከሳይፈን ቡድን ጋር ከመጋረጃ በስተጀርባ ",
+        "description": ""
+    },
+    "blog-index-subscribe": {
+        "message": "ይመዝገቡ ",
+        "description": ""
+    },
+    "blog-index-intro": {
+        "message": "ሳይፈን ኢንክ. የካናዳ ኩባንያ ሲሆን አብዛኞቹ የቡድናችን አባላት የአፍ መፍቻ ቋንቋቸው እንግሊዘኛ ነው። ይህ ማለት የጦማር ጽሁፎቻችን በመጀመሪያ በእንግሊዘኛ የተዘጋጁ ናቸው ማለት ነው። ወደ ተለያዩ ቋንቋዎች የቻልነውን ያህል እንተረጉማቸዋለን ። ",
+        "description": ""
+    },
+    "blog-index-posts-in-your-language": {
+        "message": "በራስዎ ቋንቋ ይለጥፋል ",
+        "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
+    },
+    "blog-index-posts-in-english": {
+        "message": "የእንግሊዝኛ ልጥፎች",
+        "description": "Heading for the list of blog posts that are available in English"
+    },
+    "sponsor-title": {
+        "message": "ስፖንሰር ይሁኑ",
+        "description": "Page title for the Sponsorship page"
+    },
+    "sponsor-meta-title": {
+        "message": "የስፖንሰርሺፕ ድጋፍ፣ ማስታወቂያ እና ልገሳዎች",
+        "description": "Page title for the Sponsorship page"
+    },
+    "sponsor-nav-title": {
+        "message": "እስፖንሰር ",
+        "description": "Navigation text for the Sponsorship page"
+    },
+    "sponsor-description": {
+        "message": "በማረፊያ ገጽ ላይ በማስተዋወቅ ስፕንሰር ይሁኑ ወይም በግል ለሳይፈን ፕሮጀክት ይለግሱ",
+        "description": "Page description for the Sponsorship page"
+    },
+    "sponsor-header-sponsored-by": {
+        "message": "ስፖንሰር የተደረገው በ ",
+        "description": ""
+    },
+    "sponsor-banner-alt-text": {
+        "message": "የእስፖንሰር ምልክት ",
+        "description": "alt text for an image"
+    },
+    "sponsor-para-1": {
+        "message": "ማንኛውም ሳይፈንን የሚጭን ሰው ከሶፍትዌሩ ጋር በሚገናኝበት ወቅት ማረፊያ ገጹን ይመለከታል። በዚህ ገጽ ላይ የስፖንሰርሺፕ ዕድሎችን  በሳምንት ማግኘት ይቻላል። ",
+        "description": ""
+    },
+    "sponsor-para-2": {
+        "message": "የመረጡትን ባነር በድረ ገጾ ገጽ ላይ ተያይዞ ያዩታል። ይህም የኢንተርኔትን መዳደስ የደህንነት ከለላን ለመጨመር ሳይፈንን መጠቀም የቴክኒክ እውቀታቸው ከፍተኛ የሆኑ ታዳሚዎችን ለመድረስ ልዩ እድል ነው ",
+        "description": ""
+    },
+    "sponsor-para-3": {
+        "message": "ለበለጠ መረጃ በሚከተለው አድራሻ ኢሜል ይላኩ  <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>  ",
+        "description": ""
+    },
+    "license-title": {
+        "message": "የሳይፈን የመጨረሻ ተጠቃሚ የፍቃድ ስምምነት ",
+        "description": ""
+    },
+    "license-meta-title": {
+        "message": "የመጨረሻ ተጠቃሚ ፈቃድ ስምምነት ",
+        "description": ""
+    },
+    "license-nav-title": {
+        "message": "ፍቃድ",
+        "description": ""
+    },
+    "license-para-1": {
+        "message": "ይህ ሶፍትዌር እና ማንኛውም ተዛማጅ አዕምሯዊ ንብረት ዋና ቢሮው በቶሮንቶ፣ ኦንታርዮ ካናዳ ያለው እና በኦንታሪዎ ኮርፖሬሽን የተመዘገበው የሳይፈን ኩባንያ ንብረት ነው።  ",
+        "description": ""
+    },
+    "license-para-2": {
+        "message": "የሳይፈን ስርአት  “ሶፍትዌር” (የፕሮግራሙ ምንጨ ኮድ እና ከኮዱ የተቀዱ መተግበሪያዎች) እና  “አገልግሎት” (ሁሉንም እንዲሰራ የሚያደርግ የደምበኛ እና የአገልጋይ ሶፍትዌር ስርአት ) ያካትታል።   የሳይፈን ሶፍትዌር እና ምንጨ ኮድ <a href=\"https://en.wikipedia.org/wiki/Free_and_open_source_software\" target=\"_blank\">ነጻ እና ክፍተ ምንጭ</a> እና በ<a href=\"https://www.gnu.org/copyleft/gpl.html\" target=\"_blank\">GNU አጠቃላይ የህዝብ ፈቃድ 3</a> መሰረት  <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/LICENSE?at=default\" target=\"_blank\">ፍቃድ ያላቸው</a> ናቸው።  የሳይፈን አገልግሎትን መጠቀም በዚህ ገጽ ላይ በተገለጸው ስምምነት ፍቃድ ያለው ነው። ",
+        "description": "Please modify the Wikipedia link to point to the correct language entry"
+    },
+    "license-para-3": {
+        "message": "የሳይፈን አገልገሎት በጥብቅ ለግለሰቦች እና  ለግል ጥቅም ብቻ የታሰበ ነው። ሳይፈንን ለሌላ አላማ መጠቀመም ከፈለጉ ወይም ተጨማሪ መስፈርቶች ካሉዎት በክፍያ የንግድ አገልግሎት እንሰጣለን። ለበለጠ መረጃ በ <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a> ኢሜል ያድርጉልን። ",
+        "description": ""
+    },
+    "license-terms-of-use-header": {
+        "message": "የአጠቃቀም ስምምነቶች ",
+        "description": ""
+    },
+    "license-terms-of-use-para": {
+        "message": "የሳይፈን አገልግሎትን በሚጠቀሙበት ጊዜ ማንኛውንም አይነት የካናዳን ህግ ወይም ሌላ የሶስተኛ ወገን መብት በማይጥስ መልኩ ለመጠቀም ተስማምተው ነው። ",
+        "description": ""
+    },
+    "license-distribution-header": {
+        "message": "ስርጭት ",
+        "description": ""
+    },
+    "license-distribution-para": {
+        "message": "በሳይፈን ኩባንያ የተፈጠሩ የሶፍትዌር ደንበኞች ብቻ የሰይፈን አገልግሎትን እንዲጠቀሙ ተፈቅዶላቸዋል። በሳይፈን አገልግሎትን ከሶስተኛ ወገን ደምበኛ ወይም መሳሪያ ጋር መጠቀም ወይም ማከፋፈል ይህንን ፈቃድ መጣስ ነው። ",
+        "description": ""
+    },
+    "license-personal-or-specified-use-header": {
+        "message": "የግል ወይም የተለየ ጥቅም ",
+        "description": ""
+    },
+    "license-personal-or-specified-use-para": {
+        "message": "የሳይፈን አገልግሎትን መጠቀም የሚፈቀደው ብቸኛ ባልሆነ የግል ፍቃድ አማካኝነት ነው። ሳይፈንን ሲጠቀሙ አገልግሎቱን የሚጠቀሙት ለግል እደሆነ እና የንግድ ስራ እንዳልሆነ ተስማምተው ነው። የሳይፈንን አገልግሎት (እርስዎም  ሆኑ ሌላ ሶስተኛ አካል)  መከራየት፣ ማከራየት፣ ፍቃድ መስጠት፣ መሸጥ፣ መለወጥ ወይም ለንግድ ስራ ማሰራጨት አይችሉም። ",
+        "description": ""
+    },
+    "license-statement-of-limitations-of-liability-header": {
+        "message": "የተጠያቂነት ገደብ መግለጫ",
+        "description": ""
+    },
+    "license-statement-of-limitations-of-liability-para": {
+        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
+        "description": ""
+    },
+    "license-termination-terms-of-service-violations-header": {
+        "message": "መቋረጥ፤ የአገልግሎት ስምምነት ጥሰቶች ",
+        "description": ""
+    },
+    "license-termination-terms-of-service-violations-para-1": {
+        "message": "ሳይፈን ይህንን ፈቃድ በፈለገ ሰአት፣ በማንኛውም ወይም ያለምንም ምክንያት፣ እና ያለ ምንም ቅጣት የማቋረጥ መብት ሙሉ በሙሉ አለው። የሳይፈንን አገልግሎትን ሲጠቀሙ የአገልግሎት ስምምነቶች  እና የፈቃድ ስምምነቶችን በማይጥስ መልኩ እንደሚጠቀሙ ተስማምተው ነው። ",
+        "description": ""
+    },
+    "license-termination-terms-of-service-violations-para-2": {
+        "message": "እንደ ተጠቃሚ ማንኛውንም ወይም ሁሉንም የሳይፈን አገልግሎቶች መጠቀም በማቆም እና ከመሳሪያዎ ላይ የመተገበሪያውን ሁሉንም ሁኔታዎች በማጥፋት የመጠቀሚያ ፍቃዱን በፈለጉት ሰአት ማቋረጥ ይችላሉ። ",
+        "description": ""
+    },
+    "license-psicash-header": {
+        "message": "የPsiCash አጠቃቀም",
+        "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
+    },
+    "license-psicash-item-1": {
+        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
+    },
+    "license-psicash-item-2": {
+        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
+    },
+    "license-psicash-item-3": {
+        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
+    },
+    "about-who-we-are-head": {
+        "message": "እኛ ማን ነን ",
+        "description": ""
+    },
+    "about-who-we-are-para-1": {
+        "message": "የሳይፈን ኢንክ. በቶሮንቶ የሚገኝ ኩባንያ ሲሆን በሳምት ከ3 ሚሊዮን በላይ የሚሆኑ ሰዎች የኢንተርኔት ይዘትን እንዲያገኙ የሚያደርግ ክፍተ ምንጭ የሆነ ብዙሃ አእማድ ሶፍትዌርን የሚሰራ ኩባንያ ነው። በምንችለው መጠን ምርጥ ሶትዌርን ለማቅረብ፣ በየጊዜው አዳዲስ ምርቶችን ለማስተዋውቅ እና ያለማቋረጥ እያደገ የመጣውን የአለም አቀፍ ታዳሚዎቻችንን ፍላጎት ለማሟላት በትኩረት  የምንጥር ቡድን ነን። ",
+        "description": ""
+    },
+    "about-who-we-are-exec-team-head": {
+        "message": "አስፈጻሚ ቡድን ",
+        "description": ""
+    },
+    "about-who-we-are-exec-team-para-1": {
+        "message": "ማይክል ኸል የሳይፈን ኩባንያ ፕሬዝዳንት ሲሆን ሳይፈን በቶሮንቶ ዩኒቨርስቲ የሲትዝን ላብ ውስጥ ፕሮጀት ከነበረበት ወቅት ጊዜ አንስቶ ከሳይፈን ጋር አብሮ የነበረ ነው። ከዚያ ጊዜ ጀምሮ የተለያዩ የሶፍትዌር ማበልጸግ ጥረቶችን በመምራት ያገለገለ ሲሆን ሳይፈንን በውድድሩ ቀዳሚ እንዲሆን የሚያስችሉ ፈጠራዎችን አምጥቷል። ",
+        "description": ""
+    },
+    "about-who-we-are-software-development-head": {
+        "message": "ሶፍዌር ማበልጸግ ",
+        "description": ""
+    },
+    "about-who-we-are-software-development-para-1": {
+        "message": "በሳይፈን ተጠቃሚዎቻችን መልካም ተሞክሮ እንዲኖራቸው እንፈልጋለን። ይህ ማለት ሶፍትዌራችን ለመጠቀም ቀላል፣ ኔትወርካችን ፈጣን እና ሁለቱም መሰረተ ጽኑ እና አስተማማን መሆን አለባቸው። ይህን ማሳካት በተለይም ሶፍትዌሩ ሁልጊዜም በለውጥ ላይ ባለ አስቸጋሪ ከባቢ ውስጥ እና በብዙ ቋንቋዎች እና አእማዶች መስራት በሚጠበቅበት ወቅት ለማንኛውም የሶፍትዌር አበልጻጊ በቀላሉ የሚቻል አይደለም። ",
+        "description": ""
+    },
+    "about-who-we-are-software-development-para-2": {
+        "message": "ከመጋረጃ በስተጀርባ ሆኖ  ጠንክሮ መስራት ለተጠቃሚዎቻችን አስፈላጊ እንደሆነ እንረዳለን። ተጠቃሚዎቻችንን እና ዳታዎቻቸውን በምንችለው አቅም ሁሉ እንጠብቃለን። ተጠቃሚቆች ግላዊነታቸውን እና ደህንነታቸውን ለማስጠበቅ የምንወስዳቸውን እርምጃዎች ላያስተውሉ ይችላሉ ነገር ግን እንደሚያደንቁት እናውቃለን።  ",
+        "description": ""
+    },
+    "about-who-we-are-software-development-para-3": {
+        "message": "የሳይፈን ሶፍትዌር አበልጻጊ ቡድን ምርጥ፣ ፈጣን፣ ቀላል እና ክፍት የማለፊያ መፍትሄዎችን ለማቅረብ ይተጋል። በተጨማሪም በአለም ላይ ያሉ ተጠቃሚዎችን አእምሮ ነጻ የሚያወጡ፣ የሚጠብቁ እና ብቃትን የሚጨምሩ በሙያችን ያሉ አዳዲስ ነገሮችን ለማየት እንሞክራለን። ",
+        "description": ""
+    },
+    "about-who-we-are-ops-head": {
+        "message": "አፈጻጸም እና ህዝብ ግንኙነት ",
+        "description": ""
+    },
+    "about-who-we-are-ops-para-1": {
+        "message": "ከትልልቅ አለማቀፍ አስተላላፊ ኩባንያዎች እስከ በአንድ ሃገር ብቻ የሚሰሩ ትንንሽ የሰብአዊ መብት ድርጅቶች ድረስ ከብዙ ኩባንያዎች ጋር የስራ ስምምነቶች አሉን። የአፈጻጸም እና ህዝብ ግንኙነት ቡድናችን ስንት ሰዎች በስርጭት መንገዳቸው አማካኝነት ሳይፈንን እንደሚጠቀሙ ሪፖርቶችን በማዘጋጀት ያሳያሉ። በተጨማሪም በኢንተርኔት ላይ ነጻ የመረጃ ስርጭት ላይ ተጽኖ ሊያሳድር የሚችሉ ሁኔታዎችን እና ሁነቶችን አዝማሚዎች በማየት ጥናት ያደርጋሉ። ",
+        "description": ""
+    },
+    "about-who-we-are-partners-head": {
+        "message": "አጋርነቶች ",
+        "description": ""
+    },
+    "about-who-we-are-partners-para-1": {
+        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our software in dozens of languages, and are adding more to our products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, with the help of the <a href=\"https://www.localizationlab.org/\" target=\"_blank\">Localization Lab</a>.",
+        "description": "There are more than 20 languages currently supported, so if your language has a better fit than 'dozens', please use it. You can also just use something more generic, like 'many'."
+    },
+    "about-contact-head": {
+        "message": "ያነጋግሩን",
+        "description": ""
+    },
+    "contact-email-para": {
+        "message": "ወደሚከተለው አድራሻ ኢሜይል በመላክ ሳይፈንን ማነጋገር ይችላሉ፡- ",
+        "description": ""
+    },
+    "footer-copyright": {
+        "message": "የቅጂ መብት",
+        "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
+    },
+    "footer-license": {
+        "message": "የዚህ ድረ ገጽ ይዘት ፈቃድ ያለው በ",
+        "description": "The beginning of the 'Licensed under [license name here]' footer text"
+    },
+    "donate-heading": {
+        "message": "ለሳይፈን አስተዋጽዎ ያድርጉ ",
+        "description": "The heading of the page section that shows the donation buttons"
+    },
+    "donate-body": {
+        "message": "ለሁሉም ሰው ክፍት የሆነ  ኢንተርኔት ማቅረብ እንዲችል ሳይፈንን መርዳት ይችላሉ። ከሚከተሉት መካከል አንዱን ይምረጡ። ",
+        "description": "The body of the page section that shows the donation buttons"
+    },
+    "open-source-title": {
+        "message": "ምንጨ ክፍት ",
+        "description": ""
+    },
+    "open-source-meta-title": {
+        "message": "ምንጨ ክፍት ",
+        "description": ""
+    },
+    "open-source-nav-title": {
+        "message": "ምንጨ ክፍት  ",
+        "description": ""
+    },
+    "open-source-description": {
+        "message": "ሳይፈን ክፍተ ምንጭ የኢንተርኔት እገዳን የማለፊያ ሶፍትዌር ነው ",
+        "description": ""
+    },
+    "open-source-para-1": {
+        "message": "Psiphon is an open source project. You can find source code and design documents on our Bitbucket and GitHub project pages.",
+        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and GitHub project pages."
+    },
+    "open-source-para-2": {
+        "message": "የሳይፈን ደምበኞች የሚከተሉትን ክፍት የመረጃ ክፍሎች ይጠቀማሉ፡-",
+        "description": ""
+    },
+    "open-source-para-3-list-start": {
+        "message": "Windows፡- ",
+        "description": ""
+    },
+    "open-source-para-4-list-start": {
+        "message": "Android፡-",
+        "description": ""
+    },
+    "page-keyword-download": {
+        "message": "አውርድ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-vpn": {
+        "message": "vpn",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-ssh": {
+        "message": "ssh",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-http-proxy": {
+        "message": "http ተኪ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-proxy": {
+        "message": "ተኪ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-censorship": {
+        "message": "እገዳ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-circumvention": {
+        "message": "ማለፊያ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-psiphon3": {
+        "message": "ሳይፈን 3 ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-android": {
+        "message": "android",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-windows": {
+        "message": "windows",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-play-store": {
+        "message": "play store",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-app-store": {
+        "message": "app store",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-psiphon1": {
+        "message": "ሳይፈን1",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-psiphon2": {
+        "message": "ሳይፈን2",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-user-guide": {
+        "message": "የተጠቃሚ መመሪያ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-instructions": {
+        "message": "መመሪያዎች ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-manual": {
+        "message": "ማኑዋል ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-how-to": {
+        "message": "እንዴት ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-help": {
+        "message": "እገዛ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-psiphon-team": {
+        "message": "የሳይፈን ቡድን ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-developers": {
+        "message": "አበልጻጊዎች ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-partnerships": {
+        "message": "አጋርነቶች ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-contact": {
+        "message": "እውቂያ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-privacy": {
+        "message": "ግላዊነት",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-blog": {
+        "message": "ጦማር ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-updates": {
+        "message": "ዝመናዎች ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-code": {
+        "message": "ኮድ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-development": {
+        "message": "ማበልጸግ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-open-source": {
+        "message": "ምንጨ ክፍት  ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-source-code": {
+        "message": "የምጭ ኮድ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-advertise": {
+        "message": "አስተዋውቅ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-sponsor": {
+        "message": "እስፖንሰር ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-donate": {
+        "message": "ለግስ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-contribute": {
+        "message": "አዋጣ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-landing-page": {
+        "message": "የማረፊያ ገጽ ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-home-page": {
+        "message": "ቅድመ ገጽ",
+        "description": "web page meta keyword used for SEO"
+    },
+    "privacy-bulletin-title": {
+        "message": "የግላዊነት ማስታወሻዎች ",
+        "description": ""
+    },
+    "privacy-bulletin-meta-title": {
+        "message": "የግላዊነት ማስታወሻዎች  ",
+        "description": ""
+    },
+    "privacy-bulletin-description": {
+        "message": "የግላዊነት ማስታወሻዎች  ",
+        "description": ""
+    },
+    "privacy-bulletin-intro-para-1": {
+        "message": "መደበኛው የዳታ አሰባሰብ አሠራራችን በ<a href=\"./faq.html#information-collected\">ኤፍኤኪው</a>ውስጥ ተገልጿል። ለጊዜውም ቢሆን የዳታ አሰባሰባችንን  በምቀይርበት (በምንጨምርበት) ወቅት  ምን እየሰራን እንደሆነ እና ተጽእኖውን እዚህ እንገልጻለን። ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-item-head-what-doing": {
+        "message": "ምን እያደረግን ነው ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-item-head-why-doing": {
+        "message": "ያን የምናደርገው ለምንድን ነው ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-item-head-when-doing": {
+        "message": "ያን የምናደርገው መቼ ነው ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-item-head-what-data": {
+        "message": "ምን አይነት የተጠቃሚ ዳታ ይሰበሰባል ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-item-head-how-long-retained": {
+        "message": "ዳታው ለምን ያህል ጊዜ እንደሚቀመጥ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-item-head-how-many-users": {
+        "message": "ምን ያህል ተጠቃሚዎች ይነካሉ ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-item-head-who-will-see": {
+        "message": "ከሳይፈን ኢንክ. ባሻገር ዳታውን ማን ያየዋል ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-1-title": {
+        "message": "2014-04-17፡- S3 የበኬት መዝገብን አንቃ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-1-what-doing": {
+        "message": "የማግኛ መዝገብን ለአንድ ድረ ገጽ Amazon S3 ”በኬት“(ማለትም የማከማቻ መያዣ) እያነቃን ነው። (በቴክኒካል ምክኒያቶች ደርዘን የሚያህሉ የድረ ገጹን ቅዲዎች በተለያዩ የS3 በኬቶች እናሄዳለን። )",
+        "description": ""
+    },
+    "privacy-bulletin-entry-1-why-doing": {
+        "message": "ይህንን የምናደርገው  በበኬት ውስጥ የተጠራቀመውን ”የርቀት አገልጋይ ዝርዝር“ ምን ያህል ጊዜ ጥቅም ላይ እንደዋለ ለመወሰን ነው። ይህም ምን ያክል ተጠቃሚዎች መገናኘት እንዳልቻሉ ሃሳብ ለማግኘት እንዲረዳን ነው። ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-1-when-doing": {
+        "message": "መመዝገብ  ከ2014-04-17T15:00Z እስከ 2014-04-18T15:00Z ባለው ይነቃል።",
+        "description": ""
+    },
+    "privacy-bulletin-entry-1-what-data": {
+        "message": "መዝገቡ የአንድን ድረ ገጽ ተደራሽነት የIP አድራሻዎች፣ የተጠቃሚ ወኪሎች እና የጊዜ ማህተሞች ይሰበስባል። ይህን ዳታ በምናሰላበት ወቅት በጆግሪያፊያዊ ክልል  ተከፋፍሎ ሰነዱን ያገኙትን የተጠቃሚቆች ቁጥር እናገኛለን። ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-1-how-long-retained": {
+        "message": "ዳታው ከአንድ ሳምንት በላይ አይቀመጥም። የተጠቃሚዎችን ቁጥር ረዘም ላለ ጊዜ ምናልባትም  ላልተወሰነ ጊዜ እናስቀምጣለን። ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-1-how-many-users": {
+        "message": "ምን ያህል ሰዎች በዚህ ሊጠቁ እደሚችሉ ገና በእርግጠኝነት አናውቅም (ይህንንም የምናደርገው በዚህ የተነሳ ነው) ነገር ግን ከ10,000 ተጠቃሚዎች እንደሚያንሱ እንገምታለን። ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-1-who-will-see": {
+        "message": "የመዳረሻ መዝገቦቹ በAmazon  S3  በኬት ውስጥም ስለሚቀመጡ አማዞን ማዝገቡን ማግኘት ይችላል። (ይሁንና ሰነዶቹን የሚያቀርበው አማዞን ስለሆነ መረጃውን ቀድሞውኑ ማግኘት ይችላል።)",
+        "description": ""
+    },
+    "privacy-bulletin-entry-2-title": {
+        "message": "2015-06-01፡- የግላዊነት ፖሊሲ ዝመና ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-2-what-doing": {
+        "message": "<a href=\"privacy.html\">የግላዊነት ፖሊሲያችንን</a> እያዘመንን ነው። ይህም “ሳይፈን ምን አይነት መረጃዎችን ይሰበስባል？” የሚለውን የኤፍኤኪው ጥያቄ መልስ በውስጡ ማካተትን ይጨምራል። ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-2-why-doing": {
+        "message": "<a href=\"privacy.html\">የግላዊነት ፖሊሲ</a> ገጽ አሁን ስለ ሳይፈን ግላዊነት እና የዳታ አሰባሰብ ፖሊሲዎች ተጠቃሚዎች ሊጎበኙት የሚገባው ብቸኛው ስፍራ ነው።  ለአንዳንድ ድረገጾቻችን የማስታወቂያዎች፣ የትንተናዎች እና የምዝገባዎችን አጠቃቀም እንዲያንጸባርቅ ሆኖ ዘምኗል። ",
+        "description": ""
+    },
+    "privacy-bulletin-entry-2-when-doing": {
+        "message": "ይህ ቢያንስ ከ 2015-06-01T00:00Z ጀምሮ ተግባራዊ ሆኗል። ",
+        "description": ""
+    },
+    "privacy-title": {
+        "message": "የግላዊነት ፖሊሲ ",
+        "description": "page title for the Privacy Policy page"
+    },
+    "privacy-meta-title": {
+        "message": "የግላዊነት ፖሊሲ  ",
+        "description": "meta title for the Privacy Policy page"
+    },
+    "privacy-nav-title": {
+        "message": "የግላዊነት ፖሊሲ  ",
+        "description": "text for the Privacy Policy page navigation item"
+    },
+    "privacy-description": {
+        "message": "የሳይፈን የግላዊነት ፖሊሲ ",
+        "description": "description for the Privacy Policy page"
+    },
+    "privacy-para-1": {
+        "message": "ሳይፈን የደምበኞቹን፣ የመጨረሻ ተጠቃሚዎቹን፣ የአከፋፋዮቹን እና የአቅራቢዎቹን የጋላዊነት ፍላጎቶች ለመጠበቅ ይተጋል። ይህ የግላዊነት ፖሊሲ የታሰበው የግል መረጃዎችዎ እንዴት ጥቅም ላይ እንደሚውል አጠቃላይ መረጃ ለማቅረብ ነው። ሳይፈን ዋና መስሪያቤቱ በኦንታሪዮ የሚገኝ ካናዳዊ ኩባንያ ሲሆን የግላዊነት ፖሊሲያችን የካናዳን እና የኦንታሪዮን የግላዊነት ህጎች እና ደንቦች እንዲያንጸባርቅ ተደርጎ  የተቀረጸ ነው። ",
+        "description": ""
+    },
+    "privacy-para-2": {
+        "message": "የካናዳ እና ኦንታሪዮ የግላዊነት ህጎችን በተመለከተ የበለጠ መረጃ ለማግኘት እባክዎን የሚከተለውን ይጎብኙ፡- ",
+        "description": ""
+    },
+    "privacy-canadian-privacy-commission-link-text": {
+        "message": "የካናዳ የግላዊነት ኮሚሽን ቢሮ  ",
+        "description": ""
+    },
+    "privacy-ontario-privacy-commissioner-link-text": {
+        "message": "የኦንታሪዮ የመረጃ እና የግላዊነት ኮሚሽነር ቢሮ  ",
+        "description": ""
+    },
+    "faq-information-collected-question": {
+        "message": "ሳይፈን የሚሰበስበው የተጠቃሚዎች መረጃ ምን አይነት ነው？ ",
+        "description": "FAQ question."
+    },
+    "faq-information-collected-answer-para-9": {
+        "message": "ከአገልግሎታችን ጋር የተያያዙ ችግሮችን ለመፍታት ሳይፈን ከጊዜ ወደ ጊዜ ተጨማሪ መረጃዎችን ሊመዘግብ ይችላል።  ይህ ሲከሰት ምን እንደተመዘገበ፣ ለምን ያህል ጊዜ እንደተቀመጠ እና ለምን እንደተመዘገበ የሚገልጽ ዓረፍተ ነገር  <a href=\"./privacy-bulletin.html\">በግላዊነት መመሪያው </a>ላይ እናስገባለን። ",
+        "description": ""
+    },
+    "privacy-information-collected-client-ads-head": {
+        "message": "Psiphon Client Advertising Networks",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the ads shown in the Psiphon client software"
+    },
+    "privacy-information-collected-client-advertising-networks-para-1": {
+        "message": "አገልግሎታችንን ለመደገፍ እንድንችል እንደ ኩኪዎች እና የድር ቢከን ያሉ ቴክኖሎጂዎችን የሚጠቀሙ ማስታወቂያዎችን አልፎ አልፎ  እንጠቀማለን። የማስታወቂያ አጋሮቻችን ኩኪዎችን መጠቀም እነርሱን እና አጋሮቻቸውን በእርስዎ የዳታ አጠቃቀም ላይ በመመስረት ማስታወቂያዎችን እንዲያስተላልፉ ያስችላቸዋል። በዚህ ሂደት የሚሰበሰብ ማንኛውም መረጃ የሚያዘው በማስታወቂያ አጋሮቻቻን የግላዊነት ፖሊሲዎች ውል መሰረት ነው፡- ",
+        "description": ""
+    },
+    "privacy-information-collected-client-advertising-networks-para-2": {
+        "message": "የሚከተለውን በመጎብኘት ፍላጎትን መሰረት ካደረገ የማስታወቂያ ኩኪዎች አጠቃወም መውጣት ይችላሉ፡- ",
+        "description": ""
+    },
+    "privacy-information-collected-websites-head": {
+        "message": "Psiphon Websites",
+        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
+    },
+    "privacy-information-collected-websites-google-analytics-head": {
+        "message": "የጎግል ትንታኔዎች ",
+        "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
+    },
+    "privacy-information-collected-websites-google-analytics-para-1": {
+        "message": "በአንዳንድ ድረ ገጾቻችን ላይ ስለ አጠቃቀም መረጃ ለመሰብሰብ Google Analyticsን እንጠቀማለን። በGoogle Analytics የሚሰበሰቡ መረጃዎች ጥቅም ላይ የሚውሉት በተለይ በዚህ ድረ ገጽ ላይ  ያሎትን የዳሰሳ ባህሪ ስታትስቲካዊ ትንታኔ ለመስራት ብቻ ነው። ከGoogle Analytics የምናገኘው መረጃ የሰዎችን ማንነት አይገልጽም እንዲሁም  የሰዎችን ማንነት የሚገልጹ መረጃዎችን ለመፍጠር  ከሌሎች ምንጮች መረጃ ጋር  አይቀላቀልም። ",
+        "description": ""
+    },
+    "privacy-information-collected-websites-google-analytics-para-2": {
+        "message": "Google Analytics sets a permanent cookie in your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
+        "description": ""
+    },
+    "privacy-information-collected-websites-google-analytics-para-3": {
+        "message": "የGoogle ሰለ ጎበኟቸው ድረ ገጾች በGoogle Analytics የተሰበሰቡ መረጃዎችን የመጠቀም እና የማካፈል ችሎታ <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">በGoogle Analytics የአጠቃቀም ውሎች </a> እና <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">በGoogle የግላዊነት ፖሊሲ</a>የተወሰነ ነው። በድር መዳሰሻዎ የምርጫ ቅንብር ውስጥ ኩኪዎች በማጥፋት ከዚህ አማራጭ ራስዎን ሊያወጡ ይችላሉ። ",
+        "description": ""
+    },
+    "privacy-information-collected-s3-logging-head": {
+        "message": "የማጠራቀሚያ መዳረሻ መዝገብ ",
+        "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
+    },
+    "privacy-information-collected-s3-logging-para-1": {
+        "message": "እንደ የድረ ገጽ ፋይሎች እና የሳይፈን አገልጋይ ማግኛ ዝርዝሮች ያሉ ሀብቶችን ለማጠራቀም Amazon S3ን እንጠቀማለን። አንዳንዴ ለእነኚህ መዛግበት የማውረጃ መዝገቦችን እናነቃለን። እነዚህን መዛግብት መተንተን ”ምን ያህል ተጠቃሚዎች የአገልጋይ ማግኛ ዝርዝሮችን ማውረድ ጀምረው አልጨረሱም？” ፣ “የወረደው ዳታ በድረ ገጹ ሀብቶች እና በአገልጋይ ማግኛ መካከል እንዴት ነው የሚካፈለው？” እና “አጥቂ በድረ ገጾቻችን ላይ ያገልግሎት ክልከላ ጥቃት ለመፈጸም እየሞከረ ነው？” እና የመሳሰሉትን ጥያቄዎች ለመመለስ ይረዳናል።  ",
+        "description": ""
+    },
+    "privacy-information-collected-s3-logging-para-2": {
+        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">የበኬት መዳረሻ መዝገቦች </a> የIP አድራሻዎችን፣ የተጠቃሚ ኤጀንቶችን እና የጊዜ ማህተሞችን ይይዛሉ። እንዚህ መዝገቦች የሚጠራቀሙት በራሱ S3 ስለሆነ Amazon ሊያገኛቸው ይችላል።  (ቢሆንም Amazon ሰነዱን ቀድሞውኑ ስለሚያቀርብ ይህን መረጃ ማግኘት ይችላል።)  የሳይፈን አበልጻጊዎች መዝገቦቹን አውርደው ካጠቃለሉ እና ከተነተኑ በኋላ ዝርዝሩን ያጠፉታል።  ጥሬ ዳታ የሚቀመጠው እስኪጠቃለል ብቻ ሲሆን ለሶስተኛ ወገን አይጋራም። ",
+        "description": ""
+    },
+    "faq-information-collected-answer-head-1": {
+        "message": "የሳይፈን አገልጋዮች ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-1": {
+        "message": "Psiphon runs many servers for many reasons. On those servers we collect the following data to monitor the health of the Psiphon system. It helps us to learn things like how well Psiphon is working, what propagation strategies are effective, and how users are obtaining the Psiphon client.",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-1": {
+        "message": "Number of email requests to our automated responder",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-2": {
+        "message": "የማላቅ ብዛት ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-3": {
+        "message": "እያንዳንዱ ፕሮቶኮል በምን ያህል ጊዜ ጥቅም ላይ እንደዋለ እና ካለመሳካት  በኋላ የሚከሰቱ የስህተት ኮዶች ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-4": {
+        "message": "አዲስ አገልጋዮች በየምን ያህል ጊዜ ይገኛሉ ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-5": {
+        "message": "የክፍለ ጊዜ ብዛት እና  ቆይታ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-7": {
+        "message": "Amount of data transferred through the Psiphon system",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-2-item-9": {
+        "message": "Client platform (simplified operating system list; not a detailed browser user agent)",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-3b": {
+        "message": "በመደበኛ የሳይፈን  አገልጋይ አሰራር የተጠቃሚ IP አድራሻዎች አይሰበሰቡም። ሳይፈንን ለመጠቀም የተጠቃሚ መለያዎች አያስፈልግም። ይህ ማለት በነባሪ የኢሜል አድራሻዎች፣ የተጠቃሚ ስሞች ወይም የማለፊያ ቃሎች አይሰበሰቡም ማለት ነው። ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-4": {
+        "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type.",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-5": {
+        "message": "Any statistics shared with third parties are aggregated by date, sponsor, and region, to a sufficient coarseness that they are non-identifying.",
+        "description": ""
+    },
+    "privacy-information-collected-vpndata-head-v2": {
+        "message": "User Activity and VPN Data",
+        "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data and activity statistics through the Psiphon VPN"
+    },
+    "privacy-information-collected-vpndata-whycare-subhead": {
+        "message": "እርስዎን ለምን ሊያሳስብዎት ይገባል?",
+        "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
+    },
+    "privacy-information-collected-vpndata-whycare-para-1": {
+        "message": "When using a VPN or proxy you should be concerned about what the VPN provider can see in your data, collect from it, and do to it.",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whycare-para-2": {
+        "message": "When you use a VPN, all data to and from your device goes through it. If you visit a website that uses unencrypted HTTP, all of that site's data is visible to the VPN. If you visit a website that uses encrypted HTTPS, the site content is encrypted, but some information about the site might be visible to the VPN. Other apps and services on your device will also transfer data that is encrypted or unencrypted. (Note that this is distinct from the encryption that all VPNs provide. Here we're only concerned with data that is or is not encrypted <em>inside</em> the VPN tunnel.)",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an 'emphasis' (like italics) HTML tag, which can be used if it makes sense in your language."
+    },
+    "privacy-information-collected-vpndata-whycare-para-3": {
+        "message": "For unencrypted services, it is possible for a VPN provider to see, collect, and modify (e.g., injecting ads into) the contents of your data. For encrypted data, it is still possible for a VPN to collect metadata about sites visited or actions taken. You should also be concerned with your VPN provider sharing your data with third parties.",
+        "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-subhead": {
+        "message": "What does Psiphon <strong>NOT</strong> do with your data?",
+        "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what undesirable things Psiphon DOES NOT do with user data. '<strong>' is an HTML tag that makes text bold, which can be used if it makes sense in your language."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-1": {
+        "message": "We DO NOT collect or store any VPN data that is not mentioned here.",
+        "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-2": {
+        "message": "We DO NOT modify the contents of your VPN data.",
+        "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-3": {
+        "message": "We DO NOT share any sensitive or user-specific data with third parties.",
+        "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-kindsofdata-subhead": {
+        "message": "What kinds of user data does Psiphon collect?",
+        "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page."
+    },
+    "privacy-information-collected-vpndata-kindsofdata-para-1": {
+        "message": "We will define some categories of data to help us talk about them in the context of Psiphon.",
+        "description": "Paragraph text in the 'What kinds of user data does Psiphon collect?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-useractivity-subhead": {
+        "message": "የተጠቃሚ ውሂብ",
+        "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
+    },
+    "privacy-information-collected-vpndata-useractivity-para-1": {
+        "message": "While a user's device is tunneled through Psiphon, we collect some information about how they're using it. We record what protocol Psiphon used to connect, how long the device was connected, how many bytes were transferred during the session, and what city, country, and ISP the connection came from. For some domains (but very few, and only popular ones) or server IP addresses (e.g., known malware servers) that are visited, we also record how many bytes were transferred to it. (But never full URLs or anything more sensitive. And only domains of general interest, not all domains.)",
+        "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-useractivity-para-2": {
+        "message": "Geographical location and ISP info are derived from user IP addresses, which are then immediately discarded.",
+        "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-useractivity-para-3": {
+        "message": "An example of user activity data might be: At a certain time a user connected from New York City, using Comcast, and transferred 100MB from <code>youtube.com</code> and 300MB in total.",
+        "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-useractivity-para-4": {
+        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it.",
+        "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-aggdata-subhead": {
+        "message": "Aggregated Data",
+        "description": "Sub-heading for the definition of 'Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
+    },
+    "privacy-information-collected-vpndata-aggdata-para-1": {
+        "message": "Data is “aggregated” by taking a lot of sensitive user activity data and combining it together to form coarse statistical data that is no longer specific to a user. After aggregation, the user activity data is deleted.",
+        "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-aggdata-para-2": {
+        "message": "An example of aggregated data might be: On a particular day, 250 people connected from New York City using Comcast, and transferred 200GB from <code>youtube.com</code> and 500GB in total.",
+        "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-aggdata-para-3": {
+        "message": "Aggregated data is much less sensitive than activity data, but we still treat it as potentially sensitive and do not share it in this form.",
+        "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-shareable-subhead": {
+        "message": "Shareable Aggregated Data",
+        "description": "Sub-heading for the definition of 'Shareable Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
+    },
+    "privacy-information-collected-vpndata-shareable-para-1": {
+        "message": "When sharing aggregated data with third parties, we make sure that the data could not be combined with other sources to reveal user identities. For example, we do not share data for countries that only have a few Psiphon users in a day. We make sure that the data is anonymized.",
+        "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-shareable-para-2": {
+        "message": "We also never share domain-related information with third parties.",
+        "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-shareable-para-3": {
+        "message": "An example of shareable aggregated data might be: On a particular day, 500 people connected from New York City and transferred 800GB in total.",
+        "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-shareable-para-4": {
+        "message": "An example of data that is <em>not shareable</em>: On a particular day, 2 people connected from Los Angeles. Those people will be included in the stats for the entire US, but that is too few people to anonymously share city data for.",
+        "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an HTML tag that adds emphasis (like italics), which can be used if it makes sense in your language."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead-v2": {
+        "message": "Psiphon (ሳይፈን) የተጠቃሚ እንቅስቃሴ እና የተጠራቀመ ውሂብን ምን ያደርጋል? ",
+        "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1-v2": {
+        "message": "Activity and aggregated statistical data are vital for us to make Psiphon work best. It allows us to do things like:",
+        "description": "Paragraph text in the 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-1": {
+        "message": "Monitor the health and success of the Psiphon network: We need to know how many people are connecting, from where, how much data they're transferring, and if they're having any problems.",
+        "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-2": {
+        "message": "Monitor threats to our users' devices: We watch for malware infections that attempt to contact command-and-control servers.",
+        "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-3": {
+        "message": "Ensure users stay connected while foiling censors: We try to detect that a user is behaving like a real person and then reveal new Psiphon servers to them. (This is our obfuscated server list technology.)",
+        "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
+        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
+        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+        "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
+        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+        "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-subhead-v2": {
+        "message": "Who does Psiphon share Aggregated Data with?",
+        "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-1-v2": {
+        "message": "Shareable aggregated data is shared with sponsors, organizations we collaborate with, and civil society researchers. The data can be used to show such things as:",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-1": {
+        "message": "How well Psiphon is working in a particular region.",
+        "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-2": {
+        "message": "The blocking patterns in a given country, for example during political events.",
+        "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-3": {
+        "message": "That the populace of a country is determined to access the open internet.",
+        "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-vpndata-whopsiphonshareswith-para-3-v2": {
+        "message": "Again, only anonymized shareable aggregated data is ever shared with third parties.",
+        "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
+    },
+    "privacy-information-collected-psicash-para-1": {
+        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-psicash-para-2-list-start": {
+        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-psicash-para-2-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
+    },
+    "privacy-information-collected-psicash-para-2-item-2": {
+        "message": "ቀሪ ሒሳብ",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-2-item-3": {
+        "message": "last activity timestamp",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
+    },
+    "privacy-information-collected-psicash-para-2-item-4": {
+        "message": "PsiCash earning history, including what actions the rewards were granted for",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-psicash-para-2-item-5": {
+        "message": "PsiCash spending history, including what purchases were made",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-psicash-para-3-list-start": {
+        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-psicash-para-3-item-1": {
+        "message": "generated user access tokens",
+        "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
+    },
+    "privacy-information-collected-psicash-para-3-item-2": {
+        "message": "when a PsiCash reward is allowed to be claimed again",
+        "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-psicash-para-4-list-start": {
+        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-psicash-para-4-item-1": {
+        "message": "የተጠቃሚ ሐገር",
+        "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
+    },
+    "privacy-information-collected-psicash-para-4-item-2": {
+        "message": "ቀሪ ሒሳብ",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
+    },
+    "privacy-information-collected-psicash-para-4-item-3": {
+        "message": "user agent string",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
+    },
+    "privacy-information-collected-psicash-para-4-item-4": {
+        "message": "የተገልጋይ ሥሪት",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
+    },
+    "privacy-information-collected-psicash-para-4-item-5": {
+        "message": "PsiCash earning and spending details",
+        "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-psicash-para-5": {
+        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
+    },
+    "faq-information-collected-answer-head-2": {
+        "message": "ግብረመልስ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-6": {
+        "message": "በሳይፈን በኩል ግብረመልስ ማስገባትን በሚመርጡበት ወቅት የምርመራ ዳታን የመጨመር አማራጭ አለዎት።  ይህን ዳታ ሊያጋጥሞት የሚችሉትን ችግሮች ለመፍታት እና ሳይፈን ያለ ምንም ችግር እንዲሰራ እንዲያግዘን እንጠቀምበታለም። ይህንን ዳታ መላክ ሙሉ በሙሉ በምርጫ የሚደረግ ነው። ዳታው እርስዎ ሳይልኩት በፊት የሚመሰጠር ሲሆን የሚፈታውም በእኛ ብቻ ነው። በዳታው ውስጥ ያለው መረጃ በሚጠቀሙት አእማድ ሊለያይ ቢችልም የሚከተለውን ሊያካትት ይችላል፡-  ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-7-list-start": {
+        "message": "Windows፡- ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-7-item-1": {
+        "message": "የስርአተ ክወና ስሪት ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-7-item-2": {
+        "message": "ጸረ ቫይረስ ስሪት ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-7-item-3": {
+        "message": "ከኢንተርኔቱ ጋር የተገናኙበት መንገድ (ለምሳሌ የሚጠቀሙት የዳይል አፕ ከሆነ ወይም የተገኛኙት በተኪ ከሆነ)",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-7-item-4": {
+        "message": "ኮምፒውተሮ ምን ያህል ነጻ የሜሞሪ ቦታ አለው ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-8-list-start": {
+        "message": "Android፡-",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-8-item-1": {
+        "message": "የአንድሮይድ ስሪት",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-8-item-2": {
+        "message": "የመሳሪያ ሞዴል ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-8-item-3": {
+        "message": "መሳሪያዎ ሩትድ መሆኑ ወይም አለመሆኑ ",
+        "description": ""
+    },
+    "faq-information-collected-answer-head-3": {
+        "message": "የኢሜል መላሽ ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-11": {
+        "message": "በራሱ ኢሜል ወደሚመልሰው አገልጋያችን የኢሜል ጥያቄ በሚልኩበት ወቅት የኢሜል አድራሻዎን ማየት እንችላለን ። ኢሜልዎ በሂደት ላይ እያለ የኢሜል አገልጋይ ዲስክ ላይ ይቀመጣል እናም ሂደቱ ከተጠናቀቀ በኋላ  (አብዛኛውን ጊዜ በጥቂት ከሰንዶች ውስጥ) ወዲያውኑ ይሰረዛል።  የኢሜል አድራሻዎ በስርአቱ የመዝገብ ሰነድ ላይ እንዲጻፍ አንፈቅድም። ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-12": {
+        "message": "የኢሜል ራስ መላሽ አገልጋያችን በAmazon EC2 ክላውድ ላይ ይስተናገዳል። ለእያንዳንዱ ጥያቄ ሁለት የኢሜል ምላሾችን እንልካለን እናም ከሁለቱ ለአንዱ ምላሽ የAmazon SESን እንጠቀማለን። ይህ ማለት Amazon እርሶ የላኩትን ኢሜል እና የእኛን ምላሽ ማየት ይችላል ማለት ነው።",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-13": {
+        "message": "ለእያንዳንዱ ለሚደርሰን ኢሜል የሚከተሉትን መረጃዎች እናስቀምጣለን፡-",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-13-item-1": {
+        "message": "የኢሜል ጥያቄውን የተቀበልንበትን ቀን እና ሰአት። ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-13-item-2": {
+        "message": "ለኢሜል ጥያቄው ምላሽ የተሰጠበትን ቀን እና ሰአት። ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-13-item-3": {
+        "message": "የኢሜሉን መጠን። ",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-13-item-4": {
+        "message": "የኢሜል ጥያቄው የመጣበት የሜል አገልጋይ። (የጎራ ስሙ እጅግ የማይታወቁ ሶስት ክፍሎች።  ለምሳሌ  <code>ne1.example.com</code> እንጂ <code>web120113.mail.ne1.example.com</code> አይደለም።)",
+        "description": ""
+    },
+    "faq-information-collected-answer-para-14": {
+        "message": "አንድን ችግር ለመመርመር ከፈለግን ለአጭር ጊዜ የሙሉ ሜል አገልጋይ መዝገብን ልናነቃ እንችላለን።  በዛ ጊዜ ኢሜል ከላኩ  የኢሜል አድራሻዎ በስርአት መዝገብ ውስጥ ይመዘገባል። እነዚህ መዛግብት ከአንድ ሳምንት በኋላ ይሰረዛሉ። ",
+        "description": ""
+    },
+    "faq-information-collected-answer-head-4": {
+        "message": "መተግበሪያ መደብሮች ",
+        "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
+    },
+    "faq-information-collected-answer-para-10": {
+        "message": "ያስተውሉ ሳይፈንን እንደ Google Play Store ወይም Amazon AppStore ካሉ የ“የመተግበሪያ መደብሮች“ ላይ ካወረዱ በመደብሩ ተጨማሪ ስታትስቲኮች ሊሰበሰብ ይችላል። ለምሳሌ Google Play Store ምን ምን እንደሚሰበስብ ገለጻ ይኸውልዎ፡- ",
+        "description": ""
+    },
+    "psiphon": {
+        "message": "ሳይፈን ",
+        "description": "The name of the product. Probably not translated or transliterated for most languages"
     }
 }
