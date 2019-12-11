@@ -27,14 +27,27 @@ layout: _/page
 
 <div class="row">
   <div class="col-md-12">
+    <h2><%= @tt 'privacy-updates-head' %></h2>
+
+    <p>
+      <%- @tt 'privacy-bulletin-info-para-1' %>
+    </p>
+    <ul>
+      <li>
+        <%= @tt 'privacy-bulletin-info-para-2-item-1' %>
+      </li>
+      <li>
+        <%= @tt 'privacy-bulletin-info-para-2-item-2' %>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
 
     <span class="anchor-target" id="information-collected" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
     <h2><%= @tt 'faq-information-collected-question' %></h2>
-
-    <p>
-      <!-- privacy bulletin link -->
-      <%- @tt 'faq-information-collected-answer-para-9' %>
-    </p>
 
     <!-- User VPN Data -->
     <span class="anchor-target" id="vpn-data"></span>

@@ -1174,12 +1174,25 @@
   "privacy-ontario-privacy-commissioner-link-text": {
     "message": "Office of the Information and Privacy Commissioner of Ontario"
   },
+  "privacy-updates-head": {
+    "message": "Updates",
+    "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
+  },
+  "privacy-bulletin-info-para-1": {
+    "message": "From time to time, Psiphon will add entries to our <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a>. This will happen for two reasons:",
+    "description": "Paragraph introducing a bullet list."
+  },
+  "privacy-bulletin-info-para-2-item-1": {
+    "message": "We modify the Privacy Policy. This can happen when new laws add different requirements, or if we start or stop using a third-party service. We will detail the changes made to the policy.",
+    "description": "A bullet list item following from 'This will happen for two reasons:'"
+  },
+  "privacy-bulletin-info-para-2-item-2": {
+    "message": "We temporarily deviate from our Privacy Policy by changing our information collection behaviour. This is typically done to resolve a problem with our service, or to give us more time to analyze our data relating to an interesting censorship event. We will describe the change, for example what was recorded, how long it was kept, and why.",
+    "description": "A bullet list item following from 'This will happen for two reasons:'"
+  },
   "faq-information-collected-question": {
     "message": "What user information does Psiphon collect?",
-    "description": "FAQ question."
-  },
-  "faq-information-collected-answer-para-9": {
-    "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry to the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> describing what was recorded, how long it was kept, and why."
+    "description": "Heading for a section in our privacy policy."
   },
   "privacy-information-collected-client-ads-head": {
     "message": "Psiphon Client Advertising Networks",
@@ -1315,7 +1328,7 @@
     "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
   "privacy-information-collected-vpndata-useractivity-para-4": {
-    "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it.",
+    "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
     "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
   "privacy-information-collected-vpndata-aggdata-subhead": {
