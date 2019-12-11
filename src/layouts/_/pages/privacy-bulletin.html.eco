@@ -13,6 +13,78 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
+      <h2><%= @tt 'privacy-bulletin-entry-4-title' %></h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%- @tt 'privacy-bulletin-entry-4-what-doing' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%- @tt 'privacy-bulletin-entry-4-why-doing' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-4-when-doing' %>
+    </div>
+  </div>
+
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
+      <h2><%= @tt 'privacy-bulletin-entry-3-title' %></h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%- @tt 'privacy-bulletin-entry-3-what-doing' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%- @tt 'privacy-bulletin-entry-3-why-doing' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-3-when-doing' %>
+    </div>
+  </div>
+
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
       <h2><%= @tt 'privacy-bulletin-entry-2-title' %></h2>
     </div>
   </div>
