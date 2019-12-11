@@ -1111,16 +1111,20 @@
     "message": "Who besides Psiphon Inc. will see this data"
   },
   "privacy-bulletin-entry-1-title": {
-    "message": "2014-04-17: Enable S3 bucket logging"
+    "message": "2014-04-17: Enable S3 bucket logging",
+    "description": "Title for a privacy bulletin"
   },
   "privacy-bulletin-entry-1-what-doing": {
-    "message": "We are enabling access logging for one website Amazon S3 \"bucket\" (i.e., storage container). (For technical reasons, we run dozens of copies of the website in different S3 buckets.)"
+    "message": "We are enabling access logging for one website Amazon S3 \"bucket\" (i.e., storage container). (For technical reasons, we run dozens of copies of the website in different S3 buckets.)",
+    "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
   },
   "privacy-bulletin-entry-1-why-doing": {
-    "message": "We are doing this to determine how many accesses there are to the \"remote server list\" stored in the bucket. This will help to give us an idea of how many users are failing to connect."
+    "message": "We are doing this to determine how many accesses there are to the \"remote server list\" stored in the bucket. This will help to give us an idea of how many users are failing to connect.",
+    "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
   },
   "privacy-bulletin-entry-1-when-doing": {
-    "message": "Logging will be enabled from 2014-04-17T15:00Z to 2014-04-18T15:00Z."
+    "message": "Logging will be enabled from 2014-04-17T15:00Z to 2014-04-18T15:00Z.",
+    "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
   },
   "privacy-bulletin-entry-1-what-data": {
     "message": "The logging will collect IP addresses, user agents, and timestamps of access to one website. When that data is processed, we will have a count of users divided by geographic region that have accessed the file in question."
@@ -1135,16 +1139,52 @@
     "message": "The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon serves the files, so they can already access this information.)"
   },
   "privacy-bulletin-entry-2-title": {
-    "message": "2015-06-01: Privacy Policy update"
+    "message": "2015-06-01: Privacy Policy update",
+    "description": "Title for a privacy bulletin"
   },
   "privacy-bulletin-entry-2-what-doing": {
-    "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. This includes merging into it the answer to the FAQ question \"What information does Psiphon collect?\"."
+    "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. This includes merging into it the answer to the FAQ question \"What information does Psiphon collect?\".",
+    "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
   },
   "privacy-bulletin-entry-2-why-doing": {
-    "message": "The <a href=\"privacy.html\">Privacy Policy</a> page is now the only place users need to check for Psiphon's privacy and data collection policies. It has been updated to reflect use of advertisements, analytics, and logging for some of our websites."
+    "message": "The <a href=\"privacy.html\">Privacy Policy</a> page is now the only place users need to check for Psiphon's privacy and data collection policies. It has been updated to reflect use of advertisements, analytics, and logging for some of our websites.",
+    "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
   },
   "privacy-bulletin-entry-2-when-doing": {
-    "message": "This is in effect by at least 2015-06-01T00:00Z."
+    "message": "This is in effect by at least 2015-06-01T00:00Z.",
+    "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+  },
+  "privacy-bulletin-entry-3-title": {
+    "message": "2019-12-11: Privacy Policy update",
+    "description": "Title for a privacy bulletin"
+  },
+  "privacy-bulletin-entry-3-what-doing": {
+    "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. We are changing the retention period of User Activity Data from 60 days to 90 days. We also expanded the information about Privacy Bulletins. For the exact changes, see the <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
+    "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+  },
+  "privacy-bulletin-entry-3-why-doing": {
+    "message": "To ensure the Privacy Policy accurately reflects our data practices.",
+    "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+  },
+  "privacy-bulletin-entry-3-when-doing": {
+    "message": "This will be in effect on 2019-12-12T00:00Z.",
+    "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+  },
+  "privacy-bulletin-entry-4-title": {
+    "message": "2019-12-11: Temporary data retention extension",
+    "description": "Title for a privacy bulletin"
+  },
+  "privacy-bulletin-entry-4-what-doing": {
+    "message": "We are temporarily halting User Activity Data pruning, effectively extending the data retention period.",
+    "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+  },
+  "privacy-bulletin-entry-4-why-doing": {
+    "message": "We need to keep granular activity data longer to give us time to analyze recent censorship events.",
+    "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+  },
+  "privacy-bulletin-entry-4-when-doing": {
+    "message": "This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.",
+    "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
   },
   "privacy-title": {
     "message": "Privacy Policy",
@@ -1174,12 +1214,25 @@
   "privacy-ontario-privacy-commissioner-link-text": {
     "message": "Office of the Information and Privacy Commissioner of Ontario"
   },
+  "privacy-updates-head": {
+    "message": "Updates",
+    "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
+  },
+  "privacy-bulletin-info-para-1": {
+    "message": "From time to time, Psiphon will add entries to our <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a>. This will happen for two reasons:",
+    "description": "Paragraph introducing a bullet list."
+  },
+  "privacy-bulletin-info-para-2-item-1": {
+    "message": "We modify the Privacy Policy. This can happen when new laws add different requirements, or if we start or stop using a third-party service. We will detail the changes made to the policy.",
+    "description": "A bullet list item following from 'This will happen for two reasons:'"
+  },
+  "privacy-bulletin-info-para-2-item-2": {
+    "message": "We temporarily deviate from our Privacy Policy by changing our information collection behaviour. This is typically done to resolve a problem with our service, or to give us more time to analyze our data relating to an interesting censorship event. We will describe the change, for example what was recorded, how long it was kept, and why.",
+    "description": "A bullet list item following from 'This will happen for two reasons:'"
+  },
   "faq-information-collected-question": {
     "message": "What user information does Psiphon collect?",
-    "description": "FAQ question."
-  },
-  "faq-information-collected-answer-para-9": {
-    "message": "From time to time Psiphon may have to record additional information in order to resolve a problem with our service. When this occurs, we will add an entry to the <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a> describing what was recorded, how long it was kept, and why."
+    "description": "Heading for a section in our privacy policy."
   },
   "privacy-information-collected-client-ads-head": {
     "message": "Psiphon Client Advertising Networks",
@@ -1315,7 +1368,7 @@
     "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
   "privacy-information-collected-vpndata-useractivity-para-4": {
-    "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it.",
+    "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
     "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
   "privacy-information-collected-vpndata-aggdata-subhead": {
