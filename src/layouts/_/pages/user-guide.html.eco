@@ -2,8 +2,7 @@
 layout: _/page
 ---
 
-<div class="show-if-android">
-
+<div>
   <span class="anchor-target" id="android" data-anchor-text="<%= @tt 'user-guide-android-head' %>"></span><div class="row">
     <div class="col-md-12">
       <h2><%= @tt 'user-guide-android-head' %></h2>
@@ -82,51 +81,4 @@ layout: _/page
       </p>
     </div>
   </div>
-
-</div><!-- /.show-if-android -->
-
-<div class="show-if-windows">
-
-  <span class="anchor-target" id="windows" data-anchor-text="<%= @tt 'user-guide-windows-head' %>"></span>
-  <div class="row">
-    <div class="col-md-12">
-      <h2><%= @tt 'user-guide-windows-head' %></h2>
-    </div>
-  </div>
-
-  <div class="row user-guide">
-    <div class="col-md-12">
-      <p>
-        <%- @tt 'user-guide-windows-para-verify-authentic' %>
-      </p>
-      <p>
-        <%= @tt 'user-guide-windows-para-1' %>
-      </p>
-      <p>
-        <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/user-guide-windows-1.png' %>" alt="<%= @tt 'user-guide-windows-image-1-alt' %>">
-      </p>
-      <p>
-        <%= @tt 'user-guide-windows-para-2' %>
-      </p>
-      <p>
-        <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/user-guide-windows-2.png' %>" alt="<%= @tt 'user-guide-windows-image-2-alt' %>">
-      </p>
-      <p>
-        <%= @tt 'user-guide-windows-para-3' %>
-      </p>
-      <p>
-        <%= @tt 'user-guide-windows-para-4' %>
-      </p>
-      <p>
-        <%= @tt 'user-guide-windows-para-5' %>
-      </p>
-      <p>
-        <img class="img-responsive" src="<%= @relativeToRoot '/images/user-guide/user-guide-windows-3.png' %>" alt="<%= @tt 'user-guide-windows-image-3-alt' %>">
-      </p>
-      <p>
-        <%= @tt 'user-guide-windows-para-6' %>
-      </p>
-    </div>
-  </div>
-
-</div><!-- /.show-if-windows -->
+</div>
