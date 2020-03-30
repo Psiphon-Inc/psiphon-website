@@ -19,8 +19,8 @@
 
 // PSIPHON CUSTOM
 @brand-primary:         #d23f28;
-@brand-secondary:       #3a2319;
-@brand-tertiary:        #9d8e60;
+@brand-secondary:       #1B2841;
+@brand-tertiary:        #525252; // debatable, and not used anywhere right now
 
 @brand-success:         #5cb85c;
 @brand-warning:         #f0ad4e;
@@ -33,7 +33,7 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #fcfaf6; // PSIPHON CUSTOM
+@body-bg:               #f3f2f2; // PSIPHON CUSTOM
 //** Global text color on `<body>`.
 @text-color:            @gray-dark;
 
@@ -49,11 +49,12 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-// PSIPHON CUSTOM
+// PSIPHON BEGIN
 // We find that Farsi looks very good with 'sans-serif', and not so good with
-// the Helvetica variants.
+// the Helvetica variants (or almost anything else).
 @font-family-sans-serif:  sans-serif;
-// /PSIPHON
+@font-family-navbar-brand: 'Arial Black', @font-family-sans-serif;
+// PSIPHON END
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -402,7 +403,7 @@
 //=== Inverted navbar
 // Reset inverted navbar basics
 @navbar-inverse-color:                      lighten(@gray-light, 15%);
-@navbar-inverse-bg:                         #3a2319; // PSIPHON CUSTOM
+@navbar-inverse-bg:                         #1B2841; // PSIPHON CUSTOM
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
@@ -724,8 +725,8 @@
 @panel-footer-bg:             #f5f5f5;
 
 @panel-default-text:          #fff; //@gray-dark; // PSIPHON CUSTOM
-@panel-default-border:        lighten(@panel-default-heading-bg, 20%); //#ddd; // PSIPHON CUSTOM
-@panel-default-heading-bg:    @brand-tertiary; // #f5f5f5; // PSIPHON CUSTOM
+@panel-default-border:        lighten(@panel-default-heading-bg, 60%); //#ddd; // PSIPHON CUSTOM
+@panel-default-heading-bg:    #838da2; // #f5f5f5; // PSIPHON CUSTOM
 
 @panel-primary-text:          #fff;
 @panel-primary-border:        @brand-primary;

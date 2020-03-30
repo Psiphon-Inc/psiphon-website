@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(182, 102, 0);
+  color: #707070;
 }
 
 
@@ -26,6 +26,7 @@ h2 {
 
   .navbar-brand-name {
     font-size: 2.5em;
+    font-family: @font-family-navbar-brand;
 
     body[dir="ltr"] & {
       padding-left: @brandImgSpace;
@@ -168,6 +169,7 @@ h2 {
 .faq-qa {
   margin-bottom: 3em;
   border-top: thin lighten(@text-color, 60%) solid;
+  background-color: @panel-bg;
 }
 
 .faq-question {
