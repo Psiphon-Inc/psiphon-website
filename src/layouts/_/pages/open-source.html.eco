@@ -4,15 +4,33 @@ layout: _/page
 
 <div class="row">
   <div class="col-md-12">
-    <p>
-      <%- @tt 'open-source-para-1' %>
-      <ul>
-        <li><a href="https://bitbucket.org/psiphon/psiphon-circumvention-system" target="_blank">bitbucket.org/psiphon/psiphon-circumvention-system</a></li>
-        <li><a href="https://github.com/Psiphon-Inc" target="_blank">github.com/Psiphon-Inc</a></li>
-        <li><a href="https://github.com/Psiphon-Labs" target="_blank">github.com/Psiphon-Labs</a></li>
-      </ul>
-    </p>
+    <div class="jumbotron open-source-jumbotron">
 
+      <table>
+        <tr>
+          <td>
+            <h1>
+              <a href="https://github.com/Psiphon-Inc/psiphon" target="_blank">
+                <img src="<%= @relativeToRoot '/images/GitHub-Mark-120px-plus.png' %>">
+              </a>
+            </h1>
+          </td>
+          <td>
+            <h1>
+              <a href="https://github.com/Psiphon-Inc/psiphon" target="_blank">
+                <%= @tt 'open-source-para-1b' %>
+              </a>
+            </h1>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
     <p>
       <%= @tt 'open-source-para-2' %>
       <ul>
@@ -30,6 +48,7 @@ layout: _/page
         <li><a href="http://www.mrhinkydink.com/potty.htm" target="_blank">PoTTY</a></li>
         <li><a href="http://code.google.com/p/yaml-cpp/" target="_blank">yaml-cpp</a></li>
         <li><a href="http://www.zlib.net/" target="_blank">zlib</a></li>
+        <li><a href="https://github.com/googlefonts/noto-emoji" target="_blank">Google Noto Emoji</a></li>
       </ul>
     </p>
 
