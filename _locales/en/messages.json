@@ -1118,6 +1118,22 @@
   "privacy-bulletin-entry-item-head-when-doing": {
     "message": "When we're doing it"
   },
+  "privacy-bulletin-entry-item-head-update": {
+    "message": "Update",
+    "description": "This is a header for text that is an update to an existing privacy bulletin."
+  },
+  "privacy-bulletin-entry-item-head-what-happened": {
+    "message": "What happened",
+    "description": "This is a header for text that describes what happened to necessitate this privacy bulletin"
+  },
+  "privacy-bulletin-entry-item-head-impact": {
+    "message": "Impact",
+    "description": "This is a header for text that describes the impact of the privacy event that necessitated this privacy bulletin."
+  },
+  "privacy-bulletin-entry-item-head-resolution": {
+    "message": "Resolution",
+    "description": "This is a header for text that describes the resolution of the privacy event that necessitated this privacy bulletin."
+  },
   "privacy-bulletin-entry-item-head-what-data": {
     "message": "What user data will be collected"
   },
@@ -1205,6 +1221,26 @@
   "privacy-bulletin-entry-4-when-doing": {
     "message": "This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.",
     "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+  },
+  "privacy-bulletin-entry-4-update": {
+    "message": "User activity data retention was returned to normal by 2020-04-10.",
+    "description": "A section of a privacy bulletin, with an update to previous information."
+  },
+  "privacy-bulletin-entry-5-title": {
+    "message": "2020-06-19: Privacy exception: Accidental user IP retention",
+    "description": "Title for a privacy bulletin"
+  },
+  "privacy-bulletin-entry-5-what-happened": {
+    "message": "We use AWS S3 to host websites, client applications, and remote server lists. We discovered that logging had been enabled for many of our S3 resources since June 2015. These logs include IP addresses of users who accessed those resources.",
+    "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
+  },
+  "privacy-bulletin-entry-5-impact": {
+    "message": "We have no indication that any logs were obtained by any external party, so this is not a user data breach. However, it is a violation of our Privacy Policy.",
+    "description": "A section of a privacy bulletin, describing the impact of a privacy event"
+  },
+  "privacy-bulletin-entry-5-resolution": {
+    "message": "Logging has been disabled for user-accessible S3 buckets and all logs have been deleted. We are working on a system to keep track of privacy exceptions and issues, and investigating AWS resource auditing.",
+    "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
   },
   "privacy-title": {
     "message": "Privacy Policy",

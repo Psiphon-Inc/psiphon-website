@@ -13,6 +13,42 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
+      <h2><%= @tt 'privacy-bulletin-entry-5-title' %></h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-happened' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%- @tt 'privacy-bulletin-entry-5-what-happened' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-impact' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%- @tt 'privacy-bulletin-entry-5-impact' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-resolution' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-5-resolution' %>
+    </div>
+  </div>
+
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
       <h2><%= @tt 'privacy-bulletin-entry-4-title' %></h2>
     </div>
   </div>
@@ -41,6 +77,15 @@ layout: _/page
     </div>
     <div class="bulletin-entry-item-body">
       <%= @tt 'privacy-bulletin-entry-4-when-doing' %>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-update' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <%= @tt 'privacy-bulletin-entry-4-update' %>
     </div>
   </div>
 
