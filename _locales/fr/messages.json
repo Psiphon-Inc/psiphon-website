@@ -84,7 +84,7 @@
         "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
     },
     "faq-section-privacy-security": {
-        "message": "Confidentialité et sécurité",
+        "message": "Protection des données personnelles et sécurité",
         "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
     },
     "faq-section-installing-running-updating": {
@@ -172,7 +172,7 @@
         "description": "FAQ question."
     },
     "faq-unsupported-platforms-answer-para-1": {
-        "message": "Les plateformes que nous prenons en charge sont celles proposées sur la <a href=\"download.html\">page Téléchargement</a>. Nous travaillons sans relâche afin d’élargir le nombre de plateformes prises en charge, et nous espérons prendre en charge votre SE de choix dans un proche avenir !",
+        "message": "Les plateformes que nous prenons en charge sont celles proposées sur la <a href=\"download.html\">page Téléchargement</a>. Nous travaillons sans relâche afin d’élargir le nombre de plateformes prises en charge, et nous espérons prendre en charge votre SE de choix dans un proche avenir.",
         "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
     },
     "faq-android-enable-sideloading-question": {
@@ -180,7 +180,7 @@
         "description": "FAQ question."
     },
     "faq-android-enable-sideloading-answer-para-0": {
-        "message": "Le « téléchargement hors magasin » consiste à installer une appli sur votre appareil sans passer par la logithèque « Play Store ». Cela est souhaitable pour les personnes qui n’ont pas accès à la logithèque « Play Store » ou si l’appli n’est pas proposée dans leur région.",
+        "message": "Le « téléchargement hors magasin » consiste à installer une appli sur votre appareil sans passer par le magasin d’applications « Play Store ». Cela est souhaitable pour les personnes qui n’ont pas accès au magasin d’applications « Play Store » ou si l’appli n’est pas proposée dans leur région.",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-android-enable-sideloading-answer-para-1": {
@@ -188,8 +188,16 @@
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "Capture d’écran du paramètre de sécurité d’Android qui permet l’installation d’applis ne provenant pas de la logithèque « Play Store »",
+        "message": "Capture d’écran du paramètre de sécurité d’Android qui permet l’installation d’applis qui ne proviennent pas du magasin d’applications « Play Store »",
         "description": "alt text for an image"
+    },
+    "faq-windows-xp-eol-question": {
+        "message": "Est-ce que Psiphon pour Windows fonctionne sous Windows XP ou Vista ?",
+        "description": "FAQ question."
+    },
+    "faq-windows-xp-eol-answer-para-1": {
+        "message": "Depuis décembre 2019, Psiphon ne prend en charge ni Windows XP ni Vista. Une version patrimoniale <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">est proposée en téléchargement</a>. Elle fonctionnera sur ces plateformes dans un avenir prévisible, mais les utilisateurs sont fortement encouragés à mettre Windows à niveau vers une version plus récente.",
+        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?'"
     },
     "faq-information-collected-answer-redirect": {
         "message": "Veuillez consulter notre <a href=\"privacy.html\">politique de confidentialité</a> pour savoir quels renseignements nous recueillons.",
@@ -276,7 +284,7 @@
         "description": "FAQ question"
     },
     "faq-get-updated-version-answer-para-1": {
-        "message": "<strong>Android :</strong> si vous avez installé Psiphon pour Android grâce à la logithèque « Play Store » de Google, l’appli sera mise à jour automatiquement par la logithèque « Play Store » de Google. Si vous avez opté pour un téléchargement hors magasin de Psiphon pour Android, le client Psiphon téléchargera la mise à jour quand elle sera proposée et une notification apparaîtra vous demandant d’installer la mise à jour.",
+        "message": "<strong>Android :</strong> si vous avez installé Psiphon pour Android grâce au magasin d’applications « Play Store » de Google, l’appli sera mise à jour automatiquement par le magasin d’applications « Play Store » si une mise à jour est proposée. Si vous avez opté pour un téléchargement hors magasin de Psiphon pour Android, le client Psiphon téléchargera la mise à jour quand elle sera proposée et une notification apparaîtra vous demandant d’installer la mise à jour.",
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
     },
     "faq-get-updated-version-answer-para-2": {
@@ -491,6 +499,26 @@
         "message": "Avant décembre 2015, Psiphon pour Android proposait une fonction permettant aux utilisateurs d’anciens appareils Android (pré-4.0/ICS) de tunnelliser l’appareil entier s’il était raciné. Depuis, une mise à jour majeure de Psiphon a entraîné la suppression de cette fonction.",
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
+    "faq-refund-question": {
+        "message": "Comment obtenir le remboursement d’un abonnement, d’un achat de PsiCash ou d’un autre achat ?",
+        "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money."
+    },
+    "faq-refund-answer-para-1": {
+        "message": "<strong>Android :</strong> Si vous avez effectué votre achat il y a moins de 48 heures, vous pouvez <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">obtenir un remboursement par le magasin d’applications Play Store</a>. Après 48 heures, envoyez-nous un courriel à <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Veuillez indiquer votre nom, l’adresse courriel de votre compte Play Store, la date de l’achat, la nature et le montant de l’achat, ainsi que la raison de votre demande de remboursement.",
+        "description": "This is the first paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-2": {
+        "message": "<strong>iOS :</strong> Veuillez <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">demander le remboursement par le magasin d’applications App Store</a>.",
+        "description": "This is the second paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-3": {
+        "message": "<strong>Windows :</strong> Envoyez-nous un courriel à <a href=\"mailto:refund+windows@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%2FPhone%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Windows\">refund+windows@psiphon.ca</a>. Veuillez indiquer votre nom, l’adresse courriel ou le numéro de téléphone utilisé lors de l’achat, la date de l’achat, la nature et le montant de l’achat, ainsi que la raison de votre demande de remboursement.",
+        "description": "This is the third paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-4": {
+        "message": "Veuillez noter que le traitement des remboursements pourrait prendre jusqu’à une semaine.",
+        "description": "This is the fourth paragraph of an FAQ answer."
+    },
     "alert-heading": {
         "message": "ALERTE",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -587,9 +615,9 @@
         "message": "Psiphon pour Windows",
         "description": "text for link to Psiphon for Windows download"
     },
-    "download-windows-direct-description": {
-        "message": "Fonctionne sur Windows XP, Windows Vista, Windows 7, Windows 8 (bureau et Windows 10.",
-        "description": ""
+    "download-windows-direct-description-v2": {
+        "message": "Fonctionne sous Windows 7, Windows 8 (pour ordinateur) et Windows 10.<br>(Une version patrimoniale est proposée pour <a href=\"./faq.html#windows-xp-eol\">Windows XP et Vista</a>.)",
+        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
     },
     "download-android-direct": {
         "message": "Psiphon pour Android — téléchargement direct",
@@ -608,7 +636,7 @@
         "description": ""
     },
     "download-android-amazon": {
-        "message": "Psiphon pour Android dans la logithèque « AppStore » d’Amazon",
+        "message": "Psiphon pour Android dans le magasin « AppStore » d’Amazon",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "download-android-amazon-description": {
@@ -616,7 +644,7 @@
         "description": ""
     },
     "download-ios-appstore-psiphon-vpn": {
-        "message": "<strong>Psiphon pour iOS</strong> dans la logithèque « App Store » d’Apple",
+        "message": "<strong>Psiphon pour iOS</strong> dans le magasin d’applications « App Store » d’Apple",
         "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "download-ios-appstore-psiphon-vpn-description": {
@@ -624,7 +652,7 @@
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "download-ios-appstore-psiphon-browser": {
-        "message": "<strong>Navigateur Psiphon pour iOS</strong> dans la logithèque « App Store » d’Apple",
+        "message": "<strong>Navigateur Psiphon pour iOS</strong> dans le magasin d’applications « App Store » d’Apple",
         "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "download-ios-appstore-psiphon-browser-description": {
@@ -632,7 +660,7 @@
         "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "download-store-head": {
-        "message": "Téléchargements d’une logithèque",
+        "message": "Téléchargements d’un magasin d’applications",
         "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
     },
     "download-direct-head": {
@@ -848,7 +876,7 @@
         "description": ""
     },
     "sponsor-banner-alt-text": {
-        "message": "Bannière du commanditaire",
+        "message": "Bandeau du commanditaire",
         "description": "alt text for an image"
     },
     "sponsor-para-1": {
@@ -856,7 +884,7 @@
         "description": ""
     },
     "sponsor-para-2": {
-        "message": "Vous verrez une bannière de votre choix qui serra reliée à une page de votre site. Il s’agit là d’une opportunité unique de rejoindre un vaste auditoire de personnes ayant des connaissances techniques et utilisant Psiphon afin d’ajouter une couche de sécurité à leur navigation sur Internet.",
+        "message": "Vous verrez un bandeau de votre choix qui serra reliée à une page de votre site. Il s’agit là d’une opportunité unique de rejoindre un vaste auditoire de personnes ayant des connaissances techniques et utilisant Psiphon afin d’ajouter une couche de sécurité à leur navigation sur Internet.",
         "description": ""
     },
     "sponsor-para-3": {
@@ -932,19 +960,19 @@
         "description": ""
     },
     "license-psicash-header": {
-        "message": "Utilisation de l’argent PsiCash",
+        "message": "Utilisation de PsiCash",
         "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-1": {
-        "message": "Si aucune activité PsiCash n’a lieu sur votre appareil pendant un an, Psiphon se réserve alors le droit d’annuler votre argent PsiCash.",
+        "message": "Si aucune activité PsiCash n’a lieu sur votre appareil pendant un an, Psiphon se réserve alors le droit d’annuler votre PsiCash.",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-2": {
-        "message": "Si vous perdez de vue votre argent PsiCash, par exemple en perdant votre appareil, vous reconnaissez que Psiphon ne pourra pas corriger cette situation et restaurer votre argent PsiCash.",
+        "message": "Si vous perdez de vue votre PsiCash, par exemple en perdant votre appareil, vous reconnaissez que Psiphon ne pourra pas corriger cette situation et restaurer votre PsiCash.",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-3": {
-        "message": "Psiphon se réserve le droit de changer n’importe quand les primes échangeables contre de l’argent PsiCash.",
+        "message": "Psiphon se réserve le droit de changer n’importe quand les primes échangeables contre du PsiCash.",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "about-who-we-are-head": {
@@ -1035,9 +1063,9 @@
         "message": "Psiphon est un logiciel à code source ouvert de contournement de la censure sur Internet",
         "description": ""
     },
-    "open-source-para-1": {
-        "message": "Psiphon est un projet à code source ouvert. Vous pouvez trouver le code source et les documents de conception sur les pages de notre projet sur Bitbucket et GitHub.",
-        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and GitHub project pages."
+    "open-source-para-1b": {
+        "message": "Psiphon est à code source ouvert",
+        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It should be kept short. It is a link to our Github project."
     },
     "open-source-para-2": {
         "message": "Les clients Psiphon utilisent les composants à code source ouvert suivants :",
@@ -1045,11 +1073,11 @@
     },
     "open-source-para-3-list-start": {
         "message": "Windows :",
-        "description": ""
+        "description": "This refers to the Microsoft Windows operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Windows."
     },
     "open-source-para-4-list-start": {
         "message": "Android :",
-        "description": ""
+        "description": "This refers to Google's Android operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Android."
     },
     "page-keyword-download": {
         "message": "téléchargement télécharger",
@@ -1092,11 +1120,11 @@
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-play-store": {
-        "message": "play store logiciel android",
+        "message": "play store",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-app-store": {
-        "message": "logithèque",
+        "message": "magasin d’applications, app store",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon1": {
@@ -1144,7 +1172,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-privacy": {
-        "message": "confidentialité vie privée",
+        "message": "confidentialité vie privée protection des données personnelles",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-blog": {
@@ -1196,15 +1224,15 @@
         "description": "web page meta keyword used for SEO"
     },
     "privacy-bulletin-title": {
-        "message": "Bulletins sur la confidentialité",
+        "message": "Bulletins sur la protection des données personnelles",
         "description": ""
     },
     "privacy-bulletin-meta-title": {
-        "message": "Bulletins sur la confidentialité",
+        "message": "Bulletins sur la protection des données personnelles",
         "description": ""
     },
     "privacy-bulletin-description": {
-        "message": "Bulletins sur la confidentialité",
+        "message": "Bulletins sur la protection des données personnelles",
         "description": ""
     },
     "privacy-bulletin-intro-para-1": {
@@ -1241,19 +1269,19 @@
     },
     "privacy-bulletin-entry-1-title": {
         "message": "2014-04-07 : activation de la journalisation des compartiments S3",
-        "description": ""
+        "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-1-what-doing": {
         "message": "Nous activons la journalisation des accès pour le « compartiment » Amazon S3 d’un site Web ( c.-à-d. le conteneur de stockage). (Pour des raisons techniques, nous exécutons des douzaines de copies du site Web dans plusieurs compartiments S3.)",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-why-doing": {
         "message": "Nous le faisons afin de déterminer le nombre d’accès à la « liste de serveurs distants » stockée dans le compartiment. Cela nous aidera à nous faire une idée du nombre d’utilisateurs éprouvant des échecs de connexion.",
-        "description": ""
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-when-doing": {
         "message": "La journalisation sera activée du 2014-04-17T15:00Z à 2014-04-18T15:00Z.",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-1-what-data": {
         "message": "La journalisation recueillera les adresses IP, les agents utilisateurs et les estampilles temporelles d’accès à un site Web. Quand les données seront traitées, nous aurons un décompte des utilisateurs, divisé par le nombre de régions géographiques, ayant accédé au fichier en question. ",
@@ -1272,20 +1300,52 @@
         "description": ""
     },
     "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01 : mise à jour de la politique de confidentialité",
-        "description": ""
+        "message": "01-06-2015 : mise à jour de la politique de confidentialité",
+        "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-2-what-doing": {
         "message": "Nous mettons à jour notre <a href=\"privacy.html\">politique de confidentialité</a>. Cela comprend l’ajout de la réponse à la question de la FAQ « Quels renseignements Psiphon recueille-t-il ? ».",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-why-doing": {
         "message": "La page de la <a href=\"privacy.html\">politique de confidentialité</a> est maintenant le seul endroit que les utilisateurs ont besoin de visiter pour accéder à la politique de confidentialité et de collecte des données de Psiphon. Elle a été mise à jour afin de refléter l’utilisation de publicités, d’analytique et de la journalisation pour certains de nos sites Web.",
-        "description": ""
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-when-doing": {
-        "message": "Cela est effectif au moins avant 2015-06-01T00:00Z.",
-        "description": ""
+        "message": "L’entrée en vigueur sera au plus tard le 01-06-2015 à minuit.",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-3-title": {
+        "message": "11-12-2019 : Mise à jour de la politique de confidentialité",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-3-what-doing": {
+        "message": "Nous mettons à jour notre <a href=\"privacy.html\">politique de confidentialité</a>. Nous passons la période de rétention des données d’activités des utilisateurs de 60 à 90 jours. Nous avons aussi augmenté les renseignements au sujet des bulletins sur la protection des données personnelles. Pour connaître les changements exacts, veuillez consulter l’<a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">archivage GitHub</a> (page en anglais).",
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-3-why-doing": {
+        "message": "Pour garantir que la politique de confidentialité traduit fidèlement nos pratiques en matière de données.",
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-3-when-doing": {
+        "message": "L’entrée en vigueur sera le 12-12-2019 à minuit.",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-4-title": {
+        "message": "11-12-2019 : Prolongation temporaire de la rétention des données",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-4-what-doing": {
+        "message": "Nous cessons temporairement l’élagage des données d’activités des utilisateurs, ce qui a pour effet de prolonger la période de rétention des données.",
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-4-why-doing": {
+        "message": "Nous devons conserver les données fines d’activités plus longtemps afin de nous donner le temps d’analyser des événements récents de censure.",
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-4-when-doing": {
+        "message": "L’entrée en vigueur sera le 12-12-2019 à minuit, pour une période d’un mois. Nous mettrons ce bulletin à jour si la mesure doit être prorogée.",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-title": {
         "message": "Politique de confidentialité",
@@ -1319,13 +1379,25 @@
         "message": "Bureau du commissaire à l’information et à la protection de la vie privée de l’Ontario",
         "description": ""
     },
+    "privacy-updates-head": {
+        "message": "Mises à jour",
+        "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
+    },
+    "privacy-bulletin-info-para-1": {
+        "message": "De temps en temps, nous, Psiphon, ajouterons des entrées à notre <a href=\"./privacy-bulletin.html\">bulletins sur la protection des données personnelles</a> et ce pour deux raisons :",
+        "description": "Paragraph introducing a bullet list."
+    },
+    "privacy-bulletin-info-para-2-item-1": {
+        "message": "Nous modifions la politique de confidentialité. Cela peut arriver quand de nouvelles lois ajoutent des exigences différentes ou si nous commençons ou cessons d’utiliser un service tiers. Nous expliquerons en détail les changements apportés à la politique.",
+        "description": "A bullet list item following from 'This will happen for two reasons:'"
+    },
+    "privacy-bulletin-info-para-2-item-2": {
+        "message": "Nous dérogeons temporairement à notre politique de confidentialité en changeant notre approche de collecte de renseignements. Cela se fait généralement pour résoudre un problème avec notre service ou pour nous donner plus de temps afin d’analyser nos données relatives à un événement de censure intéressant. Nous décrirons le changement, par exemple ce qui a été enregistré, la période de rétention et la raison.",
+        "description": "A bullet list item following from 'This will happen for two reasons:'"
+    },
     "faq-information-collected-question": {
         "message": "Quel renseignements Psiphon recueille-t-il ?",
-        "description": "FAQ question."
-    },
-    "faq-information-collected-answer-para-9": {
-        "message": "De temps en temps, Psiphon pourrait devoir enregistrer des renseignements complémentaires afin de résoudre un problème avec notre service. Si cela a lieu, nous ajouterons une entrée au <a href=\"./privacy-bulletin.html\">bulletin sur la confidentialité</a> décrivant ce qui a été enregistré, la durée de conservation et la raison.",
-        "description": ""
+        "description": "Heading for a section in our privacy policy."
     },
     "privacy-information-collected-client-ads-head": {
         "message": "Réseaux publicitaires du client Psiphon",
@@ -1412,7 +1484,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-4": {
-        "message": "Les journaux d’événements comprennent des estampilles temporelles, des codes de région (pays et ville) et des attributs non identifiants, dont l’ID du commanditaire (déterminé par la version du client  Psiphon utilisée), la version du client et le type de protocole.",
+        "message": "Les journaux d’événements comprennent des estampilles temporelles, des codes de région (pays et ville) et des attributs non nominatifs, dont l’ID du commanditaire (déterminé par la version du client  Psiphon utilisée), la version du client et le type de protocole.",
         "description": ""
     },
     "faq-information-collected-answer-para-5": {
@@ -1480,7 +1552,7 @@
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4": {
-        "message": "Nous considérons les données d’activités des utilisateurs comme étant la catégorie de données la plus délicate. Jamais nous ne partageons ces données avec des tiers. Nous conservons les données d’activités des utilisateurs 60 jours au maximum, et ensuite nous les agrégeons et les supprimons.",
+        "message": "Nous considérons les données d’activités des utilisateurs comme étant la catégorie de données la plus délicate. Jamais nous ne partageons ces données avec des tiers. Nous conservons les données d’activités des utilisateurs 60 jours au maximum et nous les agrégeons ensuite puis les supprimons. Des sauvegardes de ces données sont conservées pour un temps raisonnable.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {
@@ -1596,11 +1668,11 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "privacy-information-collected-psicash-para-2-item-4": {
-        "message": "l’historique des gains en argent PsiCash, dont les actions pour lesquelles des primes ont été accordées",
+        "message": "l’historique des gains en PsiCash, dont les actions pour lesquelles des primes ont été accordées",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-item-5": {
-        "message": "l’historique des dépenses en argent PsiCash, dont les achats effectués",
+        "message": "l’historique des dépenses en PsiCash, dont les achats effectués",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-3-list-start": {
@@ -1612,7 +1684,7 @@
         "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-information-collected-psicash-para-3-item-2": {
-        "message": "quand une prime en argent PsiCash peut à nouveau être perçue",
+        "message": "quand une prime en PsiCash peut à nouveau être perçue",
         "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-4-list-start": {
@@ -1636,7 +1708,7 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
     },
     "privacy-information-collected-psicash-para-4-item-5": {
-        "message": "les détails des gains et dépenses en argent PsiCash",
+        "message": "les détails des gains et dépenses en PsiCash",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-5": {
@@ -1724,11 +1796,11 @@
         "description": ""
     },
     "faq-information-collected-answer-head-4": {
-        "message": "Logithèques",
+        "message": "Magasins d’applications",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
     "faq-information-collected-answer-para-10": {
-        "message": "Notez que si vous obtenez Psiphon d’une « logithèque », telle que « Play Store » de Google ou « AppStore » d’Amazon, des statistiques supplémentaires pourraient être recueillies par cette logithèque. Voici, par exemple, une description de ce que « Play Store » de Google recueille :",
+        "message": "Notez que si vous obtenez Psiphon d’un « magasin d’applications », tel que « Play Store » de Google ou « AppStore » d’Amazon, des statistiques supplémentaires pourraient être recueillies par cette logithèque. Voici, par exemple, une description de ce que « Play Store » de Google recueille :",
         "description": ""
     },
     "psiphon": {

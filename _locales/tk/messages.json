@@ -191,6 +191,14 @@
         "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
         "description": "alt text for an image"
     },
+    "faq-windows-xp-eol-question": {
+        "message": "Does Psiphon for Windows work on Windows XP or Vista?",
+        "description": "FAQ question."
+    },
+    "faq-windows-xp-eol-answer-para-1": {
+        "message": "As of December 2019, Psiphon does not support Windows XP or Vista. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
+        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?'"
+    },
     "faq-information-collected-answer-redirect": {
         "message": "Biz toplaýan maglumatlarymyz barada bilmek üçin, haýyş, <a href=\"privacy.html\">Gizlinlik Syýasat</a> ulanyň.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
@@ -491,6 +499,26 @@
         "message": "Dekebr 2015 ýyldan öñ, Android üçin Psiphon egerde ol köne Android enjamly (pre-4.0/ICS)  öńden köklenen bolsa, onda ulanjyara bütin enjamy tunellemege mümkünçilik berÿän ýöriteleşdirlen ayratynlygy bardy. Esasy Psiphon täzelenmesi bu ayratynlygy ayrmaklygyna mejbur etdi.",
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
+    "faq-refund-question": {
+        "message": "How do I get a refund for a subscription, purchase of PsiCash, or other purchase?",
+        "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money."
+    },
+    "faq-refund-answer-para-1": {
+        "message": "<strong>Android:</strong> If it has been less than 48 hours since you made the purchase, you can <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">get a refund through the Play Store</a>. After 48 hours, email us at <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Please include your name, the email address of your Play Store account, the date of the purchase, what was purchased, the amount of the purchase, and the reason you are requesting the refund.",
+        "description": "This is the first paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-2": {
+        "message": "<strong>iOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+        "description": "This is the second paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-3": {
+        "message": "<strong>Windows:</strong> Email us at <a href=\"mailto:refund+windows@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%2FPhone%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Windows\">refund+windows@psiphon.ca</a>. Please include your name, the email address or phone number used at the time of purchase, the date of the purchase, what was purchased, the amount of the purchase, and the reason you are requesting the refund.",
+        "description": "This is the third paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-4": {
+        "message": "Note that refunds may take up to a week to process.",
+        "description": "This is the fourth paragraph of an FAQ answer."
+    },
     "alert-heading": {
         "message": "DUÝDURYŞ",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -587,9 +615,9 @@
         "message": "Windows üçin Psiphon",
         "description": "text for link to Psiphon for Windows download"
     },
-    "download-windows-direct-description": {
-        "message": "Windows XP, Windows Vista, Windows 7, Windows 8 (desktop), we  Windows 10 bilen işleýär.",
-        "description": ""
+    "download-windows-direct-description-v2": {
+        "message": "Works on Windows 7, Windows 8 (desktop), and Windows 10.<br>(A legacy build for <a href=\"./faq.html#windows-xp-eol\">Windows XP and Vista</a> is available.)",
+        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
     },
     "download-android-direct": {
         "message": "Android üçin Psiphon göni ýükle",
@@ -1035,9 +1063,9 @@
         "message": "Psiphon açyk çeşme Internet senzurasyny öñe alyan programma üpjünçiligidir",
         "description": ""
     },
-    "open-source-para-1": {
-        "message": "Psiphon is an open source project. You can find source code and design documents on our Bitbucket and GitHub project pages.",
-        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and GitHub project pages."
+    "open-source-para-1b": {
+        "message": "Psiphon is open source.",
+        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It should be kept short. It is a link to our Github project."
     },
     "open-source-para-2": {
         "message": "Psiphon müşderileri aşakda görkezilen açyk çeşmeleri ullanýarlar:",
@@ -1045,11 +1073,11 @@
     },
     "open-source-para-3-list-start": {
         "message": "Windows:",
-        "description": ""
+        "description": "This refers to the Microsoft Windows operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Windows."
     },
     "open-source-para-4-list-start": {
         "message": "Android:",
-        "description": ""
+        "description": "This refers to Google's Android operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Android."
     },
     "page-keyword-download": {
         "message": "indir",
@@ -1241,19 +1269,19 @@
     },
     "privacy-bulletin-entry-1-title": {
         "message": "2014-04-17: Enable S3 bucket logging",
-        "description": ""
+        "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-1-what-doing": {
         "message": "Biz Amazon S3 \"bucket\" görnüşli bir websaýtyna girelgä rugsat berýäris (mysal, saklaýjy konteýner). (Biz birnäçe S3 \"buckets\" websaýtynyň göçürmesini käbir tehniki sebäplerden işledýäris.)",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-why-doing": {
         "message": "Gapda jemlenen \"uzak araly serwer sanawy\" na näçe giriş barlygybarlygy bilmek üçin edýäris. Bu bize näçe ulanyjynyň birikmekdäki şowsuzlygyny belli etmek üçin kömek eder.",
-        "description": ""
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-when-doing": {
         "message": "Günlüge ýazgy alma 2014-04-17T15:00Z dan 2014-04-18T15:00Z çenli.",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-1-what-data": {
         "message": "Günlük, IP salgylaryny, ulanyjy agentlary we bir web saýtyna girişleriň wagt möhürleri jemleýär. Jemlenenler belli bolanda, girilen ulanyjy sanynyň geografiki ýerleşim boyunça sanyny bilmekde kömek eder.",
@@ -1273,19 +1301,51 @@
     },
     "privacy-bulletin-entry-2-title": {
         "message": "2015-06-01: Gizlinlik Syýasat täzelemesi",
-        "description": ""
+        "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-2-what-doing": {
         "message": "Biz <a href=\"privacy.html\">Gizlinlik Syýasat</a> täzeleyäris. Ygy-ygydan Soralyan Soraglaryñ jogaplaryna \"Psihpon haysy maglumatlary toplayar?\" atly  sorag gošarys.",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-why-doing": {
         "message": "Ulanjylar Psiphon gizlinlik we maglumat toplayjy syÿasaty barada diñe <a href=\"privacy.html\">Gizlinlik Syÿasat</a> sahypasynda barlap bilerler. Ol reklama, analitika we kâbir websayt girmek peýdalanmasy barada ütgešikleri görkezmek üçin tazelendi.",
-        "description": ""
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "Iñ azyndan bu 2015-06-01T00:00Z çenli dowam eder.",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-3-title": {
+        "message": "2019-12-11: Privacy Policy update",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-3-what-doing": {
+        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. We are changing the retention period of User Activity Data from 60 days to 90 days. We also expanded the information about Privacy Bulletins. For the exact changes, see the <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-3-why-doing": {
+        "message": "To ensure the Privacy Policy accurately reflects our data practices.",
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-3-when-doing": {
+        "message": "This will be in effect on 2019-12-12T00:00Z.",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-4-title": {
+        "message": "2019-12-11: Temporary data retention extension",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-4-what-doing": {
+        "message": "We are temporarily halting User Activity Data pruning, effectively extending the data retention period.",
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-4-why-doing": {
+        "message": "We need to keep granular activity data longer to give us time to analyze recent censorship events.",
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-4-when-doing": {
+        "message": "This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-title": {
         "message": "Gizlinlik Ugry",
@@ -1319,13 +1379,25 @@
         "message": "Ontario Maglumat we Gizlinlik Komisiar Ofisi",
         "description": ""
     },
+    "privacy-updates-head": {
+        "message": "Updates",
+        "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
+    },
+    "privacy-bulletin-info-para-1": {
+        "message": "From time to time, Psiphon will add entries to our <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a>. This will happen for two reasons:",
+        "description": "Paragraph introducing a bullet list."
+    },
+    "privacy-bulletin-info-para-2-item-1": {
+        "message": "We modify the Privacy Policy. This can happen when new laws add different requirements, or if we start or stop using a third-party service. We will detail the changes made to the policy.",
+        "description": "A bullet list item following from 'This will happen for two reasons:'"
+    },
+    "privacy-bulletin-info-para-2-item-2": {
+        "message": "We temporarily deviate from our Privacy Policy by changing our information collection behaviour. This is typically done to resolve a problem with our service, or to give us more time to analyze our data relating to an interesting censorship event. We will describe the change, for example what was recorded, how long it was kept, and why.",
+        "description": "A bullet list item following from 'This will happen for two reasons:'"
+    },
     "faq-information-collected-question": {
         "message": "Psiphon ulanyjy barada haýsy maglumatlary ýygnaýar?",
-        "description": "FAQ question."
-    },
-    "faq-information-collected-answer-para-9": {
-        "message": "Hyzmatymyz bilen bagly meseläni çözmek üçin Psiphon belli wagtlarda goşmaça maglumatlary ýazga almaly bolýar. Şeýle ýagdaý ýüze çykanynda, nämäniň ýazga alynandygyny,  bir ýazuwy şu ýerde görkezeris <a href=\"./privacy-bulletin.html\">Gizlinlik Býulletende</a> onuň näçe wagt we näme üçin saklanjakdygyny görkezeris.",
-        "description": ""
+        "description": "Heading for a section in our privacy policy."
     },
     "privacy-information-collected-client-ads-head": {
         "message": "Psiphon Client Advertising Networks",
@@ -1480,7 +1552,7 @@
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4": {
-        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it.",
+        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {

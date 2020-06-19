@@ -191,6 +191,14 @@
         "message": "Tangkapan layar dari pengaturan keamanan Android yang membolehkan instalasi app yang bukan dari Play Store",
         "description": "alt text for an image"
     },
+    "faq-windows-xp-eol-question": {
+        "message": "Apakah Psiphon untuk Windows didukung oleh Windows XP atau Vista?",
+        "description": "FAQ question."
+    },
+    "faq-windows-xp-eol-answer-para-1": {
+        "message": "Mulai desember 2019, Psiphon tidak lagi berbasis Windows XP maupun Vista. Sebuah materi warisan <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">yang dapat diunduh</a> masih bisa digunakan bagi platform tersebut untuk keperluan mendatang, namun pengguna sangat dianjurkan untuk mengupgrade versi Windows terbaru.",
+        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?'"
+    },
     "faq-information-collected-answer-redirect": {
         "message": "Silakan baca <a href=\"privacy.html\">Kebijakan Privasi</a> kami untuk mengetahui informasi yang kami kumpulkan.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
@@ -491,6 +499,26 @@
         "message": "Sebelum Desember 2015, Psiphon untuk Android memiliki fitur yang memungkinkan pengguna perangkat Android lama (versi pra-4.0/ICS) untuk melewatkan sambungan internet seluruh perangkat ke terowongan jika perangkat itu telah di-root. Pembaruan besar Psiphon setelah itu memerlukan penghapusan fitur tersebut.",
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
+    "faq-refund-question": {
+        "message": "Bagaimana saya dapat pengembalian dana dari biaya langganan, pembelian PsiCash, atau pembelian lainnya?",
+        "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money."
+    },
+    "faq-refund-answer-para-1": {
+        "message": "<strong>Android:</strong> Apabila pembelian dilakukan dalam waktu kurang dari 48 jam, Anda dapat <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">memperoleh pengembalian dana via Play Store</a>. Setelah lewat 48 jam, kirim surel kepada kami di <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Mohon sertakan nama Anda, alamat surel akun Play Store Anda, tanggal pembelian, apa yang Anda beli, harga pembelian, dan alasan mengapa Anda meminta pengembalian dana.",
+        "description": "This is the first paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-2": {
+        "message": "<strong>iOS:</strong> Mohon <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">meminta pengembalian dana via App Store</a>.",
+        "description": "This is the second paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-3": {
+        "message": "<strong>Windows:</strong> Surel kami di <a href=\"mailto:refund+windows@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%2FPhone%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Windows\">refund+windows@psiphon.ca</a>. Mohon tuliskan nama Anda, alamat surel dan nomor telpon yang digunakan dalam pembelian, tanggal pembelian, apa yang dibeli, harga pembelian, dan alasan mengapa Anda meminta pengembalian.",
+        "description": "This is the third paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-4": {
+        "message": "Perlu diperhatikan proses pengembalian dapat memakan waktu seminggu.",
+        "description": "This is the fourth paragraph of an FAQ answer."
+    },
     "alert-heading": {
         "message": "PERINGATAN",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -587,9 +615,9 @@
         "message": "Psiphon untuk Windows",
         "description": "text for link to Psiphon for Windows download"
     },
-    "download-windows-direct-description": {
-        "message": "Bekerja untuk Windows XP, Windows Vista, Windows 7, Windows 8 (desktop), dan Windows 10.",
-        "description": ""
+    "download-windows-direct-description-v2": {
+        "message": "Bekerja di Windows 7, Windows 8 (desktop), dan Windows 10.<br>(Sebuah warisan dibangun untuk <a href=\"./faq.html#windows-xp-eol\">Windows XP dan Vista</a> tersedia.)",
+        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
     },
     "download-android-direct": {
         "message": "Unduhan langsung Psiphon untuk Android",
@@ -1035,9 +1063,9 @@
         "message": "Psiphon adalah aplikasi penembus sensor internet bersumber terbuka",
         "description": ""
     },
-    "open-source-para-1": {
-        "message": "Psiphon adalah proyek dengan sumber terbuka. Anda dapat menemukan berbagai dokumen mengenai kode sumber dan desain di laman Bitbucket dan GitHub kami.",
-        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and GitHub project pages."
+    "open-source-para-1b": {
+        "message": "Psiphon adalah sumber terbuka.",
+        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It should be kept short. It is a link to our Github project."
     },
     "open-source-para-2": {
         "message": "Aplikasi klien Psiphon menggunakan komponen sumber terbuka berikut:",
@@ -1045,11 +1073,11 @@
     },
     "open-source-para-3-list-start": {
         "message": "Windows:",
-        "description": ""
+        "description": "This refers to the Microsoft Windows operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Windows."
     },
     "open-source-para-4-list-start": {
         "message": "Android:",
-        "description": ""
+        "description": "This refers to Google's Android operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Android."
     },
     "page-keyword-download": {
         "message": "unduh",
@@ -1241,19 +1269,19 @@
     },
     "privacy-bulletin-entry-1-title": {
         "message": "17-04-2014: Mengaktifkan \"bucket logging\" S3",
-        "description": ""
+        "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-1-what-doing": {
         "message": "Kami mengaktifkan pencatatan akses satu \"bucket\" (ember, wadah penyimpanan) situs web di Amazon S3 (untuk alasan teknis, kami menjalankan puluhan salinan situs web tersebut di \"bucket\" S3 yang berbeda-beda).",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-why-doing": {
         "message": "Kami melakukan hal ini untuk menentukan berapa banyak akses yang tersedia ke \"remote server list\" yang disimpan di dalam \"bucket\". Ini akan membantu kami mengetahui berapa banyak pengguna yang gagal menyambung.",
-        "description": ""
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-when-doing": {
         "message": "Pencatatan akan diaktifkan mulai 17-04-2014, 15.00 GMT hingga 18-04-2014, 15.00 GMT",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-1-what-data": {
         "message": "Pencatatan akan mengumpulkan alamat IP, \"user agent\", dan waktu akses salah satu situs web. Saat data tersebut diolah, kami akan memperoleh jumlah pengguna yang telah mengakses file tertentu yang dipilah berdasarkan wilayah geografis.",
@@ -1273,19 +1301,51 @@
     },
     "privacy-bulletin-entry-2-title": {
         "message": "01-06-2015: Pembaruan Kebijakan Privasi",
-        "description": ""
+        "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-2-what-doing": {
         "message": "Kami telah memperbarui <a href=\"privacy.html\">Kebijakan Privasi</a> kami, termasuk menambahkan jawaban atas pertanyaan \"Informasi apa yang dikumpulkan Psiphon?\" ke dalamnya.",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-why-doing": {
         "message": "Laman <a href=\"privacy.html\">Kebijakan Privasi</a> kini menjadi satu-satunya tempat bagi para pengguna untuk membaca kebijakan privasi dan pengumpulan data Psiphon. Saat ini telah diperbarui untuk menjelaskan pemakaian iklan, analisis, dan pencatatan pada beberapa situs web kami.",
-        "description": ""
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "Berlaku paling lambat mulai 01-06-2015, 00.00 GMT.",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-3-title": {
+        "message": "2019-12-11: Kebijakan Privasi mutakhir",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-3-what-doing": {
+        "message": "Kami sedang memutakhirkan<a href=\"privacy.html\">Kebijakan Pribadi</a>kami. Kami sedang merubah periode pertahanan Aktivitas Data Pengguna dari 60 hari menjadi 90 hari. Kami juga memperluas informasi mengenai Berita Pribadi. Untuk perubahan persisnya, silahkan lihat di <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-3-why-doing": {
+        "message": "Untuk memastikan akurasi Kebijakan Privasi tercermin dalam praktek data kami.",
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-3-when-doing": {
+        "message": "Akan berlaku mulai tanggal 2019-12-12T00:00Z.",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-4-title": {
+        "message": "2019-12-11: Extension data sementara yang disimpan",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-4-what-doing": {
+        "message": "Untuk sementara kita menunda pemangkasan Data Aktivitas Pengguna, yang pastinya akan memperpanjang periode pertahanan data.",
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-4-why-doing": {
+        "message": "Butir-butir aktivitas data harus tetap kita pertahankan lebih lama untuk memberi kita waktu menganalisa kegiatan-kegiatan penyensoran terbaru.",
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-4-when-doing": {
+        "message": "Ini akan mulai berlaku tanggal 2019-12-12T00:00Z. Ini akan berlangsung selama satu bulan. Kami akan memutakhirkan buletin ini apabila dibutuhkan untuk diperluas lagi.",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-title": {
         "message": "Kebijakan Privasi",
@@ -1319,20 +1379,32 @@
         "message": "Kantor Komisaris Informasi dan Privasi Ontario",
         "description": ""
     },
+    "privacy-updates-head": {
+        "message": "Pemutakhiran",
+        "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
+    },
+    "privacy-bulletin-info-para-1": {
+        "message": "Dari waktu ke waktu, Psiphon akan menambahkan masukan ke <a href=\"./privacy-bulletin.html\">Buletin Privasi</a> kami. Hal ini akan terjadi untuk dua alasan:",
+        "description": "Paragraph introducing a bullet list."
+    },
+    "privacy-bulletin-info-para-2-item-1": {
+        "message": "Kami memodifikasi Kebijakan Privasi. Hal ini dapat terjadi ketika persyaratan yang berbeda ditambahkan sesuai aturan baru, atau sebuah layanan pihak ketiga dimulai atau dihentikan. Detil perubahan akan tertera dalam kebijakan.",
+        "description": "A bullet list item following from 'This will happen for two reasons:'"
+    },
+    "privacy-bulletin-info-para-2-item-2": {
+        "message": "Untuk sementara kami menyimpang dari Kebijakan Pribadi kami dengan merubah perilaku pengambilan informasi kami. Hal ini sering dilakukan untuk memecahkan suatu masalah dalam layanan kami, atau memberi kami lebih banyak waktu untuk menganalisa data kami yang berhubungan dengan suatu kegiatan penyensoran penting. Kami akan jabarkan perubahan ini, misalnya kapan disimpan, berapa lama dipertahankan, dan mengapa.",
+        "description": "A bullet list item following from 'This will happen for two reasons:'"
+    },
     "faq-information-collected-question": {
         "message": "Apa saja informasi pengguna yang dikumpulkan Psiphon?",
-        "description": "FAQ question."
-    },
-    "faq-information-collected-answer-para-9": {
-        "message": "Dari waktu ke waktu, Psiphon mungkin harus merekam informasi tambahan untuk mengatasi masalah sehubungan dengan layanan kami. Saat hal itu terjadi, kami akan menambahkan catatan ke <a href=\"./privacy-bulletin.html\">Buletin Privasi</a> untuk menjelaskan apa saja yang direkam, sampai kapan akan disimpan, dan alasannya.",
-        "description": ""
+        "description": "Heading for a section in our privacy policy."
     },
     "privacy-information-collected-client-ads-head": {
         "message": "Jaringan Iklan Pelanggan Psiphon",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the ads shown in the Psiphon client software"
     },
     "privacy-information-collected-client-advertising-networks-para-1": {
-        "message": "Kita terkadang menggunakan iklan untuk membantu servis kami, yang mungkin menggunakan teknologi seperti kuki dan suar web. Penggunaan kuki oleh partner pengiklan kami memungkinkan mereka dan partner mereka untuk menyajikan iklan berdasarkan data penggunaan anda. Semua informasi yang dikumpulkan melalui proses ini ditangani dibawah naungan ketentuan dari kebijakan partner pengiklan kami:",
+        "message": "Kita terkadang menggunakan iklan untuk membantu servis kami, yang mungkin menggunakan teknologi seperti kuki dan suar web. Penggunaan kuki oleh partner pengiklan kami memungkinkan mereka dan partner mereka untuk menyajikan iklan berdasarkan data penggunaan anda. Semua informasi yang dikumpulkan melalui proses ini ditangani di bawah naungan ketentuan dari kebijakan privasi partner pengiklan kami:",
         "description": ""
     },
     "privacy-information-collected-client-advertising-networks-para-2": {
@@ -1416,11 +1488,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-5": {
-        "message": "Any statistics shared with third parties are aggregated by date, sponsor, and region, to a sufficient coarseness that they are non-identifying.",
+        "message": "Angka statistik yang dibagikan kepada pihak ketiga dijabarkan baik dalam tanggal, sponsor, dan wilayah yang cukup tidak beraturan agar tidak dapat diidentifkasi.",
         "description": ""
     },
     "privacy-information-collected-vpndata-head-v2": {
-        "message": "User Activity and VPN Data",
+        "message": "Aktivitas Penggunda dan Data VPN",
         "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data and activity statistics through the Psiphon VPN"
     },
     "privacy-information-collected-vpndata-whycare-subhead": {
@@ -1428,11 +1500,11 @@
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
     },
     "privacy-information-collected-vpndata-whycare-para-1": {
-        "message": "When using a VPN or proxy you should be concerned about what the VPN provider can see in your data, collect from it, and do to it.",
+        "message": "Ketika menggunakan VPN atau proxy, seharusnya Anda khawatir mengenai apa yang dapat dilihat, dikumpulkan dan dilakukan oleh penyedia VPN terhadap data Anda.",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whycare-para-2": {
-        "message": "When you use a VPN, all data to and from your device goes through it. If you visit a website that uses unencrypted HTTP, all of that site's data is visible to the VPN. If you visit a website that uses encrypted HTTPS, the site content is encrypted, but some information about the site might be visible to the VPN. Other apps and services on your device will also transfer data that is encrypted or unencrypted. (Note that this is distinct from the encryption that all VPNs provide. Here we're only concerned with data that is or is not encrypted <em>inside</em> the VPN tunnel.)",
+        "message": "Ketika Anda menggunakan VPN, semua data dari dan menuju ponsel Anda berlalu-lalang melewatinya. Apabila Anda mengunjungi laman yang mengenskirpsi HTTP, semua data laman dapat dilihat di VPN. Apabila Anda mengunjungi laman yang mengenkripsi HTTPS, muatan laman terenkripsi tapi beberapa informasi mengenai laman dapat dilihat di VPN. Aplikasi dan layan lain di perangkat Anda juga akan mentransfer data yang terenkripsi maupun tidak. (Perlu dicatat bahwa hal ini berbeda dari enkripsi yang disediakan oleh semua VPN. Dalam hal ini kita hanya peduli dengan data yang dienkripsi atau tidak <em> dalam</em> kanal VPN.)",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an 'emphasis' (like italics) HTML tag, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whycare-para-3": {
@@ -1440,27 +1512,27 @@
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-subhead": {
-        "message": "What does Psiphon <strong>NOT</strong> do with your data?",
+        "message": "Apa yang Psiphon <strong>TIDAK</strong> lakukan terhadap data Anda?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what undesirable things Psiphon DOES NOT do with user data. '<strong>' is an HTML tag that makes text bold, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-1": {
-        "message": "We DO NOT collect or store any VPN data that is not mentioned here.",
+        "message": "Kami TIDAK mengumpulkan atau menyimpan data VPN apapun yang tidak disebut disini.",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-2": {
-        "message": "We DO NOT modify the contents of your VPN data.",
+        "message": "Kami TIDAK memodifikasi muatan dari data VPN Anda.",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-3": {
-        "message": "We DO NOT share any sensitive or user-specific data with third parties.",
+        "message": "Kami TIDAK membagikan data sensitif atau pengguna tertentu kepada pihak ketiga.",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-kindsofdata-subhead": {
-        "message": "What kinds of user data does Psiphon collect?",
+        "message": "Data pengguna apa yang dikumpulkan Psiphon?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-kindsofdata-para-1": {
-        "message": "We will define some categories of data to help us talk about them in the context of Psiphon.",
+        "message": "Kami akan tetapkan beberapa kategori data untuk membantu kita mengulasnya dalam konteks Psiphon.",
         "description": "Paragraph text in the 'What kinds of user data does Psiphon collect?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-subhead": {
@@ -1480,7 +1552,7 @@
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4": {
-        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it.",
+        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {

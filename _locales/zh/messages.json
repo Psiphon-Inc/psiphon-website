@@ -191,6 +191,14 @@
         "message": "Android 安全设置截图：允许安装非 Google Play 商店应用 ",
         "description": "alt text for an image"
     },
+    "faq-windows-xp-eol-question": {
+        "message": "赛风Windows是否可以在Windows XP或者Vista上使用？",
+        "description": "FAQ question."
+    },
+    "faq-windows-xp-eol-answer-para-1": {
+        "message": "从2019年12月开始，赛风不再支持Windows XP或者Vista。一个可以在这些版本上运行的旧版本可以<a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">从这里下载</a>，但是建议用户升级到较新版本的Windows。",
+        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?'"
+    },
     "faq-information-collected-answer-redirect": {
         "message": "有关信息收集，请参阅我们的<a href=\"privacy.html\">隐私政策</a>。",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
@@ -491,6 +499,26 @@
         "message": "在2015年12月以前，Android 版赛风具有一项功能，可在经过 root 的旧版 Android 设备（4.0/ICS 之前版本）上使用全局代理。在那段时间，赛风的某次重要更新需要移除该功能。",
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
+    "faq-refund-question": {
+        "message": "我如何能获得订阅，PsiCash的购买或其他购买的退款？",
+        "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money."
+    },
+    "faq-refund-answer-para-1": {
+        "message": "<strong>安卓：</strong>如果您的购买在48小时以内，您可以<a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">通过谷歌商店获得退款</a>。如果超过了48小时，请给我们发邮件至<a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>。邮件中请包括您的姓名，谷歌商店账户的邮件地址，购买物品的名称，购买金额，以及退款理由。",
+        "description": "This is the first paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-2": {
+        "message": "<strong>iOS:</strong> 请 <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">使用 App Store 进行退款</a>.",
+        "description": "This is the second paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-3": {
+        "message": "<strong>Windows:</strong>发邮件至<a href=\"mailto:refund+windows@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%2FPhone%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Windows\">refund+windows@psiphon.ca</a>。邮件中请包括您的姓名，在购买时使用的邮箱地址或手机号码，购买日期，购买物品的名称，购买金额，以及退款理由。",
+        "description": "This is the third paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-4": {
+        "message": "注意，退款可能最多需要1周的时间来处理",
+        "description": "This is the fourth paragraph of an FAQ answer."
+    },
     "alert-heading": {
         "message": "通知",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -587,9 +615,9 @@
         "message": "适用于 Windows 系统的赛风",
         "description": "text for link to Psiphon for Windows download"
     },
-    "download-windows-direct-description": {
-        "message": "支持 Windows XP、Windows Vista、Windows 7、Windows 8（桌面版）和 Windows 10。",
-        "description": ""
+    "download-windows-direct-description-v2": {
+        "message": "可以在Windows 7， Windows 8（桌面版）和Windows 10上运行。<br>（一个为<a href=\"./faq.html#windows-xp-eol\">Windows XP和Vista</a>准备的旧版本也可以使用。）",
+        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
     },
     "download-android-direct": {
         "message": "直接下载 Android 版赛风",
@@ -1035,9 +1063,9 @@
         "message": "赛风是开放源代码的审查突破网络软件",
         "description": ""
     },
-    "open-source-para-1": {
-        "message": "赛风是一个开源项目。您可以在我们的 Bitbucket 和 GitHub 项目页上找到源代码和设计文档。",
-        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and GitHub project pages."
+    "open-source-para-1b": {
+        "message": "Psiphon是开源的。",
+        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It should be kept short. It is a link to our Github project."
     },
     "open-source-para-2": {
         "message": "Psiphon 客户端使用了下列开源组件：",
@@ -1045,11 +1073,11 @@
     },
     "open-source-para-3-list-start": {
         "message": "Windows：",
-        "description": ""
+        "description": "This refers to the Microsoft Windows operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Windows."
     },
     "open-source-para-4-list-start": {
         "message": "Android：",
-        "description": ""
+        "description": "This refers to Google's Android operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Android."
     },
     "page-keyword-download": {
         "message": "下载",
@@ -1241,19 +1269,19 @@
     },
     "privacy-bulletin-entry-1-title": {
         "message": "2014-04-17：启用 S3 存储桶日志记录",
-        "description": ""
+        "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-1-what-doing": {
         "message": "启用一个网站亚马逊 S3 存储桶（即存储容器）的访问日志记录。（出于技术原因，我们在不同 S3 存储桶上运行网站的多个副本。）",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-why-doing": {
         "message": "为了确定保存在存储桶的“远程服务器列表”有多少访问量，以便我们评估多少用户无法连接。",
-        "description": ""
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-when-doing": {
         "message": "日志记录在 2014-04-17T15:00Z 至 2014-04-18T15:00Z 期间启用。",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-1-what-data": {
         "message": "该日志记录收集访问某个网站的 IP 地址、用户代理和时间戳。对这些数据进行处理时，将对访问特定文件的用户按地理区域分类并计数。",
@@ -1273,19 +1301,51 @@
     },
     "privacy-bulletin-entry-2-title": {
         "message": "2015-06-01：隐私政策更新",
-        "description": ""
+        "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-2-what-doing": {
         "message": "赛风隐私条例发生更新。更新后将在“创建问题和解答”部分包括“赛风收集用户的哪些信息？”及其回答。",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-why-doing": {
         "message": "关于赛风隐私和数据收集政策，用户现在只需查看<a href=\"privacy.html\">隐私政策</a>页面即可。该页面已经过更新，包含某些赛风网站的广告、Google analyticsy 和日志记录的使用情况。",
-        "description": ""
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "最迟于 2015-06-01T00:00 起正式生效。",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-3-title": {
+        "message": "2019-12-11: 隐私权政策更新",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-3-what-doing": {
+        "message": "我们正在更新我们的<a href=\"privacy.html\">隐私权政策</a>。用户活动数据的保留期将从60天延长到90天。我们同时在隐私公告中给与了更详细的信息。如果您想了解详细信息，请浏览<a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-3-why-doing": {
+        "message": "为了确保隐私权证词准确的反应我们的数据实践。",
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-3-when-doing": {
+        "message": "将会于2019-12-12T00:00起效。",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-4-title": {
+        "message": "2019-12-11：暂时数据保留延长",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-4-what-doing": {
+        "message": "我们将暂时停止用户活动数据删除，以有效地延长数据保留时间。",
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-4-why-doing": {
+        "message": "我们需要保留活动数据的细节更长的时间从而给我们足够的时间去分析近期的审查活动。",
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-4-when-doing": {
+        "message": "将会于2019-12-12T00:00起效。这项变更于一个月内有效。如果时间需要延长，我们会更新公告。",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-title": {
         "message": "隐私政策",
@@ -1319,13 +1379,25 @@
         "message": "安大略省信息和隐私专员办公室",
         "description": ""
     },
+    "privacy-updates-head": {
+        "message": "更新",
+        "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
+    },
+    "privacy-bulletin-info-para-1": {
+        "message": "如果需要，赛风将会加入新的条例到我们的<a href=\"./privacy-bulletin.html\">隐私公告</a>。有两个原因会使我们加入条例：",
+        "description": "Paragraph introducing a bullet list."
+    },
+    "privacy-bulletin-info-para-2-item-1": {
+        "message": "我们更改隐私权政策。新的法律加入了不同的要求，或者我们开始或停止使用一个第三方服务的时候我们会更新隐私权政策。我们会详细的解释隐私权政策的变更。",
+        "description": "A bullet list item following from 'This will happen for two reasons:'"
+    },
+    "privacy-bulletin-info-para-2-item-2": {
+        "message": "我们暂时因为改变了信息收集的方式偏离了我们的隐私权政策。这种一般发生在需要解决我们服务上的问题，或者当我们需要更多时间去分析关于审查制度的时间。我们会详细描述我们做出的改变，比如说什么信息被记录，信息会被保持多久，以及改变的原因。",
+        "description": "A bullet list item following from 'This will happen for two reasons:'"
+    },
     "faq-information-collected-question": {
         "message": "赛风收集用户的哪些信息？",
-        "description": "FAQ question."
-    },
-    "faq-information-collected-answer-para-9": {
-        "message": "为了解决问题，有时赛风可能需要收集其他信息。出现这种情况时，我们将在<a href=\"./privacy-bulletin.html\">隐私公告</a> 添加相关条目，说明数据的内容、保存时间和原因。`",
-        "description": ""
+        "description": "Heading for a section in our privacy policy."
     },
     "privacy-information-collected-client-ads-head": {
         "message": "Psiphon 客户端的广告网络",
@@ -1480,7 +1552,7 @@
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4": {
-        "message": "我们将用户活动数据视为最敏感的数据类别。我们绝不会与第三方分享这些数据。用户活动数据最多保留60天，随后我们会将其进行汇总并删除。",
+        "message": "我们认为用户活动数据是最敏感的数据种类。我们从不与第三方分享这类信息。我们将用户活动信息最多保存60天，然后我们会将数据整合并删除。",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {
@@ -1488,7 +1560,7 @@
         "description": "Sub-heading for the definition of 'Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-1": {
-        "message": "Data is “aggregated” by taking a lot of sensitive user activity data and combining it together to form coarse statistical data that is no longer specific to a user. After aggregation, the user activity data is deleted.",
+        "message": "数据的聚合是指通过获取大量敏感的用户活动数据，并把它们合并在一起形成粗略的统计数据的过程。得到的统计数据将无法被用来指向于任何一个用户。在聚合之后，用户活动数据将被删除。",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-2": {
@@ -1568,7 +1640,7 @@
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-3": {
-        "message": "That the populace of a country is determined to access the open internet.",
+        "message": "一个国家的民众决定有权访问开放网络",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-3-v2": {
