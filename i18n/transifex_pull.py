@@ -24,7 +24,7 @@ Run with
 # If you don't already have pipenv:
 $ pip install pipenv
 
-$ pipenv install --ignore-pipfile
+$ pipenv install --ignore-pipfile --three
 $ pipenv run python transifex_pull.py
 
 # To reset your pipenv state (e.g., after a Python upgrade):

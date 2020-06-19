@@ -950,19 +950,8 @@
     "message": "Psiphon is open source Internet censorship circumvention software"
   },
   "open-source-para-1b": {
-    "message": "Psiphon is open source.",
-    "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It should be kept short. It is a link to our Github project."
-  },
-  "open-source-para-2": {
-    "message": "Psiphon clients use the following open source components:"
-  },
-  "open-source-para-3-list-start": {
-    "message": "Windows:",
-    "description": "This refers to the Microsoft Windows operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Windows."
-  },
-  "open-source-para-4-list-start": {
-    "message": "Android:",
-    "description": "This refers to Google's Android operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Android."
+    "message": "Psiphon is open source software. You can find our code on GitHub.",
+    "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It is a link to our Github project."
   },
   "page-keyword-download": {
     "message": "download",
@@ -1129,6 +1118,22 @@
   "privacy-bulletin-entry-item-head-when-doing": {
     "message": "When we're doing it"
   },
+  "privacy-bulletin-entry-item-head-update": {
+    "message": "Update",
+    "description": "This is a header for text that is an update to an existing privacy bulletin."
+  },
+  "privacy-bulletin-entry-item-head-what-happened": {
+    "message": "What happened",
+    "description": "This is a header for text that describes what happened to necessitate this privacy bulletin"
+  },
+  "privacy-bulletin-entry-item-head-impact": {
+    "message": "Impact",
+    "description": "This is a header for text that describes the impact of the privacy event that necessitated this privacy bulletin."
+  },
+  "privacy-bulletin-entry-item-head-resolution": {
+    "message": "Resolution",
+    "description": "This is a header for text that describes the resolution of the privacy event that necessitated this privacy bulletin."
+  },
   "privacy-bulletin-entry-item-head-what-data": {
     "message": "What user data will be collected"
   },
@@ -1216,6 +1221,26 @@
   "privacy-bulletin-entry-4-when-doing": {
     "message": "This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.",
     "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+  },
+  "privacy-bulletin-entry-4-update": {
+    "message": "User activity data retention was returned to normal by 2020-04-10.",
+    "description": "A section of a privacy bulletin, with an update to previous information."
+  },
+  "privacy-bulletin-entry-5-title": {
+    "message": "2020-06-19: Privacy exception: Accidental user IP retention",
+    "description": "Title for a privacy bulletin"
+  },
+  "privacy-bulletin-entry-5-what-happened": {
+    "message": "We use AWS S3 to host websites, client applications, and remote server lists. We discovered that logging had been enabled for many of our S3 resources since June 2015. These logs include IP addresses of users who accessed those resources.",
+    "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
+  },
+  "privacy-bulletin-entry-5-impact": {
+    "message": "We have no indication that any logs were obtained by any external party, so this is not a user data breach. However, it is a violation of our Privacy Policy.",
+    "description": "A section of a privacy bulletin, describing the impact of a privacy event"
+  },
+  "privacy-bulletin-entry-5-resolution": {
+    "message": "Logging has been disabled for user-accessible S3 buckets and all logs have been deleted. We are working on a system to keep track of privacy exceptions and issues, and investigating AWS resource auditing.",
+    "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
   },
   "privacy-title": {
     "message": "Privacy Policy",
@@ -1398,8 +1423,8 @@
     "message": "An example of user activity data might be: At a certain time a user connected from New York City, using Comcast, and transferred 100MB from <code>youtube.com</code> and 300MB in total.",
     "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
-  "privacy-information-collected-vpndata-useractivity-para-4": {
-    "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
+  "privacy-information-collected-vpndata-useractivity-para-4.1": {
+    "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 90 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
     "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
   "privacy-information-collected-vpndata-aggdata-subhead": {

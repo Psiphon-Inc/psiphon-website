@@ -191,6 +191,14 @@
         "message": "لقطات شاشة توضيحية لإعداد أمان الاندرويد الذي يسمح بتثبيت التطبيقات التي لاتتواجد في المتجر",
         "description": "alt text for an image"
     },
+    "faq-windows-xp-eol-question": {
+        "message": "هل يعمل برنامج سايفون Psiphon للويندوز على نسخة إكس بي أو فيستا؟",
+        "description": "FAQ question."
+    },
+    "faq-windows-xp-eol-answer-para-1": {
+        "message": "بدءًا من ديسمبر 2019، فإن برنامج سايفون Psiphon لم يعد يدعم ويندوز إكس بي أو فيستا. هناك نسخة قديمة <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\"> متوفرة للتحميل</a>والتي ستعمل على هذه النسخ حتى المستقبل القريب، لكن يُنصح بترقية نظام التشغيل إلى نسخة أحدث من نظام ويندوز.",
+        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?'"
+    },
     "faq-information-collected-answer-redirect": {
         "message": "لطفا إطلع على  <a href=\"privacy.html\">سياسة الخصوصية </a> لمعرفة ما هي البيانات التي نجمعها.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
@@ -308,7 +316,7 @@
         "description": "FAQ question"
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "يُخزّن سايفون الخاص بالويندوز البيانات محلياً تحت الملف الشخصي للمستخدم الموجود في مسار قد يبدو هكذا<code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3<code> %APPDATA%\\Psiphon3</code>. يُمكنك حذف البيانات المحلية باتّباع هذا المسار في مستكشف ويندوز ثم حذف البيانات، أو من خلال إدخال هذا الأمر في محثّ الأوامر: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>",
+        "message": "يُخزّن سايفون الخاص بالويندوز البيانات محلياً تحت الملف الشخصي للمستخدم الموجود في مسار قد يبدو كالتالي:<code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3<code> %APPDATA%\\Psiphon3</code>. يُمكنك حذف البيانات المحلية باتّباع هذا المسار في مستكشف ويندوز ثم حذف البيانات، أو من خلال إدخال هذا الأمر في محثّ الأوامر: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?'"
     },
     "faq-proxy-all-question": {
@@ -324,7 +332,7 @@
         "description": ""
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "متصفّح سايفون لنظام  iOS هو مجرد تطبيق متصفح، ولذا يستخدم فقط لتوجيه البيانات المحمّلة على التطبيق نفسه: أي لن تُوجّه التطبيقات الأخرى الخاصة بك (مثل تطبيقات الفيس بوك أو تويتر) من خلال شبكة سايفون. لذلك على سبيل المثال، إذا كنت ترغب في استخدام شبكة سايفون للوصول إلى حساب فيس بوك الخاص بك، يمكنك استخدام متصفّح سفون لتصفح الفيس بوك. أما إذا أردت فتح تطبيق فيس بوك الخاص بك، فسيستخدم شبكة الإنترنت الخاصة بك مباشرة، وبهذا لن توجّه البيانات من خلال شبكة سايفون.",
+        "message": "متصفّح سايفون لنظام  iOS هو مجرد تطبيق متصفح، ولذا يستخدم فقط لتوجيه البيانات المحمّلة على التطبيق نفسه: أي لن تُوجّه التطبيقات الأخرى الخاصة بك (مثل تطبيقات الفيس بوك أو تويتر) من خلال شبكة سايفون. لذلك على سبيل المثال، إذا كنت ترغب في استخدام شبكة سايفون للوصول إلى حساب فيس بوك الخاص بك، يمكنك استخدام متصفّح سايفون لتصفح الفيس بوك. أما إذا أردت فتح تطبيق فيس بوك الخاص بك، فسيستخدم شبكة الإنترنت الخاصة بك مباشرة، وبهذا لن توجّه البيانات من خلال شبكة سايفون.",
         "description": ""
     },
     "faq-browser-compatibility-question": {
@@ -340,7 +348,7 @@
         "description": "FAQ question. Note that 'port' is referring to network ports."
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "لا يمكن إجراء الاتصالات الصادرة عبر شبكة سايفون إلا لمجموعة مقيدة من منافذ الخادم بما في ذلك: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. إقرا <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">هذه المناقشة</a> لمزيد من المعلومات. لا يمكن لعملاء البريد تأسيس إتصالات صادرة على المنفذ 25. إقرا <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">هذه المناقشة</a> لمزيد من المعلومات.",
+        "message": "لا يمكن إجراء الاتصالات الصادرة عبر شبكة Psiphon إلا لمجموعة مقيدة من منافذ الخادم بما في ذلك: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. إقرا <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">هذه المناقشة</a> لمزيد من المعلومات. لا يمكن لعملاء البريد تأسيس إتصالات صادرة على المنفذ 25. إقرا <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">هذه المناقشة</a> لمزيد من المعلومات.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
     },
     "faq-mail-apps-ports-question": {
@@ -491,6 +499,26 @@
         "message": "قبل ديسمبر ٢٠١٥ كان لدى سايفون لأندرويد خاصية سمحت للمستخدمين الذين يملكون أجهزة أندرويد قديمة (ما قبل نسخة ٤.٠) أن يمرروا كامل الجهاز بالنفق إذا كان مجذر. تحديث هام لسايفون قاد  إلغاء هذه الخاصية.    ",
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
+    "faq-refund-question": {
+        "message": "كيف يمكنني الحصول على رد لقيمة الاشتراك، أو قيمة شراء PsiCash أو عملية شراء أخرى؟",
+        "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money."
+    },
+    "faq-refund-answer-para-1": {
+        "message": "<strong>Android:</strong> If it has been less than 48 hours since you made the purchase, you can <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">get a refund through the Play Store</a>. After 48 hours, email us at <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Please include your name, the email address of your Play Store account, the date of the purchase, what was purchased, the amount of the purchase, and the reason you are requesting the refund.",
+        "description": "This is the first paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-2": {
+        "message": "<strong>iOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+        "description": "This is the second paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-3": {
+        "message": "<strong>Windows:</strong> Email us at <a href=\"mailto:refund+windows@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%2FPhone%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Windows\">refund+windows@psiphon.ca</a>. Please include your name, the email address or phone number used at the time of purchase, the date of the purchase, what was purchased, the amount of the purchase, and the reason you are requesting the refund.",
+        "description": "This is the third paragraph of an FAQ answer."
+    },
+    "faq-refund-answer-para-4": {
+        "message": "Note that refunds may take up to a week to process.",
+        "description": "This is the fourth paragraph of an FAQ answer."
+    },
     "alert-heading": {
         "message": "تحذير",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -587,9 +615,9 @@
         "message": "برنامج سايفون لبرنامج التشغيل ويندوز ",
         "description": "text for link to Psiphon for Windows download"
     },
-    "download-windows-direct-description": {
-        "message": "يعمل على Windows XP, Windows Vista, Windows 7, Windows 8 (الاجهزة المكتبية), و Windows 10.",
-        "description": ""
+    "download-windows-direct-description-v2": {
+        "message": "Works on Windows 7, Windows 8 (desktop), and Windows 10.<br>(A legacy build for <a href=\"./faq.html#windows-xp-eol\">Windows XP and Vista</a> is available.)",
+        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
     },
     "download-android-direct": {
         "message": "تحميل مباشر لبرنامج سايفون Psiphon  لأجهزة الأندرويد  Android",
@@ -620,7 +648,7 @@
         "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "download-ios-appstore-psiphon-vpn-description": {
-        "message": "جميع تطبيقاتك على الآيفون او الأيباد الخاص بك ستتمكن من الوصول إلى الإنترنت من خلال شبكة سايفون. متوفر لنظام iOS 10.2 وأعلى.",
+        "message": "جميع تطبيقاتك على الآيفون او الأيباد ستتمكن من الوصول إلى الإنترنت من خلال شبكة سايفون. متوفر لنظام iOS 10.2 وأعلى.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "download-ios-appstore-psiphon-browser": {
@@ -788,7 +816,7 @@
         "description": "alt text for an image"
     },
     "user-guide-windows-image-2-alt": {
-        "message": "لقطات شاشة توضيحية لعملية تشغيل سايفون على الويندوز",
+        "message": "لقطات شاشة توضيحية لعملية تشغيل Psiphon على الويندوز",
         "description": "alt text for an image"
     },
     "user-guide-windows-image-3-alt": {
@@ -1035,9 +1063,9 @@
         "message": "سايفون هو برنامج تجاوز رقابة ذو مصدر مفتوح ",
         "description": ""
     },
-    "open-source-para-1": {
-        "message": "سيفون 3 هو مشروع مفتوح المصدر. يمكنك العثور على رمز المصدر ووثائق التصميم على صفحات المشروع على موقعيّ Bitbucket وGitHub.",
-        "description": "Paragraph on the Open Source page indicating that Psiphon is open source. It is followed by a list of links to our Bitbucket and GitHub project pages."
+    "open-source-para-1b": {
+        "message": "Psiphon is open source.",
+        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It should be kept short. It is a link to our Github project."
     },
     "open-source-para-2": {
         "message": "يرجى من عملاء سايفون Psiphon استخدام عناصر المصدر المفتوح التالية.",
@@ -1045,11 +1073,11 @@
     },
     "open-source-para-3-list-start": {
         "message": "ويندوز :",
-        "description": ""
+        "description": "This refers to the Microsoft Windows operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Windows."
     },
     "open-source-para-4-list-start": {
         "message": "أندرويد:",
-        "description": ""
+        "description": "This refers to Google's Android operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Android."
     },
     "page-keyword-download": {
         "message": "تنزيل ",
@@ -1241,19 +1269,19 @@
     },
     "privacy-bulletin-entry-1-title": {
         "message": "2014-04-17: تمكين S3 bucket logging",
-        "description": ""
+        "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-1-what-doing": {
         "message": "نحن في طور تمكين  تسجيل الدخول access logging لموقع واحد أمازون Amazon S3 \"bucket\" (حاوية التخزين). (لأسباب تقنية، نشغل عدة نسخ من الموقع في S3 buckets مختلفة.)",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-why-doing": {
         "message": "نحن نفعل هذا لنحدد أعداد الدخول الموجودة لقائمة الخادم عن بعد \"remote server list\"  المخزنة في الدلو Bucket. هذا سيعطينا فكرة عن عدد المستخدمين الذين يفشلون بالإتصال. ",
-        "description": ""
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-when-doing": {
         "message": "سيتم تمكين التسجيل من  2014-04-17T15:00Z to 2014-04-18T15:00Z.",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-1-what-data": {
         "message": "التسجيل سيجمع عناوين الآي بي، عملاء المستخدم، وأوقات الدخول لموقع واحد. عندما يتم معالجات هذه البيانات، سيصبح عندنا تعداد المستخدمين، مقسمين على منطقة جغرافية، الذين نجحوا بالدخول إلى الملف المعني. ",
@@ -1273,19 +1301,51 @@
     },
     "privacy-bulletin-entry-2-title": {
         "message": "2015-06-01: تحديث سياسة الخصوصية ",
-        "description": ""
+        "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-2-what-doing": {
         "message": "نحن نحدث  <a href=\"privacy.html\">سياسة الخصوصية</a>. هذا يشمل الجواب للسؤال المتكرر: أي بيانات يجمعها برنامج سايفون؟.",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-why-doing": {
         "message": " صفحة <a href=\"privacy.html\">سياسة الخصوصية</a> هي الآن المكان الوحيد الذي يحتاجه المستخدمون للإطلاع على سياسات سايفون للخصوصية وتجميع البيانات. لقد تم تحديثها لكي تعكس إستعمال الإعلانات، التحليلات، والتسجيل لبعض من مواقعنا.  ",
-        "description": ""
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-when-doing": {
         "message": "يعمل بها من تاريخ  2015-06-01T00:00Z.",
-        "description": ""
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-3-title": {
+        "message": "2019-12-11: Privacy Policy update",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-3-what-doing": {
+        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. We are changing the retention period of User Activity Data from 60 days to 90 days. We also expanded the information about Privacy Bulletins. For the exact changes, see the <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-3-why-doing": {
+        "message": "To ensure the Privacy Policy accurately reflects our data practices.",
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-3-when-doing": {
+        "message": "This will be in effect on 2019-12-12T00:00Z.",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-4-title": {
+        "message": "2019-12-11: Temporary data retention extension",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-4-what-doing": {
+        "message": "We are temporarily halting User Activity Data pruning, effectively extending the data retention period.",
+        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-4-why-doing": {
+        "message": "We need to keep granular activity data longer to give us time to analyze recent censorship events.",
+        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
+    },
+    "privacy-bulletin-entry-4-when-doing": {
+        "message": "This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.",
+        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-title": {
         "message": "سياسة الخصوصية",
@@ -1319,13 +1379,25 @@
         "message": "مكتب مفوضية الخصوصية التابع لمقاطعة أونتاريو",
         "description": ""
     },
+    "privacy-updates-head": {
+        "message": "Updates",
+        "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
+    },
+    "privacy-bulletin-info-para-1": {
+        "message": "From time to time, Psiphon will add entries to our <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a>. This will happen for two reasons:",
+        "description": "Paragraph introducing a bullet list."
+    },
+    "privacy-bulletin-info-para-2-item-1": {
+        "message": "We modify the Privacy Policy. This can happen when new laws add different requirements, or if we start or stop using a third-party service. We will detail the changes made to the policy.",
+        "description": "A bullet list item following from 'This will happen for two reasons:'"
+    },
+    "privacy-bulletin-info-para-2-item-2": {
+        "message": "We temporarily deviate from our Privacy Policy by changing our information collection behaviour. This is typically done to resolve a problem with our service, or to give us more time to analyze our data relating to an interesting censorship event. We will describe the change, for example what was recorded, how long it was kept, and why.",
+        "description": "A bullet list item following from 'This will happen for two reasons:'"
+    },
     "faq-information-collected-question": {
         "message": "ما هي المعلومات الخاصة بالمستخدم والتي يقوم برنامج سايفون بجمعها؟ ",
-        "description": "FAQ question."
-    },
-    "faq-information-collected-answer-para-9": {
-        "message": "قد يقوم سايفون بين الفينة والآخرى بتسجيل معلومات إضافيه بهدف حل مشكله ما متعلقة بخدماتنا. ،عند حدوث هذا٫ سوف نقوم بنشر فقره جديده في <a href=\"./privacy-bulletin.html\">بيان الخصوصية </a> تصف ما تم تسجيله، ومدة حفظه وسببه.",
-        "description": ""
+        "description": "Heading for a section in our privacy policy."
     },
     "privacy-information-collected-client-ads-head": {
         "message": "شبكات الدعاية والإعلان الخاصة ببرنامج سايفون",
@@ -1480,7 +1552,7 @@
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4": {
-        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it.",
+        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 60 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {

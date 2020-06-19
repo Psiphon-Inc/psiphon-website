@@ -3,9 +3,11 @@ layout: _/default
 ---
 
 <main id="page" class="page">
-  <header>
-    <h1><%= @getTitle() %></h1>
-  </header>
+  <% if !@document.xxx: %>
+    <header>
+      <h1><%= @getTitle() %></h1>
+    </header>
+  <% end %>
   <section>
     <div class="page-content"><%- @content %></div>
   </section>
