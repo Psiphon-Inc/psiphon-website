@@ -9,7 +9,7 @@ layout: _/default
   <div class="col-xs-8-center">
     <a href="<%= @getFullTranslatedURL '/download.html' %>">
       <img src="<%= @document.pathToRoot %>/images/hero/hero-large.png"
-           class="img-responsive center-block" alt="<%= @tt 'index-hero-alt' %>">
+           class="img-responsive center-block" alt="Psiphon">
       <h1 class="slabtext-container text-center" data-max-font-size="60">
         <span class="slabtext slab-main">
           <%= @tt 'index-hero-subtext' %>

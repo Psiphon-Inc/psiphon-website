@@ -1064,20 +1064,8 @@
         "description": ""
     },
     "open-source-para-1b": {
-        "message": "Psiphon açık kaynaklıdır.",
-        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It should be kept short. It is a link to our Github project."
-    },
-    "open-source-para-2": {
-        "message": "Psiphon istemcilerinde aşağıdaki açık kaynak bileşenleri kullanılmıştır:",
-        "description": ""
-    },
-    "open-source-para-3-list-start": {
-        "message": "Windows:",
-        "description": "This refers to the Microsoft Windows operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Windows."
-    },
-    "open-source-para-4-list-start": {
-        "message": "Android:",
-        "description": "This refers to Google's Android operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Android."
+        "message": "Psiphon açık kaynaklı bir projedir. Kaynak kodunu GitHub üzerinde bulabilirsiniz.",
+        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It is a link to our Github project."
     },
     "page-keyword-download": {
         "message": "indir",
@@ -1251,6 +1239,22 @@
         "message": "Ne zaman yapıyoruz",
         "description": ""
     },
+    "privacy-bulletin-entry-item-head-update": {
+        "message": "Güncelle",
+        "description": "This is a header for text that is an update to an existing privacy bulletin."
+    },
+    "privacy-bulletin-entry-item-head-what-happened": {
+        "message": "Ne oldu",
+        "description": "This is a header for text that describes what happened to necessitate this privacy bulletin"
+    },
+    "privacy-bulletin-entry-item-head-impact": {
+        "message": "Etki",
+        "description": "This is a header for text that describes the impact of the privacy event that necessitated this privacy bulletin."
+    },
+    "privacy-bulletin-entry-item-head-resolution": {
+        "message": "Çözüm",
+        "description": "This is a header for text that describes the resolution of the privacy event that necessitated this privacy bulletin."
+    },
     "privacy-bulletin-entry-item-head-what-data": {
         "message": "Hangi kullanıcı verileri toplanıyor",
         "description": ""
@@ -1346,6 +1350,26 @@
     "privacy-bulletin-entry-4-when-doing": {
         "message": "Bu uygulama 2019-12-12T00:00Z saatinde başlayarak bir ay süreyle geçerli olacaktır. Daha uzun süreye gerek duyduğumuzu anlarsak bu bülteni güncelleyeceğiz.",
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-4-update": {
+        "message": "Kullanıcı işlemi verilerini saklama süresi 2020-04-10 tarihinde normale döndürüldü.",
+        "description": "A section of a privacy bulletin, with an update to previous information."
+    },
+    "privacy-bulletin-entry-5-title": {
+        "message": "2020-06-19: Kişisel gizlilik sorunu: Kazara kullanıcı IP adresinin kaydedilmesi",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-5-what-happened": {
+        "message": "Web sitelerini, istemci uygulamalarını ve uzak sunucu listelerini barındırmak için AWS S3 kullanıyoruz. Haziran 2015 tarihinden itibaren S3 kaynaklarımızın çoğunda günlük tutma özelliğinin etkin olduğunu farkettik. Bu günlüklerde bu kaynaklara erişen kullanıcıların IP adresleri bulunuyor.",
+        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
+    },
+    "privacy-bulletin-entry-5-impact": {
+        "message": "Herhangi bir günlüğün başka birinin eline geçtğine dair bir bulgu olmadığından kullanıcı bilgileri açığa çıkmış sayılmaz. Bununla birlikte bu durum Gizlilik İlkemize aykırı bir durum oluşturuyor.",
+        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
+    },
+    "privacy-bulletin-entry-5-resolution": {
+        "message": "Kullanıcılar tarafından erişilebilen S3 klasörleri için günlük kaydı özelliği devre dışı bırakıldı ve tüm günlükler silindi. Gizlilikle ilgili sorunları izlemek ve AWS kaynak denetimini araştırmak için bir sistem üzerinde çalışıyoruz.",
+        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
     },
     "privacy-title": {
         "message": "Kişisel Gizlilik İlkesi",
@@ -1551,8 +1575,8 @@
         "message": "Örneğin kullanıcı işlemi verileri şöyle olabilir: Belirli bir zamanda bir kullanıcı Türk Telekom bağlantısını kullanarak Ankara'dan bağlandı ve <code>youtube.com</code> üzerinden aktarılan toplam 300MB verinin 100MB kadarını aktardı.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
-    "privacy-information-collected-vpndata-useractivity-para-4": {
-        "message": "Kullanıcı işlemleri verilerini en hassas veri kategorisi olarak değerlendiriyoruz. Bu verileri asla üçüncü şahıslarla paylaşmmıyoruz. Kullanıcı işlemleri verilerini en fazla 60 gün saklıyoruz, sonra sonuçlarını derleyip ham verileri siliyoruz. Bu verilerin yedeklerini makul bir süre boyunca saklıyoruz.",
+    "privacy-information-collected-vpndata-useractivity-para-4.1": {
+        "message": "Kullanıcı işlemleri verilerini en hassas veri kategorisi olarak değerlendiriyoruz. Bu verileri asla üçüncü şahıslarla paylaşmmıyoruz. Kullanıcı işlemleri verilerini en fazla 90 gün saklıyoruz, sonra sonuçlarını derleyip ham verileri siliyoruz. Bu verilerin yedeklerini makul bir süre boyunca saklıyoruz.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {

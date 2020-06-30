@@ -63,7 +63,8 @@ docpadConfig = {
 
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
-    languages: ['en', 'fa', 'ar', 'zh', 'am', 'az', 'be', 'bn', 'bo', 'de', 'el', 'es', 'fa_AF', 'fi', 'fr', 'hr', 'id', 'kk', 'km', 'ko', 'ky', 'my', 'nb', 'nl', 'om', 'pt_BR', 'pt_PT', 'ru', 'tg', 'th', 'ti', 'tk', 'tr', 'uk', 'ur', 'uz', 'vi', 'zh_TW']
+    # NOTE: Do NOT remove languages unless you're sure they're not linked to from store descriptions, privacy policies, etc.
+    languages: ['en', 'fa', 'ar', 'zh', 'am', 'az', 'be', 'bn', 'bo', 'de', 'el', 'es', 'fa_AF', 'fi', 'fr', 'he', 'hi', 'hr', 'id', 'it', 'kk', 'km', 'ko', 'ky', 'my', 'nb', 'nl', 'om', 'pt_BR', 'pt_PT', 'ru', 'tg', 'th', 'ti', 'tk', 'tr', 'uk', 'ur', 'uz', 'vi', 'zh_TW']
     # Even if this array is modified during generation, the full list will always
     # be available in @all_languages.
 
@@ -85,8 +86,11 @@ docpadConfig = {
       fa_AF: './_locales/fa_AF/messages.json'
       fi: './_locales/fi/messages.json'
       fr: './_locales/fr/messages.json'
+      he: './_locales/he/messages.json'
+      hi: './_locales/hi/messages.json'
       hr: './_locales/hr/messages.json'
       id: './_locales/id/messages.json'
+      it: './_locales/it/messages.json'
       kk: './_locales/kk/messages.json'
       km: './_locales/km/messages.json'
       ko: './_locales/ko/messages.json'
@@ -251,10 +255,10 @@ docpadConfig = {
         title = @getTitle()
 
       if title
-        return "#{@tt 'psiphon'} | #{title}"
+        return "Psiphon | #{title}"
       else
         # if our document does not have it's own title, then we should just use the site's title
-        return "#{@tt 'psiphon'}"
+        return "Psiphon"
 
     # Get the prepared site/document description
     getPreparedDescription: ->
@@ -348,6 +352,8 @@ docpadConfig = {
         "fa_AF": "ﻑﺍﺮﺳی ﺩﺭی"
         "fi": "Suomi"
         "fr": "Français"
+        "he": "עברית"
+        "hi": "हिन्दी"
         "hr": "Hrvatski"
         "hu": "Magyar"
         "id": "Bahasa Indonesia"
@@ -357,8 +363,8 @@ docpadConfig = {
         "ko": "한국말"
         "ky": "Кыргызча"
         "my": "မြန်မာဘာသာ"
-        "nl": "Nederlands"
         "nb": "Norsk (bokmål)"
+        "nl": "Nederlands"
         "om": "Afaan Oromo"
         "pl": "Polski"
         "pt_BR": "Português (Brasil)"

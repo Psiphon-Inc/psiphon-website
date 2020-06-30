@@ -18,7 +18,7 @@
     </a>
     <a class="navbar-brand navbar-brand-name <%- @ifRTL 'navbar-right' %> <%- @ifRTL 'pull-right' %>" href="<%= @getFullTranslatedURL '/index.html' %>">
       <span>
-        <%= @tt 'psiphon' %>
+        Psiphon
       </span>
     </a>
   </div>
@@ -55,7 +55,7 @@
     </ul>
 
     <!-- LANGUAGE SWITCHER -->
-    
+
     <ul class="nav navbar-nav <%- @ifRTL 'navbar-left', 'navbar-right' %>">
       <li class="languages dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="<%= @getFullTranslatedURL '/nav/language.html' %>">
@@ -65,8 +65,8 @@
           <% for language in @all_languages : %>
           <li>
             <!-- If there's no translated equivalent to the current page, just link to the translated index page -->
-            
-            
+
+
             <a href="<%= @getFullTranslatedURL @document.url, language %>">
               <%= @languageLabel language %>
             </a>
@@ -75,7 +75,7 @@
         </ul>
       </li>
     </ul>
-    
+
     <!-- /LANGUAGE SWITCHER -->
 
   </div>

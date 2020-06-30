@@ -8,31 +8,31 @@
         "description": "Meta title for the index page"
     },
     "index-description": {
-        "message": "Psiphon is circumvention software for Windows and Mobile platforms that provides uncensored access to Internet content",
+        "message": "Psiphon è un software di protezione per le piattaforme Windows e Mobile che fornisce un accesso non censurato ai contenuti di Internet",
         "description": "Page description for the index page"
     },
     "index-hero-subtext": {
-        "message": "beyond borders",
+        "message": "oltre i limiti",
         "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
     },
     "index-hero-alt": {
-        "message": "Psiphon (سائفن)",
+        "message": "Psiphon",
         "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
     "nav-language-title": {
-        "message": "Choose your language",
+        "message": "Scegli la tua lingua",
         "description": ""
     },
     "nav-title": {
-        "message": "Navigation",
+        "message": "Navigazione%",
         "description": ""
     },
     "faq-title": {
-        "message": "Frequently Asked Questions",
+        "message": "FAQ",
         "description": "title for the FAQ page"
     },
     "faq-meta-title": {
-        "message": "Frequently Asked Questions",
+        "message": "FAQ",
         "description": "meta title for the FAQ page"
     },
     "faq-nav-title": {
@@ -44,11 +44,11 @@
         "description": "description for the FAQ page"
     },
     "resources-nav-title": {
-        "message": "Resources",
+        "message": "Risorse",
         "description": "title for the Resources"
     },
     "user-guide-title": {
-        "message": "How to Use Psiphon",
+        "message": "Come usare Psiphon",
         "description": "page title for the user guide page"
     },
     "user-guide-meta-title": {
@@ -56,7 +56,7 @@
         "description": "meta title for the user guide page"
     },
     "user-guide-nav-title": {
-        "message": "User Guide",
+        "message": "Guida Utente",
         "description": "text for the user guide page navigation item"
     },
     "user-guide-description": {
@@ -64,7 +64,7 @@
         "description": "description for the user guide page"
     },
     "download-title": {
-        "message": "Psiphon (سائفن) ڈاؤن لوڈ کریں",
+        "message": "Scarica Psiphon",
         "description": "page title for the download page"
     },
     "download-meta-title": {
@@ -72,7 +72,7 @@
         "description": "meta title for the download page"
     },
     "download-nav-title": {
-        "message": "ڈاؤن لوڈ کریں",
+        "message": "Scaricamento",
         "description": "text for the Download page navigation item"
     },
     "download-description": {
@@ -96,7 +96,7 @@
         "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
     },
     "faq-section-troubleshooting": {
-        "message": "Troubleshooting",
+        "message": "Risoluzione dei problemi",
         "description": "Section heading for FAQ entries that help the user figure out why Psiphon isn't working for them and solve the problem."
     },
     "faq-subsection-troubleshooting-android": {
@@ -120,7 +120,7 @@
         "description": "alt text for an image"
     },
     "faq-authentic-windows-question": {
-        "message": "Is my Psiphon for Windows authentic?",
+        "message": "Il mio Psiphon per Windows è autentico?",
         "description": ""
     },
     "faq-authentic-windows-answer-para-1": {
@@ -276,7 +276,7 @@
         "description": ""
     },
     "faq-check-version-answer-para-1": {
-        "message": "When Psiphon starts, it displays the Client Version on the first line of log output.",
+        "message": "All'avvio di Psiphon, visualizza la versione client sulla prima riga dell'output del registro.",
         "description": ""
     },
     "faq-get-updated-version-question": {
@@ -296,11 +296,11 @@
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
     },
     "faq-orig-file-purpose-question": {
-        "message": "What is the file “psiphon3.exe.orig”?",
+        "message": "Cos'è il file “psiphon3.exe.orig”?",
         "description": ""
     },
     "faq-orig-file-purpose-answer-para-1": {
-        "message": "The automatic update process in Psiphon for Windows renames its old version to “psiphon3.exe.orig”. Old files with the “.orig” suffix can safely be deleted.",
+        "message": "Il processo di aggiornamento automatico in Psiphon per Windows, rinomina la vecchia versione in \"psiphon3.exe.orig\". I file obsoleti con estensione \".orig\", possono essere tranquillamente rimossi.",
         "description": ""
     },
     "faq-uninstall-windows-question": {
@@ -324,7 +324,7 @@
         "description": ""
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "Only in VPN mode. After a successful connection is established in VPN mode, your entire computer’s traffic will pass through the Psiphon network. When VPN mode is not enabled only applications that use the local HTTP and SOCKS proxies will be proxied.",
+        "message": "Solo in modalità VPN. Stabilita una connessione in modalità VPN, tutto il traffico passa attraverso la rete Psiphon. Quando la modalità VPN non è abilitata solo le applicazioni che usano i proxy locali HTTP e SOCKS passano attraverso la rete Psiphon.",
         "description": ""
     },
     "faq-proxy-all-ios-browser-question": {
@@ -340,7 +340,7 @@
         "description": ""
     },
     "faq-browser-compatibility-answer-para-1": {
-        "message": "Yes. Check your browser settings and make sure that it is configured to use the system proxy settings.",
+        "message": "Sì. Verifica il tuo browser ed assicurati che sia configurato per usare il proxy di sistema.",
         "description": ""
     },
     "faq-port-restrictions-question": {
@@ -400,7 +400,7 @@
         "description": ""
     },
     "faq-vpn-protocol-answer-para-1": {
-        "message": "Psiphon uses the L2TP/IPsec VPN protocol.",
+        "message": "Psiphon usa i protocolli VPN L2TP/IPsec.",
         "description": ""
     },
     "faq-windows-vpn-connect-question": {
@@ -520,7 +520,7 @@
         "description": "This is the fourth paragraph of an FAQ answer."
     },
     "alert-heading": {
-        "message": "ALERT",
+        "message": "ALLARME",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "alert-body": {
@@ -528,11 +528,11 @@
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "download-now-button": {
-        "message": "Download Now",
+        "message": "Scarica adesso",
         "description": "The text on the Download Now button"
     },
     "what-is-psiphon-heading": {
-        "message": "What is Psiphon?",
+        "message": "Cos'è Psiphon?",
         "description": ""
     },
     "what-is-psiphon-body-para-1": {
@@ -540,7 +540,7 @@
         "description": ""
     },
     "what-is-psiphon-body-para-2": {
-        "message": "Psiphon سائفن کو آپ کیلئے آن لائن مواد کی کھلی رسائی کیساتھ فراہمی کے سلسلے میں ترتیب دیا گیا ہے۔ Psiphon آپ کی آن لائن پرائیویسی کو نہیں بڑھاتا اور اس کا استعمال کسی آن لائن حفاظتی ٹول کے طور پر نہیں کیا جانا چاہئے۔",
+        "message": "Psiphon is designed to provide you with open access to online content. Psiphon does not increase your online privacy, and should not be considered or used as an online security tool.",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {
@@ -556,7 +556,7 @@
         "description": ""
     },
     "main-gets-you-there-safely-head-1": {
-        "message": "...and gets you there safely.",
+        "message": "...e ti porterà al sicuro.",
         "description": ""
     },
     "main-gets-you-there-safely-head-2": {
@@ -568,7 +568,7 @@
         "description": ""
     },
     "main-pick-three-head-1": {
-        "message": "Trust, Speed, Simplicity: pick three",
+        "message": "Affidabilità, velocità. semplicità: 3 in 1",
         "description": ""
     },
     "main-pick-three-para-1": {
@@ -576,15 +576,15 @@
         "description": ""
     },
     "about-title": {
-        "message": "About Us",
+        "message": "Informazioni su di noi",
         "description": "page title for the About page"
     },
     "about-meta-title": {
-        "message": "About Us",
+        "message": "Informazioni su di noi",
         "description": "meta title for the About page"
     },
     "about-nav-title": {
-        "message": "About Us",
+        "message": "Informazioni su di noi",
         "description": "text for the About page navigation item"
     },
     "about-description": {
@@ -592,15 +592,15 @@
         "description": "description for the About page"
     },
     "about-get-latest-info-head": {
-        "message": "Get the latest information about Psiphon",
+        "message": "Ottieni le ultime informazioni su Psiphon",
         "description": ""
     },
     "about-get-latest-info-para-1-list-start": {
-        "message": "Join our mailing lists:",
+        "message": "Unisciti alla nostra lista di posta",
         "description": ""
     },
     "about-get-latest-info-para-1-announcements-list": {
-        "message": "Psiphon Announcements",
+        "message": "Annunci Psiphon",
         "description": "text for link to the Psiphon Announcements mailing list"
     },
     "about-get-latest-info-para-1-users-list": {
@@ -608,11 +608,11 @@
         "description": "text for link to the Psiphon Users mailing list"
     },
     "about-get-latest-info-para-1-developers-list": {
-        "message": "Psiphon Developers",
+        "message": "Sviluppatori Psiphon",
         "description": "text for link to the Psiphon Developers mailing list"
     },
     "download-windows-direct": {
-        "message": "ونڈوز کیلئے Psiphon (سائفن)",
+        "message": "Psiphon per Windows",
         "description": "text for link to Psiphon for Windows download"
     },
     "download-windows-direct-description-v2": {
@@ -620,19 +620,19 @@
         "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
     },
     "download-android-direct": {
-        "message": "اینڈرائیڈ کیلئے Psiphon (سائفن) براہِ راست ڈاؤن لوڈ کریں",
+        "message": "Scarica Psiphon per Android",
         "description": "text for link to Psiphon for Android direct download"
     },
     "download-android-direct-description": {
-        "message": "اگر آپ Google Play Store تک رسائی نہیں رکھتے تو آپ اینڈرائیڈ کیلئے براہِ راست Psiphon (سائفن) (’’<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">سائیڈ لوڈ</a>‘‘) ڈاؤن لوڈ اور انسٹال کر سکتے ہیں۔",
+        "message": "In mancanza di accesso a Google Play Store, puoi scaricare ed installare Psiphon per Anfroid usando il (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">sideloading</a>\").",
         "description": ""
     },
     "download-android-playstore-pro": {
-        "message": "Google Play Store میں <strong>اینڈرائیڈ کیلئے  Psiphon Pro (سائفن پرو)</strong>",
+        "message": "<strong>Psiphon Pro for Android</strong> in the Google Play Store",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "download-android-playstore-pro-description": {
-        "message": "گوگل پلے سٹور سے Psiphon Pro (سائفن پرو) ڈاؤن لوڈ کر کے <strong>آزادئ انٹرنیٹ کی حمایت کریں</strong>۔ (تمام ممالک میں دستیاب نہیں) ",
+        "message": "<strong>Support Internet freedom</strong> by downloading Psiphon Pro from the Google Play Store. (Not available in all countries.)",
         "description": ""
     },
     "download-android-amazon": {
@@ -644,47 +644,47 @@
         "description": ""
     },
     "download-ios-appstore-psiphon-vpn": {
-        "message": "Apple App Store میں <strong>iOS کیلئے Psiphon (سائفن)</strong>",
+        "message": "<strong>Psiphon for iOS</strong> in the Apple App Store",
         "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "download-ios-appstore-psiphon-vpn-description": {
-        "message": "آپ کے آئی فون یا آئی پیڈ پر تمام ایپس Psiphon (سائفن) نیٹ ورک کے ذریعے انٹرنیٹ رسائی حاصل کریں گے۔ iOS 10.2 اور سے اوپر کی مشینوں کیلئے دستیاب ہے۔ ",
+        "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "download-ios-appstore-psiphon-browser": {
-        "message": "Apple App Store میں <strong>iOS کیلئے Psiphon (سائفن) براؤزر</strong>",
+        "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
         "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "اپنے پسندیدہ ویب سائٹس اور سروسز تک Psiphon (سائفن) نیٹ ورک سے رسائی وہ بھی ہمارے استعمال میں کافی آسان ویب براؤزر کے ساتھ۔ یہ صرف iOS 8 یا اس سے اوپر کی مشینوں کیلئے دستیاب ہے۔",
+        "message": "Access your favorite web sites and services through the Psiphon network with our easy-to-use web browser. Available for iOS 8 and higher.",
         "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "download-store-head": {
-        "message": "ایپ سٹور ڈاؤن لوڈز",
+        "message": "App Store Downloads",
         "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
     },
     "download-direct-head": {
-        "message": "براہِ راست ڈاؤن لوڈز",
+        "message": "Download diretto",
         "description": ""
     },
     "download-via-email-head": {
-        "message": "ڈاؤن لوڈ بذریعہ ای میل",
+        "message": "Scarica via email",
         "description": ""
     },
     "download-via-email-description": {
-        "message": "اگر ہماری ویب سائٹ یا ڈاؤن لوڈ لنکس سنسر یا بلاک ہوجائیں تو آپ ای میل کے ذریعے ڈاؤن لوڈز بھیجنے کی درخواست کر سکتے ہیں۔",
+        "message": "If our website or download links are blocked or censored, you may request to have the downloads sent to you via email.",
         "description": ""
     },
     "download-list-join": {
-        "message": "حفاظتی مشاورت اور ضروری اعلانات کیلئے ہماری <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">اعلانیہ میلنگ لسٹ</a> میں شامل ہوں۔",
+        "message": "Join our <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Announcements mailing list</a> for important announcements and security advisories.",
         "description": ""
     },
     "user-guide-android-head": {
-        "message": "Psiphon for Android",
+        "message": "Psiphon per Android",
         "description": "heading for the Android section of the User Guide"
     },
     "user-guide-android-para-verify-authentic": {
-        "message": "You should first <a href=\"./faq.html#authentic-android\">verify that your copy of Psiphon for Android is authentic</a>.",
+        "message": "Dovresti prima <a href=\"./faq.html#authentic-android\">verificare che la tua copia di Psiphon per Android sia autentica</a>.",
         "description": ""
     },
     "user-guide-android-para-1": {
@@ -708,15 +708,15 @@
         "description": "alt text for an image"
     },
     "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon is running",
+        "message": " Psiphon è in esecuzione",
         "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
     },
     "user-guide-android-image-3-annotation-2": {
-        "message": "Switch between open tabs",
+        "message": "Commutare fra le schede aperte",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
     },
     "user-guide-android-image-3-annotation-3": {
-        "message": "Close current tab",
+        "message": "Chiudere la scheda corrente",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
     },
     "user-guide-android-image-3-annotation-4": {
@@ -724,27 +724,27 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
     },
     "user-guide-android-image-3-annotation-5": {
-        "message": "Open new tab",
+        "message": "Apri una nuova scheda",
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
     },
     "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon is running in VPN or Whole Device mode. All applications are tunneled through Psiphon.",
+        "message": "Psiphon è in esecuzione in modalità VPN o Full Device. Tutte le applicazioni sono instradate attraverso Psiphon.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "user-guide-android-ui-status-image-annotation-2": {
-        "message": "Status Tab is selected",
+        "message": "Scheda di stato selezionata",
         "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "To run Psiphon in Tunnel Whole Device mode, you must have Android 4.0+ or a rooted device.<br><br>This option will be unavailable for non-rooted devices with an older version of Android.",
+        "message": "Per eseguire Psiphon in modalità Tunnel Whole Device, è necessario disporre di Android 4.0+ o di un dispositivo con permessi di root.<br><br> Questa opzione non sarà disponibile per i dispositivi no-root con una versione precedente di Android.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Grey</span>: connecting<br><span style=\"color:red\">Red</span>: not connected<br><span style=\"color:Blue\">Blue</span>: connected",
+        "message": "<span style=\"color:grey\">Grigio</span>: connessione in corso<br><span style=\"color:red\">Rosso</span>: non connesso<br><span style=\"color:Blue\">Blu</span>: connesso",
         "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
     },
     "user-guide-android-ui-status-image-annotation-5": {
-        "message": "Shows what version of Psiphon you are currently running",
+        "message": "Mostra la versione di Psiphon attualmente in uso",
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
     "user-guide-android-ui-logs-image-alt": {
@@ -780,7 +780,7 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
     },
     "user-guide-windows-head": {
-        "message": "ونڈوز کیلئے Psiphon (سائفن)",
+        "message": "Psiphon per Windows",
         "description": "heading for the Android section of the User Guide"
     },
     "user-guide-windows-para-verify-authentic": {
@@ -788,7 +788,7 @@
         "description": ""
     },
     "user-guide-windows-para-1": {
-        "message": "کلائنٹ پروگرام ڈاؤن لوڈ کریں اور اسے چلائیں۔ جب آپ اسے چلائیں تو آپ کو یہ دیکھنا چاہئے ایک حفاظتی اشتہار چلے گا کہ یہ پروگرام  .Psiphon Inc(سائفن اِن کارپوریشن) کی منظور شدہ مصنوعات میں سے ہے۔",
+        "message": "Download the client program and run it. When you run it, you should see a security prompt showing that this program is a legitimate product of Psiphon Inc.",
         "description": ""
     },
     "user-guide-windows-para-2": {
@@ -816,11 +816,11 @@
         "description": "alt text for an image"
     },
     "user-guide-windows-image-2-alt": {
-        "message": "Screenshot showing Psiphon starting up on Windows",
+        "message": "Schermata che mostra l'avvio di Psiphon su Windows",
         "description": "alt text for an image"
     },
     "user-guide-windows-image-3-alt": {
-        "message": "Screenshot showing Psiphon connected on Windows",
+        "message": "Schermata che mostra la connessione di Psiphon su Windows",
         "description": "alt text for an image"
     },
     "blog-index-title": {
@@ -832,7 +832,7 @@
         "description": ""
     },
     "blog-index-nav-title": {
-        "message": "Our Blog",
+        "message": "Blog",
         "description": "Text for the navigation bar link to the blog"
     },
     "blog-index-description": {
@@ -840,7 +840,7 @@
         "description": ""
     },
     "blog-index-subscribe": {
-        "message": "Subscribe",
+        "message": "Sottoscrivi",
         "description": ""
     },
     "blog-index-intro": {
@@ -848,11 +848,11 @@
         "description": ""
     },
     "blog-index-posts-in-your-language": {
-        "message": "Posts in your language",
+        "message": "Post nella tua lingua",
         "description": "TRANSLATORS NOTE: Please translate it as 'Posts in Farsi', 'Posts in Russian', etc. This is the heading for the list of blog posts that have been translated into the user's language."
     },
     "blog-index-posts-in-english": {
-        "message": "Posts in English",
+        "message": "Post in inglese",
         "description": "Heading for the list of blog posts that are available in English"
     },
     "sponsor-title": {
@@ -872,7 +872,7 @@
         "description": "Page description for the Sponsorship page"
     },
     "sponsor-header-sponsored-by": {
-        "message": "سپانسر شدہ",
+        "message": "Sponsorizzato da",
         "description": ""
     },
     "sponsor-banner-alt-text": {
@@ -880,11 +880,11 @@
         "description": "alt text for an image"
     },
     "sponsor-para-1": {
-        "message": "Everyone who loads Psiphon will see the landing page whenever they connect with the software. Sponsorship opportunities are available by the week for this page.",
+        "message": "Tutti coloro che avviano Psiphon vedranno la pagina di destinazione ogni volta che si connettono al software.. Le opportunità di sponsorizzazione per questa pagina, sono disponibili settiamanalmente.",
         "description": ""
     },
     "sponsor-para-2": {
-        "message": "You will see a banner of your choice, which will be linked to a page on your site. This is a unique opportunity to reach a large audience of technically-aware people using Psiphon to add a layer of security to their Internet browsing.",
+        "message": "Vedranno un banner a Vostra scelta, collegato ad una pagina del Vostro sito. Questa è un'opportunità unica per raggiungere un vasto pubblico di persone tecnicamente consapevoli, utilizzanti Psiphon per avere un livello di sicurezza superiore nella navigazione Internet.",
         "description": ""
     },
     "sponsor-para-3": {
@@ -892,7 +892,7 @@
         "description": ""
     },
     "license-title": {
-        "message": "Psiphon End-User License Agreement",
+        "message": "Contratto di licenza per l'utente Psiphon",
         "description": ""
     },
     "license-meta-title": {
@@ -900,7 +900,7 @@
         "description": ""
     },
     "license-nav-title": {
-        "message": "License",
+        "message": "Licenza",
         "description": ""
     },
     "license-para-1": {
@@ -916,7 +916,7 @@
         "description": ""
     },
     "license-terms-of-use-header": {
-        "message": "Terms of Use",
+        "message": "Termini di uso",
         "description": ""
     },
     "license-terms-of-use-para": {
@@ -924,7 +924,7 @@
         "description": ""
     },
     "license-distribution-header": {
-        "message": "Distribution",
+        "message": "Distribuzione",
         "description": ""
     },
     "license-distribution-para": {
@@ -936,7 +936,7 @@
         "description": ""
     },
     "license-personal-or-specified-use-para": {
-        "message": "Use of the Psiphon service is granted under a non-exclusive, personal license. By using Psiphon, you agree to use the service for personal, non-commercial use only. You may not (and may not allow a third party to) rent, lease, sublicense, sell, resell or otherwise distribute use of the Psiphon service for commercial purposes.",
+        "message": "L'uso del servizio Psiphon è garantito tramite licenza personale e non esclusiva. Con l'uso di Psiphon, accetti di utilizzare il servizio solo per uso personale e non commerciale. Non puoi (e non puoi permettere ad altri) di affittare, noleggiare, concedere in licenza, vendere, rivendere o comunque permettere un uso commerciale del servizio Psiphon.",
         "description": ""
     },
     "license-statement-of-limitations-of-liability-header": {
@@ -952,7 +952,7 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-1": {
-        "message": "Psiphon reserves the right at its sole discretion to terminate this license at any time for any or no reason, and without penalty. By using Psiphon, you agree not to use the service in any manner that violates the terms of service and license agreement.",
+        "message": "Psiphon si riserva il diritto esclusivo di revocare questa licenza in qualsiasi momento, per qualsiasi motivo o senza motivo e senza alcuna responsabilità. Utilizzando Psiphon, l'utente si impegna ad utilizzare il servizio senza violare i termini del servizio ed il contratto di licenza.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
@@ -976,7 +976,7 @@
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "about-who-we-are-head": {
-        "message": "Who We Are",
+        "message": "Chi siamo",
         "description": ""
     },
     "about-who-we-are-para-1": {
@@ -984,7 +984,7 @@
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
-        "message": "Exec Team",
+        "message": "Team Exec",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
@@ -992,7 +992,7 @@
         "description": ""
     },
     "about-who-we-are-software-development-head": {
-        "message": "Software Development",
+        "message": "Sviluppo Software",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
@@ -1008,7 +1008,7 @@
         "description": ""
     },
     "about-who-we-are-ops-head": {
-        "message": "Operations and Outreach",
+        "message": "Operatività e diffusione",
         "description": ""
     },
     "about-who-we-are-ops-para-1": {
@@ -1016,7 +1016,7 @@
         "description": ""
     },
     "about-who-we-are-partners-head": {
-        "message": "Partnerships",
+        "message": "Collaborazioni",
         "description": ""
     },
     "about-who-we-are-partners-para-1": {
@@ -1024,7 +1024,7 @@
         "description": "There are more than 20 languages currently supported, so if your language has a better fit than 'dozens', please use it. You can also just use something more generic, like 'many'."
     },
     "about-contact-head": {
-        "message": "Contact Us",
+        "message": "Contattaci",
         "description": ""
     },
     "contact-email-para": {
@@ -1040,7 +1040,7 @@
         "description": "The beginning of the 'Licensed under [license name here]' footer text"
     },
     "donate-heading": {
-        "message": "Contribute to Psiphon",
+        "message": "Contribuisci a Psiphon",
         "description": "The heading of the page section that shows the donation buttons"
     },
     "donate-body": {
@@ -1068,159 +1068,159 @@
         "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It is a link to our Github project."
     },
     "page-keyword-download": {
-        "message": "ڈاؤن لوڈ",
+        "message": "download",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-vpn": {
-        "message": "vpn",
+        "message": "VPN",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-ssh": {
-        "message": "ssh",
+        "message": "SSH",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-http-proxy": {
-        "message": "http proxy",
+        "message": "PROXY HTTP",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-proxy": {
-        "message": "proxy",
+        "message": "PROXY",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-censorship": {
-        "message": "censorship",
+        "message": "censura",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-circumvention": {
-        "message": "circumvention",
+        "message": "Elusione",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon3": {
-        "message": "psiphon3",
+        "message": "Psiphon3",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-android": {
-        "message": "android",
+        "message": "Android",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-windows": {
-        "message": "windows",
+        "message": "Windows",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-play-store": {
-        "message": "play store",
+        "message": "Play Store",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-app-store": {
-        "message": "app store",
+        "message": "App Store",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon1": {
-        "message": "psiphon1",
+        "message": "Psiphon1",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon2": {
-        "message": "psiphon2",
+        "message": "Psiphon2",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-user-guide": {
-        "message": "user guide",
+        "message": "Guida Utente",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-instructions": {
-        "message": "instructions",
+        "message": "Istruzioni",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-manual": {
-        "message": "manual",
+        "message": "Manuale",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-how-to": {
-        "message": "how to",
+        "message": "Come fare",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-help": {
-        "message": "help",
+        "message": "aiuto",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-team": {
-        "message": "psiphon team",
+        "message": "Team Psiphon",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-developers": {
-        "message": "developers",
+        "message": "Sviluppatori",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-partnerships": {
-        "message": "partnerships",
+        "message": "Collaboratori",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-contact": {
-        "message": "contact",
+        "message": "contatti",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-privacy": {
-        "message": "privacy",
+        "message": "Privacy",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-blog": {
-        "message": "blog",
+        "message": "Blog",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-updates": {
-        "message": "updates",
+        "message": "Aggiornamenti",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-code": {
-        "message": "code",
+        "message": "Codice",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-development": {
-        "message": "development",
+        "message": "Sviluppo",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-open-source": {
-        "message": "open source",
+        "message": "Open Source",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-source-code": {
-        "message": "source code",
+        "message": "Codice Sorgente",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-advertise": {
-        "message": "advertise",
+        "message": "Pubblicizzare",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-sponsor": {
-        "message": "sponsor",
+        "message": "Sponsor",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-donate": {
-        "message": "donate",
+        "message": "dona",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-contribute": {
-        "message": "contribute",
+        "message": "Contribuisci",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-landing-page": {
-        "message": "landing page",
+        "message": "pagina di destinazione",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-home-page": {
-        "message": "home page",
+        "message": "Home Page",
         "description": "web page meta keyword used for SEO"
     },
     "privacy-bulletin-title": {
-        "message": "Privacy Bulletins",
+        "message": "Bollettino Privacy",
         "description": ""
     },
     "privacy-bulletin-meta-title": {
-        "message": "Privacy Bulletins",
+        "message": "Bollettino Privacy",
         "description": ""
     },
     "privacy-bulletin-description": {
-        "message": "Privacy Bulletins",
+        "message": "Bollettino Privacy",
         "description": ""
     },
     "privacy-bulletin-intro-para-1": {
@@ -1228,11 +1228,11 @@
         "description": ""
     },
     "privacy-bulletin-entry-item-head-what-doing": {
-        "message": "What we're doing",
+        "message": "Cosa stiamo facendo",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-why-doing": {
-        "message": "Why we're doing it",
+        "message": "Perché lo stiamo facendo",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
@@ -1240,7 +1240,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-item-head-update": {
-        "message": "اپ ڈیٹ کریں",
+        "message": "Aggiorna",
         "description": "This is a header for text that is an update to an existing privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-what-happened": {
@@ -1372,19 +1372,19 @@
         "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
     },
     "privacy-title": {
-        "message": "Privacy Policy",
+        "message": "Politica di Privacy",
         "description": "page title for the Privacy Policy page"
     },
     "privacy-meta-title": {
-        "message": "Privacy Policy",
+        "message": "Politica di Privacy",
         "description": "meta title for the Privacy Policy page"
     },
     "privacy-nav-title": {
-        "message": "Privacy Policy",
+        "message": "Politica di Privacy",
         "description": "text for the Privacy Policy page navigation item"
     },
     "privacy-description": {
-        "message": "Psiphon's privacy policy",
+        "message": "Politica di Privacy di Psiphon",
         "description": "description for the Privacy Policy page"
     },
     "privacy-para-1": {
@@ -1404,7 +1404,7 @@
         "description": ""
     },
     "privacy-updates-head": {
-        "message": "Updates",
+        "message": "Aggiornamenti",
         "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
     },
     "privacy-bulletin-info-para-1": {
@@ -1468,7 +1468,7 @@
         "description": ""
     },
     "faq-information-collected-answer-head-1": {
-        "message": "Psiphon Servers",
+        "message": "Server Psiphon",
         "description": ""
     },
     "faq-information-collected-answer-para-1": {
@@ -1480,7 +1480,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-2": {
-        "message": "Number of upgrades",
+        "message": "Numero di aggiornamenti",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-3": {
@@ -1740,7 +1740,7 @@
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
-        "message": "آراؑ",
+        "message": "Commento",
         "description": ""
     },
     "faq-information-collected-answer-para-6": {
@@ -1752,11 +1752,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-1": {
-        "message": "Operating system version",
+        "message": "Versione sistema operativo",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-2": {
-        "message": "Anti-virus version",
+        "message": "Versione antivirus",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-3": {
@@ -1772,11 +1772,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-8-item-1": {
-        "message": "Android version",
+        "message": "Versione Android",
         "description": ""
     },
     "faq-information-collected-answer-para-8-item-2": {
-        "message": "Device model",
+        "message": "Modello dispositivo",
         "description": ""
     },
     "faq-information-collected-answer-para-8-item-3": {
@@ -1828,7 +1828,7 @@
         "description": ""
     },
     "psiphon": {
-        "message": "Psiphon (سائفن)",
+        "message": "Psiphon",
         "description": "The name of the product. Probably not translated or transliterated for most languages"
     }
 }
