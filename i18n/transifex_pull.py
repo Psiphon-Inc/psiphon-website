@@ -49,10 +49,11 @@ DEFAULT_LANGS = {
     'fa_AF': 'fa_AF',   # Persian (Afghanistan)
     'fi_FI': 'fi',      # Finnish
     'fr': 'fr',         # French
-    #'hi': 'hi',         # Hindi
+    'hi': 'hi',         # Hindi
+    'he': 'he',         # Hebrew
     'hr': 'hr',         # Croation
     'id': 'id',         # Indonesian
-    #'it': 'it',         # Italian
+    'it': 'it',         # Italian
     'kk': 'kk',         # Kazak
     'km': 'km',         # Khmer
     'ko': 'ko',         # Korean

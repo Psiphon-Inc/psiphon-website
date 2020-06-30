@@ -1064,20 +1064,8 @@
         "description": ""
     },
     "open-source-para-1b": {
-        "message": "Psiphon是开源的。",
-        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It should be kept short. It is a link to our Github project."
-    },
-    "open-source-para-2": {
-        "message": "Psiphon 客户端使用了下列开源组件：",
-        "description": ""
-    },
-    "open-source-para-3-list-start": {
-        "message": "Windows：",
-        "description": "This refers to the Microsoft Windows operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Windows."
-    },
-    "open-source-para-4-list-start": {
-        "message": "Android：",
-        "description": "This refers to Google's Android operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Android."
+        "message": "赛风是一个开源软件。您可以在GitHub上找到我们的代码。",
+        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It is a link to our Github project."
     },
     "page-keyword-download": {
         "message": "下载",
@@ -1251,6 +1239,22 @@
         "message": "我们在何时这么做",
         "description": ""
     },
+    "privacy-bulletin-entry-item-head-update": {
+        "message": "更新",
+        "description": "This is a header for text that is an update to an existing privacy bulletin."
+    },
+    "privacy-bulletin-entry-item-head-what-happened": {
+        "message": "近期更新汇总",
+        "description": "This is a header for text that describes what happened to necessitate this privacy bulletin"
+    },
+    "privacy-bulletin-entry-item-head-impact": {
+        "message": "影响",
+        "description": "This is a header for text that describes the impact of the privacy event that necessitated this privacy bulletin."
+    },
+    "privacy-bulletin-entry-item-head-resolution": {
+        "message": "解决方案",
+        "description": "This is a header for text that describes the resolution of the privacy event that necessitated this privacy bulletin."
+    },
     "privacy-bulletin-entry-item-head-what-data": {
         "message": "哪些用户数据将被收集",
         "description": ""
@@ -1346,6 +1350,26 @@
     "privacy-bulletin-entry-4-when-doing": {
         "message": "将会于2019-12-12T00:00起效。这项变更于一个月内有效。如果时间需要延长，我们会更新公告。",
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
+    },
+    "privacy-bulletin-entry-4-update": {
+        "message": "用户的活动数据保留在2020-04-10恢复到正常。",
+        "description": "A section of a privacy bulletin, with an update to previous information."
+    },
+    "privacy-bulletin-entry-5-title": {
+        "message": "2020-06-19：隐私条款例外：用户IP意外保留",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-5-what-happened": {
+        "message": "We use AWS S3 to host websites, client applications, and remote server lists. We discovered that logging had been enabled for many of our S3 resources since June 2015. These logs include IP addresses of users who accessed those resources.",
+        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
+    },
+    "privacy-bulletin-entry-5-impact": {
+        "message": "We have no indication that any logs were obtained by any external party, so this is not a user data breach. However, it is a violation of our Privacy Policy.",
+        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
+    },
+    "privacy-bulletin-entry-5-resolution": {
+        "message": "Logging has been disabled for user-accessible S3 buckets and all logs have been deleted. We are working on a system to keep track of privacy exceptions and issues, and investigating AWS resource auditing.",
+        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
     },
     "privacy-title": {
         "message": "隐私政策",
@@ -1551,8 +1575,8 @@
         "message": "用户活动数据示例：一名用户在某一特定时间使用Comcast从纽约市接入，通过<code>youtube.com</code>传输100MB数据， 总共传输数据300MB。",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
-    "privacy-information-collected-vpndata-useractivity-para-4": {
-        "message": "我们认为用户活动数据是最敏感的数据种类。我们从不与第三方分享这类信息。我们将用户活动信息最多保存60天，然后我们会将数据整合并删除。",
+    "privacy-information-collected-vpndata-useractivity-para-4.1": {
+        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 90 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {

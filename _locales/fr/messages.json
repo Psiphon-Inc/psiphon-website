@@ -200,7 +200,7 @@
         "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?'"
     },
     "faq-information-collected-answer-redirect": {
-        "message": "Veuillez consulter notre <a href=\"privacy.html\">politique de confidentialité</a> pour savoir quels renseignements nous recueillons.",
+        "message": "Veuillez consulter notre <a href=\"privacy.html\">Politique de confidentialité</a> pour savoir quels renseignements nous recueillons.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
     },
     "faq-ip-change-question": {
@@ -948,11 +948,11 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-header": {
-        "message": "Résiliation ; violations des conditions générales d’utilisation",
+        "message": "Résiliation ; violations des Conditions générales d’utilisation",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-1": {
-        "message": "Psiphon se réserve le droit, à sa discrétion, d’annuler cette licence à tout moment, pour une raison quelconque ou sans raison et sans pénalité. En utilisant Psiphon, vous acceptez de ne pas utiliser le service de façon à enfreindre les conditions générales d’utilisation et de licence.",
+        "message": "Psiphon se réserve le droit, à sa discrétion, d’annuler cette licence à tout moment, pour une raison quelconque ou sans raison et sans pénalité. En utilisant Psiphon, vous acceptez de ne pas utiliser le service de façon à enfreindre les Conditions générales d’utilisation et de licence.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
@@ -1064,20 +1064,8 @@
         "description": ""
     },
     "open-source-para-1b": {
-        "message": "Psiphon est à code source ouvert",
-        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It should be kept short. It is a link to our Github project."
-    },
-    "open-source-para-2": {
-        "message": "Les clients Psiphon utilisent les composants à code source ouvert suivants :",
-        "description": ""
-    },
-    "open-source-para-3-list-start": {
-        "message": "Windows :",
-        "description": "This refers to the Microsoft Windows operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Windows."
-    },
-    "open-source-para-4-list-start": {
-        "message": "Android :",
-        "description": "This refers to Google's Android operating system. It is followed by a list of 3rd party open source projects used in Psiphon for Android."
+        "message": "Psiphon est un logiciel à code source ouvert. Vous pouvez trouver notre code source sur GitHub.",
+        "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It is a link to our Github project."
     },
     "page-keyword-download": {
         "message": "téléchargement télécharger",
@@ -1251,6 +1239,22 @@
         "message": "Quand nous le faisons",
         "description": ""
     },
+    "privacy-bulletin-entry-item-head-update": {
+        "message": "Mise à jour",
+        "description": "This is a header for text that is an update to an existing privacy bulletin."
+    },
+    "privacy-bulletin-entry-item-head-what-happened": {
+        "message": "Ce qui s’est passé",
+        "description": "This is a header for text that describes what happened to necessitate this privacy bulletin"
+    },
+    "privacy-bulletin-entry-item-head-impact": {
+        "message": "Impact",
+        "description": "This is a header for text that describes the impact of the privacy event that necessitated this privacy bulletin."
+    },
+    "privacy-bulletin-entry-item-head-resolution": {
+        "message": "Résolution",
+        "description": "This is a header for text that describes the resolution of the privacy event that necessitated this privacy bulletin."
+    },
     "privacy-bulletin-entry-item-head-what-data": {
         "message": "Quelles données utilisateur seront recueillies",
         "description": ""
@@ -1300,15 +1304,15 @@
         "description": ""
     },
     "privacy-bulletin-entry-2-title": {
-        "message": "01-06-2015 : mise à jour de la politique de confidentialité",
+        "message": "01-06-2015 : mise à jour de la Politique de confidentialité",
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-2-what-doing": {
-        "message": "Nous mettons à jour notre <a href=\"privacy.html\">politique de confidentialité</a>. Cela comprend l’ajout de la réponse à la question de la FAQ « Quels renseignements Psiphon recueille-t-il ? ».",
+        "message": "Nous mettons à jour notre <a href=\"privacy.html\">Politique de confidentialité</a>. Cela comprend l’ajout de la réponse à la question de la FAQ « Quels renseignements Psiphon recueille-t-il ? ».",
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-why-doing": {
-        "message": "La page de la <a href=\"privacy.html\">politique de confidentialité</a> est maintenant le seul endroit que les utilisateurs ont besoin de visiter pour accéder à la politique de confidentialité et de collecte des données de Psiphon. Elle a été mise à jour afin de refléter l’utilisation de publicités, d’analytique et de la journalisation pour certains de nos sites Web.",
+        "message": "La page de la <a href=\"privacy.html\">Politique de confidentialité</a> est maintenant le seul endroit que les utilisateurs ont besoin de visiter pour accéder à la Politique de confidentialité et de collecte des données de Psiphon. Elle a été mise à jour afin de refléter l’utilisation de publicités, d’analytique et de la journalisation pour certains de nos sites Web.",
         "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-when-doing": {
@@ -1316,15 +1320,15 @@
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-3-title": {
-        "message": "11-12-2019 : Mise à jour de la politique de confidentialité",
+        "message": "11-12-2019 : Mise à jour de la Politique de confidentialité",
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-3-what-doing": {
-        "message": "Nous mettons à jour notre <a href=\"privacy.html\">politique de confidentialité</a>. Nous passons la période de rétention des données d’activités des utilisateurs de 60 à 90 jours. Nous avons aussi augmenté les renseignements au sujet des bulletins sur la protection des données personnelles. Pour connaître les changements exacts, veuillez consulter l’<a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">archivage GitHub</a> (page en anglais).",
+        "message": "Nous mettons à jour notre <a href=\"privacy.html\">Politique de confidentialité</a>. Nous passons la période de rétention des données d’activités des utilisateurs de 60 à 90 jours. Nous avons aussi augmenté les renseignements au sujet des bulletins sur la protection des données personnelles. Pour connaître les changements exacts, veuillez consulter l’<a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">archivage GitHub</a> (page en anglais).",
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-3-why-doing": {
-        "message": "Pour garantir que la politique de confidentialité traduit fidèlement nos pratiques en matière de données.",
+        "message": "Pour garantir que la Politique de confidentialité traduit fidèlement nos pratiques en matière de données.",
         "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-3-when-doing": {
@@ -1347,6 +1351,26 @@
         "message": "L’entrée en vigueur sera le 12-12-2019 à minuit, pour une période d’un mois. Nous mettrons ce bulletin à jour si la mesure doit être prorogée.",
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
+    "privacy-bulletin-entry-4-update": {
+        "message": "La conservation des données d’activité des utilisateurs était retournée à la normale le 10-04-2020.",
+        "description": "A section of a privacy bulletin, with an update to previous information."
+    },
+    "privacy-bulletin-entry-5-title": {
+        "message": "16-06-2020 : exception de confidentialité : conservation accidentelle des IP utilisateurs",
+        "description": "Title for a privacy bulletin"
+    },
+    "privacy-bulletin-entry-5-what-happened": {
+        "message": "Nous utilisons ASW S3 pour héberger les sites Web, les applications client, ainsi que les listes de serveurs distants. Nous avons découvert que la journalisation était activée pour plusieurs de nos ressources S3 depuis juin 2015. Ces journaux comprennent les adresses IP d’utilisateurs qui ont accédé à ces ressources.",
+        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
+    },
+    "privacy-bulletin-entry-5-impact": {
+        "message": "Nous n’avons aucune indication que ces journaux est été obtenus par des tiers externes. Cependant, cela représente un non-respect de notre Politique de confidentialité.",
+        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
+    },
+    "privacy-bulletin-entry-5-resolution": {
+        "message": "La journalisation a été désactivée pour les compartiments S3 accessibles par les utilisateurs et les journaux ont été supprimés. Nous travaillons sur un système de suivi des exceptions et problèmes de confidentialité, et examinons l’audit des ressources AWS.",
+        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    },
     "privacy-title": {
         "message": "Politique de confidentialité",
         "description": "page title for the Privacy Policy page"
@@ -1364,7 +1388,7 @@
         "description": "description for the Privacy Policy page"
     },
     "privacy-para-1": {
-        "message": "Psiphon est déterminé à protéger la confidentialité de ces clients, de ces utilisateurs finals, de ces distributeurs et de ces fournisseurs. Cette politique de confidentialité vise à vous donner des renseignements généraux sur l’utilisation potentielle de vos renseignements personnels. Psiphon est une société canadienne dont le siège social est situé en Ontario et notre politique de confidentialité a été développée pour refléter les lois et statuts canadiens et ontariens sur la protection des renseignements personnels.",
+        "message": "Psiphon est déterminé à protéger la confidentialité de ces clients, de ces utilisateurs finals, de ces distributeurs et de ces fournisseurs. Cette Politique de confidentialité vise à vous donner des renseignements généraux sur l’utilisation potentielle de vos renseignements personnels. Psiphon est une société canadienne dont le siège social est situé en Ontario et notre Politique de confidentialité a été développée pour refléter les lois et statuts canadiens et ontariens sur la protection des renseignements personnels.",
         "description": ""
     },
     "privacy-para-2": {
@@ -1388,11 +1412,11 @@
         "description": "Paragraph introducing a bullet list."
     },
     "privacy-bulletin-info-para-2-item-1": {
-        "message": "Nous modifions la politique de confidentialité. Cela peut arriver quand de nouvelles lois ajoutent des exigences différentes ou si nous commençons ou cessons d’utiliser un service tiers. Nous expliquerons en détail les changements apportés à la politique.",
+        "message": "Nous modifions la Politique de confidentialité. Cela peut arriver quand de nouvelles lois ajoutent des exigences différentes ou si nous commençons ou cessons d’utiliser un service tiers. Nous expliquerons en détail les changements apportés à la politique.",
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "privacy-bulletin-info-para-2-item-2": {
-        "message": "Nous dérogeons temporairement à notre politique de confidentialité en changeant notre approche de collecte de renseignements. Cela se fait généralement pour résoudre un problème avec notre service ou pour nous donner plus de temps afin d’analyser nos données relatives à un événement de censure intéressant. Nous décrirons le changement, par exemple ce qui a été enregistré, la période de rétention et la raison.",
+        "message": "Nous dérogeons temporairement à notre Politique de confidentialité en changeant notre approche de collecte de renseignements. Cela se fait généralement pour résoudre un problème avec notre service ou pour nous donner plus de temps afin d’analyser nos données relatives à un événement de censure intéressant. Nous décrirons le changement, par exemple ce qui a été enregistré, la période de rétention et la raison.",
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "faq-information-collected-question": {
@@ -1428,7 +1452,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-3": {
-        "message": "La capacité de Google à utiliser et à partager les renseignements recueillis par l’analytique Google sur vos visites de ce site est restreinte par <a href=\"http://www.google.com/analytics/terms/fr.html\" target=\"_blank\">les conditions d’utilisation de l’analytique Google</a> et la <a href=\"https://www.google.ca/intl/fr/policies/privacy/\" target=\"_blank\">politique de confidentialité de Google</a>. Vous pouvez choisir l’option d’exclusion en désactivant les témoins dans les paramètres de préférence de votre navigateur Web.",
+        "message": "La capacité de Google à utiliser et à partager les renseignements recueillis par l’analytique Google sur vos visites de ce site est restreinte par <a href=\"http://www.google.com/analytics/terms/fr.html\" target=\"_blank\">les conditions d’utilisation de l’analytique Google</a> et la <a href=\"https://www.google.ca/intl/fr/policies/privacy/\" target=\"_blank\">Politique de confidentialité de Google</a>. Vous pouvez choisir l’option d’exclusion en désactivant les témoins dans les paramètres de préférence de votre navigateur Web.",
         "description": ""
     },
     "privacy-information-collected-s3-logging-head": {
@@ -1551,8 +1575,8 @@
         "message": "Un exemple de données d’activité d’un utilisateur pourrait être : à une certaine heure, un utilisateur s’est connecté de New York, en utilisant Comcast et a transféré 100 Mo de <code>youtube.com</code>, pour un total de 300 Mo.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
-    "privacy-information-collected-vpndata-useractivity-para-4": {
-        "message": "Nous considérons les données d’activités des utilisateurs comme étant la catégorie de données la plus délicate. Jamais nous ne partageons ces données avec des tiers. Nous conservons les données d’activités des utilisateurs 60 jours au maximum et nous les agrégeons ensuite puis les supprimons. Des sauvegardes de ces données sont conservées pour un temps raisonnable.",
+    "privacy-information-collected-vpndata-useractivity-para-4.1": {
+        "message": "Nous considérons les données d’activités des utilisateurs comme étant la catégorie de données la plus délicate. Jamais nous ne partageons ces données avec des tiers. Nous conservons les données d’activités des utilisateurs 90 jours au maximum et nous les agrégeons ensuite, puis les supprimons. Des sauvegardes de ces données sont conservées pour un temps raisonnable.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {
