@@ -1,7 +1,7 @@
 {
     "site-title": {
         "message": "Psiphon: свободный интернет",
-        "description": "the title for the site"
+        "description": "The title for the site. 'Psiphon' must not be translated or transliterated."
     },
     "index-meta-title": {
         "message": "Интернет без цензуры для Windows и мобильных устройств",
@@ -9,15 +9,11 @@
     },
     "index-description": {
         "message": "Psiphon - это ПО для обхода блокировок и цензуры для Windows и мобильных устройств; позволяет получить свободный доступ к интернет-контенту.",
-        "description": "Page description for the index page"
+        "description": "Page description for the index page. 'Psiphon' must not be translated or transliterated."
     },
     "index-hero-subtext": {
         "message": "за пределом ограничений",
         "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
-    },
-    "index-hero-alt": {
-        "message": "Psiphon",
-        "description": "Alt text for hero image that appears on main page and says 'Psiphon' in a stylized font"
     },
     "nav-language-title": {
         "message": "Выберите язык",
@@ -41,7 +37,7 @@
     },
     "faq-description": {
         "message": "Ответы на часто задаваемые вопросы о Psiphon",
-        "description": "description for the FAQ page"
+        "description": "Description for the FAQ page. 'Psiphon' must not be translated or transliterated."
     },
     "resources-nav-title": {
         "message": "Ресурсы",
@@ -49,11 +45,11 @@
     },
     "user-guide-title": {
         "message": "Как пользоваться Psiphon",
-        "description": "page title for the user guide page"
+        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
     },
     "user-guide-meta-title": {
         "message": "Как пользоваться Psiphon на мобильных устройствах и в Windows",
-        "description": "meta title for the user guide page"
+        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
     },
     "user-guide-nav-title": {
         "message": "Руководство пользователя",
@@ -61,11 +57,11 @@
     },
     "user-guide-description": {
         "message": "Руководство пользователя Psiphon расскажет, как пользоваться Psiphon на мобильных устройствах и в Windows.",
-        "description": "description for the user guide page"
+        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
     },
     "download-title": {
         "message": "Скачать Psiphon",
-        "description": "page title for the download page"
+        "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
     },
     "download-meta-title": {
         "message": "Скачайте приложение для Android или клиентское ПО для Windows.",
@@ -77,11 +73,11 @@
     },
     "download-description": {
         "message": "Прямая и бесплатная ссылка на скачивание Psiphon для Windows и Android",
-        "description": "title for the download page"
+        "description": "Title for the download page. 'Psiphon' must not be translated or transliterated."
     },
     "faq-section-verify-psiphon-authentic": {
         "message": "Убедитесь в аутентичности загруженного Psiphon",
-        "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate."
+        "description": "Section heading for FAQ entries that help users to make sure the Psiphon client they downloaded is authentic and legitimate. 'Psiphon' must not be translated or transliterated."
     },
     "faq-section-privacy-security": {
         "message": "Конфиденциальность и безопасность",
@@ -89,11 +85,11 @@
     },
     "faq-section-installing-running-updating": {
         "message": "Установка, запуск и обновление Psiphon",
-        "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software."
+        "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software. 'Psiphon' must not be translated or transliterated."
     },
     "faq-section-how-psiphon-works": {
         "message": "Как работает Psiphon",
-        "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship."
+        "description": "Section heading for FAQ entries that pertain to explaining how Psiphon works -- that is, how it helps users to circumvent/bypass censorship. 'Psiphon' must not be translated or transliterated."
     },
     "faq-section-troubleshooting": {
         "message": "Устранение неисправностей",
@@ -117,15 +113,15 @@
     },
     "faq-authentic-windows-image-alt": {
         "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
-        "description": "alt text for an image"
+        "description": "Alt text for an image. 'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-question": {
         "message": "Является ли мой Psiphon для Windows подлинным?",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-answer-para-1": {
         "message": "Psiphon для Windows никогда не распространяется в виде устанавливаемого пакета. Каждый клиент Psiphon для Windows - это одиночный исполняемый файл (\".exe\"), имеющий цифровую подпись Psiphon Inc. Windows автоматически проверит данную подпись при запуске клиента. Вы также можете и в ручную проверить подпись перед запуском клиента, открыв диалоговое окно Свойств файла и перейдя в закладку \"Цифровые подписи\". Нажав на кнопку \"Сведения\", вы увидите цифровой отпечаток SHA1 для открытого ключа сертификата Psiphon Inc.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-answer-para-2020": {
         "message": "Для сертификата сроком действия с 05.07.2017 по 03.10.2020 отпечаток SHA1:",
@@ -145,11 +141,11 @@
     },
     "faq-authentic-windows-answer-para-4": {
         "message": "Psiphon для Windows обновляется и проверяет подлинность каждого обновления автоматически.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-android-question": {
         "message": "Является ли мой Psiphon для Android подлинным?",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-android-answer-alert": {
         "message": "<b>ПРЕДУПРЕЖДЕНИЕ:</b> Недавно <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">обнаруженная</a> уязвимость позволяет изменить код Android приложения, не повреждая криптографическую подпись приложения. Мы рекомендуем пользователям включить проверку приложений Google, как <a href=\"https://support.google.com/accounts/answer/2812853?hl=ru\">описано тут</a>.",
@@ -157,7 +153,7 @@
     },
     "faq-authentic-android-answer-para-1": {
         "message": "Каждый Psiphon клиент для Android поставляется в виде файла Android APK  (\".apk\") и имеет цифровую подпись Psiphon Inc. Открытый ключ сертификата Psiphon Inc. выглядит следующим образом:",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-android-answer-para-2": {
         "message": "Подлинность APK может быть установлена путем (1) извлечения сертификата из архива и проверки совпадения его цифрового отпечатка со значением выше, и (2) проверки того, что APK подписан этим сертификатом. Например, используя Unix и Java утилиты командной строки:",
@@ -165,11 +161,11 @@
     },
     "faq-authentic-android-answer-para-3": {
         "message": "Psiphon для Android обновляется самостоятельно, и проверяет подлинность каждого обновления автоматически.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-unsupported-platforms-question": {
         "message": "Доступен ли Psiphon для платформ macOS, Linux, Windows Phone и т.д.?",
-        "description": "FAQ question."
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-unsupported-platforms-answer-para-1": {
         "message": "Поддерживаемые нами платформы вы найдете на <a href=\"download.html\">Странице загрузки</a>. Мы неустанно работаем над расширением поддержки различных платформ и надеемся, что в ближайшем будущем Psiphone будет работать и на вашей ОС!",
@@ -185,7 +181,7 @@
     },
     "faq-android-enable-sideloading-answer-para-1": {
         "message": "Чтобы установить приложение Psiphon для Android, скачанное по прямой ссылке, вам необходимо разрешить установку приложений из неизвестных источников. Для этого в настройках в разделе \"Безопасность\" включите \"Неизвестные источники\".",
-        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
+        "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-android-enable-sideloading-image-alt": {
         "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
@@ -193,11 +189,11 @@
     },
     "faq-windows-xp-eol-question": {
         "message": "Does Psiphon for Windows work on Windows XP or Vista?",
-        "description": "FAQ question."
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-xp-eol-answer-para-1": {
         "message": "As of December 2019, Psiphon does not support Windows XP or Vista. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
-        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?'"
+        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-information-collected-answer-redirect": {
         "message": "Пожалуйста, ознакомьтесь с <a href=\"privacy.html\"> Политикой конфиденциальности </a>для того, чтобы узнать, какую информацию мы собираем.",
@@ -205,11 +201,11 @@
     },
     "faq-ip-change-question": {
         "message": "Почему мой IP адрес в Psiphon так часто меняется?",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-ip-change-answer-para-1": {
         "message": "Ваш клиент Psiphon будет автоматически получать данные о новых серверах в сети Psiphon. Если последний использованный сервер в настоящее время недоступен, то Psiphon произведет попытку соединения со следующим сервером из списка.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-connection-failed-question": {
         "message": "Почему я вижу постоянно повторяющееся сообщение о сбое подключения?",
@@ -217,35 +213,35 @@
     },
     "faq-connection-failed-answer-para-1": {
         "message": "Если вы видите повторяющееся сообщение о сбое подключения, то это означает, что у вашего клиента нет данных о доступных в данное время серверах. Попробуйте скачать новый клиент Psiphon.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-question": {
         "message": "После использования Psiphon для Windows мой компьютер больше не подключается к Интернету.",
-        "description": "FAQ question."
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-answer-para-1": {
         "message": "При запуске Psiphon для Windows изменяет системные настройки прокси вашего компьютера, а после закрытия восстанавливает их первоначальное состояние. В случае, если сеанс работы Psiphon для Windows не был завершен корректно, первоначальные настройки прокси могли не восстановиться. В результате этого вы не можете подключиться в Интернету.",
-        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-answer-para-2": {
         "message": "Наиболее простым способом для большинства будет запуск Psiphon и затем  его штатное выключение.",
-        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-answer-para-3": {
         "message": "Чтобы вручную исправить настройки прокси, откройте Internet Explorer, зайдите в меню сервис (иконка в виде шестеренки) → Свойства браузера → закладка Подключения → кнопка Настройка сети. Затем уберите галочку с пункта \"Использовать прокси-сервер для локальных подключений\".",
-        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.'"
+        "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-android-upgrade-bug-question": {
         "message": "После обновления приложения Psiphon для Android оно не подключается.",
-        "description": "FAQ question."
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-android-upgrade-bug-answer-para-1": {
         "message": "Если Psiphon в момент установки обновления был подключён, он не сможет подключиться и будет показывать сообщение об ошибке “start_tunnel_failed application is not prepared or revoked”. Это происходит из-за <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">ошибки ОС Android</a> и исправляется перезагрузкой устройства.",
-        "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.'"
+        "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-periodic-disconnect-question": {
         "message": "Почему подключение Psiphon иногда обрывается?",
-        "description": "FAQ question."
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-periodic-disconnect-answer-para-1": {
         "message": "Чаще всего причиной этого является ненадёжное и нестабильное интернет-подключение вашего устройства или компьютера. Для телефона это может быть потеря сигнала. На компьютере - нестабильное беспроводное подключение или ненадёжный интернет-провайдер.",
@@ -253,11 +249,11 @@
     },
     "faq-ie6-docbody-question": {
         "message": "Psiphon для Windows отображает сообщение об ошибке “doc.body is null or not an object” и не работает.",
-        "description": "FAQ question."
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-ie6-docbody-answer-para-1": {
         "message": "Эта ошибка появляется в Windows XP, если установлен Internet Explorer 6. Для работы Psiphon для Windows необходим Internet Explorer версии 7 или выше. Лучшим способом установить подходящую версию будет <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Обновление Windows</a>.",
-        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
+        "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-ie6-docbody-answer-para-2": {
         "message": "Если воспользоваться Центром обновления Windows не представляется возможным, установите Internet Explorer версии 7 или 8, скачав их здесь:",
@@ -273,71 +269,71 @@
     },
     "faq-check-version-question": {
         "message": "Как мне проверить текущую версию Psiphon?",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-check-version-answer-para-1": {
         "message": "Когда Psiphon запустится, версия клиента отобразится в окне сообщений на первой строке.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-get-updated-version-question": {
         "message": "Как получить актуальную версию Psiphon?",
-        "description": "FAQ question"
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-get-updated-version-answer-para-1": {
         "message": "<strong>Android:</strong> Если вы установили Psiphon для Android из магазина Google Play, приложение автоматически обновится по необходимости. Если же вы установили Psiphon для Android вручную, то при появлении обновления приложение само его скачает и в уведомлении предложит установить обновлённое приложение.",
-        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users."
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users. 'Psiphon' must not be translated or transliterated."
     },
     "faq-get-updated-version-answer-para-2": {
         "message": "<strong>Windows:</strong> клиент Psiphon для Windows сам скачивает и устанавливает обновления по мере их появления.",
-        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users."
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users. 'Psiphon' must not be translated or transliterated."
     },
     "faq-get-updated-version-answer-para-3": {
         "message": "<strong>Обновление вручную:</strong> если механизм самообновления по каким-либо причинам не работает (например из-за блокировки), вы сможете найти информацию об актуальных версиях Psiphon на <a href=\"download.html\">Странице загрузки</a>.",
-        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked)."
+        "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked). 'Psiphon' must not be translated or transliterated."
     },
     "faq-orig-file-purpose-question": {
         "message": "Что за файл “psiphon3.exe.orig”?",
-        "description": ""
+        "description": "Do no translate or transliterate the filename."
     },
     "faq-orig-file-purpose-answer-para-1": {
         "message": "Процесс автоматического обновления Psiphon для Windows переименовывает старую версию в “psiphon3.exe.orig”. Старые файлы с расширением \".orig\" могут быть безопасно удалены.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-uninstall-windows-question": {
         "message": "Как удалить Psiphon для Windows?",
-        "description": "FAQ question"
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-uninstall-windows-answer-para-1": {
         "message": "Psiphon для Windows не устанавливается и не появится в списке приложений. Исполняемый файл может быть запущен прямо из папки \"Загрузки\", или же его можно скопировать в любое другое место и запускать оттуда. Если вы хотите удалить программу, просто удалите этот файл.",
-        "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?'"
+        "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-question": {
         "message": "Веб-сайты Psiphone",
-        "description": "FAQ question"
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
         "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3</code>; or, more generally, <code>%APPDATA%\\Psiphon3</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>.",
-        "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?'"
+        "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
         "message": "Перенаправляет ли Psiphon для Windows весь мой интернет-трафик?",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-answer-para-1": {
         "message": "Только в режиме VPN. После успешного подключения в режиме VPN весь трафик с вашего компьютера будет перенаправляться через сеть Psiphon. При отключённом режиме VPN перенаправляться будет трафик только тех приложений, которые используют локальные HTTP и SOCKS прокси.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-ios-browser-question": {
         "message": "Перенаправляет ли Psiphon для iOS весь интернет-трафик моего устройства?",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
         "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data that is loaded in the app itself, and will not tunnel your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use Psiphon Browser to go the Facebook website. If you were to open your Facebook app, it would use your direct internet connection, and would not be tunneled through the Psiphon network.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-browser-compatibility-question": {
         "message": "Совместим ли Psiphon для Windows с браузерами Internet Explorer, Firefox и Chrome?",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-browser-compatibility-answer-para-1": {
         "message": "Да. Проверьте настройки вашего браузера и убедитесь, что он настроен на использование системных настроек прокси.",
@@ -345,23 +341,23 @@
     },
     "faq-port-restrictions-question": {
         "message": "Существуют ли какие-либо ограничения в использовании портов при работе с Psiphon?",
-        "description": "FAQ question. Note that 'port' is referring to network ports."
+        "description": "FAQ question. Note that 'port' is referring to network ports. 'Psiphon' must not be translated or transliterated."
     },
     "faq-port-restrictions-answer-para-1": {
         "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
-        "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?'"
+        "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-mail-apps-ports-question": {
         "message": "Почему мои приложения не работают, когда запущен Psiphon? Почему я не могу отправить почту, используя почтовый клиент?",
-        "description": "FAQ question."
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-mail-apps-ports-answer-para-1": {
         "message": "Скорее всего, это происходит из-за <a href=\"#port-restrictions\">ограничений в использовании портов</a> Psiphon.",
-        "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?'"
+        "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-mobile-hotspot-question": {
         "message": "Почему мобильная точка доступа и режим модема в Android не работают через Psiphon?",
-        "description": "FAQ question."
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-mobile-hotspot-answer-para-1": {
         "message": "Это происходит из-за ограничений функциональности режимов модема и точки доступа в Android. Вы можете заметить, что либо соединенное устройство не будет подключаться к Интернету ,либо трафик не будет идти через VPN.",
@@ -369,19 +365,19 @@
     },
     "faq-av-firewall-question": {
         "message": "Почему антивирусное ПО или брандмауэр определяют Psiphon как угрозу безопасности?",
-        "description": "FAQ question."
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-av-firewall-answer-para-1": {
         "message": "Для начала проверьте аутентичность копии Psiphon. Пожалуйста, <a href=\"#verify-psiphon-authentic\">следуйте этим инструкциям</a>для проверки вашей копии Psiphon на подлинность. Если файл не аутентичный, <a href=\"mailto:info@psiphon.ca\">отправьте нам письмо</a>, написав, где вы получили данную копию файла, и, по возможности, приложите её.",
-        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-av-firewall-answer-para-2": {
         "message": "Если же ваша копия Psiphon прошла проверку, то это пример ложноположительного отчета об угрозе. Несмотря на то, что большинство антивирусных программ и брандмауэров внесли цифровую подпись Psiphon в белые списки, некоторые программы всё ещё могут определять Psiphon как вирус или угрозу. В этом случае <a href=\"mailto:info@psiphon.ca\">отправьте нам письмо</a>, указав название используемого антивирусного ПО или брандмауэра. Мы свяжемся с поставщиком и решим эту проблему.",
-        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?'"
+        "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-question": {
         "message": "Почему я не могу проксировать трафик приложений Windows Metro (или Modern UI) через Psiphon?",
-        "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8."
+        "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-answer-para-1": {
         "message": "Windows 8 представила альтернативу привычному интерфейсу \"Рабочий стол\" под названием \"Metro\", который впоследствии был переименован в \"Modern UI\". Некоторые приложения, которых немного, могут работать только в режиме Metro; а некоторые могут работать как в режиме Metro, так и в режиме рабочего стола. Этот новый интерфейс продолжил свое существование в Windows 8.1 и в меньшем объеме в Windows 10.",
@@ -389,23 +385,23 @@
     },
     "faq-windows-metro-answer-para-2": {
         "message": "Приложения, работающие в режиме Metro, не могут использовать локальный прокси-сервер без изменения пользователем настроек безопасности системы. Это значит, что приложения в режиме Metro не могут подключаться к сети Интернет при включенном Psiphone. Вы можете использовать <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">утилиту EnableLoopback</a>, позволяющую приложениям в режиме Metro работать с Psiphon.",
-        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated."
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-answer-para-3": {
         "message": "Здесь мы приведём примеры сообщения об ошибке, появляющиеся при запуске приложений в режиме Metro, которые пытаются использовать соединение Psiphon.",
-        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages."
+        "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages. 'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-protocol-question": {
         "message": "Какой VPN протокол используется Psiphon для Windows? Почему я не могу подключиться?",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-protocol-answer-para-1": {
         "message": "Psiphon использует VPN протокол L2TP/IPSec.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-vpn-connect-question": {
         "message": "Почему я не могу подключиться в режиме L2TP/IPsec, используя Psiphon для Windows?",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-vpn-connect-answer-para-1": {
         "message": "Ваш брандмауэр может запрещать использование VPN. Возможно, ваш домашний маршрутизатор не настроен на передачу данных через этот протокол VPN. Проверьте настройки брандмауэра и убедитесь, что режим IPsec или L2TP включён. Служба \"Агент политики IPsec\" может быть отключена на вашем компьютере. Проверьте настройки и включите её в режиме автоматического запуска.",
@@ -413,15 +409,15 @@
     },
     "faq-vpn-slow-question": {
         "message": "Я могу подключиться к Psiphon для Windows в режиме VPN, но скорость соединения очень низка. Иногда веб-страницы не загружаются вообще. Почему?",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-slow-answer-para-1": {
         "message": "Некоторые модели сетевого оборудования или интернет-соединения могут создавать проблемы с производительностью протокола L2TP/IPSec, который используется Psiphon в режиме VPN. Попробуйте отключить режим VPN.",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-dns-question": {
         "message": "При подключении к Psiphon для Windows в режиме VPN ни одна из моих веб-страниц не грузится. Я получаю сообщения об ошибках \"Интернет-домен не найден\".",
-        "description": ""
+        "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-dns-answer-para-1": {
         "message": "Psiphon ограничивает DNS трафик \"белым списком\" проверенных DNS серверов. Клиент Psiphon автоматически устанавливает настройки DNS VPN. Если вы получаете ошибки, связанные с DNS, убедитесь, что ваша система не заражена вредоносными программами DNS Changer, которые пытаются изменить DNS настройки. Дополнительную информацию вы найдёте <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">здесь</a>.",
@@ -1826,9 +1822,5 @@
     "faq-information-collected-answer-para-10": {
         "message": "При установке Psiphon из \"магазина приложений\" типа Google Play или Amazon AppStore имейте в виду, что ими может собираться дополнительная статистика. Например, здесь описана информация, которую собирает Google Play:",
         "description": ""
-    },
-    "psiphon": {
-        "message": "Psiphon",
-        "description": "The name of the product. Probably not translated or transliterated for most languages"
     }
 }
