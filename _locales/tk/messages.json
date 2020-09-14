@@ -123,6 +123,10 @@
         "message": "Windows üçin Psiphon hiç haçan gurnap bolýan toplum hökmünde paýlanmaýar. Windows üçin Psiphon müşderisiniň hersi Psiphon Inc. tarapyndan gol çekilen ýeke-täk ýerine ýetirip bolýan (\".exe\") faýldyr. Müşderini işledeniňizde Windows bu goly awtomatiki barlaýar. Şeýle hem SHA1, faýlyň \"Häsiýetler\" gepleşigini açmak we \"Sanly gollar\" goýmasyny barlamak arkaly müşderini işletmezden ozal goly elde barlap bilersiňiz. ",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "2017-07-05-den 2020-10-03 çenli d ýörgünli kepilnama üçin, SHA1 \"thubprint\":",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "Psiphon internet mazmunyna senzurasyz girmäge mümkinçilik berýän VPN, SSH we HTTP tehnologiýasyny ulanýan, Psiphon Inc. tarapyndan hödürlenýän dolanyşyk guralydyr. Psiphon 3 müşderiňiz senzura ilmezden geçmek mümkinçiligini ýokarlandyrmak üçin täze giriş nokatlary barada awtomatiki öwrener.",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "Psiphon onlaýn mazmuna açyk girişi üpjün etmek üçin niýetlenendir. Psiphon siziň onlaýn gizlinligiňizi ýokarlandyrmaýar, şonuň üçin ony onlaýn gorag guraly diýip hasaplamaly ýada ulanmaly däl.",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

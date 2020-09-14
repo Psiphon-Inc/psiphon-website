@@ -123,6 +123,10 @@
         "message": "Psiphon барои Windows ҳеҷ гоҳ ҳамчун бастаи насбшаванда паҳн карда намешавад. Ҳар як нармафзори муштарии Psiphon барои Windows як файли иҷрошаванда (”.exe”) мебошад, ки аз ҷониби Psiphon Inc. ба таври дастӣ имзо карда мешавад. Вақте ки нармафзори муштариро ба кор медароред, Windows ин имзоро ба таври худкор тафтиш мекунад. Инчунин, қабл аз нармафзори муштариро ба кор даровардан, шумо метавонед диалоги Хусусиятҳои файлро кушоед ва варақаи Имзоҳои рақамиро тафтиш карда, имзоро ба таври дастӣ тафтиш кунед. Изи ангушти SHA1 барои калиди кушоди гувоҳиномаи Psiphon Inc. дар варақаи Тафсилоти диалоги Гувоҳинома нишон дода мешавад.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "Барои гувоҳиномаи муҳлаташ аз 05.07.2017 то 03.10.2020 изи ангушти SHA1 зерин аст:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "Psiphon асбобе аз ширкати Psiphon Inc. мебошад, ки технологияи VPN, SSH ва HTTP-проксиро истифода бурда, барои шумо ба муҳтавои интернет дастрасии номаҳдуд таъмин мекунад. Нармафзори муштарии Psiphon-и шумо оиди нуқтаҳои нави дастрасӣ ба таври худкор маълумот мегирад, то қобилияти худро барои каноргузаштани сензура тақвият диҳад.",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "Psiphon барои ба шумо ба муҳтавои интернет дастрасии кушод таъмин кардан таҳия шудааст. Psiphon махфияти шуморо дар интернет тақвият намедиҳад, ва набояд ҳамчун асбоби таъмини амният дар интернет дониста ё истифода бурда шавад.",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

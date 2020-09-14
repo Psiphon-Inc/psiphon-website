@@ -123,6 +123,10 @@
         "message": "ཝིན་ཌོ་ནང་གི་སཡི་ཕོན་དེ་བཞིན་ཐུམ་སྒྲིལ་འགྲིག་བཅུག་གི་ངོ་བོར་འགྲེམ་སྤེལ་ནམ་ཡང་བྱ་རྒྱུ་མིན། སཡི་ཕོན་དེ་ཝིན་ཌོ་ནང་ཡིག་ཆ་རེ་རེ་བེད་སྤྱོད་(\".exe\")དེ་ཡང་སཡི་ཕོན་ Inc གྱིས་གློག་ཆས་མིང་རྟགས་བཀོད་དགོས། གལ་ཏེ་ཁྱེད་རང་གིས་མཉེན་ཆས་དེ་བེད་སྤྱོད་བྱས་པའི་ཚེ་ཝིན་ཌོ་ཡིས་རང་འགུལ་ཐོག་ནས་མིང་རྟགས་ལ་དོ་དམ་ཞིབ་བཤེར་བྱེད་ཀྱི་རེད། ཁྱེད་རང་གིས་མཉེན་ཆས་བེད་སྤྱོད་མ་བྱས་གོང་ནས་མཛུབ་འདེམས་བྱས་པའི་ཐོག་ནས་ཀྱང་དོ་དམ་བྱེད་ཆོག དེ་ཡང་ཡིག་ཆའི་\"ཁྱད་ཆོས་གླེང་སྒྲོམ་\" properties dialogཁ་ཕྱེས་ཏེ་གློག་ཆས་མིང་རྟགས་མཛུབ་སྣོན་བྱས་ཏེ་དོ་དམ་བྱེད་ནའང་འགྲིག། སཡི་ཕོན་ Inc.ལག་ཁྱེར་དེ་བཞིནCertificate dialog Details tab་ནང་དུ་ཤར་ཏེ་SHA1 མཛུབ་ཐིལ་སྟོན་ཡོད།",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "ཆོག་མཆན་ལག་ཁྱེར་གྱི་ཆེད་དུ་དུས་ཡུན་ 2017-07-05 ནས་2020-10-03 tེhe SHA1 མཛུབ་ཐེལ་:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "སཡི་ཕོན་མཉེན་ཆས་་དེ་བཞིན་སཡི་ཕོན་ Inc. ནང་གི་ཉེན་གཡོལ་ཅན་གྱི་ལག་ཆ་ཞིག་ཡིན་ལ་དེས་VPN, SSH དང་ HTTP ངོ་ཚབ་འཕྲུལ་ཆས་བེད་སྤྱོད་བྱས་ཏེ་དམ་བསྒྲགས་མེད་པའི་དྲྭ་རྒྱའི་ནང་དོན་ཁག་ལ་བེད་སྤྱོད་བྱེད་ཐུབ་པའི་མཐུན་སྦྱོར་བྱེད་ཀྱི་ཡོད། ཁྱེད་རང་གི་སཡི་ཕོན་མཉེན་ཆས་་རང་འགུལ་ངང་ནས་དམ་བསྒྲགས་དང་ཉེན་ཁ་ལས་གཡོལ་ཐུབ་བའི་གོ་སྐབས་མང་དུ་ཡོད་པ་དག་ལ་བེད་སྤྱོད་གསར་པ་བྱེད་ལུགས་རྣམས་རང་འགུལ་ངང་ནས་ཤེས་ཐུབ་ངེས་རེད།",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "སཡི་ཕོན་དྲྭ་ཚིགས་འདི་རང་གིས་དྲྭ་ཐོག་སྒང་ལ་ཡོད་པའི་གནད་ཚུང་རྣམས་དགག་བྱ་མེད་པའི་ཐོག་ནས་བེད་སྤྱོད་ཡོང་ཐབས་སུ་དམིགས་ནས་བཟོས་པ་ཞིག་རེད། སཡི་ཕོན་གྱིས་རང་གི་དྲྭ་ཐོག་སྒང་ལ་སྒེར་སྲུང་གི་ནུས་པ་ཆེ་རུ་གཏོང་གི་མེད་ལ་འདི་དྲྭ་རྒྱ་སྲུང་སྐྱོབ་བྱེད་མཁན་གྱི་ལག་ཆ་ཞིག་ལ་ངོས་འཛིན་བྱས་ནའང་མི་འགྲིག",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

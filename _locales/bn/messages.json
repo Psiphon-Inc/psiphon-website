@@ -123,6 +123,10 @@
         "message": "উইন্ডোজের জন্য সাইফন একটি ইনস্টলযোগ্য প্যাকেজ হিসাবে বিতরণ করা হয় না। উইন্ডোজ ক্লায়েন্টের জন্য প্রতিটি সাইফন একক এক্সিকিউটেবল ফাইল (\".exe\") যা ডিজিটালভাবে সাইফান ইঙ্কের দ্বারা স্বাক্ষরিত হয়। আপনি যখন ক্লায়েন্ট পরিচালনা করেন উইন্ডোজ তখন স্বয়ংক্রিয়ভাবে এই স্বাক্ষরটি পরীক্ষা করে। আপনি ফাইলটির জন্য বৈশিষ্ট্যের ডায়ালগ চালু এবং ডিজিটাল স্বাক্ষর ট্যাব পরিদর্শন করার মাধ্যমে ক্লায়েন্ট পরিচালনার আগে নিজে স্বাক্ষরটি নিরীক্ষণ করতে পারেন। সাইফন ইনক সার্টিফিকেট সর্বজনীন কী এর জন্য SHA1 এ থাম্বপ্রিন্ট সার্টিফিকেট ডায়ালগ বিবরণ ট্যাবে প্রদর্শিত হয়।",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "2017-07-05 থেকে 2020-10-03 পর্যায়কালের প্রমাণপত্রের জন্য SHA1 থাম্বপ্রিন্টটি হল:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "সাইফন সাইফন ইনক থেকে তৈরি একটি প্রতারণামূলক হাতিয়ার যা ভিপিএন, এসএসএইচ এবং এইচটিটিপি প্রক্সি প্রযুক্তি ব্যবহার ইন্টারনেট কন্টেন্টে অ্যাক্সেস প্রদান করে।সেন্সরশিপটি বাইপাস করার সম্ভাবনাগুলি বাড়ানোর জন্য আপনার সাইফন ক্লায়েন্ট স্বয়ংক্রিয়ভাবে নতুন অ্যাক্সেস পয়েন্ট সম্পর্কে শিখবে।",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "সাইফন আপনাকে অনলাইন সামগ্রীতে খোলা অ্যাক্সেস প্রদানের জন্য ডিজাইন করা হয়েছে। সাইফন আপনার অনলাইন গোপনীয়তা বাড়ায় না, এবং একটি অনলাইন নিরাপত্তা সরঞ্জাম হিসাবে বিবেচনা এবং ব্যবহার করা উচিত নয়।",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

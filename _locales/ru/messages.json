@@ -112,7 +112,7 @@
         "description": "Section heading for FAQ entries that don't fit in any other category."
     },
     "faq-authentic-windows-image-alt": {
-        "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
+        "message": "Диалоговые окна для проверки цифровой подписи Psiphon в Windows",
         "description": "Alt text for an image. 'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-question": {
@@ -122,6 +122,10 @@
     "faq-authentic-windows-answer-para-1": {
         "message": "Psiphon для Windows никогда не распространяется в виде устанавливаемого пакета. Каждый клиент Psiphon для Windows - это одиночный исполняемый файл (\".exe\"), имеющий цифровую подпись Psiphon Inc. Windows автоматически проверит данную подпись при запуске клиента. Вы также можете и в ручную проверить подпись перед запуском клиента, открыв диалоговое окно Свойств файла и перейдя в закладку \"Цифровые подписи\". Нажав на кнопку \"Сведения\", вы увидите цифровой отпечаток SHA1 для открытого ключа сертификата Psiphon Inc.",
         "description": "'Psiphon' must not be translated or transliterated."
+    },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-2020": {
         "message": "Для сертификата сроком действия с 05.07.2017 по 03.10.2020 отпечаток SHA1:",
@@ -184,15 +188,15 @@
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
+        "message": "Скриншот настроек безопасности Android для установки приложений не из Play Store",
         "description": "alt text for an image"
     },
     "faq-windows-xp-eol-question": {
-        "message": "Does Psiphon for Windows work on Windows XP or Vista?",
+        "message": "Работает ли Windows-версия Psiphon на Windows XP или Vista?",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-xp-eol-answer-para-1": {
-        "message": "As of December 2019, Psiphon does not support Windows XP or Vista. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
+        "message": "По состоянию на декабрь 2019 года Psiphon не поддерживает Windows XP или Vista. Существует <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">специальная версия Psiphon</a> для работы на этих платформах, но мы настоятельно рекомендуем пользователям перейти на более новые версии Windows.",
         "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-information-collected-answer-redirect": {
@@ -312,7 +316,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3</code>; or, more generally, <code>%APPDATA%\\Psiphon3</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>.",
+        "message": "Psiphon для Windows хранит некоторые данные на компьютере в профиле пользователя. Адрес выглядит как <code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3</code>; или, обобщенно, <code>%APPDATA%\\Psiphon3</code>. Можете удалить эти данные через \"Проводник\" Windows или в командно-строчном режиме: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>.",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
@@ -328,7 +332,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data that is loaded in the app itself, and will not tunnel your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use Psiphon Browser to go the Facebook website. If you were to open your Facebook app, it would use your direct internet connection, and would not be tunneled through the Psiphon network.",
+        "message": "Браузер Psiphon для iOS - отдельный браузер. Он защищает только те данные, которые проходят через него. Данные в остальных приложения (например, Facebook или Twitter) не проходят через сеть Psiphon. Таким образом, если вы хотите использовать сеть Psiphon для защиты доступа к аккаунту Facebook, нужно зайти в Facebook через браузер Psiphon. Если же вы откроете приложение Facebook, оно подключится к вашему аккаунту напрямую, а не через сеть Psiphon.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-browser-compatibility-question": {
@@ -344,7 +348,7 @@
         "description": "FAQ question. Note that 'port' is referring to network ports. 'Psiphon' must not be translated or transliterated."
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
+        "message": "Для внешних подключений через сеть Psiphon доступно ограниченное число портов, в частности: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Подробнее см. <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">эту дискуссию</a>. Почтовым клиентам не разрешено устанавливать соединение через порт 25. Об этом подробнее см. <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">здесь</a>.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-mail-apps-ports-question": {
@@ -468,7 +472,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-1": {
-        "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages you browse, your chat messages, your uploads, etc.",
+        "message": "Все данные, которые проходят через Psiphon, шифруются. Таким образом ваш провайдер подключения к интернету не может видеть, что именно вы отправляете и получаете (страницы сайтов, сообщения в чатах, загружаемые файлы и др.)",
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
@@ -496,23 +500,23 @@
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-refund-question": {
-        "message": "How do I get a refund for a subscription, purchase of PsiCash, or other purchase?",
+        "message": "Как получить возмещение за подписку, приобретение PsiCash или другую покупку?",
         "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money."
     },
     "faq-refund-answer-para-1": {
-        "message": "<strong>Android:</strong> If it has been less than 48 hours since you made the purchase, you can <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">get a refund through the Play Store</a>. After 48 hours, email us at <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Please include your name, the email address of your Play Store account, the date of the purchase, what was purchased, the amount of the purchase, and the reason you are requesting the refund.",
+        "message": "<strong>Android:</strong> если с момента покупки прошло меньше 48 часов, можно <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">получить возмещение через Play Store</a>. Если прошло больше 48 часов, отправьте нам сообщение на <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Пожалуйста, укажите свое имя, адрес email, связанный с вашим аккаунтом Play Store, дату покупки, что именно вы приобрели и в каком количестве, а также причину, по которой вы обращаетесь за возмещением.",
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+        "message": "<strong>iOS:</strong> пожалуйста, <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">обратитесь за возмещением через App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
-        "message": "<strong>Windows:</strong> Email us at <a href=\"mailto:refund+windows@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%2FPhone%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Windows\">refund+windows@psiphon.ca</a>. Please include your name, the email address or phone number used at the time of purchase, the date of the purchase, what was purchased, the amount of the purchase, and the reason you are requesting the refund.",
+        "message": "<strong>Windows:</strong> отправьте сообщение на <a href=\"mailto:refund+windows@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%2FPhone%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Windows\">refund+windows@psiphon.ca</a>. Пожалуйста, укажите свое имя, адрес email или номер телефона, который был использован во время покупки, дату покупки, сумму и причину, по которой вы запрашиваете возмещение.",
         "description": "This is the third paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-4": {
-        "message": "Note that refunds may take up to a week to process.",
+        "message": "Рассмотрение запроса может потребовать до недели времени.",
         "description": "This is the fourth paragraph of an FAQ answer."
     },
     "alert-heading": {
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "Psiphon - это новый инструмент обхода интернет-цензуры от Psiphon Inc.. Он использует технологии VPN, SSH и HTTP прокси для решения проблемы доступа к заблокированным ресурсам. Программный клиент Psiphon автоматически получает данные о новых серверах и таким образом увеличивает ваши шансы на обход цензуры.",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "Psiphon предназначен для предоставления вам открытого доступа к онлайн-контенту. Использование Psiphon не приводит к увеличению вашей конфиденциальности в Интернете, и не следует рассматривать или использовать его в качестве инструмента онлайн-безопасности.",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {
@@ -612,7 +612,7 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "download-windows-direct-description-v2": {
-        "message": "Works on Windows 7, Windows 8 (desktop), and Windows 10.<br>(A legacy build for <a href=\"./faq.html#windows-xp-eol\">Windows XP and Vista</a> is available.)",
+        "message": "Работает в Windows 7, Windows 8 (десктоп) и Windows 10.<br>(Есть специальная версия для <a href=\"./faq.html#windows-xp-eol\">Windows XP и Vista</a>).",
         "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
     },
     "download-android-direct": {
@@ -640,7 +640,7 @@
         "description": ""
     },
     "download-ios-appstore-psiphon-vpn": {
-        "message": "<strong>Psiphon for iOS</strong> in the Apple App Store",
+        "message": "<strong>Psiphon для iOS</strong> в Apple App Store",
         "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "download-ios-appstore-psiphon-vpn-description": {
@@ -652,7 +652,7 @@
         "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "Access your favorite web sites and services through the Psiphon network with our easy-to-use web browser. Available for iOS 8 and higher.",
+        "message": "Заходите на свои любимые сайты, пользуйтесь сервисами по сети Psiphon с помощью нашего дружелюбного веб-браузера (доступен для iOS8 и новее).",
         "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "download-store-head": {
@@ -700,7 +700,7 @@
         "description": "alt text for an image"
     },
     "user-guide-android-image-3-alt": {
-        "message": "Screenshot showing the Psiphon for Android web browser",
+        "message": "Скриншот браузера Psiphon для Android",
         "description": "alt text for an image"
     },
     "user-guide-android-image-3-annotation-1": {
@@ -744,7 +744,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android logs panel",
+        "message": "Скриншот панели логов Psiphon для Андроид",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-logs-image-annotation-1": {
@@ -752,7 +752,7 @@
         "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android statistics panel",
+        "message": "Скриншот панели статистики Psiphon для Андроид",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-statistics-image-annotation-1": {
@@ -808,7 +808,7 @@
         "description": ""
     },
     "user-guide-windows-image-1-alt": {
-        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
+        "message": "Скриншот предупреждения безопасности Windows для программы Psiphon",
         "description": "alt text for an image"
     },
     "user-guide-windows-image-2-alt": {
@@ -940,7 +940,7 @@
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
+        "message": "Psiphon предоставляется \"как есть\", без гарантии или выраженных или подразумеваемых обязательств такого рода. Psiphon отказывается от всех гарантий и обязательств, связанных с использованием этого программного обеспечения, включая телесные повреждения или любой побочный, специальный или косвенный личный или коммерческий ущерб, включая потери данных и остановку коммерческой деятельности.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-header": {
@@ -956,7 +956,7 @@
         "description": ""
     },
     "license-psicash-header": {
-        "message": "Use of PsiCash",
+        "message": "Использование PsiCash",
         "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-1": {
@@ -964,7 +964,7 @@
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-2": {
-        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "message": "Если вы утратите доступ к PsiCash (например, потеряете устройство), имейте в виду: Psiphon не имеет возможности исправить эту ошибку и восстановить ваш PsiCash.",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-3": {
@@ -1016,7 +1016,7 @@
         "description": ""
     },
     "about-who-we-are-partners-para-1": {
-        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our software in dozens of languages, and are adding more to our products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, with the help of the <a href=\"https://www.localizationlab.org/\" target=\"_blank\">Localization Lab</a>.",
+        "message": "Psiphon тесно сотрудничает с разными группами для оказания поддержки пользователям Psiphon независимо от их местонахождения. Мы переводим Psiphon на десятки языков, и это число растет. Для перевода мы используем сервис <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a> и помощь <a href=\"https://www.localizationlab.org/\" target=\"_blank\">Localization Lab</a>.",
         "description": "There are more than 20 languages currently supported, so if your language has a better fit than 'dozens', please use it. You can also just use something more generic, like 'many'."
     },
     "about-contact-head": {
@@ -1060,7 +1060,7 @@
         "description": ""
     },
     "open-source-para-1b": {
-        "message": "Psiphon is open source software. You can find our code on GitHub.",
+        "message": "Код Psiphon открыт. Вы можете найти его на GitHub.",
         "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It is a link to our Github project."
     },
     "page-keyword-download": {
@@ -1240,15 +1240,15 @@
         "description": "This is a header for text that is an update to an existing privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-what-happened": {
-        "message": "What happened",
+        "message": "Что случилось",
         "description": "This is a header for text that describes what happened to necessitate this privacy bulletin"
     },
     "privacy-bulletin-entry-item-head-impact": {
-        "message": "Impact",
+        "message": "Что это значит",
         "description": "This is a header for text that describes the impact of the privacy event that necessitated this privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-resolution": {
-        "message": "Resolution",
+        "message": "Вывод",
         "description": "This is a header for text that describes the resolution of the privacy event that necessitated this privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-what-data": {
@@ -1316,55 +1316,55 @@
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: Privacy Policy update",
+        "message": "11.12.2019: обновление Политики приватности",
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-3-what-doing": {
-        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. We are changing the retention period of User Activity Data from 60 days to 90 days. We also expanded the information about Privacy Bulletins. For the exact changes, see the <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
+        "message": "Мы обновляем <a href=\"privacy.html\">Политику приватности</a>. Мы изменили срок хранения данных с 60 на 90 дней. Мы также подробнее рассказали о наших Бюллетенях по приватности. Подробности см. на <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub</a>.",
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-3-why-doing": {
-        "message": "To ensure the Privacy Policy accurately reflects our data practices.",
+        "message": "Убедиться, что Политика приватности в точности отражает нашу практику обработки данных.",
         "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-3-when-doing": {
-        "message": "This will be in effect on 2019-12-12T00:00Z.",
+        "message": "Это изменение вступит в силу с 12.12.2019.",
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11: Temporary data retention extension",
+        "message": "11 декабря 2019 г.: временное увеличение срока хранения данных",
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-4-what-doing": {
-        "message": "We are temporarily halting User Activity Data pruning, effectively extending the data retention period.",
+        "message": "Мы временно отключаем процедуру удаления данных о пользовательской активности. Таким образом, срок хранения данных увеличивается.",
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-4-why-doing": {
-        "message": "We need to keep granular activity data longer to give us time to analyze recent censorship events.",
+        "message": "Нам нужно больше времени хранить данные, чтобы проанализировать новейшие события в области цензуры.",
         "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-4-when-doing": {
-        "message": "This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.",
+        "message": "Эта мера начнет работать 12 декабря 2019 года и продлится один месяц. Мы напишем в этом бюллетене, если понадобится увеличить этот срок.",
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-4-update": {
-        "message": "User activity data retention was returned to normal by 2020-04-10.",
+        "message": "Срок хранения пользовательских данных был возвращен к прежнему значению до 10 апреля 2020 года.",
         "description": "A section of a privacy bulletin, with an update to previous information."
     },
     "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19: Privacy exception: Accidental user IP retention",
+        "message": "19 июня 2020 года: инцидент приватности - случайное сохранение IP-адресов пользователей",
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-5-what-happened": {
-        "message": "We use AWS S3 to host websites, client applications, and remote server lists. We discovered that logging had been enabled for many of our S3 resources since June 2015. These logs include IP addresses of users who accessed those resources.",
+        "message": "Мы используем AWS S3 для хостинга веб-сайтов, клиентских приложений и списков удаленных серверов. Мы обнаружили, что с июня 2015 года для многих наших ресурсов на S3 было включено ведение логов (журналов). В эти логи записывались IP-адреса пользователей, получивших доступ к упомянутым ресурсам.",
         "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
     },
     "privacy-bulletin-entry-5-impact": {
-        "message": "We have no indication that any logs were obtained by any external party, so this is not a user data breach. However, it is a violation of our Privacy Policy.",
+        "message": "У нас нет никаких свидетельств того, что какой-либо лог был передан третьей стороне. Мы не считаем произошедшее утечкой данных. Однако, это нарушение нашей Политики приватности.",
         "description": "A section of a privacy bulletin, describing the impact of a privacy event"
     },
     "privacy-bulletin-entry-5-resolution": {
-        "message": "Logging has been disabled for user-accessible S3 buckets and all logs have been deleted. We are working on a system to keep track of privacy exceptions and issues, and investigating AWS resource auditing.",
+        "message": "Ведение логов отключено для доступных пользователям сервисов хранения Amazon. Все логи удалены. Мы держим руку на пульсе событий, связанных с приватностью пользователей, и проводим аудит ресурсов Amazon.",
         "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
     },
     "privacy-title": {
@@ -1404,15 +1404,15 @@
         "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
     },
     "privacy-bulletin-info-para-1": {
-        "message": "From time to time, Psiphon will add entries to our <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a>. This will happen for two reasons:",
+        "message": "Время от времени Psiphon будет добавлять данные в наш <a href=\"./privacy-bulletin.html\">Бюллетень по приватности</a>. Причины:",
         "description": "Paragraph introducing a bullet list."
     },
     "privacy-bulletin-info-para-2-item-1": {
-        "message": "We modify the Privacy Policy. This can happen when new laws add different requirements, or if we start or stop using a third-party service. We will detail the changes made to the policy.",
+        "message": "Мы вносим изменения в Политику приватности. Это может происходить из-за новых законов и требований. Иногда причина в том, что мы запускаем/останавливаем сторонний сервис. Мы всегда подробно объясняем вносимые изменения.",
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "privacy-bulletin-info-para-2-item-2": {
-        "message": "We temporarily deviate from our Privacy Policy by changing our information collection behaviour. This is typically done to resolve a problem with our service, or to give us more time to analyze our data relating to an interesting censorship event. We will describe the change, for example what was recorded, how long it was kept, and why.",
+        "message": "Мы временно отклоняемся от нашей Политики приватности (изменяем тактику сбора данных). Обычно это происходит, если нужно решить проблему с сервисом или получить больше времени для анализа интересных случаев цензуры. Мы описываем такое изменение (например, какие данные фиксируются, как долго это продлится и почему).",
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "faq-information-collected-question": {
@@ -1432,7 +1432,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-head": {
-        "message": "Psiphon Websites",
+        "message": "Сайты Psiphon",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "privacy-information-collected-websites-google-analytics-head": {
@@ -1444,7 +1444,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
-        "message": "Google Analytics sets a permanent cookie in your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
+        "message": "Google Analytics записывает в ваш браузер постоянный куки-файл. С его помощью вас \"узнают\" при следующем заходе на сайт. Этот куки-файл не доступен никому, кроме Google. Собранные данные нельзя получить или изменить с других доменов.",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-3": {
@@ -1468,7 +1468,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-1": {
-        "message": "Psiphon runs many servers for many reasons. On those servers we collect the following data to monitor the health of the Psiphon system. It helps us to learn things like how well Psiphon is working, what propagation strategies are effective, and how users are obtaining the Psiphon client.",
+        "message": "Psiphon нужно много серверов по многим причинам. На этих серверах мы собираем данные для мониторинга работы Psiphon. Информация помогает нам понять, насколько успешно Psiphon справляется со своей задачей, какие стратегии продвижения эффективны, как именно пользователи получают клиент Psiphon. Вот какие данные мы собираем:",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-1": {
@@ -1496,7 +1496,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-9": {
-        "message": "Client platform (simplified operating system list; not a detailed browser user agent)",
+        "message": "Платформа клиента (из упрощенного списка операционных систем, но без, например, информации User Agent браузера)",
         "description": ""
     },
     "faq-information-collected-answer-para-3b": {
@@ -1504,11 +1504,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-4": {
-        "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type.",
+        "message": "Логи событий включают временные метки, коды региона (страны и города) и такие не идентифицирующие атрибуты, как версия клиента Psiphon, ID спонсора (зависит от версии Psiphon), тип протокола.",
         "description": ""
     },
     "faq-information-collected-answer-para-5": {
-        "message": "Any statistics shared with third parties are aggregated by date, sponsor, and region, to a sufficient coarseness that they are non-identifying.",
+        "message": "Всякая статистика, которую мы предоставляем третьим сторонам, обобщается по дате, спонсору и региону. Мы обобщаем ее до такой степени, чтобы идентификация пользователей стала невозможной.",
         "description": ""
     },
     "privacy-information-collected-vpndata-head-v2": {
@@ -1516,23 +1516,23 @@
         "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data and activity statistics through the Psiphon VPN"
     },
     "privacy-information-collected-vpndata-whycare-subhead": {
-        "message": "Why should you care?",
+        "message": "Какое это имеет отношение к вам?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
     },
     "privacy-information-collected-vpndata-whycare-para-1": {
-        "message": "When using a VPN or proxy you should be concerned about what the VPN provider can see in your data, collect from it, and do to it.",
+        "message": "Если вы используете VPN или прокси, важно понимать, какую информацию VPN-провайдер может извлечь из ваших данных, что он собирает и как с этими данными поступает.",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whycare-para-2": {
-        "message": "When you use a VPN, all data to and from your device goes through it. If you visit a website that uses unencrypted HTTP, all of that site's data is visible to the VPN. If you visit a website that uses encrypted HTTPS, the site content is encrypted, but some information about the site might be visible to the VPN. Other apps and services on your device will also transfer data that is encrypted or unencrypted. (Note that this is distinct from the encryption that all VPNs provide. Here we're only concerned with data that is or is not encrypted <em>inside</em> the VPN tunnel.)",
+        "message": "Когда вы используете VPN, весь трафик, проходящий через ваше устройство, проходит и через VPN. Если вы открываете сайт по нешифрованному протоколу HTTP, все данные с этого сайта видны VPN-провайдеру. Если это сайт HTTPS, трафик зашифрован, но некоторая информация о сайте может быть доступна провайдеру. Другие приложения и сервисы на вашем устройстве могут передавать шифрованные и нешифрованные данные. (Внимание: это не то же самое, что шифрование со стороны VPN. Здесь мы говорим только о данных, которые шифруются (или нет) <em>внутри</em> VPN-туннеля).",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an 'emphasis' (like italics) HTML tag, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whycare-para-3": {
-        "message": "For unencrypted services, it is possible for a VPN provider to see, collect, and modify (e.g., injecting ads into) the contents of your data. For encrypted data, it is still possible for a VPN to collect metadata about sites visited or actions taken. You should also be concerned with your VPN provider sharing your data with third parties.",
+        "message": "Если сервис не зашифрован, VPN-провайдер может видеть, собирать и изменять (к примеру, вставлять рекламу) ваши данные. Если шифрование включено, VPN-провайдер может собирать метаданные о посещенных сайтах и других действиях. Обратите внимание на то, раскрывает ли ваш VPN-провайдер какую-либо информацию третьим сторонам.",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-subhead": {
-        "message": "What does Psiphon <strong>NOT</strong> do with your data?",
+        "message": "Что Psiphon <strong>НЕ</strong> делает с вашими данными?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what undesirable things Psiphon DOES NOT do with user data. '<strong>' is an HTML tag that makes text bold, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-1": {
@@ -1560,19 +1560,19 @@
         "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-1": {
-        "message": "While a user's device is tunneled through Psiphon, we collect some information about how they're using it. We record what protocol Psiphon used to connect, how long the device was connected, how many bytes were transferred during the session, and what city, country, and ISP the connection came from. For some domains (but very few, and only popular ones) or server IP addresses (e.g., known malware servers) that are visited, we also record how many bytes were transferred to it. (But never full URLs or anything more sensitive. And only domains of general interest, not all domains.)",
+        "message": "Когда трафик пользовательского устройства проходит через Psiphon, мы собираем некоторые данные о нем. Мы фиксируем, по какому протоколу происходит подключение через Psiphon, продолжительность соединения, объем трафика за сессию, из какой страны/города и через какого провайдера подключается человек. Для некоторых доменов (очень редко, только для самых популярных) и серверных IP-адресов (например, серверы, где, как нам известно, размещены вредоносные программы) мы также фиксируем объем скачанных данных. Мы никогда не запоминаем полные адреса страниц или что-нибудь сенситивное в этом духе. Мы не мониторим все домены, только некоторые.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
-        "message": "Geographical location and ISP info are derived from user IP addresses, which are then immediately discarded.",
+        "message": "Из IP-адреса пользователя мы извлекаем данные о его местонахождении и о провайдере доступа к интернету. Сразу после этого IP-адрес удаляется.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-3": {
-        "message": "An example of user activity data might be: At a certain time a user connected from New York City, using Comcast, and transferred 100MB from <code>youtube.com</code> and 300MB in total.",
+        "message": "Пример данных активности пользователя: в такое-то время некий пользователь подключился из города Нью-Йорк через провайдера Comcast, его трафик составил 300 Мб, в том числе он скачал 100 Мб с <code>youtube.com</code>.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4.1": {
-        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 90 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
+        "message": "Мы относим данные о пользовательской активности к наиболее сенситивной информации. Ни при каких условиях мы не предоставляем и не будем предоставлять эти данные третьим сторонам. Пользовательские данные хранятся максимум 90 дней. Затем мы обобщаем и удаляем их. Резервные копии данных хранятся разумное время.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {
@@ -1580,7 +1580,7 @@
         "description": "Sub-heading for the definition of 'Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-1": {
-        "message": "Data is “aggregated” by taking a lot of sensitive user activity data and combining it together to form coarse statistical data that is no longer specific to a user. After aggregation, the user activity data is deleted.",
+        "message": "Данные обобщаются (обезличиваются). Подробная информация о действиях конкретных пользователей преобразуется в статистические данные, которые уже нельзя связать с чьей-то личностью. После этого изначальные данные о действиях пользователей удаляются.",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-2": {
@@ -1588,95 +1588,95 @@
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-3": {
-        "message": "Aggregated data is much less sensitive than activity data, but we still treat it as potentially sensitive and do not share it in this form.",
+        "message": "Обобщенные данные куда менее сенситивны, чем данные о действиях пользователей. Тем не менее, мы считаем обобщенные данные потенциально сенситивными.",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-subhead": {
-        "message": "Shareable Aggregated Data",
+        "message": "Раскрытие обобщенных данных",
         "description": "Sub-heading for the definition of 'Shareable Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-shareable-para-1": {
-        "message": "When sharing aggregated data with third parties, we make sure that the data could not be combined with other sources to reveal user identities. For example, we do not share data for countries that only have a few Psiphon users in a day. We make sure that the data is anonymized.",
+        "message": "Когда мы предоставляем кому-либо обобщенные данные, мы заботимся, чтобы они не сопоставлялись с другими данными, а пользователей нельзя было идентифицировать. Например, мы не передаем данные в страны, где очень мало пользователей Psiphon. Анонимность важна для нас.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-2": {
-        "message": "We also never share domain-related information with third parties.",
+        "message": "Мы никогда не раскрываем третьим сторонам данные о доменных именах.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-3": {
-        "message": "An example of shareable aggregated data might be: On a particular day, 500 people connected from New York City and transferred 800GB in total.",
+        "message": "Вот пример обобщенных данных, которыми мы можем делиться: в такой-то день 500 пользователей подключились из Нью-Йорка, их общий трафик составил 800 Гб.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-4": {
-        "message": "An example of data that is <em>not shareable</em>: On a particular day, 2 people connected from Los Angeles. Those people will be included in the stats for the entire US, but that is too few people to anonymously share city data for.",
+        "message": "А вот пример данных, которыми мы <em>не делимся</em>: в такой-то день 2 человека подключились из Лос-Анджелеса. Эти пользователи попадут в общую статистику по США, но их слишком мало в одном городе, их анонимность может быть нарушена.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an HTML tag that adds emphasis (like italics), which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead-v2": {
-        "message": "What does Psiphon do with User Activity and Aggregated Data?",
+        "message": "Как Psiphon поступает с данными о действиях пользователя и с обобщенными данными?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1-v2": {
-        "message": "Activity and aggregated statistical data are vital for us to make Psiphon work best. It allows us to do things like:",
+        "message": "Данные о действиях пользователя и обобщенные данные очень важны для нас. Они помогают Psiphon работать наилучшим образом. Вот что мы делаем:",
         "description": "Paragraph text in the 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-1": {
-        "message": "Monitor the health and success of the Psiphon network: We need to know how many people are connecting, from where, how much data they're transferring, and if they're having any problems.",
+        "message": "Мониторинг рабочего состояния сети Psiphon. Нам необходимо знать, сколько человек подключено, откуда, сколько данных передают эти люди, возникают ли у них какие-либо проблемы.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-2": {
-        "message": "Monitor threats to our users' devices: We watch for malware infections that attempt to contact command-and-control servers.",
+        "message": "Мониторинг угроз пользовательским устройствам. Мы отслеживаем атаки вредоносных программ, которые пытаются взаимодействовать с управляющими серверами.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-3": {
-        "message": "Ensure users stay connected while foiling censors: We try to detect that a user is behaving like a real person and then reveal new Psiphon servers to them. (This is our obfuscated server list technology.)",
+        "message": "Обеспечение доступа для пользователей и недопуск цензоров. Мы стараемся удостовериться, что пользователь ведет себя как реальный человек, и только потом даем доступ к новым серверам Psiphon. (Наша технология маскировки списка серверов).",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
-        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "message": "Оценка будущих затрат. Каждый месяц мы обеспечиваем огромный объем пользовательского трафика. Это главная статья расходов. Нам важно видеть и понимать статистические изменения.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
-        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+        "message": "Определение основных событий в области цензуры. Сайты и сервисы часто попадают под блокировки внезапно, без предупреждения. Это может приводить к резкому росту востребованности Psiphon тут и там. К примеру, ежедневная нагрузка возросла до 20 раз, когда <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">в Бразилии заблокировали WhatsApp</a>, а <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">в Турции соцсети</a>.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
-        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+        "message": "Понимание нашего пользователя. Некоторые сайты и сервисы никогда не будут заблокированы. Другие обязательно будут (в определенных странах). Третьим блокировка может грозить или нет. Мы хотим, чтобы наши пользователи могли свободно общаться и учиться. Поэтому нам нужно понимать эти закономерности. Нужно видеть, кого затрагивают ограничения, и как обеспечить оптимальную работы Psiphon с партнерскими сервисами.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-subhead-v2": {
-        "message": "Who does Psiphon share Aggregated Data with?",
+        "message": "С кем Psiphon делится обобщенными данными?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-1-v2": {
-        "message": "Shareable aggregated data is shared with sponsors, organizations we collaborate with, and civil society researchers. The data can be used to show such things as:",
+        "message": "Мы делимся обобщенными данными со спонсорами, партнерами, исследователями гражданского общества. Вот что помогают увидеть эти данные:",
         "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-1": {
-        "message": "How well Psiphon is working in a particular region.",
+        "message": "Насколько успешно Psiphon работает в конкретном регионе.",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-2": {
-        "message": "The blocking patterns in a given country, for example during political events.",
+        "message": "Методы блокирования ресурсов в той или иной стране, например, во время политических событий.",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-3": {
-        "message": "That the populace of a country is determined to access the open internet.",
+        "message": "Тот факт, что жители страны ищут варианты доступа к открытому интернету.",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-3-v2": {
-        "message": "Again, only anonymized shareable aggregated data is ever shared with third parties.",
+        "message": "Еще раз: только анонимизированные обобщенные данные могут быть раскрыты третьим сторонам.",
         "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-psicash-para-1": {
-        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "message": "В системе PsiCash собираются только те данные, которые необходимы для функционирования самой системы, мониторинга ее работы и обеспечения безопасности.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-list-start": {
-        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "message": "Сервер PsiCash хранит данные конкретных пользователей для своей нормальной работы, а именно:",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-item-1": {
-        "message": "generated user access tokens",
+        "message": "сгенерированные токены пользовательского доступа",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-information-collected-psicash-para-2-item-2": {
@@ -1688,23 +1688,23 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "privacy-information-collected-psicash-para-2-item-4": {
-        "message": "PsiCash earning history, including what actions the rewards were granted for",
+        "message": "история получения PsiCash, включая данные о том, за какие именно действия получены PsiCash",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-item-5": {
-        "message": "PsiCash spending history, including what purchases were made",
+        "message": "история расходования PsiCash, включая данные о покупках",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-3-list-start": {
-        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "message": "В пользовательском браузере тоже хранятся некоторые данные о полученных наградах и сделанных покупках, в том числе:",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-3-item-1": {
-        "message": "generated user access tokens",
+        "message": "сгенерированные токены пользовательского доступа",
         "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-information-collected-psicash-para-3-item-2": {
-        "message": "when a PsiCash reward is allowed to be claimed again",
+        "message": "когда можно потребовать награду PsiCash снова",
         "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-4-list-start": {
@@ -1728,11 +1728,11 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
     },
     "privacy-information-collected-psicash-para-4-item-5": {
-        "message": "PsiCash earning and spending details",
+        "message": "подробности получения и расходования PsiCash",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-5": {
-        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "message": "Данные отдельных пользователей никогда не передаются третьим сторонам. Передаваться может лишь обобщенная статистика, но идентификация пользователей исключается.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {

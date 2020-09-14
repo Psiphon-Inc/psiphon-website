@@ -36,7 +36,7 @@
         "description": "text for the FAQ page navigation item"
     },
     "faq-description": {
-        "message": "ስለ Psiphon (Psiphon) ተደጋግመው የተጠየቁ ጥያቄዎች መልስ ",
+        "message": "ስለ Psiphon በተደጋጋሚ የሚጠይቁ ጥያቄዎች መልስ",
         "description": "Description for the FAQ page. 'Psiphon' must not be translated or transliterated."
     },
     "resources-nav-title": {
@@ -48,7 +48,7 @@
         "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
     },
     "user-guide-meta-title": {
-        "message": "Psiphonን በተንቀሳቃሽ ስልክ እና በWindows ላይ እንዴት መጠቀም እንደሚቻል",
+        "message": "Psiphonን በተንቀሳቃሽ ስልክ እና በWindows ላይ እንዴት መጠቀም ይቻላል",
         "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
     },
     "user-guide-nav-title": {
@@ -56,7 +56,7 @@
         "description": "text for the user guide page navigation item"
     },
     "user-guide-description": {
-        "message": "Psiphonን በተንቀሳቃሽ ስልክ እና በWindows አእማዶች  ላይ እንዴት እንደሚጠቀሙ የሚያሳይ የተጠቃሚዎች መመሪያ ",
+        "message": "Psiphonን በተንቀሳቃሽ ስልክ እና በWindows አእማዶች  ላይ እንዴት እንደሚጠቀሙ የሚያሳይ የተጠቃሚዎች መመሪያ",
         "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
     },
     "download-title": {
@@ -84,7 +84,7 @@
         "description": "Section heading for FAQ entries that pertain to the privacy and security of Psiphon."
     },
     "faq-section-installing-running-updating": {
-        "message": "Psiphonን መጫን፣ ማሄድ እና ማዘመን ",
+        "message": "Psiphonን መጫን፣ ማሄድ እና ማዘመን",
         "description": "Section heading for FAQ entries that pertain to running and installing/updating/upgrading the Psiphon client software. 'Psiphon' must not be translated or transliterated."
     },
     "faq-section-how-psiphon-works": {
@@ -112,7 +112,7 @@
         "description": "Section heading for FAQ entries that don't fit in any other category."
     },
     "faq-authentic-windows-image-alt": {
-        "message": "የ Psiphon ለ Windows ማረጋገጫ ጣት አሻራ ለማግኘት የሚያስፈልገው የውይይት ሳጥኖች ፍሰት ",
+        "message": "የPsiphon ለWindows ማረጋገጫ ጣት አሻራ ለማግኘት የሚያስፈልገው የውይይት ሳጥኖች ፍሰት",
         "description": "Alt text for an image. 'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-question": {
@@ -120,27 +120,31 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-answer-para-1": {
-        "message": "የWindows Psiphon (Psiphon) እንደሚጫን እሽግ ሆኖ በፍጹም አልተሰራጨም። እያንዳንዱ የWindows Psiphon (Psiphon) ተገልጋይ ነጠላ ራስ ጫኝ  (\".exe\") ሰነድ ሲሆን የPsiphon ኩባንያ የዲጂታል ፊርማ አለበት። ደንበያውን በሚያሄዱበት ወቅት Windows የዚህን ፊርማ ትክክለኛነት በራስሰር ያረጋግጣል። በተጨማሪም ተገልጋይውን ከማስኬድዎ በፊት የሰነዱን ባህሪዎች ሳጥን በመጠቆም እና የዲጂታል ፊርማ ትሩን  በመመርመር ፊርማውን ማጣራት  ይችላሉ። የPsiphon ኩባንያ SHA1 የጣት አሻራ ሰርትፍኬት ይፋዊ ቁልፍ በሰርትፍኬት ዝርዝር ሳጥን  ትር ላይ ይታያል። ",
+        "message": "Psiphon ለWindows እንደሚጫን እሽግ ሆኖ በፍጹም አልተሰራጨም። እያንዳንዱ Psiphon ለWindows ተገልጋይ ነጠላ ራስ ጫኝ  (\".exe\") ሰነድ ሲሆን የPsiphon ኩባንያ የዲጂታል ፊርማ አለበት። ተገልጋዩን በሚያሄዱበት ወቅት Windows የዚህን ፊርማ ትክክለኛነት በራስሠር ያረጋግጣል። በተጨማሪም ተገልጋይውን ከማስኬድዎ በፊት የሰነዱን ባህሪዎች ሳጥን በመጠቆም እና የዲጂታል ፊርማ ትሩን በመመርመር ፊርማውን ማጣራት ይችላሉ። የPsiphon ኩባንያ SHA1 የጣት አሻራ ሰርትፍኬት ይፋዊ ቁልፍ በሰርትፍኬት ዝርዝር ሳጥን ትር ላይ ይታያል።",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
-        "message": " ከ 2017-07-05 እስከ 2020-10-03 ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ የሚከተለው ነው፡- ",
+        "message": " ከ 2017-07-05 እስከ 2020-10-03 ባለው ጊዜ ለሚሠራ ማረጋገጫ የSHA1 የጣት አሻራ የሚከተለው ነው፡- ",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-2017": {
-        "message": " ከ2014-05-08 እስከ 2017-09-06  ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ የሚከተለው ነው፡-",
+        "message": " ከ2014-05-08 እስከ 2017-09-06  ባለው ጊዜ ለሚሠራ ማረጋገጫ የSHA1 የጣት አሻራ የሚከተለው ነው፡-",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-3": {
-        "message": "እ.ኤ.አ. ከ2012-05-21 እስከ 2014-07-30  ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ ይህ ነው፡- ",
+        "message": "እ.ኤ.አ. ከ2012-05-21 እስከ 2014-07-30  ባለው ጊዜ ለሚሠራ ማረጋገጫ የSHA1 የጣት አሻራ ይህ ነው፡- ",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-2": {
-        "message": "እ.ኤ.አ. ከ2011-06-16 እስከ 2012-06-21 ባለው ጊዜ ለሚሰራ ሰርትፍኬት የSHA1 የጣት አሻራ ይህ ነው፡- ",
+        "message": "እ.ኤ.አ. ከ2011-06-16 እስከ 2012-06-21 ባለው ጊዜ ለሚሠራ ማረጋገጫ የSHA1 የጣት አሻራ ይህ ነው፡- ",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-4": {
-        "message": "የWindows  Psiphon (Psiphon) እራሱን የሚያዘምን ሲሆን ይህም ሂደት እያንዳንዱ ዝመና ትክክለኛ መሆኑን ያረጋግጣል። ",
+        "message": "Psiphon ለWindows እራሱን የሚያዘምን ሲሆን ይህም ሂደት እያንዳንዱ ዝመና ትክክለኛ መሆኑን ያረጋግጣል።",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-android-question": {
@@ -148,7 +152,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-android-answer-alert": {
-        "message": "<b>ማስጠንቀቂያ፡-</b>  የAndroid መተግበሪያ የፊርማ ማጣሪያ ሸረኛ APKዎችን በሃሰት ትክክለኛ አድርጎ መዘገቡ በቅርቡ <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">የተገለጸ </a>ተጋላጭነቱ  ነው። <a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">እዚህ </a>እንደተቀመጠው ተጠቃሚዎች የGoogle ማረገገጫ መተግበሪያዎችን እንዲያበሩ  እንመክራለን። ",
+        "message": "<b>ማስጠንቀቂያ፡-</b>  የAndroid መተግበሪያ የፊርማ ማጣሪያ ሸረኛ APKዎችን በሃሰት ትክክለኛ አድርጎ መዘገቡ በቅርቡ <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">የተገለጸ </a>ተጋላጭነቱ ነው። <a href=\"https://support.google.com/accounts/answer/2812853?hl=en\">እዚህ </a>እንደተቀመጠው ተጠቃሚዎች የGoogle ማረገገጫ መተግበሪያዎችን እንዲያበሩ  እንመክራለን። ",
         "description": ""
     },
     "faq-authentic-android-answer-para-1": {
@@ -160,11 +164,11 @@
         "description": ""
     },
     "faq-authentic-android-answer-para-3": {
-        "message": "የAndroid Psiphon (Psiphon) እራሱን የሚያዘምን ሲሆን ይህም ሂደት እያንዳንዱ ዝመና ትክክለኛ መሆኑን ያረጋግጣል። ",
+        "message": "Psiphon ለAndroid እራሱን የሚያዘምን ሲሆን ይህም ሂደት እያንዳንዱ ዝመና ትክክለኛ መሆኑን ያረጋግጣል።",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-unsupported-platforms-question": {
-        "message": "Psiphon (Psiphon) ለmacOS፣ Linux፣ Windows ስልክ እና ለመሳሳሰሉት ይገኛል？ ",
+        "message": "Psiphon ለmacOS፣ Linux፣ Windows ስልክ እና ለመሳሰሉት ይገኛል ወይ? ",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-unsupported-platforms-answer-para-1": {
@@ -172,11 +176,11 @@
         "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
     },
     "faq-android-enable-sideloading-question": {
-        "message": "የAndroid “ሳይድሎዲንግ”ን እንዴት ማስቻል እችላለሁ？ ",
+        "message": "የAndroid “የጎን ጭነት”ን እንዴት ማንቃት እችላለሁ?",
         "description": "FAQ question."
     },
     "faq-android-enable-sideloading-answer-para-0": {
-        "message": "“የጎንዮሽ ጭነት” ማለት በመሳሪያዎ ላይ በPlay Store ሳይሄዱ መተግበሪያን መጫን ማለት ነው። ይህ Play Storeን ማግኘት በማይችሉ ሰዎች ወይም በቀጠናላቸው መተግበሪያውን ማግኘት ለማይችሉ ሰዎች ተመራጭ ነው። ",
+        "message": "“የጎንዮሽ ጭነት” ማለት በመሳሪያዎ ላይ በPlay Store ሳይሄዱ መተግበሪያን መጫን ማለት ነው። ይህ Play Storeን ማግኘት በማይችሉ ሰዎች ወይም በቀጠናላቸው መተግበሪያውን ማግኘት ለማይችሉ ሰዎች ተመራጭ ነው።",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-android-enable-sideloading-answer-para-1": {
@@ -184,7 +188,7 @@
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "የ Play መደብር ያልሆኑ መተግበሪያዎችን መጫን የሚፈቅድ የ Android ደህንነት ቅንብር ቅጽበታዊ ገጽ እይታ",
+        "message": "የPlay መደብር ያልሆኑ መተግበሪያዎችን መጫን የሚፈቅድ የAndroid ደህንነት ቅንብር ቅጽበታዊ ገጽ እይታ",
         "description": "alt text for an image"
     },
     "faq-windows-xp-eol-question": {
@@ -196,7 +200,7 @@
         "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-information-collected-answer-redirect": {
-        "message": "ስለምንሰበስበው መረጃ ለማወቅ እባክዎ <a href=\"privacy.html\">የግላዊነት ፖሊሲያችንን</a> ይመልከቱ። ",
+        "message": "ስለምንሰበስበው መረጃ ለማወቅ እባክዎ <a href=\"privacy.html\">የግላዊነት ፖሊሲያችንን</a> ይመልከቱ።",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
     },
     "faq-ip-change-question": {
@@ -204,7 +208,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-ip-change-answer-para-1": {
-        "message": "የሳይፈኞ ተገልጋይዎ በራሱ አዳዲስ የPsiphon አገልጋዮችን ያገኛል። በመጨረሻ ጥቅም ላይ የዋለው አገልጋይ በማይገኝበት ወቅት በምትኩ ሌላ አገልጋይ ጥቅም ላይ ሊውል ይችላል። ",
+        "message": "የPsiphon ተገልጋይዎ በራሱ አዳዲስ የPsiphon አገልጋዮችን ያገኛል። በመጨረሻ ጥቅም ላይ የዋለው አገልጋይ በማይገኝበት ወቅት በምትኩ ሌላ አገልጋይ ጥቅም ላይ ሊውል ይችላል።",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-connection-failed-question": {
@@ -212,11 +216,11 @@
         "description": ""
     },
     "faq-connection-failed-answer-para-1": {
-        "message": "\"ግንኙነቱ አልተሳካም\" የሚል መልዕክት ተደጋግሞ ከተመለከቱ የእርስዎ ደንበኛ የሚያውቀው ምንም አይነት አገልጋዮች አላገኘም ማለት ነው። አዲስ የPsiphon ተገልጋይን ለማውረድ ይሞክሩ። ",
+        "message": "\"ግንኙነቱ አልተሳካም\" የሚል መልዕክት በተደጋጋሚ ከተመለከቱ የእርስዎ ተገልጋይ የሚያውቀው ምንም አይነት አገልጋይ አላገኘም ማለት ነው። አዲስ የPsiphon ተገልጋይ ለማውረድ ይሞክሩ።",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-question": {
-        "message": "የWindows Psiphonን ከተጠቀምኩ በኋላ ኮምፒውተሬ ከኢንተርኔት ጋር መገናኘት አቆመ። ",
+        "message": "Psiphon ለWindows ከተጠቀምኩ በኋላ ኮምፒውተሬ ከኢንተርኔት ጋር መገናኘት አቆመ።",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-answer-para-1": {
@@ -224,7 +228,7 @@
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-answer-para-2": {
-        "message": "ለብዙ ሰዎች ይህንን የማስተካከያ ቀላሉ መንገድ Psiphonን በድጋሚ ማገናኘት እና ከዛም በተስተካከለ መልኩ ግንኙነቱን ማቋረጥ ነው። ",
+        "message": "ለብዙ ሰዎች ይህንን የማስተካከያ ቀላሉ መንገድ Psiphonን በድጋሚ ማገናኘት እና ከዛም በተስተካከለ መልኩ ግንኙነቱን ማቋረጥ ነው።",
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-answer-para-3": {
@@ -256,7 +260,7 @@
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-ie6-docbody-answer-para-2": {
-        "message": "የWindows ዝመናን መጠቀም ካልቻሉ እና Internet Explorer 7 ወይም Internet Explorer 8 በቀጥታ መጫን ከፈለጉ በሚከተሉት ትይይዞች አማካኝነት ሊያገኟቸው ይችላሉ፡-",
+        "message": "የWindows ዝመናን መጠቀም ካልቻሉ እና Internet Explorer 7 ወይም Internet Explorer 8 በቀጥታ መጫን ከፈለጉ በሚከተሉት አገናኞች አማካኝነት ሊያገኟቸው ይችላሉ፦",
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
     "faq-ie6-docbody-answer-xpie8": {
@@ -296,11 +300,11 @@
         "description": "Do no translate or transliterate the filename."
     },
     "faq-orig-file-purpose-answer-para-1": {
-        "message": "የPsiphon ለWindows ራስሰር የማዘመን ሂደት የቀድሞ ስሪቱን ስም ወደ “psiphon3.exe.orig” ይቀይራል። በ“.orig” ድረ ቅጥያ የሚያበቁ የቀድሞ ሰነዶችን ያለችግር መጥፋት ይችላሉ። ",
+        "message": "የPsiphon ለWindows ራስሰር የማዘመን ሂደት የቀድሞ ስሪቱን ስም ወደ “psiphon3.exe.orig” ይቀይራል። በ“.orig” ድረ ቅጥያ የሚያበቁ የቀድሞ ሰነዶችን ያለችግር መጥፋት ይችላሉ። ",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-uninstall-windows-question": {
-        "message": "የWindows Psiphonን እንዴት ማራገፍ እችላለሁ？",
+        "message": "Psiphon ለWindowsን እንዴት ማራገፍ እችላለሁ?",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-uninstall-windows-answer-para-1": {
@@ -316,7 +320,7 @@
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
-        "message": "የWindows ሳይፈኔ ሁሉንም የኢንተርኔት ትራፊኬን  በወኪል ያደርገዋል ？ ",
+        "message": "Psiphon ለWindows ሁሉንም የኢንተርኔት ትራፊኬን በወኪል ያስተላልፈዋል?  ",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-answer-para-1": {
@@ -324,7 +328,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-ios-browser-question": {
-        "message": "የIOS Psiphon (Psiphon) መዳሰሻ  የመሳሪያዬን የኢንተርኔት ትራፊክ በሙሉ በወኪል ያደርገዋል ？ ",
+        "message": "Psiphon ለiOS ማሰሻ የመሣሪያዬን የኢንተርኔት ትራፊክ በሙሉ በወኪል ያስተላልፋል ወይ？ ",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
@@ -332,7 +336,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-browser-compatibility-question": {
-        "message": "የWindows Psiphon (Psiphon) ከInternet Explorer፣ Firefox  እና Chrome የድር መዳሰሻዎች ጋር ተኳኋኝ ነው？ ",
+        "message": "Psiphon ለWindows ከInternet Explorer፣ Firefox  እና Chrome የድር ማሰሻዎች ጋር ተኳኋኝ ነው ወይ?",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-browser-compatibility-answer-para-1": {
@@ -348,7 +352,7 @@
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-mail-apps-ports-question": {
-        "message": "Psiphonን እየተጠቀምኩ የምወደውን መተግበሪያ መጠቀም የማልችለው ለምንድን ነው？  የሜል ተገልጋይዬን ተጠቅሜ ኤፖስታ መላክ የማልችለው ለምንድን ነው？  ",
+        "message": "Psiphonን እየተጠቀምኩ የምወደውን መተግበሪያ መጠቀም የማልችለው ለምንድን ነው? የፖስታ ተገልጋይዬን ተጠቅሜ ኤፖስታ መላክ የማልችለው ለምንድን ነው?",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-mail-apps-ports-answer-para-1": {
@@ -356,7 +360,7 @@
         "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-mobile-hotspot-question": {
-        "message": "የAndroid ተንቀሳቃሽ ሆትስፖቶች እና USB ግንኘነት  በPsiphon በኩል የማይሰሩት ለምንድን ነው？  ",
+        "message": "የAndroid ተንቀሳቃሽ ሆትስፖቶች እና USB ግንኘነት በPsiphon በኩል የማይሠሩት ለምንድን ነው?",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-mobile-hotspot-answer-para-1": {
@@ -376,7 +380,7 @@
         "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-question": {
-        "message": "የWindows Metro (ወይም Modern UI) መተግበሪያ በPsiphon ማዘዋወር የማልችለው ለምንድን ነው？ ",
+        "message": "የWindows Metro (ወይም Modern UI) መተግበሪያዎችን በPsiphon ማስተላለፍ የማልችለው ለምንድን ነው?",
         "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-answer-para-1": {
@@ -388,11 +392,11 @@
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-answer-para-3": {
-        "message": "የሚከተሉት ምሳሌዎች የMetro ሁነታ መተግበሪያዎች ከPsiphon ጋር ለመስራት ሲሞክሩ እና ሳይሳካላቸው ሲቀር ሊያሳዩአቸው የሚችሏቸው የስህተት መልእክቶች ናቸው። ",
+        "message": "የሚከተሉት ምሳሌዎች የMetro ሁነታ መተግበሪያዎች ከPsiphon ጋር ለመስራት ሲሞክሩ እና ሳይሳካላቸው ሲቀር ሊያሳዩአቸው የሚችሏቸው የስህተት መልእክቶች ናቸው።",
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages. 'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-protocol-question": {
-        "message": "Psiphon (Psiphon) ለWindows የሚጠቀመው የVPN ፕሮቶኮል ምንድን ነው？ መገናኘት የማልችለው ለምንድን ነው？ ",
+        "message": "Psiphon ለWindows የሚጠቀመው የምናባዊ የግል አውታረ መረብ (ቪፒኤን) ፕሮቶኮል ምንድን ነው? መገናኘት የማልችለው ለምንድን ነው?",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-protocol-answer-para-1": {
@@ -400,7 +404,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-vpn-connect-question": {
-        "message": "በWindow Psiphon (Psiphon) በ L2TP/IPsec VPN ሁነታ መገናኘት የማልችለው ለምንድን ነው？",
+        "message": "በPsiphon ለWindows በL2TP/IPsec ሁነታ መገናኘት የማልችለው ለምንድን ነው?",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-vpn-connect-answer-para-1": {
@@ -408,7 +412,7 @@
         "description": ""
     },
     "faq-vpn-slow-question": {
-        "message": "በWindows  ከPsiphon ጋር በVPN ሁነታ መገናኘት እችላለሁ ነገር ግን ለምን ቀርፋፋ ሆነ？  አንዳንድ ጊዜ ድረ ገጾች ጭራሹኑ አይጭኑም። ",
+        "message": "በWindows ከPsiphon ጋር በምናባዊ የግል አውታረ መረብ (ቪፒኤን) ሁነታ መገናኘት እችላለሁ ነገር ግን ለምን ቀርፋፋ ሆነ? አንዳንድ ጊዜ ድረ ገጾች ጭራሹኑ አይጫኑም።",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-slow-answer-para-1": {
@@ -416,7 +420,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-dns-question": {
-        "message": "ከWindows ሳይፈኔ ጋር በVPN ሁነታ በምገናኝበት ወቅት  ከድረገጾቼ ውስጥ አንዱም አይጭንም። የጎራ ፍለጋው አልተሳካም የሚል የስህተት መልእክት አገኛለሁ። ",
+        "message": "Psiphon ለWindows ጋር በምናባዊ የግል አውታረ መረብ (ቪፒኤን) ሁነታ በምገናኝበት ወቅት  ከድረገጾቼ ውስጥ አንዱም አይጭንም። የጎራ ፍለጋው አልተሳካም የሚል የስህተት መልእክት አገኛለሁ።",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-dns-answer-para-1": {
@@ -436,15 +440,15 @@
         "description": ""
     },
     "faq-ssh-plus-answer-para-1": {
-        "message": "Psiphon (Psiphon) SSHን ከመሰወሪያነት በተጨማሪ  የSSHን ግንኙነት የሚጠቀመው  ከጣት ኧሻራ ፕሮቶኮል SSH ለመከላከል ነው። የፕሮቶኮሉ መግለጫ <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\"> እዚህ</a> ሊገኝ ይችላል። ",
+        "message": "Psiphon SSHን ከመሰወሪያነት በተጨማሪ  የSSHን ግንኙነት የሚጠቀመው  ከጣት ኧሻራ ፕሮቶኮል SSH ለመከላከል ነው። የፕሮቶኮሉ መግለጫ <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\"> እዚህ</a> ሊገኝ ይችላል። ",
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">የራስ ወኪል</a> እጠቀማለሁ። የWindows ሳይፈኔ የወኪል ስርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ？ ",
+        "message": "<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">የራስ ወኪል</a> እጠቀማለሁ። Psiphon ለWindows የወኪል ሥርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "የራስሰር ወኪል እጠቀማለሁ። የWindows ሳይፈኔ የወኪል ስርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ？ ",
+        "message": "የራስሠር ወኪል እጠቀማለሁ። Psiphon ለWindows የወኪል ስርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -452,7 +456,7 @@
         "description": ""
     },
     "faq-screen-filter-question": {
-        "message": "የAndroid Psiphon (Psiphon) መጀመሪያ ሲገናኝ ”ይህንን መተግበሪያ አምነዋለሁ“ የሚለውን መምረጥ የማልችለው ለምንድን ነው？ ",
+        "message": "Psiphon ለAndroid መጀመሪያ ሲገናኝ ”ይህንን መተግበሪያ አምነዋለሁ“ የሚለውን መምረጥ የማልችለው ለምንድን ነው?",
         "description": "FAQ question."
     },
     "faq-screen-filter-answer-para-1": {
@@ -460,15 +464,15 @@
         "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
     },
     "faq-isp-traffic-question-toc": {
-        "message": "የኢንተርኔት አገልግሎት አቅራቢዬ Psiphonን እየተጠቀምኩኝ ኢንተርኔት ላይ ምን እያደረኩ እንደሆነ ማየት ይችላል？ ",
+        "message": "የኢንተርኔት አገልግሎት አቅራቢዬ Psiphonን እየተጠቀምኩኝ ኢንተርኔት ላይ ምን እያደረኩ እንደሆነ ማየት ይችላል?",
         "description": ""
     },
     "faq-isp-traffic-question": {
-        "message": "የኢንተርኔት አገልግሎት አቅራቢዬ Psiphonን እየተጠቀምኩኝ ኢንተርኔት ላይ ምን እያደረኩ እንደሆነ ማየት ይችላል？  ",
+        "message": "የኢንተርኔት አገልግሎት አቅራቢዬ Psiphonን እየተጠቀምኩኝ ኢንተርኔት ላይ ምን እያደረኩ እንደሆነ ማየት ይችላል?",
         "description": ""
     },
     "faq-isp-traffic-answer-para-1": {
-        "message": "በPsiphon በኩል የሚያልፍ ሁሉም ውሂብ የተመሰጠረ ነው። ይህ ማለት የእርስዎ አይኤስፒ የበይነመረብ ትራፊክዎን ይዘት ማየት አይችልም ማለት ነው-እርስዎ የሚያሰቧቸው ድረ ገጾች ፣ የውይይት መልእክቶችዎ ፣ ሰቀላዎችዎ ወዘተ ፡፡",
+        "message": "በPsiphon በኩል የሚያልፍ ሁሉም ውሂብ የተመሰጠረ ነው። ይህ ማለት የእርስዎ በ.መ.አ.(የበይነ መረብ አገልግሎት አቅራቢ) የበይነመረብ ትራፊክዎን ይዘት ማየት አይችልም ማለት ነው፦ እርስዎ የሚያስቧቸው ድረ ገጾች ፣ የውይይት መልእክቶችዎ ፣ ሰቀላዎችዎ ወዘተ።",
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
@@ -484,11 +488,11 @@
         "description": ""
     },
     "faq-root-wdm-question": {
-        "message": "ሩትድ ለሆኑ የAndroid መሳሪያዎች የሙሉ በሙሉ መሳሪያ ሁነታ ላይ ምን ተከሰተ? ",
+        "message": "ሩትድ ለሆኑ የAndroid መሳሪያዎች የሙሉ በሙሉ መሳሪያ ሁነታ ምን ሆነ? ",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-root-wdm-question-toc": {
-        "message": "ሩትድ ለሆኑ የAndroid መሳሪያዎች የሙሉ በሙሉ መሳሪያ ሁነታ ላይ ምን ተከሰተ? ",
+        "message": "ሩትድ ለሆኑ የAndroid መሳሪያዎች የሙሉ በሙሉ መሳሪያ ሁነታ ምን ሆነ?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-root-wdm-answer-para-1": {
@@ -496,7 +500,7 @@
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-refund-question": {
-        "message": "የደንበኝነት ምዝገባ፣ የ PsiCash ግዢ ወይም ሌላ ግዢ ከተሰረዘ እንዴት ገንዘቤን ማስመለስ እችላለሁ?",
+        "message": "የደንበኝነት ምዝገባ፣ የPsiCash ግዢ ወይም ሌላ ግዢ ከተሰረዘ እንዴት ገንዘቤን ማስመለስ እችላለሁ?",
         "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money."
     },
     "faq-refund-answer-para-1": {
@@ -532,11 +536,7 @@
         "description": ""
     },
     "what-is-psiphon-body-para-1": {
-        "message": "Psiphon (Psiphon) ያልተገደበ የኢንተርኔት ይዘትን እንዲያገኙ የሚያስችል የVPN, የSSH እና የHTTP ወኪል ቴክኖሎጂን የሚጠቀም በPsiphon ኩባንያ የተሰራ የማለፊያ መሳሪያ ነው።  የPsiphon ተገልጋይዎት እገዳውን ለማለፍ የሚያስችል እድልዎን ለማስፋት አዳዲስ የመገናኛ ቦታዎን በራስሰር ያውቃል ። ",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "Psiphon (Psiphon) የተሰራው የመስመር ላይ  ክፍተ ምንጭ ይዘቶችን ለማቅረብ ነው። Psiphon (Psiphon) የመስመር ላይ ግላዊነትዎን ስለማይጨምር እንደ የመስመር ላይ የደህንነት መሳሪያ መታየት  ወይም ጥቅም ላይ መዋል የለበትም። ",
+        "message": "Psiphon ያልተገደበ የኢንተርኔት ይዘትን እንዲያገኙ የሚያስችል የምናባዊ የግል አውታረ መረብ (ቪፒኤን), የSSH (ኤስኤስኤች) እና የ'ኤችቲቲፒ' (የዳበረ ጽሁፍ ማስተላለፊያ ፕሮቶኮል) ወኪል ቴክኖሎጂን የሚጠቀም በPsiphon ኩባንያ የተሠራ የማለፊያ መሣሪያ ነው።  የPsiphon ተገልጋይዎት እገዳውን ለማለፍ የሚያስችል እድልዎን ለማስፋት አዳዲስ የመገናኛ ቦታዎን በራስሠር ያውቃል።",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {
@@ -548,7 +548,7 @@
         "description": ""
     },
     "main-gets-you-where-you-want-para-1": {
-        "message": "አለማችን ላይ ያሉ አፋኝ መንግስታት አሰራርን ስለምናውቅ  የሚፈልጉትን ይዘት በሚፈልጉት ቦታ እና ወቅት እንዲያገኙ በተለየ ሁኔታ ለመርዳት ልምዱ አለን። ",
+        "message": "አለማችን ላይ ያሉ አፋኝ መንግስታት አሠራርን ስለምናውቅ የሚፈልጉትን ይዘት በሚፈልጉት ቦታ እና ወቅት እንዲያገኙ በተለየ ሁኔታ ለመርዳት ልምዱ አለን።",
         "description": ""
     },
     "main-gets-you-there-safely-head-1": {
@@ -556,11 +556,11 @@
         "description": ""
     },
     "main-gets-you-there-safely-head-2": {
-        "message": "ለህዝብ ክፍት የሆነ WiFiን ሲጠቀሙ ደህንነቱ በተጠበቀ መንገድ መዳሰስ ይፈልጋሉ？ ",
+        "message": "ለህዝብ ክፍት የሆነ WiFiን ሲጠቀሙ ደህንነቱ በተጠበቀ መንገድ ማሰስ ይፈልጋሉ?",
         "description": ""
     },
     "main-gets-you-there-safely-para-1": {
-        "message": "ነጻ የኢንተርኔት አገልግሎት አሪፍ ነው ነገር ግን የተሰረቁ ኩኪዎች እና መለያዎች ግን አይደሉም። Psiphon (Psiphon) ለመገናኘት የሚጠቀሙት ኔትወርክ ምንም አይነት ቢሆን ጤነኛ  የኢንተርኔት መንገድ ይሰጦታል። ",
+        "message": "ነጻ የኢንተርኔት አገልግሎት አሪፍ ነው ነገር ግን የተሰረቁ ኩኪስዎች እና መለያዎች አይደሉም። Psiphon ለመገናኘት የሚጠቀሙት አውታረመረብ ምንም አይነት ቢሆን ደህነነቱ የተጠበቀ የኢንተርኔት መንገድ ይሰጦታል።",
         "description": ""
     },
     "main-pick-three-head-1": {
@@ -604,7 +604,7 @@
         "description": "text for link to the Psiphon Users mailing list"
     },
     "about-get-latest-info-para-1-developers-list": {
-        "message": "የPsiphon አበልጻጊዎች ",
+        "message": "የPsiphon ገንቢዎች",
         "description": "text for link to the Psiphon Developers mailing list"
     },
     "download-windows-direct": {
@@ -612,7 +612,7 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "download-windows-direct-description-v2": {
-        "message": "በWindows 7 ፣ በWindows 8 (ዴስክቶፕ) እና በWindows 10 ላይ ይሰራል።",
+        "message": "በWindows 7 ፣ በWindows 8 (ዴስክቶፕ) እና በWindows 10 ላይ ይሠራል። (ቅርስ ግንባታ ለ <a href=\"./faq.html#windows-xp-eol\">Windows XP and Vista</a> ይገኛል።)",
         "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
     },
     "download-android-direct": {
@@ -620,19 +620,19 @@
         "description": "text for link to Psiphon for Android direct download"
     },
     "download-android-direct-description": {
-        "message": "Google Play Storeን መድረስ ካልቻሉ Psiphon (Psiphon)  ለAndroidን በቀጥታ  (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">ከጎን </a>\") ማውረድ እና መጫን ይችላሉ። ",
+        "message": "Google Play Storeን መድረስ ካልቻሉ Psiphon  ለAndroidን በቀጥታ  (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">በጎን ጫን</a>\") ማውረድ እና መጫን ይችላሉ። ",
         "description": ""
     },
     "download-android-playstore-pro": {
-        "message": "<strong>Psiphon Pro ለAndroid (አንድሮይድ) </strong> በ Google (ጉግል)\nPlay መደብር ",
+        "message": "<strong>Psiphon Pro ለAndroid</strong> በGoogle Play መደብር ",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "download-android-playstore-pro-description": {
-        "message": "Psiphon (Psiphon) ፕሮን ከGoogle Play Store በማውረድ <strong>የኢንተርኔት ነጻነትን ይደግፉ</strong>። (በሁሉም ሃገራት አይገኝም።)",
+        "message": "Psiphon Proን ከGoogle Play Store በማውረድ <strong>የኢንተርኔት ነጻነትን ይደግፉ</strong>። (በሁሉም ሃገራት አይገኝም።)",
         "description": ""
     },
     "download-android-amazon": {
-        "message": "የAndroid Psiphon (Psiphon) በAmazon AppStore ውስጥ ",
+        "message": "Psiphon ለAndroid በAmazon AppStore ውስጥ",
         "description": "text for link to Psiphon for Android in the Amazon AppStore"
     },
     "download-android-amazon-description": {
@@ -640,11 +640,11 @@
         "description": ""
     },
     "download-ios-appstore-psiphon-vpn": {
-        "message": "<strong>Psiphon Pro ለAndroid (አንድሮይድ) </strong> በ የአፕል መተግበሪያ መደብር",
+        "message": "<strong>Psiphon ለiOS </strong> በ የአፕል መተግበሪያ መደብር",
         "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "download-ios-appstore-psiphon-vpn-description": {
-        "message": "በእርስዎ iPhone ወይም በ iPad ላይ ያሉት ሁሉም መተግበሪያዎች በፓሚሶን አውታረ መረብ በኩል በይነመረብን ይጠቀማሉ። ለ iOS 10.2 እና ከዚያ በላይ ይገኛል።",
+        "message": "በእርስዎ iPhone ወይም በ iPad ላይ ያሉት ሁሉም መተግበሪያዎች በPsiphon አውታረመረብ በኩል ኢንተርኔትን ይጠቀማሉ። ለ iOS 10.2 እና ከዚያ በላይ ይገኛል።",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "download-ios-appstore-psiphon-browser": {
@@ -668,11 +668,11 @@
         "description": ""
     },
     "download-via-email-description": {
-        "message": "ድረ ገጻችን ወይም የማውረጃ ትይይዞቻችን ከታገዱ ወይም እቀባ ከተጣለባቸው ሰነዶቹ በኤፖስታ በኩል እንዲላክሎት ጥያቄ ማቅረብ ይችላሉ። ",
+        "message": "ድር ጣቢያችን ወይም የማውረጃ ትይይዞቻችን ከታገዱ ወይም እቀባ ከተጣለባቸው ሰነዶቹ በኤፖስታ በኩል እንዲላክሎት ጥያቄ ማቅረብ ይችላሉ።",
         "description": ""
     },
     "download-list-join": {
-        "message": "አስፈላጊ ማስታወቂያዎች እና ለደህንነት ምክሮች <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">የማስታወቂያ ኢሜል ዝርዝራችንን</a> ይቀላቀሉ። ",
+        "message": "ለአስፈላጊ ማስታወቂያዎች እና ለደህንነት ምክሮች <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">የማስታወቂያ ኤፖስታ ዝርዝራችንን</a> ይቀላቀሉ።",
         "description": ""
     },
     "user-guide-android-head": {
@@ -680,7 +680,7 @@
         "description": "heading for the Android section of the User Guide"
     },
     "user-guide-android-para-verify-authentic": {
-        "message": "በመጀመሪያ <a href=\"./faq.html#authentic-android\">የPsiphon ለAndroid ቅዲዎ ትክክለኛ መሆኑን ማረጋገጥ</a> አለብዎት። ",
+        "message": "በመጀመሪያ <a href=\"./faq.html#authentic-android\">የPsiphon ለAndroid ቅጂዎ ትክክለኛ መሆኑን ማረጋገጥ</a> አለብዎት። ",
         "description": ""
     },
     "user-guide-android-para-1": {
@@ -688,7 +688,7 @@
         "description": ""
     },
     "user-guide-android-para-3": {
-        "message": "የPsiphon መተግበሪያን በሚያስጀምሩበት ወቅት ከPsiphon ኔትወርክ ጋር መገናኘት በራሱ ይጀምራል። ",
+        "message": "የPsiphon መተግበሪያን በሚያስጀምሩበት ወቅት ከPsiphon አውታረመረብ ጋር መገናኘት በራሱ ይጀምራል።",
         "description": ""
     },
     "user-guide-android-para-4": {
@@ -696,7 +696,7 @@
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
-        "message": "Psiphon ለ Android ሁኔታ ፓነልን የሚያሳየው ቅጽበታዊ ገጽ እይታ",
+        "message": "የPsiphon ለAndroid ሁኔታ ፓነልን የሚያሳየው ቅጽበታዊ ገጽ እይታ",
         "description": "alt text for an image"
     },
     "user-guide-android-image-3-alt": {
@@ -744,7 +744,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "Psiphon ለ Android (አንድሮይድ) ምዝግብ  ፓነል የሚያሳይ ቅጽበታዊ የገጽ እይታ",
+        "message": "Psiphon ለAndroid ምዝግብ  ፓነልን የሚያሳይ ቅጽበታዊ የገጽ እይታ",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-logs-image-annotation-1": {
@@ -780,11 +780,11 @@
         "description": "heading for the Android section of the User Guide"
     },
     "user-guide-windows-para-verify-authentic": {
-        "message": "በመጀመሪያ <a href=\"./faq.html#authentic-windows\">የWindows Psiphon (Psiphon) ቅዲዎ ትክክለኛ መሆኑን ማረጋገጥ </a>አለብዎት። ",
+        "message": "በመጀመሪያ <a href=\"./faq.html#authentic-windows\">Psiphon ለWindows ቅጂዎ ትክክለኛ መሆኑን ማረጋገጥ </a>አለብዎት።",
         "description": ""
     },
     "user-guide-windows-para-1": {
-        "message": "የተገልጋይውን ፕሮግራም በማውረድ ያስኪዱት። በሚያስኬዱበት ወቅት ይህ የPsiphon ኩባንያ ትክክለኛ ምርት እንደሆነ የሚያሳይ የደንነት መግለጫ ማየት ይኖርቦታል። ",
+        "message": "የተገልጋይውን ፕሮግራም በማውረድ ያስኪዱት። በሚያስኬዱበት ወቅት ይህ የPsiphon ኩባንያ ትክክለኛ ምርት እንደሆነ የሚያሳይ የደንነት መግለጫ ማየት ይኖርቦታል።",
         "description": ""
     },
     "user-guide-windows-para-2": {
@@ -792,7 +792,7 @@
         "description": ""
     },
     "user-guide-windows-para-3": {
-        "message": "አረንጓዴ አዶ ሲታይ ከPsiphon አገልጋይ  ግንኝነት መፈጠሩን ያመለክታል። በVPN ሁነታ ውስጥ ሁሉም የኢንተርኔት ትራፊክዎ በPsiphon አማካኝነት በቀጥታ ይዘዋወራሉ።  ",
+        "message": "አረንጓዴ አዶ ሲታይ ከPsiphon አገልጋይ ግንኙነት መፈጠሩን ያመለክታል። በVPN ሁነታ ውስጥ ሁሉም የኢንተርኔት ትራፊክዎ በPsiphon አማካኝነት በቀጥታ ይዘዋወራሉ።",
         "description": ""
     },
     "user-guide-windows-para-4": {
@@ -804,7 +804,7 @@
         "description": ""
     },
     "user-guide-windows-para-6": {
-        "message": "ፕሮግራሙን በሚዘጉበት ወቅት Psiphon (Psiphon) በራስሰር ግንኙነቱን ያቋርጣል። በተጨማሪም አዶው ላይ ጠቅ በመድረግ ግንኙነቱን መቀያየር ይችላሉ። ",
+        "message": "ፕሮግራሙን በሚዘጉበት ወቅት Psiphon በራስሠር ግንኙነቱን ያቋርጣል። በተጨማሪም አዶው ላይ ጠቅ በማድረግ ግንኙነቱን መቀያየር ይችላሉ።",
         "description": ""
     },
     "user-guide-windows-image-1-alt": {
@@ -832,7 +832,7 @@
         "description": "Text for the navigation bar link to the blog"
     },
     "blog-index-description": {
-        "message": "ከPsiphon ቡድን ጋር ከመጋረጃ በስተጀርባ ",
+        "message": "ከPsiphon ቡድን ጋር ከመጋረጃ በስተጀርባ",
         "description": ""
     },
     "blog-index-subscribe": {
@@ -864,7 +864,7 @@
         "description": "Navigation text for the Sponsorship page"
     },
     "sponsor-description": {
-        "message": "በማረፊያ ገጽ ላይ በማስተዋወቅ ስፕንሰር ይሁኑ ወይም በግል ለPsiphon ፕሮጀክት ይለግሱ",
+        "message": "በማረፊያ ገጽ ላይ በማስተዋወቅ ስፖንሰር ይሁኑ ወይም በግል ለPsiphon ፕሮጀክት ይለግሱ",
         "description": "Page description for the Sponsorship page"
     },
     "sponsor-header-sponsored-by": {
@@ -876,7 +876,7 @@
         "description": "alt text for an image"
     },
     "sponsor-para-1": {
-        "message": "ማንኛውም Psiphonን የሚጭን ሰው ከሶፍትዌሩ ጋር በሚገናኝበት ወቅት ማረፊያ ገጹን ይመለከታል። በዚህ ገጽ ላይ የስፖንሰርሺፕ ዕድሎችን  በሳምንት ማግኘት ይቻላል። ",
+        "message": "ማንኛውም Psiphonን የሚጭን ሰው ከሶፍትዌሩ ጋር በሚገናኝበት ወቅት ማረፊያ ገጹን ይመለከታል። በዚህ ገጽ ላይ የስፖንሰርሺፕ ዕድሎችን  በሳምንት ማግኘት ይቻላል።",
         "description": ""
     },
     "sponsor-para-2": {
@@ -900,7 +900,7 @@
         "description": ""
     },
     "license-para-1": {
-        "message": "ይህ ሶፍትዌር እና ማንኛውም ተዛማጅ አዕምሯዊ ንብረት ዋና ቢሮው በቶሮንቶ፣ ኦንታርዮ ካናዳ ያለው እና በኦንታሪዎ ኮርፖሬሽን የተመዘገበው የPsiphon ኩባንያ ንብረት ነው።  ",
+        "message": "ይህ ሶፍትዌር እና ማንኛውም ተዛማጅ አዕምሯዊ ንብረት ዋና ቢሮው በቶሮንቶ፣ ኦንታርዮ ካናዳ ያለው እና በኦንታሪዎ የተመዘገበው ኮርፖሬሽን የPsiphon ኩባንያ ንብረት ነው።  ",
         "description": ""
     },
     "license-para-2": {
@@ -916,7 +916,7 @@
         "description": ""
     },
     "license-terms-of-use-para": {
-        "message": "የPsiphon አገልግሎትን በሚጠቀሙበት ጊዜ ማንኛውንም አይነት የካናዳን ህግ ወይም ሌላ የሶስተኛ ወገን መብት በማይጥስ መልኩ ለመጠቀም ተስማምተው ነው። ",
+        "message": "የPsiphon አገልግሎትን በሚጠቀሙበት ጊዜ ማንኛውንም አይነት የካናዳን ህግ ወይም ሌላ የሶስተኛ ወገን መብት በማይጥስ መልኩ ለመጠቀም ተስማምተው ነው።",
         "description": ""
     },
     "license-distribution-header": {
@@ -948,11 +948,11 @@
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-1": {
-        "message": "Psiphon (Psiphon) ይህንን ፈቃድ በፈለገ ሰአት፣ በማንኛውም ወይም ያለምንም ምክንያት፣ እና ያለ ምንም ቅጣት የማቋረጥ መብት ሙሉ በሙሉ አለው። የPsiphonን አገልግሎትን ሲጠቀሙ የአገልግሎት ስምምነቶች  እና የፈቃድ ስምምነቶችን በማይጥስ መልኩ እንደሚጠቀሙ ተስማምተው ነው። ",
+        "message": "Psiphon ይህንን ፈቃድ በፈለገ ሰአት፣ በማንኛውም ወይም ያለምንም ምክንያት፣ እና ያለ ምንም ቅጣት የማቋረጥ መብት ሙሉ በሙሉ አለው። የPsiphonን አገልግሎትን ሲጠቀሙ የአገልግሎት ስምምነቶች  እና የፈቃድ ስምምነቶችን በማይጥስ መልኩ እንደሚጠቀሙ ተስማምተው ነው።",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
-        "message": "እንደ ተጠቃሚ ማንኛውንም ወይም ሁሉንም የPsiphon አገልግሎቶች መጠቀም በማቆም እና ከመሳሪያዎ ላይ የመተገበሪያውን ሁሉንም ሁኔታዎች በማጥፋት የመጠቀሚያ ፍቃዱን በፈለጉት ሰአት ማቋረጥ ይችላሉ። ",
+        "message": "እንደ ተጠቃሚ ማንኛውንም ወይም ሁሉንም የPsiphon አገልግሎቶች መጠቀም በማቆም እና ከመሣሪያዎ ላይ የመተግበሪያውን ሁሉንም አብነቶች በማጥፋት የመጠቀሚያ ፍቃዱን በፈለጉት ሰአት ማቋረጥ ይችላሉ።",
         "description": ""
     },
     "license-psicash-header": {
@@ -960,15 +960,15 @@
         "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-1": {
-        "message": "ለአንድ ዓመት ያህል በመሣሪያዎ ላይ የPsiCash እንቅስቃሴ ከሌለ ፒሲሶን የእርስዎን PsiCash የመሰረዝ መብቱ የተጠበቀ ነው ፡፡",
+        "message": "ለአንድ ዓመት ያህል በመሣሪያዎ ላይ የPsiCash እንቅስቃሴ ከሌለ Psiphon የእርስዎን PsiCash የመሰረዝ መብቱ የተጠበቀ ነው።",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-2": {
-        "message": "ለምሳሌ የፒሲሲሽ (PsiCash) ዱካዎ ከጠፋብዎ ለምሳሌ መሳሪያዎን በጠፋብዎ Psiphon ይህንን ስህተት ለማስተካከል እና የእርስዎን PsiCash ወደነበረበት መመለስ እንደማይችል እውቅና ይሰጣሉ።",
+        "message": "የPsiCash ዱካዎ ከጠፋብዎ ለምሳሌ መሳሪያዎን በጠፋብዎ Psiphon ይህንን ስህተት ለማስተካከል እና የእርስዎን PsiCash ወደነበረበት መመለስ እንደማይችል እውቅና ይሰጣሉ።",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-3": {
-        "message": "Psiphon በማንኛውም ጊዜ ለPsiCash የሚለወጡትን ሽልማቶች የመቀየር መብቱ የተጠበቀ ነው ፡፡",
+        "message": "Psiphon በማንኛውም ጊዜ ለPsiCash የሚለወጡትን ሽልማቶች የመቀየር መብቱ የተጠበቀ ነው።",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "about-who-we-are-head": {
@@ -984,7 +984,7 @@
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "ማይክል ኸል የPsiphon ኩባንያ ፕሬዝዳንት ሲሆን Psiphon (Psiphon) በቶሮንቶ ዩኒቨርስቲ የሲትዝን ላብ ውስጥ ፕሮጀት ከነበረበት ወቅት ጊዜ አንስቶ ከPsiphon ጋር አብሮ የነበረ ነው። ከዚያ ጊዜ ጀምሮ የተለያዩ የሶፍትዌር ማበልጸግ ጥረቶችን በመምራት ያገለገለ ሲሆን Psiphonን በውድድሩ ቀዳሚ እንዲሆን የሚያስችሉ ፈጠራዎችን አምጥቷል። ",
+        "message": "ማይክል ኸል የPsiphon ኩባንያ ፕሬዝዳንት ሲሆን Psiphon በቶሮንቶ ዩኒቨርስቲ የሲትዝን ላብ ውስጥ ፕሮጀክት ከነበረበት ወቅት ጊዜ አንስቶ ከPsiphon ጋር አብሮ የነበረ ነው። ከዚያ ጊዜ ጀምሮ የተለያዩ የሶፍትዌር መገንባት ጥረቶችን በመምራት ያገለገለ ሲሆን Psiphonን በውድድሩ ቀዳሚ እንዲሆን የሚያስችሉ ፈጠራዎችን አምጥቷል።",
         "description": ""
     },
     "about-who-we-are-software-development-head": {
@@ -1024,7 +1024,7 @@
         "description": ""
     },
     "contact-email-para": {
-        "message": "ወደሚከተለው አድራሻ ኤፖስታ በመላክ Psiphonን ማነጋገር ይችላሉ፡- ",
+        "message": "ወደሚከተለው አድራሻ ኤፖስታ በመላክ Psiphonን ማነጋገር ይችላሉ፡-",
         "description": ""
     },
     "footer-copyright": {
@@ -1040,7 +1040,7 @@
         "description": "The heading of the page section that shows the donation buttons"
     },
     "donate-body": {
-        "message": "ለሁሉም ሰው ክፍት የሆነ  ኢንተርኔት ማቅረብ እንዲችል Psiphonን መርዳት ይችላሉ። ከሚከተሉት መካከል አንዱን ይምረጡ። ",
+        "message": "ለሁሉም ሰው ክፍት የሆነ  ኢንተርኔት ማቅረብ እንዲችል Psiphonን መርዳት ይችላሉ። ከሚከተሉት መካከል አንዱን ይምረጡ።",
         "description": "The body of the page section that shows the donation buttons"
     },
     "open-source-title": {
@@ -1144,7 +1144,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-developers": {
-        "message": "አበልጻጊዎች ",
+        "message": "ገንቢዎች",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-partnerships": {
@@ -1172,7 +1172,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-development": {
-        "message": "ማበልጸግ",
+        "message": "ግንባታ",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-open-source": {
@@ -1272,7 +1272,7 @@
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-1-what-doing": {
-        "message": "የማግኛ መዝገብን ለአንድ ድረ ገጽ Amazon S3 ”በኬት“(ማለትም የማከማቻ መያዣ) እያነቃን ነው። (በቴክኒካል ምክኒያቶች ደርዘን የሚያህሉ የድረ ገጹን ቅዲዎች በተለያዩ የS3 በኬቶች እናሄዳለን። )",
+        "message": "የማግኛ መዝገብን ለአንድ ድረ ገጽ Amazon S3 ”በኬት“(ማለትም የማከማቻ መያዣ) እያነቃን ነው። (በቴክኒካል ምክኒያቶች ደርዘን የሚያህሉ የድረ ገጹን ቅዲዎች በተለያዩ የS3 በኬቶች እናሄዳለን። )",
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-why-doing": {
@@ -1288,11 +1288,11 @@
         "description": ""
     },
     "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "ዳታው ከአንድ ሳምንት በላይ አይቀመጥም። የተጠቃሚዎችን ቁጥር ረዘም ላለ ጊዜ ምናልባትም  ላልተወሰነ ጊዜ እናስቀምጣለን። ",
+        "message": "ውሂብዎ ከአንድ ሳምንት በላይ አይቀመጥም። የተጠቃሚዎችን ቁጥር ረዘም ላለ ጊዜ ምናልባትም ላልተወሰነ ጊዜ እናስቀምጣለን። ",
         "description": ""
     },
     "privacy-bulletin-entry-1-how-many-users": {
-        "message": "ምን ያህል ሰዎች በዚህ ሊጠቁ እደሚችሉ ገና በእርግጠኝነት አናውቅም (ይህንንም የምናደርገው በዚህ የተነሳ ነው) ነገር ግን ከ10,000 ተጠቃሚዎች እንደሚያንሱ እንገምታለን። ",
+        "message": "ምን ያህል ሰዎች በዚህ ሊጠቁ እደሚችሉ ገና በእርግጠኝነት አናውቅም (ይህንንም የምናደርገው በዚህ የተነሳ ነው) ነገር ግን ከ10,000 ተጠቃሚዎች እንደሚያንሱ እንገምታለን።",
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
@@ -1304,7 +1304,7 @@
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-2-what-doing": {
-        "message": "<a href=\"privacy.html\">የግላዊነት ፖሊሲያችንን</a> እያዘመንን ነው። ይህም “Psiphon (Psiphon) ምን አይነት መረጃዎችን ይሰበስባል？” የሚለውን የኤፍኤኪው ጥያቄ መልስ በውስጡ ማካተትን ይጨምራል። ",
+        "message": "<a href=\"privacy.html\">የግላዊነት ፖሊሲያችንን</a> እያዘመንን ነው። ይህም “Psiphon ምን አይነት መረጃዎችን ይሰበስባል？” የሚለውን ተ.ሚ.ጥ. ጥያቄ መልስ በውስጡ ማካተትን ይጨምራል። ",
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-why-doing": {
@@ -1316,7 +1316,7 @@
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11 (እንደ ጎርጎሳዊያን አቆጣጠር)፦ የግላዊነት ፖሊሲ ዝመና",
+        "message": "2019-12-11፦ የግላዊነት ፖሊሲ ዝመና",
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-3-what-doing": {
@@ -1324,7 +1324,7 @@
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-3-why-doing": {
-        "message": "የግላዊነት መምሪያ በትክክል የውሂብ ትግበራችንን እንደሚያንጸባርቅ ለማረጋገጥ።",
+        "message": "የግላዊነት መምሪያ በትክክል የውሂብ አያያዛችንን እንደሚያንጸባርቅ ለማረጋገጥ።",
         "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-3-when-doing": {
@@ -1340,7 +1340,7 @@
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-4-why-doing": {
-        "message": "የቅርብ ጊዜ ሳንሱር ዝግጅቶችን ለመተንተን ጊዜ ለመስጠት ጊዜን ለመስጠት የታሪካዊ እንቅስቃሴን መረጃ ረዘም ላለ ጊዜ ማቆየት አለብን።",
+        "message": "የቅርብ ጊዜ ሳንሱር ኩነቶችን ለመተንተን ጊዜ ስለሚያስፈልገን ግርድፍ የእንቅስቃሴ መረጃን ረዘም ላለ ጊዜ ማቆየት አለብን።",
         "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-4-when-doing": {
@@ -1348,11 +1348,11 @@
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-4-update": {
-        "message": "የተጠቃሚ እንቅስቃሴ ውሂብ ይዘት በ 2020-04-10 (ጎ.አ.) ወደ መደበኛ ተመልሷል።",
+        "message": "የተጠቃሚ እንቅስቃሴ ውሂብ ይዘት በ 2020-04-10 ወደ መደበኛ ተመልሷል።",
         "description": "A section of a privacy bulletin, with an update to previous information."
     },
     "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19 (ጎርጎሮሳዎ አቆጣጠር) ፦ የግላዊነት exception:- በስህተት የተጠቅሚን IP ይዞ ማስቀመጥ",
+        "message": "2020-06-19፦ የግላዊነት ልዩ ክስተት፦ በስህተት የተጠቅሚን IP ይዞ ማስቀመጥ",
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-5-what-happened": {
@@ -1388,7 +1388,7 @@
         "description": ""
     },
     "privacy-para-2": {
-        "message": "የካናዳ እና ኦንታሪዮ የግላዊነት ህጎችን በተመለከተ የበለጠ መረጃ ለማግኘት እባክዎን የሚከተለውን ይጎብኙ፡- ",
+        "message": "የካናዳ እና የኦንታሪዮን የግላዊነት ህጎችን በተመለከተ የበለጠ መረጃ ለማግኘት እባክዎን የሚከተለውን ይጎብኙ፦",
         "description": ""
     },
     "privacy-canadian-privacy-commission-link-text": {
@@ -1396,7 +1396,7 @@
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "የኦንታሪዮ የመረጃ እና የግላዊነት ኮሚሽነር ቢሮ  ",
+        "message": "የኦንታሪዮ የመረጃ እና የግላዊነት ኮሚሽነር ቢሮ",
         "description": ""
     },
     "privacy-updates-head": {
@@ -1404,11 +1404,11 @@
         "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
     },
     "privacy-bulletin-info-para-1": {
-        "message": "ከጊዜ ወደ ጊዜ ፣ Psiphon ግቤቶችን <a href=\"./privacy-bulletin.html\">በግላዊነት ማስታወቂያችን</a> ላይ ያክላል። ይህ በሁለት ምክንያት ይከሰታል-",
+        "message": "ከጊዜ ወደ ጊዜ ፣ Psiphon ግቤቶችን <a href=\"./privacy-bulletin.html\">በግላዊነት ማስታወቂያችን</a> ላይ ያክላል። ይህ በሁለት ምክንያት ይሆናል፦",
         "description": "Paragraph introducing a bullet list."
     },
     "privacy-bulletin-info-para-2-item-1": {
-        "message": "የግላዊነት ፖሊሲውን እናሻሽለዋለን። አዲስ ህጎች የተለያዩ መስፈርቶችን ሲጨምሩ ፣ ወይም የሶስተኛ ወገን አገልግሎትን ከጀመርን ወይም ካቆምን ይህ ሊከሰት ይችላል ፡፡ በመመሪያው ላይ የተደረጉ ለውጦችን በዝርዝር እንገልጻለን።",
+        "message": "የግላዊነት ፖሊሲውን እናሻሽለዋለን። አዲስ ህጎች የተለያዩ መስፈርቶችን ሲጨምሩ ፣ ወይም የሶስተኛ ወገን አገልግሎትን ከጀመርን ወይም ካቆምን ይህ ሊከሰት ይችላል። በመመሪያው ላይ የተደረጉ ለውጦችን በዝርዝር እንገልጻለን።",
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "privacy-bulletin-info-para-2-item-2": {
@@ -1416,7 +1416,7 @@
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "faq-information-collected-question": {
-        "message": "Psiphon (Psiphon) የሚሰበስበው የተጠቃሚዎች መረጃ ምን አይነት ነው？ ",
+        "message": "Psiphon ከተጠቃሚዎች ምን አይነት መረጃ ይሰበስባል?",
         "description": "Heading for a section in our privacy policy."
     },
     "privacy-information-collected-client-ads-head": {
@@ -1428,7 +1428,7 @@
         "description": ""
     },
     "privacy-information-collected-client-advertising-networks-para-2": {
-        "message": "የሚከተለውን በመጎብኘት ፍላጎትን መሰረት ካደረገ የማስታወቂያ ኩኪዎች አጠቃወም መውጣት ይችላሉ፡- ",
+        "message": "የሚከተለውን በመጎብኘት ፍላጎትን መሰረት ካደረገ የማስታወቂያ ኩኪስዎች አጠቃቀም መውጣት ይችላሉ፦",
         "description": ""
     },
     "privacy-information-collected-websites-head": {
@@ -1480,7 +1480,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-3": {
-        "message": "እያንዳንዱ ፕሮቶኮል በምን ያህል ጊዜ ጥቅም ላይ እንደዋለ እና ካለመሳካት  በኋላ የሚከሰቱ የስህተት ኮዶች ",
+        "message": "እያንዳንዱ ፕሮቶኮል በምን ያህል ጊዜ ጥቅም ላይ እንደዋለ እና ካለመሳካት በኋላ የሚከሰቱ የስህተት ኮዶች ",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-4": {
@@ -1508,7 +1508,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-5": {
-        "message": "ከሶስተኛ ወገኖች ጋር የተጋሩ ማንኛውም አኃዛዊ መረጃዎች ቀንን ፣ ሰፋይን ፣ እና አካባቢን በማያወሳው በቂ የጠበቀ አንድነት አላቸው ፡፡",
+        "message": "ከሶስተኛ ወገኖች ጋር የተጋሩ ማንኛውም አኃዛዊ መረጃዎች ቀንን ፣ ስፖንሰርን ፣ እና አካባቢን በማያወሳው በቂ የጠበቀ አንድነት አላቸው ፡፡",
         "description": ""
     },
     "privacy-information-collected-vpndata-head-v2": {
@@ -1540,11 +1540,11 @@
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-2": {
-        "message": "ምናባዊ የግል አውታረ መረብ (ቪፒኤን) ውሂብዎን ይዘት እንቀይርም።",
+        "message": "እኛ የምናባዊ የግል አውታረ መረብ (ቪፒኤን) ውሂብዎን ይዘት እንቀይርም።",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-3": {
-        "message": "እኛ ለሶስተኛ ወገን ",
+        "message": "ለሶስተኛ ወገን ",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-kindsofdata-subhead": {
@@ -1564,7 +1564,7 @@
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
-        "message": "መልክአ ምድራዊ አቀማመጥ እና የአይ.ፒ.አይ. መረጃ የተገኘው ከተጠቃሚ የአይፒ አድራሻዎች ነው ፣ ከዚያ ወዲያውኑ ይጣላሉ ፡፡",
+        "message": "መልክአ ምድራዊ አቀማመጥ እና የአይ.ፒ.አይ. መረጃ የተገኘው ከተጠቃሚ የአይፒ አድራሻዎች ነው ፣ ከዚያ ወዲያውኑ ይጣላሉ ።",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-3": {
@@ -1604,7 +1604,7 @@
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-3": {
-        "message": "የተጋራ ውህደት ምሳሌ ምሳሌ ምናልባት አንድ ቀን ከኒው ዮርክ ሲቲ የተገናኙ 500 ሰዎች በአጠቃላይ 800 ጊባ አስተላልፈዋል ፡፡",
+        "message": "የተጋራ ውህደት ምሳሌ ምናልባት አንድ ቀን ከኒው ዮርክ ሲቲ የተገናኙ 500 ሰዎች በአጠቃላይ 800 ጊባ አስተላልፈዋል ፡፡",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-4": {
@@ -1616,7 +1616,7 @@
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1-v2": {
-        "message": "Psiphon በተሻለ እንዲሠራ ለማድረግ እንቅስቃሴ እና አጠቃላይ የስታቲስቲክስ መረጃ ለእኛ በጣም አስፈላጊ ናቸው ፡፡ እንደዚህ ያሉ ነገሮችን ለማድረግ ያስችለናል",
+        "message": "Psiphon በተሻለ እንዲሠራ ለማድረግ እንቅስቃሴ እና አጠቃላይ የስታቲስቲክስ መረጃ ለእኛ በጣም አስፈላጊ ነው። እንደዚህ ያሉ ነገሮችን ለማድረግ ያስችለናል፦",
         "description": "Paragraph text in the 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-1": {
@@ -1664,7 +1664,7 @@
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-3-v2": {
-        "message": "እንደገናም ፣ ከሶስተኛ ወገኖች ጋር መቼም ያልታወቁ የተጋራው አጠቃላይ ድምር ውሂብ ብቻ ሊጋራ ይችላል ፡፡",
+        "message": "እንደገናም ፣ ከሶስተኛ ወገኖች ጋር መቼም ያልታወቁ የተጋራው አጠቃላይ ድምር ውሂብ ብቻ ሊጋራ ይችላል።\\",
         "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-psicash-para-1": {
@@ -1672,7 +1672,7 @@
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-list-start": {
-        "message": "የPsiCash አገልጋይ የሚከተሉትን ጨምሮ የስርዓቱን ሥራ ለማስጀመር የሚያስችለውን መረጃ ያከማቻል-",
+        "message": "የPsiCash አገልጋይ የሚከተሉትን ጨምሮ የሥርዓቱን ሥራ ለማስጀመር የሚያስችለውን መረጃ ያከማቻል፦",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-item-1": {
@@ -1688,11 +1688,11 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "privacy-information-collected-psicash-para-2-item-4": {
-        "message": "የPsiCash ገቢ ታሪክ /ለየትኛዎቹ ተግባራት ሽልማቶቹ እንደተሰጡ ጨምሮ/",
+        "message": "የPsiCash ገቢ ታሪክ፤ ለየትኛዎቹ ተግባራት ሽልማቶቹ እንደተሰጡ ጨምሮ",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-item-5": {
-        "message": "የPsiCash ወጪ ታሪክ /የተፈጸሙትን ግዢዎችን ጨምሮ/",
+        "message": "የPsiCash ወጪ ታሪክ፤ የተፈጸሙትን ግዢዎችን ጨምሮ",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-3-list-start": {
@@ -1740,7 +1740,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-6": {
-        "message": "በPsiphon በኩል ግብረመልስ ማስገባትን በሚመርጡበት ወቅት የምርመራ ዳታን የመጨመር አማራጭ አለዎት።  ይህን ዳታ ሊያጋጥሞት የሚችሉትን ችግሮች ለመፍታት እና Psiphon (Psiphon) ያለ ምንም ችግር እንዲሰራ እንዲያግዘን እንጠቀምበታለም። ይህንን ዳታ መላክ ሙሉ በሙሉ በምርጫ የሚደረግ ነው። ዳታው እርስዎ ሳይልኩት በፊት የሚመሰጠር ሲሆን የሚፈታውም በእኛ ብቻ ነው። በዳታው ውስጥ ያለው መረጃ በሚጠቀሙት አእማድ ሊለያይ ቢችልም የሚከተለውን ሊያካትት ይችላል፡-  ",
+        "message": "በPsiphon በኩል ግብረመልስ ማስገባትን በሚመርጡበት ወቅት የምርመራ ውሂብን የመጨመር አማራጭ አለዎት።  ይህን ዳታ ሊያጋጥሞት የሚችሉትን ችግሮች ለመፍታት እና Psiphon (Psiphon) ያለ ምንም ችግር እንዲሰራ እንዲያግዘን እንጠቀምበታለም። ይህንን ዳታ መላክ ሙሉ በሙሉ በምርጫ የሚደረግ ነው። ዳታው እርስዎ ሳይልኩት በፊት የሚመሰጠር ሲሆን የሚፈታውም በእኛ ብቻ ነው። በዳታው ውስጥ ያለው መረጃ በሚጠቀሙት አእማድ ሊለያይ ቢችልም የሚከተለውን ሊያካትት ይችላል፡-  ",
         "description": ""
     },
     "faq-information-collected-answer-para-7-list-start": {
@@ -1756,11 +1756,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-3": {
-        "message": "ከኢንተርኔቱ ጋር የተገናኙበት መንገድ (ለምሳሌ የሚጠቀሙት የዳይል አፕ ከሆነ ወይም የተገኛኙት በወኪል ከሆነ)",
+        "message": "ከኢንተርኔት ጋር የተገናኙበት መንገድ (ለምሳሌ የሚጠቀሙት የዳይል አፕ ከሆነ ወይም የተገኛኙት በወኪል ከሆነ)",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-4": {
-        "message": "ኮምፒውተሮ ምን ያህል ነጻ የሜሞሪ ቦታ አለው ",
+        "message": "ኮምፒውተሮ ምን ያህል ነጻ የማከማቻ ቦታ አለው ",
         "description": ""
     },
     "faq-information-collected-answer-para-8-list-start": {
@@ -1776,7 +1776,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "መሳሪያዎ ሩትድ መሆኑ ወይም አለመሆኑ ",
+        "message": "መሳሪያዎ ሩትድ መሆኑ ወይም አለመሆኑ",
         "description": ""
     },
     "faq-information-collected-answer-head-3": {
@@ -1800,7 +1800,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-2": {
-        "message": "ለኤፖስታ ጥያቄው ምላሽ የተሰጠበትን ቀን እና ሰአት። ",
+        "message": "ለኤፖስታ ጥያቄው ምላሽ የተሰጠበትን ቀን እና ሰአት።",
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-3": {

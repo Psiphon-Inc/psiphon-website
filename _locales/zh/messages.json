@@ -123,6 +123,10 @@
         "message": "Windows 版赛风从未作为安装包发布。Windows 版赛风客户端是单一可执行文件（.exe），并具有赛风公司的数字签名。在运行客户端时，Windows 自动检查此签名。也可在运行客户端之前，手动检查签名，只需打开文件的“属性”对话框，并检查“数字签名”选项卡。在“证书”对话框的“详细信息”选项卡下，可查看赛风公司证书公钥的 SHA1 指纹。",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "有效期为 2017-07-05 到 2020-10-03 证书的 SHA1 指纹为：",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "赛风 3 是由赛风公司推出的网络规避工具。通过 VPN、SSH 和 HTTP 代理技术，它可为用户提供最佳的内容访问通道。为了尽可能成功地突破审查，赛风 3 客户端可自动搜寻新的接入点。",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "赛风旨在为用户提供在线内容的访问渠道，并不会提升在线隐私，因此不应视为或作为在线安全工具。",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

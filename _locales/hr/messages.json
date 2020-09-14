@@ -123,6 +123,10 @@
         "message": "Psiphon za Windows se nikad ne distribuira kao instalacijski paket. Svaki Psiphon za Windows klijent je jedna izvršna datoteka (\".exe\") koju je digitalno potpisao Psiphon Inc. Windows automatski provjerava potpis pri pokretanju klijenta. Također možete ručno provjeriti potpis prije pokretanja klijenta kroz dijalog Svojstva datoteke, te zatim kartice Digitalni potpisi. SHA1 otisak prsta za certifikat javnog ključa Psiphon Inc.-a je prikazan u dijalogu Certifikati kartice Detalji.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "Psiphon je alat za obilaženje razvijen od strane Psiphon Inc. koji koristi VPN, SSH i HTTP Proxy tehnologije da bi Vam pružio necenzuriran pristup Internet sadržaju. Vaš Psiphon klijent će automatski naučiti nova pristupna mjesta da bi maksimizirao Vaše šanse za obilaženje cenzure.",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "Psiphon je dizajniran da Vam pruži otvoreni pristup mrežnom sadržaju. Psiphon ne povećava Vašu online privatnost i ne bi ga se trebalo smatrati, ili koristiti kao online sigurnosni alat.",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

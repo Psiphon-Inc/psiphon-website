@@ -123,6 +123,10 @@
         "message": "Psiphon for Windows is never distributed as an installable package. Each Psiphon for Windows client is a single executable file (\".exe\") that is digitally signed by Psiphon Inc. Windows automatically checks this signature when you run the client. You can also manually inspect the signature before running the client by invoking the Properties dialog for the file and inspecting the Digital Signatures tab. The SHA1 thumbprint for the Psiphon Inc. certificate public key is displayed in the Certificate dialog Details tab.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "For the certificate valid for the period 2017-07-05 to 2020-10-03 the SHA1 thumbprint is:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "Psiphon 은 우회 소프트웨어로써 Psiphon Inc.에 의해 만들어졌습니다. 이 소프트웨어는 VPN, SSH, HTTP 프록시와 같은 기술들을 사용하여 검열된 사이트에 접속할 수 있도록 도와줍니다. 당신의 Psiphon 클라이언트는 최적의 새로운 엑세스 포인트를 찾아 자동으로 접속합니다.",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "Psiphon 은 당신에게 열린 인터넷을 제공하기 위해 디자인 되었습니다.\nPsiphon 은 온라인 상의 개인 정보 보호 기능을 제공하지 않으며 이 소프트웨어는 온라인 보안 툴로 사용될 수 없습니다.",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

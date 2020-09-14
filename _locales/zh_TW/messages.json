@@ -123,6 +123,10 @@
         "message": "Windows版 Psiphon 不曾發布過安裝包。 Psiphon Windows客戶端是一個單一的可執行文件（.exe），并經 Psiphon Inc. 數位簽章。當您運行客戶端時，Windows會自動檢查此簽章。您也可以在運行客戶端之前手動檢查簽章，只需打開文件的“屬性”對話框，並檢查“數位簽章”選項卡。Psiphon Inc. 證書公鑰的SHA1指紋顯示在“證書”對話框的“詳細信息”選項卡中。",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "2017-07-05 到 2020-10-03 有效憑證的SHA1 指紋為：",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": " Psiphon 是 Psiphon 公司的一款翻牆工具，利用VPN、SSH和HTTP代理技術提供未經審查的網路內容訪問。 Psiphon客戶端會自動尋找新的接入點，力求最大限度地繞過審查。",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": " Psiphon 為您提供在線內容的開放訪問。它不會增加您的網路隱私程度，也不應被用作在線安全工具。",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

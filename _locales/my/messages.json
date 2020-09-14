@@ -123,6 +123,10 @@
         "message": "Windows အတွက် Psiphon ကို ထည့်သွင်းနိုင်သည့် package အဖြစ်မည်သည့်အချိန်ကမျှမဖြန့်ချိခဲ့ပါ။ Windows အတွက် Psiphon တစ်ခုချင်းစီသည် Psiphon Inc. မှ ဒစ်ဂျစ်တယ်အမှတ်အသားပြုထားသော တစ်ခုတည်းထည့်သွင်းအသုံးပြုနိုင်သည့် ဖိုင် (\".exe\") ဖြစ်သည်။ ထိုဖိုင်ကို ထည့်သွင်းအသုံးပြုသည့်အခါတွင် Windows သည် ဤအမှတ်အသားကို အလိုအလျောက်စစ်ဆေးပေးသည်။ ဆော့ဝဲသွင်းခြင်းမပြုမီ ဖိုင်အတွက် Properties dialog ကိုဖွင့်ပြီး Digital Signatures စာမျက်နှာ ကိုလည်းကိုယ်တိုင်ကိုယ်ကျစစ်ဆေးနိုင်သည်။ Psiphon Inc. အတွက် SHA1 thumbprint အများသုံးကီးကို Certificate dialog ၏ အသေးစိတ်စာမျက်နှာတွင်ပြသထားသည်။",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "2017-07-05 မှ 2020-10-03 အထိဆီလျော်မှုရှိသော အသိအမှတ်ပြုမှု SHA1 thumbprint သည် :",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "Psiphon သည် Psiphon Inc.မှ ထုတ်လုပ်ထားသော  VPN၊ SSH နှင့် HTTP ကြားခံ နည်းပညာများအား အသုံးချ၍ ဆင်ဆာဖြတ်တောက်ထားသော အင်တာနက်ပေါ်ရှိအကြောင်းအရာများကို ဝင်ရောက်ကြည့်ရှုအသုံးပြုနိုင်စေရန် ကျော်လွှားပေးနိုင်သည့် ကိရိယာတစ်ခု ဖြစ်သည်။ သင်၏  Psiphon သည် သုံးခွင့်နေရာအသစ်များကို အလိုအလျောက် ရှာလျက် ဆင်ဆာ ကျော်လွှားမှုကို အမြင့်ဆုံး၊ အကောင်းဆုံးဖြစ်အောင် တိုးမြှင့်ပေးသည်။ ",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "Psiphon သည် သင့်အား အွန်လိုင်းပေါ်ရှိ အကြောင်းအရာများ လွတ်လပ်စွာရယူနိုင်ရန်အတွက် ဖန်တီးထားခြင်းဖြစ်သည်။ Psiphon သည် သင်၏ အွန်လိုင်းပေါ်ရှိ ကိုယ်ရေးကိုယ်တာအချက်အလက်များနှင့် ပုဂ္ဂလလုံခြုံရေးကိုတိုးမြှင့်မပေးသောကြောင့် အွန်လိုင်းလုံခြုံရေး ကိရိယာဖြင့် ထည့်သွင်းစဥ်းစားခြင်း သို့မဟုတ် အသုံးပြုခြင်းများမပြုလုပ်သင့်ပါ။",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

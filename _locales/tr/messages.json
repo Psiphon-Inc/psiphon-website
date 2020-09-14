@@ -123,6 +123,10 @@
         "message": "Windows için Psiphon asla bir kurulum paketi olarak dağıtılmadı. Her Windows için Psiphon istemcisi, Psiphon Inc. tarafından sayısal olarak imzalanmış tek bir uygulama (\".exe\") dosyasıdır. İstemci her çalıştırıldığında Windows bu imzayı otomatik olarak denetler. İmzayı, dosyayı çalıştırmadan da Özellikler penceresindeki Sayısal İmzalar sekmesinden inceleyebilirsiniz. Psiphon Inc. herkese açık sertifika anahtarının SHA1 parmak izi Ayrıntılar sekmesindeki Sertifika penceresinde görülebilir.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "2017-07-05 ile 2020-10-03 tarihleri arasında geçerli olan sertifikanın SHA1 parmak izi:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "Psiphon (sayfın olarak okunur), Psiphon Inc. tarafından, VPN, SSH ve HTTP vekil sunucu teknolojilerini kullanarak İnternet içeriklerine uygulanan sansürü aşmak için geliştirilmiş bir araçtır. Psiphon istemcisi sansürü aşma başarımızını en iyi düzeye çıkarmak için yeni erişim noktalarını otomatik olarak öğrenir.",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "Psiphon çevrimiçi içeriğe engelsiz erişim sağlamak için tasarlanmıştır. Psiphon uygulaması kişisel gizliliğiniz çevrimiçi olarak korunmasını sağlamaz ve bir çevrimiçi güvenlik aracı olarak düşünülmemelidir.",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

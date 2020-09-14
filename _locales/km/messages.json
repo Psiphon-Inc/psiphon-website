@@ -123,6 +123,10 @@
         "message": "Psiphon សម្រាប់ Windows មិនត្រូវបានចែកចាយជាកញ្ចប់អាចតំឡើងបានទេ។ Psiphon សម្រាប់ Windows ជាឯកសារដែលអាចប្រតិបត្តិបាន (\".exe\") ដែលត្រូវបានចុះហត្ថលេខាឌីជីថលដោយ Psiphon Inc ។ Windows ពិនិត្យហត្ថលេខានេះដោយស្វ័យប្រវត្តិនៅពេលអ្នកដំណើរការម៉ាស៊ីនអ្នក។ អ្នកក៏អាចពិនិត្យហត្ថលេខាដោយដៃ មុនពេលរត់បើកកម្មវិធី ដោយប្រើប្រអប់លក្ខណសម្បត្តិសម្រាប់ឯកសារ និងពិនិត្យផ្ទាំងហត្ថលេខាឌីជីថល។ មេដៃម្រាមដៃ SHA1 សម្រាប់កូនសោសាធារណៈវិញ្ញាបនបត្ររបស់ Psiphon Inc ត្រូវបានបង្ហាញនៅក្នុងផ្ទាំង Details ។",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "សម្រាប់វិញ្ញាបនបត្រមានសុពលភាពសម្រាប់អំឡុងឆ្នាំ 2017-07-05 ដល់ 2020-10-03 មេម្រាមដៃ SHA1 គឺ៖",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "Psiphon គឺជាឧបករណ៍បញ្ចៀសការឃ្លាំមើលមួយពី Psiphon Inc ដែលប្រើប្រាស់ VPN, SSH និង HTTP Proxy technology ដើម្បីផ្តល់ឱ្យអ្នកនូវការចូលប្រើអ៊ីនធឺរណែតដែលមិនត្រូវបានត្រួតពិនិត្យ។ ម៉ាស៊ីនប្រើ Psiphon របស់អ្នកនឹងរៀនដោយស្វ័យប្រវត្តិអំពីចំណុចចូលដំណើរការថ្មី ដើម្បីបង្កើនឱកាសរបស់អ្នកពីការឆ្លងកាត់ការត្រួតពិនិត្យ។",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "Psiphon ត្រូវបានរចនាឡើង ដើម្បីផ្តល់ជូនអ្នកនូវការប្រើប្រាស់បើកទូលាយ ខ្លឹមសារអនឡាញ។ Psiphon មិនបានបន្ថែមឯកជនភាពអនឡាញរបស់អ្នកទេ និងមិនគួរគិតថា ឬប្រើជាឧបករណ៍សុវត្ថិភាព។",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {

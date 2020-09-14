@@ -123,6 +123,10 @@
         "message": "برنامج سايفون لأنظمة ويندوز لا يُوزًع أبدا على هيئة مجموعة من التطبيقات الجاهزة للحفظ والتثبيت على الأجهزة. فكلً وكيل لبرنامج سايفون لأنظمة ويندوز هو ملف بحدً ذاته قابل للتنفيذ يحمل هذا الإمتداد (\".exe\") والذي يحمل بصمة وتوقيع شركة سايفون  المساهمة Psiphon Inc إلكترونيا. وأنظمة ويندوز تقوم تلقائيا بالتأكد من هذه البصمة والتوقيع قبل تشغيل العميل Client من خلال طلب خصائص الملف والتحقق من مفتاح التوقيع الرقمي  Digital Signatures tab  . يمكنك أيضا فحص التوقيع يدويا قبل تشغيل الوكيل وذلك عبر إستدعاء  نص خصائص الملف  والتحقق من مفتاح التوقيع الرقمي. بصمة SHA1  لشهادة  المفتاح العلني لشركة سايفون موجود في معلومات الشهادة في مربع الحوار.     ",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2023": {
+        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2020": {
         "message": "للحصول على شهادة صالحة من 2017-07-05 إلى 2020-10-03 بصمة SHA1 هي:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -533,10 +537,6 @@
     },
     "what-is-psiphon-body-para-1": {
         "message": "برنامج سايفون هو أداة صممتها شركة سايفون المساهمة للإلتفاف حول القيود والرقابة على الإنترنت؛ تمً استخدام تقنيات الشبكة الإفتراضية الخاصة VPN وبروتوكول القشرة الآمنة SSH وبروتوكول HTTP Proxy لتمكينك من الدخول على الإنترنت ومحتوياته من دون رقابة أو قيود. سيقوم عميل برنامج سايفون الخاص بك وبشكل تلقائي من التعرف على أيًة نقاط دخول ومنافذ جديدة تتيح لك الدخول على الإنترنت وذلك من أجل مضاعفة فرصك في التغلب على المراقبة والقيود على شبكة الإنترنت.  ",
-        "description": ""
-    },
-    "what-is-psiphon-body-para-2": {
-        "message": "تمً تصميم برنامج سايفون ليمكنك من تصفح الإنترنت ومحتوياته بشكل مفتوح ومن دون إيًة قيود. يرجي ملاحظة أنً برنامج سايفون لن يرفع من مستوى خصوصيتك على الإنترنت٬ ولا يجب أن يُنظر إليه كذلك أو يستخدم كأداة حماية على الإنترنت.  ",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {
@@ -1520,15 +1520,15 @@
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
     },
     "privacy-information-collected-vpndata-whycare-para-1": {
-        "message": "When using a VPN or proxy you should be concerned about what the VPN provider can see in your data, collect from it, and do to it.",
+        "message": "عند استخدام شبكة خاصة افتراضية أو بروكسي فيجب عليك أن تهتم بما يراه مقدم خدمة الشبكة الخاصة الافتراضية من بياناتك و ما يجمعه منها و ما يفعل بها.",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whycare-para-2": {
-        "message": "When you use a VPN, all data to and from your device goes through it. If you visit a website that uses unencrypted HTTP, all of that site's data is visible to the VPN. If you visit a website that uses encrypted HTTPS, the site content is encrypted, but some information about the site might be visible to the VPN. Other apps and services on your device will also transfer data that is encrypted or unencrypted. (Note that this is distinct from the encryption that all VPNs provide. Here we're only concerned with data that is or is not encrypted <em>inside</em> the VPN tunnel.)",
+        "message": "عندما تستخدم شبكة خاصة افتراضية فإن جميع البيانات من وإلى جهازك ستمر عبرها. اذا قمت بزيارة موقع يستخدم HTTP غير مشفر فإن كل بيانات هذا الموقع ستكون ظاهرة للشبكة الخاصة الافتراضية. اذا قمت بزيارة موقع يستخدم HTTPS مشفر فان محتوى الموقع يكون مشفرا، ولكن بعض المعلومات عن الموقع ربما تكون ظاهرة للشبكة الخاصة الافتراضية. التطبيقات الأخرى والخدمات على جهازك ستنقل بيانات أيضا مشفرة أو غير مشفرة. (لاحظ أن هذا التشفير مختلف عن التشفير الذي تزوده جميع الشبكات الخاصة الافتراضية. نحن نهتم هنا فقط بالييانات المشفرة أو غير المشفرة <em>داخل</em> نفق الشبكة الخاصة الافتراضية.)",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an 'emphasis' (like italics) HTML tag, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whycare-para-3": {
-        "message": "For unencrypted services, it is possible for a VPN provider to see, collect, and modify (e.g., injecting ads into) the contents of your data. For encrypted data, it is still possible for a VPN to collect metadata about sites visited or actions taken. You should also be concerned with your VPN provider sharing your data with third parties.",
+        "message": "مزود الشبكة الخاصة الافتراضية يمكنه مشاهدة وتجميع وتعديل (مثال: تضمين إعلانات) في محتوى بياناتك في الخدمات الغير مشفرة. في البيانات المشفرة يظل مزود الشبكة الخاصة الافتراضية قادرا على تجميع بيانات وصفية عن المواقع المزارة أو الأنشطة التى تمت. يجب أن تهتم أيضا بمشاركة مزود الشبكة الخاصة الافتراضية بياناتك مع جهات خارجية.",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-subhead": {
@@ -1548,27 +1548,27 @@
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-kindsofdata-subhead": {
-        "message": "What kinds of user data does Psiphon collect?",
+        "message": "ما هو نوع بيانات المستخدم التى يجمعها Psiphon؟",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-kindsofdata-para-1": {
-        "message": "We will define some categories of data to help us talk about them in the context of Psiphon.",
+        "message": "سوف نقوم بتعريف بعض اقسام البيانات لمساعدتنا في الحديث عنها في سياق Psiphon.",
         "description": "Paragraph text in the 'What kinds of user data does Psiphon collect?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-subhead": {
-        "message": "User Activity Data",
+        "message": "بيانات أنشطة المستخدم",
         "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-1": {
-        "message": "While a user's device is tunneled through Psiphon, we collect some information about how they're using it. We record what protocol Psiphon used to connect, how long the device was connected, how many bytes were transferred during the session, and what city, country, and ISP the connection came from. For some domains (but very few, and only popular ones) or server IP addresses (e.g., known malware servers) that are visited, we also record how many bytes were transferred to it. (But never full URLs or anything more sensitive. And only domains of general interest, not all domains.)",
+        "message": "عندما يقوم جهاز مستخدم بتمرير بياناته من خلال Psiphon فنحن نقوم بجمع بعض المعلومات عن كيفية استخدامه. نحن نسجل نوع البروتوكول الذى يستخدمه Psiphon في الاتصال والمدة التى كان فيها الجهاز متصلا وحجم البيانات التى تم انتقالها خلال الجلسة والمدينة والبلد ومزود خدمة الإنترنت الذي أتى الإتصال من خلاله. نحن نسجل أيضا حجم البيانات التى تم انتقالها إلى بعض المواقع (فقط المواقع المشهورة وعدد قليل جدا) أو زيارة عناوين IP لخوادم معينة (مثل خوادم برمجيات خبيثة معروفة) ونسجل أيضا حجم البيانات التى تم انتقالها إليها. (و لكن لا نسجل أبدا روابط كاملة أو أى شيء أكثر حساسية. ولا نسجل كل المواقع، فقط المواقع ذات الأهمية العامة).",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
-        "message": "Geographical location and ISP info are derived from user IP addresses, which are then immediately discarded.",
+        "message": "معلومات الموقع الجغرافي ومزود خدمة الإنترنت تستمد من عناوين IP للمستخدمين ويتم بعد ذلك مباشرة التخلص منها.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-3": {
-        "message": "An example of user activity data might be: At a certain time a user connected from New York City, using Comcast, and transferred 100MB from <code>youtube.com</code> and 300MB in total.",
+        "message": "مثال على بيانات أنشطة المستخدم: فى وقت محدد اتصل مستخدم من مدينة نيويورك، من خلال Comcast، ونقل 100 ميجا بايت من <code>youtube.com</code> والإجمالي 300 ميجا بايت.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4.1": {
@@ -1580,15 +1580,15 @@
         "description": "Sub-heading for the definition of 'Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-1": {
-        "message": "Data is “aggregated” by taking a lot of sensitive user activity data and combining it together to form coarse statistical data that is no longer specific to a user. After aggregation, the user activity data is deleted.",
+        "message": "يتم “تجميع” البيانات عن طريق أخذ الكثير من البيانات الحساسة لأنشطة مستخدمين ودمجها معها لتكوين بيانات إحصائية تقريبية والتى تصبح غير محددة لمستخدم معين. يتم حذف بيانات أنشطة المستخدم بعد التجميع.",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-2": {
-        "message": "An example of aggregated data might be: On a particular day, 250 people connected from New York City using Comcast, and transferred 200GB from <code>youtube.com</code> and 500GB in total.",
+        "message": "مثال على البيانات المجمعة: في يوم معين، اتصل 250 شخصا من مدينة نيويورك من خلال Comcast ونقلوا 200 جيجا بايت من <code>youtube.com</code> والإجمالي 500 جيجا بايت.",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-3": {
-        "message": "Aggregated data is much less sensitive than activity data, but we still treat it as potentially sensitive and do not share it in this form.",
+        "message": "البيانات التجميعية أقل حساسية بكثير من بيانات الأنشطة، ولكننا نظل نتعامل معها على أنها ذات حساسية محتملة ولا يتم مشاركتها في هذه الهيئة.",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-subhead": {
@@ -1608,19 +1608,19 @@
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-4": {
-        "message": "An example of data that is <em>not shareable</em>: On a particular day, 2 people connected from Los Angeles. Those people will be included in the stats for the entire US, but that is too few people to anonymously share city data for.",
+        "message": "مثال علي البيانات <em>الغير قابلة للمشاركة</em>: في يوم معين، اتصل شخصين من لوس أنجلوس. سيتم تضمين هذين الشخصين في إحصائيات الولايات المتحدة الأمريكية كلها، و لكن لا يتم مشاركة بيانات المدينة مع إخفاء الهوية لأن عددهم قليل جدا.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an HTML tag that adds emphasis (like italics), which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead-v2": {
-        "message": "What does Psiphon do with User Activity and Aggregated Data?",
+        "message": "ماذا يفعل Psiphon بنشاط المستخدم والبيانات المجمعة؟",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1-v2": {
-        "message": "Activity and aggregated statistical data are vital for us to make Psiphon work best. It allows us to do things like:",
+        "message": "النشاط والبيانات الاحصائية التجميعية مهمة للغاية لنا لكي يعمل Psiphon بأفضل صورة ممكنة. إنها تتيح لنا عمل أشياء مثل:",
         "description": "Paragraph text in the 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-1": {
-        "message": "Monitor the health and success of the Psiphon network: We need to know how many people are connecting, from where, how much data they're transferring, and if they're having any problems.",
+        "message": "مراقبة جودة ونجاح شبكة Psiphon؛ نحن بحاجة لمعرفة عدد الأشخاص المتصلين، ومكان الاتصال، و كمية البيانات التى يتم نقلها. واذا ما كانوا يواجهون أية مشاكل.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-2": {
@@ -1628,7 +1628,7 @@
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-3": {
-        "message": "Ensure users stay connected while foiling censors: We try to detect that a user is behaving like a real person and then reveal new Psiphon servers to them. (This is our obfuscated server list technology.)",
+        "message": "التأكد من بقاء المستخدمين متصلين وفي نفس الوقت احباط المراقبين. نحن نحاول اكتشاف ما إذا كان المستخدم يتصرف كشخص حقيقي ومن ثم نقوم بكشف خوادم Psiphon جديدة لهم. (هذه هي تقنية قائمة الخوادم المبهمة الخاصة بنا.)",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
@@ -1660,11 +1660,11 @@
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-3": {
-        "message": "That the populace of a country is determined to access the open internet.",
+        "message": "كون سكان بلد مصممين على الوصول إلى الإنترنت المفتوح.",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-3-v2": {
-        "message": "Again, only anonymized shareable aggregated data is ever shared with third parties.",
+        "message": "للتأكيد مرة أخرى، البيانات التجميعية القابلة للمشاركة مع إخفاء الهوية هي فقط التى يتم مشاركتها مع أطراف خارجية.",
         "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-psicash-para-1": {
@@ -1688,7 +1688,7 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "privacy-information-collected-psicash-para-2-item-4": {
-        "message": "PsiCash earning history, including what actions the rewards were granted for",
+        "message": "سجل مكاسب PsiCash، بما في ذلك النشاطات التي منحت المكافآت من أجلها ",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-item-5": {
