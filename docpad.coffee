@@ -64,7 +64,7 @@ docpadConfig = {
     # Enabled languages
     # This is the order in which they will be displayed in the language picker
     # NOTE: Do NOT remove languages unless you're sure they're not linked to from store descriptions, privacy policies, etc.
-    languages: ['en', 'fa', 'ar', 'zh', 'am', 'az', 'be', 'bn', 'bo', 'de', 'el', 'es', 'fa_AF', 'fi', 'fr', 'he', 'hi', 'hr', 'id', 'it', 'kk', 'km', 'ko', 'ky', 'my', 'nb', 'nl', 'om', 'pt_BR', 'pt_PT', 'ru', 'tg', 'th', 'ti', 'tk', 'tr', 'uk', 'ur', 'uz', 'vi', 'zh_TW']
+    languages: ['en', 'fa', 'ar', 'zh', 'am', 'az', 'be', 'bn', 'bo', 'de', 'el', 'es', 'fa_AF', 'fi', 'fr', 'he', 'hi', 'hr', 'id', 'it', 'kk', 'km', 'ko', 'ky', 'my', 'nb', 'nl', 'om', 'pt_BR', 'pt_PT', 'ru', 'sw', 'tg', 'th', 'ti', 'tk', 'tr', 'uk', 'ur', 'uz', 'vi', 'zh_TW']
     # Even if this array is modified during generation, the full list will always
     # be available in @all_languages.
 
@@ -102,6 +102,7 @@ docpadConfig = {
       pt_BR: './_locales/pt_BR/messages.json'
       pt_PT: './_locales/pt_PT/messages.json'
       ru: './_locales/ru/messages.json'
+      sw: './_locales/sw/messages.json'
       tg: './_locales/tg/messages.json'
       th: './_locales/th/messages.json'
       ti: './_locales/ti/messages.json'
@@ -371,6 +372,7 @@ docpadConfig = {
         "pt_PT": "Português (Portugal)"
         "ru": "Русский"
         "sv": "Svenska"
+        "sw": "Kiswahili"
         "tg": "Тоҷикӣ"
         "th": "ภาษาไทย"
         "ti": "ትግርኛ"

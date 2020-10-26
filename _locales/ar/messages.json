@@ -316,7 +316,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "يُخزّن سايفون الخاص بالويندوز البيانات محلياً تحت الملف الشخصي للمستخدم الموجود في مسار قد يبدو كالتالي:<code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3<code> %APPDATA%\\Psiphon3</code>. يُمكنك حذف البيانات المحلية باتّباع هذا المسار في مستكشف ويندوز ثم حذف البيانات، أو من خلال إدخال هذا الأمر في محثّ الأوامر: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>",
+        "message": "يُخزّن سايفون الخاص بالويندوز البيانات محلياً تحت الملف الشخصي للمستخدم الموجود في مسار قد يبدو كالتالي:<code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3</code> <code>%APPDATA%\\Psiphon3</code>. يُمكنك حذف البيانات المحلية باتّباع هذا المسار في مستكشف ويندوز ثم حذف البيانات، أو من خلال إدخال هذا الأمر في محثّ الأوامر: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
@@ -452,7 +452,7 @@
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
-        "message": "أنقر على زر التشغيل Run ثم اكتب >regedit< لفتح محرر سجل النظام Registry Editor. إبحث عن >HKEY_CURRENT_USER\\Software\\Psiphon3< وافتحه٬ وفي الجانب الأيمن سترى >UserSkipProxySettings< إعدادات تخطي الوكيل. قم بضبط هذه القيمة على >1< ولن يقوم برنامج سايفون  Psiphon بتشكيل إعدادات النظام للوكيل System Proxy Settings تلقائيا.",
+        "message": "أنقر على زر التشغيل Run ثم اكتب <code>regedit</code> لفتح محرر سجل النظام Registry Editor. إبحث عن <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code> وافتحه٬ وفي الجانب الأيمن سترى <code>UserSkipProxySettings</code> إعدادات تخطي الوكيل. قم بضبط هذه القيمة على <code>1</code> ولن يقوم برنامج سايفون  Psiphon بتشكيل إعدادات النظام للوكيل System Proxy Settings تلقائيا.",
         "description": ""
     },
     "faq-screen-filter-question": {
