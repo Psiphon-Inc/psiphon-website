@@ -72,7 +72,7 @@
         "description": "text for the Download page navigation item"
     },
     "download-description": {
-        "message": "Прямая и бесплатная ссылка на скачивание Psiphon для Windows и Android",
+        "message": "Скачайте Psiphon для Windows и Android напрямую и бесплатно",
         "description": "Title for the download page. 'Psiphon' must not be translated or transliterated."
     },
     "faq-section-verify-psiphon-authentic": {
@@ -120,27 +120,27 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-answer-para-1": {
-        "message": "Psiphon для Windows никогда не распространяется в виде устанавливаемого пакета. Каждый клиент Psiphon для Windows - это одиночный исполняемый файл (\".exe\"), имеющий цифровую подпись Psiphon Inc. Windows автоматически проверит данную подпись при запуске клиента. Вы также можете и в ручную проверить подпись перед запуском клиента, открыв диалоговое окно Свойств файла и перейдя в закладку \"Цифровые подписи\". Нажав на кнопку \"Сведения\", вы увидите цифровой отпечаток SHA1 для открытого ключа сертификата Psiphon Inc.",
+        "message": "Psiphon для Windows никогда не распространяется в дистрибутиве. Клиент Psiphon для Windows – одиночный исполняемый файл (\".exe\") с цифровой подписью Psiphon Inc. Windows автоматически проверяет  подпись при запуске клиента. Вы также можете проверить ее вручную. Для этого откройте диалоговое окно свойств файла, перейдите во вкладку \"Цифровые подписи\". Нажав на кнопку \"Сведения\", вы увидите цифровой отпечаток SHA1 для открытого ключа сертификата Psiphon Inc.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-answer-para-2023": {
-        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "message": "Отпечаток SHA1 для сертификата, действительного с 09.09.2020 по 02.11.2023:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-2020": {
-        "message": "Для сертификата сроком действия с 05.07.2017 по 03.10.2020 отпечаток SHA1:",
+        "message": "Отпечаток SHA1 для сертификата, действительного с 05.07.2017 по 03.10.2020:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-2017": {
-        "message": "Для сертификата, действительного в период с 08.05.2014 по 06.09.2017, отпечаток SHA1:",
+        "message": "Отпечаток SHA1 для сертификата, действительного с 08.05.2014 по 06.09.2017:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-3": {
-        "message": "Для сертификата сроком действия с 21.05.2012 до 30.07.2014 отпечаток SHA1:",
+        "message": "Отпечаток SHA1 для сертификата, действительного с 21.05.2012 по 30.07.2014:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-2": {
-        "message": "Для сертификата сроком действия с 16.06.2011 до 21.06.2012 отпечаток SHA1:",
+        "message": "Отпечаток SHA1 для сертификата, действительного с 16.06.2011 по 21.06.2012:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-4": {
@@ -152,19 +152,19 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-android-answer-alert": {
-        "message": "<b>ПРЕДУПРЕЖДЕНИЕ:</b> Недавно <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">обнаруженная</a> уязвимость позволяет изменить код Android приложения, не повреждая криптографическую подпись приложения. Мы рекомендуем пользователям включить проверку приложений Google, как <a href=\"https://support.google.com/accounts/answer/2812853?hl=ru\">описано тут</a>.",
+        "message": "<b>ПРЕДУПРЕЖДЕНИЕ.</b> Недавно <a href=\"http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/\">обнаруженная</a> уязвимость позволяет изменить код Android-приложения, не повреждая криптографическую подпись приложения. Мы рекомендуем пользователям включить проверку приложений Google, как <a href=\"https://support.google.com/accounts/answer/2812853?hl=ru\">описано тут</a>.",
         "description": ""
     },
     "faq-authentic-android-answer-para-1": {
-        "message": "Каждый Psiphon клиент для Android поставляется в виде файла Android APK  (\".apk\") и имеет цифровую подпись Psiphon Inc. Открытый ключ сертификата Psiphon Inc. выглядит следующим образом:",
+        "message": "Каждый Psiphon-клиент для Android поставляется в виде файла Android APK  (\".apk\") и имеет цифровую подпись Psiphon Inc. Открытый ключ сертификата Psiphon Inc. выглядит так:",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-android-answer-para-2": {
-        "message": "Подлинность APK может быть установлена путем (1) извлечения сертификата из архива и проверки совпадения его цифрового отпечатка со значением выше, и (2) проверки того, что APK подписан этим сертификатом. Например, используя Unix и Java утилиты командной строки:",
+        "message": "Подлинность APK может быть установлена путем (1) извлечения сертификата из архива и проверки совпадения его цифрового отпечатка со значением выше и (2) проверки того, что APK подписан этим сертификатом. Например, используя Unix и Java-утилиты в командной строке:",
         "description": ""
     },
     "faq-authentic-android-answer-para-3": {
-        "message": "Psiphon для Android обновляется самостоятельно, и проверяет подлинность каждого обновления автоматически.",
+        "message": "Psiphon для Android обновляется самостоятельно и проверяет подлинность каждого обновления автоматически.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-unsupported-platforms-question": {
@@ -172,7 +172,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-unsupported-platforms-answer-para-1": {
-        "message": "Поддерживаемые нами платформы вы найдете на <a href=\"download.html\">Странице загрузки</a>. Мы неустанно работаем над расширением поддержки различных платформ и надеемся, что в ближайшем будущем Psiphone будет работать и на вашей ОС!",
+        "message": "Поддерживаемые платформы можно видеть на <a href=\"download.html\">странице загрузки</a>. Мы работаем над расширением этого списка. Надеемся, что в ближайшем будущем Psiphon будет работать и на вашей операционной системе!",
         "description": "FAQ answer to the question 'Is Psiphon available for OS X, Linux, iOS, Windows Phone, etc.?'"
     },
     "faq-android-enable-sideloading-question": {
@@ -180,11 +180,11 @@
         "description": "FAQ question."
     },
     "faq-android-enable-sideloading-answer-para-0": {
-        "message": "Установка приложений из неизвестных источников означает установку приложения на ваше устройство, минуя магазин приложений. Это предпочтительно пользователям, не имеющим доступа к магазину приложений, либо в случаях, когда приложение не доступно в их регионе.",
+        "message": "Эта опция означает возможность установки на ваше устройство приложения не из магазина Play Store. Важно для тех, у кого нет доступа к Play Store, или когда приложение не доступно в определенном регионе.",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?'"
     },
     "faq-android-enable-sideloading-answer-para-1": {
-        "message": "Чтобы установить приложение Psiphon для Android, скачанное по прямой ссылке, вам необходимо разрешить установку приложений из неизвестных источников. Для этого в настройках в разделе \"Безопасность\" включите \"Неизвестные источники\".",
+        "message": "Чтобы установить приложение Psiphon для Android, скачанное по прямой ссылке, нужно разрешить установку приложений из неизвестных источников. Для этого в настройках раздела \"Безопасность\" Android включите \"Неизвестные источники\".",
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-android-enable-sideloading-image-alt": {
@@ -200,15 +200,15 @@
         "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-information-collected-answer-redirect": {
-        "message": "Пожалуйста, ознакомьтесь с <a href=\"privacy.html\"> Политикой конфиденциальности </a>для того, чтобы узнать, какую информацию мы собираем.",
+        "message": "Подробнее о том, какие данные мы собираем, рассказано в нашей <a href=\"privacy.html\">Политике приватности</a>.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
     },
     "faq-ip-change-question": {
-        "message": "Почему мой IP адрес в Psiphon так часто меняется?",
+        "message": "Почему мой IP-адрес в Psiphon так часто меняется?",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-ip-change-answer-para-1": {
-        "message": "Ваш клиент Psiphon будет автоматически получать данные о новых серверах в сети Psiphon. Если последний использованный сервер в настоящее время недоступен, то Psiphon произведет попытку соединения со следующим сервером из списка.",
+        "message": "Ваш клиент Psiphon автоматически получает данные о новых серверах сети Psiphon. Если последний использованный сервер оказывается недоступен, Psiphon попробует подключиться к следующему серверу из списка.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-connection-failed-question": {
@@ -224,11 +224,11 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-answer-para-1": {
-        "message": "При запуске Psiphon для Windows изменяет системные настройки прокси вашего компьютера, а после закрытия восстанавливает их первоначальное состояние. В случае, если сеанс работы Psiphon для Windows не был завершен корректно, первоначальные настройки прокси могли не восстановиться. В результате этого вы не можете подключиться в Интернету.",
+        "message": "При подключении Psiphon для Windows изменяет системные настройки прокси вашего компьютера. После отключения Psiphon восстанавливает их. Если сеанс Psiphon для Windows не был завершен корректно, первоначальные настройки могли не восстановиться. Поэтому вы не можете подключиться к интернету.",
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-answer-para-2": {
-        "message": "Наиболее простым способом для большинства будет запуск Psiphon и затем  его штатное выключение.",
+        "message": "Самый простой способ решить проблему – снова подключить Psiphon и отключить его как положено.",
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-reset-system-proxy-answer-para-3": {
@@ -236,11 +236,11 @@
         "description": "FAQ answer to the question 'After using Psiphon for Windows my computer can no longer connect to the Internet.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-android-upgrade-bug-question": {
-        "message": "После обновления приложения Psiphon для Android оно не подключается.",
+        "message": "Нет соединения после обновления приложения Psiphon для Android.",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-android-upgrade-bug-answer-para-1": {
-        "message": "Если Psiphon в момент установки обновления был подключён, он не сможет подключиться и будет показывать сообщение об ошибке “start_tunnel_failed application is not prepared or revoked”. Это происходит из-за <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">ошибки ОС Android</a> и исправляется перезагрузкой устройства.",
+        "message": "Если соединение Psiphon было установлено во время обновления, может возникнуть ошибка “start_tunnel_failed application is not prepared or revoked”. Это происходит из-за <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\">ошибки Android</a>. Нужно перезагрузить устройство.",
         "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-periodic-disconnect-question": {
@@ -248,19 +248,19 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-periodic-disconnect-answer-para-1": {
-        "message": "Чаще всего причиной этого является ненадёжное и нестабильное интернет-подключение вашего устройства или компьютера. Для телефона это может быть потеря сигнала. На компьютере - нестабильное беспроводное подключение или ненадёжный интернет-провайдер.",
+        "message": "Чаще всего причиной в ненадежном и нестабильном подключение вашего устройства к интернету. Для телефона это может быть потеря сигнала. Для компьютера – нестабильное беспроводное подключение или ненадежный интернет-провайдер.",
         "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
     },
     "faq-ie6-docbody-question": {
-        "message": "Psiphon для Windows отображает сообщение об ошибке “doc.body is null or not an object” и не работает.",
+        "message": "Psiphon для Windows сообщает “doc.body is null or not an object” и не работает.",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-ie6-docbody-answer-para-1": {
-        "message": "Эта ошибка появляется в Windows XP, если установлен Internet Explorer 6. Для работы Psiphon для Windows необходим Internet Explorer версии 7 или выше. Лучшим способом установить подходящую версию будет <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Обновление Windows</a>.",
+        "message": "Эта ошибка появляется в Windows XP с Internet Explorer 6. Psiphon для Windows необходим Internet Explorer версии 7 или выше. Лучшее решение – <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">обновить Windows</a>.",
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-ie6-docbody-answer-para-2": {
-        "message": "Если воспользоваться Центром обновления Windows не представляется возможным, установите Internet Explorer версии 7 или 8, скачав их здесь:",
+        "message": "Если нельзя воспользоваться Центром обновления Windows, установите Internet Explorer версии 7 или 8 отсюда:",
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
     },
     "faq-ie6-docbody-answer-xpie8": {
@@ -272,11 +272,11 @@
         "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
     },
     "faq-check-version-question": {
-        "message": "Как мне проверить текущую версию Psiphon?",
+        "message": "Как проверить текущую версию Psiphon?",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-check-version-answer-para-1": {
-        "message": "Когда Psiphon запустится, версия клиента отобразится в окне сообщений на первой строке.",
+        "message": "При запуске Psiphon версия клиента отображается в первой строке лога.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-get-updated-version-question": {
@@ -284,7 +284,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-get-updated-version-answer-para-1": {
-        "message": "<strong>Android:</strong> Если вы установили Psiphon для Android из магазина Google Play, приложение автоматически обновится по необходимости. Если же вы установили Psiphon для Android вручную, то при появлении обновления приложение само его скачает и в уведомлении предложит установить обновлённое приложение.",
+        "message": "<strong>Android:</strong> Если вы установили Psiphon для Android из магазина Google Play, приложение будет обновляться автоматически. Если вы установили Psiphon для Android вручную, при появлении обновления приложение само его скачает и предложит вам его установить.",
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users. 'Psiphon' must not be translated or transliterated."
     },
     "faq-get-updated-version-answer-para-2": {
@@ -300,7 +300,7 @@
         "description": "Do no translate or transliterate the filename."
     },
     "faq-orig-file-purpose-answer-para-1": {
-        "message": "Процесс автоматического обновления Psiphon для Windows переименовывает старую версию в “psiphon3.exe.orig”. Старые файлы с расширением \".orig\" могут быть безопасно удалены.",
+        "message": "Процесс автоматического обновления Psiphon для Windows переименовывает старую версию в “psiphon3.exe.orig”. Старые файлы с расширением \".orig\" могут быть безопасно удалены.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-uninstall-windows-question": {
@@ -308,11 +308,11 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-uninstall-windows-answer-para-1": {
-        "message": "Psiphon для Windows не устанавливается и не появится в списке приложений. Исполняемый файл может быть запущен прямо из папки \"Загрузки\", или же его можно скопировать в любое другое место и запускать оттуда. Если вы хотите удалить программу, просто удалите этот файл.",
+        "message": "Psiphon для Windows не подлежит установке. Его не будет видно в списке приложений. Исполняемый файл можно запустить прямо из папки \"Загрузки\". Его можно скопировать в любое другое место и запускать оттуда. Если вы хотите удалить программу, просто удалите этот файл.",
         "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-question": {
-        "message": "Веб-сайты Psiphone",
+        "message": "Как избавиться от следов Psiphon в локальных данных Windows?",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
@@ -320,19 +320,19 @@
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
-        "message": "Перенаправляет ли Psiphon для Windows весь мой интернет-трафик?",
+        "message": "Проходит ли весь мой интернет-трафик через Psiphon для Windows?",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "Только в режиме VPN. После успешного подключения в режиме VPN весь трафик с вашего компьютера будет перенаправляться через сеть Psiphon. При отключённом режиме VPN перенаправляться будет трафик только тех приложений, которые используют локальные HTTP и SOCKS прокси.",
+        "message": "Только в режиме VPN. После успешного подключения в режиме VPN весь трафик с вашего компьютера будет проходить через сеть Psiphon. При отключенном режиме VPN проходить будет трафик только тех приложений, которые используют локальные прокси HTTP и SOCKS.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-ios-browser-question": {
-        "message": "Перенаправляет ли Psiphon для iOS весь интернет-трафик моего устройства?",
+        "message": "Проходит ли весь мой интернет-трафик через Psiphon для iOS?",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "Браузер Psiphon для iOS - отдельный браузер. Он защищает только те данные, которые проходят через него. Данные в остальных приложения (например, Facebook или Twitter) не проходят через сеть Psiphon. Таким образом, если вы хотите использовать сеть Psiphon для защиты доступа к аккаунту Facebook, нужно зайти в Facebook через браузер Psiphon. Если же вы откроете приложение Facebook, оно подключится к вашему аккаунту напрямую, а не через сеть Psiphon.",
+        "message": "Браузер Psiphon для iOS – отдельный браузер. Он защищает только те данные, которые проходят через него. Данные в остальных приложения (например, Facebook или Twitter) не проходят через сеть Psiphon. Если вы хотите использовать сеть Psiphon для защиты доступа к аккаунту Facebook, нужно зайти в Facebook через браузер Psiphon. Если же вы откроете приложение Facebook, оно подключится к вашему аккаунту напрямую, а не через сеть Psiphon.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-browser-compatibility-question": {
@@ -348,7 +348,7 @@
         "description": "FAQ question. Note that 'port' is referring to network ports. 'Psiphon' must not be translated or transliterated."
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Для внешних подключений через сеть Psiphon доступно ограниченное число портов, в частности: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Подробнее см. <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">эту дискуссию</a>. Почтовым клиентам не разрешено устанавливать соединение через порт 25. Об этом подробнее см. <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">здесь</a>.",
+        "message": "Для внешних подключений через сеть Psiphon доступно ограниченное число портов, в частности: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Подробнее см. <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">эту дискуссию</a>. Почтовым клиентам не разрешено устанавливать соединение через порт 25. Подробнее об этом см. <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">здесь</a>.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-mail-apps-ports-question": {
@@ -364,55 +364,55 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-mobile-hotspot-answer-para-1": {
-        "message": "Это происходит из-за ограничений функциональности режимов модема и точки доступа в Android. Вы можете заметить, что либо соединенное устройство не будет подключаться к Интернету ,либо трафик не будет идти через VPN.",
+        "message": "Причина – ограничения этих режимов. Будет видно, что либо подключенное устройство не может выйти в интернет, либо трафик не идет через VPN.",
         "description": "FAQ answer to the question 'Why do Android mobile hotspot and USB tethering not work through Psiphon?'"
     },
     "faq-av-firewall-question": {
-        "message": "Почему антивирусное ПО или брандмауэр определяют Psiphon как угрозу безопасности?",
+        "message": "Почему антивирус или брандмауэр определяют Psiphon как угрозу безопасности?",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-av-firewall-answer-para-1": {
-        "message": "Для начала проверьте аутентичность копии Psiphon. Пожалуйста, <a href=\"#verify-psiphon-authentic\">следуйте этим инструкциям</a>для проверки вашей копии Psiphon на подлинность. Если файл не аутентичный, <a href=\"mailto:info@psiphon.ca\">отправьте нам письмо</a>, написав, где вы получили данную копию файла, и, по возможности, приложите её.",
+        "message": "Сначала есть смысл убедиться в аутентичности Psiphon. Сделать это можно <a href=\"#verify-psiphon-authentic\">вот так</a>. Если файл не аутентичный, пожалуйста, <a href=\"mailto:info@psiphon.ca\">отправьте нам email</a>. Уточните, где вы получили этот файл. Если можно, приложите его.",
         "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-av-firewall-answer-para-2": {
-        "message": "Если же ваша копия Psiphon прошла проверку, то это пример ложноположительного отчета об угрозе. Несмотря на то, что большинство антивирусных программ и брандмауэров внесли цифровую подпись Psiphon в белые списки, некоторые программы всё ещё могут определять Psiphon как вирус или угрозу. В этом случае <a href=\"mailto:info@psiphon.ca\">отправьте нам письмо</a>, указав название используемого антивирусного ПО или брандмауэра. Мы свяжемся с поставщиком и решим эту проблему.",
+        "message": "Ваш Psiphon настоящий? Значит, это ложноположительное сообщение об угрозе. Большинство антивирусов и брандмауэров внесло цифровую подпись Psiphon в белые списки. Но некоторые программы все еще могут определять Psiphon как вирус или угрозу. В этом случае, пожалуйста, <a href=\"mailto:info@psiphon.ca\">отправьте нам email</a>, уточните название вашего антивируса или брандмауэра. Мы свяжемся с разработчиком, чтобы решить проблему.",
         "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-question": {
-        "message": "Почему я не могу проксировать трафик приложений Windows Metro (или Modern UI) через Psiphon?",
+        "message": "Почему я не могу пропускать через Psiphon трафик приложений Windows Metro (Modern UI)?",
         "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-answer-para-1": {
-        "message": "Windows 8 представила альтернативу привычному интерфейсу \"Рабочий стол\" под названием \"Metro\", который впоследствии был переименован в \"Modern UI\". Некоторые приложения, которых немного, могут работать только в режиме Metro; а некоторые могут работать как в режиме Metro, так и в режиме рабочего стола. Этот новый интерфейс продолжил свое существование в Windows 8.1 и в меньшем объеме в Windows 10.",
+        "message": "Windows 8 представила альтернативу привычному интерфейсу \"Рабочий стол\" под названием \"Metro\". Впоследствии интерфейс был переименован в \"Modern UI\". Некоторые приложения (их немного) могут работать только в режиме Metro. Некоторые могут работать как с Metro, так с рабочим столом. Этот интерфейс продолжил свое существование в Windows 8.1 и в меньшем объеме в Windows 10.",
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
     },
     "faq-windows-metro-answer-para-2": {
-        "message": "Приложения, работающие в режиме Metro, не могут использовать локальный прокси-сервер без изменения пользователем настроек безопасности системы. Это значит, что приложения в режиме Metro не могут подключаться к сети Интернет при включенном Psiphone. Вы можете использовать <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">утилиту EnableLoopback</a>, позволяющую приложениям в режиме Metro работать с Psiphon.",
+        "message": "Приложения, работающие в режиме Metro, не могут использовать локальный прокси-сервер без изменения пользователем настроек безопасности системы. Это значит, что приложения в режиме Metro не могут подключаться к сети при включенном Psiphon. Для работы приложений Metro с Psiphon может пригодиться <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">утилита EnableLoopback</a>.",
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-answer-para-3": {
-        "message": "Здесь мы приведём примеры сообщения об ошибке, появляющиеся при запуске приложений в режиме Metro, которые пытаются использовать соединение Psiphon.",
+        "message": "Ниже даны примеры сообщения об ошибке при запуске приложений в режиме Metro, которые пытаются работать через Psiphon.",
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages. 'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-protocol-question": {
-        "message": "Какой VPN протокол используется Psiphon для Windows? Почему я не могу подключиться?",
+        "message": "Какой VPN-протокол использует Psiphon для Windows?",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-protocol-answer-para-1": {
-        "message": "Psiphon использует VPN протокол L2TP/IPSec.",
+        "message": "Psiphon использует VPN-протокол L2TP/IPSec.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-vpn-connect-question": {
-        "message": "Почему я не могу подключиться в режиме L2TP/IPsec, используя Psiphon для Windows?",
+        "message": "Почему я не могу подключиться к Psiphon для Windows в режиме L2TP/IPsec?",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-vpn-connect-answer-para-1": {
-        "message": "Ваш брандмауэр может запрещать использование VPN. Возможно, ваш домашний маршрутизатор не настроен на передачу данных через этот протокол VPN. Проверьте настройки брандмауэра и убедитесь, что режим IPsec или L2TP включён. Служба \"Агент политики IPsec\" может быть отключена на вашем компьютере. Проверьте настройки и включите её в режиме автоматического запуска.",
+        "message": "Брандмауэр вашей сети может запрещать использование VPN. Возможно, ваш домашний маршрутизатор не настроен на передачу данных через этот протокол VPN. Проверьте настройки брандмауэра и убедитесь, что режим IPsec или L2TP включен. На вашем компьютере можеть быть отключена служба \"Агент политики IPsec\". Проверьте настройки и включите ее в режиме автоматического запуска.",
         "description": ""
     },
     "faq-vpn-slow-question": {
-        "message": "Я могу подключиться к Psiphon для Windows в режиме VPN, но скорость соединения очень низка. Иногда веб-страницы не загружаются вообще. Почему?",
+        "message": "Я могу подключиться к Psiphon для Windows в режиме VPN, но скорость соединения очень низкая. Иногда веб-страницы вообще не загружаются. Почему?",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-slow-answer-para-1": {
@@ -424,23 +424,23 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "Psiphon ограничивает DNS трафик \"белым списком\" проверенных DNS серверов. Клиент Psiphon автоматически устанавливает настройки DNS VPN. Если вы получаете ошибки, связанные с DNS, убедитесь, что ваша система не заражена вредоносными программами DNS Changer, которые пытаются изменить DNS настройки. Дополнительную информацию вы найдёте <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">здесь</a>.",
+        "message": "Psiphon ограничивает DNS-трафик \"белым списком\" проверенных DNS-серверов. Клиент Psiphon автоматически устанавливает настройки DNS для VPN. Если вы получаете ошибки, связанные с DNS, убедитесь, что ваша система не заражена вредоносной программой DNS Changer, которая пытается изменить настройки DNS. Дополнительная информация <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">здесь</a>.",
         "description": ""
     },
     "faq-configure-applications-question": {
-        "message": "Как настроить приложения для использования туннеля Psiphon?",
+        "message": "Как настроить приложения, чтобы они работали через Psiphon?",
         "description": ""
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "Psiphon автоматически настроит операционную систему на использование локальных прокси HTTP/HTTPS и SOCKS. Номера портов данных прокси будут выбраны случайно, если они не будут указаны в настройках Psiphon. Приложения Windows, использующие системные настройки прокси, будут автоматически использовать сервис Psiphon. Прочие приложения вы можете вручную настроить на использование этих локальных прокси. Сервис Psiphon (обе версии для Windows и для Android) использует вышеуказанные локальные прокси.",
+        "message": "Psiphon автоматически настроит операционную систему на использование локальных прокси HTTP/HTTPS и SOCKS. Номера портов данных прокси будут выбраны случайно, если их не указать в настройках Psiphon. Приложения Windows, использующие системные настройки прокси, будут автоматически подключаться через Psiphon. Прочие приложения можно настроить на использование этих локальных прокси вручную. Psiphon (и для Windows, и для Android) использует эти локальные прокси.",
         "description": ""
     },
     "faq-ssh-plus-question": {
-        "message": "Какой протокол использует туннель Psiphon по умолчанию?",
+        "message": "Какой протокол использует Psiphon по умолчанию?",
         "description": ""
     },
     "faq-ssh-plus-answer-para-1": {
-        "message": "Psiphon использует SSH с дополнением в виде запутывающего слоя на уровне инициализации SSH протокола между клиентом и сервером для защиты от идентификации типа протокола. Описание протокола можно прочитать <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">здесь</a>.",
+        "message": "Psiphon использует SSH с дополнением в виде маскирующего слоя на уровне инициализации SSH протокола между клиентом и сервером для защиты от идентификации типа протокола. Описание протокола можно прочитать <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">здесь</a>.",
         "description": ""
     },
     "faq-autoproxy-question": {
@@ -456,15 +456,15 @@
         "description": ""
     },
     "faq-screen-filter-question": {
-        "message": "Когда впервые запускается Psiphon для Android, почему я не могу выбрать \"я доверяю этому приложению\"?",
+        "message": "Почему при первом запуске Psiphon для Android я не могу выбрать \"я доверяю этому приложению\"?",
         "description": "FAQ question."
     },
     "faq-screen-filter-answer-para-1": {
-        "message": "Проверьте, работает ли приложение фильтра экрана или приложение, управляющее яркостью экрана. Если это так, то попробуйте отключить его. Многие из подобных приложений (такие как Lux Auto Brightness, Twilight, Night Mode) мешают пользователю реагировать на запрос.",
+        "message": "Проверьте, работает ли какой-либо приложение, изменяющее яркость или иные параметры экрана. Если да, попробуйте его отключить. Многие из подобных приложений (например, Lux Auto Brightness, Twilight, Night Mode) создают проблемы на этом шаге.",
         "description": "FAQ answer to 'What protocol does the default Psiphon tunnel use?'."
     },
     "faq-isp-traffic-question-toc": {
-        "message": "Может ли мой интернет-провайдер видеть, что я делаю в сети Интернет при использовании мной Psiphon?",
+        "message": "Может ли мой интернет-провайдер видеть, что я делаю в интернете при работе через Psiphon?",
         "description": ""
     },
     "faq-isp-traffic-question": {
@@ -472,31 +472,31 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-1": {
-        "message": "Все данные, которые проходят через Psiphon, шифруются. Таким образом ваш провайдер подключения к интернету не может видеть, что именно вы отправляете и получаете (страницы сайтов, сообщения в чатах, загружаемые файлы и др.)",
+        "message": "Все данные, которые проходят через Psiphon, шифруются. Ваш интернет-провайдер не может видеть, что именно вы отправляете и получаете (страницы сайтов, сообщения в чатах, загружаемые файлы и др.)",
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
-        "message": "Однако имейте в виду, что Psiphon разработан в качестве средства обхода цензуры, а не для того чтобы скрываться от слежки. Psiphon не предотвращает сохранение истории браузера и использование cookies. Из-за применения некоторых настроек интернет-трафик с вашего компьютера может не перенаправляться через Psiphon: например, если настройки прокси в вашем браузере настроены некорректно или вы не закрыли свой браузер после отключения Psiphon.",
+        "message": "Имейте в виду, что Psiphon разработан в качестве средства обхода цензуры, а не чтобы скрываться от слежки. Psiphon не мешает браузеру сохранять историю и не препятствует сохранению cookies. В зависимости от настроек интернет-трафик с вашего компьютера может не проходить через Psiphon. Такое может случиться, если вы некорректно настроили прокси в браузере или не закрыли свой браузер после отключения Psiphon.",
         "description": ""
     },
     "faq-isp-traffic-answer-para-3": {
-        "message": "Существуют также передовые методы исследования зашифрованного трафика, позволяющие определить, например, какой веб-сайт просматривается. Основной пример этого - \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">идентификация трафика</a>\".",
+        "message": "Существуют продвинутые способы анализа шифрованного трафика. Они позволят определить, например, какой веб-сайт просматривается в данный момент. Иногда это называют \"<a href=\"https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting\" target=\"_blank\">отпечатком трафика</a>\".",
         "description": ""
     },
     "faq-isp-traffic-answer-para-4": {
-        "message": "Если вам необходима анонимность в сети Интернет, лучше воспользуйтесь <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> вместо Psiphon.",
+        "message": "Если вам нужна анонимность в интернете, лучше воспользуйтесь не Psiphon, а <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a>.",
         "description": ""
     },
     "faq-root-wdm-question": {
-        "message": "Что произошло с режимом перенаправления всего трафика с устройства Android с правами root?",
+        "message": "Что случилось с режимом пропускания всего трафика на устройстве Android с root-правами?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-root-wdm-question-toc": {
-        "message": "Что произошло с режимом перенаправления всего трафика с устройства Android с правами root?",
+        "message": "Что случилось с режимом пропускания всего трафика на устройстве Android с root-правами?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-root-wdm-answer-para-1": {
-        "message": "До декабря 2015 года в Psiphon для Android был режим, позволяющий пользователям устройств со старой ОС Android (до версии 4.0) перенаправлять весь трафик устройства при условии наличия на устройстве прав root. В связи с большим обновлением Psiphon, произошедшим в это время, данную функцию пришлось удалить.",
+        "message": "До декабря 2015 года в Psiphon для Android был режим, позволявший пользователям устройств на старых версиях Android (до 4.0) пропускать через Psiphon весь трафик при наличии root-прав. Psiphon серьезно обновился, и эту функцию пришлось удалить.",
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-refund-question": {
@@ -504,7 +504,7 @@
         "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money."
     },
     "faq-refund-answer-para-1": {
-        "message": "<strong>Android:</strong> если с момента покупки прошло меньше 48 часов, можно <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">получить возмещение через Play Store</a>. Если прошло больше 48 часов, отправьте нам сообщение на <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Пожалуйста, укажите свое имя, адрес email, связанный с вашим аккаунтом Play Store, дату покупки, что именно вы приобрели и в каком количестве, а также причину, по которой вы обращаетесь за возмещением.",
+        "message": "<strong>Android:</strong> если с момента покупки прошло меньше 48 часов, можно <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">получить возмещение через Play Store</a>. Если прошло больше 48 часов, отправьте нам сообщение на <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Пожалуйста, укажите свое имя, адрес email, связанный с вашим аккаунтом Play Store, дату покупки, что именно вы приобрели и в каком количестве, а также причину, по которой вы запрашиваете возмещение.",
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
@@ -536,7 +536,7 @@
         "description": ""
     },
     "what-is-psiphon-body-para-1": {
-        "message": "Psiphon - это новый инструмент обхода интернет-цензуры от Psiphon Inc.. Он использует технологии VPN, SSH и HTTP прокси для решения проблемы доступа к заблокированным ресурсам. Программный клиент Psiphon автоматически получает данные о новых серверах и таким образом увеличивает ваши шансы на обход цензуры.",
+        "message": "Psiphon – инструмент обхода интернет-цензуры от Psiphon Inc. Он использует VPN, SSH и HTTP-прокси для доступа к заблокированным ресурсам. Ваш клиент Psiphon автоматически получает данные о новых серверах. Это увеличивает шансы обойти цензуру.",
         "description": ""
     },
     "main-gets-you-where-you-want-head-1": {
@@ -544,11 +544,11 @@
         "description": ""
     },
     "main-gets-you-where-you-want-head-2": {
-        "message": "Заблокировано правительством, админом или интернет-провайдером?",
+        "message": "Заблокировано правительством, боссом или админом?",
         "description": ""
     },
     "main-gets-you-where-you-want-para-1": {
-        "message": "Наш солидный опыт обхода цензуры репрессивных режимов по всему миру поможет вам получить доступ к нужному контенту в любое время в любом месте.",
+        "message": "У нас есть опыт обхода цензуры репрессивных режимов по всему миру. Мы обеспечим вам доступ к нужному контенту в любое время и в любом месте.",
         "description": ""
     },
     "main-gets-you-there-safely-head-1": {
@@ -556,19 +556,19 @@
         "description": ""
     },
     "main-gets-you-there-safely-head-2": {
-        "message": "Хотите использовать сеть Интернет безопасно при подключении к общественным сетям Wi-Fi?",
+        "message": "Хотите обезопасить себя при работе в публичных сетях wi-fi?",
         "description": ""
     },
     "main-gets-you-there-safely-para-1": {
-        "message": "Свободный от цензуры интернет это здорово, но не всегда безопасно.  Psiphon защитит вас от взломанных аккаунтов и украденных паролей независимо от того, к какой сети вы подключены.",
+        "message": "Интернет без цензуры – прекрасно. Но не всегда безопасно.  Psiphon – ваша защита в интернете. Неважно, через какую сеть вы подключаетесь.",
         "description": ""
     },
     "main-pick-three-head-1": {
-        "message": "Доверие, скорость, простота - выберите три",
+        "message": "Доверие, скорость, простота",
         "description": ""
     },
     "main-pick-three-para-1": {
-        "message": "С 2008 года Psiphon помог миллионам людей в странах, практикующих цензуру и ограничение доступа к интернет-ресурсам, обеспечивая безопасный доступ к заблокированным знаниям и идеям. Теперь Psiphon может сделать то же самое и для вас.",
+        "message": "С 2008 года Psiphon помог миллионам людей в странах, где ограничены права человека и действует цензура. Psiphon обеспечивает безопасный доступ к заблокированным знаниям и идеям. Попробуйте.",
         "description": ""
     },
     "about-title": {
@@ -588,7 +588,7 @@
         "description": "description for the About page"
     },
     "about-get-latest-info-head": {
-        "message": "Получить последнюю информацию о Psiphon",
+        "message": "Получать свежую информацию о Psiphon",
         "description": ""
     },
     "about-get-latest-info-para-1-list-start": {
@@ -600,7 +600,7 @@
         "description": "text for link to the Psiphon Announcements mailing list"
     },
     "about-get-latest-info-para-1-users-list": {
-        "message": "Группа пользователей Psiphon",
+        "message": "Сообщество пользователей Psiphon",
         "description": "text for link to the Psiphon Users mailing list"
     },
     "about-get-latest-info-para-1-developers-list": {
@@ -616,11 +616,11 @@
         "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
     },
     "download-android-direct": {
-        "message": "Прямая ссылка на Psiphon для Android",
+        "message": "Psiphon для Android",
         "description": "text for link to Psiphon for Android direct download"
     },
     "download-android-direct-description": {
-        "message": "Если у Вас нет доступа к магазину приложений Google Play, вы можете загрузить и (\"<a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">установить напрямую</a>\" ) Psiphon для Android.",
+        "message": "Если у вас нет доступа к магазину приложений Google Play, можете загрузить и установить Psiphon для Android <a href=\"https://en.wikipedia.org/wiki/Sideloading\" target=\"_blank\">из файла</a> .",
         "description": ""
     },
     "download-android-playstore-pro": {
@@ -628,7 +628,7 @@
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "download-android-playstore-pro-description": {
-        "message": "<strong>Поддержите свободный Интернет</strong>, скачав Psiphon Pro из магазина Google Play (доступно не во всех странах).",
+        "message": "<strong>Поддержите свободный Интернет</strong>, скачайте Psiphon Pro из магазина Google Play (доступно не во всех странах).",
         "description": ""
     },
     "download-android-amazon": {
@@ -644,7 +644,7 @@
         "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "download-ios-appstore-psiphon-vpn-description": {
-        "message": "Все приложения на вашем iPhone и iPad будут подсоединяться к интернету с помощью сети Psiphon.",
+        "message": "Все ваши приложения на iPhone и iPad будут подключаться к интернету через Psiphon. Доступно для iOS версии 10.2 и новее.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "download-ios-appstore-psiphon-browser": {
@@ -652,27 +652,27 @@
         "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "Заходите на свои любимые сайты, пользуйтесь сервисами по сети Psiphon с помощью нашего дружелюбного веб-браузера (доступен для iOS8 и новее).",
+        "message": "Заходите на любимые сайты и сервисы через сеть Psiphon с помощью нашего дружелюбного браузера. Доступно для iOS 8 и новее.",
         "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "download-store-head": {
-        "message": "Загрузки из магазина приложений",
+        "message": "Скачать из магазинов приложений",
         "description": "This refers to the Google Play Store, Amazon's AppStore, and any similar app stores"
     },
     "download-direct-head": {
-        "message": "Прямые загрузки",
+        "message": "Скачать напрямую",
         "description": ""
     },
     "download-via-email-head": {
-        "message": "Получить через e-mail",
+        "message": "Получить по email",
         "description": ""
     },
     "download-via-email-description": {
-        "message": "Если наш сайт или ссылки для скачивания блокированы или подвергнуты цензуре, вы можете запросить и получить приложение по электронной почте.",
+        "message": "Если наш сайт или ссылки для скачивания заблокированы, можно запросить и получить приложение по email.",
         "description": ""
     },
     "download-list-join": {
-        "message": "Подписывайтесь на нашу <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">рассылку</a> для важных объявлений и бюллетеней безопасности.",
+        "message": "Подписывайтесь на нашу <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">рассылку</a> для важных объявлений и рекомендаций по безопасности.",
         "description": ""
     },
     "user-guide-android-head": {
@@ -680,23 +680,23 @@
         "description": "heading for the Android section of the User Guide"
     },
     "user-guide-android-para-verify-authentic": {
-        "message": "Убедитесь сначала, что <a href=\"./faq.html#authentic-android\">ваша копия Psiphon для Android является подлинной</a>.",
+        "message": "Сначала следует убедиться, что <a href=\"./faq.html#authentic-android\">ваша копия Psiphon для Android является подлинной</a>.",
         "description": ""
     },
     "user-guide-android-para-1": {
-        "message": "Нажмите на ссылку установочного файла Psiphon, находящуюся в сообщении электронной почты, чтобы начать установку. (В случае появления сообщения об ошибке вам необходимо будет разрешить <a href=\"./faq.html#android-enable-sideloading\">устанавливать приложения из неизвестных источников </a>.)",
+        "message": "Нажмите на ссылку APK-файла Psiphon в сообщении электронной почты или браузера, чтобы начать установку. Если увидите сообщение об ошибке, возможно, следует разрешить <a href=\"./faq.html#android-enable-sideloading\">установку приложений из неизвестных источников</a>.",
         "description": ""
     },
     "user-guide-android-para-3": {
-        "message": "При запуске приложение автоматически попытается инициализировать подключение к сети Psiphon.",
+        "message": "При запуске приложение автоматически попытается подключиться к сети Psiphon.",
         "description": ""
     },
     "user-guide-android-para-4": {
-        "message": "Как только приложение подключится к сети Psiphon, запустится встроенный Psiphon браузер. Psiphon для Android не туннелирует трафик встроенного браузера Android или других приложений. По умолчанию туннелируется лишь трафик встроенного браузера Psiphon.",
+        "message": "Как только приложение подключится к сети Psiphon, запустится встроенный браузер Psiphon. Psiphon для Android не туннелирует трафик встроенного браузера Android или других приложений. По умолчанию через Psiphon проходит только трафик браузера Psiphon.",
         "description": ""
     },
     "user-guide-android-ui-status-image-alt": {
-        "message": "Скриншот Psiphon панели состояния для Андроид",
+        "message": "Скриншот панели состояния Psiphon для Android",
         "description": "alt text for an image"
     },
     "user-guide-android-image-3-alt": {
@@ -724,19 +724,19 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
     },
     "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon работает в режиме туннелирования всех интернет-соединений или VPN. Весь интернет-трафик идет через Psiphon.",
+        "message": "Psiphon работает в режиме VPN для всего устройства. Весь интернет-трафик идет через Psiphon.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "user-guide-android-ui-status-image-annotation-2": {
-        "message": "Выбрана закладка статуса",
+        "message": "Выбрана вкладка статуса",
         "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
     },
     "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Для запуска Psiphon в режиме туннелирования всех интернет-соединений устройства необходима версия ОС Android 4.0 и выше либо устройство должно иметь права доступа root. <br><br>Данная опция будет недоступна на устройствах без прав доступа root, работающих на предыдущих версиях Android.",
+        "message": "Чтобы пропускать трафик всех приложений через Psiphon, нужна версия Android 4.0 и новее, либо у вас должны быть root-права. <br><br> Если у вас Android предыдущих версий или нет root-прав, эта опция недоступна.",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
     },
     "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Серый</span>: идет соединение<br><span style=\"color:red\">Красный</span>: соединение остановлено<br><span style=\"color:Blue\">Blue</span>:соединение установлено",
+        "message": "<span style=\"color:grey\">Серый</span>: подключение<br><span style=\"color:red\">Красный</span>: остановлено<br><span style=\"color:Blue\">Blue</span>: подключено",
         "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
     },
     "user-guide-android-ui-status-image-annotation-5": {
@@ -744,7 +744,7 @@
         "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
     },
     "user-guide-android-ui-logs-image-alt": {
-        "message": "Скриншот панели логов Psiphon для Андроид",
+        "message": "Скриншот панели логов Psiphon для Android",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-logs-image-annotation-1": {
@@ -752,7 +752,7 @@
         "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
     },
     "user-guide-android-ui-statistics-image-alt": {
-        "message": "Скриншот панели статистики Psiphon для Андроид",
+        "message": "Скриншот панели статистики Psiphon для Android",
         "description": "alt text for an image"
     },
     "user-guide-android-ui-statistics-image-annotation-1": {
@@ -760,15 +760,15 @@
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
     },
     "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Количество данных, переданных через Psiphon",
+        "message": "Количество данных, отправленных через Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
     },
     "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Количество информации, полученной через Psiphon",
+        "message": "Количество данных, полученных через Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
     },
     "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Сжатие данных при передаче через Psiphon",
+        "message": "Сжатие данных, отправленных через Psiphon",
         "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
     },
     "user-guide-android-ui-statistics-image-annotation-5": {
@@ -780,7 +780,7 @@
         "description": "heading for the Android section of the User Guide"
     },
     "user-guide-windows-para-verify-authentic": {
-        "message": "Убедитесь сначала, что <a href=\"./faq.html#authentic-windows\">ваша копия Psiphon для Windows является подлинной</a>.",
+        "message": "Сначала следует убедиться, что <a href=\"./faq.html#authentic-windows\">ваша копия Psiphon для Windows является подлинной</a>.",
         "description": ""
     },
     "user-guide-windows-para-1": {
@@ -808,19 +808,19 @@
         "description": ""
     },
     "user-guide-windows-image-1-alt": {
-        "message": "Скриншот предупреждения безопасности Windows для программы Psiphon",
+        "message": "Скриншот предупреждения безопасности Windows для исполняемого файла Psiphon",
         "description": "alt text for an image"
     },
     "user-guide-windows-image-2-alt": {
-        "message": "Скриншот запуска Psiphon  в Windows.",
+        "message": "Скриншот запуска Psiphon в Windows.",
         "description": "alt text for an image"
     },
     "user-guide-windows-image-3-alt": {
-        "message": "Скриншот Psiphon подключённого к Windows.",
+        "message": "Скриншот подключенного Psiphon в Windows.",
         "description": "alt text for an image"
     },
     "blog-index-title": {
-        "message": "Блог команды разработчиков",
+        "message": "Блог нашей команды",
         "description": ""
     },
     "blog-index-meta-title": {
@@ -840,7 +840,7 @@
         "description": ""
     },
     "blog-index-intro": {
-        "message": "Psiphon Inc. - канадская компания, и большинство членов нашей команды являются носителями английского языка. Это означает, что сообщения в нашем блоге изначально делаются по-английски. Мы будем переводить их на другие языки по мере возможности.",
+        "message": "Psiphon Inc. – канадская компания. Для большинства членов нашей команды английский язык – родной. Сообщения в нашем блоге изначально публикуются по-английски. Мы будем по возможности переводить их на другие языки.",
         "description": ""
     },
     "blog-index-posts-in-your-language": {
@@ -900,23 +900,23 @@
         "description": ""
     },
     "license-para-1": {
-        "message": "Это программное обеспечение и все связанная с ним интеллектуальная собственность является собственностью Psiphon Inc. - корпорации, зарегистрированной в провинции Онтарио с головным офисом в г. Торонто, провинция Онтарио, Канада.",
+        "message": "Это программное обеспечение и все связанная с ним интеллектуальная собственность являются собственностью Psiphon Inc. – корпорации, зарегистрированной в провинции Онтарио с головным офисом в Торонто (Онтарио, Канада).",
         "description": ""
     },
     "license-para-2": {
-        "message": "Система Psiphon состоит из программного обеспечения (исходного кода и приложений, полученных в результате его компиляции) и \"сервиса\" (системы клиентского и серверного программного обеспечения, работающих как единое целое). ПО Psiphon <a href=\"https://en.wikipedia.org/wiki/Free_and_open_source_software\" target=\"_blank\">с открытым исходным кодом и распространяется свободно</a>и <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/LICENSE?at=default\" target=\"_blank\">лицензировано</a>согласно <a href=\"https://www.gnu.org/copyleft/gpl.html\" target=\"_blank\">GNU общей публичной лицензии (версия 3)</a>. Использование сервиса Psiphon лицензируется в соответствии с условиями, описанными на этой странице.",
+        "message": "Система Psiphon состоит из программного обеспечения (исходного кода и приложений, полученных в результате его компиляции) и \"сервиса\" (системы клиентского и серверного программного обеспечения, работающих как единое целое). Программное обеспечение Psiphon и его код <a href=\"https://en.wikipedia.org/wiki/Free_and_open_source_software\" target=\"_blank\">открыты и бесплатны</a>. Они <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/LICENSE?at=default\" target=\"_blank\">лицензированы</a>согласно <a href=\"https://www.gnu.org/copyleft/gpl.html\" target=\"_blank\">GNU General Public License Version 3</a>. Использование сервиса Psiphon лицензируется в соответствии с условиями, изложенными на этой странице.",
         "description": "Please modify the Wikipedia link to point to the correct language entry"
     },
     "license-para-3": {
-        "message": "Сервис Psiphon предназначен исключительно для физических лиц и только для личного использования. Если вы хотите использовать Psiphon в любых других целях или имеете дополнительные требования, мы предлагаем платные услуги. Для получения дополнительной информации пишите по адресу <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>.",
+        "message": "Сервис Psiphon предназначен только для личного использования физическими лицами. Если вы хотите использовать Psiphon в любых других целях, или вам нужно что-то еще, мы предлагаем платные услуги. За дополнительной информацией обращайтесь по адресу <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>.",
         "description": ""
     },
     "license-terms-of-use-header": {
-        "message": "Пользовательское соглашение",
+        "message": "Условия использования",
         "description": ""
     },
     "license-terms-of-use-para": {
-        "message": "Используя сервис Psiphon, вы обязуетесь не использовать его никоим образом, нарушающим законодательство Канады или права третьих лиц.",
+        "message": "Вы обязуетесь не использовать сервис Psiphon каким-либо образом, нарушающим законы Канады или права третьих сторон.",
         "description": ""
     },
     "license-distribution-header": {
@@ -924,7 +924,7 @@
         "description": ""
     },
     "license-distribution-para": {
-        "message": "Только программное обеспечение, созданное Psiphon Inc., может использовать сервис Psiphon. Использование и распространение стороннего клиента, пользующегося сервисом Psiphon, является нарушением данной лицензии.",
+        "message": "Сервисом Psiphon могут пользоваться только программные клиенты, созданные Psiphon Inc. Использование и распространение сторонних клиентов клиента Psiphon являются нарушением данной лицензии.",
         "description": ""
     },
     "license-personal-or-specified-use-header": {
@@ -932,27 +932,27 @@
         "description": ""
     },
     "license-personal-or-specified-use-para": {
-        "message": "Использование Psiphon предоставляется на основе неисключительной, персональной лицензии. Пользуясь сервисом Psiphon, вы соглашаетесь с условиями его использования исключительно в личных, некоммерческих целях. Вы не можете (и не можете позволить третьим лицам) cдавать в аренду, сублицензировать, продавать, перепродавать или иным способом распространять Psiphon для коммерческого использования.",
+        "message": "Использование Psiphon допускается на основе неисключительной, персональной лицензии. Вы соглашаетесь с тем, что можете использовать Psiphon только в личных, некоммерческих целях. Вы не можете (и не можете позволить третьим лицам) cдавать в аренду, сублицензировать, продавать, перепродавать или иным способом распространять Psiphon для коммерческого использования.",
         "description": ""
     },
     "license-statement-of-limitations-of-liability-header": {
-        "message": "Заявление об ограничении ответственности",
+        "message": "Ограничение ответственности",
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "Psiphon предоставляется \"как есть\", без гарантии или выраженных или подразумеваемых обязательств такого рода. Psiphon отказывается от всех гарантий и обязательств, связанных с использованием этого программного обеспечения, включая телесные повреждения или любой побочный, специальный или косвенный личный или коммерческий ущерб, включая потери данных и остановку коммерческой деятельности.",
+        "message": "Psiphon предоставляется \"как есть\", без гарантий или каких-либо обязательств, выраженных или подразумеваемых. Psiphon отказывается от всех гарантий и обязательств, связанных с использованием этого программного обеспечения, включая вред здоровью или любой побочный, специальный, косвенный или вытекающий ущерб, личный или коммерческий, включая потери данных и остановку коммерческой деятельности.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-header": {
-        "message": "Нарушение условий сервиса и прекращение услуг",
+        "message": "Нарушение условий и прекращение услуг",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-1": {
-        "message": "Psiphon оставляет за собой право по собственному усмотрению в любое время по любой причине или вовсе без причины прекратить действие настоящего соглашения без возможности  применения штрафных санкций. Используя Psiphon, вы соглашаетесь не использовать данное программное обеспечение любым способом, нарушающим условия предоставления сервиса и лицензионное соглашение.",
+        "message": "Psiphon оставляет за собой право по собственному усмотрению в любое время по любой причине или вовсе без причины прекратить действие настоящего соглашения без штрафных санкций. Используя Psiphon, вы соглашаетесь не использовать данное программное обеспечение любым способом, нарушающим условия предоставления сервиса и лицензионное соглашение.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-para-2": {
-        "message": "Как пользователь, вы вправе расторгнуть настоящее лицензионное соглашение в любое время, полностью прекратив использование программного обеспечения Psiphon и удалив все его экземпляры с вашего устройства.",
+        "message": "Вы как пользователь вправе расторгнуть настоящее лицензионное соглашение в любое время. Для этого нужно полностью прекратить использование программного обеспечения Psiphon и удалить все его экземпляры с вашего устройства.",
         "description": ""
     },
     "license-psicash-header": {
@@ -960,15 +960,15 @@
         "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-1": {
-        "message": "Если за последний год на вашем устройстве не было никакой PsiCash активности, Psiphon оставляет за собой право отменить ваш PsiCash.",
+        "message": "Если за последний год на вашем устройстве не было действий с PsiCash, Psiphon оставляет за собой право удалить ваш PsiCash.",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-2": {
-        "message": "Если вы утратите доступ к PsiCash (например, потеряете устройство), имейте в виду: Psiphon не имеет возможности исправить эту ошибку и восстановить ваш PsiCash.",
+        "message": "Если вы утратите доступ к PsiCash (например, потеряете устройство), имейте в виду: Psiphon не может исправить эту ошибку и восстановить ваш PsiCash.",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-3": {
-        "message": "<br> Psiphon оставляет за собой право в любое время заменить вознаграждения подлежащие обмену на Psi Cash.",
+        "message": "Psiphon оставляет за собой право в любое время изменять предложения, доступные к обмену на PsiCash.",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "about-who-we-are-head": {
@@ -976,39 +976,39 @@
         "description": ""
     },
     "about-who-we-are-para-1": {
-        "message": "Psiphon Inc. - это компания, располагающаяся в Торонто. Мы разрабатываем кросс-платформенное ПО с открытым исходным кодом, предоставляющее доступ к интернет-контенту более 3 миллионам пользователей еженедельно. Мы ориентированы на предоставление высококачественного ПО, регулярно внедряем новые продукты и стараемся соответствовать потребностям постоянно растущего числа пользователей по всему миру. ",
+        "message": "Компания Psiphon Inc. находится в Торонто. Мы разрабатываем кросс-платформенные программы с открытым кодом. Они обеспечивают доступ к интернет-контенту для более 3 миллионов человек еженедельно. Наша задача – создавать самые качественные программы. Мы регулярно представляем новинки и стараемся соответствовать потребностям растущего числа пользователей по всему миру. ",
         "description": ""
     },
     "about-who-we-are-exec-team-head": {
-        "message": "Команда Exec",
+        "message": "Руководство",
         "description": ""
     },
     "about-who-we-are-exec-team-para-1": {
-        "message": "Майкл Халл - президент Psiphon Inc. С Psiphon с самого начала запуска проекта в Citizen Lab при Университете Торонто. С тех пор руководит разработкой ПО и помогает стимулировать инновации, благодаря чему Psiphon всегда на высоте.",
+        "message": "Майкл Халл – президент Psiphon Inc. Работает над Psiphon с самого начала проекта в Citizen Lab при Университете Торонто. Руководит созданием программ и помогает стимулировать инновации, благодаря чему Psiphon всегда на высоте.",
         "description": ""
     },
     "about-who-we-are-software-development-head": {
-        "message": "Разработка ПО",
+        "message": "Разработчики",
         "description": ""
     },
     "about-who-we-are-software-development-para-1": {
-        "message": "Мы хотим, чтобы у пользователей оставалось хорошее впечатление от использования Psiphon. А это значит, что наше ПО должно быть легко в использовании, наша сеть - быстрой; и в связке они должны быть весьма надёжны. Эта задача нелегка для любого разработчика, а особенно, когда ваше ПО работает в постоянно меняющейся агрессивной среде, на множестве разных языков и на разных платформах.",
+        "message": "Мы хотим, чтобы пользователи оставались довольны Psiphon. Наши программы должны быть простыми в использовании, а сеть – быстрой. В связке они должны быть очень надежны. Это непростая задача для любого разработчика. Особенно, когда ваши программы работают в постоянно меняющейся агрессивной среде, на множестве разных языков и на разных платформах.",
         "description": ""
     },
     "about-who-we-are-software-development-para-2": {
-        "message": "Мы осознаем, насколько важна наша усердная работа для наших пользователей, находящихся за кадром. Мы до конца защищаем наших пользователей и их данные. Пользователи могут и не замечать то, что мы делаем для защиты их конфиденциальности и безопасности, но мы знаем что они это ценят.",
+        "message": "Мы знаем, как важна работа \"в фоновом режиме\". Мы до конца защищаем наших пользователей и их данные. Пользователи могут не замечать то, что мы делаем для защиты их приватности и безопасности. Но мы знаем, что они это ценят.",
         "description": ""
     },
     "about-who-we-are-software-development-para-3": {
-        "message": "Команда разработчиков ПО Psiphon стремится обеспечить наилучшую, быструю и наиболее открытую технологию обхода блокировок и цензуры. Мы также изучаем новые направления, где наработанный нами опыт сможет защитить и расширить возможности людей по всему миру.",
+        "message": "Команда разработчиков Psiphon стремится создавать самые лучшие, быстрые и открытые решения для обхода блокировок. Мы изучаем новые направления, где наработанный нами опыт поможет защитить и вдохновить людей по всему миру.",
         "description": ""
     },
     "about-who-we-are-ops-head": {
-        "message": "Деятельность и расширение",
+        "message": "Работа и продвижение",
         "description": ""
     },
     "about-who-we-are-ops-para-1": {
-        "message": "У нас имеются контракты с рядом компаний, от огромных международных вещательных корпораций до небольших правозащитных организаций, действующих в отдельных странах. Наша команда по Деятельности и расширению обрабатывает отчеты по количеству людей, получающих доступ к Psiphon посредством наших способов распространения. Мы также изучаем тенденции и следим за событиями, которые могут повлиять на свободный поток информации в сети Интернет.",
+        "message": "Мы работаем с разными организациями – от огромных международных вещательных корпораций до небольших правозащитных групп, действующих в отдельных странах. Мы предлагаем им отчеты о том, сколько пользователей благодаря им получило доступ к Psiphon. Мы также изучаем тенденции и следим за событиями, которые могут повлиять на свободный обмен информацией в интернете.",
         "description": ""
     },
     "about-who-we-are-partners-head": {
@@ -1016,7 +1016,7 @@
         "description": ""
     },
     "about-who-we-are-partners-para-1": {
-        "message": "Psiphon тесно сотрудничает с разными группами для оказания поддержки пользователям Psiphon независимо от их местонахождения. Мы переводим Psiphon на десятки языков, и это число растет. Для перевода мы используем сервис <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a> и помощь <a href=\"https://www.localizationlab.org/\" target=\"_blank\">Localization Lab</a>.",
+        "message": "Psiphon тесно сотрудничает с разными группами для оказания поддержки пользователям Psiphon независимо от географии. Мы переводим Psiphon на десятки языков, и это число растет. Для перевода мы используем сервис <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a> и помощь <a href=\"https://www.localizationlab.org/\" target=\"_blank\">Localization Lab</a>.",
         "description": "There are more than 20 languages currently supported, so if your language has a better fit than 'dozens', please use it. You can also just use something more generic, like 'many'."
     },
     "about-contact-head": {
@@ -1024,15 +1024,15 @@
         "description": ""
     },
     "contact-email-para": {
-        "message": "Вы можете связаться с Psiphon по электронной почте:",
+        "message": "Вы можете связаться с командой Psiphon по email:",
         "description": ""
     },
     "footer-copyright": {
-        "message": "Авторские права",
+        "message": "(с)",
         "description": "The beginning of the 'Copyright 2013 Psiphon Inc.' footer text"
     },
     "footer-license": {
-        "message": "Контент сайта лицензирован в соответствии с",
+        "message": "Содержание сайта лицензировано ",
         "description": "The beginning of the 'Licensed under [license name here]' footer text"
     },
     "donate-heading": {
@@ -1228,15 +1228,15 @@
         "description": ""
     },
     "privacy-bulletin-entry-item-head-why-doing": {
-        "message": "Зачем мы это делаем",
+        "message": "Зачем",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-when-doing": {
-        "message": "Когда мы делаем это",
+        "message": "Когда",
         "description": ""
     },
     "privacy-bulletin-entry-item-head-update": {
-        "message": "Обновить",
+        "message": "Дополнительная информация",
         "description": "This is a header for text that is an update to an existing privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-what-happened": {
@@ -1248,7 +1248,7 @@
         "description": "This is a header for text that describes the impact of the privacy event that necessitated this privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-resolution": {
-        "message": "Вывод",
+        "message": "Резюме",
         "description": "This is a header for text that describes the resolution of the privacy event that necessitated this privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-what-data": {
@@ -1264,7 +1264,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-item-head-who-will-see": {
-        "message": "Кто кроме Psiphon Inc. увидит эти данные",
+        "message": "Кто, кроме Psiphon Inc., увидит эти данные",
         "description": ""
     },
     "privacy-bulletin-entry-1-title": {
@@ -1272,31 +1272,31 @@
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-1-what-doing": {
-        "message": "Мы включаем протоколирование доступа на одном сайте Amazon S3 \"bucket\" (т.е. хранилища данных). По техническим причинам мы запускаем десятки копий веб-сайта в различных хранилищах Amazon S3.",
+        "message": "Мы включаем протоколирование доступа на одном сайте Amazon S3 \"bucket\" (хранилища данных). По техническим причинам мы запускаем десятки копий веб-сайта в различных хранилищах Amazon S3.",
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-why-doing": {
-        "message": "Мы делаем это для определения количества обращений к \"списку удалённых серверов\", находящемуся в \"хранилище\". Это даёт нам понять, как много пользователей не могут подсоединиться к сети Psiphon.",
+        "message": "Мы делаем это для определения числа обращений к списку удаленных серверов в хранилище. Это помогает понять, сколько пользователей не может подключиться к сети Psiphon.",
         "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-1-when-doing": {
-        "message": "Протоколирование будет вестись с 2014-04-17T15:00Z до 2014-04-18T15:00Z.",
+        "message": "Логи будут записываться с 17.04.2014 по 18.04.2014.",
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-1-what-data": {
-        "message": "В процессе протоколирования будут записаны IP адреса, пользовательские агенты, время доступа к одному веб-сайту. По завершению обработки этих данных мы будем знать количество пользователей в различных регионах, получивших доступ к рассматриваемому файлу.",
+        "message": "Будут записаны IP-адреса, user agent, время доступа к сайту. После обработки этих данных мы будем знать число пользователей в различных регионах, которые имели доступ к определенному файлу.",
         "description": ""
     },
     "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "Данные будут храниться не более одной недели. В дальнейшем (и, возможно, постоянно) мы продолжим подсчёт пользователей.",
+        "message": "Данные будут храниться не более одной недели. В дальнейшем (и, возможно, постоянно) мы продолжим подсчет пользователей.",
         "description": ""
     },
     "privacy-bulletin-entry-1-how-many-users": {
-        "message": "Мы пока не знаем точно, скольких пользователей затронет этот сбор данных (именно поэтому мы и делаем это), но подозреваем, что количество пользователей не превысит 10 000.",
+        "message": "Пока неизвестно, скольких пользователей затронет сбор данных (именно поэтому мы и делаем это). Полагаем, общее число не превысит 10 тысяч.",
         "description": ""
     },
     "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Файлы журналов протоколирования также находятся в хранилище Amazon S3, таким образом Amazon имеет доступ к этим журналам. (Amazon в любом случае имеет доступ к этой информации, так как предоставляет обслуживание.)",
+        "message": "Логи доступа также находятся в хранилище Amazon S3. Amazon (как владелец сервиса) в любом случае имеет доступ к этой информации.",
         "description": ""
     },
     "privacy-bulletin-entry-2-title": {
@@ -1304,15 +1304,15 @@
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-2-what-doing": {
-        "message": "Мы обновляем нашу <a href=\"privacy.html\">Политику конфиденциальности</a>, дополняя ее ответом на вопрос \"Какую информацию собирает Psiphon?\"",
+        "message": "Мы обновляем нашу <a href=\"privacy.html\">Политику приватности</a>, дополняя ее ответом на вопрос \"Какую информацию собирает Psiphon?\"",
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-why-doing": {
-        "message": "Страница <a href=\"privacy.html\">Политики конфиденциальности</a> в настоящее время является единственным местом, где пользователи Psiphon могут ознакомиться с политикой сбора данных и обеспечения конфиденциальности. Обновлённая Политика теперь описывает использование рекламы и аналитики, а также протоколирование на некоторых наших сайтах.",
+        "message": "Страница <a href=\"privacy.html\">Политики приватности</a> – единственное источник информации для пользователей Psiphon о правилах сбора данных и обеспечения приватности. Политика описывает использование рекламы и аналитики, а также протоколирование на некоторых наших сайтах.",
         "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-2-when-doing": {
-        "message": "Вступила в силу 01.06.2015",
+        "message": "Вступает в силу 01.06.2015.",
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-3-title": {
@@ -1328,11 +1328,11 @@
         "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-3-when-doing": {
-        "message": "Это изменение вступит в силу с 12.12.2019.",
+        "message": "Это изменение вступает в силу с 12.12.2019.",
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-4-title": {
-        "message": "11 декабря 2019 г.: временное увеличение срока хранения данных",
+        "message": "11.12.2019: временное увеличение срока хранения данных",
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-4-what-doing": {
@@ -1340,11 +1340,11 @@
         "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
     },
     "privacy-bulletin-entry-4-why-doing": {
-        "message": "Нам нужно больше времени хранить данные, чтобы проанализировать новейшие события в области цензуры.",
+        "message": "Нам нужно дольше хранить данные для анализа новейших событий в области цензуры.",
         "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
     },
     "privacy-bulletin-entry-4-when-doing": {
-        "message": "Эта мера начнет работать 12 декабря 2019 года и продлится один месяц. Мы напишем в этом бюллетене, если понадобится увеличить этот срок.",
+        "message": "Изменение вступает в силу 12 декабря 2019 года и продлится один месяц. Мы напишем в этом бюллетене, если понадобится увеличить этот срок.",
         "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
     },
     "privacy-bulletin-entry-4-update": {
@@ -1352,7 +1352,7 @@
         "description": "A section of a privacy bulletin, with an update to previous information."
     },
     "privacy-bulletin-entry-5-title": {
-        "message": "19 июня 2020 года: инцидент приватности - случайное сохранение IP-адресов пользователей",
+        "message": "19.06.2020: инцидент приватности – случайное сохранение IP-адресов пользователей",
         "description": "Title for a privacy bulletin"
     },
     "privacy-bulletin-entry-5-what-happened": {
@@ -1368,47 +1368,47 @@
         "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
     },
     "privacy-title": {
-        "message": "Политика конфиденциальности",
+        "message": "Политика приватности",
         "description": "page title for the Privacy Policy page"
     },
     "privacy-meta-title": {
-        "message": "Политика конфиденциальности",
+        "message": "Политика приватности",
         "description": "meta title for the Privacy Policy page"
     },
     "privacy-nav-title": {
-        "message": "Политика конфиденциальности",
+        "message": "Политика приватности",
         "description": "text for the Privacy Policy page navigation item"
     },
     "privacy-description": {
-        "message": "Политика конфиденциальности Psiphon",
+        "message": "Политика приватности Psiphon",
         "description": "description for the Privacy Policy page"
     },
     "privacy-para-1": {
-        "message": "Psiphon считает своим долгом защищать конфиденциальность интересов своих клиентов, конечных пользователей, дистрибьюторов и поставщиков. Данная политика конфиденциальности предназначена для предоставления общей информации о том, как может быть использована личная информация. Psiphon - канадская корпорация с головным офисом в Онтарио, и наша политика конфиденциальности была разработана с учетом законов и законодательных актов о конфиденциальности Канады и Онтарио.",
+        "message": "Psiphon считает своим долгом защищать приватность своих клиентов, конечных пользователей, дистрибьюторов и поставщиков. В этой Политике описывается, как может быть использована ваша персональная информация. Psiphon – канадская корпорация с головным офисом в Онтарио. Наша политика приватности была разработана с учетом законов и нормативных актов Канады и Онтарио в области приватности.",
         "description": ""
     },
     "privacy-para-2": {
-        "message": "Для получения дополнительной информации о законах Канады и Онтарио по защите персональной информации, пожалуйста, посетите:",
+        "message": "Дополнительную информацию о законах Канады и Онтарио по защите приватности можно получить здесь:",
         "description": ""
     },
     "privacy-canadian-privacy-commission-link-text": {
-        "message": "Канцелярия уполномоченного по вопросам конфиденциальности Канады",
+        "message": "Офис Уполномоченного по приватности Канады",
         "description": ""
     },
     "privacy-ontario-privacy-commissioner-link-text": {
-        "message": "Канцелярия уполномоченного по вопросам информации и конфиденциальности в Онтарио",
+        "message": "Офис Уполномоченного по информации и приватности Онтарио",
         "description": ""
     },
     "privacy-updates-head": {
-        "message": "Обновления",
+        "message": "Изменения в этой Политике",
         "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
     },
     "privacy-bulletin-info-para-1": {
-        "message": "Время от времени Psiphon будет добавлять данные в наш <a href=\"./privacy-bulletin.html\">Бюллетень по приватности</a>. Причины:",
+        "message": "Вы можете следить за изменениями политик Psiphon в нашем <a href=\"./privacy-bulletin.html\">Бюллетене по приватности</a>. Это происходит, если:",
         "description": "Paragraph introducing a bullet list."
     },
     "privacy-bulletin-info-para-2-item-1": {
-        "message": "Мы вносим изменения в Политику приватности. Это может происходить из-за новых законов и требований. Иногда причина в том, что мы запускаем/останавливаем сторонний сервис. Мы всегда подробно объясняем вносимые изменения.",
+        "message": "Мы изменяем Политику приватности. Это может происходить из-за новых законов и требований. Иногда причина в том, что мы запускаем/останавливаем сторонний сервис. Мы всегда подробно объясняем изменения.",
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "privacy-bulletin-info-para-2-item-2": {
@@ -1420,7 +1420,7 @@
         "description": "Heading for a section in our privacy policy."
     },
     "privacy-information-collected-client-ads-head": {
-        "message": "Все приложения на вашем iPhone и iPad будут подсоединяться к интернету с помощью сети Psiphon.",
+        "message": "Рекламные сети клиента Psiphon",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the ads shown in the Psiphon client software"
     },
     "privacy-information-collected-client-advertising-networks-para-1": {
@@ -1432,7 +1432,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-head": {
-        "message": "Сайты Psiphon",
+        "message": "Веб-сайты Psiphon",
         "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
     },
     "privacy-information-collected-websites-google-analytics-head": {
@@ -1440,27 +1440,27 @@
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
     },
     "privacy-information-collected-websites-google-analytics-para-1": {
-        "message": "Мы используем Google Analytics на некоторых из наших сайтов для сбора информации об использовании. Информация, собранная сервисом Google Analytics, используется только для статистического анализа ваших просмотров на этом конкретном сайте. Эти данные не идентифицирует вас лично, а также не связаны с информацией из других источников для создания персонального досье.",
+        "message": "Для сбора данных об использовании некоторых наших сайтов мы применяем Google Analytics. Эта информация используется только для статистического анализа посещений конкретных сайтов. Данные не идентифицируют пользователей и не связываются с информацией из других источников для создания персональных досье.",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
-        "message": "Google Analytics записывает в ваш браузер постоянный куки-файл. С его помощью вас \"узнают\" при следующем заходе на сайт. Этот куки-файл не доступен никому, кроме Google. Собранные данные нельзя получить или изменить с других доменов.",
+        "message": "Google Analytics создает в браузере постоянный куки-файл. С его помощью вас \"узнают\" при следующем заходе на сайт. Этот куки-файл не доступен никому, кроме Google. Собранные данные нельзя получить или изменить с других доменов.",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-3": {
-        "message": "Возможности Google использовать и делиться информацией о ваших посещениях данного сайта ограничены<a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Условиями использования Google Analytics</a> и <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Политикой конфиденциальности Google</a>. Вы можете предотвратить сбор данных, отключив cookies в настройках вашего браузера.",
+        "message": "Google ограничен в своих возможностях использовать данные о ваших посещениях этого сайта и делиться ими. Ограничения перечислены в <a href=\"http://www.google.ca/analytics/terms/us.html\" target=\"_blank\">Условиях использования Google Analytics</a> и <a href=\"http://www.google.com/policies/privacy/\" target=\"_blank\">Политике конфиденциальности Google</a>. Вы можете предотвратить сбор данных, отключив cookies в настройках вашего браузера.",
         "description": ""
     },
     "privacy-information-collected-s3-logging-head": {
-        "message": "Протоколирование доступа к хранилищу",
+        "message": "Логи доступа к хранилищу",
         "description": "Sub-heading for section describing use of logging access to data storage (aka S3 bucket logging). The way to read this is 'creation of logs for user accesses to data storage'. Psiphon 'stores' websites, downloads, and upgrades (the 'data') in Amazon S3 (the 'storage'). Users 'access' the data storage. And, somtimes, we 'log' those accesses. (For example, if we suspect attackers are accessing the storage, or if it seems the storage is blocked by a country.)"
     },
     "privacy-information-collected-s3-logging-para-1": {
-        "message": "Мы используем Amazon S3 для хранения файлов веб-сайта и списков обнаружения сервера Psiphon. Иногда мы включаем протоколирование скачивания этих файлов. Анализ этих журналов помогает нам ответить на вопросы о том, сколько пользователей начинают загрузку списка обнаружения сервера, но не завершают её; как распределяется объем скачиваемых данных между файлами сайта и списком обнаружения; ведётся ли DoS-атака на наши веб-сайты.",
+        "message": "Мы используем Amazon S3 для хранения данных, включая файлы веб-сайтов и списков серверов Psiphon. Иногда мы ведем логи скачивания этих файлов. Анализ этих логов помогает нам узнать, например, сколько пользователей начинает загрузку данных, но не завершают ее; как распределяется объем скачиваемых данных между разными файлами; ведется ли DoS-атака на наши сайты.",
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">Журналы протокола доступа к хранилищу</a> S3 содержат IP адреса, пользовательские агенты и время доступа. Эти журналы хранятся в самом хранилище S3. Таким образом Amazon имеет доступ к этим журналам (Amazon имеет доступ к этой информации, так как предоставляет обслуживание). Разработчики Psiphon скачивают журналы, собирают воедино и анализируют данные, а затем удаляют эти журналы. Исходные данные хранятся только до их сбора и не передаются третьим лицам.",
+        "message": "<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">Логи доступа к хранилищу</a> S3 содержат IP-адреса, пользовательские агенты и время доступа. Эти данные хранятся в самом хранилище S3. Amazon (как владелец сервиса) имеет к ним доступ. Разработчики Psiphon скачивают данные, обобщают, анализируют, а затем удаляют журналы. Исходные данные хранятся только до момента обобщения и не передаются третьим сторонам.",
         "description": ""
     },
     "faq-information-collected-answer-head-1": {
@@ -1472,7 +1472,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-1": {
-        "message": "Количество запросов полученных нашей автоматизированной системой по имейлу.",
+        "message": "Число email-запросов, полученных нашим автоответчиком",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-2": {
@@ -1492,7 +1492,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-7": {
-        "message": "Объем данных, переданных через систему Psiphon",
+        "message": "Объем данных, переданных через Psiphon",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-9": {
@@ -1512,7 +1512,7 @@
         "description": ""
     },
     "privacy-information-collected-vpndata-head-v2": {
-        "message": "Активность пользователя и данные VPN",
+        "message": "Действия пользователей и данные VPN",
         "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data and activity statistics through the Psiphon VPN"
     },
     "privacy-information-collected-vpndata-whycare-subhead": {
@@ -1540,19 +1540,19 @@
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-2": {
-        "message": "Мы НЕ измпняем содержание ваших VPN данных.",
+        "message": "Мы НЕ изменяем содержание ваших VPN-данных.",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-3": {
-        "message": "Мы НЕ обмениваемся секретной информацией или данными пользователей со сторонними организациями.",
+        "message": "Мы НЕ предоставляем важные и/или идентифицирующие данные пользователей третьим сторонам.",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-kindsofdata-subhead": {
-        "message": "Данные какого рода собираются компанией Psiphon?",
+        "message": "Какого рода пользовательские данные собирает Psiphon?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-kindsofdata-para-1": {
-        "message": "Мы объясним значение некоторых категорий данных, чтобы облегчить их понимание в контексте Psiphon.",
+        "message": "Ниже приведены некоторые категории данных – как мы понимаем их в Psiphon.",
         "description": "Paragraph text in the 'What kinds of user data does Psiphon collect?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-subhead": {
@@ -1560,7 +1560,7 @@
         "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-1": {
-        "message": "Когда трафик пользовательского устройства проходит через Psiphon, мы собираем некоторые данные о нем. Мы фиксируем, по какому протоколу происходит подключение через Psiphon, продолжительность соединения, объем трафика за сессию, из какой страны/города и через какого провайдера подключается человек. Для некоторых доменов (очень редко, только для самых популярных) и серверных IP-адресов (например, серверы, где, как нам известно, размещены вредоносные программы) мы также фиксируем объем скачанных данных. Мы никогда не запоминаем полные адреса страниц или что-нибудь сенситивное в этом духе. Мы не мониторим все домены, только некоторые.",
+        "message": "Когда трафик пользовательского устройства проходит через Psiphon, мы собираем некоторые данные. Мы фиксируем, по какому протоколу происходит подключение через Psiphon, продолжительность соединения, объем трафика за сессию, из какой страны/города и через какого провайдера подключается человек. Для некоторых доменов (очень редко, только для самых популярных) и серверных IP-адресов (например, те серверы, где по нашим данным размещены вредоносные программы) мы также фиксируем объем скачанных данных. Мы никогда не запоминаем полные адреса страниц или что-нибудь сенситивное в том же духе. Мы не мониторим все домены, только некоторые.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
@@ -1568,7 +1568,7 @@
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-3": {
-        "message": "Пример данных активности пользователя: в такое-то время некий пользователь подключился из города Нью-Йорк через провайдера Comcast, его трафик составил 300 Мб, в том числе он скачал 100 Мб с <code>youtube.com</code>.",
+        "message": "Пример данных активности пользователя: в такое-то время некий пользователь подключился из Нью-Йорка через провайдера Comcast и скачал 300 Мб, в том числе 100 Мб с <code>youtube.com</code>.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4.1": {
@@ -1576,7 +1576,7 @@
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {
-        "message": "Сводные данные",
+        "message": "Обобщенные данные",
         "description": "Sub-heading for the definition of 'Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-1": {
@@ -1584,7 +1584,7 @@
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-2": {
-        "message": "Примером сводных данных может быть: В определенный день 250 человек подключились из Нью Йорка с помощью Comcast, и загрузили 200 ГБ с <code>youtube.com</code>, и 500 ГБ всего.",
+        "message": "Пример обобщенных данных: в такой-то день 250 человек подключились из Нью Йорка через провайдера Comcast и скачали 500 Гб, в том числе 200 Гб с <code>youtube.com</code>.",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-3": {
@@ -1604,19 +1604,19 @@
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-3": {
-        "message": "Вот пример обобщенных данных, которыми мы можем делиться: в такой-то день 500 пользователей подключились из Нью-Йорка, их общий трафик составил 800 Гб.",
+        "message": "Пример обобщенных данных, которыми мы можем делиться: в такой-то день 500 пользователей подключились из Нью-Йорка, их общий трафик составил 800 Гб.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-4": {
-        "message": "А вот пример данных, которыми мы <em>не делимся</em>: в такой-то день 2 человека подключились из Лос-Анджелеса. Эти пользователи попадут в общую статистику по США, но их слишком мало в одном городе, их анонимность может быть нарушена.",
+        "message": "А вот пример данных, которыми мы <em>не делимся</em>: в такой-то день 2 человека подключились из Лос-Анджелеса. Эти пользователи попадут в общую статистику по США, но для одного города их число слишком мало, анонимность может быть нарушена.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an HTML tag that adds emphasis (like italics), which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead-v2": {
-        "message": "Как Psiphon поступает с данными о действиях пользователя и с обобщенными данными?",
+        "message": "Как Psiphon поступает с данными об активности пользователей и с обобщенными данными?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1-v2": {
-        "message": "Данные о действиях пользователя и обобщенные данные очень важны для нас. Они помогают Psiphon работать наилучшим образом. Вот что мы делаем:",
+        "message": "Данные о действиях пользователей и обобщенные данные очень важны. Они помогают Psiphon работать наилучшим образом. Вот для чего они требуются:",
         "description": "Paragraph text in the 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-1": {
@@ -1664,7 +1664,7 @@
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-3-v2": {
-        "message": "Еще раз: только анонимизированные обобщенные данные могут быть раскрыты третьим сторонам.",
+        "message": "Еще раз: только обезличенные обобщенные данные могут быть раскрыты третьим сторонам.",
         "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-psicash-para-1": {
@@ -1672,7 +1672,7 @@
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-list-start": {
-        "message": "Сервер PsiCash хранит данные конкретных пользователей для своей нормальной работы, а именно:",
+        "message": "Сервер PsiCash хранит данные конкретных пользователей для своей нормальной работы, в их числе:",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-item-1": {
@@ -1704,11 +1704,11 @@
         "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-information-collected-psicash-para-3-item-2": {
-        "message": "когда можно потребовать награду PsiCash снова",
+        "message": "когда можно снова запросить награду PsiCash",
         "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-4-list-start": {
-        "message": "Данные активности системы собираются и структурируются в целях наблюдения за работоспособностью и безопасностью системы. Эти данные включают:",
+        "message": "Данные активности системы собираются и структурируются в целях наблюдения за работоспособностью и безопасностью системы. Примеры таких данных:",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-4-item-1": {
@@ -1720,7 +1720,7 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
     },
     "privacy-information-collected-psicash-para-4-item-3": {
-        "message": "строка агента пользователя",
+        "message": "строка user agent",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "privacy-information-collected-psicash-para-4-item-4": {
@@ -1736,7 +1736,7 @@
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
-        "message": "Отзыв",
+        "message": "Обратная связь",
         "description": ""
     },
     "faq-information-collected-answer-para-6": {
@@ -1756,11 +1756,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-3": {
-        "message": "Тип интернет-соединения (например, подключены ли вы через телефонный модем и/или используете прокси и т.д.)",
+        "message": "Тип интернет-соединения (например, если вы подключены через телефонный модем или используете прокси)",
         "description": ""
     },
     "faq-information-collected-answer-para-7-item-4": {
-        "message": "Количество свободной памяти на вашем компьютере",
+        "message": "Объем свободной памяти на вашем компьютере",
         "description": ""
     },
     "faq-information-collected-answer-para-8-list-start": {
@@ -1776,15 +1776,15 @@
         "description": ""
     },
     "faq-information-collected-answer-para-8-item-3": {
-        "message": "Имеются ли root права на вашем устройстве",
+        "message": "Имеются ли root-права на вашем устройстве",
         "description": ""
     },
     "faq-information-collected-answer-head-3": {
-        "message": "E-mail автоответчик",
+        "message": "Автоответчик email",
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "Когда вы отправляете запрос по электронной почте, наш сервер-автоответчик видит ваш адрес. На время обработки вашего запроса ваш электронный адрес сохраняется на жесткий диск нашего сервера. Как только обработка вашего запроса завершится (обычно это занимает пару секунд), он будет удален. Мы не допускаем записи ваших электронных адресов в системные лог-файлы.",
+        "message": "Когда вы отправляете нам запрос по email, сервер-автоответчик видит ваш адрес. Пока обрабатывается ваш запрос, адрес сохраняется на жестком диске сервера. После обработки запроса адрес удаляется (обычно это занимает пару секунд). Мы не записываем ваши адреса email в системные лог-файлы.",
         "description": ""
     },
     "faq-information-collected-answer-para-12": {
@@ -1792,7 +1792,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
-        "message": "При получении каждого письма мы сохраняем следующую информацию:",
+        "message": "Данные, которые сохраняются нами для каждого входящего письма:",
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-1": {
@@ -1804,15 +1804,15 @@
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-3": {
-        "message": "Размер сообщения электронной почты.",
+        "message": "Объем сообщения.",
         "description": ""
     },
     "faq-information-collected-answer-para-13-item-4": {
-        "message": "Адрес почтового сервера, с которого пришел запрос. (Три наименее информативных части доменного имени. Например, <code>ne1.example.com</code>, а не <code>web120113.mail.ne1.example.com</code>.)",
+        "message": "Адрес почтового сервера, с которого пришел запрос. (Три наименее информативных части доменного имени. Например, <code>ne1.example.com</code>, но не <code>web120113.mail.ne1.example.com</code>).",
         "description": ""
     },
     "faq-information-collected-answer-para-14": {
-        "message": "При необходимости диагностирования проблемы мы можем в течение короткого времени сохранять адрес почтового сервера полностью. Если вы отошлете нам письмо в это время, то ваш электронный адрес будет записан в системный лог-файл. Эти файлы удаляются по прошествии недели.",
+        "message": "Если нужно диагностировать проблему, мы можем недолго сохранять полный адрес почтового сервера. Если вы отправите нам email в это время, ваш адрес будет записан в системный лог-файл (этот файл будет удален через неделю).",
         "description": ""
     },
     "faq-information-collected-answer-head-4": {
@@ -1820,7 +1820,7 @@
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
     "faq-information-collected-answer-para-10": {
-        "message": "При установке Psiphon из \"магазина приложений\" типа Google Play или Amazon AppStore имейте в виду, что ими может собираться дополнительная статистика. Например, здесь описана информация, которую собирает Google Play:",
+        "message": "Если вы устанавливаете Psiphon из \"магазина приложений\" типа Google Play или Amazon AppStore, имейте в виду, что магазины могут собирать дополнительную статистику. Например, вот что собирает Google Play:",
         "description": ""
     }
 }
