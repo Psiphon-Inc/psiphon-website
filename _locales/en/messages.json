@@ -432,10 +432,10 @@
     "message": "Psiphon uses SSH with the addition of an obfuscation layer on top of the SSH handshake to defend against protocol fingerprinting. A description of the protocol can be found <a href=\"https://github.com/brl/obfuscated-openssh/blob/ca93a2c09cf0f6d2f80e7daca18a669045665a3b/README.obfuscation\">here</a>."
   },
   "faq-autoproxy-question": {
-    "message": "I use <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. How can I tell Psiphon for Windows not to configure my system proxy settings?"
+    "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?"
   },
   "faq-autoproxy-question-toc": {
-    "message": "I use AutoProxy. How can I tell Psiphon for Windows not to configure my system proxy settings?"
+    "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?"
   },
   "faq-autoproxy-answer-para-1": {
     "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>SkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings."
