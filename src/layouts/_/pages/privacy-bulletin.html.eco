@@ -13,7 +13,16 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
-      <h2><%= @tt 'privacy-bulletin-entry-5-title' %></h2>
+      <h2>2020-11-09: Privacy exception: Rare accidental logging of network request destination on Psiphon iOS VPN</h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-affected-applications' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Psiphon iOS VPN versions 1.0.43, 1.0.44, and 10.45 (<a target="_blank" href="https://apps.apple.com/us/app/psiphon/id1276263909">https://apps.apple.com/us/app/psiphon/id1276263909</a>).
     </div>
   </div>
 
@@ -22,7 +31,54 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-what-happened' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%- @tt 'privacy-bulletin-entry-5-what-happened' %>
+      <p>
+        Psiphon’s iOS VPN application uses the “VPN On Demand” feature provided by iOS to ensure that the VPN is restarted in the event that the device is rebooted or the VPN crashes. The first network request made after the device is rebooted, or the VPN crashes, will trigger the configured “VPN On Demand” rules to start Psiphon and queue network requests until Psiphon has re-established its connection and is ready to transit traffic again.
+      </p>
+      <p>
+        On June 25th, 2020 we released a change which logged metadata provided by the OS when the VPN was started. We chose to log this metadata because in testing it included non-sensitive information such as whether the VPN was started by the OS due to “VPN On Demand” rules or the user starting the VPN from Psiphon’s UI.  On July 21st, 2020 it came to our attention that the destination hostname, or IP address, of the first network request which triggered Psiphon to be started after a device reboot, or crash in the VPN process, was included in this metadata.
+      </p>
+      <p>
+        Once logged, the metadata could be included in a feedback submitted by the user through the in-app feedback form. Provided that the user did not opt-out of including diagnostic information with their feedback.
+      </p>
+      <p>
+        When a user submits a feedback it is encrypted with a public key, which is paired with a private key that we own and keep secret. This ensures that only our feedback servers can decrypt and read the contents of a user’s feedback once it is sent out over the internet. The encrypted feedback is uploaded over TLS. Once the feedback reaches our servers it is decrypted, stored for a limited amount of time and then deleted.
+      </p>
+    </div>
+
+    <div class="bulletin-entry-item">
+      <div class="bulletin-entry-item-head">
+        <%= @tt 'privacy-bulletin-entry-item-head-impact' %>
+      </div>
+      <div class="bulletin-entry-item-body">
+        Fewer than 10 logs which included the network destination of a request originating on the client were stored on Psiphon’s servers.
+      </div>
+    </div>
+
+    <div class="bulletin-entry-item">
+      <div class="bulletin-entry-item-head">
+        <%= @tt 'privacy-bulletin-entry-item-head-resolution' %>
+      </div>
+      <div class="bulletin-entry-item-body">
+        On July 22nd, 2020 a fix was released in Psiphon iOS VPN version 1.0.46 and the sensitive logs were deleted from Psiphon’s servers. Also, code was deployed to immediately redact any occurrences of these log lines found in user feedbacks shipped from the affected client versions as they are decrypted on Psiphon’s servers.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
+      <h2>2020-06-19: Privacy exception: Accidental user IP retention</h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-happened' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      We use AWS S3 to host websites, client applications, and remote server lists. We discovered that logging had been enabled for many of our S3 resources since June 2015. These logs include IP addresses of users who accessed those resources.
     </div>
   </div>
 
@@ -31,7 +87,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-impact' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%- @tt 'privacy-bulletin-entry-5-impact' %>
+      We found no indication that any logs were obtained by any external party, so this is not a user data breach. However, it is a violation of our Privacy Policy.
     </div>
   </div>
 
@@ -40,7 +96,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-resolution' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-5-resolution' %>
+      Logging has been disabled for user-accessible S3 buckets and all logs have been deleted. We are working on a system to keep track of privacy exceptions and issues, and investigating AWS resource auditing.
     </div>
   </div>
 
@@ -49,7 +105,7 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
-      <h2><%= @tt 'privacy-bulletin-entry-4-title' %></h2>
+      <h2>2019-12-11: Temporary data retention extension</h2>
     </div>
   </div>
 
@@ -58,7 +114,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%- @tt 'privacy-bulletin-entry-4-what-doing' %>
+      We are temporarily halting User Activity Data pruning, effectively extending the data retention period.
     </div>
   </div>
 
@@ -67,7 +123,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%- @tt 'privacy-bulletin-entry-4-why-doing' %>
+      We need to keep granular activity data longer to give us time to analyze recent censorship events.
     </div>
   </div>
 
@@ -76,7 +132,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-4-when-doing' %>
+      This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.
     </div>
   </div>
 
@@ -85,7 +141,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-update' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-4-update' %>
+      User activity data retention was returned to normal by 2020-04-10.
     </div>
   </div>
 
@@ -94,7 +150,7 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
-      <h2><%= @tt 'privacy-bulletin-entry-3-title' %></h2>
+      <h2>2019-12-11: Privacy Policy update</h2>
     </div>
   </div>
 
@@ -103,7 +159,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%- @tt 'privacy-bulletin-entry-3-what-doing' %>
+      We are updating our <a href="privacy.html">Privacy Policy</a>. We are changing the retention period of User Activity Data from 60 days to 90 days. We also expanded the information about Privacy Bulletins. For the exact changes, see the <a target="_blank" href="https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf">GitHub commit</a>.
     </div>
   </div>
 
@@ -112,7 +168,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%- @tt 'privacy-bulletin-entry-3-why-doing' %>
+      To ensure the Privacy Policy accurately reflects our data practices.
     </div>
   </div>
 
@@ -121,7 +177,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-3-when-doing' %>
+      This will be in effect on 2019-12-12T00:00Z.
     </div>
   </div>
 
@@ -130,7 +186,7 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
-      <h2><%= @tt 'privacy-bulletin-entry-2-title' %></h2>
+      <h2>2015-06-01: Privacy Policy update</h2>
     </div>
   </div>
 
@@ -139,7 +195,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%- @tt 'privacy-bulletin-entry-2-what-doing' %>
+      We are updating our <a href="privacy.html">Privacy Policy</a>. This includes merging into it the answer to the FAQ question “What information does Psiphon collect?”.
     </div>
   </div>
 
@@ -148,7 +204,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%- @tt 'privacy-bulletin-entry-2-why-doing' %>
+      The <a href="privacy.html">Privacy Policy</a> page is now the only place users need to check for Psiphon's privacy and data collection policies. It has been updated to reflect use of advertisements, analytics, and logging for some of our websites.
     </div>
   </div>
 
@@ -157,7 +213,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-2-when-doing' %>
+      This is in effect by at least 2015-06-01T00:00Z.
     </div>
   </div>
 
@@ -166,7 +222,7 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
-      <h2><%= @tt 'privacy-bulletin-entry-1-title' %></h2>
+      <h2>2014-04-17: Enable S3 bucket logging</h2>
     </div>
   </div>
 
@@ -175,7 +231,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-1-what-doing' %>
+      We are enabling access logging for one website Amazon S3 “bucket” (i.e., storage container). (For technical reasons, we run dozens of copies of the website in different S3 buckets.)
     </div>
   </div>
 
@@ -184,7 +240,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-1-why-doing' %>
+      We are doing this to determine how many accesses there are to the “remote server list” stored in the bucket. This will help to give us an idea of how many users are failing to connect.
     </div>
   </div>
 
@@ -193,7 +249,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-1-when-doing' %>
+      Logging will be enabled from 2014-04-17T15:00Z to 2014-04-18T15:00Z.
     </div>
   </div>
 
@@ -202,7 +258,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-what-data' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-1-what-data' %>
+      The logging will collect IP addresses, user agents, and timestamps of access to one website. When that data is processed, we will have a count of users divided by geographic region that have accessed the file in question.
     </div>
   </div>
 
@@ -211,7 +267,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-how-long-retained' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-1-how-long-retained' %>
+      The data will be retained no more than one week. We will be keeping the count of users longer — possibly indefinitely.
     </div>
   </div>
 
@@ -220,7 +276,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-how-many-users' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-1-how-many-users' %>
+      We don't know for sure yet how many users will be affected (that's why we're doing this), but we suspect it will be fewer than 10,000 users.
     </div>
   </div>
 
@@ -229,7 +285,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-who-will-see' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <%= @tt 'privacy-bulletin-entry-1-who-will-see' %>
+      The access logs are also stored in an Amazon S3 bucket, so Amazon will have access to the logs. (However, Amazon serves the files, so they can already access this information.)
     </div>
   </div>
 
