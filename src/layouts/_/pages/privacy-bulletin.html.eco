@@ -13,6 +13,59 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
+      <h2>2020-11-09: Privacy exception: Rare accidental logging of upstream proxy credentials</h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-affected-applications' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Psiphon iOS prior to v1.0.48; Psiphon Android prior to v302; Psiphon Windows prior to v158; Psiphon Library prior to v2.0.12.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-background' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Psiphon clients enable users to connect through upstream proxies. Users manually configure upstream proxy settings, including any required credentials. Psiphon logs network error messages to diagnostics included in feedback that users submit to Psiphon; and  logs network error messages with connection failure metrics automatically sent to Psiphon. When a connection to an upstream proxy fails, related errors are logged.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-happened' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Internally, upstream proxy settings are represented as a URL and parsed with Go's net/url. url.Parse error messages echo back the URL, which will include credentials when present. This error, containing credentials. was logged to diagnostics and connection failure metrics, causing credentials to be exposed to Psiphon. This situation was exacerbated by failure to URL encode user input upstream proxy settings, making the parsing failure more likely.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-impact' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Diagnostics containing upstream proxy credential and connection failure metrics were shipped to Psiphon and stored, for the "User Activity Data" retention period, on our internal systems. No known external leak of this data occurred.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-resolution' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Code was deployed to immediately redact any occurrences of these diagnostic messages found in user feedbacks and connection failure metrics shipped from Psiphon clients. All related diagnostic messages and metrics were deleted from Psiphon’s systems. Clients were updated to strip URLs from upstream proxy URL parse error messages before shipping errors to Psiphon.
+    </div>
+  </div>
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
       <h2>2020-11-09: Privacy exception: Rare accidental logging of network request destination on Psiphon iOS VPN</h2>
     </div>
   </div>
@@ -28,12 +81,18 @@ layout: _/page
 
   <div class="bulletin-entry-item">
     <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-background' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Psiphon’s iOS VPN application uses the “VPN On Demand” feature provided by iOS to ensure that the VPN is restarted in the event that the device is rebooted or the VPN crashes. The first network request made after the device is rebooted, or the VPN crashes, will trigger the configured “VPN On Demand” rules to start Psiphon and queue network requests until Psiphon has re-established its connection and is ready to transit traffic again.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
       <%= @tt 'privacy-bulletin-entry-item-head-what-happened' %>
     </div>
     <div class="bulletin-entry-item-body">
-      <p>
-        Psiphon’s iOS VPN application uses the “VPN On Demand” feature provided by iOS to ensure that the VPN is restarted in the event that the device is rebooted or the VPN crashes. The first network request made after the device is rebooted, or the VPN crashes, will trigger the configured “VPN On Demand” rules to start Psiphon and queue network requests until Psiphon has re-established its connection and is ready to transit traffic again.
-      </p>
       <p>
         On June 25th, 2020 we released a change which logged metadata provided by the OS when the VPN was started. We chose to log this metadata because in testing it included non-sensitive information such as whether the VPN was started by the OS due to “VPN On Demand” rules or the user starting the VPN from Psiphon’s UI.  On July 21st, 2020 it came to our attention that the destination hostname, or IP address, of the first network request which triggered Psiphon to be started after a device reboot, or crash in the VPN process, was included in this metadata.
       </p>
@@ -44,25 +103,24 @@ layout: _/page
         When a user submits a feedback it is encrypted with a public key, which is paired with a private key that we own and keep secret. This ensures that only our feedback servers can decrypt and read the contents of a user’s feedback once it is sent out over the internet. The encrypted feedback is uploaded over TLS. Once the feedback reaches our servers it is decrypted, stored for a limited amount of time and then deleted.
       </p>
     </div>
+  </div>
 
-    <div class="bulletin-entry-item">
-      <div class="bulletin-entry-item-head">
-        <%= @tt 'privacy-bulletin-entry-item-head-impact' %>
-      </div>
-      <div class="bulletin-entry-item-body">
-        Fewer than 10 logs which included the network destination of a request originating on the client were stored on Psiphon’s servers.
-      </div>
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-impact' %>
     </div>
-
-    <div class="bulletin-entry-item">
-      <div class="bulletin-entry-item-head">
-        <%= @tt 'privacy-bulletin-entry-item-head-resolution' %>
-      </div>
-      <div class="bulletin-entry-item-body">
-        On July 22nd, 2020 a fix was released in Psiphon iOS VPN version 1.0.46 and the sensitive logs were deleted from Psiphon’s servers. Also, code was deployed to immediately redact any occurrences of these log lines found in user feedbacks shipped from the affected client versions as they are decrypted on Psiphon’s servers.
-      </div>
+    <div class="bulletin-entry-item-body">
+      Fewer than 10 logs which included the network destination of a request originating on the client were stored on Psiphon’s servers.
     </div>
+  </div>
 
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-resolution' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      On July 22nd, 2020 a fix was released in Psiphon iOS VPN version 1.0.46 and the sensitive logs were deleted from Psiphon’s servers. Also, code was deployed to immediately redact any occurrences of these log lines found in user feedbacks shipped from the affected client versions as they are decrypted on Psiphon’s servers.
+    </div>
   </div>
 </div>
 
