@@ -13,6 +13,59 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
+      <h2>2020-11-27: Possible use of ACCESS_COARSE_LOCATION permission by 3rd party advertising SDKs</h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-affected-applications' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Psiphon Android (downloaded from Google Play) prior to v314; Psiphon Pro prior to v314.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-background' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Psiphon clients use the ACCESS_COARSE_LOCATION permission in order to determine the WiFi BSSID. The WiFi BSSID is used to remember internal Psiphon settings that work best on different WiFi networks. The WiFi BSSID is only stored locally, and is not transmitted to Psiphon servers. Versions of the Psiphon client for Android that use 3rd party advertising SDKs direct those SDKs not to use the ACCESS_COARSE_LOCATION permission for location-aware advertisement targeting.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-happened' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      One of the 3rd party advertising SDKs used in Psiphon clients for Android no longer has a setting to prevent it from using location services for location-aware advertisement targeting. Additionally, new 3rd party advertising SDKs were added to Psiphon clients that also do not have a setting to prevent the use of location services for location-aware advertisement targeting.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-impact' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      It is possible that 3rd party advertising SDKs used by Psiphon clients for Android have been using location services for location-aware advertisement targeting when the ACCESS_COARSE_LOCATION permission is granted.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-resolution' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      All Psiphon clients for Android v314 remove the ACCESS_COARSE_LOCATION permission to prevent 3rd party advertising SDKs from using location services for location-aware advertisement targeting. Psiphon clients for Android now use a less precise mechanism for distinguishing between WiFi networks in order to remember internal Psiphon settings that work best on different WiFi networks.
+    </div>
+  </div>
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
       <h2>2020-11-09: Privacy exception: Rare accidental logging of upstream proxy credentials</h2>
     </div>
   </div>
