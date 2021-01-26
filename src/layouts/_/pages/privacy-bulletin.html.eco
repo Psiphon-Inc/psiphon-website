@@ -13,6 +13,50 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
+      <h2>2021-01-26: Privacy exception: Rare accidental logging of sensitive information</h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-affected-applications' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Psiphon for Windows v160.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-happened' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      A change was introduced to the Psiphon Windows application which resulted in the potential for some logs emitted by the bundled executable to be classified as crash logs. This allowed those logs to bypass the measures put in place to avoid logging sensitive information. If the user subsequently submitted a feedback and opted-in to including diagnostic information, then these logs would be shipped to Psiphon.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-impact' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      On 2021-01-26 at 8:23am EST a single user feedback containing a log which included the file path of the Psiphon executable on their computer was discovered. Fortunately, the file path did not reveal any personally identifiable information (PII). No known external leak of this data occurred. No other feedbacks containing sensitive information were found.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-resolution' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      On 2021-01-26 at 11:45am EST code was deployed to immediately redact any occurrences of these diagnostic messages found in user feedbacks shipped from Psiphon clients. The Psiphon Windows application was patched in version 161.
+    </div>
+  </div>
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
       <h2>2020-11-27: Possible use of ACCESS_COARSE_LOCATION permission by 3rd party advertising SDKs</h2>
     </div>
   </div>
