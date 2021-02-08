@@ -50,7 +50,7 @@ layout: _/page
       <div class="download-os-with-qr">
         <a href="<%- @downloads.iosVpnAppStore %>">
           <img class="download-os-logo" src="<%= @relativeToRoot '/images/ios/ios-vpn-logo.png' %>">
-          <img class="download-os-logo" src="<%= @relativeToRoot '/images/ios/ios-app-store.png' %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot @ttURL '/images/ios/ios-app-store.svg' %>">
         </a>
       </div>
       <div class="download-link-with-qr">
@@ -70,12 +70,32 @@ layout: _/page
       </div>
     </div>
 
+    <!-- Psiphon VPN for macOS -->
+    <div class="row download-item">
+      <div class="download-os">
+        <a href="<%- @downloads.macosVpnAppStore %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot '/images/ios/ios-vpn-logo.png' %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot @ttURL '/images/macos/mac-app-store.svg' %>">
+        </a>
+      </div>
+      <div class="download-link">
+        <h4>
+          <a href="<%- @downloads.macosVpnAppStore %>" class="alert-link">
+            <%- @tt 'download-macos-appstore-psiphon-vpn' %>
+          </a>
+        </h4>
+        <p>
+          <%- @tt 'download-macos-appstore-psiphon-vpn-description' %>
+        </p>
+      </div>
+    </div>
+
     <!-- Psiphon Browser for iOS. -->
     <div class="row download-item">
       <div class="download-os-with-qr">
         <a href="<%- @downloads.iosBrowserAppStore %>">
           <img class="download-os-logo" src="<%= @relativeToRoot '/images/ios/ios-browser-logo.png' %>">
-          <img class="download-os-logo" src="<%= @relativeToRoot '/images/ios/ios-app-store.png' %>">
+          <img class="download-os-logo" src="<%= @relativeToRoot @ttURL '/images/ios/ios-app-store.svg' %>">
         </a>
       </div>
       <div class="download-link-with-qr">
