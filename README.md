@@ -87,7 +87,7 @@ Serving the site with Docpad will only test the site-at-root scenario. Testing t
 
 ## QR Codes
 
-An easy way to generate a QR code is via the Google Chart API. Just put the target URL at the end of this URL: `https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=`. For example, here's a [QR for psiphon3.com](https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=http://psiphon3.com).
+An easy way to generate a QR code is via the Google Chart API. Just put the target URL at the end of this URL: `https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=`. For example, here's a [QR for psiphon3.com](https://chart.googleapis.com/chart?chs=150x150&cht=qr&chld=M|0&chl=http://psiphon3.com). (NOTE: The Google Chart API QR for the Play Store dev page wasn't being read correctly by the Android Camera reader. Be wary and consider making a new QR generator the go-to tool.)
 
 
 ## Sponsor Snippets
