@@ -487,7 +487,7 @@
     "description": "This is the first paragraph of an FAQ answer."
   },
   "faq-refund-answer-para-2": {
-    "message": "<strong>iOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+    "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
     "description": "This is the second paragraph of an FAQ answer."
   },
   "faq-refund-answer-para-3": {
@@ -610,6 +610,14 @@
   "download-ios-appstore-psiphon-vpn-description": {
     "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
     "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+  },
+  "download-macos-appstore-psiphon-vpn": {
+    "message": "<strong>Psiphon for ARM macOS</strong> in the Apple App Store",
+    "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+  },
+  "download-macos-appstore-psiphon-vpn-description": {
+    "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+    "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
   },
   "download-ios-appstore-psiphon-browser": {
     "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
