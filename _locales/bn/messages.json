@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "আমি <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">অটোপ্রক্সি </a>ব্যবহার করি।আমি কিভাবে উইন্ডোজ এর সাইফনকে আমার সিস্টেম প্রক্সি সেটিংস কনফিগার  না করতে বলতে পারি?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "আমি অটোপ্রক্সি ব্যবহার করি ।আমি আমার উইন্ডোজ সাইফনটিকে সিস্টেম প্রক্সি সেটিংস কনফিগার না করতে বলতে পারি?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "আপনার আইফোন বা আইপ্যাডের সমস্ত অ্যাপ্লিকেশন সাইফন নেটওয়ার্কের মাধ্যমে ইন্টারনেট অ্যাক্সেস করবে। IOS 10.2 এবং উচ্চতর পর্যায়ের জন্য উপলব্ধ",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong> সাইফন ব্রাউজার আইফোনের </strong>অ্যাপল অ্যাপ স্টোরের জন্য ",
@@ -1267,105 +1275,13 @@
         "message": "সাইফান ইনক কে ছাড়া এই ডেটা দেখতে পাবেন",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17: এস 3 বালতি লগিং সক্রিয় করুন",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Affected applications",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "আমরা একটি ওয়েবসাইট অ্যামাজন এস 3 \"বাকেট\" (যেমন, স্টোরেজ কন্টেইনার) এর জন্য অ্যাক্সেস লগিং সক্ষম করছি। (প্রযুক্তিগত কারণের জন্য, আমরা বিভিন্ন এস 3 বাকেট-এ ওয়েবসাইটের কয়েক ডজন কপি চালাই।)",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "বাকেট-এ সংরক্ষিত \"রিমোট সার্ভার লিস্ট\" এ কতগুলি অ্যাক্সেস আছে তা নির্ধারণ করতে আমরা এটি করছি।এটি আমাদেরকে কীভাবে কতগুলি ব্যবহারকারী সংযোগ বিফল করতে ব্যর্থ হচ্ছে তা সম্পর্কে একটি ধারণা দিতে সাহায্য করবে।",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "লগিং 2014-04-17T15:00Z to 2014-04-18T15:00Z থেকে কার্যকর হবে।",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "লগিং এক ওয়েবসাইট থেকে IP ঠিকানা, ব্যবহারকারী এজেন্ট এবং অ্যাক্সেস টাইমস্ট্যাম্প সংগ্রহ করবে।যখন এই ডেটা প্রক্রিয়া করা হয়, তখন ভৌগোলিক অঞ্চল দ্বারা বিভক্ত ব্যবহারকারীদের একটি গণনা থাকবে যা প্রশ্নের ফাইল ব্যবহার করেছেন।",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "তথ্য এক সপ্তাহের বেশি রাখা হবে না। আমরা ব্যবহারকারীদের গণনাকে দীর্ঘায়িত করব - সম্ভাব্য অনির্দিষ্টকালের জন্য।",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "আমরা নিশ্চিতভাবে জানি না কত ব্যবহারকারী প্রভাবিত হবে (তাই আমরা এটি করছি কেন), কিন্তু আমরা অনুমান করি এটি 10,000 ব্যবহারকারীর চেয়ে কম হবে।",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "অ্যাক্সেস লগ একটি অ্যামাজন এস 3 বাকেট এর মধ্যেও সংরক্ষিত হয়, তাই অ্যামাজন এর লগের মধ্যে অ্যাক্সেস থাকবে। (যাইহোক, আমাজন ফাইলগুলি পরিবেশন করে, তাই তারা ইতিমধ্যে এই তথ্য অ্যাক্সেস করতে পারে।)",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01: গোপনীয়তা নীতি আপডেট",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "আমরা আমাদের<a href=\"privacy.html\"> গোপনীয়তা নীতি </a>আপডেট করছি।এটি প্রায়শই জিজ্ঞাসিত প্রশ্নাবলীর প্রশ্ন \"সাইফন কি তথ্য সংগ্রহ করে?\"- এর উত্তর অন্তর্ভুক্ত করে । ",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "ব্যবহারকারীদের জন্য <a href=\"privacy.html\">গোপনীয়তা নীতি</a> পৃষ্ঠাই একমাত্র স্থান সাইফনের গোপনীয়তা এবং ডেটা সংগ্রহ নীতিগুলি পরীক্ষা  করার জন্য। এটি আমাদের কিছু ওয়েবসাইটের বিজ্ঞাপন, বিশ্লেষণ এবং লগিং ব্যবহার প্রতিফলিত করার জন্য আপডেট করা হয়েছে।",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "এটি অন্তত 2015-06-01 থেকে 0:00Z দ্বারা কার্যকর।",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: Privacy Policy update",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. We are changing the retention period of User Activity Data from 60 days to 90 days. We also expanded the information about Privacy Bulletins. For the exact changes, see the <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "To ensure the Privacy Policy accurately reflects our data practices.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "This will be in effect on 2019-12-12T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11: Temporary data retention extension",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "We are temporarily halting User Activity Data pruning, effectively extending the data retention period.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "We need to keep granular activity data longer to give us time to analyze recent censorship events.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "User activity data retention was returned to normal by 2020-04-10.",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19: Privacy exception: Accidental user IP retention",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "We use AWS S3 to host websites, client applications, and remote server lists. We discovered that logging had been enabled for many of our S3 resources since June 2015. These logs include IP addresses of users who accessed those resources.",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "We have no indication that any logs were obtained by any external party, so this is not a user data breach. However, it is a violation of our Privacy Policy.",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "Logging has been disabled for user-accessible S3 buckets and all logs have been deleted. We are working on a system to keep track of privacy exceptions and issues, and investigating AWS resource auditing.",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "পটভূমি",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "গোপনীয়তা নীতি",

@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "ངས་ <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">རང་འགུལ་ངོ་ཚབ་</a> ངས་ཝིན་ཌོ་ནང་གི་སཡི་ཕོན་ལ་ངའི་སྒྲིག་སྲོལ་ངོ་ཚབ་སྒྲིག་བཀོད་སྡེབ་སྒྲིག་མ་བྱས་རོགས་ཞེས་གང་འདྲ་བྱས་ནས་ལབ་དགོས་སམ།",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "ང་རང་རང་འགུལ་ངོ་ཚབ་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད། ངས་ཝིན་ཌོ་ནང་གི་སཡི་ཕོན་ལ་ངའི་ངོ་ཚབ་སྒྲིག་བཀོད་ཀྱི་གོ་རིམ་སྒྲིག་མི་དགོས་པ་གང་འདྲ་སེ་བཤད་དགོས།",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
@@ -1267,105 +1275,13 @@
         "message": "སཡི་ཕྷོན་ཨིཀ་སཡི་ཕོན་ Inc.ལས་གཞན་པ་སུ་ཡིས་གྲངས་ཐོ་འདི་མཐོང་གི་ཡོད་དམ།",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17: S3 bucket logging སྒོ་ཕྱེས།",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Affected applications",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "ཨེ་མ་ཛོན་S3 \"དྲྭ་སྣོད།\"(དཔེར་ན། གསོག་ཉར་གྱི་སྣོད།) ་གཅིག་གི་ནང་བེད་སྤྱོད་གཏོང་མཁན་གྱི་གྲངས་ཐོ་སྟོན་གྱི་ཡོད། འཕྲུལ་ཆས་དང་འབྲེལ་བའི་རྒྱུ་མཚན་གྱིས་ང་ཚོས་དྲྭ་ཚིགས་དེ་ཐེངས་མང་ཕབ་ཤུས་བྱས་ཏེ་S3དྲྭ་སྣོད་མང་པོའི་ནང་འཁོར་བསྐྱོར་བྱེད་ཀྱི་ཡོད།",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "ང་ཚོས་དེ་ལྟར་བྱེད་དགོས་དོན་ནི་\"རྒྱང་སྦྲེལ་ཞབས་ཞུའི་འཕྲུལ་ཆས་ཐོ་གཞུང་\"ནང་ལ་ག་ཚོད་ཀྱི་དྲྭ་ཚིགས་དེ་བལྟ་ཐུབ་ཀྱི་ཡོད་མིན་བརྟག་དཔྱད་བྱེད་ཀྱི་ཡོད། འདིས་བེད་སྤྱོད་གཏོང་མཁན་ག་ཚོད་མཐུད་ཐུབ་མིན་ང་ཚོར་ཤེས་རྟོགས་ཡོང་བ་ལ་ཕན་གྱི་ཡོད།",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "ཟིན་ཐོ་འདི་འགོ་འཛུགས་2014-04-17T15:00Z ནས་2014-04-18T15:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "ཟིན་ཐོ་འདིས་དྲྭ་ཚིགས་གཅིག་བེད་སྤྱོད་བྱས་པའི་ IP ཁ་བྱང། སྤྱོད་པ་པོའི་ངོ་ཚབ་དང་། དུས་ཀྱི་ཐམ་ཀ་བཅས་ཀྱི་ཐོ་གཞུང་བསྡུ་རུབ་་བྱེད་ཀྱི་ཡོད། གྲངས་ཐོ་དེ་དག་རྒྱུན་སྤྱོད་བྱེད་བཞིན་པའི་སྐབས་སུ་ང་ཚོས་བེད་སྤྱོད་བྱེད་མཁན་གྱི་གྲངས་རྣམས་རང་རང་གི་ས་གནས་ས་སོར་བགོས་ཏེ་དྲི་བ་ཡོད་པའི་ཡིག་ཆ་རྣམས་བེད་སྤྱོད་བྱེད་ཐུབ།",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "ཡིག་ཚགས་རྣམས་བདུན་ཕྲག་གཅིག་ལས་མང་པ་ཉར་གྱི་མེད། ང་ཚོས་སྤྱོད་མཁན་གྱི་གྲངས་ཐོ་དེ་དུས་ཡུན་གང་མཚམས་ཉར་གྱི་ཡོད། ངེས་པ་མེད།",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "ང་ཚོས་སྤྱོད་མཁན་ག་ཚོད་ཙམ་ལ་ཤུགས་རྐྱེན་ཐོན་པ་ཏག་ཏག་གཅིག་ཞུ་ཐུབ་ཀྱི་མིན་འདུག (དེ་འདྲ་སོང་ཙང་ང་ཚོས་དེ་ལྟར་བྱ་ཀྱི་ཡོད།།) འོན་ཀྱང་ང་ཚོའི་བསམ་ཚོད་ལ་སྤྱོད་མཁན་མི་10000 ལས་ཉུང་བ་ཡོད་པ་ཚོད་དཔག་བྱེད་ཀྱི་ཡོད།",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "བལྟ་ཐུབ་པའི་ཟིན་ཐོའི་དེ་བཞིན་ཨེ་མ་ཛོན་Amazon S3 bucket ནང་དུའང་གསོག་ཉར་བྱས་ཡོད། (དེས་ན་ཨེ་མ་ཛོན་གྱིས་ཟིན་ཐོ་དེ་དག་ལྟ་ཐུབ།) ཨེ་མ་ཛོན་གྱིས་ཡིག་ཆ་རྣམས་གཅེས་ཉར་བྱེད་ཅིང་གནས་ཚུལ་དེ་དག་ལ་ལྟ་ཐུབ་ཀྱི་ཡོད།",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01: གསང་དོན་སྲིད་བྱུས་གསར་སྒྱུར།",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "ང་ཚོས་གསང་དོན་སྲིད་བྱུས་<a href=\"privacy.html\">གསར་སྒྱུར་བྱེད་ཀྱི་ཡོད།</a> འདི་FAQགྱི་དྲི་བ། \"སཡི་ཕོན་གྱིས་གནས་ཚུལ་གང་ཕྱོགས་བསྡུས་བྱས་སམ་\"་ཞེས་པའི་ལན་འདེབས་བྱས་པ་དང་ཟླ་སྒྲིལ་བཏང་བ་འདིའི་ནང་ཚུད་ཀྱི་ཡོད། ",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": " <a href=\"privacy.html\">གསང་དོན་སྲིད་བྱུས་</a> ཀྱི་དྲྭ་ཤོག་ནི་སྤྱོད་མཁན་ཚོས་སཡི་ཕོན་གྱི་གསང་དོན་དང་ཡིག་ཆ་མཁོ་སྒྲུབ་ཀྱི་སྲིད་བྱུས་དོ་དམ་བྱས་ས་གཅིག་པུ་བལྟ་དགོས།  འདིའི་ནང་ཁྱབ་བསྒྲགས་དང་། དཔྱད་ཞིབ། དྲྭ་ཚིགས་གཞན་གྱི་གྲངས་ཐོ་སོགས་གནས་ཚུལ་གསར་བསྒྱུར་བྱེད་ཀྱི་ཡོད།",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "འདི་ནི་2015-06-01T00:00Zནས་འགོ་འཛུགས་པ་རེད།",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: Privacy Policy update",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. We are changing the retention period of User Activity Data from 60 days to 90 days. We also expanded the information about Privacy Bulletins. For the exact changes, see the <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "To ensure the Privacy Policy accurately reflects our data practices.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "This will be in effect on 2019-12-12T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11: Temporary data retention extension",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "We are temporarily halting User Activity Data pruning, effectively extending the data retention period.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "We need to keep granular activity data longer to give us time to analyze recent censorship events.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "User activity data retention was returned to normal by 2020-04-10.",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19: Privacy exception: Accidental user IP retention",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "We use AWS S3 to host websites, client applications, and remote server lists. We discovered that logging had been enabled for many of our S3 resources since June 2015. These logs include IP addresses of users who accessed those resources.",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "We have no indication that any logs were obtained by any external party, so this is not a user data breach. However, it is a violation of our Privacy Policy.",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "Logging has been disabled for user-accessible S3 buckets and all logs have been deleted. We are working on a system to keep track of privacy exceptions and issues, and investigating AWS resource auditing.",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "Background",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "གསང་དོན་སྲིད་བྱུས།",

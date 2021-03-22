@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "ကျွနု်ပ်သည်<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy </a>ကို အသုံးပြုပါသည်။ Windows အတွက် Psiphon ကို ကျွနု်ပ်စက်၏ ကြားခံအင်တာနက်စနစ် အပြင်အဆင်ကို မချိန်ညှိစေရန် မည်ကဲ့သို့ ပြုလုပ်နိုင်ပါသလဲ။",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "ကျွနု်ပ်သည်  AutoProxy ကို အသုံးပြုပါသည်။ Windows အတွက် Psiphon ကို ကျွနု်ပ်စက်၏ ကြားခံအင်တာနက်စနစ် အပြင်အဆင်များအား မချိန်ညှိစေရန် မည်ကဲ့သို့ ပြုလုပ်နိုင်ပါသလဲ။",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
@@ -1267,105 +1275,13 @@
         "message": "Psiphon Inc. အပြင်မည်သူကဤအချက်အလက်ကိုမြင်ရမည်နည်း",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17: S3 bucket ဝင်ရောက်ခြင်းကို အသုံးပြု၍ရအောင်လုပ်ရန်",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Affected applications",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "ကျွနု်ပ်တို့သည် Amazon S3 \"bucket\" (i.e., storage container)  ဝက်ဆိုက်တစ်ခုအတွက် ဝင်ရောက်ရယူမှုကို အသုံးပြု၍ ရအောင်ပြုလုပ်နေပါသည်။ (နည်းပညာဆိုင်ရာ အကြောင်းပြချက်များကြောင့် မတူညီသည့် S3 buckets များထဲတွင် ဒါဇင်နှင့်ချီသော ဝက်ဆိုက်ကော်ပီများကို လည်ပတ်စေပါသည်။)",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "ကျွနု်ပ်တို့ ဤသို့ပြုလုပ်ရခြင်းမှာ bucket အတွင်းသိမ်းဆည်းထားသော \"အဝေးထိန်း ဆာဗာစာရင်း\" ကို မည်မျှရယူမှုရှိနေသည်ကို သိရှိရန်ဖြစ်သည်။ ဤသို့ပြုလုပ်ခြင်းဖြင့် အသုံးပြုသူမည်မျှသည် ချိတ်ဆက်ရန်မအောင်မြင်သည်ကို သိရှိနိုင်ရန် အထောက်အကူပြုပါသည်။",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "ဝင်ရောက်ခြင်းကို 2014-04-17T15:00Z မှ 2014-04-18T15:00Z အထိ အသုံးပြုနိုင်အောင်ပြုလုပ်ထားပါသည်။",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "ဝင်ရောက်အသုံးပြုမှုမှတ်တမ်းများသည် IP လိပ်စာများ၊ အသုံးပြုသူအေးဂျင့်များနှင့် ဝက်ဆိုက်တစ်ခုကို ဝင်ရောက်ရယူသည့် အချိန်များကို ကောက်ယူပါသည်။ ထိုအချက်အလက်ကိုဆောင်ရွက်ပြီးပါက မေးခွန်းထဲရှိဖိုင်ကို ရယူထားသော နေရာဒေအလိုက် အသုံးပြုသူအရေအတွက်ကို ကျွနု်ပ်တို့ သိရှိနိုင်သည်။",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "အချက်အလက်ကို တစ်ပတ်ထက်ပို၍ သိမ်းဆည်းထားခြင်းမရှိပါ။ အသုံးပြုသူအရေအတွက်ကို အချိန်အတန်ကြာ၊ သတ်မှတ်ရက်မရှိ ကျွနိုပ်တို့ သိမ်းဆည်းထားပါမည်။",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "အသုံးပြုသူမည်မျှအပေါ်သက်ရောက်မှုရှိနိုင်သည်ကို ယခုအထိ ကျွနု်ပ်တို့ သေချာမသိရသေးပါ (ထို့ကြောင့်ဒါကို ပြုလုပ်ခြင်းဖြစ်သည်) သို့သော် အသုံးပြုသူ 10,000 ထက်မပိုနိုင်ဟု ယူဆရပါသည်။",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "အသုံးပြုမှုမှတ်တမ်းများကို Amazon S3 bucket တွင်လည်း သိမ်းဆည်းထားပါသည်၊ ထို့ကြောင့် Amazon သည်လည်း မှတ်တမ်းများကိုရယူနိုင်သည်။ (မည်သို့ပင်ဆိုစေ Amazon က ဖိုင်များကို သိမ်းဆည်းထားခြင်းကြောင့် ဤသတင်းအချက်အလက်များကို ရယူနိုင်ပြီးဖြစ်သည်။)",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01: ကိုယ်ရေးကိုယ်တာအချက်အလက်လုံခြုံရေးမူဝါဒအား မွမ်းမံချက်",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "ကျွနု်ပ်တို့၏ <a href=\"privacy.html\">ကိုယ်ရေးကိုယ်တာအချက်အလက်လုံခြုံရေးမူဝါဒ</a>ကိုမွမ်းမံနေပါသည်။ ဤတွင် မကြာခဏမေးလေ့ရှိသော မေးခွန်းများထဲမှ \"မည်သည့် သတင်းအချက်အလက်များကို Psiphon ကောက်ခံသနည်း\" ဟူသည့်မေးခွန်းအတွက်ပါ အဖြေကို ပေါင်းထည့်ထားပါသည်။",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "<a href=\"privacy.html\">ကိုယ်ရေးကိုယ်တာအချက်အလက်လုံခြုံရေးမူဝါဒ</a>စာမျက်နှာသည် Psiphon ၏ကိုယ်ရေးအချက်အလက်လုံခြုံရေးနှင့် အချက်အလက်ကောက်ယူခြင်းဆိုင်ရာ မူဝါဒကို အသုံးပြုသူများစစ်ဆေးနိုင်သည့် တစ်ခုတည်းသောနေရာဖြစ်သည်။ ဤတွင် ကျွနု်ပ်တို့၏ ဝက်ဆိုက်အချို့အတွက် ကြေငြာများ၊ စစ်ဆေးအကဲဖြတ်မှုများနှင့် အသုံးပြုမှု မှတ်တမ်းများကို ထင်ဟပ်စေရန်အတွက် မွမ်းမံထားသည်။",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "ဤသည်မှာ 2015-06-01T00:00Z မှစ၍ သက်ရောက်မှုရှိသည်။",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: Privacy Policy update",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. We are changing the retention period of User Activity Data from 60 days to 90 days. We also expanded the information about Privacy Bulletins. For the exact changes, see the <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "To ensure the Privacy Policy accurately reflects our data practices.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "This will be in effect on 2019-12-12T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11: Temporary data retention extension",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "We are temporarily halting User Activity Data pruning, effectively extending the data retention period.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "We need to keep granular activity data longer to give us time to analyze recent censorship events.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "User activity data retention was returned to normal by 2020-04-10.",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19: Privacy exception: Accidental user IP retention",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "We use AWS S3 to host websites, client applications, and remote server lists. We discovered that logging had been enabled for many of our S3 resources since June 2015. These logs include IP addresses of users who accessed those resources.",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "We have no indication that any logs were obtained by any external party, so this is not a user data breach. However, it is a violation of our Privacy Policy.",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "Logging has been disabled for user-accessible S3 buckets and all logs have been deleted. We are working on a system to keep track of privacy exceptions and issues, and investigating AWS resource auditing.",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "Background",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "ကိုယ်ရေးကိုယ်တာအချက်အလက်လုံခြုံရေး မူဝါဒ",
@@ -1516,7 +1432,7 @@
         "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data and activity statistics through the Psiphon VPN"
     },
     "privacy-information-collected-vpndata-whycare-subhead": {
-        "message": "Why should you care?",
+        "message": "သင်ဘာလို့ ဂရုစိုက်သင့်ဘာလဲ?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
     },
     "privacy-information-collected-vpndata-whycare-para-1": {
@@ -1632,15 +1548,15 @@
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
-        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "message": "နောင်အတွက်ခန့်မှန်းကျေ ကုန်ကျစရိတ် - ကျွန်ုပ်တို့ကုန်ကျစရိတ်သည် လစဥ်လွှဲပြောင်းပေးသော အသုံးပြုသူများ၏ ဒေတာပမာဏပေါ် အဓိကမူတည်ပါသည်။ ထို့ကြောင့် အသုံးနှုန်း အတက်အကျများကို လေ့လာနားလည်ရန် အရေးကြီးပါသည်။",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
-        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+        "message": "အဓိကဆင်လုပ်ခြင်း၏သဘောသဘဝကို ဆုံးဖြတ်ပါ - ဝဘ်ဆိုက် နှင့် ဝန်ဆောင်မှုများသည် ရုတ်တရက်သတိပေးချက် မရှိပဲပိတ်ဆို့ခံရပါသည်။ ထို့ကြောင့် ဒေသဆိုင်ရာ Psiphon အသုံးနှုန်းသည် ကြီးမားစွာကွဲပြားနိုင်ပါသည်။ ဥပမာ <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">ဘရာဇီးနိုင်ငံတွင် ​WhatsApp ပိတ်ခဲ့တုန်းက</a> သို့မဟုတ် <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">တူရကီနိုင်ငံတွင် လူမှုကွန်ရက်ဆိုက်များ ပိတ်ခဲ့တုန်းက</a> ဆိုလျှင် Psiphon အသုံးနှုန်းများသည် ၂၀ စစီလောက် မြင့်တက်လာပါသည်။",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
-        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+        "message": "မည်သူများ အကူညီလိုအပ်သည်ကို နားလည်စေရန် - အချို့ဝဘ်ဆိုက် နှင့် ဝန်ဆောင်မှုများသည် မည့်သည့်အချိန်အခါ နှင့် ဒေသတွင် အပိတ်မခံရပါ၊ အချို့ကတော့ အချို့သောနိုင်ငံများတွင် အမြဲတမ်းအပိတ်ခံရနိုင်ပါသည်၊ အချို့ကတော့ အချို့သောနိုင်ငံများတွင် တစ်ခါတစ်လေအပိတ်ခံရနိုင်ပါသည်။ ကျွန်ုပ်တို့သုံးသူများ လွတ်လပ်စွာဆက်သွယ်သင်ယူနိုင်ရန် ကျွန်ုပ်တို့သည် ဤ အလေ့အထများကို နားလည်စေလိုပြီး မည်သူမှထိခိုက်သည်ကို သိပြီး Psiphon နှင့် အကောင်းဆုံးအလုပ်လုပ်နိုင်ရန် ပူးပေါင်းသူများဖြင့် လုပ်ဆောင်သွားစေလိုသည်။",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-subhead-v2": {

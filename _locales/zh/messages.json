@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "我使用 <a href=\"https://addons.mozilla.org/zh-CN/firefox/addon/autoproxy\">AutoProxy</a>。如何让 Windows 版赛风不来修改我的系统代理设置？",
+        "message": "如何让 Windows 版赛风不修改我的系统代理设置？",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "使用 AutoProxy 时，如何让 Windows 版赛风不对系统代理设置进行配置？",
+        "message": "如何让 Windows 版赛风不修改我的系统代理设置？",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong> 请 <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">使用 App Store 进行退款</a>.",
+        "message": "<strong>iOS和macOS：</strong>请<a href=\"https://support.apple.com/HT204084\" target=\"_blank\">通过App Store要求退款</a>。",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "您 iPhone 或 iPad 上的所有应用程序都将通过赛风网络访问互联网。适用于 iOS 10.2 及更高版本。",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "苹果应用商店中的<strong> iOS 版赛风浏览器</strong>",
@@ -1267,105 +1275,13 @@
         "message": "除了赛风公司，还有谁可看到这些数据",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17：启用 S3 存储桶日志记录",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "受影响应用",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "启用一个网站亚马逊 S3 存储桶（即存储容器）的访问日志记录。（出于技术原因，我们在不同 S3 存储桶上运行网站的多个副本。）",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "为了确定保存在存储桶的“远程服务器列表”有多少访问量，以便我们评估多少用户无法连接。",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "日志记录在 2014-04-17T15:00Z 至 2014-04-18T15:00Z 期间启用。",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "该日志记录收集访问某个网站的 IP 地址、用户代理和时间戳。对这些数据进行处理时，将对访问特定文件的用户按地理区域分类并计数。",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "这些数据保留时间不超过一周。用户计数保留时间更长（可能无限期）。",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "我们尚不确定多少用户受到影响 （我们这么做正是为了确定这一数字），不过我们估计受影响用户不超过 1 万。",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "访问日志也保存在 Amazon S3 存储桶，因此 Amazon 具有日志访问权限。（不过，因为这些文件已经使用了 Amazon 服务器，他们本来已经可以获取这些信息。）",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01：隐私政策更新",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "赛风隐私条例发生更新。更新后将在“创建问题和解答”部分包括“赛风收集用户的哪些信息？”及其回答。",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "关于赛风隐私和数据收集政策，用户现在只需查看<a href=\"privacy.html\">隐私政策</a>页面即可。该页面已经过更新，包含某些赛风网站的广告、Google analyticsy 和日志记录的使用情况。",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "最迟于 2015-06-01T00:00 起正式生效。",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: 隐私权政策更新",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "我们正在更新我们的<a href=\"privacy.html\">隐私权政策</a>。用户活动数据的保留期将从60天延长到90天。我们同时在隐私公告中给与了更详细的信息。如果您想了解详细信息，请浏览<a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "为了确保隐私权证词准确的反应我们的数据实践。",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "将会于2019-12-12T00:00起效。",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11：暂时数据保留延长",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "我们将暂时停止用户活动数据删除，以有效地延长数据保留时间。",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "我们需要保留活动数据的细节更长的时间从而给我们足够的时间去分析近期的审查活动。",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "将会于2019-12-12T00:00起效。这项变更于一个月内有效。如果时间需要延长，我们会更新公告。",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "用户的活动数据保留在2020-04-10恢复到正常。",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19：隐私条款例外：用户IP意外保留",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "我们使用AWS S3运行网站，客户程序和远程服务器列表。我们发现从2015年6月开始我们的S3资源被开启了记录功能。这些记录包括使用这些资源的用户IP地址。",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "我没没有发现任何痕迹表明这些记录被第三方获取。所以这并不是用户数据泄露，但是这仍然违反了我们的隐私条例。",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "我们禁止了用户可以访问到的S3资源中的记录功能，并且所有记录已被删除。我们正在研究一个可以让我们跟进隐私例外情况以及其他相关问题，并且考察AWS资源的审核的系统。",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "背景",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "隐私政策",

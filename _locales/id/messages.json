@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "Saya menggunakan <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. Bagaimana cara memberitahu Psiphon untuk Windows agar tidak mengubah setelan proksi sistem saya?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "Saya menggunakan AutoProxy. Bagaimana cara memberitahu Psiphon untuk Windows agar tidak mengubah setelan proksi sistem saya?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong> Mohon <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">meminta pengembalian dana via App Store</a>.",
+        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "Semua app dalam iPhone dan iPad anda akan mengakses Internet melalui jaringan Psiphon. Tersedia untuk iOS 10.2 dan versi lebih tinggi.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>Psiphon Browser untuk iOS</strong> di Apple App Store",
@@ -1267,105 +1275,13 @@
         "message": "Siapa lagi selain Psiphon Inc. yang akan melihat data ini",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "17-04-2014: Mengaktifkan \"bucket logging\" S3",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Affected applications",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "Kami mengaktifkan pencatatan akses satu \"bucket\" (ember, wadah penyimpanan) situs web di Amazon S3 (untuk alasan teknis, kami menjalankan puluhan salinan situs web tersebut di \"bucket\" S3 yang berbeda-beda).",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "Kami melakukan hal ini untuk menentukan berapa banyak akses yang tersedia ke \"remote server list\" yang disimpan di dalam \"bucket\". Ini akan membantu kami mengetahui berapa banyak pengguna yang gagal menyambung.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "Pencatatan akan diaktifkan mulai 17-04-2014, 15.00 GMT hingga 18-04-2014, 15.00 GMT",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "Pencatatan akan mengumpulkan alamat IP, \"user agent\", dan waktu akses salah satu situs web. Saat data tersebut diolah, kami akan memperoleh jumlah pengguna yang telah mengakses file tertentu yang dipilah berdasarkan wilayah geografis.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "Data tersebut akan disimpan tidak lebih dari satu minggu. Kami akan menyimpan jumlah pengguna lebih lama lagi, kemungkinan dalam rentang waktu tak terbatas.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "Kami belum tahu pasti ada berapa banyak pengguna yang terdampak (itulah alasan kami melakukan ini), tetapi kami perkirakan kurang dari 10.000 pengguna.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Catatan akses juga disimpan di Amazon S3 sehingga Amazon akan memiliki akses terhadapnya (Amazon-lah yang menyediakan file-file itu sehingga mereka tentu bisa mengakses informasi tersebut).",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "01-06-2015: Pembaruan Kebijakan Privasi",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "Kami telah memperbarui <a href=\"privacy.html\">Kebijakan Privasi</a> kami, termasuk menambahkan jawaban atas pertanyaan \"Informasi apa yang dikumpulkan Psiphon?\" ke dalamnya.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "Laman <a href=\"privacy.html\">Kebijakan Privasi</a> kini menjadi satu-satunya tempat bagi para pengguna untuk membaca kebijakan privasi dan pengumpulan data Psiphon. Saat ini telah diperbarui untuk menjelaskan pemakaian iklan, analisis, dan pencatatan pada beberapa situs web kami.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "Berlaku paling lambat mulai 01-06-2015, 00.00 GMT.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: Kebijakan Privasi mutakhir",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "Kami sedang memutakhirkan<a href=\"privacy.html\">Kebijakan Pribadi</a>kami. Kami sedang merubah periode pertahanan Aktivitas Data Pengguna dari 60 hari menjadi 90 hari. Kami juga memperluas informasi mengenai Berita Pribadi. Untuk perubahan persisnya, silahkan lihat di <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "Untuk memastikan akurasi Kebijakan Privasi tercermin dalam praktek data kami.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "Akan berlaku mulai tanggal 2019-12-12T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11: Extension data sementara yang disimpan",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "Untuk sementara kita menunda pemangkasan Data Aktivitas Pengguna, yang pastinya akan memperpanjang periode pertahanan data.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "Butir-butir aktivitas data harus tetap kita pertahankan lebih lama untuk memberi kita waktu menganalisa kegiatan-kegiatan penyensoran terbaru.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "Ini akan mulai berlaku tanggal 2019-12-12T00:00Z. Ini akan berlangsung selama satu bulan. Kami akan memutakhirkan buletin ini apabila dibutuhkan untuk diperluas lagi.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "User activity data retention was returned to normal by 2020-04-10.",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19: Privacy exception: Accidental user IP retention",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "We use AWS S3 to host websites, client applications, and remote server lists. We discovered that logging had been enabled for many of our S3 resources since June 2015. These logs include IP addresses of users who accessed those resources.",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "We have no indication that any logs were obtained by any external party, so this is not a user data breach. However, it is a violation of our Privacy Policy.",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "Logging has been disabled for user-accessible S3 buckets and all logs have been deleted. We are working on a system to keep track of privacy exceptions and issues, and investigating AWS resource auditing.",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "Latar belakang",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "Kebijakan Privasi",

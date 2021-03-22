@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "Я пользуюсь <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. Как запретить Psiphon для Windows менять системные настройки прокси?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "Я пользуюсь AutoProxy. Как запретить Psiphon для Windows менять системные настройки прокси?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong> пожалуйста, <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">обратитесь за возмещением через App Store</a>.",
+        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "Все ваши приложения на iPhone и iPad будут подключаться к интернету через Psiphon. Доступно для iOS версии 10.2 и новее.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>Браузер Psiphon для iOS</strong> в магазине приложений Apple App Store",
@@ -1267,105 +1275,13 @@
         "message": "Кто, кроме Psiphon Inc., увидит эти данные",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "17.04.2014: Включено протоколирование доступа к хранилищу S3",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Affected applications",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "Мы включаем протоколирование доступа на одном сайте Amazon S3 \"bucket\" (хранилища данных). По техническим причинам мы запускаем десятки копий веб-сайта в различных хранилищах Amazon S3.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "Мы делаем это для определения числа обращений к списку удаленных серверов в хранилище. Это помогает понять, сколько пользователей не может подключиться к сети Psiphon.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "Логи будут записываться с 17.04.2014 по 18.04.2014.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "Будут записаны IP-адреса, user agent, время доступа к сайту. После обработки этих данных мы будем знать число пользователей в различных регионах, которые имели доступ к определенному файлу.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "Данные будут храниться не более одной недели. В дальнейшем (и, возможно, постоянно) мы продолжим подсчет пользователей.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "Пока неизвестно, скольких пользователей затронет сбор данных (именно поэтому мы и делаем это). Полагаем, общее число не превысит 10 тысяч.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Логи доступа также находятся в хранилище Amazon S3. Amazon (как владелец сервиса) в любом случае имеет доступ к этой информации.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "01.06.2015: Обновление Политики конфиденциальности",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "Мы обновляем нашу <a href=\"privacy.html\">Политику приватности</a>, дополняя ее ответом на вопрос \"Какую информацию собирает Psiphon?\"",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "Страница <a href=\"privacy.html\">Политики приватности</a> – единственное источник информации для пользователей Psiphon о правилах сбора данных и обеспечения приватности. Политика описывает использование рекламы и аналитики, а также протоколирование на некоторых наших сайтах.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "Вступает в силу 01.06.2015.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "11.12.2019: обновление Политики приватности",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "Мы обновляем <a href=\"privacy.html\">Политику приватности</a>. Мы изменили срок хранения данных с 60 на 90 дней. Мы также подробнее рассказали о наших Бюллетенях по приватности. Подробности см. на <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub</a>.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "Убедиться, что Политика приватности в точности отражает нашу практику обработки данных.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "Это изменение вступает в силу с 12.12.2019.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "11.12.2019: временное увеличение срока хранения данных",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "Мы временно отключаем процедуру удаления данных о пользовательской активности. Таким образом, срок хранения данных увеличивается.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "Нам нужно дольше хранить данные для анализа новейших событий в области цензуры.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "Изменение вступает в силу 12 декабря 2019 года и продлится один месяц. Мы напишем в этом бюллетене, если понадобится увеличить этот срок.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "Срок хранения пользовательских данных был возвращен к прежнему значению до 10 апреля 2020 года.",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "19.06.2020: инцидент приватности – случайное сохранение IP-адресов пользователей",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "Мы используем AWS S3 для хостинга веб-сайтов, клиентских приложений и списков удаленных серверов. Мы обнаружили, что с июня 2015 года для многих наших ресурсов на S3 было включено ведение логов (журналов). В эти логи записывались IP-адреса пользователей, получивших доступ к упомянутым ресурсам.",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "У нас нет никаких свидетельств того, что какой-либо лог был передан третьей стороне. Мы не считаем произошедшее утечкой данных. Однако, это нарушение нашей Политики приватности.",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "Ведение логов отключено для доступных пользователям сервисов хранения Amazon. Все логи удалены. Мы держим руку на пульсе событий, связанных с приватностью пользователей, и проводим аудит ресурсов Amazon.",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "В фоновом режиме",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "Политика приватности",
