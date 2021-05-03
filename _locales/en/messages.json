@@ -15,10 +15,10 @@
     "message": "beyond borders",
     "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
   },
-  "nav-language-title" : {
+  "nav-language-title": {
     "message": "Choose your language"
   },
-  "nav-title" : {
+  "nav-title": {
     "message": "Navigation"
   },
   "faq-title": {
@@ -480,7 +480,7 @@
   },
   "faq-refund-question": {
     "message": "How do I get a refund for a subscription, purchase of PsiCash, or other purchase?",
-    "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money."
+    "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money. 'PsiCash' should not be translated or transliterated."
   },
   "faq-refund-answer-para-1": {
     "message": "<strong>Android:</strong> If it has been less than 48 hours since you made the purchase, you can <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">get a refund through the Play Store</a>. After 48 hours, email us at <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Please include your name, the email address of your Play Store account, the date of the purchase, what was purchased, the amount of the purchase, and the reason you are requesting the refund.",
@@ -497,6 +497,14 @@
   "faq-refund-answer-para-4": {
     "message": "Note that refunds may take up to a week to process.",
     "description": "This is the fourth paragraph of an FAQ answer."
+  },
+  "faq-psicash-pseudonym-question": {
+    "message": "Why should I use a pseudonym or alias for my PsiCash account username?",
+    "description": "This is an FAQ question. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated.."
+  },
+  "faq-psicash-pseudonym-answer-para-1": {
+    "message": "<p>A pseudonym is an alias or handle that you use to identify yourself that is different from your real name. Using a pseudonym for your PsiCash account username helps prevent your real identity from being linked with your Psiphon or PsiCash usage. If revealing yourself to be a Psiphon user is dangerous or otherwise undesirable, then you should choose a username that cannot be linked to you, and instead you should use a pseudonym that you have not used with any other site or service.</p>\n<p>When signing up for a new PsiCash account, it is possible for someone to check for the existence of a username by trying to create an account with it. If the attempt is successful, the username did not already exist. If the attempt failed, the username did already exist. Having your username discovered does <em>not</em> put your PsiCash account at risk, but your status as a Psiphon user may be revealed in this way.</p>\n<p>If you wish to avoid the link to your real identity, it is important to note that using a pseudonym that you use on other sites or services is almost the same as using your real name. If that pseudonym has already been linked to your identity elsewhere, then very little anonymity is gained by using it.</p>\n<p>Also note that your email address is <em>not</em> discoverable in this way. Even if you use a pseudonym, you can still provide an email address on your PsiCash account and it will not be discoverable in any way.</p>",
+    "description": "This is an FAQ answer. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated."
   },
   "alert-heading": {
     "message": "ALERT",
