@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a> (otomatik vekil sunucu) kullanıyorum. Windows için Psiphon tarafından sistem vekil sunucu ayarlarının yapılandırılmamasını nasıl sağlayabilirim?",
+        "message": "Windows için Psiphon tarafından sistem vekil sunucu ayarlarının yapılandırılmamasını nasıl sağlayabilirim?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "AutoProxy (otomatik vekil sunucu) kullanıyorum. Windows için Psiphon tarafından sistem vekil sunucu ayarlarının yapılandırılmamasını nasıl sağlayabilirim?",
+        "message": "Windows için Psiphon tarafından sistem vekil sunucu ayarlarının yapılandırılmamasını nasıl sağlayabilirim?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS</strong>:Lütfen <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">App Store üzerinden geri ödeme isteğinde bulunun</a>.",
+        "message": "<strong>iOS ve macOS</strong>:Lütfen <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">App Store üzerinden geri ödeme isteğinde bulunun</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "iPhone ya da iPad aygıtınız üzerindeki tüm uygulamaların İnternet bağlantısı Psiphon ağı üzerinden sağlanır. Yalnız iOS 10.2 ve üzerindeki sürümlerde kullanılabilir.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "Apple App Store üzerinde <strong>Apple silicon kullanan Mac bilgisayarlar için Psiphon</strong> ",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "Mac bilgisayarınızdaki tüm uygulamalar İnternet erişimini Psiphon ağı üzerinden yapacak. Apple silicon işlemcili tüm Mac bilgisayarlarda kullanılabilir. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Mac bilgisayarınızın işlemcisinin silicon olup olmadığına bakın</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "Apple App Store üzerinde <strong>Psiphon Browser for iOS</strong> uygulaması",
@@ -1267,105 +1275,13 @@
         "message": "Bu verileri Psiphon Inc. dışında kimler görecek",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17: S3 buketi günlüğü etkinleştirildi",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Etkilenen uygulamalar",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "Amazon S3 buketindeki (depolama kapsayıcısı gibi) bir web sitesi için erişim günlüğünü etkinleştiriyoruz (Teknik nedenlerden dolayı, farklı S3 buketlerinde web sitesinin düzinelerce kopyasını çalıştırıyoruz).",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "Bunu, buket içinde depolanan \"uzak sunucu listesine\" kaç erişim yapıldığını öğrenmek için yapıyoruz. Böylece kaç kullanıcının bağlantı kuramadığını anlayabileceğiz.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "Günlük kaydı 2014-04-17T15:00Z ile 2014-04-18T15:00Z arasında yapılacak.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "Günlük kayıtlarında IP adresleri, kullanıcı uygulamaları ve bir web sitesine erişme zamanları tutulacak. Bu verileri işleyerek, coğrafi bölgelere göre ilgili dosyaya erişen kullanıcı sayısını elde edebileceğiz.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "Veriler bir haftadan uzun tutulmayacak. Kullanıcı sayısını daha uzun süre tutacağız -- muhtemelen süresiz olarak.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "Henüz bu işlemin kaç kullanıcıyı etkileyeceğini bilmiyoruz (aslında bu işlemi bunu bilmek için yapıyoruz). Ancak kullanıcı sayısının 10.000 altında olacağını sanıyoruz.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Erişim günlükleri aynı zamanda Amazon S3 buketinde de kayıtlı olduğundan, Amazon bu günlüklere erişebilir (bununla birlikte Amazon zaten S3 buketindeki dosyaları da sunduğundan bu bilgileri kendisi de derleyebilir).",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01: Kişisel Gizlilik İlkesi güncellemesi",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "<a href=\"privacy.html\">Kişisel Gizlilik İlkemizi</a> güncelliyoruz. SSS bölümündeki \"Psiphon hangi bilgileri topluyor?\" sorusu da birleştirilmiş oluyor.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "Artık Psiphon kişisel gizlilik ve veri toplama ilkeleri için <a href=\"privacy.html\">Kişisel Gizlilik İlkesi</a> sayfasına bakılması yeterli. Bilgilere reklam kullanımı, istatistikler ve bazı web sitelerimizdeki günlük kayıtları hakkında ayrıntılar da eklendi.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "Bu en erken 2015-06-01T00:00Z tarihinde etkili olacak.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: Gizlilik ilkesi güncellemesi",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "<a href=\"privacy.html\">Gizlilik İlkemizi</a> güncelliyoruz. Kullanıcı İşlemi Verilerini saklama süresini 60 günden 90 güne çıkarıyoruz. Ayrıca Gizlilik Bültenleri hakkındaki bilgileri de genişlettik. Tüm değişiklikleri görmek için, <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">ilgili GitHub kaydına</a> bakabilirsiniz.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "Gizlilik İlkemizin veri uygulamalarımızı doğru şekilde yansıttığından emin olmak istiyoruz.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "Bu uygulama 2019-12-12T00:00Z saatinde başlayacaktır.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11: Geçici veri saklama uzatması",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "Kullanıcı İşlemi Verileri kısaltmayı geçici olarak durdurarak verileri saklama süresini uzatıyoruz.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "Son sansür etkinlikleirni incelememize zaman kazandırması için ayrıntılı işlem verilerini daha uzun süre saklamamız gerekiyor.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "Bu uygulama 2019-12-12T00:00Z saatinde başlayarak bir ay süreyle geçerli olacaktır. Daha uzun süreye gerek duyduğumuzu anlarsak bu bülteni güncelleyeceğiz.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "Kullanıcı işlemi verilerini saklama süresi 2020-04-10 tarihinde normale döndürüldü.",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19: Kişisel gizlilik sorunu: Kazara kullanıcı IP adresinin kaydedilmesi",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "Web sitelerini, istemci uygulamalarını ve uzak sunucu listelerini barındırmak için AWS S3 kullanıyoruz. Haziran 2015 tarihinden itibaren S3 kaynaklarımızın çoğunda günlük tutma özelliğinin etkin olduğunu farkettik. Bu günlüklerde bu kaynaklara erişen kullanıcıların IP adresleri bulunuyor.",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "Herhangi bir günlüğün başka birinin eline geçtğine dair bir bulgu olmadığından kullanıcı bilgileri açığa çıkmış sayılmaz. Bununla birlikte bu durum Gizlilik İlkemize aykırı bir durum oluşturuyor.",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "Kullanıcılar tarafından erişilebilen S3 klasörleri için günlük kaydı özelliği devre dışı bırakıldı ve tüm günlükler silindi. Gizlilikle ilgili sorunları izlemek ve AWS kaynak denetimini araştırmak için bir sistem üzerinde çalışıyoruz.",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "Arka planda",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "Kişisel Gizlilik İlkesi",

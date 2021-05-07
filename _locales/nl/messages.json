@@ -284,15 +284,15 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-get-updated-version-answer-para-1": {
-        "message": "<strong>Android:</strong> Als u Psiphon voor Android hebt geïnstalleerd via de Google Play Store, wordt deze automatisch bijgewerkt door de Play Store wanneer er een update beschikbaar is. Als u Psiphon hebt gesideload voor Android, zal de Psiphon klant updates downloaden als ze beschikbaar zijn, en een melding verschijnt waarin u wordt gevraagd om de update te installeren.\n\n\ngesideload",
+        "message": "<Strong> Android:</strong> Als u Psiphon voor Android hebt geïnstalleerd via de Google Play Store, wordt deze automatisch bijgewerkt door de Play Store wanneer er een update beschikbaar is. Als u Psiphon hebt gesideload voor Android, zal de Psiphon klant updates downloaden als ze beschikbaar zijn, en een melding verschijnt waarin u wordt gevraagd om de update te installeren.\n\n\ngesideload",
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Android users. 'Psiphon' must not be translated or transliterated."
     },
     "faq-get-updated-version-answer-para-2": {
-        "message": "<strong>Windows:</strong> De Psiphon voor Windows klant downloaden en installeren van updates als deze beschikbaar zijn.",
+        "message": "<Strong> Windows:</strong> De Psiphon voor Windows klant downloaden en installeren van updates als deze beschikbaar zijn.",
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' for Windows users. 'Psiphon' must not be translated or transliterated."
     },
     "faq-get-updated-version-answer-para-3": {
-        "message": "<strong> Handmatig updaten:</strong> Als de Psiphon self-updating mechanisme niet werkt (bijvoorbeeld als het wordt geblokkeerd), kunt u informatie vinden over het krijgen van een nieuw exemplaar van Psiphon uit de <a href=\"download.html\">Download</a>.",
+        "message": "<strong>Handmatig updaten:</strong> Als de Psiphon self-updating mechanisme niet werkt (bijvoorbeeld als het wordt geblokkeerd), kunt u informatie vinden over het krijgen van een nieuw exemplaar van Psiphon uit de <a href=\"download.html\">Download</a>.",
         "description": "FAQ answer to the question 'How do I get an updated version of Psiphon?' if the user believes that the automatic updating feature isn't working (or is blocked). 'Psiphon' must not be translated or transliterated."
     },
     "faq-orig-file-purpose-question": {
@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "Ik gebruik <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. Hoe kan Ik vertellen Psiphon voor Windows niet te configureren mijn systeem proxy instellingen?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "Ik gebruik AutoProxy. Hoe kan ik vertellen Psiphon voor Windows niet te configureren mijn systeem proxy-instellingen?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong>  <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">verzoek a.u.b. een terugbetaling via de App Store</a>.",
+        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -524,7 +524,7 @@
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "alert-body": {
-        "message": "De Psiphon Team heeft een specifiek geval van malware vermomd als een Psiphon voor Windows executable ontdekt. De malware wordt verspreid als een zip-bestand met de naam \"pisphone3.zip\" op www.copy.com en kunnen uit andere bronnen beschikbaar zijn. Het zip-bestand bevat een kwaadwillige binary met de naam \"pisphone3.exe\" met de beschreven op <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Let op de verkeerde spelling van de naam. Deze Windows-executable is niet digitaal ondertekend door Psiphon Inc. Nooit een nieuwe download van Psiphon zonder controle van de digitale handtekening, zoals beschreven <a href=\"#authentiek-windows\">hier</a>.",
+        "message": "De Psiphon Team heeft een specifiek geval van malware vermomd als een Psiphon voor Windows executable ontdekt. De malware wordt verspreid als een zip-bestand met de naam \"pisphone3.zip\" op www.copy.com en kunnen uit andere bronnen beschikbaar zijn. Het zip-bestand bevat een kwaadwillige binary met de naam \"pisphone3.exe\" met de beschreven op <a href=\"https://www.virustotal.com/en/file/54201e181615c7eb18ee5a5ca3a0b7924cf3097ac5214fbee530741b6a6bc3da/analysis/1372262585/\">Virus Total</a>. Let op de verkeerde spelling van de naam. Deze Windows-executable is niet digitaal ondertekend door Psiphon Inc. Nooit een nieuwe download van Psiphon zonder controle van de digitale handtekening, zoals beschreven <a href=\"#authentic-windows\"> hier </a>.",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
     },
     "download-now-button": {
@@ -628,7 +628,7 @@
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "download-android-playstore-pro-description": {
-        "message": "<strong>Ondersteund vrijheid op het internet</strong> door het downloaden Psiphon Pro uit de Google Play Store. (Niet in alle landen beschikbaar.)",
+        "message": "<Strong>Ondersteund vrijheid op het internet</strong> door het downloaden Psiphon Pro uit de Google Play Store. (Niet in alle landen beschikbaar.)",
         "description": ""
     },
     "download-android-amazon": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "Alle apps op uw iPhone of iPad krijgen via het Psiphon-netwerk toegang tot internet. Beschikbaar voor iOS 10.2 en hoger.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>Psiphon Browser voor iOS</strong> in de Apple App Store",
@@ -1267,105 +1275,13 @@
         "message": "Die behalve Psiphon Inc. wil bekijken deze gegevens",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17: inschakelen S3 bucket registratie ",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Affected applications",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "Wij zijn het inschakelen van toegang registreren voor één website Amazon S3 \"bucket\" (dat wil zeggen, storage container). (Om technische redenen lopen we tientallen exemplaren van de website in verschillende S3 buckets.)",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "Wij doen dit om te bepalen hoeveel toegangen er zijn aan de \"lijst van de externe server\" opgeslagen in de bucket. Dit zal helpen om ons een idee van hoeveel gebruikers zijn niet aansloten.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "Registratie wordt ingeschakeld vanaf 2014-04-17T15: 00Z naar 2014-04-18T15: 00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "De registratie wil verzamelen IP-adressen, user agents, en timestamps van de toegang tot een website. Wanneer die gegevens worden verwerkt, we hebben een telling van gebruikers gedeeld door geografische regio dat het bestand in kwestie hebben benaderd.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "De gegevens zullen niet meer dan één week bewaard. We zullen het bijhouden van de telling van de gebruikers langer - misschien voor onbepaalde tijd.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "We weten niet zeker nog hoeveel gebruikers zullen worden getroffen (dat is de reden waarom we dit doen), maar we vermoeden dat het zal minder zijn dan 10.000 gebruikers.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "De toegang logbestanden worden ook opgeslagen in een Amazon S3 bucket, zodat Amazon toegang tot de logs hebben zal. (Echter, Amazon serveert de bestanden, zodat ze al toegang kunnen hebben tot deze informatie.)",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01: Privacy Beleid update",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "We zijn update van onze <a href=\"privacy.html\"> Privacybeleid </a>. Dit geldt ook voor het samenvoegen daarin het antwoord op de veelgestelde vragen vraag \"Welke informatie heeft Psiphon verzameld? '.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "De <a href=\"privacy.html\"> Privacybeleid </a> pagina is nu de enige plaats die gebruikers nodig hebben om te controleren op privacy en het verzamelen van gegevens beleid Psiphon's. Het is bijgewerkt om het gebruik van reclame, analytics weerspiegelen, en registratie voor sommige van onze websites.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "Dit is van kracht op 2015-06-01T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: Privacy beleid update",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "We werken ons <a href=\"privacy.html\">Privacybeleid bij </a>. We veranderen de bewaartermijn van gebruikersactiviteitsgegevens van 60 dagen naar 90 dagen. We hebben ook de informatie over Privacy Bulletins uitgebreid. Zie de <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub-commit </a> voor de exacte wijzigingen.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "Om ervoor te zorgen dat het privacybeleid onze gegevenspraktijken nauwkeurig weerspiegelt.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "Dit is van kracht op 2019-12-12T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11: Uitbreiding voor tijdelijke gegevensbewaring",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "We stoppen tijdelijk het snoeien van Gebruikersactiviteitgegevens, waardoor de bewaartermijn van gegevens effectief wordt verlengd.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "We moeten gedetailleerde activiteitsgegevens langer bewaren om ons tijd te geven om recente censuur gebeurtenissen te analyseren.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "Dit is van kracht vanaf 2019-12-12T00: 00Z. Het is een maand van kracht. We zullen dit bulletin bijwerken als het verder moet worden uitgebreid.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "Het bewaren van gebruikersgegevens is op 2020-04-10 weer normaal.",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19: Privacy uitzondering: Per ongeluk bewaren van IP-adressen van gebruikers",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "We gebruiken AWS S3 om websites, cliënttoepassingen en externe serverlijsten te hosten. We ontdekten dat logboekregistratie was ingeschakeld voor veel van onze S3-bronnen sinds juni 2015. Deze logboeken bevatten IP-adressen van gebruikers die toegang hebben gehad tot die bronnen.",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "We hebben geen indicatie dat logs zijn verkregen door een externe partij, dus dit is geen inbreuk op gebruikersgegevens. Het is echter in strijd met ons privacybeleid.",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "Logboekregistratie is uitgeschakeld voor gebruikerstoegankelijke S3-buckets en alle logboeken zijn verwijderd. We werken aan een systeem om privacyuitzonderingen en -kwesties bij te houden, en onderzoeken de controle van AWS-bronnen.",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "achtergrond",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "privacybeleid",

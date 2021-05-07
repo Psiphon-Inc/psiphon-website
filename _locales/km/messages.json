@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "ខ្ញុំប្រើ <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. តើខ្ញុំអាចប្រាប់ Psiphon សម្រាប់ Windows ថាមិនឲ្យកំណត់ប្រព័ន្ធប្រូកស៊ីរបស់ខ្ញុំ ដោយវិធីណា?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "ខ្ញុំប្រើ AutoProxy។ តើខ្ញុំអាចប្រាប់ Psiphon សម្រាប់ Windows កុំឲ្យកំណត់ប្រូកស៊ីក្នុងប្រព័ន្ធរបស់ខ្ញុំ?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong> សូម<a href=\"https://support.apple.com/HT204084\" target=\"_blank\">ស្នើសុំការទទួលប្រាក់ត្រឡប់មកវិញតាមរយៈ App Store</a>។",
+        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "គ្រប់កម្មវិធីទាំងអស់នៅលើ iPhone ឬ iPad នឹងត្រូវប្រើប្រាស់ អ៊ីនធឺណេត តាមរយៈបណ្តាញ Psiphon។ មានសម្រាប់ iOS 10.2 ឬខ្ពស់ជាងនេះ។  ",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>កម្មវិធីរុករក Psiphon សម្រាប់ iOS</strong> ក្នុង Apple App Store",
@@ -1267,105 +1275,13 @@
         "message": "អ្នកណាខ្លះក្រៅពី Psiphon Inc. នឹងឃើញទិន្នន័យនេះ",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17: បើកកំណត់ត្រាកញ្ចប់ S3 ",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Affected applications",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "យើងកំពុងបើកដំណើរការការចូលប្រើសំរាប់គេហទំព័រ Amazon S3 \"ដាក់ធុង\" មួយ (ឧទាហរណ៍ ឧបករណ៍ផ្ទុកផ្ទុក) ។ (សម្រាប់ហេតុផលបច្ចេកទេស យើងដំណើរការគេហទំព័ររាប់សិបនៃគេហទំព័រនៅក្នុងធុង S3 ផ្សេងគ្នា។ )",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "យើងកំពុងធ្វើការនេះដើម្បីកំណត់ថាតើចំនួនចូលដំណើរការមាននៅ \"បញ្ជីម៉ាស៊ីនមេពីចម្ងាយ\" ត្រូវបានរក្សាទុកក្នុងធុង។ នេះនឹងជួយផ្តល់គំនិតឱ្យយើងដឹងពីចំនួនអ្នកប្រើប្រាស់ដែលមិនអាចភ្ជាប់។",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "ការចូលនឹងត្រូវបានបើកចាប់ពី 2014-04-17T15: 00Z ដល់ 2014-04-18T15: 00Z ។",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "ការកត់ត្រានឹងប្រមូលអាសយដ្ឋាន IP, ភ្នាក់ងារអ្នកប្រើ, និងត្រាពេលវេលានៃការចូលប្រើគេហទំព័រ។ នៅពេលដែលទិន្នន័យនោះ ត្រូវបានដំណើរការ យើងនឹងមានចំនួនអ្នកប្រើប្រាស់ បែងចែកតាមតំបន់ភូមិសាស្ត្រដែលបានចូលមើលឯកសារ។",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "ទិន្នន័យនឹងត្រូវបានរក្សាទុកមិនលើសពីមួយសប្តាហ៍។ យើងនឹងរក្សាចំនួននៃអ្នកប្រើប្រាស់ឱ្យបានយូរជាងមុន - អាចមិនកំណត់។",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "យើងមិនដឹងប្រាកដថាតើអ្នកប្រើប្រាស់ប៉ុន្មាននាក់នឹងរងផលប៉ះពាល់នោះទេ (ហើយនេះជាមូលហេតុដែលយើងកំពុងធ្វើដូច្នេះ) ប៉ុន្តែយើងសង្ស័យថា វានឹងមានអ្នកប្រើប្រាស់តិចជាង 10,000 ។",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "កំណត់ហេតុចូលដំណើរការត្រូវបានរក្សាទុកនៅក្នុង Amazon S3 ដូច្នេះក្រុមហ៊ុន Amazon នឹងមានសិទ្ធិចូលមើលកំណត់ហេតុ។ (ទោះជាយ៉ាងណាក៏ដោយ ក្រុមហ៊ុន Amazon បានដាក់ឯកសារ ដូច្នេះពួកគេអាចចូលប្រើព័ត៌មាននេះបាន។ )",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01: បច្ចុប្បន្នភាពគោលការណ៍ឯកជនភាព",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "យើងកំពុងធ្វើបច្ចុប្បន្នភាព <a href=\"privacy.html\">គោលការណ៍ឯកជនភាព</a>របស់យើង។ នេះរួមបញ្ចូលការច្របាច់ចម្លើយរបស់សំណួរទូទៅ \"តើព័ត៌មានអ្វីខ្លះ ដែល Psiphon ប្រមូល?\"។",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "ទំព័រ<a href=\"privacy.html\">គោលការណ៍ឯកជនភាព</a> ឥលូវជាកន្លែងដែលអ្នកប្រើប្រាស់ ត្រូវការឆែកឯកជនភាព និងការប្រមូលទិន្នន័យរបស់គោលការណ៍ Psiphon។ វាត្រូវបានកែតម្រូវឆ្លុះបញ្ចាំងពីការប្រើប្រាស់ពាណិជ្ជកម្ម, វិភាគ និងការកត់ត្រាសម្រាប់គេហទំព័ររបស់យើង។",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "នេះមានប្រសិទ្ធិភាពយ៉ាងហោចណាស់ត្រឹម 2015-06-01T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: បច្ចុប្បន្នភាពគោលការណ៍ឯកជនភាព",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "យើងកំពុងធ្វើបច្ចុប្បន្នភាព <a href=\"privacy.html\">គោលការណ៍ឯកជនភាព</a>។  យើងកំពុងផ្លាស់ប្តូររយៈពេល នៃការរក្សាទុកទិន្នន័យ​សកម្មភាពអ្នកប្រើប្រាស់ពី ៦០ ថ្ងៃទៅ ៩០ ថ្ងៃ។ យើងក៏បានពង្រីក​ព័ត៌មានអំពីព្រឹត្តិប័ត្រព័ត៌មានឯកជន។ ចំពោះការផ្លាស់ប្តូរពិតប្រាកដ សូមមើល<a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">ឯកសារប្តេជ្ញា GitHub </a>។",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "ដើម្បីធានាបាននូវគោលការណ៍ភាពឯកជនឆ្លុះបញ្ចាំងឱ្យបានត្រឹមត្រូវនូវការអនុវត្តទិន្នន័យរបស់យើង។",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "នេះនឹងចូលជាធរមាននៅ 2019-12-12T00:00Z។",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11: ផ្នែកបន្ថែមការរក្សាទុកទិន្នន័យបណ្តោះអាសន្ន",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "យើងកំពុងបញ្ឈប់សកម្មភាពទិន្នន័យអ្នកប្រើប្រាស់ជាបណ្ដោះអាសន្ន ដោយកាត់បន្ថយរយៈពេលនៃការរក្សាទុកទិន្នន័យយ៉ាងមានប្រសិទ្ធភាព។",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "យើងចាំបាច់ត្រូវរក្សាទិន្នន័យសកម្មភាពតូចៗឱ្យបានយូរ ដើម្បីទុកពេលឱ្យយើងវិភាគព្រឹត្តិការណ៍ពិនិត្យថ្មីៗ។",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "នេះនឹងចូលជាធរមានចាប់ពីឆ្នាំ2019-12-12T00:00Z ។ វានឹងចូលជាធរមានក្នុងរយៈពេលមួយខែ។ យើងនឹងធ្វើបច្ចុប្បន្នភាពព្រឹត្តិប័ត្រនេះប្រសិនបើវាត្រូវការពង្រីកបន្ថែមទៀត។",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "ការរក្សាទុកទិន្នន័យសកម្មភាពអ្នកប្រើត្រូវបានត្រឡប់ទៅធម្មតាវិញត្រឹម 2020-04-10។",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19: ករណីលើកលែងភាពឯកជន៖ ការរក្សាទុក IP របស់អ្នកប្រើប្រាស់ដោយចៃដន្យ",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "យើងប្រើ AWS S3 ដើម្បីបង្ហោះវេបសាយកម្មវិធីអតិថិជននិងបញ្ជីម៉ាស៊ីនមេពីចម្ងាយ។ យើងបានរកឃើញថាការកាប់ឈើត្រូវបានអនុញ្ញាតសម្រាប់ធនធាន S3 របស់យើងជាច្រើនចាប់តាំងពីខែមិថុនាឆ្នាំ ២០១៥ ។ កំណត់ហេតុទាំងនេះរួមមានអាសយដ្ឋាន IP របស់អ្នកប្រើប្រាស់ដែលបានចូលប្រើប្រាស់ធនធានទាំងនោះ។",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "យើងមិនមានការចង្អុលបង្ហាញថាកំណត់ហេតុណាមួយត្រូវបានទទួលដោយភាគីខាងក្រៅណាមួយទេដូច្នេះនេះមិនមែនជាការរំលោភទិន្នន័យអ្នកប្រើប្រាស់ទេ។ ទោះយ៉ាងណាក៏ដោយវាជាការរំលោភលើគោលការណ៍ឯកជនភាពរបស់យើង។",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "ការកាប់ឈើត្រូវបានបិទសម្រាប់ធុង S3 ដែលអាចចូលដំណើរការបានដោយអ្នកប្រើហើយកំណត់ហេតុទាំងអស់ត្រូវបានលុបចោល។ យើងកំពុងធ្វើការលើប្រព័ន្ធដើម្បីតាមដានការលើកលែងនិងបញ្ហាសិទ្ធិឯកជននិងការស៊ើបអង្កេតសវនកម្មធនធាន AWS ។",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "ផ្ទៃខាងក្រោយ",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "គោលការណ៍​ភាព​ឯកជន",

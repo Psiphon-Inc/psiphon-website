@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "Koristim <a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">AutoProxy</a>. Kako mogu reći Psiphon-u za Windows da ne konfigurira postavke mog proxy-a sustava?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "Koristim AutoProxy. Kako da kažem Psiphon-u za Windows da ne konfigurira postavke proxy-a mog sustava?",
+        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
@@ -1267,105 +1275,13 @@
         "message": "Tko će osim Psihpon-a vidjeti ove podatke",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17: Omogući S3 zapisivanje \"kanta\"",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Affected applications",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "Omogućujemo zapisivanje pristupa za jednu stranicu Amazon S3 \"kanta\" (tj. kontejner za pohranu). (Zbog tehničkih razloga, imamo desetke kopija stranice na različitim S3 kantama.)",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "Radimo to tako da odredimo koliko ima pristupa \"popisu udaljenih poslužitelja\" pohranjenom u kanti. To će nam pomoći da vidimo koliok korisnika se ne uspijeva spojiti.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "Zapisivanje će biti omogućeno od 2014-04-17T15:00Z do 2014-04-18T15:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "Zapisivanjem će se prikupljati IP adrese, korisnički agenti i vremenski žigovi pristupa stranici. Nakon što podatci budu obrađeni, imati ćemo broj korisnika, podijeljenih po zemljopisnim regijama, koji su pristupili predmetnoj datoteci.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "Podatci će biti zadržani najdulje tjedan dana. Broj korisnika ćemo zadržati dulje - možda beskonačno.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "Ne znamo sa sigurnošću koliko će korisnika biti pogođeno (zato to i radimo), ali mislimo da će to biti manje od 10,000.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Zapisi o pristupu su također pohranjeni na Amazon S3 kanti, tako da će Amazon imati pristup zapisima. (kako bilo, Amazon poslužuje datoteke, tako da već mogu pristupiti ovim informacijama.)",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01: Ažuriranje Izjave o privatnosti",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "Ažuriramo svoju <a href=\"privacy.html\">Izjavu o privatnosti</a>. Ovo uključuje spajanje odgovora na često postavjeno pitanje \"Koje informacije Psihpon prikuplja?\" u nju.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "Stranica <a href=\"privacy.html\">Izjave o privatnosti</a> je sad jedino mjesto koje korisnici moraju posjetiti kako bi bili upoznati sa Psiphon-ovim izjavama o privatnosti i prikupljanju podataka. Ažurirana je tako da reflektira korištenje oglasa, analize i zapisivanja za neke od naših stranica.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "Ovo je na snazi najkasnije od 2015-06-01T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: Privacy Policy update",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "We are updating our <a href=\"privacy.html\">Privacy Policy</a>. We are changing the retention period of User Activity Data from 60 days to 90 days. We also expanded the information about Privacy Bulletins. For the exact changes, see the <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">GitHub commit</a>.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "To ensure the Privacy Policy accurately reflects our data practices.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "This will be in effect on 2019-12-12T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11: Temporary data retention extension",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "We are temporarily halting User Activity Data pruning, effectively extending the data retention period.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "We need to keep granular activity data longer to give us time to analyze recent censorship events.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "This will be in effect starting 2019-12-12T00:00Z. It will be in effect for one month. We will update this bulletin if it needs to be extended beyond that.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "User activity data retention was returned to normal by 2020-04-10.",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19: Privacy exception: Accidental user IP retention",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "We use AWS S3 to host websites, client applications, and remote server lists. We discovered that logging had been enabled for many of our S3 resources since June 2015. These logs include IP addresses of users who accessed those resources.",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "We have no indication that any logs were obtained by any external party, so this is not a user data breach. However, it is a violation of our Privacy Policy.",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "Logging has been disabled for user-accessible S3 buckets and all logs have been deleted. We are working on a system to keep track of privacy exceptions and issues, and investigating AWS resource auditing.",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "U pozadinu",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "Izjava o privatnosti",

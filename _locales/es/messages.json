@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "Uso <a href=\"https://addons.mozilla.org/es/firefox/addon/autoproxy\">AutoProxy</a>. ¿Cómo puedo decirle a Psiphon para Windows que no configure los parámetros para proxy de mi sistema?",
+        "message": "¿Cómo puedo decirle a Psiphon para Windows que no configure los ajustes para proxy de mi sistema?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "Uso AutoProxy. ¿Cómo puedo decirle a Psiphon para Windows que no configure los parámetros para proxy de mi sistema?",
+        "message": "¿Cómo puedo decirle a Psiphon para Windows que no configure los ajustes para proxy de mi sistema?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:</strong> Por favor, <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">solicita el reintegro a través de la App Store</a>.",
+        "message": "<strong>iOS y macOS:</strong> Por favor, <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">solicita el reintegro a través de la App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "Todas las apps en su iPhone o iPad accederán a Internet a través de la red Psiphon. Disponible para iOS 10.2 y superior.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon para macOS con Apple silicon</strong> en la Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "Todas las aplicaciones en tu Mac accederán a Internet a través de la red Psiphon. Disponible para todas las computadoras Mac con Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Comprueba si tu Mac tiene Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>Navegador Psiphon para iOS</strong> en la Apple App Store",
@@ -1267,105 +1275,13 @@
         "message": "Quién verá estos datos además de Psiphon Inc.",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17: Habilitación del registro (log) del bucket S3",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Aplicaciones afectadas",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "Estamos habilitando el registro (log) de acceso para un \"bucket\" (contenedor de almacenamiento) Amazon S3 de un sitio web. (Por razones técnicas, ejecutamos docenas de copias del sitio web en diferentes buckets S3.)",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "Estamos haciendo esto para determinar cuántos accesos hay a la \"lista de servidores remotos\" almacenada en el bucket. Esto nos ayudará a hacernos una idea de cuántos usuarios no están pudiendo conectar.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "El registro estará habilitado desde 2014-04-17T15:00Z hasta 2014-04-18T15:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "El registro recogerá las direcciones IP, agentes de usuario, y marcas de tiempo del acceso a un sitio web. Cuando esos datos sean procesados, tendremos un recuento de usuarios divididos por región geográfica que han accedido al fichero en cuestión.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "Los datos se retendrán no más de una semana. Seguiremos conservando el recuento de usuarios más tiempo -- posiblemente de forma indefinida.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "Aún no sabemos con seguridad cuantos usuarios estáran afectados (esa es la razón por la que hacemos esto), pero sospechamos que serán menos de 10.000 usuarios.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Los registros de acceso también se almacenan en un 'bucket' (cubículo) de Amazon S3, así que Amazon tendrá acceso a los registros (no obstante, Amazon sirve los ficheros, así que ya podía acceder a la información).",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01: Actualización de la política de privacidad",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "Estamos actualizando nuestra <a href=\"privacy.html\">Política de privacidad</a>. Esto incluye incorporar en ella la respuesta a la pregunta de las preguntas frecuentes (FAQ) \"¿Qué información recopila Psiphon?\".",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "La página de la <a href=\"privacy.html\">Política de privacidad</a> ahora es el único lugar que los usuarios necesitan visitar para ver las políticas de privacidad y recopilación de datos. Ha sido actualizada para reflejar el uso de anuncios publicitarios, análisis, y registro (log) para algunos de nuestros sitios web.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "Esto es efectivo al menos desde 2015-06-01T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11: Actualización de Política de Privacidad",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "Estamos actualizando nuestra <a href=\"privacy.html\">Política de Privacidad</a>. Estamos cambiando el periodo de retención de los Datos de Actividad de Usuario de 60 a 90 días. También expandimos la información acerca de Boletines de Privacidad. Por los cambios exactos, mira el <a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">compromiso GitHub</a>.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "Para asegurar que la Política de Privacidad refleje precisamente nuestras prácticas de datos.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "Esto entrará en efecto en 2019-12-12T00:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11: Extensión temporaria de retención de datos",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "Temporalmente estamos deteniendo la reducción de Datos de Actividad de Usuario, extendiendo efectivamente el periodo de retención de datos.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "Necesitamos mantener datos de actividad granulares durante más tiempo para poder analizar eventos receintes de censura.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "Esto entrará en efecto a partir del 2019-12-12T00:00Z. Lo será durante un mes. Actualizaremos este boletín si necesita ser extendido más allá de esa fecha.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "La retención de datos de actividad de usuario fue retornada a la normalidad el 2020-04-10.",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19: Excepción de privacidad: Retención accidental de IP de usuario",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "Usamos AWS S3 para alojar sitios web, aplicaciones de clientes, y listas de servidores remotos. Descubrimos que el registro había sido habilitado para muchos de nuestros recursos S3 desde junio de 2015. Estos registros incluyen direcciones de IP de usuarios que accedieron a esos recursos.",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "No tenemos indicaciones de que algún registro fuera obtenido por algún tercero, por lo que esto no es una fuga de datos de usuario. Sin embargo, es una violación a nuestra Política de Privacidad.",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "El registro ha sido deshabilitado para contenedores S3 accesibles por usuario, y toda esa información ha sido borrada. Estamos trabajando en un sistema para mantener rastros de excepciones y cuestiones de privacidad, e investigando la auditoría de recursos AWS.",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "Escenario",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "Política de privacidad",

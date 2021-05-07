@@ -124,7 +124,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-answer-para-2023": {
-        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "message": " ከ 2020-09-09 እስከ 2023-11-02 ባለው ጊዜ ለሚሠራ ማረጋገጫ የSHA1 የጣት አሻራ የሚከተለው ነው፡- ",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-2020": {
@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "<a href=\"https://addons.mozilla.org/en-US/firefox/addon/autoproxy\">የራስ ወኪል</a> እጠቀማለሁ። Psiphon ለWindows የወኪል ሥርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ?",
+        "message": "Psiphon ለWindows የወኪል ስርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "የራስሠር ወኪል እጠቀማለሁ። Psiphon ለWindows የወኪል ስርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ?",
+        "message": "Psiphon ለWindows የወኪል ስርአት ቅንብሮቼን እንዳያዋቅር ማድረግ እንዴት እችላለሁ?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS:-</strong> እባክዎትን <a href=\"https://support.apple.com/HT204084\" target=\"_blank\"> የገንዘብ ማስመለስ ጥያቄዎን በApp Store በኩል ያድርጉ።",
+        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -647,6 +647,14 @@
         "message": "በእርስዎ iPhone ወይም በ iPad ላይ ያሉት ሁሉም መተግበሪያዎች በPsiphon አውታረመረብ በኩል ኢንተርኔትን ይጠቀማሉ። ለ iOS 10.2 እና ከዚያ በላይ ይገኛል።",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
+    },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>Psiphon አሳሽ ለ iOS</strong> የአፕል መተግበሪያ መደብር ውስጥ",
         "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
@@ -724,7 +732,7 @@
         "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
     },
     "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon እየሠራ ያለው በምናባዊ የግል አውታረ መረብ (ቪፒኤን) ወይም  የመሣሪያ ሙሉ በሙሉ  ሁነታ ነው።  ሁሉም መተግበሪያዎች የሚዘዋወሩት በPsiphon አማካኝነት ነው።",
+        "message": "Psiphon እየሠራ ያለው በምናባዊ የግል አውታረ መረብ (ቪፒኤን) ወይም  የመሣሪያ ሙሉ በሙሉ  ሁነታ ነው።  ሁሉም መተግበሪያዎች የሚቦሮቦሩት በPsiphon አማካኝነት ነው።",
         "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
     },
     "user-guide-android-ui-status-image-annotation-2": {
@@ -1267,105 +1275,13 @@
         "message": "ከPsiphon Inc. ባሻገር ውሂቡን ማን ያየዋል",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-17፡- S3 የባልዲ መዝገብን አንቃ",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "ሰለባ የሆኑ መተግበሪያዎች",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "የማግኛ መዝገብን ለአንድ ድረ ገጽ Amazon S3 ”በኬት“(ማለትም የማከማቻ መያዣ) እያነቃን ነው። (በቴክኒካል ምክኒያቶች ደርዘን የሚያህሉ የድረ ገጹን ቅዲዎች በተለያዩ የS3 በኬቶች እናሄዳለን። )",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "ይህንን የምናደርገው  በበኬት ውስጥ የተጠራቀመውን ”የርቀት አገልጋይ ዝርዝር“ ምን ያህል ጊዜ ጥቅም ላይ እንደዋለ ለመወሰን ነው። ይህም ምን ያክል ተጠቃሚዎች መገናኘት እንዳልቻሉ ሃሳብ ለማግኘት እንዲረዳን ነው። ",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "ምዝገባ ከ2014-04-17T15:00Z እስከ 2014-04-18T15:00Z ባለው ይነቃል።",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "መዝገቡ የአንድን ድረ ገጽ ተደራሽነት የIP አድራሻዎች፣ የተጠቃሚ ወኪሎች እና የጊዜ ማህተሞች ይሰበስባል። ይህን ዳታ በምናሰላበት ወቅት በጆግሪያፊያዊ ቀጠና  ተከፋፍሎ ሰነዱን ያገኙትን የተጠቃሚቆች ቁጥር እናገኛለን። ",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "ውሂብዎ ከአንድ ሳምንት በላይ አይቀመጥም። የተጠቃሚዎችን ቁጥር ረዘም ላለ ጊዜ ምናልባትም ላልተወሰነ ጊዜ እናስቀምጣለን። ",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "ምን ያህል ሰዎች በዚህ ሊጠቁ እደሚችሉ ገና በእርግጠኝነት አናውቅም (ይህንንም የምናደርገው በዚህ የተነሳ ነው) ነገር ግን ከ10,000 ተጠቃሚዎች እንደሚያንሱ እንገምታለን።",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "የመዳረሻ መዝገቦቹ በAmazon  S3  በኬት ውስጥም ስለሚቀመጡ አማዞን ማዝገቡን ማግኘት ይችላል። (ይሁንና ሰነዶቹን የሚያቀርበው አማዞን ስለሆነ መረጃውን ቀድሞውኑ ማግኘት ይችላል።)",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "2015-06-01፡- የግላዊነት ፖሊሲ ዝመና",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "<a href=\"privacy.html\">የግላዊነት ፖሊሲያችንን</a> እያዘመንን ነው። ይህም “Psiphon ምን አይነት መረጃዎችን ይሰበስባል？” የሚለውን ተ.ሚ.ጥ. ጥያቄ መልስ በውስጡ ማካተትን ይጨምራል። ",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "<a href=\"privacy.html\">የግላዊነት ፖሊሲ</a> ገጽ አሁን ስለ Psiphon (Psiphon) ግላዊነት እና የዳታ አሰባሰብ ፖሊሲዎች ተጠቃሚዎች ሊጎበኙት የሚገባው ብቸኛው ስፍራ ነው።  ለአንዳንድ ድረገጾቻችን የማስታወቂያዎች፣ የትንተናዎች እና የምዝገባዎችን አጠቃቀም እንዲያንጸባርቅ ሆኖ ዘምኗል። ",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "ይህ ቢያንስ ከ 2015-06-01T00:00Z ጀምሮ ተግባራዊ ሆኗል።",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "2019-12-11፦ የግላዊነት ፖሊሲ ዝመና",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "<a href=\"privacy.html\">የግላዊነት ፖሊሲያችንን</a> እያዘመንነን ነው። የተጠቃሚን እንቅስቃሴ የመያዝ ጊዜ ከ 60 ቀናት እስከ 90 ቀናት እንቀይራለን ፡፡ እንዲሁም ስለ ግላዊነት ማስታወቂያዎች ይለውን መረጃ ጨምረናል። ለትክክለኛው ለውጦች የ<a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\"> GitHub Commitን</a> ይመልከቱ።",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "የግላዊነት መምሪያ በትክክል የውሂብ አያያዛችንን እንደሚያንጸባርቅ ለማረጋገጥ።",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "ይህ ከ 2019-12-12T00:00Z ጀምሮ ተግባራዊ ሆኗል።",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "2019-12-11፦ ዘላቂነት የሌለው የውሂብ ይዞታ ማከያ",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "የውሂብ ማቆያ ጊዜያችንን ውጤታማ በሆነ መንገድ እናራዝማለን ፣ የተጠቃሚ እንቅስቃሴን የመቁረጥ ጊዜን ለጊዜው እናቆማለን።",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "የቅርብ ጊዜ ሳንሱር ኩነቶችን ለመተንተን ጊዜ ስለሚያስፈልገን ግርድፍ የእንቅስቃሴ መረጃን ረዘም ላለ ጊዜ ማቆየት አለብን።",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "ይህ ተፈጻሚ የሚሆነው ከ2019-12-12T00:00Z (ጎርጎሮሳዊ አቆጣጠር)። ተፈጻሚ የሚሆነው ለአንድ ወር ነው። ከዛ በላይ ከተራዘመ ይህን ማስታወቂያ እናዘምነዋለን።",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "የተጠቃሚ እንቅስቃሴ ውሂብ ይዘት በ 2020-04-10 ወደ መደበኛ ተመልሷል።",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "2020-06-19፦ የግላዊነት ልዩ ክስተት፦ በስህተት የተጠቅሚን IP ይዞ ማስቀመጥ",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "ድር ጣቢያዎችን ፣ የደንበኛ መተግበሪያዎችን እና የርቀት አገልጋዮችን ዝርዝር ለማስተናገድ AWS S3 ን እንጠቀማለን ፡፡ እ.ኤ.አ. ከሰኔ 2015 ጀምሮ ለአብዛኛዎቹ የ S3 ሀብቶች ምዝገባ እንደነቃ አወቅን። እነዚህ ምዝግብ ማስታወሻዎች እነዚህን ሀብቶች የደረሱ የተጠቃሚዎች አይፒ አድራሻዎችን ያካትታሉ።",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "በማንኛውም ምዝግብ ማስታወሻዎች በማንኛውም የውጭ አካል የተገኘ መሆኑን የሚጠቁም ምንም ነገር የለንም ፣ ስለዚህ ይህ የተጠቃሚው መብት ጥሰት አይደለም ፡፡ ሆኖም የግላዊነት ፖሊሲያችን ጥሰት ነው።",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "ለተጠቃሚ ተደራሽ ለሆኑ S3 ባልዲዎች ምዝግብ ማስታወሻ ቦዝኗል (ቦዝኗል) እና ሁሉም ምዝግብ ማስታወሻዎች ተሰርዘዋል ፡፡ ልዩ ሁኔታዎችን እና ጉዳዮችን ለመከታተል እና የ AWS ሀብት ቁጥጥርን ለመመርመር በአንድ ስርዓት ላይ እየሰራን ነው ፡፡",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "መደብ",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "የግላዊነት ፖሊሲ",
@@ -1524,7 +1440,7 @@
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whycare-para-2": {
-        "message": "VPN ን ሲጠቀሙ ወደ መሳሪያዎ እና ከእሱ የሚመጣው ሁሉም ውሂብ በእሱ በኩል ያልፋል። የተመሰጠሩ ኤችቲቲፒአፕን የሚጠቀም ድር ጣቢያ ከጎበኙ ሁሉም የዚያ ጣቢያ ውሂብ ለ VPN ይታያል። የተመሰጠሩ ኤች ቲ ቲ ፒ ፒዎችን የሚጠቀም ድር ጣቢያ ከጎበኙ የጣቢያው ይዘት የተመሰጠረ ነው ፣ ግን ስለጣቢያው አንዳንድ መረጃዎች ለ VPN ይታያል። በመሣሪያዎ ላይ ያሉ ሌሎች መተግበሪያዎች እና አገልግሎቶች እንዲሁም የተመሰጠረ ወይም ያልተመሳጠረ ውሂብ ያስተላልፋሉ። (ይህ ሁሉም VPNs ከሚሰጥበት ምስጠራ የተለየ መሆኑን ልብ ይበሉ ፡፡ እዚህ የምንመለከተው በቪ.ፒ.ኤን. ቦይ <em>ውስጥ</em> ያልተመሰጠረ ወይም ያልተሰበረው መረጃ ብቻ ነው) ፡፡",
+        "message": "አንድ VPN ሲጠቀሙ ወደ መሣሪያዎ እና ከእሱ የሚመጣው ሁሉም ውሂብ በእሱ በኩል ያልፋል። የተመሰጠሩ ኤችቲቲፒአፕን የሚጠቀም ድር ጣቢያ ከጎበኙ ሁሉም የዚያ ጣቢያ ውሂብ ለ VPN ይታያል። የተመሰጠሩ ኤች ቲ ቲ ፒ ፒዎችን የሚጠቀም ድር ጣቢያ ከጎበኙ የጣቢያው ይዘት የተመሰጠረ ነው ፣ ግን ስለጣቢያው አንዳንድ መረጃዎች ለ VPN ይታያል። በመሣሪያዎ ላይ ያሉ ሌሎች መተግበሪያዎች እና አገልግሎቶች እንዲሁም የተመሰጠረ ወይም ያልተመሳጠረ ውሂብ ያስተላልፋሉ። (ይህ ሁሉም VPNs ከሚሰጥበት ምስጠራ የተለየ መሆኑን ልብ ይበሉ ፡፡ እዚህ የምንመለከተው በቪ.ፒ.ኤን. ቦይ <em>ውስጥ</em> ያልተመሰጠረ ወይም ያልተሰበረው መረጃ ብቻ ነው) ፡፡",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an 'emphasis' (like italics) HTML tag, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whycare-para-3": {

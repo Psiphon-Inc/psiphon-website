@@ -444,11 +444,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "J’utilise <a href=\"https://addons.mozilla.org/fr/firefox/addon/autoproxy/\">AutoProxy</a>. Comment puis-je dire à Psiphon pour Windows de ne pas configurer les paramètres du serveur mandataire système ?",
+        "message": "Comment puis-je dire à Psiphon pour Windows de ne pas configurer les paramètres de mon serveur mandataire système ?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "J’utilise AutoProxy. Comment puis-je dire à Psiphon pour Windows de ne pas configurer les paramètres du serveur mandataire système ?",
+        "message": "Comment puis-je dire à Psiphon pour Windows de ne pas configurer les paramètres de mon serveur mandataire système ?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -508,7 +508,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS :</strong> Veuillez <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">demander le remboursement par le magasin d’applications App Store</a>.",
+        "message": "<strong>iOS et macOS :</strong> Veuillez <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">demander le remboursement par le magasin d’applications App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -620,15 +620,15 @@
         "description": "text for link to Psiphon for Android direct download"
     },
     "download-android-direct-description": {
-        "message": "Si vous n’avez pas accès à la logithèque Google Play Store, vous pouvez télécharger et installer (téléchargement hors logithèque) Psiphon pour Android directement.",
+        "message": "Si vous n’avez pas accès au magasin d’applications Play Store de Google, vous pouvez télécharger et installer Psiphon pour Android directement (téléchargement hors magasin d’applications).",
         "description": ""
     },
     "download-android-playstore-pro": {
-        "message": "<strong>Psiphon pour Android</strong> dans la logithèque « Play Store » de Google",
+        "message": "<strong>Psiphon pour Android</strong> dans le magasin d’applications « Play Store » de Google",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "download-android-playstore-pro-description": {
-        "message": "<strong>Soutenez la liberté sur Internet</strong> en téléchargeant Psiphon Pro dans la logithèque Google Play Store. (N’est pas proposé dans tous les pays.)",
+        "message": "<strong>Soutenez la liberté sur Internet</strong> en téléchargeant Psiphon Pro dans le magasin d’applications Play Store de Google. (N’est pas proposé dans tous les pays.)",
         "description": ""
     },
     "download-android-amazon": {
@@ -646,6 +646,14 @@
     "download-ios-appstore-psiphon-vpn-description": {
         "message": "Toutes les applis sur votre iPhone ou iPad accéderont à Internet par le réseau Psiphon. Proposée pour iOS 10.2 et ultérieure.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
+    },
+    "download-macos-appstore-psiphon-vpn": {
+        "message": "<strong>Psiphon pour les Macs dotés de la puce Apple</strong> dans le magasin d’applications « App Store » d’Apple",
+        "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
+    },
+    "download-macos-appstore-psiphon-vpn-description": {
+        "message": "Toutes les applis sur votre Mac accéderont à Internet par le réseau Psiphon. Proposé pour tous les ordinateurs Mac dotés de la puce Apple. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Vérifiez si votre Mac est doté de la puce Apple</a>.",
+        "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
         "message": "<strong>Navigateur Psiphon pour iOS</strong> dans le magasin d’applications « App Store » d’Apple",
@@ -1267,105 +1275,13 @@
         "message": "Qui verra les données à part Psiphon inc.",
         "description": ""
     },
-    "privacy-bulletin-entry-1-title": {
-        "message": "2014-04-07 : activation de la journalisation des compartiments S3",
-        "description": "Title for a privacy bulletin"
+    "privacy-bulletin-entry-item-head-affected-applications": {
+        "message": "Applications affectées",
+        "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
-    "privacy-bulletin-entry-1-what-doing": {
-        "message": "Nous activons la journalisation des accès pour le « compartiment » Amazon S3 d’un site Web ( c.-à-d. le conteneur de stockage). (Pour des raisons techniques, nous exécutons des douzaines de copies du site Web dans plusieurs compartiments S3.)",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-why-doing": {
-        "message": "Nous le faisons afin de déterminer le nombre d’accès à la « liste de serveurs distants » stockée dans le compartiment. Cela nous aidera à nous faire une idée du nombre d’utilisateurs éprouvant des échecs de connexion.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-1-when-doing": {
-        "message": "La journalisation sera activée du 2014-04-17T15:00Z à 2014-04-18T15:00Z.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-1-what-data": {
-        "message": "La journalisation recueillera les adresses IP, les agents utilisateurs et les estampilles temporelles d’accès à un site Web. Quand les données seront traitées, nous aurons un décompte des utilisateurs, divisé par le nombre de régions géographiques, ayant accédé au fichier en question. ",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-long-retained": {
-        "message": "Les données ne seront pas conservées plus d’une semaine. Nous garderons le nombre d’utilisateurs plus longtemps, peut-être indéfiniment.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-how-many-users": {
-        "message": "Nous ne savons pas encore exactement combien d’utilisateurs seront affectés (c’est pour cela que nous le faisons), mais nous pensons que ce sera moins de 10 000 utilisateurs.",
-        "description": ""
-    },
-    "privacy-bulletin-entry-1-who-will-see": {
-        "message": "Les journaux d’accès sont aussi stockés dans un compartiment Amazon S3, donc Amazon aura accès aux journaux. (Cependant, Amazon sert les fichiers et ils peuvent déjà accéder à ces renseignements.)",
-        "description": ""
-    },
-    "privacy-bulletin-entry-2-title": {
-        "message": "01-06-2015 : mise à jour de la Politique de confidentialité",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-2-what-doing": {
-        "message": "Nous mettons à jour notre <a href=\"privacy.html\">Politique de confidentialité</a>. Cela comprend l’ajout de la réponse à la question de la FAQ « Quels renseignements Psiphon recueille-t-il ? ».",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-why-doing": {
-        "message": "La page de la <a href=\"privacy.html\">Politique de confidentialité</a> est maintenant le seul endroit que les utilisateurs ont besoin de visiter pour accéder à la Politique de confidentialité et de collecte des données de Psiphon. Elle a été mise à jour afin de refléter l’utilisation de publicités, d’analytique et de la journalisation pour certains de nos sites Web.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-2-when-doing": {
-        "message": "L’entrée en vigueur sera au plus tard le 01-06-2015 à minuit.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-3-title": {
-        "message": "11-12-2019 : Mise à jour de la Politique de confidentialité",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-3-what-doing": {
-        "message": "Nous mettons à jour notre <a href=\"privacy.html\">Politique de confidentialité</a>. Nous passons la période de rétention des données d’activités des utilisateurs de 60 à 90 jours. Nous avons aussi augmenté les renseignements au sujet des bulletins sur la protection des données personnelles. Pour connaître les changements exacts, veuillez consulter l’<a target=\"_blank\" href=\"https://github.com/Psiphon-Inc/psiphon-website/commit/3327279e65aa5929ea50379f74a85aab3a69c8bf\">archivage GitHub</a> (page en anglais).",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-why-doing": {
-        "message": "Pour garantir que la Politique de confidentialité traduit fidèlement nos pratiques en matière de données.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-3-when-doing": {
-        "message": "L’entrée en vigueur sera le 12-12-2019 à minuit.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-title": {
-        "message": "11-12-2019 : Prolongation temporaire de la rétention des données",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-4-what-doing": {
-        "message": "Nous cessons temporairement l’élagage des données d’activités des utilisateurs, ce qui a pour effet de prolonger la période de rétention des données.",
-        "description": "A section of a privacy bulletin, indicating what is occurring that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-why-doing": {
-        "message": "Nous devons conserver les données fines d’activités plus longtemps afin de nous donner le temps d’analyser des événements récents de censure.",
-        "description": "A section of a privacy bulletin, giving the reason for the change that necessitates the bulletin"
-    },
-    "privacy-bulletin-entry-4-when-doing": {
-        "message": "L’entrée en vigueur sera le 12-12-2019 à minuit, pour une période d’un mois. Nous mettrons ce bulletin à jour si la mesure doit être prorogée.",
-        "description": "A section of a privacy bulletin, indicating when the change or activity takes effect (if applicable)"
-    },
-    "privacy-bulletin-entry-4-update": {
-        "message": "La conservation des données d’activité des utilisateurs était retournée à la normale le 10-04-2020.",
-        "description": "A section of a privacy bulletin, with an update to previous information."
-    },
-    "privacy-bulletin-entry-5-title": {
-        "message": "16-06-2020 : exception de confidentialité : conservation accidentelle des IP utilisateurs",
-        "description": "Title for a privacy bulletin"
-    },
-    "privacy-bulletin-entry-5-what-happened": {
-        "message": "Nous utilisons ASW S3 pour héberger les sites Web, les applications client, ainsi que les listes de serveurs distants. Nous avons découvert que la journalisation était activée pour plusieurs de nos ressources S3 depuis juin 2015. Ces journaux comprennent les adresses IP d’utilisateurs qui ont accédé à ces ressources.",
-        "description": "A section of a privacy bulletin, describing what happened to necessitate the bulletin"
-    },
-    "privacy-bulletin-entry-5-impact": {
-        "message": "Nous n’avons aucune indication que ces journaux est été obtenus par des tiers externes. Cependant, cela représente un non-respect de notre Politique de confidentialité.",
-        "description": "A section of a privacy bulletin, describing the impact of a privacy event"
-    },
-    "privacy-bulletin-entry-5-resolution": {
-        "message": "La journalisation a été désactivée pour les compartiments S3 accessibles par les utilisateurs et les journaux ont été supprimés. Nous travaillons sur un système de suivi des exceptions et problèmes de confidentialité, et examinons l’audit des ressources AWS.",
-        "description": "A section of a privacy bulletin, describing the resolution of a privacy event"
+    "privacy-bulletin-entry-item-head-background": {
+        "message": "Contexte",
+        "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
         "message": "Politique de confidentialité",
@@ -1820,7 +1736,7 @@
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
     },
     "faq-information-collected-answer-para-10": {
-        "message": "Notez que si vous obtenez Psiphon d’un « magasin d’applications », tel que « Play Store » de Google ou « AppStore » d’Amazon, des statistiques supplémentaires pourraient être recueillies par cette logithèque. Voici, par exemple, une description de ce que « Play Store » de Google recueille :",
+        "message": "Notez que si vous obtenez Psiphon d’un « magasin d’applications », tel que « Play Store » de Google ou « AppStore » d’Amazon, des statistiques supplémentaires pourraient être recueillies par ce magasin d’applications. Voici, par exemple, une description de ce que « Play Store » de Google recueille :",
         "description": ""
     }
 }
