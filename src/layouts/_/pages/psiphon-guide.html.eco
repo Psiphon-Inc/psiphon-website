@@ -1,0 +1,252 @@
+---
+layout: _/page
+---
+<div class="row">
+   <div class="col-md-12">
+      <h3><%= @tt 'psiphon-guide-header-contents' %></h3>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-12">
+      <ul style="list-style-type: none;">
+         <li>
+            <a href="#psiphonguide_section1"><%= @tt 'psiphon-guide-section-1-title-how-psiphon-works' %></a>
+         </li>
+         <li>
+            <a href="#psiphonguide_section2"><%= @tt 'psiphon-guide-section-2-title-installing-psiphon' %></a>
+         </li>
+         <li>
+            <a href="#psiphonguide_section3"><%= @tt 'psiphon-guide-section-3-title-security-trust' %></a>
+         </li>
+         <li>
+            <a href="#psiphonguide_section4"><%= @tt 'psiphon-guide-section-4-title-connection-troubleshooting' %></a>
+         </li>
+         <li>
+            <a href="#psiphonguide_section5"><%= @tt 'psiphon-guide-section-5-title-settings' %></a>
+         </li>
+      </ul>
+   </div>
+</div>
+<div class="row align-items-center">
+   <div class="col-md-12">
+      <a name="psiphonguide_section1"></a>
+      <h2><%= @tt 'psiphon-guide-section-1-title-how-psiphon-works' %></h2>
+      <p><%= @tt 'psiphon-guide-para-1' %></p>
+      <p>
+         <img class="img-responsive center-block" src="<%= @relativeToRoot '/images/psiphon-guide/psiphon-guide-splash.png' %>" alt="<%= @tt 'psiphon-guide-splash-image-alt' %>">
+      </p>
+      <h3><%= @tt 'psiphon-guide-section-1-sub-heading-the-internet' %></h3>
+      <p><%= @tt 'psiphon-guide-para-2' %></p>
+      <h3><%= @tt 'psiphon-guide-section-1-sub-heading-filtering-censors' %></h3>
+      <p><%- @tt 'psiphon-guide-para-3' %></p>
+      <p><%= @tt 'psiphon-guide-para-4' %></p>
+      <p><%= @tt 'psiphon-guide-para-5' %></p>
+      <h3><%= @tt 'psiphon-guide-section-1-sub-heading-circumvention-tools' %></h3>
+      <p><%= @tt 'psiphon-guide-para-6' %></p>
+      <h3><%= @tt 'psiphon-guide-section-1-sub-heading-psiphon-traffic' %></h3>
+      <p><%= @tt 'psiphon-guide-para-7' %></p>
+      <p><%= @tt 'psiphon-guide-para-8' %></p>
+      <p><img class="img-responsive center-block" src="<%= @relativeToRoot '/images/psiphon-guide/psiphon-guide-traffic-diagram.png' %>" alt="<%= @tt 'psiphon-guide-traffic-diagram-image-alt' %>"></p>
+      <p><%= @tt 'psiphon-guide-para-9' %></p>
+      <p><%= @tt 'psiphon-guide-para-10' %></p>
+      <h3><%= @tt 'psiphon-guide-section-1-sub-heading-psiphon-traffic' %></h3>
+      <p><%= @tt 'psiphon-guide-para-11' %></p>
+      <p><%= @tt 'psiphon-guide-para-12' %></p>
+      <h3><%= @tt 'psiphon-guide-section-1-sub-heading-psiphon-different-vpn' %></h3>
+      <p><%= @tt 'psiphon-guide-para-13' %></p>
+      <p><%= @tt 'psiphon-guide-para-14' %></p>
+      <h3><%= @tt 'psiphon-guide-section-1-sub-heading-psiphon-trust' %></h3>
+      <p><%- @tt 'psiphon-guide-para-15' %></p>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-12">
+      <a name="psiphonguide_section2"></a>
+      <h2><%= @tt 'psiphon-guide-section-2-title-installing-psiphon' %></h2>
+      <p><%= @tt 'psiphon-guide-para-16' %></p>
+      <p><a href="download.html"><%= @tt 'psiphon-guide-para-17' %></a></p>
+      <p><%= @tt 'psiphon-guide-para-18' %> <%- @tt 'psiphon-guide-para-19' %></p>
+      <p><%- @tt 'psiphon-guide-para-20' %></p>
+      <p><%- @tt 'psiphon-guide-para-21' %></p>
+      <p><%- @tt 'psiphon-guide-para-22' %></p>
+      <p><%- @tt 'psiphon-guide-para-23' %></p>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-12">
+      <a name="psiphonguide_section3"></a>
+      <h2><%= @tt 'psiphon-guide-section-3-title-security-trust' %></h2>
+      <p><%= @tt 'psiphon-guide-para-24' %></p>
+      <p>
+         <img class="img-responsive center-block" src="<%= @relativeToRoot '/images/psiphon-guide/psiphon-guide-security-splash.png' %>" alt="<%= @tt 'psiphon-guide-section-3-security-splash-alt' %>">
+      </p>
+      <h3><%= @tt 'psiphon-guide-section-3-sub-heading-source-code' %></h3>
+      <p><%= @tt 'psiphon-guide-para-25' %></p>
+      <p><a href="open-source.html"><%= @tt 'psiphon-guide-para-26' %></a></p>
+      <h3><%= @tt 'psiphon-guide-section-3-sub-heading-sustainability-model' %></h3>
+      <p><%= @tt 'psiphon-guide-para-27' %></p>
+      <p><%= @tt 'psiphon-guide-para-28' %></p>
+      <p><%= @tt 'psiphon-guide-para-29' %></p>
+      <ul>
+         <li><%= @tt 'psiphon-guide-section-3-list-item-1' %></li>
+         <li><%= @tt 'psiphon-guide-section-3-list-item-2' %></li>
+         <li><%= @tt 'psiphon-guide-section-3-list-item-3' %></li>
+         <li><%- @tt 'psiphon-guide-section-3-list-item-4' %></li>
+      </ul>
+      <p><%= @tt 'psiphon-guide-para-30' %></p>
+      <p><%= @tt 'psiphon-guide-para-31' %></p>
+      <h3><%= @tt 'psiphon-guide-section-3-sub-heading-security-audits' %></h3>
+      <ul>
+         <li>
+            <a href="blog/psiphon-security-assessment.html" target="_blank"><%= @tt 'psiphon-guide-section-3-list-item-5' %></a>
+            <ul>
+               <li><a href="assets/Psiphon-3-iSEC-Partners-v1.1-08-2014.pdf" target="_blank">iSEC Partners Final Report-Psiphon3</a></li>
+            </ul>
+         </li>
+         <li>
+            <a href="https://blog-en.psiphon.ca/2018/02/psiphon-completes-another-third-party.html" target="_blank"><%= @tt 'psiphon-guide-section-3-list-item-6' %></a>
+            <ul>
+               <li><a href="https://cure53.de/pentest-report_psiphon.pdf" target="_blank">Pentest-Report Psiphon 06.07.2017</a></li>
+            </ul>
+         </li>
+         <li><a href="https://cure53.de/pentest-report_psiphon_2.pdf" target="_blank">Pentest-Report Psiphon Apps & Server 10.2019</a></li>
+      </ul>
+      <h3><%= @tt 'privacy-title' %></h3>
+      <p><%- @tt 'psiphon-guide-para-32' %></p>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-12">
+      <a name="psiphonguide_section4"></a>
+      <h2><%= @tt 'psiphon-guide-section-4-title-connection-troubleshooting' %></h2>
+      <h3><%= @tt 'psiphon-guide-section-4-sub-heading-optimal-connections' %></h3>
+      <p><%= @tt 'psiphon-guide-para-33' %></p>
+      <p><%- @tt 'psiphon-guide-para-34' %></p>
+      <p><%- @tt 'psiphon-guide-para-35' %></p>
+      <p><%- @tt 'psiphon-guide-para-36' %></p>
+      <p><%- @tt 'psiphon-guide-para-37' %></p>
+      <h3><%= @tt 'psiphon-guide-section-4-sub-heading-strained-environment' %></h3>
+      <p><%= @tt 'psiphon-guide-para-38' %></p>
+      <h3><%= @tt 'psiphon-guide-section-4-sub-heading-frequent-disconnections' %></h3>
+      <p><%= @tt 'psiphon-guide-para-39' %></p>
+      <ul>
+         <li><%= @tt 'psiphon-guide-section-4-list-item-1' %></li>
+         <li><%= @tt 'psiphon-guide-section-4-list-item-2' %></li>
+         <li><%= @tt 'psiphon-guide-section-4-list-item-3' %></li>
+         <li><%- @tt 'psiphon-guide-section-4-list-item-4' %></li>
+      </ul>
+      <h3><%= @tt 'psiphon-guide-section-4-sub-heading-more-troubleshooting' %></h3>
+      <p><%- @tt 'psiphon-guide-para-40' %></p>
+      <h3><%= @tt 'psiphon-guide-section-4-sub-heading-send-feedback' %></h3>
+      <p><%= @tt 'psiphon-guide-para-41' %></p>
+   </div>
+</div>
+<div class="row">
+   <div class="col-sm-12" style="padding-top: 25px;">
+      <h4><%= @tt 'psiphon-guide-section-4-sub-heading-feedback-windows' %></h4>
+      <p>
+         <figure class="perma-annotated">
+            <img class="img-responsive" src="<%= @relativeToRoot '/images/psiphon-guide/psiphon-guide-windows-feedback.png' %>" alt="<%= @tt 'psiphon-guide-windows-feedback-alt' %>">
+            <figcaption>
+      <ul>
+      <!-- Positions of the annotations need defining inline. -->
+      <li style="top:43%; right:85%;"><%= @tt 'psiphon-guide-ui-image-annotation-feedback' %></li>
+      </ul>
+      </figcaption>
+      </figure>
+      </p>
+   </div>
+</div>
+<div class="row">
+   <div class="col-sm-6" style="padding-top: 25px;">
+      <h4><%= @tt 'psiphon-guide-section-4-sub-heading-feedback-ios' %></h4>
+      <p>
+         <figure class="perma-annotated">
+            <img class="img-responsive" src="<%= @relativeToRoot '/images/psiphon-guide/psiphon-guide-ios-feedback.png' %>" alt="<%= @tt 'psiphon-guide-ios-feedback-alt' %>">
+            <figcaption>
+      <ul>
+      <!-- Positions of the annotations need defining inline. -->
+      <li style="top:79%; right:77%;"><%= @tt 'psiphon-guide-ui-image-annotation-feedback' %></li>
+      </ul>
+      </figcaption>
+      </figure>
+      </p>
+   </div>
+   <div class="col-sm-6" style="padding-top: 25px;">
+      <h4><%= @tt 'psiphon-guide-section-4-sub-heading-feedback-android' %></h4>
+      <p>
+         <figure class="perma-annotated">
+            <img class="img-responsive" src="<%= @relativeToRoot '/images/psiphon-guide/psiphon-guide-android-feedback.png' %>" alt="<%= @tt 'psiphon-guide-android-feedback-alt' %>">
+            <figcaption>
+      <ul>
+      <!-- Positions of the annotations need defining inline. -->
+      <li style="top:48.5%; left:73%;"><%= @tt 'psiphon-guide-ui-image-annotation-feedback' %></li>
+      </ul>
+      </figcaption>
+      </figure>
+      </p>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-12">
+      <a name="psiphonguide_section5"></a>
+      <h2><%= @tt 'psiphon-guide-section-5-title-settings' %></h2>
+      <h3><%= @tt 'psiphon-guide-section-5-sub-heading-language' %></h3>
+      <p><%= @tt 'psiphon-guide-para-42' %></p>
+      <h3><%= @tt 'psiphon-guide-section-5-sub-heading-connection-performance' %></h3>
+      <p><%= @tt 'psiphon-guide-para-43' %></p>
+      <p><%= @tt 'psiphon-guide-para-44' %></p>
+      <p><%= @tt 'psiphon-guide-para-45' %></p>
+      <h3><%= @tt 'psiphon-guide-section-5-sub-heading-slow-networks' %></h3>
+      <p><%= @tt 'psiphon-guide-para-46' %></p>
+      <h3><%= @tt 'psiphon-guide-section-5-sub-heading-server-location' %></h3>
+      <p><%= @tt 'psiphon-guide-para-47' %></p>
+   </div>
+</div>
+<div class="row">
+   <div class="col-sm-12" style="padding-top: 25px;">
+      <h4><%= @tt 'psiphon-guide-section-5-sub-heading-windows-settings' %></h4>
+      <p>
+         <figure class="perma-annotated">
+            <img class="img-responsive" src="<%= @relativeToRoot '/images/psiphon-guide/psiphon-guide-windows-settings.png' %>" alt="<%= @tt 'psiphon-guide-windows-settings-alt' %>">
+            <figcaption>
+      <ul>
+      <!-- Positions of the annotations need defining inline. -->
+      <li style="top:37%; right:88%;"><%= @tt 'psiphon-guide-ui-settings-image-annotation' %></li>
+      <li style="top:19%; left:89%;"><%= @tt 'psiphon-guide-windows-ui-reset-default-image-annotation' %></li>
+      </ul>
+      </figcaption>
+      </figure>
+      </p>
+   </div>
+</div>
+<div class="row">
+   <div class="col-sm-6" style="padding-top: 25px;">
+      <h4><%= @tt 'psiphon-guide-section-5-sub-heading-ios-settings' %></h4>
+      <p>
+         <figure class="perma-annotated">
+            <img class="img-responsive" src="<%= @relativeToRoot '/images/psiphon-guide/psiphon-guide-ios-settings.png' %>" alt="<%= @tt 'psiphon-guide-ios-settings-alt' %>">
+            <figcaption>
+      <ul>
+      <!-- Positions of the annotations need defining inline. -->
+      <li style="top:31%; right:77%;"><%= @tt 'psiphon-guide-ui-settings-image-annotation' %></li>
+      </ul>
+      </figcaption>
+      </figure>
+      </p>
+   </div>
+   <div class="col-sm-6" style="padding-top: 25px;">
+      <h4><%= @tt 'psiphon-guide-section-5-sub-heading-android-settings' %></h4>
+      <p>
+         <figure class="perma-annotated">
+            <img class="img-responsive" src="<%= @relativeToRoot '/images/psiphon-guide/psiphon-guide-android-settings.png' %>" alt="<%= @tt 'psiphon-guide-android-settings-alt' %>">
+            <figcaption>
+      <ul>
+      <!-- Positions of the annotations need defining inline. -->
+      <li style="top:33%; left:72%;"><%= @tt 'psiphon-guide-ui-android-options-image-annotation' %></li>
+      </ul>
+      </figcaption>
+      </figure>
+      </p>
+   </div>
+</div>

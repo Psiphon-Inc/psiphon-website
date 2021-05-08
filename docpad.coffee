@@ -171,6 +171,11 @@ docpadConfig = {
         title_key: 'about-title'
         nav_title_key: 'about-nav-title'
 
+      'psiphon-guide':
+        filename: '/psiphon-guide.html'
+        title_key: 'psiphon-guide-title'
+        nav_title_key: 'psiphon-guide-nav-title'
+
     navLayout: [
       { name: 'download' }
       {
@@ -178,6 +183,7 @@ docpadConfig = {
         nav_title_key: 'resources-nav-title'
         subnav: [
           { name: 'user-guide' }
+          { name: 'psiphon-guide' }
           { name: 'faq' }
           { name: 'blog-index' }
           { name: 'privacy' }
