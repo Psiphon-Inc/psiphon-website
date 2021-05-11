@@ -1590,10 +1590,10 @@
     "message": "Email Responder"
   },
   "faq-information-collected-answer-para-11": {
-    "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). We do not allow your email address to be written to the system's log file."
+    "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). Your email address may be written to the server system logs. These logs are deleted after one week."
   },
   "faq-information-collected-answer-para-12": {
-    "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. We send two email responses to every request, and for one of those responses we use Amazon SES. This means that Amazon is able to see the email you send and our response to you."
+    "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. This means that Amazon is able to see the email you send and our response to you."
   },
   "faq-information-collected-answer-para-13": {
     "message": "For each email we receive, we store the following information:"
@@ -1609,9 +1609,6 @@
   },
   "faq-information-collected-answer-para-13-item-4": {
     "message": "The mail server the email request came from. (The three least specific parts of the domain name. For example, <code>ne1.example.com</code>, but not <code>web120113.mail.ne1.example.com</code>.)"
-  },
-  "faq-information-collected-answer-para-14": {
-    "message": "If we need to diagnose a problem, we may enable full mail server logging for a short amount of time. If you send an email during that time, your email address will be written to the system log. Those logs are deleted after one week."
   },
   "faq-information-collected-answer-head-4": {
     "message": "App Stores",

@@ -13,6 +13,42 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
+      <h2>2021-05-11: Privacy Policy update</h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      We are updating our <a href="privacy.html">Privacy Policy</a>. We are making the information about email server logging more accurate. For the exact changes, see the <a target="_blank" href="https://github.com/Psiphon-Inc/psiphon-website/commit/9207d4e6e9e7386185bac97feff41b5e72d95ec2">GitHub commit</a>.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      To ensure the Privacy Policy accurately reflects our data practices.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      This will be in effect on 2021-05-12T00:00Z.
+    </div>
+  </div>
+
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
       <h2>2021-01-26: Privacy exception: Rare accidental logging of sensitive information</h2>
     </div>
   </div>
@@ -137,7 +173,7 @@ layout: _/page
       <%= @tt 'privacy-bulletin-entry-item-head-what-happened' %>
     </div>
     <div class="bulletin-entry-item-body">
-      Internally, upstream proxy settings are represented as a URL and parsed with Go's net/url. url.Parse error messages echo back the URL, which will include credentials when present. This error, containing credentials. was logged to diagnostics and connection failure metrics, causing credentials to be exposed to Psiphon. This situation was exacerbated by failure to URL encode user input upstream proxy settings, making the parsing failure more likely.
+      Internally, upstream proxy settings are represented as a URL and parsed with Go’s net/url. url.Parse error messages echo back the URL, which will include credentials when present. This error, containing credentials. was logged to diagnostics and connection failure metrics, causing credentials to be exposed to Psiphon. This situation was exacerbated by failure to URL encode user input upstream proxy settings, making the parsing failure more likely.
     </div>
   </div>
 
