@@ -13,6 +13,42 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
+      <h2>2021-05-12: Privacy Policy update</h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      We are updating our <a href="privacy.html">Privacy Policy</a>. We are adding information about PsiCash accounts. For the exact changes, see the <a target="_blank" href="https://github.com/Psiphon-Inc/psiphon-website/commit/389230fbe0a034c7218d5e4dcea7b8bff499d54d">GitHub commit</a>.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      To ensure the Privacy Policy accurately reflects our data practices.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      This will be in effect on 2021-05-13T00:00Z.
+    </div>
+  </div>
+
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
       <h2>2021-05-11: Privacy Policy update</h2>
     </div>
   </div>
