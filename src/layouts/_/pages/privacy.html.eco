@@ -247,6 +247,9 @@ layout: _/page
       </ul>
     </p>
     <p>
+      <%= @tt 'privacy-information-collected-psicash-para-2b' %>
+    </p>
+    <p>
       <%= @tt 'privacy-information-collected-psicash-para-3-list-start' %>
       <ul>
         <li><%= @tt 'privacy-information-collected-psicash-para-3-item-1' %></li>
@@ -265,6 +268,9 @@ layout: _/page
     </p>
     <p>
       <%= @tt 'privacy-information-collected-psicash-para-5' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-psicash-para-6' %>
     </p>
 
     <!-- Feedback -->
