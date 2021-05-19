@@ -410,7 +410,7 @@ docpadConfig = {
     #   `getFullTranslatedURL('/download.html', 'kk')` will return `/kk/download.html`.
     #   `getFullTranslatedURL('/en/download.html', 'kk')` will return `/kk/download.html`.
     # ASSUMPTION: Only URLs that will be translated will be passed in. There is
-    # not check to verify that this resulting URL is for a valid document.
+    # no check to verify that this resulting URL is for a valid document.
     getFullTranslatedURL: (url, targetLang) ->
       if url[0] != '/'
         throw "url must start with '/': #{url}"
