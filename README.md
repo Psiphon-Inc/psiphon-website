@@ -101,13 +101,13 @@ JavaScript will be stripped completely from the snippet. `<style>` blocks and ex
 
 ### Translating blog posts
 
-Blog posts are originally written in English, and will typically be written using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet); here is [an example of one](https://bitbucket.org/psiphon/psiphon-circumvention-system/raw/e74506889cb91ca4acdb9db3cc5f6b1c986dc577/Website/src/documents/en/blog/psiphon-a-technical-description.html.md).
+Blog posts are originally written in English, and will typically be written using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet); here is [an example of one](https://github.com/Psiphon-Inc/psiphon-website/blob/34b106d3a41b7510b389b72996e8f091e3768c20/src/documents/en/blog/psiphon-a-technical-description.html.md).
 
 Translations can be written using either Markdown or HTML. We're not yet sure if Markdown is entirely happy with i18n, but it's probably best to try that first. Markdown is simpler to write in, HTML provides more control.
 
-If the translation is done in HTML, it should only contain the inner body of the post, and not `<html>`, `<head>`, or `<body>` tags; here is [an example of one](https://bitbucket.org/psiphon/psiphon-circumvention-system/src/cfc2d583bb8cd8f3c4a61d2d248a90c742389ff9/Website/src/documents/fa/blog/psiphon-a-technical-description.html).
+If the translation is done in HTML, it should only contain the inner body of the post, and not `<html>`, `<head>`, or `<body>` tags; here is [an example of one](https://github.com/Psiphon-Inc/psiphon-website/blob/34b106d3a41b7510b389b72996e8f091e3768c20/src/documents/fa/blog/psiphon-a-technical-description.html).
 
-At the top of the raw blog post example above you will see the post "metadata". The `title` must be translated and the `author` may be transliterated if appropriate for the target langage. The `layout` must not be changed.
+At the top of the raw blog post example above you will see the post "metadata". The `title` must be translated and the `author` may be transliterated if appropriate for the target language. The `layout` must not be changed.
 
 
 ### Locale-specific images
@@ -122,7 +122,7 @@ It's quite easy to add images (screenshots, etc.) that are locale-specific.
    ```
    (Note that you should also provide an `alt` attribute and you probably also want `class="img-responsive"`.)
 
-   `ttURL` is defined in [`docpad.coffee`](https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/Website/docpad.coffee?at=default). If the document currently being generated is in Farsi, it checks to see if there exists a file with the name `/images/i18n-test.fa.png`, uses it if it exists, and falls back to `/images/i18n-test.en.png` or `/images/i18n-test.png` if not.
+   `ttURL` is defined in [`docpad.coffee`](/docpad.coffee). If the document currently being generated is in Farsi, it checks to see if there exists a file with the name `/images/i18n-test.fa.png`, uses it if it exists, and falls back to `/images/i18n-test.en.png` or `/images/i18n-test.png` if not.
 
 3. Create the localized images. Save them with appropriate filenames. E.g.: `i18n-test.fa.png`, `i18n-test.zh.png`, `i18n-test.ug@Latn.png`, etc. There doesn't need to (immediately) be one for each supported language, because the English fallback will compensate for missing images.
 
