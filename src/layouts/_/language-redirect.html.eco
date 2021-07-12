@@ -41,7 +41,7 @@
 </head>
 
 <body>
-  If you are not redirected automatically, follow the <a href='<%= @getFullTranslatedURL @document.targetFilename %>'>link to the Psiphon home page</a>.
+  If you are not redirected automatically, follow the <a href="<%= @getFullTranslatedURL @document.targetFilename %>">link to the Psiphon home page</a>.
 </body>
 
 </html>
