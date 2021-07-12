@@ -126,11 +126,6 @@ docpadConfig = {
         title_key: 'download-title'
         nav_title_key: 'download-nav-title'
 
-      'user-guide':
-        filename: '/user-guide.html'
-        title_key: 'user-guide-title'
-        nav_title_key: 'user-guide-nav-title'
-
       'faq':
         filename: '/faq.html'
         title_key: 'faq-title'
@@ -182,7 +177,6 @@ docpadConfig = {
         name: 'resources',
         nav_title_key: 'resources-nav-title'
         subnav: [
-          { name: 'user-guide' }
           { name: 'psiphon-guide' }
           { name: 'faq' }
           { name: 'blog-index' }
@@ -517,27 +511,6 @@ docpadConfig = {
   # Here we can define handlers for events that DocPad fires
   # You can find a full listing of events on the DocPad Wiki
   events:
-
-    # Server Extend
-    # Used to add our own custom routes to the server before the docpad routes are added
-    serverExtend: (opts) ->
-      # Extract the server from the options
-      {server} = opts
-      docpad = @docpad
-
-      # As we are now running in an event,
-      # ensure we are using the latest copy of the docpad configuraiton
-      # and fetch our urls from it
-      latestConfig = docpad.getConfig()
-      oldUrls = latestConfig.templateData.site.oldUrls or []
-      newUrl = latestConfig.templateData.site.url
-
-      # Redirect any requests accessing one of our sites oldUrls to the new site url
-      server.use (req,res,next) ->
-        if req.headers.host in oldUrls
-          res.redirect(newUrl+req.url, 301)
-        else
-          next()
 
     renderBefore: (opts, next) ->
       # Load the translations from locale JSON files.
