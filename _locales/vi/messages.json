@@ -501,7 +501,7 @@
     },
     "faq-refund-question": {
         "message": "How do I get a refund for a subscription, purchase of PsiCash, or other purchase?",
-        "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money."
+        "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money. 'PsiCash' should not be translated or transliterated."
     },
     "faq-refund-answer-para-1": {
         "message": "<strong>Android:</strong> If it has been less than 48 hours since you made the purchase, you can <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">get a refund through the Play Store</a>. After 48 hours, email us at <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Please include your name, the email address of your Play Store account, the date of the purchase, what was purchased, the amount of the purchase, and the reason you are requesting the refund.",
@@ -518,6 +518,30 @@
     "faq-refund-answer-para-4": {
         "message": "Note that refunds may take up to a week to process.",
         "description": "This is the fourth paragraph of an FAQ answer."
+    },
+    "faq-psicash-create-account-question": {
+        "message": "Why should I create a PsiCash account?",
+        "description": "This is an FAQ question. It discusses the benefits of creating a PsiCash account. 'PsiCash' should not be translated or transliterated.."
+    },
+    "faq-psicash-create-account-answer-para-1": {
+        "message": "<p>With an account, your PsiCash balance is <strong>kept safe</strong> and can be <strong>shared between your devices</strong>. If you don't have a PsiCash account, your balance is specific to each device, and losing a device means losing your balance on that device. When you have an account, all you need to do is log in to restore your balance.</p>\n<p>We will also be adding more benefits to having a PsiCash account in the future, such as transferring PsiCash between users and offering purchases that apply to all of your devices.</p>",
+        "description": "This is an FAQ answer. It discusses the benefits of creating a PsiCash account. 'PsiCash' should not be translated or transliterated."
+    },
+    "faq-psicash-pseudonym-question": {
+        "message": "Why should I use a pseudonym or alias for my PsiCash account username?",
+        "description": "This is an FAQ question. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated.."
+    },
+    "faq-psicash-pseudonym-answer-para-1": {
+        "message": "<p>A pseudonym is an alias or handle that you use to identify yourself that is different from your real name. Using a pseudonym for your PsiCash account username helps prevent your real identity from being linked with your Psiphon or PsiCash usage. If revealing yourself to be a Psiphon user is dangerous or otherwise undesirable, then you should choose a username that cannot be linked to you, and instead you should use a pseudonym that you have not used with any other site or service.</p>\n<p>When signing up for a new PsiCash account, it is possible for someone to check for the existence of a username by trying to create an account with it. If the attempt is successful, the username did not already exist. If the attempt failed, the username did already exist. Having your username discovered does <em>not</em> put your PsiCash account at risk, but your status as a Psiphon user may be revealed in this way.</p>\n<p>If you wish to avoid the link to your real identity, it is important to note that using a pseudonym that you use on other sites or services is almost the same as using your real name. If that pseudonym has already been linked to your identity elsewhere, then very little anonymity is gained by using it.</p>\n<p>Also note that your email address is <em>not</em> discoverable in this way. Even if you use a pseudonym, you can still provide an email address on your PsiCash account and it will not be discoverable in any way.</p>",
+        "description": "This is an FAQ answer. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated."
+    },
+    "faq-psicash-more-account-merges-question": {
+        "message": "What if I need to merge the PsiCash balance from more devices into my account?",
+        "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
+    },
+    "faq-psicash-more-account-merges-answer-para-1": {
+        "message": "To avoid abuse, we allow the pre-existing PsiCash balance from only a few devices to be add to a PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
+        "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "alert-heading": {
         "message": "CẢNH BÁO",
@@ -912,8 +936,8 @@
         "description": ""
     },
     "license-para-2": {
-        "message": "Hệ thống Psiphon bao gồm \"phần mềm\" (mã nguồn và ứng dụng từ mã nguồn đó) và \"dịch vụ\" (một hệ thống gồm có phần mềm máy chủ và khách). Phần mềm và mã nguồn Psiphon dưới dạng <a href=\"https://en.wikipedia.org/wiki/Free_and_open_source_software\" target=\"_blank\">miền phí và nguồn mở</a> và <a href=\"https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/LICENSE?at=default\" target=\"_blank\">mang giấy phép</a> theo dạng <a href=\"https://www.gnu.org/copyleft/gpl.html\" target=\"_blank\">GNU General Public License Version 3</a>. Việc sử dụng dịch vụ Psiphon được phép theo các điều khoản mô tả trong trang này.",
-        "description": "Please modify the Wikipedia link to point to the correct language entry"
+        "message": "The Psiphon system consists of both “software” (program source code and applications derived from that code) and a “service” (a system of client and server software that make up a functioning whole). The <a href=\"open-source.html\" rel=\"noreferrer\" target=\"_blank\">Psiphon software and source code</a> are <a href=\"https://wikipedia.org/wiki/Free_and_open_source_software\" rel=\"noreferrer\" target=\"_blank\">free and open-source</a> and are licensed under the <a href=\"https://www.gnu.org/copyleft/gpl.html\" rel=\"noreferrer\" target=\"_blank\">GNU General Public License Version 3</a> (with some exceptions – see each source repository for the specific license). Use of the Psiphon service is licensed under the terms described on this page.",
+        "description": "Paragraph text on the License web page."
     },
     "license-para-3": {
         "message": "Dịch vụ Psiphon chỉ nhằm cho các cá nhân, và sử dụng cho mục tiêu cá nhân mà thôi. Nếu bạn muốn dùng Psiphon cho bất cứ mục tiêu nào khác hoặc có những yêu cầu phụ trội, thì chúng tôi có dịch vụ thương mại có tốn phí. Để biết thêm chi tiết, email <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a>.",
@@ -1129,6 +1153,10 @@
     },
     "page-keyword-user-guide": {
         "message": "hướng dẫn sử dụng",
+        "description": "web page meta keyword used for SEO"
+    },
+    "page-keyword-psiphon-guide": {
+        "message": "psiphon guide",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-instructions": {
@@ -1611,6 +1639,10 @@
         "message": "PsiCash spending history, including what purchases were made",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
+    "privacy-information-collected-psicash-para-2b": {
+        "message": "Creating a PsiCash account is optional. If an account is created, account-specific information such as username, password, and email address (if provided) are stored on the server. When logged in to a Psiphon client, the username is also stored locally.",
+        "description": "Paragraph text on the Privacy Policy page. Describes the user data requirements for PsiCash accounts. 'PsiCash' must not be translated or transliterated. 'Psiphon' must not be translated or transliterated."
+    },
     "privacy-information-collected-psicash-para-3-list-start": {
         "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
@@ -1649,6 +1681,10 @@
     },
     "privacy-information-collected-psicash-para-5": {
         "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-psicash-para-6": {
+        "message": "PsiCash server resources are stored in AWS, which means Amazon has access to the data.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
@@ -1700,11 +1736,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "Khi bạn gửi email đến máy chủ có email hồi đáp, chúng tôi sẽ thấy địa chỉ email bạn. Trong lúc xử lý email bạn tạm thời được lưu trên máy chủ, và sẽ được xóa ngay sau khi xử lý xong (thường là vài giây). Chúng tôi không để cho email bạn được ghi vào trong ký sự của hệ thống.",
+        "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). Your email address may be written to the server system logs. These logs are deleted after one week.",
         "description": ""
     },
     "faq-information-collected-answer-para-12": {
-        "message": "Máy chủ có email hồi đáp của chúng tôi được chứa trên vùng mây Amazon EC2. Chúng tôi gửi hai email trả lời cho mỗi email yêu cầu, và chúng tôi dùng Amazon SES cho một trong những hồi đáp. Điều này có nghĩa là Amazon có khả năng thấy email bạn gửi và hồi đáp của chúng tôi cho bạn.",
+        "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. This means that Amazon is able to see the email you send and our response to you.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1727,10 +1763,6 @@
         "message": "Tên máy chủ gửi email ra. (Ba phần tổng quát nhất của tên miền. Thí dụ như, <code>ne1.example.com</code>, nhưng sẽ không phải là <code>web120113.mail.ne1.example.com</code>.)",
         "description": ""
     },
-    "faq-information-collected-answer-para-14": {
-        "message": "Nếu cần chẩn đoán một vấn đề, chúng tôi tạm kích hoạt ghi chú ký sự toàn bộ chi tiết liên quan đến email trong một thời gian ngắn. Nếu bạn gửi email đến trong khoảng thời gian này, email bạn sẽ được ghi trong ký sự hệ thống. Ký sự này sẽ được xóa sau một tuần lễ.",
-        "description": ""
-    },
     "faq-information-collected-answer-head-4": {
         "message": "Cửa hàng App",
         "description": "this is referring to the general idea of app stores, like the Google Play Store, Amazon AppStore, Apple App Store"
@@ -1738,5 +1770,425 @@
     "faq-information-collected-answer-para-10": {
         "message": "Lưu ý là nếu bạn tải Psiphon từ một cửa hàng app, như cửa hàng Google Play hay Amazon AppStore, các cửa hàng đó có thể thu thập một số thống kê. Lấy thí dụ, đây là mô tả những gì cửa hàng Google Play thu thập:",
         "description": ""
+    },
+    "psiphon-guide-nav-title": {
+        "message": "Psiphon Guide",
+        "description": "Psiphon Guide. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-title": {
+        "message": "Psiphon Guide",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-description": {
+        "message": "Psiphon Guide is a page, or a 'guide', dedicated to helping new users understand how Psiphon works, with some general information on settings and recommended actions for a better user experience.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-meta-title": {
+        "message": "Psiphon Guide",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-header-contents": {
+        "message": "Nội dung",
+        "description": "table of contents header for the Psiphon Guide page for anchor link navigation."
+    },
+    "psiphon-guide-section-1-title-how-psiphon-works": {
+        "message": "Section 1: How Psiphon Works",
+        "description": "contents link for Section 1 of the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-2-title-installing-psiphon": {
+        "message": "Section 2: Getting and Installing Psiphon",
+        "description": "contents link for Section 2 of the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-3-title-security-trust": {
+        "message": "Section 3: Security and Trust",
+        "description": "contents link for Section 3 of the Psiphon Guide page"
+    },
+    "psiphon-guide-section-4-title-connection-troubleshooting": {
+        "message": "Section 4: Connection Troubleshooting",
+        "description": "contents link for Section 4 of the Psiphon Guide page. This section pertains to recommendations if a user is having a problem with connecting to the Psiphon network."
+    },
+    "psiphon-guide-section-5-title-settings": {
+        "message": "Section 5: Settings",
+        "description": "contents link for Section 5 of the Psiphon Guide page. This section describes the location and function of various settings inside the Psiphon application."
+    },
+    "psiphon-guide-para-1": {
+        "message": "Psiphon Inc. has provided open access to the Internet for millions of citizens around the world since 2006. Psiphon operates a proxy system known as “Psiphon 2” as well as “Psiphon 3,” which is an application (“app”) for Android, Windows, and iOS. The following documents focus on the Psiphon 3 network, which is the most widely used. Psiphon is a free, open-source, censorship circumvention software. It uses a combination of secure communication and obfuscation technologies to allow users to connect with apps and content which would otherwise be blocked.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. A general description of how Psiphon works, and what Psiphon is. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-splash-image-alt": {
+        "message": "Psiphon Guide Header Splash Image",
+        "description": "splash image for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-1-sub-heading-the-internet": {
+        "message": "The internet",
+        "description": "Sub-heading of Section 1 for the Psiphon Guide page"
+    },
+    "psiphon-guide-para-2": {
+        "message": "The internet is a global network of billions of computers (or “routers”) which communicate with one another. These connected systems allow people to share (or “serve”) information to others. The internet can be visualized as a web, with multiple routes and connections. If one connection is severed, the redundancy of the web infrastructure allows people to connect by finding another route. To get from one location to another, web traffic (messages sent on the internet) make many hops. Traffic travels from router to router before arriving at their destination. In order to do this, specific networking and routing equipment is required. This is provided by Internet Service Providers (“ISPs”). ISPs allow internet users to use their infrastructure, including \"serving\" content or providing access to other content that other ISPs \"serve\", usually for a fee.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. A general description of the internet."
+    },
+    "psiphon-guide-section-1-sub-heading-filtering-censors": {
+        "message": "Filtering and Censors",
+        "description": "Sub-heading of Section 1 for the Psiphon Guide page"
+    },
+    "psiphon-guide-para-3": {
+        "message": "Filtering can occur at one or many points in the network, such as, the internet backbone (often the international gateway), ISPs, institutions (such as companies or schools), and even on an individual's device (such as a phone or desktop computer).",
+        "description": "Section 1 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-para-4": {
+        "message": "Censors are actors implementing filtering at any level. They could be implementing filtering on behalf of another body, such as when an ISP filters content under orders of a government.",
+        "description": "Section 1 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-para-5": {
+        "message": "In order to block only certain types of traffic, the traffic must first be identifiable. When a system can differentiate between types of traffic passing through the network, it is potentially able to make decisions about that traffic. Filtering can be done through devices and programs that analyze and forbid certain types of traffic to pass. In some places technical blocking affects everyday Internet use.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. A description of both filtering and blocking of internet traffic."
+    },
+    "psiphon-guide-section-1-sub-heading-circumvention-tools": {
+        "message": "Circumvention Tools",
+        "description": "Sub-heading of Section 1 for the Psiphon Guide page."
+    },
+    "psiphon-guide-para-6": {
+        "message": "Psiphon is part of a category of technology known as circumvention tools. Circumvention tools are designed to bypass interceptive technical forms of blocking online. Circumvention tools usually work by either diverting web traffic so it avoids the machines that filter or by disguising the traffic to appear like traffic that is not subject to filtering. The Psiphon app does both. As filtering techniques become more sophisticated, circumvention tool providers must always update their technology and so methods and strategies are continually evolving.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. A description of circumvention tools. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-1-sub-heading-psiphon-traffic": {
+        "message": "Psiphon Traffic",
+        "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-7": {
+        "message": "As a censorship circumvention tool, the Psiphon app's primary objective is to establish a connection to the internet. The Psiphon app attempts to connect to known Psiphon servers using various methods. Sometimes the Psiphon traffic is obfuscated, meaning that it is disguised to look like a different or less identifiable type of traffic.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-8": {
+        "message": "Because it is encrypted, censors are unable to see the content of traffic passing through the tunnel. Censors may still attempt to block encrypted traffic based on other characteristics, such as communication protocols. Communication protocols are a set of rules used to route data and ensure it arrives at the intended location.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. 'It' refers to Psiphon traffic. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-traffic-diagram-image-alt": {
+        "message": "Psiphon Guide Traffic Diagram Image",
+        "description": "diagram image for the Psiphon Guide page"
+    },
+    "psiphon-guide-para-9": {
+        "message": "The Psiphon app has the ability to relay traffic through various communication protocols. It attempts to connect through different protocols until a connection is made. That way, if a censor is blocking one communication protocol, Psiphon is still able to connect by using another protocol.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-10": {
+        "message": "To ensure that Psiphon's traffic is not identifiable, it is important to make it appear as generic and normal as possible to an external observer. The Psiphon app has the flexibility to adapt dynamically to changing network conditions by trying multiple strategies to connect, even when certain types of content or traffic are being filtered.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. A general description of how Psiphon adapts to various network conditions. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-1-sub-heading-psiphon-servers": {
+        "message": "Máy chủ Psiphon",
+        "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-11": {
+        "message": "Psiphon operates a large network of servers. Each Psiphon app needs to know some information about the servers it's trying to reach in order to make a connection. Newly downloaded Psiphon apps contain a short list of known servers within the network that it attempts to connect to. Censors may routinely try to block some Psiphon servers, therefore many need to be available.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-12": {
+        "message": "The network is always changing. Psiphon continuously deploys new servers across numerous locations worldwide. The Psiphon app will receive updated information about how to access them. Over time, a single Psiphon app may eventually gain knowledge of hundreds of new Psiphon servers.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-1-sub-heading-psiphon-different-vpn": {
+        "message": "What makes Psiphon different than a VPN?",
+        "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-13": {
+        "message": "Virtual private networks (VPNs) are designed to allow users to send and receive data through a secure network tunnel. VPNs may even make use of very strong encryption, however, the majority of VPNs are not designed for circumvention purposes. VPNs are created for normal network conditions. VPN tools don't do anything special to disguise the nature of their traffic and communicate through one type of protocol. VPN traffic can be identified, so censors are able to block VPN traffic. Several countries are known to filter or degrade VPN connections, and others have been observed blocking VPNs in response to events such as elections or political protests. Today, modern censorship technology has made this kind of blocking relatively simple for censors.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-14": {
+        "message": "Psiphon allows users to send and receive data through a secure network while also disguising the type of traffic being transmitted and even where it is coming from. Psiphon technology is designed to be resilient to censorship, including attempts to interfere with Psiphon network traffic directly. The numerous secure protocols used by Psiphon apps all appear different to censors, making it difficult to differentiate between Psiphon traffic and other types of internet use. Even if one traffic type is filtered on a network, Psiphon is able to connect through another protocol. Psiphon works where many other tools do not.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-1-sub-heading-psiphon-trust": {
+        "message": "How do I know I can trust Psiphon?",
+        "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-15": {
+        "message": "Psiphon is an open source application which means that its source code is available for anyone to review and comment on how the system is implemented and the underlying cryptographic technologies. Psiphon not only performs internal code reviews, but also has regular code <a href=\"#psiphonguide_section3\">audits</a> and penetration tests performed by various external firms.",
+        "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-16": {
+        "message": "Psiphon technology is made available through multiple propagation strategies. If one method is blocked or unavailable in your country, there are other techniques you can use to obtain the app.",
+        "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-17": {
+        "message": "Psiphon is available on Android, iOS, Macs with Apple Silcon, and Windows, at our download page.",
+        "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-18": {
+        "message": "Android and Windows versions of Psiphon are also available through an email responder.",
+        "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-19": {
+        "message": "Send a blank email to <a href=\"mailto:get@psiphon3.com\">get@psiphon3.com.</a>",
+        "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-20": {
+        "message": "<strong>Android:</strong> Search for “Psiphon” in the Google Play store. Depending on your region, you may have the option of downloading Psiphon Pro, with an option to purchase a subscription. This upgrade allows you to increase speed and remove ads.",
+        "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-21": {
+        "message": "<strong>Android Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Check your spam folder if you don't see it in your inbox. Visit the download link or download the file 'PsiphonAndroid.ap_' attached to the email and rename it to have a “.apk” file extension, if necessary. Download Psiphon. Find the Psiphon icon on your phone and click on it to open.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
+        "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-22": {
+        "message": "<strong>Windows Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Download the file 'psiphon3' attached to the email and rename it to have a “.exe” file extension.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
+        "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-23": {
+        "message": "<strong>iOS:</strong> Search for “Psiphon” in the App Store. <strong>Installation:</strong> Search for Psiphon in the App Store and click 'Get' to download and install. You may be asked to re-enter your Apple ID and password. Find the Psiphon icon on your phone and click on it to open.",
+        "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-24": {
+        "message": "Having trust in an internet tool or service begins with trust in the company that provides it. There are several important indicators to help gauge trustworthiness of tools and services. This document outlines Psiphon's source code, sustainability model, and external audits.",
+        "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-25": {
+        "message": "Psiphon is an open source project. Open source means that the source code is shared publicly and anyone is able to review and make suggestions. By allowing interested parties access to inspect the source code, open source applications can increase confidence in how applications are designed.",
+        "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-3-security-splash-alt": {
+        "message": "Psiphon Guide Security and Trust splash image",
+        "description": "splash image for Section 3 of the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-3-sub-heading-source-code": {
+        "message": "Mã Nguồn",
+        "description": "Sub-heading of Section 3 for the Psiphon Guide page."
+    },
+    "psiphon-guide-para-26": {
+        "message": "Find the source code and design documents here.",
+        "description": "Section 3 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-3-sub-heading-sustainability-model": {
+        "message": "Sustainability Model",
+        "description": "Sub-heading of Section 3 for the Psiphon Guide page. The title refers to how Psiphon is able to sustain our network."
+    },
+    "psiphon-guide-para-27": {
+        "message": "Psiphon has always been free to users. It is our mission to reach as many people as possible, which in part means eliminating economic barriers.",
+        "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-28": {
+        "message": "Psiphon is committed to protecting our user data. So how does the company maintain a worldwide network?",
+        "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-29": {
+        "message": "Psiphon is able to sustain operational costs by maintaining a diversity of income sources including:",
+        "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-3-list-item-1": {
+        "message": "Winning international grants for technology development and network maintenance.",
+        "description": "Section 3 list item for the Psiphon Guide page. Each list item in this section refers to Psiphon's actions relating to funding sources and revenue models."
+    },
+    "psiphon-guide-section-3-list-item-2": {
+        "message": "Working with media partners to distribute content using branded Psiphon clients.",
+        "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-3-list-item-3": {
+        "message": "Collaborating with ad networks in certain regions.",
+        "description": "Section 3 list item for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-3-list-item-4": {
+        "message": "Offering subscriptions for premium service in certain regions.",
+        "description": "Section 3 list item for the Psiphon Guide page."
+    },
+    "psiphon-guide-para-30": {
+        "message": "A software audit is the internal or external review of a software program to check its quality, progress, standards, and security. Internal code audits are performed regularly, and external code audits are generally triggered by major code changes such as the development of new features. External security audits are rigorous assessments conducted by third-party vendors to identify and record vulnerabilities and external threats in the source code. Audits help ensure the security of Psiphon users.",
+        "description": "Section 3 paragraph for the Psiphon Guide page. A description of what software audits are. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-31": {
+        "message": "During an external code audit, Psiphon will work closely with the vendor. Any issues found are addressed based on importance, and then retested by the vendor. It is Psiphon's policy to make code reviews public. Find Psiphon's blog posts about these assessment events and the corresponding reports below.",
+        "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-3-sub-heading-security-audits": {
+        "message": "External Security Audits",
+        "description": "Section 3 subheading for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-3-list-item-5": {
+        "message": "2014 - Blog: Independent Security Assessment of Psiphon3",
+        "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon3' must not be transliterated."
+    },
+    "psiphon-guide-section-3-list-item-6": {
+        "message": "2017 – Blog: Psiphon Completes Another Third Party Security Review",
+        "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-32": {
+        "message": "Psiphon values your privacy. Information about the data collected by Psiphon are detailed in our <a href=\"privacy.html\"> Privacy Policy </a>",
+        "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-4-sub-heading-optimal-connections": {
+        "message": "Best Practices for Optimal Connections",
+        "description": "Sub-heading of Section 4 for the Psiphon Guide page"
+    },
+    "psiphon-guide-para-33": {
+        "message": "Use the latest version. The most current version of the Psiphon app has the most up to date connection capabilities. See Section 2 Getting and Installing Psiphon for more information about how to obtain authentic versions of Psiphon. Update the Psiphon app when new updates become available.",
+        "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-34": {
+        "message": "<strong>Android:</strong> Nếu bạn cài đặt Psiphon cho Android từ cửa hàng Google Play, nó sẽ được tự động cập nhật bởi cửa hàng Play khi có phiên bản mới. Nếu bạn sideload (cài theo đường tắt), ứng dụng Psiphon sẽ tải về bản cập nhật khi có, và sẽ báo cho bạn để cài đặt bản cập nhật.",
+        "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-35": {
+        "message": "<strong>Windows:</strong> Psiphon cho Windows sẽ tải xuống và cài đặt bản cập nhật khi có.",
+        "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-36": {
+        "message": "<strong>iOS:</strong> The Psiphon for iOS client will automatically download and install updates via the App Store as they are available.",
+        "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-37": {
+        "message": "<strong>Manually updating:</strong> If the Psiphon self-updating mechanism isn't working (for example, if it has been blocked), follow the instructions outlined in Section 2: Getting and Installing Psiphon to get a fresh version.",
+        "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-4-sub-heading-strained-environment": {
+        "message": "Connecting in a Strained Environment",
+        "description": "Sub-heading of Section 4 for the Psiphon Guide page"
+    },
+    "psiphon-guide-para-38": {
+        "message": "Under certain network conditions, Psiphon might take up to a few minutes before finding the best way to connect. Do not interrupt it (by hitting the start/stop button). Psiphon uses a variety of protocols and they differ regionally. Not only does the Psiphon app have a variety of connection techniques, it will learn from previous attempts and the successful connection method will be used the next time the app is run.",
+        "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-4-sub-heading-frequent-disconnections": {
+        "message": "Frequent Disconnections",
+        "description": "Sub-heading of Section 4 for the Psiphon Guide page"
+    },
+    "psiphon-guide-para-39": {
+        "message": "If you experience frequent disruptions, try the following:",
+        "description": "Section 4 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-4-list-item-1": {
+        "message": "Check your internet connection or make sure you have data. The app needs to be connected to the internet to work.",
+        "description": "Section 4 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-4-list-item-2": {
+        "message": "Make sure you have the latest version. (See above).",
+        "description": "Section 4 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-4-list-item-3": {
+        "message": "Restart the Psiphon app.",
+        "description": "Section 4 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-4-list-item-4": {
+        "message": "If you modified any connection settings, try resetting the app to default (See <a href=\"#psiphonguide_section5\">Section 5</a>).",
+        "description": "Section 4 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-4-sub-heading-more-troubleshooting": {
+        "message": "More Troubleshooting",
+        "description": "Sub-heading of Section 4 for the Psiphon Guide page"
+    },
+    "psiphon-guide-para-40": {
+        "message": "For more answers to additional troubleshooting topics, visit our <a href=\"faq.html\">FAQ</a>",
+        "description": "Section 4 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-4-sub-heading-send-feedback": {
+        "message": "Send Feedback",
+        "description": "Sub-heading of Section 4 for the Psiphon Guide page"
+    },
+    "psiphon-guide-para-41": {
+        "message": "Please send us feedback through the app if connection issues persist.",
+        "description": "Section 4 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-4-sub-heading-feedback-windows": {
+        "message": "Feedback on Windows",
+        "description": "Sub-heading of Section 4 for the Psiphon Guide page"
+    },
+    "psiphon-guide-ui-image-annotation-feedback": {
+        "message": "Phản hồi",
+        "description": "Image annotation for the 'Feedback' tab inside the Psiphon application. 'Feedback' must appear as it does in each respective language inside the app."
+    },
+    "psiphon-guide-windows-feedback-alt": {
+        "message": "Feedback screenshot for Psiphon Windows feedback tab",
+        "description": "Feedback screenshot for Psiphon Windows feedback tab."
+    },
+    "psiphon-guide-android-feedback-alt": {
+        "message": "Feedback screenshot for Psiphon Android feedback tab",
+        "description": "Feedback screenshot for Psiphon Android feedback tab. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-ios-feedback-alt": {
+        "message": "Feedback screenshot for Psiphon iOS feedback tab",
+        "description": "Feedback screenshot for Psiphon iOS feedback tab. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-4-sub-heading-feedback-android": {
+        "message": "Feedback on Android",
+        "description": "Sub-heading of Section 4 for the Psiphon Guide page"
+    },
+    "psiphon-guide-section-4-sub-heading-feedback-ios": {
+        "message": "Feedback on iOS",
+        "description": "Sub-heading of Section 4 for the Psiphon Guide page"
+    },
+    "psiphon-guide-section-5-sub-heading-language": {
+        "message": "Ngôn ngữ",
+        "description": "Sub-heading of Section 5 for the Psiphon Guide page"
+    },
+    "psiphon-guide-para-42": {
+        "message": "By default, the Psiphon app will automatically open in your selected device language (the language on your phone or computer). There are more than 30 languages available to choose from if you would prefer to use the Psiphon app in another language.",
+        "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-5-sub-heading-connection-performance": {
+        "message": "Connection Performance",
+        "description": "Sub-heading of Section 5 for the Psiphon Guide page."
+    },
+    "psiphon-guide-para-43": {
+        "message": "When connected, all traffic from your device will be tunneled through Psiphon by default. To reduce latency and increase connection performance, you may choose to exclude some traffic from the Psiphon tunnel.",
+        "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-44": {
+        "message": "Psiphon Android users can either individually include or exclude specific apps from the tunnel on devices Android 5.0 and higher. To select which apps use or do not use the Psiphon tunnel, go to OPTIONS, then choose VPN settings. Select specific apps to include or exclude from the Psiphon tunnel.",
+        "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-45": {
+        "message": "In Psiphon's Windows application, users have the option to exclude local websites from the Psiphon tunnel. The Psiphon app will disregard local websites, so the local websites can be accessed faster. To do so, go into SETTINGS > Split Tunnel > and select \"Don't proxy websites within your home country.\"",
+        "description": "Section 5 paragraph for the Psiphon Guide page. 'SETTINGS', and 'Split Tunnel', and 'Don't proxy websites within your home country.' should appear as it does in the Psiphon Windows app. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-5-sub-heading-slow-networks": {
+        "message": "Slow Networks",
+        "description": "Sub-heading of Section 5 for the Psiphon Guide page."
+    },
+    "psiphon-guide-para-46": {
+        "message": "To stay connected on a slow network, opt in to 'Disable timeouts.' This option is available on Android, Windows, and iOS.'",
+        "description": "Section 5 paragraph for the Psiphon Guide page."
+    },
+    "psiphon-guide-section-5-sub-heading-server-location": {
+        "message": "Psiphon Server Location",
+        "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-para-47": {
+        "message": "Psiphon servers are located across the globe. The app automatically chooses the server with the best connection performance. There are more than 20 countries to choose from should you wish to change server location.",
+        "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-section-5-sub-heading-windows-settings": {
+        "message": "Settings on Windows",
+        "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the Windows app."
+    },
+    "psiphon-guide-section-5-sub-heading-android-settings": {
+        "message": "Settings on Android",
+        "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the Android app."
+    },
+    "psiphon-guide-section-5-sub-heading-ios-settings": {
+        "message": "Settings on iOS",
+        "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the iOS app."
+    },
+    "psiphon-guide-windows-settings-alt": {
+        "message": "Feedback screenshot for Psiphon Windows settings tab",
+        "description": "Feedback screenshot for Psiphon Windows settings tab. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-android-settings-alt": {
+        "message": "Feedback screenshot for Psiphon Android settings tab",
+        "description": "Feedback screenshot for Psiphon Android settings tab. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-ios-settings-alt": {
+        "message": "Feedback screenshot for Psiphon iOS settings tab",
+        "description": "Feedback screenshot for Psiphon iOS settings tab. 'Psiphon' must not be translated or transliterated."
+    },
+    "psiphon-guide-windows-ui-reset-default-image-annotation": {
+        "message": "Khôi phục về Mặc định",
+        "description": "Image annotation for the 'Reset to Default' option inside the Psiphon Windows application. 'Reset to Default' must appear as it does in each respective language inside the Windows app."
+    },
+    "psiphon-guide-ui-settings-image-annotation": {
+        "message": "Cài đặt",
+        "description": "Image annotation for the 'Settings' tab inside the Windows and iOS Psiphon application. 'Settings' must appear as it does in each respective language inside the iOS app."
+    },
+    "psiphon-guide-ui-android-options-image-annotation": {
+        "message": "Tùy chọn",
+        "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
     }
 }
