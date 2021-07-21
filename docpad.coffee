@@ -171,6 +171,11 @@ docpadConfig = {
         title_key: 'psiphon-guide-title'
         nav_title_key: 'psiphon-guide-nav-title'
 
+      'donate':
+        filename: '/donate.html'
+        title_key: 'donate-title'
+        nav_title_key: 'donate-nav-title'
+
     navLayout: [
       { name: 'download' }
       {
@@ -184,6 +189,7 @@ docpadConfig = {
           { name: 'license' }
           { name: 'open-source' }
           { name: 'about' }
+          { name: 'donate' }
         ]
       }
       # { name: 'sponsor', additional_classes: ['show-if-not-sponsored', 'hidden'] }
