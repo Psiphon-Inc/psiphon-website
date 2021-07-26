@@ -43,22 +43,6 @@
         "message": "ሀብት",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "የPsiphon አጠቃቀም",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "Psiphonን በተንቀሳቃሽ ስልክ እና በWindows ላይ እንዴት መጠቀም ይቻላል",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "የተጠቃሚ መምሪያ",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "Psiphonን በተንቀሳቃሽ ስልክ እና በWindows አእማዶች  ላይ እንዴት እንደሚጠቀሙ የሚያሳይ የተጠቃሚዎች መመሪያ",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "Psiphonን አውርድ",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "ለአስፈላጊ ማስታወቂያዎች እና ለደህንነት ምክሮች <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">የማስታወቂያ ኤፖስታ ዝርዝራችንን</a> ይቀላቀሉ።",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Psiphon ለAndroid",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "በመጀመሪያ <a href=\"./faq.html#authentic-android\">የPsiphon ለAndroid ቅጂዎ ትክክለኛ መሆኑን ማረጋገጥ</a> አለብዎት። ",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "መጫንን ለማስጀመር የPsiphon APK ትይይዝን ከAndroid ኤፖስታ ተገልጋይ ላይ ወይም የድር መዳሰሻ ላይ ጠቅ ያድርጉ። (ስህተት ካገኙ <a href=\"./faq.html#android-enable-sideloading\">የጎንዮሽ ጫኙን  ማስቻል </a> ሊያስፈልጎት ይችላል።)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "የPsiphon መተግበሪያን በሚያስጀምሩበት ወቅት ከPsiphon አውታረመረብ ጋር መገናኘት በራሱ ይጀምራል።",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "መተግበሪያው ከኔትወርኩ ጋር አንዴ ከተገናኘ አብሮ ገነብ የሆነውን የPsiphon መዳሰሻ ያስጀምራል። የAndroid Psiphon (Psiphon) ነባሪ የAndroid መዳሰሻን ወይም የሌሎች መተገበሪያዎች የኢንተርኔት ትራፊክን በራሱ አያዘዋውርም። በነባሪው በPsiphon ኔትወርክ ውስጥ የሚተላለፈው የPsiphon መዳሰሻ ብቻ ነው። ",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "የPsiphon ለAndroid ሁኔታ ፓነልን የሚያሳየው ቅጽበታዊ ገጽ እይታ",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Psiphon ለAndroid የድር ማሰሻን የሚያሳይ ቅጽበታዊ ገጽ እይታ",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon እየሠራ ነው",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "በተከፈቱ ትሮች መሃል ዝለል",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "አሁን ያለውን ትር ዝጋ",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "የአሁኑ ገጽ ላይ እልባት አድርግ",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "አዲስ ትር ክፈት",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon እየሠራ ያለው በምናባዊ የግል አውታረ መረብ (ቪፒኤን) ወይም  የመሣሪያ ሙሉ በሙሉ  ሁነታ ነው።  ሁሉም መተግበሪያዎች የሚቦሮቦሩት በPsiphon አማካኝነት ነው።",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "የሁኔታ ትር ተመርጧል",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Psiphonን በመሳሪያ ሙሉ በሙሉ ሁነታ መዘዋወሪያ ለማሰራት Android  4.0+ ወይም ሩትድ የሆነ መሳሪያ ሊኖርዎት ያስፈልጋል። <br><br> ሩትድ ላልሆኑ የቆዩ የAndroid ስሪቶች  ይህ አማራጭ አይገኝም ። ",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">ግራጫ</span>፡- በመገናኘት ላይ<br><span style=\"color:red\">ቀይ</span>፡- አልተገናኘም <br><span style=\"color:Blue\">ሰማያዊ</span>፡- ተገኛኝቷል",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "እየተጠቀሙ ያሉት የትኛውን የPsiphon ሥሪት እንደሆነ ያሳያል",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Psiphon ለAndroid ምዝግብ  ፓነልን የሚያሳይ ቅጽበታዊ የገጽ እይታ",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "የPsiphon እንቅስቃሴ መዝገብ",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Psiphon ለAndroid ስታቲስቲክስ ፓኔል የሚያሳየው ቅጽበታዊ ገጽ እይታ",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "የግንኙነት ቆይታ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "በPsiphon በኩል የተላከ ውሂብ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "በPsiphon በኩል የደረሰ ውሂብ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "በPsiphon በኩል ታምቆ የተላከ ውሂብ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "በPsiphon በኩል ታምቆ  የደረሰ ውሂብ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Psiphon ለWindows",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "በመጀመሪያ <a href=\"./faq.html#authentic-windows\">Psiphon ለWindows ቅጂዎ ትክክለኛ መሆኑን ማረጋገጥ </a>አለብዎት።",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "የተገልጋይውን ፕሮግራም በማውረድ ያስኪዱት። በሚያስኬዱበት ወቅት ይህ የPsiphon ኩባንያ ትክክለኛ ምርት እንደሆነ የሚያሳይ የደንነት መግለጫ ማየት ይኖርቦታል።",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Psiphonን ሲያስሰሩት በቀጥታ ግንኙነት መፍጠር ይጀምራል። በሚገናኝበት ወቅት የሚሽከረከር አዶ ይታያል። ከሚከተሉት የማዘዋወሪያ ሁነታዎች አንዱን መምረጥ ይችላሉ፡- VPN (L2TP over IPsec)፣ SSH ወይም SSH+ (SSH እና መሰወር ፣  የፕሮቶኮል አሻራ ለማስቀረት በSSH ላይ የተጨመረ  የዘፈቀደ ንብርብር )።",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "አረንጓዴ አዶ ሲታይ ከPsiphon አገልጋይ ግንኙነት መፈጠሩን ያመለክታል። በVPN ሁነታ ውስጥ ሁሉም የኢንተርኔት ትራፊክዎ በPsiphon አማካኝነት በቀጥታ ይዘዋወራሉ።",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "በSSH and SSH+ ሁነታዎች Psiphon (Psiphon) የWindows ስርአት ወኪል ቅንብሮችን በራሱ  ያስተካክላል። ይህም ይንን ስርአት የሚያከብሩ የመተግበሪያዎች ኔትወርክ ትራፊክ በPsiphon ማስተላለፊያ ውስጥ እንዲያልፉ ያደርጋል። እነኚህ ቅንብሮች በሁሉም ዋና ዋና የድር መዳሰሻዎች በነባሪ ይከበራሉ። ",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "በተጨማሪም በSSH እና  SSH+ ሁነታዎች ውስጥ Psiphon (Psiphon) የተከፈለ ማዘዋወሪያ አማራጭን ይሰጣል። ይህም አለማቀፍ ትራፊክ በወኪልው አማካኝነት ሲዘዋወር የአካባቢ ትራፊክ ደግሞ በወኪልው አይዘዋወርም። የተከፈለ ማዘዋወርያን ለማስቻል  “የአካባቢ ድረገጾችን በወኪል አታድርግ” የሚለውን ይምረጡ። ይህ ምርጫ በሚመረጥበት ወቅት ያልተተኩ ጎራዎች በመልእክት ክፍሉ ይዘገባሉ ።",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "ፕሮግራሙን በሚዘጉበት ወቅት Psiphon በራስሠር ግንኙነቱን ያቋርጣል። በተጨማሪም አዶው ላይ ጠቅ በማድረግ ግንኙነቱን መቀያየር ይችላሉ።",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Psiphon ለWindows ተፈጻሚ የደህንነት ማስጠንቀቂያ የሚያሳይ ምስል ",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Psiphon Windows ላይ ሲጀምር የሚያሳይ ቅጽበታዎ ዕይታ",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Psiphon ለWindows እንደተገናኘ የሚያሳይ ምስል",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "የቡድን ጦማር",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psiphon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "የተጠቃሚ መምሪያ ",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "አማራጮች",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Donate",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

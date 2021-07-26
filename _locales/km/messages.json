@@ -43,22 +43,6 @@
         "message": "ធនធាន",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "របៀបប្រើប្រាស់ Psiphon",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "របៀបប្រើប្រាស់ Psiphon លើ Mobile និង Windows",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "ការណែនាំអ្នកប្រើប្រាស់",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "មគ្គុទ្ទេសក៍អ្នកប្រើ Psiphon បង្ហាញអំពីរបៀបប្រើ Psiphon នៅលើវេទិកាទូរស័ព្ទ និងWindows",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "ទាញយក Psiphon",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "ចូលរួម <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">បញ្ជីសារជូនដំណឹង</a> សម្រាប់ការជូនដំណឹងសំខាន់ៗ និងយោបល់សុវត្ថិភាពផ្សេងៗ។",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Psiphon សម្រាប់​ Android",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "ដំបូងអ្នកគួរតែ <a href=\"./faq.html#authentic-android\">ផ្ទៀងផ្ទាត់ថាការចម្លង Psiphon សម្រាប់ Android គឺត្រឹមត្រូវ</a>.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "ចុចលើតំណ Psiphon APK ណាមួយ ពីកម្មវិធីអ៊ីម៉ែល Android ឬកម្មវិធីរុករក ដើម្បីចាប់ផ្តើមការដំឡើង។ (បើអ្នកមានបញ្ហា អ្នកអាចនឹងត្រូវបើក <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "នៅពេលដំណើរការកម្មវិធី Psiphon app, វានឹងចាប់ផ្តើមតភ្ជាប់ទៅកាន់បណ្តាញ Psiphon ដោយស្វ័យប្រវត្តិ។",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "នៅពេលដែលកម្មវិធីបានភ្ជាប់ទៅនឹងបណ្តាញ វានឹងបើកដំណើរការកម្មវិធី Psiphon ដែលមានស្រាប់។ Psiphon សម្រាប់ Android មិនធ្វើឱ្យស្ទះចរាចរណ៍សម្រាប់កម្មវិធីរុករក Android លំនាំដើមឬកម្មវិធីផ្សេងទៀតទេ។ តាមលំនាំដើមមានតែកម្មវិធី Psiphon ទេដែលត្រូវប្រើលើបណ្តាញ Psiphon ។",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "រូបថតអេក្រង់​បង្ហាញ​ផ្ទាំង សាយហ្វូន សម្រាប់ផ្ទាំង​ស្ថានភាព Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "រូបថតអេក្រង់បង្ហាញផ្ទាំង Psiphon សម្រាប់ផ្ទាំងរុករក Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon កំពុងដំណើរការ",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "ឆ្លាស់រវាងផ្ទាំងកំពុងបើក",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "បិទផ្ទាំងនេះ",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "កត់ត្រាទំព័រនេះ",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "បើកផ្ទាំងថ្មី",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon កំពុងដំណើរការក្នុង VPN ឬ ទម្រប់ឧបករណ៍ទាំងមូល។ រាល់កម្មវិធីទាំងអស់ ត្រូវឆ្លងកាត់ច្រក Psiphon។",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "ផ្ទាំងស្ថានភាពបានជ្រើសរើស",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "ដើម្បីដំណើរការ Psiphon ក្នុងទម្រង់ឧបករណ៍ទាំងមូល អ្នកត្រូវមាន Android 4.0+ ឬឧបករណ៍ដែលបាន root។<br><br>ជម្រើសនេះនឹងមិនមាននៅលើឧបករណ៍មិនបាន root ជាមួយជំនាន់ Android ទាបនោះទេ។",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">ប្រផេះ</span>: កំពុងតភ្ជាប់<br><span style=\"color:red\">ក្រហម</span>: មិនបានតភ្ជាប់<br><span style=\"color:Blue\">ខៀវ</span>: បានតភ្ជាប់",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "បង្ហាញថាជំនាន់ Psiphon ណាដែលអ្នកកំពុងប្រើ",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "រូបថតអេក្រង់បង្ហាញផ្ទាំង Psiphon សម្រាប់ផ្ទាំងកំណត់ត្រា Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "កំណត់ត្រាសកម្មភាព Psiphon ",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "រូបថតអេក្រង់បង្ហាញផ្ទាំង Psiphon សម្រាប់ផ្ទាំងស្ថិតិ Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "រយៈពេលតភ្ជាប់",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "ទិន្នន័យបញ្ជូនតាម Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "ទិន្នន័យទទួលតាម Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "បានបញ្ជូនទិន្នន័យបង្រួមតាម Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "បានទទួលទិន្នន័យបង្រួមតាម Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Psiphon សម្រាប់ Windows",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "ដំបូងអ្នកគួរតែ <a href=\"./faq.html#authentic-android\">ផ្ទៀងផ្ទាត់ថាការចម្លង Psiphon សម្រាប់ Windows គឺត្រឹមត្រូវ</a>.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "ទាញយកកម្មវិធី ហើយបើកវា។ នៅពេលអ្នកដំណើរការវាអ្នកនឹងឃើញប្រអប់សុវត្ថិភាព ដែលបង្ហាញថាកម្មវិធីនេះគឺជាផលិតផលស្របច្បាប់របស់ Psiphon Inc.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Psiphon ចាប់ផ្តើមភ្ជាប់ដោយស្វ័យប្រវត្តិនៅពេលអ្នកដំណើរការវា។ ខណៈពេលដែលវាកំពុងតភ្ជាប់ រូបតំណាង វិលទៅមកត្រូវបានបង្ហាញ។ អ្នកអាចជ្រើសរើសទម្រង់តភ្ជាប់ណាមួយខាងក្រោម៖ VPN (L2TP លើ IPsec), SSH ឬ SSH + (SSH បូកបូករួមនឹងស្រទាប់ចៃដន្យនៅខាងលើ SSH ដើម្បីចៀសវាងការដាក់ស្នាមម្រាមដៃប្រូតូកូល) ។",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "ការតភ្ជាប់ទៅម៉ាស៊ីនមេ Psiphon ត្រូវបានបង្កើតឡើងនៅពេលរូបតំណាងពណ៌បៃតងត្រូវបានបង្ហាញ។ នៅក្នុងទម្រង់ VPN គ្រប់ចរាចររបស់អ្នកដោយស្វ័យប្រវត្តិតាមរយៈច្រក Psiphon ។",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "នៅក្នុងទម្រង់ SSH និង SSH + Psiphon កំណត់ការកំណត់ប្រូកស៊ីប្រព័ន្ធ Windowsដោយស្វ័យប្រវត្ តិដូច្នេះចរាចរបណ្ដាញសម្រាប់កម្មវិធីដែលគោរពការកំណត់ទាំងនេះ ​​​នឹងត្រូវបានបើកតាមរយៈ Psiphon ។ ការកំណត់ទាំងនេះត្រូវបានគោរពតាមលំនាំដើមដោយកម្មវិធីរុករកអ៊ីនធឺណិតសំខាន់ៗទាំងអស់។",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "លើសពីនេះ នៅក្នុងទម្រង់ SSH និង SSH + Psiphon ផ្តល់ជំរើសច្រកដែលចរាចរអន្តរជាតិត្រូវបានបើកច្រកដោយប្រូកស៊ី និងមិនបើកចរាចរក្នុងស្រុកទេ។ ធីកជម្រើស \"កុំប្រើបណ្ដាញតាមអ៊ីនធឺណែតក្នុងកុំព្យូទ័រ\" ដើម្បីបើកការបំបែកច្រក។ នៅពេលបើកជម្រើសនេះ ដែនគ្មានប្រូកស៊ី នឹងត្រូវបានរាយការណ៍នៅក្នុងតំបន់ទទួលសារ។",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "ពេលអ្នកបិទកម្មវិធី Psiphon នឹងបិទដោយស្វ័យប្រវត្តិ។ អ្នកអាចចុច លើរូបតំណាង ដើម្បីបិទបើក ការតភ្ជាប់។",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "រូបថតអេក្រង់បង្ហាញ ការព្រមានសុវត្ថិភាពWindows សម្រាប់ Psiphon ដែលអាចដំណើរការបាន",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "រូបថតអេក្រង់បង្ហាញផ្ទាំង Psiphon ដំណើការលើ Windows",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "រូបថតអេក្រង់បង្ហាញផ្ទាំង Psiphon បានតភ្ជាប់លើ Windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "ក្រុមប្លក",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psiphon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "មគ្គុទេស៍អ្នកប្រើប្រាស់",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "ជម្រើស",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Donate",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

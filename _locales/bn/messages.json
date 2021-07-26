@@ -43,22 +43,6 @@
         "message": "সংস্থানগুলি",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "সাইফন কিভাবে ব্যবহার করবেন",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "মোবাইল এবং উইন্ডোজে সাইফন কিভাবে ব্যবহার করবেন",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "ব্যবহারকারী গাইড",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "সাইফন ব্যবহারকারী নির্দেশিকা দেখায় যে মোবাইল এবং উইন্ডোজ প্ল্যাটফর্মগুলিতে সাইফন কিভাবে ব্যবহার করতে হয়",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "সাইফন ডাউনলোড করুন",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "গুরুত্বপূর্ণ ঘোষণা এবং নিরাপত্তা নির্দেশনার জন্য আমাদের ঘোষণা মেইলিং তালিকায় <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">যোগ দিন</a>। ",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "অ্যানড্রয়েডের জন্য সাইফন",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "আপনি প্রথম <a href=\"./faq.html#authentic-android\">যাচাই করুন যে আপনার অ্যান্ড্রয়েড এর জন্য  সাইফন কপি যেন আসল হয়</a>।",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "ইনস্টলেশন শুরু করতে আপনার অ্যান্ড্রয়েড ইমেল ক্লায়েন্ট বা ওয়েব ব্রাউজার থেকে একটি সাইফন এপিকি লিঙ্ক ক্লিক করুন।(যদি আপনি কোনো ত্রুটির সম্মুখীন হন, আপনাকে <a href=\"./faq.html#android-enable-sideloading\">sideloading সক্রিয় করতে</a> প্রয়োজন হতে পারে।",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "যখন আপনি সাইফন অ্যাপ্লিকেশন চালু করবেন, তখন এটি স্বয়ংক্রিয়ভাবে সাইফন নেটওয়ার্কের সাথে সংযোগ স্থাপন শুরু করবে।",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "অ্যাপ্লিকেশনটি নেটওয়ার্কে সংযুক্ত থাকলে, এটি বিল্ট-ইন সাইফন ব্রাউজারটি চালু করবে। অ্যান্ড্রয়েড এর জন্য সাইফন স্বয়ংক্রিয়ভাবে ডিফল্ট অ্যান্ড্রয়েড ব্রাউজার বা অন্য অ্যাপ্লিকেশানগুলির জন্য ট্র্যাফিক সুরক্ষিত রাখে না ডিফল্টরূপে, সাইফন নেটওয়ার্কটি কেবল সাইফন নেটওয়ার্ক এর মাধ্যমেই সুরক্ষিত।",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android status panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "স্ক্রিনশট অ্যান্ড্রয়েড ওয়েব ব্রাউজারের জন্য সাইফন দেখাচ্ছে",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "সাইফন চলছে",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "খোলা ট্যাবগুলির মধ্যে পরিবর্তন করুন",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "বর্তমান ট্যাব বন্ধ করুন",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "বর্তমান পৃষ্ঠায় বুকমার্ক করুন",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "নতুন ট্যাব খুলুন",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "সাইফন ভিপিএন বা হোল ডিভাইস মোডে চলছে। সব অ্যাপ্লিকেশন সাইফন এর মাধ্যমে টানেল হয়।",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "স্থিতি ট্যাব নির্বাচন করা হয়।",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "টানেল হোল ডিভাইস মোডে সাইফন চালানোর জন্য, আপনার অ্যান্ড্রয়েড 4.0+ বা রুট করা ডিভাইস থাকা আবশ্যক।<br><br> এই বিকল্প অ্যানড্রয়েডের পুরোনো ভার্সন অ-মূলযুক্ত ডিভাইসের জন্য অনুপলব্ধ থাকবে।",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">ধূসর</span>:সংযোগ স্থাপন করছে<br><span style=\"color:red\">লাল</span>:সংযোগ বিচ্ছিন্ন<br><span style=\"color:Blue\">নীল</span>:সংযুক্ত",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "আপনার বর্তমানে চলমান সাইফন সংস্করণটি দেখায়",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "স্ক্রিনশট অ্যান্ড্রয়েড লগ প্যানেলের জন্য সাইফন দেখাচ্ছে",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "সাইফন কার্যকলাপ লগ",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": " স্ক্রিনশট অ্যান্ড্রয়েড পরিসংখ্যান প্যানেলের জন্য সাইফন দেখাচ্ছে",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "সংযোগের সময়কাল",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "সাইফনের মাধ্যমে পাঠানো ডেটা",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "সাইফন এর মাধ্যমে প্রাপ্ত ডেটা ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "সাইফন এর মাধ্যমে  সংকুচিত ডেটা পাঠানো হয়েছে",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "সাইফন এর মাধ্যমে প্রাপ্ত সংকুচিত তথ্য ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "উইন্ডোজ এর জন্য সাইফন",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "আপনাকে প্রথমে <a href=\"./faq.html#authentic-windows\">যাচাই করা উচিত যে আপনার উইন্ডোজের জন্য আপনার সাইফন কপিটি নির্ভরযোগ্য</a>।",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "ক্লায়েন্ট প্রোগ্রামটি ডাউনলোড করুন এবং এটি রান করুন।আপনি এটি চালানোর জন্য, আপনাকে একটি নিরাপত্তা প্রম্পট দেখাচ্ছে যে এই প্রোগ্রাম সাইফন Inc এর একটি বৈধ পণ্য ।",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "যখন আপনি সাইফন চালাবেন তখন এটি স্বয়ংক্রিয়ভাবে সংযোগ শুরু করে। যখন এটি সংযোগ করা হয়, একটি স্পিনিং আইকন প্রদর্শন করা হয়। আপনি নিম্নলিখিত টানেল মোডগুলির মধ্যে একটি নির্বাচন করতে পারেন: ভিপিএন (আইপিএসসি'র উপর L2TP), SSH, অথবা SSH + ( SSH প্লাস অপফস্যাকশন, প্রোটোকল ফিঙ্গারপ্রিন্টিং এড়ানোর জন্য SSH এর উপরে একটি এলোমেলোভাবে স্তর)।",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "সবুজ আইকন প্রদর্শন করা হয় যখন সাইফন সার্ভারের সাথে সংযোগ স্থাপন করা হয়। ভিপিএন মোডে আপনার সমস্ত ট্র্যাফিক সাইফন এর মাধ্যমে স্বয়ংক্রিয়ভাবে টানেল হয়।",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "এসএসএইচ এবং এসএসএইচ + মোডে, সাইফন স্বয়ংক্রিয়ভাবে উইন্ডোজ সিস্টেম প্রক্সি সেটিংস সেট করে দেয়, তাই এই সেটিংসকে সম্মান করে এমন অ্যাপ্লিকেশনের জন্য নেটওয়ার্ক ট্র্যাফিক সাইফনের মাধ্যমে টানেল করা হবে। এই সেটিংস সমস্ত প্রধান ওয়েব ব্রাউজার দ্বারা ডিফল্টভাবে সম্মানিত হয়।",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "উপরন্তু,  SSH এবং SSH + মোডে, সাইফন একটি বিভক্ত টানেল বিকল্প প্রস্তাব করে যেখানে প্রক্সি দ্বারা আন্তর্জাতিক ট্র্যাফিক টানেল করা হয় এবং অভ্যন্তরীণ ট্র্যাফিক নয়।বিভক্ত টানেলিং সক্রিয় করতে \"অভ্যন্তরীণ ওয়েব সাইটগুলি প্রক্সি করবেন না\" এমন বিকল্প চেক করুন।এই বিকল্পটি চালু হলে, অবাঞ্ছিত ডোমেনগুলি বার্তা এলাকায় রিপোর্ট করা হয়।",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "আপনি যখন প্রোগ্রামটি বন্ধ করবেন তখন সাইফন সংযোগ স্বয়ংক্রিয়ভাবে বিচ্ছিন্ন হবে। সংযোগটি টগল করার জন্য আপনি আইকনে ক্লিক করতে পারেন।",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "স্ক্রিনশট সাইফন এক্সিকিউটেবলের জন্য উইন্ডোজ নিরাপত্তা সতর্কবাণী দেখাচ্ছে",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "স্ক্রিনশট দেখানো হচ্ছে সাইফন উইন্ডোজ-এ শুরু করার পর",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "স্ক্রিনশট দেখানো হচ্ছে সাইফন উইন্ডোজ এ সংযুক্ত",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "টিম ব্লগ",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "সাইফন2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "ব্যবহারকারী গাইড",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "বিকল্পসমূহ",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "দান করুন",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

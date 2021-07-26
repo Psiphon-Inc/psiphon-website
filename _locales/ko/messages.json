@@ -43,22 +43,6 @@
         "message": "더 보기",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "Psiphon을 사용하는 방법",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "모바일, Windows용 Psiphon을 사용하는 방법",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "사용 설명서",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "Psiphon 사용자 가이드는 Psiphon을 모바일과 Windows 플랫폼에서 사용하는 방법을 보여줍니다",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "Psiphon 다운로드",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "우리의 <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">공지사항 메일링 리스트</a>에 가입하여 중요한 공지사항과 보안 제안을 받으세요.",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Android용 Psiphon",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "반드시 먼저 Android에서 Psiphon을 신뢰할 수 있도록 <a href=\"./faq.html#authentic-android\">인증해야</a> 합니다.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "Click on a Psiphon APK link from within your Android email client or web browser to begin the installation. (If you get an error, you may need to <a href=\"./faq.html#android-enable-sideloading\">enable sideloading</a>.)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "Psiphon 앱을 실행하면, 자동으로 Psiphon 네트워크에 접속을 시작합니다.",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "Once the app has connected to the network, it will launch the built-in Psiphon browser. Psiphon for Android does not automatically tunnel the traffic for the default Android browser or other apps. By default, only the Psiphon browser is tunneled through the Psiphon network.",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android status panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Screenshot showing the Psiphon for Android web browser",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon이 작동중입니다",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "열린 탭 전환",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "현재 탭 닫기",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "현재 페이지를 북마크에 추가",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "새로운 탭 열기",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon은 VPN 또는 모든 디바이스 모드에서 작동합니다. 모든 어플리케이션은 Psiphon을 통하여 터널링 됩니다.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "상태 탭 선택됨",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Psiphon을 전체 기기 모드로 터널링 시키려면, 안드로이드 4.0 이상 또는 루팅 된 장치가 있어야합니다.<br><br>이 옵션은 이전 버전의 안드로이드이며 루팅 되지 않은 장치인 경우 사용할 수 없습니다.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Grey</span>: 연결 중<br><span style=\"color:red\">Red</span>: 연결되지 않음<br><span style=\"color:Blue\">Blue</span>: 연결됨",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "현재 작동 중인 Psiphon의 버전을 표시",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android logs panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Psiphon 활동 로그",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android statistics panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "연결 지속시간",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "데이터는 Psiphon을 통해 전송됩니다",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Psiphon을 통해 데이터 받음",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Psiphon을 통해 압축된 데이터를 전송",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Psiphon을 통해 받은 압축된 데이터",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Windows용 Psiphon",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "반드시 먼저 Windows에서 Psiphon을 신뢰할 수 있도록 <a href=\"./faq.html#authentic-windows\">인증해야</a> 합니다.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "클라이언트 프로그램을 다운로드 받고 실행하면, 프롬프트에서 프로그램이 전적으로 Psiphon Inc.의 소유라는 것을 보여줍니다.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Psiphon automatically starts connecting when you run it. While it is connecting, a spinning icon is displayed. You may select one of the following tunnel modes: VPN (L2TP over IPsec), SSH, or SSH+ (SSH plus obfuscation, a randomized layer on top of SSH to avoid protocol fingerprinting).",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "녹색 아이콘이 표시 될 때 Psiphon 서버에 대한 연결이 완료됩니다. VPN 모드에선, 모든 트래픽이 자동으로 Psiphon를 통해 터널됩니다.",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "SSH와 SSH+ 모드에선, Psiphon이 자동으로 Windows의 시스템 프록시 설정을 지정합니다. 따라서 어플리케이션에 대한 네트워크 트래픽은 항상 이 설정을 거치게 되며 Psiphon으로 터널링됩니다. 이 설정은 대부분의 브라우저에서 기본적으로 사용됩니다.",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "또한, SSH 및 SSH + 모드에서, Psiphon 국제 트래픽이 프록시 국내 트래픽을 통해 터널링 분할 터널 옵션은 제공 되지 않습니다. 분할 터널링을 가능하게하는 \"프록시 국내 웹 사이트를 수행을 하지 않음\"옵션을 선택합니다. 이 옵션을 활서화할 시, 프록시 되지 않은 도메인은 메시지 영역에서 보고됩니다.",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "프로그램을 닫으면, Psiphon은 자동으로 연결을 끊습니다. 아이콘을 클릭해도 연결을 토글할 수 있습니다.",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Screenshot showing Psiphon starting up on Windows",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Screenshot showing Psiphon connected on Windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "팀 블로그",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psiphon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "사용 설명서",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "옵션",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "후원하기",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

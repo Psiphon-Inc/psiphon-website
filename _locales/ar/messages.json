@@ -43,22 +43,6 @@
         "message": "المصادر",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "كيفية استخدام برنامج سايفون Psiphon",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "كيف تستعمل سايفون على الموبايل والويندوز ",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "دليل المستخدم",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "دليل مستخدم سايفون يظهر كيف تستعمل سايفون مع الموبايل ومنصات ويندوز ",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "تحميل برنامج سايفون ",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "انضم إلى قائمتنا البريدية للحصول على أهم الإعلانات والمعلومات والنصائح الأمنية المتعلقة بالبرنامج: <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">\n ",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "برنامج سايفون Psiphon لأجهزة الأندرويد Android",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "يجب أولا أن تتحقق من أنً  نسختك من برنامج سايفون لأجهزة الأندرويد Android أصلية وموثوق بها <a href=\"./faq.html#authentic-android\">",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "اضغط على الرابط الخاص ب APK من داخل البريد الإلكتروني الخاص بأندرويد أو من داخل المتصفح للبدء بعملية التنصيب.\n. (إذا كنت تحصل على خطأ قد تحتاج إلى <a href=\"./faq.html#android-enable-sideloading\">تمكين التحميل  الجانبي  sideloading</a>.)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "عند البدء بتشغيل تطبيقات سايفون  فإنه وبشكل تلقائي سيبدأ الاتصال والربط مع شبكة سايفون . ",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "متي ما كان هذا التطبيق متصلا بالشبكة فإنه سيبدأ بفتح المتصفح الذي هو من ضمن برنامج سايفون . برنامج سايفون لأجهزة الأندرويد  لا يقوم بتوجيه مسار البيانات والمعلومات تلقائيا نحو المتصفح الإفتراضي لنظام أندرويد  أو أية تطبيقات أخرى. إفتراضيا فإنً متصفح سايفون  هو الوحيد الذي يمر بمسار شبكة سايفون . ",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "لقطات شاشة توضيحية للوحة الوضعية لسايفون على الاندرويد",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "لقطات شاشة توضيحية لعملية تشغيل سايفون للإندرويد على متصفح الويب",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "برنامج سايفون يعمل الآن",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "التحويل بين الصفحات المفتوحة",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "إغلاق الصفحة الحالية",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "أضف الصفحة الحالية لقائمتك المفضلة",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "افتح صفحة جديدة",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "برنامج سايفون Psiphon يعمل الآن على الشبكة الإفتراضية الخاصة VPN أو على نظام الجهاز بأكمله Whole Device. جميع التطبيقات تعمل عبر برنامج سايفون Psiphon. ",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "تمً اختيار خيار إظهار الحالة",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "لتشغيل برنامج سايفون على نظام (مسار الجهاز بأكمله) Tunnel Whole Device mode يجب أن يكون جهازك الإصدار الرابع بلس لأنظمة أندرويد +Android 4.0 أو امتلاكك لحساب المستخدم الجذري للجهاز <br><br> هذا الخيار لن يكون متوفرا للذين لا يملكون حساب المستخدم الجذري لأجهزتهم ذات الإصدارات القديمة من أندرويد.  ",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">رمادي</span>: متصل<br><span style=\"color:red\">أحمر</span>: غير متصل<br><span style=\"color:Blue\">أزرق</span>: متصل",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "لإظهار أيً إصدار من برنامج سايفون Psiphon جاري إستخدامه حاليا ",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "لقطات شاشة توضيحية للوحة السجلات لسايفون على الاندرويد ",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "نشاط عمليات الدخول لبرنامج سايفون",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "لقطات شاشة توضيحية للوحة الإحصائات لسايفون على الاندرويد ",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "مدة الإتصال",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "البيانات المرسلة عن طريق سايفون",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "البيانات المسلمة عن طريق  عبر برنامج سايفون",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "البيانات المرسلة تمً ضغطها من خلال برنامج سايفون",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "البيانات المستلمة تمً ضغطها من خلال برنامج سايفون",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "برنامج سايفون لبرنامج التشغيل ويندوز Windows",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "يجب أولا التأكد من أنً نسختك من برنامج سايفون Psiphon لبرامج ويندوز Windows أصلية.\n<a href=\"./faq.html#authentic-windows\">",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "قم بتحميل وتشغيل برنامج العميل Client Program. وعند تشغيله ستظهر لك نافذة خاصة بالأمان توضح أنً هذا البرنامج هو منتج أصلي وموثوق به من شركة سايفون المساهمة Psiphon Inc.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "يبدأ سايفون 3 بالاتصال فور تشغيله. وتظهر أيقونة عجلة تدور خلال عمليه الاتصال. ويمكنك اختيار واحدة من وسائل الاتصال التالية: \nVPN (L2TP over IPSec), SSH+,  SSH\n(SSH  FH  بالإضافة لطبقة للتشويش وبث العشوائيه التي تضاف ل SSH لمنع اخذ بصمة البروتوكول)",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "ظهور الأيقونة الخضراء يعني نجاح عملية الإتصال بخادم برنامج سايفون. والربط بنظام الشبكة الإفتراضية الخاصة VPN سيجعل جميع الاتصالات والبيانات تمر بشكل تلقائي من خلال مسار برنامج سايفون. ",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "في نظاميْ بروتوكول القشرة الآمنة SSH و بروتوكول القشرة الآمنة بلس +SSH يقوم برنامج سايفون Psiphon وبشكل تلقائي بضبط إعدادت وكيل نظام برامج ويندوز Windows Proxy والمعلومات والبيانات للتطبيقات التي تتماشي وتعمل مع مسار تلك الإعدادات عبر برنامج سايفون Psiphon. وستعمل تلك الإعدادات إفتراضيا مع جميع متصفحات الويب Web Browsers الرئيسية.",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "إضافة إلى ذلك٬ فإنً برنامج سايفون Psiphon يوفًر٬ ضمن نظامي بروتوكول القشرة الآمنة SSH و بروتوكول القشرة الآمنة بلس +SSH ٬ خيارٌ لمسار منفصل  (نفق منفصل) تمر به الإتصالات والبيانات والمعلومات الدولية عبر الوكيل Proxy فقط ولا تمر فيه الاتصالات والبيانات والمعلومات المحلية. اختر خيار \"من دون الوكيل\" \"...Don't Proxy\" للسماح بفصل المسار. عند تفعيل هذا الخيار فإنً أيًة مجالات من دون وكيل Unproxied Domains سيتم الإبلاغ عنها في خانة الرسائل.",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "عند إغلاق البرنامج فإن سايفون يقوم تلقائيا بقطع الاتصال. كما يمكنك أيضا قطع الإتصال من خلال النقر على الأيقونة.",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "لقطات شاشة توضيحية لتحذير حماية الويندوز حول عملية تنفيذ سايفون",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "لقطات شاشة توضيحية لعملية تشغيل Psiphon على الويندوز",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "لقطات شاشة توضيحية لسايفون يعمل على الويندوز",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "مدونة فريق العمل ",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "سايفون2  ",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "دليل المستخدم",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "‮خيارات",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "تبرّع",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

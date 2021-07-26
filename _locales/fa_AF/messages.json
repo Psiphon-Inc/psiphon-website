@@ -43,22 +43,6 @@
         "message": "منابع",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "چگونگی استفاده از سایفون",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "نحوه استفاده از سایفون در تلفون همراه و ویندوز",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "راهنمای کاربر",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "راهنمای کاربر سایفون نحوه استفاده از سایفون در پلیت فارم‌های تلفون همراه و ویندوز را نشان میدهد",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "دانلود سایفون",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "به <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">لست ایمیل اعلامیه‌های</a> ما بپیوندید تا اطلاعیه‌های مهم و مشوره‌های امنیتی را دریافت کنید.",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "سایفون برای اندرواید",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "ابتدا باید <a href=\"./faq.html#authentic-android\"> تأیید کنید که کاپی سایفون شما برای اندرواید معتبر است</a>.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "روی لینک APK سایفون از درون سرویس‌گیرنده ایمیل اندرواید یا مرورگر ویب خود کلیک کنید تا نصب را آغاز کنید. (اگر با خطای مواجه شدید، ممکن مجبور شوید <a href=\"./faq.html#android-enable-sideloading\">دانلود جداگانه را فعال کنید</a>.)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "وقتی برنامه سایفون را اجرا میکنید، به طور اتومات شروع به اتصال به شبکه سایفون میکند.",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "وقتی برنامه به شبکه وصل شد، مرورگر داخلی سایفون را راه اندازی خواهد کرد. سایفون برای اندرواید به طور اتومات ترافیک مرورگر پیش‌فرض اندرواید و دیگر برنامه‌ها را تونل نمیکند. به طور پیش‌فرض تنها مرورگر سایفون از طریق شبکه سایفون تونل میشود.",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android status panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Screenshot showing the Psiphon for Android web browser",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "سایفون در حال اجرا است",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "جابجایی بین تب ‌های باز",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "تب فعلی را ببندید",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "کتاب نشانی صفحه فعلی",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "تب جدید را باز کنید",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "سایفون در حالت VPN یا تمام دستگاه اجرا میشود. تمام برنامه‌های توسط سایفون تونل میشوند.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "تب وضعیت انتخاب شده است",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "برای اجرای سایفون در حالت تمام استفاده از تونل برای تمام دستگاه، باید اندرواید 4.0+ یا یک دستگاه ریشه دار شده داشته باشید.<br><br>این گزینه برای دستگاه های غیر ریشه دار شده با نسخه سابقه‌تر اندرواید در دسترس نخواهد بود.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">خاکستری</span>: در حال اتصال<br><span style=\"color:red\">سرخ</span>: not متصل نشده<br><span style=\"color:Blue\">آبی</span>: متصل",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "نسخه سایفون که در حال حاضر استفاده میکنید را نشان میدهد",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android logs panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "گزارش‌های ثبت فعالیت سایفون",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android statistics panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "مدت زمان اتصال",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "داده‌های ارسال شده از طریق سایفون",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "داده‌های دریافت شده از طریق سایفون",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "معلومات ارسال شده از طریق سایفون فشرده شده است",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "داده‌های دریافت شده از طریق سایفون فشرده شده اند",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "سایفون برای ویندوز",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "ابتدا باید <a href=\"./faq.html#authentic-windows\"> تأیید کنید که کاپی سایفون شما برای ویندوز معتبر است</a>.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "برنامه سرویس‌گیرنده را دانلود و آن را اجرا کنید. هنگامیکه آن را اجرا میکنید، باید یک پیام امنیتی که نشان میدهد این برنامه محصول معتبر شرکت سایفون است را مشاهده نمایید.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "وقتی سایفون را اجرا میکنید به‌ طور اتومات شروع به اتصال میکند. در حین اتصال، آیکن چرخان نمایش داده میشود. میتوانید یکی از حالت‌های ذیل تونل را انتخاب کنید: VPN (L2TP از طریق IPsec)، SSH یا SSH+ (SSH همراه با ابهام، یک لایه تصادفی روی SSH برای جلوگیری از ثبت چاپ انگشت پروتوکول).",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "هنگامیکه آیکن سبز نمایش داده میشود، به معنی برقراری اتصال به سرور سایفون است. در حالت VPN، تمام ترافیک شما به‌ طور اتومات از طریق سایفون تونل میشود.",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "سایفون در حالت SSH و SSH+ به طور اتومات تنظیمات پراکسی ویندوز را تنظیم میکند تا ترافیک شبکه برای برنامه‌های که این تنظیمات را رعایت میکنند از طریق سایفون تونل شوند. این تنظیمات به طور پیش‌فرض توسط تمام مرورگرهای عمده ویب رعایت میشوند.",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "علاوه بر این، در حالت‌های SSH و SSH+، سایفون یک گزینه تونل دوقسمته را ارائه میکند که با آن ترافیک بین‌المللی از طریق پراکسی تونل میشود اما ترافیک داخلی نمیشود. گزینه \"ویب سایت‌های داخلی پراکسی نشوند\" گزینه‌ برای فعال کردن تونل دوقسمته است. هنگامیکه این گزینه فعال است، دامنه‌های فاقد پراکسی در ناحیه پیام گزارش میشوند.",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "هنگامیکه برنامه را بسته می کنید، سایفون به طور اتومات قطع میشود. همچنین میتوانید بر روی آیکن کلیک کنید تا اتصال را تغییر دهید.",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Screenshot showing Psiphon starting up on Windows",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Screenshot showing Psiphon connected on Windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "تیم وبلاگ",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "سایفون2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "راهنمای کاربر",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "گذینه‌ها",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Donate",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

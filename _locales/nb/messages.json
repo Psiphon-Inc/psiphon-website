@@ -43,22 +43,6 @@
         "message": "Ressurser",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "Hvordan bruke Psiphon",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "Hvordan bruke Psiphon på mobil og Windows",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "Brukerveiledning",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "Psiphon brukerguide viser deg hvordan du bruker Psiphon på mobile plattoformer og Windows.",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "Last ned Psiphon",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "Meld deg på <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">e-postlisten for kunngjøringer</a> for viktige meddelelser og sikkerhetsråd.",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Psiphon for Android",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "Først burde du <a href=\"./faq.html#authentic-android\">kontrollere om din versjon av Psiphon for Android er ekte</a>.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "Klikk på en APK-lenke for Psiphon i din e-postklient fra Android eller en nettleser for å begynne installasjonen. (Hvis du støter på en feil kan det hende du må skru på <a href=\"./faq.html#android-enable-sideloading\">sideinstallasjon</a>.)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "Når du kjører Psiphon-programmet vil det automatisk begynne tilkobling til Psiphon-nettverket.",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "Når programmet har koblet til nettverket, vil det kjøre den innebygde Psiphon-nettleseren. Psiphon for Android kjører ikke antomatisk trafikken fra standardnettleseren eller andre programmer gjennom denne tunnelen. Til å begynne med blir bare trafikken fra Psiphon-nettleseren sendt gjennom tunnelen ut til Psiphon-nettverket.",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android status panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Skjermavbildning som viser nettleseren i Psiphon for Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon kjører",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "Bytt mellom åpne faner",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "Lukk denne fanen",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "Bokmerk denne siden",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "Åpne ny fane",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon kjører i VPN eller hele fjøla-modus. Alle programmer tunneleres gjennom Psiphon.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "Statusfane er valgt",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "For å kjøre Psiphon i hele-fjøla-modus må du ha Android 4.0+ eller en telefon med supberbruker rettigheter (root).\n\nDette valget vil ikke være tilgjengelig for telefoner uten denslags eller for gamle versjoner av Android.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Grey</span>: kobler til<br><span style=\"color:red\">Rød</span>: ikke tilkoblet<br><span style=\"color:Blue\">Blå</span>: tilkoblet",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "Indikasjon på hvilken versjon av Psiphon du kjører nå",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Skjermavbildning som viser loggpanelet i Psiphon for Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Loggføring av Psiphon-aktivitet",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Skjermavbildning som viser statistikkpanelet i Psiphon for Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "Tilkoblings-varighet",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Data sendt gjennom Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Data mottatt gjennom Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Sendt data komprimert gjennom Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Mottatt data komprimert gjennom Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Psiphon for Windows",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "Først bør du <a href=\"./faq.html#authentic-windows\">sjekke at din versjon av Psiphon for windows er ekte</a>.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "Last ned klient-programmet og kjør det. Når du kjører det, vil du se en sikkerhetsforespørsel som viser deg at dette programmet er et legitimt produkt fra Psiphon Inc.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Psiphon starter automatisk å koble til ved oppstart. Mens tilkobling pågår, vises et spinnende ikon. Du kan velge ett av følgende tunnel-modus: VNP (L2TP over IPSec), SSH, eller SSH+ (SSH med ekstra røring i suppa, et tilfeldig lag overlagt SSH for å forhindre bekjentgjøring av protokoll-fingeravtrykk)",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "Tilkobling til Psiphon-tjeneren er tilknyttet når det grønne ikonet er vist. I VPN-modus vil all din trafikk automatisk gå gjennom Psiphon.",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "I SSH og SSH+ -modi, setter Psiphon automatisk systemets mellomtjener-innstillinger, slik at trafikk fra programmer som forholder seg til disse innstillingene blir dirigert gjennom en Psiphon-tunnel . Alle store nettlesere forholder seg til disse innstillingene normalt sett.",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "Videre tilbyr Psiphon i SSH og SSH+modus valg av en delt tunnel-løsning der internasjonal trafikk går gjennom mellomtjeneren mens innenlands-trafikk ikke gjør det. Velg \"Ikke mellomtjen nettsider innenlands\" for å skru på delt tunnelering. Når dette valget er gjeldende vil ikke mellomtjente domener bli rapportert i meldingsfeltet.",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "Når du lukker programmet, vil Psiphon automatisk koble fra.\nDet er også mulig å klikke på ikonet for å skru av og på tilkoblingen.",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Skjermavbildning som viser en sikkerhetsadvarsel i Windows for den kjørbare Psiphon-fila",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Skjermavbildning som viser oppstart av Psiphon på Windows",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Skjermavbildning som viser Psiphon tilkoblet på Windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "Blogg fra laget bak Psiphon",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psiphon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "bruker-guide",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "Valg",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Donér",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

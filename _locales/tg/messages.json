@@ -43,22 +43,6 @@
         "message": "Захираҳо",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "Тарзи истифодаи Psiphon",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "Тарзи истифода бурдани Psiphon дар Windows ва телефонҳои мобилӣ",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "Дастурамали корбар",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "Дастурамали корбари Psiphon тарзи истифода бурдани Psiphon-ро дар Windows ва платформаҳои мобилӣ нишон медиҳад",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "Psiphon-ро боргирӣ кардан",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "Ба <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Рӯйхати гирандагони эълонҳои мо</a> ҳамроҳ шуда, оиди эълонҳои муҳим ва тавсияҳо оиди бехатарӣ бохабар бошед.",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Psiphon барои Android",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "Шумо бояд аввал <a href=\"./faq.html#authentic-android\">мутмаин шавед, ки нусхаи Psiphon барои Android-и шумо аслӣ мебошад</a>.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "Барои насбкуниро оғоз кардан, дар барномаи почта ё браузери дастгоҳи Android-и худ пайванди Psiphon APK-ро зер кунед. <mrk mid=\"215\" mtype=\"seg\">(Агар хатогӣ ба миён ояд, шумо бояд &lt;a href=”./faq.html#android-enable-sideloading”&gt;насб аз манбаҳои номаълумро фаъол кунед (sideload)&lt;/a&gt;).</mrk>",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "Вақте ки барномаи Psiphon ба кор медароред, он ба таври худкор пайвастшавиро ба шабакаи Psiphon оғоз мекунад.",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "Вақте ки барнома ба шабака пайваст мешавад, браузери дарунсохти Psiphon ба кор дароварда мешавад. Psiphon барои Android трафики браузери пешфарзи Android ва барномаҳои дигар ба таври худкор тавассути нақб равона намекунад. Ба таври пешфарз, танҳо браузери Psiphon тавассути нақбҳои шабакаи Psiphon равона карда мешавад.",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android status panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Screenshot showing the Psiphon for Android web browser",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon кор мекунад",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "Байни варақаҳои кушода гузаштан",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "Варақаи ҷориро пӯшидан",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "Саҳифаи ҷориро ба хатбаракҳо илова кардан",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "Забонаи нав кушодан",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon дар реҷаи VPN ё Тамоми дастгоҳ кор мекунад. Трафики тамоми барномаҳо тавассути Psiphon равона карда мешавад.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "Варақаи Ҳолат интихоб карда шудааст",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Барои Psiphon-ро дар реҷаи Тамоми трафики дастгоҳро тавассути нақб равона кардан, дастгоҳи шумо бояд дорои Android 4.0 ё навтар ё root-шуда бошад.<br><br>Ин имкон барои дастгоҳҳои root-нашудаи дорои версияи куҳнатари Android дастнорас мебошад.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Хокистарӣ</span>: пайваст мешавам<br><span style=\"color:red\">Сурх</span>: пайваст нест<br><span style=\"color:Blue\">Кабуд</span>: пайваст шудам",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "Версияи ҷории Psiphon-и шуморо нишон медиҳад",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android logs panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Дафтарҳои қайди амалҳои Psiphon",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android statistics panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "Давомнокии пайваст",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Иттилооте, ки тавассути Psiphon фиристода мешавад",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Иттилооте, ки тавассути Psiphon гирифта мешавад",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Иттилооти фиристода шуда тавассути Psiphon фишурда мешавад",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Иттилооти гирифташуда тавассути Psiphon фишурда мешавад",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Psiphon барои Windows",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "Шумо бояд аввал <a href=\"./faq.html#authentic-windows\">мутмаин шавед, ки нусхаи Psiphon барои Windows-и шумо аслӣ мебошад</a>.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "Барномаи муштариро боргирӣ карда, онро ба кор дароред. Вақте ки онро ба кор медароред, ба шумо паёми амниятие нишон дода мешавад, ки ин барнома маҳсулоти қонунии ширкати Psiphon Inc. мебошад.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Вақте ки Psiphon-ро ба кор медароред, он ба таври худкор пайвастшавиро оғоз мекунад. Ҳангоми пайваст шуданаш, нишонаи даврзананда нишон дода мешавад. Шумо метавонед яке аз реҷаҳои зерини проксиро интихоб кунед: VPN (L2TP тавассути IPsec), SSH ё SSH+ (SSH бо чигилкунӣ, қабати тасодуфӣ аз болои SSH барои пешгирии шинохтагирии протокол). ",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "Вақте ки нишонаи сабз нишон дода мешавад, ин маъное дорад, ки пайваст ба сервери Psiphon таъсис дода шуд. Дар реҷаи VPN, тамоми трафики шумо ба таври худкор тавассути Psiphon равона карда мешавад.",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "Дар реҷаҳои SSH ва SSH+, Psiphon танзимоти проксии системаи Windows-ро ба таври худкор танзим мекунад, то трафики шабакавии барномаҳое, ки ин танзимотро истифода мебаранд, тавассути нақби Psiphon равона карда шавад. Ҳамаи браузерҳои асосӣ ин танзимотро ба таври пешфарз истифода мебаранд.",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "Илова бар ин, дар реҷаҳои SSH ва SSH+, Psiphon имкони тақсимкунии нақб пешниҳод мекунад, ки дар он трафики байналмилалӣ тавассути прокси мегузарад ва трафики ватанӣ бошад ба таври одатӣ. Барои тақсимкунии нақбро истифода бурдан, имкони “Сайтҳои ватаниро бе прокси кушодан”-ро истифода баред. Вақте ки ин имкон фаъол аст, доменҳои бидуни прокси кушодашуда дар қитъаи паёмҳо нишон дода мешаванд.",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "Вақте ки барнома пӯшида мешавад, Psiphon пайвастро ба таври худкор қатъ мекунад. Шумо инчунин метавонед нишонаро зер карда, пайвастро хомӯш ё фурӯзон кунед.",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Screenshot showing Psiphon starting up on Windows",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Screenshot showing Psiphon connected on Windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "Блоги дастаи таҳиягарон",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psiphon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "дастурамали корбар",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "Имконот",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Donate",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

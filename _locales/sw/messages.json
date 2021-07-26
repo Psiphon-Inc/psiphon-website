@@ -43,22 +43,6 @@
         "message": "Rasilimali",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "Jinsi ya kutumia Psiphon",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "Jinsi ya kutumia simu yenye Psiphon na madirisha",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "muongozo wa mtumiaji",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "muongozo wa mtumiaji wa  Psiphon unaonesha jinsi ya kutumia  simu yenye Psiohon na madirisha ya platforms",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "Pakua Psiphon",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "Jiunge kwetu <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">listi ya matangazo ya barua</a> kwa umuhimu wa matangazo na ushauri kwa usalama. ",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Psiphon kwa Adimin",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "Unatakiwa kwanza <a href=\"./faq.html#authentic-android\">hakiki nakala yako ya Psiphon kwa Admin ni halisi</a>.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "Ponyeza kwenye Psiphon APK kiungo kutoka kwenye Admin yako ya mteja ya barua pepe au wavu kivinjari kwa kuanza ufungaji. (Kama umepata kosa, unatakiwa kua <a href=\"./faq.html#android-enable-sideloading\">kuwezesha kuigeuza</a>.)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "Wakati umezindua programu ya Psiphon, inakua kiautomatikali inaanza kuunganisha kwenye mtandao wa Psiphon.",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "Mara moja programu inaunganishwa kwenye mtandao, itazinduliwa a ndani Psiphon kivinjari. Psiphon kwa Admin haipo kiautomatiki tunn kwenye trafiki kwa chaguo-msingi la Adimin  kivinjari au programu nyingine. Kwa chaguo-msingi, kwa Psiphon kivinjari tu ni tunn kupitia moja kwa moja kwenye mtandao wa Psiphon.",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Skirini inaonesha Psiphon kwa Admin uhalisi wa jopo",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Skrini inaonesha Psiphon kwa Admin ya wavu kivinjari",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon inaendeshwa",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "Badili kati ya tabo iliyowazi",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "Funga tabo ya sasa",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "Alama ya ukurasa wa sasa",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "Fungua tabo mpya",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon inaendeshwa kwenye VPN au Kifaa Kizima cha modi. Maombi yote yamesitishwa kupitia Psiphon.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "Tbo halisi imeteuliwa",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Kiendesha Psiphon kwenye tunn modi ya kifaa kizima, lazima uwe na Admini 4.0+ au mzizi wa kifaa. <br><br> chaguo hili litakua halipatikani kwa vifaa vya mzizi Admin ya toleo la zamani.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Kijivu</span> :kuunganisha<br><span style=\"color:red\">Nyekundu</span>:haijaunganishwa<br><span style=\"color:Blue\">Bluu</span>:imeunganishwa",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "Angalia toleo lipi la Psiphon linafanya kazi kwa sasa",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "skirini inaonesha Psiphon kwenye Adimin ya jopo la kutunza kumbukumbu",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Kazi ya Psiphon ya kutunza kubukumbu ",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Skrini inaonesha Psiphon kwenye jopo la takwimu Admin",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "Kuunganisha kwa muda",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Data imetuma kupitia Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Data imepokea kupitia Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Tuma data usitumie kupitia Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Data iliyopokelewa kupitia Psiphon ",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Psiphon kwenye madirisha",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "Unatakiwa kwanza <a href=\"./faq.html#authentic-windows\">hakiki kua nakala yakoya Psiphon kwenye madirisha ni halisi</a>.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "Pakua programu ya mteja na iendeshe. wakati unaiendesha, unatakiwa kuona haraka usalama unaonesha hiyo programu ni bidhaa halali ya Psiphon Inc.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Psiphon kiautomatiki inaanza kuunganisha wakati unaiendesha. wakati imeungaishwa, ikoni inazunushwa imeoneshwa. Unaweza kuchagua moja kati ya hali tunna modi: VPN (L2TP juu ya IPsec),SSH, au SH+ (SSH jumlisha iliyojulikana, safu iliyotengwa kwenye juu ya SSH kuzuia protoko ya alama ya vidole)",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "Unganisha kwenye Psiphon seva ilianzishwa wakati ikon ya kijani kuonyeshwa. Kwenye VPN modi, trafik wako wote kiautomatic tunnel kupitia Psiphon. ",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "Kwenye SSH na SSH+ modi, Psiphon kiautomatiki inaweka mfumo wa madirisha mpangilio wa proxy, kwahiyo trafiki ya mtandao kwa maombi ambayo inaheshimu mpangilio itakua tunn kupitia Psiphon. Mpangilio huu umeheshimu kwa chaguo-msingi kwa kivinjari chohote kikuu cha wavuti. ",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "Zaidi, kwa SSH na SSH+ modi, Psiphon inatoa mgawanyiko wa chaguo la tunn ambapo trafiki ya kimataifa ime tunn kupitia kwenye proxy na trafiki ya ndani sio. angalia \"Hakuna proxy ya ndani ya tovuti\" chaguo la kuwezesha kugaw tunn. Wakati chaguo hili lipo wazi, kikao kisichochaguliwa kime ripoti kwenye eneo la ujumbe. ",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "Wakati unafunga programu, Psiphon kiautomatiki inatenganishwa. Unaweza pia kuponyeza kwenye ikon kwenye kuunganisha gura. ",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Skrini inaonesha usalama wa Windows unatahadharisha kwa kutowezekana kwa Psiphon ",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Skrini inaonesha kuanza kwa Psiphon kwenye windows",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Skrini inaonesha Psiphon imeunganishwa kwenye windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "Timu ya Blogi",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psiphon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "mwongozo wa mtumiaji",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "Chaguzi",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Changia",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

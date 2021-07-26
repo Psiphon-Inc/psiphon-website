@@ -43,22 +43,6 @@
         "message": "Middelen",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "Hoe te gebruiken Psiphon",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "Hoe te gebruiken Psiphon op Mobile en Windows",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "Gebruikershandleiding",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "Psiphon gebruikershandleiding weergeven hoe te gebruiken Psiphon op Mobile en Windows platforms",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "Download Psiphon",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "Word lid van onze <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\"> aankondigingen mailinglijst </a> voor belangrijke aankondigingen en beveiligingswaarschuwingen.",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Psiphon voor Android",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "U moet eerste <a href=\"./faq.html#authentic-android\">verifiëren dat uw exemplaar van Psiphon voor Android authentiek is</a>.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "Klik op een Psiphon APK koppeling vanuit uw Android e-mailklant of webbrowser om de installatie te beginnen. (Als je een foutmelding krijgt, moet u <a href=\"./faq.html#android-enable-sideloading\"> schakelen sideloading </a>.)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "Wanneer u start de Psiphon app, zal het automatisch starten verbinding met Psiphon netwerk.",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "Zodra de app is verbonden met het netwerk, zal het de ingebouwde Psiphon browser te starten. Psiphon voor Android niet automatisch tunnel het verkeer voor de standaard Android-browser of andere apps. Standaard wordt alleen de Psiphon browser tunnel door de Psiphon netwerk.",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Screenshot toont de Psiphon voor Android statuspaneel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Screenshot tonen de Psiphon voor Android web browser",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon actief",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "Wissel tussen geopende tabbladen",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "Sluit huidige tabblad",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "Bladwijzer huidige pagina",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "Open nieuw tabblad",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon wordt uitgevoerd in VPN of de Hele apparaat mode. Alle toepassingen worden getunneld door middel van Psiphon.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "Tabblad status is geselecteerd",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Om Psiphon draaien in Tunnel Hele apparaat mode, moet je Android 4.0+ of de een rooted apparaat. <br> Deze optie is niet beschikbaar voor niet-rooted apparaten met een oudere versie van Android.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Grey</span>: verbinden<br><span style=\"color:red\">Red</span>: niet verbonden<br><span style=\"color:Blue\">Blue</span>: verbonden",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "Toon welke versie van Psiphon u momenteel werkt",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Screenshot tonen de Psiphon voor Android logs panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Psiphon activiteit logs",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Screenshot tonen de Psiphon voor Android panel statistieken",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "Verbindingsduur",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Gegevens verzonden via Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Gegevens ontvangen via Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Verzonden gegevens gecomprimeerd door middel van Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Ontvangen gegevens gecomprimeerd door middel van Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Psiphon voor Windows",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "U moet eerste <a href=\"./faq.html#authentic-windows\"> verifiëren dat uw exemplaar van de Psiphon voor Windows authentiek is</a>.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "Download de klant-programma en voer het uit. Wanneer u het uit te voeren, je moet zien een\nbeveiligingsprompt waaruit blijkt dat dit programma is een legitiem product van Psiphon Inc.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Psiphon automatisch begint te verbinden wanneer u het uitvoert. Tijdens het verbinden, is een draaiende pictogram dat wordt weergegeven. U kunt een van de volgende tunnel te selecteren: VPN (L2TP via IPsec), SSH, of SSH + (SSH plus verduistering, een gerandomiseerde laag bovenop SSH protocol vingerafdrukken te voorkomen).",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "Verbinding met de server van de Psiphon wordt ingesteld wanneer het groene pictogram wordt weergegeven. In de modus VPN-tunnels al uw verkeer automatisch via Psiphon.",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "In SSH en SSH + modi Psiphon stelt automatisch het Windows-systeem proxy-instellingen, zodat het netwerkverkeer voor toepassingen die naleving van deze instellingen worden getunneld door middel Psiphon. Deze instellingen worden gerespecteerd standaard door alle belangrijke webbrowsers.",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "Bovendien, in SSH en SSH + modi Psiphon biedt een split tunnel optie, waar het internationale verkeer wordt getunneld via de proxy en de binnenlandse verkeer niet. Controleer de optie 'Do not proxy binnenlandse websites \"to split tunneling mogelijk te maken. Als deze optie is ingeschakeld, worden unproxied domeinen vermeld in het bericht gebied.",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "Wanneer u het programma afsluit, Psiphon verbreekt de verbinding automatisch. U kunt ook klikken op het pictogram om de verbinding te schakelen.",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Screenshot tonen de Windows beveiliginswaarschuwing voor de Psiphon uitvoerbaar",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Screenshot tonen Psiphon opstarten in Windows",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Screenshot tonen Psiphon verbinding op Windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "Team Blog",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psiphon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "gebruikershandleiding",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "Opties",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Doneer",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

@@ -43,22 +43,6 @@
         "message": "资源",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "如何使用赛风",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "如何在移动设备和 Windows 上使用赛风",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "用户指南",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "如何在移动设备和 Windows 平台上使用赛风的用户指南",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "下载赛风",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "如需获取重要公告和安全建议，请加入我们的<a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">公告邮件列表</a>。",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "赛风 Android 版",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "首先，应<a href=\"./faq.html#authentic-android\">验证您的 Android 版赛风是可信版本</a>。",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "进行安装，请在 Android 设备上点击电子邮件中的赛风 APK 链接或通过互联网浏览器下载（如出现错误，请尝试<a href=\"./faq.html#android-enable-sideloading\">启用 sideload 安装</a>。）",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "安装完成后启动赛风程序，即可自动开始连接到赛风网络。",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "一旦连接至服务器，该应用将启动内置赛风浏览器。Android 默认浏览器或其他应用不会自动通过 Android 版赛风进行代理。默认情况下，只有赛风内置浏览器使用赛风网络。",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "屏幕截图显示 Psiphon 安卓版状态面板",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Android 版赛风集成浏览器部件截图",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "赛风正在运行",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "切换已打开的标签页",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "关闭当前标签页",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "将当前页面加入书签",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "打开新标签页",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "赛风当前使用 VPN 或全局代理模式，表示所有数据将通过 Psiphon 代理传输。",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "选中“状态”选项卡",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "为了使用“全局代理”模式，须使用 Android 4.0+ 或具有 root 权限的设备。<br><br>对于 Android 版本较久未经 root 的设备，该选项不可用。",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">灰色</span>：连接中<br><span style=\"color:red\">红色</span>：未连接<br><span style=\"color:Blue\">蓝色</span>：已连接",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "显示当前使用的赛风版本",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Android 版赛风日志选项卡截图",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "赛风活动日志",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Android 版赛风统计选项卡截图",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "连接持续时间",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "通过赛风发送的数据",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "通过赛风接收的数据",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "通过赛风发送的压缩数据",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "通过赛风接收的压缩数据",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "适用于 Windows 系统的赛风",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "首先，应<a href=\"./faq.html#authentic-windows\">验证您的 Windows 版赛风为可信版本</a>。",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "下载并运行客户端即可。打开运行时应弹出安全框，提示该程序为真正的赛风公司产品。",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "赛风启动时将自动连接。显示旋转图标，表示正在连接。你可以选择以下连接模式之一：VPN（IPsec 层上的 L2TP）、SSH 或者 SSH+（SSH 加上混淆，其在 SSH 上加了随机层以避免协议指纹识别）。",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "显示绿色图标时，表示已成功连接到赛风服务器。在 VPN 模式下，所有的网络通信都将通过赛风发送。",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "在 SSH 和 SSH+ 模式下，赛风 3 将自动对 Windows 系统代理设置进行配置，可使用这些设置的应用将通过赛发进行网络通信。默认情况下，主流网络浏览器都可使用这些设置。",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "此外，在 SSH 和 SSH+ 模式下，Psiphon 3 提供拆分代理选项：国际流量通过代理，而国内流量直接连接。请选择“不要代理国内网站”选项，来启用拆分代理。选中该选项后，非代理的域名会在消息区域中显示。",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "当关闭程序时，赛风将自动断开连接。另外，可点击该图标来打开或断开连接。",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Windows 版赛风可执行文件安全警告截图",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Windows 版赛风启动时的截图",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Windows 版赛风已连接的截图",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "团队博客",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "赛风2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "用户指南",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2156,15 +1992,15 @@
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-windows-settings": {
-        "message": "Settings on Windows",
+        "message": "Windows设置",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the Windows app."
     },
     "psiphon-guide-section-5-sub-heading-android-settings": {
-        "message": "Settings on Android",
+        "message": "Android设置",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the Android app."
     },
     "psiphon-guide-section-5-sub-heading-ios-settings": {
-        "message": "Settings on iOS",
+        "message": "iOS设置",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the iOS app."
     },
     "psiphon-guide-windows-settings-alt": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "选项",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "捐赠",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }
