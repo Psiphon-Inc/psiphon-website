@@ -506,6 +506,18 @@
     "message": "To avoid abuse, we allow the pre-existing PsiCash balance from only a few devices to be add to a PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
     "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
   },
+  "faq-psicash-param-question": {
+    "message": "What is the <code>psicash=</code> parameter in some landing page URLs?",
+    "description": "This is an FAQ question. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything). 'PsiCash' should not be translated or transliterated.."
+  },
+  "faq-psicash-param-answer-para-1": {
+    "message": "In some landing page URLs and in <code>buy.psi.cash</code> URLs you will see a parameter like <code>#!psicash=abcd1234...</code> or <code>?psicash=abcd1234...</code>. This contains information necessary to give you a PsiCash reward for visiting some landing pages or for making a purchase of PsiCash.",
+    "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
+  },
+  "faq-psicash-param-answer-para-2": {
+    "message": "The \"token\" you will see in the decoded base-64 of the parameter is your PsiCash \"earner\" token, and can only be used for crediting your account with PsiCash -- not for spending your PsiCash, viewing your balance, etc. This token also cannot be used to reveal your identity or anything else about your account.",
+    "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
+  },
   "alert-heading": {
     "message": "ALERT",
     "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
