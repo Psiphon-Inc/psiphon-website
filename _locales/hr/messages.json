@@ -43,22 +43,6 @@
         "message": "Resursi",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "Kako koristiti Psiphon",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "Kako koristiti Psiphon na mobitelu i Windows-ima",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "Korisnički priručnik",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "Psiphon priručnik za korisnike koji prikazuje kako koristiti Psiphon na mobilnim i Windows platformama",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "Preuzmite Psiphon",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "Pridružite se našoj <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">listi primatelja obavijesti</a> kako bi primali važne obavijesti i sigurnosne naputke.",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Psiphon za Android",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "Prvo bi trebali <a href=\"./faq.html#authentic-android\">potvrditi da je Vaša kopija Psiphon-a za Android autentična </a>.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "Kliknite na Psiphon APK poveznicu unutar Vašeg Android email klijenta ili web preglednika da bi započeli instalaciju. (Ako se pojavi pogreška, možda ćete morati <a href=\"./faq.html#android-enable-sideloading\">omogućiti sideloading</a>.)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "Kad pokrenete Psiphon aplikaciju, ona će se automatski početi povezivati sa Psiphon mrežom.",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "Kad se aplikacija spoji na mrežu pokrenuti će ugrađeni Psiphon preglednik. Psiphon za Android ne tunelira promet automatski za zadane Android preglednike i ostale aplikacije. Pod zadano, samo je Psiphon preglednik tuneliran kroz Psiphon mrežu.",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android status panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Screenshot showing the Psiphon for Android web browser",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon je pokrenut",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "Prebaci između otvorenih kartica",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "Zatvori trenutnu karticu",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "Označi trenutnu stranicu",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "Otvori novu karticu",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon je pokrenut u VPN ili Cijeli Uređaj načinu rada. Sve aplikacije su tunelirane kroz Psiphon.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "Kartica statusa je odabrana",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Da bi pokrenuli Psiphon u načinu rada Tuneliraj Cijeli Uređaj, morate imati Android 4.0+ ili root-ani uređaj.<br><br>Ova opcija neće biti dostupna za ne root-ane uređaje sa starijom verzijom Androida.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Siva</span>: spajanje<br><span style=\"color:red\">Crvena</span>: nije spojeno<br><span style=\"color:Blue\">Plava</span>: spojeno",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "Prikazuje koja verzija Psiphon-a je trenutno pokrenuta",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android logs panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Psiphon zapisi o aktivnosti",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android statistics panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "Trajanje veze",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Podataka poslano kroz Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Podatci primljeni kroz Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Komprimirano poslanih podatka kroz Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Komprimirano podataka primljenih kroz Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Psiphon za Windows",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "Prvo bi trebali <a href=\".faq.html#authentic-windows\">provjeriti da je Vaša kopija Psiphon-a za Windows autentična</a>.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "Preuzmite klijentski program i pokrenite ga. Kad ga pokrenete, trebali bi vidjeti sigurnosno upozorenje koje pokazuje da je ovaj program legitiman proizvod Psiphon Inc.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Psipon automatski počinje spajanje kad ga pokrenete. Dok se spaja, pojavit će se rotirajuća ikona. Možete odabrati jedan od sljedećih načina tuneliranja: VPN (L2TP/IPsec), SSH ili SSH+ (SSH plus maskiranje, nasumični sloj dodan na SSH koji izbjegava uzimanje otiska protokola).",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "Veza sa Psiphon poslužiteljem je uspostavljena kad se prikaže zelena ikona. U VPN načinu rada, sav Vaš promet je automatski tuneliran kroz Psiphon.",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "U SSH i SSH+ načinima rada PSiphon automatski postavlja proxy postavke Windows sustava, tako da će mrežni promet aplikacija koje poštuju ove postavke biti tuneliran kroz Psiphon. Ove postavke poštuju svi veći web preglednici.",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "Nadalje, u SSH i SSH+ načinima rada, Psiphon nudi opciju podijeljenog tunela gdje se internacionalni promet tunelira kroz proxy, a domaći promet ne. Označite \"Ne proxy-aj domaće web stranice\" opciju da bi omogućili podijeljeno tuneliranje. Kad je ova opcija uključena, ne-proxy-ane domene su prijavljenje u dijelu s porukama.",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "Kad zatvorite program Psiphon automatski prekida vezu. Također možete kliknuti na ikonu kako bi promjenili stanje veze.",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Screenshot showing Psiphon starting up on Windows",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Screenshot showing Psiphon connected on Windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "Blog tima",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psihpon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "korisnički priručnik",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "Opcije",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Doniraj",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

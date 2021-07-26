@@ -43,22 +43,6 @@
         "message": "Mənbələr",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "Psiphonu necə istifadə etməli",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "Windows və mobil üçün Psiphondan necə istifadə etməli",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "İstifadə Qaydası",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "Windows və mobil platformalarda Psiphondan istifadə qaydaları",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "Psiphonu yüklə",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "Bizim <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">Elanlarla bağlı abunə siyahımıza</a>qatılın ki, təhlükəsizlik haqda bülletenləri və digər mühüm xəbərləri alasınız.",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Android üçün Psiphon",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "Öncə <a href=\"./faq.html#authentic-android\">Android üçün Psiphon versiyanızın əsl olduğunu təsdiqləməlisiniz</a>.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "Androiddəki email proqramınızdan və ya veb səyyahınızdan Psiphon APK linkinə klikləməklə quraşdırmaya başlaya bilərsiniz. (Xəta haqda ismarıc alırsınızsa, <a href=\"./faq.html#android-enable-sideloading\">kənar yükləməni aktivləşdirməli</a> ola bilərsiniz.)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "Psiphon tətbiqetməsini işlətməyə başlayan kimi o avtomatik olaraq Psiphon şəbəkəsinə qoşulmağa başlayır.",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "Tətbiqetmə şəbəkəyə bir dəfə qoşulandan sonra Psiphon səyyahını işə salır. Android üçün Psiphon standart Android səyyahının və digər tətbiqetmələrin bağlantısını avtomatik olaraq tunelə yönəltmir. Bir qayda olaraq yalnız Psiphon səyyahı Psiphon şəbəkəsinə qoşulur.",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android status panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Screenshot showing the Psiphon for Android web browser",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon işləyir",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "Açıq səhifələr arasından keç",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "Hazırkı səhifəni bağla",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "Hazırkı səhifəni seçilmişlərə əlavə et",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "Yeni pəncərə aç",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon VPN və ya bütün qurğu modelində işləyir. Bütün tətbiqetmələr Psiphon üzərindən işləyir.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "Status pəncərəsi seçilib",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Psiphonu Bütün Qurğu modelində işlətmək üçün sizin Android 4.0+ versiyanız və ya köklənmiş alətiniz olmalıdır.<br><br> Bu seçim köklənməmiş köhnə versiyalı Android alətlərində olmayacaq.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Boz</span>: qoşulur<br><span style=\"color:red\">Qırmızı</span>: qoşulmayıb<br><span style=\"color:Blue\">Mavi</span>: qoşulub",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "Hazırda Psiphonun hansı versiyasını işlətdiyinizi göstərir",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android logs panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Psiphon fəaliyyət girişləri",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Screenshot showing the Psiphon for Android statistics panel",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "Qoşulma müddəti",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Psiphon üzərindən ötürülən məlumat",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Psiphon vasitəsilə alınan məlumat",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Psiphon vasitəsilə göndərilən sıxılmış məlumat",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Psiphon vasitəsilə alınan sıxılmış məlumat",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Windows üçün Psiphon",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "Öncə <a href=\"./faq.html#authentic-windows\">Windows üçün Psiphon versiyanızın əsl olduğunu təsdiqləməlisiniz</a>.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "Proqramı yükləyin və işə salın. İşə saldıqda, proqramın Psiphon İnc.-ə məxsus qanuni proqram olduğunu göstərən xəbərdarlıq görəcəksiniz.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Açan kimi Psiphon avtomatik olaraq qoşulmağa başlayır. Qoşulma prosesində fırlanan düymə görünür. Aşağıdakı tunelin modellərindən birini seçə bilərsiniz: VPN (İPsec üzərindən L2TP), SSH və ya SSH+ (SSH üstəgəl gizləmə, izlər tanınmasın deyə SSH üzərində dəyişkən qat yaradılır). ",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "Yaşıl düymə yandıqda Psiphon serverinə qoşulma baş tutmuş sayılır. VPN modelində bütün trafikiniz avtomatik olaraq Psiphon üzərndən keçir.",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "SSH və SSH+ modelində Psiphon avtomatik olaraq Windows sisteminin proksi quraşdırmalarından istifadə edir və bu quraşdırmalardan istifadə edən tətbiqetmələrin trafiki Psiphonla tunellənir. Əsas veb səyyahlarının hamısı bir qayda olaraq bu quraşdırmalardan qəbul olunur.",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "Bundan əlavə SSH və SSH+ modellərində Psiphon tunelin bölünməsini təklif edir, belədə yerli yox, beynəlxaql trafik proksilənir. \"Yerli saytları proksidən keçirməyin\" opsiyasını seçin ki, tunel bölünsün. Buna klikləyəndə ismarıc bölməsində proksidən keçməyən domenlər haqda məlumat veriləcək.",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "Proqramı bağlayan kimi Psiphon fəaliyyətini dayandırır. Həmçinin klikləməklə qoşulmanı yandırıb-söndürə bilərsiniz.",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Screenshot showing the Windows security warning for the Psiphon executable",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Screenshot showing Psiphon starting up on Windows",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Screenshot showing Psiphon connected on Windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "Komanda bloqu",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psiphon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "istifadə qaydaları",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "Seçimlər",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Donate",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

@@ -43,22 +43,6 @@
         "message": "Ressources",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "Comment utiliser Psiphon",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "Comment utiliser Psiphon sur les appareils mobiles et sur Windows",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "Guide d’utilisation",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "Le guide d’utilisation de Psiphon montrant comment l’utiliser sur les plateformes mobiles et Windows",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "Télécharger Psiphon",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "Abonnez-vous à notre <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\"> liste de diffusion d’annonces</a> pour recevoir des annonces importantes et des bulletins de sécurité.",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Psiphon pour Android",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "Vous devriez d’abord <a href=\"./faq.html#authentic-android\">vérifier que votre copie de Psiphon pour Android est authentique</a>.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "Cliquez sur un lien Psiphon APK dans votre client de courriel ou dans votre navigateur Android pour commencer l’installation (si vous obtenez une erreur, il vous faudra peut-être <a href=\"./faq.html#android-enable-sideloading\">activer le téléchargement hors magasin</a>.)",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "L’appli Psiphon commencera automatiquement à se connecter au réseau Psiphon dès son lancement.",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "Une fois que l’appli est connectée au réseau, elle lancera le Navigateur Psiphon intégré. Psiphon pour Android ne tunnellise pas automatiquement le trafic pour le navigateur Android par défaut ou pour les autres applis. Par défaut, seul le Navigateur Psiphon est tunnellisé au travers du réseau Psiphon.",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Capture d’écran montrant le panneau d’état de Psiphon pour Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Capture d’écran montrant le navigateur Web de Psiphon pour Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon est en cours d’exécution",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "Naviguer entre les onglets ouverts",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "Fermer l’onglet courant",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "Mettre la page actuelle en marque-page",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "Ouvrir un nouvel onglet",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon fonctionne en mode RPV ou Tout l’appareil. Toutes les applications sont tunnellisées par Psiphon.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "L’onglet d’état est sélectionné ",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Pour exécuter Psiphon en mode Tunnelliser tout l’appareil, vous devez être sous Android 4.0+ ou sur un appareil raciné.<br><br>Cette option ne sera pas proposée pour les appareils non racinés avec une version plus ancienne d’Android.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Gris</span> : connexion en cours<br><span style=\"color:red\">Rouge</span> : non connecté<br><span style=\"color:Blue\">Bleu</span> : connecté",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "Montre quelle version de Psiphon vous exécutez actuellement",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Capture d’écran montrant le panneau des journaux de Psiphon pour Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Journaux d’activité de Psiphon",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Capture d’écran montrant le panneau des statistiques de Psiphon pour Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "Durée de la connexion",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Données envoyées avec Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Données reçues avec Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Données envoyées comprimées avec Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Données reçues comprimées avec Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Psiphon pour Windows",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "Vous devez d’abord <a href=\"./faq.html#authentic-windows\">vérifier que votre copie de Psiphon pour Windows est authentique</a>.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "Téléchargez le programme client et exécutez-le. Une fois démarré, vous devriez voir un message de sécurité indiquant que ce programme est un produit authentique de Psiphon inc.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Psiphon commence automatiquement à se connecter dès que vous l’exécutez. Alors qu’il se connecte, une icône rotative est affichée. Vous pouvez choisir l’un des modes de tunnellisation suivants : RPV (L2TP sur IPsec), SSH ou SSH+ (SSH plus brouillage, une couche aléatoire par dessus SSH pour éviter le pistage par empreinte numérique unique du protocole).",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "La connexion au serveur Psiphon est établie quand l’icône verte est affichée. En mode RPV, tout votre trafic est automatiquement tunnellisé par Psiphon.",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "En modes SSH et SSH+, Psiphon paramètre automatiquement le serveur mandataire système de Windows afin que le trafic des applications respectant ces paramètres soit tunnellisé par Psiphon. Ces paramètres sont respectés par défaut par tous les grands navigateurs Web.",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "De plus, en modes SSH et SSH+, Psiphon propose une option de tunnel scindé avec laquelle le trafic international est tunnellisé par le serveur mandataire et le trafic intérieur ne l’est pas. Cocher l’option « Ne pas relayer les sites Web nationaux… » pour activer la tunnellisation scindée. Si cette option est active, les domaines non relayés sont signalés dans la zone de message.",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "Quand vous fermez le programme, Psiphon se déconnecte automatiquement. Vous pouvez aussi cliquer sur l’icône pour activer/désactiver la connexion.",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Capture d’écran montrant l’avertissement de sécurité de Windows pour l’exécutable Psiphon",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Capture d’écran qui présente Psiphon démarrant sous Windows",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Capture d’écran montrant Psiphon connecté sous Windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "Blogue de l’équipe",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psiphon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "guide d’utilisation",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "Les options",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Faire un don",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

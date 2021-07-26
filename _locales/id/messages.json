@@ -43,22 +43,6 @@
         "message": "Sumber Daya",
         "description": "title for the Resources"
     },
-    "user-guide-title": {
-        "message": "Cara Menggunakan Psiphon",
-        "description": "Page title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-meta-title": {
-        "message": "Cara menggunakan Psiphon di perangkat bergerak dan Windows",
-        "description": "Meta title for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
-    "user-guide-nav-title": {
-        "message": "Panduan Pengguna",
-        "description": "text for the user guide page navigation item"
-    },
-    "user-guide-description": {
-        "message": "Panduan pengguna Psiphon menunjukkan cara menggunakan Psiphon di platform Mobile dan Windows",
-        "description": "Description for the user guide page. 'Psiphon' must not be translated or transliterated."
-    },
     "download-title": {
         "message": "Unduh Psiphon",
         "description": "Page title for the download page. 'Psiphon' must not be translated or transliterated."
@@ -707,150 +691,6 @@
         "message": "Bergabunglah dengan <a href=\"https://groups.google.com/group/psiphon3\" target=\"_blank\">milis Pengumuman</a> kami untuk mendapatkan pengumuman penting dan saran keamanan.",
         "description": ""
     },
-    "user-guide-android-head": {
-        "message": "Psiphon untuk Android",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-android-para-verify-authentic": {
-        "message": "<a href=\"./faq.html#authentic-android\">Pastikan dulu salinan Psiphon untuk Android Anda asli</a>.",
-        "description": ""
-    },
-    "user-guide-android-para-1": {
-        "message": "Klik tautan unduhan APK Psiphon dari aplikasi surel atau peramban web Android Anda untuk mulai memasang (jika muncul pesan kesalahan, mungkin Anda harus <a href=\"./faq.html#android-enable-sideloading\">mengaktifkan sideloading</a>).",
-        "description": ""
-    },
-    "user-guide-android-para-3": {
-        "message": "Saat Anda mulai menjalankan aplikasi Psiphon, aplikasi tersebut akan mulai menyambung ke jaringan Psiphon secara otomatis.",
-        "description": ""
-    },
-    "user-guide-android-para-4": {
-        "message": "Setelah tersambung ke jaringan, aplikasi Psiphon akan membuka peramban web Psiphon yang telah terintegrasi. Psiphon untuk Android tidak otomatis mengalihkan lalu lintas internet peramban web bawaan Android atau aplikasi lainnya ke terowongan. Standarnya, hanya peramban web Psiphon yang lalu lintas internetnya dialihkan melalui terowongan jaringan Psiphon.",
-        "description": ""
-    },
-    "user-guide-android-ui-status-image-alt": {
-        "message": "Tangkapan layar menunjukan panel status Psiphon untuk Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-alt": {
-        "message": "Tangkapan layar menunjukkan peramban web Psiphon untuk Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-image-3-annotation-1": {
-        "message": "Psiphon sedang dijalankan",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing out the status icon that shows that Psiphon is running"
-    },
-    "user-guide-android-image-3-annotation-2": {
-        "message": "Berpindah antar tab yang terbuka",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that switches between open tabs"
-    },
-    "user-guide-android-image-3-annotation-3": {
-        "message": "Tutup tab ini",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that closes the current tab"
-    },
-    "user-guide-android-image-3-annotation-4": {
-        "message": "Memarkahi laman ini",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that bookmarks the current page"
-    },
-    "user-guide-android-image-3-annotation-5": {
-        "message": "Membuka tab baru",
-        "description": "annotation for an image of the Psiphon built-in browser, pointing to the button that opens a new tab"
-    },
-    "user-guide-android-ui-status-image-annotation-1": {
-        "message": "Psiphon berjalan dalam modus VPN atau modus Seluruh Perangkat. Semua sambungan internet aplikasi dilewatkan terowongan Psiphon.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Psiphon icon in the Android notification area"
-    },
-    "user-guide-android-ui-status-image-annotation-2": {
-        "message": "Tab Status dipilih",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the highlighted Status tab"
-    },
-    "user-guide-android-ui-status-image-annotation-3": {
-        "message": "Untuk menjalankan Psiphon dalam modus Seluruh Perangkat, Anda harus memiliki perangkat Android 4.0+ atau yang telah di-root.<br><br>Pilihan ini tidak akan tersedia untuk perangkat Android versi lebih lama yang belum di-root.",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the Tunnel Whole Device checkbox"
-    },
-    "user-guide-android-ui-status-image-annotation-4": {
-        "message": "<span style=\"color:grey\">Abu-abu</span>: Sedang menyambung<br><span style=\"color:red\">Merah</span>: Tak tersambung<br><span style=\"color:Blue\">Biru</span>: Tersambung",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the colored status icon in the middle of the Status panel"
-    },
-    "user-guide-android-ui-status-image-annotation-5": {
-        "message": "Menampilkan versi Psiphon yang sedang Anda pakai",
-        "description": "annotation for an image of the Psiphon's status view, pointing to the currently running Psiphon version number"
-    },
-    "user-guide-android-ui-logs-image-alt": {
-        "message": "Tangkapan layar menunjukkan panel catatan Psiphon untuk Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-logs-image-annotation-1": {
-        "message": "Catatan aktivitas Psiphon",
-        "description": "annotation for an image of the Psiphon's logs view, pointing to the logs"
-    },
-    "user-guide-android-ui-statistics-image-alt": {
-        "message": "Tangkapan layar menunjukkan panel statistik Psiphon untuk Android",
-        "description": "alt text for an image"
-    },
-    "user-guide-android-ui-statistics-image-annotation-1": {
-        "message": "Lama sambungan",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the connection duration"
-    },
-    "user-guide-android-ui-statistics-image-annotation-2": {
-        "message": "Data yang keluar lewat Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the sent data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-3": {
-        "message": "Data yang masuk lewat Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the received data amount"
-    },
-    "user-guide-android-ui-statistics-image-annotation-4": {
-        "message": "Data keluar yang dikompres lewat Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in sent data due to compression"
-    },
-    "user-guide-android-ui-statistics-image-annotation-5": {
-        "message": "Data masuk yang dikompres lewat Psiphon",
-        "description": "annotation for an image of the Psiphon's statistics view, pointing to the savings in received data due to compression"
-    },
-    "user-guide-windows-head": {
-        "message": "Psiphon untuk Windows",
-        "description": "heading for the Android section of the User Guide"
-    },
-    "user-guide-windows-para-verify-authentic": {
-        "message": "<a href=\"./faq.html#authentic-windows\">Pastikan dulu salinan Psiphon untuk Windows Anda asli</a>.",
-        "description": ""
-    },
-    "user-guide-windows-para-1": {
-        "message": "Unduhlah program klien, lalu jalankan. Saat menjalankannya, seharusnya Anda menjumpai pertanyaan keamanan yang menunjukkan bahwa aplikasi itu benar merupakan produk asli Psiphon Inc.",
-        "description": ""
-    },
-    "user-guide-windows-para-2": {
-        "message": "Psiphon secara otomatis mulai disambungkan saat anda jalankan. Saat Psiphon membangn sambungan, satu ikon berputar akan tampil. Anda mungkin dapat memilih salah satu mode tunnel berikut ini:VPN (L2TP over IPsec), SSH, or SSH+ (SSH ditambah pengaburan, satu lapis pengacakan di atas SSH untuk menghindari pembacaan sidik jari protokol).",
-        "description": ""
-    },
-    "user-guide-windows-para-3": {
-        "message": "Sambungan ke server Psiphon berhasil dilakukan jika muncul ikon berwarna hijau. Dalam modus VPN, seluruh lalu lintas internet Anda secara otomatis akan dilewatkan terowongan Psiphon.",
-        "description": ""
-    },
-    "user-guide-windows-para-4": {
-        "message": "Dalam modus SSH dan SSH+, Psiphon secara otomatis mengubah setelan proksi sistem Windows sehingga lalu lintas jaringan aplikasi-aplikasi yang mematuhi setelan tersebut akan dialihkan melalui terowongan Psiphon. Setelan tersebut secara standar dipatuhi oleh semua peramban web yang umum dipakai.",
-        "description": ""
-    },
-    "user-guide-windows-para-5": {
-        "message": "Lebih lanjut, dalam modus SSH dan SSH+, Psiphon menawarkan pilihan terowongan terpisah di mana lalu lintas internasional dilewatkan terowongan proksi, sedangkan lalu lintas domestik tidak. Centang pilihan \"Jangan lewatkan situs web domestik ke proksi\" untuk mengaktifkan pemisahan terowongan. Saat pilihan ini aktif, domain yang tidak dilewatkan proksi akan dilaporkan di area pemberitahuan.",
-        "description": ""
-    },
-    "user-guide-windows-para-6": {
-        "message": "Saat Anda menutup Psiphon, sambungan akan diputus secara otomatis. Anda juga bisa mengklik ikon untuk mengubah sambungan.",
-        "description": ""
-    },
-    "user-guide-windows-image-1-alt": {
-        "message": "Tangkapan layar memperlihatkan peringatan keamanan Windows untuk Psiphon yang dapat dieksekusi ",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-2-alt": {
-        "message": "Tangkapan layar menunjukkan Psiphon dimulai di Windows.",
-        "description": "alt text for an image"
-    },
-    "user-guide-windows-image-3-alt": {
-        "message": "Tangkapan layar menunjukkan Psiphon tersambung pada Windows",
-        "description": "alt text for an image"
-    },
     "blog-index-title": {
         "message": "Blog Tim",
         "description": ""
@@ -1149,10 +989,6 @@
     },
     "page-keyword-psiphon2": {
         "message": "psiphon2",
-        "description": "web page meta keyword used for SEO"
-    },
-    "page-keyword-user-guide": {
-        "message": "panduan pengguna",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
@@ -2190,5 +2026,33 @@
     "psiphon-guide-ui-android-options-image-annotation": {
         "message": "Pilihan Pemformat",
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
+    },
+    "donate-nav-title": {
+        "message": "Donate to Psiphon",
+        "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-title": {
+        "message": "Donate to Psiphon",
+        "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-description": {
+        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-meta-title": {
+        "message": "Donasi",
+        "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-header": {
+        "message": "Help Psiphon,<br>Help everyone!",
+        "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-para1": {
+        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
+    },
+    "donate-jumbo-donate-button": {
+        "message": "Donate with Debit or Credit Card",
+        "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }
