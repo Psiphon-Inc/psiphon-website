@@ -72,6 +72,11 @@
 
   </div><!-- /container -->
 
+  <!-- Used when page is detected as being in an iframe -->
+  <div id="iframe-blocker" style="display:none;position:absolute;top:0;right:0;left:0;bottom:0;z-index:9999;background:rgba(4, 4, 4, 0.8);">
+    <h1 style="opacity:1;background:black;color:white;text-align:center;margin-top:40%;padding:1em;font-size:40px;">Must not be in iframe</h1>
+  </div>
+
   <!-- Scripts -->
   <script>
     // Make this value available to other scripts.
