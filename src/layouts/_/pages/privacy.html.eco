@@ -273,6 +273,27 @@ layout: _/page
       <%= @tt 'privacy-information-collected-psicash-para-6' %>
     </p>
 
+    <!-- my.psi.cash -->
+    <span class="anchor-target" id="my.psi.cash"></span>
+    <h4>my.psi.cash</h3>
+    <p>
+      <%- @tt 'privacy-information-collected-mypsicash-para-1' %>
+    </p>
+    <h5>reCAPTCHA</h5>
+    <p>
+      <%- @tt 'privacy-information-collected-mypsicash-recaptcha-para-1' %>
+    </p>
+    <p>
+      <%= @tt 'privacy-information-collected-mypsicash-recaptcha-para-2' %>
+    </p>
+    <p>
+      <%- @tt 'privacy-information-collected-mypsicash-recaptcha-para-3' %>
+    </p>
+    <h5><%= @tt 'privacy-information-collected-mypsicash-cookies-head' %></h5>
+    <p>
+      <%= @tt 'privacy-information-collected-mypsicash-cookies-para-1' %>
+    </p>
+
     <!-- Feedback -->
     <span class="anchor-target" id="feedback"></span>
     <h3><%= @tt 'faq-information-collected-answer-head-2' %></h3>
