@@ -23,13 +23,7 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
 
 1. Install [Node.js](http://nodejs.org/).
 
-2. Install [Docpad](http://docpad.org/):
-
-  ```
-  $ [sudo] npm install -g docpad
-  ```
-
-3. Install all dependencies:
+2. Install all dependencies:
 
   ```
   $ npm ci
@@ -38,13 +32,13 @@ The site should be fairly fast to load -- images that aren’t too large, etc. A
   # Or maybe: find . -name package.json -maxdepth 3 -execdir npm ci \;
   ```
 
-4. Generate site, serve it, and monitor for changes:
+3. Generate site, serve it, and monitor for changes:
 
   ```
   $ node --max-old-space-size=8192 --max-semi-space-size=512 --nouse-idle-notification node_modules/docpad/out/bin/docpad.js run --cache --offline
 
   # Site builds can be quite slow. Skip language generation for faster builds:
-  # docpad run --cache --offline --env fastbuild
+  # npx docpad run --cache --offline --env fastbuild
   ```
 
   The use of a complicated `node` command instead of `docpad` is so that the generate process has more memory to work with. Note that it's probably more memory-reasonable to generate the site separately from serving it (using `python -m SimpleHTTPServer 9778` or whatever). See below for simply generating the site.

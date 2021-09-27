@@ -428,11 +428,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
+        "message": "Hoe kan ik zien Psiphon voor Windows niet om mijn systeem proxy-instellingen te configureren?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
+        "message": "Hoe kan ik Psiphon voor Windows vertellen om mijn systeemproxy-instellingen niet te configureren?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -492,7 +492,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+        "message": "<strong>iOS  en macOS:</strong> A.u.b <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">vragen de terugbetaling via de App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -504,15 +504,15 @@
         "description": "This is the fourth paragraph of an FAQ answer."
     },
     "faq-psicash-create-account-question": {
-        "message": "Why should I create a PsiCash account?",
+        "message": "Waarom zou ik een PsiCash-account aanmaken?",
         "description": "This is an FAQ question. It discusses the benefits of creating a PsiCash account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-create-account-answer-para-1": {
-        "message": "<p>With an account, your PsiCash balance is <strong>kept safe</strong> and can be <strong>shared between your devices</strong>. If you don't have a PsiCash account, your balance is specific to each device, and losing a device means losing your balance on that device. When you have an account, all you need to do is log in to restore your balance.</p>\n<p>We will also be adding more benefits to having a PsiCash account in the future, such as transferring PsiCash between users and offering purchases that apply to all of your devices.</p>",
+        "message": "<p>Met een account, jou PsiCash saldo is <strong>bewaard gebleven</strong> en kan worden <strong>gedeeld tussen uw apparaten</strong>.Als u geen PsiCash-account heeft, is uw saldo specifiek voor elk apparaat, en als u een apparaat verliest, verliest u uw saldo op dat apparaat. Als je een account hebt, hoef je alleen maar in te loggen om je saldo te herstellen. </p>\n<p>We zullen in de toekomst ook meer voordelen toevoegen aan het hebben van een PsiCash-account, zoals het overzetten van PsiCash tussen gebruikers en het aanbieden van aankopen die van toepassing zijn op al uw apparaten. </p>",
         "description": "This is an FAQ answer. It discusses the benefits of creating a PsiCash account. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-pseudonym-question": {
-        "message": "Why should I use a pseudonym or alias for my PsiCash account username?",
+        "message": "Waarom zou ik een pseudoniem of alias voor mijn PsiCash gebruikersnaam gebruiken?",
         "description": "This is an FAQ question. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-pseudonym-answer-para-1": {
@@ -526,6 +526,18 @@
     "faq-psicash-more-account-merges-answer-para-1": {
         "message": "To avoid abuse, we allow the pre-existing PsiCash balance from only a few devices to be add to a PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
+    },
+    "faq-psicash-param-question": {
+        "message": "What is the <code>psicash=</code> parameter in some landing page URLs?",
+        "description": "This is an FAQ question. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything). 'PsiCash' should not be translated or transliterated.."
+    },
+    "faq-psicash-param-answer-para-1": {
+        "message": "In some landing page URLs and in <code>buy.psi.cash</code> URLs you will see a parameter like <code>#!psicash=abcd1234...</code> or <code>?psicash=abcd1234...</code>. This contains information necessary to give you a PsiCash reward for visiting some landing pages or for making a purchase of PsiCash.",
+        "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
+    },
+    "faq-psicash-param-answer-para-2": {
+        "message": "The \"token\" you will see in the decoded base-64 of the parameter is your PsiCash \"earner\" token, and can only be used for crediting your account with PsiCash -- not for spending your PsiCash, viewing your balance, etc. This token also cannot be used to reveal your identity or anything else about your account.",
+        "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
     },
     "alert-heading": {
         "message": "ALERT",
@@ -656,7 +668,7 @@
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "download-macos-appstore-psiphon-vpn": {
-        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "message": "<strong>Psiphon voor Macs met Apple silicon</strong> in de Apple App Store",
         "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
     },
     "download-macos-appstore-psiphon-vpn-description": {
@@ -992,7 +1004,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
-        "message": "psiphon guide",
+        "message": "psiphon gids",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-instructions": {
@@ -1140,7 +1152,7 @@
         "description": ""
     },
     "privacy-bulletin-entry-item-head-affected-applications": {
-        "message": "Affected applications",
+        "message": "Getroffen toepassingen",
         "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-background": {
@@ -1523,6 +1535,30 @@
         "message": "PsiCash server resources are stored in AWS, which means Amazon has access to the data.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
+    "privacy-information-collected-mypsicash-para-1": {
+        "message": "Users create and manage their PsiCash accounts on the <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a> website.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-1": {
+        "message": "my.psi.cash uses Google’s reCAPTCHA v3 (hereinafter “reCAPTCHA”), which protects websites from spam and abuse by non-human users (i.e., bots). reCAPTCHA collects personal information that is required for the functioning of the technology and is subject to its own privacy policy. Use of my.psi.cash indicates acceptance of Google’s <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Terms</a>.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-2": {
+        "message": "Our use of reCAPTCHA is strictly limited to ensuring the continued functioning of my.psi.cash. reCAPTCHA technology performs an automatic analysis for each site request without requiring the user to take any additional actions. This analysis is based on interactions made by the user, and is used to mitigate bot and other malicious behaviour on our website. The data collected during analysis is forwarded to Google, where Google will use this data to determine if you are a human user. This analysis takes place in the background, and users are not advised it is taking place.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-3": {
+        "message": "For more information about Google’s reCAPTCHA technology, please visit <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page."
+    },
+    "privacy-information-collected-mypsicash-cookies-head": {
+        "message": "Cookies",
+        "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
+    },
+    "privacy-information-collected-mypsicash-cookies-para-1": {
+        "message": "my.psi.cash only uses cookies and similar tracking technologies to carry out activities that are essential for the operation of the website. Essential cookies are necessary to ensure basic functions of the website. Cookies are small text files that are stored on your computer and saved by your browser, and do not represent any risk to your device. You can configure your browser settings to personalize how you would like your browser to handle cookies. Disabling essential cookies will degrade the functionality of this website.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
+    },
     "faq-information-collected-answer-head-2": {
         "message": "Feedback",
         "description": ""
@@ -1608,11 +1644,11 @@
         "description": ""
     },
     "psiphon-guide-nav-title": {
-        "message": "Psiphon Guide",
+        "message": "Psiphon Gids",
         "description": "Psiphon Guide. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-title": {
-        "message": "Psiphon Guide",
+        "message": "Psiphon Gids",
         "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-description": {
@@ -1620,7 +1656,7 @@
         "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-meta-title": {
-        "message": "Psiphon Guide",
+        "message": "Psiphon Gids",
         "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-header-contents": {
@@ -1652,11 +1688,11 @@
         "description": "Section 1 paragraph for the Psiphon Guide page. A general description of how Psiphon works, and what Psiphon is. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-splash-image-alt": {
-        "message": "Psiphon Guide Header Splash Image",
+        "message": "Psiphon Gids Koptekst Splash-afbeelding",
         "description": "splash image for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-the-internet": {
-        "message": "The internet",
+        "message": "Het internet",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page"
     },
     "psiphon-guide-para-2": {
@@ -1664,7 +1700,7 @@
         "description": "Section 1 paragraph for the Psiphon Guide page. A general description of the internet."
     },
     "psiphon-guide-section-1-sub-heading-filtering-censors": {
-        "message": "Filtering and Censors",
+        "message": "Filtering en censoren",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page"
     },
     "psiphon-guide-para-3": {
@@ -1680,7 +1716,7 @@
         "description": "Section 1 paragraph for the Psiphon Guide page. A description of both filtering and blocking of internet traffic."
     },
     "psiphon-guide-section-1-sub-heading-circumvention-tools": {
-        "message": "Circumvention Tools",
+        "message": "Omzeiling Gereedschap",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page."
     },
     "psiphon-guide-para-6": {
@@ -1688,7 +1724,7 @@
         "description": "Section 1 paragraph for the Psiphon Guide page. A description of circumvention tools. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-traffic": {
-        "message": "Psiphon Traffic",
+        "message": "Psiphon Verkeer",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-7": {
@@ -1700,7 +1736,7 @@
         "description": "Section 1 paragraph for the Psiphon Guide page. 'It' refers to Psiphon traffic. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-traffic-diagram-image-alt": {
-        "message": "Psiphon Guide Traffic Diagram Image",
+        "message": "Psiphon Gids Verkeersdiagram Afbeelding",
         "description": "diagram image for the Psiphon Guide page"
     },
     "psiphon-guide-para-9": {
@@ -1724,7 +1760,7 @@
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-different-vpn": {
-        "message": "What makes Psiphon different than a VPN?",
+        "message": "Wat maakt Psiphon anders dan een VPN?",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-13": {
@@ -1736,7 +1772,7 @@
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-trust": {
-        "message": "How do I know I can trust Psiphon?",
+        "message": "Hoe weet ik of ik Psiphon kan vertrouwen?",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-15": {
@@ -1756,7 +1792,7 @@
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-19": {
-        "message": "Send a blank email to <a href=\"mailto:get@psiphon3.com\">get@psiphon3.com.</a>",
+        "message": "Suur een blank email naar <a href=\"mailto:get@psiphon3.com\">get@psiphon3.com.</a>",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-20": {
@@ -1784,7 +1820,7 @@
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-security-splash-alt": {
-        "message": "Psiphon Guide Security and Trust splash image",
+        "message": "Psiphon Gids Beveiliging en vertrouwen splash afbeelding",
         "description": "splash image for Section 3 of the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-sub-heading-source-code": {
@@ -1792,11 +1828,11 @@
         "description": "Sub-heading of Section 3 for the Psiphon Guide page."
     },
     "psiphon-guide-para-26": {
-        "message": "Find the source code and design documents here.",
+        "message": "Vind de broncode en ontwerpdocumenten hier.",
         "description": "Section 3 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-3-sub-heading-sustainability-model": {
-        "message": "Sustainability Model",
+        "message": "Duurzaamheid Mode",
         "description": "Sub-heading of Section 3 for the Psiphon Guide page. The title refers to how Psiphon is able to sustain our network."
     },
     "psiphon-guide-para-27": {
