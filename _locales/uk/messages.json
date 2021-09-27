@@ -527,6 +527,18 @@
         "message": "To avoid abuse, we allow the pre-existing PsiCash balance from only a few devices to be add to a PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
+    "faq-psicash-param-question": {
+        "message": "What is the <code>psicash=</code> parameter in some landing page URLs?",
+        "description": "This is an FAQ question. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything). 'PsiCash' should not be translated or transliterated.."
+    },
+    "faq-psicash-param-answer-para-1": {
+        "message": "In some landing page URLs and in <code>buy.psi.cash</code> URLs you will see a parameter like <code>#!psicash=abcd1234...</code> or <code>?psicash=abcd1234...</code>. This contains information necessary to give you a PsiCash reward for visiting some landing pages or for making a purchase of PsiCash.",
+        "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
+    },
+    "faq-psicash-param-answer-para-2": {
+        "message": "The \"token\" you will see in the decoded base-64 of the parameter is your PsiCash \"earner\" token, and can only be used for crediting your account with PsiCash -- not for spending your PsiCash, viewing your balance, etc. This token also cannot be used to reveal your identity or anything else about your account.",
+        "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
+    },
     "alert-heading": {
         "message": "ПОПЕРЕДЖЕННЯ",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -1522,6 +1534,30 @@
     "privacy-information-collected-psicash-para-6": {
         "message": "PsiCash server resources are stored in AWS, which means Amazon has access to the data.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-para-1": {
+        "message": "Users create and manage their PsiCash accounts on the <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a> website.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-1": {
+        "message": "my.psi.cash uses Google’s reCAPTCHA v3 (hereinafter “reCAPTCHA”), which protects websites from spam and abuse by non-human users (i.e., bots). reCAPTCHA collects personal information that is required for the functioning of the technology and is subject to its own privacy policy. Use of my.psi.cash indicates acceptance of Google’s <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Terms</a>.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-2": {
+        "message": "Our use of reCAPTCHA is strictly limited to ensuring the continued functioning of my.psi.cash. reCAPTCHA technology performs an automatic analysis for each site request without requiring the user to take any additional actions. This analysis is based on interactions made by the user, and is used to mitigate bot and other malicious behaviour on our website. The data collected during analysis is forwarded to Google, where Google will use this data to determine if you are a human user. This analysis takes place in the background, and users are not advised it is taking place.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-3": {
+        "message": "For more information about Google’s reCAPTCHA technology, please visit <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page."
+    },
+    "privacy-information-collected-mypsicash-cookies-head": {
+        "message": "Куки",
+        "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
+    },
+    "privacy-information-collected-mypsicash-cookies-para-1": {
+        "message": "my.psi.cash only uses cookies and similar tracking technologies to carry out activities that are essential for the operation of the website. Essential cookies are necessary to ensure basic functions of the website. Cookies are small text files that are stored on your computer and saved by your browser, and do not represent any risk to your device. You can configure your browser settings to personalize how you would like your browser to handle cookies. Disabling essential cookies will degrade the functionality of this website.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
         "message": "Відгук",

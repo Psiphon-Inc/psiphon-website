@@ -527,6 +527,18 @@
         "message": "Kötüye kullanımı önlemek için, PsiCash hesabınızla oturum açarken yalnız birkaç aygıttan önceden var olan PsiCash bilgilerinin eklenmesine izin veriyoruz. Bilgilerini korumak istediğiniz daha fazla aygıtınız varsa, <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a> adresine bir e-posta gönderin. PsiCash kullanıcı adınızı eklemeyi unutmayın.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
+    "faq-psicash-param-question": {
+        "message": "Bazı web sayfası adreslerindeki <code>psicash=</code> parametresi nedir?",
+        "description": "This is an FAQ question. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything). 'PsiCash' should not be translated or transliterated.."
+    },
+    "faq-psicash-param-answer-para-1": {
+        "message": "Bazı web sayfası ve <code>buy.psi.cash</code> adreslerinde <code>#!psicash=abcd1234...</code> ya da <code>?psicash=abcd1234...</code> gibi bir parametre görebilirsiniz. Bu parametrede, bazı açılış sayfalarını ziyaret ettiğiniz veya PsiCash satın aldığınız için size verilebilecek PsiCash ödülünde kullanılacak bilgiler bulunur.",
+        "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
+    },
+    "faq-psicash-param-answer-para-2": {
+        "message": "Parametrenin çözülmüş base 64 kodunda göreceğiniz \"token\", PsiCash \"kazanan\" kodunuzdur ve yalnız hesabınıza PsiCash kredisi vermek için kullanılabilir -- PsiCash bakiyenizi harcamak ya da görüntülemek gibi işlemler için kullanılmaz. Ayrıca bu kod kimliğinizi veya hesabınızla ilgili başka herhangi bir şeyi bulmak için kullanılamaz.",
+        "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
+    },
     "alert-heading": {
         "message": "UYARI",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -1416,7 +1428,7 @@
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
-        "message": "Büyük sansür olaylarının kapsamını belirleme: Siteler ve hizmetler sıklıkla aniden ve herhangi bir uyarı olmadan engellenir ve bu da bölgesel Psiphon kullanımında çok büyük değişikliklere neden olabilir. Örneğin, <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_ blank\"> Brezilya'nın WhatsApp kullanımını engellemesi</a> ya da <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html \"target=\" _ blank \"> Türkiye'nin sosyal ağları engellemesi</a> gibi durumlarda, Psiphon kullanımında bir gün içinde 20 kata varan artışlar oldu.",
+        "message": "Büyük sansür olaylarının kapsamını belirleme: Siteler ve hizmetler sıklıkla aniden ve herhangi bir uyarı olmadan engellenir ve bu da bölgesel Psiphon kullanımında çok büyük değişikliklere neden olabilir. Örneğin, <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brezilya'nın WhatsApp kullanımını engellemesi</a> ya da <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Türkiye'nin sosyal ağları engellemesi</a> gibi durumlarda, Psiphon kullanımında bir gün içinde 20 kata varan artışlar oldu.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
@@ -1522,6 +1534,30 @@
     "privacy-information-collected-psicash-para-6": {
         "message": "PsiCash sunucu kaynakları AWS üzerinde bulunur. Yani Amazon verilere erişebilir.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-para-1": {
+        "message": "Kullanıcılar <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a> web sitesinden PsiCash hesaplarını açar ve yönetir.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-1": {
+        "message": "my.psi.cash üzerinde, web sitelerini istenmeyen iletilerden ve insan olmayan kullanıcıların (botlar) kötü niyetli girişimlerinden koruyan Google reCAPTCHA v3 (bundan böyle \"reCAPTCHA\" olarak anılacaktır) uygulaması kullanılıyor. reCAPTCHA, teknolojisinin kullanılabilmesi için gerekli olan bazı kişisel verileri, kendi gizlilik ilkesi koşulları altında toplar. my.psi.cash sitesini kullanarak, Google <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Gizlilik İlkesini</a> ve <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Koşullarını</a> kabul etmiş olursunuz.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-2": {
+        "message": "reCAPTCHA uygulamasını kullanma kapsamımız kesinlikle my.psi.cash sitesinin sürekli çalışmasını sağlamakla sınırlıdır. reCAPTCHA teknolojisi, her siteye erişme isteği için kullanıcının herhangi bir ek işlem yapmasına gerek kalmadan otomatik bir inceleme yapar. Bu inceleme, kullanıcı tarafından yapılan etkileşimlere dayanır ve web sitemizdeki bot ve diğer kötü niyetli davranışları azaltmak için kullanılır. İnceleme sırasında toplanan veriler, bir insan olup olmadığınızın belirlenmesi için bu verilerin kullanılacağı Google tarafına iletilir. Bu inceleme arka planda yapılır ve bu işleme kullanıcıların katılması önerilmez.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-3": {
+        "message": "Google reCAPTCHA teknolojisi hakkında ayrıntılı bilgi almak için <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a> adresine bakabilirsiniz.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page."
+    },
+    "privacy-information-collected-mypsicash-cookies-head": {
+        "message": "Çerezler",
+        "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
+    },
+    "privacy-information-collected-mypsicash-cookies-para-1": {
+        "message": "my.psi.cash, web sitesinin çalışması için gereken işlemleri yapabilmek amacıyla yalnız çerezleri ve benzer izleme teknolojilerini kullanır. Web sitesinin temel işlevlerini sağlamak için temel çerezler gereklidir. Çerezler, bilgisayarınızda saklanan ve web tarayıcınız tarafından kaydedilen küçük metin dosyalarıdır ve aygıtınız için herhangi bir risk oluşturmaz. Web tarayıcınızın çerezleri işleme şeklini, tarayıcı ayarlarınızdan isteğinize göre yapılandırabilirsiniz. Temel çerezleri devre dışı bırakmak, bu web sitesinin işlevselliğini azaltır.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
         "message": "Geri bildirim",

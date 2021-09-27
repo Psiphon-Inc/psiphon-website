@@ -527,6 +527,18 @@
         "message": "Para evitar el abuso, permitimos que el saldo PsiCash preexistente de solo unos pocos dispositivos sea agregado a una cuenta PsiCash al iniciar sesión. Si tienes más dispositivos de los cuales te gustaría mantener el saldo, por favor envíanos un correo electrónico a <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. Debes incluir tu nombre de usuario PsiCash.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
+    "faq-psicash-param-question": {
+        "message": "¿Qué es el parámetro <code>psicash=</code> en algunos URLs de la página principal?",
+        "description": "This is an FAQ question. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything). 'PsiCash' should not be translated or transliterated.."
+    },
+    "faq-psicash-param-answer-para-1": {
+        "message": "En algunos URLs de páginas principales y en URLs de <code>buy.psi.cash</code> verás un parámtero como <code>#!psicash=abcd1234...</code> o <code>?psicash=abcd1234...</code>. Esto contiene información necesaria para darte una recompensa de PsiCash por visitar algunas páginas o por hacer una compra de PsiCash.",
+        "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
+    },
+    "faq-psicash-param-answer-para-2": {
+        "message": "La \"credencial\" que verás en la base-64 decodificada del parámetro es tu credencial \"recibidora\" de PsiCash, y solo puede ser usada para añadir PsiCash a tu cuenta -- no para gastar tu PsiCash, ver tu balance, etc. Esta credencial tampoco puede ser usada para revelar tu identidad o nada más acerca de tu cuenta.",
+        "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
+    },
     "alert-heading": {
         "message": "ALERTA",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -1523,6 +1535,30 @@
         "message": "Los recursos del servidor PsiCash son almacenados en AWS, lo cual significa que Amazon tiene acceso a los datos.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
+    "privacy-information-collected-mypsicash-para-1": {
+        "message": "Users create and manage their PsiCash accounts on the <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a> website.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated. 'PsiCash' must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-1": {
+        "message": "my.psi.cash uses Google’s reCAPTCHA v3 (hereinafter “reCAPTCHA”), which protects websites from spam and abuse by non-human users (i.e., bots). reCAPTCHA collects personal information that is required for the functioning of the technology and is subject to its own privacy policy. Use of my.psi.cash indicates acceptance of Google’s <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Terms</a>.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-2": {
+        "message": "Our use of reCAPTCHA is strictly limited to ensuring the continued functioning of my.psi.cash. reCAPTCHA technology performs an automatic analysis for each site request without requiring the user to take any additional actions. This analysis is based on interactions made by the user, and is used to mitigate bot and other malicious behaviour on our website. The data collected during analysis is forwarded to Google, where Google will use this data to determine if you are a human user. This analysis takes place in the background, and users are not advised it is taking place.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
+    },
+    "privacy-information-collected-mypsicash-recaptcha-para-3": {
+        "message": "For more information about Google’s reCAPTCHA technology, please visit <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page."
+    },
+    "privacy-information-collected-mypsicash-cookies-head": {
+        "message": "Cookies",
+        "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
+    },
+    "privacy-information-collected-mypsicash-cookies-para-1": {
+        "message": "my.psi.cash only uses cookies and similar tracking technologies to carry out activities that are essential for the operation of the website. Essential cookies are necessary to ensure basic functions of the website. Cookies are small text files that are stored on your computer and saved by your browser, and do not represent any risk to your device. You can configure your browser settings to personalize how you would like your browser to handle cookies. Disabling essential cookies will degrade the functionality of this website.",
+        "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
+    },
     "faq-information-collected-answer-head-2": {
         "message": "Comentarios",
         "description": ""
@@ -2028,15 +2064,15 @@
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
     },
     "donate-nav-title": {
-        "message": "Donate to Psiphon",
+        "message": "Donar a Psiphon",
         "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
     },
     "donate-title": {
-        "message": "Donate to Psiphon",
+        "message": "Donar a Psiphon",
         "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
     },
     "donate-description": {
-        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "message": "La página de donación permite a los usuarios y a otras personas interesadas ayudar a Psiphon financieramente.",
         "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-meta-title": {
@@ -2044,15 +2080,15 @@
         "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-header": {
-        "message": "Help Psiphon,<br>Help everyone!",
+        "message": "Ayuda a Psiphon,<br>¡Ayuda a todos!",
         "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-para1": {
-        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "message": "Ayudamos a decenas de millones de personas alrededor del mundo al libre acceso a internet. Estos esfuerzos cuestan un motón de dinero cada mes y necesitamos tu ayuda para mantener la libertad de internet rápida y efectiva.",
         "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-donate-button": {
-        "message": "Donate with Debit or Credit Card",
+        "message": "Donas con Tarjeta de Débito o Crédito",
         "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }
