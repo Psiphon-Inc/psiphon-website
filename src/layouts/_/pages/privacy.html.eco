@@ -46,8 +46,8 @@ layout: _/page
 <div class="row">
   <div class="col-md-12">
 
-    <span class="anchor-target" id="information-collected" data-anchor-text="<%= @tt 'faq-information-collected-question' %>"></span>
-    <h2><%= @tt 'faq-information-collected-question' %></h2>
+    <span class="anchor-target" id="information-collected"></span>
+    <h2><%= @tt 'privacy-information-collected-data-categories-header' %></h2>
 
     <!-- User VPN Data -->
     <span class="anchor-target" id="vpn-data"></span>
