@@ -524,7 +524,7 @@
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
-        "message": "To avoid abuse, we allow the pre-existing PsiCash balance from only a few devices to be add to a PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
+        "message": "To avoid abuse, we allow the pre-existing PsiCash balance and Speed Boost to be added from only a few devices to your PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
@@ -1211,9 +1211,13 @@
         "message": "Apa saja informasi pengguna yang dikumpulkan Psiphon?",
         "description": "Heading for a section in our privacy policy."
     },
+    "privacy-information-collected-data-categories-header": {
+        "message": "Kategori Data",
+        "description": "Heading for a section in our privacy policy. Under this heading will be sections with the different categories of data covered by the privacy policy."
+    },
     "privacy-information-collected-client-ads-head": {
         "message": "Jaringan Iklan Pelanggan Psiphon",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the ads shown in the Psiphon client software"
+        "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the ads shown in the Psiphon client software"
     },
     "privacy-information-collected-client-advertising-networks-para-1": {
         "message": "Kita terkadang menggunakan iklan untuk membantu servis kami, yang mungkin menggunakan teknologi seperti kuki dan suar web. Penggunaan kuki oleh partner pengiklan kami memungkinkan mereka dan partner mereka untuk menyajikan iklan berdasarkan data penggunaan anda. Semua informasi yang dikumpulkan melalui proses ini ditangani di bawah naungan ketentuan dari kebijakan privasi partner pengiklan kami:",
@@ -1225,7 +1229,7 @@
     },
     "privacy-information-collected-websites-head": {
         "message": "Situsweb Psiphon",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
+        "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the Psiphon websites"
     },
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
@@ -1608,11 +1612,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). Your email address may be written to the server system logs. These logs are deleted after one week.",
+        "message": "Saat Anda mengirim email permintaan ke server penjawab email otomatis kami, kami dapat melihat alamat email Anda. Saat email Anda sedang diproses, email disimpan ke disk server email, dan dihapus segera setelah diproses (biasanya dalam beberapa detik). Alamat email Anda mungkin ditulis ke log sistem server. Log ini dihapus setelah satu minggu.",
         "description": ""
     },
     "faq-information-collected-answer-para-12": {
-        "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. This means that Amazon is able to see the email you send and our response to you.",
+        "message": "Server penjawab email otomatis kami dihosting di cloud Amazon EC2. Ini berarti Amazon dapat melihat email yang Anda kirim dan tanggapan kami kepada Anda.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
