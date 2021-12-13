@@ -524,7 +524,7 @@
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
-        "message": "To avoid abuse, we allow the pre-existing PsiCash balance from only a few devices to be add to a PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
+        "message": "To avoid abuse, we allow the pre-existing PsiCash balance and Speed Boost to be added from only a few devices to your PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
@@ -1211,9 +1211,13 @@
         "message": "Psiphon thu thập thông tin gì của người dùng?",
         "description": "Heading for a section in our privacy policy."
     },
+    "privacy-information-collected-data-categories-header": {
+        "message": "Data Categories",
+        "description": "Heading for a section in our privacy policy. Under this heading will be sections with the different categories of data covered by the privacy policy."
+    },
     "privacy-information-collected-client-ads-head": {
         "message": "Psiphon Client Advertising Networks",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the ads shown in the Psiphon client software"
+        "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the ads shown in the Psiphon client software"
     },
     "privacy-information-collected-client-advertising-networks-para-1": {
         "message": "Chúng tôi có khi dùng quảng cáo để hỗ trợ cho dịch vụ, mà nó có thể dùng những kỹ thuật như cookies và web beacons. Đối tác quảng cáo dùng cookies để hiển thị quảng cáo phù hợp với cách dùng web của bạn. Thông tin nào thu thập qua quá trình này được xử lý theo điều khoản của chính sách quyền riêng tư của đối tác quảng cáo.",
@@ -1225,7 +1229,7 @@
     },
     "privacy-information-collected-websites-head": {
         "message": "Psiphon Websites",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
+        "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the Psiphon websites"
     },
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",

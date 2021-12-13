@@ -524,7 +524,7 @@
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
-        "message": "Para evitar el abuso, permitimos que el saldo PsiCash preexistente de solo unos pocos dispositivos sea agregado a una cuenta PsiCash al iniciar sesión. Si tienes más dispositivos de los cuales te gustaría mantener el saldo, por favor envíanos un correo electrónico a <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. Debes incluir tu nombre de usuario PsiCash.",
+        "message": "Para evitar el abuso, permitimos que el saldo PsiCash y Aumento de Velocidad preexistentes de solo unos pocos dispositivos sea agregado a tu cuenta PsiCash al iniciar sesión. Si tienes más dispositivos de los cuales te gustaría mantener el saldo, por favor envíanos un correo electrónico a <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. Debes incluir tu nombre de usuario PsiCash.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
@@ -1211,9 +1211,13 @@
         "message": "¿Qué información de usuario recoge Psiphon?",
         "description": "Heading for a section in our privacy policy."
     },
+    "privacy-information-collected-data-categories-header": {
+        "message": "Categorías de Datos",
+        "description": "Heading for a section in our privacy policy. Under this heading will be sections with the different categories of data covered by the privacy policy."
+    },
     "privacy-information-collected-client-ads-head": {
         "message": "Redes de publicidad del cliente Psiphon",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the ads shown in the Psiphon client software"
+        "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the ads shown in the Psiphon client software"
     },
     "privacy-information-collected-client-advertising-networks-para-1": {
         "message": "A veces usamos publicidad para sostener nuestro servicio, lo que puede hacer uso de tecnologías como cookies y balizas web. El uso de cookies por parte de nuestros socios publicitarios les habilita a ellos y a sus socios a servir anuncios en base a sus datos de uso. Cualquier información recopilada a través de este proceso es tratada bajo los términos de las políticas de privacidad de nuestros socios publicitarios.",
@@ -1225,7 +1229,7 @@
     },
     "privacy-information-collected-websites-head": {
         "message": "Sitios web de Psiphon",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
+        "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the Psiphon websites"
     },
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
@@ -1536,19 +1540,19 @@
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-para-1": {
-        "message": "Users create and manage their PsiCash accounts on the <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a> website.",
+        "message": "Los usuarios crean y gestionan sus cuentas PsiCash en el sitio web <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a>.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-1": {
-        "message": "my.psi.cash uses Google’s reCAPTCHA v3 (hereinafter “reCAPTCHA”), which protects websites from spam and abuse by non-human users (i.e., bots). reCAPTCHA collects personal information that is required for the functioning of the technology and is subject to its own privacy policy. Use of my.psi.cash indicates acceptance of Google’s <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Terms</a>.",
+        "message": "my.psi.cash usa reCAPTCHA v3 de Google (de aquí en más “reCAPTCHA”), el cual protege a los sitios web del contenido no deseado y el abuso por parte de usuarios no humanos (ej.: bots). reCAPTCHA recolecta información personal que es requerida para el funcionamiento de la tecnología, y está sujeto a su propia política de privacidad. El uso de my.psi.cash indica aceptación de la <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Política de Privacidad</a> y <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Términos</a> de Google.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-2": {
-        "message": "Our use of reCAPTCHA is strictly limited to ensuring the continued functioning of my.psi.cash. reCAPTCHA technology performs an automatic analysis for each site request without requiring the user to take any additional actions. This analysis is based on interactions made by the user, and is used to mitigate bot and other malicious behaviour on our website. The data collected during analysis is forwarded to Google, where Google will use this data to determine if you are a human user. This analysis takes place in the background, and users are not advised it is taking place.",
+        "message": "Nuestro uso de reCAPTCHA está estrictamente limitado a asegurar el funcionamiento contínuo de my.psi.cash. La tecnología reCAPTCHA efectúa un análisis automático por cada solicitud al sitio, sin requerir del usuario tomar alguna acción adicional. Este análisis está basado en interacciones hechas por el usuario, y es usado para mitigar a los bots y otros comportamientos maliciosos en nuestro sitio web. Los datos recolectados durante el análisis son remitidos a Google, quien usará estos datos para determinar si eres un usuario humano. Este análisis tiene lugar en segundo plano, y los usuarios no son advertidos de que se está llevando a cabo.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-3": {
-        "message": "For more information about Google’s reCAPTCHA technology, please visit <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
+        "message": "Para más información acerca de la tecnología reCAPTCHA de Google, por favor visita <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page."
     },
     "privacy-information-collected-mypsicash-cookies-head": {
@@ -1556,7 +1560,7 @@
         "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
     },
     "privacy-information-collected-mypsicash-cookies-para-1": {
-        "message": "my.psi.cash only uses cookies and similar tracking technologies to carry out activities that are essential for the operation of the website. Essential cookies are necessary to ensure basic functions of the website. Cookies are small text files that are stored on your computer and saved by your browser, and do not represent any risk to your device. You can configure your browser settings to personalize how you would like your browser to handle cookies. Disabling essential cookies will degrade the functionality of this website.",
+        "message": "my.psi.cash solo usa cookies y tecnologías de rastreo similares para efectuar actividades que son esenciales para la operación del sitio web. Las cookies esenciales son necesarios para asegurar funciones básicas del sitio web. Las cookies son pequeños archivos de texto que son almacenados en tu computadora y guardados por tu navegador, y no representan riesgo alguno para tu dispositivo. Puedes configurar los ajustes de tu navegador para personalizar como te gustaría que maneje estas cookies. Deshabilitar las cookies esenciales degradará la functionalidad de este sitio web.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {

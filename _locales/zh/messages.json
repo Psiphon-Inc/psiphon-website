@@ -524,7 +524,7 @@
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
-        "message": "To avoid abuse, we allow the pre-existing PsiCash balance from only a few devices to be add to a PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
+        "message": "To avoid abuse, we allow the pre-existing PsiCash balance and Speed Boost to be added from only a few devices to your PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
@@ -1211,9 +1211,13 @@
         "message": "赛风收集用户的哪些信息？",
         "description": "Heading for a section in our privacy policy."
     },
+    "privacy-information-collected-data-categories-header": {
+        "message": "数据类别",
+        "description": "Heading for a section in our privacy policy. Under this heading will be sections with the different categories of data covered by the privacy policy."
+    },
     "privacy-information-collected-client-ads-head": {
         "message": "Psiphon 客户端的广告网络",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the ads shown in the Psiphon client software"
+        "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the ads shown in the Psiphon client software"
     },
     "privacy-information-collected-client-advertising-networks-para-1": {
         "message": "有时，为了支持我们提供的服务，赛风有时使用了广告系统。这可能使用诸如 Cookie 和 Web 信号的技术。为了能够根据用户的使用情况提供广告，我们的广告合作伙伴使用了 cookie。对于在该过程中收集的任何信息，其处理将遵循广告合作伙伴的隐私政策：",
@@ -1225,7 +1229,7 @@
     },
     "privacy-information-collected-websites-head": {
         "message": "赛风网站",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
+        "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the Psiphon websites"
     },
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
@@ -1488,7 +1492,7 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2b": {
-        "message": "Creating a PsiCash account is optional. If an account is created, account-specific information such as username, password, and email address (if provided) are stored on the server. When logged in to a Psiphon client, the username is also stored locally.",
+        "message": "创建PsiCash账户不是强制的。如果一个账户被创建，账户相关的具体信息比如说用户，密码，和邮箱地址（如果提供了）将被存储在服务器上。当登入近Psiphon客户端，用户名也将被本地存储。",
         "description": "Paragraph text on the Privacy Policy page. Describes the user data requirements for PsiCash accounts. 'PsiCash' must not be translated or transliterated. 'Psiphon' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-3-list-start": {
@@ -1536,27 +1540,27 @@
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-para-1": {
-        "message": "Users create and manage their PsiCash accounts on the <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a> website.",
+        "message": "用户们在<a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a>网站创建并管理他们的PsiCash账户。",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-1": {
-        "message": "my.psi.cash uses Google’s reCAPTCHA v3 (hereinafter “reCAPTCHA”), which protects websites from spam and abuse by non-human users (i.e., bots). reCAPTCHA collects personal information that is required for the functioning of the technology and is subject to its own privacy policy. Use of my.psi.cash indicates acceptance of Google’s <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Terms</a>.",
+        "message": "my.psi.cash使用谷歌的reCAPTCHA v3 (以后用reCAPTCHA指代)。这项服务可以从垃圾邮件和非人类的滥用中保护网站。reCAPTCHA收集关于这项技术功能的基本个人信息，并且受制于它自己的隐私政策。使用my.psi.cash表示接受谷歌的<a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">隐私政策</a>和<a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">条款</a>。",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-2": {
-        "message": "Our use of reCAPTCHA is strictly limited to ensuring the continued functioning of my.psi.cash. reCAPTCHA technology performs an automatic analysis for each site request without requiring the user to take any additional actions. This analysis is based on interactions made by the user, and is used to mitigate bot and other malicious behaviour on our website. The data collected during analysis is forwarded to Google, where Google will use this data to determine if you are a human user. This analysis takes place in the background, and users are not advised it is taking place.",
+        "message": "我们对于reCAPTCHA的使用将被严格显示在确保my.psi.cash的持续运作。reCAPTCHA技术将在不需要使用者做任何事的情况下自动分析每个网站的请求。此分析是基于使用者过去的操作，并且会被用来缓解针对我们网站机器以及其他有恶意的行为。在分析期间收集的数据会被转发到谷歌，谷歌将会利用这些数据判断用户是否是人类。这个分析将在后台运行，用户不会意识到这个分析正在发生。",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-3": {
-        "message": "For more information about Google’s reCAPTCHA technology, please visit <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
+        "message": "更多关于谷歌的reCAPTCHA技术请浏览<a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>。",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page."
     },
     "privacy-information-collected-mypsicash-cookies-head": {
-        "message": "Cookies",
+        "message": "缓存",
         "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
     },
     "privacy-information-collected-mypsicash-cookies-para-1": {
-        "message": "my.psi.cash only uses cookies and similar tracking technologies to carry out activities that are essential for the operation of the website. Essential cookies are necessary to ensure basic functions of the website. Cookies are small text files that are stored on your computer and saved by your browser, and do not represent any risk to your device. You can configure your browser settings to personalize how you would like your browser to handle cookies. Disabling essential cookies will degrade the functionality of this website.",
+        "message": "my.psi.cash 只在必要的网站运行的活动中使用缓存或者其他类似跟踪技术。重要的缓存对于保证网站的基本功能是必须的。缓存是存储在你电脑上的小型文件并且会被您的浏览器保存。缓存不代表您的设备存在任何风险。您可以调整您的浏览器设置去个性化您的浏览器如何处理缓存。禁止必要的缓存会给网站的功能带来负面影响。",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
@@ -1608,7 +1612,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). Your email address may be written to the server system logs. These logs are deleted after one week.",
+        "message": "当您发送邮件到我们自动回复的邮箱，我们能看见你的邮箱地址。当您的邮件在被处理的过程中，邮箱地址会被储存到邮件服务器的硬盘上，在处理之后就会马上被删除（通常需要花费几秒）。您的邮箱地址有可能会被记录在服务器系统的日志中。这些日志每一周删除一次。",
         "description": ""
     },
     "faq-information-collected-answer-para-12": {
@@ -1824,43 +1828,43 @@
         "description": "splash image for Section 3 of the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-sub-heading-source-code": {
-        "message": "Source Code",
+        "message": "源代码",
         "description": "Sub-heading of Section 3 for the Psiphon Guide page."
     },
     "psiphon-guide-para-26": {
-        "message": "Find the source code and design documents here.",
+        "message": "在这查找源代码并设计文件。",
         "description": "Section 3 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-3-sub-heading-sustainability-model": {
-        "message": "Sustainability Model",
+        "message": "可持续模式",
         "description": "Sub-heading of Section 3 for the Psiphon Guide page. The title refers to how Psiphon is able to sustain our network."
     },
     "psiphon-guide-para-27": {
-        "message": "Psiphon has always been free to users. It is our mission to reach as many people as possible, which in part means eliminating economic barriers.",
+        "message": "Psiphon一直免费对用户开放。我们的目标是覆盖尽可能多的人群，消除经济障碍是其中一个方法。",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-28": {
-        "message": "Psiphon is committed to protecting our user data. So how does the company maintain a worldwide network?",
+        "message": "Psiphon承诺保护我们用户的数据。所以Psiphon如何维持一个世界范围的网络？",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-29": {
-        "message": "Psiphon is able to sustain operational costs by maintaining a diversity of income sources including:",
+        "message": "Psiphon能够通过多种方式维持运营花费，其中包括：",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-list-item-1": {
-        "message": "Winning international grants for technology development and network maintenance.",
+        "message": "赢得技术发展和网络维持的国际资助",
         "description": "Section 3 list item for the Psiphon Guide page. Each list item in this section refers to Psiphon's actions relating to funding sources and revenue models."
     },
     "psiphon-guide-section-3-list-item-2": {
-        "message": "Working with media partners to distribute content using branded Psiphon clients.",
+        "message": "与媒体伙伴合作，通过Psiphon客户端发布内容",
         "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-list-item-3": {
-        "message": "Collaborating with ad networks in certain regions.",
+        "message": "在部分地区与广告网络合作",
         "description": "Section 3 list item for the Psiphon Guide page."
     },
     "psiphon-guide-section-3-list-item-4": {
-        "message": "Offering subscriptions for premium service in certain regions.",
+        "message": "在部分地区提供需要订阅的优质服务",
         "description": "Section 3 list item for the Psiphon Guide page."
     },
     "psiphon-guide-para-30": {
@@ -1872,15 +1876,15 @@
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-sub-heading-security-audits": {
-        "message": "External Security Audits",
+        "message": "外部安全审计",
         "description": "Section 3 subheading for the Psiphon Guide page."
     },
     "psiphon-guide-section-3-list-item-5": {
-        "message": "2014 - Blog: Independent Security Assessment of Psiphon3",
+        "message": "2014 - 博客：Psiphon3的独立安全评估",
         "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon3' must not be transliterated."
     },
     "psiphon-guide-section-3-list-item-6": {
-        "message": "2017 – Blog: Psiphon Completes Another Third Party Security Review",
+        "message": "2017 - 博客：Psiphon完成另一项第三方安全审查",
         "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-32": {
@@ -1920,43 +1924,43 @@
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-frequent-disconnections": {
-        "message": "Frequent Disconnections",
+        "message": "经常断线",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-39": {
-        "message": "If you experience frequent disruptions, try the following:",
+        "message": "如果您有经常断线的经历，请尝试以下操作：",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-1": {
-        "message": "Check your internet connection or make sure you have data. The app needs to be connected to the internet to work.",
+        "message": "检查您的网络连接或者确保您有流量。程序需要在连接到网络的情况下才能运行。",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-2": {
-        "message": "Make sure you have the latest version. (See above).",
+        "message": "请确保您有最新的版本。（看上面）。",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-3": {
-        "message": "Restart the Psiphon app.",
+        "message": "重启Psiphon程序。",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-4": {
-        "message": "If you modified any connection settings, try resetting the app to default (See <a href=\"#psiphonguide_section5\">Section 5</a>).",
+        "message": "如果您更改了任何连接设置，请尝试恢复程序的默认设置（请看<a href=\"#psiphonguide_section5\">第五章</a>）。",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-sub-heading-more-troubleshooting": {
-        "message": "More Troubleshooting",
+        "message": "更多故障排除",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-40": {
-        "message": "For more answers to additional troubleshooting topics, visit our <a href=\"faq.html\">FAQ</a>",
+        "message": "如果您需要其他故障排除问题的答案，请浏览我们的<a href=\"faq.html\">常见问题页面</a>",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-sub-heading-send-feedback": {
-        "message": "Send Feedback",
+        "message": "发送反馈",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-41": {
-        "message": "Please send us feedback through the app if connection issues persist.",
+        "message": "如果连接问题持续发生，请通过程序向我们发送反馈。",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-sub-heading-feedback-windows": {
@@ -1996,7 +2000,7 @@
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-connection-performance": {
-        "message": "Connection Performance",
+        "message": "连接性能",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-43": {
@@ -2012,7 +2016,7 @@
         "description": "Section 5 paragraph for the Psiphon Guide page. 'SETTINGS', and 'Split Tunnel', and 'Don't proxy websites within your home country.' should appear as it does in the Psiphon Windows app. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-slow-networks": {
-        "message": "Slow Networks",
+        "message": "网络缓慢",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-46": {
@@ -2020,7 +2024,7 @@
         "description": "Section 5 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-5-sub-heading-server-location": {
-        "message": "Psiphon Server Location",
+        "message": "Psiphon服务器地点",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-47": {
@@ -2064,15 +2068,15 @@
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
     },
     "donate-nav-title": {
-        "message": "Donate to Psiphon",
+        "message": "捐助Psiphon",
         "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
     },
     "donate-title": {
-        "message": "Donate to Psiphon",
+        "message": "捐助Psiphon",
         "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
     },
     "donate-description": {
-        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "message": "捐助页面将允许用户以及其他认识在财政方面帮助Psiphon。",
         "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-meta-title": {
@@ -2080,15 +2084,15 @@
         "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-header": {
-        "message": "Help Psiphon,<br>Help everyone!",
+        "message": "帮助Psiphon，<br>帮助每一个人！",
         "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-para1": {
-        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "message": "我们帮助全世界成百上千万的人自由的享用互联网。这些努力每个月都消费巨大，我们需要您的帮助来维持快速，有效的网络自由。",
         "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-donate-button": {
-        "message": "Donate with Debit or Credit Card",
+        "message": "通过储蓄卡或者信用卡捐助",
         "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

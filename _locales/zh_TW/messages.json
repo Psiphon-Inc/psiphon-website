@@ -524,7 +524,7 @@
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
-        "message": "To avoid abuse, we allow the pre-existing PsiCash balance from only a few devices to be add to a PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
+        "message": "To avoid abuse, we allow the pre-existing PsiCash balance and Speed Boost to be added from only a few devices to your PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
@@ -1211,9 +1211,13 @@
         "message": "賽風收集用戶的哪些資訊？",
         "description": "Heading for a section in our privacy policy."
     },
+    "privacy-information-collected-data-categories-header": {
+        "message": "Data Categories",
+        "description": "Heading for a section in our privacy policy. Under this heading will be sections with the different categories of data covered by the privacy policy."
+    },
     "privacy-information-collected-client-ads-head": {
         "message": "Psiphon 客戶廣告網絡",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the ads shown in the Psiphon client software"
+        "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the ads shown in the Psiphon client software"
     },
     "privacy-information-collected-client-advertising-networks-para-1": {
         "message": "我們有時使用廣告系統支持我們的服務，這可能使用諸如 Cookie 和 Web 信標技術。我們的廣告合作商使用 Cookie 使他們及其合作伙伴基於您的使用資料為您提供廣告。這一過程收集的任何資料將依於合作廣告商的隱私政策處理。",
@@ -1225,7 +1229,7 @@
     },
     "privacy-information-collected-websites-head": {
         "message": "Psiphon 網站",
-        "description": "Sub-heading on the Privacy Policy page above the info about what user information is collected by the Psiphon websites"
+        "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the Psiphon websites"
     },
     "privacy-information-collected-websites-google-analytics-head": {
         "message": "Google Analytics",
