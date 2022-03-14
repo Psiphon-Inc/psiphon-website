@@ -471,6 +471,14 @@
         "message": "اگر شما نیاز به ناشناس ماندن در اینترنت دارید، آنگاه باید از برنامه  <a href=\"https://www.torproject.org/\" target=\"_blank\">تور</a>  به جای Psiphon استفاده کنید.",
         "description": ""
     },
+    "faq-vulnerability-report-question": {
+        "message": "چگونه یک آسیب‌پذیری امنیتی را گزارش کنم؟",
+        "description": "FAQ question."
+    },
+    "faq-vulnerability-report-answer": {
+        "message": "لطفا فایل<a href=\"https://psiphon.ca/.well-known/security.txt\" target=\"_blank\"> security.txt</a> ما را برای اطلاعات تماس و جزئیات ببینید.",
+        "description": "FAQ answer to the question 'How do I report a security vulnerability?'."
+    },
     "faq-root-wdm-question": {
         "message": "«کل دستگاه» برای گوشی‌های روت‌شده‌ی اندروید چی شد؟",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
@@ -524,7 +532,7 @@
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
-        "message": "برای جلوگیری از سواستفاده، ما تنها اجازه اضافه شدن موجودی PsiCash و توربو را از تعداد محدودی دستگاه به هنگام ورود می‌دهیم. اگر دستگاه‌های بیشتری دارید که می‌خواهید موجودی آن‌ها را حفظ کنید، به ما در <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a> ایمیل بزنید. شما باید نام کاربری PsiCash خود را ذکر کنید.",
+        "message": "برای جلوگیری از سو استفاده، ما تنها اجازه افزودن موجودی PsiCash و توربو قبلی از فقط چند دستگاه را به حساب PsiCash شما در هنگام ورود به سیستم می‌دهیم. اگر دستگاه‌های بیشتری دارید که می خواهید موجودی آن‌ها را نگه دارید، لطفا به ما ایمیل بزنید: <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0AReason%3A%0A\">psicash.support@psiphon.ca</a>. شما باید نام کاربری PsiCash خود و دلیل نیاز به ادغام بیشتر را درج کنید.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
