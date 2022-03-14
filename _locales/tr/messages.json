@@ -308,7 +308,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-answer-para-1": {
-        "message": "Yalnız VPN kipinde. VPN kipinde bağlantı kurulduktan sonra, tüm bilgisayarınızın trafiği Psiphon ağından aktarılır. VPN kipi etkin değilse, yalnız yerel HTTP ve SOCKS vekil sunucularını kullanan uygulamaların trafiği vekil sunucu üzerinden aktarılır.",
+        "message": "Yalnızca VPN kipinde. VPN kipinde bağlantı kurulduktan sonra, tüm bilgisayarınızın trafiği Psiphon ağından aktarılır. VPN kipi etkin değilse, yalnızca yerel HTTP ve SOCKS vekil sunucularını kullanan uygulamaların trafiği vekil sunucu üzerinden aktarılır.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-ios-browser-question": {
@@ -316,7 +316,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "iOS için Psiphon Browser yalnız bir tarama uygulaması olduğundan, yalnızca Psiphon Browser trafiğini tünelden aktarır ve diğer uygulamaların (Facebook ya da Twitter gibi) trafiğini Psiphon ağı üzerine yönlendirmez. Örneğin, Facebook hesabınıza Psiphon ağı üzerinden erişmek istiyorsanız, Psiphon Browser üzerinden Facebook web sitesini açabilirsiniz. Facebook uygulamasını kullanırsanız, trafiğiniz Psiphon ağı üzerinden değil, normal İnternet bağlantınız üzerinden aktarılır.",
+        "message": "iOS için Psiphon Browser yalnızca bir tarama uygulaması olduğundan, yalnızca Psiphon Browser trafiğini tünelden aktarır ve diğer uygulamaların (Facebook ya da Twitter gibi) trafiğini Psiphon ağı üzerine yönlendirmez. Örneğin, Facebook hesabınıza Psiphon ağı üzerinden erişmek istiyorsanız, Psiphon Browser üzerinden Facebook web sitesini açabilirsiniz. Facebook uygulamasını kullanırsanız, trafiğiniz Psiphon ağı üzerinden değil, normal İnternet bağlantınız üzerinden aktarılır.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-browser-compatibility-question": {
@@ -332,7 +332,7 @@
         "description": "FAQ question. Note that 'port' is referring to network ports. 'Psiphon' must not be translated or transliterated."
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Psiphon ağına giden bağlantılar yalnız şu kapı numaralarından yapılabilir: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Ayrıntılı bilgi almak için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">bu yazışmaya bakabilirsiniz</a>. E-posta istemcileri 25 numaralı kapı üzerinden iletişim kuramaz. Ayrıntılı bilgi almak için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">bu yazışmaya bakabilirsiniz</a>.",
+        "message": "Psiphon ağına giden bağlantılar yalnızca şu kapı numaralarından yapılabilir: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Ayrıntılı bilgi almak için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">bu yazışmaya bakabilirsiniz</a>. E-posta istemcileri 25 numaralı kapı üzerinden iletişim kuramaz. Ayrıntılı bilgi almak için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">bu yazışmaya bakabilirsiniz</a>.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-mail-apps-ports-question": {
@@ -368,7 +368,7 @@
         "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-answer-para-1": {
-        "message": "Windows 8, masaüstü uygulamasına alternatif olarak adını sonradan \"Modern UI\" olarak değiştirdiği \"Metro\" adında bir arayüz geliştirdi. Çok az sayda uygulama, yalnız \"Metro kipinde\" çalışabilirken diğerleri (Internet Explorer gibi) hem \"Metro kipi\" hem de \"Masaüstü kipinde\" çalışabilir. Bu yeni kullanıcı arayüzü Windows 8.1 üzerinde ve daha düşük bir düzeyde olmakla birlikte Windows 10 üzerinde de hala bulunmaktadır.",
+        "message": "Windows 8, masaüstü uygulamasına alternatif olarak adını sonradan \"Modern UI\" olarak değiştirdiği \"Metro\" adında bir arayüz geliştirdi. Çok az sayda uygulama, yalnızca \"Metro kipinde\" çalışabilirken diğerleri (Internet Explorer gibi) hem \"Metro kipi\" hem de \"Masaüstü kipinde\" çalışabilir. Bu yeni kullanıcı arayüzü Windows 8.1 üzerinde ve daha düşük bir düzeyde olmakla birlikte Windows 10 üzerinde de hala bulunmaktadır.",
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
     },
     "faq-windows-metro-answer-para-2": {
@@ -471,6 +471,14 @@
         "message": "İnternet üzerinde anonim kalmak istiyorsanız, Psiphon yerine <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> kullanmalısınız.",
         "description": ""
     },
+    "faq-vulnerability-report-question": {
+        "message": "Bir güvenlik açığını nasıl bildirebilirim?",
+        "description": "FAQ question."
+    },
+    "faq-vulnerability-report-answer": {
+        "message": "Lütfen iletişim bilgileri ve ayrıntılar için <a href=\"https://psiphon.ca/.well-known/security.txt\" target=\"_blank\">security.txt</a> dosyamıza bakın.",
+        "description": "FAQ answer to the question 'How do I report a security vulnerability?'."
+    },
     "faq-root-wdm-question": {
         "message": "Rootlanmış Android aygıtlardaki tüm aygıt kipine ne oldu?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
@@ -524,7 +532,7 @@
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
-        "message": "Kötüye kullanımı önlemek için, oturum açarken PsiCash hesabınıza yalnız birkaç aygıttan önceden var olan PsiCash ve Speed Boost bilgilerinin eklenmesine izin veriyoruz. Bilgilerini korumak istediğiniz daha fazla aygıtınız varsa, <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a> adresine bir e-posta gönderin. PsiCash kullanıcı adınızı eklemeyi unutmayın.",
+        "message": "Kötüye kullanımı önlemek için, oturum açarken PsiCash hesabınıza yalnızca birkaç aygıttan önceden var olan PsiCash ve Speed Boost bilgilerinin eklenmesine izin veriyoruz. Bilgilerini korumak istediğiniz daha fazla aygıtınız varsa, <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0AReason%3A%0A\">psicash.support@psiphon.ca</a> adresine bir e-posta gönderin. PsiCash kullanıcı adınızı ve neden daha fazla aktarım yapmanız gerektiğini eklemeyi unutmayın.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
@@ -536,7 +544,7 @@
         "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-answer-para-2": {
-        "message": "Parametrenin çözülmüş base 64 kodunda göreceğiniz \"token\", PsiCash \"kazanan\" kodunuzdur ve yalnız hesabınıza PsiCash kredisi vermek için kullanılabilir -- PsiCash bakiyenizi harcamak ya da görüntülemek gibi işlemler için kullanılmaz. Ayrıca bu kod kimliğinizi veya hesabınızla ilgili başka herhangi bir şeyi bulmak için kullanılamaz.",
+        "message": "Parametrenin çözülmüş base 64 kodunda göreceğiniz \"token\", PsiCash \"kazanan\" kodunuzdur ve yalnızca hesabınıza PsiCash kredisi vermek için kullanılabilir -- PsiCash birikiminizi harcamak ya da görüntülemek gibi işlemler için kullanılmaz. Ayrıca bu kod kimliğinizi veya hesabınızla ilgili başka herhangi bir şeyi bulmak için kullanılamaz.",
         "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
     },
     "alert-heading": {
@@ -664,7 +672,7 @@
         "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "download-ios-appstore-psiphon-vpn-description": {
-        "message": "iPhone ya da iPad aygıtınız üzerindeki tüm uygulamaların İnternet bağlantısı Psiphon ağı üzerinden sağlanır. Yalnız iOS 10.2 ve üzerindeki sürümlerde kullanılabilir.",
+        "message": "iPhone ya da iPad aygıtınız üzerindeki tüm uygulamaların İnternet bağlantısı Psiphon ağı üzerinden sağlanır. Yalnızca iOS 10.2 ve üzerindeki sürümlerde kullanılabilir.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "download-macos-appstore-psiphon-vpn": {
@@ -680,7 +688,7 @@
         "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "Kolay kullanılan web tarayıcımız ile sık kullandığınız web sitelerine ve hizmetlere Psiphon ağı üzerinden erişebilirsiniz. Yalnız iOS 8 ve üzerindeki sürümlerde kullanılabilir.",
+        "message": "Kolay kullanılan web tarayıcımız ile sık kullandığınız web sitelerine ve hizmetlere Psiphon ağı üzerinden erişebilirsiniz. Yalnızca iOS 8 ve üzerindeki sürümlerde kullanılabilir.",
         "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "download-store-head": {
@@ -792,7 +800,7 @@
         "description": "Paragraph text on the License web page."
     },
     "license-para-3": {
-        "message": "Psiphon hizmeti, özellikle bireysel kullanıcılar için geliştirilmiştir ve yalnız kişisel kullanım içindir. Psiphon uygulamasını herhangi bir başka amaç için kullanmak isterseniz ya da ek gereksinimleriniz varsa, ücreti karşılığı ticari hizmetler de sunuyoruz. Ayrıntılı bilgi almak için <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a> adresine bir e-posta gönderebilirsiniz.",
+        "message": "Psiphon hizmeti, özellikle bireysel kullanıcılar için geliştirilmiştir ve yalnızca kişisel kullanım içindir. Psiphon uygulamasını herhangi bir başka amaç için kullanmak isterseniz ya da ek gereksinimleriniz varsa, ücreti karşılığı ticari hizmetler de sunuyoruz. Ayrıntılı bilgi almak için <a href=\"mailto:sponsor@psiphon.ca\">sponsor@psiphon.ca</a> adresine bir e-posta gönderebilirsiniz.",
         "description": ""
     },
     "license-terms-of-use-header": {
@@ -808,7 +816,7 @@
         "description": ""
     },
     "license-distribution-para": {
-        "message": "Psiphon hizmetini yalnız Psiphon Inc. tarafından geliştirilmiş uygulamalar kullanabilir. Psiphon hizmetini kullanan bir üçüncü taraf uygulama ya da aracı kullanmak ya da dağıtmak bu lisans koşullarının ihlal edilmesi anlamına gelir.",
+        "message": "Psiphon hizmetini yalnızca Psiphon Inc. tarafından geliştirilmiş uygulamalar kullanabilir. Psiphon hizmetini kullanan bir üçüncü taraf uygulama ya da aracı kullanmak ya da dağıtmak bu lisans koşullarının ihlal edilmesi anlamına gelir.",
         "description": ""
     },
     "license-personal-or-specified-use-header": {
@@ -816,7 +824,7 @@
         "description": ""
     },
     "license-personal-or-specified-use-para": {
-        "message": "Psiphon hizmeti ayrıcalık sağlamayan kişisel lisans koşulları altında kullanıma sunulmuştur. Psiphon hizmetini kullanarak bu hizmeti yalnız kişisel amaçlarla, ticari olmayan şekilde kullandığınızı kabul etmiş olursunuz. Psiphon hizmetini hiçbir şekilde ticari bir amaçla kiralama, alt lisans sunma, satma ve yeniden satma (ya da üçüncü tarafların bu işlemleri yapmasını sağlama) şeklinde dağıtamazsınız.",
+        "message": "Psiphon hizmeti ayrıcalık sağlamayan kişisel lisans koşulları altında kullanıma sunulmuştur. Psiphon hizmetini kullanarak bu hizmeti yalnızca kişisel amaçlarla, ticari olmayan şekilde kullandığınızı kabul etmiş olursunuz. Psiphon hizmetini hiçbir şekilde ticari bir amaçla kiralama, alt lisans sunma, satma ve yeniden satma (ya da üçüncü tarafların bu işlemleri yapmasını sağlama) şeklinde dağıtamazsınız.",
         "description": ""
     },
     "license-statement-of-limitations-of-liability-header": {
@@ -1236,7 +1244,7 @@
         "description": "Sub-heading for section describing use of Google Analytics and what info they collect"
     },
     "privacy-information-collected-websites-google-analytics-para-1": {
-        "message": "Kullanımları hakkında bilgi toplamak için web sitelerimizin bazılarında Google Analytics kullanıyoruz. Google Analytics tarafından toplanan bu bilgiler yalnız belirli bir web sitesindeki gezinme davranışlarınızın istatistiksel sonuçlarını görmek için kullanılır. Google Analytics bilgilerinde, doğrudan ya da başka kaynaklardaki bilgiler ile birleştirilerek kim olduğunuzu ortaya çıkarabilecek veriler bulunmaz.",
+        "message": "Kullanımları hakkında bilgi toplamak için web sitelerimizin bazılarında Google Analytics kullanıyoruz. Google Analytics tarafından toplanan bu bilgiler yalnızca belirli bir web sitesindeki gezinme davranışlarınızın istatistiksel sonuçlarını görmek için kullanılır. Google Analytics bilgilerinde, doğrudan ya da başka kaynaklardaki bilgiler ile birleştirilerek kim olduğunuzu ortaya çıkarabilecek veriler bulunmaz.",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
@@ -1256,7 +1264,7 @@
         "description": ""
     },
     "privacy-information-collected-s3-logging-para-2": {
-        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">buket erişimi günlük kayıtlarında</a>, IP adresleri, kullanıcı uygulamaları ve zaman damgaları tutulur. Bu günlükler S3 üzerinde depolandığından, Amazon bu günlüklere erişebilir (aslında Amazon tüm dosyaları da barındırdığından, bu bilgileri kendisi de oluşturabilir). Psiphon geliştiricileri günlükleri indirip derleyerek veriyi inceledikten sonra siler. Ham veriler yalnız gerekli miktara ulaşana kadar saklanır ve üçüncü partiler ile paylaşılmaz.",
+        "message": "S3 <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html\" target=\"_blank\">buket erişimi günlük kayıtlarında</a>, IP adresleri, kullanıcı uygulamaları ve zaman damgaları tutulur. Bu günlükler S3 üzerinde depolandığından, Amazon bu günlüklere erişebilir (aslında Amazon tüm dosyaları da barındırdığından, bu bilgileri kendisi de oluşturabilir). Psiphon geliştiricileri günlükleri indirip derleyerek veriyi inceledikten sonra siler. Ham veriler yalnızca gerekli miktara ulaşana kadar saklanır ve üçüncü partiler ile paylaşılmaz.",
         "description": ""
     },
     "faq-information-collected-answer-head-1": {
@@ -1320,7 +1328,7 @@
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whycare-para-2": {
-        "message": "VPN kullanırken aygıtınıza gelen ve giden verilerin tümü VPN üzerinden aktarılır. Şifrelenmemiş HTTP kullanan bir web sitesini ziyaret ettiğinizde web sitesi ile ilgili bilgilerin tümü VPN tarafından görülebilir. Şifrelenmiş HTTPS kullanan bir web sitesini ziyaret ettiğinizde, site içeriği şifrelenir ancak site ile ilgili bazı bilgiler VPN tarafından görülebilir. Aygıtınızdaki diğer uygulama ve hizmetler de verileri şifrelenmiş ya da şifrelenmemiş olarak aktarır (Bunun tüm VPN ağları tarafından sağlanan şifrelemeden ayrı olduğunu unutmayın. Burada yalnız VPN tüneli <em>içindeki</em> şifrelenmiş ya da şifrelenmemiş veriler için endişeleniyoruz).",
+        "message": "VPN kullanırken aygıtınıza gelen ve giden verilerin tümü VPN üzerinden aktarılır. Şifrelenmemiş HTTP kullanan bir web sitesini ziyaret ettiğinizde web sitesi ile ilgili bilgilerin tümü VPN tarafından görülebilir. Şifrelenmiş HTTPS kullanan bir web sitesini ziyaret ettiğinizde, site içeriği şifrelenir ancak site ile ilgili bazı bilgiler VPN tarafından görülebilir. Aygıtınızdaki diğer uygulama ve hizmetler de verileri şifrelenmiş ya da şifrelenmemiş olarak aktarır (Bunun tüm VPN ağları tarafından sağlanan şifrelemeden ayrı olduğunu unutmayın. Burada yalnızca VPN tüneli <em>içindeki</em> şifrelenmiş ya da şifrelenmemiş veriler için endişeleniyoruz).",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an 'emphasis' (like italics) HTML tag, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whycare-para-3": {
@@ -1356,7 +1364,7 @@
         "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-1": {
-        "message": "Bir aygıt Psiphon tünelini kullanırken, kullanıcının nasıl kullandığı hakkında bazı bilgiler toplarız. Psiphon bağlantısı kurmak için kullanılan iletişim kuralı, aygıtın ne kadar süreyle bağlı kaldığı, oturum süresince aktarılan bayt sayısı ve bağlantının kurulduğu, il, ülke ve İnternet Hizmeti Sağlayıcı bilgilerini kaydediyoruz. Ziyaret edilen bazı (ancak çok az sayıda) etki alanı ya da sunucu IP adresleri (bilinen zararlı yazılım sunucuları gibi) için aktarılan bayt sayısını da kaydediyoruz (Ancak asla tam adresi ya da herhangi bir kişisel önemi olan bilgiyi kaydetmiyoruz. Ayrıca bunu tüm etki alanları için değil yalnız genel olarak ilgi çeken etki alanları için yapıyoruz).",
+        "message": "Bir aygıt Psiphon tünelini kullanırken, kullanıcının nasıl kullandığı hakkında bazı bilgiler toplarız. Psiphon bağlantısı kurmak için kullanılan iletişim kuralı, aygıtın ne kadar süreyle bağlı kaldığı, oturum süresince aktarılan bayt sayısı ve bağlantının kurulduğu, il, ülke ve İnternet Hizmeti Sağlayıcı bilgilerini kaydediyoruz. Ziyaret edilen bazı (ancak çok az sayıda) etki alanı ya da sunucu IP adresleri (bilinen zararlı yazılım sunucuları gibi) için aktarılan bayt sayısını da kaydediyoruz (Ancak asla tam adresi ya da herhangi bir kişisel önemi olan bilgiyi kaydetmiyoruz. Ayrıca bunu tüm etki alanları için değil yalnızca genel olarak ilgi çeken etki alanları için yapıyoruz).",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
@@ -1376,7 +1384,7 @@
         "description": "Sub-heading for the definition of 'Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-1": {
-        "message": "Veriler, kullanıcıya özel işlem verileri çıkarıldıktan sonra yalnız kabaca istatistiksel veriler elde etmek için bir araya getirilerek “derlenir”. Derlenen kullanıcı işlemi verileri silinir.",
+        "message": "Veriler, kullanıcıya özel işlem verileri çıkarıldıktan sonra yalnızca kabaca istatistiksel veriler elde etmek için bir araya getirilerek “derlenir”. Derlenen kullanıcı işlemi verileri silinir.",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-2": {
@@ -1392,7 +1400,7 @@
         "description": "Sub-heading for the definition of 'Shareable Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-shareable-para-1": {
-        "message": "Derlenen veriler üçüncü taraflar ile paylaşılırken, verilerde kullanıcı kimliğinin açığa çıkmasına neden olabilecek bilgilerin bulunmadığından emin oluruz. Örneğin, belirli bir günde bir ülkeden yalnız bir kaç kişi bağlanmış ise bu verileri paylaşmayız. Verilerin anonimleştirilmiş olduğundan emin oluruz. ",
+        "message": "Derlenen veriler üçüncü taraflar ile paylaşılırken, verilerde kullanıcı kimliğinin açığa çıkmasına neden olabilecek bilgilerin bulunmadığından emin oluruz. Örneğin, belirli bir günde bir ülkeden yalnızca bir kaç kişi bağlanmış ise bu verileri paylaşmayız. Verilerin anonimleştirilmiş olduğundan emin oluruz. ",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-2": {
@@ -1460,11 +1468,11 @@
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-3-v2": {
-        "message": "Yeniden vurgularsak, üçüncü taraflar ile yalnız anonimleştirilmiş paylaşılabilecek derlenmiş verileri paylaşıyoruz. ",
+        "message": "Yeniden vurgularsak, üçüncü taraflar ile yalnızca anonimleştirilmiş paylaşılabilecek derlenmiş verileri paylaşıyoruz. ",
         "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-psicash-para-1": {
-        "message": "Psicash sistemi yalnız sistemi çalıştırmak ve güvenliğini sağlamak için gerekli izleme verilerini toplar. ",
+        "message": "Psicash sistemi yalnızca sistemi çalıştırmak ve güvenliğini sağlamak için gerekli izleme verilerini toplar. ",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-list-start": {
@@ -1476,7 +1484,7 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-information-collected-psicash-para-2-item-2": {
-        "message": "bakiye",
+        "message": "birikiminiz",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
     },
     "privacy-information-collected-psicash-para-2-item-3": {
@@ -1516,7 +1524,7 @@
         "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "privacy-information-collected-psicash-para-4-item-2": {
-        "message": "bakiye",
+        "message": "birikiminiz",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
     },
     "privacy-information-collected-psicash-para-4-item-3": {
@@ -1560,7 +1568,7 @@
         "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
     },
     "privacy-information-collected-mypsicash-cookies-para-1": {
-        "message": "my.psi.cash, web sitesinin çalışması için gereken işlemleri yapabilmek amacıyla yalnız çerezleri ve benzer izleme teknolojilerini kullanır. Web sitesinin temel işlevlerini sağlamak için temel çerezler gereklidir. Çerezler, bilgisayarınızda saklanan ve web tarayıcınız tarafından kaydedilen küçük metin dosyalarıdır ve aygıtınız için herhangi bir risk oluşturmaz. Web tarayıcınızın çerezleri işleme şeklini, tarayıcı ayarlarınızdan isteğinize göre yapılandırabilirsiniz. Temel çerezleri devre dışı bırakmak, bu web sitesinin işlevselliğini azaltır.",
+        "message": "my.psi.cash, web sitesinin çalışması için gereken işlemleri yapabilmek amacıyla yalnızca çerezleri ve benzer izleme teknolojilerini kullanır. Web sitesinin temel işlevlerini sağlamak için temel çerezler gereklidir. Çerezler, bilgisayarınızda saklanan ve web tarayıcınız tarafından kaydedilen küçük metin dosyalarıdır ve aygıtınız için herhangi bir risk oluşturmaz. Web tarayıcınızın çerezleri işleme şeklini, tarayıcı ayarlarınızdan isteğinize göre yapılandırabilirsiniz. Temel çerezleri devre dışı bırakmak, bu web sitesinin işlevselliğini azaltır.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
@@ -1568,7 +1576,7 @@
         "description": ""
     },
     "faq-information-collected-answer-para-6": {
-        "message": "Psiphon üzerinden geri bildirim gönderirseniz, tanılama verilerini eklemeyi seçebilirsiniz. Bu verileri yaşadığınız sorunları anlamak ve Psiphon uygulamasının sorunsuz çalışmasını sağlamak için kullanıyoruz. Veriler bize gönderilmeden önce şifrelenir ve yalnız bizim tarafımızdan açılabilir. Verilerde platforma göre değişmekle birlikte şu bilgiler bulunabilir:",
+        "message": "Psiphon üzerinden geri bildirim gönderirseniz, tanılama verilerini eklemeyi seçebilirsiniz. Bu verileri yaşadığınız sorunları anlamak ve Psiphon uygulamasının sorunsuz çalışmasını sağlamak için kullanıyoruz. Veriler bize gönderilmeden önce şifrelenir ve yalnızca bizim tarafımızdan açılabilir. Verilerde platforma göre değişmekle birlikte şu bilgiler bulunabilir:",
         "description": ""
     },
     "faq-information-collected-answer-para-7-list-start": {
@@ -1716,7 +1724,7 @@
         "description": "Section 1 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-para-5": {
-        "message": "Yalnız belirli trafik türlerini engellemek için, öncelikle trafiğin tanımlanabilir olması gerekir. Bir sistem, ağ üzerinden geçen trafik türleri arasında ayrım yapabildiğinde, potansiyel olarak o trafik hakkında kararlar verebilir. Süzme işlemi, belirli trafik türlerini inceleyen ve geçmesini yasaklayan aygıt ve yazılımlar aracılığı ile yapılabilir. Bazı yerlerde teknik engelleme günlük İnternet kullanımını etkiler.",
+        "message": "Yalnızca belirli trafik türlerini engellemek için, öncelikle trafiğin tanımlanabilir olması gerekir. Bir sistem, ağ üzerinden geçen trafik türleri arasında ayrım yapabildiğinde, potansiyel olarak o trafik hakkında kararlar verebilir. Süzme işlemi, belirli trafik türlerini inceleyen ve geçmesini yasaklayan aygıt ve yazılımlar aracılığı ile yapılabilir. Bazı yerlerde teknik engelleme günlük İnternet kullanımını etkiler.",
         "description": "Section 1 paragraph for the Psiphon Guide page. A description of both filtering and blocking of internet traffic."
     },
     "psiphon-guide-section-1-sub-heading-circumvention-tools": {
@@ -1780,7 +1788,7 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-15": {
-        "message": "Psiphon açık kaynak kodlu bir uygulamadır. Yani herkes kaynak kodunu, sistemin nasıl kurgulandığını ve temeldeki şifreleme teknolojilerini inceleyip yorum yapabilir. Psiphon geliştirdiği kodu yalnız kendi ekibi ile incelemekle kalmaz, çeşitli dış kuruluşlar tarafından gerçekleştirilen düzenli olarak kod <a href=\"#psiphonguide_section3\">denetimleri</a> ve sızma testleri de gerçekleştirir.",
+        "message": "Psiphon açık kaynak kodlu bir uygulamadır. Yani herkes kaynak kodunu, sistemin nasıl kurgulandığını ve temeldeki şifreleme teknolojilerini inceleyip yorum yapabilir. Psiphon geliştirdiği kodu yalnızca kendi ekibi ile incelemekle kalmaz, çeşitli dış kuruluşlar tarafından gerçekleştirilen düzenli olarak kod <a href=\"#psiphonguide_section3\">denetimleri</a> ve sızma testleri de gerçekleştirir.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-16": {

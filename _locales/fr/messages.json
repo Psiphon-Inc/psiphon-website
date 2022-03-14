@@ -471,6 +471,14 @@
         "message": "Si vous exigez que votre anonymat soit préservé sur Internet, utilisez <a href=\"https://www.torproject.org/\" target=\"_blank\">Tor</a> au lieu de Psiphon.",
         "description": ""
     },
+    "faq-vulnerability-report-question": {
+        "message": "How do I report a security vulnerability?",
+        "description": "FAQ question."
+    },
+    "faq-vulnerability-report-answer": {
+        "message": "Please see our <a href=\"https://psiphon.ca/.well-known/security.txt\" target=\"_blank\">security.txt</a> file for contact information and details.",
+        "description": "FAQ answer to the question 'How do I report a security vulnerability?'."
+    },
     "faq-root-wdm-question": {
         "message": "Qu’est-il arrivé au mode Tout l’appareil pour les appareils Android racinés?",
         "description": "This is a FAQ question. Previously, users with old Android devices could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
@@ -524,7 +532,7 @@
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
-        "message": "To avoid abuse, we allow the pre-existing PsiCash balance and Speed Boost to be added from only a few devices to your PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username.",
+        "message": "To avoid abuse, we allow the pre-existing PsiCash balance and Speed Boost to be added from only a few devices to your PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0AReason%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username and the reason why you need more merges.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
@@ -1492,7 +1500,7 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2b": {
-        "message": "Creating a PsiCash account is optional. If an account is created, account-specific information such as username, password, and email address (if provided) are stored on the server. When logged in to a Psiphon client, the username is also stored locally.",
+        "message": "La création d’un compte PsiCash est facultative. Si un compte est créé, des renseignements propres au compte tels que le nom d’utilisateur, le mot de passe est l’adresse courriel (si indiquée) sont stockés sur le serveur. Si l’utilisateur est connecté à un client Psiphon, le nom d’utilisateur est aussi stocké localement.",
         "description": "Paragraph text on the Privacy Policy page. Describes the user data requirements for PsiCash accounts. 'PsiCash' must not be translated or transliterated. 'Psiphon' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-3-list-start": {
@@ -1544,11 +1552,11 @@
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-1": {
-        "message": "my.psi.cash uses Google’s reCAPTCHA v3 (hereinafter “reCAPTCHA”), which protects websites from spam and abuse by non-human users (i.e., bots). reCAPTCHA collects personal information that is required for the functioning of the technology and is subject to its own privacy policy. Use of my.psi.cash indicates acceptance of Google’s <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Terms</a>.",
+        "message": "my.psi.cash utilise reCAPTCHA v3 de Google (ci-après reCAPTCHA) qui protège les sites Web contre les indésirables et les abus d’utilisateurs non humains (c.-à-d. des robots). reCAPTCHA recueille des renseignements personnels essentiels au fonctionnement de la technologie et fait l’objet de sa propre politique de confidentialité. L’utilisation de my.psi.cash implique l’acceptation de la <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Politique de confidentialité</a> et des <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Conditions d’utilisation</a> de Google.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-2": {
-        "message": "Our use of reCAPTCHA is strictly limited to ensuring the continued functioning of my.psi.cash. reCAPTCHA technology performs an automatic analysis for each site request without requiring the user to take any additional actions. This analysis is based on interactions made by the user, and is used to mitigate bot and other malicious behaviour on our website. The data collected during analysis is forwarded to Google, where Google will use this data to determine if you are a human user. This analysis takes place in the background, and users are not advised it is taking place.",
+        "message": "Nous n’utilisons reCAPTCHA que de façon limitée, strictement pour assurer le bon fonctionnement de my.psi.cash. La technologie reCAPTCHA effectue une analyse automatique de chaque requête de site sans que l’utilisateur ait à effectuer d’action supplémentaire. Cette analyse est fondée sur les interactions effectuées par l’utilisateur et utilisées pour atténuer la présence de robots et d’autres comportements malveillants sur notre site Web. Les données recueillies pendant l’analyse sont transférées à Google qui les utilisera pour déterminer si vous êtes un utilisateur humain. Cette analyse a lieu en arrière-plan et les utilisateurs n’en sont pas informés.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-3": {
@@ -1560,7 +1568,7 @@
         "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
     },
     "privacy-information-collected-mypsicash-cookies-para-1": {
-        "message": "my.psi.cash only uses cookies and similar tracking technologies to carry out activities that are essential for the operation of the website. Essential cookies are necessary to ensure basic functions of the website. Cookies are small text files that are stored on your computer and saved by your browser, and do not represent any risk to your device. You can configure your browser settings to personalize how you would like your browser to handle cookies. Disabling essential cookies will degrade the functionality of this website.",
+        "message": "my.psi.cash n’utilise des témoins et technologies semblables que pour mener les activités essentielles au fonctionnement du site Web. Les témoins essentiels sont nécessaires pour assurer les fonctions de base du site Web. Les témoins sont de petits fichiers texte stockés sur votre ordinateur et enregistrés par votre navigateur. Ils ne représentent aucun risque pour votre appareil. Vous pouvez configurer les paramètres de votre navigateur pour personnaliser le traitement des témoins par votre navigateur. La désactivation des témoins essentiels diminuera la fonctionnalité de ce site Web.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
