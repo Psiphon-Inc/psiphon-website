@@ -300,7 +300,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "Psiphon در ویندوز اطلاعاتی را به صورت محلی و تحت حساب کاربری فرد استفاده کننده ذخیره می‌سازد که در مسیری مانند: <code> C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3 </code> و یا به صورت عمومی‌تر در <code> %APPDATA%\\Psiphon3 </code> قرار دارند. شما می‌توانید این اطلاعات محلی را با رفتن به آدرس فوق در ویندوز اکسپلورر و حذف آنها و یا با زدن دستور <code> rmdir /s \"%APPDATA%\\Psiphon3\" </code> در خط فرمان پاک‌سازی نمایید.",
+        "message": "سایفون برای ویندوز برخی از داده‌ها را به صورت محلی در زیر پروفایل کاربر ذخیره می‌کند. در مسیری مانند <code> C:\\Users\\YourName\\AppData\\Local\\Psiphon3 </code> یا به طور کلی <code> %USERPROFILE%\\AppData\\Local </code>.شما می‌توانید با رفتن به این مسیر در Windows Explorer و حذف آن، یا وارد کردن این دستور در خط فرمان، داده‌های محلی را حذف کنید: <code>rmdir /s \"%USERPROFILE%\\AppData\\Local\"</code>. همچنین اطلاعاتی در رجیستری سیستم در <code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code> ذخیره شده است. می‌توانید از ابزار Windows <code>5regedit5</code>برای حذف کلیدهای رجیستری استفاده کنید.",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
@@ -1812,7 +1812,7 @@
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-21": {
-        "message": "<strong>نصب پاسخ‌دهنده خودکار ایمیل اندروید:</strong> یک ایمیل از noreply@psiphon3.com در صندوق Inbox شما دریافت خواهد شد. اگر ایمیلی در Inbox خود مشاهده نکردید، پوشه اسپم را بررسی کنید. لینک دانلود را باز کرده و یا فایل پیوست 'PsiphonAndroid.ap_' را ذخیره کرده و در صورت نیاز فرمت آن را به “.apk” تغییر دهید. Psiphon را دانلود کنید. آیکون Psiphon را در گوشی خود پیدا کرده و برای باز کردن، آن را بفشارید. اگر قادر به دریافت برنامه به صورت مستقیم از پاسخ‌دهنده خودکار ایمیل نیستید، از ایمیل دیگری برای این کار استفاده کنید.",
+        "message": "<strong>نصب از طریق پاسخگوی خودکار ایمیل اندروید:</strong> ایمیلی از noreply@psiphon3.com به صورت لحظه‌ای به صندوق ورودی شما می‌رسد. اگر ایمیل را در پوشه ورودی خود نمی‌بینید، پوشه هرزنامه خود را بررسی کنید. به لینک دانلود مراجعه کنید یا فایل 'PsiphonAndroid.ap_' پیوست شده به ایمیل را دانلود کنید و در صورت لزوم نام آن را به پسوند فایل \".apk\" تغییر دهید. Psiphon را دانلود کنید. آیکون Psiphon را در گوشی خود پیدا کنید و روی آن کلیک کنید تا باز شود. اگر نمی‌توانید برنامه را مستقیما از طریق پاسخگوی خودکار ایمیل دریافت کنید، سعی کنید از یک ارائه‌دهنده ایمیل دیگر استفاده کنید.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-22": {
@@ -2028,7 +2028,7 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-46": {
-        "message": "برای متصل ماندن در یک شبکه کند، «غیرفعالسازی وقفه‌ها» را انتخاب کنید. این گزینه در اندروید، ویندوز و iOS موجود است.",
+        "message": "برای متصل ماندن در یک شبکه با سرعت کم، 'غیرفعال کردن وقفه‌های زمانی' را انتخاب کنید. این گزینه در اندروید، ویندوز و iOS موجود است.",
         "description": "Section 5 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-5-sub-heading-server-location": {

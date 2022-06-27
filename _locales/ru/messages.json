@@ -300,7 +300,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "Psiphon для Windows хранит некоторые данные на компьютере в профиле пользователя. Адрес выглядит как <code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3</code>; или, обобщенно, <code>%APPDATA%\\Psiphon3</code>. Можете удалить эти данные через \"Проводник\" Windows или в командно-строчном режиме: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>.",
+        "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Local\\Psiphon3</code>; or, more generally, <code>%USERPROFILE%\\AppData\\Local</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%USERPROFILE%\\AppData\\Local\"</code>. There is also information stored in the system registry at <code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code>. You can use the Windows <code>regedit</code> tool to delete those registry keys.",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
@@ -500,7 +500,7 @@
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+        "message": "<strong>iOS и macOS:</strong> пожалуйста,<a href=\"https://support.apple.com/HT204084\" target=\"_blank\">обратитесь за возмещением через App Store</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
@@ -1812,7 +1812,7 @@
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-21": {
-        "message": "<strong>Установка на Android через ответчика электронной почты:</strong> электронное письмо от noreply@psiphon3.com придет в ваш почтовый ящик через мгновение. Проверьте свою папку со спамом, если вы не видите ее в своем почтовом ящике. Перейдите по ссылке для скачивания или загрузите файл \"PsiphonAndroid.ap_\", прикрепленный к электронному письму, и при необходимости переименуйте его в файл с расширением “.apk”. Скачать Psiphon. Найдите значок Psiphon на своем телефоне и нажмите на него, чтобы открыть.  Если вы не можете получить заявку напрямую через ответчика электронной почты, попробуйте использовать другого поставщика электронной почты по адресу получения.",
+        "message": "<strong>Android Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Visit the download link or download the file 'PsiphonAndroid.ap_' attached to the email and rename it to have a “.apk” file extension, if necessary. Download Psiphon. Find the Psiphon icon on your phone and click on it to open.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-22": {
@@ -2028,7 +2028,7 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-46": {
-        "message": "Чтобы оставаться на связи в медленной сети, выберите пункт \"Отключить тайм-ауты\". Эта опция доступна на Android, Windows и iOS.",
+        "message": "To stay connected on a slow network, opt in to 'Disable timeouts.' This option is available on Android, Windows, and iOS.",
         "description": "Section 5 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-5-sub-heading-server-location": {

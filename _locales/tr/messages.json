@@ -224,7 +224,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-android-upgrade-bug-answer-para-1": {
-        "message": "Bir güncelleme yüklenirken Psiphon İnternete bağlı ise daha sonra bağlantı kuramayabilir ve “start_tunnel_failed application is not prepared or revoked” hatası görüntülenir. Bu durum bir <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\"> Andorid işletim sistemi sorunundan kaynaklanır</a>. Bu sorunu çözmek için aygıtınızı yeniden başlatın.",
+        "message": "Bir güncelleme yüklenirken Psiphon İnternete bağlı ise daha sonra bağlantı kuramayabilir ve “start_tunnel_failed application is not prepared or revoked” sorun bildirimi görüntülenir. Bu durum bir <a href=\"https://code.google.com/p/android/issues/detail?id=80074\" target=\"_blank\"> Andorid işletim sistemi sorunundan kaynaklanır</a>. Bu sorunu çözmek için aygıtınızı yeniden başlatın.",
         "description": "FAQ answer to the question 'After upgrading the Psiphon for Android app, it won't connect.' 'Psiphon' must not be translated or transliterated."
     },
     "faq-periodic-disconnect-question": {
@@ -236,7 +236,7 @@
         "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
     },
     "faq-ie6-docbody-question": {
-        "message": "Windows için Psiphon “doc.body is null or not an object” hata iletisi ile çalışmıyor.",
+        "message": "Windows için Psiphon “doc.body is null or not an object” sorun bildirimi ile çalışmıyor.",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-ie6-docbody-answer-para-1": {
@@ -300,7 +300,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "Windows için Psiphon bazı verileri yerel olarak kullanıcı profili altında <code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3</code> ya da daha genel olarak <code>%APPDATA%\\Psiphon3</code> gibi bir klasör yolu altında depolar. Windows Gezgini ile bu yola gidip klasörü silerek ya da komut satırından şu komutları yazarak yerel verileri silebilirsiniz: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>.",
+        "message": "Windows için Psiphon bazı verileri yerel olarak kullanıcı profili altında <code>C:\\Users\\YourName\\AppData\\Local\\Psiphon3</code> ya da daha genel olarak <code>%USERPROFILE%\\AppData\\Local</code> gibi bir klasör yolu altında depolar. Windows Gezgini ile bu yola gidip klasörü silerek ya da komut satırından şu komutları yazarak yerel verileri silebilirsiniz: <code>rmdir /s \"%USERPROFILE%\\AppData\\Local\"</code>. Ayrıca sistem kayıt defterinde <code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code>. altında tutulan bilgiler vardır. Bu kayıt defteri anahtarlarını silmek için Windows <code>regedit</code> uygulamasını kullanabilirsiniz.",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
@@ -328,11 +328,11 @@
         "description": ""
     },
     "faq-port-restrictions-question": {
-        "message": "Psiphon kullanırken herhangi bir kapı numarası sınırlaması var mı?",
+        "message": "Psiphon kullanırken herhangi bir bağlantı noktası sınırlaması var mı?",
         "description": "FAQ question. Note that 'port' is referring to network ports. 'Psiphon' must not be translated or transliterated."
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Psiphon ağına giden bağlantılar yalnızca şu kapı numaralarından yapılabilir: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Ayrıntılı bilgi almak için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">bu yazışmaya bakabilirsiniz</a>. E-posta istemcileri 25 numaralı kapı üzerinden iletişim kuramaz. Ayrıntılı bilgi almak için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">bu yazışmaya bakabilirsiniz</a>.",
+        "message": "Psiphon ağına giden bağlantılar yalnızca şu bağlantı noktalarından kurulabilir: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Ayrıntılı bilgi almak için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">bu yazışmaya bakabilirsiniz</a>. E-posta istemcileri 25 numaralı bağlantı noktası üzerinden iletişim kuramaz. Ayrıntılı bilgi almak için <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">bu yazışmaya bakabilirsiniz</a>.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-mail-apps-ports-question": {
@@ -340,7 +340,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-mail-apps-ports-answer-para-1": {
-        "message": "Bu sorun Psiphon <a href=\"#port-restrictions\">kapı numarası kısıtlamalarından</a> kaynaklanıyor olabilir.",
+        "message": "Bu sorun Psiphon <a href=\"#port-restrictions\">bağlantı noktası kısıtlamalarından</a> kaynaklanıyor olabilir.",
         "description": "FAQ answer to the question 'Why can't I use my favorite app while Psiphon is running? Why can't I send email using my mail client?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-mobile-hotspot-question": {
@@ -376,7 +376,7 @@
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-metro-answer-para-3": {
-        "message": "Psiphon çalışırken, Metro kipinde çalışan uygulamalar bağlantı kurmaya çalıştığında şunun gibi hata iletileri görebilirsiniz.",
+        "message": "Psiphon çalışırken, Metro kipinde çalışan uygulamalar bağlantı kurmaya çalıştığında şunun gibi sorun bildirimleri görebilirsiniz.",
         "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages. 'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-protocol-question": {
@@ -404,11 +404,11 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-dns-question": {
-        "message": "Windows için Psiphon ile VPN kipinde bağlantı kurduğumda, web sayfalarımın hiçbiri açılmıyor. Etki alanının bulunamadığını söyleyen bir hata iletisi görüyorum.",
+        "message": "Windows için Psiphon ile VPN kipinde bağlantı kurduğumda, web sayfalarımın hiçbiri açılmıyor. Etki alanının bulunamadığını söyleyen bir sorun bildirimi görüyorum.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-vpn-dns-answer-para-1": {
-        "message": "Psiphon, DNS trafiğini beyaz listedeki (kıdemli) DNS sunucular ile sınırlar. Psiphon uygulaması VPN DNS sunucu ayarlarınızı otomatik olarak yapılandırır. DNS ile ilgili hata iletileri görüyorsanız, Bilgisayarınıza \"DNS Changer\" olarak bilinen ve DNS sunucu ayarlarınızı değiştiren kötü amaçlı bir yazılımın bulaşmadığından emin olun. Ayrıntılı bilgi almak için <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">buraya bakabilirsiniz</a>.",
+        "message": "Psiphon, DNS trafiğini beyaz listedeki (kıdemli) DNS sunucular ile sınırlar. Psiphon uygulaması VPN DNS sunucu ayarlarınızı otomatik olarak yapılandırır. DNS ile ilgili sorun bildirimleri görüyorsanız, Bilgisayarınıza \"DNS Changer\" olarak bilinen ve DNS sunucu ayarlarınızı değiştiren kötü amaçlı bir yazılımın bulaşmadığından emin olun. Ayrıntılı bilgi almak için <a href=\"https://en.wikipedia.org/wiki/DNSChanger\">buraya bakabilirsiniz</a>.",
         "description": ""
     },
     "faq-configure-applications-question": {
@@ -416,7 +416,7 @@
         "description": ""
     },
     "faq-configure-applications-answer-para-1": {
-        "message": "Psiphon sisteminizde otomatik olarak yerel bir HTTP/HTTPS vekil sunucusu ve yerel bir SOCKS vekil sunucusu yapılandırır. Bu vekil sunucular için, Psiphon üzerinde özellikle belirtilmedikçe rastgele kapı numaraları kullanılır. Sistem Vekil Sunucusu ayarlarını kullanan Windows uygulamaları otomatik olarak bu sunucuları kullanır. Diğer uygulamaları da el ile bu yerel vekil sunucuları kullanacak şekilde yapılandırabilirsiniz. Windows için Psiphon ve Android için Psiphon uygulamalarında bu yerel vekil sunucular çalıştırılır.",
+        "message": "Psiphon sisteminizde otomatik olarak yerel bir HTTP/HTTPS vekil sunucusu ve yerel bir SOCKS vekil sunucusu yapılandırır. Bu vekil sunucular için, Psiphon üzerinde özellikle belirtilmedikçe rastgele bağlantı noktaları kullanılır. Sistem vekil sunucusu ayarlarını kullanan Windows uygulamaları otomatik olarak bu sunucuları kullanır. Diğer uygulamaları da el ile bu yerel vekil sunucuları kullanacak şekilde yapılandırabilirsiniz. Windows için Psiphon ve Android için Psiphon uygulamalarında bu yerel vekil sunucular çalıştırılır.",
         "description": ""
     },
     "faq-ssh-plus-question": {
@@ -1812,7 +1812,7 @@
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-21": {
-        "message": "<strong>Android e-posta yanıtlayıcı kurulumu:</strong> Kısa sürede noreply@psiphon3.com adresinden bir e-posta alacaksınız. Bu e-postayı gelen kutunuzda göremiyorsanız gereksiz e-posta klasörüne de  bakın. E-posta içindeki indirme bağlantısını açın ya da e-postanın ekindeki 'PsiphonAndroid.ap_' dosyasını indirin. Gerekirse bu dosyanın uzantısını “.apk” olarak değiştirin. Psiphon uygulamasını indirin. Telefonunuzdaki Psiphon simgesini bulun ve açmak için üzerine tıklayın. Uygulamayı doğrudan e-posta yanıtlayıcı ile alamıyorsanız, alıcı adresi olarak farklı bir e-posta hizmeti sağlayıcısı kullanmayı deneyin. ",
+        "message": "<strong>Android e-posta yanıtlayıcı kurulumu:</strong> Kısa sürede noreply@psiphon3.com adresinden bir e-posta alacaksınız. Bu e-postayı gelen kutunuzda göremiyorsanız istenmeyen e-posta klasörüne de bakın. E-posta içindeki indirme bağlantısını açın ya da e-postanın ekindeki 'PsiphonAndroid.ap_' dosyasını indirin. Gerekirse bu dosyanın uzantısını “.apk” olarak değiştirin. Psiphon uygulamasını indirin. Telefonunuzdaki Psiphon simgesini bulun ve açmak için üzerine tıklayın. Uygulamayı doğrudan e-posta yanıtlayıcı ile alamıyorsanız, alıcı adresi olarak farklı bir e-posta hizmeti sağlayıcısı kullanmayı deneyin. ",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-22": {
@@ -2028,7 +2028,7 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-46": {
-        "message": "Yavaş bir ağda bağlı kalmak için 'Zaman aşımı kullanılmasın' seçeceğini etkinleştirin. 'Bu seçenek Android, Windows ve iOS sürümlerinde bulunur.'",
+        "message": "Yavaş bir ağda bağlı kalmak için 'Zaman aşımı kullanılmasın' seçeceğini etkinleştirin. Bu seçenek Android, Windows ve iOS sürümlerinde bulunur.",
         "description": "Section 5 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-5-sub-heading-server-location": {

@@ -300,7 +300,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "Psiphon untuk Windows menyimpan beberapa data secara lokal di profil pengguna. Lokasinya ada di 1. C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3; atau secara umum 2. %APPDATA%\\Psiphon3. Anda dapat menghapus data lokal dengan menelusuri lokasi ini dalam Windows Explorer dan menghapusnya, atau mengetik perintah di prompt perintah: 3. rmdir /s \"%APPDATA%\\Psiphon3\".",
+        "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Local\\Psiphon3</code>; or, more generally, <code>%USERPROFILE%\\AppData\\Local</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%USERPROFILE%\\AppData\\Local\"</code>. There is also information stored in the system registry at <code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code>. You can use the Windows <code>regedit</code> tool to delete those registry keys.",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
@@ -1812,7 +1812,7 @@
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-21": {
-        "message": "<strong>Android Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Check your spam folder if you don't see it in your inbox. Visit the download link or download the file 'PsiphonAndroid.ap_' attached to the email and rename it to have a “.apk” file extension, if necessary. Download Psiphon. Find the Psiphon icon on your phone and click on it to open.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
+        "message": "<strong>Android Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Visit the download link or download the file 'PsiphonAndroid.ap_' attached to the email and rename it to have a “.apk” file extension, if necessary. Download Psiphon. Find the Psiphon icon on your phone and click on it to open.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-22": {
@@ -2028,7 +2028,7 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-46": {
-        "message": "To stay connected on a slow network, opt in to 'Disable timeouts.' This option is available on Android, Windows, and iOS.'",
+        "message": "To stay connected on a slow network, opt in to 'Disable timeouts.' This option is available on Android, Windows, and iOS.",
         "description": "Section 5 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-5-sub-heading-server-location": {

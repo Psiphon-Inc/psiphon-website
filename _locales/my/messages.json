@@ -300,7 +300,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Roaming\\Psiphon3</code>; or, more generally, <code>%APPDATA%\\Psiphon3</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%APPDATA%\\Psiphon3\"</code>.",
+        "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Local\\Psiphon3</code>; or, more generally, <code>%USERPROFILE%\\AppData\\Local</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%USERPROFILE%\\AppData\\Local\"</code>. There is also information stored in the system registry at <code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code>. You can use the Windows <code>regedit</code> tool to delete those registry keys.",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
@@ -512,7 +512,7 @@
         "description": "This is the fourth paragraph of an FAQ answer."
     },
     "faq-psicash-create-account-question": {
-        "message": "Why should I create a PsiCash account?",
+        "message": "ကျွန်ုပ်က PsiCash အသုံးပြုသူစာရင်းကို ဘာကြောင့် ဖန်တီးသင့်သလဲ။",
         "description": "This is an FAQ question. It discusses the benefits of creating a PsiCash account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-create-account-answer-para-1": {
@@ -520,7 +520,7 @@
         "description": "This is an FAQ answer. It discusses the benefits of creating a PsiCash account. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-pseudonym-question": {
-        "message": "Why should I use a pseudonym or alias for my PsiCash account username?",
+        "message": "ကျွနု်ပ်သည် ဘာကြောင့် ကျွနု်ပ်၏ PsiCash အသုံးပြုသူအမည်အတွက် အမည်ဝှက် သို့မဟုတ် နာမည်တု သုံးသင့်သလဲ။",
         "description": "This is an FAQ question. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-pseudonym-answer-para-1": {
@@ -528,7 +528,7 @@
         "description": "This is an FAQ answer. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-more-account-merges-question": {
-        "message": "What if I need to merge the PsiCash balance from more devices into my account?",
+        "message": "PsiCash လက်ကျန်ငွေကို နောက်ထပ်စက်တွေကနေ ကျွန်တော့်ရဲ့ အကောင့်ထဲကို ပေါင်းချင်ရင် ဘာလုပ်ရမလဲ။",
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
@@ -536,7 +536,7 @@
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
-        "message": "What is the <code>psicash=</code> parameter in some landing page URLs?",
+        "message": "ရောက်ရှိမည့် စာမျက်နှာအချို့၏ URL များတွင် <code>psicash=</code>သတ်မှတ်ချက် ဆိုသည်မှာ အဘယ်နည်း။",
         "description": "This is an FAQ question. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything). 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-param-answer-para-1": {
@@ -1812,7 +1812,7 @@
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-21": {
-        "message": "<strong>Android Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Check your spam folder if you don't see it in your inbox. Visit the download link or download the file 'PsiphonAndroid.ap_' attached to the email and rename it to have a “.apk” file extension, if necessary. Download Psiphon. Find the Psiphon icon on your phone and click on it to open.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
+        "message": "<strong>Android Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Visit the download link or download the file 'PsiphonAndroid.ap_' attached to the email and rename it to have a “.apk” file extension, if necessary. Download Psiphon. Find the Psiphon icon on your phone and click on it to open.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-22": {
@@ -2028,7 +2028,7 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-46": {
-        "message": "To stay connected on a slow network, opt in to 'Disable timeouts.' This option is available on Android, Windows, and iOS.'",
+        "message": "To stay connected on a slow network, opt in to 'Disable timeouts.' This option is available on Android, Windows, and iOS.",
         "description": "Section 5 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-5-sub-heading-server-location": {
