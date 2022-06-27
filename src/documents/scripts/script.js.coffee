@@ -19,12 +19,15 @@ $ ->
   # There is no reason we should be inside an iframe, so disallow it
   # (to prevent clickjacking, etc.).
   if self != top
-    # First try redirecting to the top level page
-    top.location.replace(self.location.href)
-    # If that fails, block the page to prevent interaction
-    setTimeout(
-      -> $('#iframe-blocker').css('display', '').find('h1').html('This page must not be in an iframe.<br><a target="_top" href="'+self.location.href+'">Visit this page directly.</a>'),
-      100)
+    # First try redirecting to the top level page. Note that Edge throws an exception when
+    # attempting this, although Firefox allows it.
+    try
+      top.location.replace(self.location.href)
+    finally
+      # If that fails, block the page to prevent interaction
+      setTimeout(
+        -> $('#iframe-blocker').css('display', '').find('h1').html('This page must not be in an iframe.<br><a target="_top" href="'+self.location.href+'">Visit this page directly.</a>'),
+        100)
 
   # Make the language switcher maintain the current anchor (if any).
   if window.location.hash
