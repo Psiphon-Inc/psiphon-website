@@ -12,7 +12,7 @@
         "description": "Page description for the index page. 'Psiphon' must not be translated or transliterated."
     },
     "index-hero-subtext": {
-        "message": "ما وراء الحدود ",
+        "message": "بلا حدود",
         "description": "Slogan text that appears below the hero image on the main page. Should be in all lower-case, as it will be shown with 'small caps' -- but if that doesn't make sense in your language, feel free to use mixed case."
     },
     "nav-language-title": {
@@ -1220,7 +1220,7 @@
         "description": "Heading for a section in our privacy policy."
     },
     "privacy-information-collected-data-categories-header": {
-        "message": "Data Categories",
+        "message": "فئات البيانات",
         "description": "Heading for a section in our privacy policy. Under this heading will be sections with the different categories of data covered by the privacy policy."
     },
     "privacy-information-collected-client-ads-head": {
@@ -1376,7 +1376,7 @@
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4.1": {
-        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 90 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
+        "message": "نحن نعتبر بيانات نشاط المستخدم هي أكثر فئات البيانات حساسية. نحن لا نشارك أبدًا هذه البيانات مع أطراف ثالثة. نحتفظ ببيانات نشاط المستخدم لمدة 90 يومًا على الأكثر ، ثم نقوم بتجميعها وحذفها. يتم الاحتفاظ بنسخ احتياطية من تلك البيانات لفترة زمنية معقولة.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {
@@ -1500,7 +1500,7 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2b": {
-        "message": "Creating a PsiCash account is optional. If an account is created, account-specific information such as username, password, and email address (if provided) are stored on the server. When logged in to a Psiphon client, the username is also stored locally.",
+        "message": "فتح حساب PsiCash اختياري. إذا تم إنشاء حساب ، يتم تخزين معلومات الحساب مثل اسم المستخدم وكلمة المرور وعنوان البريد الإلكتروني (إذا تم توفيره) على الخادم. عند تسجيل الدخول إلى عميل Psiphon ، يتم تخزين اسم المستخدم محليًا.",
         "description": "Paragraph text on the Privacy Policy page. Describes the user data requirements for PsiCash accounts. 'PsiCash' must not be translated or transliterated. 'Psiphon' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-3-list-start": {
@@ -1544,23 +1544,23 @@
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-6": {
-        "message": "PsiCash server resources are stored in AWS, which means Amazon has access to the data.",
+        "message": "يتم تخزين موارد خادم PsiCash في AWS ، مما يعني أن Amazon لديها حق الوصول إلى البيانات.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-para-1": {
-        "message": "Users create and manage their PsiCash accounts on the <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a> website.",
+        "message": "يمكن للمستخدمين إنشاء حسابات PsiCash وإدارتها على موقع الويب <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a>.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-1": {
-        "message": "my.psi.cash uses Google’s reCAPTCHA v3 (hereinafter “reCAPTCHA”), which protects websites from spam and abuse by non-human users (i.e., bots). reCAPTCHA collects personal information that is required for the functioning of the technology and is subject to its own privacy policy. Use of my.psi.cash indicates acceptance of Google’s <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Terms</a>.",
+        "message": "يستخدم my.psi.cash برنامج reCAPTCHA v3 الخاص بـ Google (المشار إليه فيما يلي بـ \"reCAPTCHA\") ، والذي يحمي مواقع الويب من الرسائل غير المرغوب فيها وإساءة الاستخدام من قبل المستخدمين غير البشر (مثل: برامج السير)",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-2": {
-        "message": "Our use of reCAPTCHA is strictly limited to ensuring the continued functioning of my.psi.cash. reCAPTCHA technology performs an automatic analysis for each site request without requiring the user to take any additional actions. This analysis is based on interactions made by the user, and is used to mitigate bot and other malicious behaviour on our website. The data collected during analysis is forwarded to Google, where Google will use this data to determine if you are a human user. This analysis takes place in the background, and users are not advised it is taking place.",
+        "message": "نحن نستخدم reCAPTCHA بشكل صارم لضمان استمرار عمل my.psi.cash. تقوم تقنية reCAPTCHA بإجراء تحليل تلقائي لكل طلب موقع دون مطالبة المستخدم باتخاذ أي إجراءات إضافية. يعتمد هذا التحليل على التفاعلات التي أجراها المستخدم ، ويستخدم للتخفيف من السلوكيات الضارة والسيرالأخرى على موقعنا. يتم إعادة توجيه البيانات التي يتم جمعها أثناء التحليل إلى Google ، حيث ستستخدم Google هذه البيانات لتحديد ما إذا كنت مستخدمًا حقيقيًا أم لا. يتم إجراء هذا التحليل في الخلفية ، ولا يُنصح المستخدمون بأنه يتم إجراؤه.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-3": {
-        "message": "For more information about Google’s reCAPTCHA technology, please visit <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
+        "message": "لمزيد من المعلومات حول تقنية reCAPTCHA من Google ، يرجى زيارة <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\"> https://www.google.com/recaptcha/about/</a>.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page."
     },
     "privacy-information-collected-mypsicash-cookies-head": {
@@ -1568,7 +1568,7 @@
         "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
     },
     "privacy-information-collected-mypsicash-cookies-para-1": {
-        "message": "my.psi.cash only uses cookies and similar tracking technologies to carry out activities that are essential for the operation of the website. Essential cookies are necessary to ensure basic functions of the website. Cookies are small text files that are stored on your computer and saved by your browser, and do not represent any risk to your device. You can configure your browser settings to personalize how you would like your browser to handle cookies. Disabling essential cookies will degrade the functionality of this website.",
+        "message": "ستخدم my.psi.cash ملفات تعريف الارتباط وتقنيات التتبع المماثلة فقط لتنفيذ الأنشطة الضرورية لتشغيل الموقع. يستخدم my.psi.cash ملفات تعريف الارتباط وتقنيات التتبع المماثلة فقط لتنفيذ الأنشطة الضرورية لتشغيل الموقع. تعد ملفات تعريف الارتباط الأساسية ضرورية لضمان الوظائف الأساسية للموقع. ملفات تعريف الارتباط هي ملفات نصية صغيرة يتم تخزينها على جهاز الكمبيوتر الخاص بك وحفظها بواسطة متصفحك ، ولا تمثل أي خطر على جهازك. سيؤدي تعطيل ملفات تعريف الارتباط الأساسية إلى تدهور وظائف هذا الموقع.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
@@ -1620,11 +1620,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). Your email address may be written to the server system logs. These logs are deleted after one week.",
+        "message": "يمكننا عرض عنوان بريدك الإلكتروني عندما ترسل طلبًا بالبريد الإلكتروني إلى بريدنا الإلكتروني المستجيب التلقائي. أثناء معالجة بريدك الإلكتروني ، يتم حفظه على قرص خادم البريد الإلكتروني ، وسيتم حذفه عند معالجته (عادةً في بضع ثوانٍ). قد تتم كتابة عنوان بريدك الإلكتروني في سجلات نظام الخادم. يتم حذف هذه السجلات بعد أسبوع واحد.",
         "description": ""
     },
     "faq-information-collected-answer-para-12": {
-        "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. This means that Amazon is able to see the email you send and our response to you.",
+        "message": "يتم استضافة خادم الاستجابة التلقائية لبريدك الإلكتروني في خادم Amazon EC2. هذا يعني أن Amazon قادرة على رؤية البريد الإلكتروني الذي ترسله وردنا عليك.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {

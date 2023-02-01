@@ -13,6 +13,42 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
+      <h2>2023-02-01: Privacy Policy update</h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      We are updating our <a href="privacy.html">Privacy Policy</a>. We removed links to advertising partners that we are no longer using. For the exact changes, see the <a target="_blank" href="https://github.com/Psiphon-Inc/psiphon-website/commit/3046a8c8c425766c6e33f23601e985ea646b61cb">GitHub commit</a>.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      We're not using those advertising partners anymore, so links to them are no longer relevant.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      This will be in effect on 2023-02-01T00:00Z.
+    </div>
+  </div>
+
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
       <h2>2021-10-06: Minor Privacy Policy update</h2>
     </div>
   </div>

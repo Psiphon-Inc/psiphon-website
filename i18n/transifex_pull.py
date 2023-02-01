@@ -84,18 +84,13 @@ DEFAULT_LANGS = {
 
 
 def pull_translations():
-    resources = (
-        'website-strings',
-    )
-
-    for resname in resources:
-        transifexlib.process_resource(
-            resname,
-            DEFAULT_LANGS,
-            '../_locales/en/messages.json',
-            lambda lang: f'../_locales/{lang}/messages.json',
-            None) # no mutator
-        print(f'{resname}: DONE')
+    transifexlib.process_resource(
+        'https://www.transifex.com/otf/Psiphon3/website-strings/',
+        DEFAULT_LANGS,
+        '../_locales/en/messages.json',
+        lambda lang: f'../_locales/{lang}/messages.json',
+        None) # no mutator
+    print('website-strings DONE')
 
 
 def go():
