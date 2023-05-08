@@ -13,6 +13,55 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
+      <h2>2023-05-08: Privacy exception: Possible exposure of client IP addresses</h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-affected-applications' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Psiphon Android and Psiphon Windows running the Conjure tunnel protocol, which is enabled only for certain countries and ISPs.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-happened' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      Authentication for Conjure stations connecting to the Conjure registrar was mistakenly removed in a refactor that was introduced around the end of October 2022.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-impact' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      <p>
+        It was possible for any actor aware of the issue to connect to the Conjure registrar and obtain a list of active registration information, including associated client IP addresses.
+      </p>
+      <p>
+        Once the issue was discovered in late April 2023, logs were monitored and no suspicious connections to the Conjure registrar were observed.
+      </p>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-resolution' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      A fix, restoring authentication, <a target="_blank" href="https://github.com/refraction-networking/conjure/commit/9fdfe9d559e20e0ef3fdccfdbcc0d8fbf6123c67">was implemented</a> and is now deployed.
+    </div>
+  </div>
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
       <h2>2023-02-01: Privacy Policy update</h2>
     </div>
   </div>
