@@ -16,6 +16,7 @@ layout: _/default
         </span>
       </h1>
     </a>
+	<%-@partial('download-button.html', @)%>
   </div>
 </div>
 
@@ -30,6 +31,9 @@ layout: _/default
         <p>
           <%= @tt 'main-gets-you-where-you-want-para-1' %>
         </p>
+        <a class="<%- @ifRTL('pull-left', 'pull-right') %>" href="<%= @getFullTranslatedURL '/psiphon-guide.html#psiphonguide_section1' %>">
+          <%= @tt 'faq-section-how-psiphon-works' %> &raquo;
+        </a>
       </div>
     </div>
   </div>
@@ -43,6 +47,9 @@ layout: _/default
         <p>
           <%= @tt 'main-gets-you-there-safely-para-1' %>
         </p>
+        <a class="<%- @ifRTL('pull-left', 'pull-right') %>" href="<%= @getFullTranslatedURL '/psiphon-guide.html#psiphonguide_section3' %>">
+          <%= @tt 'psiphon-guide-section-1-sub-heading-psiphon-trust' %> &raquo;
+        </a>
       </div>
     </div>
   </div>
@@ -58,6 +65,9 @@ layout: _/default
         <p>
           <%= @tt 'main-pick-three-para-1' %>
         </p>
+        <a class="<%- @ifRTL('pull-left', 'pull-right') %>" href="<%= @getFullTranslatedURL '/download.html' %>">
+          <%= @tt 'download-title' %> &raquo;
+        </a>
       </div>
     </div>
   </div>
@@ -68,6 +78,9 @@ layout: _/default
       </div>
       <div class="panel-body">
         <p><%= @tt 'what-is-psiphon-body-para-1' %></p>
+        <a class="<%- @ifRTL('pull-left', 'pull-right') %>" href="<%= @getFullTranslatedURL '/about.html' %>">
+          <%= @tt 'about-nav-title' %> &raquo;
+        </a>
       </div>
     </div>
   </div>
