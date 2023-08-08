@@ -1,5 +1,38 @@
 <!-- FOOTER -->
 <footer>
+ <div class="row">
+    <div class="col-md-12 text-center">
+      <a href="<%= @getFullTranslatedURL '/index.html' %>">
+        <h2>
+          Psiphon
+        </h2>
+      </a>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-md-12 text-center footer-items">
+      <a href="<%= @getFullTranslatedURL '/download.html' %>">
+        <h5>
+          <%- @tt 'download-title' %>
+        </h5>
+      </a>
+      <a href="<%= @getFullTranslatedURL '/psiphon-guide.html' %>">
+        <h5>
+          <%- @tt 'psiphon-guide-title' %>
+        </h5>
+      </a>
+      <a href="<%= @getFullTranslatedURL '/faq.html' %>">
+        <h5>
+          <%- @tt 'faq-title' %>
+        </h5>
+      </a>
+      <a href="<%= @getFullTranslatedURL '/about.html' %>">
+        <h5>
+          <%- @tt 'about-title' %>
+        </h5>
+      </a>
+    </div>
+  </div>
   <div class="row">
     <div class="col-md-12 text-center">
       <%= @tt 'footer-copyright' %> <%= new Date().getFullYear() %> <%= @site.companyName %> <%= @tt 'footer-license' %> <a href="https://creativecommons.org/licenses/by/3.0/deed.<%= @document.language %>" target="_blank">CC-BY</a>
