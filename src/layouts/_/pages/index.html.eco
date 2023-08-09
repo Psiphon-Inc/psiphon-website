@@ -16,9 +16,11 @@ layout: _/default
         </span>
       </h1>
     </a>
+  </div>
+  <div class="col-xs-8-center text-center">
     <!-- DOWNLOAD BUTTON -->
     <a href="<%= @getFullTranslatedURL '/download.html' %>">
-      <button class="lead download-button bg-primary btn btn-primary btn-lg col-xs-6-center">
+      <button class="lead download-button bg-primary btn btn-primary btn-lg">
         <%- @tt 'download-title' %>
       </button>
     </a>
