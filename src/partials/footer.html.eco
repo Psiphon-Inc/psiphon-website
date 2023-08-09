@@ -1,23 +1,23 @@
 <!-- FOOTER -->
 <footer>
    <div class="row">
-    <div class="col-md-12 text-center footer-items">
-      <a href="<%= @getFullTranslatedURL '/download.html' %>">
+    <div class="col-md-12 text-center">
+      <a href="<%= @getFullTranslatedURL '/download.html' %>" class="col-md-3">
         <h5>
           <%- @tt 'download-title' %>
         </h5>
       </a>
-      <a href="<%= @getFullTranslatedURL '/psiphon-guide.html' %>">
+      <a href="<%= @getFullTranslatedURL '/psiphon-guide.html' %>" class="col-md-3">
         <h5>
           <%- @tt 'psiphon-guide-title' %>
         </h5>
       </a>
-      <a href="<%= @getFullTranslatedURL '/faq.html' %>">
+      <a href="<%= @getFullTranslatedURL '/faq.html' %>" class="col-md-3">
         <h5>
           <%- @tt 'faq-title' %>
         </h5>
       </a>
-      <a href="<%= @getFullTranslatedURL '/about.html' %>">
+      <a href="<%= @getFullTranslatedURL '/about.html' %>" class="col-md-3">
         <h5>
           <%- @tt 'about-title' %>
         </h5>
