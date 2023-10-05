@@ -92,12 +92,18 @@ layout: _/page
       <img class="img-responsive" src="<%= @relativeToRoot '/images/faq/faq-authentic-windows.png' %>" alt="<%= @tt 'faq-authentic-windows-image-alt' %>">
     </p>
     <p>
+      <%= @tt 'faq-authentic-windows-answer-para-2026' %>
+    </p>
+    <p>
+      <code>1a 20 0c f5 cb 19 e7 2b fc cf 02 17 fd 4d 78 33 81 2d 3a 42</code>
+    </p>
+    <p>
       <%= @tt 'faq-authentic-windows-answer-para-2023' %>
     </p>
     <p>
       <code>07 89 b3 5f d5 c2 ef 81 42 e6 aa e3 b5 8f ff 14 e4 f1 31 36</code>
     </p>
-   <p>
+    <p>
       <%= @tt 'faq-authentic-windows-answer-para-2020' %>
     </p>
     <p>
