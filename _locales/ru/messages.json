@@ -300,7 +300,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Local\\Psiphon3</code>; or, more generally, <code>%USERPROFILE%\\AppData\\Local</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%USERPROFILE%\\AppData\\Local\"</code>. There is also information stored in the system registry at <code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code>. You can use the Windows <code>regedit</code> tool to delete those registry keys.",
+        "message": "Psiphon для Windows хранит некоторые данные локально в профиле пользователя. Он расположен в подобном месте <code>C:\\Users\\YourName\\AppData\\Local\\Psiphon3</code>; или в более общем, <code>%USERPROFILE%\\AppData\\Local</code>. Вы можете удалить локальные данные, перейдя по этому пути в проводнике Windows и удалить их, или же введя эту команду в командной строке: <code>rmdir /s \"%USERPROFILE%\\AppData\\Local\"</code>. Также информация хранится в системном реестре здесь <code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code>. Вы можете использовать редактор реестра Windows <code>regedit</code> для удаления этих ключей из реестра.",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
@@ -472,11 +472,11 @@
         "description": ""
     },
     "faq-vulnerability-report-question": {
-        "message": "How do I report a security vulnerability?",
+        "message": "Как я могу сообщить об уязвимости в безопасности?",
         "description": "FAQ question."
     },
     "faq-vulnerability-report-answer": {
-        "message": "Please see our <a href=\"https://psiphon.ca/.well-known/security.txt\" target=\"_blank\">security.txt</a> file for contact information and details.",
+        "message": "Посмотрите, пожалуйста, дополнительную и контактную информацию в файле <a href=\"https://psiphon.ca/.well-known/security.txt\" target=\"_blank\">security.txt</a>.",
         "description": "FAQ answer to the question 'How do I report a security vulnerability?'."
     },
     "faq-root-wdm-question": {
@@ -496,7 +496,7 @@
         "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money. 'PsiCash' should not be translated or transliterated."
     },
     "faq-refund-answer-para-1": {
-        "message": "<strong>Android:</strong> если с момента покупки прошло меньше 48 часов, можно <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">получить возмещение через Play Store</a>. Если прошло больше 48 часов, отправьте нам сообщение на <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Пожалуйста, укажите свое имя, адрес email, связанный с вашим аккаунтом Play Store, дату покупки, что именно вы приобрели и в каком количестве, а также причину, по которой вы запрашиваете возмещение.",
+        "message": "<strong>Андроид:</strong> если с момента покупки прошло меньше 48 часов, можно <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">получить возмещение через Play Store</a>. Если прошло больше 48 часов, отправьте нам сообщение на <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Пожалуйста, укажите свое имя, адрес email, связанный с вашим аккаунтом Play Store, дату покупки, что именно вы приобрели и в каком количестве, а также причину, по которой вы запрашиваете возмещение.",
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
@@ -524,7 +524,7 @@
         "description": "This is an FAQ question. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-pseudonym-answer-para-1": {
-        "message": "<p> Псевдоним - это прозвище или дескриптор, который вы используете для идентификации себя и который отличается от вашего настоящего имени. Использование псевдонима для имени пользователя вашей учетной записи PsiCash помогает предотвратить привязку вашей реальной личности к использованию вашего Psiphon или PsiCash. Если выдавать себя за пользователя Psiphon опасно или иным образом нежелательно, вам следует выбрать имя пользователя, которое не может быть связано с вами, и вместо этого вы должны использовать псевдоним, который вы не использовали ни на одном другом сайте или сервисе.</p>\n<p>При регистрации новой учетной записи PsiCash кто-то может проверить наличие имени пользователя, попытавшись создать учетную запись с его помощью. Если попытка будет успешной, имя пользователя еще не существовало. Если попытка не удалась, имя пользователя уже существует. Обнаружение вашего имени пользователя не подвергает риску вашу учетную запись PsiCash, но таким образом может быть раскрыт ваш статус пользователя Psiphon.</p>\n<p> Если вы хотите избежать связи с вашей настоящей личностью, важно отметить, что использование псевдонима, который вы используете на других сайтах или сервисах, почти то же самое, что использование вашего настоящего имени. Если этот псевдоним уже был связан с вашей личностью в другом месте, то его использование обеспечивает очень небольшую анонимность.</p>\n<p> Также обратите внимание, что ваш адрес электронной почты <em> таким образом обнаружить невозможно. Даже если вы используете псевдоним, вы все равно можете указать адрес электронной почты в своей учетной записи PsiCash, и его никак нельзя будет обнаружить.</p>",
+        "message": "<p>Псевдоним — это прозвище или дескриптор, который вы используете для идентификации себя и который отличается от вашего настоящего имени. Использование псевдонима для имени пользователя вашей учетной записи PsiCash помогает предотвратить привязку вашей реальной личности к использованию вашего Psiphon или PsiCash. Если выдавать себя за пользователя Psiphon опасно или иным образом нежелательно, вам следует выбрать имя пользователя, которое не может быть связано с вами, и вместо этого вы должны использовать псевдоним, который вы не использовали ни на одном другом сайте или сервисе.</p>\n<p>При регистрации новой учетной записи PsiCash кто-то может проверить наличие имени пользователя, попытавшись создать учетную запись с его помощью. Если попытка будет успешной, имя пользователя еще не существовало. Если попытка не удалась, имя пользователя уже существует. Обнаружение вашего имени пользователя <em>не</em> подвергает риску вашу учетную запись PsiCash, но таким образом может быть раскрыт ваш статус пользователя Psiphon.</p>\n<p>Если вы хотите избежать связи с вашей настоящей личностью, важно отметить, что использование псевдонима, который вы используете на других сайтах или сервисах, почти то же самое, что использование вашего настоящего имени. Если этот псевдоним уже был связан с вашей личностью в другом месте, то его использование обеспечивает очень небольшую анонимность.</p>\n<p>Также обратите внимание, что ваш адрес электронной почты таким образом обнаружить <em>не</em> выйдет. Даже если вы используете псевдоним, вы все равно можете указать адрес электронной почты в своей учетной записи PsiCash и его никак нельзя будет обнаружить.</p>",
         "description": "This is an FAQ answer. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-more-account-merges-question": {
@@ -1208,11 +1208,11 @@
         "description": "Paragraph introducing a bullet list."
     },
     "privacy-bulletin-info-para-2-item-1": {
-        "message": "Мы изменяем Политику приватности. Это может происходить из-за новых законов и требований. Иногда причина в том, что мы запускаем/останавливаем сторонний сервис. Мы всегда подробно объясняем изменения.",
+        "message": "Мы изменяем Политику приватности. Это может происходить из-за новых законов и требований. Иногда причина в том, что мы запускаем или останавливаем сторонний сервис. Мы всегда подробно объясняем изменения в политике.",
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "privacy-bulletin-info-para-2-item-2": {
-        "message": "Мы временно отклоняемся от нашей Политики приватности (изменяем тактику сбора данных). Обычно это происходит, если нужно решить проблему с сервисом или получить больше времени для анализа интересных случаев цензуры. Мы описываем такое изменение (например, какие данные фиксируются, как долго это продлится и почему).",
+        "message": "Мы временно отклоняемся от нашей Политики приватности, изменяя порядок сбора информации. Обычно это делается для решения проблемы с нашим сервисом или для того, чтобы дать нам больше времени для анализа наших данных, касающихся интересного случая цензуры. Мы описываем изменение, например, что было записано, как долго оно хранилось и почему.",
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "faq-information-collected-question": {
@@ -1229,10 +1229,6 @@
     },
     "privacy-information-collected-client-advertising-networks-para-1": {
         "message": "Иногда для поддержки нашего сервиса, мы используем рекламу, которая может использовать технологии cookies и веб-маячков. Использование нашими рекламными партнерами cookies позволяет им и их партнерам показывать рекламу на основе данных об использовании вами сети Интернет. Любая собранная благодаря этому информация обрабатывается в соответствии с политиками конфиденциальности наших партнеров.",
-        "description": ""
-    },
-    "privacy-information-collected-client-advertising-networks-para-2": {
-        "message": "Вы можете запретить использование cookies рекламными объявлениями, посетив:",
         "description": ""
     },
     "privacy-information-collected-websites-head": {
@@ -1664,7 +1660,7 @@
         "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-description": {
-        "message": "Руководство по Psiphon - это страница или 'гайд', предназначенное для того, чтобы помочь новым пользователям понять, как работает Psiphon, с некоторой общей информацией о настройках и рекомендуемых действиях для улучшения пользовательского опыта.",
+        "message": "Руководство по Psiphon — это страница или «гид», предназначенное для того, чтобы ознакомить новых пользователей с тем, как работает Psiphon, с некоторой общей информацией о настройках и рекомендуемых действиях для улучшения пользовательского опыта.",
         "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-meta-title": {
@@ -1696,7 +1692,7 @@
         "description": "contents link for Section 5 of the Psiphon Guide page. This section describes the location and function of various settings inside the Psiphon application."
     },
     "psiphon-guide-para-1": {
-        "message": "Psiphon Inc. предоставляет открытый доступ к Интернету миллионам граждан по всему миру с 2006 года. Psiphon управляет прокси-системой, известной как “Psiphon 2”, а также “Psiphon 3”, которая представляет собой приложение (“app”) для Android, Windows и iOS. Следующие документы посвящены сети Psiphon 3, которая является наиболее широко используемой. Psiphon - это бесплатное программное обеспечение для обхода цензуры с открытым исходным кодом. Он использует комбинацию технологий безопасной связи и обфускации, чтобы пользователи могли подключаться к приложениям и контенту, которые в противном случае были бы заблокированы.",
+        "message": "Psiphon Inc. предоставляет открытый доступ к Интернету миллионам граждан по всему миру с 2006 года. Psiphon управляет прокси-системой, известной как «Psiphon 2», а также «Psiphon 3», которая представляет собой приложение (“app”) для Android, Windows и iOS. Следующие документы посвящены сети Psiphon 3, которая является наиболее широко используемой. Psiphon — бесплатное программное обеспечение для обхода цензуры с открытым исходным кодом. Оно использует комбинацию технологий безопасной связи и обфускации, чтобы пользователи могли подключаться к приложениям и контенту, которые в противном случае были бы заблокированы.",
         "description": "Section 1 paragraph for the Psiphon Guide page. A general description of how Psiphon works, and what Psiphon is. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-splash-image-alt": {
@@ -1708,7 +1704,7 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page"
     },
     "psiphon-guide-para-2": {
-        "message": "Интернет - это глобальная сеть из миллиардов компьютеров (или “маршрутизаторов”), которые взаимодействуют друг с другом. Эти подключенные системы позволяют людям делиться (или “обслуживать”) информацией с другими. Интернет можно визуализировать как сеть с множеством маршрутов и подключений. Если одно соединение разорвано, избыточность веб-инфраструктуры позволяет людям подключаться, находя другой маршрут. Чтобы добраться из одного места в другое, веб-трафик (сообщения, отправляемые в Интернете) совершает множество переходов. Трафик передается от маршрутизатора к маршрутизатору, прежде чем прибыть в пункт назначения. Для этого требуется специальное сетевое и маршрутизирующее оборудование. Это обеспечивается Интернет-провайдерами. Интернет-провайдеры позволяют пользователям Интернета использовать свою инфраструктуру, включая \"обслуживание\" контента или предоставление доступа к другому контенту, который \"обслуживают\" другие интернет-провайдеры, обычно за плату.",
+        "message": "Интернет — глобальная сеть из миллиардов компьютеров (или «маршрутизаторов»), которые взаимодействуют друг с другом. Эти подключенные системы позволяют людям делиться (или «обслуживать») информацией с другими. Интернет можно визуализировать как сеть с множеством маршрутов и подключений. Если одно соединение разорвано, избыточность веб-инфраструктуры позволяет людям подключаться, находя другой маршрут. Чтобы добраться из одного места в другое, веб-трафик (сообщения, отправляемые в интернете) совершает множество переходов. Трафик передается от маршрутизатора к маршрутизатору, прежде чем прибыть в пункт назначения. Для этого требуется специальное сетевое и маршрутизирующее оборудование. Это обеспечивается интернет-провайдерами. Интернет-провайдеры позволяют пользователям интернета использовать свою инфраструктуру, включая «обслуживание» контента или предоставление доступа к другому контенту, который «обслуживают» другие интернет-провайдеры, обычно за плату.",
         "description": "Section 1 paragraph for the Psiphon Guide page. A general description of the internet."
     },
     "psiphon-guide-section-1-sub-heading-filtering-censors": {
@@ -1720,7 +1716,7 @@
         "description": "Section 1 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-para-4": {
-        "message": "Цензоры - это субъекты, осуществляющие фильтрацию на любом уровне. Они могут осуществлять фильтрацию от имени другого органа, например, когда интернет-провайдер фильтрует контент по приказу правительства.",
+        "message": "Цензоры — это субъекты, осуществляющие фильтрацию на любом уровне. Они могут осуществлять фильтрацию от имени другого органа, например, когда интернет-провайдер фильтрует контент по приказу правительства.",
         "description": "Section 1 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-para-5": {
@@ -1740,7 +1736,7 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-7": {
-        "message": "Как инструмент обхода цензуры, основной целью приложения Psiphon является установление соединения с Интернетом. Приложение Psiphon пытается подключиться к известным серверам Psiphon, используя различные методы. Иногда трафик Psiphon запутан, что означает, что он замаскирован под другой или менее идентифицируемый тип трафика.",
+        "message": "Основная цель приложения Psiphon как инструмента обхода цензуры — установить соединение с Интернетом. Приложение Psiphon пытается подключиться к известным серверам Psiphon различными способами. Иногда трафик Psiphon замаскирован, то есть он замаскирован под другой или менее идентифицируемый тип трафика.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-8": {
@@ -1780,27 +1776,27 @@
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-14": {
-        "message": "Psiphon позволяет пользователям отправлять и получать данные через защищенную сеть, одновременно скрывая тип передаваемого трафика и даже то, откуда он поступает. Технология Psiphon разработана таким образом, чтобы быть устойчивой к цензуре, включая попытки прямого вмешательства в сетевой трафик Psiphon. Многочисленные безопасные протоколы, используемые приложениями Psiphon, кажутся цензорам разными, что затрудняет различие между трафиком Psiphon и другими типами использования Интернета. Даже если в сети фильтруется один тип трафика, Psiphon может подключаться по другому протоколу. Psiphon работает там, где этого не делают многие другие инструменты.",
+        "message": "Psiphon позволяет пользователям отправлять и получать данные через защищенную сеть, одновременно скрывая тип передаваемого трафика и даже то, откуда он поступает. Технология Psiphon разработана таким образом, чтобы быть устойчивой к цензуре, включая попытки прямого вмешательства в сетевой трафик Psiphon. Многочисленные безопасные протоколы, используемые приложениями Psiphon, кажутся цензорам разными, что затрудняет различие между трафиком Psiphon и другими типами использования Интернета. Даже если в сети фильтруется один тип трафика, Psiphon может подключаться по другому протоколу. Psiphon работает там, где не работают многие другие инструменты.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-trust": {
-        "message": "Откуда я знаю, что могу доверять Psiphon?",
+        "message": "Откуда мне знать, что я могу доверять Psiphon?",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-15": {
-        "message": "Psiphon - это приложение с открытым исходным кодом, что означает, что его исходный код доступен для просмотра и комментирования каждому, любой может изучить как реализована система и лежащие в ее основе криптографические технологии. Psiphon не только выполняет внутренние проверки кода, но также регулярно проводит <a href=\"#psiphonguide_section3\">аудит</a> и тесты на проникновение, проводимые различными внешними фирмами.",
+        "message": "Psiphon — это приложение с открытым исходным кодом, что означает, что его исходный код доступен для просмотра и комментирования каждому, любой может изучить как реализована система и лежащие в ее основе криптографические технологии. Psiphon не только выполняет внутренние проверки кода, но также регулярно проводит <a href=\"#psiphonguide_section3\">аудит</a> и тесты на проникновение, проводимые различными внешними фирмами.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-16": {
-        "message": "Технология Psiphon становится доступной благодаря нескольким стратегиям распространения. Если один из методов заблокирован или недоступен в вашей стране, есть другие методы, которые вы можете использовать для получения приложения.",
+        "message": "Технология Psiphon становится доступной благодаря нескольким стратегиям распространения. Если один из методов заблокирован или недоступен в вашей стране, то есть другие методы, которые вы можете использовать для получения приложения.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-17": {
-        "message": "Psiphon доступен на Android, iOS, компьютерах Mac с Apple Silicon и Windows на нашей странице загрузки.",
+        "message": "Psiphon доступен на Андроид, iOS, компьютерах Mac с Apple Silicon и Windows на нашей странице загрузки.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-18": {
-        "message": "Версии Psiphon для Android и Windows также доступны через ответчик электронной почты.",
+        "message": "Версии Psiphon для Android и Windows также доступны через автоответчик электронной почты.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-19": {
@@ -1808,19 +1804,19 @@
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-20": {
-        "message": "<strong>Android:</strong> Найдите “Psiphon” в магазине Google Play. В зависимости от вашего региона у вас может быть возможность загрузить Psiphon Pro с возможностью приобретения подписки. Это обновление позволяет увеличить скорость и удалить рекламу.",
+        "message": "<strong>Андроид:</strong> Найдите «Psiphon» в магазине Google Play. В зависимости от вашего региона у вас может быть возможность загрузить Psiphon Pro с возможностью приобретения подписки. Это обновление позволяет увеличить скорость и удалить рекламу.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-21": {
-        "message": "<strong>Android Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Visit the download link or download the file 'PsiphonAndroid.ap_' attached to the email and rename it to have a “.apk” file extension, if necessary. Download Psiphon. Find the Psiphon icon on your phone and click on it to open.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
+        "message": "<strong>Установка на Android с помощью почтового автоответчика:</strong> Электронное письмо с адреса noreply@psiphon3.com сразу же придет на ваш почтовый ящик. Проверьте папку со спамом, если вы не видите его во входящих. Перейдите по ссылке для скачивания или загрузите файл 'PsiphonAndroid.ap_', прикрепленный к электронному письму, и при необходимости переименуйте его, присвоив ему расширение «.apk». Скачайте Psiphon. Найдите иконку Psiphon на своем телефоне и нажмите на нее, чтобы открыть. Если вы не можете получить приложение напрямую через автоответчика электронной почты, попробуйте использовать адрес другого провайдера электронной почты.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-22": {
-        "message": "<strong>Установка на Windows через ответчика электронной почты:</strong> электронное письмо от noreply@psiphon3.com придет в ваш почтовый ящик через мгновение. Проверьте свою папку со спамом, если вы не видите ее в своем почтовом ящике. Загрузите файл 'psiphon3', прикрепленный к электронному письму, и переименуйте его, чтобы он имел расширение файла “.exe”.  Если вы не можете получить заявку напрямую через ответчика электронной почты, попробуйте использовать другого поставщика электронной почты по адресу получения.",
+        "message": "<strong>Установка на Windows с помощью автоответчика электронной почты:</strong> Электронное письмо с адреса noreply@psiphon3.com сразу же придет на ваш почтовый ящик. Проверьте папку со спамом, если вы не видите его во входящих. Перейдите по ссылке для скачивания или загрузите файл 'psiphon3', прикрепленный к электронному письму, и переименуйте его, чтобы он имел расширение файла “.exe”.  Если вы не можете получить приложение напрямую через автоответчика электронной почты, попробуйте использовать адрес другого провайдера электронной почты.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-23": {
-        "message": "<strong>iOS:</strong> Найдите “Psiphon” в App Store. <strong> Установка:</strong> Найдите Psiphon в App Store и нажмите \"Получить\", чтобы загрузить и установить. Вас могут попросить повторно ввести свой Apple ID и пароль. Найдите значок Psiphon на своем телефоне и нажмите на него, чтобы открыть.",
+        "message": "<strong>iOS:</strong> Найдите «Psiphon» в App Store. <strong>Установка:</strong> Найдите Psiphon в App Store и нажмите «Получить», чтобы загрузить и установить. Вас могут попросить повторно ввести свой Apple ID и пароль. Найдите значок Psiphon на своем телефоне и нажмите на него, чтобы открыть.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-24": {
@@ -1828,11 +1824,11 @@
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-25": {
-        "message": "Psiphon - это проект с открытым исходным кодом. Открытый исходный код означает, что исходный код общедоступен, и любой желающий может просматривать его и вносить предложения. Предоставляя заинтересованным сторонам доступ к проверке исходного кода, приложения с открытым исходным кодом могут повысить уверенность в том, как разрабатываются приложения.",
+        "message": "Psiphon — это проект с открытым исходным кодом. Открытый исходный код означает, что исходный код общедоступен и любой желающий может просматривать его, вносить предложения. Предоставляя заинтересованным сторонам доступ к проверке исходного кода, приложения с открытым исходным кодом могут повысить уверенность в том, как именно разрабатываются эти приложения.",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-security-splash-alt": {
-        "message": "Всплывающее изображение Psiphon Guide Безопасность и доверие",
+        "message": "Заставка Руководства по Безопасности и доверию Psiphon",
         "description": "splash image for Section 3 of the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-sub-heading-source-code": {
@@ -1852,7 +1848,7 @@
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-28": {
-        "message": "Psiphon стремится защищать наши пользовательские данные. И как же компания поддерживает расходы на своё обслуживание в всемирной сети?",
+        "message": "Psiphon стремится защищать данные наших пользователей. И как же компания покрывает расходы на обслуживание сети во всем мире?",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-29": {
@@ -1880,7 +1876,7 @@
         "description": "Section 3 paragraph for the Psiphon Guide page. A description of what software audits are. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-31": {
-        "message": "Во время внешнего аудита кода Psiphon будет тесно сотрудничать с поставщиком. Любые обнаруженные проблемы устраняются в зависимости от важности, а затем повторно проверяются поставщиком. Политика Psiphon заключается в том, чтобы публиковать обзоры кода. Найдите записи в блоге Psiphon об этих оценочных мероприятиях и соответствующие отчеты ниже.",
+        "message": "Во время внешнего аудита кода Psiphon будет тесно сотрудничать с поставщиком. Любые обнаруженные проблемы устраняются в зависимости от важности, а затем повторно проверяются поставщиком. Политика Psiphon заключается в том, чтобы публиковать проверки кода. Найдите записи в блоге Psiphon об этих оценочных мероприятиях и соответствующие отчеты ниже.",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-sub-heading-security-audits": {
@@ -1892,11 +1888,11 @@
         "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon3' must not be transliterated."
     },
     "psiphon-guide-section-3-list-item-6": {
-        "message": "2017 – Блог: Psiphon Завершает очередную проверку безопасности третьей стороны",
+        "message": "2017 – Блог: Psiphon завершает очередную проверку безопасности третьей стороной",
         "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-32": {
-        "message": "Psiphon ценит вашу конфиденциальность. Информация о данных, собранных Psiphon, подробно изложена в нашей <a href=\"privacy.html\"> политике конфиденциальности </a>",
+        "message": "Psiphon ценит вашу конфиденциальность. Информация о данных, собранных Psiphon, подробно изложена в нашей <a href=\"privacy.html\"> Политике конфиденциальности </a>",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-optimal-connections": {
@@ -1904,7 +1900,7 @@
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-33": {
-        "message": "Используйте последнюю версию. Самая последняя версия приложения Psiphon обладает самыми современными возможностями подключения. См. Раздел 2 \"Получение и установка Psiphon\" для получения дополнительной информации о том, как получить аутентичные версии Psiphon. Обновляйте приложение Psiphon, когда станут доступны новые обновления.",
+        "message": "Используйте последнюю версию. Самая последняя версия приложения Psiphon обладает самыми современными возможностями подключения. Смотрите Раздел 2 «Получение и установка Psiphon» для получения дополнительной информации о том, как скачать аутентичные версии Psiphon. Обновляйте приложение Psiphon, как только станут доступны обновления.",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-34": {
@@ -1920,19 +1916,19 @@
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-37": {
-        "message": "<strong>Обновление вручную:</strong> Если механизм самообновления Psiphon не работает (например, если он был заблокирован), следуйте инструкциям, изложенным в разделе 2: Получение и установка Psiphon, чтобы получить новую версию.",
+        "message": "<strong>Обновление вручную:</strong> Если механизм самообновления Psiphon не работает (например, если он был заблокирован), следуйте инструкциям, изложенным в Разделе 2: Получение и установка Psiphon, чтобы получить новую версию.",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-strained-environment": {
-        "message": "Подключение в напряженной обстановке",
+        "message": "Подключение в напряженной среде",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-38": {
-        "message": "При определенных условиях сети Psiphon может занять до нескольких минут, прежде чем найти наилучший способ подключения. Не прерывайте его (нажав кнопку start/stop). Psiphon использует множество протоколов, и они различаются в зависимости от региона. Приложение Psiphon не только имеет множество методов подключения, оно будет извлекать уроки из предыдущих попыток, и успешный метод подключения будет использоваться при следующем запуске приложения.",
+        "message": "При определенных условиях сети Psiphon может потребоваться несколько минут, прежде чем будет найден лучший способ подключения. Не прерывайте его (нажимая кнопку старт/стоп). Psiphon использует множество протоколов, отличающихся в зависимости от региона. Приложение Psiphon не только имеет различные методы подключения, но и учится на предыдущих попытках, и успешный метод подключения будет использоваться при следующем запуске приложения.",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-frequent-disconnections": {
-        "message": "Частые Отключения",
+        "message": "Частые отключения",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-39": {
@@ -1940,11 +1936,11 @@
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-1": {
-        "message": "Проверьте свое подключение к Интернету или убедитесь, что у вас есть данные. Для работы приложение должно быть подключено к Интернету.",
+        "message": "Проверьте свое подключение к интернету или убедитесь, что у вас есть данные. Для работы приложение должно быть подключено к интернету.",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-2": {
-        "message": "Убедитесь, что у вас установлена последняя версия. (См. выше).",
+        "message": "Убедитесь, что у вас установлена последняя версия. (Смотрите выше).",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-3": {
@@ -1952,7 +1948,7 @@
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-4": {
-        "message": "Если вы изменили какие-либо настройки подключения, попробуйте сбросить настройки приложения по умолчанию (смотри <a href=\"#psiphonguide_section5\">Раздел 5</a>).",
+        "message": "Если вы изменили какие-либо настройки подключения, попробуйте сбросить настройки приложения по умолчанию (Смотрите <a href=\"#psiphonguide_section5\">Раздел 5</a>).",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-sub-heading-more-troubleshooting": {
@@ -1972,7 +1968,7 @@
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-sub-heading-feedback-windows": {
-        "message": "Обратная связь Windows",
+        "message": "Обратная связь в Windows",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-ui-image-annotation-feedback": {
@@ -1984,7 +1980,7 @@
         "description": "Feedback screenshot for Psiphon Windows feedback tab."
     },
     "psiphon-guide-android-feedback-alt": {
-        "message": "Скриншот обратной связи для вкладки обратной связи Psiphon Android",
+        "message": "Скриншот обратной связи для вкладки обратной связи Psiphon Андроид",
         "description": "Feedback screenshot for Psiphon Android feedback tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-ios-feedback-alt": {
@@ -2004,7 +2000,7 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page"
     },
     "psiphon-guide-para-42": {
-        "message": "По умолчанию приложение Psiphon автоматически откроется на выбранном вами языке устройства (языке вашего телефона или компьютера). На выбор доступно более 30 языков, если вы предпочитаете использовать приложение Psiphon на другом языке.",
+        "message": "По умолчанию, приложение Psiphon автоматически откроется на выбранном вами языке устройства (языке вашего телефона или компьютера). На выбор доступно более 30 языков, если вы предпочитаете использовать приложение Psiphon на другом языке.",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-connection-performance": {
@@ -2012,15 +2008,15 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-43": {
-        "message": "При подключении весь трафик с вашего устройства по умолчанию будет туннелироваться через Psiphon. Чтобы уменьшить задержку и повысить производительность соединения, вы можете исключить часть трафика из туннеля Psiphon.",
+        "message": "При подключении, весь трафик с вашего устройства по умолчанию будет туннелироваться через Psiphon. Чтобы уменьшить задержку и повысить производительность соединения, вы можете исключить часть трафика из туннеля Psiphon.",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-44": {
-        "message": "Пользователи Psiphon Android могут либо индивидуально включать, либо исключать определенные приложения из туннеля на устройствах Android 5.0 и выше. Чтобы выбрать, какие приложения используют или не используют туннель Psiphon, перейдите в раздел ПАРАМЕТРЫ, затем выберите \"Настройки VPN\". Выберите конкретные приложения для включения или исключения из туннеля Psiphon.",
+        "message": "Пользователи Psiphon Android могут либо индивидуально включать, либо исключать определенные приложения из туннеля на устройствах Android 5.0 и выше. Чтобы выбрать, какие приложения используют или не используют туннель Psiphon, перейдите в раздел ПАРАМЕТРЫ, затем выберите Настройки VPN. Выберите конкретные приложения для включения или исключения из туннеля Psiphon.",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-45": {
-        "message": "В приложении Psiphon для Windows у пользователей есть возможность исключить локальные веб-сайты из туннеля Psiphon. Приложение Psiphon будет игнорировать местные веб-сайты, поэтому доступ к местным веб-сайтам будет более быстрым. Для этого перейдите в НАСТРОЙКИ > Разделить туннель > и выберите \"Не использовать прокси-сайты в вашей стране\".",
+        "message": "В приложении Psiphon для Windows у пользователей есть возможность исключить локальные веб-сайты из туннеля Psiphon. Приложение Psiphon будет игнорировать местные веб-сайты, поэтому доступ к местным веб-сайтам будет более быстрым. Для этого перейдите в НАСТРОЙКИ > Разделить туннель > и выберите «Не использовать прокси-сайты в вашей стране».",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'SETTINGS', and 'Split Tunnel', and 'Don't proxy websites within your home country.' should appear as it does in the Psiphon Windows app. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-slow-networks": {
@@ -2028,7 +2024,7 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-46": {
-        "message": "To stay connected on a slow network, opt in to 'Disable timeouts.' This option is available on Android, Windows, and iOS.",
+        "message": "Чтобы оставаться на связи в медленной сети, выберите «Отключить таймауты». Эта опция доступна на Андроид, Windows и iOS.",
         "description": "Section 5 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-5-sub-heading-server-location": {
@@ -2040,15 +2036,15 @@
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-windows-settings": {
-        "message": "Настройки Windows",
+        "message": "Настройки в Windows",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the Windows app."
     },
     "psiphon-guide-section-5-sub-heading-android-settings": {
-        "message": "Настройки Android",
+        "message": "Настройки на Андроид",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the Android app."
     },
     "psiphon-guide-section-5-sub-heading-ios-settings": {
-        "message": "Настройки iOS",
+        "message": "Настройки в iOS",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the iOS app."
     },
     "psiphon-guide-windows-settings-alt": {
@@ -2092,11 +2088,11 @@
         "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-header": {
-        "message": "Помоги Psiphon,<br>помоги каждому!",
+        "message": "Помоги Psiphon,<br>Помоги каждому!",
         "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-para1": {
-        "message": "Мы помогаем десяткам миллионов людей по всему миру свободно выходить в Интернет. Эти усилия стоят больших денег каждый месяц, и нам нужна ваша помощь, чтобы сохранить свободу Интернета быстрой и эффективной.",
+        "message": "Мы помогаем десяткам миллионов людей по всему миру свободно выходить в интернет. Эти усилия стоят больших денег каждый месяц, и нам нужна ваша помощь, чтобы сохранить свободу интернета быстрой и эффективной.",
         "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-donate-button": {

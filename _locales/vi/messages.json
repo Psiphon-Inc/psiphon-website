@@ -8,7 +8,7 @@
         "description": "Meta title for the index page"
     },
     "index-description": {
-        "message": "Psiphon là phần mềm vượt kiểm duyệt cho nền Windows và Di động giúp truy cập thông tin internet không bị kiểm duyệt ",
+        "message": "Psiphon là phần mềm vượt thoát kiểm duyệt cho nền Windows và Di động giúp truy cập thông tin internet không bị kiểm duyệt ",
         "description": "Page description for the index page. 'Psiphon' must not be translated or transliterated."
     },
     "index-hero-subtext": {
@@ -96,7 +96,7 @@
         "description": "Section heading for FAQ entries that don't fit in any other category."
     },
     "faq-authentic-windows-image-alt": {
-        "message": "The flow of dialog boxes required to find the certificate thumbprint for Psiphon for Windows",
+        "message": "Luồng hộp thoại cần có để tìm dấu vân tay của chứng chỉ cho Psiphon cho Windows.",
         "description": "Alt text for an image. 'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-question": {
@@ -108,7 +108,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-answer-para-2023": {
-        "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
+        "message": "Cho chứng chỉ có hiệu lực cho thời khoản từ 2020-09-09 đến 2023-11-02, dấu vân tay SHA1 là:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-2020": {
@@ -172,15 +172,15 @@
         "description": "Part of the answer to the FAQ question 'How do I enable Android “Sideloading”?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-android-enable-sideloading-image-alt": {
-        "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
+        "message": "Ảnh chụp màn hình của phần thiết đặt bảo mật của Android cho phép cài đặt các ứng dụng không đến từ Cửa hàng Google Play.",
         "description": "alt text for an image"
     },
     "faq-windows-xp-eol-question": {
-        "message": "Does Psiphon for Windows work on Windows XP or Vista?",
+        "message": "Psiphon cho Windows có chạy trên Windows XP hoặc Vista được không?",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-windows-xp-eol-answer-para-1": {
-        "message": "As of December 2019, Psiphon does not support Windows XP or Vista. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
+        "message": "Kể từ tháng Mười Hai năm 2019, Psiphon không còn hỗ trợ cho nền Windows XP hay Vista. Tuy nhiên có một phiên bản cũ <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">có sẵn để tải xuống</a> và chạy được trên các nền đó dài hạn, tuy nhiên chúng tôi khuyến khích người dùng nên cập nhật lên nền Windows mới hơn.",
         "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-information-collected-answer-redirect": {
@@ -296,11 +296,11 @@
         "description": "FAQ answer to the question 'How do I uninstall Psiphon for Windows?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-question": {
-        "message": "How do I clear Psiphon for Windows' local data?",
+        "message": "Làm sao để dọn sạch dữ liệu cục bộ của Psiphon cho Windows?",
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Local\\Psiphon3</code>; or, more generally, <code>%USERPROFILE%\\AppData\\Local</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%USERPROFILE%\\AppData\\Local\"</code>. There is also information stored in the system registry at <code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code>. You can use the Windows <code>regedit</code> tool to delete those registry keys.",
+        "message": "Psiphon cho Windows lưu trữ một số dữ liệu cục bộ trong hồ sơ của người dùng. Tập tin này trong ngăn tương tự như <code>C:\\Users\\YourName\\AppData\\Local\\Psiphon3</code>; hoặc, tổng quát hơn, <code>%USERPROFILE%\\AppData\\Local</code>. Bạn có thể xóa dữ liệu cục bộ bằng cách vào ngăn đó trong Windows Explorer và xóa tập tin, hoặc dùng mệnh lệnh này trong giao diện dòng lệnh: <code>rmdir /s \"%USERPROFILE%\\AppData\\Local\"</code>. Ngoài ra có thông tin lưu trữ trong registry của hệ thống ở <code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code>. Bạn có thể dùng công cụ <code>regedit</code> để xóa các giá trị trong registry.",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
@@ -316,7 +316,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-ios-browser-answer-para-1": {
-        "message": "Psiphon Browser for iOS is a browser-only application and so will only tunnel data that is loaded in the app itself, and will not tunnel your other apps (like your Facebook or Twitter apps) through the Psiphon network. So, for example, if you wanted to use the Psiphon network to access your Facebook account, you would use Psiphon Browser to go the Facebook website. If you were to open your Facebook app, it would use your direct internet connection, and would not be tunneled through the Psiphon network.",
+        "message": "Trình duyệt Psiphon for iOS là một ứng dụng trình duyệt duy nhất do đó chỉ xuyên hầm các dữ liệu nạp vào trong trình duyệt, và sẽ không xuyên hầm các ứng dụng khác (như Facebook hay Twitter) qua mạng Psiphon. Lấy thí dụ, nếu bạn muốn dùng mạng Psiphon để truy cập tài khoản Facebook, bạn sẽ dùng Trình duyệt Psiphon để vào trang web Facebook. Nếu bạn mở ứng dụng Facebook lên, nó sẽ dùng trực tiếp đường kết nối internet, và sẽ không xuyên hầm qua mạng Psiphon.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-browser-compatibility-question": {
@@ -332,7 +332,7 @@
         "description": "FAQ question. Note that 'port' is referring to network ports. 'Psiphon' must not be translated or transliterated."
     },
     "faq-port-restrictions-answer-para-1": {
-        "message": "Outbound connections via the Psiphon network can only be made to a restricted set of server ports including: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">this discussion</a> for more information. Mail clients cannot establish outbound connections on port 25. See <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">this discussion</a> for more information.",
+        "message": "Các kết nối ra bên ngoài xuyên qua mạng Psiphon sẽ bị giới hạn qua các cổng máy chủ bao gồm: <code>53, 80, 443, 465, 587, 993, 995, 8000, 8001, 8080</code>. Xin đọc <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/8a7f3c42c5dd89e1\">thảo luận này</a> để biết thêm chi tiết. Các trình email không thể kết nối ra ngoài ở cổng 25. Xin đọc <a href=\"https://groups.google.com/group/psiphon3/browse_thread/thread/2ef3a0af447ccd64\">thảo luận này</a> để biết thêm chi tiết.",
         "description": "FAQ answer to the question 'Are there any port restrictions when using Psiphon?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-mail-apps-ports-question": {
@@ -428,11 +428,11 @@
         "description": ""
     },
     "faq-autoproxy-question": {
-        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
+        "message": "Làm sao để ra lệnh cho Psiphon cho Windows đừng cấu hình thiết đặt proxy của hệ thống máy tôi?",
         "description": ""
     },
     "faq-autoproxy-question-toc": {
-        "message": "How can I tell Psiphon for Windows not to configure my system proxy settings?",
+        "message": "Làm sao để ra lệnh cho Psiphon cho Windows đừng cấu hình thiết đặt proxy của hệ thống máy tôi?",
         "description": ""
     },
     "faq-autoproxy-answer-para-1": {
@@ -456,7 +456,7 @@
         "description": ""
     },
     "faq-isp-traffic-answer-para-1": {
-        "message": "All data that goes through Psiphon is encrypted. This means that your ISP cannot see the content of your Internet traffic: web pages you browse, your chat messages, your uploads, etc.",
+        "message": "Tất cả dữ liệu đi xuyên ngang Psiphon đều được mã hóa. Điều này có nghĩa là nhà mạng ISP không thể thấy nội dung của lưu lượng giao thông internet của bạn: trang web bạn xem, tin nhắn qua chat, dữ liệu bạn tải lên, v.v...",
         "description": ""
     },
     "faq-isp-traffic-answer-para-2": {
@@ -472,11 +472,11 @@
         "description": ""
     },
     "faq-vulnerability-report-question": {
-        "message": "How do I report a security vulnerability?",
+        "message": "Làm sao để báo cáo một lổ hổng bảo mật?",
         "description": "FAQ question."
     },
     "faq-vulnerability-report-answer": {
-        "message": "Please see our <a href=\"https://psiphon.ca/.well-known/security.txt\" target=\"_blank\">security.txt</a> file for contact information and details.",
+        "message": "Xin xem tập tin <a href=\"https://psiphon.ca/.well-known/security.txt\" target=\"_blank\">security.txt</a> để có thông tin và chi tiết liên hệ.",
         "description": "FAQ answer to the question 'How do I report a security vulnerability?'."
     },
     "faq-root-wdm-question": {
@@ -492,59 +492,59 @@
         "description": "This is the first paragraph of a FAQ answer. Previously, users with old Android devices (before Android version 4.0, also known as Ice Cream Sandwich) could still tunnel the whole device if the device was rooted. This functionality was removed in December of 2015. This question/answer tells them about that and what they can do."
     },
     "faq-refund-question": {
-        "message": "How do I get a refund for a subscription, purchase of PsiCash, or other purchase?",
+        "message": "Làm sao để xin hoàn tiền lại cho việc đăng ký dài hạn, mua PsiCash, hay các mua sắm khác?",
         "description": "This is an FAQ question. This is for refunds made with money to purchase subscriptions, PsiCash, etc. 'Puchase of PsiCash' means buying PsiCash credit with real money. 'PsiCash' should not be translated or transliterated."
     },
     "faq-refund-answer-para-1": {
-        "message": "<strong>Android:</strong> If it has been less than 48 hours since you made the purchase, you can <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">get a refund through the Play Store</a>. After 48 hours, email us at <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Please include your name, the email address of your Play Store account, the date of the purchase, what was purchased, the amount of the purchase, and the reason you are requesting the refund.",
+        "message": "<strong>Android:</strong> Nếu trong vòng 48 tiếng từ lúc bạn mua, bạn có thể <a href=\"https://support.google.com/googleplay/answer/7205930\" target=\"_blank\">xin hoàn tiền lại qua Cửa hàng Play </a>. Sau 48 tiếng, xin liên lạc với chúng tôi qua địa chỉ email <a href=\"mailto:refund+android@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Android\">refund+android@psiphon.ca</a>. Xin đính kèm tên, địa chỉ email của tài khoản Cửa Hàng Play, ngày mua, món hàng mua, số tiền trả, và lý do bạn xin hoàn tiền lại.",
         "description": "This is the first paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-2": {
-        "message": "<strong>iOS and macOS:</strong> Please <a href=\"https://support.apple.com/HT204084\" target=\"_blank\">request the refund through the App Store</a>.",
+        "message": "<strong>iOS và macOS:</strong> Xin<a href=\"https://support.apple.com/HT204084\" target=\"_blank\">yêu cầu hoàn tiền lại qua Cửa hàng Ứng dụng</a>.",
         "description": "This is the second paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-3": {
-        "message": "<strong>Windows:</strong> Email us at <a href=\"mailto:refund+windows@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%2FPhone%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Windows\">refund+windows@psiphon.ca</a>. Please include your name, the email address or phone number used at the time of purchase, the date of the purchase, what was purchased, the amount of the purchase, and the reason you are requesting the refund.",
+        "message": "<strong>Windows:</strong> Email đến chúng tôi<a href=\"mailto:refund+windows@psiphon.ca?subject=Refund%20request&body=Name%3A%0AEmail%2FPhone%3A%0APurchase%20Date%3A%0AItem%3A%0AAmount%3A%0AReason%3A%0APlatform%3A%20Windows\">refund+windows@psiphon.ca</a>. Xin đính kèm tên, địa chỉ email hoặc số điện thoại dùng vào thời điểm mua, ngày mua, món hàng mua, số tiền trả, và lý do bạn xin hoàn tiền lại.",
         "description": "This is the third paragraph of an FAQ answer."
     },
     "faq-refund-answer-para-4": {
-        "message": "Note that refunds may take up to a week to process.",
+        "message": "Lưu ý là có thể mất gần một tuần để xử lý việc hoàn trả tiền.",
         "description": "This is the fourth paragraph of an FAQ answer."
     },
     "faq-psicash-create-account-question": {
-        "message": "Why should I create a PsiCash account?",
+        "message": "Tại sao tôi nên tạo tài khoản PsiCash?",
         "description": "This is an FAQ question. It discusses the benefits of creating a PsiCash account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-create-account-answer-para-1": {
-        "message": "<p>With an account, your PsiCash balance is <strong>kept safe</strong> and can be <strong>shared between your devices</strong>. If you don't have a PsiCash account, your balance is specific to each device, and losing a device means losing your balance on that device. When you have an account, all you need to do is log in to restore your balance.</p>\n<p>We will also be adding more benefits to having a PsiCash account in the future, such as transferring PsiCash between users and offering purchases that apply to all of your devices.</p>",
+        "message": "<p>Với tài khoản, số dư PsiCash của bạn được <strong>giữ an toàn</strong> và có thể <strong>được chia sẻ giữa các thiết bị của bạn</strong>. Nếu không có tài khoản PsiCash, số dư của bạn sẽ dính liền với từng thiết bị, và mất một thiết bị có nghĩa là mất số dư trong thiết bị đó. Trong khi đó, nếu có tài khoản, bạn chỉ cần đăng nhập vào để phục hồi lại số dư.</p>\n<p>Chúng tôi còn sẽ thêm một số lợi ích cho tài khoản PsiCash trong tương lai, chẳng hạn như chuyển tiền PsiCash giữa người dùng và có các món hàng áp dụng cho tất cả các thiết bị của bạn.</p>",
         "description": "This is an FAQ answer. It discusses the benefits of creating a PsiCash account. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-pseudonym-question": {
-        "message": "Why should I use a pseudonym or alias for my PsiCash account username?",
+        "message": "Tại sao tôi nên dùng bút hiệu hay bí danh cho tên người dùng của tài khoản PsiCash?",
         "description": "This is an FAQ question. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-pseudonym-answer-para-1": {
-        "message": "<p>A pseudonym is an alias or handle that you use to identify yourself that is different from your real name. Using a pseudonym for your PsiCash account username helps prevent your real identity from being linked with your Psiphon or PsiCash usage. If revealing yourself to be a Psiphon user is dangerous or otherwise undesirable, then you should choose a username that cannot be linked to you, and instead you should use a pseudonym that you have not used with any other site or service.</p>\n<p>When signing up for a new PsiCash account, it is possible for someone to check for the existence of a username by trying to create an account with it. If the attempt is successful, the username did not already exist. If the attempt failed, the username did already exist. Having your username discovered does <em>not</em> put your PsiCash account at risk, but your status as a Psiphon user may be revealed in this way.</p>\n<p>If you wish to avoid the link to your real identity, it is important to note that using a pseudonym that you use on other sites or services is almost the same as using your real name. If that pseudonym has already been linked to your identity elsewhere, then very little anonymity is gained by using it.</p>\n<p>Also note that your email address is <em>not</em> discoverable in this way. Even if you use a pseudonym, you can still provide an email address on your PsiCash account and it will not be discoverable in any way.</p>",
+        "message": "<p>Bí danh là một bút hiệu, tên hiệu bạn dùng để nhận diện biết bạn mà không để lộ ra tên thật. Dùng bí danh làm tên người dùng của tài khoản PsiCash giúp tránh cho tên thật của bạn liên kết đến việc sử dụng Psiphon hay PsiCash. Nếu để lộ ra bạn là một người dùng Psiphon có thể gây ra khó khăn hay nguy hiểm, thì bạn nên chọn tên người dùng không suy ra được là bạn, và nên chọn bí danh bạn chưa dùng cho các trang web hay dịch vụ khác.</p>\n<p>Khi đăng ký mở một tài khoản PsiCash mới, người khác có thể kiểm xem tên người dùng đã có chưa bằng cách tạo tài khoản với tên đó. Nếu được thì tên người dùng đó chưa có. Nếu không được thì tên người dùng đó đã có. Tìm thấy tên người dùng của bạn <em>không</em> tạo rủi ro cho tài khoản PsiCash của bạn, nhưng người khác sẽ biết đây là một người sử dụng Psiphon.</p>\n<p>Nếu bạn mong muốn tránh không tiết lộ danh tính thật của mình, thì xin lưu ý là dùng bí danh đã dùng rồi cho các trang mạng hay dịch vụ khác thì gần như là dùng tên thật của mình vậy. Nếu bí danh đó đã bị khám phá ra là có liên hệ đến danh tính của bạn ở nơi khác rồi, thì dùng lại bí danh đó không giúp bạn ẩn danh tí nào cả.</p>\n<p>Cũng lưu lý là địa chỉ email của bạn <em>không</em> được khám phá ra theo cách này. Ngay cả khi bạn dùng bí danh, bạn có thể cung cấp địa chỉ email cho tài khoản PsiCash và sẽ không bị khám phá ra bằng cách nào hết.</p>",
         "description": "This is an FAQ answer. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-more-account-merges-question": {
-        "message": "What if I need to merge the PsiCash balance from more devices into my account?",
+        "message": "Nếu tôi muốn nhập số dư tài khoản PsiCash từ nhiều thiết bị vào tài khoản của tôi thì sao?",
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
-        "message": "To avoid abuse, we allow the pre-existing PsiCash balance and Speed Boost to be added from only a few devices to your PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0AReason%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username and the reason why you need more merges.",
+        "message": "Để tránh lạm dụng, chúng tôi chỉ chấp thuận các số dư PsiCash và Tăng Tốc đã có trước mới được thêm vào từ một vài thiết bị vào tài khoản PsiCash khi đăng nhập. Nếu bạn có nhiều thiết bị muốn truy cập số dư, xin email đến chúng tôi qua <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0AReason%3A%0A\">psicash.support@psiphon.ca</a>. Bạn cần bao gồm tên người dùng PsiCash và cung cấp mô tả số dư PsiCash bạn muốn chuyển giao, qua đâu và tại sao.",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
-        "message": "What is the <code>psicash=</code> parameter in some landing page URLs?",
+        "message": "Thông số <code>psicash=</code> trong một số trang đích URL là gì vậy?",
         "description": "This is an FAQ question. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything). 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-param-answer-para-1": {
-        "message": "In some landing page URLs and in <code>buy.psi.cash</code> URLs you will see a parameter like <code>#!psicash=abcd1234...</code> or <code>?psicash=abcd1234...</code>. This contains information necessary to give you a PsiCash reward for visiting some landing pages or for making a purchase of PsiCash.",
+        "message": "Trong một số trang đích URL và trong trang <code>buy.psi.cash</code> bạn sẽ thấy một thông số giống như <code>#!psicash=abcd1234...</code> hoặc <code>?psicash=abcd1234....</code> Các thông số này chứa thông tin cần thiết để cho bạn phần thưởng PsiCash vì ghé thăm trang đích hoặc vì mua PsiCash.",
         "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-answer-para-2": {
-        "message": "The \"token\" you will see in the decoded base-64 of the parameter is your PsiCash \"earner\" token, and can only be used for crediting your account with PsiCash -- not for spending your PsiCash, viewing your balance, etc. This token also cannot be used to reveal your identity or anything else about your account.",
+        "message": "'token' bạn thấy trong văn bản giải mã base-64 của thông số là token 'có được' PsiCash của bạn, và chỉ có thể dùng để thêm tiền vào tài khoản PsiCash -- chứ không để tiêu xài PsiCash, xem số dư, v.v... Token này cũng không thể dùng để tiết lộ danh tính của bạn hay các chi tiết nào khác về tài khoản của bạn.",
         "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
     },
     "alert-heading": {
@@ -640,7 +640,7 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "download-windows-direct-description-v2": {
-        "message": "Works on Windows 7, Windows 8 (desktop), and Windows 10.<br>(A legacy build for <a href=\"./faq.html#windows-xp-eol\">Windows XP and Vista</a> is available.)",
+        "message": "Chạy trong Windows 7, Windows 8 (desktop), và Windows 10.<br>(Có phiên bản cũ cho <a href=\"./faq.html#windows-xp-eol\">Windows XP và Vista</a> .)",
         "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
     },
     "download-android-direct": {
@@ -652,7 +652,7 @@
         "description": ""
     },
     "download-android-playstore-pro": {
-        "message": "<strong>Psiphon Pro for Android</strong> in the Google Play Store",
+        "message": "<strong>Psiphon Pro cho Android</strong> trong Cửa hàng Google Play",
         "description": "Text for link to Psiphon Pro for Android in the Google Play Store. Psiphon Pro is supported by ads or subscription."
     },
     "download-android-playstore-pro-description": {
@@ -668,27 +668,27 @@
         "description": ""
     },
     "download-ios-appstore-psiphon-vpn": {
-        "message": "<strong>Psiphon for iOS</strong> in the Apple App Store",
+        "message": "<strong>Psiphon cho iOS</strong> trong Cửa hàng Ứng dụng của Apple",
         "description": "Text for link to Psiphon for iOS in the Apple App Store. This is the 'whole device' version of Psiphon, as distinct from the 'Psiphon Browser' app."
     },
     "download-ios-appstore-psiphon-vpn-description": {
-        "message": "All of the apps on your iPhone or iPad will access the Internet through the Psiphon network. Available for iOS 10.2 and higher.",
+        "message": "Tất cả ứng dụng trong iPhone và iPad sẽ truy cập Internet xuyên qua mạng Psiphon. Chạy trên iOS 10.2 và mới hơn.",
         "description": "Description of Psiphon for iOS on the download page. Partly intended to distinguish 'Psiphon for iOS' from 'Psiphon Browser for iOS'."
     },
     "download-macos-appstore-psiphon-vpn": {
-        "message": "<strong>Psiphon for Macs with Apple silicon</strong> in the Apple App Store",
+        "message": "<strong>Psiphon cho Macs vơi Apple silicon</strong> trong Cửa Hàng Apple App",
         "description": "Text for link to Psiphon for macOS in the Apple App Store. This is specifically for Mac devices with Apple ARM CPUs."
     },
     "download-macos-appstore-psiphon-vpn-description": {
-        "message": "All of the apps on your Mac will access the Internet through the Psiphon network. Available for all Mac computers with Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Check if your Mac has Apple silicon</a>.",
+        "message": "Tất cả ứng dụng trong máy Mac sẽ truy cập Internet xuyên qua mạng Psiphon. Chạy trên máy Mac với Apple silicon. <a href=\"https://support.apple.com/HT211814\" target=\"_blank\">Kiểm xem máy Mac của bạn có Apple silicon không</a>.",
         "description": "Description of Psiphon for macOS on the download page. This version of Psiphon only works on Mac computers that have Apple ARMs CPUs; 'silicon' refers to the substance used in CPU manufacturing. The link will take users to a page where they can check if the Mac computer that they're on has an Apple ARM CPU."
     },
     "download-ios-appstore-psiphon-browser": {
-        "message": "<strong>Psiphon Browser for iOS</strong> in the Apple App Store",
+        "message": "<strong>Trình duyệt Psiphon cho iOS</strong> trong cửa hàng Apple App",
         "description": "Text for link to Psiphon Browser for iOS in the Apple App Store. This app is distinct from the 'Psiphon for iOS' app that tunnels the whole device."
     },
     "download-ios-appstore-psiphon-browser-description": {
-        "message": "Access your favorite web sites and services through the Psiphon network with our easy-to-use web browser. Available for iOS 8 and higher.",
+        "message": "Lướt trang mạng bạn thích và truy cập các dịch vụ ưa chuộng xuyên qua mạng Psiphon bằng trình duyệt dễ dùng của chúng tôi. Chạy trên iOS 8 hay mới hơn.",
         "description": "Description of Psiphon Browser for iOS on the download page. Partly intended to distinguish 'Psiphon Browser for iOS' from 'Psiphon for iOS'."
     },
     "download-store-head": {
@@ -796,7 +796,7 @@
         "description": ""
     },
     "license-para-2": {
-        "message": "The Psiphon system consists of both “software” (program source code and applications derived from that code) and a “service” (a system of client and server software that make up a functioning whole). The <a href=\"open-source.html\" rel=\"noreferrer\" target=\"_blank\">Psiphon software and source code</a> are <a href=\"https://wikipedia.org/wiki/Free_and_open_source_software\" rel=\"noreferrer\" target=\"_blank\">free and open-source</a> and are licensed under the <a href=\"https://www.gnu.org/copyleft/gpl.html\" rel=\"noreferrer\" target=\"_blank\">GNU General Public License Version 3</a> (with some exceptions – see each source repository for the specific license). Use of the Psiphon service is licensed under the terms described on this page.",
+        "message": "Hệ thống Psiphon bao gồm “phần mềm” (mã nguồn của phần mềm và ứng dụng xuất phát từ mã nguồn đó) và phần “dịch vụ” (một hệ thống của cả phần mềm máy chủ và máy trạm kết hợp thành một đơn vị hoạt động).  <a href=\"open-source.html\" rel=\"noreferrer\" target=\"_blank\">Phần mềm và mã nguồn của Psiphon</a> là <a href=\"https://wikipedia.org/wiki/Free_and_open_source_software\" rel=\"noreferrer\" target=\"_blank\">miễn phí và nguồn mở</a> và dùng <a href=\"https://www.gnu.org/copyleft/gpl.html\" rel=\"noreferrer\" target=\"_blank\">Giấy Phép Công Cộng GNU phiên bản 3</a> (với vài ngoại lệ - xin xem mỗi kho mã nguồn để biết giấy phép riêng biệt). Việc sử dụng dịch vụ Psiphon được phép theo các điều khoản ghi trong trang này.",
         "description": "Paragraph text on the License web page."
     },
     "license-para-3": {
@@ -832,7 +832,7 @@
         "description": ""
     },
     "license-statement-of-limitations-of-liability-para": {
-        "message": "The Psiphon service is provided “as is” and without warranty or expressed or implied liability of any kind. Psiphon disclaims all warranties and liabilities associated with the use of this service, including personal injury, or any incidental, special, indirect or consequential personal or commercial damages whatsoever, including loss of data and business interruption.",
+        "message": "Dịch vụ Psiphon được cung cấp \"có sao dùng vậy\" và không có bảo hành hoặc chịu trách nhiệm bất cứ chuyện gì. Psiphon tuyên bố không trách nhiệm  với tất cả bảo hành và nghĩa vụ về việc sử dụng dịch vụ này, bao gồm thương tích cá nhân, hoặc bất cứ thiệt hại về thương mãi hay cá nhân gián tiếp hay trực tiếp, vô tình, hay cố ý, kể cả thất thoái dữ liệu và gián đoạn thương mại.",
         "description": ""
     },
     "license-termination-terms-of-service-violations-header": {
@@ -848,19 +848,19 @@
         "description": ""
     },
     "license-psicash-header": {
-        "message": "Use of PsiCash",
+        "message": "Sử dụng PsiCash",
         "description": "Subsection header on the License page. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-1": {
-        "message": "If there is no PsiCash activity on your device for one year, then Psiphon reserves the right to cancel your PsiCash.",
+        "message": "Nếu không có giao dịch PsiCash nào trong thiết bị của bạn trong vòng một năm, Psiphon có quyền hủy bỏ PsiCash của bạn.",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that if a user doesn't earn or spend PsiCash for a year, then Psiphon might delete it. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-2": {
-        "message": "If you lose track of your PsiCash, for example by losing your device, then you acknowledge that Psiphon will not be able to correct this mistake and restore your PsiCash.",
+        "message": "Nếu bạn không biết tiền PsiCash của mình ở đâu, chẳng hạn như vì mất thiết bị, thì bạn thừa nhận là Psiphon sẽ không thể làm gì được để phục hồi PsiCash của bạn.",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon won't (and can't) restore a user's PsiCash if the user loses the device that that PsiCash is associated with. 'PsiCash' should not be translated or transliterated."
     },
     "license-psicash-item-3": {
-        "message": "Psiphon reserves the right to change the rewards exchangeable for PsiCash at any time.",
+        "message": "Psiphon giữ quyền thay đổi các phần thưởng đổi lấy tiền PsiCash bất cứ lúc nào.",
         "description": "List item under the 'Use of PsiCash' subsection of the License page. The essence of this item is that Psiphon may change what things -- like Speed Boost -- cost in PsiCash. 'PsiCash' should not be translated or transliterated."
     },
     "about-who-we-are-head": {
@@ -908,7 +908,7 @@
         "description": ""
     },
     "about-who-we-are-partners-para-1": {
-        "message": "Psiphon works closely with various groups to provide support and advice to people using Psiphon wherever they are. We have translations for our software in dozens of languages, and are adding more to our products through <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, with the help of the <a href=\"https://www.localizationlab.org/\" target=\"_blank\">Localization Lab</a>.",
+        "message": "Psiphon làm việc chặt chẻ với nhiều nhóm để giúp hỗ trợ và góp ý kiến cho người dùng Psiphon ở bất cứ nơi đâu. Chúng tôi có bản dịch của phần mềm cho nhiều ngôn ngữ, và tiếp tục thêm các thứ tiếng khác cho sản phẩn của chúng tôi dùng hệ thống <a href=\"https://www.transifex.com/projects/p/Psiphon3/\" target=\"_blank\">Transifex</a>, với sự hỗ trợ của <a href=\"https://www.localizationlab.org/\" target=\"_blank\">Localization Lab</a>.",
         "description": "There are more than 20 languages currently supported, so if your language has a better fit than 'dozens', please use it. You can also just use something more generic, like 'many'."
     },
     "about-contact-head": {
@@ -952,7 +952,7 @@
         "description": ""
     },
     "open-source-para-1b": {
-        "message": "Psiphon is open source software. You can find our code on GitHub.",
+        "message": "Psiphon là phần mềm nguồn mở. Bạn có thể tìm mã nguồn trong GitHub.",
         "description": "Big, bold text the Open Source page indicating that Psiphon is open source software. It is a link to our Github project."
     },
     "page-keyword-download": {
@@ -1012,7 +1012,7 @@
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-psiphon-guide": {
-        "message": "psiphon guide",
+        "message": "cẩm nang psiphon",
         "description": "web page meta keyword used for SEO"
     },
     "page-keyword-instructions": {
@@ -1132,15 +1132,15 @@
         "description": "This is a header for text that is an update to an existing privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-what-happened": {
-        "message": "What happened",
+        "message": "Chuyện gì xảy ra",
         "description": "This is a header for text that describes what happened to necessitate this privacy bulletin"
     },
     "privacy-bulletin-entry-item-head-impact": {
-        "message": "Impact",
+        "message": "Tác động",
         "description": "This is a header for text that describes the impact of the privacy event that necessitated this privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-resolution": {
-        "message": "Resolution",
+        "message": "Giải pháp",
         "description": "This is a header for text that describes the resolution of the privacy event that necessitated this privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-what-data": {
@@ -1160,11 +1160,11 @@
         "description": ""
     },
     "privacy-bulletin-entry-item-head-affected-applications": {
-        "message": "Affected applications",
+        "message": "Ứng dụng bị ảnh hưởng",
         "description": "This is a header for text that describes the which Psiphon applications (and possibly their versions) where affected by the privacy event that necessitated this privacy bulletin."
     },
     "privacy-bulletin-entry-item-head-background": {
-        "message": "Nền",
+        "message": "Thông tin nền",
         "description": "This is a header for text that provides some background info about the privacy event that necessitated this privacy bulletin."
     },
     "privacy-title": {
@@ -1200,19 +1200,19 @@
         "description": ""
     },
     "privacy-updates-head": {
-        "message": "Updates",
+        "message": "Cập nhật",
         "description": "Heading for a section in our privacy policy. The section description how we handle updates to the policy."
     },
     "privacy-bulletin-info-para-1": {
-        "message": "From time to time, Psiphon will add entries to our <a href=\"./privacy-bulletin.html\">Privacy Bulletin</a>. This will happen for two reasons:",
+        "message": "Thỉnh thoảng, Psiphon sẽ thêm đề mục vào <a href=\"./privacy-bulletin.html\">Bản tin Quyền Riêng Tư</a>. Vì hai lý do sau đây:",
         "description": "Paragraph introducing a bullet list."
     },
     "privacy-bulletin-info-para-2-item-1": {
-        "message": "We modify the Privacy Policy. This can happen when new laws add different requirements, or if we start or stop using a third-party service. We will detail the changes made to the policy.",
+        "message": "Chúng tôi sửa đổi Chính sách Quyền Riêng Tư. Việc này xảy ra khi luật mới thêm các thủ tục khác, hoặc nếu chúng tôi ngừng hoặc bắt đầu một dịch vụ bên thứ ba. Chúng tôi sẽ liệt kê chi tiết các thay đổi trong chính sách.",
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "privacy-bulletin-info-para-2-item-2": {
-        "message": "We temporarily deviate from our Privacy Policy by changing our information collection behaviour. This is typically done to resolve a problem with our service, or to give us more time to analyze our data relating to an interesting censorship event. We will describe the change, for example what was recorded, how long it was kept, and why.",
+        "message": "Chúng tôi tạm thời làm khác với Chính sách Quyền Riêng Tư khi thay đổi cách thâu thập thông tin. Việc này thường là để giải quyết một vấn đề với dịch vụ của chúng tôi, hoặc mua thêm thời gian để phân tích dữ liệu liên quan đến một sự kiện kiểm duyệt đáng quan tâm. Chúng tôi sẽ mô tả cách thay đổi, chẳng hạn như ghi lại điều gì, giữ bao lâu, và tại sao.",
         "description": "A bullet list item following from 'This will happen for two reasons:'"
     },
     "faq-information-collected-question": {
@@ -1220,23 +1220,19 @@
         "description": "Heading for a section in our privacy policy."
     },
     "privacy-information-collected-data-categories-header": {
-        "message": "Data Categories",
+        "message": "Thể loại Dữ liệu",
         "description": "Heading for a section in our privacy policy. Under this heading will be sections with the different categories of data covered by the privacy policy."
     },
     "privacy-information-collected-client-ads-head": {
-        "message": "Psiphon Client Advertising Networks",
+        "message": "Mạng Quảng Cáo trong Trình Psiphon",
         "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the ads shown in the Psiphon client software"
     },
     "privacy-information-collected-client-advertising-networks-para-1": {
         "message": "Chúng tôi có khi dùng quảng cáo để hỗ trợ cho dịch vụ, mà nó có thể dùng những kỹ thuật như cookies và web beacons. Đối tác quảng cáo dùng cookies để hiển thị quảng cáo phù hợp với cách dùng web của bạn. Thông tin nào thu thập qua quá trình này được xử lý theo điều khoản của chính sách quyền riêng tư của đối tác quảng cáo.",
         "description": ""
     },
-    "privacy-information-collected-client-advertising-networks-para-2": {
-        "message": "Bạn có thể từ khước việc dùng cookies for quảng cáo bằng cách vào trang:",
-        "description": ""
-    },
     "privacy-information-collected-websites-head": {
-        "message": "Psiphon Websites",
+        "message": "Trang web Psiphon",
         "description": "Sub-heading on the Privacy Policy page above the info about what data categories are collected by the Psiphon websites"
     },
     "privacy-information-collected-websites-google-analytics-head": {
@@ -1248,7 +1244,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
-        "message": "Google Analytics sets a permanent cookie in your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
+        "message": "Google Analytics cài đặt một cookie thường trục trong trình duyệt để nhận ra bạn khi bạn vào lại trang web lần tới, nhưng cookie này không ai dùng được trừ có Google, và dữ liệu thâu thập được không thể bị sửa đổi hay truy lại bởi dịch vụ từ các miền khác.",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-3": {
@@ -1272,11 +1268,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-1": {
-        "message": "Psiphon runs many servers for many reasons. On those servers we collect the following data to monitor the health of the Psiphon system. It helps us to learn things like how well Psiphon is working, what propagation strategies are effective, and how users are obtaining the Psiphon client.",
+        "message": "Psiphon điều hành nhiều máy chủ với nhiều lý do. Trong những máy chủ đó chúng tôi thâu thập các dữ liệu sau đây để giám sát sức khỏe của hệ thống Psiphon. Việc này giúp chúng tôi tìm hiểu xem Psiphon hoạt động tốt không, phương thức phổ biến nào hữu hiệu, và người dùng làm thế nào để có được ứng dụng Psiphon.",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-1": {
-        "message": "Number of email requests to our automated responder",
+        "message": "Số lượng email yêu cầu gửi đến hệ thống hồi đáp tự động",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-2": {
@@ -1296,11 +1292,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-7": {
-        "message": "Amount of data transferred through the Psiphon system",
+        "message": "Lượng dữ liệu truyền tải qua hệ thống Psiphon",
         "description": ""
     },
     "faq-information-collected-answer-para-2-item-9": {
-        "message": "Client platform (simplified operating system list; not a detailed browser user agent)",
+        "message": "Nền của máy trạm (danh sách hệ điều hành đơn giản hóa; không phải chi tiết của trình duyệt)",
         "description": ""
     },
     "faq-information-collected-answer-para-3b": {
@@ -1308,259 +1304,259 @@
         "description": ""
     },
     "faq-information-collected-answer-para-4": {
-        "message": "Event logs include timestamps, region codes (country and city), and non-identifying attributes including sponsor ID (determined by which Psiphon client build is used), client version, and protocol type.",
+        "message": "Nhật ký sự kiện bao gồm dấu thời gian, mã vùng (quốc gia và thành phố), và các thuộc tính không mang tính nhận diện cá nhân bao gồm ID nhà tài trợ (được xác định bởi phiên bản nào của ứng dụng Psiphon), phiên bản ứng dụng, và loại giao thức.",
         "description": ""
     },
     "faq-information-collected-answer-para-5": {
-        "message": "Any statistics shared with third parties are aggregated by date, sponsor, and region, to a sufficient coarseness that they are non-identifying.",
+        "message": "Bất cứ thống kê nào chia sẻ với bên thứ ba được tổng hợp theo ngày tháng, nhà tài trợ, và vùng, tới một mức độ thô đủ để không thể nhận diện cá nhân.",
         "description": ""
     },
     "privacy-information-collected-vpndata-head-v2": {
-        "message": "User Activity and VPN Data",
+        "message": "Hoạt động Người dùng và Dữ liệu VPN",
         "description": "Sub-heading on the Privacy Policy page for the section describing handling of user traffic data and activity statistics through the Psiphon VPN"
     },
     "privacy-information-collected-vpndata-whycare-subhead": {
-        "message": "Why should you care?",
+        "message": "Tại sao bạn nên quan tâm?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
     },
     "privacy-information-collected-vpndata-whycare-para-1": {
-        "message": "When using a VPN or proxy you should be concerned about what the VPN provider can see in your data, collect from it, and do to it.",
+        "message": "Khi dùng VPN hay proxy bạn nên quan tâm đến việc nhà cung cấp VPN có thể thấy dữ liệu của bạn, thâu thập và làm gì với dữ liệu.",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whycare-para-2": {
-        "message": "When you use a VPN, all data to and from your device goes through it. If you visit a website that uses unencrypted HTTP, all of that site's data is visible to the VPN. If you visit a website that uses encrypted HTTPS, the site content is encrypted, but some information about the site might be visible to the VPN. Other apps and services on your device will also transfer data that is encrypted or unencrypted. (Note that this is distinct from the encryption that all VPNs provide. Here we're only concerned with data that is or is not encrypted <em>inside</em> the VPN tunnel.)",
+        "message": "Khi dùng VPN, tất cả dữ liệu đến và từ thiết bị của bạn sẽ đi ngang qua đó. Nếu bạn xem một trang mạng dùng HTTP không mã hóa, VPN sẽ thấty được tất cả dữ liệu trong trang đó. Nếu bạn xem một trang mạng dùng HTTPS có mã hóa, nội dung trong trang đó được mã hóa, tuy nhiên một vài thông tin về trang đó VPN có thể thấy. Những ứng dụng và dịch vụ khác trong thiết bị của bạn cũng truyền tải dữ liệu có hoặc không có mã hóa. (Lưu ý là việc này khác với việc mã hóa mà tất cả VPN cũng cấp. Ở đây chúng tôi quan tâm đến dữ liệu có hay không có mã hóa <em>bên trong</em> đường hầm VPN.)",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an 'emphasis' (like italics) HTML tag, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whycare-para-3": {
-        "message": "For unencrypted services, it is possible for a VPN provider to see, collect, and modify (e.g., injecting ads into) the contents of your data. For encrypted data, it is still possible for a VPN to collect metadata about sites visited or actions taken. You should also be concerned with your VPN provider sharing your data with third parties.",
+        "message": "Đối với những dịch vụ không có mã hóa, nhà cung cấp VPN có thể thấy, thu thập, và thay đổi (chẳng hạn như nhét thêm quảng cáo vào) nội dung dữ liệu. Đối với dữ liệu mã hóa, VPN vẫn có thể thu thập siêu dữ liệu về trang bạn xem hoặc hoạt động xảy ra. Bạn cũng nên quan tâm đến việc nhà cung cấp VPN chia sẻ dữ liệu của bạn với bên thứ ba.",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-subhead": {
-        "message": "What does Psiphon <strong>NOT</strong> do with your data?",
+        "message": "Psiphon <strong>KHÔNG</strong> làm những gì với dữ liệu của bạn?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what undesirable things Psiphon DOES NOT do with user data. '<strong>' is an HTML tag that makes text bold, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-1": {
-        "message": "We DO NOT collect or store any VPN data that is not mentioned here.",
+        "message": "Chúng tôi KHÔNG thâu thập và lưu trữ bất cứ dữ liệu VPN nào không được đề cập đến trong đây.",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-2": {
-        "message": "We DO NOT modify the contents of your VPN data.",
+        "message": "Chúng tôi KHÔNG sửa đổi nội dung dữ liệu VPN của bạn.",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-3": {
-        "message": "We DO NOT share any sensitive or user-specific data with third parties.",
+        "message": "Chúng tôi KHÔNG chia sẻ bất cứ dữ liệu nhạy cảm hay liên hệ đến người dùng cho bên thứ ba.",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-kindsofdata-subhead": {
-        "message": "What kinds of user data does Psiphon collect?",
+        "message": "Loại dữ liệu người dùng nào Psiphon thâu thập?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-kindsofdata-para-1": {
-        "message": "We will define some categories of data to help us talk about them in the context of Psiphon.",
+        "message": "Chúng tôi định ra một số thể loại dữ liệu để trình bày trong khuôn khổ của Psiphon.",
         "description": "Paragraph text in the 'What kinds of user data does Psiphon collect?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-subhead": {
-        "message": "User Activity Data",
+        "message": "Dữ liệu Hoạt động của Người dùng",
         "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-1": {
-        "message": "While a user's device is tunneled through Psiphon, we collect some information about how they're using it. We record what protocol Psiphon used to connect, how long the device was connected, how many bytes were transferred during the session, and what city, country, and ISP the connection came from. For some domains (but very few, and only popular ones) or server IP addresses (e.g., known malware servers) that are visited, we also record how many bytes were transferred to it. (But never full URLs or anything more sensitive. And only domains of general interest, not all domains.)",
+        "message": "Trong lúc thiết bị của người dùng xuyên hầm Psiphon, chúng tôi thu thập một số thông tin về cách sử dụng. Chúng tôi ghi lại giao thức Psiphon dùng để kết nối, thiết bị kết nối bao lâu, bao nhiêu bytes được truyền tải trong phiên làm việc, và thành phố, quốc gia, nhà mạng ISP kết nối. Đối với một số miền (rất ít, và chỉ những miền phổ thông) hoặc địa chỉ IP (ví dụ như máy chủ được biết chứa mã độc) truy cập, chúng tôi cũng có ghi lại bao nhiêu bytes được truyền đến. (Nhưng không bao giờ là trọn vẹn URLs hoặc những gì nhạy cảm. Và chỉ những miền được lưu ý, chứ không phải tất cả.)",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
-        "message": "Geographical location and ISP info are derived from user IP addresses, which are then immediately discarded.",
+        "message": "Vị trí địa dư và thông tin nhà mạng ISP được suy ra từ địa chỉ IP của người dùng, sau đó sẽ được loại bỏ ngay.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-3": {
-        "message": "An example of user activity data might be: At a certain time a user connected from New York City, using Comcast, and transferred 100MB from <code>youtube.com</code> and 300MB in total.",
+        "message": "Một thí dụ của dữ liệu hoạt động của người dùng: Vào một thời điểm nào đó, người dùng kết nối vào từ thành phố New York dùng nhà mạng Comcast, và truyền 100MB từ <code>youtube.com</code> và truyền 300MB cả thảy.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4.1": {
-        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 90 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
+        "message": "Chúng tôi xem dữ liệu hoạt động của người dùng là loại dữ liệu nhạy cảm nhất. Chúng tôi không bao giờ chia sẻ loại dữ liệu này với bên thứ ba. Chúng tôi giữ dữ liệu hoạt động của người dùng tối đa 90 ngày, và sau đó tổng hợp lại rồi xóa. Bản sao lưu của dữ liệu đó được giữ trong một khoảng thời gian vừa phải.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {
-        "message": "Aggregated Data",
+        "message": "Dữ liệu Tổng hợp",
         "description": "Sub-heading for the definition of 'Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-1": {
-        "message": "Data is “aggregated” by taking a lot of sensitive user activity data and combining it together to form coarse statistical data that is no longer specific to a user. After aggregation, the user activity data is deleted.",
+        "message": "Dữ liệu được “tổng hợp” bằng cách sát nhập các dữ liệu tế nhị về hoạt động của người dùng và biến thành thống kê đơn giản không riêng cho ai cả. Sau khi tổng hợp xong, dữ liệu hoạt động của người dùng sẽ bị xóa.",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-2": {
-        "message": "An example of aggregated data might be: On a particular day, 250 people connected from New York City using Comcast, and transferred 200GB from <code>youtube.com</code> and 500GB in total.",
+        "message": "Một thí dụ của dữ liệu tổng hợp: Trong một ngày nào đó, 250 người kết nối vào từ thành phố New York dùng nhà mạng Comcast, và truyền 200Gb từ <code>youtube.com</code> và truyền 500GB cả thảy.",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-3": {
-        "message": "Aggregated data is much less sensitive than activity data, but we still treat it as potentially sensitive and do not share it in this form.",
+        "message": "Dữ liệu tổng hợp ít nhạy cảm hơn dữ liệu hoạt động, tuy nhiên chúng tôi vẫn xem đó là tế nhị và không chia sẻ trong dạng đó.",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-subhead": {
-        "message": "Shareable Aggregated Data",
+        "message": "Dữ liệu Tổng hợp Chia sẻ được",
         "description": "Sub-heading for the definition of 'Shareable Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-shareable-para-1": {
-        "message": "When sharing aggregated data with third parties, we make sure that the data could not be combined with other sources to reveal user identities. For example, we do not share data for countries that only have a few Psiphon users in a day. We make sure that the data is anonymized.",
+        "message": "Khi chia sẻ dữ liệu tổng hợp với bên thứ ba, chúng tôi đảm bảo là dữ liệu không thể kết hợp với các nguồn khác để tiết lộ ra danh tính người dùng. Thí dụ như, chúng tôi không chia sẻ dữ liệu cho quốc gia mà chỉ có vài người dùng Psiphon trong ngày. Chúng tôi đảm bảo là dữ liệu được ẩn danh hóa.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-2": {
-        "message": "We also never share domain-related information with third parties.",
+        "message": "Chúng tôi cũng không chia sẻ thông tin liên hệ đến tên miền với bên thứ ba.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-3": {
-        "message": "An example of shareable aggregated data might be: On a particular day, 500 people connected from New York City and transferred 800GB in total.",
+        "message": "Một thí dụ của dữ liệu tổng hợp có thể chia sẽ được: Trong một ngày nào đó, 500 người kết nối từ thành phố New York và truyền 800GB cả thảy.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-4": {
-        "message": "An example of data that is <em>not shareable</em>: On a particular day, 2 people connected from Los Angeles. Those people will be included in the stats for the entire US, but that is too few people to anonymously share city data for.",
+        "message": "Một thí dụ của dữ liệu <em>không chia sẻ được</em>: Trong một ngày nào đó, 2 người kết nối từ Los Angeles. Những người đó được tính trong thống kê của cả nước Mỹ, nhưng quá ít người để chia sẻ ẩn danh dữ liệu cho thành phố đó.",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an HTML tag that adds emphasis (like italics), which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead-v2": {
-        "message": "What does Psiphon do with User Activity and Aggregated Data?",
+        "message": "Psiphon làm gì với Dữ liệu Tổng hợp và của Hoạt động Người dùng?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1-v2": {
-        "message": "Activity and aggregated statistical data are vital for us to make Psiphon work best. It allows us to do things like:",
+        "message": "Dữ liệu hoạt động và thống kê tổng hợp rất quan trọng để giúp cho Psiphon hoạt động hữu hiệu nhất. Chúng giúp chúng tôi những việc sau:",
         "description": "Paragraph text in the 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-1": {
-        "message": "Monitor the health and success of the Psiphon network: We need to know how many people are connecting, from where, how much data they're transferring, and if they're having any problems.",
+        "message": "Giám sát sức khỏe và mức thành đạt của mạng Psiphon: Chúng tôi cần biết có bao nhiêu người kết nối, từ đâu, họ truyền bao nhiêu dữ liệu, và họ có gặp trở ngại gì không.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-2": {
-        "message": "Monitor threats to our users' devices: We watch for malware infections that attempt to contact command-and-control servers.",
+        "message": "Giám sát các mối đe dọa đối với thiết bị của người dùng: Chúng tôi canh chừng xem coi có mã độc tìm cách liên hệ với máy chủ điều khiển-và-kiểm soát.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-3": {
-        "message": "Ensure users stay connected while foiling censors: We try to detect that a user is behaving like a real person and then reveal new Psiphon servers to them. (This is our obfuscated server list technology.)",
+        "message": "Đảm bảo người dùng vẫn kết nối được cùng lúc đẩy lui nhà kiểm duyệt: Chúng tôi dò tìm xem người dùng có hành xử như người thật không rồi mới tiết lộ máy chủ Psiphon mới cho họ. (Đây là công nghệ che dấu danh sách máy chủ của chúng tôi.)",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
-        "message": "Estimate future costs: The huge amount of user data we transfer each month is a major factor in our costs. It is vital for us to see and understand usage fluctuations.",
+        "message": "Ước lượng phí tổn tương lai: khối lượng dữ liệu sử dụng to lớn truyền tải mỗi tháng là một yếu tố lớn cho phí tổn của chúng tôi. Do đó rất quan trọng để chúng tôi thấy và hiểu sự lên xuống của lượng dữ liệu sử dụng.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-3": {
-        "message": "Determine the nature of major censorship events: Sites and services often get blocked suddenly and without warning, which can lead to huge variations in regional usage of Psiphon. For example, we had up to 20x surges in usage within a day when <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil blocked WhatsApp</a> or <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey blocked social media</a>.",
+        "message": "Xác định bản chất của các sự kiện kiểm duyệt lớn: Trang web và dịch vụ thường bị chặn bất ngờ và không báo trước, vì thế dẫn đến thay đổi lớn về việc sử dụng Psiphon trong vùng. Chẳng hạn như, chúng tôi thấy sử dụng tăng gấp 20 lần trong ngày khi <a href=\"https://blog-en.psiphon.ca/2016/07/psiphon-usage-surges-as-brazil-blocks.html\" target=\"_blank\">Brazil chặn WhatsApp</a> hay khi <a href=\"https://blog-en.psiphon.ca/2016/11/social-media-and-internet-ban-in-turkey.html\" target=\"_blank\">Turkey chặn mạng xã hội</a>.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-4": {
-        "message": "Understand who we need to help: Some sites and services will never get blocked anywhere, some will always be blocked in certain countries, and some will occasionally be blocked in some countries. To make sure that our users are able to communicate and learn freely, we need to understand these patterns, see who is affected, and work with partners to make sure their services work best with Psiphon.",
+        "message": "Hiểu chúng tôi đang giúp những ai: Một số trang mạng và dịch vụ sẽ không bao giờ bị chặn bất cứ nơi đâu, một số sẽ luôn bị chặn trong một số quốc gia, và một số khác đôi khi sẽ bị chặn ở vài quốc gia. Để đảm bảo người dùng có thể tự do thông tin liên lạc, chúng tôi cần hiểu các mô hình này, xem ai bị ảnh hưởng, và làm việc với đối tác để đảm bảo dịch vụ của họ chạy tốt với Psiphon.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-subhead-v2": {
-        "message": "Who does Psiphon share Aggregated Data with?",
+        "message": "Psiphon chia sẻ Dữ liệu Tổng hợp với ai?",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-1-v2": {
-        "message": "Shareable aggregated data is shared with sponsors, organizations we collaborate with, and civil society researchers. The data can be used to show such things as:",
+        "message": "Chúng tôi chia sẻ dữ liệu tổng hợp chia sẻ được với các nhà bảo trợ, tổ chức hợp tác, và giới nghiên cứu xã hội dân sự. Dữ liệu có thể được dùng để cho thấy những điều sau đây:",
         "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-1": {
-        "message": "How well Psiphon is working in a particular region.",
+        "message": "Psiphon hoạt động hữu hiệu thế nào trong một vùng nào đó.",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-2": {
-        "message": "The blocking patterns in a given country, for example during political events.",
+        "message": "Mô hình ngăn chặn trong một quốc gia, thí dụ như trong lúc sự kiện chính trị diễn ra.",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-3": {
-        "message": "That the populace of a country is determined to access the open internet.",
+        "message": "Người dân của một quốc gia kiên quyết tìm cách truy cập vào mạng internet.",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-3-v2": {
-        "message": "Again, only anonymized shareable aggregated data is ever shared with third parties.",
+        "message": "Cũng vậy, chỉ có dữ liệu tổng hợp chia sẻ được và đã ẩn danh hóa mới được chia sẻ với bên thứ ba.",
         "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-psicash-para-1": {
-        "message": "The PsiCash system only collects information necessary for the functioning of the system, monitoring the health of the system, and ensuring the security of the system.",
+        "message": "Hệ thống PsiCash chỉ thâu thập thông tin cần thiết để hoạt động, giám sát sức khỏe của hệ thống, và bảo đảm an ninh cho hệ thống.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-list-start": {
-        "message": "The PsiCash server stores per-user information to allow for operation of the system, including:",
+        "message": "Máy chủ PsiCash lưu trữ thông tin cho mỗi người dùng để cho phép hệ thống hoạt động, bao gồm:",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-item-1": {
-        "message": "generated user access tokens",
+        "message": "tokens truy cập phát sinh cho người dùng",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-information-collected-psicash-para-2-item-2": {
-        "message": "balance",
+        "message": "số dư",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
     },
     "privacy-information-collected-psicash-para-2-item-3": {
-        "message": "last activity timestamp",
+        "message": "ngày giờ của hoạt động chót",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "privacy-information-collected-psicash-para-2-item-4": {
-        "message": "PsiCash earning history, including what actions the rewards were granted for",
+        "message": "Quá trình được tiền PsiCash, bao gồm những việc làm gì để được thưởng.",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-item-5": {
-        "message": "PsiCash spending history, including what purchases were made",
+        "message": "Quá trình chi tiêu tiền PsiCash, gồm những món hàng được mua.",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2b": {
-        "message": "Creating a PsiCash account is optional. If an account is created, account-specific information such as username, password, and email address (if provided) are stored on the server. When logged in to a Psiphon client, the username is also stored locally.",
+        "message": "Không bắt buộc phải tạo tài khoản PsiCash. Nếu tài khoản được tạo ra, thông tin liên hệ như tên người dùng, mật khẩu, và đia chỉ email (nếu cung cấp) được giữ trên máy chủ. Khi đăng nhập vào một trạm Psiphon, tên người dùng được giữ cục bộ.",
         "description": "Paragraph text on the Privacy Policy page. Describes the user data requirements for PsiCash accounts. 'PsiCash' must not be translated or transliterated. 'Psiphon' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-3-list-start": {
-        "message": "In the user's web browser, some data is stored to allow for earning rewards and making purchases. This data includes:",
+        "message": "Trong trình duyệt của người dùng, một số dữ liệu được lưu trữ để giúp được phần thưởng và mua hàng. Dữ liệu này bao gồm:",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-3-item-1": {
-        "message": "generated user access tokens",
+        "message": "tokens truy cập phát sinh cho người dùng",
         "description": "Bullet list item in the 'data stored in web browser' list. This item refers to randomly generated values that allow a user to access and utilize the system."
     },
     "privacy-information-collected-psicash-para-3-item-2": {
-        "message": "when a PsiCash reward is allowed to be claimed again",
+        "message": "khi phần thưởng PsiCash được phép hưởng tiếp",
         "description": "Bullet list item in the 'data stored in web browser' list. PsiCash earning rewards can only be claimed every so often in the web browser, so this refers to the date-time when the user is next allowed to claim a reward. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-4-list-start": {
-        "message": "For monitoring system health and security, system activity data is collected and aggregated. This data includes:",
+        "message": "Để giám sát sức khỏe và an ninh của hệ thống, dữ liệu hoạt động của hệ thống được thâu thập và tổng hợp. Dữ liệu này bao gồm:",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. This is preamble to a detailed bullet list. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-4-item-1": {
-        "message": "user country",
+        "message": "quốc gia của người dùng",
         "description": "Bullet list item in the 'system health and security' list. This item refers to the country from which a user was connecting when he/she performed an action."
     },
     "privacy-information-collected-psicash-para-4-item-2": {
-        "message": "balance",
+        "message": "số dư",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the user PsiCash balance -- i.e., how much they have available to spend."
     },
     "privacy-information-collected-psicash-para-4-item-3": {
-        "message": "user agent string",
+        "message": "tên phần mềm",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to 'user agent string' of the client software used to perform an action. This can be either a web browser or the Psiphon client itself."
     },
     "privacy-information-collected-psicash-para-4-item-4": {
-        "message": "client version",
+        "message": "trình phiên bản",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the version of the Psiphon app."
     },
     "privacy-information-collected-psicash-para-4-item-5": {
-        "message": "PsiCash earning and spending details",
+        "message": "Chi tiết được tiền và chi tiêu tiền PsiCash",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning and spending PsiCash. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-5": {
-        "message": "Individual user data is never shared with third parties. Coarse aggregate statistics may be shared, but never in a form that can possibly identify users.",
+        "message": "Dữ liệu cá nhân người dùng không bao giờ được chia sẻ với bên thứ ba. Thống kê tổng hợp đơn giản có thể được chia sẻ, nhưng không giờ trong dạng có thể nhận diện ra người dùng.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-6": {
-        "message": "PsiCash server resources are stored in AWS, which means Amazon has access to the data.",
+        "message": "Các nguồn của máy chủ PsiCash được lưu trữ trên AWS, có nghĩa là Amazon truy cập được dữ liệu.",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-para-1": {
-        "message": "Users create and manage their PsiCash accounts on the <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a> website.",
+        "message": "Người dùng tạo và quản lý tài khoản PsiCash trong trang<a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a>.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-1": {
-        "message": "my.psi.cash uses Google’s reCAPTCHA v3 (hereinafter “reCAPTCHA”), which protects websites from spam and abuse by non-human users (i.e., bots). reCAPTCHA collects personal information that is required for the functioning of the technology and is subject to its own privacy policy. Use of my.psi.cash indicates acceptance of Google’s <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Terms</a>.",
+        "message": "my.psi.cash dùng reCAPTCHA v3 (gọi tắt là “reCAPTCHA”) của Google, để bảo vệ trang web chống thư rác và lạm dụng từ phần mềm (không phải con người, như bots chẳng hạn). reCAPTCHA thâu thập thông tin cá nhân cần thiết để hoạt động và lệ thuộc vào chính sách quyền riêng tư của riêng nó. Sử dụng trang my.psi.cash tức là đồng ý với <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Chính sách Quyền Riêng tư</a> và <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Điều khoản sử dụng</a>của Google.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-2": {
-        "message": "Our use of reCAPTCHA is strictly limited to ensuring the continued functioning of my.psi.cash. reCAPTCHA technology performs an automatic analysis for each site request without requiring the user to take any additional actions. This analysis is based on interactions made by the user, and is used to mitigate bot and other malicious behaviour on our website. The data collected during analysis is forwarded to Google, where Google will use this data to determine if you are a human user. This analysis takes place in the background, and users are not advised it is taking place.",
+        "message": "Việc sử dụng reCAPTCHA của chúng tôi hoàn toàn giới hạn trong khuôn khổ hoạt động của trang my.psi.cash. Công nghệ reCAPTCHA làm phân tích tự động cho mỗi trang truy cập mà không cần người dùng phải làm gì thêm. Phân tích này dựa vào các tương tác của người dùng, và dùng để giảm thiểu bot và các hành vi hiểm độc nhắm vào trang web chúng tôi. Dữ liệu thâu thập của phân tích được chuyển đến Google để xác định xem người dùng có đúng là người không. Phân tích này diễn ra trong nền sau, và người dùng không được báo cho biết việc này đang diễn ra.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-3": {
-        "message": "For more information about Google’s reCAPTCHA technology, please visit <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
+        "message": "Để biết thêm về công nghệ reCAPTCHA của Google, xin vào trang<a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page."
     },
     "privacy-information-collected-mypsicash-cookies-head": {
@@ -1568,7 +1564,7 @@
         "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
     },
     "privacy-information-collected-mypsicash-cookies-para-1": {
-        "message": "my.psi.cash only uses cookies and similar tracking technologies to carry out activities that are essential for the operation of the website. Essential cookies are necessary to ensure basic functions of the website. Cookies are small text files that are stored on your computer and saved by your browser, and do not represent any risk to your device. You can configure your browser settings to personalize how you would like your browser to handle cookies. Disabling essential cookies will degrade the functionality of this website.",
+        "message": "my.psi.cash chỉ dùng cookies và các công nghệ theo dõi tương tự để thực hiện các hoạt động cần thiết cho trang web này. Cookies cần thiết để đảm bảo các chức năng căn bản của trang web. Cookies chỉ là một tập tin văn bản nhỏ được trình duyệt lưu lại và giữ trong máy tính của bạn, và không gây rủi ro cho thiết bị. Bạn có thể cấu hình thiết đặt của trình duyệt để điều chỉnh tùy ý cách bạn muốn trình duyệt quản lý cookies. Tắt cookies thiết yếu sẽ làm giảm sút vận hành của trang web này.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
@@ -1620,11 +1616,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). Your email address may be written to the server system logs. These logs are deleted after one week.",
+        "message": "Khi bạn gửi email đến máy chủ có email hồi đáp tự động, chúng tôi sẽ thấy địa chỉ email bạn. Trong lúc xử lý email bạn tạm thời được lưu trên máy chủ, và sẽ được xóa ngay sau khi xử lý xong (thường là vài giây). Email bạn có thể được ghi vào nhật ký hệ thống máy chủ. Tập nhật ký được xóa sau một tuần.",
         "description": ""
     },
     "faq-information-collected-answer-para-12": {
-        "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. This means that Amazon is able to see the email you send and our response to you.",
+        "message": "Máy chủ có email hồi đáp tự động của chúng tôi được chứa trên vùng mây Amazon EC2.  Điều này có nghĩa là Amazon có khả năng thấy email bạn gửi và hồi đáp của chúng tôi cho bạn.",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1656,19 +1652,19 @@
         "description": ""
     },
     "psiphon-guide-nav-title": {
-        "message": "Psiphon Guide",
+        "message": "Cẩm nang Psiphon",
         "description": "Psiphon Guide. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-title": {
-        "message": "Psiphon Guide",
+        "message": "Cẩm nang Psiphon",
         "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-description": {
-        "message": "Psiphon Guide is a page, or a 'guide', dedicated to helping new users understand how Psiphon works, with some general information on settings and recommended actions for a better user experience.",
+        "message": "Cẩm nang Psiphon là một trang, hoặc một 'cẩm nang', để giúp người dùng mới hiểu cách vận hành của Psiphon, với thông tin tổng quát về cách thiết đặt và một số đề nghị làm để có một trải nghiệm sử dụng tốt hơn.",
         "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-meta-title": {
-        "message": "Psiphon Guide",
+        "message": "Cẩm nang Psiphon",
         "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-header-contents": {
@@ -1676,87 +1672,87 @@
         "description": "table of contents header for the Psiphon Guide page for anchor link navigation."
     },
     "psiphon-guide-section-1-title-how-psiphon-works": {
-        "message": "Section 1: How Psiphon Works",
+        "message": "Phần 1: Psiphon hoạt động thế nào",
         "description": "contents link for Section 1 of the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-2-title-installing-psiphon": {
-        "message": "Section 2: Getting and Installing Psiphon",
+        "message": "Phần 2: Lấy và Cài đặt Psiphon",
         "description": "contents link for Section 2 of the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-title-security-trust": {
-        "message": "Section 3: Security and Trust",
+        "message": "Phần 3: Bảo mật và Tin cậy",
         "description": "contents link for Section 3 of the Psiphon Guide page"
     },
     "psiphon-guide-section-4-title-connection-troubleshooting": {
-        "message": "Section 4: Connection Troubleshooting",
+        "message": "Phần 4: Chẩn đoán Vấn đề Kết nối",
         "description": "contents link for Section 4 of the Psiphon Guide page. This section pertains to recommendations if a user is having a problem with connecting to the Psiphon network."
     },
     "psiphon-guide-section-5-title-settings": {
-        "message": "Section 5: Settings",
+        "message": "Phần 5: Thiết đặt",
         "description": "contents link for Section 5 of the Psiphon Guide page. This section describes the location and function of various settings inside the Psiphon application."
     },
     "psiphon-guide-para-1": {
-        "message": "Psiphon Inc. has provided open access to the Internet for millions of citizens around the world since 2006. Psiphon operates a proxy system known as “Psiphon 2” as well as “Psiphon 3,” which is an application (“app”) for Android, Windows, and iOS. The following documents focus on the Psiphon 3 network, which is the most widely used. Psiphon is a free, open-source, censorship circumvention software. It uses a combination of secure communication and obfuscation technologies to allow users to connect with apps and content which would otherwise be blocked.",
+        "message": "Công ty Psiphon đã cung cấp truy cập tự do vào Internet cho hàng triệu người trên thế giới từ năm 2006. Psiphon điều hành một hệ thống proxy được biết dưới tên “Psiphon 2” cũng như “Psiphon 3,” là một ứng dụng (“app”) cho Android, Windows, và iOS. Tài liệu sau đây chú trọng vào mạng Psiphon 3 được dùng nhiều nhất. Psiphon là một phần mềm vượt thoát kiểm duyệt, nguồn mở, miễn phí. Psiphon kết hợp thông tin liên lạc bảo mật và công nghệ làm rối mã để cho phép người dùng kết nối với các ứng dụng và nội dung bị ngăn chặn.",
         "description": "Section 1 paragraph for the Psiphon Guide page. A general description of how Psiphon works, and what Psiphon is. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-splash-image-alt": {
-        "message": "Psiphon Guide Header Splash Image",
+        "message": "Hình splash của Cẩm nang Psiphon",
         "description": "splash image for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-the-internet": {
-        "message": "The internet",
+        "message": "Internet",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page"
     },
     "psiphon-guide-para-2": {
-        "message": "The internet is a global network of billions of computers (or “routers”) which communicate with one another. These connected systems allow people to share (or “serve”) information to others. The internet can be visualized as a web, with multiple routes and connections. If one connection is severed, the redundancy of the web infrastructure allows people to connect by finding another route. To get from one location to another, web traffic (messages sent on the internet) make many hops. Traffic travels from router to router before arriving at their destination. In order to do this, specific networking and routing equipment is required. This is provided by Internet Service Providers (“ISPs”). ISPs allow internet users to use their infrastructure, including \"serving\" content or providing access to other content that other ISPs \"serve\", usually for a fee.",
+        "message": "Internet là một mạng toàn cầu của hàng tỉ máy tính (hoặc “bộ định tuyến”) thông tin liên lạc với nhau. Các hệ thống kết nối này cho phép người ta chia sẻ (hoặc “phục vụ”) thông tin với người khác. Internet có thể hình dung như một mạng lưới, với nhiều bộ định tuyến và đường kết nối. Nếu một đường kết nối bị cắt đứt, bản chất dư thừa của hạ tầng cơ sở mạng lưới giúp người ta kết nối qua tuyến đường khác. Để đi từ một điểm này đến một điểm nọ, giao thông mạng (tin nhắn gửi trên internet) đi qua nhiều trạm. Giao thông đi từ bộ định tuyến này đến bộ định tuyến khác trước khi tới điểm đến. Để làm được điều này, cần có những thiết bị mạng và định tuyến đặc biệt. Các thiết bị này được trang bị bới các nhà mạng Internet Service Providers (“ISPs”). ISP cho phép người dùng internet sử dụng hạ tầng cơ sở của họ, bao gồm \"phục vụ\" nội dung hoặc cung cấp truy cập vào các nội dung khác mà các ISP khác \"phục vụ\", thường là có tính phí.",
         "description": "Section 1 paragraph for the Psiphon Guide page. A general description of the internet."
     },
     "psiphon-guide-section-1-sub-heading-filtering-censors": {
-        "message": "Filtering and Censors",
+        "message": "Sàng lọc và Kiểm duyệt",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page"
     },
     "psiphon-guide-para-3": {
-        "message": "Filtering can occur at one or many points in the network, such as, the internet backbone (often the international gateway), ISPs, institutions (such as companies or schools), and even on an individual's device (such as a phone or desktop computer).",
+        "message": "Sàng lọc có thể xảy ra ở một hay nhiều điểm trong mạng, chẳng hạn như, trục chính của internet (thường là cổng giao tiếp quốc tế), nhà mạng ISP, cơ quan (như công ty hay trường học), và ngay cả thiết bị cá nhân (như điện thoại hay máy tính để bàn)",
         "description": "Section 1 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-para-4": {
-        "message": "Censors are actors implementing filtering at any level. They could be implementing filtering on behalf of another body, such as when an ISP filters content under orders of a government.",
+        "message": "Nhà kiểm duyệt là các tác nhân thực hiện sàng lọc ở bất cứ tầng nào. Họ có thể thực hiện sàng lọc dùm cho người khác, chẳng hạn như khi nhà mạng sàng lọc nội dụng theo lệnh của chính quyền.",
         "description": "Section 1 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-para-5": {
-        "message": "In order to block only certain types of traffic, the traffic must first be identifiable. When a system can differentiate between types of traffic passing through the network, it is potentially able to make decisions about that traffic. Filtering can be done through devices and programs that analyze and forbid certain types of traffic to pass. In some places technical blocking affects everyday Internet use.",
+        "message": "Để có thể chặn một số loại giao thông mạng, trước nhất phải nhận diện giao thông đó. Khi một hệ thống có thể phân biệt các loại giao thông đi ngang qua mạng, nó có thể lấy quyết định làm gì với giao thông đó. Sàng lọc có thể thực hiện bằng các thiết bị hay phần mềm để phân tích và cấm các loại giao thông nào đó đi ngang qua. Ở một số nơi, việc ngăn chặn ảnh hưởng đến việc sử dụng internet thường nhật.",
         "description": "Section 1 paragraph for the Psiphon Guide page. A description of both filtering and blocking of internet traffic."
     },
     "psiphon-guide-section-1-sub-heading-circumvention-tools": {
-        "message": "Circumvention Tools",
+        "message": "Công Cụ Vượt Thoát Kiểm Duyệt",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page."
     },
     "psiphon-guide-para-6": {
-        "message": "Psiphon is part of a category of technology known as circumvention tools. Circumvention tools are designed to bypass interceptive technical forms of blocking online. Circumvention tools usually work by either diverting web traffic so it avoids the machines that filter or by disguising the traffic to appear like traffic that is not subject to filtering. The Psiphon app does both. As filtering techniques become more sophisticated, circumvention tool providers must always update their technology and so methods and strategies are continually evolving.",
+        "message": "Psiphon là một phần của công nghệ được biết dưới tên gọi công cụ vượt thoát kiểm duyệt. Công cụ vượt thoát kiểm duyệt được thiết kế để thoát qua các hình thức kỹ thuật chặn trên mạng. Công cụ vượt thoát kiểm duyệt hoạt động bằng cách điều hướng giao thông đi qua tuyến đường khác để tránh máy chủ kiểm duyệt hoặc ngụy trang giao thông thành một loại giao thông khác không bị kiểm duyệt. Ứng dụng Psiphon dùng cả hai cách. Khi kỹ thuật sàng lọc trở nên tinh vi hơn, nhà cung cấp công cụ vượt thoát kiểm duyệt phải luôn cập nhật công nghệ của họ và do đó phương thức và chiến lược liên tục tiến hóa.",
         "description": "Section 1 paragraph for the Psiphon Guide page. A description of circumvention tools. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-traffic": {
-        "message": "Psiphon Traffic",
+        "message": "Giao thông mạng của Psiphon",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-7": {
-        "message": "As a censorship circumvention tool, the Psiphon app's primary objective is to establish a connection to the internet. The Psiphon app attempts to connect to known Psiphon servers using various methods. Sometimes the Psiphon traffic is obfuscated, meaning that it is disguised to look like a different or less identifiable type of traffic.",
+        "message": "Là một công cụ vượt thoát kiểm duyệt, mục tiêu chính của ứng dụng Psiphon là lập kết nối vào internet. Ứng dụng Psiphon tìm cách kết nối vào các máy chủ Psiphon bằng nhiều cách khác nhau. Đôi khi giao thông của Psiphon được làm rối, có nghĩa là ngụy trang thành một loại giao thông khác không nhận diện ra được.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-8": {
-        "message": "Because it is encrypted, censors are unable to see the content of traffic passing through the tunnel. Censors may still attempt to block encrypted traffic based on other characteristics, such as communication protocols. Communication protocols are a set of rules used to route data and ensure it arrives at the intended location.",
+        "message": "Vì được mã hóa, nhà kiểm duyệt không thể xem được nội dung của giao thông đi xuyên qua hầm. Nhà kiểm duyệt vẫn có thể tìm cách chặn giao thông mã hóa dựa vào các đặc tính khác, chẳng hạn như giao thức liên lạc. Giao thức liên lạc là một tập hợp quy luật dùng để định tuyến dữ liệu và đảm bảo là sẽ tới được điểm đến.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'It' refers to Psiphon traffic. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-traffic-diagram-image-alt": {
-        "message": "Psiphon Guide Traffic Diagram Image",
+        "message": "Hình Sơ đồ Giao thông mạng của Cẩm nang Psiphon",
         "description": "diagram image for the Psiphon Guide page"
     },
     "psiphon-guide-para-9": {
-        "message": "The Psiphon app has the ability to relay traffic through various communication protocols. It attempts to connect through different protocols until a connection is made. That way, if a censor is blocking one communication protocol, Psiphon is still able to connect by using another protocol.",
+        "message": "Ứng dụng Psiphon có khả năng chuyển tiếp giao thông qua nhiều giao thức liên lạc. Nó sẽ tìm cách kết nối qua nhiều giao thức khác nhau cho đến khi lập được kết nối. Như thế, nếu nhà kiểm duyệt chặn một giao thức liên lạc, Psiphon vẫn có thể kết nối bằng một giao thức khác.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-10": {
-        "message": "To ensure that Psiphon's traffic is not identifiable, it is important to make it appear as generic and normal as possible to an external observer. The Psiphon app has the flexibility to adapt dynamically to changing network conditions by trying multiple strategies to connect, even when certain types of content or traffic are being filtered.",
+        "message": "Để đảm bảo giao thông của Psiphon không bị nhận diện, điều tối cần thiết là làm cho giao thông ra vẻ chung chung, bình thường đối với một quan sát viên bên ngoài. Ứng dụng Psiphon có khả năng linh động để thích nghi với tình trạng mạng thay đổi bằng cách thử nhiều chiến lược kết nối, ngay cả khi một số loại nội dung hay giao thông đang bị sàng lọc.",
         "description": "Section 1 paragraph for the Psiphon Guide page. A general description of how Psiphon adapts to various network conditions. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-servers": {
@@ -1764,75 +1760,75 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-11": {
-        "message": "Psiphon operates a large network of servers. Each Psiphon app needs to know some information about the servers it's trying to reach in order to make a connection. Newly downloaded Psiphon apps contain a short list of known servers within the network that it attempts to connect to. Censors may routinely try to block some Psiphon servers, therefore many need to be available.",
+        "message": "Psiphon điều hành một mạng nhiều máy chủ. Mỗi ứng dụng Psiphon cần biết một số thông tin của máy chủ mà nó đang tìm cách với tới để lập kết nối. Ứng dụng Psiphon vừa tải về có chứa một danh sách ngắn máy chủ được biết đến trong mạng mà ứng dụng đang tìm cách kết nối. Nhà kiểm duyệt có thể thường xuyên tìm cách chặn các máy chủ Psiphon, do đó cần có sẵn nhiều máy chủ.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-12": {
-        "message": "The network is always changing. Psiphon continuously deploys new servers across numerous locations worldwide. The Psiphon app will receive updated information about how to access them. Over time, a single Psiphon app may eventually gain knowledge of hundreds of new Psiphon servers.",
+        "message": "Mạng luôn thay đổi. Psiphon liên tục triển khai máy chủ mới trên nhiều địa điểm trên thế giới. Ứng dụng Psiphon sẽ nhận được thông tin cập nhật về cách tiếp cận các máy chủ mới này. Theo thời gian, một ứng dụng Psiphon có thể tích tụ kiến thức về hàng trăm máy chủ Psiphon mới.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-different-vpn": {
-        "message": "What makes Psiphon different than a VPN?",
+        "message": "Psiphon khác biệt với VPN ở điểm nào?",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-13": {
-        "message": "Virtual private networks (VPNs) are designed to allow users to send and receive data through a secure network tunnel. VPNs may even make use of very strong encryption, however, the majority of VPNs are not designed for circumvention purposes. VPNs are created for normal network conditions. VPN tools don't do anything special to disguise the nature of their traffic and communicate through one type of protocol. VPN traffic can be identified, so censors are able to block VPN traffic. Several countries are known to filter or degrade VPN connections, and others have been observed blocking VPNs in response to events such as elections or political protests. Today, modern censorship technology has made this kind of blocking relatively simple for censors.",
+        "message": "Mạng riêng ảo (VPN) được thiết kế để cho phép người dùng gửi và nhận dữ liệu xuyên qua một đường hầm mạng an toàn và bảo mật. VPN có thể dùng mã hóa thật cứng cáp, tuy nhiên, phần lớn VPN không được thiết kế cho mục tiêu vượt thoát kiểm duyệt. VPN được kiến tạo cho tình trạng mạng bình thường. Công cụ VPN không làm gì đặc biệt để ngụy trang bản chất của giao thông và chỉ thông tin liên lạc bằng một loại giao thức. Giao thông VPN có thể bị nhận diện, do đó nhà kiểm duyệt có thể chặn giao thông VPN. Nhiều quốc gia được biết là sàng lọc hoặc làm giảm sút kết nối VPN, và có nơi được thấy chặn VPN để phản ứng với sự kiện bầu cử hay phản đối chính trị. Hiện thời, công nghệ kiểm duyệt tân tiến giúp việc ngăn chặn rất dễ dàng cho nhà kiểm duyệt.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-14": {
-        "message": "Psiphon allows users to send and receive data through a secure network while also disguising the type of traffic being transmitted and even where it is coming from. Psiphon technology is designed to be resilient to censorship, including attempts to interfere with Psiphon network traffic directly. The numerous secure protocols used by Psiphon apps all appear different to censors, making it difficult to differentiate between Psiphon traffic and other types of internet use. Even if one traffic type is filtered on a network, Psiphon is able to connect through another protocol. Psiphon works where many other tools do not.",
+        "message": "Psiphon cho phép người dùng gửi và nhận dữ liệu qua mạng an toàn, bảo mật cùng lúc đó ngụy trang loại giao thông đang được chuyển tải và ngay cả gốc gác từ đâu đến. Công nghệ Psiphon được thiết kế để có sức chịu đựng bền bĩ với kiểm duyệt, kể cả nỗ lực gây trở ngại trực tiếp với giao thông mạng của Psiphon. Nhiều giao thức bảo mật được ứng dụng Psiphon dùng tất cả đều nhìn thấy khác đối với nhà kiểm duyệt, khiến cho họ khó phân biệt được đâu là giao thông Psiphon và các loại giao thông mạng khác. Ngay cả khi một loại giao thông bị sàng lọc trong một mạng, Psiphon có khả năng kết nối bằng một giao thức khác. Psiphon làm được trong khi nhiều công cụ khác không làm được.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-trust": {
-        "message": "How do I know I can trust Psiphon?",
+        "message": "Làm sao tôi biết là tin Psiphon được?",
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-15": {
-        "message": "Psiphon is an open source application which means that its source code is available for anyone to review and comment on how the system is implemented and the underlying cryptographic technologies. Psiphon not only performs internal code reviews, but also has regular code <a href=\"#psiphonguide_section3\">audits</a> and penetration tests performed by various external firms.",
+        "message": "Psiphon là một ứng dụng mã nguồn mở có nghĩa là mã nguồn ai cũng xem được và góp ý với cách thực hiện và công nghệ mã hóa nền tảng. Psiphon không những duyệt xét mã nội bộ, mà còn thường xuyên có <a href=\"#psiphonguide_section3\">kiểm tra</a> mã nguồn và kiểm thử xâm nhập của các công ty bên ngoài thực hiện.",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-16": {
-        "message": "Psiphon technology is made available through multiple propagation strategies. If one method is blocked or unavailable in your country, there are other techniques you can use to obtain the app.",
+        "message": "Công nghệ Psiphon được phát tán bằng nhiều cách khác nhau. Nếu một cách nào bị chặn hay không dùng được ở quốc gia bạn, có kỹ thuật khác để lấy ứng dụng.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-17": {
-        "message": "Psiphon is available on Android, iOS, Macs with Apple Silcon, and Windows, at our download page.",
+        "message": "Psiphon có sẵn cho Android, iOS, Macs với Apple Silicon, và Windows, trong trang tải về.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-18": {
-        "message": "Android and Windows versions of Psiphon are also available through an email responder.",
+        "message": "Phiên bản của Psiphon cho Android và Windows có thể lấy về qua email tự động hồi đáp.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-19": {
-        "message": "Send a blank email to <a href=\"mailto:get@psiphon3.com\">get@psiphon3.com.</a>",
+        "message": "Gửi email trống đến <a href=\"mailto:get@psiphon3.com\">get@psiphon3.com.</a>",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-20": {
-        "message": "<strong>Android:</strong> Search for “Psiphon” in the Google Play store. Depending on your region, you may have the option of downloading Psiphon Pro, with an option to purchase a subscription. This upgrade allows you to increase speed and remove ads.",
+        "message": "<strong>Android:</strong> Tìm “Psiphon” trong cửa hàng Google Play. Tùy theo vùng bạn ở, có thể có tùy chọn để tải Psiphon Pro, với tùy chọn mua thuê bao. Cập nhật lên phiên bản Pro sẽ cho bạn tốc độ nhanh hơn và không có quảng cáo.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-21": {
-        "message": "<strong>Android Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Visit the download link or download the file 'PsiphonAndroid.ap_' attached to the email and rename it to have a “.apk” file extension, if necessary. Download Psiphon. Find the Psiphon icon on your phone and click on it to open.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
+        "message": "<strong>Cài đặt bằng Email Tự Động Hồi Đáp cho Android:</strong> Sẽ có email từ noreply@psiphon3.com gửi đến cho bạn trong giây lát. Kiểm trong ngăn thư rác nếu không thấy trong ngăn inbox. Bấm vào đường liên kết tải xuống hoặc tải tập tin 'PsiphonAndroid.ap_' đính kèm trong email ra và đổi tên tập tin lại để có phần mở rộng “.apk”, nếu cần. Tìm biểu tượng Psiphon trong điện thoại và bấm vào để mở lên. Nếu bạn không thể nhận ứng dụng trực tiếp qua email tự động hồi đáp, thử dùng một dịch vụ email khác cho địa chỉ nhận.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-22": {
-        "message": "<strong>Windows Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Download the file 'psiphon3' attached to the email and rename it to have a “.exe” file extension.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
+        "message": "<strong>Cài đặt bằng Email Tự Động Hồi Đáp cho Windows:</strong> Sẽ có email từ noreply@psiphon3.com gửi đến cho bạn trong giây lát. Kiểm trong ngăn thư rác nếu không thấy trong ngăn inbox. Tải tập tin 'psiphon3' đính kèm trong email ra và đổi tên tập tin lại để có phần mở rộng “.exe”.  Nếu bạn không thể nhận ứng dụng trực tiếp qua email tự động hồi đáp, thử dùng một dịch vụ email khác cho địa chỉ nhận.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-23": {
-        "message": "<strong>iOS:</strong> Search for “Psiphon” in the App Store. <strong>Installation:</strong> Search for Psiphon in the App Store and click 'Get' to download and install. You may be asked to re-enter your Apple ID and password. Find the Psiphon icon on your phone and click on it to open.",
+        "message": "<strong>iOS:</strong> Tìm “Psiphon” trong cửa hàng App Store. <strong>Cài đặt:</strong> Tìm Psiphon trong cửa hàng App Store rồi bấm 'Get' để tải xuống và cài đặt. Bạn có thể được yêu cầu điền lại Apple ID và mật khẩu. Tìm biểu tượng Psiphon trong điện thoại và bấm vào để mở lên.",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-24": {
-        "message": "Having trust in an internet tool or service begins with trust in the company that provides it. There are several important indicators to help gauge trustworthiness of tools and services. This document outlines Psiphon's source code, sustainability model, and external audits.",
+        "message": "Tin tưởng vào một công cụ hay dịch vụ internet bắt đầu bằng sự tin cậy vào công ty cung cấp chúng. Có nhiều chỉ dấu quan trọng để giúp đo lương mức độ tin cậy của dịch vụ và công cụ. Tài liệu này phác thảo mã nguồn, mô hình bền vững, và kiểm tra bên ngoài của Psiphon.",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-25": {
-        "message": "Psiphon is an open source project. Open source means that the source code is shared publicly and anyone is able to review and make suggestions. By allowing interested parties access to inspect the source code, open source applications can increase confidence in how applications are designed.",
+        "message": "Psiphon là một đề án nguồn mở. Nguồn mở có nghĩa là mã nguồn được chia sẻ công khai và bất cứ ai cũng có thể xem được và góp ý. Khi cho phép người khác quan tâm truy cập để duyệt xét mã nguồn, ứng dụng nguồn mở có thể gia tăng độ tin cập vào thiết kế của ứng dụng. ",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-security-splash-alt": {
-        "message": "Psiphon Guide Security and Trust splash image",
+        "message": "hình spash cho phần Bảo mật và Tin cậy của cẩm nang Psiphon",
         "description": "splash image for Section 3 of the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-sub-heading-source-code": {
@@ -1840,75 +1836,75 @@
         "description": "Sub-heading of Section 3 for the Psiphon Guide page."
     },
     "psiphon-guide-para-26": {
-        "message": "Find the source code and design documents here.",
+        "message": "Xem mã nguồn và tài liệu thiết kế nơi đây.",
         "description": "Section 3 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-3-sub-heading-sustainability-model": {
-        "message": "Sustainability Model",
+        "message": "Mô hình Bền vững",
         "description": "Sub-heading of Section 3 for the Psiphon Guide page. The title refers to how Psiphon is able to sustain our network."
     },
     "psiphon-guide-para-27": {
-        "message": "Psiphon has always been free to users. It is our mission to reach as many people as possible, which in part means eliminating economic barriers.",
+        "message": "Psiphon luôn miễn phí cho người dùng. Sứ mệnh của chúng tôi là càng có nhiều người dùng có thể được, vì vậy có nghĩa là phải loại bỏ rào cản tài chính.",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-28": {
-        "message": "Psiphon is committed to protecting our user data. So how does the company maintain a worldwide network?",
+        "message": "Psiphon cam kết bảo vệ dữ liệu người dùng. Vậy thì làm sao công ty chúng tôi duy trì một mạng toàn cầu?",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-29": {
-        "message": "Psiphon is able to sustain operational costs by maintaining a diversity of income sources including:",
+        "message": "Psiphon có khả năng chịu đựng phí tổn điều hành bằng cách duy trì các nguồn lợi tức đa dạng, bao gồm:",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-list-item-1": {
-        "message": "Winning international grants for technology development and network maintenance.",
+        "message": "Thắng được các trợ cấp quốc tế cho phát triển công nghệ và bảo trì mạng.",
         "description": "Section 3 list item for the Psiphon Guide page. Each list item in this section refers to Psiphon's actions relating to funding sources and revenue models."
     },
     "psiphon-guide-section-3-list-item-2": {
-        "message": "Working with media partners to distribute content using branded Psiphon clients.",
+        "message": "Làm việc với các đối tác truyền thông để phổ biến nội dụng dùng trình Psiphon có đóng nhãn.",
         "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-list-item-3": {
-        "message": "Collaborating with ad networks in certain regions.",
+        "message": "Hợp tác với các mạng quảng cáo tại một số vùng.",
         "description": "Section 3 list item for the Psiphon Guide page."
     },
     "psiphon-guide-section-3-list-item-4": {
-        "message": "Offering subscriptions for premium service in certain regions.",
+        "message": "Cung ứng thuê bao cho các dịch vụ thượng hạng trong một số vùng.",
         "description": "Section 3 list item for the Psiphon Guide page."
     },
     "psiphon-guide-para-30": {
-        "message": "A software audit is the internal or external review of a software program to check its quality, progress, standards, and security. Internal code audits are performed regularly, and external code audits are generally triggered by major code changes such as the development of new features. External security audits are rigorous assessments conducted by third-party vendors to identify and record vulnerabilities and external threats in the source code. Audits help ensure the security of Psiphon users.",
+        "message": "Kiểm tra phần mềm là việc duyệt xét nội bộ hay của bên ngoài cho một trình phần mềm để kiểm chất lượng, tiến triển, chuẩn mục, và độ an toàn bảo mật. Kiểm tra mã nội bộ được thực hiện thường xuyên, và kiểm tra mã do bên ngoài thông thường khởi sự khi có thay đổi lớn về mã nguồn chẳng hạn như phát triển các tính năng mới. Kiểm tra bảo mật bên ngoài là việc đánh giá chặt chẻ do các bên thứ ba thực hiện để phát hiện ra và ghi lại các lổ hổng an ninh và mối đe dọa từ bên ngoài trong mã nguồn. Kiểm tra giúp đảm bản sự an toàn, bảo mật cho người dùng Psiphon.",
         "description": "Section 3 paragraph for the Psiphon Guide page. A description of what software audits are. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-31": {
-        "message": "During an external code audit, Psiphon will work closely with the vendor. Any issues found are addressed based on importance, and then retested by the vendor. It is Psiphon's policy to make code reviews public. Find Psiphon's blog posts about these assessment events and the corresponding reports below.",
+        "message": "Trong lúc thực hiện kiểm tra mã nguồn bên ngoài, Psiphon sẽ làm việc sát với công ty kiểm tra. Bất cứ vấn đề nào tìm ra sẽ được giải quyết theo mức độ quan trọng của nó, và sẽ được công ty kiểm tra kiểm nghiệm lại. Chính sách của Psiphon là công khai hóa cuộc duyệt xét mã nguồn. Xin tìm đọc bài đăng blog của Psiphon về các đánh giá này và báo cáo tương ứng dưới đây.",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-sub-heading-security-audits": {
-        "message": "External Security Audits",
+        "message": "Kiểm tra Bảo Mật Bên Ngoài",
         "description": "Section 3 subheading for the Psiphon Guide page."
     },
     "psiphon-guide-section-3-list-item-5": {
-        "message": "2014 - Blog: Independent Security Assessment of Psiphon3",
+        "message": "2014 - Blog: Đánh giá Độc lập về độ An toàn của Psiphon3",
         "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon3' must not be transliterated."
     },
     "psiphon-guide-section-3-list-item-6": {
-        "message": "2017 – Blog: Psiphon Completes Another Third Party Security Review",
+        "message": "2017 – Blog: Psiphon Hoàn tất một Duyệt xét Bảo mật khác của Bên thứ Ba",
         "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-32": {
-        "message": "Psiphon values your privacy. Information about the data collected by Psiphon are detailed in our <a href=\"privacy.html\"> Privacy Policy </a>",
+        "message": "Psiphon coi trọng sự riêng tư của bạn. Thông tin về dữ liệu Psiphon thâu thập được trình bày rõ trong <a href=\"privacy.html\"> Chính sách Quyền Riêng Tư </a> của chúng tôi.",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-optimal-connections": {
-        "message": "Best Practices for Optimal Connections",
+        "message": "Thói quen Tốt nhất để có Kết nối Tối ưu",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-33": {
-        "message": "Use the latest version. The most current version of the Psiphon app has the most up to date connection capabilities. See Section 2 Getting and Installing Psiphon for more information about how to obtain authentic versions of Psiphon. Update the Psiphon app when new updates become available.",
+        "message": "Dùng phiên bản mới nhất. Phiên bản gần đây nhất của ứng dụng Psiphon có khả năng kết nối cập nhất nhất. Xem Phần 2: Lấy và Cài đặt Psiphon để có thêm chi tiết cách lấy phiên bản chính thức của Psiphon. Cập nhật ứng dụng Psiphon khi có phiên bản mới.",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-34": {
-        "message": "<strong>Android:</strong> Nếu bạn cài đặt Psiphon cho Android từ cửa hàng Google Play, nó sẽ được tự động cập nhật bởi cửa hàng Play khi có phiên bản mới. Nếu bạn sideload (cài theo đường tắt), ứng dụng Psiphon sẽ tải về bản cập nhật khi có, và sẽ báo cho bạn để cài đặt bản cập nhật.",
+        "message": "<strong>Android:</strong> Nếu bạn cài đặt Psiphon cho Android từ cửa hàng Google Play, nó sẽ được tự động cập nhật bởi cửa hàng Play khi có phiên bản mới. Nếu bạn sideload Psiphon (cài theo đường tắt), ứng dụng Psiphon sẽ tải về bản cập nhật khi có, và sẽ báo cho bạn để cài đặt bản cập nhật.",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-35": {
@@ -1916,63 +1912,63 @@
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-36": {
-        "message": "<strong>iOS:</strong> The Psiphon for iOS client will automatically download and install updates via the App Store as they are available.",
+        "message": "<strong>iOS:</strong> Ứng dụng Psiphon cho iOS sẽ tự động tải xuống và cài đặt bản cập nhật qua cửa hàng App Store khi có phiên bản mới.",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-37": {
-        "message": "<strong>Manually updating:</strong> If the Psiphon self-updating mechanism isn't working (for example, if it has been blocked), follow the instructions outlined in Section 2: Getting and Installing Psiphon to get a fresh version.",
+        "message": "<strong>Tự làm cập nhật:</strong> Nếu cơ chế tự động cập nhật của Psiphon không chạy (ví dụ như nếu bị chặn), theo hướng dẫn trong Phần 2: Lấy và Cài đặt Psiphon để lấy phiên bản mới.",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-strained-environment": {
-        "message": "Connecting in a Strained Environment",
+        "message": "Kết nối trong một Môi trường Căng thẳng",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-38": {
-        "message": "Under certain network conditions, Psiphon might take up to a few minutes before finding the best way to connect. Do not interrupt it (by hitting the start/stop button). Psiphon uses a variety of protocols and they differ regionally. Not only does the Psiphon app have a variety of connection techniques, it will learn from previous attempts and the successful connection method will be used the next time the app is run.",
+        "message": "Trong một số tình trạng mạng, Psiphon có thể mất vài phút để tìm cách kết nối tốt nhất. Đừng gián đoạn (bằng cách bấm nút bắt đầu/ngưng). Psiphon dùng một số giao thức khác nhau cho các vùng khác nhau. Psiphon không những có một số kỹ thuật kết nối khác nhau, mà còn học hỏi từ những lần thử kết nối trước và cách kết nối nào thành công sẽ được dùng cho lần kế tiếp.",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-frequent-disconnections": {
-        "message": "Frequent Disconnections",
+        "message": "Ngắt kết nối Thường xuyên",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-39": {
-        "message": "If you experience frequent disruptions, try the following:",
+        "message": "Nếu bạn gặp gián đoạn thường xuyên, thử làm sau đây:",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-1": {
-        "message": "Check your internet connection or make sure you have data. The app needs to be connected to the internet to work.",
+        "message": "Kiểm lại kết nối Internet hoặc đảm bảo là bạn có data. Ứng dụng cần kết nối vào internet để làm việc.",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-2": {
-        "message": "Make sure you have the latest version. (See above).",
+        "message": "Đảm bảo là bạn có phiên bản mới nhất. (Xem bên trên).",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-3": {
-        "message": "Restart the Psiphon app.",
+        "message": "Khởi động lại ứng dụng Psiphon",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-list-item-4": {
-        "message": "If you modified any connection settings, try resetting the app to default (See <a href=\"#psiphonguide_section5\">Section 5</a>).",
+        "message": "Nếu bạn có sử đổi bất kỳ thiết đặt kết nối nào, thử đặt ứng dụng trở lại mặc định (Xem <a href=\"#psiphonguide_section5\">Phần 5</a>).",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-sub-heading-more-troubleshooting": {
-        "message": "More Troubleshooting",
+        "message": "Thêm Chẩn đoán vấn đề",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-40": {
-        "message": "For more answers to additional troubleshooting topics, visit our <a href=\"faq.html\">FAQ</a>",
+        "message": "Để có thêm thông tin về các đề tài chẩn đoán vấn đề khác, xin xem <a href=\"faq.html\">FAQ</a>",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-sub-heading-send-feedback": {
-        "message": "Send Feedback",
+        "message": "Gửi Phản hồi",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-41": {
-        "message": "Please send us feedback through the app if connection issues persist.",
+        "message": "Xin gửi phản hồi cho chúng tôi qua ứng dụng nếu vẫn còn gặp trở ngại kết nối.",
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-sub-heading-feedback-windows": {
-        "message": "Feedback on Windows",
+        "message": "Phản hồi trong Windows",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-ui-image-annotation-feedback": {
@@ -1980,23 +1976,23 @@
         "description": "Image annotation for the 'Feedback' tab inside the Psiphon application. 'Feedback' must appear as it does in each respective language inside the app."
     },
     "psiphon-guide-windows-feedback-alt": {
-        "message": "Feedback screenshot for Psiphon Windows feedback tab",
+        "message": "Ảnh chụp màn hình phản hồi cho trang phản hồi Psiphon trong Windows",
         "description": "Feedback screenshot for Psiphon Windows feedback tab."
     },
     "psiphon-guide-android-feedback-alt": {
-        "message": "Feedback screenshot for Psiphon Android feedback tab",
+        "message": "Ảnh chụp màn hình phản hồi cho trang phản hồi Psiphon trong Android",
         "description": "Feedback screenshot for Psiphon Android feedback tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-ios-feedback-alt": {
-        "message": "Feedback screenshot for Psiphon iOS feedback tab",
+        "message": "Ảnh chụp màn hình phản hồi cho trang phản hồi Psiphon trong iOS",
         "description": "Feedback screenshot for Psiphon iOS feedback tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-feedback-android": {
-        "message": "Feedback on Android",
+        "message": "Phản hồi trong Android",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-section-4-sub-heading-feedback-ios": {
-        "message": "Feedback on iOS",
+        "message": "Phản hồi trong iOS",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-section-5-sub-heading-language": {
@@ -2004,71 +2000,71 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page"
     },
     "psiphon-guide-para-42": {
-        "message": "By default, the Psiphon app will automatically open in your selected device language (the language on your phone or computer). There are more than 30 languages available to choose from if you would prefer to use the Psiphon app in another language.",
+        "message": "Ứng dụng Psiphon sẽ dùng ngôn ngữ mặc định của thiết bị  (ngôn ngữ trong điện thoại hay máy tính). Có hơn 30 ngôn ngữ để chọn nếu bạn thích dùng ứng dụng Psiphon bằng một ngôn ngữ khác.",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-connection-performance": {
-        "message": "Connection Performance",
+        "message": "Hiệu năng Kết nối",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-43": {
-        "message": "When connected, all traffic from your device will be tunneled through Psiphon by default. To reduce latency and increase connection performance, you may choose to exclude some traffic from the Psiphon tunnel.",
+        "message": "Khi kết nối xong, tất cả giao thông từ thiết bị của bạn sẽ được xuyên hâ1m qua Psiphon theo mặc định. Để giảm độ trễ và tăng hiệu suất kết nối, bạn có thể chọn loại trừ một số giao thông ra khỏi hầm Psiphon.",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-44": {
-        "message": "Psiphon Android users can either individually include or exclude specific apps from the tunnel on devices Android 5.0 and higher. To select which apps use or do not use the Psiphon tunnel, go to OPTIONS, then choose VPN settings. Select specific apps to include or exclude from the Psiphon tunnel.",
+        "message": "Người dùng Psiphon trên Android có thể bao gồm hay loại trừ từng ứng dụng riêng biệt ra khỏi hầm trên thiết bị Android 5.0 hay mới hơn. Để chọn ứng dụng nào được phép dùng hay không dùng hầm Psiphon, vào phần TÙY CHỌN, rồi chọn thiết đặt VPN. Chọn ứng dụng riêng biệt để bao gồm hay loại trừ ra khỏi hầm Psiphon.",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-45": {
-        "message": "In Psiphon's Windows application, users have the option to exclude local websites from the Psiphon tunnel. The Psiphon app will disregard local websites, so the local websites can be accessed faster. To do so, go into SETTINGS > Split Tunnel > and select \"Don't proxy websites within your home country.\"",
+        "message": "Trong ứng dụng Psiphon trên Windows, người dùng có tùy chọn để loại trừ các trang địa phương ra khỏi hầm Psiphon. Ứng dụng Psiphon sẽ lờ các trang địa phương, do đó trang web địa phương được truy cập lẹ hơn. Để làm việc này, vào THIẾT ĐẶT > Tách Đường Hầm > \"Đừng proxy các trang web bên trong quốc gia bạn\"",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'SETTINGS', and 'Split Tunnel', and 'Don't proxy websites within your home country.' should appear as it does in the Psiphon Windows app. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-slow-networks": {
-        "message": "Slow Networks",
+        "message": "Mạng Chậm",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-46": {
-        "message": "To stay connected on a slow network, opt in to 'Disable timeouts.' This option is available on Android, Windows, and iOS.",
+        "message": "Để giữ kết nối trong một mạng chậm, chọn 'Tắt hạn chờ'. Tùy chọn này có trong Android, Windows, và iOS.",
         "description": "Section 5 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-5-sub-heading-server-location": {
-        "message": "Psiphon Server Location",
+        "message": "Địa điểm Máy Chủ Psiphon",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-47": {
-        "message": "Psiphon servers are located across the globe. The app automatically chooses the server with the best connection performance. There are more than 20 countries to choose from should you wish to change server location.",
+        "message": "Máy chủ Psiphon ở khắp nơi trên thế giới. Ứng dụng sẽ tự động chọn máy chủ với kết nối tốt nhất. Có hơn 20 quốc gia để chọn nếu bạn muốn chọn một máy chủ từ vùng khác.",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-windows-settings": {
-        "message": "Settings on Windows",
+        "message": "Thiết đặt trong Windows",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the Windows app."
     },
     "psiphon-guide-section-5-sub-heading-android-settings": {
-        "message": "Settings on Android",
+        "message": "Thiết đặt trong Android",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the Android app."
     },
     "psiphon-guide-section-5-sub-heading-ios-settings": {
-        "message": "Settings on iOS",
+        "message": "Thiết đặt trong iOS",
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the iOS app."
     },
     "psiphon-guide-windows-settings-alt": {
-        "message": "Feedback screenshot for Psiphon Windows settings tab",
+        "message": "Ảnh chụp màn hình phản hồi cho trang thiết đặt Psiphon trong Windows",
         "description": "Feedback screenshot for Psiphon Windows settings tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-android-settings-alt": {
-        "message": "Feedback screenshot for Psiphon Android settings tab",
+        "message": "Ảnh chụp màn hình phản hồi cho trang thiết đặt Psiphon trong Android",
         "description": "Feedback screenshot for Psiphon Android settings tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-ios-settings-alt": {
-        "message": "Feedback screenshot for Psiphon iOS settings tab",
+        "message": "Ảnh chụp màn hình phản hồi cho trang thiết đặt Psiphon trong iOS",
         "description": "Feedback screenshot for Psiphon iOS settings tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-windows-ui-reset-default-image-annotation": {
-        "message": "Khôi phục về Mặc định",
+        "message": "Lập lại mặc định",
         "description": "Image annotation for the 'Reset to Default' option inside the Psiphon Windows application. 'Reset to Default' must appear as it does in each respective language inside the Windows app."
     },
     "psiphon-guide-ui-settings-image-annotation": {
-        "message": "Cài đặt",
+        "message": "Thiết đặt",
         "description": "Image annotation for the 'Settings' tab inside the Windows and iOS Psiphon application. 'Settings' must appear as it does in each respective language inside the iOS app."
     },
     "psiphon-guide-ui-android-options-image-annotation": {
@@ -2076,15 +2072,15 @@
         "description": "Image annotation for the 'Options' tab inside the Android Psiphon application. 'Options' must appear as it does in each respective language inside the Android app."
     },
     "donate-nav-title": {
-        "message": "Donate to Psiphon",
+        "message": "Tặng tiền cho Psiphon",
         "description": "Donation page navigation title. 'Psiphon' must not be translated or transliterated."
     },
     "donate-title": {
-        "message": "Donate to Psiphon",
+        "message": "Tặng tiền cho Psiphon",
         "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
     },
     "donate-description": {
-        "message": "Donation page allowing users and other concerned people to help Psiphon financially.",
+        "message": "Trang quyên góp cho phép người dùng và những ai quan tâm hỗ trợ tài chánh cho Psiphon.",
         "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-meta-title": {
@@ -2092,15 +2088,15 @@
         "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-header": {
-        "message": "Help Psiphon,<br>Help everyone!",
+        "message": "Giúp Psiphon,<br>Giúp tất cả!",
         "description": "Large header on the donate page. In English, this is a play on a combination of 'Help Psiphon to help everyone' and 'If you help Psiphon, you are helping everyone.' Adjust as appropriate for you language. You can use or not use the '<br'> as you see fit. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-para1": {
-        "message": "We help tens of millions of people around the world freely access the internet. These efforts cost a lot of money every month and we need your help to keep internet freedom fast and effective.",
+        "message": "Chúng tôi giúp hàng chục triệu người trên thế giới truy cập internet miễn phí. Nỗ lực này tốn rất nhiều tiền hàng tháng và chúng tôi cần sự hỗ trợ của bạn để cho internet được tự do, nhanh và hữu hiệu.",
         "description": "Paragraph text on the donate page. 'Psiphon' must not be translated or transliterated."
     },
     "donate-jumbo-donate-button": {
-        "message": "Donate with Debit or Credit Card",
+        "message": "Tặng tiền bằng Thẻ Tín Dụng hoặc Thẻ Ghi Nợ",
         "description": "Button text on the donate page. 'PayPal' should use the localized form common to your language/region."
     }
 }

@@ -1220,7 +1220,7 @@
         "description": "Heading for a section in our privacy policy."
     },
     "privacy-information-collected-data-categories-header": {
-        "message": "Data Categories",
+        "message": "資料類別",
         "description": "Heading for a section in our privacy policy. Under this heading will be sections with the different categories of data covered by the privacy policy."
     },
     "privacy-information-collected-client-ads-head": {
@@ -1229,10 +1229,6 @@
     },
     "privacy-information-collected-client-advertising-networks-para-1": {
         "message": "我們有時使用廣告系統支持我們的服務，這可能使用諸如 Cookie 和 Web 信標技術。我們的廣告合作商使用 Cookie 使他們及其合作伙伴基於您的使用資料為您提供廣告。這一過程收集的任何資料將依於合作廣告商的隱私政策處理。",
-        "description": ""
-    },
-    "privacy-information-collected-client-advertising-networks-para-2": {
-        "message": "您可以選擇不使用 Cookie 相關的基於訪問興趣的廣告網路：",
         "description": ""
     },
     "privacy-information-collected-websites-head": {
@@ -1248,7 +1244,7 @@
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-2": {
-        "message": "Google Analytics sets a permanent cookie in your web browser to identify you as a unique user the next time you visit the site, but this cookie cannot be used by anyone except Google, and the data collected cannot be altered or retrieved by services from other domains.",
+        "message": "Google Analytics 在您的瀏覽器留置了永久的 cookies 以便在下回訪問時得以辨別出特定用戶，這些 cookies 為 Google 專用，其它域名服務無法變更或獲取這些資料。\n ",
         "description": ""
     },
     "privacy-information-collected-websites-google-analytics-para-3": {
@@ -1324,23 +1320,23 @@
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes why it's important for users to consider what a VPN does with their traffic data."
     },
     "privacy-information-collected-vpndata-whycare-para-1": {
-        "message": "When using a VPN or proxy you should be concerned about what the VPN provider can see in your data, collect from it, and do to it.",
+        "message": "當使用 VPN 代理時，您需考慮 VPN  服務商會知道、收集您的何種資料以及會如何處置使用這些資料。",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whycare-para-2": {
-        "message": "When you use a VPN, all data to and from your device goes through it. If you visit a website that uses unencrypted HTTP, all of that site's data is visible to the VPN. If you visit a website that uses encrypted HTTPS, the site content is encrypted, but some information about the site might be visible to the VPN. Other apps and services on your device will also transfer data that is encrypted or unencrypted. (Note that this is distinct from the encryption that all VPNs provide. Here we're only concerned with data that is or is not encrypted <em>inside</em> the VPN tunnel.)",
+        "message": "當使用 VPN 時，設備上全部進出的資料都會經過它。若您訪問一個未加密的 HTTP 網站，則 VPN 可看到在該網站的活動資料；若網站有使用 HTTPS 則內容會經過加密，但 VPN 仍可看到部份資訊。您設備上的應用程式與服務也會傳輸加密或未加密的資料 ( 注意，此處的加密與所有 VPN 提供的加密有所不同，這裏我們僅關注在<em>VPN 隧道內部</em> 的資料有無加密)。",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an 'emphasis' (like italics) HTML tag, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whycare-para-3": {
-        "message": "For unencrypted services, it is possible for a VPN provider to see, collect, and modify (e.g., injecting ads into) the contents of your data. For encrypted data, it is still possible for a VPN to collect metadata about sites visited or actions taken. You should also be concerned with your VPN provider sharing your data with third parties.",
+        "message": "未經加密的服務， VPN 供應商可能會看到、收集與修改 (例如 插入廣告) 您的資料內容。而加密過的資料， VPN 仍可能會收集訪問網站的元數據或相關活動。您應該關心 VPN 供應商如何與第三者分享用戶的資料。 ",
         "description": "Paragraph text in the 'Why should you care?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-subhead": {
-        "message": "What does Psiphon <strong>NOT</strong> do with your data?",
+        "message": "Psiphon <strong>不會</strong>拿把您的資料作何種使用？",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what undesirable things Psiphon DOES NOT do with user data. '<strong>' is an HTML tag that makes text bold, which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-1": {
-        "message": "We DO NOT collect or store any VPN data that is not mentioned here.",
+        "message": "我們不會收集或儲存任何此處未提到的 VPN  資料。",
         "description": "Paragraph text in the 'What does Psiphon NOT do with your data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphonnotdowith-para-2": {
@@ -1356,7 +1352,7 @@
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-kindsofdata-para-1": {
-        "message": "We will define some categories of data to help us talk about them in the context of Psiphon.",
+        "message": "我們會規範某些資料類別，以助於在使用 Psiphon  的情境下明確其含義。",
         "description": "Paragraph text in the 'What kinds of user data does Psiphon collect?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-subhead": {
@@ -1364,19 +1360,19 @@
         "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-1": {
-        "message": "While a user's device is tunneled through Psiphon, we collect some information about how they're using it. We record what protocol Psiphon used to connect, how long the device was connected, how many bytes were transferred during the session, and what city, country, and ISP the connection came from. For some domains (but very few, and only popular ones) or server IP addresses (e.g., known malware servers) that are visited, we also record how many bytes were transferred to it. (But never full URLs or anything more sensitive. And only domains of general interest, not all domains.)",
+        "message": "當用戶設備道接入 Psiphon，我們會收集一些使用情況的資訊 ，包括記錄使用何種協議連入 Psiphon、連線時間長短、期間使用多少流量、來自哪個城市國家與其 ISP 供應商。用戶訪問了哪些特定網域名(僅少數常被使用的) 或伺服器 IP 位置 (e.g., 已知的惡意軟體伺服器) ，期間傳輸的流量我們也會記錄 (但不會記錄完整的 URLs 或任何更為敏感的資料，僅有一般的域名非全部網域名)。",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
-        "message": "Geographical location and ISP info are derived from user IP addresses, which are then immediately discarded.",
+        "message": "根據用戶 IP 地址所得知的地理位置與網路服務商 ISP 資料，會立即刪除。",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-3": {
-        "message": "An example of user activity data might be: At a certain time a user connected from New York City, using Comcast, and transferred 100MB from <code>youtube.com</code> and 300MB in total.",
+        "message": "用戶活動資料的例子為：某段時間一名用戶在紐約市透過 Comcast 接入，在<code>youtube.com</code> 傳輸了近100MB 流量而總用量為 300MB。",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-4.1": {
-        "message": "We consider user activity data the most sensitive category of data. We never, ever share this data with third parties. We keep user activity data for at most 90 days, and then we aggregate it and delete it. Backups of that data are kept for a reasonable amount of time.",
+        "message": "我們將用戶活動資料視為最敏感的資料類別，絕不會與第三者分享。我們會保留這類活動資料 90 天，將之加總後刪除個別資料。備份的資料則會保存一段合理的時間。",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-subhead": {
@@ -1384,15 +1380,15 @@
         "description": "Sub-heading for the definition of 'Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-1": {
-        "message": "Data is “aggregated” by taking a lot of sensitive user activity data and combining it together to form coarse statistical data that is no longer specific to a user. After aggregation, the user activity data is deleted.",
+        "message": "一大群敏感使用者的活動資料被加總起來組成統計用的粗糙資料，不會突顯某一位特定的使用者，加總之後用戶的活動資料就被刪除。",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-2": {
-        "message": "An example of aggregated data might be: On a particular day, 250 people connected from New York City using Comcast, and transferred 200GB from <code>youtube.com</code> and 500GB in total.",
+        "message": "舉個總和資料的例子：某一天，250名用戶從紐約市 Comcast 接入，在<code>youtube.com</code>使用了 200GB 的傳輸量，而當天全部的傳輸量為 500GB。 ",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-aggdata-para-3": {
-        "message": "Aggregated data is much less sensitive than activity data, but we still treat it as potentially sensitive and do not share it in this form.",
+        "message": "比起活動資料，總和資料較不敏感，但我們仍嚴正地將之視為潛在敏感性資料，也不會向別人分享。",
         "description": "Paragraph text in the 'Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-subhead": {
@@ -1400,7 +1396,7 @@
         "description": "Sub-heading for the definition of 'Shareable Aggregated Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-shareable-para-1": {
-        "message": "When sharing aggregated data with third parties, we make sure that the data could not be combined with other sources to reveal user identities. For example, we do not share data for countries that only have a few Psiphon users in a day. We make sure that the data is anonymized.",
+        "message": "當對第三者分享總和資料時，我們會確保這些資料不會與其它可揭示用戶身份的資料合併。例如我們不會分享一些國家一天只有少數 Psiphon 用戶使用的資料，也會確認資料經過匿名化處理。",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-2": {
@@ -1408,11 +1404,11 @@
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-3": {
-        "message": "An example of shareable aggregated data might be: On a particular day, 500 people connected from New York City and transferred 800GB in total.",
+        "message": "可分享的加總資料案例如：某個特定的日子，有 500人自紐約市接入其總計傳輸量為 800 GB",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-shareable-para-4": {
-        "message": "An example of data that is <em>not shareable</em>: On a particular day, 2 people connected from Los Angeles. Those people will be included in the stats for the entire US, but that is too few people to anonymously share city data for.",
+        "message": " <em>不可共享</em>的資料例如: 某天有二個人自洛衫磯接入，這些使用都會被計入全美國的統計資料，但要匿名共享城市資料則數量過少。",
         "description": "Paragraph text in the 'Shareable Aggregated Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page. '<em>' is an HTML tag that adds emphasis (like italics), which can be used if it makes sense in your language."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-subhead-v2": {
@@ -1420,19 +1416,19 @@
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes what Psiphon does with the little bit of VPN data that it collects stats from."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-1-v2": {
-        "message": "Activity and aggregated statistical data are vital for us to make Psiphon work best. It allows us to do things like:",
+        "message": "活動與總和統計資料對 Psiphon 維持正常運作至關重要，它可讓我們：",
         "description": "Paragraph text in the 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-1": {
-        "message": "Monitor the health and success of the Psiphon network: We need to know how many people are connecting, from where, how much data they're transferring, and if they're having any problems.",
+        "message": "監控 Psphon 網路的健康與順利狀況：我們需要知道多少用戶接入，接入的地區、其傳輸的流量以及是否遇上問題。",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-2": {
-        "message": "Monitor threats to our users' devices: We watch for malware infections that attempt to contact command-and-control servers.",
+        "message": "監控對用戶設備的威脅：我們觀察試圖訪問控制與指揮伺服器的惡意傳染。",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-3": {
-        "message": "Ensure users stay connected while foiling censors: We try to detect that a user is behaving like a real person and then reveal new Psiphon servers to them. (This is our obfuscated server list technology.)",
+        "message": "確保用戶規避網路審查時可順暢地連接：我們會偵察使用者行為是否為真人，再幫助他們連接上新的 Psiphon  伺服器 (此我們的模糊伺服器列表技術)",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whydoespsiphonneed-para-1-item-1": {
@@ -1448,27 +1444,27 @@
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-subhead-v2": {
-        "message": "Who does Psiphon share Aggregated Data with?",
+        "message": "Psiphon 對誰分享總和資料？",
         "description": "Sub-heading in the 'User Activity and VPN Data' section of the Privacy Policy page. The section describes who Psiphon shares VPN data stats. The answer will be organizations and not specific people, in case that makes a difference in your language."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-1-v2": {
-        "message": "Shareable aggregated data is shared with sponsors, organizations we collaborate with, and civil society researchers. The data can be used to show such things as:",
+        "message": "可分享的總和資料會與贊助人、合作組織、公民社會的研究人員共享。這些資料可用來展示：",
         "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-1": {
-        "message": "How well Psiphon is working in a particular region.",
+        "message": "Psiphon 在特定地區的運行狀況",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-2": {
-        "message": "The blocking patterns in a given country, for example during political events.",
+        "message": "某特定國家的封鎖模式，例如發生政治事件期間。",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-2-item-3": {
-        "message": "That the populace of a country is determined to access the open internet.",
+        "message": "民眾堅決地想使用開放網際網路",
         "description": "Bullet list text under 'Who does Psiphon share Aggregated Data with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whopsiphonshareswith-para-3-v2": {
-        "message": "Again, only anonymized shareable aggregated data is ever shared with third parties.",
+        "message": "再次強調，我們只向第三方提供匿名可分享的總和資料。",
         "description": "Paragraph text in the 'Who does Psiphon share these statistics with?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-psicash-para-1": {
@@ -1492,7 +1488,7 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to the date and time that the user last earned or spent PsiCash."
     },
     "privacy-information-collected-psicash-para-2-item-4": {
-        "message": "PsiCash earning history, including what actions the rewards were granted for",
+        "message": "PsiCash 獲取記錄，包括得到獎勵的行為",
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user earning PsiCash. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2-item-5": {
@@ -1500,7 +1496,7 @@
         "description": "Bullet list item in the 'operation of the system' list. This item refers to transaction history of the user spending PsiCash, such as by buying Speed Boost. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-2b": {
-        "message": "Creating a PsiCash account is optional. If an account is created, account-specific information such as username, password, and email address (if provided) are stored on the server. When logged in to a Psiphon client, the username is also stored locally.",
+        "message": "建立  PsiCash 帳號並非強制，但如果有帳號則其相關的特定資訊例如: 用戶名稱、密碼與電子郵件地址(若有提供) 就會存在伺候器上。當登入 Psiphon 用戶端軟體時，用戶名也會存在本地的設備上。",
         "description": "Paragraph text on the Privacy Policy page. Describes the user data requirements for PsiCash accounts. 'PsiCash' must not be translated or transliterated. 'Psiphon' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-3-list-start": {
@@ -1544,23 +1540,23 @@
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-psicash-para-6": {
-        "message": "PsiCash server resources are stored in AWS, which means Amazon has access to the data.",
+        "message": "PsiCash 伺候器資源存放在 AWS，這意謂著 Amazon 可以讀取這些資料。",
         "description": "Paragraph text in the 'PsiCash' section of the Privacy page. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-para-1": {
-        "message": "Users create and manage their PsiCash accounts on the <a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a> website.",
+        "message": "在<a href=\"https://my.psi.cash\" target=\"_blank\" rel=\"noopener noreferrer\">my.psi.cash</a>網站建立與管理 PsiCash 帳號",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated. 'PsiCash' must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-1": {
-        "message": "my.psi.cash uses Google’s reCAPTCHA v3 (hereinafter “reCAPTCHA”), which protects websites from spam and abuse by non-human users (i.e., bots). reCAPTCHA collects personal information that is required for the functioning of the technology and is subject to its own privacy policy. Use of my.psi.cash indicates acceptance of Google’s <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Terms</a>.",
+        "message": "my.psi.cash 使用 Google’s reCAPTCHA v3 (後稱 “reCAPTCHA”)，以保護網站免於垃圾留言與非人類的濫用 (i.e., 機器人). reCAPTCHA 因技術功能所需會收集個人資料並依照它自己的隱私政策。使用 my.psi.cash 也代表接受 Google’s <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener noreferrer\">隱私權政策</a> 與 <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">服務條款</a>。",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-2": {
-        "message": "Our use of reCAPTCHA is strictly limited to ensuring the continued functioning of my.psi.cash. reCAPTCHA technology performs an automatic analysis for each site request without requiring the user to take any additional actions. This analysis is based on interactions made by the user, and is used to mitigate bot and other malicious behaviour on our website. The data collected during analysis is forwarded to Google, where Google will use this data to determine if you are a human user. This analysis takes place in the background, and users are not advised it is taking place.",
+        "message": "我們使用 reCAPTCHA 嚴格限制在確保 my.psi.cash 持續正常運作。 reCAPTCHA 技術會自動分析各個網站的請求而未再要求用戶其它行為。它的分析是基於每位用戶的互動狀況以減少機器人或其它惡意行為破壞網站 。分析時所收集的資料會轉送到 Google, 以便判斷對方是否為真人使用者。這些分析都發生在後台，用戶不會意識這些程序正在進行。",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "privacy-information-collected-mypsicash-recaptcha-para-3": {
-        "message": "For more information about Google’s reCAPTCHA technology, please visit <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
+        "message": "請進一步了解 Google’s reCAPTCHA 技術，可至 <a href=\"https://www.google.com/recaptcha/about/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.google.com/recaptcha/about/</a>.",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page."
     },
     "privacy-information-collected-mypsicash-cookies-head": {
@@ -1568,7 +1564,7 @@
         "description": "Header text in the 'my.psi.cash' section of the Privacy page. Refers to the cookies stored by web browsers."
     },
     "privacy-information-collected-mypsicash-cookies-para-1": {
-        "message": "my.psi.cash only uses cookies and similar tracking technologies to carry out activities that are essential for the operation of the website. Essential cookies are necessary to ensure basic functions of the website. Cookies are small text files that are stored on your computer and saved by your browser, and do not represent any risk to your device. You can configure your browser settings to personalize how you would like your browser to handle cookies. Disabling essential cookies will degrade the functionality of this website.",
+        "message": "my.psi.cash 只使用網站營運必要活動中的 cookies 或其它類似追蹤技術。重要的 cookies 是為了確保網站基本功能所需，Cookies 是一些儲存在用戶端電腦上的小型文件由瀏覽器所用，不會對設備造成危險。 可透過瀏覽器設置自定調整瀏覽器如何處理 cookies。關閉必要的 cookies 可能會降低網站功能。",
         "description": "Paragraph text in the 'my.psi.cash' section of the Privacy page. 'my.psi.cash' is the domain name of the website and must not be translated or transliterated."
     },
     "faq-information-collected-answer-head-2": {
@@ -1620,11 +1616,11 @@
         "description": ""
     },
     "faq-information-collected-answer-para-11": {
-        "message": "When you send an email request to our email auto-responder server, we are able to see your email address. While your email is being processed it is saved to the email server's disk, and it is deleted as soon as it is processed (usually in a few seconds). Your email address may be written to the server system logs. These logs are deleted after one week.",
+        "message": "當您發送電郵到我們自動回應的伺服器時，我們會看到您的電子郵件地址，而您的郵件會被處理儲存到郵件伺服器的硬碟，通常待幾秒後完成了處理就會儘快將之刪除。您的電郵地址可能被記錄到系統活動日誌，而這些記錄一週後會刪除。",
         "description": ""
     },
     "faq-information-collected-answer-para-12": {
-        "message": "Our email auto-responder server is hosted in the Amazon EC2 cloud. This means that Amazon is able to see the email you send and our response to you.",
+        "message": "我們的自動回應伺服器是使用  Amazon EC2 雲端服務，這表示  Amazon 也能夠看到您所寄出的郵件與我們的回應。",
         "description": ""
     },
     "faq-information-collected-answer-para-13": {
@@ -1656,11 +1652,11 @@
         "description": ""
     },
     "psiphon-guide-nav-title": {
-        "message": "Psiphon Guide",
+        "message": "Psiphon 指南",
         "description": "Psiphon Guide. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-title": {
-        "message": "Psiphon Guide",
+        "message": "Psiphon 指南",
         "description": "Psiphon Guide page title. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-description": {
@@ -1668,7 +1664,7 @@
         "description": "Description for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-meta-title": {
-        "message": "Psiphon Guide",
+        "message": "Psiphon 指南",
         "description": "meta title for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-header-contents": {
