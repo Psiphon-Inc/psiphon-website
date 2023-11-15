@@ -428,6 +428,15 @@
   "faq-autoproxy-answer-para-1": {
     "message": "Click Run, and type <code>regedit</code> to open the Registry Editor. Find and open <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, and on the right side you will see <code>SkipProxySettings</code>. Set this value to <code>1</code> and Psiphon will not automatically configure the system proxy settings."
   },
+  "faq-whatsapp-windows-question": {
+    "message": "How can I make WhatsApp for Windows work through Psiphon?"
+  },
+  "faq-whatsapp-windows-question-toc": {
+    "message": "How can I make WhatsApp for Windows work through Psiphon?"
+  },
+  "faq-whatsapp-windows-answer-para-1": {
+    "message": "Research and user reports suggest that the WhatsApp for Windows app does not get properly proxied through Psiphon. This is a shortcoming in the WhatsApp app. If and when support is added, it is likely that <a href=\"https://faq.whatsapp.com/520504143274092/\" target=\"_blank\">this WhatsApp FAQ entry</a> will be updated with instructions. Using WhatsApp via its web interface at <a href=\"https://web.whatsapp.com/\" target=\"_blank\">web.whatsapp.com</a> does work properly through Psiphon."
+  },
   "faq-screen-filter-question": {
     "message": "When Psiphon for Android first connects, why can't I select “I trust this application”?",
     "description": "FAQ question."
