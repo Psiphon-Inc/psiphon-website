@@ -107,6 +107,10 @@
         "message": "Psiphon pour Windows n’est jamais distribué comme paquet installable. Chaque client Psiphon pour Windows est un seul fichier exécutable (« .exe ») qui est signé numériquement par Psiphon inc. Windows vérifie automatiquement cette signature quand vous exécutez le client. Vous pouvez aussi inspecter la signature manuellement avant d’exécuter le client par le biais du menu contextuel Propriétés du fichier et en contrôlant l’onglet Signatures numériques. L’empreinte SHA1 de la clé publique du certificat de Psiphon inc. est affichée dans l’onglet Détails du menu contextuel du Certificat.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2026": {
+        "message": "For the certificate valid for the period 2023-05-01 to 2026-07-28 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2023": {
         "message": "Pour le certificat valide pour la période du 09-09-2020 au 02-11-2023, l’empreinte SHA1 est :",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -437,6 +441,18 @@
     },
     "faq-autoproxy-answer-para-1": {
         "message": "Cliquez sur Exécuter et tapez <code>regedit</code> pour ouvrir l’éditeur de registre. Trouvez et ouvrez <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, et sur le côté droit vous verrez <code>SkipProxySettings</code>. Définissez cette valeur à <code>1</code> et Psiphon ne configurera pas automatiquement les paramètres du serveur mandataire système.",
+        "description": ""
+    },
+    "faq-whatsapp-windows-question": {
+        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "description": ""
+    },
+    "faq-whatsapp-windows-question-toc": {
+        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "description": ""
+    },
+    "faq-whatsapp-windows-answer-para-1": {
+        "message": "Research and user reports suggest that the WhatsApp for Windows app does not get properly proxied through Psiphon. This is a shortcoming in the WhatsApp app. If and when support is added, it is likely that <a href=\"https://faq.whatsapp.com/520504143274092/\" target=\"_blank\">this WhatsApp FAQ entry</a> will be updated with instructions. Using WhatsApp via its web interface at <a href=\"https://web.whatsapp.com/\" target=\"_blank\">web.whatsapp.com</a> does work properly through Psiphon.",
         "description": ""
     },
     "faq-screen-filter-question": {

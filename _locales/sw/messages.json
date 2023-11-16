@@ -107,6 +107,10 @@
         "message": "Psiphon kwa madirisha haziwezi kusambazwa kama kifurushi kinachowezwa kusanikishwa. kila Psiphon kwa dirisha kwa kila koteja faili linaloweza kutekelezwa (\".exe\") hii ni ishara ya dijiti kutoka Psiphon Inc. window moja kwa moja inaangalia sahihi wakati unapoendesha mtaji. unaweza kupata muongozo wa saini kabla ya kukimbia kwa koteja kuvutia mali ya mazungumzo ya faili na kukagua saini ya digito ni kuoneshwa kwenye cheti cha undani cha dialog tabo. ",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2026": {
+        "message": "For the certificate valid for the period 2023-05-01 to 2026-07-28 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2023": {
         "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -437,6 +441,18 @@
     },
     "faq-autoproxy-answer-para-1": {
         "message": "Bonyeza kuendesha, na aina <code>regedit</code>kwa kufungua uhariri wa usajili. Tafuta na ufunguo<code> HKEY_YASASA_MTUMIAJI\\programu\\Psiphon3</code> , na upande wa kulia utaona <code>Mpangilio wa Skip ya wakala</code> . weka thamni hii kwa <code>1</code> na Psiphon haita ",
+        "description": ""
+    },
+    "faq-whatsapp-windows-question": {
+        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "description": ""
+    },
+    "faq-whatsapp-windows-question-toc": {
+        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "description": ""
+    },
+    "faq-whatsapp-windows-answer-para-1": {
+        "message": "Research and user reports suggest that the WhatsApp for Windows app does not get properly proxied through Psiphon. This is a shortcoming in the WhatsApp app. If and when support is added, it is likely that <a href=\"https://faq.whatsapp.com/520504143274092/\" target=\"_blank\">this WhatsApp FAQ entry</a> will be updated with instructions. Using WhatsApp via its web interface at <a href=\"https://web.whatsapp.com/\" target=\"_blank\">web.whatsapp.com</a> does work properly through Psiphon.",
         "description": ""
     },
     "faq-screen-filter-question": {

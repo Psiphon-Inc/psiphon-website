@@ -107,6 +107,10 @@
         "message": "Psiphon za Windows se nikad ne distribuira kao instalacijski paket. Svaki Psiphon za Windows klijent je jedna izvršna datoteka (\".exe\") koju je digitalno potpisao Psiphon Inc. Windows automatski provjerava potpis pri pokretanju klijenta. Također možete ručno provjeriti potpis prije pokretanja klijenta kroz dijalog Svojstva datoteke, te zatim kartice Digitalni potpisi. SHA1 otisak prsta za certifikat javnog ključa Psiphon Inc.-a je prikazan u dijalogu Certifikati kartice Detalji.",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2026": {
+        "message": "For the certificate valid for the period 2023-05-01 to 2026-07-28 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2023": {
         "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -437,6 +441,18 @@
     },
     "faq-autoproxy-answer-para-1": {
         "message": "Kliknite Pokreni i upišite <code>regedit</code> da bi otvorili Registry Editor. Pronađite i otvorite <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, na desnoj strani će te vidjeti <code>SkipProxySettings</code>. Postavite vrijednost tog ključa na <code>1</code> i Psiphon neće automatski konfigurirati postavke proxy-a sustava.",
+        "description": ""
+    },
+    "faq-whatsapp-windows-question": {
+        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "description": ""
+    },
+    "faq-whatsapp-windows-question-toc": {
+        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "description": ""
+    },
+    "faq-whatsapp-windows-answer-para-1": {
+        "message": "Research and user reports suggest that the WhatsApp for Windows app does not get properly proxied through Psiphon. This is a shortcoming in the WhatsApp app. If and when support is added, it is likely that <a href=\"https://faq.whatsapp.com/520504143274092/\" target=\"_blank\">this WhatsApp FAQ entry</a> will be updated with instructions. Using WhatsApp via its web interface at <a href=\"https://web.whatsapp.com/\" target=\"_blank\">web.whatsapp.com</a> does work properly through Psiphon.",
         "description": ""
     },
     "faq-screen-filter-question": {
