@@ -107,6 +107,10 @@
         "message": "Windows版 Psiphon 不曾發布過安裝包。 Psiphon Windows客戶端是一個單一的可執行文件（.exe），并經 Psiphon Inc. 數位簽章。當您運行客戶端時，Windows會自動檢查此簽章。您也可以在運行客戶端之前手動檢查簽章，只需打開文件的“屬性”對話框，並檢查“數位簽章”選項卡。Psiphon Inc. 證書公鑰的SHA1指紋顯示在“證書”對話框的“詳細信息”選項卡中。",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2026": {
+        "message": "For the certificate valid for the period 2023-05-01 to 2026-07-28 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2023": {
         "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -437,6 +441,18 @@
     },
     "faq-autoproxy-answer-para-1": {
         "message": "點擊“運行”，輸入<code>regedit</code>打開注冊表編輯器。找到並打開<code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>後，在右面會看到<code>SkipProxySettings</code>。將其值設置為 1，則賽風不會自動配置系統代理設置。",
+        "description": ""
+    },
+    "faq-whatsapp-windows-question": {
+        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "description": ""
+    },
+    "faq-whatsapp-windows-question-toc": {
+        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "description": ""
+    },
+    "faq-whatsapp-windows-answer-para-1": {
+        "message": "Research and user reports suggest that the WhatsApp for Windows app does not get properly proxied through Psiphon. This is a shortcoming in the WhatsApp app. If and when support is added, it is likely that <a href=\"https://faq.whatsapp.com/520504143274092/\" target=\"_blank\">this WhatsApp FAQ entry</a> will be updated with instructions. Using WhatsApp via its web interface at <a href=\"https://web.whatsapp.com/\" target=\"_blank\">web.whatsapp.com</a> does work properly through Psiphon.",
         "description": ""
     },
     "faq-screen-filter-question": {

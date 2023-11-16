@@ -107,6 +107,10 @@
         "message": "ཝིན་ཌོ་ནང་གི་སཡི་ཕོན་དེ་བཞིན་ཐུམ་སྒྲིལ་འགྲིག་བཅུག་གི་ངོ་བོར་འགྲེམ་སྤེལ་ནམ་ཡང་བྱ་རྒྱུ་མིན། སཡི་ཕོན་དེ་ཝིན་ཌོ་ནང་ཡིག་ཆ་རེ་རེ་བེད་སྤྱོད་(\".exe\")དེ་ཡང་སཡི་ཕོན་ Inc གྱིས་གློག་ཆས་མིང་རྟགས་བཀོད་དགོས། གལ་ཏེ་ཁྱེད་རང་གིས་མཉེན་ཆས་དེ་བེད་སྤྱོད་བྱས་པའི་ཚེ་ཝིན་ཌོ་ཡིས་རང་འགུལ་ཐོག་ནས་མིང་རྟགས་ལ་དོ་དམ་ཞིབ་བཤེར་བྱེད་ཀྱི་རེད། ཁྱེད་རང་གིས་མཉེན་ཆས་བེད་སྤྱོད་མ་བྱས་གོང་ནས་མཛུབ་འདེམས་བྱས་པའི་ཐོག་ནས་ཀྱང་དོ་དམ་བྱེད་ཆོག དེ་ཡང་ཡིག་ཆའི་\"ཁྱད་ཆོས་གླེང་སྒྲོམ་\" properties dialogཁ་ཕྱེས་ཏེ་གློག་ཆས་མིང་རྟགས་མཛུབ་སྣོན་བྱས་ཏེ་དོ་དམ་བྱེད་ནའང་འགྲིག། སཡི་ཕོན་ Inc.ལག་ཁྱེར་དེ་བཞིནCertificate dialog Details tab་ནང་དུ་ཤར་ཏེ་SHA1 མཛུབ་ཐིལ་སྟོན་ཡོད།",
         "description": "'Psiphon' must not be translated or transliterated."
     },
+    "faq-authentic-windows-answer-para-2026": {
+        "message": "For the certificate valid for the period 2023-05-01 to 2026-07-28 the SHA1 thumbprint is:",
+        "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
+    },
     "faq-authentic-windows-answer-para-2023": {
         "message": "For the certificate valid for the period 2020-09-09 to 2023-11-02 the SHA1 thumbprint is:",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
@@ -437,6 +441,18 @@
     },
     "faq-autoproxy-answer-para-1": {
         "message": "འགོ་འཛུགས་སྣོན་བྲིས་ <code>regedit</code> དེབ་སྐྱེལ་བྱེད་མཁན་གྱི་རྩོམ་སྒྲིག་པ།. འཚོལ་ནས་ཁ་ཕྱེས། <code>HKEY_CURRENT_USER\\Software\\Psiphon3</code>, འདི་ཁྱེད་རང་གི་གཡས་ཕྱོགས་སུ་མཐོང <code>ངོ་ཚབ་སྒྲིག་བཀོད་མཆོང</code>ཚད་སྒྲིག་<code>1</code> སཡི་ཕོན་གྱིས་ངོ་ཚབ་སྒྲིག་བཀོད་འགྲོ་ལུགས་དེ་རང་འགུལ་ངང་ནས་འགྱུར་བ་གཏོང་མི་ཐུབ།",
+        "description": ""
+    },
+    "faq-whatsapp-windows-question": {
+        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "description": ""
+    },
+    "faq-whatsapp-windows-question-toc": {
+        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "description": ""
+    },
+    "faq-whatsapp-windows-answer-para-1": {
+        "message": "Research and user reports suggest that the WhatsApp for Windows app does not get properly proxied through Psiphon. This is a shortcoming in the WhatsApp app. If and when support is added, it is likely that <a href=\"https://faq.whatsapp.com/520504143274092/\" target=\"_blank\">this WhatsApp FAQ entry</a> will be updated with instructions. Using WhatsApp via its web interface at <a href=\"https://web.whatsapp.com/\" target=\"_blank\">web.whatsapp.com</a> does work properly through Psiphon.",
         "description": ""
     },
     "faq-screen-filter-question": {
