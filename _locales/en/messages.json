@@ -1258,11 +1258,11 @@
     "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
   },
   "privacy-information-collected-vpndata-useractivity-para-1": {
-    "message": "While a user's device is tunneled through Psiphon, we collect some information about how they're using it. We record what protocol Psiphon used to connect, how long the device was connected, how many bytes were transferred during the session, and what city, country, and ISP the connection came from. For some domains (but very few, and only popular ones) or server IP addresses (e.g., known malware servers) that are visited, we also record how many bytes were transferred to it. (But never full URLs or anything more sensitive. And only domains of general interest, not all domains.)",
+    "message": "While a user's device is tunneled through Psiphon, we collect some information about how they're using it. We record what protocol Psiphon used to connect, how long the device was connected, how many bytes were transferred during the session, and some geographical and ISP information. For some domains (but very few, and only popular ones) or server IP addresses (e.g., known malware servers) that are visited, we also record how many bytes were transferred to it. (But never full URLs or anything more sensitive. And only domains of general interest, not all domains.)",
     "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
   "privacy-information-collected-vpndata-useractivity-para-2": {
-    "message": "Geographical location and ISP info are derived from user IP addresses, which are then immediately discarded.",
+    "message": "The user's city, country, and ISP are derived from the user's IP address; the IP address is then immediately discarded. Users may also be asked to optionally allow access to their approximate location (accurate up to 3 km) using their device's location service (e.g., GPS).",
     "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
   },
   "privacy-information-collected-vpndata-useractivity-para-3": {
