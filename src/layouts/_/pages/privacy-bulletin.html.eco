@@ -13,6 +13,41 @@ layout: _/page
 <div class="bulletin-entry">
   <div class="bulletin-entry-title-container">
     <div class="bulletin-entry-title">
+      <h2>2023-11-16: Privacy Policy update</h2>
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-what-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      We are updating our <a href="privacy.html">Privacy Policy</a> to add mention of optional coarse location data collection. For the exact changes, see the <a target="_blank" href="https://github.com/Psiphon-Inc/psiphon-website/commit/4ff10c0a440f36b7b4829396b574de436acda6e8">GitHub commit</a>.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-why-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      We are adding optional coarse location data collection to some client platforms.
+    </div>
+  </div>
+
+  <div class="bulletin-entry-item">
+    <div class="bulletin-entry-item-head">
+      <%= @tt 'privacy-bulletin-entry-item-head-when-doing' %>
+    </div>
+    <div class="bulletin-entry-item-body">
+      This will be in effect on 2023-11-17T00:00Z.
+    </div>
+  </div>
+</div>
+
+<div class="bulletin-entry">
+  <div class="bulletin-entry-title-container">
+    <div class="bulletin-entry-title">
       <h2>2023-05-08: Privacy exception: Possible exposure of client IP addresses</h2>
     </div>
   </div>
