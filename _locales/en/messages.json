@@ -183,6 +183,14 @@
     "message": "As of December 2019, Psiphon does not support Windows XP or Vista. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
     "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
   },
+  "faq-windows-7-eol-question": {
+    "message": "Does Psiphon for Windows work on Windows 7, 8, or 8.1?",
+    "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
+  },
+  "faq-windows-7-eol-answer-para-1": {
+    "message": "As of April 2024, Psiphon does not support Windows 7, 8, or 8.1. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-win7-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
+    "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows 7, 8, or 8.1?' 'Psiphon' must not be translated or transliterated."
+  },
   "faq-information-collected-answer-redirect": {
     "message": "Please see our <a href=\"privacy.html\">Privacy Policy</a> to learn about what information we collect.",
     "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
@@ -620,8 +628,8 @@
     "description": "text for link to Psiphon for Windows download"
   },
   "download-windows-direct-description-v2": {
-    "message": "Works on Windows 7, Windows 8 (desktop), and Windows 10.<br>(A legacy build for <a href=\"./faq.html#windows-xp-eol\">Windows XP and Vista</a> is available.)",
-    "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
+    "message": "Works on Windows 10 and 11.<br>(Legacy builds are available for <a href=\"./faq.html#windows-xp-eol\">Windows XP and Vista</a>, and for <a href=\"./faq.html#windows-7-eol\">Windows 7, 8, and 8.1</a>.)",
+    "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP, Vista, 7, 8, and 8.1 are no longer supported, but there are an old (legacy) builds available for download."
   },
   "download-android-direct": {
     "message": "Psiphon for Android direct download",
