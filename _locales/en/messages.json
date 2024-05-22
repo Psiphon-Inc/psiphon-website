@@ -547,6 +547,54 @@
     "message": "The \"token\" you will see in the decoded base-64 of the parameter is your PsiCash \"earner\" token, and can only be used for crediting your account with PsiCash -- not for spending your PsiCash, viewing your balance, etc. This token also cannot be used to reveal your identity or anything else about your account.",
     "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
   },
+  "faq-psiphon-bump-title": {
+    "message": "Psiphon Bump",
+    "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+  },
+  "faq-psiphon-bump-question-1-what": {
+    "message": "What is Psiphon Bump?",
+    "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+  },
+  "faq-psiphon-bump-answer-1-what": {
+    "message": "Have a friend who's connected to the Psiphon network on an Android device and you can't connect? Psiphon Bump is a secure device-to-device exchange of functioning connection parameters from another connected user directly to you.",
+    "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+  },
+  "faq-psiphon-bump-question-2-work": {
+    "message": "How does Psiphon Bump work?",
+    "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+  },
+  "faq-psiphon-bump-answer-2-work-para-1": {
+    "message": "Psiphon Bump works using the Near-Field Communication (NFC) function on your device. By applying a confirmed working configuration to a friend's unconnected device, Psiphon can make use of that information to optimize subsequent connections to the network.",
+    "description": "'Psiphon', 'Bump' and 'NFC' must not be translated or transliterated."
+  },
+  "faq-psiphon-bump-answer-2-work-para-2": {
+    "message": " Psiphon exchanges digitally signed and encrypted connection parameters ensuring both the secrecy and integrity of the exchange. The contents of the data cannot be read or modified by any third party.",
+    "description": "'Psiphon' and must not be translated or transliterated."
+  },
+  "faq-psiphon-bump-question-3-device": {
+    "message": "Is Psiphon Bump supported on my device?",
+    "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+  },
+  "faq-psiphon-bump-answer-3-device": {
+    "message": "Psiphon Bump is currently supported on Android devices only and works on Android versions Android 5.0 and higher (SDK 21+) + NFC hardware support. Both devices need to be compatible for a successful exchange, and be running Psiphon version 385 or higher.",
+    "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+  },
+  "faq-psiphon-bump-question-4-how": {
+    "message": "How do I use Psiphon Bump?",
+    "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+  },
+  "faq-psiphon-bump-answer-4-how-para-1": {
+    "message": "Both users need to have NFC enabled on their device. First, open your Android Settings and select “Connection preferences” > NFC. Slide the toggle to on to enable NFC. Holding two NFC-enabled Android devices back to back within a range of 1cm will activate a transfer of content or data.",
+    "description": "'Psiphon'and 'NFC' must not be translated or transliterated. Please translate 'Connection preferences' as it appears on an Android device, in the respective translation."
+  },
+  "faq-psiphon-bump-answer-4-how-para-2": {
+    "message": " As long as your Psiphon app is in the “Connecting” state, you are able to receive a Psiphon Bump. You will see the “NFC” button immediately. Make sure to press this button. If connection successfully establishes right away, you will not see this element.",
+    "description": "'Psiphon'and 'NFC' must not be translated or transliterated. Please translate 'Connecting' as it appears in the app, in the respective translation."
+  },
+  "faq-psiphon-bump-answer-4-how-para-3": {
+    "message": "The NFC floating button, which opens the “Get Bump” dialog, remains present throughout the duration the app is in the “connecting” state and will vanish once the tunnel connects. Additionally, if the “Get Bump” dialog is open but the device successfully connects on its own in the meantime, the dialog will automatically disappear.",
+    "description": "'Psiphon' and 'Bump' must not be translated or transliterated. Please translate 'Get Bump' as it appears in the app, in the respective translation."
+  },
   "alert-heading": {
     "message": "ALERT",
     "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
