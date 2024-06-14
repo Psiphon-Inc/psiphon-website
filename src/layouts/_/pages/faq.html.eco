@@ -478,12 +478,79 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 
 <div class="row">
   <div class="col-md-12 well well-sm">
+    <h2 class="faq-section anchor-target" id="bump">
+      <%- @tt 'faq-psiphon-bump-title' %>
+    </h2>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="bump-what-is-bump" data-anchor-text="<%= @tt 'faq-psiphon-bump-question-1-what' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-psiphon-bump-question-1-what' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-psiphon-bump-answer-1-what' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="bump-how-bump-works" data-anchor-text="<%= @tt 'faq-psiphon-bump-question-2-work' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-psiphon-bump-question-2-work' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-psiphon-bump-answer-2-work-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-psiphon-bump-answer-2-work-para-2' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="bump-devices-supported" data-anchor-text="<%= @tt 'faq-psiphon-bump-question-3-device' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-psiphon-bump-question-3-device' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+    <%- @tt 'faq-psiphon-bump-answer-3-device' %>
+    </p>
+  </div>
+</div>
+
+<div class="row faq-qa">
+  <span class="anchor-target" id="bump-how-to-use" data-anchor-text="<%= @tt 'faq-psiphon-bump-question-4-how' %>"></span>
+  <div class="faq-question">
+    <h3><%= @tt 'faq-psiphon-bump-question-4-how' %></h3>
+  </div>
+  <div class="faq-answer">
+    <p>
+      <%- @tt 'faq-psiphon-bump-answer-4-how-para-1' %>
+    </p>
+    <p>
+      <%- @tt 'faq-psiphon-bump-answer-4-how-para-2' %>
+    </p>
+    <p>
+      <%- @tt 'faq-psiphon-bump-answer-4-how-para-3' %>
+    </p>
+    <p>
+      <img class="img-responsive" src="<%= @relativeToRoot '/images/faq/faq-psiphon-bump-nfc-device.png' %>">
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 well well-sm">
     <h2 class="faq-section anchor-target" id="troubleshooting">
       <%= @tt 'faq-section-troubleshooting' %>
     </h2>
   </div>
 </div>
-
 
 <div class="row">
   <div class="col-md-12 well well-sm">
