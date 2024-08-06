@@ -167,7 +167,7 @@ layout: _/page
   </div>
 </div>
 
-<div id="email" class="anchor-target">
+<div id="email" class="anchor-target show-if-android">
   <div class="row">
     <div class="download-head">
       <h2><%= @tt 'download-via-email-head' %></h2>
