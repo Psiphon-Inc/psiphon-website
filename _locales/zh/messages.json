@@ -108,7 +108,7 @@
         "description": "'Psiphon' must not be translated or transliterated."
     },
     "faq-authentic-windows-answer-para-2026": {
-        "message": "For the certificate valid for the period 2023-05-01 to 2026-07-28 the SHA1 thumbprint is:",
+        "message": "有效期为 2023-05-01 至 2026-07-28 证书的 SHA1 指纹是：",
         "description": "The Psiphon for Windows client can be authenticated by checking the certificate used to sign it has the correct thumbprint. The certificate is valid for a certain date range, and the thumbprint is shown below this sentence. 'SHA1' is the name of a hash algorithm, used to calculate the thumbprint (and is probably not translated)."
     },
     "faq-authentic-windows-answer-para-2023": {
@@ -186,6 +186,14 @@
     "faq-windows-xp-eol-answer-para-1": {
         "message": "从2019年12月开始，赛风不再支持Windows XP或者Vista。一个可以在这些版本上运行的旧版本可以<a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">从这里下载</a>，但是建议用户升级到较新版本的Windows。",
         "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
+    },
+    "faq-windows-7-eol-question": {
+        "message": "Does Psiphon for Windows work on Windows 7, 8, or 8.1?",
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
+    },
+    "faq-windows-7-eol-answer-para-1": {
+        "message": "As of April 2024, Psiphon does not support Windows 7, 8, or 8.1. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-win7-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
+        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows 7, 8, or 8.1?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-information-collected-answer-redirect": {
         "message": "有关信息收集，请参阅我们的<a href=\"privacy.html\">隐私政策</a>。",
@@ -304,7 +312,7 @@
         "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
     },
     "faq-clear-windows-data-answer-para-1": {
-        "message": "Psiphon for Windows stores some data locally under the user's profile. It is located at a path like <code>C:\\Users\\YourName\\AppData\\Local\\Psiphon3</code>; or, more generally, <code>%USERPROFILE%\\AppData\\Local</code>. You can delete the local data by going to that path in Windows Explorer and deleting it, or entering this command at a command prompt: <code>rmdir /s \"%USERPROFILE%\\AppData\\Local\"</code>. There is also information stored in the system registry at <code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code>. You can use the Windows <code>regedit</code> tool to delete those registry keys.",
+        "message": "Window 版本的Psiphon会将部分数据存储在使用者用户的profile下面。通常在这种路径: <code>C:\\Users\\YourName\\AppData\\Local\\Psiphon3</code>；或者通常会存储在<code>%USERPROFILE%\\AppData\\Local</code>。您可以直接到Window Explore裡的该路径下刪除它，或者直接在命令行用命令：<code>mdir /s \"%USERPROFILE%\\AppData\\Local\"3</code>。还有信息存储在系统注册表里面，这个路径：<code>HKEY_CURRENT_USER\\SOFTWARE\\Psiphon3</code>。您可以用windows<code>regedit</code>工具删除那些注册表键值。",
         "description": "FAQ answer to the question 'How do I clear Psiphon for Windows' local data?' 'Psiphon' must not be translated or transliterated."
     },
     "faq-proxy-all-question": {
@@ -444,15 +452,15 @@
         "description": ""
     },
     "faq-whatsapp-windows-question": {
-        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "message": "如何才能通过Psiphon使用WhatsApp",
         "description": ""
     },
     "faq-whatsapp-windows-question-toc": {
-        "message": "How can I make WhatsApp for Windows work through Psiphon?",
+        "message": "如何才能通过Psiphon使用WhatsApp",
         "description": ""
     },
     "faq-whatsapp-windows-answer-para-1": {
-        "message": "Research and user reports suggest that the WhatsApp for Windows app does not get properly proxied through Psiphon. This is a shortcoming in the WhatsApp app. If and when support is added, it is likely that <a href=\"https://faq.whatsapp.com/520504143274092/\" target=\"_blank\">this WhatsApp FAQ entry</a> will be updated with instructions. Using WhatsApp via its web interface at <a href=\"https://web.whatsapp.com/\" target=\"_blank\">web.whatsapp.com</a> does work properly through Psiphon.",
+        "message": "有研究和用户报告指出WhatsApp的Windows版不能正常通过Psiphon代理。这是WhatsApp程序的一个问题。如果到时WhatsApp加上支持了，那么<a href=\"https://faq.whatsapp.com/520504143274092/\" target=\"_blank\">WhatsApp常见问题</a>会更新使用方法。用Psiphon通过浏览器使用WhatsApp的网页版<a href=\"https://web.whatsapp.com/\" target=\"_blank\">web.whatsapp.com</a>是没有问题的。",
         "description": ""
     },
     "faq-screen-filter-question": {
@@ -488,11 +496,11 @@
         "description": ""
     },
     "faq-vulnerability-report-question": {
-        "message": "How do I report a security vulnerability?",
+        "message": "如何汇报安全漏洞？",
         "description": "FAQ question."
     },
     "faq-vulnerability-report-answer": {
-        "message": "Please see our <a href=\"https://psiphon.ca/.well-known/security.txt\" target=\"_blank\">security.txt</a> file for contact information and details.",
+        "message": "请查看我们的<a href=\"https://psiphon.ca/.well-known/security.txt\" target=\"_blank\">security.txt</a>文件，里面有联系人和其他细节。",
         "description": "FAQ answer to the question 'How do I report a security vulnerability?'."
     },
     "faq-root-wdm-question": {
@@ -540,7 +548,7 @@
         "description": "This is an FAQ question. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-pseudonym-answer-para-1": {
-        "message": "<p>A pseudonym is an alias or handle that you use to identify yourself that is different from your real name. Using a pseudonym for your PsiCash account username helps prevent your real identity from being linked with your Psiphon or PsiCash usage. If revealing yourself to be a Psiphon user is dangerous or otherwise undesirable, then you should choose a username that cannot be linked to you, and instead you should use a pseudonym that you have not used with any other site or service.</p>\n<p>When signing up for a new PsiCash account, it is possible for someone to check for the existence of a username by trying to create an account with it. If the attempt is successful, the username did not already exist. If the attempt failed, the username did already exist. Having your username discovered does <em>not</em> put your PsiCash account at risk, but your status as a Psiphon user may be revealed in this way.</p>\n<p>If you wish to avoid the link to your real identity, it is important to note that using a pseudonym that you use on other sites or services is almost the same as using your real name. If that pseudonym has already been linked to your identity elsewhere, then very little anonymity is gained by using it.</p>\n<p>Also note that your email address is <em>not</em> discoverable in this way. Even if you use a pseudonym, you can still provide an email address on your PsiCash account and it will not be discoverable in any way.</p>",
+        "message": "<p>假名是一个你用来识别自己的别名或者代号，和你的真名不同。在PsiCash 账号用户名中使用假名帮助防止别人把Psiphon 或PsiCash 的使用联系到你真实身份。如果你使用Psiphon 被泄露是危险的或者不情愿的，那你应当使用一个不被联系到你的用户名。作为替代你应使用一个其他网站和服务中从没使用过的假名。</p>\n<p>当注册一个新的PsiCash账号时，检查你准备使用的用户名是否存在是可能的。如果检查成功，你选的用户名不存在。如果检查失败，你选的用户名存在。你的用户名被别人发现<em>不</em>会让你的PsiCash账号有风险。不过你是Psiphon 用户有可能就这样泄漏了。</p>\n<p>如果你想避免被联系到你的真实身份，你应注意到你如果用了跟其他网站或服务相同的假名就像和使用了你的真名一样容易被发现。如果那个假名已经在别处被联系到你的真名了，那就没有什么匿名性了。</p>\n<p>还请注意你的邮箱这样是<em>不</em>会被发现的。即使你使用了假名，你可以给PsiCash 账号提供一个邮箱，这样的情况邮箱是不会被发现的。</p>",
         "description": "This is an FAQ answer. It discusses why a user might want to employ a pseudonym for their PsiCash account username. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-more-account-merges-question": {
@@ -548,20 +556,68 @@
         "description": "This is an FAQ question. It discusses what a user should do if they need to merge more PsiCash into an account. 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-more-account-merges-answer-para-1": {
-        "message": "To avoid abuse, we allow the pre-existing PsiCash balance and Speed Boost to be added from only a few devices to your PsiCash account when logging in. If you have more devices that you would like to keep the balances from, please email us at <a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0AReason%3A%0A\">psicash.support@psiphon.ca</a>. You must include your PsiCash username and the reason why you need more merges.",
+        "message": "为了防止滥用，在登录时我们只允许从少数设备上加入已存在的PsiCash 的余额和Speed Boost。如果你想从更多的设备加入余额，请给我们发邮件到<a href=\"mailto:psicash.support@psiphon.ca?subject=Account%20balance%20merge&body=Username%3A%0AReason%3A%0A\">psicash.support@psiphon.ca</a>。你必须包含你的PsiCash账号和你要加更多合并余额的原因。",
         "description": "This is an FAQ answer. It discusses what a user should do if they need to merge more PsiCash into an account. Note that the actual number for 'a few devices' is currently 3. 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-question": {
-        "message": "What is the <code>psicash=</code> parameter in some landing page URLs?",
+        "message": "在某些访问URLs的<code>psicash=</code>参数是什么？",
         "description": "This is an FAQ question. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything). 'PsiCash' should not be translated or transliterated.."
     },
     "faq-psicash-param-answer-para-1": {
-        "message": "In some landing page URLs and in <code>buy.psi.cash</code> URLs you will see a parameter like <code>#!psicash=abcd1234...</code> or <code>?psicash=abcd1234...</code>. This contains information necessary to give you a PsiCash reward for visiting some landing pages or for making a purchase of PsiCash.",
+        "message": "在某些访问URL和在<code>buy.psi.cash</code>URL你会看到一个像<code>#!psicash=abcd1234...</code>的参数或者<code>?psicash=abcd1234...</code>。这包含了访问某些URL买PsiCash给予你PsiCash奖励的必要信息",
         "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
     },
     "faq-psicash-param-answer-para-2": {
-        "message": "The \"token\" you will see in the decoded base-64 of the parameter is your PsiCash \"earner\" token, and can only be used for crediting your account with PsiCash -- not for spending your PsiCash, viewing your balance, etc. This token also cannot be used to reveal your identity or anything else about your account.",
+        "message": "在按base-64解码参数后你看到的“令牌”是你的PsiCash“赚钱者”令牌，只能被用在增加你账户的PsiCash数量上，不能被用于消费你的PsiCash，查看余额，等等。这个令牌也不会被用于查看你的身份或任何你账户其他信息。",
         "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
+    },
+    "faq-psiphon-bump-title": {
+        "message": "Psiphon Bump",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-1-what": {
+        "message": "What is Psiphon Bump?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-1-what": {
+        "message": "Have a friend who's connected to the Psiphon network on an Android device and you can't connect? Psiphon Bump is a secure device-to-device exchange of functioning connection parameters from another connected user directly to you.",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-2-work": {
+        "message": "How does Psiphon Bump work?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-2-work-para-1": {
+        "message": "Psiphon Bump works using the Near-Field Communication (NFC) function on your device. By applying a confirmed working configuration to a friend's unconnected device, Psiphon can make use of that information to optimize subsequent connections to the network.",
+        "description": "'Psiphon', 'Bump' and 'NFC' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-2-work-para-2": {
+        "message": " Psiphon exchanges digitally signed and encrypted connection parameters ensuring both the secrecy and integrity of the exchange. The contents of the data cannot be read or modified by any third party.",
+        "description": "'Psiphon' and must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-3-device": {
+        "message": "Is Psiphon Bump supported on my device?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-3-device": {
+        "message": "Psiphon Bump is currently supported on Android devices only and works on Android versions Android 5.0 and higher (SDK 21+) + NFC hardware support. Both devices need to be compatible for a successful exchange, and be running Psiphon version 385 or higher.",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-4-how": {
+        "message": "How do I use Psiphon Bump?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-4-how-para-1": {
+        "message": "Both users need to have NFC enabled on their device. First, open your Android Settings and select “Connection preferences” > NFC. Slide the toggle to on to enable NFC. Holding two NFC-enabled Android devices back to back within a range of 1cm will activate a transfer of content or data.",
+        "description": "'Psiphon'and 'NFC' must not be translated or transliterated. Please translate 'Connection preferences' as it appears on an Android device, in the respective translation."
+    },
+    "faq-psiphon-bump-answer-4-how-para-2": {
+        "message": " As long as your Psiphon app is in the “Connecting” state, you are able to receive a Psiphon Bump. You will see the “NFC” button immediately. Make sure to press this button. If connection successfully establishes right away, you will not see this element.",
+        "description": "'Psiphon'and 'NFC' must not be translated or transliterated. Please translate 'Connecting' as it appears in the app, in the respective translation."
+    },
+    "faq-psiphon-bump-answer-4-how-para-3": {
+        "message": "The NFC floating button, which opens the “Get Bump” dialog, remains present throughout the duration the app is in the “connecting” state and will vanish once the tunnel connects. Additionally, if the “Get Bump” dialog is open but the device successfully connects on its own in the meantime, the dialog will automatically disappear.",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated. Please translate 'Get Bump' as it appears in the app, in the respective translation."
     },
     "alert-heading": {
         "message": "通知",
@@ -656,8 +712,8 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "download-windows-direct-description-v2": {
-        "message": "可以在Windows 7， Windows 8（桌面版）和Windows 10上运行。<br>（一个为<a href=\"./faq.html#windows-xp-eol\">Windows XP和Vista</a>准备的旧版本也可以使用。）",
-        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
+        "message": "Works on Windows 10 and 11.<br>(Legacy builds are available for <a href=\"./faq.html#windows-xp-eol\">Windows XP and Vista</a>, and for <a href=\"./faq.html#windows-7-eol\">Windows 7, 8, and 8.1</a>.)",
+        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP, Vista, 7, 8, and 8.1 are no longer supported, but there are an old (legacy) builds available for download."
     },
     "download-android-direct": {
         "message": "直接下载 Android 版赛风",
@@ -812,7 +868,7 @@
         "description": ""
     },
     "license-para-2": {
-        "message": "The Psiphon system consists of both “software” (program source code and applications derived from that code) and a “service” (a system of client and server software that make up a functioning whole). The <a href=\"open-source.html\" rel=\"noreferrer\" target=\"_blank\">Psiphon software and source code</a> are <a href=\"https://wikipedia.org/wiki/Free_and_open_source_software\" rel=\"noreferrer\" target=\"_blank\">free and open-source</a> and are licensed under the <a href=\"https://www.gnu.org/copyleft/gpl.html\" rel=\"noreferrer\" target=\"_blank\">GNU General Public License Version 3</a> (with some exceptions – see each source repository for the specific license). Use of the Psiphon service is licensed under the terms described on this page.",
+        "message": "Psiphon系统包含软件（程序代码和用代码编译出的可执行文件应用程序）和一个“服务”（客户端服务端系统实现一个功能的系统）。<a href=\"open-source.html\" rel=\"noreferrer\" target=\"_blank\">Psiphon软件和源码</a>是<a href=\"https://wikipedia.org/wiki/Free_and_open_source_software\" rel=\"noreferrer\" target=\"_blank\">免费和开源</a>的，使用<a href=\"https://www.gnu.org/copyleft/gpl.html\" rel=\"noreferrer\" target=\"_blank\">GNU通用公共协议版本3</a>（有一些例外，具体看每个源码库看到具体协议）。使用Psiphon服务的协议是在这个页面的条款里面定义的。",
         "description": "Paragraph text on the License web page."
     },
     "license-para-3": {
@@ -1376,11 +1432,11 @@
         "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-1": {
-        "message": "当用户设备接入赛风时，我们会收集有关用户使用的数据。我们会记录赛风使用何种协议进行连接、设备连接时长、传输了多少字节的数据、用户来自哪个国家的哪座城市并使用哪家ISP的服务。对于被访问的某些域名（极少数访问量较大的）或服务器IP地址（例如已知的恶意服务器），我们还会记录向其传输了多少字节的数据。（但绝不包括完整的URL或任何更敏感的信息。仅限一般性域名，并非所有域名。）",
+        "message": "当一个用户的设备使用了Psiphon来代理，我们会收集一些他们如何使用的信息。我们记录Psiphon代理了什么协议，设备连接了多久，在会话中传输了多少字节。还有一些地理和运营商信息。对某些域名（但很少，只是一些流行的）和服务器IP（例如，已经证实的恶意软件服务器），如果访问了，我们还会记录有多少字节传输给了它们。（但不会是全URL或更敏感的信息。还有只会是一些已知的恶意域，不会是所有的。）",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
-        "message": "地理位置和ISP信息根据用户IP地址得出，且立即会被删除。",
+        "message": "用户的城市，国家，运营商是从用户的IP地址中取得的。IP地址使用过就丢掉了，不会记录。用户或许还会被有选择的要求允许通过设备的定位服务（例如，GPS）访问他们的大概地址（3公里以内）。",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-3": {
@@ -1708,11 +1764,11 @@
         "description": "contents link for Section 5 of the Psiphon Guide page. This section describes the location and function of various settings inside the Psiphon application."
     },
     "psiphon-guide-para-1": {
-        "message": "Psiphon Inc. has provided open access to the Internet for millions of citizens around the world since 2006. Psiphon operates a proxy system known as “Psiphon 2” as well as “Psiphon 3,” which is an application (“app”) for Android, Windows, and iOS. The following documents focus on the Psiphon 3 network, which is the most widely used. Psiphon is a free, open-source, censorship circumvention software. It uses a combination of secure communication and obfuscation technologies to allow users to connect with apps and content which would otherwise be blocked.",
+        "message": "Psiphon Inc. 从2006年开始为全世界超过百万的公民提供了自由访问互联网服务。Psiphon运营着一个代理系统“Psiphon 2”，还有“Psiphon 3”。是Android，Windows，iOS系统的程序。以下文档专注于现时正广泛使用的Psiphon 3网络。Psiphon是一个免费，开源，越过审查的软件。它用了加密通信和混淆技术，使用户可以访问被封禁的程序或内容。",
         "description": "Section 1 paragraph for the Psiphon Guide page. A general description of how Psiphon works, and what Psiphon is. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-splash-image-alt": {
-        "message": "Psiphon Guide Header Splash Image",
+        "message": "Psiphon指南标志图标",
         "description": "splash image for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-the-internet": {
@@ -1720,7 +1776,7 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page"
     },
     "psiphon-guide-para-2": {
-        "message": "The internet is a global network of billions of computers (or “routers”) which communicate with one another. These connected systems allow people to share (or “serve”) information to others. The internet can be visualized as a web, with multiple routes and connections. If one connection is severed, the redundancy of the web infrastructure allows people to connect by finding another route. To get from one location to another, web traffic (messages sent on the internet) make many hops. Traffic travels from router to router before arriving at their destination. In order to do this, specific networking and routing equipment is required. This is provided by Internet Service Providers (“ISPs”). ISPs allow internet users to use their infrastructure, including \"serving\" content or providing access to other content that other ISPs \"serve\", usually for a fee.",
+        "message": "互联网是一个有着数十亿计算机（或“路由器”）互相通信的全球网络。这些连接系统允许人们分享（或“提供”）信息给别人。互联网可以被看成一张有多个路由和连接的网。如果一个连接断了，网的冗余结构允许人们找到另一条路径。从一个地方到另一个，网络流量（在互联网上发送的消息）经历了多跳。流量在到达目的地之前从一个路由传递到另一个路由。为了实现这一目的，需要特殊的网络或路由设备。这些设备是由互联网服务提供商提供的。互联网服务提供商允许互联网用户付费使用他们的基础设施，包括他们自己提供的内容服务和到其他内容服务商的连接。",
         "description": "Section 1 paragraph for the Psiphon Guide page. A general description of the internet."
     },
     "psiphon-guide-section-1-sub-heading-filtering-censors": {
@@ -1728,15 +1784,15 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page"
     },
     "psiphon-guide-para-3": {
-        "message": "Filtering can occur at one or many points in the network, such as, the internet backbone (often the international gateway), ISPs, institutions (such as companies or schools), and even on an individual's device (such as a phone or desktop computer).",
+        "message": "内容过滤可能发生在网络的一个或多个节点，比如，骨干网（通常是国际网关），互联网服务提供商，机构（公司或学校内部），甚至是个人用户的设备上（例如电话或桌面电脑）。",
         "description": "Section 1 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-para-4": {
-        "message": "Censors are actors implementing filtering at any level. They could be implementing filtering on behalf of another body, such as when an ISP filters content under orders of a government.",
+        "message": "审查机构是在某个级别上实施过滤的组织。他们有可能是为了另一个实体实施过滤，比如当ISP在政府机构的命令下过滤内容。",
         "description": "Section 1 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-para-5": {
-        "message": "In order to block only certain types of traffic, the traffic must first be identifiable. When a system can differentiate between types of traffic passing through the network, it is potentially able to make decisions about that traffic. Filtering can be done through devices and programs that analyze and forbid certain types of traffic to pass. In some places technical blocking affects everyday Internet use.",
+        "message": "为了阻断某种类型的流量，流量必须首先能被识别。当一套系统能够识别流经网络的不同类型流量，它有能力做决定如果应归那种流量。过滤可以通过设备或程序分析和阻止某种流量的通过。在某些地方技术阻断会影响每时每刻的互联网使用。",
         "description": "Section 1 paragraph for the Psiphon Guide page. A description of both filtering and blocking of internet traffic."
     },
     "psiphon-guide-section-1-sub-heading-circumvention-tools": {
@@ -1744,7 +1800,7 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page."
     },
     "psiphon-guide-para-6": {
-        "message": "Psiphon is part of a category of technology known as circumvention tools. Circumvention tools are designed to bypass interceptive technical forms of blocking online. Circumvention tools usually work by either diverting web traffic so it avoids the machines that filter or by disguising the traffic to appear like traffic that is not subject to filtering. The Psiphon app does both. As filtering techniques become more sophisticated, circumvention tool providers must always update their technology and so methods and strategies are continually evolving.",
+        "message": "Psiphon使用了一类叫做欺骗的技术。欺骗工具被设计用于绕过拦截技术类型的阻断。欺骗工具通常靠改道以使其绕过过滤机器或者伪装流量成不需要过滤的流量。Psiphon应用程序两者都使用。现在过滤工具变得越来越复杂，欺骗工具提供者也需要随时更新技术，所以方法和策略都是随时进步的。",
         "description": "Section 1 paragraph for the Psiphon Guide page. A description of circumvention tools. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-traffic": {
@@ -1752,23 +1808,23 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-7": {
-        "message": "As a censorship circumvention tool, the Psiphon app's primary objective is to establish a connection to the internet. The Psiphon app attempts to connect to known Psiphon servers using various methods. Sometimes the Psiphon traffic is obfuscated, meaning that it is disguised to look like a different or less identifiable type of traffic.",
+        "message": "作为一个审查欺骗工具，Psiphon应用程序的主要目的是建立一条到互联网的连接。Psiphon应用程序尝试通过多种方式连接已知的Psiphon服务器。有时Psiphon流量会被混淆，意思是它会被伪装成另一种或者更不具有可识别性的流量。",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-8": {
-        "message": "Because it is encrypted, censors are unable to see the content of traffic passing through the tunnel. Censors may still attempt to block encrypted traffic based on other characteristics, such as communication protocols. Communication protocols are a set of rules used to route data and ensure it arrives at the intended location.",
+        "message": "因为加过密，审查者不能看到留过加密隧道的流量的内容。审查者还有可能通过其他特征比如通信协议，尝试阻断加密流量。通信协议是一系列用于路由数据保证它到达想要的目的地的规则。",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'It' refers to Psiphon traffic. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-traffic-diagram-image-alt": {
-        "message": "Psiphon Guide Traffic Diagram Image",
+        "message": "Psiphon指南 流量报文图",
         "description": "diagram image for the Psiphon Guide page"
     },
     "psiphon-guide-para-9": {
-        "message": "The Psiphon app has the ability to relay traffic through various communication protocols. It attempts to connect through different protocols until a connection is made. That way, if a censor is blocking one communication protocol, Psiphon is still able to connect by using another protocol.",
+        "message": "Psiphon应用程序有能力使用多种通信协议中继流量。它尝试用多种协议连接直到一条连接被建立。那样，如果审查者阻断了一种协议，Psiphon还可以用其他协议来连接。",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-10": {
-        "message": "To ensure that Psiphon's traffic is not identifiable, it is important to make it appear as generic and normal as possible to an external observer. The Psiphon app has the flexibility to adapt dynamically to changing network conditions by trying multiple strategies to connect, even when certain types of content or traffic are being filtered.",
+        "message": "为了保证Psiphon的流量不被识别，对外部的截获者要让它显得尽量平常和普通。Psiphon应用程序能灵活的适配尝试多种策略连接改变网络连接方式，甚至是某种类型的内容或流量被过滤的时候。",
         "description": "Section 1 paragraph for the Psiphon Guide page. A general description of how Psiphon adapts to various network conditions. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-servers": {
@@ -1776,11 +1832,11 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-11": {
-        "message": "Psiphon operates a large network of servers. Each Psiphon app needs to know some information about the servers it's trying to reach in order to make a connection. Newly downloaded Psiphon apps contain a short list of known servers within the network that it attempts to connect to. Censors may routinely try to block some Psiphon servers, therefore many need to be available.",
+        "message": "Psiphon运营着一个大的服务器网络。每个Psiphon应用程序需要知道它要连接的服务器的某些信息。新下载的Psiphon应用程序包含了一个它的网络内的可连接服务器的列表。审查者可能每天尝试阻断一些Psiphon服务器，所以我们需要很多。",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-12": {
-        "message": "The network is always changing. Psiphon continuously deploys new servers across numerous locations worldwide. The Psiphon app will receive updated information about how to access them. Over time, a single Psiphon app may eventually gain knowledge of hundreds of new Psiphon servers.",
+        "message": "网络随时在变化，Psiphon在世界范围内连续的在多个地点部署新服务器。Psiphon应用程序会受到怎么连接它们的更新信息。随着时间流逝，一个Psiphon应用程序会慢慢获得数百台新Psiphon服务器的信息。",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-different-vpn": {
@@ -1788,11 +1844,11 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-13": {
-        "message": "Virtual private networks (VPNs) are designed to allow users to send and receive data through a secure network tunnel. VPNs may even make use of very strong encryption, however, the majority of VPNs are not designed for circumvention purposes. VPNs are created for normal network conditions. VPN tools don't do anything special to disguise the nature of their traffic and communicate through one type of protocol. VPN traffic can be identified, so censors are able to block VPN traffic. Several countries are known to filter or degrade VPN connections, and others have been observed blocking VPNs in response to events such as elections or political protests. Today, modern censorship technology has made this kind of blocking relatively simple for censors.",
+        "message": "虚拟专用网络（VPNs) 设计用于允许用户通过加密隧道发送和接受数据。VPNs可能使用非常强的加密，然而，大多数VPNs 不是设计来欺骗审查者的。VPNs是为正常网络而设计的。VPN工具不伪装流量和通信来掩盖它使用的协议。VPN流量可以被识别，所以审查者有能力阻断VPN流量。已知有好几个国家过滤或劣化VPN连接，还有一些国家被观察到在重大事件比如大选或政治游行期间阻断。今天，现代审查技术使这种阻断对审查者来说非常简单。",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-14": {
-        "message": "Psiphon allows users to send and receive data through a secure network while also disguising the type of traffic being transmitted and even where it is coming from. Psiphon technology is designed to be resilient to censorship, including attempts to interfere with Psiphon network traffic directly. The numerous secure protocols used by Psiphon apps all appear different to censors, making it difficult to differentiate between Psiphon traffic and other types of internet use. Even if one traffic type is filtered on a network, Psiphon is able to connect through another protocol. Psiphon works where many other tools do not.",
+        "message": "Psiphon允许用户在伪装流量类型，和伪装流量来源的情况下通过加密网络发送和接收数据。Psiphon技术被设计得可以灵活应对审查，包括尝试直接干扰Psiphon网络流量的破坏。Psiphon使用的数种加密协议全都在审查者面前有伪装。这样审查者就不能正常识别是Psiphon流量还是其他正常网络使用。甚至如果一种流量类型被过滤了，Psiphon还可以用另一种协议连接。Psiphon在其他很多工具不能正常工作的时候可用。",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-1-sub-heading-psiphon-trust": {
@@ -1800,11 +1856,11 @@
         "description": "Sub-heading of Section 1 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-15": {
-        "message": "Psiphon is an open source application which means that its source code is available for anyone to review and comment on how the system is implemented and the underlying cryptographic technologies. Psiphon not only performs internal code reviews, but also has regular code <a href=\"#psiphonguide_section3\">audits</a> and penetration tests performed by various external firms.",
+        "message": "Psiphon是开源程序，其系统实现和底层加密技术的源代码任何人都可以审核和优化。Psiphon不但是有内部代码审核，还有定期的代码<a href=\"#psiphonguide_section3\">审计</a>和使用外部公司的渗透测试以保证安全。",
         "description": "Section 1 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-16": {
-        "message": "Psiphon technology is made available through multiple propagation strategies. If one method is blocked or unavailable in your country, there are other techniques you can use to obtain the app.",
+        "message": "Psiphon技术使用多种传播途径分发。如果一种方法被阻断了或在您的国家不存在，你还有其他方法可以获得这个应用程序。",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-17": {
@@ -1820,31 +1876,31 @@
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-20": {
-        "message": "<strong>Android:</strong> Search for “Psiphon” in the Google Play store. Depending on your region, you may have the option of downloading Psiphon Pro, with an option to purchase a subscription. This upgrade allows you to increase speed and remove ads.",
+        "message": "<strong>安卓：</strong>在Google Play应用市场中搜索“Psiphon”。取决于您的地区，您有可能可以选择下载Psiphon Pro，可付费购买高级服务。高级服务允许你提高网速，移除广告。",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-21": {
-        "message": "<strong>Android Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Visit the download link or download the file 'PsiphonAndroid.ap_' attached to the email and rename it to have a “.apk” file extension, if necessary. Download Psiphon. Find the Psiphon icon on your phone and click on it to open.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
+        "message": "<strong>安卓邮件回复安装：</strong>一封从noreply@psiphon3.com发来的邮件会过会到达您的邮箱。如果您在Inbox中没有找到的话去垃圾邮件箱里面找找。访问下载链接或者下载附件中的文件'PsiphonAndroid.ap_'，如必要更名为包含一个“.apk”文件后缀。下载Psiphon。在您的手机上找到Psiphon图标，点开。如果您不能直接通过邮件回复收到的话，试着使用另一个邮件提供商。",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-22": {
-        "message": "<strong>Windows Email Responder Installation:</strong> An email from noreply@psiphon3.com will arrive in your inbox momentarily. Check your spam folder if you don't see it in your inbox. Download the file 'psiphon3' attached to the email and rename it to have a “.exe” file extension.  If you are unable to recieve the application directly through the email responder, try using a different email provider at the recieving address.",
+        "message": "<strong>Wwindows邮件回复安装：</strong>一封从noreply@psiphon3.com发来的邮件会过会到达您的邮箱。如果您在Inbox中没有找到的话去垃圾邮件箱里面找找。下载附件中的文件'psiphon3'，更名它为包含一个“.exe”文件后缀。如果您不能直接通过邮件回复收到的话，试着使用另一个邮件提供商。",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-23": {
-        "message": "<strong>iOS:</strong> Search for “Psiphon” in the App Store. <strong>Installation:</strong> Search for Psiphon in the App Store and click 'Get' to download and install. You may be asked to re-enter your Apple ID and password. Find the Psiphon icon on your phone and click on it to open.",
+        "message": "<strong>iOS:</strong>在应用商城中搜索“Psiphon”。<strong>安装：</strong>在应用商城中搜索Psiphon，点击\"获取”下载和安装。您可能会被要求重新输入您的苹果 ID和密码。在您的手机上找到Psiphon icon，点击打开它。",
         "description": "Section 2 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-24": {
-        "message": "Having trust in an internet tool or service begins with trust in the company that provides it. There are several important indicators to help gauge trustworthiness of tools and services. This document outlines Psiphon's source code, sustainability model, and external audits.",
+        "message": "信任一个互联网工具或服务从信任提供这个工具或服务的公司开始。有好几个重要的指标帮助衡量工具和服务的可信度。这篇文档大致给出了Psiphon的源码，可持续发展模式，和外部audits。",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-25": {
-        "message": "Psiphon is an open source project. Open source means that the source code is shared publicly and anyone is able to review and make suggestions. By allowing interested parties access to inspect the source code, open source applications can increase confidence in how applications are designed.",
+        "message": "Psiphon是一个开源项目。开源表示源代码是公开可获得的，任何人都可以审核和提供改进建议。通过允许兴趣放访问，审核源代码，开源程序可以增加程序设计的自信度。",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-security-splash-alt": {
-        "message": "Psiphon Guide Security and Trust splash image",
+        "message": "Psiphon 指南 安全和可信度 图标",
         "description": "splash image for Section 3 of the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-sub-heading-source-code": {
@@ -1888,11 +1944,11 @@
         "description": "Section 3 list item for the Psiphon Guide page."
     },
     "psiphon-guide-para-30": {
-        "message": "A software audit is the internal or external review of a software program to check its quality, progress, standards, and security. Internal code audits are performed regularly, and external code audits are generally triggered by major code changes such as the development of new features. External security audits are rigorous assessments conducted by third-party vendors to identify and record vulnerabilities and external threats in the source code. Audits help ensure the security of Psiphon users.",
+        "message": "软件审计是内部或外部的软件审查以检查质量，流程，标准，和安全。内部代码审计周期性进行，外部代码审计通常由比如新features等重大更新触发。外部安全审计是由第三方提供商做的严格的代码的缺陷，外部威胁的评估和记录。审计帮助保障Psiphon用户的安全。",
         "description": "Section 3 paragraph for the Psiphon Guide page. A description of what software audits are. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-31": {
-        "message": "During an external code audit, Psiphon will work closely with the vendor. Any issues found are addressed based on importance, and then retested by the vendor. It is Psiphon's policy to make code reviews public. Find Psiphon's blog posts about these assessment events and the corresponding reports below.",
+        "message": "在一次外部审计中，Psiphon会和供应商紧密合作。任何发现的问题都会按重要程度解决，并由供应商重测。代码审查必须公开是Psiphon的政策。下面是Psiphon的blog帖子，关于这些评估和结果。",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-3-sub-heading-security-audits": {
@@ -1908,15 +1964,15 @@
         "description": "Section 3 list item for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-32": {
-        "message": "Psiphon values your privacy. Information about the data collected by Psiphon are detailed in our <a href=\"privacy.html\"> Privacy Policy </a>",
+        "message": "Psiphon重视您的隐私。Psiphon收集的数据信息在我们的<a href=\"privacy.html\">隐私协议 中详列。",
         "description": "Section 3 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-optimal-connections": {
-        "message": "Best Practices for Optimal Connections",
+        "message": "优化连接的最佳实践。",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-33": {
-        "message": "Use the latest version. The most current version of the Psiphon app has the most up to date connection capabilities. See Section 2 Getting and Installing Psiphon for more information about how to obtain authentic versions of Psiphon. Update the Psiphon app when new updates become available.",
+        "message": "使用最新版本。Psiphon程序的最新版本有数据连接能力的最近更新。请查阅第2章 “获取和安装Psiphon”可得到更多的关于取得正版Psiphon的更多信息。当更新可用时，升级您的Psiphon程序",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-34": {
@@ -1928,19 +1984,19 @@
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-36": {
-        "message": "<strong>iOS:</strong> The Psiphon for iOS client will automatically download and install updates via the App Store as they are available.",
+        "message": "<strong>iOS:</strong>Psiphon iOS版客户端在可用时通过苹果应用商店自动下载和安装。",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-37": {
-        "message": "<strong>Manually updating:</strong> If the Psiphon self-updating mechanism isn't working (for example, if it has been blocked), follow the instructions outlined in Section 2: Getting and Installing Psiphon to get a fresh version.",
+        "message": "<strong>手动升级：</strong>如果Psiphon自动升级机制不工作（比如，如果被封），按照在第2节：获取和安装Psiphon 中给出的方法获取一个全新版。",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-strained-environment": {
-        "message": "Connecting in a Strained Environment",
+        "message": "在拥堵环境中连接",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-para-38": {
-        "message": "Under certain network conditions, Psiphon might take up to a few minutes before finding the best way to connect. Do not interrupt it (by hitting the start/stop button). Psiphon uses a variety of protocols and they differ regionally. Not only does the Psiphon app have a variety of connection techniques, it will learn from previous attempts and the successful connection method will be used the next time the app is run.",
+        "message": "在某些网络环境下，Psiphon可能会在找到最好的连接之前花费数分钟。不要中断这个过程（通过点击开始/停止 按钮）。Psiphon使用好几种协议，在不同地区不一样。不但Psiphon应用程序有好几种连接技术，它还会从以前的连接中学习，上次成功的连接方式下次再启动程序时还会使用。",
         "description": "Section 4 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-frequent-disconnections": {
@@ -1984,7 +2040,7 @@
         "description": "Section 4 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-4-sub-heading-feedback-windows": {
-        "message": "Feedback on Windows",
+        "message": "Windows版的反馈。",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-ui-image-annotation-feedback": {
@@ -1992,23 +2048,23 @@
         "description": "Image annotation for the 'Feedback' tab inside the Psiphon application. 'Feedback' must appear as it does in each respective language inside the app."
     },
     "psiphon-guide-windows-feedback-alt": {
-        "message": "Feedback screenshot for Psiphon Windows feedback tab",
+        "message": "Psiphon  Windows 版反馈标签的截图",
         "description": "Feedback screenshot for Psiphon Windows feedback tab."
     },
     "psiphon-guide-android-feedback-alt": {
-        "message": "Feedback screenshot for Psiphon Android feedback tab",
+        "message": "Psiphon  安卓 版反馈标签的截图",
         "description": "Feedback screenshot for Psiphon Android feedback tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-ios-feedback-alt": {
-        "message": "Feedback screenshot for Psiphon iOS feedback tab",
+        "message": "Psiphon  iOS 版反馈标签的截图",
         "description": "Feedback screenshot for Psiphon iOS feedback tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-4-sub-heading-feedback-android": {
-        "message": "Feedback on Android",
+        "message": "安卓版的反馈",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-section-4-sub-heading-feedback-ios": {
-        "message": "Feedback on iOS",
+        "message": "iOS版的反馈",
         "description": "Sub-heading of Section 4 for the Psiphon Guide page"
     },
     "psiphon-guide-section-5-sub-heading-language": {
@@ -2016,7 +2072,7 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page"
     },
     "psiphon-guide-para-42": {
-        "message": "By default, the Psiphon app will automatically open in your selected device language (the language on your phone or computer). There are more than 30 languages available to choose from if you would prefer to use the Psiphon app in another language.",
+        "message": "默认的，Psiphon应用程序会在你的手机或计算机上用你的系统语言打开。如果你想使用另一种语言的话，Psiphon应用程序有30多种语言可以供你选择。",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-connection-performance": {
@@ -2024,15 +2080,15 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-43": {
-        "message": "When connected, all traffic from your device will be tunneled through Psiphon by default. To reduce latency and increase connection performance, you may choose to exclude some traffic from the Psiphon tunnel.",
+        "message": "连接建立后，默认你的设备上的所有流量都会通过隧道。你可以在Psiphon隧道中移除一些流量以减少延迟和增加连接速度。",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-44": {
-        "message": "Psiphon Android users can either individually include or exclude specific apps from the tunnel on devices Android 5.0 and higher. To select which apps use or do not use the Psiphon tunnel, go to OPTIONS, then choose VPN settings. Select specific apps to include or exclude from the Psiphon tunnel.",
+        "message": "Psiphon安卓版用户可以在安卓5.0或以上系统中手动加入或移除某个程序是否使用隧道。要选择那些程序使用或不使用隧道，到程序的“选项”，然后选择VPN设置。选择某个特定程序使用或不使用隧道。",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-45": {
-        "message": "In Psiphon's Windows application, users have the option to exclude local websites from the Psiphon tunnel. The Psiphon app will disregard local websites, so the local websites can be accessed faster. To do so, go into SETTINGS > Split Tunnel > and select \"Don't proxy websites within your home country.\"",
+        "message": "在Psiphon Windows版，用户可以选择在Psiphon隧道中不代理本地网页。Psiphon程序可以不代理本地网页，这样可以更快访问本地网页。设置方法是，到设置 > Split Tunnel >选择“不代理本国的网页”。",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'SETTINGS', and 'Split Tunnel', and 'Don't proxy websites within your home country.' should appear as it does in the Psiphon Windows app. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-slow-networks": {
@@ -2040,7 +2096,7 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page."
     },
     "psiphon-guide-para-46": {
-        "message": "To stay connected on a slow network, opt in to 'Disable timeouts.' This option is available on Android, Windows, and iOS.",
+        "message": "在慢速网络中连接，选择“取消超时”。这个选项在安卓，Windows,和iOS上都有。",
         "description": "Section 5 paragraph for the Psiphon Guide page."
     },
     "psiphon-guide-section-5-sub-heading-server-location": {
@@ -2048,7 +2104,7 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-para-47": {
-        "message": "Psiphon servers are located across the globe. The app automatically chooses the server with the best connection performance. There are more than 20 countries to choose from should you wish to change server location.",
+        "message": "Psiphon服务器分布于全世界。这个应用程序自动选择最好连接速率的服务器连接。如果你想要手动改变服务器地区的话有20多个国家可供选择。",
         "description": "Section 5 paragraph for the Psiphon Guide page. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-section-5-sub-heading-windows-settings": {
@@ -2064,15 +2120,15 @@
         "description": "Sub-heading of Section 5 for the Psiphon Guide page. 'Settings' must appear as it does in each respective language inside the iOS app."
     },
     "psiphon-guide-windows-settings-alt": {
-        "message": "Feedback screenshot for Psiphon Windows settings tab",
+        "message": "Psiphon Windows版 “设置” 页面的截图",
         "description": "Feedback screenshot for Psiphon Windows settings tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-android-settings-alt": {
-        "message": "Feedback screenshot for Psiphon Android settings tab",
+        "message": "Psiphon 安卓版 “设置” 页面的截图",
         "description": "Feedback screenshot for Psiphon Android settings tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-ios-settings-alt": {
-        "message": "Feedback screenshot for Psiphon iOS settings tab",
+        "message": "Psiphon iOS版 “设置” 页面的截图",
         "description": "Feedback screenshot for Psiphon iOS settings tab. 'Psiphon' must not be translated or transliterated."
     },
     "psiphon-guide-windows-ui-reset-default-image-annotation": {

@@ -187,6 +187,14 @@
         "message": "از دسامبر ۲۰۱۹، Psiphon (Psiphon) از ویندوز XP و Vista پشتیبانی نمی‌کند. یک نسخه قدیمی که بر روی این پلتفرم‌ها کار کند، <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">قابل دانلود است</a> اما به کاربران پیشنهاد می‌کنیم تا ویندوز خود را به نسخه‌های اخیر ارتقا دهند.",
         "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
     },
+    "faq-windows-7-eol-question": {
+        "message": "Does Psiphon for Windows work on Windows 7, 8, or 8.1?",
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
+    },
+    "faq-windows-7-eol-answer-para-1": {
+        "message": "As of April 2024, Psiphon does not support Windows 7, 8, or 8.1. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-win7-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
+        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows 7, 8, or 8.1?' 'Psiphon' must not be translated or transliterated."
+    },
     "faq-information-collected-answer-redirect": {
         "message": "لطفا به منظور مشاهده اطلاعاتی که ما جمع آوری می کنیم، صفحه <a href=\"privacy.html\">سیاست های حفظ حریم خصوصی</a> را مشاهده کنید.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
@@ -563,6 +571,54 @@
         "message": "«کلید ورود» که در base-64 پارامتر می‌بینید، کلید ورود «کسب کننده» PsiCash شماست و تنها برای اعتباربخشی به حساب شما با PsiCash استفاده می‌شود، و نه خرج PsiCash یا مشاهده موجودی و... . همچنین این کلید ورود نمی‌تواند هویت و یا اطلاعات دیگری از حساب کاربری شما را افشا سازد.",
         "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
     },
+    "faq-psiphon-bump-title": {
+        "message": "Psiphon Bump",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-1-what": {
+        "message": "Psiphon Bump چیست؟",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-1-what": {
+        "message": "وقتی شما نمی‌توانید به Psiphon وصل شوید، آیا کسی دور و برتان هست که روی دستگاه اندرویش به Psiphon وصل هست ؟‌ Psiphon Bump یک روش امن گوشی به گوشی برای تبادل اتصال به شبکه سایفون است. شما میتوانید از طریق دستگاه کسی که به Psiphon وصل است، به شبکه دسترسی پیدا کنید. ",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-2-work": {
+        "message": "Psiphon Bump چطور کار می‌کند؟",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-2-work-para-1": {
+        "message": "Psiphon Bump از طریق ارتباط میدان نزدیک یا NFC روی تلفن همراه شما کار می‌کند. این کاربری از اطلاعات شبکه متصل روی یک دستگاه استفاده می‌کند تا دستگاه‌های دیگری که وصل نیستند بتوانند به شبکه Psiphon وصل شوند. ",
+        "description": "'Psiphon', 'Bump' and 'NFC' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-2-work-para-2": {
+        "message": " Psiphon exchanges digitally signed and encrypted connection parameters ensuring both the secrecy and integrity of the exchange. The contents of the data cannot be read or modified by any third party.",
+        "description": "'Psiphon' and must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-3-device": {
+        "message": "آیا Psiphon Bump روی دستگاه من کار می‌کند؟",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-3-device": {
+        "message": "Psiphon Bump در حال حاضر روی دستگاه اندروید ۵ یا بالاتر (SDK 21+) با پشتیبانی NFC کار می‌کند. هر دو دستگاه باید این ویژگی و نسخه Psiphon 385 یا بالاتر را داشته باشند تا اتصال با موفقیت انجام شود. ",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-4-how": {
+        "message": "چطور از Psiphon Bump استفاده کنم؟",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-4-how-para-1": {
+        "message": "Both users need to have NFC enabled on their device. First, open your Android Settings and select “Connection preferences” > NFC. Slide the toggle to on to enable NFC. Holding two NFC-enabled Android devices back to back within a range of 1cm will activate a transfer of content or data.",
+        "description": "'Psiphon'and 'NFC' must not be translated or transliterated. Please translate 'Connection preferences' as it appears on an Android device, in the respective translation."
+    },
+    "faq-psiphon-bump-answer-4-how-para-2": {
+        "message": "تا وقتی وضعیت برنامه Psiphon «در حال اتصال» است، می‌توانید Bump دریافت کنید. بلافاصله دکمه NFC ظاهر می‌شود. این دکمه را فشار دهید. اگر اتصال به Psiphon موفقیت‌آمیز باشد، گزینه NFC را نمی‌بینید.",
+        "description": "'Psiphon'and 'NFC' must not be translated or transliterated. Please translate 'Connecting' as it appears in the app, in the respective translation."
+    },
+    "faq-psiphon-bump-answer-4-how-para-3": {
+        "message": "تا زمانی که وضعیت برنامه Psiphon «در حال اتصال» است، دکمه NFC نمایان می‌ماند و گزینه Get Bump را باز می‌کند. این دکمه به محض اتصال دستگاه به Psiphon محو می‌شود. ",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated. Please translate 'Get Bump' as it appears in the app, in the respective translation."
+    },
     "alert-heading": {
         "message": "هشدار",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -656,8 +712,8 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "download-windows-direct-description-v2": {
-        "message": "بر روی ویندوز ۷، ویندوز ۸ (دسکتاپ) و ویندوز ۱۰ کار می‌کند.<br>(یک نسخه قدیمی برای <a href=\"./faq.html#windows-xp-eol\">ویندوز XP و Vista</a> در دسترس است.)",
-        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
+        "message": "Works on Windows 10 and 11.<br>(Legacy builds are available for <a href=\"./faq.html#windows-xp-eol\">Windows XP and Vista</a>, and for <a href=\"./faq.html#windows-7-eol\">Windows 7, 8, and 8.1</a>.)",
+        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP, Vista, 7, 8, and 8.1 are no longer supported, but there are an old (legacy) builds available for download."
     },
     "download-android-direct": {
         "message": "دانلود مستقیم Psiphon برای اندورید",
@@ -1376,11 +1432,11 @@
         "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-1": {
-        "message": "در حالی که دستگاه کاربر از طریق Psiphon تونل می‌شود، ما اطلاعاتی در مورد نحوه استفاده از آن جمع می‌کنیم. ما ضبط می‌کنیم که پروتکل استفاده شده Psiphon برای اتصال چه بوده، چه مدت دستگاه متصل بوده است، چند بایت در طول جلسه منتقل شده است، و ارتباط از کدام شهر، کشور و ISP حاصل شده است. برای برخی از دامنه‌ها (اما تعداد بسیار کمی ، و فقط محبوب ترین آنها) یا آدرس های IP سرور (به عنوان مثال، سرورهای مخرب شناخته شده) که بازدید می‌شوند، ما همچنین ثبت می‌کنیم که چند بایت به آن منتقل شده است. (اما نه در مورد URL های کامل یا هر چیز دیگری که حساس‌تر باشد. و فقط دامنه های مورد علاقه عمومی، نه همه حوزه ها.)",
+        "message": "While a user's device is tunneled through Psiphon, we collect some information about how they're using it. We record what protocol Psiphon used to connect, how long the device was connected, how many bytes were transferred during the session, and some geographical and ISP information. For some domains (but very few, and only popular ones) or server IP addresses (e.g., known malware servers) that are visited, we also record how many bytes were transferred to it. (But never full URLs or anything more sensitive. And only domains of general interest, not all domains.)",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
-        "message": "موقعیت جغرافیایی و اطلاعات ISP ( ارائه دهنده خدمات اینترنتی ) از آدرس های IP کاربر گرفته می شوند که بلافاصله دور انداخته می شوند.",
+        "message": "The user's city, country, and ISP are derived from the user's IP address; the IP address is then immediately discarded. Users may also be asked to optionally allow access to their approximate location (accurate up to 3 km) using their device's location service (e.g., GPS).",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-3": {

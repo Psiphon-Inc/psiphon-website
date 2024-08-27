@@ -187,6 +187,14 @@
         "message": "Psiphon, Aralık 2019 tarihinden beri Windows XP ya da Vista desteği vermiyor. Bu platformlar üzerinde yakın gelecekte çalışacak eski bir sürümü <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">indirebilirsiniz</a>. Ancak son Windows sürümünü kullanmanız önemle önerilir.",
         "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
     },
+    "faq-windows-7-eol-question": {
+        "message": "Windows için Psiphon Windows 7,8 ya da 8.1 üzerinde çalışır mı?",
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
+    },
+    "faq-windows-7-eol-answer-para-1": {
+        "message": "Psiphon, Aralık 2024 tarihinden beri Windows 7, 8 ya da 8.1 desteği vermiyor. Bu platformlar üzerinde yakın gelecekte çalışacak eski bir sürümü <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-win7-legacy.exe\">indirebilirsiniz</a>. Ancak son Windows sürümünü kullanmanız önemle önerilir.",
+        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows 7, 8, or 8.1?' 'Psiphon' must not be translated or transliterated."
+    },
     "faq-information-collected-answer-redirect": {
         "message": "Lütfen topladığımız bilgiler hakkında ayrıntılı bilgi almak için <a href=\"privacy.html\">gizlilik ilkemize</a> bakın.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
@@ -563,6 +571,54 @@
         "message": "Parametrenin çözülmüş base 64 kodunda göreceğiniz \"token\", PsiCash \"kazanan\" kodunuzdur ve yalnızca hesabınıza PsiCash kredisi vermek için kullanılabilir -- PsiCash birikiminizi harcamak ya da görüntülemek gibi işlemler için kullanılmaz. Ayrıca bu kod kimliğinizi veya hesabınızla ilgili başka herhangi bir şeyi bulmak için kullanılamaz.",
         "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
     },
+    "faq-psiphon-bump-title": {
+        "message": "Psiphon Bump",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-1-what": {
+        "message": "Psiphon Bump nedir?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-1-what": {
+        "message": "Android aygıtı üzerinden Psiphon ağına bağlı bir arkadaşınız var ve siz bağlanamıyor musunuz? Psiphon Bump, çalışan bağlantı ayarlarının bağlı başka bir kullanıcıdan doğrudan size güvenli bir şekilde aygıttan aygıta aktarılmasıdır.",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-2-work": {
+        "message": "Psiphon Bump nasıl çalışır?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-2-work-para-1": {
+        "message": "Psiphon Bump, aygıtınızdaki yakın alan iletişimi (NFC) özelliğini kullanır. Çalışan bir yapılandırmayı bağlanamayan bir arkadaşınızın aygıtına uyguladığınızda, Psiphon bu bilgiyi sonraki ağ bağlantılarını iyileştirmek için kullanabilir.",
+        "description": "'Psiphon', 'Bump' and 'NFC' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-2-work-para-2": {
+        "message": "Psiphon, dijital olarak imzalanmış ve şifrelenmiş bağlantı ayarlarını, hem aktarımın gizliliğini hem de bütünlüğünü garanti altına alarak değiştirir. Verilerin içerikleri herhangi bir üçüncü tarafça okunamaz veya değiştirilemez.",
+        "description": "'Psiphon' and must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-3-device": {
+        "message": "Psiphon Bump aygıtımda destekleniyor mu?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-3-device": {
+        "message": "Psiphon Bump şu anda yalnızca Android aygıtlarda destekleniyor ve Android 5.0 ve üzeri (SDK 21+) + NFC donanım desteği olan Android sürümlerinde çalışıyor. Başarılı bir aktarım için her iki aygıtın da uyumlu olması ve Psiphon 385 veya üzerindeki bir sürümünün kurulu olması gerekiyor.",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-4-how": {
+        "message": "Psiphon Bump nasıl kullanılır?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-4-how-para-1": {
+        "message": "İki kullanıcının da aygıtında NFC özelliği açık olmalıdır Öncelikle Android ayarlarını açın ve \"Bağlantı tercihleri\" > NFC özelliğini açın. NFC özelliğini açmak için anahtarı açık konuma getirin. NFC özelliği açık olan iki Android aygıtı 1 cm uzaktan sırt sırta tutulduğunda, içerik veya veri aktarımı başlar.",
+        "description": "'Psiphon'and 'NFC' must not be translated or transliterated. Please translate 'Connection preferences' as it appears on an Android device, in the respective translation."
+    },
+    "faq-psiphon-bump-answer-4-how-para-2": {
+        "message": "Psiphon uygulamanız “Bağlantı kuruluyor” durumunda olduğu sürece bir Psiphon Bump alabilirsiniz. “NFC” düğmesini hemen göreceksiniz. Bu düğmeye bastığınızdan emin olun. Bağlantı hemen kurulursa, bu ögeyi görmezsiniz.",
+        "description": "'Psiphon'and 'NFC' must not be translated or transliterated. Please translate 'Connecting' as it appears in the app, in the respective translation."
+    },
+    "faq-psiphon-bump-answer-4-how-para-3": {
+        "message": "“Get Bump” iletişim kutusunu açan yüzen NFC düğmesi, uygulama “Bağlantı kuruluyor” durumunda olduğu sürece görünür ve tünel bağlandığında kaybolur. Ayrıca, “Get Bump” penceresi açıksa ancak aygıt bu arada kendi kendine bir bağlantı kurarsa, pencere otomatik olarak kaybolur.",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated. Please translate 'Get Bump' as it appears in the app, in the respective translation."
+    },
     "alert-heading": {
         "message": "UYARI",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -656,8 +712,8 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "download-windows-direct-description-v2": {
-        "message": "Windows 7, Windows 8 (masaüstü) ve Windows 10 üzerinde çalışır.<br>(<a href=\"./faq.html#windows-xp-eol\">Windows XP ve Vista</a> ile kullanılabilecek eski bir sürümü de vardır)",
-        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
+        "message": "Windows 10 ve 11 üzerinde çalışır.<br>(Eski sürümler <a href=\"./faq.html#windows-xp-eol\">Windows XP ve Vista</a> ve <a href=\"./faq.html#windows-7-eol\">Windows 7, 8 ve 8.1</a> için sürümler de vardır.)",
+        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP, Vista, 7, 8, and 8.1 are no longer supported, but there are an old (legacy) builds available for download."
     },
     "download-android-direct": {
         "message": "Android için Psiphon uygulamasını doğrudan indirin",
@@ -1376,11 +1432,11 @@
         "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-1": {
-        "message": "Bir aygıt Psiphon tünelini kullanırken, kullanıcının nasıl kullandığı hakkında bazı bilgiler toplarız. Psiphon bağlantısı kurmak için kullanılan iletişim kuralı, aygıtın ne kadar süreyle bağlı kaldığı, oturum süresince aktarılan bayt sayısı ve bağlantının kurulduğu, il, ülke ve İnternet Hizmeti Sağlayıcı bilgilerini kaydediyoruz. Ziyaret edilen bazı (ancak çok az sayıda) etki alanı ya da sunucu IP adresleri (bilinen zararlı yazılım sunucuları gibi) için aktarılan bayt sayısını da kaydediyoruz (Ancak asla tam adresi ya da herhangi bir kişisel önemi olan bilgiyi kaydetmiyoruz. Ayrıca bunu tüm etki alanları için değil yalnızca genel olarak ilgi çeken etki alanları için yapıyoruz).",
+        "message": "Bir aygıt Psiphon tünelini kullanırken, kullanıcının nasıl kullandığı hakkında bazı bilgiler toplarız. Psiphon bağlantısı kurmak için kullanılan iletişim kuralı, aygıtın ne kadar süreyle bağlı kaldığı, oturum süresince aktarılan bayt sayısı ve bazı coğrafi bilgiler ile İnternet hizmeti sağlayıcısı bilgilerini kaydediyoruz. Ziyaret edilen bazı (ancak çok az sayıda) etki alanı ya da sunucu IP adresleri (bilinen zararlı yazılım sunucuları gibi) için aktarılan bayt sayısını da kaydediyoruz (Ancak asla tam adresi ya da herhangi bir kişisel önemi olan bilgiyi kaydetmiyoruz. Ayrıca bunu tüm etki alanları için değil yalnızca genel olarak ilgi çeken etki alanları için yapıyoruz).",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
-        "message": "Coğrafi konum ve İnternet Hizmeti Sağlayıcı bilgileri, bu bilgiler alındıktan sonra hemen silinen kullanıcı IP adresinden türetilir.",
+        "message": "Kullanıcının ili, ülkesi ve İnternet hizmeti sağlayıcısı kullanıcının IP adresinden türetilir. Ardından IP adresi hemen atılır. Ayrıca kullanıcılardan, isteğe bağlı olarak aygıtın konum hizmetini (GPS gibi) kullanarak yaklaşık konumlarına (3 km yakınlığa kadar) erişilmesine izin vermeleri istenebilir.",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-3": {
@@ -1436,7 +1492,7 @@
         "description": "Paragraph text in the 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-1": {
-        "message": "Psiphon ağının sağlığını ve başarımını izliyoruz: Kaç kişinin, nereden bağlandığını, ne kadar veri aktardığını ve sorun yaşayıp yaşamadıklarına bakıyoruz.",
+        "message": "Psiphon ağının sağlığını ve başarımını izliyoruz: Kaç kişinin, nereden bağlantı kurduğunu, ne kadar veri aktardığını ve sorun yaşayıp yaşamadıklarına bakıyoruz.",
         "description": "Bullet list text under 'What does Psiphon do with User Activity and Aggregated Data?' subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-whatdoespsiphondowith-para-2-item-2": {

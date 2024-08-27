@@ -187,6 +187,14 @@
         "message": "Vanaf december 2019 ondersteunt Psiphon Windows XP of Vista niet. Er is een verouderde versie <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">beschikbaar om te downloaden </a> die in de nabije toekomst op die platforms zal werken, maar gebruikers worden sterk aangemoedigd om te upgraden naar een recente versie van Windows.",
         "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
     },
+    "faq-windows-7-eol-question": {
+        "message": "Does Psiphon for Windows work on Windows 7, 8, or 8.1?",
+        "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
+    },
+    "faq-windows-7-eol-answer-para-1": {
+        "message": "As of April 2024, Psiphon does not support Windows 7, 8, or 8.1. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-win7-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
+        "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows 7, 8, or 8.1?' 'Psiphon' must not be translated or transliterated."
+    },
     "faq-information-collected-answer-redirect": {
         "message": "Raadpleeg onze <a href=\"privacy.html\"> Privacybeleid </a> te leren over welke informatie wij verzamelen.",
         "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
@@ -563,6 +571,54 @@
         "message": "The \"token\" you will see in the decoded base-64 of the parameter is your PsiCash \"earner\" token, and can only be used for crediting your account with PsiCash -- not for spending your PsiCash, viewing your balance, etc. This token also cannot be used to reveal your identity or anything else about your account.",
         "description": "This is an FAQ answer. It explains what the 'psicash=' parameter in URLs is for (and that it doesn't expose or reveal anything) 'PsiCash' should not be translated or transliterated."
     },
+    "faq-psiphon-bump-title": {
+        "message": "Psiphon Bump",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-1-what": {
+        "message": "What is Psiphon Bump?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-1-what": {
+        "message": "Have a friend who's connected to the Psiphon network on an Android device and you can't connect? Psiphon Bump is a secure device-to-device exchange of functioning connection parameters from another connected user directly to you.",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-2-work": {
+        "message": "How does Psiphon Bump work?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-2-work-para-1": {
+        "message": "Psiphon Bump works using the Near-Field Communication (NFC) function on your device. By applying a confirmed working configuration to a friend's unconnected device, Psiphon can make use of that information to optimize subsequent connections to the network.",
+        "description": "'Psiphon', 'Bump' and 'NFC' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-2-work-para-2": {
+        "message": " Psiphon exchanges digitally signed and encrypted connection parameters ensuring both the secrecy and integrity of the exchange. The contents of the data cannot be read or modified by any third party.",
+        "description": "'Psiphon' and must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-3-device": {
+        "message": "Is Psiphon Bump supported on my device?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-3-device": {
+        "message": "Psiphon Bump is currently supported on Android devices only and works on Android versions Android 5.0 and higher (SDK 21+) + NFC hardware support. Both devices need to be compatible for a successful exchange, and be running Psiphon version 385 or higher.",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-question-4-how": {
+        "message": "How do I use Psiphon Bump?",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated."
+    },
+    "faq-psiphon-bump-answer-4-how-para-1": {
+        "message": "Both users need to have NFC enabled on their device. First, open your Android Settings and select “Connection preferences” > NFC. Slide the toggle to on to enable NFC. Holding two NFC-enabled Android devices back to back within a range of 1cm will activate a transfer of content or data.",
+        "description": "'Psiphon'and 'NFC' must not be translated or transliterated. Please translate 'Connection preferences' as it appears on an Android device, in the respective translation."
+    },
+    "faq-psiphon-bump-answer-4-how-para-2": {
+        "message": " As long as your Psiphon app is in the “Connecting” state, you are able to receive a Psiphon Bump. You will see the “NFC” button immediately. Make sure to press this button. If connection successfully establishes right away, you will not see this element.",
+        "description": "'Psiphon'and 'NFC' must not be translated or transliterated. Please translate 'Connecting' as it appears in the app, in the respective translation."
+    },
+    "faq-psiphon-bump-answer-4-how-para-3": {
+        "message": "The NFC floating button, which opens the “Get Bump” dialog, remains present throughout the duration the app is in the “connecting” state and will vanish once the tunnel connects. Additionally, if the “Get Bump” dialog is open but the device successfully connects on its own in the meantime, the dialog will automatically disappear.",
+        "description": "'Psiphon' and 'Bump' must not be translated or transliterated. Please translate 'Get Bump' as it appears in the app, in the respective translation."
+    },
     "alert-heading": {
         "message": "ALERT",
         "description": "Heading of the alert that shows on the main page when there's a security or other concern that needs to be brought to the attention of users"
@@ -656,8 +712,8 @@
         "description": "text for link to Psiphon for Windows download"
     },
     "download-windows-direct-description-v2": {
-        "message": "Werkt op Windows 7, Windows 8 (desktop) en Windows 10. <br>(Een verouderde versie voor <a href=\"./faq.html#windows-xp-eol\">Windows XP en Vista</a> is beschikbaar.)",
-        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP and Vista are no longer supported, but there is an old (legacy) build available for download."
+        "message": "Works on Windows 10 and 11.<br>(Legacy builds are available for <a href=\"./faq.html#windows-xp-eol\">Windows XP and Vista</a>, and for <a href=\"./faq.html#windows-7-eol\">Windows 7, 8, and 8.1</a>.)",
+        "description": "Descriptive text on the download page indicating what versions of Windows Psiphon does and does not support. Windows XP, Vista, 7, 8, and 8.1 are no longer supported, but there are an old (legacy) builds available for download."
     },
     "download-android-direct": {
         "message": "Psiphon voor Android directe download",
@@ -1376,11 +1432,11 @@
         "description": "Sub-heading for the definition of 'User Activity Data' under the 'User Activity and VPN Data' section of the Privacy Policy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-1": {
-        "message": "Terwijl het apparaat van een gebruiker wordt getunneld via Psiphon, verzamelen we wat informatie over hoe ze het gebruiken. We registreren welk protocol Psiphon gebruikte om verbinding te maken, hoe lang het apparaat was verbonden, hoeveel bytes tijdens de sessie werden overgedragen en uit welke stad, land en ISP de verbinding afkomstig was. Voor sommige domeinen (maar zeer weinig, en alleen populaire) of server-IP-adressen (bijv. Bekende malware-servers) die worden bezocht, registreren we ook hoeveel bytes er naartoe zijn overgedragen. (Maar nooit volledige URL's of iets gevoeliger. En alleen domeinen van algemeen belang, niet alle domeinen.)",
+        "message": "While a user's device is tunneled through Psiphon, we collect some information about how they're using it. We record what protocol Psiphon used to connect, how long the device was connected, how many bytes were transferred during the session, and some geographical and ISP information. For some domains (but very few, and only popular ones) or server IP addresses (e.g., known malware servers) that are visited, we also record how many bytes were transferred to it. (But never full URLs or anything more sensitive. And only domains of general interest, not all domains.)",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-2": {
-        "message": "Geografische locatie en ISP-informatie worden afgeleid van IP-adressen van gebruikers, die vervolgens onmiddellijk worden verwijderd.",
+        "message": "The user's city, country, and ISP are derived from the user's IP address; the IP address is then immediately discarded. Users may also be asked to optionally allow access to their approximate location (accurate up to 3 km) using their device's location service (e.g., GPS).",
         "description": "Paragraph text in the 'User Activity Data' definition subsection of the 'User Activity and VPN Data' section of the Privacy page."
     },
     "privacy-information-collected-vpndata-useractivity-para-3": {
