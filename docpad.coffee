@@ -126,6 +126,11 @@ docpadConfig = {
         title_key: 'download-title'
         nav_title_key: 'download-nav-title'
 
+      'download-store':
+        filename: '/download-store.html'
+        title_key: 'download-title'
+        nav_title_key: 'download-nav-title'
+
       'faq':
         filename: '/faq.html'
         title_key: 'faq-title'
@@ -177,7 +182,7 @@ docpadConfig = {
         nav_title_key: 'donate-nav-title'
 
     navLayout: [
-      { name: 'download' }
+      { name: 'download-store' }
       {
         name: 'resources',
         nav_title_key: 'resources-nav-title'

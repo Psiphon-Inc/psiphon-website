@@ -145,7 +145,7 @@ $ ->
     # TODO: Are there more special-case calendars? See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
     $(elem).text(date.toLocaleDateString(locale, options))
 
-  if endsWith(window.location.pathname, '/download.html')
+  if endsWith(window.location.pathname, '/download.html') || endsWith(window.location.pathname, '/download-store.html')
     # If the anchor is for the "direct downloads" section, move that section to
     # the top.
     if window.location.hash == '#direct'
