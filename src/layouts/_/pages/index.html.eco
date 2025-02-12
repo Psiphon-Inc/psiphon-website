@@ -7,7 +7,7 @@ layout: _/default
 
 <div class="row index-splash">
   <div class="col-xs-8-center">
-    <a href="<%= @getFullTranslatedURL '/download.html' %>">
+    <a href="<%= @getFullTranslatedURL '/download-store.html' %>">
       <img src="<%= @document.pathToRoot %>/images/hero/hero-large.png"
            class="img-responsive center-block" alt="Psiphon">
       <h1 class="slabtext-container text-center" data-max-font-size="60">
@@ -19,7 +19,7 @@ layout: _/default
   </div>
   <div class="col-xs-8-center text-center">
     <!-- DOWNLOAD BUTTON -->
-    <a href="<%= @getFullTranslatedURL '/download.html' %>">
+    <a href="<%= @getFullTranslatedURL '/download-store.html' %>">
       <button class="lead download-button bg-primary btn btn-primary btn-lg">
         <%- @tt 'download-title' %>
       </button>
@@ -73,7 +73,7 @@ layout: _/default
         <p>
           <%= @tt 'main-pick-three-para-1' %>
         </p>
-        <a class="<%- @ifRTL('pull-left', 'pull-right') %>" href="<%= @getFullTranslatedURL '/download.html' %>">
+        <a class="<%- @ifRTL('pull-left', 'pull-right') %>" href="<%= @getFullTranslatedURL '/download-store.html' %>">
           <%= @tt 'download-title' %> &raquo;
         </a>
       </div>

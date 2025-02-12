@@ -2,7 +2,7 @@
 <footer>
    <div class="row">
     <div class="col-md-12 text-center">
-      <a href="<%= @getFullTranslatedURL '/download.html' %>" class="col-md-3">
+      <a href="<%= @getFullTranslatedURL '/download-store.html' %>" class="col-md-3">
         <h5>
           <%- @tt 'download-title' %>
         </h5>
