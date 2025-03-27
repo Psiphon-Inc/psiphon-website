@@ -82,11 +82,18 @@ $ ->
   # page elements are shown/hidden depending on the presence/absence of the
   # download files.
   #
-  android_download_file = $('html').data('android-download-path')
-  windows_download_file = $('html').data('windows-download-path')
+  android_download_file = $('#__download-info').data('android-download-path')
+  windows_download_file = $('#__download-info').data('windows-download-path')
   for vals in [[android_download_file, '.show-if-android'],
                [windows_download_file, '.show-if-windows']]
     do (fname = vals[0], selector = vals[1]) ->
+      # If the file URL isn't available, treat it as a missing file.
+      if not fname
+        $(selector).toggleClass('hidden', true)
+        return
+
+      # Otherwise check that the file exists.
+      # Note that this is a HEAD request, so it won't download the file.
       $.ajax(type: 'HEAD', url: fname)
         .done ->
           $(selector).toggleClass('hidden', false)
