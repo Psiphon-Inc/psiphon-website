@@ -1,7 +1,3 @@
----
-cacheable: true
----
-
 <!-- DOWNLOAD-INFO -->
 <div id="__download-info" class="hidden"
   <% if @includeAndroid: %> data-android-download-path="<%- @relativeToRoot @downloads.android %>" <% end %>
