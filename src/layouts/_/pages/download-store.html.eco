@@ -2,7 +2,7 @@
 layout: _/page
 ---
 
-<%-@partial('download-info.html', @, {includeWindows:true, includeAndroid:false})%>
+<%-@partial('download-info.html', {includeWindows:true, includeAndroid:false})%>
 
 <div class="row download-list-join">
   <div class="col-md-12">
