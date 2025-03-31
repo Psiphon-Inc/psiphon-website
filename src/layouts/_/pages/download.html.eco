@@ -118,7 +118,7 @@ layout: _/page
 
 </div>
 
-<div id="direct" class="anchor-target">
+<div id="direct" class="anchor-target hidden show-if-android show-if-windows">
   <div class="row">
     <div class="download-head">
       <h2><%= @tt 'download-direct-head' %></h2>

@@ -2,7 +2,7 @@
 layout: _/page
 ---
 
-<%-@partial('download-info.html', {includeWindows:true, includeAndroid:false})%>
+<%-@partial('download-info.html', {includeWindows:false, includeAndroid:false})%>
 
 <div class="row download-list-join">
   <div class="col-md-12">
@@ -116,31 +116,4 @@ layout: _/page
     </div>
   </div>
 
-</div>
-
-<div id="direct" class="anchor-target hidden show-if-windows">
-  <div class="row">
-    <div class="download-head">
-      <h2><%= @tt 'download-direct-head' %></h2>
-    </div>
-  </div>
-
-  <div class="row download-item show-if-windows">
-    <div class="download-os">
-      <a href="<%- @relativeToRoot @downloads.windows %>">
-        <img class="download-os-logo" src="<%= @relativeToRoot '/images/windows/windows-psiphon-logo.png' %>">
-        <img class="download-os-logo" src="<%= @relativeToRoot '/images/windows-logo.png' %>">
-      </a>
-    </div>
-    <div class="download-link">
-      <h4>
-        <a href="<%- @relativeToRoot @downloads.windows %>" class="alert-link">
-          <%= @tt 'download-windows-direct' %>
-        </a>
-      </h4>
-      <p>
-        <%- @tt 'download-windows-direct-description-v2' %>
-      </p>
-    </div>
-  </div>
 </div>
