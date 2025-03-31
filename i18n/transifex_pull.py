@@ -20,15 +20,14 @@
 '''
 Pulls and massages our translations from Transifex.
 
-Run with
-# If you don't already have pipenv:
-$ pip install pipenv
+Install uv: https://github.com/astral-sh/uv?tab=readme-ov-file#installation
 
-$ pipenv install --ignore-pipfile
-$ pipenv run python transifex_pull.py
+Then:
+$ uv run transifex_pull.py
 
-# To reset your pipenv state (e.g., after a Python upgrade):
-$ pipenv --rm
+To do a brute-force upgrade of dependencies:
+$ rm -rf .venv uv.lock
+Then run again.
 '''
 
 
