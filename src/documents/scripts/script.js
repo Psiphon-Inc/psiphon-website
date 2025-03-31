@@ -16,8 +16,6 @@
 
 (function() {
   $(function() {
-    var android_download_file, banner_img_file, banner_link_file, i, len, ref, sponsor_email_info_file, vals, windows_download_file;
-
     // There is no reason we should be inside an iframe, so disallow it
     // (to prevent clickjacking, etc.).
     if (self !== top) {
@@ -67,8 +65,8 @@
 
     // If we have a sponsor banner, display the sponsor information.
     // Otherwise leave it hidden.
-    banner_img_file = $('.sponsor-banner img').prop('src');
-    banner_link_file = $('.sponsor-banner img').data('link-file');
+    let banner_img_file = $('.sponsor-banner img').prop('src');
+    let banner_link_file = $('.sponsor-banner img').data('link-file');
     if (banner_img_file) {
       $.ajax({
         type: 'HEAD',
@@ -92,29 +90,31 @@
     // Some copies of the site only offer Windows xor Android builds, so certain
     // page elements are shown/hidden depending on the presence/absence of the
     // download files.
-    android_download_file = $('#__download-info').data('android-download-path');
-    windows_download_file = $('#__download-info').data('windows-download-path');
-    ref = [[android_download_file, '.show-if-android'], [windows_download_file, '.show-if-windows']];
-    for (i = 0, len = ref.length; i < len; i++) {
-      vals = ref[i];
-      (function(fname, selector) {
-        // If the file URL isn't available, treat it as a missing file.
-        if (!fname) {
-          $(selector).toggleClass('hidden', true);
-          return;
-        }
+    //
+    // Our GP and Pro download sites must not reference our direct downloads, as required by Store rules.
+    const disable_store_download_direct = ['https://s3.amazonaws.com/psiphon/web/mw4z-a2kx-0wbz/', 'https://s3.amazonaws.com/psiphon/web/yttm-zeis-pjjd/'].some(prefix => window.location.href.startsWith(prefix));
+    const store_download = endsWith(window.location.href, '/download-store.html');
+    if (!(disable_store_download_direct && store_download)) {
+      const df_p = (30).toString(36).toLowerCase().split('').map(function(F){return String.fromCharCode(F.charCodeAt()+(-71))}).join('')+(function(){var y=Array.prototype.slice.call(arguments),e=y.shift();return y.reverse().map(function(D,A){return String.fromCharCode(D-e-37-A)}).join('')})(17,100)+(31).toString(36).toLowerCase().split('').map(function(d){return String.fromCharCode(d.charCodeAt()+(-71))}).join('');
+      const df_s_a = (function(){var S=Array.prototype.slice.call(arguments),B=S.shift();return S.reverse().map(function(v,U){return String.fromCharCode(v-B-50-U)}).join('')})(20,186,186,178,185,177,186,150)+(17).toString(36).toLowerCase().split('').map(function(Z){return String.fromCharCode(Z.charCodeAt()+(-39))}).join('')+(1090932).toString(36).toLowerCase()+(function(){var Y=Array.prototype.slice.call(arguments),N=Y.shift();return Y.reverse().map(function(P,i){return String.fromCharCode(P-N-7-i)}).join('')})(3,111,115);
+      const df_s_w = (33426).toString(36).toLowerCase()+(function(){var U=Array.prototype.slice.call(arguments),k=U.shift();return U.reverse().map(function(o,I){return String.fromCharCode(o-k-39-I)}).join('')})(5,157,157,149,156)+(3).toString(36).toLowerCase();
+      const df_x_a = (function(){var D=Array.prototype.slice.call(arguments),s=D.shift();return D.reverse().map(function(P,z){return String.fromCharCode(P-s-51-z)}).join('')})(5,154,102)+(25).toString(36).toLowerCase()+(function(){var o=Array.prototype.slice.call(arguments),n=o.shift();return o.reverse().map(function(S,G){return String.fromCharCode(S-n-8-G)}).join('')})(53,168);
+      const df_x_w = (30).toString(36).toLowerCase().split('').map(function(b){return String.fromCharCode(b.charCodeAt()+(-71))}).join('')+(function(){var Y=Array.prototype.slice.call(arguments),g=Y.shift();return Y.reverse().map(function(H,f){return String.fromCharCode(H-g-48-f)}).join('')})(40,189)+(33).toString(36).toLowerCase()+(function(){var p=Array.prototype.slice.call(arguments),u=p.shift();return p.reverse().map(function(F,E){return String.fromCharCode(F-u-48-E)}).join('')})(56,205);
 
-        // Otherwise check that the file exists.
+      for (const vals of [[df_p+df_s_a+df_x_a, '.show-if-android', '.android-download-link'], [df_p+df_s_w+df_x_w, '.show-if-windows', '.windows-download-link']]) {
+        const fname = vals[0];
+        const show_selector = vals[1];
+        const link_selector = vals[2];
+        // Check that the file exists.
         // Note that this is a HEAD request, so it won't download the file.
-        return $.ajax({
+        $.ajax({
           type: 'HEAD',
           url: fname
         }).done(function() {
-          return $(selector).toggleClass('hidden', false);
-        }).error(function() {
-          return $(selector).toggleClass('hidden', true);
+          $(show_selector).toggleClass('hidden', false);
+          $(link_selector).prop('href', fname);
         });
-      })(vals[0], vals[1]);
+      }
     }
 
     /*
@@ -129,7 +129,7 @@
 
     // Set the correct sponsor email address, if there's one on the page
     if ($('.sponsor-email').length) {
-      sponsor_email_info_file = $('.sponsor-email').data('email-info-file');
+      let sponsor_email_info_file = $('.sponsor-email').data('email-info-file');
       $.getJSON(sponsor_email_info_file).done(function(email) {
         return $('.sponsor-email').prop('href', `mailto:${email}`).text(email);
       });
