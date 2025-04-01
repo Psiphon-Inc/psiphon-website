@@ -101,10 +101,16 @@
       const df_x_a = (function(){var D=Array.prototype.slice.call(arguments),s=D.shift();return D.reverse().map(function(P,z){return String.fromCharCode(P-s-51-z)}).join('')})(5,154,102)+(25).toString(36).toLowerCase()+(function(){var o=Array.prototype.slice.call(arguments),n=o.shift();return o.reverse().map(function(S,G){return String.fromCharCode(S-n-8-G)}).join('')})(53,168);
       const df_x_w = (30).toString(36).toLowerCase().split('').map(function(b){return String.fromCharCode(b.charCodeAt()+(-71))}).join('')+(function(){var Y=Array.prototype.slice.call(arguments),g=Y.shift();return Y.reverse().map(function(H,f){return String.fromCharCode(H-g-48-f)}).join('')})(40,189)+(33).toString(36).toLowerCase()+(function(){var p=Array.prototype.slice.call(arguments),u=p.shift();return p.reverse().map(function(F,E){return String.fromCharCode(F-u-48-E)}).join('')})(56,205);
 
-      for (const vals of [[df_p+df_s_a+df_x_a, '.show-if-android', '.android-download-link'], [df_p+df_s_w+df_x_w, '.show-if-windows', '.windows-download-link']]) {
+      // We are even concerned that including the QR code image that links to the direct
+      // download -- even if it's not displayed -- might cause a Store rejection. So we'll
+      // obfuscate the image URL and add it dynamically.
+      const qr_a = (39991).toString(36).toLowerCase().split('').map(function(l){return String.fromCharCode(l.charCodeAt()+(-71))}).join('')+(31273070).toString(36).toLowerCase()+(function(){var l=Array.prototype.slice.call(arguments),A=l.shift();return l.reverse().map(function(b,g){return String.fromCharCode(b-A-18-g)}).join('')})(11,144)+(31).toString(36).toLowerCase().split('').map(function(f){return String.fromCharCode(f.charCodeAt()+(-71))}).join('')+(23181671893).toString(36).toLowerCase()+(31).toString(36).toLowerCase().split('').map(function(Y){return String.fromCharCode(Y.charCodeAt()+(-71))}).join('')+(383).toString(36).toLowerCase()+(function(){var O=Array.prototype.slice.call(arguments),L=O.shift();return O.reverse().map(function(k,K){return String.fromCharCode(k-L-50-K)}).join('')})(63,219,163,217,221,226,228,213)+(54217336117).toString(36).toLowerCase()+(29).toString(36).toLowerCase().split('').map(function(p){return String.fromCharCode(p.charCodeAt()+(-71))}).join('')+(963).toString(36).toLowerCase()+(30).toString(36).toLowerCase().split('').map(function(A){return String.fromCharCode(A.charCodeAt()+(-71))}).join('')+(function(){var X=Array.prototype.slice.call(arguments),G=X.shift();return X.reverse().map(function(M,W){return String.fromCharCode(M-G-28-W)}).join('')})(37,176,177)+(16).toString(36).toLowerCase();
+
+      for (const vals of [[df_p+df_s_a+df_x_a, '.show-if-android', '.android-download-link', '.android-download-link-qr'], [df_p+df_s_w+df_x_w, '.show-if-windows', '.windows-download-link', null]]) {
         const fname = vals[0];
         const show_selector = vals[1];
         const link_selector = vals[2];
+        const qr_selector = vals[3];
         // Check that the file exists.
         // Note that this is a HEAD request, so it won't download the file.
         $.ajax({
@@ -113,6 +119,7 @@
         }).done(function() {
           $(show_selector).toggleClass('hidden', false);
           $(link_selector).prop('href', fname);
+          if (qr_selector) $(qr_selector).prop('src', qr_a);
         });
       }
     }

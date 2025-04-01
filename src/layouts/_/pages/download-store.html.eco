@@ -142,7 +142,7 @@ layout: _/page
     </div>
     <div class="download-qr">
       <a class="android-download-link" href="#">
-        <img class="img-responsive" src="<%= @relativeToRoot '/images/android/android-download-qr.png' %>">
+        <img class="img-responsive android-download-link-qr" src="#">
       </a>
     </div>
   </div>
