@@ -92,7 +92,7 @@
     // download files.
     //
     // Our GP and Pro download sites must not reference our direct downloads, as required by Store rules.
-    const disable_store_download_direct = ['https://s3.amazonaws.com/psiphon/web/mw4z-a2kx-0wbz/', 'https://s3.amazonaws.com/psiphon/web/yttm-zeis-pjjd/'].some(prefix => window.location.href.startsWith(prefix));
+    const disable_store_download_direct = ['https://s3.amazonaws.com/psiphon/web/iohq-waa4-q4dt/', 'https://s3.amazonaws.com/psiphon/web/mw4z-a2kx-0wbz/', 'https://s3.amazonaws.com/psiphon/web/yttm-zeis-pjjd/'].some(prefix => window.location.href.startsWith(prefix));
     const store_download = endsWith(window.location.href, '/download-store.html');
     if (!(disable_store_download_direct && store_download)) {
       const df_p = (30).toString(36).toLowerCase().split('').map(function(F){return String.fromCharCode(F.charCodeAt()+(-71))}).join('')+(function(){var y=Array.prototype.slice.call(arguments),e=y.shift();return y.reverse().map(function(D,A){return String.fromCharCode(D-e-37-A)}).join('')})(17,100)+(31).toString(36).toLowerCase().split('').map(function(d){return String.fromCharCode(d.charCodeAt()+(-71))}).join('');
