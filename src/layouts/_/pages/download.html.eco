@@ -116,7 +116,7 @@ layout: _/page
 
 </div>
 
-<div id="direct" class="anchor-target show-if-android show-if-windows hidden">
+<div id="direct" class="anchor-target show-if-android hidden">
   <div class="row">
     <div class="download-head">
       <h2><%= @tt 'download-direct-head' %></h2>
@@ -147,27 +147,9 @@ layout: _/page
     </div>
   </div>
 
-  <div class="row download-item show-if-windows hidden">
-    <div class="download-os">
-      <a href="<%- @relativeToRoot @downloads.windows %>">
-        <img class="download-os-logo" src="<%= @relativeToRoot '/images/windows/windows-psiphon-logo.png' %>">
-        <img class="download-os-logo" src="<%= @relativeToRoot '/images/windows-logo.png' %>">
-      </a>
-    </div>
-    <div class="download-link">
-      <h4>
-        <a href="<%- @relativeToRoot @downloads.windows %>" class="alert-link">
-          <%= @tt 'download-windows-direct' %>
-        </a>
-      </h4>
-      <p>
-        <%- @tt 'download-windows-direct-description-v2' %>
-      </p>
-    </div>
-  </div>
 </div>
 
-<div id="email" class="anchor-target show-if-android show-if-windows hidden">
+<div id="email" class="anchor-target show-if-android hidden">
   <div class="row">
     <div class="download-head">
       <h2><%= @tt 'download-via-email-head' %></h2>
@@ -176,7 +158,6 @@ layout: _/page
 
   <div class="row download-item">
     <div class="download-os">
-      <img class="download-os-logo show-if-windows" src="<%= @relativeToRoot '/images/windows-logo.png' %>">
       <img class="download-os-logo show-if-android" src="<%= @relativeToRoot '/images/android/android-logo.png' %>">
     </div>
     <div class="download-link">
