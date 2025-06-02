@@ -175,22 +175,6 @@
     "message": "Screenshot of the Android security setting that allows installation of non-Play Store apps",
     "description": "alt text for an image"
   },
-  "faq-windows-xp-eol-question": {
-    "message": "Does Psiphon for Windows work on Windows XP or Vista?",
-    "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
-  },
-  "faq-windows-xp-eol-answer-para-1": {
-    "message": "As of December 2019, Psiphon does not support Windows XP or Vista. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
-    "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows XP or Vista?' 'Psiphon' must not be translated or transliterated."
-  },
-  "faq-windows-7-eol-question": {
-    "message": "Does Psiphon for Windows work on Windows 7, 8, or 8.1?",
-    "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
-  },
-  "faq-windows-7-eol-answer-para-1": {
-    "message": "As of April 2024, Psiphon does not support Windows 7, 8, or 8.1. A legacy build <a href=\"https://psiphon.s3.amazonaws.com/legacy/psiphon3-win7-legacy.exe\">is available for download</a> that will work on those platforms for the foreseeable future, but users are strongly encouraged to upgrade to a recent version of Windows.",
-    "description": "FAQ answer to the question 'Does Psiphon for Windows work on Windows 7, 8, or 8.1?' 'Psiphon' must not be translated or transliterated."
-  },
   "faq-information-collected-answer-redirect": {
     "message": "Please see our <a href=\"privacy.html\">Privacy Policy</a> to learn about what information we collect.",
     "description": "This is the FAQ answer to the question 'What info does Psiphon collect?' The user needs to go to a separate page to see the full answer."
@@ -241,26 +225,6 @@
   "faq-periodic-disconnect-answer-para-1": {
     "message": "This is most commonly caused by an unreliable or inconsistent Internet connection to your device or computer. On a phone, this can mean losing reception. On a computer, this can mean inconsistent Wi-Fi or an unreliable Internet Service Provider.",
     "description": "FAQ answer to the question 'Why does my Psiphon connection sometimes disconnect?'"
-  },
-  "faq-ie6-docbody-question": {
-    "message": "Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.",
-    "description": "FAQ question. 'Psiphon' must not be translated or transliterated."
-  },
-  "faq-ie6-docbody-answer-para-1": {
-    "message": "This error will occur on Windows XP if Internet Explorer 6 is installed. Psiphon for Windows requires Internet Explorer 7 or higher to be installed. The best way to install higher versions of Internet Explorer is via <a href=\"http://windows.microsoft.com/en-us/windows/windows-update\" target=\"_blank\">Windows Update</a>.",
-    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' 'Psiphon' must not be translated or transliterated."
-  },
-  "faq-ie6-docbody-answer-para-2": {
-    "message": "If you can't use Windows Update and want to install Internet Explorer 7 or Internet Explorer 8 directly, you can get them via these links:",
-    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.'"
-  },
-  "faq-ie6-docbody-answer-xpie8": {
-    "message": "Internet Explorer 8 for Windows XP",
-    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
-  },
-  "faq-ie6-docbody-answer-xpie7": {
-    "message": "Internet Explorer 7 for Windows XP",
-    "description": "FAQ answer to the question 'Psiphon for Windows gives the error “doc.body is null or not an object” and does not work.' This text is used as a link to a download."
   },
   "faq-check-version-question": {
     "message": "How do I check my current version of Psiphon?",
@@ -368,22 +332,6 @@
   "faq-av-firewall-answer-para-2": {
     "message": "If your copy of Psiphon is authentic, then this is an instance of a false positive report. Although most antivirus/firewall programs have added Psiphon’s digital signature to their whitelist rules, some may still erroneously identify Psiphon’s executable file as a virus or threat. In this case, please <a href=\"mailto:info@psiphon.ca\">send us an email</a>, specifying the AV/firewall program you use, and we will contact the AV/firewall vendor to solve the problem.",
     "description": "FAQ answer to the question 'Why does my antivirus or firewall identify Psiphon as a threat?' 'Psiphon' must not be translated or transliterated."
-  },
-  "faq-windows-metro-question": {
-    "message": "Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?",
-    "description": "FAQ question. 'Metro' or 'Modern' is the fancy user interface that Microsoft introduced with Windows 8. 'Psiphon' must not be translated or transliterated."
-  },
-  "faq-windows-metro-answer-para-1": {
-    "message": "Windows 8 introduced an alternative to the desktop app interface called “Metro”, which was later renamed to “Modern UI”. Some, but very few, applications can only run in “Metro mode” and some (like Internet Explorer) can run in either “Metro mode” or “Desktop mode”. This new user interface mode continues to exist in Windows 8.1 and, to a lesser degree, in Windows 10.",
-    "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?'"
-  },
-  "faq-windows-metro-answer-para-2": {
-    "message": "Applications in Metro mode cannot use a local proxy without the user modifying system security settings. This means that Metro mode apps cannot use Psiphon, and will not be able to reach the internet when Psiphon is connected. You can use the <a href=\"https://blogs.msdn.microsoft.com/fiddler/2011/12/10/revisiting-fiddler-and-win8-immersive-applications/\" target=\"_blank\">EnableLoopback Utility</a> to allow Metro mode apps to work with Psiphon.",
-    "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' 'EnableLoopback' should not be translated. 'Psiphon' must not be translated or transliterated."
-  },
-  "faq-windows-metro-answer-para-3": {
-    "message": "The following are examples of the error message you might see when Metro mode apps are trying and failing to work through Psiphon.",
-    "description": "FAQ answer to the question 'Why can't I tunnel my Windows Metro (aka Modern UI) apps through Psiphon?' This sentence is followed by two screenshots of error messages. 'Psiphon' must not be translated or transliterated."
   },
   "faq-vpn-protocol-question": {
     "message": "What VPN protocol is used by Psiphon for Windows? Why can't I connect?",

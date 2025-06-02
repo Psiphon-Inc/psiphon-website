@@ -263,30 +263,6 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
-  <span class="anchor-target" id="windows-xp-eol" data-anchor-text="<%= @tt 'faq-windows-xp-eol-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-windows-xp-eol-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%- @tt 'faq-windows-xp-eol-answer-para-1' %>
-    </p>
-  </div>
-</div>
-
-<div class="row faq-qa">
-  <span class="anchor-target" id="windows-7-eol" data-anchor-text="<%= @tt 'faq-windows-7-eol-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-windows-7-eol-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%- @tt 'faq-windows-7-eol-answer-para-1' %>
-    </p>
-  </div>
-</div>
-
-<div class="row faq-qa">
   <span class="anchor-target" id="check-version" data-anchor-text="<%= @tt 'faq-check-version-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-check-version-question' %></h3>
@@ -667,37 +643,6 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
 </div>
 
 <div class="row faq-qa">
-  <span class="anchor-target" id="ie6-docbody" data-anchor-text="<%= @tt 'faq-ie6-docbody-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-ie6-docbody-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%- @tt 'faq-ie6-docbody-answer-para-1' %>
-    </p>
-    <p>
-      <%- @tt 'faq-ie6-docbody-answer-para-2' %>
-    </p>
-    <p>
-      <ul>
-        <li>
-          <a href="https://download.microsoft.com/download/C/C/0/CC0BD555-33DD-411E-936B-73AC6F95AE11/IE8-WindowsXP-x86-ENU.exe" target="_blank">
-            <%- @tt 'faq-ie6-docbody-answer-xpie8' %>
-          </a>
-          (<a href="https://download.microsoft.com/download/7/5/4/754D6601-662D-4E39-9788-6F90D8E5C097/IE8-WindowsServer2003-x64-ENU.exe" target="_blank">64-bit</a>)
-        </li>
-        <li>
-          <a href="https://download.microsoft.com/download/3/8/8/38889DC1-848C-4BF2-8335-86C573AD86D9/IE7-WindowsXP-x86-enu.exe" target="_blank">
-            <%- @tt 'faq-ie6-docbody-answer-xpie7' %>
-          </a>
-          (<a href="https://download.microsoft.com/download/1/1/4/114D5B07-4DBC-42F3-96FA-2097E207D0AF/IE7-WindowsServer2003-x64-enu.exe" target="_blank">64-bit</a>)
-        </li>
-      </ul>
-    </p>
-  </div>
-</div>
-
-<div class="row faq-qa">
   <span class="anchor-target" id="windows-vpn-connect" data-anchor-text="<%= @tt 'faq-windows-vpn-connect-question' %>"></span>
   <div class="faq-question">
     <h3><%= @tt 'faq-windows-vpn-connect-question' %></h3>
@@ -801,34 +746,6 @@ $ jarsigner -verbose -verify PsiphonAndroid.apk</code></pre>
     </p>
     <p>
       <%- @tt 'faq-av-firewall-answer-para-2' %>
-    </p>
-  </div>
-</div>
-
-<div class="row faq-qa">
-  <span class="anchor-target" id="windows-metro" data-anchor-text="<%= @tt 'faq-windows-metro-question' %>"></span>
-  <div class="faq-question">
-    <h3><%= @tt 'faq-windows-metro-question' %></h3>
-  </div>
-  <div class="faq-answer">
-    <p>
-      <%- @tt 'faq-windows-metro-answer-para-1' %>
-    </p>
-    <p>
-      <%- @tt 'faq-windows-metro-answer-para-2' %>
-    </p>
-    <p>
-      <%- @tt 'faq-windows-metro-answer-para-3' %>
-    </p>
-    <p>
-      <a href="<%= @relativeToRoot '/images/faq/windows-metro-1.png' %>">
-        <img class="img-responsive img-thumbnail" src="<%= @relativeToRoot '/images/faq/windows-metro-1.png' %>">
-      </a>
-    </p>
-    <p>
-      <a href="<%= @relativeToRoot '/images/faq/windows-metro-2.png' %>">
-        <img class="img-responsive img-thumbnail" src="<%= @relativeToRoot '/images/faq/windows-metro-2.png' %>">
-      </a>
     </p>
   </div>
 </div>
